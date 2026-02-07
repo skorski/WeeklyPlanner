@@ -1,0 +1,153 @@
+# Nutrition Coach Report
+
+*Generated: {{ generated_at }}*
+
+---
+
+## Family Profile
+
+| Member | Age Range | Activity | Daily Calories | Focus Nutrients |
+|--------|-----------|----------|----------------|-----------------|
+{% for m in family.members -%}
+| **{{ m.name }}** | {{ m.age_range }} | {{ m.activity_level }} | {{ m.calorie_target }} | {{ m.focus_nutrients | join(", ") }} |
+{% endfor %}
+
+---
+
+## Dinner-by-Dinner Analysis
+
+{% for d in dinners -%}
+### {{ d.day }}: {{ d.name }}
+
+| | |
+|---|---|
+| **Calories/Serving** | {{ d.calories_per_serving }} |
+| **Protein** | {{ d.protein_source }} ({{ d.protein_level }}) |
+| **Vegetables** | {{ d.vegetable_content }} |
+| **Whole Grains** | {{ "Yes" if d.whole_grains else "No" }} |
+| **Key Nutrients** | {{ d.key_nutrients | join(", ") }} |
+| **Rating** | {{ d.overall_rating | upper }} |
+
+{% if d.concerns -%}
+**Concerns:**
+{% for c in d.concerns -%}
+- {{ c }}
+{% endfor %}
+{% endif -%}
+
+---
+
+{% endfor -%}
+
+## Weekly Assessment
+
+**Overall Dinner Grade: {{ weekly_assessment.overall_dinner_grade }}**
+
+{{ weekly_assessment.overall_summary }}
+
+### Protein Diversity
+
+**Rating:** {{ weekly_assessment.protein_diversity.rating | capitalize }}
+
+**Sources found:** {{ weekly_assessment.protein_diversity.sources_found | join(", ") }}
+
+{{ weekly_assessment.protein_diversity.notes }}
+
+### Vegetable Coverage
+
+**Rating:** {{ weekly_assessment.vegetable_coverage.rating | capitalize }}
+
+**Avg servings/dinner:** {{ weekly_assessment.vegetable_coverage.servings_per_dinner_avg }}
+**Colors represented:** {{ weekly_assessment.vegetable_coverage.color_diversity | join(", ") }}
+
+{{ weekly_assessment.vegetable_coverage.notes }}
+
+### Fiber Assessment
+
+**Rating:** {{ weekly_assessment.fiber_assessment.rating | capitalize }}
+
+{{ weekly_assessment.fiber_assessment.notes }}
+
+### Omega-3 Assessment
+
+**Rating:** {{ weekly_assessment.omega3_assessment.rating | capitalize }}
+
+{{ weekly_assessment.omega3_assessment.notes }}
+
+{% if weekly_assessment.nutrient_gaps -%}
+### Nutrient Gaps
+
+| Nutrient | Severity | Detail |
+|----------|----------|--------|
+{% for g in weekly_assessment.nutrient_gaps -%}
+| {{ g.nutrient | capitalize }} | {{ g.severity | capitalize }} | {{ g.detail }} |
+{% endfor %}
+{% endif -%}
+
+{% if weekly_assessment.excesses -%}
+### Areas of Excess
+
+| Item | Severity | Detail |
+|------|----------|--------|
+{% for e in weekly_assessment.excesses -%}
+| {{ e.item | capitalize }} | {{ e.severity | capitalize }} | {{ e.detail }} |
+{% endfor %}
+{% endif -%}
+
+---
+
+## Recommended Lunches
+
+These lunches are designed to fill the nutritional gaps identified in the dinner analysis.
+
+{% for l in recommended_lunches -%}
+### {{ loop.index }}. {{ l.name }}
+
+{{ l.description }}
+
+| | |
+|---|---|
+| **Prep Time** | {{ l.prep_time }} |
+| **Packable** | {{ "Yes" if l.packable else "No" }} |
+| **Kid-Friendly** | {{ "Yes ✓" if l.kid_friendly else "Adults only" }} |
+| **Gaps Addressed** | {{ l.gaps_addressed | join(", ") }} |
+| **Key Nutrients** | {{ l.key_nutrients | join(", ") }} |
+
+{% if l.kid_notes -%}
+> **Kid Note:** {{ l.kid_notes }}
+{% endif %}
+
+{% endfor -%}
+
+---
+
+## Recommended Snacks
+
+{% for s in recommended_snacks -%}
+### {{ loop.index }}. {{ s.name }}
+
+{{ s.description }}
+
+| | |
+|---|---|
+| **Prep Time** | {{ s.prep_time }} |
+| **Best Time** | {{ s.time_of_day | capitalize }} |
+| **Kid-Friendly** | {{ "Yes ✓" if s.kid_friendly else "Adults only" }} |
+| **Gaps Addressed** | {{ s.gaps_addressed | join(", ") }} |
+| **Key Nutrients** | {{ s.key_nutrients | join(", ") }} |
+
+{% endfor -%}
+
+---
+
+## Weekly Nutrition Summary
+
+{{ weekly_nutrition_summary }}
+
+{% if special_notes -%}
+## Special Notes
+
+{% for note in special_notes -%}
+- {{ note }}
+{% endfor %}
+{% endif -%}
