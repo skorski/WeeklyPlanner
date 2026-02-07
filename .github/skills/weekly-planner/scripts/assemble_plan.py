@@ -107,6 +107,10 @@ def main():
         "--nutrition",
         help="Path to nutrition JSON from the nutrition-coach skill.",
     )
+    parser.add_argument(
+        "--newsletter",
+        help="Path to newsletter JSON from the linkwarden skill.",
+    )
     args = parser.parse_args()
 
     # Load core plan data
@@ -143,6 +147,14 @@ def main():
         merge_nutrition(data, nutrition)
         print("Merged nutrition data", file=sys.stderr)
 
+    # Merge newsletter
+    if args.newsletter:
+        with open(args.newsletter, "r", encoding="utf-8-sig") as f:
+            newsletter = json.load(f)
+        data["newsletter_data"] = newsletter
+        article_count = len(newsletter.get("clusters", []))
+        print(f"Merged newsletter data: {article_count} clusters", file=sys.stderr)
+
     # Determine output path
     if args.output:
         out_path = Path(args.output)
@@ -167,12 +179,14 @@ def main():
     has_elevations = any(
         d.get("dinner_elevation_tips") for d in data.get("days", [])
     )
+    has_newsletter = "newsletter_data" in data
 
     print(f"Plan assembled: {days_count} days, {appetizers} appetizers, "
           f"{salads} salads, {beverages} beverages", file=sys.stderr)
     print(f"  Parenting: {'✓' if has_parenting else '✗'}  "
           f"Nutrition: {'✓' if has_nutrition else '✗'}  "
-          f"Elevations: {'✓' if has_elevations else '✗'}", file=sys.stderr)
+          f"Elevations: {'✓' if has_elevations else '✗'}  "
+          f"Newsletter: {'✓' if has_newsletter else '✗'}", file=sys.stderr)
     print(f"Written to {out_path}", file=sys.stderr)
     print(f"PLAN_DATA={out_path}", file=sys.stderr)
 

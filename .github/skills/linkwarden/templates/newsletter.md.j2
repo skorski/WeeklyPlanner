@@ -1,0 +1,44 @@
+# Weekly Reader — Newsletter
+_Generated {{ generated_at }}_
+
+{% if not articles %}
+_No articles were clipped this week._
+{% else %}
+---
+
+{% for cluster in clusters %}
+## {{ cluster.theme }}
+
+{{ cluster.synthesis }}
+
+{% for article in cluster.articles %}
+- **[{{ article.title }}]({{ article.url }})** {% if article.tags %}_({{ article.tags | join(', ') }})_{% endif %}
+  {{ article.one_liner }}
+{% endfor %}
+
+{% if not loop.last %}---{% endif %}
+
+{% endfor %}
+
+{% if reflections %}
+## The Through-Line
+
+{{ reflections }}
+{% endif %}
+
+{% if fun_section %}
+---
+
+## {{ fun_section.title | default("And Finally…") }}
+
+{{ fun_section.content }}
+
+{% if fun_section.source_url %}
+_Source: [{{ fun_section.source_name | default("Link") }}]({{ fun_section.source_url }})_
+{% endif %}
+{% endif %}
+
+---
+
+_{{ total_articles }} articles clipped · {{ total_words | default("~") }} words read · Week of {{ week_range }}_
+{% endif %}

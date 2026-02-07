@@ -81,6 +81,25 @@ theme if not specified) to the `albums` skill. This produces ~30 album
 recommendations with metadata. Save the output markdown to
 `weekly_plans/<YYYY-MM-DD>/albums.md`.
 
+### Step 6b: Invoke the Linkwarden Skill
+
+Fetch the user's recent reading from Linkwarden. This can run in parallel with
+albums and recipes since it has no dependencies on dinner selections.
+
+```bash
+python .github/skills/linkwarden/scripts/fetch_links.py --days 7 -o weekly_plans/<YYYY-MM-DD>/links.json
+```
+
+Then follow the linkwarden SKILL.md workflow to:
+1. Read and absorb all article content
+2. Group into 2–4 thematic clusters
+3. Write reflective synthesis for each cluster
+4. Find or search for a fun section
+5. Research additional perspectives via web search
+6. Output `newsletter.json` to `weekly_plans/<YYYY-MM-DD>/`
+
+The newsletter data is merged via `--newsletter` in the assembly step (Step 10).
+
 ### Step 7: Present Options and Get User Selections
 
 Present the user with a summary of:
@@ -143,13 +162,15 @@ python .github/skills/weekly-planner/scripts/assemble_plan.py days.json \
     -o weekly_plans/<YYYY-MM-DD>/plan_data.json \
     --elevations elevations.json \
     --parenting parenting.json \
-    --nutrition nutrition.json
+    --nutrition nutrition.json \
+    --newsletter newsletter.json
 ```
 
 The assembler:
 - Matches elevations to days by dinner name (case-insensitive)
 - Stores parenting data at the top level as `parenting_data`
 - Extracts `weekly_nutrition_summary` into `nutrition_summary`
+- Stores newsletter data at the top level as `newsletter_data`
 - Uses `utf-8-sig` encoding to handle BOM from Windows/PowerShell
 
 Structure:
