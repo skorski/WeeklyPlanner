@@ -19,6 +19,10 @@
 {% for day in days -%}
 ### {{ day.long_name }}
 
+{% if day.day_intro -%}
+*{{ day.day_intro }}*
+
+{% endif -%}
 {% if day.weather and day.weather != "—" -%}
 **Weather:** {{ day.weather }}
 {% if day.weather_detail %}*{{ day.weather_detail }}*{% endif %}

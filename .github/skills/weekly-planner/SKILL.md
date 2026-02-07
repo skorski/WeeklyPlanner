@@ -282,7 +282,32 @@ Structure:
 }
 ```
 
-### Step 11: Render the Report
+### Step 11: Final Editorial Pass
+
+Invoke the **final-editor** skill to polish the plan copy before rendering.
+The editor enriches thin content, adds day introductions, rewrites terse
+descriptions into engaging prose, and creates thematic connective tissue.
+
+The editor works on `plan_data.json` in place:
+
+1. Read `plan_data.json` and identify thin content (terse descriptions,
+   missing day intros, generic album notes)
+2. Run web searches (1 per dinner + 1 per album) for real editorial detail
+3. Write day introductions connecting weather → calendar → dinner
+4. Rewrite dinner and album descriptions with specificity and warmth
+5. Polish the cover highlight, notes, and nutrition summary
+6. Build an edits JSON and apply it:
+
+```bash
+python .github/skills/final-editor/scripts/edit_plan.py \
+    weekly_plans/<YYYY-MM-DD>/plan_data.json \
+    --edits edits.json \
+    --report weekly_plans/<YYYY-MM-DD>/editorial-report.md
+```
+
+The editorial report lets the user review all changes before rendering.
+
+### Step 12: Render the Report
 
 If you used the modular approach (Option B), `assemble_plan.py` already wrote
 `plan_data.json` to the correct folder. Now render the markdown:
@@ -298,7 +323,7 @@ filename (but not the folder) with `-o`:
 python .github/skills/weekly-planner/scripts/build_plan.py plan_data.json -o weekly-plan.md
 ```
 
-### Step 12: Generate Booklet (optional)
+### Step 13: Generate Booklet (optional)
 
 If the user wants a printable PDF or mobile HTML, invoke the **booklet** skill.
 Keep the plan JSON file around until after the booklet is generated:
@@ -310,7 +335,7 @@ python .github/skills/booklet/scripts/render_booklet.py plan_data.json
 This produces `weekly-plan.html` and `weekly-plan.pdf` in the same
 `weekly_plans/<YYYY-MM-DD>/` folder.
 
-### Step 13: Clean Up
+### Step 14: Clean Up
 
 Remove the temporary JSON file after all rendering is complete.
 

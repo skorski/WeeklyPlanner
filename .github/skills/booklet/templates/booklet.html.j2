@@ -676,6 +676,14 @@ body {
   .page-glance .day-name { font-weight: 600; }
 
   /* ---- DAY PAGES ---- */
+  .page-day .day-intro {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 8pt;
+    color: #555;
+    margin-bottom: 6pt;
+    line-height: 1.4;
+  }
   .page-day .weather-line {
     font-size: 7.5pt;
     color: #666;
@@ -1081,6 +1089,9 @@ body {
 <div class="page page-day">
   <div class="page-header">Daily Plan</div>
   <h2 class="section-header">{{ day.long_name }}</h2>
+  {% if day.day_intro %}
+  <div class="day-intro">{{ day.day_intro }}</div>
+  {% endif %}
   {% if day.weather %}
   <div class="weather-line"><span class="weather-emoji-print">{{ weather_icon(day.weather) }}</span> {{ day.weather }}{% if day.weather_detail %} · {{ day.weather_detail }}{% endif %}</div>
   {% endif %}
@@ -1354,6 +1365,7 @@ body {
   {% for day in days %}
   <div class="day-card">
     <h3>{{ day.long_name }}</h3>
+    {% if day.day_intro %}<p style="font-style:italic;color:var(--muted);font-size:14px;margin-bottom:10px;">{{ day.day_intro }}</p>{% endif %}
     {% if day.weather %}<div class="weather"><span class="weather-emoji">{{ weather_icon(day.weather) }}</span> {{ day.weather }}{% if day.weather_detail %} · {{ day.weather_detail }}{% endif %}</div>{% endif %}
 
     {% if day.calendar_items %}
