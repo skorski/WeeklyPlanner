@@ -885,6 +885,89 @@ body {
     font-size: 8.5pt;
   }
 
+  /* ---- NEWSLETTER (The Weekly Read) ---- */
+  .page-newsletter {
+    font-size: 8.5pt;
+    line-height: 1.45;
+  }
+  .page-newsletter .cluster-theme {
+    font-family: var(--font-serif);
+    font-size: 11pt;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 8pt 0 4pt 0;
+    border-bottom: 0.5pt solid #ddd;
+    padding-bottom: 2pt;
+  }
+  .page-newsletter .cluster-synthesis {
+    font-size: 8.5pt;
+    line-height: 1.5;
+    margin-bottom: 6pt;
+    text-align: justify;
+  }
+  .page-newsletter .article-list {
+    margin: 0 0 6pt 0;
+    padding: 0;
+    list-style: none;
+  }
+  .page-newsletter .article-list li {
+    font-size: 7.5pt;
+    margin-bottom: 3pt;
+    padding-left: 8pt;
+    text-indent: -8pt;
+  }
+  .page-newsletter .article-list li .article-title {
+    font-weight: 600;
+    color: #34495e;
+  }
+  .page-newsletter .article-list li .article-tags {
+    font-style: italic;
+    color: #999;
+    font-size: 6.5pt;
+  }
+  .page-newsletter .article-list li .article-oneliner {
+    color: #666;
+    font-size: 7pt;
+    display: block;
+    padding-left: 8pt;
+  }
+  .page-newsletter .through-line {
+    font-style: italic;
+    font-size: 8pt;
+    color: #555;
+    border-left: 2pt solid #c0392b;
+    padding-left: 8pt;
+    margin: 6pt 0;
+  }
+  .page-newsletter .fun-section {
+    background: #fdf8f0;
+    padding: 6pt 8pt;
+    margin-top: 6pt;
+    border-radius: 3pt;
+  }
+  .page-newsletter .fun-section h3 {
+    font-size: 9pt;
+    font-weight: 700;
+    color: #e67e22;
+    margin-bottom: 3pt;
+  }
+  .page-newsletter .fun-section p {
+    font-size: 8pt;
+    margin-bottom: 2pt;
+  }
+  .page-newsletter .fun-section .fun-source {
+    font-size: 6.5pt;
+    color: #aaa;
+    font-style: italic;
+  }
+  .page-newsletter .newsletter-footer {
+    font-size: 6pt;
+    color: #bbb;
+    text-align: center;
+    margin-top: 8pt;
+    font-style: italic;
+  }
+
   /* ---- PARENTING ---- */
   .page-parenting .theme-banner {
     padding: 5pt 7pt;
@@ -1297,6 +1380,59 @@ body {
 </div>
 {% endif %}
 
+{# --- SECTION DIVIDER: The Weekly Read --- #}
+{% if newsletter_data and newsletter_data.clusters %}
+<div class="page page-divider">
+  <div class="divider-title">The Weekly Read</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">{{ newsletter_data.total_articles | default(0) }} articles clipped · Themes, reflections, and something fun</div>
+</div>
+
+{# --- NEWSLETTER PAGES --- #}
+{% set ns = namespace(page_num=0) %}
+{% for cluster in newsletter_data.clusters %}
+{% if loop.index == 1 or loop.index == 3 %}
+{% set ns.page_num = ns.page_num + 1 %}
+<div class="page page-newsletter">
+  <div class="page-header">The Weekly Read</div>
+{% endif %}
+
+  <h3 class="cluster-theme">{{ cluster.theme }}</h3>
+  <div class="cluster-synthesis">{{ cluster.synthesis }}</div>
+  <ul class="article-list">
+  {% for article in cluster.articles %}
+    <li>
+      <span class="article-title">{{ article.title }}</span>
+      {% if article.tags %}<span class="article-tags">({{ article.tags | join(', ') }})</span>{% endif %}
+      {% if article.one_liner %}<span class="article-oneliner">{{ article.one_liner }}</span>{% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+
+{% if loop.index is even or loop.last %}
+{% if loop.last and newsletter_data.reflections %}
+  <div class="through-line">
+    <strong>The Through-Line:</strong> {{ newsletter_data.reflections }}
+  </div>
+{% endif %}
+
+{% if loop.last and newsletter_data.fun_section %}
+  <div class="fun-section">
+    <h3>{{ newsletter_data.fun_section.title | default("And Finally…") }}</h3>
+    <p>{{ newsletter_data.fun_section.content }}</p>
+    {% if newsletter_data.fun_section.source_url %}
+    <p class="fun-source">Source: <a href="{{ newsletter_data.fun_section.source_url }}">{{ newsletter_data.fun_section.source_name | default("Link") }}</a></p>
+    {% endif %}
+  </div>
+  <p class="newsletter-footer">{{ newsletter_data.total_articles | default(0) }} articles · {{ newsletter_data.week_range | default(week_range) }}</p>
+{% endif %}
+
+  <div class="page-folio"></div>
+</div>
+{% endif %}
+{% endfor %}
+{% endif %}
+
 {# --- EXTRA SECTIONS (extensible, non-parenting) --- #}
 {% if extra_sections %}
 {% for section in extra_sections %}
@@ -1545,6 +1681,35 @@ body {
     </div>
     {% endif %}
   </div>
+  {% endif %}
+
+  {% if newsletter_data and newsletter_data.clusters %}
+  <h2 class="section-title">📰 The Weekly Read</h2>
+  {% for cluster in newsletter_data.clusters %}
+  <div class="support-section">
+    <h3>{{ cluster.theme }}</h3>
+    <p>{{ cluster.synthesis }}</p>
+    <ul>
+    {% for article in cluster.articles %}
+      <li><strong>{{ article.title }}</strong>{% if article.tags %} <em>({{ article.tags | join(', ') }})</em>{% endif %}{% if article.one_liner %}<br>{{ article.one_liner }}{% endif %}</li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+  {% if newsletter_data.reflections %}
+  <div class="support-section" style="border-left: 3px solid #c0392b; padding-left: 12px; font-style: italic;">
+    <strong>The Through-Line:</strong> {{ newsletter_data.reflections }}
+  </div>
+  {% endif %}
+  {% if newsletter_data.fun_section %}
+  <div class="support-section" style="background: #fdf8f0; padding: 12px; border-radius: 6px;">
+    <h3>{{ newsletter_data.fun_section.title | default("And Finally…") }}</h3>
+    <p>{{ newsletter_data.fun_section.content }}</p>
+    {% if newsletter_data.fun_section.source_url %}
+    <p style="font-size: 0.8em; color: #aaa;"><em>Source: <a href="{{ newsletter_data.fun_section.source_url }}">{{ newsletter_data.fun_section.source_name | default("Link") }}</a></em></p>
+    {% endif %}
+  </div>
+  {% endif %}
   {% endif %}
 
   {% if extra_sections %}
