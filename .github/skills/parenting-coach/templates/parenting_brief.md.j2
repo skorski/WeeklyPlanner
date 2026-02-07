@@ -1,0 +1,76 @@
+# Parenting Coach — Weekly Brief
+
+**{{ week_range }}**
+
+*Generated: {{ generated_at }}*
+
+---
+
+## Weekly Theme: {{ weekly_theme.title }}
+
+{{ weekly_theme.description }}
+
+---
+
+## Dinner Conversation Starters
+
+One question per night, tailored to the dinner and the day.
+
+| Day | Dinner | Question | Category |
+|-----|--------|----------|----------|
+{% for q in dinner_questions -%}
+| **{{ q.day }}** | {{ q.dinner | default("—") }} | {{ q.question }} | *{{ q.category }}* |
+{% endfor %}
+
+{% for q in dinner_questions %}
+### {{ q.day }}: "{{ q.question }}"
+
+**Why this question:** {{ q.why }}
+
+{% endfor %}
+
+---
+
+## Parenting Nudges
+
+{% for n in nudges %}
+### {{ loop.index }}. {{ n.title }}
+
+**Context:** {{ n.context }}
+
+{{ n.suggestion }}
+
+**How to do it:**
+{% for step in n.how_to -%}
+{{ loop.index }}. {{ step }}
+{% endfor %}
+
+{% endfor %}
+
+---
+
+## Recommendation: {{ recommendation.title }}
+
+{% if recommendation.type == "book" -%}
+📖 **Book** by {{ recommendation.author | default("—") }}
+{% elif recommendation.type == "game" -%}
+🎲 **Game**
+{% elif recommendation.type == "activity" -%}
+🎨 **Activity**
+{% else -%}
+💡 **{{ recommendation.type | capitalize }}**
+{% endif %}
+
+{{ recommendation.why }}
+
+**Connection to this week:** {{ recommendation.connection }}
+
+---
+
+## Reflection for Parents
+
+> {{ parent_reflection }}
+
+---
+
+*Remember: you don't need to be a perfect parent — just a present one.*
