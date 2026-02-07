@@ -1,0 +1,105 @@
+# Weekly Menu Suggestions — {{ prompt }}
+
+*Generated: {{ generated_at }} | {{ total }} items*
+
+---
+
+## Dinner Recipes ({{ dinners | length }})
+
+| # | Recipe | Cuisine | Key Ingredients | Source |
+|---|--------|---------|-----------------|--------|
+{% for r in dinners -%}
+| {{ loop.index }} | {{ r.name }} | {{ r.cuisine }} | {{ r.key_ingredients | join(", ") }} | {% if r.source_url %}[{{ r.source_name | default("Link") }}]({{ r.source_url }}){% else %}{{ r.source_name | default("—") }}{% endif %} |
+{% endfor %}
+{% for r in dinners %}
+### {{ loop.index }}. {{ r.name }}
+**Cuisine:** {{ r.cuisine }}
+{{ r.description }}
+
+**Key Ingredients:** {{ r.key_ingredients | join(", ") }}
+{% if r.source_url %}**Source:** [{{ r.source_name | default("Recipe") }}]({{ r.source_url }}){% endif %}
+{% if r.why %}*{{ r.why }}*{% endif %}
+
+{% endfor -%}
+
+---
+
+## Appetizers ({{ appetizers | length }})
+
+{% for r in appetizers %}
+### {{ r.name }}
+**Cuisine:** {{ r.cuisine }}
+{{ r.description }}
+
+**Key Ingredients:** {{ r.key_ingredients | join(", ") }}
+{% if r.source_url %}**Source:** [{{ r.source_name | default("Recipe") }}]({{ r.source_url }}){% endif %}
+{% if r.why %}*{{ r.why }}*{% endif %}
+
+{% endfor -%}
+
+---
+
+## Salads ({{ salads | length }})
+
+{% if dinner_salads %}
+### Dinner Salads
+*Each of these is substantial enough to serve as a standalone meal.*
+
+{% for r in dinner_salads %}
+#### {{ r.name }} {% if r.salad_type == "composed_dinner" %}*(Composed)*{% elif r.salad_type == "tossed_dinner" %}*(Tossed)*{% endif %}
+
+**Cuisine:** {{ r.cuisine }}
+{{ r.description }}
+
+**Key Ingredients:** {{ r.key_ingredients | join(", ") }}
+{% if r.dressing %}
+**Dressing:** {{ r.dressing }}
+{% endif %}
+{% if r.flavor_rationale %}
+**Why these flavors work:** {{ r.flavor_rationale }}
+{% endif %}
+{% if r.seasonal_note %}
+🌿 *{{ r.seasonal_note }}*
+{% endif %}
+{% if r.source_url %}**Source:** [{{ r.source_name | default("Recipe") }}]({{ r.source_url }}){% endif %}
+{% if r.why %}*{{ r.why }}*{% endif %}
+
+{% endfor -%}
+{% endif %}
+{% if side_salads %}
+### Side Salads
+
+{% for r in side_salads %}
+#### {{ r.name }}
+**Cuisine:** {{ r.cuisine }}
+{{ r.description }}
+
+**Key Ingredients:** {{ r.key_ingredients | join(", ") }}
+{% if r.dressing %}
+**Dressing:** {{ r.dressing }}
+{% endif %}
+{% if r.flavor_rationale %}
+**Why these flavors work:** {{ r.flavor_rationale }}
+{% endif %}
+{% if r.seasonal_note %}
+🌿 *{{ r.seasonal_note }}*
+{% endif %}
+{% if r.source_url %}**Source:** [{{ r.source_name | default("Recipe") }}]({{ r.source_url }}){% endif %}
+{% if r.why %}*{{ r.why }}*{% endif %}
+
+{% endfor -%}
+{% endif %}
+
+---
+
+## Beverage Pairings ({{ beverages | length }})
+
+{% for r in beverages %}
+### {{ r.name }}
+**Style:** {{ r.cuisine }}
+{{ r.description }}
+
+{% if r.source_url %}**Source:** [{{ r.source_name | default("Link") }}]({{ r.source_url }}){% endif %}
+{% if r.why %}*{{ r.why }}*{% endif %}
+
+{% endfor -%}
