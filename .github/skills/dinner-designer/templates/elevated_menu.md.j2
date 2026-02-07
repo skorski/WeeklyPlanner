@@ -1,0 +1,49 @@
+# Elevated Dinner Menu
+
+*Designed: {{ generated_at }} | {{ total }} recipes elevated*
+
+---
+
+## Chef's Introduction
+
+These recipes have been analyzed and elevated with professional techniques
+to make each dish more memorable. Every suggestion uses accessible, grocery-store
+ingredients — the magic is in the preparation, not the procurement.
+
+---
+
+## Elevated Recipes
+
+{% for r in recipes %}
+### {{ loop.index }}. {{ r.name }}
+
+**Base Dish:** {{ r.base_description }}
+
+**Flavor Profile:** {{ r.flavor_profile }}
+
+**Elevations:**
+
+{% for e in r.elevations -%}
+{{ loop.index }}. **{{ e.title }}** *({{ e.type }})*
+   {{ e.instruction }}
+   > *Why this works:* {{ e.why }}
+
+{% endfor -%}
+
+{% if r.designers_note %}
+> **Designer's Note:** {{ r.designers_note }}
+{% endif %}
+
+---
+
+{% endfor %}
+
+{% if pantry_items %}
+## Pantry Checklist
+
+Extra ingredients to pick up for all elevations:
+
+{% for item in pantry_items -%}
+- [ ] {{ item }}
+{% endfor %}
+{% endif %}

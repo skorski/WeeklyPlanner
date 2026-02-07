@@ -1,0 +1,184 @@
+# Weekly Family Planner — {{ week_range }}
+
+*Generated: {{ generated_at }}*
+
+---
+
+## Week at a Glance
+
+| Day | Weather | Dinner | Album |
+|-----|---------|--------|-------|
+{% for day in days -%}
+| **{{ day.name }}** | {{ day.weather | default("—") }} | {{ day.dinner | default("—") }} | {{ day.album | default("—") }} |
+{% endfor %}
+
+---
+
+## Daily Breakdown
+
+{% for day in days -%}
+### {{ day.long_name }}
+
+{% if day.weather and day.weather != "—" -%}
+**Weather:** {{ day.weather }}
+{% if day.weather_detail %}*{{ day.weather_detail }}*{% endif %}
+
+{% endif -%}
+
+{% if day.calendar_items -%}
+**Calendar:**
+{% for item in day.calendar_items -%}
+- {{ item }}
+{% endfor %}
+{% endif -%}
+
+{% if day.time_constraints -%}
+**Time Constraints:**
+{% for c in day.time_constraints -%}
+- {{ c }}
+{% endfor %}
+{% endif -%}
+
+{% if day.dinner -%}
+#### Dinner: {{ day.dinner }}
+
+| | |
+|---|---|
+| **Cuisine** | {{ day.dinner_cuisine | default("—") }} |
+| **Key Ingredients** | {{ day.dinner_key_ingredients | join(", ") if day.dinner_key_ingredients else "—" }} |
+{% if day.dinner_source_url -%}
+| **Source** | [{{ day.dinner_source_name | default("Recipe") }}]({{ day.dinner_source_url }}) |
+{% endif -%}
+
+{{ day.dinner_description | default("") }}
+
+{% if day.dinner_notes %}*{{ day.dinner_notes }}*{% endif %}
+
+{% if day.dinner_nutrition_notes %}**Nutrition:** {{ day.dinner_nutrition_notes }}{% endif %}
+
+{% endif -%}
+
+{% if day.album -%}
+#### Album: {{ day.album }}
+
+| | |
+|---|---|
+| **Year** | {{ day.album_year | default("—") }} |
+| **Genre** | {{ day.album_genre | default("—") }} |
+| **Mood** | {{ day.album_mood | default("—") }} |
+
+{% if day.album_description %}{{ day.album_description }}{% endif %}
+
+{% if day.album_sonic_description %}**Sound:** {{ day.album_sonic_description }}{% endif %}
+
+{% if day.album_pairing_rationale %}**Why this pairing:** *{{ day.album_pairing_rationale }}*{% endif %}
+
+{% endif -%}
+
+{% if day.activity -%}
+**Activity:** {{ day.activity }}
+{% if day.activity_notes %}_{{ day.activity_notes }}_{% endif %}
+
+{% endif -%}
+
+{% if day.prep_notes -%}
+**Prep Notes:**
+{% for note in day.prep_notes -%}
+- {{ note }}
+{% endfor %}
+{% endif -%}
+
+---
+
+{% endfor -%}
+
+{% if appetizers -%}
+## Appetizers
+
+{% for a in appetizers -%}
+### {{ a.name }}
+**Cuisine:** {{ a.cuisine | default("—") }}
+{{ a.description | default("") }}
+
+{% if a.key_ingredients %}**Key Ingredients:** {{ a.key_ingredients | join(", ") }}{% endif %}
+
+{% if a.source_url %}**Source:** [{{ a.source_name | default("Recipe") }}]({{ a.source_url }}){% endif %}
+
+{% endfor -%}
+
+---
+
+{% endif -%}
+
+{% if salads -%}
+## Salads
+
+{% for s in salads -%}
+### {{ s.name }}{% if s.salad_type == "composed_dinner" %} *(Composed Dinner)*{% elif s.salad_type == "tossed_dinner" %} *(Tossed Dinner)*{% elif s.salad_type == "side" %} *(Side)*{% endif %}
+
+{{ s.description | default("") }}
+
+{% if s.key_ingredients %}**Key Ingredients:** {{ s.key_ingredients | join(", ") }}{% endif %}
+
+{% if s.dressing %}**Dressing:** {{ s.dressing }}{% endif %}
+
+{% if s.flavor_rationale %}**Why these flavors work:** {{ s.flavor_rationale }}{% endif %}
+
+{% if s.seasonal_note %}*{{ s.seasonal_note }}*{% endif %}
+
+{% endfor -%}
+
+---
+
+{% endif -%}
+
+{% if beverages -%}
+## Beverage Pairings
+
+{% for b in beverages -%}
+### {{ b.name }}
+{{ b.description | default("") }}
+
+{% if b.why %}*{{ b.why }}*{% endif %}
+
+{% endfor -%}
+
+---
+
+{% endif -%}
+
+## Grocery & Prep Summary
+
+{% if grocery_list -%}
+### Groceries Needed
+
+{% for category, items in grocery_list.items() -%}
+**{{ category }}**
+{% for item in items -%}
+- {{ item }}
+{% endfor %}
+{% endfor %}
+{% endif -%}
+
+{% if prep_ahead -%}
+### Prep-Ahead Tasks
+
+{% for task in prep_ahead -%}
+- [ ] {{ task }}
+{% endfor %}
+{% endif -%}
+
+{% if nutrition_summary -%}
+## Nutrition Summary
+
+{{ nutrition_summary }}
+
+{% endif -%}
+
+{% if notes -%}
+## Additional Notes
+
+{% for note in notes -%}
+- {{ note }}
+{% endfor %}
+{% endif -%}
