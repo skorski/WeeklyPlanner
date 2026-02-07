@@ -1,0 +1,304 @@
+{
+  "family": {
+    "members": [
+      {
+        "name": "Laura",
+        "age_range": "Adult woman",
+        "activity_level": "Active",
+        "calorie_target": "2,000-2,200 kcal",
+        "focus_nutrients": ["iron", "calcium", "folate", "fiber"]
+      },
+      {
+        "name": "Dan",
+        "age_range": "Adult man",
+        "activity_level": "Active",
+        "calorie_target": "2,400-2,800 kcal",
+        "focus_nutrients": ["protein", "potassium", "magnesium"]
+      },
+      {
+        "name": "Elsie",
+        "age_range": "8-year-old girl",
+        "activity_level": "Active (swim lessons, YAT)",
+        "calorie_target": "1,600-2,000 kcal",
+        "focus_nutrients": ["calcium", "vitamin D", "iron", "fiber"]
+      }
+    ]
+  },
+  "dinners": [
+    {
+      "day": "Sunday",
+      "name": "Philly Cheesesteaks",
+      "calories_per_serving": "~650 kcal",
+      "protein_source": "Ribeye steak",
+      "protein_level": "high",
+      "vegetable_content": "minimal",
+      "whole_grains": false,
+      "key_nutrients": ["iron", "zinc", "B12", "protein"],
+      "concerns": ["Low vegetable content", "High saturated fat from cheese and beef", "Refined carb from hoagie roll"],
+      "overall_rating": "moderate"
+    },
+    {
+      "day": "Monday",
+      "name": "Shakshuka with Feta",
+      "calories_per_serving": "~380 kcal",
+      "protein_source": "Eggs",
+      "protein_level": "moderate",
+      "vegetable_content": "abundant",
+      "whole_grains": false,
+      "key_nutrients": ["vitamin A", "vitamin C", "lycopene", "protein", "calcium (feta)"],
+      "concerns": ["Could use a whole grain side", "Sodium from feta"],
+      "overall_rating": "good"
+    },
+    {
+      "day": "Tuesday",
+      "name": "Babo Pasta with Alfredo Sauce",
+      "calories_per_serving": "~580 kcal",
+      "protein_source": "Dairy (Parmigiano, butter)",
+      "protein_level": "moderate",
+      "vegetable_content": "minimal",
+      "whole_grains": false,
+      "key_nutrients": ["calcium", "B vitamins", "protein"],
+      "concerns": ["High saturated fat", "Very low vegetable content", "Refined pasta", "Low fiber"],
+      "overall_rating": "moderate"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Kale Caesar Salad with Crispy Chickpeas",
+      "calories_per_serving": "~420 kcal",
+      "protein_source": "Chickpeas, Parmesan, egg (dressing)",
+      "protein_level": "moderate",
+      "vegetable_content": "abundant",
+      "whole_grains": false,
+      "key_nutrients": ["vitamin K", "vitamin A", "vitamin C", "iron", "fiber", "calcium", "folate"],
+      "concerns": ["May need additional protein for Dan's needs"],
+      "overall_rating": "excellent"
+    },
+    {
+      "day": "Thursday",
+      "name": "Mushroom Pappardelle with Fresh Egg Pasta",
+      "calories_per_serving": "~520 kcal",
+      "protein_source": "Eggs (pasta), mushrooms, Parmesan",
+      "protein_level": "moderate",
+      "vegetable_content": "moderate",
+      "whole_grains": false,
+      "key_nutrients": ["B vitamins", "selenium", "vitamin D (mushrooms)", "potassium", "copper"],
+      "concerns": ["No animal protein beyond eggs", "Rich and buttery"],
+      "overall_rating": "good"
+    },
+    {
+      "day": "Friday",
+      "name": "Baked Bronzino with Roasted Kale",
+      "calories_per_serving": "~450 kcal",
+      "protein_source": "Bronzino (white fish)",
+      "protein_level": "high",
+      "vegetable_content": "abundant",
+      "whole_grains": false,
+      "key_nutrients": ["omega-3", "vitamin D", "vitamin K", "iron (kale)", "fiber (beans)", "protein"],
+      "concerns": ["Light — may need a side for Dan's calorie needs"],
+      "overall_rating": "excellent"
+    },
+    {
+      "day": "Saturday",
+      "name": "Christmas Enchiladas",
+      "calories_per_serving": "~550 kcal",
+      "protein_source": "Chicken",
+      "protein_level": "high",
+      "vegetable_content": "moderate",
+      "whole_grains": false,
+      "key_nutrients": ["protein", "vitamin A", "vitamin C (tomatillo)", "calcium (cheese)"],
+      "concerns": ["Sodium from cheese and sauces", "Saturated fat from cheese and crema"],
+      "overall_rating": "good"
+    }
+  ],
+  "weekly_assessment": {
+    "protein_diversity": {
+      "sources_found": ["beef (ribeye)", "eggs", "dairy (Parmigiano/butter)", "chickpeas", "mushrooms", "white fish (bronzino)", "chicken"],
+      "rating": "excellent",
+      "notes": "Outstanding protein variety — 5 distinct animal sources plus plant-based (chickpeas). Red meat, fish, poultry, eggs, and legumes all represented. Well distributed across the week."
+    },
+    "vegetable_coverage": {
+      "servings_per_dinner_avg": 1.7,
+      "color_diversity": ["dark greens (kale x2)", "red/orange (tomatoes, peppers, tomatillos)", "alliums (onions, garlic)"],
+      "rating": "moderate",
+      "notes": "Three dinners have abundant vegetables (shakshuka, kale Caesar, bronzino+kale), but Sunday and Tuesday are very low. The two kale nights help significantly. Lunches need to carry vegetables on low-veg days."
+    },
+    "nutrient_gaps": [
+      {
+        "nutrient": "whole grains",
+        "severity": "moderate",
+        "detail": "Zero dinners include whole grains — all starches are refined (hoagie roll, white pasta x2, corn tortillas). Lunches and snacks must compensate."
+      },
+      {
+        "nutrient": "fiber",
+        "severity": "moderate",
+        "detail": "Only Wednesday (chickpeas, kale) and Friday (beans, kale) provide meaningful dinner fiber. Other nights are refined-carb heavy."
+      },
+      {
+        "nutrient": "fruit",
+        "severity": "moderate",
+        "detail": "No fruit appears at any dinner — entirely normal, but lunches and snacks must provide 2-3 daily fruit servings."
+      },
+      {
+        "nutrient": "vitamin D",
+        "severity": "mild",
+        "detail": "Friday's bronzino and Thursday's mushrooms provide some vitamin D, but February sunshine is limited. Consider supplementation."
+      }
+    ],
+    "excesses": [
+      {
+        "item": "saturated fat",
+        "severity": "mild",
+        "detail": "Sunday (beef+cheese), Tuesday (butter+Parmigiano), and Saturday (cheese+crema) are all rich. Balanced by lighter Wed-Fri dinners."
+      },
+      {
+        "item": "refined carbohydrates",
+        "severity": "moderate",
+        "detail": "Every dinner with a starch uses refined carbs. Not a crisis, but whole grain lunches would help balance blood sugar and fiber."
+      }
+    ],
+    "fiber_assessment": {
+      "rating": "low-moderate",
+      "notes": "Wednesday and Friday are fiber-rich; other nights are low. Weekly dinner fiber averages ~8g/dinner — below ideal. Whole grain lunches and fruit snacks are essential."
+    },
+    "omega3_assessment": {
+      "rating": "good",
+      "notes": "Friday's bronzino provides omega-3 fatty acids. One fish dinner per week meets minimum recommendations. Add walnuts or flaxseed at breakfast for extra coverage."
+    },
+    "overall_dinner_grade": "B+",
+    "overall_summary": "This is a genuinely well-balanced dinner week with standout protein variety and some excellent nutrient-dense nights (Wednesday's kale Caesar and Friday's bronzino are nutritional powerhouses). The gaps — whole grains, fiber, and fruit — are entirely normal for dinner menus and easily filled through lunches and snacks. The heavier nights (Sunday, Tuesday) are balanced by lighter, vegetable-forward nights midweek. Valentine's week comfort food without nutritional guilt."
+  },
+  "recommended_lunches": [
+    {
+      "name": "Whole Grain Turkey & Avocado Wrap",
+      "description": "Whole wheat tortilla with sliced turkey, mashed avocado, shredded carrots, spinach, and a squeeze of lemon. Roll tightly and slice in half.",
+      "prep_time": "8 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["whole grains", "fiber", "vegetables"],
+      "key_nutrients": ["fiber", "protein", "vitamin A", "folate", "healthy fats"],
+      "kid_notes": "Elsie can help roll her own. Skip the spinach if she resists — the carrots and avocado carry the nutrition."
+    },
+    {
+      "name": "Lentil Soup with Crusty Bread",
+      "description": "Red lentil soup with carrots, cumin, and lemon — make a big batch Sunday and portion for the week. Serve with a slice of whole grain bread.",
+      "prep_time": "30 min (batch), 3 min to reheat",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["fiber", "whole grains", "plant protein", "iron"],
+      "key_nutrients": ["fiber", "iron", "folate", "protein", "potassium"],
+      "kid_notes": "Red lentils dissolve into a smooth, creamy soup that kids love. It doesn't look 'beany' — big win."
+    },
+    {
+      "name": "Mediterranean Grain Bowl",
+      "description": "Quinoa or farro with cucumber, cherry tomatoes, olives, feta, and a lemon-olive oil dressing. Add rotisserie chicken for Dan's portion.",
+      "prep_time": "15 min (grain cooks while you prep)",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["whole grains", "fiber", "vegetables"],
+      "key_nutrients": ["fiber", "protein", "calcium (feta)", "iron (quinoa)", "vitamin C"],
+      "kid_notes": "Let Elsie build her own with toppings she likes. Feta and olives are usually kid-winners."
+    },
+    {
+      "name": "PB&J on Whole Wheat + Fruit Side",
+      "description": "Classic peanut butter and strawberry jam on whole wheat bread with a side of apple slices or clementines.",
+      "prep_time": "3 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["whole grains", "fruit", "fiber"],
+      "key_nutrients": ["fiber", "protein", "healthy fats", "vitamin C", "potassium"],
+      "kid_notes": "The eternal school lunch. Reliable, portable, and nutritionally solid with whole wheat."
+    },
+    {
+      "name": "Chicken Caesar Salad Wrap (Leftover Wednesday Dressing)",
+      "description": "Use leftover Caesar dressing from Wednesday. Toss with romaine, grilled chicken strips, and Parmesan. Wrap in a whole wheat tortilla.",
+      "prep_time": "10 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["whole grains", "vegetables", "protein"],
+      "key_nutrients": ["protein", "calcium", "vitamin K", "fiber"],
+      "kid_notes": "Kids who eat Caesar salad at dinner will eat it in a wrap at lunch. Smart leftover play."
+    },
+    {
+      "name": "Hummus & Veggie Plate with Pita",
+      "description": "Hummus with carrot sticks, cucumber rounds, bell pepper strips, and whole wheat pita triangles. Add olives and cherry tomatoes for adults.",
+      "prep_time": "5 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["fiber", "vegetables", "plant protein"],
+      "key_nutrients": ["fiber", "iron", "folate", "vitamin C", "healthy fats"],
+      "kid_notes": "Most 8-year-olds love dipping. Hummus is a stealth nutrition vehicle — chickpeas, tahini, lemon."
+    }
+  ],
+  "recommended_snacks": [
+    {
+      "name": "Apple Slices with Almond Butter",
+      "description": "Sliced Honeycrisp apple (use leftover apples from the Brussels sprout slaw) with 2 tbsp almond butter.",
+      "prep_time": "3 min",
+      "time_of_day": "afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": ["fruit", "healthy fats", "fiber"],
+      "key_nutrients": ["fiber", "vitamin C", "healthy fats", "magnesium"]
+    },
+    {
+      "name": "Greek Yogurt with Honey and Walnuts",
+      "description": "Plain Greek yogurt with a drizzle of honey and a handful of toasted walnuts (save some from the pappardelle elevation).",
+      "prep_time": "2 min",
+      "time_of_day": "morning or afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": ["calcium", "protein", "healthy fats"],
+      "key_nutrients": ["calcium", "protein", "probiotics", "omega-3 (walnuts)"]
+    },
+    {
+      "name": "Clementines (No Prep Required)",
+      "description": "2-3 clementines. That's it. Portable, mess-free, and bursting with vitamin C.",
+      "prep_time": "0 min",
+      "time_of_day": "any",
+      "kid_friendly": true,
+      "gaps_addressed": ["fruit", "vitamin C"],
+      "key_nutrients": ["vitamin C", "fiber", "folate"]
+    },
+    {
+      "name": "String Cheese + Whole Grain Crackers",
+      "description": "2 string cheese sticks with a handful of whole grain crackers. Zero thought required.",
+      "prep_time": "0 min",
+      "time_of_day": "afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": ["calcium", "whole grains"],
+      "key_nutrients": ["calcium", "protein", "fiber"]
+    },
+    {
+      "name": "Trail Mix (DIY)",
+      "description": "Mix almonds, dried cranberries (leftover from salad), dark chocolate chips, and pumpkin seeds (leftover from enchilada garnish). Bag in portions.",
+      "prep_time": "5 min for the week",
+      "time_of_day": "any",
+      "kid_friendly": true,
+      "gaps_addressed": ["iron", "magnesium", "healthy fats"],
+      "key_nutrients": ["iron", "magnesium", "healthy fats", "fiber"]
+    },
+    {
+      "name": "Banana with Peanut Butter",
+      "description": "One banana, halved lengthwise, spread with peanut butter. Can freeze for a treat.",
+      "prep_time": "2 min",
+      "time_of_day": "afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": ["fruit", "potassium", "healthy fats"],
+      "key_nutrients": ["potassium", "fiber", "protein", "B6"]
+    },
+    {
+      "name": "Pomegranate Seeds (Valentine's Snack)",
+      "description": "A bowl of fresh pomegranate seeds — ruby-red for Valentine's week. Buy a container of pre-seeded arils to save time.",
+      "prep_time": "0 min",
+      "time_of_day": "any",
+      "kid_friendly": true,
+      "gaps_addressed": ["fruit", "antioxidants", "fiber"],
+      "key_nutrients": ["vitamin C", "vitamin K", "folate", "fiber", "antioxidants"]
+    }
+  ],
+  "weekly_nutrition_summary": "With these lunches and snacks supplementing the dinner menu, the family achieves solid coverage across all major nutrient categories. Whole grain gaps are filled by lunch wraps, pita, and crackers. Fruit intake jumps from zero (dinner-only) to 2-3 daily servings through snacks and lunch sides. Calcium coverage improves significantly with Greek yogurt, string cheese, and feta at lunch. The one remaining consideration is vitamin D — February in Virginia means limited sun exposure, and only two dinners (bronzino, mushrooms) provide meaningful vitamin D. A daily supplement of 600-1000 IU for all family members is a smart winter insurance policy.",
+  "special_notes": [
+    "Consider a vitamin D supplement (600-1000 IU) for all family members during February — limited sunshine and indoor time make it hard to meet needs through food alone.",
+    "Elsie's swim lessons and YAT mean she's burning extra calories Tuesday and Friday — make sure she has a hearty after-school snack those days (trail mix + string cheese, or banana with PB).",
+    "Dan's Thursday potluck lunch will be heavy — the lighter mushroom pappardelle dinner is a good balance. He may want to go easy on snacks that afternoon.",
+    "The grocery list already includes walnuts, pecans, and chickpeas — repurpose leftovers into snacks to minimize waste and extra shopping."
+  ]
+}

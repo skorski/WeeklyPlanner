@@ -5,3 +5,9 @@
 # Cache files
 .cache.sqlite
 __pycache__/
+
+# Node / Vite
+webapp/node_modules/
+webapp/dist/
+webapp/.vite/
+webapp/public/plans/
