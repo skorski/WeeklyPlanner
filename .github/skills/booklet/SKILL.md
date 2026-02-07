@@ -109,7 +109,16 @@ python .github/skills/booklet/scripts/render_booklet.py plan_data.json --pdf-onl
 
 # Add extra sections from another skill
 python .github/skills/booklet/scripts/render_booklet.py plan_data.json --extra-sections parenting.json
+
+# Check if any day pages overflow their single-page bounds (used by final-editor)
+python .github/skills/booklet/scripts/render_booklet.py plan_data.json --check-overflow
 ```
+
+The `--check-overflow` flag renders the HTML, then uses Playwright to measure
+each `.page-day` element's scroll height against the available page height. If
+any day page overflows, it prints structured `OVERFLOW_PAGES` JSON and exits
+with code 1. The final-editor skill uses this in an iterative loop to ensure
+editorial copy fits before the plan is finalized.
 
 ### Step 3: Clean Up
 

@@ -36,6 +36,54 @@ make it something the family *wants* to read at the dinner table.
   an album was recorded, the region a dish originates from, a surprising history
   behind an ingredient. Never fabricate provenance.
 
+## ⚠️ Page-Fit Constraint — CRITICAL
+
+Each day's content — recipe, chef's tips, and music — **must fit on a single
+5.5" × 8.5" half-letter page** in the printed PDF booklet. If your editorial
+copy is too long, the content overflows onto a second page and the booklet
+layout breaks.
+
+**Do not guess whether your copy fits. Verify it by rendering the booklet.**
+
+### How It Works
+
+After writing your editorial edits and applying them to `plan_data.json`,
+run the booklet renderer with the `--check-overflow` flag:
+
+```bash
+python .github/skills/booklet/scripts/render_booklet.py plan_data.json --check-overflow
+```
+
+- If all day pages fit: the script prints `OK: All day pages fit` and exits 0.
+- If any day pages overflow: the script prints `OVERFLOW:` with the specific
+  page labels and how many pixels they exceed, then exits 1.
+
+### Iterative Editing Loop
+
+When any day pages overflow, you **must** shorten the copy for those specific
+days and re-render. Follow this cycle:
+
+1. **Apply edits** → `edit_plan.py plan_data.json --edits edits.json`
+2. **Render + check** → `render_booklet.py plan_data.json --check-overflow`
+3. **Read the overflow report** — it names the overflowing days and how much
+4. **Rewrite only the overflowing days** — trim the longest fields first:
+   `dinner_description`, `album_description`, then `day_intro`
+5. **Re-apply and re-render** — repeat until exit code 0
+
+### Trimming Priority
+
+When you need to shorten a day, cut in this order:
+
+1. `album_pairing_rationale` — cut to 1 sentence if needed
+2. `album_description` — cut to 1 sentence if needed
+3. `dinner_description` — tighten to 2 sentences
+4. `day_intro` — cut to 1 sentence
+5. `dinner_notes` — shorten to a phrase
+6. `activity_notes` — shorten or remove
+
+**Never remove a field entirely** — always keep at least a short version.
+The goal is warm, vivid prose that *happens to fit*. Don't make it clinical.
+
 ## What the Editor Touches
 
 ### Per-Day Enrichments
@@ -44,13 +92,13 @@ For each day in the plan:
 
 | Field | What to do |
 |-------|------------|
-| `day_intro` | **Add.** 1-2 sentences setting the scene for the day. Weave together weather, calendar, and dinner into a mini-narrative. |
-| `dinner_description` | **Rewrite.** Expand terse descriptions into engaging copy. Add origin context, sensory detail, or a "why tonight" rationale. Target 2-3 sentences. |
-| `dinner_notes` | **Enrich.** Add practical color — timing tips, make-ahead hooks, kid-involvement ideas. Keep it actionable. |
-| `album_description` | **Rewrite.** Replace generic descriptions with a 2-3 sentence editorial note: what makes this album special, when it was made, why it fits the meal. |
-| `album_pairing_rationale` | **Rewrite.** Make the dinner→album connection vivid and specific. "Jazz pairs well with stew" → "The slow burn of Coltrane's tenor mirrors the low simmer of this all-day braise." |
-| `activity` | **Add or enrich.** Suggest a weather-appropriate family activity for the day, or flesh out an existing one. |
-| `activity_notes` | **Add.** Brief logistics or tips for the activity. |
+| `day_intro` | **Add.** 1-2 sentences setting the scene. Weave weather, calendar, and dinner into a mini-narrative. |
+| `dinner_description` | **Rewrite.** Engaging copy with sensory detail and "why tonight." 2-3 sentences. |
+| `dinner_notes` | **Enrich.** One practical tip — timing, make-ahead, or kid-involvement. |
+| `album_description` | **Rewrite.** What makes this album special, when it was made, why it fits. 2-3 sentences. |
+| `album_pairing_rationale` | **Rewrite.** Vivid dinner→album connection. 1-2 sentences. |
+| `activity` | **Add or enrich.** Weather-appropriate family activity. |
+| `activity_notes` | **Add.** Brief logistics or tips. |
 
 ### Section-Level Enrichments
 
@@ -185,9 +233,32 @@ The script:
 - Generates an editorial report summarizing all changes made
 - Uses `utf-8-sig` encoding for reading JSON (Windows BOM compatibility)
 
-### Step 9: Verify
+### Step 9: Render Booklet and Check Page Fit
 
-After applying edits, spot-check:
+After applying edits, render the booklet with overflow detection:
+
+```bash
+python .github/skills/booklet/scripts/render_booklet.py plan_data.json --check-overflow
+```
+
+**If exit code is 0:** All day pages fit. Proceed to Step 10.
+
+**If exit code is 1:** The script reports which day pages overflow and by how
+many pixels. You **must** fix these before the plan is done:
+
+1. Read the `OVERFLOW_PAGES` output to identify which days overflow
+2. For each overflowing day, rewrite the edits JSON with shorter copy for that
+   day only — follow the **Trimming Priority** in the Page-Fit section above
+3. Re-run `edit_plan.py` with the shortened edits
+4. Re-run `render_booklet.py --check-overflow`
+5. Repeat until exit code is 0
+
+**Do not skip this step.** The booklet is a physical artifact — overflow breaks
+the printed layout in ways the user will immediately see.
+
+### Step 10: Verify
+
+After all day pages fit, spot-check:
 - JSON is still valid
 - No structural data was lost (grocery list, prep-ahead, parenting data intact)
 - Enriched copy reads naturally
