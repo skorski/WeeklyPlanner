@@ -1,0 +1,67 @@
+# Album Discovery — {{ prompt }}
+
+*Generated: {{ generated_at }} | {{ total_albums }} albums*
+
+---
+
+## Summary
+
+| # | Artist | Album | Year | Sonic Style | Source | Live |
+|---|--------|-------|------|-------------|--------|------|
+{% for album in albums -%}
+| {{ loop.index }} | {{ album.artist }} | {{ album.title }} | {{ album.year | default("—") }} | {{ album.styles | default(album.genres, true) | join(", ") if album.styles or album.genres else "—" }} | {{ album.source | default("—") }} | {{ "🎵" if album.upcoming_show else "" }} |
+{% endfor %}
+---
+
+## Detailed Album Information
+
+{% for album in albums -%}
+### {{ loop.index }}. {{ album.artist }} — *{{ album.title }}*
+
+| Field | Details |
+|-------|---------|
+| **Year** | {{ album.year | default("Unknown") }} |
+| **Label** | {{ album.label | default("Unknown") }} |
+| **Producer** | {{ album.producer | default("Unknown") }} |
+| **Genre** | {{ album.genres | join(", ") if album.genres else "Unknown" }} |
+| **Sonic Style** | {{ album.styles | join(", ") if album.styles else "Unknown" }} |
+| **Country** | {{ album.country | default("—") }} |
+| **Format** | {{ album.format | default("—") }} |
+| **Source** | {{ album.source | default("—") }} |
+{% if album.upcoming_show -%}
+| **Upcoming Show** | 🎵 {{ album.upcoming_show }} |
+{% endif -%}
+{% if album.discogs_url -%}
+| **Discogs** | [View on Discogs]({{ album.discogs_url }}) |
+{% endif -%}
+
+{% if album.description -%}
+**Why this album:** {{ album.description }}
+
+{% endif -%}
+{% if album.lyrical_themes -%}
+**Lyrical Themes:** {{ album.lyrical_themes }}
+
+{% endif -%}
+{% if album.mood -%}
+**Mood:** {{ album.mood }}
+
+{% endif -%}
+{% if album.sonic_description -%}
+**Sonic Description:** {{ album.sonic_description }}
+
+{% endif -%}
+{% if album.tracklist -%}
+<details>
+<summary>Tracklist ({{ album.tracklist | length }} tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+{% for track in album.tracklist -%}
+| {{ track.position }} | {{ track.title }} | {{ track.duration | default("—") }} |
+{% endfor -%}
+</details>
+{% endif %}
+---
+
+{% endfor -%}

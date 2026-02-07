@@ -1,0 +1,22 @@
+# Weekly Weather Forecast — {{ location }}
+**{{ start_date }} – {{ end_date }}**
+
+*Generated: {{ generated_at }} | Source: Open-Meteo*
+
+| Day | Conditions | Sunshine | High | Low | Precip % | Rain | Wind |
+|-----|-----------|----------|------|-----|----------|------|------|
+{% for day in days -%}
+| {{ day.name }} | {{ day.conditions }} | {{ day.sunshine_class }} ({{ day.sunshine_pct }}%) | {{ day.high }}°F | {{ day.low }}°F | {{ day.precip_pct }}% | {{ day.precip_in }}" | {{ day.wind }} mph |
+{% endfor %}
+## Daily Details
+
+{% for day in days -%}
+### {{ day.long_name }}
+- **Conditions:** {{ day.conditions }}
+- **Sunshine:** {{ day.sunshine_class }} — {{ day.sunshine_hrs }} hrs of {{ day.daylight_hrs }} hrs daylight ({{ day.sunshine_pct }}%)
+- **Cloud Cover:** {{ day.avg_cloud_cover }}% average
+- **High/Low:** {{ day.high }}°F / {{ day.low }}°F
+- **Precipitation:** {{ day.precip_pct }}% chance, {{ day.precip_in }}" expected
+- **Wind:** {{ day.wind }} mph (gusts up to {{ day.gusts }} mph)
+
+{% endfor -%}
