@@ -1,0 +1,101 @@
+{
+  "week_range": "February 8 - February 14, 2026",
+  "weekly_theme": {
+    "title": "Love in Action",
+    "description": "Valentine's week isn't just about cards and candy — it's a chance to explore what love looks like when it's a verb. How do we show care through cooking together, through small kindnesses at school, through making someone's favorite meal? This week, look for moments to ask Elsie: what does love look like when you do it, not just say it?"
+  },
+  "dinner_questions": [
+    {
+      "day": "Sunday",
+      "dinner": "Philly Cheesesteaks",
+      "question": "If you could make any sandwich in the world for your best friend, what would you put on it and why?",
+      "category": "imagination",
+      "why": "Connects food to friendship and generosity. At 8, she's deeply invested in best-friend dynamics — this lets her express care through a creative, low-stakes scenario."
+    },
+    {
+      "day": "Monday",
+      "dinner": "Shakshuka with Feta",
+      "question": "What's the bravest thing you saw someone do today — even if it was something small?",
+      "category": "values",
+      "why": "Eight-year-olds are building their moral compass and starting to notice courage in everyday actions. This question helps her practice recognizing bravery beyond physical feats — standing up for someone, trying something new, admitting a mistake."
+    },
+    {
+      "day": "Tuesday",
+      "dinner": "Babo Pasta with Alfredo",
+      "question": "If our family had a theme song, what would it sound like? Fast or slow? Loud or quiet? What instruments?",
+      "category": "family_connection",
+      "why": "Swim lesson nights are rushed — this question is pure fun with no right answer. It invites creativity and reveals how she perceives the family's energy. Plus, there's music playing (Say She She) — she can riff off what she hears."
+    },
+    {
+      "day": "Wednesday",
+      "dinner": "Kale Caesar Salad",
+      "question": "What's something you're really good at that you didn't used to be good at? How did you get better?",
+      "category": "reflection",
+      "why": "At 8, she's developing a growth mindset — the ability to see effort as the path to mastery. This question helps her narrate her own competence story, which builds resilience for future challenges."
+    },
+    {
+      "day": "Thursday",
+      "dinner": "Mushroom Pappardelle",
+      "question": "Valentine's Day is coming up — if you could show love to someone at school without using words, how would you do it?",
+      "category": "values",
+      "why": "This ties directly to the weekly theme of 'love in action.' It pushes her to think about non-verbal expressions of care — saving a seat, sharing a snack, drawing a picture. These are the building blocks of empathy."
+    },
+    {
+      "day": "Friday",
+      "dinner": "Baked Bronzino with Roasted Kale",
+      "question": "What's something you wish grown-ups understood better about being 8?",
+      "category": "story",
+      "why": "This is a trust question. It says: I want to understand your world. Eight-year-olds often feel unheard by adults — this invites her to be the expert. Listen without correcting."
+    },
+    {
+      "day": "Saturday",
+      "dinner": "Christmas Enchiladas",
+      "question": "What are three things you love about our family — not things we have, but things we do?",
+      "category": "gratitude",
+      "why": "Valentine's Day dinner — the perfect moment to talk about family love. Asking about actions (not possessions) reinforces that love is demonstrated, not just felt. Travel day makes this a great car conversation too."
+    }
+  ],
+  "nudges": [
+    {
+      "title": "The Sous Chef Moment",
+      "context": "Thursday's dinner involves making fresh pasta from scratch — eggs, flour, and rolling. This is the perfect invitation.",
+      "suggestion": "Let Elsie handle the pasta dough. Crack the eggs, measure the flour, knead until smooth. Don't correct her technique unless she asks. Let the mess happen.",
+      "how_to": [
+        "Set up her station: apron, flour, eggs, a clean surface",
+        "Show her once how to make the well and crack the eggs in",
+        "Step back. Let her knead. Let her feel the dough change texture.",
+        "When it's smooth, tell her: 'You made that. From scratch. That's real.'"
+      ]
+    },
+    {
+      "title": "The Valentine Card Factory",
+      "context": "Valentine's Day is Saturday but the potluck is Thursday. The week is naturally Valentine-themed — lean into it with a creative project early in the week.",
+      "suggestion": "Monday or Tuesday evening, set out supplies and make Valentine cards together — not store-bought, handmade. For friends, for teachers, for each other.",
+      "how_to": [
+        "Gather: construction paper, markers, stickers, scissors, glue",
+        "Each person makes at least 3 cards — including one for each family member",
+        "No templates or Pinterest perfection — messy is better",
+        "Read them aloud to each other before sealing"
+      ]
+    },
+    {
+      "title": "The Friday Solo Mission",
+      "context": "Laura is at book club. Dan is solo with Elsie after YAT pickup at 6 PM. This is a connection goldmine.",
+      "suggestion": "After dinner, let Elsie choose the entire evening agenda. Movie, game, craft, or just talking. The only rule: no phones for either of you. Call it 'Elsie's Night.'",
+      "how_to": [
+        "On the drive home from YAT, ask: 'Tonight is yours. What do you want to do?'",
+        "Whatever she picks, commit fully. Don't suggest alternatives.",
+        "If she picks a movie, watch it next to her, not across the room.",
+        "Before bed: 'I really liked hanging out with just you tonight.'"
+      ]
+    }
+  ],
+  "recommendation": {
+    "type": "book",
+    "title": "Each Kindness",
+    "author": "Jacqueline Woodson",
+    "why": "A beautiful picture book (yes, even for 8-year-olds) about a girl who misses the chance to be kind to a new student — and the regret that follows. It's short, powerful, and unforgettable. Perfect for Valentine's week because it reframes love as everyday kindness, not grand gestures.",
+    "connection": "Ties directly to the 'Love in Action' theme. Read it together any night this week — it takes 10 minutes and will generate a conversation that lasts much longer."
+  },
+  "parent_reflection": "This week, pay attention to how Elsie shows love — not how she says it. Does she save you the best piece? Does she draw you a picture unprompted? Does she sit closer to you on the couch? Those small, wordless gestures are her love language developing in real time. Notice them. Name them. 'I saw you saved me the corner piece — that made me feel really loved.' She needs to know her love lands."
+}

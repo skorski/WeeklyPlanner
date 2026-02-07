@@ -1,0 +1,2767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weekly Planner — February 8 – 14, 2026</title>
+<style>
+/* ========================================
+   BASE STYLES — Mobile-first, minimalist
+   ======================================== */
+
+:root {
+  --ink: #1a1a1a;
+  --muted: #6b6b6b;
+  --accent: #2c5f2d;
+  --accent-light: #e8f0e8;
+  --accent-warm: #c0392b;
+  --accent-warm-light: #fdf0ee;
+  --bg: #fafaf8;
+  --border: #e0ddd8;
+  --card-bg: #ffffff;
+  --font-sans: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-serif: Georgia, 'Times New Roman', serif;
+  --font-mono: 'Cascadia Code', 'Consolas', monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ========================================
+   SCREEN LAYOUT — Mobile HTML
+   ======================================== */
+
+.page { display: none; } /* pages are for print only */
+
+@media screen {
+  .screen-container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+
+  .cover-screen {
+    text-align: center;
+    padding: 48px 20px 32px;
+    border-bottom: 2px solid var(--border);
+    margin-bottom: 24px;
+  }
+  .cover-screen h1 {
+    font-family: var(--font-serif);
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+  }
+  .cover-screen .week-range {
+    font-size: 14px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .cover-screen .highlight {
+    margin-top: 24px;
+    padding: 16px;
+    background: var(--accent-light);
+    border-radius: 8px;
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 16px;
+    color: var(--accent);
+  }
+
+  .section-title {
+    font-family: var(--font-serif);
+    font-size: 22px;
+    font-weight: 400;
+    margin: 32px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .glance-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-bottom: 24px;
+  }
+  .glance-table th {
+    text-align: left;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--muted);
+    padding: 8px 6px;
+    border-bottom: 2px solid var(--border);
+  }
+  .glance-table td {
+    padding: 10px 6px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  .glance-table .day-name { font-weight: 600; white-space: nowrap; }
+
+  .day-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+  .day-card h3 {
+    font-family: var(--font-serif);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 4px;
+  }
+  .day-card .weather {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+  .day-card .dinner-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+  .day-card .cuisine-tag {
+    display: inline-block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 2px 8px;
+    margin-bottom: 8px;
+  }
+  .day-card .description { font-size: 14px; margin-bottom: 10px; }
+  .day-card .ingredients {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .day-card .notes {
+    font-size: 13px;
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+  .day-card .album-pairing {
+    background: var(--accent-light);
+    border-radius: 6px;
+    padding: 12px;
+    margin-top: 12px;
+  }
+  .day-card .album-name {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .day-card .album-meta {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .day-card .album-desc {
+    font-size: 13px;
+    margin-top: 6px;
+  }
+  .day-card .album-sonic {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .day-card .album-rationale {
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 6px;
+  }
+
+  .day-card .elevation-tips {
+    margin-top: 12px;
+    padding: 12px;
+    background: #fef9f0;
+    border-radius: 6px;
+    border-left: 3px solid #e67e22;
+  }
+  .day-card .elevation-tips h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #e67e22;
+    margin-bottom: 6px;
+  }
+  .day-card .elevation-tip {
+    font-size: 13px;
+    margin-bottom: 6px;
+    padding-left: 8px;
+  }
+  .day-card .elevation-tip .tip-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #e67e22;
+    font-weight: 600;
+  }
+
+  .weather-emoji { font-size: 16px; margin-right: 4px; }
+
+  /* Links */
+  .day-card a, .appetizer-card a, .salad-card a, .beverage-card a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--accent);
+    transition: border-color 0.2s;
+  }
+  .day-card a:hover, .appetizer-card a:hover, .salad-card a:hover, .beverage-card a:hover {
+    border-bottom-style: solid;
+  }
+  .spotify-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    color: #1DB954;
+    border-bottom: none !important;
+    font-weight: 600;
+    margin-top: 6px;
+  }
+  .spotify-link:hover { opacity: 0.8; }
+  .recipe-link {
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
+  /* Detailed prep section */
+  .prep-detail {
+    margin-top: 16px;
+    padding: 16px;
+    background: #f8f7f4;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  .prep-detail summary {
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--accent);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .prep-detail summary::-webkit-details-marker { display: none; }
+  .prep-detail summary::before { content: "▶ "; font-size: 10px; transition: transform 0.2s; }
+  .prep-detail[open] summary::before { content: "▼ "; }
+  .prep-detail .prep-meta {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    font-size: 12px;
+  }
+  .prep-detail .prep-meta-item {
+    background: var(--accent-light);
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .prep-detail .prep-steps {
+    counter-reset: prep-step;
+    list-style: none;
+    padding: 0;
+    margin-top: 8px;
+  }
+  .prep-detail .prep-steps li {
+    counter-increment: prep-step;
+    position: relative;
+    padding: 8px 0 8px 36px;
+    font-size: 13px;
+    line-height: 1.5;
+    border-bottom: 1px solid var(--border);
+  }
+  .prep-detail .prep-steps li:last-child { border-bottom: none; }
+  .prep-detail .prep-steps li::before {
+    content: counter(prep-step);
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+    background: var(--accent);
+    color: white;
+    border-radius: 50%;
+    font-size: 11px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .prep-detail .prep-equipment {
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .prep-detail .prep-make-ahead {
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: #fff8e1;
+    border-left: 3px solid #f9a825;
+    border-radius: 0 4px 4px 0;
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  /* Parenting section — screen */
+  .parenting-section {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+  .parenting-section .theme-banner {
+    background: var(--accent-warm-light);
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  .parenting-section .theme-banner h3 {
+    font-family: var(--font-serif);
+    font-size: 18px;
+    color: var(--accent-warm);
+    margin-bottom: 6px;
+  }
+  .parenting-section .theme-banner p { font-size: 14px; }
+  .parenting-section .question-card {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .parenting-section .question-card:last-child { border-bottom: none; }
+  .parenting-section .question-day {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-warm);
+    font-weight: 600;
+  }
+  .parenting-section .question-text {
+    font-family: var(--font-serif);
+    font-size: 15px;
+    font-style: italic;
+    margin: 4px 0;
+  }
+  .parenting-section .question-why {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .parenting-section .nudge-card {
+    background: var(--accent-warm-light);
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+  .parenting-section .nudge-card h4 {
+    font-size: 14px;
+    color: var(--accent-warm);
+    margin-bottom: 4px;
+  }
+  .parenting-section .nudge-card p { font-size: 13px; }
+  .parenting-section .nudge-steps {
+    font-size: 12px;
+    margin-top: 6px;
+    padding-left: 16px;
+  }
+  .parenting-section .nudge-steps li { margin-bottom: 3px; }
+  .parenting-section .reflection-box {
+    border-left: 3px solid var(--accent-warm);
+    padding: 12px 16px;
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 16px;
+    background: var(--accent-warm-light);
+    border-radius: 0 6px 6px 0;
+  }
+  .parenting-section .book-rec {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 12px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-top: 12px;
+  }
+  .parenting-section .book-rec .book-icon { font-size: 28px; }
+  .parenting-section .book-rec .book-info h4 { font-size: 14px; margin-bottom: 2px; }
+  .parenting-section .book-rec .book-info p { font-size: 13px; color: var(--muted); }
+  .day-card .prep-notes {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+  }
+  .day-card .prep-notes h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .day-card .prep-notes li {
+    font-size: 13px;
+    margin-left: 16px;
+    margin-bottom: 2px;
+  }
+
+  .support-section {
+    margin-bottom: 24px;
+  }
+  .support-section h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .support-section p, .support-section li {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .support-section li {
+    margin-left: 16px;
+    margin-bottom: 3px;
+  }
+
+  .salad-card, .appetizer-card, .beverage-card {
+    border-left: 3px solid var(--accent);
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    background: var(--card-bg);
+  }
+  .salad-card .salad-type {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+  .salad-card .dressing {
+    font-size: 13px;
+    margin-top: 8px;
+    padding: 8px;
+    background: var(--accent-light);
+    border-radius: 4px;
+  }
+  .salad-card .rationale {
+    font-size: 13px;
+    font-style: italic;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+
+  .grocery-section {
+    columns: 2;
+    column-gap: 24px;
+  }
+  .grocery-category {
+    break-inside: avoid;
+    margin-bottom: 16px;
+  }
+  .grocery-category h4 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+  .grocery-category li {
+    font-size: 13px;
+    margin-left: 16px;
+    margin-bottom: 2px;
+  }
+
+  .prep-checklist li {
+    font-size: 14px;
+    margin-left: 16px;
+    margin-bottom: 4px;
+    list-style: none;
+  }
+  .prep-checklist li::before {
+    content: "☐ ";
+    color: var(--muted);
+  }
+
+  .extra-section {
+    margin-bottom: 24px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+  }
+  .extra-section h3 {
+    font-family: var(--font-serif);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 12px;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    margin-top: 32px;
+  }
+}
+
+/* ========================================
+   PRINT LAYOUT — Half-letter booklet
+   5.5" × 8.5" pages (folded from 8.5" × 11")
+   ======================================== */
+
+@media print {
+  .screen-container { display: none !important; }
+
+  @page {
+    size: 5.5in 8.5in;
+    margin: 0.5in 0.4in 0.55in 0.4in;
+  }
+
+  body {
+    font-size: 9.5pt;
+    line-height: 1.4;
+    background: white;
+    color: #1a1a1a;
+    counter-reset: page-num;
+  }
+
+  /* ---- Page container ---- */
+  .page {
+    display: block;
+    page-break-after: always;
+    position: relative;
+    min-height: 0;
+  }
+  .page:last-child { page-break-after: avoid; }
+
+  /* ---- Page furniture: folio + running header ---- */
+  .page-folio {
+    position: absolute;
+    bottom: -0.25in;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 7pt;
+    color: #aaa;
+  }
+  .page-header {
+    font-size: 6.5pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: #bbb;
+    margin-bottom: 8pt;
+  }
+  .page-cover .page-folio,
+  .page-back .page-folio,
+  .page-cover .page-header,
+  .page-back .page-header,
+  .page-divider .page-folio { display: none; }
+
+  /* ---- Shared section header ---- */
+  .section-header {
+    font-family: var(--font-serif);
+    font-size: 13pt;
+    font-weight: 400;
+    margin-bottom: 8pt;
+    padding-bottom: 4pt;
+    border-bottom: 0.75pt solid #ccc;
+  }
+
+  /* ---- Section divider pages ---- */
+  .page-divider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 7.0in;
+  }
+  .page-divider .divider-title {
+    font-family: var(--font-serif);
+    font-size: 20pt;
+    font-weight: 400;
+    letter-spacing: -0.3pt;
+    margin-bottom: 6pt;
+  }
+  .page-divider .divider-rule {
+    width: 30pt;
+    height: 0.75pt;
+    background: #ccc;
+    margin: 0 auto 8pt;
+  }
+  .page-divider .divider-sub {
+    font-size: 8pt;
+    color: #888;
+    font-style: italic;
+    max-width: 3in;
+    line-height: 1.4;
+  }
+
+  /* ---- COVER ---- */
+  .page-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 7.0in;
+  }
+  .page-cover h1 {
+    font-family: var(--font-serif);
+    font-size: 22pt;
+    font-weight: 400;
+    letter-spacing: -0.5pt;
+    margin-bottom: 6pt;
+  }
+  .page-cover .week-range {
+    font-size: 9pt;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+    color: #666;
+    margin-bottom: 20pt;
+  }
+  .page-cover .divider {
+    width: 36pt;
+    height: 0.75pt;
+    background: #999;
+    margin: 0 auto 20pt;
+  }
+  .page-cover .highlight-text {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 11pt;
+    color: #444;
+    max-width: 3.2in;
+    line-height: 1.5;
+  }
+
+  /* ---- GLANCE ---- */
+  .page-glance table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 7.5pt;
+  }
+  .page-glance th {
+    text-align: left;
+    font-size: 6.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    color: #666;
+    padding: 3pt 3pt;
+    border-bottom: 1.5pt solid #333;
+  }
+  .page-glance td {
+    padding: 4pt 3pt;
+    border-bottom: 0.5pt solid #ddd;
+    vertical-align: top;
+  }
+  .page-glance .day-name { font-weight: 600; }
+
+  /* ---- DAY PAGES ---- */
+  .page-day .day-intro {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 8pt;
+    color: #555;
+    margin-bottom: 6pt;
+    line-height: 1.4;
+  }
+  .page-day .weather-line {
+    font-size: 7.5pt;
+    color: #666;
+    margin-bottom: 8pt;
+  }
+  .page-day .dinner-block {
+    margin-bottom: 8pt;
+    page-break-inside: avoid;
+  }
+  .page-day .dinner-name {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-bottom: 2pt;
+  }
+  .page-day .cuisine-label {
+    font-size: 6.5pt;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    color: #888;
+    margin-bottom: 3pt;
+  }
+  .page-day .dinner-desc {
+    font-size: 8.5pt;
+    margin-bottom: 4pt;
+  }
+  .page-day .ingredients-line {
+    font-size: 7.5pt;
+    color: #666;
+    margin-bottom: 3pt;
+  }
+  .page-day .notes-line {
+    font-size: 7.5pt;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 6pt;
+  }
+  .page-day .album-block {
+    border-top: 0.5pt solid #ddd;
+    padding: 5pt 0;
+    margin-bottom: 6pt;
+    page-break-inside: avoid;
+  }
+  .page-day .album-title {
+    font-size: 8.5pt;
+    font-weight: 600;
+  }
+  .page-day .album-info {
+    font-size: 7.5pt;
+    color: #666;
+  }
+  .page-day .album-why {
+    font-size: 7.5pt;
+    font-style: italic;
+    margin-top: 2pt;
+  }
+  .page-day .album-desc {
+    font-size: 7.5pt;
+    margin-top: 2pt;
+  }
+  .page-day .album-sonic {
+    font-size: 7pt;
+    color: #666;
+    margin-top: 1pt;
+  }
+  .page-day .elevation-block {
+    margin-top: 5pt;
+    padding: 4pt 6pt;
+    background: #fef9f0;
+    border-left: 2pt solid #e67e22;
+    page-break-inside: avoid;
+  }
+  .page-day .elevation-block h4 {
+    font-size: 6.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    color: #e67e22;
+    margin-bottom: 2pt;
+  }
+  .page-day .elevation-tip {
+    font-size: 7pt;
+    margin-bottom: 2pt;
+  }
+  .page-day .elevation-tip .tip-label {
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 0.3pt;
+    color: #e67e22;
+    font-weight: 600;
+  }
+  .weather-emoji-print { font-size: 8pt; }
+  .page-day .calendar-block {
+    font-size: 7.5pt;
+    margin-bottom: 5pt;
+    padding: 3pt 6pt;
+    border-left: 2pt solid #ddd;
+  }
+  .page-day .prep-block {
+    margin-top: 5pt;
+    padding-top: 3pt;
+    border-top: 0.5pt solid #ddd;
+    page-break-inside: avoid;
+  }
+  .page-day .prep-block h4 {
+    font-size: 6.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    color: #888;
+    margin-bottom: 2pt;
+  }
+  .page-day .prep-block li {
+    font-size: 7.5pt;
+    margin-left: 12pt;
+    margin-bottom: 1pt;
+  }
+
+  /* ---- SUPPORT PAGES (appetizers, salads, beverages) ---- */
+  .page-support h3 {
+    font-size: 9.5pt;
+    font-weight: 600;
+    margin: 6pt 0 2pt;
+  }
+  .page-support p {
+    font-size: 8.5pt;
+    margin-bottom: 3pt;
+  }
+  .page-support .salad-entry {
+    margin-bottom: 8pt;
+    padding-bottom: 5pt;
+    border-bottom: 0.5pt solid #eee;
+    page-break-inside: avoid;
+  }
+  .page-support .type-label {
+    font-size: 6.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    color: #888;
+  }
+  .page-support .dressing-box {
+    font-size: 7.5pt;
+    padding: 3pt 6pt;
+    background: #f5f5f2;
+    margin: 3pt 0;
+  }
+  .page-support .rationale {
+    font-size: 7.5pt;
+    font-style: italic;
+    color: #666;
+  }
+  .page-support li {
+    font-size: 8.5pt;
+    margin-left: 12pt;
+    margin-bottom: 2pt;
+  }
+
+  /* ---- GROCERY ---- */
+  .page-grocery .grocery-cols {
+    columns: 2;
+    column-gap: 14pt;
+  }
+  .page-grocery .g-cat {
+    break-inside: avoid;
+    margin-bottom: 6pt;
+  }
+  .page-grocery .g-cat h4 {
+    font-size: 7.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    margin-bottom: 2pt;
+    color: #333;
+  }
+  .page-grocery .g-cat li {
+    font-size: 7.5pt;
+    margin-left: 10pt;
+    margin-bottom: 1pt;
+  }
+  .page-grocery .prep-list {
+    margin-top: 8pt;
+    padding-top: 6pt;
+    border-top: 0.5pt solid #ddd;
+  }
+  .page-grocery .prep-list h3 {
+    font-size: 9.5pt;
+    font-weight: 600;
+    margin-bottom: 4pt;
+  }
+  .page-grocery .prep-list li {
+    font-size: 7.5pt;
+    margin-left: 10pt;
+    margin-bottom: 2pt;
+    list-style: none;
+  }
+  .page-grocery .prep-list li::before {
+    content: "☐ ";
+    color: #999;
+  }
+
+  /* ---- EXTRA SECTIONS ---- */
+  .page-extra .extra-content {
+    font-size: 8.5pt;
+  }
+
+  /* ---- PARENTING ---- */
+  .page-parenting .theme-banner {
+    padding: 5pt 7pt;
+    background: #fdf0ee;
+    margin-bottom: 6pt;
+  }
+  .page-parenting .theme-banner h3 {
+    font-size: 9.5pt;
+    font-weight: 600;
+    color: #c0392b;
+    margin-bottom: 2pt;
+  }
+  .page-parenting .theme-banner p { font-size: 7.5pt; }
+  .page-parenting .question-entry {
+    padding: 2pt 0;
+    border-bottom: 0.5pt solid #eee;
+    page-break-inside: avoid;
+  }
+  .page-parenting .question-day {
+    font-size: 6.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    color: #c0392b;
+    font-weight: 600;
+  }
+  .page-parenting .question-text {
+    font-family: var(--font-serif);
+    font-size: 8.5pt;
+    font-style: italic;
+    margin: 1pt 0;
+  }
+  .page-parenting .question-why {
+    font-size: 6.5pt;
+    color: #666;
+  }
+  .page-parenting .nudge-card {
+    padding: 4pt 6pt;
+    background: #fdf0ee;
+    margin-bottom: 5pt;
+    page-break-inside: avoid;
+  }
+  .page-parenting .nudge-card h4 {
+    font-size: 8.5pt;
+    color: #c0392b;
+    margin-bottom: 2pt;
+  }
+  .page-parenting .nudge-card p { font-size: 7.5pt; }
+  .page-parenting .nudge-steps {
+    font-size: 7pt;
+    margin-top: 2pt;
+    padding-left: 10pt;
+  }
+  .page-parenting .nudge-steps li { margin-bottom: 1pt; }
+  .page-parenting .reflection-box {
+    border-left: 2pt solid #c0392b;
+    padding: 4pt 6pt;
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 7.5pt;
+    margin-top: 5pt;
+    background: #fdf0ee;
+  }
+  .page-parenting .book-rec {
+    padding: 4pt 6pt;
+    border: 0.5pt solid #ddd;
+    margin-top: 5pt;
+    page-break-inside: avoid;
+  }
+  .page-parenting .book-rec h4 { font-size: 8.5pt; margin-bottom: 1pt; }
+  .page-parenting .book-rec p { font-size: 7.5pt; color: #666; }
+
+  /* ---- BACK COVER ---- */
+  .page-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 7.0in;
+    text-align: center;
+  }
+  .page-back .back-inner {
+    max-width: 3.8in;
+    margin: 0 auto;
+  }
+  .page-back .notes-section {
+    text-align: left;
+    margin-bottom: 14pt;
+  }
+  .page-back .notes-section h3 {
+    font-family: var(--font-serif);
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 4pt;
+    padding-bottom: 3pt;
+    border-bottom: 0.5pt solid #ddd;
+  }
+  .page-back .notes-section li {
+    font-size: 7.5pt;
+    margin-left: 10pt;
+    margin-bottom: 2pt;
+    text-align: left;
+  }
+  .page-back .nutrition {
+    font-size: 7.5pt;
+    color: #555;
+    margin-bottom: 14pt;
+    padding: 6pt 8pt;
+    background: #f8f8f6;
+    border: 0.5pt solid #e0ddd8;
+    text-align: left;
+  }
+  .page-back .nutrition strong {
+    display: block;
+    font-size: 8pt;
+    margin-bottom: 3pt;
+    color: #333;
+  }
+  .page-back .back-divider {
+    width: 30pt;
+    height: 0.75pt;
+    background: #ccc;
+    margin: 12pt auto;
+  }
+  .page-back .colophon {
+    font-size: 7pt;
+    color: #aaa;
+    font-style: italic;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+<div class="page page-cover">
+  <h1>Weekly Planner</h1>
+  <div class="week-range">February 8 – 14, 2026</div>
+  <div class="divider"></div>
+  
+  <div class="highlight-text">Valentine's week in the kitchen: from Philly cheesesteaks on a bone-cold Sunday to Sade spinning over Christmas enchiladas on the 14th — seven nights of comfort, curiosity, and love in action.</div>
+  
+</div>
+
+
+<div class="page page-glance">
+  <div class="page-header">Overview</div>
+  <h2 class="section-header">Week at a Glance</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th></th>
+        <th>Weather</th>
+        <th>Events</th>
+        <th>Dinner</th>
+        <th>Album</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="day-name">Sun 02/08</td>
+        <td><span class="weather-emoji-print">🌤️</span></td>
+        <td>Sunny, 17°F / 8°F</td>
+        <td>—</td>
+        <td>Philly Cheesesteaks</td>
+        <td>Franc Moody – Dream in Colour</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Mon 02/09</td>
+        <td><span class="weather-emoji-print">🌤️</span></td>
+        <td>Sunny, 32°F / 8°F</td>
+        <td>Conduit Demonstration and Planning 4:00-5:00 PM (Reston Conf Room 5.1B)</td>
+        <td>Shakshuka with Feta</td>
+        <td>Makaya McCraven – In These Times</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Tue 02/10</td>
+        <td><span class="weather-emoji-print">☁️</span></td>
+        <td>Overcast, 48°F / 26°F</td>
+        <td>Alex 1:1 3:35-4:00 PM; COBRA Core & Deployments 4:05-4:30 PM; Swim lessons (evening)</td>
+        <td>Babo Pasta with Alfredo Sauce</td>
+        <td>Say She She – Prism</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Wed 02/11</td>
+        <td><span class="weather-emoji-print">☁️</span></td>
+        <td>Overcast, 45°F / 30°F</td>
+        <td>—</td>
+        <td>Kale Caesar Salad with Crispy Chickpeas</td>
+        <td>Hiroshi Yoshimura – Music for Nine Post Cards</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Thu 02/12</td>
+        <td><span class="weather-emoji-print">☁️</span></td>
+        <td>Overcast, 37°F / 27°F</td>
+        <td>Valentine's Day potluck lunch (bring heart-shaped mini pizzas)</td>
+        <td>Mushroom Pappardelle with Fresh Egg Pasta</td>
+        <td>Mulatu Astatke – Mulatu of Ethiopia</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Fri 02/13</td>
+        <td><span class="weather-emoji-print">☁️</span></td>
+        <td>Overcast, 36°F / 24°F</td>
+        <td>Laura book club (evening); Elsie YAT 4:30-6:00 PM</td>
+        <td>Baked Bronzino with Roasted Kale</td>
+        <td>Laufey – Bewitched</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Sat 02/14</td>
+        <td><span class="weather-emoji-print">☀️</span></td>
+        <td>Mainly clear, 40°F / 26°F</td>
+        <td>Valentine's Day; Travel day</td>
+        <td>Christmas Enchiladas</td>
+        <td>Sade – Love Deluxe</td>
+      </tr>
+      
+    </tbody>
+  </table>
+  <div class="page-folio">2</div>
+</div>
+
+
+<div class="page page-divider">
+  <div class="divider-title">Daily Plan</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">Seven days of dinner, music, and good company</div>
+</div>
+
+
+
+<div class="page page-day">
+  <div class="page-header">Daily Plan</div>
+  <h2 class="section-header">Sunday, February 8</h2>
+  
+  <div class="day-intro">It's 17°F with wind gusts up to 44 mph — the kind of Sunday where you don't leave the house unless someone's on fire. Which makes it the perfect day for cheesesteaks, board games, and Franc Moody's disco-funk warming the kitchen like a space heater with a bassline.</div>
+  
+  
+  <div class="weather-line"><span class="weather-emoji-print">🌤️</span> Sunny, 17°F / 8°F · Sunny (89%), wind 19 mph (gusts 44 mph), 0% precip. Bitter cold.</div>
+  
+
+  
+
+  
+  <div class="dinner-block">
+    <div class="dinner-name">Philly Cheesesteaks</div>
+    <div class="cuisine-label">American</div>
+    <div class="dinner-desc">Classic Philly cheesesteaks with paper-thin ribeye from RD, seared screaming-hot on a cast-iron griddle until the edges crisp and the fat renders. Provolone melted directly over the beef, sautéed onions caramelized until sweet, all piled into garlic-butter-toasted hoagie rolls.</div>
+    
+    <div class="ingredients-line">ribeye steak, provolone cheese, hoagie rolls, onions, peppers</div>
+    
+    <div class="notes-line">Pick up steak from RD beforehand. Quick cook — sear thin slices at high heat.</div>
+  </div>
+  
+
+  
+  <div class="elevation-block">
+    <h4>Chef's Tips</h4>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">preparation:</span> <strong>Worcestershire Fond Glaze</strong> — During the last 30 seconds of cooking the beef, hit it with a tablespoon of Worcestershire sauce directly on the screaming-hot griddle. Let it sizzle and caramelize into the meat. This creates a savory glaze that makes the steak taste more like steak.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">sauce:</span> <strong>Garlic Butter Roll Toast</strong> — Melt 2 tbsp butter with 1 minced garlic clove. Split hoagie rolls, brush the insides with garlic butter, and griddle cut-side down until golden and crisp. The butter creates a moisture barrier that prevents the bread from going soggy.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">texture:</span> <strong>Crispy Shallot Rings</strong> — Thinly slice 2 shallots into rings. Toss in seasoned flour, shake off excess, and fry in 350°F oil for 2-3 minutes until deeply golden. Drain on paper towels, salt immediately. Pile on top of the assembled cheesesteak.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">acid:</span> <strong>Quick-Pickled Hot Peppers</strong> — Slice banana peppers or cherry peppers into rings. Cover with equal parts white vinegar and water, a pinch of sugar and salt. Let sit 15 minutes. Pile onto cheesesteaks for a bright, acidic crunch.
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="album-block">
+    <div class="album-title">🎵 Franc Moody – Dream in Colour</div>
+    <div class="album-info">2022 · Disco-Funk / Indie-Pop · Upbeat, funky, joyful</div>
+    <div class="album-desc">Born in a Tottenham warehouse studio full of vintage gear and Tabasco-bottle percussion, Franc Moody's debut is pure London disco-funk energy. Ned Franc and Jon Moody spent 18 months crafting these irresistibly funky tracks — they're playing 9:30 Club on Feb 19 if you catch the bug.</div>
+    <div class="album-sonic">🔊 Disco-funk basslines, shimmering synths, falsetto vocals, infectious hooks</div>
+    <div class="album-why">Cheesesteaks are a contact sport — hot griddle, fast hands, melted cheese flying. You need music with the same energy. Franc Moody's disco-funk basslines turn the kitchen into a dance floor while you sear.</div>
+  </div>
+  
+
+  
+  <div class="prep-block">
+    <h4>Prep</h4>
+    <ul><li>Pick up ribeye from RD</li></ul>
+  </div>
+  
+  <div class="page-folio">4</div>
+</div>
+
+<div class="page page-day">
+  <div class="page-header">Daily Plan</div>
+  <h2 class="section-header">Monday, February 9</h2>
+  
+  <div class="day-intro">Monday at the office with a demo running until 5 PM. By the time you walk in the door, you want something that requires exactly one pan and zero decisions. Shakshuka delivers — eggs, spiced tomatoes, feta, bread, done.</div>
+  
+  
+  <div class="weather-line"><span class="weather-emoji-print">🌤️</span> Sunny, 32°F / 8°F · Sunny (90%), wind 8 mph, 0% precip. Cold but calm.</div>
+  
+
+  
+  <div class="calendar-block">
+    <div>📅 Conduit Demonstration and Planning 4:00-5:00 PM (Reston Conf Room 5.1B)</div>
+  </div>
+  
+
+  
+  <div class="dinner-block">
+    <div class="dinner-name">Shakshuka with Feta</div>
+    <div class="cuisine-label">North African / Israeli</div>
+    <div class="dinner-desc">Eggs poached in a smoky, garlicky tomato sauce spiked with harissa and finished with cold labneh dollops and a shower of za'atar. The contrast between the searing-hot sauce and the cool yogurt is what separates this from 'eggs in tomato sauce.' Serve with thick-cut sourdough for dunking — the yolk situation demands it.</div>
+    
+    <div class="ingredients-line">eggs, canned tomatoes, bell peppers, feta cheese, cumin, paprika, crusty bread</div>
+    
+    <div class="notes-line">One-skillet, 20 minutes. Perfect after a long office day.</div>
+  </div>
+  
+
+  
+  <div class="elevation-block">
+    <h4>Chef's Tips</h4>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">sauce:</span> <strong>Harissa Swirl</strong> — Stir 1-2 tsp of harissa paste into the tomato sauce before adding eggs. Then dot another teaspoon on top in small spoonfuls and drag a knife through for a marbled effect. The harissa blooms in the heat.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">acid:</span> <strong>Za'atar and Lemon Finish</strong> — The moment the skillet comes off heat, sprinkle 1 tsp za'atar over the eggs and squeeze half a lemon across the whole dish. Add a few torn mint leaves.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">temperature:</span> <strong>Cold Labneh Dollops</strong> — Drop 3-4 tablespoons of cold labneh (or thick Greek yogurt) in dollops around the hot shakshuka right before serving. Don't stir it in. The cold-hot contrast is the point.
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="album-block">
+    <div class="album-title">🎵 Makaya McCraven – In These Times</div>
+    <div class="album-info">2022 · Jazz / Hip-Hop · Warm, meditative, groovy</div>
+    <div class="album-desc">Chicago drummer and producer Makaya McCraven doesn't just play jazz — he deconstructs and reassembles it with a hip-hop producer's ear. 'In These Times' layers live ensemble recordings with lush strings and vibraphone into something warm, unhurried, and impossible to stop playing.</div>
+    <div class="album-sonic">🔊 Live jazz ensemble cut-and-pasted with hip-hop sensibility, lush strings, vibraphone</div>
+    <div class="album-why">After a full office day, you need music that doesn't ask anything of you but gives everything back. McCraven's meditative grooves match shakshuka's one-skillet simplicity — both are layered, warm, and better than they have any right to be for something so effortless.</div>
+  </div>
+  
+
+  
+  <div class="page-folio">5</div>
+</div>
+
+<div class="page page-day">
+  <div class="page-header">Daily Plan</div>
+  <h2 class="section-header">Tuesday, February 10</h2>
+  
+  <div class="day-intro">The warmest day of the week at 48°F — practically spring by this week's standards. But swim lessons mean the evening is a sprint: home, cook, eat, go. Babo Alfredo is the answer — 20 minutes, four ingredients, infinite comfort.</div>
+  
+  
+  <div class="weather-line"><span class="weather-emoji-print">☁️</span> Overcast, 48°F / 26°F · Sunny (87%), 80% cloud cover, wind 7 mph, 1% precip. Warmest day of the week.</div>
+  
+
+  
+  <div class="calendar-block">
+    <div>📅 Alex 1:1 3:35-4:00 PM</div><div>📅 COBRA Core & Deployments 4:05-4:30 PM</div><div>📅 Swim lessons (evening)</div>
+  </div>
+  
+
+  
+  <div class="dinner-block">
+    <div class="dinner-name">Babo Pasta with Alfredo Sauce</div>
+    <div class="cuisine-label">Italian</div>
+    <div class="dinner-desc">Silky fettuccine Alfredo made the Roman way — no cream, no shortcuts. Just good butter, a mountain of freshly grated Parmigiano-Reggiano, and the starchy pasta water doing the heavy lifting to create a glossy emulsion that clings to every strand. Finished with a snowfall of lemon zest from 12 inches above the bowl — the aromatic citrus oil brightens everything without breaking the sauce.</div>
+    
+    <div class="ingredients-line">fettuccine, butter, Parmigiano-Reggiano, pasta water, garlic</div>
+    
+    <div class="notes-line">Quick comfort food before swim lessons. Use Babo brand pasta.</div>
+  </div>
+  
+
+  
+  <div class="elevation-block">
+    <h4>Chef's Tips</h4>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">preparation:</span> <strong>Toasted Garlic Chip Garnish</strong> — Slice 4-5 garlic cloves paper-thin. Slowly cook in 2 tbsp olive oil over medium-low heat, swirling constantly, until light gold — about 3 minutes. Remove immediately to a paper towel. They'll darken as they cool. Reserve the garlic oil.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">acid:</span> <strong>Lemon Zest Snowfall</strong> — Using a Microplane, zest one lemon directly over each plated bowl of Alfredo from about 12 inches above. The zest should fall like snow. Do not squeeze the lemon — you want fragrance, not juice.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">texture:</span> <strong>Cracked Black Pepper and Toasted Breadcrumbs</strong> — Toast 1/4 cup panko in butter until deep gold. Season with flaky salt. Crack pepper aggressively — you want visible flecks. Serve both tableside.
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="album-block">
+    <div class="album-title">🎵 Say She She – Prism</div>
+    <div class="album-info">2022 · Disco-Soul / Funk · Warm, groovy, empowering</div>
+    <div class="album-desc">Say She She is a Brooklyn trio channeling the shimmering three-part harmonies of 70s disco-soul through a modern indie lens. 'Prism' sounds like Chic and Rotary Connection had a baby and raised it on Afrobeat. They're at 9:30 Club on Feb 17 — two days before Franc Moody hits the same stage.</div>
+    <div class="album-sonic">🔊 Three-part harmonies, vintage disco production, funk guitar, Afrobeat percussion</div>
+    <div class="album-why">Pasta night needs warmth without drama. Say She She's vintage disco-soul provides exactly that — the three-part harmonies float over the simmering butter like steam rising from the pot. Groovy enough to keep energy up before swim lessons.</div>
+  </div>
+  
+
+  
+  <div class="page-folio">6</div>
+</div>
+
+<div class="page page-day">
+  <div class="page-header">Daily Plan</div>
+  <h2 class="section-header">Wednesday, February 11</h2>
+  
+  <div class="day-intro">Midweek reset. No meetings, working from home, 45°F outside. This is the day to take an afternoon walk, massage some kale, and let the week breathe. A big, punchy Caesar salad for dinner because not every night needs to be heavy — sometimes the salad is the main event.</div>
+  
+  
+  <div class="weather-line"><span class="weather-emoji-print">☁️</span> Overcast, 45°F / 30°F · Sunny (90%), 52% cloud cover, wind 13 mph, 18% precip.</div>
+  
+
+  
+
+  
+  <div class="dinner-block">
+    <div class="dinner-name">Kale Caesar Salad with Crispy Chickpeas</div>
+    <div class="cuisine-label">American</div>
+    <div class="dinner-desc">Lacinato kale — the sturdy, blue-green variety that doesn't wilt into nothing — massaged with olive oil and lemon until tender, then tossed in a proper anchovy-lemon Caesar dressing with shaved Parmesan, herbed croutons, and chickpeas roasted with cumin and smoked paprika until they shatter when you bite them. This isn't a side salad. This is dinner.</div>
+    
+    <div class="ingredients-line">lacinato kale, anchovy, lemon, Parmesan, chickpeas, garlic, croutons</div>
+    
+    <div class="notes-line">Hefty dinner salad. Roast chickpeas with cumin and smoked paprika for crunch and protein.</div>
+  </div>
+  
+
+  
+  <div class="elevation-block">
+    <h4>Chef's Tips</h4>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">preparation:</span> <strong>Warm Anchovy-Garlic Oil Drizzle</strong> — Gently warm 3 tbsp olive oil with 2 chopped anchovy fillets and 1 sliced garlic clove over low heat until the anchovies dissolve — about 3 minutes. Drizzle this warm oil over the dressed kale just before serving.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">texture:</span> <strong>Parmesan Frico Shards</strong> — Mound 2-tbsp piles of grated Parmesan on a parchment-lined baking sheet. Bake at 400°F for 5-6 minutes until golden and lacy. Cool completely — they'll shatter into crispy shards. Stand them upright in the salad.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">acid:</span> <strong>Preserved Lemon Dice</strong> — Dice 1 tbsp preserved lemon rind very finely. Scatter over the salad. If you don't have preserved lemon, mix lemon zest with a pinch of salt and let sit 10 minutes.
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="album-block">
+    <div class="album-title">🎵 Hiroshi Yoshimura – Music for Nine Post Cards</div>
+    <div class="album-info">1982 · Japanese Ambient / Minimalism · Serene, crystalline, meditative</div>
+    <div class="album-desc">Originally commissioned for Tokyo's Hara Museum of Contemporary Art in 1982, Yoshimura's debut is nine pieces of pure stillness — sparse electric piano and warm analog synths that were designed to merge with the museum's architecture, not compete with it. The 2017 reissue introduced it to a global audience who immediately understood: this is music you live inside.</div>
+    <div class="album-sonic">🔊 Sparse piano, warm analog synths, silence as instrument, environmental music</div>
+    <div class="album-why">A clean, bright salad dinner needs clean, airy music. Yoshimura's crystalline ambient doesn't fill a room — it reshapes it. The silence between notes is as intentional as the lemon in the dressing. Both are exercises in restraint that somehow feel abundant.</div>
+  </div>
+  
+
+  
+  <div class="prep-block">
+    <h4>Prep</h4>
+    <ul><li>Massage kale with olive oil and lemon juice 30 min before serving</li></ul>
+  </div>
+  
+  <div class="page-folio">7</div>
+</div>
+
+<div class="page page-day">
+  <div class="page-header">Daily Plan</div>
+  <h2 class="section-header">Thursday, February 12</h2>
+  
+  <div class="day-intro">Thursday pulls double duty: Valentine's heart-shaped mini pizzas for the potluck lunch at work, then home to make fresh egg pasta from scratch for dinner. The pappardelle is the week's cooking project — hands in flour, dough resting, mushrooms browning — and it's worth every minute.</div>
+  
+  
+  <div class="weather-line"><span class="weather-emoji-print">☁️</span> Overcast, 37°F / 27°F · Sunny (92%), 87% cloud cover, wind 13 mph, 11% precip.</div>
+  
+
+  
+  <div class="calendar-block">
+    <div>📅 Valentine's Day potluck lunch (bring heart-shaped mini pizzas)</div>
+  </div>
+  
+
+  
+  <div class="dinner-block">
+    <div class="dinner-name">Mushroom Pappardelle with Fresh Egg Pasta</div>
+    <div class="cuisine-label">Italian</div>
+    <div class="dinner-desc">Wide ribbons of fresh egg pappardelle — the kind you can only get by making it yourself, with that tender, silky chew — tossed with a mix of cremini, oyster, and rehydrated porcini mushrooms seared until deeply golden in brown butter with crispy sage. The porcini soaking liquid gets reduced to a syrup and stirred in — it's liquid umami. Finished with toasted walnuts and a splash of sherry vinegar you'll barely taste but absolutely miss if it's gone.</div>
+    
+    <div class="ingredients-line">00 flour, eggs, cremini mushrooms, oyster mushrooms, dried porcini, butter, white wine, sage, Parmesan</div>
+    
+    <div class="notes-line">Make the fresh egg pasta dough in the afternoon and rest it. Roll and cut wide pappardelle before dinner.</div>
+  </div>
+  
+
+  
+  <div class="elevation-block">
+    <h4>Chef's Tips</h4>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">sauce:</span> <strong>Brown Butter with Crispy Sage</strong> — In a separate small pan, cook 4 tbsp butter over medium heat until it foams, goes quiet, then turns nutty brown — about 4 minutes. Drop in 8-10 sage leaves and fry 30 seconds until crisp. Pour the brown butter over plated pasta. Set crispy sage leaves on top.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">preparation:</span> <strong>Porcini Soaking Liquid Reduction</strong> — Strain the porcini soaking liquid through a coffee filter to remove grit. Reduce it by half in a small pot. Add this concentrated mushroom liquor to the sauce when you deglaze with white wine. It's liquid umami.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">texture:</span> <strong>Toasted Walnut Crumble</strong> — Toast 1/3 cup walnut halves in a dry pan until fragrant. Roughly chop. Scatter over plated pasta with a grinding of black pepper.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">acid:</span> <strong>Sherry Vinegar Finish</strong> — Just before tossing the pasta into the mushroom pan, add 1 tsp good sherry vinegar to the sauce. Toss immediately. The vinegar will mostly evaporate, leaving behind complexity.
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="album-block">
+    <div class="album-title">🎵 Mulatu Astatke – Mulatu of Ethiopia</div>
+    <div class="album-info">1972 · Ethio-Jazz · Hypnotic, groovy, mysterious</div>
+    <div class="album-desc">Mulatu Astatke was the first African student at Berklee College of Music. He took what he learned about jazz and Latin music and fused it with Ethiopian pentatonic scales and traditional modes to invent an entirely new genre: Ethio-jazz. 'Mulatu of Ethiopia' (1972), recorded in New York, is the masterwork — vibraphone, organ, and congas moving through hypnotic minor-key grooves that sound like nothing else ever recorded.</div>
+    <div class="album-sonic">🔊 Ethiopian pentatonic scales, vibraphone, organ, congas, walking bass, jazz arrangements</div>
+    <div class="album-why">Earthy mushroom pappardelle and earthy Ethio-jazz — the pairing writes itself. The vibraphone's warm shimmer mirrors the brown butter, the walking bass echoes the deep umami of reduced porcini, and the hypnotic repetition matches the meditative rhythm of rolling fresh pasta.</div>
+  </div>
+  
+
+  
+  <div class="prep-block">
+    <h4>Prep</h4>
+    <ul><li>Make pizza dough Wednesday night</li><li>Shape heart pizzas Thursday morning</li><li>Make fresh pasta dough Thursday afternoon, rest 30 min</li></ul>
+  </div>
+  
+  <div class="page-folio">8</div>
+</div>
+
+<div class="page page-day">
+  <div class="page-header">Daily Plan</div>
+  <h2 class="section-header">Friday, February 13</h2>
+  
+  <div class="day-intro">Friday is a split operation: Elsie at YAT until 6, Laura at book club. Dan picks up Elsie, comes home, and slides a prepped sheet pan of bronzino into a hot oven. Twenty-five minutes later: crispy-skinned fish over roasted kale, and the whole evening ahead for just the two of them.</div>
+  
+  
+  <div class="weather-line"><span class="weather-emoji-print">☁️</span> Overcast, 36°F / 24°F · Sunny (92%), 39% cloud cover, wind 11 mph, 22% precip.</div>
+  
+
+  
+  <div class="calendar-block">
+    <div>📅 Laura book club (evening)</div><div>📅 Elsie YAT 4:30-6:00 PM</div>
+  </div>
+  
+
+  
+  <div class="dinner-block">
+    <div class="dinner-name">Baked Bronzino with Roasted Kale</div>
+    <div class="cuisine-label">Mediterranean</div>
+    <div class="dinner-desc">Butterflied bronzino roasted at 425°F over a bed of lacinato kale, burst cherry tomatoes, and white beans — the fish makes its own pan sauce from lemon, garlic, and good olive oil as it cooks. Scored skin with thyme tucked into the slashes, finished under the broiler for two minutes until the skin crackles. Topped with a crispy caper and lemon zest gremolata that adds brightness and crunch to every bite.</div>
+    
+    <div class="ingredients-line">whole bronzino (butterflied), lacinato kale, cherry tomatoes, white beans, lemon, garlic, olive oil</div>
+    
+    <div class="notes-line">Can prep the kale-tomato-bean bed ahead. Nestle fish on top when home from picking up Elsie. 25 min in oven.</div>
+  </div>
+  
+
+  
+  <div class="elevation-block">
+    <h4>Chef's Tips</h4>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">sauce:</span> <strong>Ladolemono (Greek Lemon-Olive Oil Sauce)</strong> — Whisk 1/4 cup best olive oil with juice of 1 lemon, 1 minced garlic clove, 1 tsp dried oregano, salt, and pepper. Spoon generously over the fish the moment it comes out of the oven. The heat emulsifies the sauce.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">preparation:</span> <strong>Score and Stuff the Fish</strong> — Score the skin of the butterflied bronzino with 3 diagonal slashes on each side. Tuck thin lemon slices and thyme sprigs into the slashes. This looks dramatic and allows heat and seasoning to penetrate evenly.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">texture:</span> <strong>Crispy Caper and Lemon Zest Gremolata</strong> — Pat dry 2 tbsp capers. Fry in olive oil for 1 minute until they bloom open and turn crispy. Mix with finely grated lemon zest and 1 tbsp chopped parsley. Scatter over the plated fish.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">temperature:</span> <strong>Room-Temperature Tomato-Bean Salad Base</strong> — Toss the roasted cherry tomatoes and white beans with a splash of red wine vinegar while warm, then let them cool to room temperature before plating under the hot fish.
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="album-block">
+    <div class="album-title">🎵 Laufey – Bewitched</div>
+    <div class="album-info">2023 · Jazz-Pop / Bossa Nova · Dreamy, romantic, bittersweet</div>
+    <div class="album-desc">Laufey (pronounced 'Lay-vay') is an Icelandic-Chinese jazz-pop prodigy who studied cello at Berklee before becoming the youngest artist ever to win the Grammy for Best Traditional Pop Vocal Album. 'Bewitched' blends golden-age jazz sensibility — think Chet Baker, Ella Fitzgerald — with bossa nova rhythms and Gen-Z lyrical honesty. It's intimate, romantic, and quietly sophisticated.</div>
+    <div class="album-sonic">🔊 Jazz guitar, gentle strings, bossa nova rhythms, intimate vocals</div>
+    <div class="album-why">Light fish, light music. Laufey's bossa nova-inflected jazz is airy enough for delicate bronzino and romantic enough for the night before Valentine's Day. The intimacy of her voice — close-miked, almost whispered — matches the intimacy of a solo dinner with your daughter.</div>
+  </div>
+  
+
+  
+  <div class="prep-block">
+    <h4>Prep</h4>
+    <ul><li>Prep kale-tomato-bean bed before picking up Elsie</li></ul>
+  </div>
+  
+  <div class="page-folio">9</div>
+</div>
+
+<div class="page page-day">
+  <div class="page-header">Daily Plan</div>
+  <h2 class="section-header">Saturday, February 14</h2>
+  
+  <div class="day-intro">Valentine's Day, the clearest sky of the week, and a travel day. The enchilada filling and both sauces are prepped from Friday night — all that's left is assembly and 20 minutes in a hot oven. The visual alone — half red, half green, topped with pink pickled onions — is a Valentine worthy of the occasion.</div>
+  
+  
+  <div class="weather-line"><span class="weather-emoji-print">☀️</span> Mainly clear, 40°F / 26°F · Sunny (92%), 5% cloud cover, wind 7 mph, 20% precip. Clearest day of the week.</div>
+  
+
+  
+  <div class="calendar-block">
+    <div>📅 Valentine's Day</div><div>📅 Travel day</div>
+  </div>
+  
+
+  
+  <div class="dinner-block">
+    <div class="dinner-name">Christmas Enchiladas</div>
+    <div class="cuisine-label">Mexican</div>
+    <div class="dinner-desc">Enchiladas divorciadas — the dramatic 'divorced' presentation with rich red guajillo-ancho chile sauce on one side and bright tomatillo-green chile sauce on the other. Corn tortillas quick-fried for pliability and flavor, filled with shredded chicken and cheese, topped with crema, Cotija, cilantro, pink pickled red onions, and toasted pepitas. The two sauces meet in the middle of the baking dish like a delicious peace treaty.</div>
+    
+    <div class="ingredients-line">corn tortillas, shredded chicken, red chile sauce, tomatillo green sauce, Cotija cheese, crema, cilantro</div>
+    
+    <div class="notes-line">Travel day — can prep filling and sauces Friday night. Assemble and bake on arrival.</div>
+  </div>
+  
+
+  
+  <div class="elevation-block">
+    <h4>Chef's Tips</h4>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">preparation:</span> <strong>Toast and Fry the Tortillas</strong> — Before filling, pass each corn tortilla through hot oil (350°F) for 5-8 seconds per side — just enough to make them pliable and slightly golden. This prevents them from going soggy under the sauce and adds a subtle fried corn flavor.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">sauce:</span> <strong>Bloom the Dried Chiles Properly</strong> — For the red sauce: stem, seed, and dry-toast the chiles (guajillo + ancho) in a hot, dry skillet until they blister and become fragrant — about 30 seconds per side. Then soak in just-boiled water for 20 minutes. Blend with roasted garlic, oregano, and a splash of the soaking liquid.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">acid:</span> <strong>Quick-Pickled Red Onion Garnish</strong> — Thinly slice 1 red onion into rings. Cover with lime juice, a pinch of salt, and a pinch of sugar. Let sit 20 minutes until bright pink. Pile on top of enchiladas after baking.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">texture:</span> <strong>Toasted Pepita Garnish</strong> — Toast 1/4 cup raw pepitas (pumpkin seeds) in a dry skillet over medium heat, tossing frequently, until they puff and start to pop — about 3 minutes. Season with a pinch of salt and a squeeze of lime.
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="album-block">
+    <div class="album-title">🎵 Sade – Love Deluxe</div>
+    <div class="album-info">1992 · Smooth Jazz / R&B · Sensual, sophisticated, warm</div>
+    <div class="album-desc">There's a reason Sade's 'Love Deluxe' (1992) is the only album anyone ever needs for Valentine's Day. 'No Ordinary Love' opens with a bass line that sounds like a heartbeat. 'Kiss of Life' is the kind of song that makes you slow-dance in the kitchen. The whole record moves with the confidence of someone who knows exactly what they're doing — smoky, elegant, and impossibly cool.</div>
+    <div class="album-sonic">🔊 Smooth jazz, quiet storm R&B, African rhythms, silky vocals, saxophone</div>
+    <div class="album-why">It's Valentine's Day. There is exactly one album. Sade's smoky sophistication turns enchiladas from a casual dinner into a candlelit event. The African rhythms underneath the quiet storm R&B mirror the Mexican warmth of the dish. No debate, no alternatives.</div>
+  </div>
+  
+
+  
+  <div class="prep-block">
+    <h4>Prep</h4>
+    <ul><li>Prep enchilada filling and sauces Friday night</li><li>Assemble on arrival, bake 20 min</li></ul>
+  </div>
+  
+  <div class="page-folio">10</div>
+</div>
+
+
+
+
+<div class="page page-divider">
+  <div class="divider-title">Kitchen & Pantry</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">Appetizers, salads, beverages, and your shopping list</div>
+</div>
+
+
+
+
+<div class="page page-support">
+  <div class="page-header">Kitchen & Pantry</div>
+  
+  <h2 class="section-header">Appetizers</h2>
+  
+  <h3>Whipped Feta Dip with Roasted Red Peppers</h3>
+  <p>Creamy whipped feta blended with roasted red peppers, garlic, and a drizzle of good olive oil. Served with warm pita triangles and crudités.</p>
+  <p style="font-size:7.5pt;color:#666;">feta cheese, cream cheese, roasted red peppers, garlic, olive oil, pita</p>
+  
+  <h3>Crispy Baked Mozzarella Bites</h3>
+  <p>Golden panko-crusted mozzarella bites baked until molten inside, served with warm marinara. Kid-proof and party-ready.</p>
+  <p style="font-size:7.5pt;color:#666;">fresh mozzarella, panko breadcrumbs, eggs, flour, marinara sauce</p>
+  
+  
+
+  
+  <h2 class="section-header" style="margin-top:10pt;">Salads</h2>
+  
+  <div class="salad-entry">
+    <div class="type-label">composed dinner</div>
+    <h3>Winter Citrus & Radicchio Salad</h3>
+    <p>Composed plate of blood orange and cara cara segments, shaved radicchio, burrata, toasted pistachios, and Castelvetrano olives.</p>
+    <div class="dressing-box"><strong>Dressing:</strong> Blood orange vinaigrette: fresh blood orange juice, champagne vinegar, Dijon mustard, extra-virgin olive oil, minced shallot, flaky salt, cracked black pepper</div>
+    <div class="rationale">Bitter radicchio tamed by sweet citrus and creamy burrata. Pistachios add crunch. Italian amaro-dolce-grasso balance.</div>
+  </div>
+  
+  <div class="salad-entry">
+    <div class="type-label">side</div>
+    <h3>Shaved Brussels Sprout Slaw with Apple & Pecans</h3>
+    <p>Thinly shaved Brussels sprouts with Honeycrisp apple matchsticks, toasted pecans, dried cranberries, and Pecorino Romano.</p>
+    <div class="dressing-box"><strong>Dressing:</strong> Apple cider vinaigrette: apple cider vinegar, whole-grain mustard, honey, extra-virgin olive oil, salt, pepper</div>
+    <div class="rationale">Brussels sprout bitterness against sweet apple and tart cranberries. Pecans add warmth. Vinaigrette keeps it crisp and lively.</div>
+  </div>
+  
+  <div class="salad-entry">
+    <div class="type-label">side</div>
+    <h3>Roasted Beet & Citrus Salad with Goat Cheese</h3>
+    <p>Earthy roasted beets with grapefruit and orange segments, tangy goat cheese, and toasted walnuts on arugula.</p>
+    <div class="dressing-box"><strong>Dressing:</strong> Sherry-walnut vinaigrette: sherry vinegar, Dijon mustard, walnut oil, extra-virgin olive oil, minced shallot, honey, salt, pepper</div>
+    <div class="rationale">Earthy beets and bright citrus in sweet-savory tension. Goat cheese adds tang, walnuts bring warmth. Valentine's-worthy colors.</div>
+  </div>
+  
+  
+  <div class="page-folio"></div>
+</div>
+
+
+
+
+<div class="page page-support">
+  <div class="page-header">Kitchen & Pantry</div>
+  <h2 class="section-header">Beverage Pairings</h2>
+  
+  <h3>Malbec (Red Wine)</h3>
+  <p>Full-bodied, plummy Malbec from Mendoza — the ideal companion for a beef-heavy week. $12-15 range.</p>
+  <p style="font-size:7.5pt;font-style:italic;color:#666;">Pairs with cheesesteaks, pappardelle, and enchiladas.</p>
+  
+  <h3>Sparkling Pomegranate Mocktail</h3>
+  <p>Pomegranate juice, fresh lime, simple syrup, and sparkling water over ice. Festive ruby-red.</p>
+  <p style="font-size:7.5pt;font-style:italic;color:#666;">Non-alcoholic option for the family. Valentine's-worthy color.</p>
+  
+  <h3>Japanese Lager (Asahi or Sapporo)</h3>
+  <p>Crisp, clean Japanese lager served ice-cold. Cuts through rich miso or umami flavors.</p>
+  <p style="font-size:7.5pt;font-style:italic;color:#666;">Light contrast to the umami-heavy bronzino and kale dinner.</p>
+  
+  <div class="page-folio"></div>
+</div>
+
+
+
+<div class="page page-grocery">
+  <div class="page-header">Kitchen & Pantry</div>
+  <h2 class="section-header">Grocery List</h2>
+  
+  <div class="grocery-cols">
+    
+    <div class="g-cat">
+      <h4>Produce</h4>
+      <ul><li>lacinato kale (2 bunches)</li><li>blood oranges</li><li>cara cara oranges</li><li>radicchio</li><li>Brussels sprouts</li><li>Honeycrisp apples</li><li>red & golden beets</li><li>grapefruit</li><li>cherry tomatoes</li><li>bell peppers</li><li>onions</li><li>garlic</li><li>lemons</li><li>limes</li><li>cilantro</li><li>sage</li><li>flat-leaf parsley</li><li>arugula</li><li>scallions</li><li>avocado</li><li>tomatillos</li><li>green chiles</li></ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Protein</h4>
+      <ul><li>ribeye steak (from RD)</li><li>whole bronzino (2, butterflied)</li><li>eggs (2 dozen)</li><li>shredded rotisserie chicken</li></ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Dairy</h4>
+      <ul><li>butter (2 lbs)</li><li>Parmigiano-Reggiano</li><li>Pecorino Romano</li><li>feta cheese</li><li>burrata</li><li>goat cheese</li><li>provolone</li><li>mozzarella (fresh)</li><li>cream cheese</li><li>Cotija cheese</li><li>Mexican crema</li></ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Pantry</h4>
+      <ul><li>fettuccine (Babo brand)</li><li>00 flour</li><li>canned crushed tomatoes</li><li>white beans (canned)</li><li>dried porcini mushrooms</li><li>panko breadcrumbs</li><li>dried red chiles</li><li>cumin</li><li>paprika</li><li>smoked paprika</li><li>coriander</li><li>hoagie rolls</li><li>corn tortillas</li><li>pita bread</li><li>crusty bread</li><li>croutons</li><li>pistachios</li><li>pecans</li><li>walnuts</li><li>dried cranberries</li><li>Castelvetrano olives</li><li>anchovy fillets</li><li>Dijon mustard</li><li>whole-grain mustard</li><li>champagne vinegar</li><li>apple cider vinegar</li><li>sherry vinegar</li><li>red wine vinegar</li><li>extra-virgin olive oil</li><li>walnut oil</li><li>white wine</li><li>honey</li><li>chickpeas (canned)</li></ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Mushrooms</h4>
+      <ul><li>cremini mushrooms</li><li>oyster mushrooms</li></ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Beverages</h4>
+      <ul><li>Malbec wine</li><li>pomegranate juice</li><li>sparkling water</li><li>Japanese lager (Asahi or Sapporo)</li></ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Potluck Thursday</h4>
+      <ul><li>pizza dough</li><li>marinara sauce</li><li>mozzarella (shredded)</li><li>pepperoni</li><li>red bell pepper</li></ul>
+    </div>
+    
+  </div>
+  
+  <div class="page-folio"></div>
+</div>
+
+
+
+<div class="page page-grocery">
+  <div class="page-header">Kitchen & Pantry</div>
+  <h2 class="section-header">Prep-Ahead Checklist</h2>
+  <div class="prep-list">
+    <ul><li>Saturday: Pick up ribeye from RD for Sunday cheesesteaks</li><li>Wednesday night: Make pizza dough for Thursday potluck heart pizzas</li><li>Thursday morning: Shape and bake heart-shaped mini pizzas for potluck</li><li>Thursday afternoon: Make fresh egg pasta dough, rest 30 min</li><li>Friday afternoon: Prep kale-tomato-bean bed for bronzino</li><li>Friday evening: Prep enchilada filling and both sauces for Saturday</li></ul>
+  </div>
+  <div class="page-folio"></div>
+</div>
+
+
+
+
+<div class="page page-divider">
+  <div class="divider-title">Family Corner</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">Conversation starters, parenting nudges, and connection ideas</div>
+</div>
+
+
+
+
+
+<div class="page page-parenting">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Parenting Corner</h2>
+  
+  <div class="theme-banner">
+    <h3>Love in Action</h3>
+    <p>Valentine's week isn't just about cards and candy — it's a chance to explore what love looks like when it's a verb. How do we show care through cooking together, through small kindnesses at school, through making someone's favorite meal? This week, look for moments to ask Elsie: what does love look like when you do it, not just say it?</p>
+  </div>
+  
+
+  
+  <h3 style="font-size:9.5pt;font-weight:600;margin:5pt 0 3pt;">Dinner Conversation Starters</h3>
+  
+  <div class="question-entry">
+    <div class="question-day">Sunday — Philly Cheesesteaks</div>
+    <div class="question-text">"If you could make any sandwich in the world for your best friend, what would you put on it and why?"</div>
+    <div class="question-why">Connects food to friendship and generosity. At 8, she's deeply invested in best-friend dynamics — this lets her express care through a creative, low-stakes scenario.</div>
+  </div>
+  
+  <div class="question-entry">
+    <div class="question-day">Monday — Shakshuka with Feta</div>
+    <div class="question-text">"What's the bravest thing you saw someone do today — even if it was something small?"</div>
+    <div class="question-why">Eight-year-olds are building their moral compass and starting to notice courage in everyday actions. This question helps her practice recognizing bravery beyond physical feats — standing up for someone, trying something new, admitting a mistake.</div>
+  </div>
+  
+  <div class="question-entry">
+    <div class="question-day">Tuesday — Babo Pasta with Alfredo</div>
+    <div class="question-text">"If our family had a theme song, what would it sound like? Fast or slow? Loud or quiet? What instruments?"</div>
+    <div class="question-why">Swim lesson nights are rushed — this question is pure fun with no right answer. It invites creativity and reveals how she perceives the family's energy. Plus, there's music playing (Say She She) — she can riff off what she hears.</div>
+  </div>
+  
+  <div class="question-entry">
+    <div class="question-day">Wednesday — Kale Caesar Salad</div>
+    <div class="question-text">"What's something you're really good at that you didn't used to be good at? How did you get better?"</div>
+    <div class="question-why">At 8, she's developing a growth mindset — the ability to see effort as the path to mastery. This question helps her narrate her own competence story, which builds resilience for future challenges.</div>
+  </div>
+  
+  <div class="question-entry">
+    <div class="question-day">Thursday — Mushroom Pappardelle</div>
+    <div class="question-text">"Valentine's Day is coming up — if you could show love to someone at school without using words, how would you do it?"</div>
+    <div class="question-why">This ties directly to the weekly theme of 'love in action.' It pushes her to think about non-verbal expressions of care — saving a seat, sharing a snack, drawing a picture. These are the building blocks of empathy.</div>
+  </div>
+  
+  <div class="question-entry">
+    <div class="question-day">Friday — Baked Bronzino with Roasted Kale</div>
+    <div class="question-text">"What's something you wish grown-ups understood better about being 8?"</div>
+    <div class="question-why">This is a trust question. It says: I want to understand your world. Eight-year-olds often feel unheard by adults — this invites her to be the expert. Listen without correcting.</div>
+  </div>
+  
+  <div class="question-entry">
+    <div class="question-day">Saturday — Christmas Enchiladas</div>
+    <div class="question-text">"What are three things you love about our family — not things we have, but things we do?"</div>
+    <div class="question-why">Valentine's Day dinner — the perfect moment to talk about family love. Asking about actions (not possessions) reinforces that love is demonstrated, not just felt. Travel day makes this a great car conversation too.</div>
+  </div>
+  
+  
+  <div class="page-folio"></div>
+</div>
+
+
+<div class="page page-parenting">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Nudges & Reflection</h2>
+  
+  
+  <div class="nudge-card">
+    <h4>The Sous Chef Moment</h4>
+    <p><em>Thursday's dinner involves making fresh pasta from scratch — eggs, flour, and rolling. This is the perfect invitation.</em></p>
+    <p>Let Elsie handle the pasta dough. Crack the eggs, measure the flour, knead until smooth. Don't correct her technique unless she asks. Let the mess happen.</p>
+    
+    <ol class="nudge-steps"><li>Set up her station: apron, flour, eggs, a clean surface</li><li>Show her once how to make the well and crack the eggs in</li><li>Step back. Let her knead. Let her feel the dough change texture.</li><li>When it's smooth, tell her: 'You made that. From scratch. That's real.'</li></ol>
+    
+  </div>
+  
+  <div class="nudge-card">
+    <h4>The Valentine Card Factory</h4>
+    <p><em>Valentine's Day is Saturday but the potluck is Thursday. The week is naturally Valentine-themed — lean into it with a creative project early in the week.</em></p>
+    <p>Monday or Tuesday evening, set out supplies and make Valentine cards together — not store-bought, handmade. For friends, for teachers, for each other.</p>
+    
+    <ol class="nudge-steps"><li>Gather: construction paper, markers, stickers, scissors, glue</li><li>Each person makes at least 3 cards — including one for each family member</li><li>No templates or Pinterest perfection — messy is better</li><li>Read them aloud to each other before sealing</li></ol>
+    
+  </div>
+  
+  <div class="nudge-card">
+    <h4>The Friday Solo Mission</h4>
+    <p><em>Laura is at book club. Dan is solo with Elsie after YAT pickup at 6 PM. This is a connection goldmine.</em></p>
+    <p>After dinner, let Elsie choose the entire evening agenda. Movie, game, craft, or just talking. The only rule: no phones for either of you. Call it 'Elsie's Night.'</p>
+    
+    <ol class="nudge-steps"><li>On the drive home from YAT, ask: 'Tonight is yours. What do you want to do?'</li><li>Whatever she picks, commit fully. Don't suggest alternatives.</li><li>If she picks a movie, watch it next to her, not across the room.</li><li>Before bed: 'I really liked hanging out with just you tonight.'</li></ol>
+    
+  </div>
+  
+  
+
+  
+  <div class="book-rec">
+    <h4>📖 Each Kindness by Jacqueline Woodson</h4>
+    <p>A beautiful picture book (yes, even for 8-year-olds) about a girl who misses the chance to be kind to a new student — and the regret that follows. It's short, powerful, and unforgettable. Perfect for Valentine's week because it reframes love as everyday kindness, not grand gestures.</p>
+    <p><em>Ties directly to the 'Love in Action' theme. Read it together any night this week — it takes 10 minutes and will generate a conversation that lasts much longer.</em></p>
+  </div>
+  
+
+  
+  <div class="reflection-box">
+    This week, pay attention to how Elsie shows love — not how she says it. Does she save you the best piece? Does she draw you a picture unprompted? Does she sit closer to you on the couch? Those small, wordless gestures are her love language developing in real time. Notice them. Name them. 'I saw you saved me the corner piece — that made me feel really loved.' She needs to know her love lands.
+  </div>
+  
+
+  <p style="font-size:6.5pt;color:#aaa;text-align:center;margin-top:6pt;font-style:italic;">You don't need to be a perfect parent — just a present one.</p>
+  <div class="page-folio"></div>
+</div>
+
+
+
+
+
+
+<div class="page page-back">
+  <div class="back-inner">
+  
+  <div class="notes-section">
+    <h3>Notes</h3>
+    <ul><li>Beef craving satisfied on Sunday (cheesesteaks) and Thursday (pappardelle mushrooms with richness).</li><li>Valentine's heart-shaped mini pizzas for Thursday work potluck — Gen Alpha approved.</li><li>Thursday potluck is lunch; mushroom pappardelle for dinner balances the day.</li><li>Kale and bronzino+kale give two hearty kale nights as requested.</li><li>Saturday is travel day — enchilada components travel well, assemble on arrival.</li><li>This week tells a story in temperatures — from 17°F Sunday to the week's warmth on Tuesday (48°F) and back down again. The dinners follow suit: hearty bookends with lighter, brighter cooking in the middle.</li><li>Two kale nights (Wednesday and Friday) might sound repetitive on paper, but they're completely different experiences — a punchy Caesar versus a Mediterranean fish supper. The green thread ties the week together.</li></ul>
+  </div>
+  
+  
+  <div class="nutrition"><strong>Nutrition at a Glance</strong>This week's dinners are hearty and satisfying — exactly what a cold February demands. Protein variety is outstanding (beef, eggs, dairy, chickpeas, fish, chicken across seven nights), and the two kale-forward dinners provide serious nutrient density midweek. The gaps are what you'd expect from comfort cooking: no whole grains at dinner, limited fruit, and some rich nights. The fix is easy — whole grain lunches, fruit-heavy snacks, and a vitamin D supplement while February keeps the sun at bay. Overall grade: B+, and the lunches and snacks below bring it to an A.</div>
+  
+  <div class="back-divider"></div>
+  <div class="colophon">February 8 – 14, 2026 · Generated 2026-02-07 13:48</div>
+  </div>
+</div>
+
+
+
+
+<div class="screen-container">
+  <div class="cover-screen">
+    <h1>Weekly Planner</h1>
+    <div class="week-range">February 8 – 14, 2026</div>
+    
+    <div class="highlight">Valentine's week in the kitchen: from Philly cheesesteaks on a bone-cold Sunday to Sade spinning over Christmas enchiladas on the 14th — seven nights of comfort, curiosity, and love in action.</div>
+    
+  </div>
+
+  <h2 class="section-title">Week at a Glance</h2>
+  <table class="glance-table">
+    <thead>
+      <tr><th></th><th>Day</th><th>Weather</th><th>Events</th><th>Dinner</th><th>Album</th></tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><span class="weather-emoji">🌤️</span></td>
+        <td class="day-name">Sun 02/08</td>
+        <td>Sunny, 17°F / 8°F</td>
+        <td>—</td>
+        <td>Philly Cheesesteaks</td>
+        <td>Franc Moody – Dream in Colour</td>
+      </tr>
+      
+      <tr>
+        <td><span class="weather-emoji">🌤️</span></td>
+        <td class="day-name">Mon 02/09</td>
+        <td>Sunny, 32°F / 8°F</td>
+        <td>Conduit Demonstration and Planning 4:00-5:00 PM (Reston Conf Room 5.1B)</td>
+        <td>Shakshuka with Feta</td>
+        <td>Makaya McCraven – In These Times</td>
+      </tr>
+      
+      <tr>
+        <td><span class="weather-emoji">☁️</span></td>
+        <td class="day-name">Tue 02/10</td>
+        <td>Overcast, 48°F / 26°F</td>
+        <td>Alex 1:1 3:35-4:00 PM; COBRA Core & Deployments 4:05-4:30 PM; Swim lessons (evening)</td>
+        <td>Babo Pasta with Alfredo Sauce</td>
+        <td>Say She She – Prism</td>
+      </tr>
+      
+      <tr>
+        <td><span class="weather-emoji">☁️</span></td>
+        <td class="day-name">Wed 02/11</td>
+        <td>Overcast, 45°F / 30°F</td>
+        <td>—</td>
+        <td>Kale Caesar Salad with Crispy Chickpeas</td>
+        <td>Hiroshi Yoshimura – Music for Nine Post Cards</td>
+      </tr>
+      
+      <tr>
+        <td><span class="weather-emoji">☁️</span></td>
+        <td class="day-name">Thu 02/12</td>
+        <td>Overcast, 37°F / 27°F</td>
+        <td>Valentine's Day potluck lunch (bring heart-shaped mini pizzas)</td>
+        <td>Mushroom Pappardelle with Fresh Egg Pasta</td>
+        <td>Mulatu Astatke – Mulatu of Ethiopia</td>
+      </tr>
+      
+      <tr>
+        <td><span class="weather-emoji">☁️</span></td>
+        <td class="day-name">Fri 02/13</td>
+        <td>Overcast, 36°F / 24°F</td>
+        <td>Laura book club (evening); Elsie YAT 4:30-6:00 PM</td>
+        <td>Baked Bronzino with Roasted Kale</td>
+        <td>Laufey – Bewitched</td>
+      </tr>
+      
+      <tr>
+        <td><span class="weather-emoji">☀️</span></td>
+        <td class="day-name">Sat 02/14</td>
+        <td>Mainly clear, 40°F / 26°F</td>
+        <td>Valentine's Day; Travel day</td>
+        <td>Christmas Enchiladas</td>
+        <td>Sade – Love Deluxe</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <h2 class="section-title">Daily Plan</h2>
+  
+  <div class="day-card">
+    <h3>Sunday, February 8</h3>
+    <p style="font-style:italic;color:var(--muted);font-size:14px;margin-bottom:10px;">It's 17°F with wind gusts up to 44 mph — the kind of Sunday where you don't leave the house unless someone's on fire. Which makes it the perfect day for cheesesteaks, board games, and Franc Moody's disco-funk warming the kitchen like a space heater with a bassline.</p>
+    <div class="weather"><span class="weather-emoji">🌤️</span> Sunny, 17°F / 8°F · Sunny (89%), wind 19 mph (gusts 44 mph), 0% precip. Bitter cold.</div>
+
+    
+
+    
+    <div class="dinner-title">Philly Cheesesteaks</div>
+    <span class="cuisine-tag">American</span>
+    <p class="description">Classic Philly cheesesteaks with paper-thin ribeye from RD, seared screaming-hot on a cast-iron griddle until the edges crisp and the fat renders. Provolone melted directly over the beef, sautéed onions caramelized until sweet, all piled into garlic-butter-toasted hoagie rolls.</p>
+    <p class="ingredients">ribeye steak, provolone cheese, hoagie rolls, onions, peppers</p>
+    <a href="https://www.seriouseats.com/philly-cheesesteak-recipe" target="_blank" rel="noopener" class="recipe-link">📖 Recipe: Serious Eats</a>
+    <p class="notes">Pick up steak from RD beforehand. Quick cook — sear thin slices at high heat.</p>
+    
+
+    
+    <div class="elevation-tips">
+      <h4>🔥 Chef's Tips</h4>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">preparation:</span> <strong>Worcestershire Fond Glaze</strong> — During the last 30 seconds of cooking the beef, hit it with a tablespoon of Worcestershire sauce directly on the screaming-hot griddle. Let it sizzle and caramelize into the meat. This creates a savory glaze that makes the steak taste more like steak.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">sauce:</span> <strong>Garlic Butter Roll Toast</strong> — Melt 2 tbsp butter with 1 minced garlic clove. Split hoagie rolls, brush the insides with garlic butter, and griddle cut-side down until golden and crisp. The butter creates a moisture barrier that prevents the bread from going soggy.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">texture:</span> <strong>Crispy Shallot Rings</strong> — Thinly slice 2 shallots into rings. Toss in seasoned flour, shake off excess, and fry in 350°F oil for 2-3 minutes until deeply golden. Drain on paper towels, salt immediately. Pile on top of the assembled cheesesteak.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">acid:</span> <strong>Quick-Pickled Hot Peppers</strong> — Slice banana peppers or cherry peppers into rings. Cover with equal parts white vinegar and water, a pinch of sugar and salt. Let sit 15 minutes. Pile onto cheesesteaks for a bright, acidic crunch.
+      </div>
+      
+    </div>
+    
+
+    
+    <details class="prep-detail">
+      <summary>🍳 Full Prep Instructions</summary>
+      <div class="prep-meta">
+        <span class="prep-meta-item">⏱ 30 minutes total</span>
+        <span class="prep-meta-item">👩‍🍳 Active: 30 minutes</span>
+      </div>
+      
+      <ol class="prep-steps">
+        <li>Partially freeze ribeye for thin slicing</li><li>Slice onions and peppers</li><li>Sear beef at high heat 90 sec per side</li><li>Melt provolone over meat on griddle</li><li>Toast hoagie rolls and assemble</li>
+      </ol>
+      
+      
+      <div class="prep-equipment">🔧 <strong>Equipment:</strong> Cast iron or flat griddle</div>
+      
+      
+      <div class="prep-make-ahead">💡 <strong>Make ahead:</strong> Slice meat and prep veggies ahead of time.</div>
+      
+    </details>
+    
+
+    
+    <div class="album-pairing">
+      <div class="album-name">🎵 Franc Moody – Dream in Colour</div>
+      <div class="album-meta">2022 · Disco-Funk / Indie-Pop</div>
+      <div class="album-desc">Born in a Tottenham warehouse studio full of vintage gear and Tabasco-bottle percussion, Franc Moody's debut is pure London disco-funk energy. Ned Franc and Jon Moody spent 18 months crafting these irresistibly funky tracks — they're playing 9:30 Club on Feb 19 if you catch the bug.</div>
+      <div class="album-sonic">🔊 Disco-funk basslines, shimmering synths, falsetto vocals, infectious hooks</div>
+      <div class="album-rationale">Cheesesteaks are a contact sport — hot griddle, fast hands, melted cheese flying. You need music with the same energy. Franc Moody's disco-funk basslines turn the kitchen into a dance floor while you sear.</div>
+      
+    </div>
+    
+
+    
+    <div class="prep-notes">
+      <h4>Prep Notes</h4>
+      <ul><li>Pick up ribeye from RD</li></ul>
+    </div>
+    
+  </div>
+  
+  <div class="day-card">
+    <h3>Monday, February 9</h3>
+    <p style="font-style:italic;color:var(--muted);font-size:14px;margin-bottom:10px;">Monday at the office with a demo running until 5 PM. By the time you walk in the door, you want something that requires exactly one pan and zero decisions. Shakshuka delivers — eggs, spiced tomatoes, feta, bread, done.</p>
+    <div class="weather"><span class="weather-emoji">🌤️</span> Sunny, 32°F / 8°F · Sunny (90%), wind 8 mph, 0% precip. Cold but calm.</div>
+
+    
+    <div style="margin-bottom:10px;">
+      <div style="font-size:13px;">📅 Conduit Demonstration and Planning 4:00-5:00 PM (Reston Conf Room 5.1B)</div>
+    </div>
+    
+
+    
+    <div class="dinner-title">Shakshuka with Feta</div>
+    <span class="cuisine-tag">North African / Israeli</span>
+    <p class="description">Eggs poached in a smoky, garlicky tomato sauce spiked with harissa and finished with cold labneh dollops and a shower of za'atar. The contrast between the searing-hot sauce and the cool yogurt is what separates this from 'eggs in tomato sauce.' Serve with thick-cut sourdough for dunking — the yolk situation demands it.</p>
+    <p class="ingredients">eggs, canned tomatoes, bell peppers, feta cheese, cumin, paprika, crusty bread</p>
+    <a href="https://www.seriouseats.com/shakshuka-recipe" target="_blank" rel="noopener" class="recipe-link">📖 Recipe: Serious Eats</a>
+    <p class="notes">One-skillet, 20 minutes. Perfect after a long office day.</p>
+    
+
+    
+    <div class="elevation-tips">
+      <h4>🔥 Chef's Tips</h4>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">sauce:</span> <strong>Harissa Swirl</strong> — Stir 1-2 tsp of harissa paste into the tomato sauce before adding eggs. Then dot another teaspoon on top in small spoonfuls and drag a knife through for a marbled effect. The harissa blooms in the heat.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">acid:</span> <strong>Za'atar and Lemon Finish</strong> — The moment the skillet comes off heat, sprinkle 1 tsp za'atar over the eggs and squeeze half a lemon across the whole dish. Add a few torn mint leaves.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">temperature:</span> <strong>Cold Labneh Dollops</strong> — Drop 3-4 tablespoons of cold labneh (or thick Greek yogurt) in dollops around the hot shakshuka right before serving. Don't stir it in. The cold-hot contrast is the point.
+      </div>
+      
+    </div>
+    
+
+    
+    <details class="prep-detail">
+      <summary>🍳 Full Prep Instructions</summary>
+      <div class="prep-meta">
+        <span class="prep-meta-item">⏱ 20 minutes</span>
+        <span class="prep-meta-item">👩‍🍳 Active: 20 minutes</span>
+      </div>
+      
+      <ol class="prep-steps">
+        <li>Sauté onions and peppers in olive oil</li><li>Add garlic, cumin, paprika</li><li>Pour in crushed tomatoes, simmer 10 min</li><li>Create wells, crack in eggs</li><li>Cover and cook 5-7 min until whites set</li><li>Crumble feta on top, serve with bread</li>
+      </ol>
+      
+      
+      <div class="prep-equipment">🔧 <strong>Equipment:</strong> Large oven-safe skillet</div>
+      
+      
+      <div class="prep-make-ahead">💡 <strong>Make ahead:</strong> Tomato base can be made ahead and reheated.</div>
+      
+    </details>
+    
+
+    
+    <div class="album-pairing">
+      <div class="album-name">🎵 Makaya McCraven – In These Times</div>
+      <div class="album-meta">2022 · Jazz / Hip-Hop</div>
+      <div class="album-desc">Chicago drummer and producer Makaya McCraven doesn't just play jazz — he deconstructs and reassembles it with a hip-hop producer's ear. 'In These Times' layers live ensemble recordings with lush strings and vibraphone into something warm, unhurried, and impossible to stop playing.</div>
+      <div class="album-sonic">🔊 Live jazz ensemble cut-and-pasted with hip-hop sensibility, lush strings, vibraphone</div>
+      <div class="album-rationale">After a full office day, you need music that doesn't ask anything of you but gives everything back. McCraven's meditative grooves match shakshuka's one-skillet simplicity — both are layered, warm, and better than they have any right to be for something so effortless.</div>
+      
+    </div>
+    
+
+    
+  </div>
+  
+  <div class="day-card">
+    <h3>Tuesday, February 10</h3>
+    <p style="font-style:italic;color:var(--muted);font-size:14px;margin-bottom:10px;">The warmest day of the week at 48°F — practically spring by this week's standards. But swim lessons mean the evening is a sprint: home, cook, eat, go. Babo Alfredo is the answer — 20 minutes, four ingredients, infinite comfort.</p>
+    <div class="weather"><span class="weather-emoji">☁️</span> Overcast, 48°F / 26°F · Sunny (87%), 80% cloud cover, wind 7 mph, 1% precip. Warmest day of the week.</div>
+
+    
+    <div style="margin-bottom:10px;">
+      <div style="font-size:13px;">📅 Alex 1:1 3:35-4:00 PM</div><div style="font-size:13px;">📅 COBRA Core & Deployments 4:05-4:30 PM</div><div style="font-size:13px;">📅 Swim lessons (evening)</div>
+    </div>
+    
+
+    
+    <div class="dinner-title">Babo Pasta with Alfredo Sauce</div>
+    <span class="cuisine-tag">Italian</span>
+    <p class="description">Silky fettuccine Alfredo made the Roman way — no cream, no shortcuts. Just good butter, a mountain of freshly grated Parmigiano-Reggiano, and the starchy pasta water doing the heavy lifting to create a glossy emulsion that clings to every strand. Finished with a snowfall of lemon zest from 12 inches above the bowl — the aromatic citrus oil brightens everything without breaking the sauce.</p>
+    <p class="ingredients">fettuccine, butter, Parmigiano-Reggiano, pasta water, garlic</p>
+    <a href="https://www.bonappetit.com/recipe/fettuccine-alfredo" target="_blank" rel="noopener" class="recipe-link">📖 Recipe: Bon Appétit</a>
+    <p class="notes">Quick comfort food before swim lessons. Use Babo brand pasta.</p>
+    
+
+    
+    <div class="elevation-tips">
+      <h4>🔥 Chef's Tips</h4>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">preparation:</span> <strong>Toasted Garlic Chip Garnish</strong> — Slice 4-5 garlic cloves paper-thin. Slowly cook in 2 tbsp olive oil over medium-low heat, swirling constantly, until light gold — about 3 minutes. Remove immediately to a paper towel. They'll darken as they cool. Reserve the garlic oil.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">acid:</span> <strong>Lemon Zest Snowfall</strong> — Using a Microplane, zest one lemon directly over each plated bowl of Alfredo from about 12 inches above. The zest should fall like snow. Do not squeeze the lemon — you want fragrance, not juice.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">texture:</span> <strong>Cracked Black Pepper and Toasted Breadcrumbs</strong> — Toast 1/4 cup panko in butter until deep gold. Season with flaky salt. Crack pepper aggressively — you want visible flecks. Serve both tableside.
+      </div>
+      
+    </div>
+    
+
+    
+    <details class="prep-detail">
+      <summary>🍳 Full Prep Instructions</summary>
+      <div class="prep-meta">
+        <span class="prep-meta-item">⏱ 20 minutes</span>
+        <span class="prep-meta-item">👩‍🍳 Active: 20 minutes</span>
+      </div>
+      
+      <ol class="prep-steps">
+        <li>Boil salted water, cook fettuccine until al dente</li><li>Reserve 1 cup pasta water before draining</li><li>Melt generous butter in warm pan</li><li>Toss hot pasta with butter, add Parmigiano in batches</li><li>Splash pasta water as needed for silky sauce</li><li>Serve immediately</li>
+      </ol>
+      
+      
+      <div class="prep-equipment">🔧 <strong>Equipment:</strong> Large pot, Wide pan or bowl</div>
+      
+      
+      <div class="prep-make-ahead">💡 <strong>Make ahead:</strong> Have cheese grated and butter measured. Speed is key.</div>
+      
+    </details>
+    
+
+    
+    <div class="album-pairing">
+      <div class="album-name">🎵 Say She She – Prism</div>
+      <div class="album-meta">2022 · Disco-Soul / Funk</div>
+      <div class="album-desc">Say She She is a Brooklyn trio channeling the shimmering three-part harmonies of 70s disco-soul through a modern indie lens. 'Prism' sounds like Chic and Rotary Connection had a baby and raised it on Afrobeat. They're at 9:30 Club on Feb 17 — two days before Franc Moody hits the same stage.</div>
+      <div class="album-sonic">🔊 Three-part harmonies, vintage disco production, funk guitar, Afrobeat percussion</div>
+      <div class="album-rationale">Pasta night needs warmth without drama. Say She She's vintage disco-soul provides exactly that — the three-part harmonies float over the simmering butter like steam rising from the pot. Groovy enough to keep energy up before swim lessons.</div>
+      
+    </div>
+    
+
+    
+  </div>
+  
+  <div class="day-card">
+    <h3>Wednesday, February 11</h3>
+    <p style="font-style:italic;color:var(--muted);font-size:14px;margin-bottom:10px;">Midweek reset. No meetings, working from home, 45°F outside. This is the day to take an afternoon walk, massage some kale, and let the week breathe. A big, punchy Caesar salad for dinner because not every night needs to be heavy — sometimes the salad is the main event.</p>
+    <div class="weather"><span class="weather-emoji">☁️</span> Overcast, 45°F / 30°F · Sunny (90%), 52% cloud cover, wind 13 mph, 18% precip.</div>
+
+    
+
+    
+    <div class="dinner-title">Kale Caesar Salad with Crispy Chickpeas</div>
+    <span class="cuisine-tag">American</span>
+    <p class="description">Lacinato kale — the sturdy, blue-green variety that doesn't wilt into nothing — massaged with olive oil and lemon until tender, then tossed in a proper anchovy-lemon Caesar dressing with shaved Parmesan, herbed croutons, and chickpeas roasted with cumin and smoked paprika until they shatter when you bite them. This isn't a side salad. This is dinner.</p>
+    <p class="ingredients">lacinato kale, anchovy, lemon, Parmesan, chickpeas, garlic, croutons</p>
+    <a href="https://www.bonappetit.com/recipe/kale-caesar-salad" target="_blank" rel="noopener" class="recipe-link">📖 Recipe: Bon Appétit</a>
+    <p class="notes">Hefty dinner salad. Roast chickpeas with cumin and smoked paprika for crunch and protein.</p>
+    
+
+    
+    <div class="elevation-tips">
+      <h4>🔥 Chef's Tips</h4>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">preparation:</span> <strong>Warm Anchovy-Garlic Oil Drizzle</strong> — Gently warm 3 tbsp olive oil with 2 chopped anchovy fillets and 1 sliced garlic clove over low heat until the anchovies dissolve — about 3 minutes. Drizzle this warm oil over the dressed kale just before serving.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">texture:</span> <strong>Parmesan Frico Shards</strong> — Mound 2-tbsp piles of grated Parmesan on a parchment-lined baking sheet. Bake at 400°F for 5-6 minutes until golden and lacy. Cool completely — they'll shatter into crispy shards. Stand them upright in the salad.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">acid:</span> <strong>Preserved Lemon Dice</strong> — Dice 1 tbsp preserved lemon rind very finely. Scatter over the salad. If you don't have preserved lemon, mix lemon zest with a pinch of salt and let sit 10 minutes.
+      </div>
+      
+    </div>
+    
+
+    
+    <details class="prep-detail">
+      <summary>🍳 Full Prep Instructions</summary>
+      <div class="prep-meta">
+        <span class="prep-meta-item">⏱ 35 minutes</span>
+        <span class="prep-meta-item">👩‍🍳 Active: 20 minutes</span>
+      </div>
+      
+      <ol class="prep-steps">
+        <li>Roast chickpeas with cumin and smoked paprika at 425°F for 25 min</li><li>Strip kale from ribs, tear into pieces</li><li>Massage kale with olive oil and lemon juice</li><li>Make Caesar dressing: mash anchovy with garlic, whisk in egg yolk, lemon, mustard, olive oil, Parmesan</li><li>Toss kale with dressing</li><li>Top with croutons, chickpeas, and shaved Parmesan</li>
+      </ol>
+      
+      
+      <div class="prep-equipment">🔧 <strong>Equipment:</strong> Sheet pan</div>
+      
+      
+      <div class="prep-make-ahead">💡 <strong>Make ahead:</strong> Chickpeas can be roasted ahead. Dressing keeps 3 days in fridge.</div>
+      
+    </details>
+    
+
+    
+    <div class="album-pairing">
+      <div class="album-name">🎵 Hiroshi Yoshimura – Music for Nine Post Cards</div>
+      <div class="album-meta">1982 · Japanese Ambient / Minimalism</div>
+      <div class="album-desc">Originally commissioned for Tokyo's Hara Museum of Contemporary Art in 1982, Yoshimura's debut is nine pieces of pure stillness — sparse electric piano and warm analog synths that were designed to merge with the museum's architecture, not compete with it. The 2017 reissue introduced it to a global audience who immediately understood: this is music you live inside.</div>
+      <div class="album-sonic">🔊 Sparse piano, warm analog synths, silence as instrument, environmental music</div>
+      <div class="album-rationale">A clean, bright salad dinner needs clean, airy music. Yoshimura's crystalline ambient doesn't fill a room — it reshapes it. The silence between notes is as intentional as the lemon in the dressing. Both are exercises in restraint that somehow feel abundant.</div>
+      
+    </div>
+    
+
+    
+    <div class="prep-notes">
+      <h4>Prep Notes</h4>
+      <ul><li>Massage kale with olive oil and lemon juice 30 min before serving</li></ul>
+    </div>
+    
+  </div>
+  
+  <div class="day-card">
+    <h3>Thursday, February 12</h3>
+    <p style="font-style:italic;color:var(--muted);font-size:14px;margin-bottom:10px;">Thursday pulls double duty: Valentine's heart-shaped mini pizzas for the potluck lunch at work, then home to make fresh egg pasta from scratch for dinner. The pappardelle is the week's cooking project — hands in flour, dough resting, mushrooms browning — and it's worth every minute.</p>
+    <div class="weather"><span class="weather-emoji">☁️</span> Overcast, 37°F / 27°F · Sunny (92%), 87% cloud cover, wind 13 mph, 11% precip.</div>
+
+    
+    <div style="margin-bottom:10px;">
+      <div style="font-size:13px;">📅 Valentine's Day potluck lunch (bring heart-shaped mini pizzas)</div>
+    </div>
+    
+
+    
+    <div class="dinner-title">Mushroom Pappardelle with Fresh Egg Pasta</div>
+    <span class="cuisine-tag">Italian</span>
+    <p class="description">Wide ribbons of fresh egg pappardelle — the kind you can only get by making it yourself, with that tender, silky chew — tossed with a mix of cremini, oyster, and rehydrated porcini mushrooms seared until deeply golden in brown butter with crispy sage. The porcini soaking liquid gets reduced to a syrup and stirred in — it's liquid umami. Finished with toasted walnuts and a splash of sherry vinegar you'll barely taste but absolutely miss if it's gone.</p>
+    <p class="ingredients">00 flour, eggs, cremini mushrooms, oyster mushrooms, dried porcini, butter, white wine, sage, Parmesan</p>
+    <a href="https://www.gzrecipes.com/en/atavolacontea/pappardelle-with-mushrooms-butter-and-sage/" target="_blank" rel="noopener" class="recipe-link">📖 Recipe: GZ Recipes</a>
+    <p class="notes">Make the fresh egg pasta dough in the afternoon and rest it. Roll and cut wide pappardelle before dinner.</p>
+    
+
+    
+    <div class="elevation-tips">
+      <h4>🔥 Chef's Tips</h4>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">sauce:</span> <strong>Brown Butter with Crispy Sage</strong> — In a separate small pan, cook 4 tbsp butter over medium heat until it foams, goes quiet, then turns nutty brown — about 4 minutes. Drop in 8-10 sage leaves and fry 30 seconds until crisp. Pour the brown butter over plated pasta. Set crispy sage leaves on top.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">preparation:</span> <strong>Porcini Soaking Liquid Reduction</strong> — Strain the porcini soaking liquid through a coffee filter to remove grit. Reduce it by half in a small pot. Add this concentrated mushroom liquor to the sauce when you deglaze with white wine. It's liquid umami.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">texture:</span> <strong>Toasted Walnut Crumble</strong> — Toast 1/3 cup walnut halves in a dry pan until fragrant. Roughly chop. Scatter over plated pasta with a grinding of black pepper.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">acid:</span> <strong>Sherry Vinegar Finish</strong> — Just before tossing the pasta into the mushroom pan, add 1 tsp good sherry vinegar to the sauce. Toss immediately. The vinegar will mostly evaporate, leaving behind complexity.
+      </div>
+      
+    </div>
+    
+
+    
+    <details class="prep-detail">
+      <summary>🍳 Full Prep Instructions</summary>
+      <div class="prep-meta">
+        <span class="prep-meta-item">⏱ 1.5 hours (including pasta making)</span>
+        <span class="prep-meta-item">👩‍🍳 Active: 45 minutes</span>
+      </div>
+      
+      <ol class="prep-steps">
+        <li>Make pasta: 2 cups 00 flour + 3 eggs, knead 10 min, rest 30 min</li><li>Rehydrate dried porcini in hot water, reserve liquid</li><li>Slice cremini and oyster mushrooms</li><li>Roll and cut wide pappardelle ribbons</li><li>Brown mushrooms in butter over high heat</li><li>Deglaze with white wine and porcini liquid</li><li>Cook pappardelle 2-3 min in salted water</li><li>Toss pasta with mushrooms, add Parmesan and sage</li>
+      </ol>
+      
+      
+      <div class="prep-equipment">🔧 <strong>Equipment:</strong> Pasta roller or rolling pin, Wide skillet</div>
+      
+      
+      <div class="prep-make-ahead">💡 <strong>Make ahead:</strong> Pasta dough can be made morning and rested in fridge.</div>
+      
+    </details>
+    
+
+    
+    <div class="album-pairing">
+      <div class="album-name">🎵 Mulatu Astatke – Mulatu of Ethiopia</div>
+      <div class="album-meta">1972 · Ethio-Jazz</div>
+      <div class="album-desc">Mulatu Astatke was the first African student at Berklee College of Music. He took what he learned about jazz and Latin music and fused it with Ethiopian pentatonic scales and traditional modes to invent an entirely new genre: Ethio-jazz. 'Mulatu of Ethiopia' (1972), recorded in New York, is the masterwork — vibraphone, organ, and congas moving through hypnotic minor-key grooves that sound like nothing else ever recorded.</div>
+      <div class="album-sonic">🔊 Ethiopian pentatonic scales, vibraphone, organ, congas, walking bass, jazz arrangements</div>
+      <div class="album-rationale">Earthy mushroom pappardelle and earthy Ethio-jazz — the pairing writes itself. The vibraphone's warm shimmer mirrors the brown butter, the walking bass echoes the deep umami of reduced porcini, and the hypnotic repetition matches the meditative rhythm of rolling fresh pasta.</div>
+      
+    </div>
+    
+
+    
+    <div class="prep-notes">
+      <h4>Prep Notes</h4>
+      <ul><li>Make pizza dough Wednesday night</li><li>Shape heart pizzas Thursday morning</li><li>Make fresh pasta dough Thursday afternoon, rest 30 min</li></ul>
+    </div>
+    
+  </div>
+  
+  <div class="day-card">
+    <h3>Friday, February 13</h3>
+    <p style="font-style:italic;color:var(--muted);font-size:14px;margin-bottom:10px;">Friday is a split operation: Elsie at YAT until 6, Laura at book club. Dan picks up Elsie, comes home, and slides a prepped sheet pan of bronzino into a hot oven. Twenty-five minutes later: crispy-skinned fish over roasted kale, and the whole evening ahead for just the two of them.</p>
+    <div class="weather"><span class="weather-emoji">☁️</span> Overcast, 36°F / 24°F · Sunny (92%), 39% cloud cover, wind 11 mph, 22% precip.</div>
+
+    
+    <div style="margin-bottom:10px;">
+      <div style="font-size:13px;">📅 Laura book club (evening)</div><div style="font-size:13px;">📅 Elsie YAT 4:30-6:00 PM</div>
+    </div>
+    
+
+    
+    <div class="dinner-title">Baked Bronzino with Roasted Kale</div>
+    <span class="cuisine-tag">Mediterranean</span>
+    <p class="description">Butterflied bronzino roasted at 425°F over a bed of lacinato kale, burst cherry tomatoes, and white beans — the fish makes its own pan sauce from lemon, garlic, and good olive oil as it cooks. Scored skin with thyme tucked into the slashes, finished under the broiler for two minutes until the skin crackles. Topped with a crispy caper and lemon zest gremolata that adds brightness and crunch to every bite.</p>
+    <p class="ingredients">whole bronzino (butterflied), lacinato kale, cherry tomatoes, white beans, lemon, garlic, olive oil</p>
+    <a href="https://fultonfishmarket.com/blogs/recipes/branzino-with-lacinato-kale-tomatoes-white-beans-recipe" target="_blank" rel="noopener" class="recipe-link">📖 Recipe: Fulton Fish Market</a>
+    <p class="notes">Can prep the kale-tomato-bean bed ahead. Nestle fish on top when home from picking up Elsie. 25 min in oven.</p>
+    
+
+    
+    <div class="elevation-tips">
+      <h4>🔥 Chef's Tips</h4>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">sauce:</span> <strong>Ladolemono (Greek Lemon-Olive Oil Sauce)</strong> — Whisk 1/4 cup best olive oil with juice of 1 lemon, 1 minced garlic clove, 1 tsp dried oregano, salt, and pepper. Spoon generously over the fish the moment it comes out of the oven. The heat emulsifies the sauce.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">preparation:</span> <strong>Score and Stuff the Fish</strong> — Score the skin of the butterflied bronzino with 3 diagonal slashes on each side. Tuck thin lemon slices and thyme sprigs into the slashes. This looks dramatic and allows heat and seasoning to penetrate evenly.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">texture:</span> <strong>Crispy Caper and Lemon Zest Gremolata</strong> — Pat dry 2 tbsp capers. Fry in olive oil for 1 minute until they bloom open and turn crispy. Mix with finely grated lemon zest and 1 tbsp chopped parsley. Scatter over the plated fish.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">temperature:</span> <strong>Room-Temperature Tomato-Bean Salad Base</strong> — Toss the roasted cherry tomatoes and white beans with a splash of red wine vinegar while warm, then let them cool to room temperature before plating under the hot fish.
+      </div>
+      
+    </div>
+    
+
+    
+    <details class="prep-detail">
+      <summary>🍳 Full Prep Instructions</summary>
+      <div class="prep-meta">
+        <span class="prep-meta-item">⏱ 35 minutes</span>
+        <span class="prep-meta-item">👩‍🍳 Active: 15 minutes</span>
+      </div>
+      
+      <ol class="prep-steps">
+        <li>Preheat oven to 425°F</li><li>Tear kale, toss with olive oil and garlic on sheet pan</li><li>Add halved cherry tomatoes and drained white beans</li><li>Roast vegetables 10 min</li><li>Nestle butterflied bronzino on top, season with salt, pepper, lemon</li><li>Roast 15-18 min until fish flakes</li><li>Finish under broiler 2 min for crispy skin</li>
+      </ol>
+      
+      
+      <div class="prep-equipment">🔧 <strong>Equipment:</strong> Sheet pan</div>
+      
+      
+      <div class="prep-make-ahead">💡 <strong>Make ahead:</strong> Kale, tomatoes, and beans can be prepped and arranged on the pan hours ahead. Fish goes on right before baking.</div>
+      
+    </details>
+    
+
+    
+    <div class="album-pairing">
+      <div class="album-name">🎵 Laufey – Bewitched</div>
+      <div class="album-meta">2023 · Jazz-Pop / Bossa Nova</div>
+      <div class="album-desc">Laufey (pronounced 'Lay-vay') is an Icelandic-Chinese jazz-pop prodigy who studied cello at Berklee before becoming the youngest artist ever to win the Grammy for Best Traditional Pop Vocal Album. 'Bewitched' blends golden-age jazz sensibility — think Chet Baker, Ella Fitzgerald — with bossa nova rhythms and Gen-Z lyrical honesty. It's intimate, romantic, and quietly sophisticated.</div>
+      <div class="album-sonic">🔊 Jazz guitar, gentle strings, bossa nova rhythms, intimate vocals</div>
+      <div class="album-rationale">Light fish, light music. Laufey's bossa nova-inflected jazz is airy enough for delicate bronzino and romantic enough for the night before Valentine's Day. The intimacy of her voice — close-miked, almost whispered — matches the intimacy of a solo dinner with your daughter.</div>
+      
+    </div>
+    
+
+    
+    <div class="prep-notes">
+      <h4>Prep Notes</h4>
+      <ul><li>Prep kale-tomato-bean bed before picking up Elsie</li></ul>
+    </div>
+    
+  </div>
+  
+  <div class="day-card">
+    <h3>Saturday, February 14</h3>
+    <p style="font-style:italic;color:var(--muted);font-size:14px;margin-bottom:10px;">Valentine's Day, the clearest sky of the week, and a travel day. The enchilada filling and both sauces are prepped from Friday night — all that's left is assembly and 20 minutes in a hot oven. The visual alone — half red, half green, topped with pink pickled onions — is a Valentine worthy of the occasion.</p>
+    <div class="weather"><span class="weather-emoji">☀️</span> Mainly clear, 40°F / 26°F · Sunny (92%), 5% cloud cover, wind 7 mph, 20% precip. Clearest day of the week.</div>
+
+    
+    <div style="margin-bottom:10px;">
+      <div style="font-size:13px;">📅 Valentine's Day</div><div style="font-size:13px;">📅 Travel day</div>
+    </div>
+    
+
+    
+    <div class="dinner-title">Christmas Enchiladas</div>
+    <span class="cuisine-tag">Mexican</span>
+    <p class="description">Enchiladas divorciadas — the dramatic 'divorced' presentation with rich red guajillo-ancho chile sauce on one side and bright tomatillo-green chile sauce on the other. Corn tortillas quick-fried for pliability and flavor, filled with shredded chicken and cheese, topped with crema, Cotija, cilantro, pink pickled red onions, and toasted pepitas. The two sauces meet in the middle of the baking dish like a delicious peace treaty.</p>
+    <p class="ingredients">corn tortillas, shredded chicken, red chile sauce, tomatillo green sauce, Cotija cheese, crema, cilantro</p>
+    <a href="https://keviniscooking.com/enchiladas-divorciadas-christmas-enchiladas/" target="_blank" rel="noopener" class="recipe-link">📖 Recipe: Kevin Is Cooking</a>
+    <p class="notes">Travel day — can prep filling and sauces Friday night. Assemble and bake on arrival.</p>
+    
+
+    
+    <div class="elevation-tips">
+      <h4>🔥 Chef's Tips</h4>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">preparation:</span> <strong>Toast and Fry the Tortillas</strong> — Before filling, pass each corn tortilla through hot oil (350°F) for 5-8 seconds per side — just enough to make them pliable and slightly golden. This prevents them from going soggy under the sauce and adds a subtle fried corn flavor.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">sauce:</span> <strong>Bloom the Dried Chiles Properly</strong> — For the red sauce: stem, seed, and dry-toast the chiles (guajillo + ancho) in a hot, dry skillet until they blister and become fragrant — about 30 seconds per side. Then soak in just-boiled water for 20 minutes. Blend with roasted garlic, oregano, and a splash of the soaking liquid.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">acid:</span> <strong>Quick-Pickled Red Onion Garnish</strong> — Thinly slice 1 red onion into rings. Cover with lime juice, a pinch of salt, and a pinch of sugar. Let sit 20 minutes until bright pink. Pile on top of enchiladas after baking.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">texture:</span> <strong>Toasted Pepita Garnish</strong> — Toast 1/4 cup raw pepitas (pumpkin seeds) in a dry skillet over medium heat, tossing frequently, until they puff and start to pop — about 3 minutes. Season with a pinch of salt and a squeeze of lime.
+      </div>
+      
+    </div>
+    
+
+    
+    <details class="prep-detail">
+      <summary>🍳 Full Prep Instructions</summary>
+      <div class="prep-meta">
+        <span class="prep-meta-item">⏱ 1 hour (or 20 min if prepped ahead)</span>
+        <span class="prep-meta-item">👩‍🍳 Active: 40 minutes</span>
+      </div>
+      
+      <ol class="prep-steps">
+        <li>Shred rotisserie chicken or poach and shred chicken breasts</li><li>Make red sauce: toast dried chiles, blend with garlic and oregano</li><li>Make green sauce: roast tomatillos and green chiles, blend</li><li>Warm tortillas, fill with chicken and cheese, roll</li><li>Arrange in baking dish — red sauce one side, green the other</li><li>Top with more cheese, bake at 350°F for 15-20 min</li><li>Garnish with crema, Cotija, cilantro, and avocado</li>
+      </ol>
+      
+      
+      <div class="prep-equipment">🔧 <strong>Equipment:</strong> Baking dish, Blender</div>
+      
+      
+      <div class="prep-make-ahead">💡 <strong>Make ahead:</strong> Filling and both sauces can be made a day ahead. Assemble and bake on site.</div>
+      
+    </details>
+    
+
+    
+    <div class="album-pairing">
+      <div class="album-name">🎵 Sade – Love Deluxe</div>
+      <div class="album-meta">1992 · Smooth Jazz / R&B</div>
+      <div class="album-desc">There's a reason Sade's 'Love Deluxe' (1992) is the only album anyone ever needs for Valentine's Day. 'No Ordinary Love' opens with a bass line that sounds like a heartbeat. 'Kiss of Life' is the kind of song that makes you slow-dance in the kitchen. The whole record moves with the confidence of someone who knows exactly what they're doing — smoky, elegant, and impossibly cool.</div>
+      <div class="album-sonic">🔊 Smooth jazz, quiet storm R&B, African rhythms, silky vocals, saxophone</div>
+      <div class="album-rationale">It's Valentine's Day. There is exactly one album. Sade's smoky sophistication turns enchiladas from a casual dinner into a candlelit event. The African rhythms underneath the quiet storm R&B mirror the Mexican warmth of the dish. No debate, no alternatives.</div>
+      
+    </div>
+    
+
+    
+    <div class="prep-notes">
+      <h4>Prep Notes</h4>
+      <ul><li>Prep enchilada filling and sauces Friday night</li><li>Assemble on arrival, bake 20 min</li></ul>
+    </div>
+    
+  </div>
+  
+
+  
+  <h2 class="section-title">Appetizers</h2>
+  
+  <div class="appetizer-card">
+    <h4>Whipped Feta Dip with Roasted Red Peppers</h4>
+    <span class="cuisine-tag" style="margin-bottom:6px;">Mediterranean</span>
+    <p>Creamy whipped feta blended with roasted red peppers, garlic, and a drizzle of good olive oil. Served with warm pita triangles and crudités.</p>
+    <p style="font-size:13px;color:var(--muted);">feta cheese, cream cheese, roasted red peppers, garlic, olive oil, pita</p>
+    
+  </div>
+  
+  <div class="appetizer-card">
+    <h4>Crispy Baked Mozzarella Bites</h4>
+    <span class="cuisine-tag" style="margin-bottom:6px;">Italian</span>
+    <p>Golden panko-crusted mozzarella bites baked until molten inside, served with warm marinara. Kid-proof and party-ready.</p>
+    <p style="font-size:13px;color:var(--muted);">fresh mozzarella, panko breadcrumbs, eggs, flour, marinara sauce</p>
+    
+  </div>
+  
+  
+
+  
+  <h2 class="section-title">Salads</h2>
+  
+  <div class="salad-card">
+    <div class="salad-type">composed dinner</div>
+    <h4>Winter Citrus & Radicchio Salad</h4>
+    <p>Composed plate of blood orange and cara cara segments, shaved radicchio, burrata, toasted pistachios, and Castelvetrano olives.</p>
+    
+    <div class="dressing"><strong>Dressing:</strong> Blood orange vinaigrette: fresh blood orange juice, champagne vinegar, Dijon mustard, extra-virgin olive oil, minced shallot, flaky salt, cracked black pepper</div>
+    <div class="rationale">Bitter radicchio tamed by sweet citrus and creamy burrata. Pistachios add crunch. Italian amaro-dolce-grasso balance.</div>
+    
+  </div>
+  
+  <div class="salad-card">
+    <div class="salad-type">side</div>
+    <h4>Shaved Brussels Sprout Slaw with Apple & Pecans</h4>
+    <p>Thinly shaved Brussels sprouts with Honeycrisp apple matchsticks, toasted pecans, dried cranberries, and Pecorino Romano.</p>
+    
+    <div class="dressing"><strong>Dressing:</strong> Apple cider vinaigrette: apple cider vinegar, whole-grain mustard, honey, extra-virgin olive oil, salt, pepper</div>
+    <div class="rationale">Brussels sprout bitterness against sweet apple and tart cranberries. Pecans add warmth. Vinaigrette keeps it crisp and lively.</div>
+    
+  </div>
+  
+  <div class="salad-card">
+    <div class="salad-type">side</div>
+    <h4>Roasted Beet & Citrus Salad with Goat Cheese</h4>
+    <p>Earthy roasted beets with grapefruit and orange segments, tangy goat cheese, and toasted walnuts on arugula.</p>
+    
+    <div class="dressing"><strong>Dressing:</strong> Sherry-walnut vinaigrette: sherry vinegar, Dijon mustard, walnut oil, extra-virgin olive oil, minced shallot, honey, salt, pepper</div>
+    <div class="rationale">Earthy beets and bright citrus in sweet-savory tension. Goat cheese adds tang, walnuts bring warmth. Valentine's-worthy colors.</div>
+    
+  </div>
+  
+  
+
+  
+  <h2 class="section-title">Beverages</h2>
+  
+  <div class="beverage-card">
+    <h4>Malbec (Red Wine)</h4>
+    <p>Full-bodied, plummy Malbec from Mendoza — the ideal companion for a beef-heavy week. $12-15 range.</p>
+    <p style="font-size:13px;font-style:italic;color:var(--muted);">Pairs with cheesesteaks, pappardelle, and enchiladas.</p>
+  </div>
+  
+  <div class="beverage-card">
+    <h4>Sparkling Pomegranate Mocktail</h4>
+    <p>Pomegranate juice, fresh lime, simple syrup, and sparkling water over ice. Festive ruby-red.</p>
+    <p style="font-size:13px;font-style:italic;color:var(--muted);">Non-alcoholic option for the family. Valentine's-worthy color.</p>
+  </div>
+  
+  <div class="beverage-card">
+    <h4>Japanese Lager (Asahi or Sapporo)</h4>
+    <p>Crisp, clean Japanese lager served ice-cold. Cuts through rich miso or umami flavors.</p>
+    <p style="font-size:13px;font-style:italic;color:var(--muted);">Light contrast to the umami-heavy bronzino and kale dinner.</p>
+  </div>
+  
+  
+
+  <h2 class="section-title">Grocery List</h2>
+  
+  <div class="grocery-section">
+    
+    <div class="grocery-category">
+      <h4>Produce</h4>
+      <ul><li>lacinato kale (2 bunches)</li><li>blood oranges</li><li>cara cara oranges</li><li>radicchio</li><li>Brussels sprouts</li><li>Honeycrisp apples</li><li>red & golden beets</li><li>grapefruit</li><li>cherry tomatoes</li><li>bell peppers</li><li>onions</li><li>garlic</li><li>lemons</li><li>limes</li><li>cilantro</li><li>sage</li><li>flat-leaf parsley</li><li>arugula</li><li>scallions</li><li>avocado</li><li>tomatillos</li><li>green chiles</li></ul>
+    </div>
+    
+    <div class="grocery-category">
+      <h4>Protein</h4>
+      <ul><li>ribeye steak (from RD)</li><li>whole bronzino (2, butterflied)</li><li>eggs (2 dozen)</li><li>shredded rotisserie chicken</li></ul>
+    </div>
+    
+    <div class="grocery-category">
+      <h4>Dairy</h4>
+      <ul><li>butter (2 lbs)</li><li>Parmigiano-Reggiano</li><li>Pecorino Romano</li><li>feta cheese</li><li>burrata</li><li>goat cheese</li><li>provolone</li><li>mozzarella (fresh)</li><li>cream cheese</li><li>Cotija cheese</li><li>Mexican crema</li></ul>
+    </div>
+    
+    <div class="grocery-category">
+      <h4>Pantry</h4>
+      <ul><li>fettuccine (Babo brand)</li><li>00 flour</li><li>canned crushed tomatoes</li><li>white beans (canned)</li><li>dried porcini mushrooms</li><li>panko breadcrumbs</li><li>dried red chiles</li><li>cumin</li><li>paprika</li><li>smoked paprika</li><li>coriander</li><li>hoagie rolls</li><li>corn tortillas</li><li>pita bread</li><li>crusty bread</li><li>croutons</li><li>pistachios</li><li>pecans</li><li>walnuts</li><li>dried cranberries</li><li>Castelvetrano olives</li><li>anchovy fillets</li><li>Dijon mustard</li><li>whole-grain mustard</li><li>champagne vinegar</li><li>apple cider vinegar</li><li>sherry vinegar</li><li>red wine vinegar</li><li>extra-virgin olive oil</li><li>walnut oil</li><li>white wine</li><li>honey</li><li>chickpeas (canned)</li></ul>
+    </div>
+    
+    <div class="grocery-category">
+      <h4>Mushrooms</h4>
+      <ul><li>cremini mushrooms</li><li>oyster mushrooms</li></ul>
+    </div>
+    
+    <div class="grocery-category">
+      <h4>Beverages</h4>
+      <ul><li>Malbec wine</li><li>pomegranate juice</li><li>sparkling water</li><li>Japanese lager (Asahi or Sapporo)</li></ul>
+    </div>
+    
+    <div class="grocery-category">
+      <h4>Potluck Thursday</h4>
+      <ul><li>pizza dough</li><li>marinara sauce</li><li>mozzarella (shredded)</li><li>pepperoni</li><li>red bell pepper</li></ul>
+    </div>
+    
+  </div>
+  
+
+  
+  <h2 class="section-title">Prep-Ahead Checklist</h2>
+  <ul class="prep-checklist">
+    <li>Saturday: Pick up ribeye from RD for Sunday cheesesteaks</li><li>Wednesday night: Make pizza dough for Thursday potluck heart pizzas</li><li>Thursday morning: Shape and bake heart-shaped mini pizzas for potluck</li><li>Thursday afternoon: Make fresh egg pasta dough, rest 30 min</li><li>Friday afternoon: Prep kale-tomato-bean bed for bronzino</li><li>Friday evening: Prep enchilada filling and both sauces for Saturday</li>
+  </ul>
+  
+
+  
+  <h2 class="section-title">Parenting Corner</h2>
+  <div class="parenting-section">
+    
+    <div class="theme-banner">
+      <h3>Love in Action</h3>
+      <p>Valentine's week isn't just about cards and candy — it's a chance to explore what love looks like when it's a verb. How do we show care through cooking together, through small kindnesses at school, through making someone's favorite meal? This week, look for moments to ask Elsie: what does love look like when you do it, not just say it?</p>
+    </div>
+    
+
+    
+    <h4 style="font-size:15px;font-weight:600;margin-bottom:8px;">Dinner Conversation Starters</h4>
+    
+    <div class="question-card">
+      <div class="question-day">Sunday — Philly Cheesesteaks</div>
+      <div class="question-text">"If you could make any sandwich in the world for your best friend, what would you put on it and why?"</div>
+      <div class="question-why">Connects food to friendship and generosity. At 8, she's deeply invested in best-friend dynamics — this lets her express care through a creative, low-stakes scenario.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-day">Monday — Shakshuka with Feta</div>
+      <div class="question-text">"What's the bravest thing you saw someone do today — even if it was something small?"</div>
+      <div class="question-why">Eight-year-olds are building their moral compass and starting to notice courage in everyday actions. This question helps her practice recognizing bravery beyond physical feats — standing up for someone, trying something new, admitting a mistake.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-day">Tuesday — Babo Pasta with Alfredo</div>
+      <div class="question-text">"If our family had a theme song, what would it sound like? Fast or slow? Loud or quiet? What instruments?"</div>
+      <div class="question-why">Swim lesson nights are rushed — this question is pure fun with no right answer. It invites creativity and reveals how she perceives the family's energy. Plus, there's music playing (Say She She) — she can riff off what she hears.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-day">Wednesday — Kale Caesar Salad</div>
+      <div class="question-text">"What's something you're really good at that you didn't used to be good at? How did you get better?"</div>
+      <div class="question-why">At 8, she's developing a growth mindset — the ability to see effort as the path to mastery. This question helps her narrate her own competence story, which builds resilience for future challenges.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-day">Thursday — Mushroom Pappardelle</div>
+      <div class="question-text">"Valentine's Day is coming up — if you could show love to someone at school without using words, how would you do it?"</div>
+      <div class="question-why">This ties directly to the weekly theme of 'love in action.' It pushes her to think about non-verbal expressions of care — saving a seat, sharing a snack, drawing a picture. These are the building blocks of empathy.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-day">Friday — Baked Bronzino with Roasted Kale</div>
+      <div class="question-text">"What's something you wish grown-ups understood better about being 8?"</div>
+      <div class="question-why">This is a trust question. It says: I want to understand your world. Eight-year-olds often feel unheard by adults — this invites her to be the expert. Listen without correcting.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-day">Saturday — Christmas Enchiladas</div>
+      <div class="question-text">"What are three things you love about our family — not things we have, but things we do?"</div>
+      <div class="question-why">Valentine's Day dinner — the perfect moment to talk about family love. Asking about actions (not possessions) reinforces that love is demonstrated, not just felt. Travel day makes this a great car conversation too.</div>
+    </div>
+    
+    
+
+    
+    <h4 style="font-size:15px;font-weight:600;margin:16px 0 8px;">Parenting Nudges</h4>
+    
+    <div class="nudge-card">
+      <h4>The Sous Chef Moment</h4>
+      <p style="font-style:italic;">Thursday's dinner involves making fresh pasta from scratch — eggs, flour, and rolling. This is the perfect invitation.</p>
+      <p>Let Elsie handle the pasta dough. Crack the eggs, measure the flour, knead until smooth. Don't correct her technique unless she asks. Let the mess happen.</p>
+      
+      <ol class="nudge-steps"><li>Set up her station: apron, flour, eggs, a clean surface</li><li>Show her once how to make the well and crack the eggs in</li><li>Step back. Let her knead. Let her feel the dough change texture.</li><li>When it's smooth, tell her: 'You made that. From scratch. That's real.'</li></ol>
+      
+    </div>
+    
+    <div class="nudge-card">
+      <h4>The Valentine Card Factory</h4>
+      <p style="font-style:italic;">Valentine's Day is Saturday but the potluck is Thursday. The week is naturally Valentine-themed — lean into it with a creative project early in the week.</p>
+      <p>Monday or Tuesday evening, set out supplies and make Valentine cards together — not store-bought, handmade. For friends, for teachers, for each other.</p>
+      
+      <ol class="nudge-steps"><li>Gather: construction paper, markers, stickers, scissors, glue</li><li>Each person makes at least 3 cards — including one for each family member</li><li>No templates or Pinterest perfection — messy is better</li><li>Read them aloud to each other before sealing</li></ol>
+      
+    </div>
+    
+    <div class="nudge-card">
+      <h4>The Friday Solo Mission</h4>
+      <p style="font-style:italic;">Laura is at book club. Dan is solo with Elsie after YAT pickup at 6 PM. This is a connection goldmine.</p>
+      <p>After dinner, let Elsie choose the entire evening agenda. Movie, game, craft, or just talking. The only rule: no phones for either of you. Call it 'Elsie's Night.'</p>
+      
+      <ol class="nudge-steps"><li>On the drive home from YAT, ask: 'Tonight is yours. What do you want to do?'</li><li>Whatever she picks, commit fully. Don't suggest alternatives.</li><li>If she picks a movie, watch it next to her, not across the room.</li><li>Before bed: 'I really liked hanging out with just you tonight.'</li></ol>
+      
+    </div>
+    
+    
+
+    
+    <div class="book-rec">
+      <div class="book-icon">📖</div>
+      <div class="book-info">
+        <h4>Each Kindness by Jacqueline Woodson</h4>
+        <p>A beautiful picture book (yes, even for 8-year-olds) about a girl who misses the chance to be kind to a new student — and the regret that follows. It's short, powerful, and unforgettable. Perfect for Valentine's week because it reframes love as everyday kindness, not grand gestures.</p>
+        <p style="font-style:italic;">Ties directly to the 'Love in Action' theme. Read it together any night this week — it takes 10 minutes and will generate a conversation that lasts much longer.</p>
+      </div>
+    </div>
+    
+
+    
+    <div class="reflection-box">
+      This week, pay attention to how Elsie shows love — not how she says it. Does she save you the best piece? Does she draw you a picture unprompted? Does she sit closer to you on the couch? Those small, wordless gestures are her love language developing in real time. Notice them. Name them. 'I saw you saved me the corner piece — that made me feel really loved.' She needs to know her love lands.
+    </div>
+    
+  </div>
+  
+
+  
+
+  
+  <h2 class="section-title">Notes</h2>
+  <div class="support-section">
+    <ul><li>Beef craving satisfied on Sunday (cheesesteaks) and Thursday (pappardelle mushrooms with richness).</li><li>Valentine's heart-shaped mini pizzas for Thursday work potluck — Gen Alpha approved.</li><li>Thursday potluck is lunch; mushroom pappardelle for dinner balances the day.</li><li>Kale and bronzino+kale give two hearty kale nights as requested.</li><li>Saturday is travel day — enchilada components travel well, assemble on arrival.</li><li>This week tells a story in temperatures — from 17°F Sunday to the week's warmth on Tuesday (48°F) and back down again. The dinners follow suit: hearty bookends with lighter, brighter cooking in the middle.</li><li>Two kale nights (Wednesday and Friday) might sound repetitive on paper, but they're completely different experiences — a punchy Caesar versus a Mediterranean fish supper. The green thread ties the week together.</li></ul>
+  </div>
+  
+
+  
+  <h2 class="section-title">Nutrition</h2>
+  <div class="support-section"><p>This week's dinners are hearty and satisfying — exactly what a cold February demands. Protein variety is outstanding (beef, eggs, dairy, chickpeas, fish, chicken across seven nights), and the two kale-forward dinners provide serious nutrient density midweek. The gaps are what you'd expect from comfort cooking: no whole grains at dinner, limited fruit, and some rich nights. The fix is easy — whole grain lunches, fruit-heavy snacks, and a vitamin D supplement while February keeps the sun at bay. Overall grade: B+, and the lunches and snacks below bring it to an A.</p></div>
+  
+
+  <div class="footer">February 8 – 14, 2026 · Generated 2026-02-07 13:48</div>
+</div>
+
+</body>
+</html>
