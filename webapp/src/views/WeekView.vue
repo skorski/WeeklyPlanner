@@ -82,7 +82,12 @@
 
       <!-- Daily Plan -->
       <h2 class="section-title sticky-header">Daily Plan</h2>
-      <div v-for="(day, i) in plan.days" :key="day.name" :id="`day-${i}`">
+      <div v-for="(day, i) in plan.days" :key="day.name" :id="`day-${i}`" class="day-section">
+        <div class="day-sticky-label" :class="{ 'day-sticky-label--today': i === todayIndex }">
+          <span class="day-sticky-name">{{ day.long_name }}</span>
+          <span v-if="day.dinner" class="day-sticky-dinner">{{ day.dinner }}</span>
+          <span v-if="i === todayIndex" class="today-badge">Today</span>
+        </div>
         <DayCard :day="day" :isToday="i === todayIndex" />
       </div>
 

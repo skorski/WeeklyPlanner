@@ -464,6 +464,42 @@ a:hover { text-decoration: underline; }
 .today-row {
   background: var(--accent-light);
 }
+
+/* Sticky day labels */
+.day-section {
+  position: relative;
+}
+.day-sticky-label {
+  position: sticky;
+  top: 48px;
+  z-index: 40;
+  background: var(--bg);
+  padding: 8px 0 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 8px;
+}
+.day-sticky-label--today {
+  border-bottom-color: var(--accent);
+}
+.day-sticky-name {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+  flex-shrink: 0;
+}
+.day-sticky-dinner {
+  font-size: 13px;
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 0;
+}
 .day-card h3 {
   font-family: var(--font-serif);
   font-size: 18px;
