@@ -528,166 +528,211 @@ body {
    ======================================== */
 
 @media print {
-  .screen-container { display: block; }
+  .screen-container { display: none !important; }
 
   @page {
     size: 5.5in 8.5in;
-    margin: 0.5in 0.45in 0.6in 0.45in;
+    margin: 0.5in 0.4in 0.55in 0.4in;
   }
 
   body {
-    font-size: 10pt;
-    line-height: 1.45;
+    font-size: 9.5pt;
+    line-height: 1.4;
     background: white;
-    color: black;
+    color: #1a1a1a;
+    counter-reset: page-num;
   }
 
+  /* ---- Page container ---- */
   .page {
     display: block;
     page-break-after: always;
+    position: relative;
     min-height: 0;
   }
   .page:last-child { page-break-after: avoid; }
 
-  /* Hide screen-only elements */
-  .screen-container .cover-screen,
-  .screen-container .section-title,
-  .screen-container .day-card,
-  .screen-container .glance-table,
-  .screen-container .support-section,
-  .screen-container .salad-card,
-  .screen-container .appetizer-card,
-  .screen-container .beverage-card,
-  .screen-container .grocery-section,
-  .screen-container .grocery-category,
-  .screen-container .prep-checklist,
-  .screen-container .extra-section,
-  .screen-container .footer {
-    display: none;
+  /* ---- Page furniture: folio + running header ---- */
+  .page-folio {
+    position: absolute;
+    bottom: -0.25in;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 7pt;
+    color: #aaa;
+  }
+  .page-header {
+    font-size: 6.5pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: #bbb;
+    margin-bottom: 8pt;
+  }
+  .page-cover .page-folio,
+  .page-back .page-folio,
+  .page-cover .page-header,
+  .page-back .page-header,
+  .page-divider .page-folio { display: none; }
+
+  /* ---- Shared section header ---- */
+  .section-header {
+    font-family: var(--font-serif);
+    font-size: 13pt;
+    font-weight: 400;
+    margin-bottom: 8pt;
+    padding-bottom: 4pt;
+    border-bottom: 0.75pt solid #ccc;
   }
 
-  /* COVER PAGE */
+  /* ---- Section divider pages ---- */
+  .page-divider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 7.0in;
+  }
+  .page-divider .divider-title {
+    font-family: var(--font-serif);
+    font-size: 20pt;
+    font-weight: 400;
+    letter-spacing: -0.3pt;
+    margin-bottom: 6pt;
+  }
+  .page-divider .divider-rule {
+    width: 30pt;
+    height: 0.75pt;
+    background: #ccc;
+    margin: 0 auto 8pt;
+  }
+  .page-divider .divider-sub {
+    font-size: 8pt;
+    color: #888;
+    font-style: italic;
+    max-width: 3in;
+    line-height: 1.4;
+  }
+
+  /* ---- COVER ---- */
   .page-cover {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 7.4in;
+    height: 7.0in;
   }
   .page-cover h1 {
     font-family: var(--font-serif);
-    font-size: 24pt;
+    font-size: 22pt;
     font-weight: 400;
     letter-spacing: -0.5pt;
     margin-bottom: 6pt;
   }
   .page-cover .week-range {
-    font-size: 10pt;
+    font-size: 9pt;
     text-transform: uppercase;
     letter-spacing: 3pt;
     color: #666;
-    margin-bottom: 24pt;
+    margin-bottom: 20pt;
   }
   .page-cover .divider {
-    width: 40pt;
-    height: 1pt;
+    width: 36pt;
+    height: 0.75pt;
     background: #999;
-    margin: 0 auto 24pt;
+    margin: 0 auto 20pt;
   }
   .page-cover .highlight-text {
     font-family: var(--font-serif);
     font-style: italic;
-    font-size: 12pt;
+    font-size: 11pt;
     color: #444;
-    max-width: 3.5in;
+    max-width: 3.2in;
     line-height: 1.5;
   }
 
-  /* GLANCE PAGE */
+  /* ---- GLANCE ---- */
   .page-glance table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 8pt;
+    font-size: 7.5pt;
   }
   .page-glance th {
     text-align: left;
-    font-size: 7pt;
+    font-size: 6.5pt;
     text-transform: uppercase;
     letter-spacing: 0.5pt;
     color: #666;
-    padding: 4pt 3pt;
+    padding: 3pt 3pt;
     border-bottom: 1.5pt solid #333;
   }
   .page-glance td {
-    padding: 5pt 3pt;
+    padding: 4pt 3pt;
     border-bottom: 0.5pt solid #ddd;
     vertical-align: top;
   }
   .page-glance .day-name { font-weight: 600; }
 
-  /* DAY PAGES */
-  .page-day h2 {
-    font-family: var(--font-serif);
-    font-size: 14pt;
-    font-weight: 400;
-    margin-bottom: 3pt;
-    padding-bottom: 4pt;
-    border-bottom: 0.75pt solid #ccc;
-  }
+  /* ---- DAY PAGES ---- */
   .page-day .weather-line {
-    font-size: 8pt;
+    font-size: 7.5pt;
     color: #666;
-    margin-bottom: 10pt;
+    margin-bottom: 8pt;
   }
-  .page-day .dinner-block { margin-bottom: 10pt; }
+  .page-day .dinner-block {
+    margin-bottom: 8pt;
+    page-break-inside: avoid;
+  }
   .page-day .dinner-name {
-    font-size: 12pt;
+    font-size: 11pt;
     font-weight: 600;
     margin-bottom: 2pt;
   }
   .page-day .cuisine-label {
-    font-size: 7pt;
+    font-size: 6.5pt;
     text-transform: uppercase;
     letter-spacing: 1pt;
     color: #888;
-    margin-bottom: 4pt;
+    margin-bottom: 3pt;
   }
   .page-day .dinner-desc {
-    font-size: 9pt;
-    margin-bottom: 6pt;
-  }
-  .page-day .ingredients-line {
-    font-size: 8pt;
-    color: #666;
+    font-size: 8.5pt;
     margin-bottom: 4pt;
   }
+  .page-day .ingredients-line {
+    font-size: 7.5pt;
+    color: #666;
+    margin-bottom: 3pt;
+  }
   .page-day .notes-line {
-    font-size: 8pt;
+    font-size: 7.5pt;
     font-style: italic;
     color: #666;
-    margin-bottom: 8pt;
+    margin-bottom: 6pt;
   }
   .page-day .album-block {
-    border: 0.5pt solid #ddd;
-    padding: 6pt 8pt;
-    margin-bottom: 8pt;
+    border-top: 0.5pt solid #ddd;
+    padding: 5pt 0;
+    margin-bottom: 6pt;
+    page-break-inside: avoid;
   }
   .page-day .album-title {
-    font-size: 9pt;
+    font-size: 8.5pt;
     font-weight: 600;
   }
   .page-day .album-info {
-    font-size: 8pt;
+    font-size: 7.5pt;
     color: #666;
   }
   .page-day .album-why {
-    font-size: 8pt;
+    font-size: 7.5pt;
     font-style: italic;
-    margin-top: 3pt;
+    margin-top: 2pt;
   }
   .page-day .album-desc {
-    font-size: 8pt;
+    font-size: 7.5pt;
     margin-top: 2pt;
   }
   .page-day .album-sonic {
@@ -696,138 +741,128 @@ body {
     margin-top: 1pt;
   }
   .page-day .elevation-block {
-    margin-top: 6pt;
+    margin-top: 5pt;
     padding: 4pt 6pt;
     background: #fef9f0;
     border-left: 2pt solid #e67e22;
+    page-break-inside: avoid;
   }
   .page-day .elevation-block h4 {
-    font-size: 7pt;
+    font-size: 6.5pt;
     text-transform: uppercase;
     letter-spacing: 0.5pt;
     color: #e67e22;
     margin-bottom: 2pt;
   }
   .page-day .elevation-tip {
-    font-size: 7.5pt;
+    font-size: 7pt;
     margin-bottom: 2pt;
   }
   .page-day .elevation-tip .tip-label {
-    font-size: 6.5pt;
+    font-size: 6pt;
     text-transform: uppercase;
     letter-spacing: 0.3pt;
     color: #e67e22;
     font-weight: 600;
   }
-  .weather-emoji-print { font-size: 9pt; }
+  .weather-emoji-print { font-size: 8pt; }
   .page-day .calendar-block {
-    font-size: 8pt;
-    margin-bottom: 6pt;
-    padding: 4pt 6pt;
-    border-left: 2pt solid #ccc;
+    font-size: 7.5pt;
+    margin-bottom: 5pt;
+    padding: 3pt 6pt;
+    border-left: 2pt solid #ddd;
   }
   .page-day .prep-block {
-    margin-top: 6pt;
-    padding-top: 4pt;
+    margin-top: 5pt;
+    padding-top: 3pt;
     border-top: 0.5pt solid #ddd;
+    page-break-inside: avoid;
   }
   .page-day .prep-block h4 {
-    font-size: 7pt;
+    font-size: 6.5pt;
     text-transform: uppercase;
     letter-spacing: 0.5pt;
     color: #888;
     margin-bottom: 2pt;
   }
   .page-day .prep-block li {
-    font-size: 8pt;
+    font-size: 7.5pt;
     margin-left: 12pt;
     margin-bottom: 1pt;
   }
 
-  /* SUPPORT PAGES */
-  .page-support h2 {
-    font-family: var(--font-serif);
-    font-size: 14pt;
-    font-weight: 400;
-    margin-bottom: 10pt;
-    padding-bottom: 4pt;
-    border-bottom: 0.75pt solid #ccc;
-  }
+  /* ---- SUPPORT PAGES (appetizers, salads, beverages) ---- */
   .page-support h3 {
-    font-size: 10pt;
+    font-size: 9.5pt;
     font-weight: 600;
-    margin: 8pt 0 3pt;
+    margin: 6pt 0 2pt;
   }
   .page-support p {
-    font-size: 9pt;
-    margin-bottom: 4pt;
+    font-size: 8.5pt;
+    margin-bottom: 3pt;
   }
   .page-support .salad-entry {
-    margin-bottom: 10pt;
-    padding-bottom: 6pt;
+    margin-bottom: 8pt;
+    padding-bottom: 5pt;
     border-bottom: 0.5pt solid #eee;
+    page-break-inside: avoid;
   }
   .page-support .type-label {
-    font-size: 7pt;
+    font-size: 6.5pt;
     text-transform: uppercase;
     letter-spacing: 0.5pt;
     color: #888;
   }
   .page-support .dressing-box {
-    font-size: 8pt;
-    padding: 4pt 6pt;
+    font-size: 7.5pt;
+    padding: 3pt 6pt;
     background: #f5f5f2;
-    margin: 4pt 0;
+    margin: 3pt 0;
   }
   .page-support .rationale {
-    font-size: 8pt;
+    font-size: 7.5pt;
     font-style: italic;
     color: #666;
   }
   .page-support li {
-    font-size: 9pt;
+    font-size: 8.5pt;
     margin-left: 12pt;
     margin-bottom: 2pt;
   }
 
-  /* GROCERY PAGE */
-  .page-grocery h2 {
-    font-family: var(--font-serif);
-    font-size: 14pt;
-    font-weight: 400;
-    margin-bottom: 8pt;
-    padding-bottom: 4pt;
-    border-bottom: 0.75pt solid #ccc;
-  }
+  /* ---- GROCERY ---- */
   .page-grocery .grocery-cols {
     columns: 2;
-    column-gap: 16pt;
+    column-gap: 14pt;
   }
   .page-grocery .g-cat {
     break-inside: avoid;
-    margin-bottom: 8pt;
+    margin-bottom: 6pt;
   }
   .page-grocery .g-cat h4 {
-    font-size: 8pt;
+    font-size: 7.5pt;
     text-transform: uppercase;
     letter-spacing: 0.5pt;
     margin-bottom: 2pt;
+    color: #333;
   }
   .page-grocery .g-cat li {
-    font-size: 8pt;
+    font-size: 7.5pt;
     margin-left: 10pt;
     margin-bottom: 1pt;
   }
   .page-grocery .prep-list {
-    margin-top: 10pt;
+    margin-top: 8pt;
+    padding-top: 6pt;
+    border-top: 0.5pt solid #ddd;
   }
   .page-grocery .prep-list h3 {
-    font-size: 10pt;
+    font-size: 9.5pt;
     font-weight: 600;
     margin-bottom: 4pt;
   }
   .page-grocery .prep-list li {
-    font-size: 8pt;
+    font-size: 7.5pt;
     margin-left: 10pt;
     margin-bottom: 2pt;
     list-style: none;
@@ -837,46 +872,31 @@ body {
     color: #999;
   }
 
-  /* EXTRA SECTIONS */
-  .page-extra h2 {
-    font-family: var(--font-serif);
-    font-size: 14pt;
-    font-weight: 400;
-    margin-bottom: 8pt;
-    padding-bottom: 4pt;
-    border-bottom: 0.75pt solid #ccc;
-  }
+  /* ---- EXTRA SECTIONS ---- */
   .page-extra .extra-content {
-    font-size: 9pt;
+    font-size: 8.5pt;
   }
 
-  /* PARENTING PAGES */
-  .page-parenting h2 {
-    font-family: var(--font-serif);
-    font-size: 14pt;
-    font-weight: 400;
-    margin-bottom: 6pt;
-    padding-bottom: 4pt;
-    border-bottom: 0.75pt solid #ccc;
-  }
+  /* ---- PARENTING ---- */
   .page-parenting .theme-banner {
-    padding: 6pt 8pt;
+    padding: 5pt 7pt;
     background: #fdf0ee;
-    margin-bottom: 8pt;
+    margin-bottom: 6pt;
   }
   .page-parenting .theme-banner h3 {
-    font-size: 10pt;
+    font-size: 9.5pt;
     font-weight: 600;
     color: #c0392b;
     margin-bottom: 2pt;
   }
-  .page-parenting .theme-banner p { font-size: 8pt; }
+  .page-parenting .theme-banner p { font-size: 7.5pt; }
   .page-parenting .question-entry {
-    padding: 3pt 0;
+    padding: 2pt 0;
     border-bottom: 0.5pt solid #eee;
+    page-break-inside: avoid;
   }
   .page-parenting .question-day {
-    font-size: 7pt;
+    font-size: 6.5pt;
     text-transform: uppercase;
     letter-spacing: 0.5pt;
     color: #c0392b;
@@ -884,25 +904,26 @@ body {
   }
   .page-parenting .question-text {
     font-family: var(--font-serif);
-    font-size: 9pt;
+    font-size: 8.5pt;
     font-style: italic;
     margin: 1pt 0;
   }
   .page-parenting .question-why {
-    font-size: 7pt;
+    font-size: 6.5pt;
     color: #666;
   }
   .page-parenting .nudge-card {
     padding: 4pt 6pt;
     background: #fdf0ee;
-    margin-bottom: 6pt;
+    margin-bottom: 5pt;
+    page-break-inside: avoid;
   }
   .page-parenting .nudge-card h4 {
-    font-size: 9pt;
+    font-size: 8.5pt;
     color: #c0392b;
     margin-bottom: 2pt;
   }
-  .page-parenting .nudge-card p { font-size: 8pt; }
+  .page-parenting .nudge-card p { font-size: 7.5pt; }
   .page-parenting .nudge-steps {
     font-size: 7pt;
     margin-top: 2pt;
@@ -914,51 +935,74 @@ body {
     padding: 4pt 6pt;
     font-family: var(--font-serif);
     font-style: italic;
-    font-size: 8pt;
-    margin-top: 6pt;
+    font-size: 7.5pt;
+    margin-top: 5pt;
     background: #fdf0ee;
   }
   .page-parenting .book-rec {
     padding: 4pt 6pt;
     border: 0.5pt solid #ddd;
-    margin-top: 6pt;
+    margin-top: 5pt;
+    page-break-inside: avoid;
   }
-  .page-parenting .book-rec h4 { font-size: 9pt; margin-bottom: 1pt; }
-  .page-parenting .book-rec p { font-size: 8pt; color: #666; }
+  .page-parenting .book-rec h4 { font-size: 8.5pt; margin-bottom: 1pt; }
+  .page-parenting .book-rec p { font-size: 7.5pt; color: #666; }
 
-  /* BACK COVER */
+  /* ---- BACK COVER ---- */
   .page-back {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    height: 7.4in;
+    justify-content: center;
+    height: 7.0in;
+    text-align: center;
+  }
+  .page-back .back-inner {
+    max-width: 3.8in;
+    margin: 0 auto;
   }
   .page-back .notes-section {
-    margin-bottom: 16pt;
+    text-align: left;
+    margin-bottom: 14pt;
   }
   .page-back .notes-section h3 {
+    font-family: var(--font-serif);
     font-size: 10pt;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 4pt;
+    padding-bottom: 3pt;
+    border-bottom: 0.5pt solid #ddd;
   }
   .page-back .notes-section li {
-    font-size: 8pt;
+    font-size: 7.5pt;
     margin-left: 10pt;
     margin-bottom: 2pt;
+    text-align: left;
   }
   .page-back .nutrition {
-    font-size: 8pt;
-    color: #666;
-    margin-bottom: 16pt;
+    font-size: 7.5pt;
+    color: #555;
+    margin-bottom: 14pt;
     padding: 6pt 8pt;
-    border: 0.5pt solid #ddd;
+    background: #f8f8f6;
+    border: 0.5pt solid #e0ddd8;
+    text-align: left;
+  }
+  .page-back .nutrition strong {
+    display: block;
+    font-size: 8pt;
+    margin-bottom: 3pt;
+    color: #333;
+  }
+  .page-back .back-divider {
+    width: 30pt;
+    height: 0.75pt;
+    background: #ccc;
+    margin: 12pt auto;
   }
   .page-back .colophon {
-    text-align: center;
     font-size: 7pt;
-    color: #999;
-    padding-top: 8pt;
-    border-top: 0.5pt solid #ddd;
+    color: #aaa;
+    font-style: italic;
   }
 }
 </style>
@@ -996,7 +1040,8 @@ body {
 
 {# --- WEEK AT A GLANCE --- #}
 <div class="page page-glance">
-  <h2 style="font-family:var(--font-serif);font-size:14pt;font-weight:400;margin-bottom:10pt;padding-bottom:4pt;border-bottom:0.75pt solid #ccc;">Week at a Glance</h2>
+  <div class="page-header">Overview</div>
+  <h2 class="section-header">Week at a Glance</h2>
   <table>
     <thead>
       <tr>
@@ -1021,12 +1066,21 @@ body {
       {% endfor %}
     </tbody>
   </table>
+  <div class="page-folio">2</div>
+</div>
+
+{# --- SECTION DIVIDER: Daily Plan --- #}
+<div class="page page-divider">
+  <div class="divider-title">Daily Plan</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">Seven days of dinner, music, and good company</div>
 </div>
 
 {# --- DAILY PAGES --- #}
 {% for day in days %}
 <div class="page page-day">
-  <h2>{{ day.long_name }}</h2>
+  <div class="page-header">Daily Plan</div>
+  <h2 class="section-header">{{ day.long_name }}</h2>
   {% if day.weather %}
   <div class="weather-line"><span class="weather-emoji-print">{{ weather_icon(day.weather) }}</span> {{ day.weather }}{% if day.weather_detail %} · {{ day.weather_detail }}{% endif %}</div>
   {% endif %}
@@ -1076,23 +1130,34 @@ body {
     <ul>{% for note in day.prep_notes %}<li>{{ note }}</li>{% endfor %}</ul>
   </div>
   {% endif %}
+  <div class="page-folio">{{ loop.index + 3 }}</div>
 </div>
 {% endfor %}
 
-{# --- APPETIZERS & SALADS (Page 1 of 2) --- #}
+{# --- SECTION DIVIDER: Kitchen & Pantry --- #}
+{% if salads or appetizers or beverages or grocery_list %}
+<div class="page page-divider">
+  <div class="divider-title">Kitchen & Pantry</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">Appetizers, salads, beverages, and your shopping list</div>
+</div>
+{% endif %}
+
+{# --- APPETIZERS & SALADS --- #}
 {% if salads or appetizers %}
 <div class="page page-support">
+  <div class="page-header">Kitchen & Pantry</div>
   {% if appetizers %}
-  <h2>Appetizers</h2>
+  <h2 class="section-header">Appetizers</h2>
   {% for a in appetizers %}
   <h3>{{ a.name }}</h3>
   <p>{{ a.description | default("") }}</p>
-  {% if a.key_ingredients %}<p style="font-size:8pt;color:#666;">{{ a.key_ingredients | join(", ") }}</p>{% endif %}
+  {% if a.key_ingredients %}<p style="font-size:7.5pt;color:#666;">{{ a.key_ingredients | join(", ") }}</p>{% endif %}
   {% endfor %}
   {% endif %}
 
   {% if salads %}
-  <h2 style="margin-top:12pt;">Salads</h2>
+  <h2 class="section-header" style="margin-top:10pt;">Salads</h2>
   {% for s in salads %}
   <div class="salad-entry">
     <div class="type-label">{{ s.salad_type | default("side") | replace("_", " ") }}</div>
@@ -1103,24 +1168,28 @@ body {
   </div>
   {% endfor %}
   {% endif %}
+  <div class="page-folio"></div>
 </div>
 {% endif %}
 
-{# --- BEVERAGES (Page 2 of 2) --- #}
+{# --- BEVERAGES --- #}
 {% if beverages %}
 <div class="page page-support">
-  <h2>Beverage Pairings</h2>
+  <div class="page-header">Kitchen & Pantry</div>
+  <h2 class="section-header">Beverage Pairings</h2>
   {% for b in beverages %}
   <h3>{{ b.name }}</h3>
   <p>{{ b.description | default("") }}</p>
-  {% if b.why %}<p style="font-size:8pt;font-style:italic;color:#666;">{{ b.why }}</p>{% endif %}
+  {% if b.why %}<p style="font-size:7.5pt;font-style:italic;color:#666;">{{ b.why }}</p>{% endif %}
   {% endfor %}
+  <div class="page-folio"></div>
 </div>
 {% endif %}
 
 {# --- GROCERY LIST --- #}
 <div class="page page-grocery">
-  <h2>Grocery List</h2>
+  <div class="page-header">Kitchen & Pantry</div>
+  <h2 class="section-header">Grocery List</h2>
   {% if grocery_list %}
   <div class="grocery-cols">
     {% for category, items in grocery_list.items() %}
@@ -1131,15 +1200,27 @@ body {
     {% endfor %}
   </div>
   {% endif %}
+  <div class="page-folio"></div>
 </div>
 
 {# --- PREP-AHEAD (own page) --- #}
 {% if prep_ahead %}
 <div class="page page-grocery">
-  <h2>Prep-Ahead Checklist</h2>
+  <div class="page-header">Kitchen & Pantry</div>
+  <h2 class="section-header">Prep-Ahead Checklist</h2>
   <div class="prep-list">
     <ul>{% for task in prep_ahead %}<li>{{ task }}</li>{% endfor %}</ul>
   </div>
+  <div class="page-folio"></div>
+</div>
+{% endif %}
+
+{# --- SECTION DIVIDER: Family Corner --- #}
+{% if parenting_data %}
+<div class="page page-divider">
+  <div class="divider-title">Family Corner</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">Conversation starters, parenting nudges, and connection ideas</div>
 </div>
 {% endif %}
 
@@ -1147,7 +1228,8 @@ body {
 {% if parenting_data %}
 {# Page 1: Theme + Dinner Questions #}
 <div class="page page-parenting">
-  <h2>Parenting Corner</h2>
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Parenting Corner</h2>
   {% if parenting_data.weekly_theme %}
   <div class="theme-banner">
     <h3>{{ parenting_data.weekly_theme.title }}</h3>
@@ -1156,7 +1238,7 @@ body {
   {% endif %}
 
   {% if parenting_data.dinner_questions %}
-  <h3 style="font-size:10pt;font-weight:600;margin:6pt 0 4pt;">Dinner Conversation Starters</h3>
+  <h3 style="font-size:9.5pt;font-weight:600;margin:5pt 0 3pt;">Dinner Conversation Starters</h3>
   {% for q in parenting_data.dinner_questions %}
   <div class="question-entry">
     <div class="question-day">{{ q.day }} — {{ q.dinner | default("") }}</div>
@@ -1165,11 +1247,13 @@ body {
   </div>
   {% endfor %}
   {% endif %}
+  <div class="page-folio"></div>
 </div>
 
 {# Page 2: Nudges + Book Rec + Reflection #}
 <div class="page page-parenting">
-  <h2>Parenting Nudges & Reflection</h2>
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Nudges & Reflection</h2>
   {% if parenting_data.nudges %}
   {% for n in parenting_data.nudges %}
   <div class="nudge-card">
@@ -1197,7 +1281,8 @@ body {
   </div>
   {% endif %}
 
-  <p style="font-size:7pt;color:#999;text-align:center;margin-top:8pt;font-style:italic;">You don't need to be a perfect parent — just a present one.</p>
+  <p style="font-size:6.5pt;color:#aaa;text-align:center;margin-top:6pt;font-style:italic;">You don't need to be a perfect parent — just a present one.</p>
+  <div class="page-folio"></div>
 </div>
 {% endif %}
 
@@ -1206,8 +1291,10 @@ body {
 {% for section in extra_sections %}
 {% if "Parenting" not in section.title %}
 <div class="page page-extra">
-  <h2>{{ section.title }}</h2>
+  <div class="page-header">Extras</div>
+  <h2 class="section-header">{{ section.title }}</h2>
   <div class="extra-content">{{ section.content }}</div>
+  <div class="page-folio"></div>
 </div>
 {% endif %}
 {% endfor %}
@@ -1215,6 +1302,7 @@ body {
 
 {# --- BACK COVER --- #}
 <div class="page page-back">
+  <div class="back-inner">
   {% if notes %}
   <div class="notes-section">
     <h3>Notes</h3>
@@ -1222,9 +1310,11 @@ body {
   </div>
   {% endif %}
   {% if nutrition_summary %}
-  <div class="nutrition">{{ nutrition_summary }}</div>
+  <div class="nutrition"><strong>Nutrition at a Glance</strong>{{ nutrition_summary }}</div>
   {% endif %}
+  <div class="back-divider"></div>
   <div class="colophon">{{ week_range }} · Generated {{ generated_at }}</div>
+  </div>
 </div>
 
 

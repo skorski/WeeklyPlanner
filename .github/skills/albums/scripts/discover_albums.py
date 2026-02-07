@@ -194,7 +194,7 @@ def main():
     args = parser.parse_args()
 
     # Load candidate albums from JSON
-    with open(args.input, "r", encoding="utf-8") as f:
+    with open(args.input, "r", encoding="utf-8-sig") as f:
         albums = json.load(f)
 
     print(f"Loaded {len(albums)} candidate albums", file=sys.stderr)

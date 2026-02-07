@@ -58,7 +58,7 @@ def main():
     parser.add_argument("-o", "--output", help="Output markdown file path (default: stdout)")
     args = parser.parse_args()
 
-    with open(args.input, "r", encoding="utf-8") as f:
+    with open(args.input, "r", encoding="utf-8-sig") as f:
         recipes = json.load(f)
 
     print(f"Loaded {len(recipes)} recipes", file=sys.stderr)

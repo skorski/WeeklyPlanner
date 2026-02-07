@@ -31,17 +31,28 @@ weekly_plans/2026-02-08/
 
 ## PDF Booklet Format
 
-- **Page size:** Half-letter (5.5" × 8.5") — prints on 8.5" × 11" in landscape
+- **Page size:** 11" × 8.5" (letter landscape) with two 5.5" × 8.5" half-pages per sheet
+- **Imposition:** Saddle-stitch booklet order — print duplex (flip short edge), stack sheets, fold once in center
 - **Style:** Minimalist, editorial — muted palette, serif headings, clean typography
-- **Page order:**
+- **Structure:** Traditional booklet with section dividers, running headers, and page numbers
+- **Page order (logical, before imposition):**
   1. Cover — week title, date range, hero highlight
-  2. Week at a Glance — summary table
-  3–9. Daily pages — dinner + album pairing per day
-  10. Salads & Appetizers
-  11. Beverages
-  12. Grocery List & Prep-Ahead checklist
-  13+. Extra sections (extensible — see below)
-  14. Back cover — notes, nutrition summary
+  2. Week at a Glance — overview summary table
+  3. **Section divider** — "Daily Plan"
+  4–10. Daily pages — dinner + album + chef's tips per day (running header: DAILY PLAN)
+  11. **Section divider** — "Kitchen & Pantry"
+  12. Appetizers & Salads
+  13. Beverage Pairings
+  14. Grocery List
+  15. Prep-Ahead Checklist
+  16. **Section divider** — "Family Corner"
+  17–18. Parenting Corner — theme, dinner questions, nudges, reflection
+  19+. Extra sections (extensible — see below)
+  Last. Back cover — notes, nutrition summary, colophon
+
+Pages are automatically padded to a multiple of 4 and imposed in booklet
+signature order by `render_booklet.py`. Content flows naturally across pages
+when it exceeds a single half-sheet.
 
 ## Extensibility
 
@@ -106,8 +117,9 @@ Remove the temporary plan JSON file if it was created just for this step.
 
 ## Configuration
 
-- Requires Python 3.7+, `jinja2`, and `playwright`
+- Requires Python 3.7+, `jinja2`, `playwright`, and `pypdf`
 - Playwright Chromium must be installed: `python -m playwright install chromium`
+- `pypdf` is used for booklet imposition (saddle-stitch page ordering)
 - Template is in `templates/booklet.html.j2` — edit to customize layout and styling
 - The HTML uses `@media screen` for mobile and `@media print` for the PDF booklet
 - No API keys required

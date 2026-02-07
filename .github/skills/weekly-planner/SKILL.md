@@ -126,7 +126,33 @@ recipe pool and re-pair albums.
 
 ### Step 10: Build the Plan JSON
 
-Build a temporary JSON file. Structure:
+Build a temporary JSON file containing the core plan structure (days, appetizers,
+salads, beverages, grocery list, prep tasks, notes). The supporting skill data
+(elevations, parenting, nutrition) can be kept in separate JSON files and merged
+using the `assemble_plan.py` script.
+
+**Option A: Single JSON (all-in-one)**
+Build one JSON file with everything inline, including `dinner_elevation_tips` on
+each day, `parenting_data`, and `nutrition_summary`. Skip `assemble_plan.py`.
+
+**Option B: Modular assembly (recommended)**
+Write just the core days/menus JSON, then use `assemble_plan.py` to merge:
+
+```bash
+python .github/skills/weekly-planner/scripts/assemble_plan.py days.json \
+    -o weekly_plans/<YYYY-MM-DD>/plan_data.json \
+    --elevations elevations.json \
+    --parenting parenting.json \
+    --nutrition nutrition.json
+```
+
+The assembler:
+- Matches elevations to days by dinner name (case-insensitive)
+- Stores parenting data at the top level as `parenting_data`
+- Extracts `weekly_nutrition_summary` into `nutrition_summary`
+- Uses `utf-8-sig` encoding to handle BOM from Windows/PowerShell
+
+Structure:
 
 ```json
 {
@@ -258,11 +284,11 @@ Build a temporary JSON file. Structure:
 
 ### Step 11: Render the Report
 
-The `build_plan.py` script automatically creates the `weekly_plans/<YYYY-MM-DD>/`
-folder based on the `week_range` field in the JSON and writes the plan there:
+If you used the modular approach (Option B), `assemble_plan.py` already wrote
+`plan_data.json` to the correct folder. Now render the markdown:
 
 ```bash
-python .github/skills/weekly-planner/scripts/build_plan.py plan_data.json
+python .github/skills/weekly-planner/scripts/build_plan.py weekly_plans/<YYYY-MM-DD>/plan_data.json
 ```
 
 The output defaults to `weekly-plan.md` inside the folder. You can override the
