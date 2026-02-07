@@ -6,10 +6,10 @@
 
 ## Week at a Glance
 
-| Day | Weather | Dinner | Album |
-|-----|---------|--------|-------|
+| Day | | Weather | Events | Dinner | Album |
+|-----|---|---------|--------|--------|-------|
 {% for day in days -%}
-| **{{ day.name }}** | {{ day.weather | default("—") }} | {{ day.dinner | default("—") }} | {{ day.album | default("—") }} |
+| **{{ day.name }}** | {% set w = day.weather | default("") | lower %}{% if "snow" in w or "blizzard" in w %}❄️{% elif "rain" in w or "drizzle" in w %}🌧️{% elif "thunder" in w %}⛈️{% elif "clear" in w %}☀️{% elif "partly" in w %}🌤️{% elif "overcast" in w %}☁️{% elif "cloud" in w %}⛅{% elif "fog" in w %}🌫️{% else %}🌤️{% endif %} | {{ day.weather | default("—") }} | {% if day.calendar_items %}{% for item in day.calendar_items %}{{ item }}{% if not loop.last %}; {% endif %}{% endfor %}{% else %}—{% endif %} | {{ day.dinner | default("—") }} | {{ day.album | default("—") }} |
 {% endfor %}
 
 ---

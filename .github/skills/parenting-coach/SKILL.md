@@ -117,6 +117,32 @@ Tie parenting insights to what's happening in the week:
 
 ## Workflow
 
+### Step 0: Check Past Plans for Variety
+
+Before designing this week's parenting brief, scan past plans to avoid repeating
+themes, conversation starters, and book recommendations:
+
+```python
+import json, glob
+past_plans = sorted(glob.glob("weekly_plans/*/plan_data.json"))
+recent = past_plans[-4:]
+past_themes = []
+past_questions = []
+past_books = []
+for path in recent:
+    data = json.load(open(path))
+    pd = data.get("parenting_data", {})
+    if pd.get("weekly_theme"):
+        past_themes.append(pd["weekly_theme"]["title"])
+    for q in pd.get("dinner_questions", []):
+        past_questions.append(q["question"])
+    if pd.get("recommendation"):
+        past_books.append(pd["recommendation"]["title"])
+```
+
+Avoid repeating any theme title, conversation starter, or book from the last 4
+weeks. If the user explicitly requests a repeat, allow it.
+
 ### Step 1: Review the Weekly Plan
 
 Read the current weekly plan (if available) to understand:

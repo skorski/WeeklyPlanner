@@ -23,6 +23,26 @@ Discogs API rate limits.
 This skill requires the agent to perform web searches and then pass results to the
 enrichment script. Follow these steps **in order**:
 
+### Step 0: Check Past Plans for Variety
+
+Before starting album research, scan `weekly_plans/*/plan_data.json` for albums
+from the last 4 weeks to avoid recommending the same music:
+
+```python
+import json, glob
+past_plans = sorted(glob.glob("weekly_plans/*/plan_data.json"))
+recent = past_plans[-4:]
+past_albums = []
+for path in recent:
+    data = json.load(open(path))
+    for day in data.get("days", []):
+        if day.get("album"):
+            past_albums.append(day["album"])
+```
+
+Do not include any album from `past_albums` in the curated list unless the user
+explicitly requests it.
+
 ### Step 1: Determine Album Count
 
 The user may request a specific number of albums. If not specified, default to **30**.
@@ -53,6 +73,9 @@ Ensure variety:
 - Note which source each album came from
 - **Bands In Town entries MUST include upcoming DC-area show info** (venue, date, city)
   in the `description` and `upcoming_show` fields
+
+There should be a variety in the albums. Some nights may need more energetic music to balance out a long day.
+Ensure the descriptions for the search are not consistently vague like "cozy" or "dinner party".
 
 ### Step 3: Build Candidate JSON
 

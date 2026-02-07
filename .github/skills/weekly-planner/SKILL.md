@@ -30,15 +30,30 @@ The user provides unstructured text about their week. Extract:
 Ask follow-up questions only if critical information is missing (the week range,
 or whether they have hard dietary restrictions). Keep it to 2-3 questions max.
 
-### Step 2: Fetch Weather
+### Step 2: Determine the Plan Folder
+
+All output for a weekly plan goes into `weekly_plans/<YYYY-MM-DD>/` where the date
+is the **starting Sunday** of the plan week. Create this folder early — all skill
+markdown output (weather, recipes, albums, and the final plan) goes here.
+
+```
+weekly_plans/
+  2026-02-08/
+    weather.md
+    recipes.md
+    albums.md
+    weekly-plan.md
+```
+
+### Step 3: Fetch Weather
 
 Invoke the `weather` skill to get the forecast for the target week:
 
 ```bash
-python .github/skills/weather/scripts/fetch_weather.py --start <YYYY-MM-DD> --end <YYYY-MM-DD>
+python .github/skills/weather/scripts/fetch_weather.py --start <YYYY-MM-DD> --end <YYYY-MM-DD> -o weekly_plans/<YYYY-MM-DD>/weather.md
 ```
 
-### Step 3: Check Work Calendar (if workIq MCP server available)
+### Step 4: Check Work Calendar (if workIq MCP server available)
 
 If the `workIq` MCP server is available, query the user's work calendar to identify:
 
@@ -46,7 +61,7 @@ If the `workIq` MCP server is available, query the user's work calendar to ident
 - Work-from-home vs. office days
 - Weekend work commitments or evening events
 
-### Step 4: Invoke the Recipes Skill
+### Step 5: Invoke the Recipes Skill
 
 Pass the user's food preferences (ingredients, cuisines, restrictions) to the
 `recipes` skill. This produces a curated list of:
@@ -56,15 +71,17 @@ Pass the user's food preferences (ingredients, cuisines, restrictions) to the
 - 2 appetizers, 4 salads, 3 beverage pairings
 
 The recipes skill handles its own web searches. Feed it the extracted food
-preferences from Step 1 as the prompt. Save the output markdown for reference.
+preferences from Step 1 as the prompt. Save the output markdown to
+`weekly_plans/<YYYY-MM-DD>/recipes.md`.
 
-### Step 5: Invoke the Albums Skill
+### Step 6: Invoke the Albums Skill
 
 Pass the user's music preferences (mood, genre, vibe -- or derive from the week's
 theme if not specified) to the `albums` skill. This produces ~30 album
-recommendations with metadata. Save the output markdown for reference.
+recommendations with metadata. Save the output markdown to
+`weekly_plans/<YYYY-MM-DD>/albums.md`.
 
-### Step 6: Present Options and Get User Selections
+### Step 7: Present Options and Get User Selections
 
 Present the user with a summary of:
 
@@ -82,7 +99,7 @@ Respect any assignments the user made in the original prompt (e.g., "tacos on
 Tuesday" means tacos are locked to Tuesday). The user may also say "pick for me"
 for some or all days.
 
-### Step 7: Auto-Assign Remaining Days
+### Step 8: Auto-Assign Remaining Days
 
 For days without user-specified assignments:
 
@@ -94,7 +111,7 @@ For days without user-specified assignments:
   mellow for weeknight wind-down, genre affinity (jazz with French, cumbia with
   Latin, ambient with Asian, etc.).
 
-### Step 8: Nutritional Review
+### Step 9: Nutritional Review
 
 Review the final 7-day dinner lineup as a nutritionist:
 
@@ -107,7 +124,7 @@ Review the final 7-day dinner lineup as a nutritionist:
 Present findings to the user. If adjustments are needed, swap from the remaining
 recipe pool and re-pair albums.
 
-### Step 9: Build the Plan JSON
+### Step 10: Build the Plan JSON
 
 Build a temporary JSON file. Structure:
 
@@ -138,9 +155,32 @@ Build a temporary JSON file. Structure:
       "album_description": "The quintessential modal jazz album...",
       "album_sonic_description": "Smooth trumpet, gentle piano, walking bass...",
       "album_pairing_rationale": "Sunday stew simmering calls for unhurried jazz",
+      "album_spotify_url": "https://open.spotify.com/album/...",
       "activity": "Board game afternoon",
       "activity_notes": "Too cold for outdoor activities",
-      "prep_notes": ["Thaw stew meat Saturday night"]
+      "prep_notes": ["Thaw stew meat Saturday night"],
+      "dinner_elevation_tips": [
+        {
+          "type": "Sauce",
+          "title": "Red Wine Reduction",
+          "instruction": "After braising, strain 1 cup liquid and reduce by half with a splash of balsamic for a glossy finishing sauce."
+        },
+        {
+          "type": "Texture",
+          "title": "Crispy Shallots",
+          "instruction": "Top with thinly sliced shallots fried until golden — adds crunch contrast to the tender meat."
+        }
+      ],
+      "prep_detail": {
+        "prep_timeline": "3-4 hours (mostly hands-off braising)",
+        "prep_steps": [
+          "Step 1 with full detail and measurements...",
+          "Step 2 with technique notes..."
+        ],
+        "active_time": "45 minutes",
+        "special_equipment": ["Dutch oven", "Sharp knife"],
+        "make_ahead": "Stew can be made a day ahead. Reheat gently."
+      }
     }
   ],
   "appetizers": [
@@ -179,19 +219,74 @@ Build a temporary JSON file. Structure:
   "nutrition_summary": "Good protein variety (beef, chicken, fish, vegetarian). Consider adding a leafy side on Wednesday.",
   "notes": [
     "Double the Sunday stew for Monday lunch leftovers"
-  ]
+  ],
+  "parenting_data": {
+    "weekly_theme": {
+      "title": "The Sous Chef",
+      "description": "This week, invite your child into the kitchen as a helper. Cooking together builds math skills, confidence, and family connection."
+    },
+    "dinner_questions": [
+      {
+        "day": "Sunday",
+        "dinner": "Braised Short Ribs",
+        "question": "If you could cook any meal for someone you love, what would you make?",
+        "why": "Encourages empathy and creative thinking through food"
+      }
+    ],
+    "nudges": [
+      {
+        "title": "Measure & Pour",
+        "context": "Cooking involves real math — fractions, volume, temperature.",
+        "suggestion": "Let your child handle all the measuring this week.",
+        "how_to": [
+          "Show them how to read a measuring cup",
+          "Let them figure out 'half of 3/4 cup'",
+          "Celebrate their accuracy (or laugh together at the mess)"
+        ]
+      }
+    ],
+    "recommendation": {
+      "title": "Stirring Up Fun!",
+      "author": "Deanna F. Cook",
+      "why": "Age-appropriate recipes that give kids real ownership of a dish.",
+      "connection": "Pairs perfectly with this week's Sous Chef theme."
+    },
+    "parent_reflection": "What is one skill you learned by doing — not by being told? How can you create that experience for your child this week?"
+  }
 }
 ```
 
-### Step 10: Render the Report
+### Step 11: Render the Report
+
+The `build_plan.py` script automatically creates the `weekly_plans/<YYYY-MM-DD>/`
+folder based on the `week_range` field in the JSON and writes the plan there:
+
+```bash
+python .github/skills/weekly-planner/scripts/build_plan.py plan_data.json
+```
+
+The output defaults to `weekly-plan.md` inside the folder. You can override the
+filename (but not the folder) with `-o`:
 
 ```bash
 python .github/skills/weekly-planner/scripts/build_plan.py plan_data.json -o weekly-plan.md
 ```
 
-### Step 11: Clean Up
+### Step 12: Generate Booklet (optional)
 
-Remove the temporary JSON file after rendering.
+If the user wants a printable PDF or mobile HTML, invoke the **booklet** skill.
+Keep the plan JSON file around until after the booklet is generated:
+
+```bash
+python .github/skills/booklet/scripts/render_booklet.py plan_data.json
+```
+
+This produces `weekly-plan.html` and `weekly-plan.pdf` in the same
+`weekly_plans/<YYYY-MM-DD>/` folder.
+
+### Step 13: Clean Up
+
+Remove the temporary JSON file after all rendering is complete.
 
 ## Output Format
 
@@ -208,6 +303,10 @@ The rendered report includes:
 
 ## Guidelines
 
+- **All markdown output goes in `weekly_plans/<YYYY-MM-DD>/`** where the date is the
+  starting Sunday of the plan week. This includes `weather.md`, `recipes.md`,
+  `albums.md`, and `weekly-plan.md`. The `build_plan.py` script creates the folder
+  automatically; for other skill outputs, pass the folder path via `-o`.
 - Respect user's explicit day assignments from their original prompt above all else
 - Favor practical meals (30-60 min weeknights, more elaborate on free days)
 - Include at least one leftover-reuse opportunity
@@ -216,3 +315,34 @@ The rendered report includes:
 - The nutritional review should be helpful, not preachy
 - The template is in `templates/weekly_plan.md.j2` -- edit to customize output
 - Requires Python 3.7+ and `jinja2`
+
+## Variety Across Weeks
+
+Before finalizing the plan, **scan all existing `weekly_plans/*/plan_data.json`
+files** to check what has been used in previous weeks. This ensures the family
+doesn't eat the same meals or listen to the same albums on repeat.
+
+### What to check:
+- **Dinners:** Extract `days[].dinner` from each past plan. Avoid repeating any
+  dinner that appeared in the last 4 weeks. If the user explicitly requests a
+  repeat, that's fine — but the agent should not auto-assign a recent repeat.
+- **Albums:** Extract `days[].album` from each past plan. Avoid re-pairing any
+  album used in the last 4 weeks.
+- **Cuisines:** Check cuisine distribution across the last 4 weeks. If Italian
+  appeared 3 times last week, lean toward other cuisines this week.
+- **Proteins:** Check protein sources across recent weeks. Ensure variety over time
+  (don't do beef 5 times in 2 weeks).
+
+### How to check:
+```python
+import json, glob
+past_plans = sorted(glob.glob("weekly_plans/*/plan_data.json"))
+recent = past_plans[-4:]  # last 4 weeks
+for path in recent:
+    data = json.load(open(path))
+    for day in data.get("days", []):
+        print(day.get("dinner"), day.get("album"))
+```
+
+Flag any conflicts to the user: "Persian Lamb Stew was on last week's menu —
+want to keep it, or should I suggest an alternative?"

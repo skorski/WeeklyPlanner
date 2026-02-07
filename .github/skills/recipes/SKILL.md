@@ -18,6 +18,26 @@ skill produces a varied list for weekly menu selection.
 
 This skill is entirely agent-driven using web search. Follow these steps **in order**:
 
+### Step 0: Check Past Plans for Variety
+
+Before starting recipe research, scan `weekly_plans/*/plan_data.json` for dinners
+from the last 4 weeks to avoid recommending the same dishes:
+
+```python
+import json, glob
+past_plans = sorted(glob.glob("weekly_plans/*/plan_data.json"))
+recent = past_plans[-4:]
+past_dinners = []
+for path in recent:
+    data = json.load(open(path))
+    for day in data.get("days", []):
+        if day.get("dinner"):
+            past_dinners.append(day["dinner"])
+```
+
+If the user explicitly requests a repeat dish, allow it. Otherwise, do not include
+any dinner from `past_dinners` in the curated list.
+
 ### Step 1: Parse the User's Prompt
 
 Extract from the user's input:
@@ -56,6 +76,8 @@ From search results and your culinary knowledge, compile:
 - **2 appetizers** — complementary to the dinner options
 - **4 salads** — see **Salad Requirements** below
 - **3 beverage pairings** — wine, beer, cocktail, or non-alcoholic options
+
+Salads should be part of the dinner selection as well. We eat at least one salad per week for dinner.
 
 **Salad Requirements:**
 
