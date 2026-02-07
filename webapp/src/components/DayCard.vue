@@ -1,5 +1,6 @@
 <template>
-  <div class="day-card">
+  <div class="day-card" :class="{ 'day-card--today': isToday }">
+    <div v-if="isToday" class="today-indicator">📍 Today</div>
     <h3>{{ day.long_name }}</h3>
     <p v-if="day.day_intro" class="day-intro">{{ day.day_intro }}</p>
     <div v-if="day.weather" class="weather">
@@ -70,7 +71,7 @@
 <script setup>
 import { computed } from 'vue'
 
-const props = defineProps({ day: Object })
+const props = defineProps({ day: Object, isToday: Boolean })
 
 const weatherIcon = computed(() => {
   const w = (props.day.weather || '').toLowerCase()
