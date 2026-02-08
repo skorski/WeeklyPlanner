@@ -7,14 +7,10 @@
   <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
 </div>
 
-{# --- NEWSLETTER PAGES --- #}
-{% set ns = namespace(page_num=0) %}
+{# --- NEWSLETTER PAGES: one page per cluster --- #}
 {% for cluster in newsletter_data.clusters %}
-{% if loop.index == 1 or loop.index == 3 %}
-{% set ns.page_num = ns.page_num + 1 %}
 <div class="page page-newsletter">
   <div class="page-header">The Weekly Read</div>
-{% endif %}
 
   <h3 class="cluster-theme">{{ cluster.theme }}</h3>
   <div class="cluster-synthesis">{{ cluster.synthesis }}</div>
@@ -28,14 +24,22 @@
   {% endfor %}
   </ul>
 
-{% if loop.index is even or loop.last %}
-{% if loop.last and newsletter_data.reflections %}
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+{% endfor %}
+
+{# --- NEWSLETTER CLOSING PAGE: reflections + fun --- #}
+{% if newsletter_data.reflections or newsletter_data.fun_section %}
+<div class="page page-newsletter">
+  <div class="page-header">The Weekly Read</div>
+
+{% if newsletter_data.reflections %}
   <div class="through-line">
     <strong>The Through-Line:</strong> {{ newsletter_data.reflections }}
   </div>
 {% endif %}
 
-{% if loop.last and newsletter_data.fun_section %}
+{% if newsletter_data.fun_section %}
   <div class="fun-section">
     <h3>{{ newsletter_data.fun_section.title | default("And Finally…") }}</h3>
     <p>{{ newsletter_data.fun_section.content }}</p>
@@ -43,13 +47,12 @@
     <p class="fun-source">Source: <a href="{{ newsletter_data.fun_section.source_url }}">{{ newsletter_data.fun_section.source_name | default("Link") }}</a></p>
     {% endif %}
   </div>
-  <p class="newsletter-footer">{{ newsletter_data.total_articles | default(0) }} articles · {{ newsletter_data.week_range | default(week_range) }}</p>
 {% endif %}
 
+  <p class="newsletter-footer">{{ newsletter_data.total_articles | default(0) }} articles · {{ newsletter_data.week_range | default(week_range) }}</p>
   <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
 </div>
 {% endif %}
-{% endfor %}
 {% endif %}
 
 {# --- EXTRA SECTIONS (extensible, non-parenting) --- #}
