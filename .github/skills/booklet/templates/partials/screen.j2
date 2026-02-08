@@ -1,0 +1,331 @@
+
+<div class="screen-container">
+  <div class="cover-screen">
+    <h1>Weekly Planner</h1>
+    <div class="week-range">{{ week_range }}</div>
+    {% if highlight %}
+    <div class="highlight">{{ highlight }}</div>
+    {% endif %}
+  </div>
+
+  <h2 class="section-title">Week at a Glance</h2>
+  <table class="glance-table">
+    <thead>
+      <tr><th>Day</th><th>Weather</th><th>Events</th><th>Dinner</th><th>Album</th></tr>
+    </thead>
+    <tbody>
+      {% for day in days %}
+      <tr>
+        <td class="day-name">{{ day.name }}</td>
+        <td>{{ weather_compact(day) }}</td>
+        <td>{% if day.calendar_items %}{% for item in day.calendar_items %}{{ item }}{% if not loop.last %}; {% endif %}{% endfor %}{% else %}—{% endif %}</td>
+        <td>{{ day.dinner | default("—") }}</td>
+        <td>{{ day.album | default("—") }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <h2 class="section-title">Daily Plan</h2>
+  {% for day in days %}
+  <div class="day-card">
+    {% if day.weather %}<div class="weather-horizon">{{ weather_oneliner(day, days) }}</div>{% endif %}
+    <h3>{{ day.long_name }}</h3>
+
+    {% if day.calendar_items %}
+    <div class="engagements">
+      {% for item in day.calendar_items %}<div class="engagement-row"><span class="engagement-event">{{ item }}</span></div>{% endfor %}
+    </div>
+    {% endif %}
+
+    {% if day.day_intro %}<p class="day-intro">{{ day.day_intro }}</p>{% endif %}
+
+    {% if day.dinner %}
+    <div class="dinner-title">{{ day.dinner }}</div>
+    {% if day.dinner_cuisine %}<span class="cuisine-label">{{ day.dinner_cuisine }}</span>{% endif %}
+    {% if day.dinner_description %}<p class="description">{{ day.dinner_description }}</p>{% endif %}
+    {% if day.dinner_key_ingredients %}<p class="ingredients">{{ day.dinner_key_ingredients | join(", ") }}</p>{% endif %}
+    {% if day.dinner_source_url %}<a href="{{ day.dinner_source_url }}" target="_blank" rel="noopener" class="recipe-link">Recipe — {{ day.dinner_source_name | default("View recipe") }}</a>{% endif %}
+    {% if day.dinner_notes %}<p class="notes">{{ day.dinner_notes }}</p>{% endif %}
+    {% endif %}
+
+    {% if day.dinner_elevation_tips %}
+    <div class="elevation-tips">
+      <h4>Chef's Tips</h4>
+      {% for tip in day.dinner_elevation_tips %}
+      <div class="elevation-tip">
+        <span class="tip-label">{{ tip.type }}</span> <strong>{{ tip.title }}</strong> — {{ tip.instruction }}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if day.dinner_question %}
+    <div class="conversation-block">
+      <h4>At the Table</h4>
+      <div class="conversation-question">{{ day.dinner_question.question }}</div>
+      {% if day.dinner_question.why %}<div class="conversation-why">{{ day.dinner_question.why }}</div>{% endif %}
+    </div>
+    {% endif %}
+
+    {% if day.prep_detail %}
+    <details class="prep-detail">
+      <summary>Full Prep Instructions</summary>
+      <div class="prep-meta">
+        {% if day.prep_detail.prep_timeline %}<span class="prep-meta-item">{{ day.prep_detail.prep_timeline }}</span>{% endif %}
+        {% if day.prep_detail.active_time %}<span class="prep-meta-item">Active: {{ day.prep_detail.active_time }}</span>{% endif %}
+      </div>
+      {% if day.prep_detail.prep_steps %}
+      <ol class="prep-steps">
+        {% for step in day.prep_detail.prep_steps %}<li>{{ step }}</li>{% endfor %}
+      </ol>
+      {% endif %}
+      {% if day.prep_detail.special_equipment %}
+      <div class="prep-equipment"><strong>Equipment</strong> {{ day.prep_detail.special_equipment | join(", ") }}</div>
+      {% endif %}
+      {% if day.prep_detail.make_ahead %}
+      <div class="prep-make-ahead"><strong>Make ahead</strong> {{ day.prep_detail.make_ahead }}</div>
+      {% endif %}
+    </details>
+    {% endif %}
+
+    {% if day.album %}
+    <div class="album-pairing">
+      {% if day.album_artist %}<div class="album-artist">{{ day.album_artist }}</div>{% endif %}
+      <div class="album-name">{{ day.album_title | default(day.album) }}</div>
+      <div class="album-meta">{{ day.album_year | default("") }} · {{ day.album_genre | default("") }}</div>
+      {% if day.album_description %}<div class="album-desc">{{ day.album_description }}</div>{% endif %}
+      {% if day.album_sonic_description %}<div class="album-sonic">{{ day.album_sonic_description }}</div>{% endif %}
+      {% if day.album_pairing_rationale %}<div class="album-rationale">{{ day.album_pairing_rationale }}</div>{% endif %}
+      {% if day.album_spotify_url %}<a href="{{ day.album_spotify_url }}" target="_blank" rel="noopener" class="spotify-link">Listen on Spotify</a>{% endif %}
+    </div>
+    {% endif %}
+
+  </div>
+  {% endfor %}
+
+  {% if appetizers %}
+  <h2 class="section-title">Appetizers</h2>
+  {% for a in appetizers %}
+  <div class="appetizer-card">
+    <h4>{{ a.name }}</h4>
+    {% if a.cuisine %}<span class="cuisine-label">{{ a.cuisine }}</span>{% endif %}
+    <p>{{ a.description | default("") }}</p>
+    {% if a.key_ingredients %}<p class="ingredients">{{ a.key_ingredients | join(", ") }}</p>{% endif %}
+    {% if a.source_url %}<a href="{{ a.source_url }}" target="_blank" rel="noopener" class="recipe-link">{{ a.source_name | default("View recipe") }}</a>{% endif %}
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  {% if salads %}
+  <h2 class="section-title">Salads</h2>
+  {% for s in salads %}
+  <div class="salad-card">
+    <div class="salad-type">{{ s.salad_type | default("side") | replace("_", " ") }}</div>
+    <h4>{{ s.name }}</h4>
+    <p>{{ s.description | default("") }}</p>
+    {% if s.key_ingredients %}<p class="ingredients">{{ s.key_ingredients | join(", ") }}</p>{% endif %}
+    {% if s.dressing %}<div class="dressing"><strong>Dressing:</strong> {{ s.dressing }}</div>{% endif %}
+    {% if s.flavor_rationale %}<div class="rationale">{{ s.flavor_rationale }}</div>{% endif %}
+    {% if s.source_url %}<a href="{{ s.source_url }}" target="_blank" rel="noopener" class="recipe-link">{{ s.source_name | default("View recipe") }}</a>{% endif %}
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  {% if beverages %}
+  <h2 class="section-title">Beverages</h2>
+  {% for b in beverages %}
+  <div class="beverage-card">
+    <h4>{{ b.name }}</h4>
+    <p>{{ b.description | default("") }}</p>
+    {% if b.why %}<p class="rationale">{{ b.why }}</p>{% endif %}
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  <h2 class="section-title">Grocery List</h2>
+  {% if grocery_list %}
+  <div class="grocery-section">
+    {% for category, items in grocery_list.items() %}
+    <div class="grocery-category">
+      <h4>{{ category }}</h4>
+      <ul>{% for item in items %}<li>{{ item }}</li>{% endfor %}</ul>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if prep_ahead %}
+  <h2 class="section-title">Prep-Ahead Checklist</h2>
+  <ul class="prep-checklist">
+    {% for task in prep_ahead %}<li>{{ task }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if parenting_data %}
+  <h2 class="section-title">Parenting Corner</h2>
+  <div class="parenting-section">
+    {% if parenting_data.weekly_theme %}
+    <div class="theme-banner">
+      <h3>{{ parenting_data.weekly_theme.title }}</h3>
+      <p>{{ parenting_data.weekly_theme.description }}</p>
+    </div>
+    {% endif %}
+
+    {% if parenting_data.dinner_questions %}
+    <h4 class="section-label">Dinner Conversation Starters</h4>
+    {% for q in parenting_data.dinner_questions %}
+    <div class="question-card">
+      <div class="question-day">{{ q.day }} — {{ q.dinner | default("") }}</div>
+      <div class="question-text">"{{ q.question }}"</div>
+      <div class="question-why">{{ q.why }}</div>
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    {% if parenting_data.nudges %}
+    <h4 class="section-label">Parenting Nudges</h4>
+    {% for n in parenting_data.nudges %}
+    <div class="nudge-card">
+      <h4>{{ n.title }}</h4>
+      <p style="font-style:italic;">{{ n.context }}</p>
+      <p>{{ n.suggestion }}</p>
+      {% if n.how_to %}
+      <ol class="nudge-steps">{% for step in n.how_to %}<li>{{ step }}</li>{% endfor %}</ol>
+      {% endif %}
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    {% if parenting_data.recommendation %}
+    <div class="book-rec">
+        <h4>{{ parenting_data.recommendation.title }}{% if parenting_data.recommendation.author %} by {{ parenting_data.recommendation.author }}{% endif %}</h4>
+        <p>{{ parenting_data.recommendation.why }}</p>
+        <p style="font-style:italic;">{{ parenting_data.recommendation.connection }}</p>
+    </div>
+    {% endif %}
+
+    {% if parenting_data.parent_reflection %}
+    <div class="reflection-box">
+      {{ parenting_data.parent_reflection }}
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if stoic_data %}
+  <h2 class="section-title">The Stoic Guide</h2>
+  <div class="stoic-section">
+    <div class="stoic-theme-header">
+      <span class="stoic-category-tag">{{ stoic_data.theme.category | default("") }}</span>
+      <h3>{{ stoic_data.theme.title }}</h3>
+      <p>{{ stoic_data.theme.description }}</p>
+    </div>
+
+    <blockquote class="stoic-anchor-quote">
+      "{{ stoic_data.anchor_quote.text }}"
+      <cite>— {{ stoic_data.anchor_quote.source }}, <em>{{ stoic_data.anchor_quote.work }}</em> {{ stoic_data.anchor_quote.reference }}</cite>
+    </blockquote>
+
+    <div class="stoic-intro">{{ stoic_data.introduction }}</div>
+
+    <h4 class="section-label">Meditations</h4>
+    {% for m in stoic_data.meditations %}
+    <div class="meditation-card">
+      {% if m.day %}<div class="meditation-day-label">{{ m.day }}</div>{% endif %}
+      <h4>{{ m.title }}</h4>
+      <p>{{ m.reflection }}</p>
+      <p class="meditation-prompt-text"><strong>Prompt:</strong> {{ m.prompt }}</p>
+      {% if m.secondary_quote %}
+      <p class="meditation-sec-quote">"{{ m.secondary_quote.text }}" — <em>{{ m.secondary_quote.source }}</em></p>
+      {% endif %}
+    </div>
+    {% endfor %}
+
+    {% if stoic_data.family_exercise %}
+    <div class="stoic-exercise-card">
+      <h4>{{ stoic_data.family_exercise.title }}</h4>
+      <p>{{ stoic_data.family_exercise.description }}</p>
+      <p style="font-style:italic;">{{ stoic_data.family_exercise.connection }}</p>
+    </div>
+    {% endif %}
+
+    {% if stoic_data.young_stoic %}
+    <div class="stoic-young-card">
+      <h4>{{ stoic_data.young_stoic.title }}</h4>
+      <p>{{ stoic_data.young_stoic.prompt }}</p>
+      <p style="font-style:italic;">{{ stoic_data.young_stoic.lesson }}</p>
+    </div>
+    {% endif %}
+
+    {% if stoic_data.closing_thought %}
+    <div class="stoic-closing">{{ stoic_data.closing_thought }}</div>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if newsletter_data and newsletter_data.clusters %}
+  <h2 class="section-title">The Weekly Read</h2>
+  {% for cluster in newsletter_data.clusters %}
+  <div class="support-section">
+    <h3>{{ cluster.theme }}</h3>
+    <p>{{ cluster.synthesis }}</p>
+    <ul>
+    {% for article in cluster.articles %}
+      <li><strong>{{ article.title }}</strong>{% if article.tags %} <em>({{ article.tags | join(', ') }})</em>{% endif %}{% if article.one_liner %}<br>{{ article.one_liner }}{% endif %}</li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+  {% if newsletter_data.reflections %}
+  <div class="through-line">
+    <strong>The Through-Line:</strong> {{ newsletter_data.reflections }}
+  </div>
+  {% endif %}
+  {% if newsletter_data.fun_section %}
+  <div class="fun-box">
+    <h3>{{ newsletter_data.fun_section.title | default("And Finally…") }}</h3>
+    <p>{{ newsletter_data.fun_section.content }}</p>
+    {% if newsletter_data.fun_section.source_url %}
+    <p class="fun-source"><em>Source: <a href="{{ newsletter_data.fun_section.source_url }}">{{ newsletter_data.fun_section.source_name | default("Link") }}</a></em></p>
+    {% endif %}
+  </div>
+  {% endif %}
+  {% endif %}
+
+  {% if extra_sections %}
+  {% for section in extra_sections %}
+  {% if "Parenting" not in section.title %}
+  <div class="extra-section">
+    <h3>{{ section.title }}</h3>
+    <div>{{ section.content }}</div>
+  </div>
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+
+  {% if notes %}
+  <h2 class="section-title">Notes</h2>
+  <div class="support-section">
+    <ul>{% for note in notes %}<li>{{ note }}</li>{% endfor %}</ul>
+  </div>
+  {% endif %}
+
+  {% if nutrition_summary %}
+  <h2 class="section-title">Nutrition</h2>
+  <div class="support-section"><p>{{ nutrition_summary }}</p></div>
+  {% endif %}
+
+  {% if child_wisdom %}
+  <h2 class="section-title">Bedtime Story</h2>
+  <div class="story-card">
+    <h3 class="story-title">{{ child_wisdom.title }}</h3>
+    <div class="story-text">{{ child_wisdom.story }}</div>
+    {% if child_wisdom.discussion_prompt %}
+    <div class="story-prompt">{{ child_wisdom.discussion_prompt }}</div>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  <div class="footer">{{ week_range }} · Generated {{ generated_at }}</div>
+</div>

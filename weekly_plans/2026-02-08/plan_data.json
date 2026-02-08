@@ -1,682 +1,720 @@
 {
-  "week_range": "February 8 – 14, 2026",
+  "week_range": "February 8 - February 14, 2026",
   "days": [
     {
       "name": "Sun 02/08",
       "long_name": "Sunday, February 8",
-      "weather": "Sunny, 17°F / 8°F",
-      "weather_detail": "Sunny (89%), wind 19 mph (gusts 44 mph), 0% precip. Bitter cold.",
-      "calendar": "",
-      "calendar_items": [],
-      "time_constraints": [],
+      "day_of_week": "sunday",
+      "weather": "Overcast, 22°F/14°F",
+      "weather_detail": "Mostly Sunny (63%), wind 20 mph (gusts 43 mph), 0% precip",
+      "calendar": "Dinner at friend's house",
+      "calendar_items": [
+        "Dinner at friend's house — Philly Cheesesteaks"
+      ],
+      "time_constraints": [
+        "Need steak from RD",
+        "Fresh sourdough bread available"
+      ],
       "dinner": "Philly Cheesesteaks",
       "dinner_cuisine": "American",
-      "dinner_description": "Classic Philly cheesesteaks with paper-thin ribeye from RD, seared screaming-hot on a cast-iron griddle until the edges crisp and the fat renders. Provolone melted directly over the beef, sautéed onions caramelized until sweet, all piled into garlic-butter-toasted hoagie rolls.",
+      "dinner_description": "The cheesesteak was born in 1930 when Pat Olivieri, tired of his own hot dogs, grilled sliced beef with onions on an Italian roll at the corner of 9th and Passyunk in South Philly. A passing cabbie tried one, told Pat to forget the franks, and an American icon was born. Tonight you get the real thing at a friend's table — no cooking required.",
       "dinner_key_ingredients": [
-        "ribeye steak",
-        "provolone cheese",
+        "ribeye steak (from RD)",
+        "provolone",
         "hoagie rolls",
-        "onions",
-        "peppers"
+        "onions"
       ],
-      "dinner_source_url": "https://www.seriouseats.com/philly-cheesesteak-recipe",
-      "dinner_source_name": "Serious Eats",
-      "dinner_notes": "Pick up steak from RD beforehand. Quick cook — sear thin slices at high heat.",
-      "dinner_nutrition_notes": "",
-      "album": "Franc Moody – Dream in Colour",
-      "album_year": "2022",
-      "album_genre": "Disco-Funk / Indie-Pop",
-      "album_mood": "Upbeat, funky, joyful",
-      "album_description": "Born in a Tottenham warehouse studio full of vintage gear and Tabasco-bottle percussion, Franc Moody's debut is pure London disco-funk energy. Ned Franc and Jon Moody spent 18 months crafting these irresistibly funky tracks — they're playing 9:30 Club on Feb 19 if you catch the bug.",
-      "album_sonic_description": "Disco-funk basslines, shimmering synths, falsetto vocals, infectious hooks",
-      "album_pairing_rationale": "Cheesesteaks are a contact sport — hot griddle, fast hands, melted cheese flying. You need music with the same energy. Franc Moody's disco-funk basslines turn the kitchen into a dance floor while you sear.",
+      "dinner_source_url": "",
+      "dinner_source_name": "At friend's house",
+      "dinner_notes": "Pick up steak from RD. Sourdough bread is ready and resting for the week ahead.",
+      "dinner_nutrition_notes": "High protein from beef, moderate fat from cheese. Balanced by the social joy of eating with friends.",
+      "album": "Butcher Brown – Solar Music",
+      "album_year": "2024",
+      "album_genre": "Jazz-Funk",
+      "album_mood": "Energetic, funky, expansive",
+      "album_description": "Recorded at Montrose Recording in Richmond, VA with engineer Adrian Olsen, Solar Music is Butcher Brown's genre-defying manifesto — jazz, funk, hip-hop, and soul colliding in a five-piece collective that calls their sound 'everything under the sun.'",
+      "album_sonic_description": "Jazz-funk fusion, heavy drums, wah-wah guitar, horn arrangements, progressive soul",
+      "album_pairing_rationale": "Cheesesteaks deserve swagger, and this Richmond funk collective brings it. Plus they're playing The Atlantis in DC on March 13.",
       "album_spotify_url": "",
-      "activity": "Cozy indoor day — board games or movie afternoon",
-      "activity_notes": "Too cold for outdoor activities (17°F with 44 mph gusts). Hunker down.",
+      "activity": "Dinner at friend's house",
+      "activity_notes": "Bundle up — 22°F with 43 mph gusts! Sourdough bread is ready for the week.",
       "prep_notes": [
-        "Pick up ribeye from RD"
+        "Pick up steak from RD"
       ],
-      "prep_detail": {
-        "prep_timeline": "30 minutes total",
-        "prep_steps": [
-          "Partially freeze ribeye for thin slicing",
-          "Slice onions and peppers",
-          "Sear beef at high heat 90 sec per side",
-          "Melt provolone over meat on griddle",
-          "Toast hoagie rolls and assemble"
-        ],
-        "active_time": "30 minutes",
-        "special_equipment": [
-          "Cast iron or flat griddle"
-        ],
-        "make_ahead": "Slice meat and prep veggies ahead of time."
-      },
+      "day_intro": "Bundle up — it's 22°F with 43 mph gusts rattling the windows, a perfect excuse to head to a friend's house and let someone else do the cooking.",
+      "weather_high": 22,
+      "weather_low": 14,
+      "weather_condition": "OVERCAST",
+      "weather_emoji": "☁️",
+      "weather_oneliner": "22°/14° · coldest day, gusty",
+      "album_artist": "Butcher Brown",
+      "album_title": "Solar Music",
+      "engagements": [
+        {
+          "time": "",
+          "event": "Dinner at friend's house — Philly Cheesesteaks",
+          "event_short": "Dinner at friend's house — Philly Cheesesteaks"
+        }
+      ],
       "dinner_elevation_tips": [
         {
           "type": "preparation",
-          "title": "Worcestershire Fond Glaze",
-          "instruction": "During the last 30 seconds of cooking the beef, hit it with a tablespoon of Worcestershire sauce directly on the screaming-hot griddle. Let it sizzle and caramelize into the meat. This creates a savory glaze that makes the steak taste more like steak.",
-          "why": "Worcestershire adds umami depth (anchovies, tamarind) without anyone detecting individual flavors. It browns into the fond and coats each slice.",
-          "extra_ingredients": [
-            "Worcestershire sauce"
-          ]
-        },
-        {
-          "type": "sauce",
-          "title": "Garlic Butter Roll Toast",
-          "instruction": "Melt 2 tbsp butter with 1 minced garlic clove. Split hoagie rolls, brush the insides with garlic butter, and griddle cut-side down until golden and crisp. The butter creates a moisture barrier that prevents the bread from going soggy.",
-          "why": "Garlic butter adds flavor and creates a crispy, waterproof barrier between bread and juicy filling. Restaurant cheesesteaks always toast the roll — home versions rarely do.",
-          "extra_ingredients": [
-            "garlic"
-          ]
+          "title": "The Freeze-and-Shave Technique",
+          "instruction": "Partially freeze your ribeye for 20–45 minutes before slicing. This firms the meat just enough to get paper-thin cuts against the grain — the hallmark of an authentic Philly steak. Slice no thicker than 1/8 inch for maximum tenderness.",
+          "why": "Paper-thin slices cook in seconds on a screaming-hot griddle, creating crispy edges while staying juicy inside. Room-temperature beef shreds instead of slicing cleanly, ruining the texture.",
+          "extra_ingredients": []
         },
         {
           "type": "texture",
-          "title": "Crispy Shallot Rings",
-          "instruction": "Thinly slice 2 shallots into rings. Toss in seasoned flour, shake off excess, and fry in 350°F oil for 2-3 minutes until deeply golden. Drain on paper towels, salt immediately. Pile on top of the assembled cheesesteak.",
-          "why": "Adds crunchy textural contrast to the soft, melty sandwich. The shallot sweetness echoes the caramelized onions but in crispy form.",
-          "extra_ingredients": [
-            "shallots",
-            "flour"
-          ]
-        },
-        {
-          "type": "acid",
-          "title": "Quick-Pickled Hot Peppers",
-          "instruction": "Slice banana peppers or cherry peppers into rings. Cover with equal parts white vinegar and water, a pinch of sugar and salt. Let sit 15 minutes. Pile onto cheesesteaks for a bright, acidic crunch.",
-          "why": "Acid cuts through the richness of beef and melted cheese. The vinegar bite resets your palate between bites so the last one tastes as good as the first.",
-          "extra_ingredients": [
-            "banana peppers or cherry peppers",
-            "white vinegar",
-            "sugar"
-          ]
+          "title": "The Cheese Melt Debate",
+          "instruction": "For the most authentic experience, lay your cheese (Cheez Whiz for classic, provolone for purist, white American for creamy) directly on the sizzling beef, then cover with a dome or foil for 15–30 seconds to trap steam and melt evenly. Never use cheddar or mozzarella — that's not Philly.",
+          "why": "The trapped steam creates an even melt that coats every strand of beef rather than sitting in a cold lump on top. The right cheese choice is the difference between a cheesesteak and a steak sandwich.",
+          "extra_ingredients": []
         }
       ],
-      "day_intro": "It's 17°F with wind gusts up to 44 mph — the kind of Sunday where you don't leave the house unless someone's on fire. Which makes it the perfect day for cheesesteaks, board games, and Franc Moody's disco-funk warming the kitchen like a space heater with a bassline."
+      "dinner_question": {
+        "day": "Sunday",
+        "day_of_week": "sunday",
+        "dinner": "Philly Cheesesteaks",
+        "question": "We're eating at a friend's house tonight — what's your favorite thing about sharing a meal with people outside our family? If you could invite anyone in the world to dinner, who would it be and what would you serve them?",
+        "category": "gratitude",
+        "why": "Eating at a friend's home is a mini-adventure in trust and openness — you step into someone else's kitchen, their rhythms, their traditions. This question helps Elsie practice gratitude for the people who welcome us, and gently stretches her imagination about hospitality and generosity."
+      }
     },
     {
       "name": "Mon 02/09",
       "long_name": "Monday, February 9",
-      "weather": "Sunny, 32°F / 8°F",
-      "weather_detail": "Sunny (90%), wind 8 mph, 0% precip. Cold but calm.",
-      "calendar": "Office day — Conduit Demo 4-5 PM",
-      "calendar_items": [
-        "Conduit Demonstration and Planning 4:00-5:00 PM (Reston Conf Room 5.1B)"
-      ],
+      "day_of_week": "monday",
+      "weather": "Overcast, 25°F/10°F",
+      "weather_detail": "Mostly Sunny (72%), wind 7 mph (gusts 12 mph), 1% precip",
+      "calendar": "Regular workday",
+      "calendar_items": [],
       "time_constraints": [
-        "Back from office ~5:30 PM"
+        "Use the raw chicken tonight before it goes bad"
       ],
-      "dinner": "Shakshuka with Feta",
-      "dinner_cuisine": "North African / Israeli",
-      "dinner_description": "Eggs poached in a smoky, garlicky tomato sauce spiked with harissa and finished with cold labneh dollops and a shower of za'atar. The contrast between the searing-hot sauce and the cool yogurt is what separates this from 'eggs in tomato sauce.' Serve with thick-cut sourdough for dunking — the yolk situation demands it.",
+      "dinner": "Herb-Roasted Whole Chicken with Root Vegetables & Pan Gravy",
+      "dinner_cuisine": "French-American",
+      "dinner_description": "A whole chicken rubbed with herb butter, set atop a bed of carrots, parsnips, and potatoes, roasted until the skin crackles and the drippings pool into a simple pan gravy. Tear off hunks of Sunday's sourdough to sop up every last drop. This is the dinner Thomas Keller calls 'the benchmark of a cook.'",
       "dinner_key_ingredients": [
-        "eggs",
-        "canned tomatoes",
-        "bell peppers",
-        "feta cheese",
-        "cumin",
-        "paprika",
-        "crusty bread"
+        "whole chicken",
+        "carrots",
+        "parsnips",
+        "potatoes",
+        "garlic",
+        "thyme",
+        "rosemary",
+        "butter",
+        "sourdough bread"
       ],
-      "dinner_source_url": "https://www.seriouseats.com/shakshuka-recipe",
-      "dinner_source_name": "Serious Eats",
-      "dinner_notes": "One-skillet, 20 minutes. Perfect after a long office day.",
-      "dinner_nutrition_notes": "",
-      "album": "Makaya McCraven – In These Times",
-      "album_year": "2022",
-      "album_genre": "Jazz / Hip-Hop",
-      "album_mood": "Warm, meditative, groovy",
-      "album_description": "Chicago drummer and producer Makaya McCraven doesn't just play jazz — he deconstructs and reassembles it with a hip-hop producer's ear. 'In These Times' layers live ensemble recordings with lush strings and vibraphone into something warm, unhurried, and impossible to stop playing.",
-      "album_sonic_description": "Live jazz ensemble cut-and-pasted with hip-hop sensibility, lush strings, vibraphone",
-      "album_pairing_rationale": "After a full office day, you need music that doesn't ask anything of you but gives everything back. McCraven's meditative grooves match shakshuka's one-skillet simplicity — both are layered, warm, and better than they have any right to be for something so effortless.",
+      "dinner_source_url": "https://www.foodiecrush.com/31-chicken-dinner-ideas/",
+      "dinner_source_name": "FoodieCrush",
+      "dinner_notes": "Start the chicken at 5 PM for a 6:30 table. Save the carcass — tomorrow's broth starts tonight.",
+      "dinner_nutrition_notes": "Excellent protein from chicken. Root vegetables provide fiber, vitamin A, and potassium. Well-rounded meal.",
+      "album": "Ambrose Akinmusire – honey from a winter stone",
+      "album_year": "2025",
+      "album_genre": "Modern Jazz",
+      "album_mood": "Contemplative, warm, wintry",
+      "album_description": "Grammy-nominated for Best Alternative Jazz Album, Akinmusire's winter-titled record is atmospheric and emotionally searching — the trumpet floating over spare arrangements like breath visible in cold air.",
+      "album_sonic_description": "Modern jazz trumpet, atmospheric textures, restrained rhythm section, spacious arrangements",
+      "album_pairing_rationale": "A winter-titled jazz album for the week's coldest night. Trumpet warmth mirrors the thyme-scented air of a roasting kitchen.",
       "album_spotify_url": "",
-      "activity": "",
-      "activity_notes": "Work day — dinner and relax",
-      "prep_notes": [],
-      "prep_detail": {
-        "prep_timeline": "20 minutes",
-        "prep_steps": [
-          "Sauté onions and peppers in olive oil",
-          "Add garlic, cumin, paprika",
-          "Pour in crushed tomatoes, simmer 10 min",
-          "Create wells, crack in eggs",
-          "Cover and cook 5-7 min until whites set",
-          "Crumble feta on top, serve with bread"
-        ],
-        "active_time": "20 minutes",
-        "special_equipment": [
-          "Large oven-safe skillet"
-        ],
-        "make_ahead": "Tomato base can be made ahead and reheated."
-      },
+      "activity": "Make chicken broth from the carcass after dinner",
+      "activity_notes": "Coldest night of the week — perfect for staying in. The house will smell amazing.",
+      "prep_notes": [
+        "Take chicken out of fridge 1 hour before roasting",
+        "Prep root vegetables while chicken comes to room temp"
+      ],
+      "day_intro": "The coldest night of the week — 10°F low — and the house will fill with the scent of thyme, rosemary, and roasting bird. Stay in, stay warm.",
+      "weather_high": 25,
+      "weather_low": 10,
+      "weather_condition": "OVERCAST",
+      "weather_emoji": "☁️",
+      "weather_oneliner": "25°/10°",
+      "album_artist": "Ambrose Akinmusire",
+      "album_title": "honey from a winter stone",
+      "engagements": [],
       "dinner_elevation_tips": [
         {
-          "type": "sauce",
-          "title": "Harissa Swirl",
-          "instruction": "Stir 1-2 tsp of harissa paste into the tomato sauce before adding eggs. Then dot another teaspoon on top in small spoonfuls and drag a knife through for a marbled effect. The harissa blooms in the heat.",
-          "why": "Harissa adds smoky, complex heat that's more interesting than just adding cayenne. The visual swirl makes the dish look restaurant-worthy.",
+          "type": "preparation",
+          "title": "Overnight Dry Brine",
+          "instruction": "The day before, pat the chicken completely dry and season generously with kosher salt mixed with ½ teaspoon baking powder. Place uncovered on a rack in the fridge for 12–24 hours. The next day, loosen the skin from the breast and thighs with your fingers and rub softened herb butter (thyme, rosemary, garlic) directly onto the meat.",
+          "why": "The dry brine draws moisture out of the skin while seasoning the meat deeply. Baking powder raises the skin's pH, accelerating browning and creating an impossibly crispy, crackly exterior. Under-skin butter bastes the breast from within, preventing dryness.",
           "extra_ingredients": [
-            "harissa paste"
-          ]
-        },
-        {
-          "type": "acid",
-          "title": "Za'atar and Lemon Finish",
-          "instruction": "The moment the skillet comes off heat, sprinkle 1 tsp za'atar over the eggs and squeeze half a lemon across the whole dish. Add a few torn mint leaves.",
-          "why": "Za'atar's dried herbs and sesame cut through the tomato richness. The lemon juice brightens everything just before serving — this is the step restaurants never skip.",
-          "extra_ingredients": [
-            "za'atar",
-            "lemon",
-            "fresh mint"
+            "baking powder"
           ]
         },
         {
           "type": "temperature",
-          "title": "Cold Labneh Dollops",
-          "instruction": "Drop 3-4 tablespoons of cold labneh (or thick Greek yogurt) in dollops around the hot shakshuka right before serving. Don't stir it in. The cold-hot contrast is the point.",
-          "why": "Cold labneh against searing-hot tomato sauce creates a temperature contrast that makes every bite different. The tang of labneh also balances the sweetness of cooked tomatoes.",
+          "title": "High-Heat Start, Gentle Finish",
+          "instruction": "Preheat oven to 450°F. Roast breast-side-up for the first 25 minutes at high heat, then reduce to 375°F for the remainder (about 45–55 minutes for a 4 lb bird). Let the chicken rest, loosely tented, for 15–20 minutes before carving.",
+          "why": "The initial blast of heat renders fat quickly and browns the skin before the meat overcooks. Dropping the temperature lets the interior cook gently and evenly. Resting redistributes juices — skip it and the cutting board gets juicier than the chicken.",
+          "extra_ingredients": []
+        },
+        {
+          "type": "sauce",
+          "title": "Proper Pan Gravy from Drippings",
+          "instruction": "After roasting, transfer the chicken and vegetables out. Set the roasting pan over medium heat on the stovetop. Spoon off all but 2–3 tablespoons of fat, then whisk in 2 tablespoons flour. Cook the roux for 2 minutes, scraping up every browned bit. Gradually whisk in 1½ cups warm chicken stock and any collected juices. Simmer until thickened, then finish with a squeeze of lemon juice and a knob of cold butter swirled in off-heat.",
+          "why": "The fond (browned bits) on the pan is pure concentrated flavor — deglazing captures it all. Cold butter swirled in at the end creates a glossy, velvety finish that coats the back of a spoon. The lemon juice brightens what could otherwise be a heavy sauce.",
           "extra_ingredients": [
-            "labneh or thick Greek yogurt"
+            "flour",
+            "chicken stock",
+            "lemon"
           ]
         }
       ],
-      "day_intro": "Monday at the office with a demo running until 5 PM. By the time you walk in the door, you want something that requires exactly one pan and zero decisions. Shakshuka delivers — eggs, spiced tomatoes, feta, bread, done."
+      "dinner_question": {
+        "day": "Monday",
+        "day_of_week": "monday",
+        "dinner": "Herb-Roasted Whole Chicken",
+        "question": "This chicken is roasted with herbs that grow right out of the ground. If you were an explorer and could discover a brand-new plant that nobody has ever seen, what would it look like, what would it smell like, and what would you name it?",
+        "category": "imagination",
+        "why": "The smell of roasting herbs is one of those sensory anchors that makes a home feel safe. Connecting that warmth to nature and discovery lets Elsie flex her creativity while grounding the explorer theme in something she can taste and touch — a perfect Monday wind-down."
+      }
     },
     {
       "name": "Tue 02/10",
       "long_name": "Tuesday, February 10",
-      "weather": "Overcast, 48°F / 26°F",
-      "weather_detail": "Sunny (87%), 80% cloud cover, wind 7 mph, 1% precip. Warmest day of the week.",
-      "calendar": "Office day — Swim lessons evening",
+      "day_of_week": "tuesday",
+      "weather": "Light drizzle, 45°F/18°F",
+      "weather_detail": "Sunny (88%), wind 10 mph (gusts 35 mph), 2% precip",
+      "calendar": "Swim Lessons 6:00-6:30 PM",
       "calendar_items": [
-        "Alex 1:1 3:35-4:00 PM",
-        "COBRA Core & Deployments 4:05-4:30 PM",
-        "Swim lessons (evening)"
+        "Level 4 Swim Lessons 6:00-6:30 PM"
       ],
       "time_constraints": [
-        "Swim lessons in the evening — need a fast dinner before or after"
+        "Dinner after swim lessons — needs to be fast",
+        "Pasta can be made ahead"
       ],
       "dinner": "Babo Pasta with Alfredo Sauce",
       "dinner_cuisine": "Italian",
-      "dinner_description": "Silky fettuccine Alfredo made the Roman way — no cream, no shortcuts. Just good butter, a mountain of freshly grated Parmigiano-Reggiano, and the starchy pasta water doing the heavy lifting to create a glossy emulsion that clings to every strand. Finished with a snowfall of lemon zest from 12 inches above the bowl — the aromatic citrus oil brightens everything without breaking the sauce.",
+      "dinner_description": "Handmade egg-yolk pasta in the Emilian tradition — yolks only, no whites — yielding golden, silky noodles with an almost custard-like richness. Tossed in a proper Alfredo of butter, cream, and Parmigiano-Reggiano. Fifteen minutes from boiling water to table.",
       "dinner_key_ingredients": [
-        "fettuccine",
+        "spinach",
+        "egg yolks",
+        "flour",
+        "heavy cream",
         "butter",
         "Parmigiano-Reggiano",
-        "pasta water",
-        "garlic"
+        "nutmeg"
       ],
-      "dinner_source_url": "https://www.bonappetit.com/recipe/fettuccine-alfredo",
-      "dinner_source_name": "Bon Appétit",
-      "dinner_notes": "Quick comfort food before swim lessons. Use Babo brand pasta.",
-      "dinner_nutrition_notes": "",
-      "album": "Say She She – Prism",
-      "album_year": "2022",
-      "album_genre": "Disco-Soul / Funk",
-      "album_mood": "Warm, groovy, empowering",
-      "album_description": "Say She She is a Brooklyn trio channeling the shimmering three-part harmonies of 70s disco-soul through a modern indie lens. 'Prism' sounds like Chic and Rotary Connection had a baby and raised it on Afrobeat. They're at 9:30 Club on Feb 17 — two days before Franc Moody hits the same stage.",
-      "album_sonic_description": "Three-part harmonies, vintage disco production, funk guitar, Afrobeat percussion",
-      "album_pairing_rationale": "Pasta night needs warmth without drama. Say She She's vintage disco-soul provides exactly that — the three-part harmonies float over the simmering butter like steam rising from the pot. Groovy enough to keep energy up before swim lessons.",
+      "dinner_source_url": "https://www.foodnetwork.com/recipes/food-network-kitchen/homemade-spinach-pasta-13155458",
+      "dinner_source_name": "Food Network",
+      "dinner_notes": "Make dough in the morning, rest in fridge. Boil water before leaving for swim — cook the moment you walk in the door.",
+      "dinner_nutrition_notes": "Good protein from eggs. Spinach adds iron and folate. Rich in calcium from Parmigiano. Consider a side salad for extra fiber.",
+      "album": "Maria Mazzotta – Onde",
+      "album_year": "2024",
+      "album_genre": "Italian Folk",
+      "album_mood": "Heartfelt, Mediterranean, earthy",
+      "album_description": "Recorded at Sudestudio in Italy and winner of the Premio Loano for best traditional album, Onde blends Salento pizzica rhythms with post-rock guitars. Guest spots include Nigerien desert-blues guitarist Bombino.",
+      "album_sonic_description": "Italian folk vocals, pizzica rhythms, accordion, frame drum, Mediterranean instrumentation",
+      "album_pairing_rationale": "Italian pasta deserves real Italian music — not Sinatra, but Puglian frame drums and a voice that channels the Southern coast.",
       "album_spotify_url": "",
-      "activity": "Swim lessons",
-      "activity_notes": "Elsie swim lessons in the evening",
-      "prep_notes": [],
-      "prep_detail": {
-        "prep_timeline": "20 minutes",
-        "prep_steps": [
-          "Boil salted water, cook fettuccine until al dente",
-          "Reserve 1 cup pasta water before draining",
-          "Melt generous butter in warm pan",
-          "Toss hot pasta with butter, add Parmigiano in batches",
-          "Splash pasta water as needed for silky sauce",
-          "Serve immediately"
-        ],
-        "active_time": "20 minutes",
-        "special_equipment": [
-          "Large pot",
-          "Wide pan or bowl"
-        ],
-        "make_ahead": "Have cheese grated and butter measured. Speed is key."
-      },
+      "activity": "Swim lessons at 6:00 PM",
+      "activity_notes": "Warmest day of the week at 45°F — enjoy the relative thaw! Make pasta together in the morning.",
+      "prep_notes": [
+        "Morning: Make babo pasta dough (spinach + egg yolks + flour)",
+        "Afternoon: Roll and cut pasta before swim",
+        "Set water to boil before leaving for swim"
+      ],
+      "day_intro": "The warmest day at 45°F — practically a thaw. Make pasta together in the morning, let the dough rest in the fridge, then roll and cut before swim lessons.",
+      "weather_high": 45,
+      "weather_low": 18,
+      "weather_condition": "LIGHT DRIZZLE",
+      "weather_emoji": "🌤️",
+      "weather_oneliner": "45°/18° · warmest day, gusty",
+      "album_artist": "Maria Mazzotta",
+      "album_title": "Onde",
+      "engagements": [
+        {
+          "time": "6:00-6:30 PM",
+          "event": "Level 4 Swim Lessons",
+          "event_short": "Level 4 Swim Lessons"
+        }
+      ],
       "dinner_elevation_tips": [
         {
           "type": "preparation",
-          "title": "Toasted Garlic Chip Garnish",
-          "instruction": "Slice 4-5 garlic cloves paper-thin. Slowly cook in 2 tbsp olive oil over medium-low heat, swirling constantly, until light gold — about 3 minutes. Remove immediately to a paper towel. They'll darken as they cool. Reserve the garlic oil.",
-          "why": "Garlic chips add textural crunch to an otherwise uniformly soft dish. The reserved oil can be drizzled on top for another layer of flavor without disturbing the emulsion.",
+          "title": "Finish Pasta in the Sauce",
+          "instruction": "Pull your fresh spinach pasta from the boiling water 30 seconds before it's done and transfer it directly into the skillet with melted butter. Reserve at least 1 cup of the starchy pasta water. Toss the pasta vigorously in the butter, adding splashes of pasta water and handfuls of finely grated Parmigiano-Reggiano, tossing constantly until a glossy, emulsified sauce coats every strand.",
+          "why": "Fresh pasta's surface starch is the secret emulsifier — it binds butter, cheese, and water into a creamy sauce without any cream at all. Finishing in the pan lets the pasta absorb flavor and the sauce cling properly. This is how it's done at Alfredo alla Scrofa in Rome, where the dish was born.",
+          "extra_ingredients": []
+        },
+        {
+          "type": "texture",
+          "title": "The Warm Bowl Technique",
+          "instruction": "Warm your serving bowl (or tossing pan) before building the sauce — run it under hot water or place it in a low oven. Never build the sauce in a screaming-hot pan. Medium-low heat is your friend; if the pan is too hot, the cheese will clump into rubbery strands instead of melting into silk.",
+          "why": "Parmigiano-Reggiano's proteins seize above 180°F, turning grainy. A warm (not hot) surface keeps the cheese in the sweet spot where it melts smoothly and emulsifies with the butter and pasta water. Temperature control is what separates restaurant Alfredo from home versions.",
           "extra_ingredients": []
         },
         {
           "type": "acid",
-          "title": "Lemon Zest Snowfall",
-          "instruction": "Using a Microplane, zest one lemon directly over each plated bowl of Alfredo from about 12 inches above. The zest should fall like snow. Do not squeeze the lemon — you want fragrance, not juice.",
-          "why": "Rich Alfredo needs a counterpoint. Lemon zest adds bright, aromatic citrus oil without the acid that would break the emulsion. It's the restaurant secret for Alfredo that doesn't taste heavy.",
+          "title": "Black Pepper & Nutmeg Finish",
+          "instruction": "Just before serving, crack fresh black pepper generously over the pasta and grate a whisper of fresh nutmeg on top. Use a Microplane for the nutmeg — you want a dusting, not a dose.",
+          "why": "Black pepper's gentle heat cuts through the richness of butter and cheese, while nutmeg has a natural affinity with cream sauces and spinach — it's the classic Italian pairing that makes the flavors pop without anyone being able to identify why it tastes so good.",
           "extra_ingredients": [
-            "lemon"
-          ]
-        },
-        {
-          "type": "texture",
-          "title": "Cracked Black Pepper and Toasted Breadcrumbs",
-          "instruction": "Toast 1/4 cup panko in butter until deep gold. Season with flaky salt. Crack pepper aggressively — you want visible flecks. Serve both tableside.",
-          "why": "The breadcrumbs give crunch against silky pasta. The pepper adds heat that cuts richness. Together they prevent 'Alfredo fatigue' — that heaviness by bite five.",
-          "extra_ingredients": [
-            "panko breadcrumbs",
-            "flaky salt"
+            "black pepper",
+            "whole nutmeg"
           ]
         }
       ],
-      "day_intro": "The warmest day of the week at 48°F — practically spring by this week's standards. But swim lessons mean the evening is a sprint: home, cook, eat, go. Babo Alfredo is the answer — 20 minutes, four ingredients, infinite comfort."
+      "dinner_question": {
+        "day": "Tuesday",
+        "day_of_week": "tuesday",
+        "dinner": "Babo Pasta with Alfredo",
+        "question": "You just came from swim lessons — your body worked really hard tonight! What's something difficult you tried recently (in the pool or anywhere) that you're proud of, even if you haven't totally mastered it yet?",
+        "category": "values",
+        "why": "After swim, Elsie's body is tired and her defenses are down — which actually makes this the best moment for an honest conversation about effort. Comforting pasta creates a safe, warm space to reinforce that bravery isn't about being perfect; it's about showing up and trying, even when the water is cold."
+      }
     },
     {
       "name": "Wed 02/11",
       "long_name": "Wednesday, February 11",
-      "weather": "Overcast, 45°F / 30°F",
-      "weather_detail": "Sunny (90%), 52% cloud cover, wind 13 mph, 18% precip.",
-      "calendar": "Flexible WFH day",
-      "calendar_items": [],
-      "time_constraints": [],
-      "dinner": "Kale Caesar Salad with Crispy Chickpeas",
-      "dinner_cuisine": "American",
-      "dinner_description": "Lacinato kale — the sturdy, blue-green variety that doesn't wilt into nothing — massaged with olive oil and lemon until tender, then tossed in a proper anchovy-lemon Caesar dressing with shaved Parmesan, herbed croutons, and chickpeas roasted with cumin and smoked paprika until they shatter when you bite them. This isn't a side salad. This is dinner.",
+      "day_of_week": "wednesday",
+      "weather": "Overcast, 42°F/30°F",
+      "weather_detail": "Sunny (90%), wind 13 mph (gusts 32 mph), 3% precip",
+      "calendar": "Elsie's Science Potions Camp 3:45-4:45 PM",
+      "calendar_items": [
+        "Elsie's afterschool science potions camp 3:45-4:45 PM"
+      ],
+      "time_constraints": [
+        "Elsie pickup at 4:45",
+        "Hearty salad night — lighter dinner"
+      ],
+      "dinner": "Warm Farro Salad with Roasted Beets, Goat Cheese & Walnuts",
+      "dinner_cuisine": "Mediterranean",
+      "dinner_description": "Warm farro — the ancient Tuscan grain — tossed with roasted golden and red beets, crumbled goat cheese, toasted walnuts, arugula, and dried cranberries, all dressed in a sherry-maple vinaigrette. Substantial, earthy, and ready in the time it takes to cook the grain.",
       "dinner_key_ingredients": [
-        "lacinato kale",
-        "anchovy",
-        "lemon",
-        "Parmesan",
-        "chickpeas",
-        "garlic",
-        "croutons"
+        "farro",
+        "golden beets",
+        "red beets",
+        "goat cheese",
+        "walnuts",
+        "arugula",
+        "dried cranberries",
+        "sherry vinegar",
+        "maple syrup"
       ],
-      "dinner_source_url": "https://www.bonappetit.com/recipe/kale-caesar-salad",
-      "dinner_source_name": "Bon Appétit",
-      "dinner_notes": "Hefty dinner salad. Roast chickpeas with cumin and smoked paprika for crunch and protein.",
-      "dinner_nutrition_notes": "",
-      "album": "Hiroshi Yoshimura – Music for Nine Post Cards",
-      "album_year": "1982",
-      "album_genre": "Japanese Ambient / Minimalism",
-      "album_mood": "Serene, crystalline, meditative",
-      "album_description": "Originally commissioned for Tokyo's Hara Museum of Contemporary Art in 1982, Yoshimura's debut is nine pieces of pure stillness — sparse electric piano and warm analog synths that were designed to merge with the museum's architecture, not compete with it. The 2017 reissue introduced it to a global audience who immediately understood: this is music you live inside.",
-      "album_sonic_description": "Sparse piano, warm analog synths, silence as instrument, environmental music",
-      "album_pairing_rationale": "A clean, bright salad dinner needs clean, airy music. Yoshimura's crystalline ambient doesn't fill a room — it reshapes it. The silence between notes is as intentional as the lemon in the dressing. Both are exercises in restraint that somehow feel abundant.",
+      "dinner_source_url": "",
+      "dinner_source_name": "Food52",
+      "dinner_notes": "Roast beets during camp. Farro takes 25 minutes — start when she walks in. Assembly is fast.",
+      "dinner_nutrition_notes": "Excellent fiber from farro and beets. Beets are rich in nitrates and folate. Goat cheese adds calcium. Walnuts provide omega-3s. One of the week's most nutritionally complete meals.",
+      "album": "Adrianne Lenker – Bright Future",
+      "album_year": "2024",
+      "album_genre": "Indie Folk",
+      "album_mood": "Intimate, gentle, luminous",
+      "album_description": "Recorded at Double Infinity studio in the Massachusetts mountains with Nick Hakim on piano, Bright Future is Grammy-nominated folk at its most intimate — fingerpicked guitar, whispered vocals, and the unhurried patience of a snow day.",
+      "album_sonic_description": "Acoustic guitar, fingerpicking, intimate vocals, lo-fi warmth, folk minimalism",
+      "album_pairing_rationale": "An earthy grain salad on a quiet Wednesday calls for music that's equally unhurried — Lenker's gentle folk mirrors the meal's honest simplicity.",
       "album_spotify_url": "",
-      "activity": "WFH flex day — maybe an afternoon walk if weather holds",
-      "activity_notes": "45°F is the warmest this week — take advantage if possible",
+      "activity": "Elsie's Science Potions Camp (3:45-4:45 PM)",
+      "activity_notes": "Pickup at 4:45 PM. Ask about potions experiments at dinner!",
       "prep_notes": [
-        "Massage kale with olive oil and lemon juice 30 min before serving"
+        "Roast beets during science camp (45 min at 400°F)",
+        "Toast walnuts in a dry pan",
+        "Cook farro when Elsie gets home"
       ],
-      "prep_detail": {
-        "prep_timeline": "35 minutes",
-        "prep_steps": [
-          "Roast chickpeas with cumin and smoked paprika at 425°F for 25 min",
-          "Strip kale from ribs, tear into pieces",
-          "Massage kale with olive oil and lemon juice",
-          "Make Caesar dressing: mash anchovy with garlic, whisk in egg yolk, lemon, mustard, olive oil, Parmesan",
-          "Toss kale with dressing",
-          "Top with croutons, chickpeas, and shaved Parmesan"
-        ],
-        "active_time": "20 minutes",
-        "special_equipment": [
-          "Sheet pan"
-        ],
-        "make_ahead": "Chickpeas can be roasted ahead. Dressing keeps 3 days in fridge."
-      },
+      "day_intro": "Midweek calm. Elsie's at Science Potions Camp until 4:45 — roast the beets while she's gone, then assemble dinner together when she's home.",
+      "weather_high": 42,
+      "weather_low": 30,
+      "weather_condition": "OVERCAST",
+      "weather_emoji": "☁️",
+      "weather_oneliner": "42°/30° · gusty",
+      "album_artist": "Adrianne Lenker",
+      "album_title": "Bright Future",
+      "engagements": [
+        {
+          "time": "3:45-4:45 PM",
+          "event": "Elsie's afterschool science potions camp",
+          "event_short": "Elsie's afterschool science potions camp"
+        }
+      ],
       "dinner_elevation_tips": [
         {
           "type": "preparation",
-          "title": "Warm Anchovy-Garlic Oil Drizzle",
-          "instruction": "Gently warm 3 tbsp olive oil with 2 chopped anchovy fillets and 1 sliced garlic clove over low heat until the anchovies dissolve — about 3 minutes. Drizzle this warm oil over the dressed kale just before serving.",
-          "why": "Warm oil on cool kale creates a temperature contrast and blooms the anchovy flavor. The garlic in the oil echoes the garlic in the dressing but in a softer, sweeter form.",
-          "extra_ingredients": []
+          "title": "Toast the Farro in Butter",
+          "instruction": "Before boiling, melt 1 tablespoon of butter in a saucepan over medium heat. Add the rinsed farro and stir constantly for 2–3 minutes until the grains darken slightly and release a fragrant, nutty aroma. Then add chicken stock (instead of water) with a sprig of thyme and simmer until al dente — tender but still pleasantly chewy.",
+          "why": "Toasting grains before boiling is a professional technique borrowed from risotto and pilaf cooking. It develops complex, nutty flavors through the Maillard reaction that plain boiled grains simply cannot achieve. Cooking in stock adds another layer of savory depth.",
+          "extra_ingredients": [
+            "butter",
+            "chicken stock",
+            "thyme sprig"
+          ]
         },
         {
-          "type": "texture",
-          "title": "Parmesan Frico Shards",
-          "instruction": "Mound 2-tbsp piles of grated Parmesan on a parchment-lined baking sheet. Bake at 400°F for 5-6 minutes until golden and lacy. Cool completely — they'll shatter into crispy shards. Stand them upright in the salad.",
-          "why": "Frico adds dramatic visual height and a shattering crunch that standard shaved Parmesan can't match. Same ingredient, completely different experience.",
+          "type": "preparation",
+          "title": "Roast Beets Properly",
+          "instruction": "Scrub the beets, trim the tops, and wrap each beet individually in foil with a drizzle of olive oil and a pinch of salt. Roast at 400°F for 45–60 minutes until a knife slides through with no resistance. Let cool in the foil (they steam and loosen their skins), then rub the skins off with a paper towel. Cut into wedges.",
+          "why": "Individual foil wrapping creates a steam chamber around each beet, cooking them evenly while concentrating their natural sugars. Cooling in the foil makes peeling effortless — the skins slip right off. Golden and red beets roasted separately prevent the red from bleeding into the golden.",
           "extra_ingredients": []
         },
         {
           "type": "acid",
-          "title": "Preserved Lemon Dice",
-          "instruction": "Dice 1 tbsp preserved lemon rind very finely. Scatter over the salad. If you don't have preserved lemon, mix lemon zest with a pinch of salt and let sit 10 minutes.",
-          "why": "Preserved lemon adds a fermented, floral acidity that's more complex than fresh lemon. It's the difference between a chord and a single note.",
+          "title": "Warm Sherry-Maple Vinaigrette",
+          "instruction": "Whisk together 3 tablespoons sherry vinegar, 1 tablespoon maple syrup, 1 teaspoon Dijon mustard, and a minced shallot. Stream in ¼ cup extra-virgin olive oil while whisking. Warm the vinaigrette gently in a small pan (don't boil) and toss it with the warm farro immediately — warm grains absorb dressing far better than cold ones.",
+          "why": "Warm vinaigrette penetrates the grain rather than just coating the surface. The sherry vinegar's complex acidity plays beautifully against the maple's sweetness, creating a bridge between the earthy beets and tangy goat cheese.",
           "extra_ingredients": [
-            "preserved lemon (or extra lemon + salt)"
+            "sherry vinegar",
+            "maple syrup",
+            "Dijon mustard",
+            "shallot"
+          ]
+        },
+        {
+          "type": "texture",
+          "title": "Last-Minute Assembly",
+          "instruction": "Toss the warm dressed farro with roasted beet wedges and dried cranberries. Arrange on a platter over fresh arugula (the residual heat will just barely wilt it). Scatter generous crumbles of goat cheese, toasted walnut pieces, and finish with flaky salt and a final drizzle of olive oil.",
+          "why": "Adding arugula last lets its peppery bite stay vibrant — the warmth from the farro provides just enough wilt to soften the leaves without cooking them. Goat cheese added at the end stays in distinct, creamy pockets rather than melting into the grain.",
+          "extra_ingredients": [
+            "flaky salt"
           ]
         }
       ],
-      "day_intro": "Midweek reset. No meetings, working from home, 45°F outside. This is the day to take an afternoon walk, massage some kale, and let the week breathe. A big, punchy Caesar salad for dinner because not every night needs to be heavy — sometimes the salad is the main event."
+      "dinner_question": {
+        "day": "Wednesday",
+        "day_of_week": "wednesday",
+        "dinner": "Warm Farro & Beet Salad",
+        "question": "At science potions camp today you mixed things together to see what happens. If you could mix any two things in the whole world together to create something totally new, what would you combine and what would it do?",
+        "category": "imagination",
+        "why": "Science camp is still buzzing in her mind, so this question rides that wave of wonder. Letting Elsie invent something imaginary validates what she did at camp and stretches her thinking from 'what happened' to 'what could happen' — the heart of every brave explorer's mindset."
+      }
     },
     {
       "name": "Thu 02/12",
       "long_name": "Thursday, February 12",
-      "weather": "Overcast, 37°F / 27°F",
-      "weather_detail": "Sunny (92%), 87% cloud cover, wind 13 mph, 11% precip.",
-      "calendar": "Valentine's Day potluck lunch at work",
+      "day_of_week": "thursday",
+      "weather": "Overcast, 37°F/27°F",
+      "weather_detail": "Sunny (91%), wind 15 mph (gusts 32 mph), 5% precip",
+      "calendar": "Work Potluck (lunch) — Dan's Taco Bar. Elsie's Dance Camp 3:45-4:45 PM",
       "calendar_items": [
-        "Valentine's Day potluck lunch (bring heart-shaped mini pizzas)"
+        "Work Potluck for lunch — Dan making taco bar",
+        "Elsie's dance after school camp 3:45-4:45 PM"
       ],
       "time_constraints": [
-        "Big lunch at work — lighter appetite for dinner"
+        "Big lunch at potluck — lighter dinner preferred",
+        "Prep taco bar ingredients in the morning"
       ],
-      "dinner": "Mushroom Pappardelle with Fresh Egg Pasta",
-      "dinner_cuisine": "Italian",
-      "dinner_description": "Wide ribbons of fresh egg pappardelle — the kind you can only get by making it yourself, with that tender, silky chew — tossed with a mix of cremini, oyster, and rehydrated porcini mushrooms seared until deeply golden in brown butter with crispy sage. The porcini soaking liquid gets reduced to a syrup and stirred in — it's liquid umami. Finished with toasted walnuts and a splash of sherry vinegar you'll barely taste but absolutely miss if it's gone.",
+      "dinner": "Shakshuka with Za'atar Sourdough Toast",
+      "dinner_cuisine": "Middle Eastern / North African",
+      "dinner_description": "Shakshuka — eggs poached in a spiced tomato-pepper sauce fragrant with cumin, paprika, and harissa. The dish traces to the Maghreb, where its Arabic name simply means 'a mixture.' Thick slices of Sunday's sourdough, rubbed with za'atar and olive oil, are the only utensil you need.",
       "dinner_key_ingredients": [
-        "00 flour",
         "eggs",
-        "cremini mushrooms",
-        "oyster mushrooms",
-        "dried porcini",
-        "butter",
-        "white wine",
-        "sage",
-        "Parmesan"
+        "canned tomatoes",
+        "bell peppers",
+        "onion",
+        "garlic",
+        "cumin",
+        "harissa",
+        "za'atar",
+        "sourdough bread",
+        "feta cheese"
       ],
-      "dinner_source_url": "https://www.gzrecipes.com/en/atavolacontea/pappardelle-with-mushrooms-butter-and-sage/",
-      "dinner_source_name": "GZ Recipes",
-      "dinner_notes": "Make the fresh egg pasta dough in the afternoon and rest it. Roll and cut wide pappardelle before dinner.",
-      "dinner_nutrition_notes": "",
-      "album": "Mulatu Astatke – Mulatu of Ethiopia",
-      "album_year": "1972",
-      "album_genre": "Ethio-Jazz",
-      "album_mood": "Hypnotic, groovy, mysterious",
-      "album_description": "Mulatu Astatke was the first African student at Berklee College of Music. He took what he learned about jazz and Latin music and fused it with Ethiopian pentatonic scales and traditional modes to invent an entirely new genre: Ethio-jazz. 'Mulatu of Ethiopia' (1972), recorded in New York, is the masterwork — vibraphone, organ, and congas moving through hypnotic minor-key grooves that sound like nothing else ever recorded.",
-      "album_sonic_description": "Ethiopian pentatonic scales, vibraphone, organ, congas, walking bass, jazz arrangements",
-      "album_pairing_rationale": "Earthy mushroom pappardelle and earthy Ethio-jazz — the pairing writes itself. The vibraphone's warm shimmer mirrors the brown butter, the walking bass echoes the deep umami of reduced porcini, and the hypnotic repetition matches the meditative rhythm of rolling fresh pasta.",
+      "dinner_source_url": "https://www.seriouseats.com/shakshuka-north-african-eggs-tomato-sauce-recipe",
+      "dinner_source_name": "Serious Eats",
+      "dinner_notes": "Light dinner after heavy potluck. One skillet, minimal cleanup. Uses Sunday's sourdough.",
+      "dinner_nutrition_notes": "High protein from eggs. Lycopene from tomatoes. Vegetarian. Light and balanced after a heavy potluck lunch.",
+      "album": "Anouar Brahem – The Astounding Eyes of Rita",
+      "album_year": "2009",
+      "album_genre": "Arabic Jazz / Chamber",
+      "album_mood": "Meditative, hypnotic, luminous",
+      "album_description": "Released on ECM, Brahem's oud quartet merges Arabic maqam traditions with jazz and chamber music. Klaus Gesing's bass clarinet weaves around the oud like smoke — hypnotic, meditative, impossible to rush.",
+      "album_sonic_description": "Oud, piano, accordion, double bass — sparse and spacious chamber jazz with Middle Eastern modalities",
+      "album_pairing_rationale": "North African comfort food deserves music from the same world. Brahem's Tunisian oud creates the meditative atmosphere shakshuka was made for.",
       "album_spotify_url": "",
-      "activity": "Valentine's potluck at work (lunch)",
-      "activity_notes": "Bring heart-shaped mini pizzas for the potluck",
+      "activity": "Work potluck (lunch) + Elsie's dance camp (3:45-4:45 PM)",
+      "activity_notes": "Prep taco bar in the morning (sour cream, guac, taco shells, beef, shredded lettuce). Light dinner after heavy lunch.",
       "prep_notes": [
-        "Make pizza dough Wednesday night",
-        "Shape heart pizzas Thursday morning",
-        "Make fresh pasta dough Thursday afternoon, rest 30 min"
+        "Morning: Brown taco beef, prep guac, shred lettuce, pack taco shells + sour cream for potluck",
+        "Evening: Shakshuka is a 30-minute one-pan meal — start after Elsie pickup"
       ],
-      "prep_detail": {
-        "prep_timeline": "1.5 hours (including pasta making)",
-        "prep_steps": [
-          "Make pasta: 2 cups 00 flour + 3 eggs, knead 10 min, rest 30 min",
-          "Rehydrate dried porcini in hot water, reserve liquid",
-          "Slice cremini and oyster mushrooms",
-          "Roll and cut wide pappardelle ribbons",
-          "Brown mushrooms in butter over high heat",
-          "Deglaze with white wine and porcini liquid",
-          "Cook pappardelle 2-3 min in salted water",
-          "Toss pasta with mushrooms, add Parmesan and sage"
-        ],
-        "active_time": "45 minutes",
-        "special_equipment": [
-          "Pasta roller or rolling pin",
-          "Wide skillet"
-        ],
-        "make_ahead": "Pasta dough can be made morning and rested in fridge."
-      },
-      "dinner_elevation_tips": [
+      "day_intro": "A lighter evening after the potluck lunch. Dance camp pickup at 4:45, then a one-skillet dinner that practically cooks itself.",
+      "weather_high": 37,
+      "weather_low": 27,
+      "weather_condition": "OVERCAST",
+      "weather_emoji": "☁️",
+      "weather_oneliner": "37°/27° · gusty",
+      "album_artist": "Anouar Brahem",
+      "album_title": "The Astounding Eyes of Rita",
+      "engagements": [
         {
-          "type": "sauce",
-          "title": "Brown Butter with Crispy Sage",
-          "instruction": "In a separate small pan, cook 4 tbsp butter over medium heat until it foams, goes quiet, then turns nutty brown — about 4 minutes. Drop in 8-10 sage leaves and fry 30 seconds until crisp. Pour the brown butter over plated pasta. Set crispy sage leaves on top.",
-          "why": "Brown butter adds a toasted, nutty complexity that regular melted butter cannot. The milk solids caramelize. Crispy sage is a textural garnish and a flavor intensifier.",
-          "extra_ingredients": []
+          "time": "",
+          "event": "Work Potluck for lunch — Dan making taco bar",
+          "event_short": "Work Potluck for lunch — Dan making taco bar"
         },
         {
-          "type": "preparation",
-          "title": "Porcini Soaking Liquid Reduction",
-          "instruction": "Strain the porcini soaking liquid through a coffee filter to remove grit. Reduce it by half in a small pot. Add this concentrated mushroom liquor to the sauce when you deglaze with white wine. It's liquid umami.",
-          "why": "Dried porcini soaking liquid is one of the most concentrated sources of natural glutamate available. Reducing it intensifies the effect. This is the 'why does this taste better than normal' ingredient.",
-          "extra_ingredients": []
-        },
-        {
-          "type": "texture",
-          "title": "Toasted Walnut Crumble",
-          "instruction": "Toast 1/3 cup walnut halves in a dry pan until fragrant. Roughly chop. Scatter over plated pasta with a grinding of black pepper.",
-          "why": "Walnuts add a bitter, tannic crunch that echoes the earthiness of the mushrooms. Italian tradition pairs walnuts with fresh pasta — this is why.",
-          "extra_ingredients": [
-            "walnuts"
-          ]
-        },
-        {
-          "type": "acid",
-          "title": "Sherry Vinegar Finish",
-          "instruction": "Just before tossing the pasta into the mushroom pan, add 1 tsp good sherry vinegar to the sauce. Toss immediately. The vinegar will mostly evaporate, leaving behind complexity.",
-          "why": "Earthy mushroom dishes need a hidden acid to prevent them from tasting flat. Sherry vinegar adds nutty acidity that complements both the brown butter and porcini without tasting 'vinegary.'",
-          "extra_ingredients": [
-            "sherry vinegar"
-          ]
+          "time": "3:45-4:45 PM",
+          "event": "Elsie's dance after school camp",
+          "event_short": "Elsie's dance after school camp"
         }
       ],
-      "day_intro": "Thursday pulls double duty: Valentine's heart-shaped mini pizzas for the potluck lunch at work, then home to make fresh egg pasta from scratch for dinner. The pappardelle is the week's cooking project — hands in flour, dough resting, mushrooms browning — and it's worth every minute."
-    },
-    {
-      "name": "Fri 02/13",
-      "long_name": "Friday, February 13",
-      "weather": "Overcast, 36°F / 24°F",
-      "weather_detail": "Sunny (92%), 39% cloud cover, wind 11 mph, 22% precip.",
-      "calendar": "Laura book club — Elsie YAT 4:30-6:00",
-      "calendar_items": [
-        "Laura book club (evening)",
-        "Elsie YAT 4:30-6:00 PM"
-      ],
-      "time_constraints": [
-        "Elsie at YAT until 6 PM",
-        "Laura at book club — Dan solo dinner duty"
-      ],
-      "dinner": "Baked Bronzino with Roasted Kale",
-      "dinner_cuisine": "Mediterranean",
-      "dinner_description": "Butterflied bronzino roasted at 425°F over a bed of lacinato kale, burst cherry tomatoes, and white beans — the fish makes its own pan sauce from lemon, garlic, and good olive oil as it cooks. Scored skin with thyme tucked into the slashes, finished under the broiler for two minutes until the skin crackles. Topped with a crispy caper and lemon zest gremolata that adds brightness and crunch to every bite.",
-      "dinner_key_ingredients": [
-        "whole bronzino (butterflied)",
-        "lacinato kale",
-        "cherry tomatoes",
-        "white beans",
-        "lemon",
-        "garlic",
-        "olive oil"
-      ],
-      "dinner_source_url": "https://fultonfishmarket.com/blogs/recipes/branzino-with-lacinato-kale-tomatoes-white-beans-recipe",
-      "dinner_source_name": "Fulton Fish Market",
-      "dinner_notes": "Can prep the kale-tomato-bean bed ahead. Nestle fish on top when home from picking up Elsie. 25 min in oven.",
-      "dinner_nutrition_notes": "",
-      "album": "Laufey – Bewitched",
-      "album_year": "2023",
-      "album_genre": "Jazz-Pop / Bossa Nova",
-      "album_mood": "Dreamy, romantic, bittersweet",
-      "album_description": "Laufey (pronounced 'Lay-vay') is an Icelandic-Chinese jazz-pop prodigy who studied cello at Berklee before becoming the youngest artist ever to win the Grammy for Best Traditional Pop Vocal Album. 'Bewitched' blends golden-age jazz sensibility — think Chet Baker, Ella Fitzgerald — with bossa nova rhythms and Gen-Z lyrical honesty. It's intimate, romantic, and quietly sophisticated.",
-      "album_sonic_description": "Jazz guitar, gentle strings, bossa nova rhythms, intimate vocals",
-      "album_pairing_rationale": "Light fish, light music. Laufey's bossa nova-inflected jazz is airy enough for delicate bronzino and romantic enough for the night before Valentine's Day. The intimacy of her voice — close-miked, almost whispered — matches the intimacy of a solo dinner with your daughter.",
-      "album_spotify_url": "",
-      "activity": "Elsie YAT, Laura book club",
-      "activity_notes": "Dan solo with Elsie after 6 PM. Quick dinner, cozy evening.",
-      "prep_notes": [
-        "Prep kale-tomato-bean bed before picking up Elsie"
-      ],
-      "prep_detail": {
-        "prep_timeline": "35 minutes",
-        "prep_steps": [
-          "Preheat oven to 425°F",
-          "Tear kale, toss with olive oil and garlic on sheet pan",
-          "Add halved cherry tomatoes and drained white beans",
-          "Roast vegetables 10 min",
-          "Nestle butterflied bronzino on top, season with salt, pepper, lemon",
-          "Roast 15-18 min until fish flakes",
-          "Finish under broiler 2 min for crispy skin"
-        ],
-        "active_time": "15 minutes",
-        "special_equipment": [
-          "Sheet pan"
-        ],
-        "make_ahead": "Kale, tomatoes, and beans can be prepped and arranged on the pan hours ahead. Fish goes on right before baking."
-      },
       "dinner_elevation_tips": [
         {
-          "type": "sauce",
-          "title": "Ladolemono (Greek Lemon-Olive Oil Sauce)",
-          "instruction": "Whisk 1/4 cup best olive oil with juice of 1 lemon, 1 minced garlic clove, 1 tsp dried oregano, salt, and pepper. Spoon generously over the fish the moment it comes out of the oven. The heat emulsifies the sauce.",
-          "why": "Ladolemono is the Greek answer to 'what sauce goes with fish.' The heat from the fish partially cooks the garlic and blooms the oregano. Simple, devastating.",
-          "extra_ingredients": [
-            "dried oregano"
-          ]
-        },
-        {
           "type": "preparation",
-          "title": "Score and Stuff the Fish",
-          "instruction": "Score the skin of the butterflied bronzino with 3 diagonal slashes on each side. Tuck thin lemon slices and thyme sprigs into the slashes. This looks dramatic and allows heat and seasoning to penetrate evenly.",
-          "why": "Scoring prevents the skin from curling during high-heat roasting and lets the aromatics infuse directly into the flesh. It also promotes crispier skin.",
-          "extra_ingredients": [
-            "fresh thyme"
-          ]
+          "title": "Bloom Spices & Build the Base",
+          "instruction": "Slowly caramelize diced onions until golden (8–10 minutes — don't rush this). Add diced peppers and cook until softened. Clear a space in the center of the pan, add a tablespoon of harissa paste and your ground cumin and paprika directly to the hot oil, and stir for 60 seconds until fragrant before incorporating them into the vegetables.",
+          "why": "Blooming spices in oil releases their fat-soluble flavor compounds, creating dramatically more depth than stirring dry spices into a wet sauce. Caramelized onions add natural sweetness that balances the acidity of the tomatoes and heat of the harissa.",
+          "extra_ingredients": []
         },
         {
-          "type": "texture",
-          "title": "Crispy Caper and Lemon Zest Gremolata",
-          "instruction": "Pat dry 2 tbsp capers. Fry in olive oil for 1 minute until they bloom open and turn crispy. Mix with finely grated lemon zest and 1 tbsp chopped parsley. Scatter over the plated fish.",
-          "why": "Fried capers are crunchy, briny, and addictive. Combined with lemon zest and parsley, this gremolata adds brightness and crunch to the soft, flaky fish.",
+          "type": "sauce",
+          "title": "Simmer to the Trail Test",
+          "instruction": "After adding crushed San Marzano tomatoes, simmer the sauce for 15–20 minutes until it thickens enough that dragging a spoon across the bottom leaves a trail that holds for 2–3 seconds before closing. If it's too watery, the eggs will poach unevenly; if too thick, they'll fry instead of poach.",
+          "why": "The 'trail test' is the professional benchmark for shakshuka sauce consistency. At this thickness, the sauce provides enough thermal mass to cook the egg whites evenly while insulating the yolks from direct heat, keeping them gloriously runny.",
           "extra_ingredients": [
-            "capers",
-            "flat-leaf parsley"
+            "San Marzano canned tomatoes"
           ]
         },
         {
           "type": "temperature",
-          "title": "Room-Temperature Tomato-Bean Salad Base",
-          "instruction": "Toss the roasted cherry tomatoes and white beans with a splash of red wine vinegar while warm, then let them cool to room temperature before plating under the hot fish.",
-          "why": "Serving the bean-tomato bed at room temperature against hot, crispy-skinned fish creates a pleasant temperature contrast and lets the vinegar-brightened beans serve as a sauce.",
-          "extra_ingredients": [
-            "red wine vinegar"
-          ]
-        }
-      ],
-      "day_intro": "Friday is a split operation: Elsie at YAT until 6, Laura at book club. Dan picks up Elsie, comes home, and slides a prepped sheet pan of bronzino into a hot oven. Twenty-five minutes later: crispy-skinned fish over roasted kale, and the whole evening ahead for just the two of them."
-    },
-    {
-      "name": "Sat 02/14",
-      "long_name": "Saturday, February 14",
-      "weather": "Mainly clear, 40°F / 26°F",
-      "weather_detail": "Sunny (92%), 5% cloud cover, wind 7 mph, 20% precip. Clearest day of the week.",
-      "calendar": "Valentine's Day — Travel day",
-      "calendar_items": [
-        "Valentine's Day",
-        "Travel day"
-      ],
-      "time_constraints": [
-        "Travel day — prep enchiladas ahead or assemble on arrival"
-      ],
-      "dinner": "Christmas Enchiladas",
-      "dinner_cuisine": "Mexican",
-      "dinner_description": "Enchiladas divorciadas — the dramatic 'divorced' presentation with rich red guajillo-ancho chile sauce on one side and bright tomatillo-green chile sauce on the other. Corn tortillas quick-fried for pliability and flavor, filled with shredded chicken and cheese, topped with crema, Cotija, cilantro, pink pickled red onions, and toasted pepitas. The two sauces meet in the middle of the baking dish like a delicious peace treaty.",
-      "dinner_key_ingredients": [
-        "corn tortillas",
-        "shredded chicken",
-        "red chile sauce",
-        "tomatillo green sauce",
-        "Cotija cheese",
-        "crema",
-        "cilantro"
-      ],
-      "dinner_source_url": "https://keviniscooking.com/enchiladas-divorciadas-christmas-enchiladas/",
-      "dinner_source_name": "Kevin Is Cooking",
-      "dinner_notes": "Travel day — can prep filling and sauces Friday night. Assemble and bake on arrival.",
-      "dinner_nutrition_notes": "",
-      "album": "Sade – Love Deluxe",
-      "album_year": "1992",
-      "album_genre": "Smooth Jazz / R&B",
-      "album_mood": "Sensual, sophisticated, warm",
-      "album_description": "There's a reason Sade's 'Love Deluxe' (1992) is the only album anyone ever needs for Valentine's Day. 'No Ordinary Love' opens with a bass line that sounds like a heartbeat. 'Kiss of Life' is the kind of song that makes you slow-dance in the kitchen. The whole record moves with the confidence of someone who knows exactly what they're doing — smoky, elegant, and impossibly cool.",
-      "album_sonic_description": "Smooth jazz, quiet storm R&B, African rhythms, silky vocals, saxophone",
-      "album_pairing_rationale": "It's Valentine's Day. There is exactly one album. Sade's smoky sophistication turns enchiladas from a casual dinner into a candlelit event. The African rhythms underneath the quiet storm R&B mirror the Mexican warmth of the dish. No debate, no alternatives.",
-      "album_spotify_url": "",
-      "activity": "Valentine's Day celebration",
-      "activity_notes": "Travel day. Keep it simple and romantic.",
-      "prep_notes": [
-        "Prep enchilada filling and sauces Friday night",
-        "Assemble on arrival, bake 20 min"
-      ],
-      "prep_detail": {
-        "prep_timeline": "1 hour (or 20 min if prepped ahead)",
-        "prep_steps": [
-          "Shred rotisserie chicken or poach and shred chicken breasts",
-          "Make red sauce: toast dried chiles, blend with garlic and oregano",
-          "Make green sauce: roast tomatillos and green chiles, blend",
-          "Warm tortillas, fill with chicken and cheese, roll",
-          "Arrange in baking dish — red sauce one side, green the other",
-          "Top with more cheese, bake at 350°F for 15-20 min",
-          "Garnish with crema, Cotija, cilantro, and avocado"
-        ],
-        "active_time": "40 minutes",
-        "special_equipment": [
-          "Baking dish",
-          "Blender"
-        ],
-        "make_ahead": "Filling and both sauces can be made a day ahead. Assemble and bake on site."
-      },
-      "dinner_elevation_tips": [
-        {
-          "type": "preparation",
-          "title": "Toast and Fry the Tortillas",
-          "instruction": "Before filling, pass each corn tortilla through hot oil (350°F) for 5-8 seconds per side — just enough to make them pliable and slightly golden. This prevents them from going soggy under the sauce and adds a subtle fried corn flavor.",
-          "why": "The #1 mistake in enchiladas is using raw tortillas that absorb sauce and turn to mush. A quick oil pass creates a moisture barrier and adds flavor. Every Mexican grandma knows this.",
-          "extra_ingredients": [
-            "canola oil for frying"
-          ]
-        },
-        {
-          "type": "sauce",
-          "title": "Bloom the Dried Chiles Properly",
-          "instruction": "For the red sauce: stem, seed, and dry-toast the chiles (guajillo + ancho) in a hot, dry skillet until they blister and become fragrant — about 30 seconds per side. Then soak in just-boiled water for 20 minutes. Blend with roasted garlic, oregano, and a splash of the soaking liquid.",
-          "why": "Toasting before soaking develops complex smoky flavors that simply soaking cannot achieve. The Maillard reaction on the dried chile skin creates caramelized notes.",
-          "extra_ingredients": [
-            "dried guajillo chiles",
-            "dried ancho chiles"
-          ]
+          "title": "Ramekin Egg Drop & Covered Poach",
+          "instruction": "Crack each egg into a small ramekin first. Use a spoon to make deep wells in the sauce, then gently slide each egg from the ramekin into its well. Cover the skillet with a lid and reduce heat to medium-low. Poach for 5–7 minutes — whites should be fully set but yolks still jiggly. Remove from heat 30 seconds early; residual heat finishes the job.",
+          "why": "The ramekin transfer prevents broken yolks and lets you place eggs precisely. Covering traps steam to cook the egg tops without flipping. Pulling early accounts for carryover cooking — the difference between a silky yolk and a chalky one.",
+          "extra_ingredients": []
         },
         {
           "type": "acid",
-          "title": "Quick-Pickled Red Onion Garnish",
-          "instruction": "Thinly slice 1 red onion into rings. Cover with lime juice, a pinch of salt, and a pinch of sugar. Let sit 20 minutes until bright pink. Pile on top of enchiladas after baking.",
-          "why": "Pickled onion adds crunchy acid that cuts through the richness of melted cheese and crema. The pink color is stunning against the red and green sauces.",
+          "title": "The Finishing Layer",
+          "instruction": "Off heat, crumble feta generously over the shakshuka, drizzle with good extra-virgin olive oil, and scatter fresh herbs (parsley or cilantro). For the za'atar toast, brush thick sourdough slices with olive oil, sprinkle liberally with za'atar, and broil until golden and fragrant.",
+          "why": "Feta's salty tang against the sweet-spicy sauce creates the signature contrast that makes shakshuka craveable. Za'atar toast — with its blend of thyme, sumac, and sesame — adds herbal crunch and Middle Eastern authenticity. The bread is for mopping, and mopping is mandatory.",
           "extra_ingredients": [
-            "red onion",
-            "lime"
-          ]
-        },
-        {
-          "type": "texture",
-          "title": "Toasted Pepita Garnish",
-          "instruction": "Toast 1/4 cup raw pepitas (pumpkin seeds) in a dry skillet over medium heat, tossing frequently, until they puff and start to pop — about 3 minutes. Season with a pinch of salt and a squeeze of lime.",
-          "why": "Pepitas add an authentic Mexican crunch that complements the soft enchilada texture. Their nutty, slightly bitter flavor bridges the two sauces.",
-          "extra_ingredients": [
-            "raw pepitas (pumpkin seeds)"
+            "feta",
+            "extra-virgin olive oil",
+            "fresh parsley",
+            "za'atar"
           ]
         }
       ],
-      "day_intro": "Valentine's Day, the clearest sky of the week, and a travel day. The enchilada filling and both sauces are prepped from Friday night — all that's left is assembly and 20 minutes in a hot oven. The visual alone — half red, half green, topped with pink pickled onions — is a Valentine worthy of the occasion."
+      "dinner_question": {
+        "day": "Thursday",
+        "day_of_week": "thursday",
+        "dinner": "Shakshuka with Za'atar Sourdough Toast",
+        "question": "Shakshuka comes from North Africa and the Middle East — it's traveled thousands of miles to end up on our table! In just two days, we're flying to New Mexico. What are you most excited to discover there, and is there anything you're a little nervous about?",
+        "category": "story",
+        "why": "This dish literally crossed continents to reach your kitchen — what a beautiful parallel for a family about to cross the country. Asking about both excitement and nerves gives Elsie full permission to hold two feelings at once, which is one of the most important emotional skills an eight-year-old can practice."
+      }
+    },
+    {
+      "name": "Fri 02/13",
+      "long_name": "Friday, February 13",
+      "day_of_week": "friday",
+      "weather": "Partly cloudy, 38°F/24°F",
+      "weather_detail": "Sunny (92%), wind 12 mph (gusts 26 mph), 20% precip",
+      "calendar": "Elsie YAT 4:30-6:00 PM. Laura Book Club (evening).",
+      "calendar_items": [
+        "Elsie YAT 4:30-6:00 PM",
+        "Laura Book Club (evening)"
+      ],
+      "time_constraints": [
+        "Elsie pickup from YAT at 6:00 PM",
+        "Laura at book club — Dan and Elsie cooking together",
+        "Easy, fun dinner"
+      ],
+      "dinner": "Lemon Ricotta Pancakes with Maple Breakfast Sausage",
+      "dinner_cuisine": "American (Breakfast-for-Dinner)",
+      "dinner_description": "Fluffy ricotta pancakes brightened with lemon zest and juice, served with real maple syrup and pan-seared breakfast sausage. The ricotta pancake tradition traces to Sephardic Jews in medieval Southern Italy — tonight it's Elsie's choice, and she's flipping.",
+      "dinner_key_ingredients": [
+        "ricotta cheese",
+        "lemons",
+        "flour",
+        "eggs",
+        "maple syrup",
+        "breakfast sausage",
+        "butter",
+        "baking powder"
+      ],
+      "dinner_source_url": "https://www.136home.com/blog/easy-fluffy-lemon-ricotta-pancakes",
+      "dinner_source_name": "136 Home",
+      "dinner_notes": "Elsie's pick! Let her measure and flip. Pack bags for Albuquerque before bed — 4:30 AM comes fast.",
+      "dinner_nutrition_notes": "Protein from ricotta, eggs, and sausage. Vitamin C from lemon. A treat meal — balance with fruit on the side.",
+      "album": "Say She She – Silver",
+      "album_year": "2024",
+      "album_genre": "Indie Soul / Funk",
+      "album_mood": "Joyful, groovy, upbeat",
+      "album_description": "Recorded live to tape at Killion Sound in North Hollywood by producer Sergio Rios, Silver is Brooklyn disco-soul with a conscience — Motown harmonies, Chic-inspired grooves, and lyrics tackling everything from bodily autonomy to feminist art.",
+      "album_sonic_description": "Three-part harmonies, disco-funk bass, vintage keys, Motown-inspired arrangements with indie sensibility",
+      "album_pairing_rationale": "Breakfast-for-dinner is a celebration, and Say She She's disco-funk will have Elsie dancing at the stove. They're at 9:30 Club on Feb 17.",
+      "album_spotify_url": "",
+      "activity": "YAT 4:30-6:00 PM. Dad + Elsie cooking night. Laura at book club.",
+      "activity_notes": "Pack for tomorrow's 4:30 AM flight to Albuquerque! Pre-Valentine's Day vibes.",
+      "prep_notes": [
+        "Pack bags for Albuquerque trip",
+        "Set out pancake ingredients before YAT pickup",
+        "Pre-measure dry ingredients so Elsie can help assemble"
+      ],
+      "day_intro": "Friday fun night — Laura's at book club, so it's Dad and Elsie in the kitchen. Pack for tomorrow's 4:30 AM flight while the pancakes cool.",
+      "weather_high": 38,
+      "weather_low": 24,
+      "weather_condition": "CLOUDY",
+      "weather_emoji": "☁️",
+      "weather_oneliner": "38°/24°",
+      "album_artist": "Say She She",
+      "album_title": "Silver",
+      "engagements": [
+        {
+          "time": "4:30-6:00 PM",
+          "event": "Elsie YAT",
+          "event_short": "Elsie YAT"
+        },
+        {
+          "time": "EVENING",
+          "event": "Laura Book Club",
+          "event_short": "Laura Book Club"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "preparation",
+          "title": "Whipped Egg White Soufflé Lift",
+          "instruction": "Separate your eggs. Mix the yolks into the batter with ricotta, lemon zest, lemon juice, and dry ingredients. In a separate clean bowl, whip the egg whites to soft peaks, then fold them into the batter in two additions — first addition to lighten, second to preserve the air. Mix only until just combined; streaks of white are fine.",
+          "why": "Whipped whites create thousands of tiny air pockets that expand in the pan's heat, producing pancakes with a soufflé-like rise and cloud-light texture. Over-mixing deflates these bubbles and results in dense, flat pancakes — the most common mistake home cooks make.",
+          "extra_ingredients": []
+        },
+        {
+          "type": "acid",
+          "title": "Zest Over Juice",
+          "instruction": "Zest 2 lemons directly over the batter bowl using a Microplane — this captures the volatile citrus oils at their freshest. Add the juice of 1 lemon. Use only fresh lemons, never bottled juice. The zest is where 80% of the lemon flavor lives.",
+          "why": "Lemon zest contains essential oils that deliver intense, bright citrus flavor without the acidity that can toughen proteins and thin the batter. The juice provides just enough acid to react with baking powder for extra lift while adding tang.",
+          "extra_ingredients": []
+        },
+        {
+          "type": "texture",
+          "title": "Butter-Oil Griddle & Small Pours",
+          "instruction": "Heat a nonstick skillet or griddle over medium heat (not medium-high). Use a mix of 1 tablespoon butter and 1 teaspoon neutral oil per batch. Pour ⅓-cup portions and resist the urge to press or spread the batter — let it find its own shape. Flip when bubbles appear on the surface and edges look set (about 2–3 minutes).",
+          "why": "The butter-oil combo gives you the flavor and browning of butter without the burning. Small, thick pours cook through evenly while staying tall and fluffy. Pressing squeezes out the air you worked so hard to fold in. Medium heat gives a golden, even crust rather than a dark, spotted one.",
+          "extra_ingredients": [
+            "neutral oil"
+          ]
+        }
+      ],
+      "dinner_question": {
+        "day": "Friday",
+        "day_of_week": "friday",
+        "dinner": "Lemon Ricotta Pancakes",
+        "question": "You picked tonight's dinner — breakfast for dinner! If you were in charge of our family for a whole day and could flip any rules upside-down, what would you change? Pajamas to school? Dessert first? You're the boss!",
+        "category": "family",
+        "why": "This is Dad-and-Elsie night while Laura is at book club, and Elsie chose this meal — so the whole evening is hers. Leaning into her sense of agency and playful power builds confidence and connection right before the biggest adventure day of the week. Let her lead. She's ready."
+      }
+    },
+    {
+      "name": "Sat 02/14",
+      "long_name": "Saturday, February 14 — Valentine's Day",
+      "day_of_week": "saturday",
+      "weather": "Slight snow, 40°F/27°F",
+      "weather_detail": "Sunny (91%), wind 9 mph (gusts 25 mph), 30% precip, possible light snow",
+      "calendar": "Flight 4:30 AM to Albuquerque. YAT 9:00 AM-12:00 PM (tentative). Valentine's Day!",
+      "calendar_items": [
+        "Flight details 4:30-5:00 AM",
+        "YAT 9:00 AM-12:00 PM (tentative)",
+        "Valentine's Day"
+      ],
+      "time_constraints": [
+        "Travel day — all meals eaten out",
+        "Early wake-up for 4:30 AM flight"
+      ],
+      "dinner": "Christmas Enchiladas",
+      "dinner_cuisine": "New Mexican",
+      "dinner_description": "New Mexico stacked enchiladas smothered Christmas style — half red chile (deep, smoky, earthy) and half green chile (bright, tangy, sharp). The name doesn't come from the holiday; it comes from a server's suggestion to a customer who couldn't choose. Order with a side of sopaipillas and carne adovada.",
+      "dinner_key_ingredients": [
+        "blue corn tortillas",
+        "red chile sauce (Hatch)",
+        "green chile sauce (Hatch)",
+        "cheese",
+        "chicken or beef",
+        "fried egg"
+      ],
+      "dinner_source_url": "https://goldilockskitchen.com/2022/11/christmas-style-enchiladas-from-new-mexico/",
+      "dinner_source_name": "Goldilocks Kitchen",
+      "dinner_notes": "Valentine's dinner in Albuquerque! Try Cocina Azul or Sadie's. Don't skip the sopaipillas.",
+      "dinner_nutrition_notes": "Restaurant meal — enjoy without overthinking. The chile peppers are loaded with vitamin C and capsaicin.",
+      "album": "Lara Manzanares – Voz de Río",
+      "album_year": "2023",
+      "album_genre": "New Mexico Indie Folk",
+      "album_mood": "Warm, storytelling, rooted",
+      "album_description": "Manzanares is a northern New Mexico native from a sheep-ranching family whose bilingual folk won Album of the Year at the New Mexico Music Awards. Her songs are sonic postcards from the Land of Enchantment — listen on the plane.",
+      "album_sonic_description": "Acoustic guitar, bilingual vocals (English/Spanish), folk arrangements, New Mexico folk traditions",
+      "album_pairing_rationale": "Flying to New Mexico? Start the experience at 30,000 feet with music from an Albuquerque native whose bilingual folk captures the exact landscape below.",
+      "album_spotify_url": "",
+      "activity": "Travel to Albuquerque! Valentine's Day dinner.",
+      "activity_notes": "4:30 AM flight. YAT at 9 AM may be tentative. Valentine's Day — love in the high desert!",
+      "prep_notes": [
+        "Bags should be packed Friday night",
+        "TSA docs ready",
+        "Download Lara Manzanares album for the plane"
+      ],
+      "day_intro": "Valentine's Day in the high desert. You woke at 3:30 AM, flew west, and landed in a city where the question isn't 'how are you?' — it's 'red or green?'",
+      "weather_high": 40,
+      "weather_low": 27,
+      "weather_condition": "SNOW",
+      "weather_emoji": "❄️",
+      "weather_oneliner": "40°/27° · chance of rain",
+      "album_artist": "Lara Manzanares",
+      "album_title": "Voz de Río",
+      "engagements": [
+        {
+          "time": "4:30-5:00 AM",
+          "event": "Flight details",
+          "event_short": "Flight details"
+        },
+        {
+          "time": "9:00 AM",
+          "event": "YAT -12:00 PM (tentative)",
+          "event_short": "YAT -12:00 PM"
+        },
+        {
+          "time": "",
+          "event": "Valentine's Day",
+          "event_short": "Valentine's Day"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "preparation",
+          "title": "Order Christmas Style, Stacked",
+          "instruction": "When the server asks 'red or green?', say 'Christmas' — this gets you both red and green chile sauce on the same plate, half and half. Ask for your enchiladas 'stacked' rather than rolled, which is the authentic New Mexican style: tortillas layered like lasagna with cheese and chile between each layer, topped with a fried egg.",
+          "why": "Christmas style lets you taste both chiles side by side — the red is earthy, smoky, and slow-simmered from dried pods, while the green is bright, tangy, and more immediately spicy from freshly roasted Hatch chiles. Stacked is how New Mexicans eat enchiladas; rolled is Tex-Mex. The fried egg on top is a local tradition that adds richness and ties everything together.",
+          "extra_ingredients": []
+        },
+        {
+          "type": "preparation",
+          "title": "Ask About the Chile Heat",
+          "instruction": "Before ordering, ask your server how hot the green chile is today — it varies by season, batch, and restaurant. If dining with Elsie, request 'mild' or 'medium' and get a side of hot sauce to adjust. Also ask for sopapillas (puffy fried bread) with honey on the side — they're the traditional New Mexican dessert-with-dinner and perfect for cooling the heat.",
+          "why": "New Mexican green chile heat is unpredictable and can range from sweet-pepper mild to habanero-level fierce depending on the harvest and the kitchen. Asking first prevents surprises, especially with kids at the table. Sopapillas are non-negotiable in Albuquerque — they're the cultural equivalent of bread service, and drizzling honey inside a hot, puffy sopapilla is a rite of passage.",
+          "extra_ingredients": []
+        }
+      ],
+      "dinner_question": {
+        "day": "Saturday",
+        "day_of_week": "saturday",
+        "dinner": "Christmas Enchiladas",
+        "question": "We made it to Albuquerque! These enchiladas are served 'Christmas style' — half red chile, half green chile. If you had to describe today's adventure using only three words, what would they be? And what's one thing you saw today that you've never seen before?",
+        "category": "gratitude",
+        "why": "After a 4:30 AM flight and a day full of new sights, Elsie's brain is overflowing. The three-word constraint helps her distill a sensory-rich day into something she can hold onto. And it's Valentine's Day — so sitting together in a new place, sharing bold food and bold stories, is the best love letter this family can write."
+      }
     }
   ],
   "appetizers": [
     {
-      "name": "Whipped Feta Dip with Roasted Red Peppers",
+      "name": "Warm Baked Ricotta with Lemon & Herbs",
+      "cuisine": "Italian",
+      "description": "Whole-milk ricotta baked until golden and slightly puffed, finished with lemon zest, fresh herbs, cracked pepper, and good olive oil. Served with sourdough crostini.",
+      "key_ingredients": [
+        "ricotta cheese",
+        "lemon",
+        "thyme",
+        "olive oil",
+        "sourdough bread"
+      ]
+    },
+    {
+      "name": "Whipped Feta Dip with Roasted Red Peppers & Za'atar",
       "cuisine": "Mediterranean",
-      "description": "Creamy whipped feta blended with roasted red peppers, garlic, and a drizzle of good olive oil. Served with warm pita triangles and crudités.",
+      "description": "Feta whipped with cream cheese, lemon, and garlic until fluffy, topped with roasted red peppers, olive oil, and za'atar. Served with warm pita.",
       "key_ingredients": [
         "feta cheese",
         "cream cheese",
         "roasted red peppers",
-        "garlic",
-        "olive oil",
+        "za'atar",
+        "lemon",
         "pita"
-      ]
-    },
-    {
-      "name": "Crispy Baked Mozzarella Bites",
-      "cuisine": "Italian",
-      "description": "Golden panko-crusted mozzarella bites baked until molten inside, served with warm marinara. Kid-proof and party-ready.",
-      "key_ingredients": [
-        "fresh mozzarella",
-        "panko breadcrumbs",
-        "eggs",
-        "flour",
-        "marinara sauce"
       ]
     }
   ],
@@ -685,773 +723,1202 @@
       "name": "Winter Citrus & Radicchio Salad",
       "salad_type": "composed_dinner",
       "cuisine": "Italian",
-      "description": "Composed plate of blood orange and cara cara segments, shaved radicchio, burrata, toasted pistachios, and Castelvetrano olives.",
-      "dressing": "Blood orange vinaigrette: fresh blood orange juice, champagne vinegar, Dijon mustard, extra-virgin olive oil, minced shallot, flaky salt, cracked black pepper",
-      "flavor_rationale": "Bitter radicchio tamed by sweet citrus and creamy burrata. Pistachios add crunch. Italian amaro-dolce-grasso balance."
+      "description": "Composed arrangement of blood orange and cara cara segments, shaved radicchio, burrata, pistachios, and Castelvetrano olives.",
+      "dressing": "Blood orange vinaigrette: fresh blood orange juice, champagne vinegar, Dijon mustard, EVOO, minced shallot, flaky salt, honey",
+      "flavor_rationale": "Bitter radicchio tamed by sweet citrus and creamy burrata. The vinaigrette brightens every bite. Follows the Italian principle of balancing amaro with dolce and grasso."
     },
     {
-      "name": "Shaved Brussels Sprout Slaw with Apple & Pecans",
+      "name": "Shaved Brussels Sprout Slaw with Pecorino & Hazelnuts",
       "salad_type": "side",
-      "cuisine": "American",
-      "description": "Thinly shaved Brussels sprouts with Honeycrisp apple matchsticks, toasted pecans, dried cranberries, and Pecorino Romano.",
-      "dressing": "Apple cider vinaigrette: apple cider vinegar, whole-grain mustard, honey, extra-virgin olive oil, salt, pepper",
-      "flavor_rationale": "Brussels sprout bitterness against sweet apple and tart cranberries. Pecans add warmth. Vinaigrette keeps it crisp and lively."
+      "cuisine": "Italian-American",
+      "description": "Thinly shaved Brussels sprouts tossed with shaved Pecorino Romano, toasted hazelnuts, and a bright lemon-anchovy dressing.",
+      "dressing": "Lemon-anchovy dressing: fresh lemon juice, anchovy paste, Dijon mustard, EVOO, garlic, salt, pepper",
+      "flavor_rationale": "Umami from anchovy and Pecorino meets the mild bitterness of raw Brussels sprouts. Lemon brightens, hazelnuts add toasty warmth."
     },
     {
-      "name": "Roasted Beet & Citrus Salad with Goat Cheese",
+      "name": "Simple Arugula & Parmesan with Lemon Vinaigrette",
       "salad_type": "side",
-      "cuisine": "French",
-      "description": "Earthy roasted beets with grapefruit and orange segments, tangy goat cheese, and toasted walnuts on arugula.",
-      "dressing": "Sherry-walnut vinaigrette: sherry vinegar, Dijon mustard, walnut oil, extra-virgin olive oil, minced shallot, honey, salt, pepper",
-      "flavor_rationale": "Earthy beets and bright citrus in sweet-savory tension. Goat cheese adds tang, walnuts bring warmth. Valentine's-worthy colors."
+      "cuisine": "Italian",
+      "description": "Peppery arugula with shaved Parmigiano-Reggiano, lemon, and the best olive oil you have. The 3-minute side salad that elevates any dinner.",
+      "dressing": "Fresh lemon juice, EVOO, Maldon salt, cracked black pepper",
+      "flavor_rationale": "Arugula's pepperiness softened by the nuttiness of Parmigiano and fruity acidity of lemon. Every ingredient pulls its weight."
     }
   ],
   "beverages": [
     {
-      "name": "Malbec (Red Wine)",
-      "description": "Full-bodied, plummy Malbec from Mendoza — the ideal companion for a beef-heavy week. $12-15 range.",
-      "why": "Pairs with cheesesteaks, pappardelle, and enchiladas."
+      "name": "Côtes du Rhône",
+      "description": "Medium-bodied Grenache-Syrah-Mourvèdre blend with red fruit, herbs, and gentle spice. Versatile enough for chicken, pasta, or cheesesteaks. Look for Guigal or Chapoutier ($12-16).",
+      "why": "An everyday red that pairs with the widest range of this week's dinners."
     },
     {
-      "name": "Sparkling Pomegranate Mocktail",
-      "description": "Pomegranate juice, fresh lime, simple syrup, and sparkling water over ice. Festive ruby-red.",
-      "why": "Non-alcoholic option for the family. Valentine's-worthy color."
+      "name": "Sparkling Water with Blood Orange & Rosemary",
+      "description": "Sparkling mineral water with muddled blood orange, rosemary sprig, and lime squeeze. Refreshing, zero-proof, and ties into the winter citrus theme.",
+      "why": "Kid-friendly and festive without alcohol. Ties into the winter citrus salad theme."
     },
     {
-      "name": "Japanese Lager (Asahi or Sapporo)",
-      "description": "Crisp, clean Japanese lager served ice-cold. Cuts through rich miso or umami flavors.",
-      "why": "Light contrast to the umami-heavy bronzino and kale dinner."
+      "name": "Mexican Hot Chocolate",
+      "description": "Rich hot cocoa with cinnamon, a pinch of cayenne, vanilla, topped with whipped cream or marshmallows. Warming for cold February nights.",
+      "why": "Ties into New Mexico travel theme. Kid-approved. Perfect for 20°F evenings."
     }
   ],
   "grocery_list": {
     "Produce": [
-      "lacinato kale (2 bunches)",
-      "blood oranges",
-      "cara cara oranges",
-      "radicchio",
-      "Brussels sprouts",
-      "Honeycrisp apples",
-      "red & golden beets",
-      "grapefruit",
-      "cherry tomatoes",
-      "bell peppers",
-      "onions",
-      "garlic",
-      "lemons",
-      "limes",
-      "cilantro",
-      "sage",
-      "flat-leaf parsley",
-      "arugula",
-      "scallions",
-      "avocado",
-      "tomatillos",
-      "green chiles"
+      "carrots",
+      "parsnips",
+      "potatoes (2 lbs)",
+      "garlic (2 heads)",
+      "onions (3)",
+      "spinach (6 cups baby)",
+      "bell peppers (2)",
+      "lemons (4)",
+      "arugula (2 bags)",
+      "golden beets (2)",
+      "red beets (2)",
+      "cherry tomatoes (1 pint)",
+      "blood oranges (3)",
+      "radicchio (1 head)",
+      "Brussels sprouts (1 lb)",
+      "fresh thyme",
+      "fresh rosemary",
+      "fresh parsley",
+      "shallots (2)"
     ],
     "Protein": [
-      "ribeye steak (from RD)",
-      "whole bronzino (2, butterflied)",
+      "whole chicken (4 lbs — use from fridge)",
       "eggs (2 dozen)",
-      "shredded rotisserie chicken"
+      "breakfast sausage links (1 package)",
+      "ribeye steak (from RD for Sunday)"
     ],
     "Dairy": [
-      "butter (2 lbs)",
-      "Parmigiano-Reggiano",
-      "Pecorino Romano",
-      "feta cheese",
-      "burrata",
-      "goat cheese",
-      "provolone",
-      "mozzarella (fresh)",
-      "cream cheese",
-      "Cotija cheese",
-      "Mexican crema"
+      "whole-milk ricotta (15 oz)",
+      "heavy cream (1 pint)",
+      "Parmigiano-Reggiano (wedge)",
+      "butter (2 sticks)",
+      "feta cheese (8 oz)",
+      "goat cheese (4 oz)",
+      "burrata (1 ball)",
+      "Pecorino Romano (small wedge)",
+      "cream cheese (4 oz)",
+      "sour cream (for potluck taco bar)"
+    ],
+    "Grains & Pasta": [
+      "farro (1 cup)",
+      "flour (2 cups)",
+      "sourdough bread (from Sunday batch)",
+      "hoagie rolls (Sunday)",
+      "pita bread",
+      "taco shells (for potluck)"
     ],
     "Pantry": [
-      "fettuccine (Babo brand)",
-      "00 flour",
-      "canned crushed tomatoes",
-      "white beans (canned)",
-      "dried porcini mushrooms",
-      "panko breadcrumbs",
-      "dried red chiles",
+      "canned tomatoes (28 oz)",
+      "harissa paste",
+      "za'atar",
       "cumin",
       "paprika",
-      "smoked paprika",
-      "coriander",
-      "hoagie rolls",
-      "corn tortillas",
-      "pita bread",
-      "crusty bread",
-      "croutons",
-      "pistachios",
-      "pecans",
-      "walnuts",
-      "dried cranberries",
-      "Castelvetrano olives",
-      "anchovy fillets",
-      "Dijon mustard",
-      "whole-grain mustard",
-      "champagne vinegar",
-      "apple cider vinegar",
+      "nutmeg",
+      "baking powder",
+      "maple syrup",
       "sherry vinegar",
-      "red wine vinegar",
-      "extra-virgin olive oil",
-      "walnut oil",
-      "white wine",
+      "champagne vinegar",
+      "Dijon mustard",
+      "anchovy paste",
+      "capers",
+      "dried cranberries",
+      "olive oil (good EVOO)",
       "honey",
-      "chickpeas (canned)"
+      "cinnamon",
+      "cayenne",
+      "vanilla extract",
+      "cocoa powder"
     ],
-    "Mushrooms": [
-      "cremini mushrooms",
-      "oyster mushrooms"
+    "Nuts & Seeds": [
+      "walnuts (1/2 cup)",
+      "hazelnuts (1/4 cup)",
+      "pistachios (1/4 cup)"
     ],
-    "Beverages": [
-      "Malbec wine",
-      "pomegranate juice",
-      "sparkling water",
-      "Japanese lager (Asahi or Sapporo)"
-    ],
-    "Potluck Thursday": [
-      "pizza dough",
-      "marinara sauce",
-      "mozzarella (shredded)",
-      "pepperoni",
-      "red bell pepper"
+    "Potluck Taco Bar": [
+      "ground beef (2 lbs)",
+      "taco shells",
+      "sour cream",
+      "guacamole (or avocados to make)",
+      "shredded lettuce",
+      "taco seasoning"
     ]
   },
   "prep_ahead": [
-    "Saturday: Pick up ribeye from RD for Sunday cheesesteaks",
-    "Wednesday night: Make pizza dough for Thursday potluck heart pizzas",
-    "Thursday morning: Shape and bake heart-shaped mini pizzas for potluck",
-    "Thursday afternoon: Make fresh egg pasta dough, rest 30 min",
-    "Friday afternoon: Prep kale-tomato-bean bed for bronzino",
-    "Friday evening: Prep enchilada filling and both sauces for Saturday"
+    "Saturday (Feb 7): Thaw chicken if frozen. Bake sourdough bread.",
+    "Sunday: Pick up steak from RD. Sourdough ready for the week.",
+    "Monday morning: Take chicken out 1 hour before roasting.",
+    "Monday evening: After dinner, start chicken broth with carcass.",
+    "Tuesday morning: Make babo pasta dough (spinach + egg yolks + flour). Rest in fridge.",
+    "Tuesday afternoon: Roll and cut pasta before swim lessons.",
+    "Wednesday during science camp: Roast beets (45 min at 400°F).",
+    "Thursday morning: Prep taco bar for work potluck — brown beef, shred lettuce, pack shells + sour cream + guac.",
+    "Friday afternoon: Pre-measure pancake dry ingredients. Set out ricotta and lemons.",
+    "Friday evening: PACK FOR ALBUQUERQUE. Bags by the door. TSA docs ready.",
+    "Friday evening: Download Lara Manzanares album for the plane."
   ],
   "notes": [
-    "Beef craving satisfied on Sunday (cheesesteaks) and Thursday (pappardelle mushrooms with richness).",
-    "Valentine's heart-shaped mini pizzas for Thursday work potluck — Gen Alpha approved.",
-    "Thursday potluck is lunch; mushroom pappardelle for dinner balances the day.",
-    "Kale and bronzino+kale give two hearty kale nights as requested.",
-    "Saturday is travel day — enchilada components travel well, assemble on arrival.",
-    "This week tells a story in temperatures — from 17°F Sunday to the week's warmth on Tuesday (48°F) and back down again. The dinners follow suit: hearty bookends with lighter, brighter cooking in the middle.",
-    "Two kale nights (Wednesday and Friday) might sound repetitive on paper, but they're completely different experiences — a punchy Caesar versus a Mediterranean fish supper. The green thread ties the week together."
+    "Sourdough bread (Sunday) is used for: Monday's chicken dinner, Thursday's shakshuka toast, and appetizer crostini",
+    "Chicken carcass (Monday) becomes broth — freeze for future soups",
+    "Thursday's potluck taco bar ingredients: ground beef, taco shells, sour cream, guac, shredded lettuce",
+    "Saturday 4:30 AM flight to Albuquerque — pack Friday night!",
+    "Valentine's Day dinner in Albuquerque — make reservations at Cocina Azul or Sadie's",
+    "YAT on Saturday (9 AM-12 PM) is tentative — may conflict with travel",
+    "Sourdough is the quiet thread stitching this week together: baked Sunday, torn alongside Monday's roast chicken, rubbed with za'atar for Thursday's shakshuka, and sliced into crostini for appetizers. One loaf, four acts.",
+    "The music mirrors the journey — Richmond funk and winter jazz give way to Puglian folk and Tunisian oud, before disco-funk and New Mexican balladry carry the family to Albuquerque. Every album was chosen to meet the meal where it lives."
   ],
-  "generated_at": "2026-02-07 13:48",
+  "highlight": "From sourdough and roast chicken on the coldest night to Christmas enchiladas in the high desert — a week that warms from the inside out.",
+  "daily_plan_subtitle": "From American to New Mexican, with Butcher Brown on the stereo",
+  "generated_at": "2026-02-08 10:18",
   "parenting_data": {
     "week_range": "February 8 - February 14, 2026",
     "weekly_theme": {
-      "title": "Love in Action",
-      "description": "Valentine's week isn't just about cards and candy — it's a chance to explore what love looks like when it's a verb. How do we show care through cooking together, through small kindnesses at school, through making someone's favorite meal? This week, look for moments to ask Elsie: what does love look like when you do it, not just say it?"
+      "title": "Brave Explorers: Hearts & Horizons",
+      "description": "This week is about courage in all its forms — tasting bold flavors at a friend's table, performing onstage at YAT, mixing mystery potions at science camp, leaping through dance camp choreography, and catching a pre-dawn flight to the Land of Enchantment. Valentine's Day falls on travel day, which means love isn't something we celebrate sitting still — it's something we carry with us into the unknown. Every dinner this week is a basecamp, and every conversation is a chance to remind Elsie that the bravest thing an explorer carries isn't a compass — it's an open heart."
     },
     "dinner_questions": [
       {
         "day": "Sunday",
+        "day_of_week": "sunday",
         "dinner": "Philly Cheesesteaks",
-        "question": "If you could make any sandwich in the world for your best friend, what would you put on it and why?",
-        "category": "imagination",
-        "why": "Connects food to friendship and generosity. At 8, she's deeply invested in best-friend dynamics — this lets her express care through a creative, low-stakes scenario."
+        "question": "We're eating at a friend's house tonight — what's your favorite thing about sharing a meal with people outside our family? If you could invite anyone in the world to dinner, who would it be and what would you serve them?",
+        "category": "gratitude",
+        "why": "Eating at a friend's home is a mini-adventure in trust and openness — you step into someone else's kitchen, their rhythms, their traditions. This question helps Elsie practice gratitude for the people who welcome us, and gently stretches her imagination about hospitality and generosity."
       },
       {
         "day": "Monday",
-        "dinner": "Shakshuka with Feta",
-        "question": "What's the bravest thing you saw someone do today — even if it was something small?",
-        "category": "values",
-        "why": "Eight-year-olds are building their moral compass and starting to notice courage in everyday actions. This question helps her practice recognizing bravery beyond physical feats — standing up for someone, trying something new, admitting a mistake."
+        "day_of_week": "monday",
+        "dinner": "Herb-Roasted Whole Chicken",
+        "question": "This chicken is roasted with herbs that grow right out of the ground. If you were an explorer and could discover a brand-new plant that nobody has ever seen, what would it look like, what would it smell like, and what would you name it?",
+        "category": "imagination",
+        "why": "The smell of roasting herbs is one of those sensory anchors that makes a home feel safe. Connecting that warmth to nature and discovery lets Elsie flex her creativity while grounding the explorer theme in something she can taste and touch — a perfect Monday wind-down."
       },
       {
         "day": "Tuesday",
+        "day_of_week": "tuesday",
         "dinner": "Babo Pasta with Alfredo",
-        "question": "If our family had a theme song, what would it sound like? Fast or slow? Loud or quiet? What instruments?",
-        "category": "family_connection",
-        "why": "Swim lesson nights are rushed — this question is pure fun with no right answer. It invites creativity and reveals how she perceives the family's energy. Plus, there's music playing (Say She She) — she can riff off what she hears."
+        "question": "You just came from swim lessons — your body worked really hard tonight! What's something difficult you tried recently (in the pool or anywhere) that you're proud of, even if you haven't totally mastered it yet?",
+        "category": "values",
+        "why": "After swim, Elsie's body is tired and her defenses are down — which actually makes this the best moment for an honest conversation about effort. Comforting pasta creates a safe, warm space to reinforce that bravery isn't about being perfect; it's about showing up and trying, even when the water is cold."
       },
       {
         "day": "Wednesday",
-        "dinner": "Kale Caesar Salad",
-        "question": "What's something you're really good at that you didn't used to be good at? How did you get better?",
-        "category": "reflection",
-        "why": "At 8, she's developing a growth mindset — the ability to see effort as the path to mastery. This question helps her narrate her own competence story, which builds resilience for future challenges."
+        "day_of_week": "wednesday",
+        "dinner": "Warm Farro & Beet Salad",
+        "question": "At science potions camp today you mixed things together to see what happens. If you could mix any two things in the whole world together to create something totally new, what would you combine and what would it do?",
+        "category": "imagination",
+        "why": "Science camp is still buzzing in her mind, so this question rides that wave of wonder. Letting Elsie invent something imaginary validates what she did at camp and stretches her thinking from 'what happened' to 'what could happen' — the heart of every brave explorer's mindset."
       },
       {
         "day": "Thursday",
-        "dinner": "Mushroom Pappardelle",
-        "question": "Valentine's Day is coming up — if you could show love to someone at school without using words, how would you do it?",
-        "category": "values",
-        "why": "This ties directly to the weekly theme of 'love in action.' It pushes her to think about non-verbal expressions of care — saving a seat, sharing a snack, drawing a picture. These are the building blocks of empathy."
+        "day_of_week": "thursday",
+        "dinner": "Shakshuka with Za'atar Sourdough Toast",
+        "question": "Shakshuka comes from North Africa and the Middle East — it's traveled thousands of miles to end up on our table! In just two days, we're flying to New Mexico. What are you most excited to discover there, and is there anything you're a little nervous about?",
+        "category": "story",
+        "why": "This dish literally crossed continents to reach your kitchen — what a beautiful parallel for a family about to cross the country. Asking about both excitement and nerves gives Elsie full permission to hold two feelings at once, which is one of the most important emotional skills an eight-year-old can practice."
       },
       {
         "day": "Friday",
-        "dinner": "Baked Bronzino with Roasted Kale",
-        "question": "What's something you wish grown-ups understood better about being 8?",
-        "category": "story",
-        "why": "This is a trust question. It says: I want to understand your world. Eight-year-olds often feel unheard by adults — this invites her to be the expert. Listen without correcting."
+        "day_of_week": "friday",
+        "dinner": "Lemon Ricotta Pancakes",
+        "question": "You picked tonight's dinner — breakfast for dinner! If you were in charge of our family for a whole day and could flip any rules upside-down, what would you change? Pajamas to school? Dessert first? You're the boss!",
+        "category": "family",
+        "why": "This is Dad-and-Elsie night while Laura is at book club, and Elsie chose this meal — so the whole evening is hers. Leaning into her sense of agency and playful power builds confidence and connection right before the biggest adventure day of the week. Let her lead. She's ready."
       },
       {
         "day": "Saturday",
+        "day_of_week": "saturday",
         "dinner": "Christmas Enchiladas",
-        "question": "What are three things you love about our family — not things we have, but things we do?",
+        "question": "We made it to Albuquerque! These enchiladas are served 'Christmas style' — half red chile, half green chile. If you had to describe today's adventure using only three words, what would they be? And what's one thing you saw today that you've never seen before?",
         "category": "gratitude",
-        "why": "Valentine's Day dinner — the perfect moment to talk about family love. Asking about actions (not possessions) reinforces that love is demonstrated, not just felt. Travel day makes this a great car conversation too."
+        "why": "After a 4:30 AM flight and a day full of new sights, Elsie's brain is overflowing. The three-word constraint helps her distill a sensory-rich day into something she can hold onto. And it's Valentine's Day — so sitting together in a new place, sharing bold food and bold stories, is the best love letter this family can write."
       }
     ],
     "nudges": [
       {
-        "title": "The Sous Chef Moment",
-        "context": "Thursday's dinner involves making fresh pasta from scratch — eggs, flour, and rolling. This is the perfect invitation.",
-        "suggestion": "Let Elsie handle the pasta dough. Crack the eggs, measure the flour, knead until smooth. Don't correct her technique unless she asks. Let the mess happen.",
+        "title": "The Explorer's Notebook",
+        "context": "With science camp, dance camp, YAT performances, and an Albuquerque trip all landing in one week, Elsie's brain is absorbing more new experiences than usual. At eight, kids are just beginning to develop the ability to reflect on their own experiences — but they need a tangible tool to anchor that skill. A travel journal gives her a place to process, remember, and own her discoveries.",
+        "suggestion": "Give Elsie an 'Explorer's Field Notebook' — a small, sturdy journal she can carry all week. Each day she jots or draws one discovery: a science potion recipe, a dance move she nailed, a YAT moment that made her nervous, a funny thing someone said. By Saturday morning she'll board the plane with a whole week of bravery documented in her own handwriting.",
         "how_to": [
-          "Set up her station: apron, flour, eggs, a clean surface",
-          "Show her once how to make the well and crack the eggs in",
-          "Step back. Let her knead. Let her feel the dough change texture.",
-          "When it's smooth, tell her: 'You made that. From scratch. That's real.'"
+          "Monday evening: Present the notebook with a little ceremony — 'Every great explorer keeps a field notebook. This one is yours.'",
+          "Each night before bed (or at dinner), ask: 'What goes in the notebook today?' Let her write, draw, or paste something in.",
+          "On the plane Saturday morning, flip through the week's entries together. It becomes a pre-trip ritual and a keepsake."
         ]
       },
       {
-        "title": "The Valentine Card Factory",
-        "context": "Valentine's Day is Saturday but the potluck is Thursday. The week is naturally Valentine-themed — lean into it with a creative project early in the week.",
-        "suggestion": "Monday or Tuesday evening, set out supplies and make Valentine cards together — not store-bought, handmade. For friends, for teachers, for each other.",
+        "title": "Valentine's Love Map",
+        "context": "Valentine's Day falls on a 4:30 AM travel day, which means the usual card-and-candy celebration isn't going to work. But that's actually a gift in disguise. At eight, Elsie is in a key developmental window for understanding that love isn't just a feeling — it's something people do, consistently, in small and specific ways. A week-long trail of love notes teaches that better than any store-bought valentine ever could.",
+        "suggestion": "Create a 'Love Map' — seven small handwritten notes, one hidden each day in Elsie's world: her lunchbox, swim bag, science camp backpack, dance bag, YAT tote, and finally her carry-on for the flight. Each note names one specific thing you love about her. The final note, tucked into her bag with a small treat, arrives mid-flight on Valentine's morning — tying the whole week into a single thread of love.",
         "how_to": [
-          "Gather: construction paper, markers, stickers, scissors, glue",
-          "Each person makes at least 3 cards — including one for each family member",
-          "No templates or Pinterest perfection — messy is better",
-          "Read them aloud to each other before sealing"
+          "Sunday night: Write all seven notes. Keep them short and specific — 'I love how you always check on your friends when they're sad' is better than 'You're great.'",
+          "Each morning, hide that day's note somewhere she'll find it during her activity (swim bag Tuesday, science camp backpack Wednesday, dance bag Thursday, YAT bag Friday).",
+          "Saturday's note goes in her carry-on with a small treat. When she finds it on the plane, it ties the whole week together."
         ]
       },
       {
-        "title": "The Friday Solo Mission",
-        "context": "Laura is at book club. Dan is solo with Elsie after YAT pickup at 6 PM. This is a connection goldmine.",
-        "suggestion": "After dinner, let Elsie choose the entire evening agenda. Movie, game, craft, or just talking. The only rule: no phones for either of you. Call it 'Elsie's Night.'",
+        "title": "The Early-Bird Adventure Pact",
+        "context": "The 4:30 AM flight means waking around 3 AM — brutal for anyone, but especially for an eight-year-old whose body runs on routine. Sleep disruption is one of the most reliable triggers for meltdowns at this age. The antidote isn't just logistics (though those matter); it's narrative. If Elsie goes to bed Friday believing she's on a secret mission, the alarm becomes a plot point instead of a rude awakening.",
+        "suggestion": "Starting Wednesday, begin building the 'secret early-bird mission' storyline. Only the bravest explorers get to see an airport when the sky is still full of stars. Make a pact: first person to spot a star on the drive to the airport picks the first activity in Albuquerque. By Saturday morning, the early wake-up isn't something that happens to Elsie — it's something she chose to be part of.",
         "how_to": [
-          "On the drive home from YAT, ask: 'Tonight is yours. What do you want to do?'",
-          "Whatever she picks, commit fully. Don't suggest alternatives.",
-          "If she picks a movie, watch it next to her, not across the room.",
-          "Before bed: 'I really liked hanging out with just you tonight.'"
+          "Wednesday at dinner: Casually mention, 'Did you know our plane leaves before the sun is even up? Only night-owl explorers get to do that.'",
+          "Friday night: Pack together, lay out travel clothes, and let Elsie set her alarm clock. Give her ownership of waking up — she'll take it seriously.",
+          "Saturday morning: Keep lights low, voices soft, and have a small snack bag ready. Play her favorite quiet music in the car. Celebrate being awake with wonder, not stress."
         ]
       }
     ],
     "recommendation": {
       "type": "book",
-      "title": "Each Kindness",
-      "author": "Jacqueline Woodson",
-      "why": "A beautiful picture book (yes, even for 8-year-olds) about a girl who misses the chance to be kind to a new student — and the regret that follows. It's short, powerful, and unforgettable. Perfect for Valentine's week because it reframes love as everyday kindness, not grand gestures.",
-      "connection": "Ties directly to the 'Love in Action' theme. Read it together any night this week — it takes 10 minutes and will generate a conversation that lasts much longer."
+      "title": "Race to the Sun",
+      "author": "Rebecca Roanhorse",
+      "why": "A middle-grade adventure novel set in New Mexico, rooted in Navajo mythology. Nizhoni Begay, a seventh-grader, discovers she has ancestral powers and must go on a dangerous quest to save her family. It's brave, fast-paced, funny, and deeply tied to the land you're about to visit — the mesas, the sky, the stories that live in the desert.",
+      "connection": "Reading even a few chapters before the trip transforms Albuquerque from 'a place we're visiting' into 'the place where Nizhoni's story lives.' Elsie will look at the New Mexico landscape differently — and that's exactly what brave explorers do. They arrive with eyes already open."
     },
-    "parent_reflection": "This week, pay attention to how Elsie shows love — not how she says it. Does she save you the best piece? Does she draw you a picture unprompted? Does she sit closer to you on the couch? Those small, wordless gestures are her love language developing in real time. Notice them. Name them. 'I saw you saved me the corner piece — that made me feel really loved.' She needs to know her love lands."
+    "parent_reflection": "This week is a masterclass in transitions — from the familiar rhythm of swim and camps to the wild unknown of a pre-dawn flight and a new city. The temptation is to compartmentalize: get through the week, then enjoy the trip. But Elsie doesn't see it that way. For her, Monday's roast chicken and Saturday's enchiladas are part of the same story. The science potions and the airplane are chapters in the same adventure. Your job this week isn't to manage logistics (though you will). It's to model wonder. When you're curious about the herbs on the chicken, playful about pancakes-for-dinner, and genuinely excited about stars at 3 AM, Elsie absorbs something no camp or class can teach: that the people who love her find the world endlessly interesting. That's the Valentine she'll remember."
   },
-  "nutrition_summary": "This week's dinners are hearty and satisfying — exactly what a cold February demands. Protein variety is outstanding (beef, eggs, dairy, chickpeas, fish, chicken across seven nights), and the two kale-forward dinners provide serious nutrient density midweek. The gaps are what you'd expect from comfort cooking: no whole grains at dinner, limited fruit, and some rich nights. The fix is easy — whole grain lunches, fruit-heavy snacks, and a vitamin D supplement while February keeps the sun at bay. Overall grade: B+, and the lunches and snacks below bring it to an A.",
+  "nutrition_summary": "This family eats well — really well. The week features an impressive variety of proteins (beef, chicken, eggs, pork, dairy, nuts), cuisines (American, Italian, Middle Eastern, New Mexican), and cooking methods (roasting, simmering, handmade pasta). Three dinners earn an A or A- (Monday's roast chicken, Wednesday's farro salad, Thursday's shakshuka), and even the indulgent nights (cheesesteaks, pancakes) bring genuine joy to the table.\n\nThe main nutritional opportunities are:\n\n1. **Fiber is the #1 gap.** Most dinners fall well below the 8–12g target. The recommended lunches (lentil soup, black bean tacos, quinoa bowls) are specifically designed to close this gap with 6–14g of fiber each.\n\n2. **Omega-3 fatty acids are almost absent.** With no fish this week, walnuts on Wednesday are the only meaningful source. The recommended lunches include salmon and tuna on Monday and Wednesday, plus chia and flaxseed in snacks, to address this.\n\n3. **Vitamin D requires intentional effort.** Eggs help (Tuesday, Thursday, Friday), but food alone won't reach the 600 IU daily target. Consider a family vitamin D supplement, especially in winter.\n\n4. **Saturated fat is elevated.** Cream, butter, cheese, and red meat appear frequently. This isn't cause for alarm in an otherwise varied diet, but prioritizing olive oil, avocado, and lean proteins at lunch will keep the weekly average in a healthy range.\n\n5. **The emotional nutrition is outstanding.** Cooking together (handmade pasta Tuesday), eating at friends' homes (Sunday), breakfast-for-dinner (Friday), and exploring regional food culture (Saturday in Albuquerque) — these aren't on any nutrition label, but they matter deeply for Elsie's relationship with food and for the family's connection to each other.\n\nWith the recommended lunches and snacks, this week covers every essential nutrient for all three family members. Well done.",
   "nutrition_data": {
     "family": {
       "members": [
         {
           "name": "Laura",
-          "age_range": "Adult woman",
+          "role": "Wife",
+          "age_group": "Adult woman",
           "activity_level": "Active",
-          "calorie_target": "2,000-2,200 kcal",
+          "daily_calories": "2,000–2,200 kcal",
           "focus_nutrients": [
             "iron",
             "calcium",
             "folate",
             "fiber"
-          ]
+          ],
+          "daily_targets": {
+            "calories": "2,000–2,200 kcal",
+            "protein": "46–55 g",
+            "iron": "18 mg",
+            "calcium": "1,000 mg",
+            "folate": "400 mcg DFE",
+            "fiber": "25 g",
+            "vitamin_d": "600 IU (15 mcg)",
+            "potassium": "2,600 mg",
+            "magnesium": "320 mg"
+          }
         },
         {
           "name": "Dan",
-          "age_range": "Adult man",
+          "role": "Husband",
+          "age_group": "Adult man",
           "activity_level": "Active",
-          "calorie_target": "2,400-2,800 kcal",
+          "daily_calories": "2,400–2,800 kcal",
           "focus_nutrients": [
             "protein",
             "potassium",
             "magnesium"
-          ]
+          ],
+          "daily_targets": {
+            "calories": "2,400–2,800 kcal",
+            "protein": "56–70 g",
+            "iron": "8 mg",
+            "calcium": "1,000 mg",
+            "folate": "400 mcg DFE",
+            "fiber": "38 g",
+            "vitamin_d": "600 IU (15 mcg)",
+            "potassium": "3,400 mg",
+            "magnesium": "420 mg"
+          }
         },
         {
           "name": "Elsie",
-          "age_range": "8-year-old girl",
-          "activity_level": "Active (swim lessons, YAT)",
-          "calorie_target": "1,600-2,000 kcal",
+          "role": "Daughter",
+          "age_group": "8-year-old girl",
+          "activity_level": "Active",
+          "daily_calories": "1,600–2,000 kcal",
           "focus_nutrients": [
             "calcium",
-            "vitamin D",
+            "vitamin_d",
             "iron",
             "fiber"
-          ]
+          ],
+          "daily_targets": {
+            "calories": "1,600–2,000 kcal",
+            "protein": "19–34 g",
+            "iron": "10 mg",
+            "calcium": "1,000 mg",
+            "folate": "300 mcg DFE",
+            "fiber": "22 g",
+            "vitamin_d": "600 IU (15 mcg)",
+            "potassium": "2,300 mg",
+            "magnesium": "130 mg"
+          }
         }
       ]
     },
     "dinners": [
       {
         "day": "Sunday",
-        "name": "Philly Cheesesteaks",
-        "calories_per_serving": "~650 kcal",
-        "protein_source": "Ribeye steak",
-        "protein_level": "high",
-        "vegetable_content": "minimal",
+        "meal": "Philly Cheesesteaks",
+        "context": "Eaten at a friend's house — portions estimated",
+        "key_ingredients": [
+          "ribeye steak",
+          "provolone cheese",
+          "hoagie rolls",
+          "onions"
+        ],
+        "estimated_nutrition_per_serving": {
+          "calories": 800,
+          "protein_g": 42,
+          "fat_g": 38,
+          "saturated_fat_g": 16,
+          "carbohydrates_g": 48,
+          "fiber_g": 2,
+          "sodium_mg": 1200,
+          "iron_mg": 4.5,
+          "calcium_mg": 280,
+          "potassium_mg": 450,
+          "magnesium_mg": 45,
+          "vitamin_c_mg": 5,
+          "folate_mcg": 50,
+          "vitamin_a_iu": 200,
+          "vitamin_d_iu": 10
+        },
+        "vegetables_servings": 0.5,
         "whole_grains": false,
-        "key_nutrients": [
+        "key_nutrients_present": [
+          "protein",
           "iron",
-          "zinc",
+          "calcium",
           "B12",
-          "protein"
+          "zinc"
+        ],
+        "key_nutrients_missing": [
+          "fiber",
+          "vitamin C",
+          "vitamin A",
+          "folate",
+          "vitamin D"
         ],
         "concerns": [
-          "Low vegetable content",
-          "High saturated fat from cheese and beef",
-          "Refined carb from hoagie roll"
+          "High in sodium (~1,200 mg per sandwich) — that's roughly half a day's limit in one sitting",
+          "High in saturated fat from ribeye and provolone",
+          "Minimal vegetables and no whole grains (white hoagie roll)"
         ],
-        "overall_rating": "moderate"
+        "strengths": [
+          "Excellent source of protein and iron from ribeye — great for Laura and Elsie's iron needs",
+          "Good calcium boost from provolone cheese",
+          "Rich in B12 and zinc from red meat"
+        ],
+        "rating": "C+",
+        "rating_note": "A hearty, protein-rich treat — but it's a comfort food dinner, so balance it with lighter, veggie-packed lunches this day."
       },
       {
         "day": "Monday",
-        "name": "Shakshuka with Feta",
-        "calories_per_serving": "~380 kcal",
-        "protein_source": "Eggs",
-        "protein_level": "moderate",
-        "vegetable_content": "abundant",
+        "meal": "Herb-Roasted Whole Chicken with Root Vegetables & Pan Gravy",
+        "context": "Home-cooked — generous portions with sourdough bread for the gravy",
+        "key_ingredients": [
+          "whole chicken",
+          "carrots",
+          "parsnips",
+          "potatoes",
+          "garlic",
+          "thyme",
+          "rosemary",
+          "butter",
+          "sourdough bread"
+        ],
+        "estimated_nutrition_per_serving": {
+          "calories": 580,
+          "protein_g": 44,
+          "fat_g": 28,
+          "saturated_fat_g": 10,
+          "carbohydrates_g": 35,
+          "fiber_g": 5,
+          "sodium_mg": 650,
+          "iron_mg": 2.8,
+          "calcium_mg": 80,
+          "potassium_mg": 850,
+          "magnesium_mg": 65,
+          "vitamin_c_mg": 12,
+          "folate_mcg": 45,
+          "vitamin_a_iu": 8500,
+          "vitamin_d_iu": 15
+        },
+        "vegetables_servings": 2.0,
         "whole_grains": false,
-        "key_nutrients": [
-          "vitamin A",
-          "vitamin C",
-          "lycopene",
+        "key_nutrients_present": [
           "protein",
-          "calcium (feta)"
+          "vitamin A",
+          "potassium",
+          "B vitamins",
+          "iron",
+          "magnesium"
+        ],
+        "key_nutrients_missing": [
+          "calcium",
+          "fiber (moderate)",
+          "folate",
+          "vitamin D"
         ],
         "concerns": [
-          "Could use a whole grain side",
-          "Sodium from feta"
+          "Butter and chicken skin add saturated fat — consider offering some skinless portions for Elsie",
+          "Sourdough is refined grain (not whole grain)"
         ],
-        "overall_rating": "good"
+        "strengths": [
+          "A beautifully balanced dinner! High protein, excellent potassium from root vegetables, and great vitamin A from carrots",
+          "Parsnips are an underrated source of fiber and folate — love this choice",
+          "The herbs (thyme, rosemary) add antioxidants and anti-inflammatory compounds with zero calories",
+          "Outstanding for Dan's potassium and magnesium needs"
+        ],
+        "rating": "A-",
+        "rating_note": "This is the gold-standard weeknight dinner — nourishing, warming, and well-rounded. The carrots alone deliver a day's worth of vitamin A."
       },
       {
         "day": "Tuesday",
-        "name": "Babo Pasta with Alfredo Sauce",
-        "calories_per_serving": "~580 kcal",
-        "protein_source": "Dairy (Parmigiano, butter)",
-        "protein_level": "moderate",
-        "vegetable_content": "minimal",
+        "meal": "Babo Pasta with Alfredo Sauce (Handmade Spinach Pasta)",
+        "context": "Homemade spinach pasta with rich cream sauce — a luxurious treat",
+        "key_ingredients": [
+          "spinach pasta (egg yolks, spinach)",
+          "heavy cream",
+          "butter",
+          "Parmigiano-Reggiano",
+          "nutmeg"
+        ],
+        "estimated_nutrition_per_serving": {
+          "calories": 650,
+          "protein_g": 22,
+          "fat_g": 35,
+          "saturated_fat_g": 20,
+          "carbohydrates_g": 58,
+          "fiber_g": 3,
+          "sodium_mg": 580,
+          "iron_mg": 3.2,
+          "calcium_mg": 420,
+          "potassium_mg": 320,
+          "magnesium_mg": 55,
+          "vitamin_c_mg": 4,
+          "folate_mcg": 85,
+          "vitamin_a_iu": 2200,
+          "vitamin_d_iu": 25
+        },
+        "vegetables_servings": 0.5,
         "whole_grains": false,
-        "key_nutrients": [
+        "key_nutrients_present": [
           "calcium",
-          "B vitamins",
-          "protein"
+          "iron",
+          "vitamin A",
+          "protein",
+          "vitamin D (from egg yolks)"
+        ],
+        "key_nutrients_missing": [
+          "fiber",
+          "vitamin C",
+          "potassium",
+          "magnesium"
         ],
         "concerns": [
-          "High saturated fat",
-          "Very low vegetable content",
-          "Refined pasta",
-          "Low fiber"
+          "Very high in saturated fat from heavy cream, butter, and cheese (~20g, which is nearly a full day's limit)",
+          "Low in fiber despite the spinach in the pasta (most of the bulk is refined flour)",
+          "Calorie-dense — Elsie's portion should be smaller"
         ],
-        "overall_rating": "moderate"
+        "strengths": [
+          "The spinach pasta adds iron and folate that regular pasta misses — a genuinely smart touch",
+          "Parmigiano-Reggiano is one of the richest food sources of calcium — excellent for Laura and Elsie",
+          "Egg yolks in the pasta provide one of the few dietary sources of vitamin D",
+          "Handmade pasta is a wonderful family activity that gets Elsie engaged with real food"
+        ],
+        "rating": "B-",
+        "rating_note": "Rich and satisfying — the homemade spinach pasta elevates what could be a nutritional blank. Pair with a simple green salad to boost the fiber and vitamins."
       },
       {
         "day": "Wednesday",
-        "name": "Kale Caesar Salad with Crispy Chickpeas",
-        "calories_per_serving": "~420 kcal",
-        "protein_source": "Chickpeas, Parmesan, egg (dressing)",
-        "protein_level": "moderate",
-        "vegetable_content": "abundant",
-        "whole_grains": false,
-        "key_nutrients": [
-          "vitamin K",
-          "vitamin A",
-          "vitamin C",
-          "iron",
+        "meal": "Warm Farro Salad with Roasted Beets, Goat Cheese & Walnuts",
+        "context": "A hearty, nutrient-dense grain bowl — the week's veggie superstar",
+        "key_ingredients": [
+          "farro",
+          "golden beets",
+          "red beets",
+          "goat cheese",
+          "walnuts",
+          "arugula",
+          "dried cranberries",
+          "sherry-maple vinaigrette"
+        ],
+        "estimated_nutrition_per_serving": {
+          "calories": 480,
+          "protein_g": 16,
+          "fat_g": 22,
+          "saturated_fat_g": 6,
+          "carbohydrates_g": 58,
+          "fiber_g": 9,
+          "sodium_mg": 380,
+          "iron_mg": 3.5,
+          "calcium_mg": 180,
+          "potassium_mg": 620,
+          "magnesium_mg": 110,
+          "vitamin_c_mg": 10,
+          "folate_mcg": 160,
+          "vitamin_a_iu": 1800,
+          "vitamin_d_iu": 0
+        },
+        "vegetables_servings": 3.0,
+        "whole_grains": true,
+        "key_nutrients_present": [
           "fiber",
+          "folate",
+          "iron",
+          "magnesium",
+          "potassium",
+          "omega-3 (walnuts)",
           "calcium",
-          "folate"
+          "vitamin A"
+        ],
+        "key_nutrients_missing": [
+          "protein (moderate for Dan)",
+          "vitamin D",
+          "B12"
         ],
         "concerns": [
-          "May need additional protein for Dan's needs"
+          "Protein is lower than other dinners this week — Dan may want a larger portion or a protein-rich snack later",
+          "Dried cranberries add some added sugar — use them as an accent, not a main ingredient"
         ],
-        "overall_rating": "excellent"
+        "strengths": [
+          "This is the nutritional MVP of the week! Farro is an ancient whole grain packed with fiber, magnesium, and iron",
+          "Beets are loaded with folate (excellent for Laura!), potassium, and nitrates that support cardiovascular health",
+          "Walnuts provide the only significant omega-3 fatty acids in this week's dinner lineup",
+          "Arugula adds vitamin K and additional folate — such a smart green choice",
+          "Goat cheese is easier to digest than cow's milk cheese and still provides excellent calcium",
+          "Great magnesium and potassium content for Dan"
+        ],
+        "rating": "A",
+        "rating_note": "If every dinner looked like this, the whole family would be nutritionally invincible. Whole grains, colorful vegetables, healthy fats, and real food — this is how it's done."
       },
       {
         "day": "Thursday",
-        "name": "Mushroom Pappardelle with Fresh Egg Pasta",
-        "calories_per_serving": "~520 kcal",
-        "protein_source": "Eggs (pasta), mushrooms, Parmesan",
-        "protein_level": "moderate",
-        "vegetable_content": "moderate",
+        "meal": "Shakshuka with Za'atar Sourdough Toast",
+        "context": "A warming, Mediterranean-inspired egg dish — simple and nutrient-rich",
+        "key_ingredients": [
+          "eggs",
+          "canned tomatoes",
+          "bell peppers",
+          "onion",
+          "garlic",
+          "cumin",
+          "harissa",
+          "za'atar",
+          "sourdough bread",
+          "feta cheese"
+        ],
+        "estimated_nutrition_per_serving": {
+          "calories": 420,
+          "protein_g": 22,
+          "fat_g": 20,
+          "saturated_fat_g": 7,
+          "carbohydrates_g": 38,
+          "fiber_g": 6,
+          "sodium_mg": 780,
+          "iron_mg": 4.2,
+          "calcium_mg": 220,
+          "potassium_mg": 680,
+          "magnesium_mg": 58,
+          "vitamin_c_mg": 65,
+          "folate_mcg": 90,
+          "vitamin_a_iu": 3500,
+          "vitamin_d_iu": 40
+        },
+        "vegetables_servings": 2.5,
         "whole_grains": false,
-        "key_nutrients": [
-          "B vitamins",
-          "selenium",
-          "vitamin D (mushrooms)",
-          "potassium",
-          "copper"
+        "key_nutrients_present": [
+          "vitamin C",
+          "vitamin A",
+          "iron",
+          "protein",
+          "vitamin D (eggs)",
+          "calcium (feta)",
+          "potassium"
+        ],
+        "key_nutrients_missing": [
+          "fiber (moderate)",
+          "magnesium",
+          "omega-3"
         ],
         "concerns": [
-          "No animal protein beyond eggs",
-          "Rich and buttery"
+          "Sodium is moderate-to-high from canned tomatoes and feta — use no-salt-added tomatoes if possible",
+          "Sourdough is refined grain, but the fermentation does improve mineral absorption"
         ],
-        "overall_rating": "good"
+        "strengths": [
+          "Bell peppers are one of the best sources of vitamin C on the planet — one pepper has 2x the vitamin C of an orange",
+          "Eggs provide one of the few natural sources of vitamin D, plus choline for brain development (great for Elsie!)",
+          "Tomatoes deliver lycopene (cancer-protective), potassium, and vitamin A",
+          "The spices (cumin, za'atar, harissa) add anti-inflammatory benefits and make the dish incredibly flavorful without extra calories",
+          "Excellent iron content from eggs and tomatoes — hits Laura's needs well",
+          "Feta adds calcium with less saturated fat than hard cheeses"
+        ],
+        "rating": "A-",
+        "rating_note": "A nutritional powerhouse hiding in a humble pan. The vitamin C from the peppers dramatically boosts iron absorption from the eggs — that's smart nutrition synergy."
       },
       {
         "day": "Friday",
-        "name": "Baked Bronzino with Roasted Kale",
-        "calories_per_serving": "~450 kcal",
-        "protein_source": "Bronzino (white fish)",
-        "protein_level": "high",
-        "vegetable_content": "abundant",
+        "meal": "Lemon Ricotta Pancakes with Maple Breakfast Sausage",
+        "context": "Breakfast-for-dinner — a fun family tradition",
+        "key_ingredients": [
+          "ricotta cheese",
+          "lemons",
+          "flour",
+          "eggs",
+          "maple syrup",
+          "breakfast sausage (pork)",
+          "butter"
+        ],
+        "estimated_nutrition_per_serving": {
+          "calories": 580,
+          "protein_g": 24,
+          "fat_g": 28,
+          "saturated_fat_g": 12,
+          "carbohydrates_g": 56,
+          "fiber_g": 1,
+          "sodium_mg": 820,
+          "iron_mg": 2.5,
+          "calcium_mg": 250,
+          "potassium_mg": 280,
+          "magnesium_mg": 30,
+          "vitamin_c_mg": 8,
+          "folate_mcg": 40,
+          "vitamin_a_iu": 500,
+          "vitamin_d_iu": 30
+        },
+        "vegetables_servings": 0,
         "whole_grains": false,
-        "key_nutrients": [
-          "omega-3",
-          "vitamin D",
-          "vitamin K",
-          "iron (kale)",
-          "fiber (beans)",
-          "protein"
+        "key_nutrients_present": [
+          "protein",
+          "calcium (ricotta)",
+          "vitamin D (eggs)",
+          "B12 (sausage)"
+        ],
+        "key_nutrients_missing": [
+          "fiber",
+          "vitamin C",
+          "vitamin A",
+          "folate",
+          "potassium",
+          "magnesium",
+          "iron (low)"
         ],
         "concerns": [
-          "Light — may need a side for Dan's calorie needs"
+          "Zero vegetable servings — the lowest of the week",
+          "Very low fiber (1g) — refined flour, no whole grains",
+          "High in added sugars from maple syrup",
+          "Processed breakfast sausage adds sodium and saturated fat"
         ],
-        "overall_rating": "excellent"
+        "strengths": [
+          "Ricotta is an excellent source of calcium and protein — great for all three family members",
+          "Eggs in the batter provide vitamin D and choline",
+          "Lemon zest adds vitamin C and brightens the flavor naturally",
+          "Breakfast-for-dinner is a joy moment — Elsie will love this, and family happiness is nutrition too!"
+        ],
+        "rating": "C",
+        "rating_note": "A delightful treat that the whole family will love, but nutritionally it's the lightest dinner of the week. Make sure lunch and snacks this day are packed with vegetables, fiber, and iron."
       },
       {
         "day": "Saturday",
-        "name": "Christmas Enchiladas",
-        "calories_per_serving": "~550 kcal",
-        "protein_source": "Chicken",
-        "protein_level": "high",
-        "vegetable_content": "moderate",
-        "whole_grains": false,
-        "key_nutrients": [
+        "meal": "Christmas Enchiladas (Eaten Out in Albuquerque)",
+        "context": "Restaurant meal — portions estimated, featuring traditional New Mexico red and green chile",
+        "key_ingredients": [
+          "blue corn tortillas",
+          "red chile sauce",
+          "green chile sauce",
+          "cheese (cheddar/Jack blend)",
+          "chicken or beef",
+          "fried egg on top"
+        ],
+        "estimated_nutrition_per_serving": {
+          "calories": 620,
+          "protein_g": 34,
+          "fat_g": 30,
+          "saturated_fat_g": 14,
+          "carbohydrates_g": 50,
+          "fiber_g": 6,
+          "sodium_mg": 1100,
+          "iron_mg": 3.8,
+          "calcium_mg": 350,
+          "potassium_mg": 520,
+          "magnesium_mg": 70,
+          "vitamin_c_mg": 25,
+          "folate_mcg": 60,
+          "vitamin_a_iu": 2800,
+          "vitamin_d_iu": 20
+        },
+        "vegetables_servings": 1.5,
+        "whole_grains": true,
+        "key_nutrients_present": [
           "protein",
+          "calcium",
+          "iron",
           "vitamin A",
-          "vitamin C (tomatillo)",
-          "calcium (cheese)"
+          "vitamin C (from chile peppers)",
+          "fiber (blue corn)"
+        ],
+        "key_nutrients_missing": [
+          "folate",
+          "omega-3",
+          "vitamin D (low)",
+          "magnesium (moderate)"
         ],
         "concerns": [
-          "Sodium from cheese and sauces",
-          "Saturated fat from cheese and crema"
+          "Restaurant portions are larger and higher in sodium than home-cooked — expect 1,100+ mg sodium",
+          "Fried egg adds extra saturated fat, though it also adds vitamin D and protein",
+          "Cheese is the largest calorie contributor — restaurant portions tend to be generous"
         ],
-        "overall_rating": "good"
+        "strengths": [
+          "Blue corn tortillas are a genuine whole grain with more protein, fiber, and antioxidants than white/yellow corn",
+          "New Mexico chile peppers (both red and green) are loaded with vitamin C and vitamin A",
+          "The combination of meat/egg + cheese delivers strong protein and calcium",
+          "This is a culturally rich meal — teaching Elsie about regional food traditions is nourishment for the soul"
+        ],
+        "rating": "B",
+        "rating_note": "A solid restaurant dinner with real nutritional merit, thanks to the blue corn and chile peppers. The sodium is the main watch-out — drink plenty of water and keep lunch light on salt."
       }
     ],
     "weekly_assessment": {
       "protein_diversity": {
-        "sources_found": [
-          "beef (ribeye)",
-          "eggs",
-          "dairy (Parmigiano/butter)",
-          "chickpeas",
-          "mushrooms",
-          "white fish (bronzino)",
-          "chicken"
+        "sources_this_week": [
+          "ribeye beef",
+          "whole chicken",
+          "eggs (×3 dinners)",
+          "pork sausage",
+          "goat cheese",
+          "Parmigiano-Reggiano",
+          "ricotta",
+          "feta",
+          "chicken/beef (enchiladas)",
+          "walnuts"
         ],
-        "rating": "excellent",
-        "notes": "Outstanding protein variety — 5 distinct animal sources plus plant-based (chickpeas). Red meat, fish, poultry, eggs, and legumes all represented. Well distributed across the week."
+        "assessment": "Excellent protein diversity! The family is getting protein from red meat, poultry, eggs, dairy, nuts, and legumes across the week. Eggs appear in three dinners (Tuesday, Thursday, Friday), which is fantastic for vitamin D and choline. Red meat appears only once (Sunday), which is a healthy balance.",
+        "grade": "A"
       },
       "vegetable_coverage": {
-        "servings_per_dinner_avg": 1.7,
-        "color_diversity": [
-          "dark greens (kale x2)",
-          "red/orange (tomatoes, peppers, tomatillos)",
-          "alliums (onions, garlic)"
+        "high_veggie_days": [
+          "Monday (carrots, parsnips, potatoes)",
+          "Wednesday (beets, arugula)",
+          "Thursday (tomatoes, bell peppers, onion)"
         ],
-        "rating": "moderate",
-        "notes": "Three dinners have abundant vegetables (shakshuka, kale Caesar, bronzino+kale), but Sunday and Tuesday are very low. The two kale nights help significantly. Lunches need to carry vegetables on low-veg days."
+        "low_veggie_days": [
+          "Sunday (onions only)",
+          "Tuesday (spinach in pasta only)",
+          "Friday (none)"
+        ],
+        "assessment": "Three dinners deliver strong vegetable servings, but three others fall short. Friday's breakfast-for-dinner has zero vegetables, and Sunday's cheesesteaks offer only sautéed onions. The weekly average is about 1.4 servings of vegetables per dinner — ideally, aim for 2+ per dinner. The variety is good when vegetables do appear: root vegetables, leafy greens, nightshades, and beets cover many color groups.",
+        "grade": "B-"
       },
-      "nutrient_gaps": [
-        {
-          "nutrient": "whole grains",
-          "severity": "moderate",
-          "detail": "Zero dinners include whole grains — all starches are refined (hoagie roll, white pasta x2, corn tortillas). Lunches and snacks must compensate."
+      "nutrient_gaps": {
+        "fiber": {
+          "status": "Significant gap",
+          "detail": "Only Wednesday's farro salad delivers truly strong fiber (9g). Most dinners provide 1–6g fiber, well below the 8–12g target per dinner. Weekly dinner fiber averages about 4.6g/dinner. Lunches and snacks MUST fill this gap.",
+          "priority": "HIGH"
         },
-        {
-          "nutrient": "fiber",
-          "severity": "moderate",
-          "detail": "Only Wednesday (chickpeas, kale) and Friday (beans, kale) provide meaningful dinner fiber. Other nights are refined-carb heavy."
+        "vitamin_d": {
+          "status": "Consistent gap",
+          "detail": "Vitamin D is the hardest nutrient to get from food alone. Eggs (Thursday, Friday, Tuesday) help, but the family likely needs supplementation, especially in winter. Total dinner vitamin D averages about 20 IU/dinner — the target is 600 IU/day.",
+          "priority": "HIGH"
         },
-        {
-          "nutrient": "fruit",
-          "severity": "moderate",
-          "detail": "No fruit appears at any dinner — entirely normal, but lunches and snacks must provide 2-3 daily fruit servings."
+        "omega_3": {
+          "status": "Notable gap",
+          "detail": "The only meaningful omega-3 source this week is walnuts on Wednesday. No fish or seafood appears in any dinner. This is the most consistent gap in the weekly plan.",
+          "priority": "HIGH"
         },
-        {
-          "nutrient": "vitamin D",
-          "severity": "mild",
-          "detail": "Friday's bronzino and Thursday's mushrooms provide some vitamin D, but February sunshine is limited. Consider supplementation."
+        "folate": {
+          "status": "Moderate gap",
+          "detail": "Wednesday's beets and arugula are excellent folate sources (160 mcg), and the spinach pasta on Tuesday helps (85 mcg). But most other dinners fall well short. Laura's 400 mcg daily target requires strong folate from lunches.",
+          "priority": "MEDIUM"
+        },
+        "magnesium": {
+          "status": "Moderate gap",
+          "detail": "Wednesday's farro salad is the only dinner with substantial magnesium (110 mg). Dan's 420 mg daily target is hard to hit from dinners alone — nuts, seeds, and whole grains at lunch are essential.",
+          "priority": "MEDIUM"
         }
-      ],
-      "excesses": [
-        {
-          "item": "saturated fat",
-          "severity": "mild",
-          "detail": "Sunday (beef+cheese), Tuesday (butter+Parmigiano), and Saturday (cheese+crema) are all rich. Balanced by lighter Wed-Fri dinners."
+      },
+      "excesses": {
+        "saturated_fat": {
+          "status": "Over target most days",
+          "detail": "Five of seven dinners exceed 10g saturated fat per serving (Sunday 16g, Tuesday 20g, Saturday 14g, Friday 12g, Monday 10g). The American Heart Association recommends no more than 13g/day for a 2,000-calorie diet. This week leans heavily on butter, cream, and cheese — delicious, but the family should aim for lighter lunches with olive oil, avocado, and lean proteins.",
+          "priority": "MEDIUM"
         },
-        {
-          "item": "refined carbohydrates",
-          "severity": "moderate",
-          "detail": "Every dinner with a starch uses refined carbs. Not a crisis, but whole grain lunches would help balance blood sugar and fiber."
+        "sodium": {
+          "status": "Elevated on several days",
+          "detail": "Sunday (1,200 mg), Friday (820 mg), Thursday (780 mg), and Saturday (1,100 mg) all contribute significant sodium from a single meal. The AHA recommends no more than 2,300 mg/day total. On these days, lunches and snacks should be very low in sodium.",
+          "priority": "MEDIUM"
         }
-      ],
+      },
       "fiber_assessment": {
-        "rating": "low-moderate",
-        "notes": "Wednesday and Friday are fiber-rich; other nights are low. Weekly dinner fiber averages ~8g/dinner — below ideal. Whole grain lunches and fruit snacks are essential."
+        "weekly_dinner_average_g": 4.6,
+        "best_day": "Wednesday — Farro Salad (9g)",
+        "worst_day": "Friday — Lemon Ricotta Pancakes (1g)",
+        "recommendation": "Fiber is the biggest nutritional gap this week at dinner. Target 10–15g of fiber at lunch every day through beans, lentils, whole grains, fruits, and raw vegetables. Add chia seeds to Elsie's yogurt snacks for a painless fiber boost."
       },
       "omega3_assessment": {
-        "rating": "good",
-        "notes": "Friday's bronzino provides omega-3 fatty acids. One fish dinner per week meets minimum recommendations. Add walnuts or flaxseed at breakfast for extra coverage."
+        "sources_this_week": [
+          "walnuts (Wednesday only)"
+        ],
+        "fish_servings": 0,
+        "recommendation": "No fish or seafood this week leaves a real omega-3 gap. Recommended fixes: (1) Add a tuna or salmon lunch 2× this week, (2) Sprinkle ground flaxseed on oatmeal or yogurt, (3) Consider fish oil supplements for the whole family. The American Heart Association recommends at least 2 fish meals per week."
       },
-      "overall_dinner_grade": "B+",
-      "overall_summary": "This is a genuinely well-balanced dinner week with standout protein variety and some excellent nutrient-dense nights (Wednesday's kale Caesar and Friday's bronzino are nutritional powerhouses). The gaps — whole grains, fiber, and fruit — are entirely normal for dinner menus and easily filled through lunches and snacks. The heavier nights (Sunday, Tuesday) are balanced by lighter, vegetable-forward nights midweek. Valentine's week comfort food without nutritional guilt."
+      "overall_dinner_grade": "B",
+      "overall_summary": "This is a genuinely enjoyable and varied week of dinners — the family is eating real food, cooking at home most nights, and exploring cuisines from Philly to New Mexico to the Mediterranean. The protein diversity is outstanding, and three dinners (Monday's roast chicken, Wednesday's farro salad, Thursday's shakshuka) are genuinely excellent nutritionally. The main opportunities are: (1) boosting fiber at every meal, (2) adding fish or omega-3 sources, (3) reducing saturated fat on the heavier days, and (4) ensuring vitamin D through supplements or fortified foods. The two eat-out meals (Sunday, Saturday) are reasonable indulgences — no guilt needed. Overall, this is a family that cares about food quality and variety, and with a few strategic lunches and snacks, the week will be nutritionally complete."
     },
     "recommended_lunches": [
       {
-        "name": "Whole Grain Turkey & Avocado Wrap",
-        "description": "Whole wheat tortilla with sliced turkey, mashed avocado, shredded carrots, spinach, and a squeeze of lemon. Roll tightly and slice in half.",
-        "prep_time": "8 min",
-        "packable": true,
-        "kid_friendly": true,
-        "gaps_addressed": [
-          "whole grains",
-          "fiber",
-          "vegetables"
-        ],
-        "key_nutrients": [
-          "fiber",
-          "protein",
-          "vitamin A",
-          "folate",
-          "healthy fats"
-        ],
-        "kid_notes": "Elsie can help roll her own. Skip the spinach if she resists — the carrots and avocado carry the nutrition."
+        "day": "Sunday",
+        "meal": "Mediterranean Lentil Soup with Whole-Wheat Pita & Hummus",
+        "targets": "Fiber (14g), folate, magnesium, iron — compensates for cheesesteak's nutritional gaps",
+        "why": "Lentils are a fiber and folate powerhouse. This lunch pre-loads the nutrients that Sunday's cheesesteak dinner completely misses. The whole-wheat pita adds extra fiber, and hummus provides magnesium and healthy fats.",
+        "estimated_nutrition": {
+          "calories": 450,
+          "protein_g": 22,
+          "fiber_g": 14,
+          "iron_mg": 5.0,
+          "folate_mcg": 180,
+          "magnesium_mg": 80,
+          "potassium_mg": 600,
+          "calcium_mg": 80
+        }
       },
       {
-        "name": "Lentil Soup with Crusty Bread",
-        "description": "Red lentil soup with carrots, cumin, and lemon — make a big batch Sunday and portion for the week. Serve with a slice of whole grain bread.",
-        "prep_time": "30 min (batch), 3 min to reheat",
-        "packable": true,
-        "kid_friendly": true,
-        "gaps_addressed": [
-          "fiber",
-          "whole grains",
-          "plant protein",
-          "iron"
-        ],
-        "key_nutrients": [
-          "fiber",
-          "iron",
-          "folate",
-          "protein",
-          "potassium"
-        ],
-        "kid_notes": "Red lentils dissolve into a smooth, creamy soup that kids love. It doesn't look 'beany' — big win."
+        "day": "Monday",
+        "meal": "Salmon & Avocado Brown Rice Bowl with Edamame",
+        "targets": "Omega-3, fiber (8g), magnesium, calcium — adds the nutrients Monday's dinner lacks",
+        "why": "This is the week's best opportunity to get omega-3 fatty acids. Canned or leftover salmon is affordable and easy. Edamame adds calcium, fiber, and plant protein. Brown rice provides the whole grains that sourdough doesn't.",
+        "estimated_nutrition": {
+          "calories": 520,
+          "protein_g": 32,
+          "fiber_g": 8,
+          "iron_mg": 3.0,
+          "folate_mcg": 150,
+          "magnesium_mg": 100,
+          "potassium_mg": 800,
+          "calcium_mg": 120,
+          "omega_3_mg": 1500
+        }
       },
       {
-        "name": "Mediterranean Grain Bowl",
-        "description": "Quinoa or farro with cucumber, cherry tomatoes, olives, feta, and a lemon-olive oil dressing. Add rotisserie chicken for Dan's portion.",
-        "prep_time": "15 min (grain cooks while you prep)",
-        "packable": true,
-        "kid_friendly": true,
-        "gaps_addressed": [
-          "whole grains",
-          "fiber",
-          "vegetables"
-        ],
-        "key_nutrients": [
-          "fiber",
-          "protein",
-          "calcium (feta)",
-          "iron (quinoa)",
-          "vitamin C"
-        ],
-        "kid_notes": "Let Elsie build her own with toppings she likes. Feta and olives are usually kid-winners."
+        "day": "Tuesday",
+        "meal": "Black Bean & Roasted Sweet Potato Tacos with Lime Slaw",
+        "targets": "Fiber (12g), vitamin C, potassium, folate — balances the heavy Alfredo dinner",
+        "why": "Black beans are one of the best fiber sources available (15g per cup). Sweet potatoes add beta-carotene and potassium. The lime slaw provides vitamin C and a fresh crunch that contrasts beautifully with Tuesday's rich pasta dinner.",
+        "estimated_nutrition": {
+          "calories": 420,
+          "protein_g": 16,
+          "fiber_g": 12,
+          "iron_mg": 3.5,
+          "folate_mcg": 200,
+          "magnesium_mg": 90,
+          "potassium_mg": 750,
+          "calcium_mg": 100,
+          "vitamin_c_mg": 35
+        }
       },
       {
-        "name": "PB&J on Whole Wheat + Fruit Side",
-        "description": "Classic peanut butter and strawberry jam on whole wheat bread with a side of apple slices or clementines.",
-        "prep_time": "3 min",
-        "packable": true,
-        "kid_friendly": true,
-        "gaps_addressed": [
-          "whole grains",
-          "fruit",
-          "fiber"
-        ],
-        "key_nutrients": [
-          "fiber",
-          "protein",
-          "healthy fats",
-          "vitamin C",
-          "potassium"
-        ],
-        "kid_notes": "The eternal school lunch. Reliable, portable, and nutritionally solid with whole wheat."
+        "day": "Wednesday",
+        "meal": "Tuna Salad Lettuce Wraps with Whole-Grain Crackers & Apple Slices",
+        "targets": "Omega-3 (1,200mg), protein (for Dan), vitamin D — complements the grain bowl dinner",
+        "why": "Wednesday's dinner is the week's healthiest but lower in protein. This tuna lunch adds omega-3s (the week's biggest gap), extra protein for Dan, and vitamin D from the fish. Apple slices add fiber and sweetness Elsie will love.",
+        "estimated_nutrition": {
+          "calories": 380,
+          "protein_g": 28,
+          "fiber_g": 6,
+          "iron_mg": 2.0,
+          "folate_mcg": 40,
+          "magnesium_mg": 45,
+          "potassium_mg": 450,
+          "calcium_mg": 60,
+          "omega_3_mg": 1200,
+          "vitamin_d_iu": 150
+        }
       },
       {
-        "name": "Chicken Caesar Salad Wrap (Leftover Wednesday Dressing)",
-        "description": "Use leftover Caesar dressing from Wednesday. Toss with romaine, grilled chicken strips, and Parmesan. Wrap in a whole wheat tortilla.",
-        "prep_time": "10 min",
-        "packable": true,
-        "kid_friendly": true,
-        "gaps_addressed": [
-          "whole grains",
-          "vegetables",
-          "protein"
-        ],
-        "key_nutrients": [
-          "protein",
-          "calcium",
-          "vitamin K",
-          "fiber"
-        ],
-        "kid_notes": "Kids who eat Caesar salad at dinner will eat it in a wrap at lunch. Smart leftover play."
+        "day": "Thursday",
+        "meal": "Quinoa Bowl with Chickpeas, Roasted Broccoli & Tahini Dressing",
+        "targets": "Fiber (10g), calcium (tahini), magnesium, protein — rounds out a strong dinner",
+        "why": "Thursday's shakshuka is already great, so this lunch fills the remaining daily gaps. Tahini is a hidden champion for calcium and magnesium. Broccoli adds fiber, vitamin C, and folate. Quinoa is a complete protein — perfect for Dan.",
+        "estimated_nutrition": {
+          "calories": 480,
+          "protein_g": 20,
+          "fiber_g": 10,
+          "iron_mg": 4.0,
+          "folate_mcg": 120,
+          "magnesium_mg": 110,
+          "potassium_mg": 650,
+          "calcium_mg": 200
+        }
       },
       {
-        "name": "Hummus & Veggie Plate with Pita",
-        "description": "Hummus with carrot sticks, cucumber rounds, bell pepper strips, and whole wheat pita triangles. Add olives and cherry tomatoes for adults.",
-        "prep_time": "5 min",
-        "packable": true,
-        "kid_friendly": true,
-        "gaps_addressed": [
-          "fiber",
-          "vegetables",
-          "plant protein"
-        ],
-        "key_nutrients": [
-          "fiber",
-          "iron",
-          "folate",
-          "vitamin C",
-          "healthy fats"
-        ],
-        "kid_notes": "Most 8-year-olds love dipping. Hummus is a stealth nutrition vehicle — chickpeas, tahini, lemon."
+        "day": "Friday",
+        "meal": "Turkey & Veggie Wrap with Spinach, Tomato, Avocado & White Bean Spread",
+        "targets": "Fiber (9g), vitamin A, iron, folate, vegetables — critical since dinner has zero veggies",
+        "why": "Friday's dinner is the week's most nutritionally sparse, so lunch must carry extra weight. The whole-wheat wrap, white beans, and vegetables deliver the fiber, iron, and vitamins that pancakes and sausage completely lack. Avocado adds potassium and healthy fats.",
+        "estimated_nutrition": {
+          "calories": 460,
+          "protein_g": 26,
+          "fiber_g": 9,
+          "iron_mg": 4.5,
+          "folate_mcg": 160,
+          "magnesium_mg": 70,
+          "potassium_mg": 700,
+          "calcium_mg": 100,
+          "vitamin_a_iu": 3000,
+          "vitamin_c_mg": 20
+        }
+      },
+      {
+        "day": "Saturday",
+        "meal": "Albuquerque Grab: Fresh Fruit & Yogurt Parfait with Granola from a Local Café",
+        "targets": "Calcium (300mg), vitamin D, fiber (6g), probiotics — light lunch before a big dinner out",
+        "why": "Since Saturday's dinner is a restaurant meal with higher sodium and calories, keep lunch light but nutrient-dense. Greek yogurt delivers calcium, protein, and probiotics. Granola adds fiber and magnesium. Fresh berries provide vitamin C and antioxidants.",
+        "estimated_nutrition": {
+          "calories": 350,
+          "protein_g": 18,
+          "fiber_g": 6,
+          "iron_mg": 1.5,
+          "folate_mcg": 30,
+          "magnesium_mg": 50,
+          "potassium_mg": 400,
+          "calcium_mg": 300,
+          "vitamin_d_iu": 80
+        }
       }
     ],
     "recommended_snacks": [
       {
-        "name": "Apple Slices with Almond Butter",
-        "description": "Sliced Honeycrisp apple (use leftover apples from the Brussels sprout slaw) with 2 tbsp almond butter.",
-        "prep_time": "3 min",
-        "time_of_day": "afternoon",
-        "kid_friendly": true,
-        "gaps_addressed": [
-          "fruit",
-          "healthy fats",
-          "fiber"
-        ],
-        "key_nutrients": [
-          "fiber",
-          "vitamin C",
-          "healthy fats",
-          "magnesium"
-        ]
+        "day": "Sunday",
+        "snack": "Greek Yogurt with Chia Seeds & Blueberries",
+        "targets": "Calcium (250mg), fiber (5g), omega-3 (from chia), vitamin D (fortified yogurt)",
+        "why": "After a cheesesteak dinner, the family needs calcium, fiber, and omega-3 — this snack delivers all three. Elsie will love the blueberries, and chia seeds are a sneaky fiber and omega-3 booster.",
+        "estimated_nutrition": {
+          "calories": 200,
+          "protein_g": 15,
+          "fiber_g": 5,
+          "calcium_mg": 250,
+          "omega_3_mg": 500,
+          "vitamin_d_iu": 60
+        }
       },
       {
-        "name": "Greek Yogurt with Honey and Walnuts",
-        "description": "Plain Greek yogurt with a drizzle of honey and a handful of toasted walnuts (save some from the pappardelle elevation).",
-        "prep_time": "2 min",
-        "time_of_day": "morning or afternoon",
-        "kid_friendly": true,
-        "gaps_addressed": [
-          "calcium",
-          "protein",
-          "healthy fats"
-        ],
-        "key_nutrients": [
-          "calcium",
-          "protein",
-          "probiotics",
-          "omega-3 (walnuts)"
-        ]
+        "day": "Monday",
+        "snack": "Apple Slices with Almond Butter & a Sprinkle of Flaxseed",
+        "targets": "Fiber (5g), magnesium (80mg), omega-3 (flaxseed), vitamin E",
+        "why": "Almond butter is one of the best snack sources of magnesium (Dan's focus nutrient). Flaxseed adds omega-3 without any fishy taste. Apples are a great fiber vehicle that Elsie can eat anywhere.",
+        "estimated_nutrition": {
+          "calories": 250,
+          "protein_g": 7,
+          "fiber_g": 5,
+          "magnesium_mg": 80,
+          "omega_3_mg": 700,
+          "potassium_mg": 300
+        }
       },
       {
-        "name": "Clementines (No Prep Required)",
-        "description": "2-3 clementines. That's it. Portable, mess-free, and bursting with vitamin C.",
-        "prep_time": "0 min",
-        "time_of_day": "any",
-        "kid_friendly": true,
-        "gaps_addressed": [
-          "fruit",
-          "vitamin C"
-        ],
-        "key_nutrients": [
-          "vitamin C",
-          "fiber",
-          "folate"
-        ]
+        "day": "Tuesday",
+        "snack": "Carrot & Cucumber Sticks with White Bean Dip",
+        "targets": "Fiber (4g), vitamin A, folate, iron — light counterbalance to a rich cream pasta dinner",
+        "why": "Tuesday's dinner is the heaviest of the week (cream, butter, cheese), so a light, crunchy, fiber-rich snack keeps the day in balance. White bean dip adds iron and folate — both priority nutrients for Laura.",
+        "estimated_nutrition": {
+          "calories": 150,
+          "protein_g": 6,
+          "fiber_g": 4,
+          "iron_mg": 2.0,
+          "folate_mcg": 60,
+          "vitamin_a_iu": 5000,
+          "vitamin_c_mg": 10
+        }
       },
       {
-        "name": "String Cheese + Whole Grain Crackers",
-        "description": "2 string cheese sticks with a handful of whole grain crackers. Zero thought required.",
-        "prep_time": "0 min",
-        "time_of_day": "afternoon",
-        "kid_friendly": true,
-        "gaps_addressed": [
-          "calcium",
-          "whole grains"
-        ],
-        "key_nutrients": [
-          "calcium",
-          "protein",
-          "fiber"
-        ]
+        "day": "Wednesday",
+        "snack": "Trail Mix: Walnuts, Pumpkin Seeds, Dark Chocolate Chips & Dried Apricots",
+        "targets": "Magnesium (100mg), iron (3mg), omega-3, potassium — extends Wednesday's great nutrition",
+        "why": "Wednesday's dinner is already the week's best, so this snack doubles down on its strengths. Pumpkin seeds are a magnesium and iron champion. Dark chocolate adds flavonoids and magnesium. A portable snack Dan can take to work.",
+        "estimated_nutrition": {
+          "calories": 280,
+          "protein_g": 8,
+          "fiber_g": 4,
+          "iron_mg": 3.0,
+          "magnesium_mg": 100,
+          "omega_3_mg": 400,
+          "potassium_mg": 350
+        }
       },
       {
-        "name": "Trail Mix (DIY)",
-        "description": "Mix almonds, dried cranberries (leftover from salad), dark chocolate chips, and pumpkin seeds (leftover from enchilada garnish). Bag in portions.",
-        "prep_time": "5 min for the week",
-        "time_of_day": "any",
-        "kid_friendly": true,
-        "gaps_addressed": [
-          "iron",
-          "magnesium",
-          "healthy fats"
-        ],
-        "key_nutrients": [
-          "iron",
-          "magnesium",
-          "healthy fats",
-          "fiber"
-        ]
+        "day": "Thursday",
+        "snack": "Banana with a Handful of Cashews",
+        "targets": "Potassium (450mg), magnesium (75mg) — quick, easy, travel-friendly",
+        "why": "Bananas are potassium superstars and cashews deliver magnesium and copper. This is a perfect after-school snack for Elsie and a quick energy boost for Dan and Laura.",
+        "estimated_nutrition": {
+          "calories": 260,
+          "protein_g": 6,
+          "fiber_g": 4,
+          "potassium_mg": 450,
+          "magnesium_mg": 75,
+          "calcium_mg": 20
+        }
       },
       {
-        "name": "Banana with Peanut Butter",
-        "description": "One banana, halved lengthwise, spread with peanut butter. Can freeze for a treat.",
-        "prep_time": "2 min",
-        "time_of_day": "afternoon",
-        "kid_friendly": true,
-        "gaps_addressed": [
-          "fruit",
-          "potassium",
-          "healthy fats"
-        ],
-        "key_nutrients": [
-          "potassium",
-          "fiber",
-          "protein",
-          "B6"
-        ]
+        "day": "Friday",
+        "snack": "Fortified Orange Juice & Whole-Grain Toast with Peanut Butter",
+        "targets": "Vitamin D (100 IU), vitamin C (60mg), calcium (150mg), fiber (4g) — critical since dinner is nutrient-light",
+        "why": "Friday's dinner is the weakest nutritionally, so this snack needs to pull serious weight. Fortified OJ delivers vitamin C, calcium, and vitamin D in one glass. Whole-grain toast with PB adds fiber, magnesium, and protein. An afternoon snack that fills every gap the pancake dinner leaves.",
+        "estimated_nutrition": {
+          "calories": 320,
+          "protein_g": 10,
+          "fiber_g": 4,
+          "vitamin_c_mg": 60,
+          "calcium_mg": 150,
+          "vitamin_d_iu": 100,
+          "magnesium_mg": 50,
+          "iron_mg": 1.5
+        }
       },
       {
-        "name": "Pomegranate Seeds (Valentine's Snack)",
-        "description": "A bowl of fresh pomegranate seeds — ruby-red for Valentine's week. Buy a container of pre-seeded arils to save time.",
-        "prep_time": "0 min",
-        "time_of_day": "any",
-        "kid_friendly": true,
-        "gaps_addressed": [
-          "fruit",
-          "antioxidants",
-          "fiber"
-        ],
-        "key_nutrients": [
-          "vitamin C",
-          "vitamin K",
-          "folate",
-          "fiber",
-          "antioxidants"
-        ]
+        "day": "Saturday",
+        "snack": "Cheese Quesadilla on Whole-Wheat Tortilla with Salsa (Albuquerque hotel or airport snack)",
+        "targets": "Calcium (200mg), fiber (3g), vitamin C (from salsa) — practical travel snack before dinner out",
+        "why": "When traveling, grab what's available but make it count. A simple cheese quesadilla on a whole-wheat tortilla gives calcium and fiber. Fresh salsa adds vitamin C. This is a realistic snack for a family on the go in Albuquerque.",
+        "estimated_nutrition": {
+          "calories": 280,
+          "protein_g": 12,
+          "fiber_g": 3,
+          "calcium_mg": 200,
+          "vitamin_c_mg": 10,
+          "iron_mg": 1.5
+        }
       }
     ],
-    "weekly_nutrition_summary": "With these lunches and snacks supplementing the dinner menu, the family achieves solid coverage across all major nutrient categories. Whole grain gaps are filled by lunch wraps, pita, and crackers. Fruit intake jumps from zero (dinner-only) to 2-3 daily servings through snacks and lunch sides. Calcium coverage improves significantly with Greek yogurt, string cheese, and feta at lunch. The one remaining consideration is vitamin D — February in Virginia means limited sun exposure, and only two dinners (bronzino, mushrooms) provide meaningful vitamin D. A daily supplement of 600-1000 IU for all family members is a smart winter insurance policy.",
+    "weekly_nutrition_summary": "This family eats well — really well. The week features an impressive variety of proteins (beef, chicken, eggs, pork, dairy, nuts), cuisines (American, Italian, Middle Eastern, New Mexican), and cooking methods (roasting, simmering, handmade pasta). Three dinners earn an A or A- (Monday's roast chicken, Wednesday's farro salad, Thursday's shakshuka), and even the indulgent nights (cheesesteaks, pancakes) bring genuine joy to the table.\n\nThe main nutritional opportunities are:\n\n1. **Fiber is the #1 gap.** Most dinners fall well below the 8–12g target. The recommended lunches (lentil soup, black bean tacos, quinoa bowls) are specifically designed to close this gap with 6–14g of fiber each.\n\n2. **Omega-3 fatty acids are almost absent.** With no fish this week, walnuts on Wednesday are the only meaningful source. The recommended lunches include salmon and tuna on Monday and Wednesday, plus chia and flaxseed in snacks, to address this.\n\n3. **Vitamin D requires intentional effort.** Eggs help (Tuesday, Thursday, Friday), but food alone won't reach the 600 IU daily target. Consider a family vitamin D supplement, especially in winter.\n\n4. **Saturated fat is elevated.** Cream, butter, cheese, and red meat appear frequently. This isn't cause for alarm in an otherwise varied diet, but prioritizing olive oil, avocado, and lean proteins at lunch will keep the weekly average in a healthy range.\n\n5. **The emotional nutrition is outstanding.** Cooking together (handmade pasta Tuesday), eating at friends' homes (Sunday), breakfast-for-dinner (Friday), and exploring regional food culture (Saturday in Albuquerque) — these aren't on any nutrition label, but they matter deeply for Elsie's relationship with food and for the family's connection to each other.\n\nWith the recommended lunches and snacks, this week covers every essential nutrient for all three family members. Well done.",
     "special_notes": [
-      "Consider a vitamin D supplement (600-1000 IU) for all family members during February — limited sunshine and indoor time make it hard to meet needs through food alone.",
-      "Elsie's swim lessons and YAT mean she's burning extra calories Tuesday and Friday — make sure she has a hearty after-school snack those days (trail mix + string cheese, or banana with PB).",
-      "Dan's Thursday potluck lunch will be heavy — the lighter mushroom pappardelle dinner is a good balance. He may want to go easy on snacks that afternoon.",
-      "The grocery list already includes walnuts, pecans, and chickpeas — repurpose leftovers into snacks to minimize waste and extra shopping."
-    ]
+      "Vitamin D Supplement Recommendation: Consider a daily vitamin D supplement for the whole family (600 IU for adults, 600 IU for Elsie). Winter sunlight in Reston, VA is insufficient for adequate vitamin D synthesis, and even with eggs appearing in three dinners, food sources alone won't bridge the gap.",
+      "Iron Absorption Tip: Laura's iron needs (18 mg/day) are the highest in the family. Pair iron-rich foods with vitamin C to boost absorption — Thursday's shakshuka does this perfectly (eggs + bell peppers). At lunch, squeeze lemon on lentil soup (Sunday) and add tomatoes to bean dishes.",
+      "Elsie's Fiber Strategy: At 8 years old, Elsie needs 22g of fiber daily but may resist high-fiber foods. Sneak it in: chia seeds in yogurt (Sunday), almond butter on apple slices (Monday), and smoothies with spinach and banana. Make it fun, not forced.",
+      "Hydration on High-Sodium Days: Sunday (cheesesteaks, ~1,200mg sodium) and Saturday (enchiladas, ~1,100mg sodium) are the highest-sodium dinners. Encourage extra water on these days — at least 8 glasses for Dan and Laura, 5–6 for Elsie.",
+      "Saturday Travel Nutrition: Eating out in Albuquerque means less control over portions and ingredients. The recommended light lunch (yogurt parfait) and practical snack (quesadilla) keep the day nutritionally grounded without requiring a packed cooler.",
+      "Handmade Pasta as Family Nutrition Education: Tuesday's handmade spinach pasta is a brilliant opportunity to teach Elsie about where food comes from. Let her crack the eggs, knead the dough, and see the spinach turn the pasta green. Kids who cook are more likely to eat vegetables — this is long-term nutritional investment."
+    ],
+    "nutrient_importance": {
+      "protein": {
+        "why": "Protein is the building block of every cell in the body — muscles, organs, skin, hair, and immune cells all depend on it. For Dan, adequate protein supports muscle maintenance and repair from physical activity. For Elsie, protein is essential for her rapid growth phase. For Laura, protein supports immune function and energy levels throughout the day.",
+        "daily_target": "Laura: 46–55g | Dan: 56–70g | Elsie: 19–34g",
+        "best_sources_this_week": "Monday's roast chicken (44g), Sunday's cheesesteak (42g), Saturday's enchiladas (34g), Friday's pancakes + sausage (24g). Protein is the one nutrient this week covers exceptionally well — every dinner delivers meaningful protein."
+      },
+      "calcium": {
+        "why": "Calcium builds and maintains strong bones and teeth, supports nerve signaling, muscle contraction, and heart rhythm. Elsie is in a critical bone-building window — the calcium she absorbs now directly determines her bone density as an adult. Laura needs calcium to prevent osteoporosis later in life. Calcium works best when paired with vitamin D, which helps the body absorb it.",
+        "daily_target": "Laura: 1,000mg | Dan: 1,000mg | Elsie: 1,000mg",
+        "best_sources_this_week": "Tuesday's Parmigiano-Reggiano (420mg), Saturday's enchilada cheese (350mg), Sunday's provolone (280mg), Friday's ricotta (250mg), Thursday's feta (220mg). This week is strong on calcium thanks to the variety of cheeses — but dairy isn't the only source. The recommended lunches add tahini (Thursday) and edamame (Monday) for plant-based calcium."
+      },
+      "iron": {
+        "why": "Iron carries oxygen in the blood to every cell in the body. Without enough iron, you feel tired, foggy, and weak. Laura's needs are highest (18mg/day) due to menstrual iron losses. Elsie needs iron for brain development and cognitive function — iron deficiency in children is linked to attention and learning difficulties. Iron from animal sources (heme iron) is absorbed 2–3× better than plant iron.",
+        "daily_target": "Laura: 18mg | Dan: 8mg | Elsie: 10mg",
+        "best_sources_this_week": "Sunday's ribeye (4.5mg — heme iron, very well absorbed), Thursday's shakshuka (4.2mg — eggs + tomatoes), Saturday's enchiladas (3.8mg), Wednesday's farro + beets (3.5mg), Tuesday's spinach pasta (3.2mg). Laura should prioritize Sunday's cheesesteak and Thursday's shakshuka, where iron absorption is highest thanks to heme iron and vitamin C synergy."
+      },
+      "fiber": {
+        "why": "Fiber feeds the beneficial bacteria in your gut (the microbiome), regulates blood sugar, lowers cholesterol, and prevents constipation. High-fiber diets are linked to lower rates of heart disease, diabetes, and colon cancer. For Elsie, fiber supports healthy digestion and steady energy levels. For Dan, fiber helps maintain cardiovascular health. This week's biggest nutritional gap is fiber — most dinners fall short.",
+        "daily_target": "Laura: 25g | Dan: 38g | Elsie: 22g",
+        "best_sources_this_week": "Wednesday's farro salad is the fiber champion (9g), followed by Thursday's shakshuka (6g) and Saturday's enchiladas (6g). Most other dinners provide only 1–3g. The recommended lunches (lentil soup 14g, black bean tacos 12g, quinoa bowl 10g) are specifically designed to close this gap."
+      },
+      "vitamin_d": {
+        "why": "Vitamin D is essential for calcium absorption — without it, the calcium in all that cheese goes to waste. It also supports immune function, mood regulation, and muscle strength. In winter, the body cannot produce vitamin D from sunlight north of the 37th parallel (Reston, VA is at 38.9°N), making dietary sources and supplements critical. Elsie's bone growth depends on adequate vitamin D.",
+        "daily_target": "Laura: 600 IU (15 mcg) | Dan: 600 IU (15 mcg) | Elsie: 600 IU (15 mcg)",
+        "best_sources_this_week": "Thursday's shakshuka eggs (40 IU), Friday's eggs in pancakes (30 IU), Tuesday's egg yolks in pasta (25 IU), Saturday's fried egg on enchiladas (20 IU). Even with eggs in three dinners, the total is far below the 600 IU target. A daily supplement is strongly recommended for the whole family, especially in winter months."
+      },
+      "omega_3": {
+        "why": "Omega-3 fatty acids (EPA and DHA) reduce inflammation, support brain development and function, protect heart health, and may improve mood and focus. For Elsie, DHA is critical for brain development and learning. For Dan and Laura, omega-3s protect against heart disease and reduce joint inflammation. The body cannot make omega-3s — they must come from food or supplements.",
+        "daily_target": "Laura: 1,100mg ALA (or 250–500mg EPA+DHA) | Dan: 1,600mg ALA (or 250–500mg EPA+DHA) | Elsie: 900mg ALA",
+        "best_sources_this_week": "Wednesday's walnuts are the only significant source in the dinner lineup. The recommended lunches add salmon (Monday — 1,500mg) and tuna (Wednesday — 1,200mg), plus chia seeds and flaxseed in snacks. This is the week's most critical nutritional gap to address through lunches and snacks."
+      },
+      "folate": {
+        "why": "Folate (vitamin B9) is essential for DNA synthesis, cell division, and red blood cell formation. For Laura, adequate folate is especially important for reproductive health and preventing anemia. For Elsie, folate supports rapid growth and development. Folate is found abundantly in dark leafy greens, legumes, and beets — which is why Wednesday's dinner is so valuable.",
+        "daily_target": "Laura: 400 mcg DFE | Dan: 400 mcg DFE | Elsie: 300 mcg DFE",
+        "best_sources_this_week": "Wednesday's beets and arugula (160 mcg — outstanding), Thursday's tomatoes and peppers (90 mcg), Tuesday's spinach pasta (85 mcg). The recommended lunches add lentils (Sunday — 180 mcg), black beans (Tuesday — 200 mcg), and chickpeas (Thursday — 120 mcg) to ensure Laura hits her daily target."
+      },
+      "potassium": {
+        "why": "Potassium regulates blood pressure, fluid balance, and muscle and nerve function. It works in opposition to sodium — the more potassium you eat, the more sodium your body excretes, which helps protect against hypertension. For Dan (active adult man), potassium is critical for muscle function and cardiovascular health. Most Americans get only about half the recommended potassium.",
+        "daily_target": "Laura: 2,600mg | Dan: 3,400mg | Elsie: 2,300mg",
+        "best_sources_this_week": "Monday's root vegetables (850mg — parsnips and potatoes are potassium giants), Thursday's tomatoes and peppers (680mg), Wednesday's beets and farro (620mg). The recommended lunches and snacks add bananas (Thursday snack — 450mg), sweet potatoes (Tuesday lunch), and avocado (Friday lunch) to build toward Dan's ambitious 3,400mg target."
+      },
+      "magnesium": {
+        "why": "Magnesium is involved in over 300 enzyme reactions in the body, including energy production, muscle relaxation, nerve function, and bone formation. It helps regulate blood sugar and blood pressure. For Dan, magnesium supports muscle recovery after exercise and helps prevent cramps. Low magnesium is linked to poor sleep quality, anxiety, and muscle tension — it's sometimes called 'nature's relaxation mineral.'",
+        "daily_target": "Laura: 320mg | Dan: 420mg | Elsie: 130mg",
+        "best_sources_this_week": "Wednesday's farro + walnuts (110mg — the week's best), Saturday's enchiladas (70mg), Monday's root vegetables (65mg). Dan's 420mg target is challenging to hit from dinners alone. The recommended lunches add tahini (Thursday — rich in magnesium), edamame (Monday), and almond butter (Monday snack — 80mg) to close the gap. Pumpkin seeds in Wednesday's trail mix snack (100mg) are a magnesium superstar."
+      },
+      "vitamin_c": {
+        "why": "Vitamin C is a powerful antioxidant that protects cells from damage, supports immune function, helps heal wounds, and dramatically improves iron absorption (critical for Laura). It's also essential for collagen production, which keeps skin, joints, and blood vessels healthy. For Elsie, vitamin C supports her immune system during the school year when colds circulate frequently.",
+        "daily_target": "Laura: 75mg | Dan: 90mg | Elsie: 25mg",
+        "best_sources_this_week": "Thursday's bell peppers are the undisputed vitamin C champion (65mg — nearly Laura's full daily target from one dinner!), Saturday's chile peppers (25mg), Monday's carrots and parsnips (12mg). Most other dinners are low in vitamin C. The recommended lunches add lime slaw (Tuesday — 35mg), fresh fruit (Saturday), and fortified OJ (Friday — 60mg)."
+      },
+      "vitamin_a": {
+        "why": "Vitamin A supports vision (especially night vision), immune function, skin health, and cell growth. Beta-carotene (the plant form found in orange and red vegetables) is also a powerful antioxidant. For Elsie, vitamin A is essential for growth and immune defense. The body converts beta-carotene to vitamin A as needed, so it's nearly impossible to overdose from food sources.",
+        "daily_target": "Laura: 2,333 IU (700 mcg RAE) | Dan: 3,000 IU (900 mcg RAE) | Elsie: 1,333 IU (400 mcg RAE)",
+        "best_sources_this_week": "Monday's carrots (8,500 IU — a single serving exceeds the daily target for all three family members!), Thursday's tomatoes and peppers (3,500 IU), Saturday's red chile (2,800 IU), Tuesday's spinach pasta (2,200 IU). Vitamin A is one of this week's strongest nutrients — the carrots on Monday alone cover the family for days."
+      }
+    }
   },
-  "highlight": "Valentine's week in the kitchen: from Philly cheesesteaks on a bone-cold Sunday to Sade spinning over Christmas enchiladas on the 14th — seven nights of comfort, curiosity, and love in action."
+  "stoic_data": {
+    "week_range": "February 8 – 14, 2026",
+    "theme": {
+      "title": "Present with Wonder",
+      "category": "Presence",
+      "description": "This week invites the family to practice radical presence — being fully here with the people you love, even as the world shifts around you. From the frozen stillness of a Virginia winter to the desert light of New Mexico, from the routines of swim lessons and science camp to the anticipation of Valentine's Day, every transition is an invitation to pay closer attention. The Stoics taught that the present moment is the only thing we truly possess. This week, we practice holding it gently."
+    },
+    "anchor_quote": {
+      "text": "Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.",
+      "source": "Marcus Aurelius",
+      "work": "Meditations",
+      "reference": "Book 6, Chapter 39"
+    },
+    "introduction": "This is a week of motion. Elsie moves from the pool to the science lab to the dance studio; Laura balances book club and packing; Dan holds the logistics together while the family hurtles toward a 4:30 AM flight. It would be easy to spend the whole week living in Saturday — mentally already in Albuquerque, already past the alarm clock, already somewhere else. The Stoics would gently ask: what are you missing right now?\n\nMarcus Aurelius wrote from military camps and imperial courts, places of enormous pressure. His answer was always the same: return to the present. Love the people in front of you. As temperatures climb from 10°F to 45°F and the landscape prepares to shift from Virginia pines to desert mesas, the family practices a three-part journey: awakening to presence, practicing it in the chaos of midweek, and carrying it into the wonder of a new place.",
+    "meditations": [
+      {
+        "day": "Days 1–2 · Sunday–Monday (Awakening)",
+        "title": "The Cold Clarity of Now",
+        "reflection": "The week opens in bitter cold — highs barely cracking 22°F, the kind of weather that makes you want to retreat indoors. But cold has a gift: it makes you intensely aware of your body, your breath, the warmth of a house. The Stoics called this prosoche — attention. Before you can be present with others, you must notice that you are here. Let the cold sharpen your senses rather than dull your spirit. Notice the steam from your coffee, the weight of a blanket, Elsie's laughter from the next room.",
+        "prompt": "What is one thing I can only experience right now — today, in this cold, in this house, with these people — that I will not be able to experience next week in New Mexico?",
+        "secondary_quote": {
+          "text": "Confine yourself to the present.",
+          "source": "Marcus Aurelius, Meditations, Book 6, Chapter 32"
+        }
+      },
+      {
+        "day": "Days 3–5 · Tuesday–Thursday (Practice)",
+        "title": "Presence in the Rush",
+        "reflection": "Midweek is the crucible. Swim lessons, science camp, dance camp — the days are full, and the adults' days are full of getting her there. It is tempting to treat these as obstacles between you and the weekend. But Epictetus taught that we suffer not from events but from our judgments about them. The judgment 'this is just a busy week before the real thing' robs Tuesday through Thursday of their own life. When you are at the pool, be at the pool. When you are driving, notice the road.",
+        "prompt": "During one transition today — a car ride, a waiting room, a walk to the door — put your phone away and simply be where you are for two full minutes. What did you notice?",
+        "secondary_quote": {
+          "text": "Demand not that things happen as you wish, but wish them to happen as they do, and you will go on well.",
+          "source": "Epictetus, Enchiridion, Section 8"
+        }
+      },
+      {
+        "day": "Days 6–7 · Friday–Saturday (Integration)",
+        "title": "Carrying Presence into the New",
+        "reflection": "Friday night is packing; Saturday begins in darkness with a 4:30 AM flight. Everything about travel pulls you out of the present. Yet Seneca wrote that he was not born for one corner of the universe. The Stoic traveler carries presence onto the plane, into the rental car, through the door of a place she has never been. Valentine's Day coincides with your journey — love is not a place you arrive at but an attention you practice. As you land in Albuquerque, simply look. The light in New Mexico is unlike anywhere else.",
+        "prompt": "As you arrive in Albuquerque, take one minute before reaching for your phone. Look at the sky, the mountains, the light. Write down three words that describe what you see — not what you expected to see, but what is actually there.",
+        "secondary_quote": {
+          "text": "I am not born for any one corner of the universe; this whole world is my country.",
+          "source": "Seneca, Moral Letters to Lucilius, Letter 28"
+        }
+      }
+    ],
+    "family_exercise": {
+      "title": "The Presence Jar",
+      "description": "Place a small jar on the kitchen counter. Each time someone truly notices something — the taste of dinner, the sound of rain, a moment of eye contact — write it on a slip of paper and drop it in. On Friday night, while packing, read the slips aloud together.",
+      "connection": "This makes presence tangible and communal, transforming an abstract Stoic concept into a family game Elsie can lead."
+    },
+    "young_stoic": {
+      "title": "Elsie's Explorer Eyes",
+      "prompt": "Elsie, this week you're going somewhere brand new — Albuquerque, New Mexico! A very wise man named Marcus Aurelius said we should love what life brings us with all our heart. Here's a secret: the best explorers aren't the ones who've been to the most places — they're the ones who really look. This week, practice your 'Explorer Eyes.' Wherever you are — at swim, at science camp, at dance — pretend you're seeing it for the very first time. Then when you get to New Mexico, your Explorer Eyes will already be warmed up.",
+      "lesson": "Being present means really seeing what's in front of you. When we pay attention, every place becomes an adventure."
+    },
+    "closing_thought": "The week ahead has routine and surprise, cold and warmth, the familiar and the utterly new. On Sunday you will shiver in Virginia; by Saturday night you will stand under the vast New Mexico sky. The same heart beats in both places. Pay attention. That is the whole of the practice."
+  },
+  "child_wisdom": {
+    "title": "The Case of the Desert Star",
+    "story": "Chelsea pressed her nose against the airplane window and frowned. Below, the world had turned from green to brown — miles and miles of sand-colored earth, dotted with scrubby bushes and strange, rocky hills.\n\n\"Where are all the trees?\" she whispered to Sharkie, her stuffed shark, who was buckled into the seat beside her.\n\nDaddio leaned over. \"That's the high desert, Chels. Different things grow out there — you just have to look closer.\"\n\nBut Chelsea wasn't so sure.\n\nWhen they landed in Albuquerque, the air smelled peculiar — like sage and something warm she couldn't name. Papa Puleo met them at the curb in a big truck, and Momma Karen had already set out sopaipillas drizzled with honey on the kitchen table. The honey was golden and tasted like wildflowers.\n\n\"Momma Karen, does anything actually grow out here?\" Chelsea asked, licking her fingers.\n\nMomma Karen smiled. \"Go look in the backyard. But bring your magnifying glass.\"\n\nChelsea grabbed Sharkie and stepped outside. At first, she saw only dry ground and a few pale rocks. But then she knelt down. A tiny cactus, no bigger than her thumb, had a single pink flower blooming at its tip. She touched the petals — soft as Mamma's scarf.\n\nShe looked further. Between two flat stones, a lizard the color of cinnamon watched her with bright, curious eyes. Near the fence, a bush she'd almost ignored was covered in small silver leaves that shimmered when the wind blew — iridescent, like soap bubbles.\n\n\"Sharkie, look,\" she breathed. \"Everything IS here. It's just... quieter.\"\n\nThat evening, while Mamma and Daddio ate enchiladas smothered in red and green chile — Christmas style, Papa Puleo called it — Chelsea drew a map of everything she'd discovered in the backyard. Seven tiny treasures she would have missed if she hadn't crouched down and paid attention.\n\nMr. Bugles popped up from behind the salt shaker. \"I THOUGHT the desert was BORING but it turns out I was the boring one for not LOOKING!\"\n\nEveryone laughed, but Chelsea nodded quietly, because she understood something new: the most interesting places aren't always the loudest ones. Sometimes, the most wonderful things are waiting for someone brave enough to look closely.",
+    "theme": "Brave Explorers: Hearts & Horizons",
+    "life_lesson": "The most wonderful things are waiting for someone brave enough to look closely.",
+    "reading_time": "2 minutes",
+    "discussion_prompt": "What's something you almost missed because you weren't looking closely enough? What did you discover when you paid more attention?"
+  }
 }

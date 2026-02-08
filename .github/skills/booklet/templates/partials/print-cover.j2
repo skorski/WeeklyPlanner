@@ -1,0 +1,36 @@
+{# --- COVER PAGE --- #}
+<div class="page page-cover">
+  <h1>Weekly Planner</h1>
+  <div class="week-range">{{ week_range }}</div>
+  <div class="divider"></div>
+  {% if highlight %}
+  <div class="highlight-text">{{ highlight }}</div>
+  {% endif %}
+</div>
+
+{# --- WEEK AT A GLANCE --- #}
+<div class="page page-glance">
+  <div class="page-header">Overview</div>
+  <h2 class="section-header">Week at a Glance</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Events</th>
+        <th>Dinner</th>
+        <th>Album</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for day in days %}
+      <tr>
+        <td class="day-name">{{ day.name }}<div class="day-weather">{{ weather_compact_print(day) }}</div></td>
+        <td>{% if day.calendar_items %}{% for item in day.calendar_items %}{{ item }}{% if not loop.last %}; {% endif %}{% endfor %}{% else %}—{% endif %}</td>
+        <td>{{ day.dinner | default("—") }}</td>
+        <td>{{ day.album | default("—") }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <div class="page-folio">2</div>
+</div>

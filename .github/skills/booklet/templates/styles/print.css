@@ -1,0 +1,1016 @@
+
+@media print {
+  .screen-container { display: none !important; }
+
+  @page {
+    size: 5.5in 8.5in;
+    margin: 0.25in 0.4in 0.3in 0.4in;
+  }
+
+  body {
+    font-family: var(--narrative);
+    font-size: 9pt;
+    line-height: 1.5;
+    background: white;
+    color: var(--ink);
+  }
+
+  /* ---- Page container ---- */
+  .page {
+    display: block;
+    page-break-after: always;
+    position: relative;
+    height: 7.95in;  /* 8.5in - 0.25in top - 0.3in bottom */
+    overflow: hidden;
+  }
+  .page:last-child { page-break-after: avoid; }
+
+  /* ---- Page furniture: folio + running header ---- */
+  .page-folio {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: var(--anchor);
+    font-size: 6.5pt;
+    color: var(--muted);
+  }
+  .page-header {
+    font-family: var(--anchor);
+    font-size: 6.5pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    color: var(--muted);
+    margin-bottom: 14pt;
+  }
+  .page-cover .page-folio,
+  .page-back .page-folio,
+  .page-divider .page-folio,
+  .page-cover .page-header,
+  .page-back .page-header { display: none; }
+
+  /* ---- Shared section header ---- */
+  .section-header {
+    font-family: var(--hero);
+    font-size: 13pt;
+    font-weight: 400;
+    margin-bottom: 4pt;
+    padding-bottom: 3pt;
+    border-bottom: 0.5pt solid var(--rule);
+  }
+  .page-day .section-header {
+    font-size: 16pt;
+    margin-bottom: 6pt;
+    padding-bottom: 4pt;
+  }
+
+  /* ---- Section divider pages ---- */
+  .page-divider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 7.0in;
+  }
+  .page-divider .divider-title {
+    font-family: var(--hero);
+    font-size: 20pt;
+    font-weight: 400;
+    letter-spacing: -0.3pt;
+    margin-bottom: 6pt;
+  }
+  .page-divider .divider-rule {
+    width: 30pt;
+    height: 0.5pt;
+    background: var(--rule);
+    margin: 0 auto 8pt;
+  }
+  .page-divider .divider-sub {
+    font-family: var(--hero);
+    font-size: 8pt;
+    color: var(--muted);
+    font-style: italic;
+    max-width: 3in;
+    line-height: 1.5;
+  }
+
+  /* ---- COVER ---- */
+  .page-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 7.0in;
+  }
+  .page-cover h1 {
+    font-family: var(--hero);
+    font-size: 22pt;
+    font-weight: 400;
+    letter-spacing: -0.5pt;
+    margin-bottom: 6pt;
+  }
+  .page-cover .week-range {
+    font-family: var(--anchor);
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+    color: var(--muted);
+    margin-bottom: 20pt;
+  }
+  .page-cover .divider {
+    width: 36pt;
+    height: 0.5pt;
+    background: var(--rule);
+    margin: 0 auto 20pt;
+  }
+  .page-cover .highlight-text {
+    font-family: var(--hero);
+    font-style: italic;
+    font-size: 10pt;
+    color: var(--muted);
+    max-width: 3.2in;
+    line-height: 1.5;
+  }
+
+  /* ---- GLANCE ---- */
+  .page-glance {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .page-glance .page-header,
+  .page-glance .section-header,
+  .page-glance table {
+    width: 100%;
+  }
+  .page-glance table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 7.5pt;
+    margin: auto 0;   /* vertically center the table in remaining space */
+  }
+  .page-glance th {
+    font-family: var(--anchor);
+    text-align: left;
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    color: var(--muted);
+    padding: 3pt 3pt;
+    border-bottom: 0.5pt solid var(--ink);
+  }
+  .page-glance td {
+    font-family: var(--narrative);
+    padding: 4pt 3pt;
+    border-bottom: 0.5pt solid var(--rule);
+    vertical-align: top;
+  }
+  .page-glance .day-name {
+    font-family: var(--anchor);
+    font-weight: 600;
+    font-size: 7pt;
+  }
+  .page-glance .day-weather {
+    font-family: var(--anchor);
+    font-size: 5.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    color: var(--ochre);
+    margin-top: 1pt;
+  }
+
+  /* ---- DAY PAGES ---- */
+  .page-day .day-intro {
+    font-family: var(--narrative);
+    font-style: italic;
+    font-size: 8.5pt;
+    color: var(--muted);
+    margin: 4pt 10% 8pt 10%;
+    line-height: 1.6;
+  }
+  .page-day .weather-line {
+    font-family: var(--anchor);
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--ochre);
+    text-align: right;
+    margin-bottom: 2pt;
+  }
+  .page-day .dinner-block {
+    margin-bottom: 6pt;
+    page-break-inside: avoid;
+  }
+  .page-day .dinner-name {
+    font-family: var(--hero);
+    font-size: 12pt;
+    font-weight: 400;
+    margin-bottom: 2pt;
+  }
+  .page-day .cuisine-label {
+    font-family: var(--anchor);
+    font-size: 6.5pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    color: var(--oxblood);
+    margin-bottom: 3pt;
+  }
+  .page-day .dinner-desc {
+    font-family: var(--narrative);
+    font-size: 9pt;
+    line-height: 1.6;
+    margin-bottom: 4pt;
+  }
+  .page-day .ingredients-line {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    color: var(--muted);
+    margin-bottom: 3pt;
+  }
+  .page-day .notes-line {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 3pt;
+  }
+  .page-day .album-block {
+    padding: 4pt 0 2pt;
+    margin: 2pt auto 2pt;
+    max-width: 75%;
+    text-align: center;
+    page-break-inside: avoid;
+  }
+  .page-day .album-anchor-rule {
+    width: 20pt;
+    height: 0.5pt;
+    background: var(--rule);
+    margin: 0 auto 2pt;
+  }
+  .page-day .album-artist {
+    font-family: var(--anchor);
+    font-size: 5.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.5pt;
+    color: var(--muted);
+    margin-bottom: 1pt;
+  }
+  .page-day .album-title {
+    font-family: var(--hero);
+    font-size: 9pt;
+    font-weight: 400;
+    color: var(--midnight);
+    margin-bottom: 2pt;
+  }
+  .page-day .album-info {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+    color: var(--ochre);
+    margin-bottom: 2pt;
+  }
+  .page-day .album-desc {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    line-height: 1.5;
+    margin-top: 1pt;
+    text-align: center;
+  }
+  .page-day .album-sonic {
+    font-family: var(--narrative);
+    font-size: 6.5pt;
+    color: var(--muted);
+    font-style: italic;
+    line-height: 1.5;
+    margin-top: 1pt;
+  }
+  .page-day .album-why {
+    font-family: var(--narrative);
+    font-size: 6.5pt;
+    font-style: italic;
+    color: var(--muted);
+    line-height: 1.5;
+    margin-top: 3pt;
+    padding-top: 2pt;
+  }
+  /* Chef's tips — inline labels, sage accent */
+  .page-day .elevation-block {
+    margin-top: 3pt;
+    padding-left: 6pt;
+    border-left: 1.5pt solid var(--sage);
+    page-break-inside: avoid;
+  }
+  .page-day .elevation-block h4 {
+    font-family: var(--anchor);
+    font-size: 5.5pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--sage);
+    font-weight: 600;
+    margin-bottom: 1pt;
+  }
+  .page-day .elevation-tip {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    line-height: 1.45;
+    margin-bottom: 1pt;
+  }
+  .page-day .elevation-tip .tip-label {
+    font-family: var(--anchor);
+    font-size: 5.5pt;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    color: var(--sage);
+    font-weight: 600;
+  }
+  .weather-emoji-print { font-size: 8pt; }
+
+  /* ---- Evening page (page 2 of spread) — generous spacing ---- */
+  .page-day-right .elevation-block {
+    margin-top: 0;
+    padding-left: 8pt;
+    border-left: 2pt solid var(--sage);
+  }
+  .page-day-right .elevation-block h4 {
+    font-size: 6.5pt;
+    letter-spacing: 2pt;
+    margin-bottom: 3pt;
+  }
+  .page-day-right .elevation-tip {
+    font-size: 8.5pt;
+    line-height: 1.6;
+    margin-bottom: 6pt;
+  }
+  .page-day-right .elevation-tip .tip-label {
+    font-size: 6.5pt;
+    letter-spacing: 1.5pt;
+  }
+  .page-day-right .album-block {
+    padding: 10pt 0 4pt;
+    margin: 16pt auto 4pt;
+    max-width: 75%;
+  }
+  .page-day-right .album-anchor-rule {
+    margin: 0 auto 6pt;
+  }
+  .page-day-right .album-artist {
+    font-size: 6.5pt;
+    letter-spacing: 3pt;
+    margin-bottom: 2pt;
+  }
+  .page-day-right .album-title {
+    font-size: 11pt;
+    margin-bottom: 3pt;
+  }
+  .page-day-right .album-info {
+    font-size: 7pt;
+    letter-spacing: 3pt;
+    margin-bottom: 4pt;
+  }
+  .page-day-right .album-desc {
+    font-size: 8pt;
+    line-height: 1.7;
+    margin-top: 3pt;
+  }
+  .page-day-right .album-sonic {
+    font-size: 7.5pt;
+    line-height: 1.7;
+    margin-top: 2pt;
+  }
+  .page-day-right .album-why {
+    font-size: 7.5pt;
+    line-height: 1.7;
+    margin-top: 6pt;
+    padding-top: 4pt;
+  }
+
+  /* ---- Conversation starter (below dinner on left page) ---- */
+  .page-day-left .conversation-block {
+    margin: 6pt 0 4pt;
+    padding: 4pt 8pt;
+    border-left: 2pt solid var(--ochre);
+  }
+  .page-day-left .conversation-block h4 {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    color: var(--ochre);
+    font-weight: 600;
+    margin: 0 0 2pt;
+  }
+  .page-day-left .conversation-question {
+    font-family: var(--narrative);
+    font-size: 8.5pt;
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--ink);
+  }
+  .page-day-left .conversation-why {
+    font-family: var(--narrative);
+    font-size: 6.5pt;
+    line-height: 1.4;
+    color: var(--muted);
+    margin-top: 2pt;
+  }
+
+  /* Calendar engagements — hanging indent gutter */
+  .page-day .calendar-block {
+    margin-bottom: 3pt;
+    padding: 2pt 0;
+  }
+  .page-day .engagement-row {
+    display: flex;
+    align-items: baseline;
+    padding: 1pt 0;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .page-day .engagement-time {
+    font-family: var(--anchor);
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    color: var(--oxblood);
+    flex-shrink: 0;
+    min-width: 72pt;
+    text-align: right;
+    padding-right: 5pt;
+  }
+  .page-day .engagement-rule {
+    width: 0.5pt;
+    align-self: stretch;
+    background: var(--rule);
+    flex-shrink: 0;
+  }
+  .page-day .engagement-event {
+    font-family: var(--anchor);
+    font-size: 7.5pt;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    color: var(--ink);
+    padding-left: 5pt;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .page-day .prep-block {
+    margin-top: 5pt;
+    padding-top: 3pt;
+    border-top: 0.5pt solid var(--rule);
+    page-break-inside: avoid;
+  }
+  .page-day .prep-block h4 {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--sage);
+    font-weight: 600;
+    margin-bottom: 2pt;
+  }
+  .page-day .prep-block li {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    margin-left: 12pt;
+    margin-bottom: 1pt;
+    line-height: 1.4;
+  }
+
+  /* ---- SUPPORT PAGES (appetizers, salads, beverages) ---- */
+  .page-support h3 {
+    font-family: var(--hero);
+    font-size: 9.5pt;
+    font-weight: 400;
+    margin: 6pt 0 2pt;
+  }
+  .page-support p {
+    font-family: var(--narrative);
+    font-size: 8pt;
+    line-height: 1.45;
+    margin-bottom: 2pt;
+  }
+  .page-support .salad-entry {
+    margin-bottom: 8pt;
+    padding-bottom: 5pt;
+    border-bottom: 0.5pt solid var(--rule);
+    page-break-inside: avoid;
+  }
+  .page-support .type-label {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--oxblood);
+  }
+  .page-support .dressing-box {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    padding: 3pt 0;
+    color: var(--muted);
+    margin: 3pt 0;
+  }
+  .page-support .rationale {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    font-style: italic;
+    color: var(--muted);
+  }
+  .page-support li {
+    font-family: var(--narrative);
+    font-size: 8.5pt;
+    margin-left: 12pt;
+    margin-bottom: 2pt;
+    line-height: 1.4;
+  }
+
+  /* ---- GROCERY ---- */
+  .page-grocery .grocery-cols {
+    columns: 2;
+    column-gap: 14pt;
+  }
+  .page-grocery .g-cat {
+    break-inside: avoid;
+    margin-bottom: 6pt;
+  }
+  .page-grocery .g-cat h4 {
+    font-family: var(--anchor);
+    font-size: 6.5pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    margin-bottom: 2pt;
+    color: var(--sage);
+    font-weight: 600;
+  }
+  .page-grocery .g-cat li {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    margin-left: 10pt;
+    margin-bottom: 1pt;
+    line-height: 1.4;
+  }
+  .page-grocery .prep-list {
+    margin-top: 8pt;
+    padding-top: 6pt;
+    border-top: 0.5pt solid var(--rule);
+  }
+  .page-grocery .prep-list h3 {
+    font-family: var(--anchor);
+    font-size: 8pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--muted);
+    margin-bottom: 4pt;
+  }
+  .page-grocery .prep-list li {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    margin-left: 10pt;
+    margin-bottom: 2pt;
+    list-style: none;
+    line-height: 1.4;
+  }
+  .page-grocery .prep-list li::before {
+    content: "☐ ";
+    color: var(--muted);
+  }
+
+  /* ---- EXTRA SECTIONS ---- */
+  .page-extra .extra-content {
+    font-family: var(--narrative);
+    font-size: 8.5pt;
+    line-height: 1.5;
+  }
+
+  /* ---- NEWSLETTER (The Weekly Read) ---- */
+  .page-newsletter {
+    font-size: 8.5pt;
+    line-height: 1.45;
+  }
+  .page-newsletter .cluster-theme {
+    font-family: var(--narrative);
+    font-size: 11pt;
+    font-weight: 400;
+    color: var(--ink);
+    margin: 8pt 0 4pt 0;
+    border-bottom: 0.5pt solid var(--rule);
+    padding-bottom: 2pt;
+  }
+  .page-newsletter .cluster-synthesis {
+    font-family: var(--narrative);
+    font-size: 8.5pt;
+    line-height: 1.5;
+    margin-bottom: 6pt;
+    text-align: justify;
+  }
+  .page-newsletter .article-list {
+    margin: 0 0 6pt 0;
+    padding: 0;
+    list-style: none;
+  }
+  .page-newsletter .article-list li {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    margin-bottom: 3pt;
+    padding-left: 8pt;
+    text-indent: -8pt;
+    line-height: 1.4;
+  }
+  .page-newsletter .article-list li .article-title {
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .page-newsletter .article-list li .article-tags {
+    font-style: italic;
+    color: var(--muted);
+    font-size: 6.5pt;
+  }
+  .page-newsletter .article-list li .article-oneliner {
+    color: var(--muted);
+    font-size: 7pt;
+    display: block;
+    padding-left: 8pt;
+  }
+  .page-newsletter .through-line {
+    font-family: var(--narrative);
+    font-style: italic;
+    font-size: 8pt;
+    color: var(--muted);
+    border-left: 2pt solid var(--ochre);
+    padding-left: 8pt;
+    margin: 6pt 0;
+  }
+  .page-newsletter .fun-section {
+    padding: 6pt 0;
+    margin-top: 6pt;
+    border-top: 0.5pt solid var(--rule);
+  }
+  .page-newsletter .fun-section h3 {
+    font-family: var(--hero);
+    font-size: 9pt;
+    font-weight: 400;
+    color: var(--ink);
+    margin-bottom: 3pt;
+  }
+  .page-newsletter .fun-section p {
+    font-family: var(--narrative);
+    font-size: 8pt;
+    margin-bottom: 2pt;
+    line-height: 1.5;
+  }
+  .page-newsletter .fun-section .fun-source {
+    font-family: var(--anchor);
+    font-size: 6.5pt;
+    color: var(--muted);
+    font-style: italic;
+  }
+  .page-newsletter .newsletter-footer {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    color: var(--muted);
+    text-align: center;
+    margin-top: 8pt;
+    font-style: italic;
+  }
+
+  /* ---- PARENTING ---- */
+  .page-parenting .theme-banner {
+    padding: 5pt 0;
+    margin-bottom: 6pt;
+    border-bottom: 0.5pt solid var(--rule);
+  }
+  .page-parenting .theme-banner h3 {
+    font-family: var(--hero);
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 2pt;
+  }
+  .page-parenting .theme-banner p {
+    font-family: var(--hero);
+    font-size: 7.5pt;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .page-parenting .question-entry {
+    padding: 2pt 0;
+    border-bottom: 0.5pt solid var(--rule);
+    page-break-inside: avoid;
+  }
+  .page-parenting .question-day {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--ochre);
+    font-weight: 600;
+  }
+  .page-parenting .question-text {
+    font-family: var(--hero);
+    font-size: 8.5pt;
+    font-style: italic;
+    margin: 1pt 0;
+    line-height: 1.4;
+  }
+  .page-parenting .question-why {
+    font-family: var(--narrative);
+    font-size: 6.5pt;
+    color: var(--muted);
+  }
+  .page-parenting .nudge-card {
+    padding: 3pt 0;
+    border-bottom: 0.5pt solid var(--rule);
+    margin-bottom: 3pt;
+    page-break-inside: avoid;
+  }
+  .page-parenting .nudge-card h4 {
+    font-family: var(--hero);
+    font-size: 8.5pt;
+    font-weight: 400;
+    margin-bottom: 1pt;
+  }
+  .page-parenting .nudge-card p {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    line-height: 1.4;
+  }
+  .page-parenting .nudge-steps {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    margin-top: 2pt;
+    padding-left: 10pt;
+    line-height: 1.4;
+  }
+  .page-parenting .nudge-steps li { margin-bottom: 1pt; }
+  .page-parenting .reflection-box {
+    border-left: 2pt solid var(--ochre);
+    padding: 3pt 0 3pt 8pt;
+    font-family: var(--narrative);
+    font-style: italic;
+    font-size: 7.5pt;
+    margin-top: 4pt;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+  .page-parenting .book-rec {
+    padding: 3pt 0;
+    border-top: 0.5pt solid var(--rule);
+    margin-top: 4pt;
+    page-break-inside: avoid;
+  }
+  .page-parenting .book-rec h4 {
+    font-family: var(--hero);
+    font-size: 8.5pt;
+    font-weight: 400;
+    margin-bottom: 1pt;
+  }
+  .page-parenting .book-rec p {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+
+  /* ---- STOIC GUIDE ---- */
+  .page-stoic {
+    font-size: 8pt;
+    line-height: 1.45;
+  }
+  .page-stoic .stoic-theme-banner {
+    padding: 6pt 0;
+    margin-bottom: 6pt;
+    border-bottom: 0.5pt solid var(--rule);
+  }
+  .page-stoic .stoic-theme-banner h3 {
+    font-family: var(--hero);
+    font-size: 11pt;
+    font-weight: 400;
+    margin-bottom: 2pt;
+  }
+  .page-stoic .stoic-theme-banner .stoic-category {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--muted);
+  }
+  .page-stoic .stoic-theme-banner p {
+    font-family: var(--hero);
+    font-size: 7.5pt;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .page-stoic .anchor-quote {
+    border-left: 2pt solid var(--rule);
+    padding: 4pt 0 4pt 8pt;
+    margin: 6pt 0;
+    font-family: var(--narrative);
+    font-style: italic;
+    font-size: 8pt;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .page-stoic .anchor-quote .quote-source {
+    display: block;
+    font-style: normal;
+    font-family: var(--anchor);
+    font-size: 6.5pt;
+    color: var(--muted);
+    margin-top: 2pt;
+  }
+  .page-stoic .stoic-intro {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    margin-bottom: 6pt;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .page-stoic .meditation-entry {
+    padding: 4pt 0;
+    border-bottom: 0.5pt solid var(--rule);
+  }
+  .page-stoic .meditation-entry:last-child { border-bottom: none; }
+  .page-stoic .meditation-title {
+    font-family: var(--narrative);
+    font-weight: 400;
+    font-size: 8pt;
+  }
+  .page-stoic .meditation-day {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    color: var(--ochre);
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+  }
+  .page-stoic .meditation-reflection {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    color: var(--muted);
+    margin: 2pt 0;
+    line-height: 1.5;
+  }
+  .page-stoic .meditation-prompt {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    color: var(--muted);
+    font-style: italic;
+  }
+  .page-stoic .meditation-secondary-quote {
+    font-family: var(--narrative);
+    font-size: 6.5pt;
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 2pt;
+  }
+  .page-stoic .stoic-exercise {
+    padding: 5pt 0;
+    margin: 6pt 0;
+    border-top: 0.5pt solid var(--rule);
+  }
+  .page-stoic .stoic-exercise h4 {
+    font-family: var(--hero);
+    font-size: 8.5pt;
+    font-weight: 400;
+    margin-bottom: 2pt;
+  }
+  .page-stoic .stoic-exercise p {
+    font-family: var(--hero);
+    font-size: 7.5pt;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .page-stoic .young-stoic {
+    padding: 5pt 0 5pt 8pt;
+    margin: 6pt 0;
+    border-left: 2pt solid var(--ochre);
+  }
+  .page-stoic .young-stoic h4 {
+    font-family: var(--narrative);
+    font-size: 8.5pt;
+    font-weight: 400;
+    margin-bottom: 2pt;
+  }
+  .page-stoic .young-stoic p {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .page-stoic .closing-thought {
+    text-align: center;
+    font-family: var(--narrative);
+    font-style: italic;
+    font-size: 8pt;
+    color: var(--muted);
+    margin-top: 8pt;
+    padding-top: 4pt;
+    border-top: 0.5pt solid var(--rule);
+  }
+
+  /* ---- BACK COVER ---- */
+  .page-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20pt;
+    height: 7.95in;
+    text-align: center;
+  }
+  .page-back .back-inner {
+    max-width: 4.2in;
+    margin: 0 auto;
+  }
+  /* ---- Story section ---- */
+  .page-back .story-section {
+    text-align: left;
+    margin-bottom: 10pt;
+  }
+  .page-back .story-title {
+    font-family: var(--hero);
+    font-size: 11pt;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 8pt;
+    padding-bottom: 4pt;
+    color: var(--ink);
+  }
+  .page-back .story-text {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    line-height: 1.65;
+    color: var(--ink);
+    text-align: justify;
+  }
+  .page-back .story-text p {
+    margin-bottom: 4pt;
+  }
+  .page-back .story-prompt {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    font-style: italic;
+    color: var(--ochre);
+    margin-top: 8pt;
+    text-align: center;
+  }
+  .page-back .notes-section {
+    text-align: left;
+    margin-bottom: 14pt;
+  }
+  .page-back .notes-section h3 {
+    font-family: var(--hero);
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 4pt;
+    padding-bottom: 3pt;
+    border-bottom: 0.5pt solid var(--rule);
+  }
+  .page-back .notes-section li {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    margin-left: 10pt;
+    margin-bottom: 2pt;
+    text-align: left;
+    line-height: 1.4;
+  }
+  .page-back .nutrition {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    color: var(--muted);
+    margin-bottom: 14pt;
+    padding: 6pt 0;
+    border-top: 0.5pt solid var(--rule);
+    text-align: left;
+    line-height: 1.5;
+  }
+  .page-back .nutrition strong {
+    display: block;
+    font-family: var(--anchor);
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    margin-bottom: 3pt;
+    color: var(--sage);
+    font-weight: 600;
+  }
+  .page-back .back-divider {
+    width: 30pt;
+    height: 0.5pt;
+    background: var(--rule);
+    margin: 12pt auto;
+  }
+  .page-back .colophon {
+    font-family: var(--anchor);
+    font-size: 6.5pt;
+    color: var(--muted);
+    font-style: italic;
+    letter-spacing: 0.5pt;
+  }
+}

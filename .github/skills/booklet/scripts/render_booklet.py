@@ -59,7 +59,20 @@ def derive_highlight(data):
 
 
 def render_html(data, template_dir):
-    """Render the plan data to an HTML string using the Jinja2 template."""
+    """Render the plan data to an HTML string using the Jinja2 template.
+
+    Expects normalized fields (weather_oneliner, engagements, album_artist,
+    album_title, dinner_question) from assemble_plan.py.  Uses
+    parsed_engagements as an alias for engagements (print template compat).
+    """
+    # Ensure backward-compat aliases for templates
+    for d in data.get("days", []):
+        if "engagements" in d and "parsed_engagements" not in d:
+            d["parsed_engagements"] = [
+                {"time": e.get("time", ""), "event": e.get("event_short", e.get("event", ""))}
+                for e in d["engagements"]
+            ]
+
     env = Environment(
         loader=FileSystemLoader(str(template_dir)),
         keep_trailing_newline=True,
@@ -88,8 +101,8 @@ def check_overflow(html_path):
     # Margins: top 0.5in (48) + bottom 0.55in (52.8) = 100.8
     # Available content height ≈ 715 CSS px
     PAGE_HEIGHT_PX = 816
-    MARGIN_PX = 101  # top + bottom margins from @page rule
-    CONTENT_HEIGHT_PX = PAGE_HEIGHT_PX - MARGIN_PX
+    MARGIN_PX = 53   # top 0.25in + bottom 0.3in from @page rule
+    CONTENT_HEIGHT_PX = PAGE_HEIGHT_PX - MARGIN_PX  # ~763
 
     with sync_playwright() as p:
         browser = p.chromium.launch()
@@ -192,8 +205,15 @@ def html_to_pdf(html_path, pdf_path):
     reader = PdfReader(str(tmp_pdf))
     n = len(reader.pages)
 
-    # Pad to a multiple of 4 (required for book fold)
+    # Pad to a multiple of 4 (required for book fold).
+    # The back cover (last HTML page) must land on the very last padded
+    # position so it prints on the physical back of the booklet.  We
+    # build an ordered list of page indices where None = blank page,
+    # moving the back-cover index from n-1 to padded-1.
     padded = n + ((4 - n % 4) % 4)
+    page_order = list(range(n - 1))          # all pages except back cover
+    page_order += [None] * (padded - n)      # blank padding pages
+    page_order.append(n - 1)                 # back cover last
 
     # Build the page-pair list for booklet imposition.
     # For a saddle-stitch booklet printed duplex:
@@ -203,16 +223,9 @@ def html_to_pdf(html_path, pdf_path):
     # and a back side.
     pairs = []
     for i in range(padded // 2):
-        # Booklet pairs: (padded-1-i, i) alternating left/right
         left = padded - 1 - i
         right = i
         pairs.append((left, right))
-
-    # Reorder pairs so fronts and backs alternate for duplex printing:
-    # Sheet 0 front = pairs[0], Sheet 0 back = pairs[1],
-    # Sheet 1 front = pairs[2], Sheet 1 back = pairs[3], ...
-    # This is already correct from the loop above when we process them
-    # in order — each pair represents one side of one sheet.
 
     writer = PdfWriter()
     for left_idx, right_idx in pairs:
@@ -220,19 +233,19 @@ def html_to_pdf(html_path, pdf_path):
         spread.mediabox = RectangleObject([0, 0, FULL_W, HALF_H])
 
         # Left half-page (placed at x=0)
-        if left_idx < n:
-            src_left = reader.pages[left_idx]
+        left_page = page_order[left_idx] if left_idx < len(page_order) else None
+        if left_page is not None:
             spread.merge_transformed_page(
-                src_left,
+                reader.pages[left_page],
                 Transformation().translate(tx=0, ty=0),
                 over=True,
             )
 
         # Right half-page (placed at x=HALF_W)
-        if right_idx < n:
-            src_right = reader.pages[right_idx]
+        right_page = page_order[right_idx] if right_idx < len(page_order) else None
+        if right_page is not None:
             spread.merge_transformed_page(
-                src_right,
+                reader.pages[right_page],
                 Transformation().translate(tx=HALF_W, ty=0),
                 over=True,
             )

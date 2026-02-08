@@ -6,7 +6,7 @@
     </div>
 
     <template v-if="data.dinner_questions?.length">
-      <h4 style="font-size:15px;font-weight:600;margin-bottom:8px;">Dinner Conversation Starters</h4>
+      <h4 class="section-label">Dinner Conversation Starters</h4>
       <div v-for="q in data.dinner_questions" :key="q.question" class="question-card">
         <div class="question-day">{{ q.day }} — {{ q.dinner || '' }}</div>
         <div class="question-text">"{{ q.question }}"</div>
@@ -15,7 +15,7 @@
     </template>
 
     <template v-if="data.nudges?.length">
-      <h4 style="font-size:15px;font-weight:600;margin:16px 0 8px;">Parenting Nudges</h4>
+      <h4 class="section-label" style="margin-top:24px;">Parenting Nudges</h4>
       <div v-for="n in data.nudges" :key="n.title" class="nudge-card">
         <h4>{{ n.title }}</h4>
         <p style="font-style:italic;">{{ n.context }}</p>
@@ -27,7 +27,6 @@
     </template>
 
     <div v-if="data.recommendation" class="book-rec">
-      <div class="book-icon">📖</div>
       <div>
         <h4>{{ data.recommendation.title }}<span v-if="data.recommendation.author"> by {{ data.recommendation.author }}</span></h4>
         <p>{{ data.recommendation.why }}</p>

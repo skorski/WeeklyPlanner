@@ -1,6 +1,6 @@
-# Weekly Family Planner — February 8 – 14, 2026
+# Weekly Family Planner — February 8 - February 14, 2026
 
-*Generated: 2026-02-07 13:48*
+*Generated: 2026-02-08 09:55*
 
 ---
 
@@ -8,13 +8,13 @@
 
 | Day | | Weather | Events | Dinner | Album |
 |-----|---|---------|--------|--------|-------|
-| **Sun 02/08** | 🌤️ | Sunny, 17°F / 8°F | — | Philly Cheesesteaks | Franc Moody – Dream in Colour |
-| **Mon 02/09** | 🌤️ | Sunny, 32°F / 8°F | Conduit Demonstration and Planning 4:00-5:00 PM (Reston Conf Room 5.1B) | Shakshuka with Feta | Makaya McCraven – In These Times |
-| **Tue 02/10** | ☁️ | Overcast, 48°F / 26°F | Alex 1:1 3:35-4:00 PM; COBRA Core & Deployments 4:05-4:30 PM; Swim lessons (evening) | Babo Pasta with Alfredo Sauce | Say She She – Prism |
-| **Wed 02/11** | ☁️ | Overcast, 45°F / 30°F | — | Kale Caesar Salad with Crispy Chickpeas | Hiroshi Yoshimura – Music for Nine Post Cards |
-| **Thu 02/12** | ☁️ | Overcast, 37°F / 27°F | Valentine's Day potluck lunch (bring heart-shaped mini pizzas) | Mushroom Pappardelle with Fresh Egg Pasta | Mulatu Astatke – Mulatu of Ethiopia |
-| **Fri 02/13** | ☁️ | Overcast, 36°F / 24°F | Laura book club (evening); Elsie YAT 4:30-6:00 PM | Baked Bronzino with Roasted Kale | Laufey – Bewitched |
-| **Sat 02/14** | ☀️ | Mainly clear, 40°F / 26°F | Valentine's Day; Travel day | Christmas Enchiladas | Sade – Love Deluxe |
+| **Sun 02/08** | ☁️ | Overcast, 22°F/14°F | Dinner at friend's house — Philly Cheesesteaks | Philly Cheesesteaks | Butcher Brown – Solar Music |
+| **Mon 02/09** | ☁️ | Overcast, 25°F/10°F | — | Herb-Roasted Whole Chicken with Root Vegetables & Pan Gravy | Ambrose Akinmusire – honey from a winter stone |
+| **Tue 02/10** | 🌧️ | Light drizzle, 45°F/18°F | Level 4 Swim Lessons 6:00-6:30 PM | Babo Pasta with Alfredo Sauce | Maria Mazzotta – Onde |
+| **Wed 02/11** | ☁️ | Overcast, 42°F/30°F | Elsie's afterschool science potions camp 3:45-4:45 PM | Warm Farro Salad with Roasted Beets, Goat Cheese & Walnuts | Adrianne Lenker – Bright Future |
+| **Thu 02/12** | ☁️ | Overcast, 37°F/27°F | Work Potluck for lunch — Dan making taco bar; Elsie's dance after school camp 3:45-4:45 PM | Shakshuka with Za'atar Sourdough Toast | Anouar Brahem – The Astounding Eyes of Rita |
+| **Fri 02/13** | 🌤️ | Partly cloudy, 38°F/24°F | Elsie YAT 4:30-6:00 PM; Laura Book Club (evening) | Lemon Ricotta Pancakes with Maple Breakfast Sausage | Say She She – Silver |
+| **Sat 02/14** | ❄️ | Slight snow, 40°F/27°F | Flight details 4:30-5:00 AM; YAT 9:00 AM-12:00 PM (tentative); Valentine's Day | Christmas Enchiladas | Lara Manzanares – Voz de Río |
 
 
 ---
@@ -23,342 +23,371 @@
 
 ### Sunday, February 8
 
-*It's 17°F with wind gusts up to 44 mph — the kind of Sunday where you don't leave the house unless someone's on fire. Which makes it the perfect day for cheesesteaks, board games, and Franc Moody's disco-funk warming the kitchen like a space heater with a bassline.*
+*Bundle up — it's 22°F with 43 mph gusts rattling the windows, a perfect excuse to head to a friend's house and let someone else do the cooking.*
 
-**Weather:** Sunny, 17°F / 8°F
-*Sunny (89%), wind 19 mph (gusts 44 mph), 0% precip. Bitter cold.*
+**Weather:** Overcast, 22°F/14°F
+*Mostly Sunny (63%), wind 20 mph (gusts 43 mph), 0% precip*
+
+**Calendar:**
+- Dinner at friend's house — Philly Cheesesteaks
+
+**Time Constraints:**
+- Need steak from RD
+- Fresh sourdough bread available
 
 #### Dinner: Philly Cheesesteaks
 
 | | |
 |---|---|
 | **Cuisine** | American |
-| **Key Ingredients** | ribeye steak, provolone cheese, hoagie rolls, onions, peppers |
-| **Source** | [Serious Eats](https://www.seriouseats.com/philly-cheesesteak-recipe) |
-Classic Philly cheesesteaks with paper-thin ribeye from RD, seared screaming-hot on a cast-iron griddle until the edges crisp and the fat renders. Provolone melted directly over the beef, sautéed onions caramelized until sweet, all piled into garlic-butter-toasted hoagie rolls.
+| **Key Ingredients** | ribeye steak (from RD), provolone, hoagie rolls, onions |
+The cheesesteak was born in 1930 when Pat Olivieri, tired of his own hot dogs, grilled sliced beef with onions on an Italian roll at the corner of 9th and Passyunk in South Philly. A passing cabbie tried one, told Pat to forget the franks, and an American icon was born. Tonight you get the real thing at a friend's table — no cooking required.
 
-*Pick up steak from RD beforehand. Quick cook — sear thin slices at high heat.*
+*Pick up steak from RD. Sourdough bread is ready and resting for the week ahead.*
 
+**Nutrition:** High protein from beef, moderate fat from cheese. Balanced by the social joy of eating with friends.
 
-
-#### Album: Franc Moody – Dream in Colour
+#### Album: Butcher Brown – Solar Music
 
 | | |
 |---|---|
-| **Year** | 2022 |
-| **Genre** | Disco-Funk / Indie-Pop |
-| **Mood** | Upbeat, funky, joyful |
+| **Year** | 2024 |
+| **Genre** | Jazz-Funk |
+| **Mood** | Energetic, funky, expansive |
 
-Born in a Tottenham warehouse studio full of vintage gear and Tabasco-bottle percussion, Franc Moody's debut is pure London disco-funk energy. Ned Franc and Jon Moody spent 18 months crafting these irresistibly funky tracks — they're playing 9:30 Club on Feb 19 if you catch the bug.
+Recorded at Montrose Recording in Richmond, VA with engineer Adrian Olsen, Solar Music is Butcher Brown's genre-defying manifesto — jazz, funk, hip-hop, and soul colliding in a five-piece collective that calls their sound 'everything under the sun.'
 
-**Sound:** Disco-funk basslines, shimmering synths, falsetto vocals, infectious hooks
+**Sound:** Jazz-funk fusion, heavy drums, wah-wah guitar, horn arrangements, progressive soul
 
-**Why this pairing:** *Cheesesteaks are a contact sport — hot griddle, fast hands, melted cheese flying. You need music with the same energy. Franc Moody's disco-funk basslines turn the kitchen into a dance floor while you sear.*
+**Why this pairing:** *Cheesesteaks deserve swagger, and this Richmond funk collective brings it. Plus they're playing The Atlantis in DC on March 13.*
 
-**Activity:** Cozy indoor day — board games or movie afternoon
-_Too cold for outdoor activities (17°F with 44 mph gusts). Hunker down._
+**Activity:** Dinner at friend's house
+_Bundle up — 22°F with 43 mph gusts! Sourdough bread is ready for the week._
 
 **Prep Notes:**
-- Pick up ribeye from RD
+- Pick up steak from RD
 
 ---
 
 ### Monday, February 9
 
-*Monday at the office with a demo running until 5 PM. By the time you walk in the door, you want something that requires exactly one pan and zero decisions. Shakshuka delivers — eggs, spiced tomatoes, feta, bread, done.*
+*The coldest night of the week — 10°F low — and the house will fill with the scent of thyme, rosemary, and roasting bird. Stay in, stay warm.*
 
-**Weather:** Sunny, 32°F / 8°F
-*Sunny (90%), wind 8 mph, 0% precip. Cold but calm.*
-
-**Calendar:**
-- Conduit Demonstration and Planning 4:00-5:00 PM (Reston Conf Room 5.1B)
+**Weather:** Overcast, 25°F/10°F
+*Mostly Sunny (72%), wind 7 mph (gusts 12 mph), 1% precip*
 
 **Time Constraints:**
-- Back from office ~5:30 PM
+- Use the raw chicken tonight before it goes bad
 
-#### Dinner: Shakshuka with Feta
-
-| | |
-|---|---|
-| **Cuisine** | North African / Israeli |
-| **Key Ingredients** | eggs, canned tomatoes, bell peppers, feta cheese, cumin, paprika, crusty bread |
-| **Source** | [Serious Eats](https://www.seriouseats.com/shakshuka-recipe) |
-Eggs poached in a smoky, garlicky tomato sauce spiked with harissa and finished with cold labneh dollops and a shower of za'atar. The contrast between the searing-hot sauce and the cool yogurt is what separates this from 'eggs in tomato sauce.' Serve with thick-cut sourdough for dunking — the yolk situation demands it.
-
-*One-skillet, 20 minutes. Perfect after a long office day.*
-
-
-
-#### Album: Makaya McCraven – In These Times
+#### Dinner: Herb-Roasted Whole Chicken with Root Vegetables & Pan Gravy
 
 | | |
 |---|---|
-| **Year** | 2022 |
-| **Genre** | Jazz / Hip-Hop |
-| **Mood** | Warm, meditative, groovy |
+| **Cuisine** | French-American |
+| **Key Ingredients** | whole chicken, carrots, parsnips, potatoes, garlic, thyme, rosemary, butter, sourdough bread |
+| **Source** | [FoodieCrush](https://www.foodiecrush.com/31-chicken-dinner-ideas/) |
+A whole chicken rubbed with herb butter, set atop a bed of carrots, parsnips, and potatoes, roasted until the skin crackles and the drippings pool into a simple pan gravy. Tear off hunks of Sunday's sourdough to sop up every last drop. This is the dinner Thomas Keller calls 'the benchmark of a cook.'
 
-Chicago drummer and producer Makaya McCraven doesn't just play jazz — he deconstructs and reassembles it with a hip-hop producer's ear. 'In These Times' layers live ensemble recordings with lush strings and vibraphone into something warm, unhurried, and impossible to stop playing.
+*Start the chicken at 5 PM for a 6:30 table. Save the carcass — tomorrow's broth starts tonight.*
 
-**Sound:** Live jazz ensemble cut-and-pasted with hip-hop sensibility, lush strings, vibraphone
+**Nutrition:** Excellent protein from chicken. Root vegetables provide fiber, vitamin A, and potassium. Well-rounded meal.
 
-**Why this pairing:** *After a full office day, you need music that doesn't ask anything of you but gives everything back. McCraven's meditative grooves match shakshuka's one-skillet simplicity — both are layered, warm, and better than they have any right to be for something so effortless.*
+#### Album: Ambrose Akinmusire – honey from a winter stone
+
+| | |
+|---|---|
+| **Year** | 2025 |
+| **Genre** | Modern Jazz |
+| **Mood** | Contemplative, warm, wintry |
+
+Grammy-nominated for Best Alternative Jazz Album, Akinmusire's winter-titled record is atmospheric and emotionally searching — the trumpet floating over spare arrangements like breath visible in cold air.
+
+**Sound:** Modern jazz trumpet, atmospheric textures, restrained rhythm section, spacious arrangements
+
+**Why this pairing:** *A winter-titled jazz album for the week's coldest night. Trumpet warmth mirrors the thyme-scented air of a roasting kitchen.*
+
+**Activity:** Make chicken broth from the carcass after dinner
+_Coldest night of the week — perfect for staying in. The house will smell amazing._
+
+**Prep Notes:**
+- Take chicken out of fridge 1 hour before roasting
+- Prep root vegetables while chicken comes to room temp
 
 ---
 
 ### Tuesday, February 10
 
-*The warmest day of the week at 48°F — practically spring by this week's standards. But swim lessons mean the evening is a sprint: home, cook, eat, go. Babo Alfredo is the answer — 20 minutes, four ingredients, infinite comfort.*
+*The warmest day at 45°F — practically a thaw. Make pasta together in the morning, let the dough rest in the fridge, then roll and cut before swim lessons.*
 
-**Weather:** Overcast, 48°F / 26°F
-*Sunny (87%), 80% cloud cover, wind 7 mph, 1% precip. Warmest day of the week.*
+**Weather:** Light drizzle, 45°F/18°F
+*Sunny (88%), wind 10 mph (gusts 35 mph), 2% precip*
 
 **Calendar:**
-- Alex 1:1 3:35-4:00 PM
-- COBRA Core & Deployments 4:05-4:30 PM
-- Swim lessons (evening)
+- Level 4 Swim Lessons 6:00-6:30 PM
 
 **Time Constraints:**
-- Swim lessons in the evening — need a fast dinner before or after
+- Dinner after swim lessons — needs to be fast
+- Pasta can be made ahead
 
 #### Dinner: Babo Pasta with Alfredo Sauce
 
 | | |
 |---|---|
 | **Cuisine** | Italian |
-| **Key Ingredients** | fettuccine, butter, Parmigiano-Reggiano, pasta water, garlic |
-| **Source** | [Bon Appétit](https://www.bonappetit.com/recipe/fettuccine-alfredo) |
-Silky fettuccine Alfredo made the Roman way — no cream, no shortcuts. Just good butter, a mountain of freshly grated Parmigiano-Reggiano, and the starchy pasta water doing the heavy lifting to create a glossy emulsion that clings to every strand. Finished with a snowfall of lemon zest from 12 inches above the bowl — the aromatic citrus oil brightens everything without breaking the sauce.
+| **Key Ingredients** | spinach, egg yolks, flour, heavy cream, butter, Parmigiano-Reggiano, nutmeg |
+| **Source** | [Food Network](https://www.foodnetwork.com/recipes/food-network-kitchen/homemade-spinach-pasta-13155458) |
+Handmade egg-yolk pasta in the Emilian tradition — yolks only, no whites — yielding golden, silky noodles with an almost custard-like richness. Tossed in a proper Alfredo of butter, cream, and Parmigiano-Reggiano. Fifteen minutes from boiling water to table.
 
-*Quick comfort food before swim lessons. Use Babo brand pasta.*
+*Make dough in the morning, rest in fridge. Boil water before leaving for swim — cook the moment you walk in the door.*
 
+**Nutrition:** Good protein from eggs. Spinach adds iron and folate. Rich in calcium from Parmigiano. Consider a side salad for extra fiber.
 
-
-#### Album: Say She She – Prism
+#### Album: Maria Mazzotta – Onde
 
 | | |
 |---|---|
-| **Year** | 2022 |
-| **Genre** | Disco-Soul / Funk |
-| **Mood** | Warm, groovy, empowering |
+| **Year** | 2024 |
+| **Genre** | Italian Folk |
+| **Mood** | Heartfelt, Mediterranean, earthy |
 
-Say She She is a Brooklyn trio channeling the shimmering three-part harmonies of 70s disco-soul through a modern indie lens. 'Prism' sounds like Chic and Rotary Connection had a baby and raised it on Afrobeat. They're at 9:30 Club on Feb 17 — two days before Franc Moody hits the same stage.
+Recorded at Sudestudio in Italy and winner of the Premio Loano for best traditional album, Onde blends Salento pizzica rhythms with post-rock guitars. Guest spots include Nigerien desert-blues guitarist Bombino.
 
-**Sound:** Three-part harmonies, vintage disco production, funk guitar, Afrobeat percussion
+**Sound:** Italian folk vocals, pizzica rhythms, accordion, frame drum, Mediterranean instrumentation
 
-**Why this pairing:** *Pasta night needs warmth without drama. Say She She's vintage disco-soul provides exactly that — the three-part harmonies float over the simmering butter like steam rising from the pot. Groovy enough to keep energy up before swim lessons.*
+**Why this pairing:** *Italian pasta deserves real Italian music — not Sinatra, but Puglian frame drums and a voice that channels the Southern coast.*
 
-**Activity:** Swim lessons
-_Elsie swim lessons in the evening_
+**Activity:** Swim lessons at 6:00 PM
+_Warmest day of the week at 45°F — enjoy the relative thaw! Make pasta together in the morning._
+
+**Prep Notes:**
+- Morning: Make babo pasta dough (spinach + egg yolks + flour)
+- Afternoon: Roll and cut pasta before swim
+- Set water to boil before leaving for swim
 
 ---
 
 ### Wednesday, February 11
 
-*Midweek reset. No meetings, working from home, 45°F outside. This is the day to take an afternoon walk, massage some kale, and let the week breathe. A big, punchy Caesar salad for dinner because not every night needs to be heavy — sometimes the salad is the main event.*
+*Midweek calm. Elsie's at Science Potions Camp until 4:45 — roast the beets while she's gone, then assemble dinner together when she's home.*
 
-**Weather:** Overcast, 45°F / 30°F
-*Sunny (90%), 52% cloud cover, wind 13 mph, 18% precip.*
+**Weather:** Overcast, 42°F/30°F
+*Sunny (90%), wind 13 mph (gusts 32 mph), 3% precip*
 
-#### Dinner: Kale Caesar Salad with Crispy Chickpeas
+**Calendar:**
+- Elsie's afterschool science potions camp 3:45-4:45 PM
 
-| | |
-|---|---|
-| **Cuisine** | American |
-| **Key Ingredients** | lacinato kale, anchovy, lemon, Parmesan, chickpeas, garlic, croutons |
-| **Source** | [Bon Appétit](https://www.bonappetit.com/recipe/kale-caesar-salad) |
-Lacinato kale — the sturdy, blue-green variety that doesn't wilt into nothing — massaged with olive oil and lemon until tender, then tossed in a proper anchovy-lemon Caesar dressing with shaved Parmesan, herbed croutons, and chickpeas roasted with cumin and smoked paprika until they shatter when you bite them. This isn't a side salad. This is dinner.
+**Time Constraints:**
+- Elsie pickup at 4:45
+- Hearty salad night — lighter dinner
 
-*Hefty dinner salad. Roast chickpeas with cumin and smoked paprika for crunch and protein.*
-
-
-
-#### Album: Hiroshi Yoshimura – Music for Nine Post Cards
+#### Dinner: Warm Farro Salad with Roasted Beets, Goat Cheese & Walnuts
 
 | | |
 |---|---|
-| **Year** | 1982 |
-| **Genre** | Japanese Ambient / Minimalism |
-| **Mood** | Serene, crystalline, meditative |
+| **Cuisine** | Mediterranean |
+| **Key Ingredients** | farro, golden beets, red beets, goat cheese, walnuts, arugula, dried cranberries, sherry vinegar, maple syrup |
+Warm farro — the ancient Tuscan grain — tossed with roasted golden and red beets, crumbled goat cheese, toasted walnuts, arugula, and dried cranberries, all dressed in a sherry-maple vinaigrette. Substantial, earthy, and ready in the time it takes to cook the grain.
 
-Originally commissioned for Tokyo's Hara Museum of Contemporary Art in 1982, Yoshimura's debut is nine pieces of pure stillness — sparse electric piano and warm analog synths that were designed to merge with the museum's architecture, not compete with it. The 2017 reissue introduced it to a global audience who immediately understood: this is music you live inside.
+*Roast beets during camp. Farro takes 25 minutes — start when she walks in. Assembly is fast.*
 
-**Sound:** Sparse piano, warm analog synths, silence as instrument, environmental music
+**Nutrition:** Excellent fiber from farro and beets. Beets are rich in nitrates and folate. Goat cheese adds calcium. Walnuts provide omega-3s. One of the week's most nutritionally complete meals.
 
-**Why this pairing:** *A clean, bright salad dinner needs clean, airy music. Yoshimura's crystalline ambient doesn't fill a room — it reshapes it. The silence between notes is as intentional as the lemon in the dressing. Both are exercises in restraint that somehow feel abundant.*
+#### Album: Adrianne Lenker – Bright Future
 
-**Activity:** WFH flex day — maybe an afternoon walk if weather holds
-_45°F is the warmest this week — take advantage if possible_
+| | |
+|---|---|
+| **Year** | 2024 |
+| **Genre** | Indie Folk |
+| **Mood** | Intimate, gentle, luminous |
+
+Recorded at Double Infinity studio in the Massachusetts mountains with Nick Hakim on piano, Bright Future is Grammy-nominated folk at its most intimate — fingerpicked guitar, whispered vocals, and the unhurried patience of a snow day.
+
+**Sound:** Acoustic guitar, fingerpicking, intimate vocals, lo-fi warmth, folk minimalism
+
+**Why this pairing:** *An earthy grain salad on a quiet Wednesday calls for music that's equally unhurried — Lenker's gentle folk mirrors the meal's honest simplicity.*
+
+**Activity:** Elsie's Science Potions Camp (3:45-4:45 PM)
+_Pickup at 4:45 PM. Ask about potions experiments at dinner!_
 
 **Prep Notes:**
-- Massage kale with olive oil and lemon juice 30 min before serving
+- Roast beets during science camp (45 min at 400°F)
+- Toast walnuts in a dry pan
+- Cook farro when Elsie gets home
 
 ---
 
 ### Thursday, February 12
 
-*Thursday pulls double duty: Valentine's heart-shaped mini pizzas for the potluck lunch at work, then home to make fresh egg pasta from scratch for dinner. The pappardelle is the week's cooking project — hands in flour, dough resting, mushrooms browning — and it's worth every minute.*
+*A lighter evening after the potluck lunch. Dance camp pickup at 4:45, then a one-skillet dinner that practically cooks itself.*
 
-**Weather:** Overcast, 37°F / 27°F
-*Sunny (92%), 87% cloud cover, wind 13 mph, 11% precip.*
+**Weather:** Overcast, 37°F/27°F
+*Sunny (91%), wind 15 mph (gusts 32 mph), 5% precip*
 
 **Calendar:**
-- Valentine's Day potluck lunch (bring heart-shaped mini pizzas)
+- Work Potluck for lunch — Dan making taco bar
+- Elsie's dance after school camp 3:45-4:45 PM
 
 **Time Constraints:**
-- Big lunch at work — lighter appetite for dinner
+- Big lunch at potluck — lighter dinner preferred
+- Prep taco bar ingredients in the morning
 
-#### Dinner: Mushroom Pappardelle with Fresh Egg Pasta
-
-| | |
-|---|---|
-| **Cuisine** | Italian |
-| **Key Ingredients** | 00 flour, eggs, cremini mushrooms, oyster mushrooms, dried porcini, butter, white wine, sage, Parmesan |
-| **Source** | [GZ Recipes](https://www.gzrecipes.com/en/atavolacontea/pappardelle-with-mushrooms-butter-and-sage/) |
-Wide ribbons of fresh egg pappardelle — the kind you can only get by making it yourself, with that tender, silky chew — tossed with a mix of cremini, oyster, and rehydrated porcini mushrooms seared until deeply golden in brown butter with crispy sage. The porcini soaking liquid gets reduced to a syrup and stirred in — it's liquid umami. Finished with toasted walnuts and a splash of sherry vinegar you'll barely taste but absolutely miss if it's gone.
-
-*Make the fresh egg pasta dough in the afternoon and rest it. Roll and cut wide pappardelle before dinner.*
-
-
-
-#### Album: Mulatu Astatke – Mulatu of Ethiopia
+#### Dinner: Shakshuka with Za'atar Sourdough Toast
 
 | | |
 |---|---|
-| **Year** | 1972 |
-| **Genre** | Ethio-Jazz |
-| **Mood** | Hypnotic, groovy, mysterious |
+| **Cuisine** | Middle Eastern / North African |
+| **Key Ingredients** | eggs, canned tomatoes, bell peppers, onion, garlic, cumin, harissa, za'atar, sourdough bread, feta cheese |
+| **Source** | [Serious Eats](https://www.seriouseats.com/shakshuka-north-african-eggs-tomato-sauce-recipe) |
+Shakshuka — eggs poached in a spiced tomato-pepper sauce fragrant with cumin, paprika, and harissa. The dish traces to the Maghreb, where its Arabic name simply means 'a mixture.' Thick slices of Sunday's sourdough, rubbed with za'atar and olive oil, are the only utensil you need.
 
-Mulatu Astatke was the first African student at Berklee College of Music. He took what he learned about jazz and Latin music and fused it with Ethiopian pentatonic scales and traditional modes to invent an entirely new genre: Ethio-jazz. 'Mulatu of Ethiopia' (1972), recorded in New York, is the masterwork — vibraphone, organ, and congas moving through hypnotic minor-key grooves that sound like nothing else ever recorded.
+*Light dinner after heavy potluck. One skillet, minimal cleanup. Uses Sunday's sourdough.*
 
-**Sound:** Ethiopian pentatonic scales, vibraphone, organ, congas, walking bass, jazz arrangements
+**Nutrition:** High protein from eggs. Lycopene from tomatoes. Vegetarian. Light and balanced after a heavy potluck lunch.
 
-**Why this pairing:** *Earthy mushroom pappardelle and earthy Ethio-jazz — the pairing writes itself. The vibraphone's warm shimmer mirrors the brown butter, the walking bass echoes the deep umami of reduced porcini, and the hypnotic repetition matches the meditative rhythm of rolling fresh pasta.*
+#### Album: Anouar Brahem – The Astounding Eyes of Rita
 
-**Activity:** Valentine's potluck at work (lunch)
-_Bring heart-shaped mini pizzas for the potluck_
+| | |
+|---|---|
+| **Year** | 2009 |
+| **Genre** | Arabic Jazz / Chamber |
+| **Mood** | Meditative, hypnotic, luminous |
+
+Released on ECM, Brahem's oud quartet merges Arabic maqam traditions with jazz and chamber music. Klaus Gesing's bass clarinet weaves around the oud like smoke — hypnotic, meditative, impossible to rush.
+
+**Sound:** Oud, piano, accordion, double bass — sparse and spacious chamber jazz with Middle Eastern modalities
+
+**Why this pairing:** *North African comfort food deserves music from the same world. Brahem's Tunisian oud creates the meditative atmosphere shakshuka was made for.*
+
+**Activity:** Work potluck (lunch) + Elsie's dance camp (3:45-4:45 PM)
+_Prep taco bar in the morning (sour cream, guac, taco shells, beef, shredded lettuce). Light dinner after heavy lunch._
 
 **Prep Notes:**
-- Make pizza dough Wednesday night
-- Shape heart pizzas Thursday morning
-- Make fresh pasta dough Thursday afternoon, rest 30 min
+- Morning: Brown taco beef, prep guac, shred lettuce, pack taco shells + sour cream for potluck
+- Evening: Shakshuka is a 30-minute one-pan meal — start after Elsie pickup
 
 ---
 
 ### Friday, February 13
 
-*Friday is a split operation: Elsie at YAT until 6, Laura at book club. Dan picks up Elsie, comes home, and slides a prepped sheet pan of bronzino into a hot oven. Twenty-five minutes later: crispy-skinned fish over roasted kale, and the whole evening ahead for just the two of them.*
+*Friday fun night — Laura's at book club, so it's Dad and Elsie in the kitchen. Pack for tomorrow's 4:30 AM flight while the pancakes cool.*
 
-**Weather:** Overcast, 36°F / 24°F
-*Sunny (92%), 39% cloud cover, wind 11 mph, 22% precip.*
+**Weather:** Partly cloudy, 38°F/24°F
+*Sunny (92%), wind 12 mph (gusts 26 mph), 20% precip*
 
 **Calendar:**
-- Laura book club (evening)
 - Elsie YAT 4:30-6:00 PM
+- Laura Book Club (evening)
 
 **Time Constraints:**
-- Elsie at YAT until 6 PM
-- Laura at book club — Dan solo dinner duty
+- Elsie pickup from YAT at 6:00 PM
+- Laura at book club — Dan and Elsie cooking together
+- Easy, fun dinner
 
-#### Dinner: Baked Bronzino with Roasted Kale
-
-| | |
-|---|---|
-| **Cuisine** | Mediterranean |
-| **Key Ingredients** | whole bronzino (butterflied), lacinato kale, cherry tomatoes, white beans, lemon, garlic, olive oil |
-| **Source** | [Fulton Fish Market](https://fultonfishmarket.com/blogs/recipes/branzino-with-lacinato-kale-tomatoes-white-beans-recipe) |
-Butterflied bronzino roasted at 425°F over a bed of lacinato kale, burst cherry tomatoes, and white beans — the fish makes its own pan sauce from lemon, garlic, and good olive oil as it cooks. Scored skin with thyme tucked into the slashes, finished under the broiler for two minutes until the skin crackles. Topped with a crispy caper and lemon zest gremolata that adds brightness and crunch to every bite.
-
-*Can prep the kale-tomato-bean bed ahead. Nestle fish on top when home from picking up Elsie. 25 min in oven.*
-
-
-
-#### Album: Laufey – Bewitched
+#### Dinner: Lemon Ricotta Pancakes with Maple Breakfast Sausage
 
 | | |
 |---|---|
-| **Year** | 2023 |
-| **Genre** | Jazz-Pop / Bossa Nova |
-| **Mood** | Dreamy, romantic, bittersweet |
+| **Cuisine** | American (Breakfast-for-Dinner) |
+| **Key Ingredients** | ricotta cheese, lemons, flour, eggs, maple syrup, breakfast sausage, butter, baking powder |
+| **Source** | [136 Home](https://www.136home.com/blog/easy-fluffy-lemon-ricotta-pancakes) |
+Fluffy ricotta pancakes brightened with lemon zest and juice, served with real maple syrup and pan-seared breakfast sausage. The ricotta pancake tradition traces to Sephardic Jews in medieval Southern Italy — tonight it's Elsie's choice, and she's flipping.
 
-Laufey (pronounced 'Lay-vay') is an Icelandic-Chinese jazz-pop prodigy who studied cello at Berklee before becoming the youngest artist ever to win the Grammy for Best Traditional Pop Vocal Album. 'Bewitched' blends golden-age jazz sensibility — think Chet Baker, Ella Fitzgerald — with bossa nova rhythms and Gen-Z lyrical honesty. It's intimate, romantic, and quietly sophisticated.
+*Elsie's pick! Let her measure and flip. Pack bags for Albuquerque before bed — 4:30 AM comes fast.*
 
-**Sound:** Jazz guitar, gentle strings, bossa nova rhythms, intimate vocals
+**Nutrition:** Protein from ricotta, eggs, and sausage. Vitamin C from lemon. A treat meal — balance with fruit on the side.
 
-**Why this pairing:** *Light fish, light music. Laufey's bossa nova-inflected jazz is airy enough for delicate bronzino and romantic enough for the night before Valentine's Day. The intimacy of her voice — close-miked, almost whispered — matches the intimacy of a solo dinner with your daughter.*
+#### Album: Say She She – Silver
 
-**Activity:** Elsie YAT, Laura book club
-_Dan solo with Elsie after 6 PM. Quick dinner, cozy evening._
+| | |
+|---|---|
+| **Year** | 2024 |
+| **Genre** | Indie Soul / Funk |
+| **Mood** | Joyful, groovy, upbeat |
+
+Recorded live to tape at Killion Sound in North Hollywood by producer Sergio Rios, Silver is Brooklyn disco-soul with a conscience — Motown harmonies, Chic-inspired grooves, and lyrics tackling everything from bodily autonomy to feminist art.
+
+**Sound:** Three-part harmonies, disco-funk bass, vintage keys, Motown-inspired arrangements with indie sensibility
+
+**Why this pairing:** *Breakfast-for-dinner is a celebration, and Say She She's disco-funk will have Elsie dancing at the stove. They're at 9:30 Club on Feb 17.*
+
+**Activity:** YAT 4:30-6:00 PM. Dad + Elsie cooking night. Laura at book club.
+_Pack for tomorrow's 4:30 AM flight to Albuquerque! Pre-Valentine's Day vibes._
 
 **Prep Notes:**
-- Prep kale-tomato-bean bed before picking up Elsie
+- Pack bags for Albuquerque trip
+- Set out pancake ingredients before YAT pickup
+- Pre-measure dry ingredients so Elsie can help assemble
 
 ---
 
-### Saturday, February 14
+### Saturday, February 14 — Valentine's Day
 
-*Valentine's Day, the clearest sky of the week, and a travel day. The enchilada filling and both sauces are prepped from Friday night — all that's left is assembly and 20 minutes in a hot oven. The visual alone — half red, half green, topped with pink pickled onions — is a Valentine worthy of the occasion.*
+*Valentine's Day in the high desert. You woke at 3:30 AM, flew west, and landed in a city where the question isn't 'how are you?' — it's 'red or green?'*
 
-**Weather:** Mainly clear, 40°F / 26°F
-*Sunny (92%), 5% cloud cover, wind 7 mph, 20% precip. Clearest day of the week.*
+**Weather:** Slight snow, 40°F/27°F
+*Sunny (91%), wind 9 mph (gusts 25 mph), 30% precip, possible light snow*
 
 **Calendar:**
+- Flight details 4:30-5:00 AM
+- YAT 9:00 AM-12:00 PM (tentative)
 - Valentine's Day
-- Travel day
 
 **Time Constraints:**
-- Travel day — prep enchiladas ahead or assemble on arrival
+- Travel day — all meals eaten out
+- Early wake-up for 4:30 AM flight
 
 #### Dinner: Christmas Enchiladas
 
 | | |
 |---|---|
-| **Cuisine** | Mexican |
-| **Key Ingredients** | corn tortillas, shredded chicken, red chile sauce, tomatillo green sauce, Cotija cheese, crema, cilantro |
-| **Source** | [Kevin Is Cooking](https://keviniscooking.com/enchiladas-divorciadas-christmas-enchiladas/) |
-Enchiladas divorciadas — the dramatic 'divorced' presentation with rich red guajillo-ancho chile sauce on one side and bright tomatillo-green chile sauce on the other. Corn tortillas quick-fried for pliability and flavor, filled with shredded chicken and cheese, topped with crema, Cotija, cilantro, pink pickled red onions, and toasted pepitas. The two sauces meet in the middle of the baking dish like a delicious peace treaty.
+| **Cuisine** | New Mexican |
+| **Key Ingredients** | blue corn tortillas, red chile sauce (Hatch), green chile sauce (Hatch), cheese, chicken or beef, fried egg |
+| **Source** | [Goldilocks Kitchen](https://goldilockskitchen.com/2022/11/christmas-style-enchiladas-from-new-mexico/) |
+New Mexico stacked enchiladas smothered Christmas style — half red chile (deep, smoky, earthy) and half green chile (bright, tangy, sharp). The name doesn't come from the holiday; it comes from a server's suggestion to a customer who couldn't choose. Order with a side of sopaipillas and carne adovada.
 
-*Travel day — can prep filling and sauces Friday night. Assemble and bake on arrival.*
+*Valentine's dinner in Albuquerque! Try Cocina Azul or Sadie's. Don't skip the sopaipillas.*
 
+**Nutrition:** Restaurant meal — enjoy without overthinking. The chile peppers are loaded with vitamin C and capsaicin.
 
-
-#### Album: Sade – Love Deluxe
+#### Album: Lara Manzanares – Voz de Río
 
 | | |
 |---|---|
-| **Year** | 1992 |
-| **Genre** | Smooth Jazz / R&B |
-| **Mood** | Sensual, sophisticated, warm |
+| **Year** | 2023 |
+| **Genre** | New Mexico Indie Folk |
+| **Mood** | Warm, storytelling, rooted |
 
-There's a reason Sade's 'Love Deluxe' (1992) is the only album anyone ever needs for Valentine's Day. 'No Ordinary Love' opens with a bass line that sounds like a heartbeat. 'Kiss of Life' is the kind of song that makes you slow-dance in the kitchen. The whole record moves with the confidence of someone who knows exactly what they're doing — smoky, elegant, and impossibly cool.
+Manzanares is a northern New Mexico native from a sheep-ranching family whose bilingual folk won Album of the Year at the New Mexico Music Awards. Her songs are sonic postcards from the Land of Enchantment — listen on the plane.
 
-**Sound:** Smooth jazz, quiet storm R&B, African rhythms, silky vocals, saxophone
+**Sound:** Acoustic guitar, bilingual vocals (English/Spanish), folk arrangements, New Mexico folk traditions
 
-**Why this pairing:** *It's Valentine's Day. There is exactly one album. Sade's smoky sophistication turns enchiladas from a casual dinner into a candlelit event. The African rhythms underneath the quiet storm R&B mirror the Mexican warmth of the dish. No debate, no alternatives.*
+**Why this pairing:** *Flying to New Mexico? Start the experience at 30,000 feet with music from an Albuquerque native whose bilingual folk captures the exact landscape below.*
 
-**Activity:** Valentine's Day celebration
-_Travel day. Keep it simple and romantic._
+**Activity:** Travel to Albuquerque! Valentine's Day dinner.
+_4:30 AM flight. YAT at 9 AM may be tentative. Valentine's Day — love in the high desert!_
 
 **Prep Notes:**
-- Prep enchilada filling and sauces Friday night
-- Assemble on arrival, bake 20 min
+- Bags should be packed Friday night
+- TSA docs ready
+- Download Lara Manzanares album for the plane
 
 ---
 
 ## Appetizers
 
-### Whipped Feta Dip with Roasted Red Peppers
-**Cuisine:** Mediterranean
-Creamy whipped feta blended with roasted red peppers, garlic, and a drizzle of good olive oil. Served with warm pita triangles and crudités.
-
-**Key Ingredients:** feta cheese, cream cheese, roasted red peppers, garlic, olive oil, pita
-
-
-
-### Crispy Baked Mozzarella Bites
+### Warm Baked Ricotta with Lemon & Herbs
 **Cuisine:** Italian
-Golden panko-crusted mozzarella bites baked until molten inside, served with warm marinara. Kid-proof and party-ready.
+Whole-milk ricotta baked until golden and slightly puffed, finished with lemon zest, fresh herbs, cracked pepper, and good olive oil. Served with sourdough crostini.
 
-**Key Ingredients:** fresh mozzarella, panko breadcrumbs, eggs, flour, marinara sauce
+**Key Ingredients:** ricotta cheese, lemon, thyme, olive oil, sourdough bread
+
+
+
+### Whipped Feta Dip with Roasted Red Peppers & Za'atar
+**Cuisine:** Mediterranean
+Feta whipped with cream cheese, lemon, and garlic until fluffy, topped with roasted red peppers, olive oil, and za'atar. Served with warm pita.
+
+**Key Ingredients:** feta cheese, cream cheese, roasted red peppers, za'atar, lemon, pita
 
 
 
@@ -368,37 +397,37 @@ Golden panko-crusted mozzarella bites baked until molten inside, served with war
 
 ### Winter Citrus & Radicchio Salad *(Composed Dinner)*
 
-Composed plate of blood orange and cara cara segments, shaved radicchio, burrata, toasted pistachios, and Castelvetrano olives.
+Composed arrangement of blood orange and cara cara segments, shaved radicchio, burrata, pistachios, and Castelvetrano olives.
 
 
 
-**Dressing:** Blood orange vinaigrette: fresh blood orange juice, champagne vinegar, Dijon mustard, extra-virgin olive oil, minced shallot, flaky salt, cracked black pepper
+**Dressing:** Blood orange vinaigrette: fresh blood orange juice, champagne vinegar, Dijon mustard, EVOO, minced shallot, flaky salt, honey
 
-**Why these flavors work:** Bitter radicchio tamed by sweet citrus and creamy burrata. Pistachios add crunch. Italian amaro-dolce-grasso balance.
-
-
-
-### Shaved Brussels Sprout Slaw with Apple & Pecans *(Side)*
-
-Thinly shaved Brussels sprouts with Honeycrisp apple matchsticks, toasted pecans, dried cranberries, and Pecorino Romano.
+**Why these flavors work:** Bitter radicchio tamed by sweet citrus and creamy burrata. The vinaigrette brightens every bite. Follows the Italian principle of balancing amaro with dolce and grasso.
 
 
 
-**Dressing:** Apple cider vinaigrette: apple cider vinegar, whole-grain mustard, honey, extra-virgin olive oil, salt, pepper
+### Shaved Brussels Sprout Slaw with Pecorino & Hazelnuts *(Side)*
 
-**Why these flavors work:** Brussels sprout bitterness against sweet apple and tart cranberries. Pecans add warmth. Vinaigrette keeps it crisp and lively.
-
-
-
-### Roasted Beet & Citrus Salad with Goat Cheese *(Side)*
-
-Earthy roasted beets with grapefruit and orange segments, tangy goat cheese, and toasted walnuts on arugula.
+Thinly shaved Brussels sprouts tossed with shaved Pecorino Romano, toasted hazelnuts, and a bright lemon-anchovy dressing.
 
 
 
-**Dressing:** Sherry-walnut vinaigrette: sherry vinegar, Dijon mustard, walnut oil, extra-virgin olive oil, minced shallot, honey, salt, pepper
+**Dressing:** Lemon-anchovy dressing: fresh lemon juice, anchovy paste, Dijon mustard, EVOO, garlic, salt, pepper
 
-**Why these flavors work:** Earthy beets and bright citrus in sweet-savory tension. Goat cheese adds tang, walnuts bring warmth. Valentine's-worthy colors.
+**Why these flavors work:** Umami from anchovy and Pecorino meets the mild bitterness of raw Brussels sprouts. Lemon brightens, hazelnuts add toasty warmth.
+
+
+
+### Simple Arugula & Parmesan with Lemon Vinaigrette *(Side)*
+
+Peppery arugula with shaved Parmigiano-Reggiano, lemon, and the best olive oil you have. The 3-minute side salad that elevates any dinner.
+
+
+
+**Dressing:** Fresh lemon juice, EVOO, Maldon salt, cracked black pepper
+
+**Why these flavors work:** Arugula's pepperiness softened by the nuttiness of Parmigiano and fruity acidity of lemon. Every ingredient pulls its weight.
 
 
 
@@ -406,20 +435,20 @@ Earthy roasted beets with grapefruit and orange segments, tangy goat cheese, and
 
 ## Beverage Pairings
 
-### Malbec (Red Wine)
-Full-bodied, plummy Malbec from Mendoza — the ideal companion for a beef-heavy week. $12-15 range.
+### Côtes du Rhône
+Medium-bodied Grenache-Syrah-Mourvèdre blend with red fruit, herbs, and gentle spice. Versatile enough for chicken, pasta, or cheesesteaks. Look for Guigal or Chapoutier ($12-16).
 
-*Pairs with cheesesteaks, pappardelle, and enchiladas.*
+*An everyday red that pairs with the widest range of this week's dinners.*
 
-### Sparkling Pomegranate Mocktail
-Pomegranate juice, fresh lime, simple syrup, and sparkling water over ice. Festive ruby-red.
+### Sparkling Water with Blood Orange & Rosemary
+Sparkling mineral water with muddled blood orange, rosemary sprig, and lime squeeze. Refreshing, zero-proof, and ties into the winter citrus theme.
 
-*Non-alcoholic option for the family. Valentine's-worthy color.*
+*Kid-friendly and festive without alcohol. Ties into the winter citrus salad theme.*
 
-### Japanese Lager (Asahi or Sapporo)
-Crisp, clean Japanese lager served ice-cold. Cuts through rich miso or umami flavors.
+### Mexican Hot Chocolate
+Rich hot cocoa with cinnamon, a pinch of cayenne, vanilla, topped with whipped cream or marshmallows. Warming for cold February nights.
 
-*Light contrast to the umami-heavy bronzino and kale dinner.*
+*Ties into New Mexico travel theme. Kid-approved. Perfect for 20°F evenings.*
 
 ---
 
@@ -428,121 +457,114 @@ Crisp, clean Japanese lager served ice-cold. Cuts through rich miso or umami fla
 ### Groceries Needed
 
 **Produce**
-- lacinato kale (2 bunches)
-- blood oranges
-- cara cara oranges
-- radicchio
-- Brussels sprouts
-- Honeycrisp apples
-- red & golden beets
-- grapefruit
-- cherry tomatoes
-- bell peppers
-- onions
-- garlic
-- lemons
-- limes
-- cilantro
-- sage
-- flat-leaf parsley
-- arugula
-- scallions
-- avocado
-- tomatillos
-- green chiles
+- carrots
+- parsnips
+- potatoes (2 lbs)
+- garlic (2 heads)
+- onions (3)
+- spinach (6 cups baby)
+- bell peppers (2)
+- lemons (4)
+- arugula (2 bags)
+- golden beets (2)
+- red beets (2)
+- cherry tomatoes (1 pint)
+- blood oranges (3)
+- radicchio (1 head)
+- Brussels sprouts (1 lb)
+- fresh thyme
+- fresh rosemary
+- fresh parsley
+- shallots (2)
 
 **Protein**
-- ribeye steak (from RD)
-- whole bronzino (2, butterflied)
+- whole chicken (4 lbs — use from fridge)
 - eggs (2 dozen)
-- shredded rotisserie chicken
+- breakfast sausage links (1 package)
+- ribeye steak (from RD for Sunday)
 
 **Dairy**
-- butter (2 lbs)
-- Parmigiano-Reggiano
-- Pecorino Romano
-- feta cheese
-- burrata
-- goat cheese
-- provolone
-- mozzarella (fresh)
-- cream cheese
-- Cotija cheese
-- Mexican crema
+- whole-milk ricotta (15 oz)
+- heavy cream (1 pint)
+- Parmigiano-Reggiano (wedge)
+- butter (2 sticks)
+- feta cheese (8 oz)
+- goat cheese (4 oz)
+- burrata (1 ball)
+- Pecorino Romano (small wedge)
+- cream cheese (4 oz)
+- sour cream (for potluck taco bar)
+
+**Grains & Pasta**
+- farro (1 cup)
+- flour (2 cups)
+- sourdough bread (from Sunday batch)
+- hoagie rolls (Sunday)
+- pita bread
+- taco shells (for potluck)
 
 **Pantry**
-- fettuccine (Babo brand)
-- 00 flour
-- canned crushed tomatoes
-- white beans (canned)
-- dried porcini mushrooms
-- panko breadcrumbs
-- dried red chiles
+- canned tomatoes (28 oz)
+- harissa paste
+- za'atar
 - cumin
 - paprika
-- smoked paprika
-- coriander
-- hoagie rolls
-- corn tortillas
-- pita bread
-- crusty bread
-- croutons
-- pistachios
-- pecans
-- walnuts
-- dried cranberries
-- Castelvetrano olives
-- anchovy fillets
-- Dijon mustard
-- whole-grain mustard
-- champagne vinegar
-- apple cider vinegar
+- nutmeg
+- baking powder
+- maple syrup
 - sherry vinegar
-- red wine vinegar
-- extra-virgin olive oil
-- walnut oil
-- white wine
+- champagne vinegar
+- Dijon mustard
+- anchovy paste
+- capers
+- dried cranberries
+- olive oil (good EVOO)
 - honey
-- chickpeas (canned)
+- cinnamon
+- cayenne
+- vanilla extract
+- cocoa powder
 
-**Mushrooms**
-- cremini mushrooms
-- oyster mushrooms
+**Nuts & Seeds**
+- walnuts (1/2 cup)
+- hazelnuts (1/4 cup)
+- pistachios (1/4 cup)
 
-**Beverages**
-- Malbec wine
-- pomegranate juice
-- sparkling water
-- Japanese lager (Asahi or Sapporo)
-
-**Potluck Thursday**
-- pizza dough
-- marinara sauce
-- mozzarella (shredded)
-- pepperoni
-- red bell pepper
+**Potluck Taco Bar**
+- ground beef (2 lbs)
+- taco shells
+- sour cream
+- guacamole (or avocados to make)
+- shredded lettuce
+- taco seasoning
 
 
 ### Prep-Ahead Tasks
 
-- [ ] Saturday: Pick up ribeye from RD for Sunday cheesesteaks
-- [ ] Wednesday night: Make pizza dough for Thursday potluck heart pizzas
-- [ ] Thursday morning: Shape and bake heart-shaped mini pizzas for potluck
-- [ ] Thursday afternoon: Make fresh egg pasta dough, rest 30 min
-- [ ] Friday afternoon: Prep kale-tomato-bean bed for bronzino
-- [ ] Friday evening: Prep enchilada filling and both sauces for Saturday
+- [ ] Saturday (Feb 7): Thaw chicken if frozen. Bake sourdough bread.
+- [ ] Sunday: Pick up steak from RD. Sourdough ready for the week.
+- [ ] Monday morning: Take chicken out 1 hour before roasting.
+- [ ] Monday evening: After dinner, start chicken broth with carcass.
+- [ ] Tuesday morning: Make babo pasta dough (spinach + egg yolks + flour). Rest in fridge.
+- [ ] Tuesday afternoon: Roll and cut pasta before swim lessons.
+- [ ] Wednesday during science camp: Roast beets (45 min at 400°F).
+- [ ] Thursday morning: Prep taco bar for work potluck — brown beef, shred lettuce, pack shells + sour cream + guac.
+- [ ] Friday afternoon: Pre-measure pancake dry ingredients. Set out ricotta and lemons.
+- [ ] Friday evening: PACK FOR ALBUQUERQUE. Bags by the door. TSA docs ready.
+- [ ] Friday evening: Download Lara Manzanares album for the plane.
 
 ## Nutrition Summary
 
-This week's dinners are hearty and satisfying — exactly what a cold February demands. Protein variety is outstanding (beef, eggs, dairy, chickpeas, fish, chicken across seven nights), and the two kale-forward dinners provide serious nutrient density midweek. The gaps are what you'd expect from comfort cooking: no whole grains at dinner, limited fruit, and some rich nights. The fix is easy — whole grain lunches, fruit-heavy snacks, and a vitamin D supplement while February keeps the sun at bay. Overall grade: B+, and the lunches and snacks below bring it to an A.
+This is a well-fed week. Proteins rotate beautifully — roast chicken, eggs, ricotta, goat cheese, beef — and the grain variety (farro, sourdough, handmade pasta) keeps things interesting. Monday's roast chicken and Wednesday's farro salad are nutritional standouts, packed with iron, fiber, and B-vitamins. The lighter Thursday and Friday dinners balance the richer early-week meals. Saturday's enchiladas bring a final jolt of capsaicin and calcium. The one gap worth noting: lean a little harder on leafy greens and fresh fruit at lunch to round out the vitamin C and folate.
 
 ## Additional Notes
 
-- Beef craving satisfied on Sunday (cheesesteaks) and Thursday (pappardelle mushrooms with richness).
-- Valentine's heart-shaped mini pizzas for Thursday work potluck — Gen Alpha approved.
-- Thursday potluck is lunch; mushroom pappardelle for dinner balances the day.
-- Kale and bronzino+kale give two hearty kale nights as requested.
-- Saturday is travel day — enchilada components travel well, assemble on arrival.
-- This week tells a story in temperatures — from 17°F Sunday to the week's warmth on Tuesday (48°F) and back down again. The dinners follow suit: hearty bookends with lighter, brighter cooking in the middle.
-- Two kale nights (Wednesday and Friday) might sound repetitive on paper, but they're completely different experiences — a punchy Caesar versus a Mediterranean fish supper. The green thread ties the week together.
+- Sourdough bread (Sunday) is used for: Monday's chicken dinner, Thursday's shakshuka toast, and appetizer crostini
+- Chicken carcass (Monday) becomes broth — freeze for future soups
+- Thursday's potluck taco bar ingredients: ground beef, taco shells, sour cream, guac, shredded lettuce
+- Saturday 4:30 AM flight to Albuquerque — pack Friday night!
+- Valentine's Day dinner in Albuquerque — make reservations at Cocina Azul or Sadie's
+- YAT on Saturday (9 AM-12 PM) is tentative — may conflict with travel
+- Sourdough is the quiet thread stitching this week together: baked Sunday, torn alongside Monday's roast chicken, rubbed with za'atar for Thursday's shakshuka, and sliced into crostini for appetizers. One loaf, four acts.
+- The music mirrors the journey — Richmond funk and winter jazz give way to Puglian folk and Tunisian oud, before disco-funk and New Mexican balladry carry the family to Albuquerque. Every album was chosen to meet the meal where it lives.
 

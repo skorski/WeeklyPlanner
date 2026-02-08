@@ -3,7 +3,7 @@
   <div v-else-if="!plan" class="empty-state">
     <h2>Plan not found</h2>
     <p>No data for week {{ date }}.</p>
-    <router-link to="/" class="btn btn-primary" style="margin-top:16px;display:inline-flex;">← Back Home</router-link>
+    <router-link to="/" class="text-link" style="margin-top:16px;display:inline-flex;">← Back Home</router-link>
   </div>
   <template v-else>
 
@@ -41,11 +41,13 @@
         <button v-if="plan.grocery_list" class="menu-item" @click="scrollTo('grocery')">Grocery List</button>
         <button v-if="plan.prep_ahead?.length" class="menu-item" @click="scrollTo('prep')">Prep Checklist</button>
         <button v-if="plan.parenting_data" class="menu-item" @click="scrollTo('parenting')">Parenting Corner</button>
+        <button v-if="plan.stoic_data" class="menu-item" @click="scrollTo('stoic')">The Stoic Guide</button>
         <button v-if="plan.newsletter_data?.clusters?.length" class="menu-item" @click="scrollTo('newsletter')">The Weekly Read</button>
+        <button v-if="plan.child_wisdom" class="menu-item" @click="scrollTo('story')">Bedtime Story</button>
       </div>
 
       <div class="menu-footer">
-        <a v-if="hasPdf" :href="`/plans/${date}/weekly-plan.pdf`" target="_blank" class="menu-item menu-pdf">📄 Download PDF</a>
+        <a v-if="hasPdf" :href="`/plans/${date}/weekly-plan.pdf`" target="_blank" class="menu-item menu-pdf">Download PDF</a>
       </div>
     </div>
 
@@ -58,21 +60,22 @@
         <div class="week-range">{{ plan.week_range }}</div>
         <div v-if="plan.highlight" class="highlight">{{ plan.highlight }}</div>
         <div class="cover-actions">
-          <a v-if="hasPdf" :href="`/plans/${date}/weekly-plan.pdf`" target="_blank" class="btn btn-outline btn-sm">📄 PDF</a>
+          <a v-if="hasPdf" :href="`/plans/${date}/weekly-plan.pdf`" target="_blank" class="text-link">PDF</a>
         </div>
       </div>
 
       <!-- Week at a Glance -->
-      <h2 :id="'glance'" class="section-title sticky-header">Week at a Glance</h2>
+      <h2 id="glance" class="section-title">Week at a Glance</h2>
       <table class="glance-table">
         <thead>
-          <tr><th></th><th>Day</th><th>Weather</th><th>Events</th><th>Dinner</th><th>Album</th></tr>
+          <tr><th>Day</th><th>Events</th><th>Dinner</th><th>Album</th></tr>
         </thead>
         <tbody>
           <tr v-for="(day, i) in plan.days" :key="day.name" :class="{ 'today-row': i === todayIndex }" @click="scrollTo(`day-${i}`)" style="cursor:pointer;">
-            <td>{{ weatherIcon(day.weather) }}</td>
-            <td class="day-name">{{ day.name }}</td>
-            <td>{{ day.weather || '—' }}</td>
+            <td>
+              <div class="day-name">{{ day.name }}</div>
+              <div class="day-weather">{{ glanceWeather(day) }}</div>
+            </td>
             <td>{{ day.calendar_items?.join('; ') || '—' }}</td>
             <td>{{ day.dinner || '—' }}</td>
             <td>{{ day.album || '—' }}</td>
@@ -82,44 +85,39 @@
 
       <!-- Daily Plan -->
       <h2 class="section-title">Daily Plan</h2>
-      <div v-for="(day, i) in plan.days" :key="day.name" :id="`day-${i}`" class="day-section">
-        <div class="day-sticky-label" :class="{ 'day-sticky-label--today': i === todayIndex }">
-          <span class="day-sticky-name">{{ day.long_name }}</span>
-          <span v-if="day.dinner" class="day-sticky-dinner">{{ day.dinner }}</span>
-          <span v-if="i === todayIndex" class="today-badge">Today</span>
-        </div>
-        <DayCard :day="day" :isToday="i === todayIndex" />
+      <div v-for="(day, i) in plan.days" :key="day.name" :id="`day-${i}`">
+        <DayCard :day="day" :isToday="i === todayIndex" :weatherLine="weatherContexts[i]" />
       </div>
 
       <!-- Appetizers -->
       <template v-if="plan.appetizers?.length">
-        <h2 id="appetizers" class="section-title sticky-header">Appetizers</h2>
+        <h2 id="appetizers" class="section-title">Appetizers</h2>
         <div v-for="a in plan.appetizers" :key="a.name" class="item-card">
           <h4>{{ a.name }}</h4>
-          <span v-if="a.cuisine" class="cuisine-tag" style="margin-bottom:6px;">{{ a.cuisine }}</span>
+          <span v-if="a.cuisine" class="cuisine-label" style="margin-bottom:6px;">{{ a.cuisine }}</span>
           <p>{{ a.description }}</p>
           <p v-if="a.key_ingredients" class="meta">{{ a.key_ingredients.join(', ') }}</p>
-          <a v-if="a.source_url" :href="a.source_url" target="_blank" class="recipe-link">📖 {{ a.source_name || 'View recipe' }}</a>
+          <a v-if="a.source_url" :href="a.source_url" target="_blank" class="recipe-link">{{ a.source_name || 'View recipe' }}</a>
         </div>
       </template>
 
       <!-- Salads -->
       <template v-if="plan.salads?.length">
-        <h2 id="salads" class="section-title sticky-header">Salads</h2>
+        <h2 id="salads" class="section-title">Salads</h2>
         <div v-for="s in plan.salads" :key="s.name" class="item-card">
-          <div v-if="s.salad_type" class="cuisine-tag" style="margin-bottom:6px;">{{ s.salad_type.replace('_',' ') }}</div>
+          <div v-if="s.salad_type" class="cuisine-label" style="margin-bottom:6px;">{{ s.salad_type.replace('_',' ') }}</div>
           <h4>{{ s.name }}</h4>
           <p>{{ s.description }}</p>
           <p v-if="s.key_ingredients" class="meta">{{ s.key_ingredients.join(', ') }}</p>
-          <div v-if="s.dressing" class="dressing"><strong>Dressing:</strong> {{ s.dressing }}</div>
+          <div v-if="s.dressing" class="dressing"><strong>Dressing</strong> {{ s.dressing }}</div>
           <div v-if="s.flavor_rationale" class="rationale">{{ s.flavor_rationale }}</div>
-          <a v-if="s.source_url" :href="s.source_url" target="_blank" class="recipe-link">📖 {{ s.source_name || 'View recipe' }}</a>
+          <a v-if="s.source_url" :href="s.source_url" target="_blank" class="recipe-link">{{ s.source_name || 'View recipe' }}</a>
         </div>
       </template>
 
       <!-- Beverages -->
       <template v-if="plan.beverages?.length">
-        <h2 id="beverages" class="section-title sticky-header">Beverages</h2>
+        <h2 id="beverages" class="section-title">Beverages</h2>
         <div v-for="b in plan.beverages" :key="b.name" class="item-card">
           <h4>{{ b.name }}</h4>
           <p>{{ b.description }}</p>
@@ -129,7 +127,7 @@
 
       <!-- Grocery List -->
       <template v-if="plan.grocery_list && Object.keys(plan.grocery_list).length">
-        <h2 id="grocery" class="section-title sticky-header">Grocery List</h2>
+        <h2 id="grocery" class="section-title">Grocery List</h2>
         <div class="grocery-section">
           <div v-for="(items, category) in plan.grocery_list" :key="category" class="grocery-category">
             <h4>{{ category }}</h4>
@@ -140,7 +138,7 @@
 
       <!-- Prep-Ahead -->
       <template v-if="plan.prep_ahead?.length">
-        <h2 id="prep" class="section-title sticky-header">Prep-Ahead Checklist</h2>
+        <h2 id="prep" class="section-title">Prep-Ahead Checklist</h2>
         <ul class="prep-checklist">
           <li v-for="task in plan.prep_ahead" :key="task">{{ task }}</li>
         </ul>
@@ -148,19 +146,25 @@
 
       <!-- Parenting Corner -->
       <template v-if="plan.parenting_data">
-        <h2 id="parenting" class="section-title sticky-header">Parenting Corner</h2>
+        <h2 id="parenting" class="section-title">Parenting Corner</h2>
         <ParentingSection :data="plan.parenting_data" />
+      </template>
+
+      <!-- Stoic Guide -->
+      <template v-if="plan.stoic_data">
+        <h2 id="stoic" class="section-title">The Stoic Guide</h2>
+        <StoicSection :data="plan.stoic_data" />
       </template>
 
       <!-- Newsletter -->
       <template v-if="plan.newsletter_data?.clusters?.length">
-        <h2 id="newsletter" class="section-title sticky-header">📰 The Weekly Read</h2>
+        <h2 id="newsletter" class="section-title">The Weekly Read</h2>
         <NewsletterSection :data="plan.newsletter_data" />
       </template>
 
       <!-- Notes -->
       <template v-if="plan.notes?.length">
-        <h2 class="section-title sticky-header">Notes</h2>
+        <h2 class="section-title">Notes</h2>
         <div class="support-section">
           <ul><li v-for="note in plan.notes" :key="note">{{ note }}</li></ul>
         </div>
@@ -168,8 +172,19 @@
 
       <!-- Nutrition -->
       <template v-if="plan.nutrition_summary">
-        <h2 class="section-title sticky-header">Nutrition</h2>
+        <h2 class="section-title">Nutrition</h2>
         <div class="support-section"><p>{{ plan.nutrition_summary }}</p></div>
+      </template>
+
+      <template v-if="plan.child_wisdom">
+        <h2 id="story" class="section-title">Bedtime Story</h2>
+        <div class="story-card">
+          <h3 class="story-title">{{ plan.child_wisdom.title }}</h3>
+          <div class="story-text">{{ plan.child_wisdom.story }}</div>
+          <div v-if="plan.child_wisdom.discussion_prompt" class="story-prompt">
+            {{ plan.child_wisdom.discussion_prompt }}
+          </div>
+        </div>
       </template>
 
       <div class="week-footer">{{ plan.week_range }} · Generated {{ plan.generated_at }}</div>
@@ -181,6 +196,7 @@
 import { ref, computed, onMounted, watch, nextTick, onUnmounted } from 'vue'
 import DayCard from '../components/DayCard.vue'
 import ParentingSection from '../components/ParentingSection.vue'
+import StoicSection from '../components/StoicSection.vue'
 import NewsletterSection from '../components/NewsletterSection.vue'
 
 const props = defineProps({ date: String })
@@ -212,16 +228,32 @@ function shortDay(name) {
   return name?.split(' ')[0] || name
 }
 
-function weatherIcon(weather) {
-  if (!weather) return ''
-  const w = weather.toLowerCase()
-  if (w.includes('snow')) return '❄️'
-  if (w.includes('rain') || w.includes('shower')) return '🌧️'
-  if (w.includes('cloud') || w.includes('overcast')) return '☁️'
-  if (w.includes('partly')) return '⛅'
-  if (w.includes('sun') || w.includes('clear')) return '☀️'
-  return '🌤️'
+// Read pre-computed weather fields from normalized plan data
+function glanceWeather(day) {
+  const emoji = day.weather_emoji || ''
+  const high = day.weather_high
+  const low = day.weather_low
+  if (high != null && low != null) return `${emoji} ${high}° / ${low}°`.trim()
+  return emoji
 }
+
+// Weather context one-liners from normalized data
+const weatherContexts = computed(() => {
+  if (!plan.value?.days) return []
+  return plan.value.days.map(day => {
+    const cond = day.weather_condition || ''
+    const high = day.weather_high
+    const low = day.weather_low
+    const temp = (high != null && low != null) ? `${high}° / ${low}°` : ''
+    let line = cond
+    if (temp) line += ` | ${temp}`
+    const oneliner = day.weather_oneliner || ''
+    // Append contextual notes from oneliner (after the temp portion)
+    const sep = oneliner.indexOf(' · ')
+    if (sep >= 0) line += ' · ' + oneliner.slice(sep + 3)
+    return line
+  })
+})
 
 function scrollTo(id) {
   menuOpen.value = false
@@ -235,30 +267,51 @@ function scrollTo(id) {
   })
 }
 
-// Track which section is active based on scroll position
-let observer = null
-function setupObserver() {
-  if (observer) observer.disconnect()
+// Track which section is visible and update nav-title
+let scrollHandler = null
+function setupScrollSpy() {
+  if (scrollHandler) window.removeEventListener('scroll', scrollHandler, { passive: true })
 
-  const headers = document.querySelectorAll('.sticky-header[id], [id^="day-"]')
-  if (!headers.length) return
+  // Build ordered list of tracked elements and their labels
+  const tracked = []
 
-  observer = new IntersectionObserver((entries) => {
-    for (const entry of entries) {
-      if (entry.isIntersecting) {
-        const id = entry.target.id
-        if (id.startsWith('day-')) {
-          const i = parseInt(id.split('-')[1])
-          const day = plan.value?.days?.[i]
-          activeSection.value = day ? `${shortDay(day.name)} — ${day.dinner || ''}` : ''
-        } else {
-          activeSection.value = entry.target.textContent.trim()
-        }
+  const glance = document.getElementById('glance')
+  if (glance) tracked.push({ el: glance, label: 'Week at a Glance' })
+
+  // Day wrappers
+  if (plan.value?.days) {
+    plan.value.days.forEach((day, i) => {
+      const el = document.getElementById(`day-${i}`)
+      if (el) tracked.push({ el, label: `${shortDay(day.name)} — ${day.dinner || ''}` })
+    })
+  }
+
+  // Other sections
+  const sections = [
+    ['appetizers', 'Appetizers'], ['salads', 'Salads'], ['beverages', 'Beverages'],
+    ['grocery', 'Grocery List'], ['prep', 'Prep-Ahead Checklist'],
+    ['parenting', 'Parenting Corner'], ['stoic', 'The Stoic Guide'],
+    ['newsletter', 'The Weekly Read']
+  ]
+  for (const [id, label] of sections) {
+    const el = document.getElementById(id)
+    if (el) tracked.push({ el, label })
+  }
+
+  if (!tracked.length) return
+
+  const navH = 56 // nav bar height + small buffer
+  scrollHandler = () => {
+    let current = ''
+    for (const { el, label } of tracked) {
+      if (el.getBoundingClientRect().top <= navH) {
+        current = label
       }
     }
-  }, { rootMargin: '-56px 0px -70% 0px', threshold: 0 })
-
-  headers.forEach(h => observer.observe(h))
+    activeSection.value = current
+  }
+  window.addEventListener('scroll', scrollHandler, { passive: true })
+  scrollHandler() // set initial value
 }
 
 async function loadPlan(date) {
@@ -280,7 +333,7 @@ async function loadPlan(date) {
   // After DOM renders, auto-scroll to today and set up observer
   await nextTick()
   await nextTick() // double-tick for v-if rendering
-  setupObserver()
+  setupScrollSpy()
 
   if (todayIndex.value >= 0) {
     // Small delay so layout settles
@@ -290,6 +343,6 @@ async function loadPlan(date) {
 
 onMounted(() => loadPlan(props.date))
 watch(() => props.date, (d) => loadPlan(d))
-onUnmounted(() => { if (observer) observer.disconnect() })
+onUnmounted(() => { if (scrollHandler) window.removeEventListener('scroll', scrollHandler) })
 </script>
 

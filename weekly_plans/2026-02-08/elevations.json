@@ -1,233 +1,205 @@
 [
   {
     "name": "Philly Cheesesteaks",
-    "base_description": "Paper-thin ribeye with melted provolone, sautéed onions on hoagie rolls",
-    "flavor_profile": "Savory, rich, beefy, mild cheese tang",
+    "base_description": "Classic Philly cheesesteaks at a friend's house — no cooking required, just good company and great sandwiches.",
+    "flavor_profile": "Rich, beefy, salty, melty cheese, soft bread",
     "elevations": [
       {
         "type": "preparation",
-        "title": "Worcestershire Fond Glaze",
-        "instruction": "During the last 30 seconds of cooking the beef, hit it with a tablespoon of Worcestershire sauce directly on the screaming-hot griddle. Let it sizzle and caramelize into the meat. This creates a savory glaze that makes the steak taste more like steak.",
-        "why": "Worcestershire adds umami depth (anchovies, tamarind) without anyone detecting individual flavors. It browns into the fond and coats each slice.",
-        "extra_ingredients": ["Worcestershire sauce"]
-      },
-      {
-        "type": "sauce",
-        "title": "Garlic Butter Roll Toast",
-        "instruction": "Melt 2 tbsp butter with 1 minced garlic clove. Split hoagie rolls, brush the insides with garlic butter, and griddle cut-side down until golden and crisp. The butter creates a moisture barrier that prevents the bread from going soggy.",
-        "why": "Garlic butter adds flavor and creates a crispy, waterproof barrier between bread and juicy filling. Restaurant cheesesteaks always toast the roll — home versions rarely do.",
-        "extra_ingredients": ["garlic"]
+        "title": "The Freeze-and-Shave Technique",
+        "instruction": "Partially freeze your ribeye for 20–45 minutes before slicing. This firms the meat just enough to get paper-thin cuts against the grain — the hallmark of an authentic Philly steak. Slice no thicker than 1/8 inch for maximum tenderness.",
+        "why": "Paper-thin slices cook in seconds on a screaming-hot griddle, creating crispy edges while staying juicy inside. Room-temperature beef shreds instead of slicing cleanly, ruining the texture.",
+        "extra_ingredients": []
       },
       {
         "type": "texture",
-        "title": "Crispy Shallot Rings",
-        "instruction": "Thinly slice 2 shallots into rings. Toss in seasoned flour, shake off excess, and fry in 350°F oil for 2-3 minutes until deeply golden. Drain on paper towels, salt immediately. Pile on top of the assembled cheesesteak.",
-        "why": "Adds crunchy textural contrast to the soft, melty sandwich. The shallot sweetness echoes the caramelized onions but in crispy form.",
-        "extra_ingredients": ["shallots", "flour"]
-      },
-      {
-        "type": "acid",
-        "title": "Quick-Pickled Hot Peppers",
-        "instruction": "Slice banana peppers or cherry peppers into rings. Cover with equal parts white vinegar and water, a pinch of sugar and salt. Let sit 15 minutes. Pile onto cheesesteaks for a bright, acidic crunch.",
-        "why": "Acid cuts through the richness of beef and melted cheese. The vinegar bite resets your palate between bites so the last one tastes as good as the first.",
-        "extra_ingredients": ["banana peppers or cherry peppers", "white vinegar", "sugar"]
+        "title": "The Cheese Melt Debate",
+        "instruction": "For the most authentic experience, lay your cheese (Cheez Whiz for classic, provolone for purist, white American for creamy) directly on the sizzling beef, then cover with a dome or foil for 15–30 seconds to trap steam and melt evenly. Never use cheddar or mozzarella — that's not Philly.",
+        "why": "The trapped steam creates an even melt that coats every strand of beef rather than sitting in a cold lump on top. The right cheese choice is the difference between a cheesesteak and a steak sandwich.",
+        "extra_ingredients": []
       }
     ],
-    "designers_note": "The secret to a great cheesesteak isn't the cheese — it's the heat. Screaming-hot griddle, fast sear, Worcestershire glaze, garlic-toasted roll. That's it. The crispy shallots and pickled peppers are the difference between a sandwich and a moment."
+    "designers_note": "Born in the 1930s when hot dog vendor Pat Olivieri threw beef on his flat-top and put it in a roll, the cheesesteak is a Philly institution. When ordering in Philly, speak the language: 'Whiz wit' for Cheez Whiz with onions, 'provolone witout' for provolone without. Fun fact: Pat's chops the beef on the griddle for an integrated bite, while rival Geno's across the street uses whole slices for a meatier chew — the debate has raged since 1966."
   },
   {
-    "name": "Shakshuka with Feta",
-    "base_description": "Eggs poached in spiced tomato-pepper sauce with feta and crusty bread",
-    "flavor_profile": "Smoky, spiced, tangy, rich from eggs",
+    "name": "Herb-Roasted Whole Chicken with Root Vegetables & Pan Gravy",
+    "base_description": "A golden, crackling whole chicken roasted over a bed of carrots, parsnips, and potatoes, finished with a silky pan gravy and crusty sourdough.",
+    "flavor_profile": "Savory, herbaceous, buttery, earthy root vegetables, rich gravy",
     "elevations": [
       {
-        "type": "sauce",
-        "title": "Harissa Swirl",
-        "instruction": "Stir 1-2 tsp of harissa paste into the tomato sauce before adding eggs. Then dot another teaspoon on top in small spoonfuls and drag a knife through for a marbled effect. The harissa blooms in the heat.",
-        "why": "Harissa adds smoky, complex heat that's more interesting than just adding cayenne. The visual swirl makes the dish look restaurant-worthy.",
-        "extra_ingredients": ["harissa paste"]
-      },
-      {
-        "type": "acid",
-        "title": "Za'atar and Lemon Finish",
-        "instruction": "The moment the skillet comes off heat, sprinkle 1 tsp za'atar over the eggs and squeeze half a lemon across the whole dish. Add a few torn mint leaves.",
-        "why": "Za'atar's dried herbs and sesame cut through the tomato richness. The lemon juice brightens everything just before serving — this is the step restaurants never skip.",
-        "extra_ingredients": ["za'atar", "lemon", "fresh mint"]
+        "type": "preparation",
+        "title": "Overnight Dry Brine",
+        "instruction": "The day before, pat the chicken completely dry and season generously with kosher salt mixed with ½ teaspoon baking powder. Place uncovered on a rack in the fridge for 12–24 hours. The next day, loosen the skin from the breast and thighs with your fingers and rub softened herb butter (thyme, rosemary, garlic) directly onto the meat.",
+        "why": "The dry brine draws moisture out of the skin while seasoning the meat deeply. Baking powder raises the skin's pH, accelerating browning and creating an impossibly crispy, crackly exterior. Under-skin butter bastes the breast from within, preventing dryness.",
+        "extra_ingredients": ["baking powder"]
       },
       {
         "type": "temperature",
-        "title": "Cold Labneh Dollops",
-        "instruction": "Drop 3-4 tablespoons of cold labneh (or thick Greek yogurt) in dollops around the hot shakshuka right before serving. Don't stir it in. The cold-hot contrast is the point.",
-        "why": "Cold labneh against searing-hot tomato sauce creates a temperature contrast that makes every bite different. The tang of labneh also balances the sweetness of cooked tomatoes.",
-        "extra_ingredients": ["labneh or thick Greek yogurt"]
+        "title": "High-Heat Start, Gentle Finish",
+        "instruction": "Preheat oven to 450°F. Roast breast-side-up for the first 25 minutes at high heat, then reduce to 375°F for the remainder (about 45–55 minutes for a 4 lb bird). Let the chicken rest, loosely tented, for 15–20 minutes before carving.",
+        "why": "The initial blast of heat renders fat quickly and browns the skin before the meat overcooks. Dropping the temperature lets the interior cook gently and evenly. Resting redistributes juices — skip it and the cutting board gets juicier than the chicken.",
+        "extra_ingredients": []
+      },
+      {
+        "type": "sauce",
+        "title": "Proper Pan Gravy from Drippings",
+        "instruction": "After roasting, transfer the chicken and vegetables out. Set the roasting pan over medium heat on the stovetop. Spoon off all but 2–3 tablespoons of fat, then whisk in 2 tablespoons flour. Cook the roux for 2 minutes, scraping up every browned bit. Gradually whisk in 1½ cups warm chicken stock and any collected juices. Simmer until thickened, then finish with a squeeze of lemon juice and a knob of cold butter swirled in off-heat.",
+        "why": "The fond (browned bits) on the pan is pure concentrated flavor — deglazing captures it all. Cold butter swirled in at the end creates a glossy, velvety finish that coats the back of a spoon. The lemon juice brightens what could otherwise be a heavy sauce.",
+        "extra_ingredients": ["flour", "chicken stock", "lemon"]
       }
     ],
-    "designers_note": "Shakshuka is already a one-skillet miracle. The harissa swirl, za'atar finish, and cold labneh take it from 'weeknight egg dish' to 'the thing your friends ask for the recipe of.' Total upgrade cost: $4."
+    "designers_note": "This is Sunday-night-cooking-on-Monday comfort — the kind of meal where the house smells incredible for hours. The overnight dry brine is the single biggest upgrade you can make. Don't crowd the roasting pan with too many vegetables or the steam will soften the skin; give the bird breathing room and add vegetables around the edges."
   },
   {
     "name": "Babo Pasta with Alfredo Sauce",
-    "base_description": "Fettuccine Alfredo — butter, Parmigiano, and pasta water emulsion",
-    "flavor_profile": "Rich, buttery, salty, umami from aged cheese",
+    "base_description": "Handmade spinach pasta made with egg yolks only, finished in a classic butter-and-Parmigiano Alfredo — quick enough for a post-swim-lessons Tuesday.",
+    "flavor_profile": "Rich, buttery, nutty Parmigiano, silky, subtle spinach earthiness",
     "elevations": [
       {
         "type": "preparation",
-        "title": "Toasted Garlic Chip Garnish",
-        "instruction": "Slice 4-5 garlic cloves paper-thin. Slowly cook in 2 tbsp olive oil over medium-low heat, swirling constantly, until light gold — about 3 minutes. Remove immediately to a paper towel. They'll darken as they cool. Reserve the garlic oil.",
-        "why": "Garlic chips add textural crunch to an otherwise uniformly soft dish. The reserved oil can be drizzled on top for another layer of flavor without disturbing the emulsion.",
-        "extra_ingredients": []
-      },
-      {
-        "type": "acid",
-        "title": "Lemon Zest Snowfall",
-        "instruction": "Using a Microplane, zest one lemon directly over each plated bowl of Alfredo from about 12 inches above. The zest should fall like snow. Do not squeeze the lemon — you want fragrance, not juice.",
-        "why": "Rich Alfredo needs a counterpoint. Lemon zest adds bright, aromatic citrus oil without the acid that would break the emulsion. It's the restaurant secret for Alfredo that doesn't taste heavy.",
-        "extra_ingredients": ["lemon"]
-      },
-      {
-        "type": "texture",
-        "title": "Cracked Black Pepper and Toasted Breadcrumbs",
-        "instruction": "Toast 1/4 cup panko in butter until deep gold. Season with flaky salt. Crack pepper aggressively — you want visible flecks. Serve both tableside.",
-        "why": "The breadcrumbs give crunch against silky pasta. The pepper adds heat that cuts richness. Together they prevent 'Alfredo fatigue' — that heaviness by bite five.",
-        "extra_ingredients": ["panko breadcrumbs", "flaky salt"]
-      }
-    ],
-    "designers_note": "Roman Alfredo needs exactly three things to go from good to transcendent: patience with the emulsion, lemon zest you can smell from across the table, and something crunchy. Garlic chips and toasted breadcrumbs deliver both texture and drama."
-  },
-  {
-    "name": "Kale Caesar Salad with Crispy Chickpeas",
-    "base_description": "Massaged lacinato kale with Caesar dressing, chickpeas, croutons, Parmesan",
-    "flavor_profile": "Umami, bright lemon, anchovy depth, garlic punch",
-    "elevations": [
-      {
-        "type": "preparation",
-        "title": "Warm Anchovy-Garlic Oil Drizzle",
-        "instruction": "Gently warm 3 tbsp olive oil with 2 chopped anchovy fillets and 1 sliced garlic clove over low heat until the anchovies dissolve — about 3 minutes. Drizzle this warm oil over the dressed kale just before serving.",
-        "why": "Warm oil on cool kale creates a temperature contrast and blooms the anchovy flavor. The garlic in the oil echoes the garlic in the dressing but in a softer, sweeter form.",
+        "title": "Finish Pasta in the Sauce",
+        "instruction": "Pull your fresh spinach pasta from the boiling water 30 seconds before it's done and transfer it directly into the skillet with melted butter. Reserve at least 1 cup of the starchy pasta water. Toss the pasta vigorously in the butter, adding splashes of pasta water and handfuls of finely grated Parmigiano-Reggiano, tossing constantly until a glossy, emulsified sauce coats every strand.",
+        "why": "Fresh pasta's surface starch is the secret emulsifier — it binds butter, cheese, and water into a creamy sauce without any cream at all. Finishing in the pan lets the pasta absorb flavor and the sauce cling properly. This is how it's done at Alfredo alla Scrofa in Rome, where the dish was born.",
         "extra_ingredients": []
       },
       {
         "type": "texture",
-        "title": "Parmesan Frico Shards",
-        "instruction": "Mound 2-tbsp piles of grated Parmesan on a parchment-lined baking sheet. Bake at 400°F for 5-6 minutes until golden and lacy. Cool completely — they'll shatter into crispy shards. Stand them upright in the salad.",
-        "why": "Frico adds dramatic visual height and a shattering crunch that standard shaved Parmesan can't match. Same ingredient, completely different experience.",
+        "title": "The Warm Bowl Technique",
+        "instruction": "Warm your serving bowl (or tossing pan) before building the sauce — run it under hot water or place it in a low oven. Never build the sauce in a screaming-hot pan. Medium-low heat is your friend; if the pan is too hot, the cheese will clump into rubbery strands instead of melting into silk.",
+        "why": "Parmigiano-Reggiano's proteins seize above 180°F, turning grainy. A warm (not hot) surface keeps the cheese in the sweet spot where it melts smoothly and emulsifies with the butter and pasta water. Temperature control is what separates restaurant Alfredo from home versions.",
         "extra_ingredients": []
       },
       {
         "type": "acid",
-        "title": "Preserved Lemon Dice",
-        "instruction": "Dice 1 tbsp preserved lemon rind very finely. Scatter over the salad. If you don't have preserved lemon, mix lemon zest with a pinch of salt and let sit 10 minutes.",
-        "why": "Preserved lemon adds a fermented, floral acidity that's more complex than fresh lemon. It's the difference between a chord and a single note.",
-        "extra_ingredients": ["preserved lemon (or extra lemon + salt)"]
+        "title": "Black Pepper & Nutmeg Finish",
+        "instruction": "Just before serving, crack fresh black pepper generously over the pasta and grate a whisper of fresh nutmeg on top. Use a Microplane for the nutmeg — you want a dusting, not a dose.",
+        "why": "Black pepper's gentle heat cuts through the richness of butter and cheese, while nutmeg has a natural affinity with cream sauces and spinach — it's the classic Italian pairing that makes the flavors pop without anyone being able to identify why it tastes so good.",
+        "extra_ingredients": ["black pepper", "whole nutmeg"]
       }
     ],
-    "designers_note": "A great Caesar is about tension — salty anchovy against bright lemon against nutty Parmesan. The frico shards make it look like a restaurant salad, and the warm oil drizzle is the kind of detail people notice but can't identify."
+    "designers_note": "True Alfredo is an act of emulsification, not a cream sauce. The magic is in the wrist — constant tossing, gradual additions of pasta water, and never letting the pan get too hot. Since this is a Tuesday post-swim-lessons dinner, the fresh pasta cooks in under 2 minutes and the sauce comes together in the time it takes to drain. Fast, elegant, and deeply satisfying."
   },
   {
-    "name": "Mushroom Pappardelle with Fresh Egg Pasta",
-    "base_description": "Fresh egg pappardelle with mixed mushrooms, butter, white wine, sage, Parmesan",
-    "flavor_profile": "Earthy, rich, buttery, herbal, umami-deep",
+    "name": "Warm Farro Salad with Roasted Beets, Goat Cheese & Walnuts",
+    "base_description": "A hearty warm grain salad with golden and red roasted beets, tangy goat cheese, toasted walnuts, arugula, dried cranberries, and a sherry-maple vinaigrette.",
+    "flavor_profile": "Earthy, nutty, tangy, sweet-tart, peppery arugula",
     "elevations": [
+      {
+        "type": "preparation",
+        "title": "Toast the Farro in Butter",
+        "instruction": "Before boiling, melt 1 tablespoon of butter in a saucepan over medium heat. Add the rinsed farro and stir constantly for 2–3 minutes until the grains darken slightly and release a fragrant, nutty aroma. Then add chicken stock (instead of water) with a sprig of thyme and simmer until al dente — tender but still pleasantly chewy.",
+        "why": "Toasting grains before boiling is a professional technique borrowed from risotto and pilaf cooking. It develops complex, nutty flavors through the Maillard reaction that plain boiled grains simply cannot achieve. Cooking in stock adds another layer of savory depth.",
+        "extra_ingredients": ["butter", "chicken stock", "thyme sprig"]
+      },
+      {
+        "type": "preparation",
+        "title": "Roast Beets Properly",
+        "instruction": "Scrub the beets, trim the tops, and wrap each beet individually in foil with a drizzle of olive oil and a pinch of salt. Roast at 400°F for 45–60 minutes until a knife slides through with no resistance. Let cool in the foil (they steam and loosen their skins), then rub the skins off with a paper towel. Cut into wedges.",
+        "why": "Individual foil wrapping creates a steam chamber around each beet, cooking them evenly while concentrating their natural sugars. Cooling in the foil makes peeling effortless — the skins slip right off. Golden and red beets roasted separately prevent the red from bleeding into the golden.",
+        "extra_ingredients": []
+      },
+      {
+        "type": "acid",
+        "title": "Warm Sherry-Maple Vinaigrette",
+        "instruction": "Whisk together 3 tablespoons sherry vinegar, 1 tablespoon maple syrup, 1 teaspoon Dijon mustard, and a minced shallot. Stream in ¼ cup extra-virgin olive oil while whisking. Warm the vinaigrette gently in a small pan (don't boil) and toss it with the warm farro immediately — warm grains absorb dressing far better than cold ones.",
+        "why": "Warm vinaigrette penetrates the grain rather than just coating the surface. The sherry vinegar's complex acidity plays beautifully against the maple's sweetness, creating a bridge between the earthy beets and tangy goat cheese.",
+        "extra_ingredients": ["sherry vinegar", "maple syrup", "Dijon mustard", "shallot"]
+      },
+      {
+        "type": "texture",
+        "title": "Last-Minute Assembly",
+        "instruction": "Toss the warm dressed farro with roasted beet wedges and dried cranberries. Arrange on a platter over fresh arugula (the residual heat will just barely wilt it). Scatter generous crumbles of goat cheese, toasted walnut pieces, and finish with flaky salt and a final drizzle of olive oil.",
+        "why": "Adding arugula last lets its peppery bite stay vibrant — the warmth from the farro provides just enough wilt to soften the leaves without cooking them. Goat cheese added at the end stays in distinct, creamy pockets rather than melting into the grain.",
+        "extra_ingredients": ["flaky salt"]
+      }
+    ],
+    "designers_note": "This is a salad that eats like a meal. The key is layering temperatures and textures: warm toasted farro, sweet roasted beets, cool tangy goat cheese, crunchy walnuts, and peppery raw arugula. Dress the farro while it's warm and add the delicate ingredients at the very end — it should feel composed, not tossed."
+  },
+  {
+    "name": "Shakshuka with Za'atar Sourdough Toast",
+    "base_description": "Eggs gently poached in a spiced, harissa-spiked tomato sauce with peppers and cumin, served with za'atar-rubbed sourdough toast and crumbled feta.",
+    "flavor_profile": "Smoky, spiced, tangy tomato, rich runny yolk, herbal za'atar",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Bloom Spices & Build the Base",
+        "instruction": "Slowly caramelize diced onions until golden (8–10 minutes — don't rush this). Add diced peppers and cook until softened. Clear a space in the center of the pan, add a tablespoon of harissa paste and your ground cumin and paprika directly to the hot oil, and stir for 60 seconds until fragrant before incorporating them into the vegetables.",
+        "why": "Blooming spices in oil releases their fat-soluble flavor compounds, creating dramatically more depth than stirring dry spices into a wet sauce. Caramelized onions add natural sweetness that balances the acidity of the tomatoes and heat of the harissa.",
+        "extra_ingredients": []
+      },
       {
         "type": "sauce",
-        "title": "Brown Butter with Crispy Sage",
-        "instruction": "In a separate small pan, cook 4 tbsp butter over medium heat until it foams, goes quiet, then turns nutty brown — about 4 minutes. Drop in 8-10 sage leaves and fry 30 seconds until crisp. Pour the brown butter over plated pasta. Set crispy sage leaves on top.",
-        "why": "Brown butter adds a toasted, nutty complexity that regular melted butter cannot. The milk solids caramelize. Crispy sage is a textural garnish and a flavor intensifier.",
-        "extra_ingredients": []
-      },
-      {
-        "type": "preparation",
-        "title": "Porcini Soaking Liquid Reduction",
-        "instruction": "Strain the porcini soaking liquid through a coffee filter to remove grit. Reduce it by half in a small pot. Add this concentrated mushroom liquor to the sauce when you deglaze with white wine. It's liquid umami.",
-        "why": "Dried porcini soaking liquid is one of the most concentrated sources of natural glutamate available. Reducing it intensifies the effect. This is the 'why does this taste better than normal' ingredient.",
-        "extra_ingredients": []
-      },
-      {
-        "type": "texture",
-        "title": "Toasted Walnut Crumble",
-        "instruction": "Toast 1/3 cup walnut halves in a dry pan until fragrant. Roughly chop. Scatter over plated pasta with a grinding of black pepper.",
-        "why": "Walnuts add a bitter, tannic crunch that echoes the earthiness of the mushrooms. Italian tradition pairs walnuts with fresh pasta — this is why.",
-        "extra_ingredients": ["walnuts"]
-      },
-      {
-        "type": "acid",
-        "title": "Sherry Vinegar Finish",
-        "instruction": "Just before tossing the pasta into the mushroom pan, add 1 tsp good sherry vinegar to the sauce. Toss immediately. The vinegar will mostly evaporate, leaving behind complexity.",
-        "why": "Earthy mushroom dishes need a hidden acid to prevent them from tasting flat. Sherry vinegar adds nutty acidity that complements both the brown butter and porcini without tasting 'vinegary.'",
-        "extra_ingredients": ["sherry vinegar"]
-      }
-    ],
-    "designers_note": "This dish is about patience. Brown the mushrooms without crowding. Reduce the porcini liquid until it's syrupy. Cook the butter until it smells like hazelnuts. Fry the sage until it shatters when you touch it. Every step is simple. Every step matters."
-  },
-  {
-    "name": "Baked Bronzino with Roasted Kale",
-    "base_description": "Butterflied bronzino over kale, cherry tomatoes, and white beans with lemon and garlic",
-    "flavor_profile": "Clean, bright, Mediterranean, delicate fish with earthy kale",
-    "elevations": [
-      {
-        "type": "sauce",
-        "title": "Ladolemono (Greek Lemon-Olive Oil Sauce)",
-        "instruction": "Whisk 1/4 cup best olive oil with juice of 1 lemon, 1 minced garlic clove, 1 tsp dried oregano, salt, and pepper. Spoon generously over the fish the moment it comes out of the oven. The heat emulsifies the sauce.",
-        "why": "Ladolemono is the Greek answer to 'what sauce goes with fish.' The heat from the fish partially cooks the garlic and blooms the oregano. Simple, devastating.",
-        "extra_ingredients": ["dried oregano"]
-      },
-      {
-        "type": "preparation",
-        "title": "Score and Stuff the Fish",
-        "instruction": "Score the skin of the butterflied bronzino with 3 diagonal slashes on each side. Tuck thin lemon slices and thyme sprigs into the slashes. This looks dramatic and allows heat and seasoning to penetrate evenly.",
-        "why": "Scoring prevents the skin from curling during high-heat roasting and lets the aromatics infuse directly into the flesh. It also promotes crispier skin.",
-        "extra_ingredients": ["fresh thyme"]
-      },
-      {
-        "type": "texture",
-        "title": "Crispy Caper and Lemon Zest Gremolata",
-        "instruction": "Pat dry 2 tbsp capers. Fry in olive oil for 1 minute until they bloom open and turn crispy. Mix with finely grated lemon zest and 1 tbsp chopped parsley. Scatter over the plated fish.",
-        "why": "Fried capers are crunchy, briny, and addictive. Combined with lemon zest and parsley, this gremolata adds brightness and crunch to the soft, flaky fish.",
-        "extra_ingredients": ["capers", "flat-leaf parsley"]
+        "title": "Simmer to the Trail Test",
+        "instruction": "After adding crushed San Marzano tomatoes, simmer the sauce for 15–20 minutes until it thickens enough that dragging a spoon across the bottom leaves a trail that holds for 2–3 seconds before closing. If it's too watery, the eggs will poach unevenly; if too thick, they'll fry instead of poach.",
+        "why": "The 'trail test' is the professional benchmark for shakshuka sauce consistency. At this thickness, the sauce provides enough thermal mass to cook the egg whites evenly while insulating the yolks from direct heat, keeping them gloriously runny.",
+        "extra_ingredients": ["San Marzano canned tomatoes"]
       },
       {
         "type": "temperature",
-        "title": "Room-Temperature Tomato-Bean Salad Base",
-        "instruction": "Toss the roasted cherry tomatoes and white beans with a splash of red wine vinegar while warm, then let them cool to room temperature before plating under the hot fish.",
-        "why": "Serving the bean-tomato bed at room temperature against hot, crispy-skinned fish creates a pleasant temperature contrast and lets the vinegar-brightened beans serve as a sauce.",
-        "extra_ingredients": ["red wine vinegar"]
-      }
-    ],
-    "designers_note": "Whole fish is inherently dramatic — you're serving a creature, not a fillet. The ladolemono pooling around the platter, the crispy capers crackling, the scored skin with thyme sprigs visible — this is a $12 fish that looks like a $45 restaurant plate."
-  },
-  {
-    "name": "Christmas Enchiladas",
-    "base_description": "Enchiladas divorciadas — half red chile, half green tomatillo sauce, chicken filling, Cotija and crema",
-    "flavor_profile": "Complex chile heat, tangy tomatillo, creamy cheese, corn tortilla earthiness",
-    "elevations": [
-      {
-        "type": "preparation",
-        "title": "Toast and Fry the Tortillas",
-        "instruction": "Before filling, pass each corn tortilla through hot oil (350°F) for 5-8 seconds per side — just enough to make them pliable and slightly golden. This prevents them from going soggy under the sauce and adds a subtle fried corn flavor.",
-        "why": "The #1 mistake in enchiladas is using raw tortillas that absorb sauce and turn to mush. A quick oil pass creates a moisture barrier and adds flavor. Every Mexican grandma knows this.",
-        "extra_ingredients": ["canola oil for frying"]
-      },
-      {
-        "type": "sauce",
-        "title": "Bloom the Dried Chiles Properly",
-        "instruction": "For the red sauce: stem, seed, and dry-toast the chiles (guajillo + ancho) in a hot, dry skillet until they blister and become fragrant — about 30 seconds per side. Then soak in just-boiled water for 20 minutes. Blend with roasted garlic, oregano, and a splash of the soaking liquid.",
-        "why": "Toasting before soaking develops complex smoky flavors that simply soaking cannot achieve. The Maillard reaction on the dried chile skin creates caramelized notes.",
-        "extra_ingredients": ["dried guajillo chiles", "dried ancho chiles"]
+        "title": "Ramekin Egg Drop & Covered Poach",
+        "instruction": "Crack each egg into a small ramekin first. Use a spoon to make deep wells in the sauce, then gently slide each egg from the ramekin into its well. Cover the skillet with a lid and reduce heat to medium-low. Poach for 5–7 minutes — whites should be fully set but yolks still jiggly. Remove from heat 30 seconds early; residual heat finishes the job.",
+        "why": "The ramekin transfer prevents broken yolks and lets you place eggs precisely. Covering traps steam to cook the egg tops without flipping. Pulling early accounts for carryover cooking — the difference between a silky yolk and a chalky one.",
+        "extra_ingredients": []
       },
       {
         "type": "acid",
-        "title": "Quick-Pickled Red Onion Garnish",
-        "instruction": "Thinly slice 1 red onion into rings. Cover with lime juice, a pinch of salt, and a pinch of sugar. Let sit 20 minutes until bright pink. Pile on top of enchiladas after baking.",
-        "why": "Pickled onion adds crunchy acid that cuts through the richness of melted cheese and crema. The pink color is stunning against the red and green sauces.",
-        "extra_ingredients": ["red onion", "lime"]
+        "title": "The Finishing Layer",
+        "instruction": "Off heat, crumble feta generously over the shakshuka, drizzle with good extra-virgin olive oil, and scatter fresh herbs (parsley or cilantro). For the za'atar toast, brush thick sourdough slices with olive oil, sprinkle liberally with za'atar, and broil until golden and fragrant.",
+        "why": "Feta's salty tang against the sweet-spicy sauce creates the signature contrast that makes shakshuka craveable. Za'atar toast — with its blend of thyme, sumac, and sesame — adds herbal crunch and Middle Eastern authenticity. The bread is for mopping, and mopping is mandatory.",
+        "extra_ingredients": ["feta", "extra-virgin olive oil", "fresh parsley", "za'atar"]
+      }
+    ],
+    "designers_note": "Shakshuka is a one-pan masterpiece from North African and Middle Eastern kitchens. The entire dish hinges on sauce consistency and egg timing — nail those two things and everything else falls into place. Taste your harissa before adding it; brands vary wildly in heat. Start with 1 tablespoon and build up. Serve this straight from the skillet to the table with the toast piled alongside."
+  },
+  {
+    "name": "Lemon Ricotta Pancakes with Maple Breakfast Sausage",
+    "base_description": "Elsie's special request — pillowy lemon ricotta pancakes with crispy maple breakfast sausage for a cozy Friday breakfast-for-dinner.",
+    "flavor_profile": "Bright citrus, creamy ricotta, sweet maple, savory sausage",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Whipped Egg White Soufflé Lift",
+        "instruction": "Separate your eggs. Mix the yolks into the batter with ricotta, lemon zest, lemon juice, and dry ingredients. In a separate clean bowl, whip the egg whites to soft peaks, then fold them into the batter in two additions — first addition to lighten, second to preserve the air. Mix only until just combined; streaks of white are fine.",
+        "why": "Whipped whites create thousands of tiny air pockets that expand in the pan's heat, producing pancakes with a soufflé-like rise and cloud-light texture. Over-mixing deflates these bubbles and results in dense, flat pancakes — the most common mistake home cooks make.",
+        "extra_ingredients": []
+      },
+      {
+        "type": "acid",
+        "title": "Zest Over Juice",
+        "instruction": "Zest 2 lemons directly over the batter bowl using a Microplane — this captures the volatile citrus oils at their freshest. Add the juice of 1 lemon. Use only fresh lemons, never bottled juice. The zest is where 80% of the lemon flavor lives.",
+        "why": "Lemon zest contains essential oils that deliver intense, bright citrus flavor without the acidity that can toughen proteins and thin the batter. The juice provides just enough acid to react with baking powder for extra lift while adding tang.",
+        "extra_ingredients": []
       },
       {
         "type": "texture",
-        "title": "Toasted Pepita Garnish",
-        "instruction": "Toast 1/4 cup raw pepitas (pumpkin seeds) in a dry skillet over medium heat, tossing frequently, until they puff and start to pop — about 3 minutes. Season with a pinch of salt and a squeeze of lime.",
-        "why": "Pepitas add an authentic Mexican crunch that complements the soft enchilada texture. Their nutty, slightly bitter flavor bridges the two sauces.",
-        "extra_ingredients": ["raw pepitas (pumpkin seeds)"]
+        "title": "Butter-Oil Griddle & Small Pours",
+        "instruction": "Heat a nonstick skillet or griddle over medium heat (not medium-high). Use a mix of 1 tablespoon butter and 1 teaspoon neutral oil per batch. Pour ⅓-cup portions and resist the urge to press or spread the batter — let it find its own shape. Flip when bubbles appear on the surface and edges look set (about 2–3 minutes).",
+        "why": "The butter-oil combo gives you the flavor and browning of butter without the burning. Small, thick pours cook through evenly while staying tall and fluffy. Pressing squeezes out the air you worked so hard to fold in. Medium heat gives a golden, even crust rather than a dark, spotted one.",
+        "extra_ingredients": ["neutral oil"]
       }
     ],
-    "designers_note": "Christmas enchiladas are already a showstopper with that red-green sauce divide. Toast the tortillas, bloom the chiles properly, and pile on the pickled onions and pepitas — you've gone from 'good enchiladas' to 'enchiladas that make the table go quiet for a second.'"
+    "designers_note": "Elsie picked a winner — ricotta pancakes are a restaurant brunch secret that's surprisingly easy at home. The ricotta adds richness and moisture that regular pancakes can't match, and the whipped whites give them an almost cake-like lightness. Serve stacked with warm maple syrup and the sausages on the side. If you want to go the extra mile, a little powdered sugar dusted over the top and some fresh berries make these look as special as they taste."
+  },
+  {
+    "name": "Christmas Enchiladas",
+    "base_description": "Dining out in Albuquerque on a travel day — classic New Mexican enchiladas ordered 'Christmas style' with both red and green chile.",
+    "flavor_profile": "Earthy red chile, bright tangy green chile, melty cheese, corn tortilla",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Order Christmas Style, Stacked",
+        "instruction": "When the server asks 'red or green?', say 'Christmas' — this gets you both red and green chile sauce on the same plate, half and half. Ask for your enchiladas 'stacked' rather than rolled, which is the authentic New Mexican style: tortillas layered like lasagna with cheese and chile between each layer, topped with a fried egg.",
+        "why": "Christmas style lets you taste both chiles side by side — the red is earthy, smoky, and slow-simmered from dried pods, while the green is bright, tangy, and more immediately spicy from freshly roasted Hatch chiles. Stacked is how New Mexicans eat enchiladas; rolled is Tex-Mex. The fried egg on top is a local tradition that adds richness and ties everything together.",
+        "extra_ingredients": []
+      },
+      {
+        "type": "preparation",
+        "title": "Ask About the Chile Heat",
+        "instruction": "Before ordering, ask your server how hot the green chile is today — it varies by season, batch, and restaurant. If dining with Elsie, request 'mild' or 'medium' and get a side of hot sauce to adjust. Also ask for sopapillas (puffy fried bread) with honey on the side — they're the traditional New Mexican dessert-with-dinner and perfect for cooling the heat.",
+        "why": "New Mexican green chile heat is unpredictable and can range from sweet-pepper mild to habanero-level fierce depending on the harvest and the kitchen. Asking first prevents surprises, especially with kids at the table. Sopapillas are non-negotiable in Albuquerque — they're the cultural equivalent of bread service, and drizzling honey inside a hot, puffy sopapilla is a rite of passage.",
+        "extra_ingredients": []
+      }
+    ],
+    "designers_note": "You're in enchilada country — Albuquerque takes its chile seriously. Look for places that make their chile sauces from scratch (El Modelo, Sadie's, and Cocina Azul are local legends). The blue corn tortilla version is worth seeking out for its nuttier flavor. Don't fill up on chips — save room for the main event and the sopapillas."
   }
 ]

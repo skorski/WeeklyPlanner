@@ -1,101 +1,105 @@
 {
   "week_range": "February 8 - February 14, 2026",
   "weekly_theme": {
-    "title": "Love in Action",
-    "description": "Valentine's week isn't just about cards and candy — it's a chance to explore what love looks like when it's a verb. How do we show care through cooking together, through small kindnesses at school, through making someone's favorite meal? This week, look for moments to ask Elsie: what does love look like when you do it, not just say it?"
+    "title": "Brave Explorers: Hearts & Horizons",
+    "description": "This week is about courage in all its forms — tasting bold flavors at a friend's table, performing onstage at YAT, mixing mystery potions at science camp, leaping through dance camp choreography, and catching a pre-dawn flight to the Land of Enchantment. Valentine's Day falls on travel day, which means love isn't something we celebrate sitting still — it's something we carry with us into the unknown. Every dinner this week is a basecamp, and every conversation is a chance to remind Elsie that the bravest thing an explorer carries isn't a compass — it's an open heart."
   },
   "dinner_questions": [
     {
       "day": "Sunday",
+      "day_of_week": "sunday",
       "dinner": "Philly Cheesesteaks",
-      "question": "If you could make any sandwich in the world for your best friend, what would you put on it and why?",
-      "category": "imagination",
-      "why": "Connects food to friendship and generosity. At 8, she's deeply invested in best-friend dynamics — this lets her express care through a creative, low-stakes scenario."
+      "question": "We're eating at a friend's house tonight — what's your favorite thing about sharing a meal with people outside our family? If you could invite anyone in the world to dinner, who would it be and what would you serve them?",
+      "category": "gratitude",
+      "why": "Eating at a friend's home is a mini-adventure in trust and openness — you step into someone else's kitchen, their rhythms, their traditions. This question helps Elsie practice gratitude for the people who welcome us, and gently stretches her imagination about hospitality and generosity."
     },
     {
       "day": "Monday",
-      "dinner": "Shakshuka with Feta",
-      "question": "What's the bravest thing you saw someone do today — even if it was something small?",
-      "category": "values",
-      "why": "Eight-year-olds are building their moral compass and starting to notice courage in everyday actions. This question helps her practice recognizing bravery beyond physical feats — standing up for someone, trying something new, admitting a mistake."
+      "day_of_week": "monday",
+      "dinner": "Herb-Roasted Whole Chicken",
+      "question": "This chicken is roasted with herbs that grow right out of the ground. If you were an explorer and could discover a brand-new plant that nobody has ever seen, what would it look like, what would it smell like, and what would you name it?",
+      "category": "imagination",
+      "why": "The smell of roasting herbs is one of those sensory anchors that makes a home feel safe. Connecting that warmth to nature and discovery lets Elsie flex her creativity while grounding the explorer theme in something she can taste and touch — a perfect Monday wind-down."
     },
     {
       "day": "Tuesday",
+      "day_of_week": "tuesday",
       "dinner": "Babo Pasta with Alfredo",
-      "question": "If our family had a theme song, what would it sound like? Fast or slow? Loud or quiet? What instruments?",
-      "category": "family_connection",
-      "why": "Swim lesson nights are rushed — this question is pure fun with no right answer. It invites creativity and reveals how she perceives the family's energy. Plus, there's music playing (Say She She) — she can riff off what she hears."
+      "question": "You just came from swim lessons — your body worked really hard tonight! What's something difficult you tried recently (in the pool or anywhere) that you're proud of, even if you haven't totally mastered it yet?",
+      "category": "values",
+      "why": "After swim, Elsie's body is tired and her defenses are down — which actually makes this the best moment for an honest conversation about effort. Comforting pasta creates a safe, warm space to reinforce that bravery isn't about being perfect; it's about showing up and trying, even when the water is cold."
     },
     {
       "day": "Wednesday",
-      "dinner": "Kale Caesar Salad",
-      "question": "What's something you're really good at that you didn't used to be good at? How did you get better?",
-      "category": "reflection",
-      "why": "At 8, she's developing a growth mindset — the ability to see effort as the path to mastery. This question helps her narrate her own competence story, which builds resilience for future challenges."
+      "day_of_week": "wednesday",
+      "dinner": "Warm Farro & Beet Salad",
+      "question": "At science potions camp today you mixed things together to see what happens. If you could mix any two things in the whole world together to create something totally new, what would you combine and what would it do?",
+      "category": "imagination",
+      "why": "Science camp is still buzzing in her mind, so this question rides that wave of wonder. Letting Elsie invent something imaginary validates what she did at camp and stretches her thinking from 'what happened' to 'what could happen' — the heart of every brave explorer's mindset."
     },
     {
       "day": "Thursday",
-      "dinner": "Mushroom Pappardelle",
-      "question": "Valentine's Day is coming up — if you could show love to someone at school without using words, how would you do it?",
-      "category": "values",
-      "why": "This ties directly to the weekly theme of 'love in action.' It pushes her to think about non-verbal expressions of care — saving a seat, sharing a snack, drawing a picture. These are the building blocks of empathy."
+      "day_of_week": "thursday",
+      "dinner": "Shakshuka with Za'atar Sourdough Toast",
+      "question": "Shakshuka comes from North Africa and the Middle East — it's traveled thousands of miles to end up on our table! In just two days, we're flying to New Mexico. What are you most excited to discover there, and is there anything you're a little nervous about?",
+      "category": "story",
+      "why": "This dish literally crossed continents to reach your kitchen — what a beautiful parallel for a family about to cross the country. Asking about both excitement and nerves gives Elsie full permission to hold two feelings at once, which is one of the most important emotional skills an eight-year-old can practice."
     },
     {
       "day": "Friday",
-      "dinner": "Baked Bronzino with Roasted Kale",
-      "question": "What's something you wish grown-ups understood better about being 8?",
-      "category": "story",
-      "why": "This is a trust question. It says: I want to understand your world. Eight-year-olds often feel unheard by adults — this invites her to be the expert. Listen without correcting."
+      "day_of_week": "friday",
+      "dinner": "Lemon Ricotta Pancakes",
+      "question": "You picked tonight's dinner — breakfast for dinner! If you were in charge of our family for a whole day and could flip any rules upside-down, what would you change? Pajamas to school? Dessert first? You're the boss!",
+      "category": "family",
+      "why": "This is Dad-and-Elsie night while Laura is at book club, and Elsie chose this meal — so the whole evening is hers. Leaning into her sense of agency and playful power builds confidence and connection right before the biggest adventure day of the week. Let her lead. She's ready."
     },
     {
       "day": "Saturday",
+      "day_of_week": "saturday",
       "dinner": "Christmas Enchiladas",
-      "question": "What are three things you love about our family — not things we have, but things we do?",
+      "question": "We made it to Albuquerque! These enchiladas are served 'Christmas style' — half red chile, half green chile. If you had to describe today's adventure using only three words, what would they be? And what's one thing you saw today that you've never seen before?",
       "category": "gratitude",
-      "why": "Valentine's Day dinner — the perfect moment to talk about family love. Asking about actions (not possessions) reinforces that love is demonstrated, not just felt. Travel day makes this a great car conversation too."
+      "why": "After a 4:30 AM flight and a day full of new sights, Elsie's brain is overflowing. The three-word constraint helps her distill a sensory-rich day into something she can hold onto. And it's Valentine's Day — so sitting together in a new place, sharing bold food and bold stories, is the best love letter this family can write."
     }
   ],
   "nudges": [
     {
-      "title": "The Sous Chef Moment",
-      "context": "Thursday's dinner involves making fresh pasta from scratch — eggs, flour, and rolling. This is the perfect invitation.",
-      "suggestion": "Let Elsie handle the pasta dough. Crack the eggs, measure the flour, knead until smooth. Don't correct her technique unless she asks. Let the mess happen.",
+      "title": "The Explorer's Notebook",
+      "context": "With science camp, dance camp, YAT performances, and an Albuquerque trip all landing in one week, Elsie's brain is absorbing more new experiences than usual. At eight, kids are just beginning to develop the ability to reflect on their own experiences — but they need a tangible tool to anchor that skill. A travel journal gives her a place to process, remember, and own her discoveries.",
+      "suggestion": "Give Elsie an 'Explorer's Field Notebook' — a small, sturdy journal she can carry all week. Each day she jots or draws one discovery: a science potion recipe, a dance move she nailed, a YAT moment that made her nervous, a funny thing someone said. By Saturday morning she'll board the plane with a whole week of bravery documented in her own handwriting.",
       "how_to": [
-        "Set up her station: apron, flour, eggs, a clean surface",
-        "Show her once how to make the well and crack the eggs in",
-        "Step back. Let her knead. Let her feel the dough change texture.",
-        "When it's smooth, tell her: 'You made that. From scratch. That's real.'"
+        "Monday evening: Present the notebook with a little ceremony — 'Every great explorer keeps a field notebook. This one is yours.'",
+        "Each night before bed (or at dinner), ask: 'What goes in the notebook today?' Let her write, draw, or paste something in.",
+        "On the plane Saturday morning, flip through the week's entries together. It becomes a pre-trip ritual and a keepsake."
       ]
     },
     {
-      "title": "The Valentine Card Factory",
-      "context": "Valentine's Day is Saturday but the potluck is Thursday. The week is naturally Valentine-themed — lean into it with a creative project early in the week.",
-      "suggestion": "Monday or Tuesday evening, set out supplies and make Valentine cards together — not store-bought, handmade. For friends, for teachers, for each other.",
+      "title": "Valentine's Love Map",
+      "context": "Valentine's Day falls on a 4:30 AM travel day, which means the usual card-and-candy celebration isn't going to work. But that's actually a gift in disguise. At eight, Elsie is in a key developmental window for understanding that love isn't just a feeling — it's something people do, consistently, in small and specific ways. A week-long trail of love notes teaches that better than any store-bought valentine ever could.",
+      "suggestion": "Create a 'Love Map' — seven small handwritten notes, one hidden each day in Elsie's world: her lunchbox, swim bag, science camp backpack, dance bag, YAT tote, and finally her carry-on for the flight. Each note names one specific thing you love about her. The final note, tucked into her bag with a small treat, arrives mid-flight on Valentine's morning — tying the whole week into a single thread of love.",
       "how_to": [
-        "Gather: construction paper, markers, stickers, scissors, glue",
-        "Each person makes at least 3 cards — including one for each family member",
-        "No templates or Pinterest perfection — messy is better",
-        "Read them aloud to each other before sealing"
+        "Sunday night: Write all seven notes. Keep them short and specific — 'I love how you always check on your friends when they're sad' is better than 'You're great.'",
+        "Each morning, hide that day's note somewhere she'll find it during her activity (swim bag Tuesday, science camp backpack Wednesday, dance bag Thursday, YAT bag Friday).",
+        "Saturday's note goes in her carry-on with a small treat. When she finds it on the plane, it ties the whole week together."
       ]
     },
     {
-      "title": "The Friday Solo Mission",
-      "context": "Laura is at book club. Dan is solo with Elsie after YAT pickup at 6 PM. This is a connection goldmine.",
-      "suggestion": "After dinner, let Elsie choose the entire evening agenda. Movie, game, craft, or just talking. The only rule: no phones for either of you. Call it 'Elsie's Night.'",
+      "title": "The Early-Bird Adventure Pact",
+      "context": "The 4:30 AM flight means waking around 3 AM — brutal for anyone, but especially for an eight-year-old whose body runs on routine. Sleep disruption is one of the most reliable triggers for meltdowns at this age. The antidote isn't just logistics (though those matter); it's narrative. If Elsie goes to bed Friday believing she's on a secret mission, the alarm becomes a plot point instead of a rude awakening.",
+      "suggestion": "Starting Wednesday, begin building the 'secret early-bird mission' storyline. Only the bravest explorers get to see an airport when the sky is still full of stars. Make a pact: first person to spot a star on the drive to the airport picks the first activity in Albuquerque. By Saturday morning, the early wake-up isn't something that happens to Elsie — it's something she chose to be part of.",
       "how_to": [
-        "On the drive home from YAT, ask: 'Tonight is yours. What do you want to do?'",
-        "Whatever she picks, commit fully. Don't suggest alternatives.",
-        "If she picks a movie, watch it next to her, not across the room.",
-        "Before bed: 'I really liked hanging out with just you tonight.'"
+        "Wednesday at dinner: Casually mention, 'Did you know our plane leaves before the sun is even up? Only night-owl explorers get to do that.'",
+        "Friday night: Pack together, lay out travel clothes, and let Elsie set her alarm clock. Give her ownership of waking up — she'll take it seriously.",
+        "Saturday morning: Keep lights low, voices soft, and have a small snack bag ready. Play her favorite quiet music in the car. Celebrate being awake with wonder, not stress."
       ]
     }
   ],
   "recommendation": {
     "type": "book",
-    "title": "Each Kindness",
-    "author": "Jacqueline Woodson",
-    "why": "A beautiful picture book (yes, even for 8-year-olds) about a girl who misses the chance to be kind to a new student — and the regret that follows. It's short, powerful, and unforgettable. Perfect for Valentine's week because it reframes love as everyday kindness, not grand gestures.",
-    "connection": "Ties directly to the 'Love in Action' theme. Read it together any night this week — it takes 10 minutes and will generate a conversation that lasts much longer."
+    "title": "Race to the Sun",
+    "author": "Rebecca Roanhorse",
+    "why": "A middle-grade adventure novel set in New Mexico, rooted in Navajo mythology. Nizhoni Begay, a seventh-grader, discovers she has ancestral powers and must go on a dangerous quest to save her family. It's brave, fast-paced, funny, and deeply tied to the land you're about to visit — the mesas, the sky, the stories that live in the desert.",
+    "connection": "Reading even a few chapters before the trip transforms Albuquerque from 'a place we're visiting' into 'the place where Nizhoni's story lives.' Elsie will look at the New Mexico landscape differently — and that's exactly what brave explorers do. They arrive with eyes already open."
   },
-  "parent_reflection": "This week, pay attention to how Elsie shows love — not how she says it. Does she save you the best piece? Does she draw you a picture unprompted? Does she sit closer to you on the couch? Those small, wordless gestures are her love language developing in real time. Notice them. Name them. 'I saw you saved me the corner piece — that made me feel really loved.' She needs to know her love lands."
+  "parent_reflection": "This week is a masterclass in transitions — from the familiar rhythm of swim and camps to the wild unknown of a pre-dawn flight and a new city. The temptation is to compartmentalize: get through the week, then enjoy the trip. But Elsie doesn't see it that way. For her, Monday's roast chicken and Saturday's enchiladas are part of the same story. The science potions and the airplane are chapters in the same adventure. Your job this week isn't to manage logistics (though you will). It's to model wonder. When you're curious about the herbs on the chicken, playful about pancakes-for-dinner, and genuinely excited about stars at 3 AM, Elsie absorbs something no camp or class can teach: that the people who love her find the world endlessly interesting. That's the Valentine she'll remember."
 }
