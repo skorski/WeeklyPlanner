@@ -1,8 +1,8 @@
 ---
 name: booklet
 description: >
-  Generate a mobile-friendly HTML file and a printable PDF booklet from a weekly
-  plan. The PDF is formatted as a half-letter booklet (5.5" × 8.5" folded) with
+  Generate a mobile-friendly HTML file and a printable PDF from a weekly
+  plan. The PDF contains individual A5 pages (148mm × 210mm) in reading order with
   minimalist design. Supports extensible extra sections that other skills can add
   (parenting tips, articles, etc.). Use this skill after the weekly-planner skill
   has produced its plan data. Triggers on requests to "make a booklet," "create a
@@ -29,13 +29,13 @@ weekly_plans/2026-02-08/
   weekly-plan.pdf     ← printable booklet (this skill)
 ```
 
-## PDF Booklet Format
+## PDF Format
 
-- **Page size:** 11" × 8.5" (letter landscape) with two 5.5" × 8.5" half-pages per sheet
-- **Imposition:** Saddle-stitch booklet order — print duplex (flip short edge), stack sheets, fold once in center
+- **Page size:** A5 (148mm × 210mm) — individual pages in reading order
+- **Printing:** Use Adobe Reader's booklet printing feature if a folded booklet is desired
 - **Style:** Minimalist, editorial — muted palette, serif headings, clean typography
 - **Structure:** Traditional booklet with section dividers, running headers, and page numbers
-- **Page order (logical, before imposition):**
+- **Page order:**
   1. Cover — week title, date range, hero highlight
   2. Week at a Glance — overview summary table
   3. **Section divider** — "Daily Plan"
@@ -50,9 +50,9 @@ weekly_plans/2026-02-08/
   19+. Extra sections (extensible — see below)
   Last. Back cover — notes, nutrition summary, colophon
 
-Pages are automatically padded to a multiple of 4 and imposed in booklet
-signature order by `render_booklet.py`. Content flows naturally across pages
-when it exceeds a single half-sheet.
+Pages are output sequentially in reading order by `render_booklet.py`.
+Content flows naturally across pages when it exceeds a single A5 sheet.
+Adobe Reader (or any PDF viewer) can handle booklet folding at print time.
 
 ## Extensibility
 
@@ -126,9 +126,9 @@ Remove the temporary plan JSON file if it was created just for this step.
 
 ## Configuration
 
-- Requires Python 3.7+, `jinja2`, `playwright`, and `pypdf`
+- Requires Python 3.7+, `jinja2`, and `playwright`
 - Playwright Chromium must be installed: `python -m playwright install chromium`
-- `pypdf` is used for booklet imposition (saddle-stitch page ordering)
+- `pypdf` is optional (used only for page count reporting)
 - Template is in `templates/booklet.html.j2` — edit to customize layout and styling
-- The HTML uses `@media screen` for mobile and `@media print` for the PDF booklet
+- The HTML uses `@media screen` for mobile and `@media print` for the PDF
 - No API keys required
