@@ -406,6 +406,103 @@ body {
   .parenting-section .book-rec .book-icon { font-size: 28px; }
   .parenting-section .book-rec .book-info h4 { font-size: 14px; margin-bottom: 2px; }
   .parenting-section .book-rec .book-info p { font-size: 13px; color: var(--muted); }
+
+  /* Stoic Guide (screen) */
+  .stoic-section { margin-bottom: 24px; }
+  .stoic-theme-header {
+    padding: 12px 14px;
+    background: #f0f0f5;
+    border-left: 4px solid #4a5568;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  .stoic-category-tag {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #718096;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .stoic-theme-header h3 {
+    font-family: var(--font-serif);
+    font-size: 18px;
+    margin-bottom: 4px;
+    color: #2d3748;
+  }
+  .stoic-theme-header p { font-size: 13px; color: #4a5568; }
+  .stoic-anchor-quote {
+    border-left: 3px solid #a0aec0;
+    padding: 10px 14px;
+    margin: 12px 0;
+    font-style: italic;
+    font-size: 14px;
+    color: #4a5568;
+    background: #f7fafc;
+    border-radius: 0 4px 4px 0;
+  }
+  .stoic-anchor-quote cite {
+    display: block;
+    font-style: normal;
+    font-size: 11px;
+    color: #718096;
+    margin-top: 6px;
+  }
+  .stoic-intro {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #4a5568;
+    margin-bottom: 16px;
+  }
+  .meditation-card {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .meditation-card:last-child { border-bottom: none; }
+  .meditation-day-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #a0aec0;
+    margin-bottom: 2px;
+  }
+  .meditation-card h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 4px;
+  }
+  .meditation-card p { font-size: 13px; color: #4a5568; margin-bottom: 4px; }
+  .meditation-prompt-text { font-size: 12px; color: #718096; }
+  .meditation-sec-quote { font-size: 11px; color: #a0aec0; font-style: italic; }
+  .stoic-exercise-card {
+    background: #f7fafc;
+    padding: 12px 14px;
+    margin: 12px 0;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+  }
+  .stoic-exercise-card h4 { font-size: 14px; color: #2d3748; margin-bottom: 6px; }
+  .stoic-exercise-card p { font-size: 13px; color: #4a5568; }
+  .stoic-young-card {
+    background: #fffff0;
+    padding: 12px 14px;
+    margin: 12px 0;
+    border-left: 3px solid #d69e2e;
+    border-radius: 4px;
+  }
+  .stoic-young-card h4 { font-size: 14px; color: #744210; margin-bottom: 6px; }
+  .stoic-young-card p { font-size: 13px; color: #744210; }
+  .stoic-closing {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    color: #718096;
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid #e2e8f0;
+  }
+
   .day-card .prep-notes {
     margin-top: 12px;
     padding-top: 10px;
@@ -1039,6 +1136,119 @@ body {
   .page-parenting .book-rec h4 { font-size: 8.5pt; margin-bottom: 1pt; }
   .page-parenting .book-rec p { font-size: 7.5pt; color: #666; }
 
+  /* ---- STOIC GUIDE ---- */
+  .page-stoic {
+    font-size: 8pt;
+    line-height: 1.45;
+  }
+  .page-stoic .stoic-theme-banner {
+    padding: 6pt 8pt;
+    background: #f0f0f5;
+    margin-bottom: 6pt;
+    border-left: 3pt solid #4a5568;
+  }
+  .page-stoic .stoic-theme-banner h3 {
+    font-family: var(--font-serif);
+    font-size: 11pt;
+    margin-bottom: 2pt;
+    color: #2d3748;
+  }
+  .page-stoic .stoic-theme-banner .stoic-category {
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    color: #718096;
+  }
+  .page-stoic .stoic-theme-banner p { font-size: 7.5pt; color: #4a5568; }
+  .page-stoic .anchor-quote {
+    border-left: 2pt solid #a0aec0;
+    padding: 4pt 8pt;
+    margin: 6pt 0;
+    font-style: italic;
+    font-size: 8pt;
+    color: #4a5568;
+  }
+  .page-stoic .anchor-quote .quote-source {
+    display: block;
+    font-style: normal;
+    font-size: 6.5pt;
+    color: #718096;
+    margin-top: 2pt;
+  }
+  .page-stoic .stoic-intro {
+    font-size: 7.5pt;
+    margin-bottom: 6pt;
+    color: #4a5568;
+  }
+  .page-stoic .meditation-entry {
+    padding: 4pt 0;
+    border-bottom: 0.5pt solid #e2e8f0;
+  }
+  .page-stoic .meditation-entry:last-child { border-bottom: none; }
+  .page-stoic .meditation-title {
+    font-weight: 600;
+    font-size: 8pt;
+    color: #2d3748;
+  }
+  .page-stoic .meditation-day {
+    font-size: 6.5pt;
+    color: #a0aec0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+  }
+  .page-stoic .meditation-reflection {
+    font-size: 7.5pt;
+    color: #4a5568;
+    margin: 2pt 0;
+  }
+  .page-stoic .meditation-prompt {
+    font-size: 7pt;
+    color: #718096;
+    font-style: italic;
+  }
+  .page-stoic .meditation-secondary-quote {
+    font-size: 6.5pt;
+    color: #a0aec0;
+    font-style: italic;
+    margin-top: 2pt;
+  }
+  .page-stoic .stoic-exercise {
+    background: #f7fafc;
+    padding: 5pt 7pt;
+    margin: 6pt 0;
+    border-radius: 3pt;
+  }
+  .page-stoic .stoic-exercise h4 {
+    font-size: 8.5pt;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 2pt;
+  }
+  .page-stoic .stoic-exercise p { font-size: 7.5pt; color: #4a5568; }
+  .page-stoic .young-stoic {
+    background: #fffff0;
+    padding: 5pt 7pt;
+    margin: 6pt 0;
+    border-left: 2pt solid #d69e2e;
+    border-radius: 3pt;
+  }
+  .page-stoic .young-stoic h4 {
+    font-size: 8.5pt;
+    font-weight: 600;
+    color: #744210;
+    margin-bottom: 2pt;
+  }
+  .page-stoic .young-stoic p { font-size: 7.5pt; color: #744210; }
+  .page-stoic .closing-thought {
+    text-align: center;
+    font-style: italic;
+    font-size: 8pt;
+    color: #718096;
+    margin-top: 8pt;
+    padding-top: 4pt;
+    border-top: 0.5pt solid #e2e8f0;
+  }
+
   /* ---- BACK COVER ---- */
   .page-back {
     display: flex;
@@ -1380,6 +1590,80 @@ body {
 </div>
 {% endif %}
 
+{# --- STOIC GUIDE (2-page spread) --- #}
+{% if stoic_data %}
+{# Page 1: Theme + Anchor Quote + Introduction + First Meditations #}
+<div class="page page-stoic">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">The Stoic Guide</h2>
+  <div class="stoic-theme-banner">
+    <div class="stoic-category">{{ stoic_data.theme.category | default("") }}</div>
+    <h3>{{ stoic_data.theme.title }}</h3>
+    <p>{{ stoic_data.theme.description }}</p>
+  </div>
+
+  <div class="anchor-quote">
+    "{{ stoic_data.anchor_quote.text }}"
+    <span class="quote-source">— {{ stoic_data.anchor_quote.source }}, <em>{{ stoic_data.anchor_quote.work }}</em> {{ stoic_data.anchor_quote.reference }}</span>
+  </div>
+
+  <div class="stoic-intro">{{ stoic_data.introduction }}</div>
+
+  {% for m in stoic_data.meditations[:4] %}
+  <div class="meditation-entry">
+    {% if m.day %}<span class="meditation-day">{{ m.day }}</span>{% endif %}
+    <span class="meditation-title">{{ m.title }}</span>
+    <div class="meditation-reflection">{{ m.reflection }}</div>
+    <div class="meditation-prompt">{{ m.prompt }}</div>
+    {% if m.secondary_quote %}
+    <div class="meditation-secondary-quote">"{{ m.secondary_quote.text }}" — {{ m.secondary_quote.source }}</div>
+    {% endif %}
+  </div>
+  {% endfor %}
+  <div class="page-folio"></div>
+</div>
+
+{# Page 2: Remaining Meditations + Family Exercise + Young Stoic + Closing #}
+<div class="page page-stoic">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Reflections & Practice</h2>
+
+  {% for m in stoic_data.meditations[4:] %}
+  <div class="meditation-entry">
+    {% if m.day %}<span class="meditation-day">{{ m.day }}</span>{% endif %}
+    <span class="meditation-title">{{ m.title }}</span>
+    <div class="meditation-reflection">{{ m.reflection }}</div>
+    <div class="meditation-prompt">{{ m.prompt }}</div>
+    {% if m.secondary_quote %}
+    <div class="meditation-secondary-quote">"{{ m.secondary_quote.text }}" — {{ m.secondary_quote.source }}</div>
+    {% endif %}
+  </div>
+  {% endfor %}
+
+  {% if stoic_data.family_exercise %}
+  <div class="stoic-exercise">
+    <h4>🏛 {{ stoic_data.family_exercise.title }}</h4>
+    <p>{{ stoic_data.family_exercise.description }}</p>
+    <p><em>{{ stoic_data.family_exercise.connection }}</em></p>
+  </div>
+  {% endif %}
+
+  {% if stoic_data.young_stoic %}
+  <div class="young-stoic">
+    <h4>🌱 {{ stoic_data.young_stoic.title }}</h4>
+    <p>{{ stoic_data.young_stoic.prompt }}</p>
+    <p><em>{{ stoic_data.young_stoic.lesson }}</em></p>
+  </div>
+  {% endif %}
+
+  {% if stoic_data.closing_thought %}
+  <div class="closing-thought">{{ stoic_data.closing_thought }}</div>
+  {% endif %}
+
+  <div class="page-folio"></div>
+</div>
+{% endif %}
+
 {# --- SECTION DIVIDER: The Weekly Read --- #}
 {% if newsletter_data and newsletter_data.clusters %}
 <div class="page page-divider">
@@ -1679,6 +1963,57 @@ body {
     <div class="reflection-box">
       {{ parenting_data.parent_reflection }}
     </div>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if stoic_data %}
+  <h2 class="section-title">🏛 The Stoic Guide</h2>
+  <div class="stoic-section">
+    <div class="stoic-theme-header">
+      <span class="stoic-category-tag">{{ stoic_data.theme.category | default("") }}</span>
+      <h3>{{ stoic_data.theme.title }}</h3>
+      <p>{{ stoic_data.theme.description }}</p>
+    </div>
+
+    <blockquote class="stoic-anchor-quote">
+      "{{ stoic_data.anchor_quote.text }}"
+      <cite>— {{ stoic_data.anchor_quote.source }}, <em>{{ stoic_data.anchor_quote.work }}</em> {{ stoic_data.anchor_quote.reference }}</cite>
+    </blockquote>
+
+    <div class="stoic-intro">{{ stoic_data.introduction }}</div>
+
+    <h4 style="font-size:15px;font-weight:600;margin-bottom:8px;">Meditations</h4>
+    {% for m in stoic_data.meditations %}
+    <div class="meditation-card">
+      {% if m.day %}<div class="meditation-day-label">{{ m.day }}</div>{% endif %}
+      <h4>{{ m.title }}</h4>
+      <p>{{ m.reflection }}</p>
+      <p class="meditation-prompt-text"><strong>Prompt:</strong> {{ m.prompt }}</p>
+      {% if m.secondary_quote %}
+      <p class="meditation-sec-quote">"{{ m.secondary_quote.text }}" — <em>{{ m.secondary_quote.source }}</em></p>
+      {% endif %}
+    </div>
+    {% endfor %}
+
+    {% if stoic_data.family_exercise %}
+    <div class="stoic-exercise-card">
+      <h4>🏛 {{ stoic_data.family_exercise.title }}</h4>
+      <p>{{ stoic_data.family_exercise.description }}</p>
+      <p style="font-style:italic;">{{ stoic_data.family_exercise.connection }}</p>
+    </div>
+    {% endif %}
+
+    {% if stoic_data.young_stoic %}
+    <div class="stoic-young-card">
+      <h4>🌱 {{ stoic_data.young_stoic.title }}</h4>
+      <p>{{ stoic_data.young_stoic.prompt }}</p>
+      <p style="font-style:italic;">{{ stoic_data.young_stoic.lesson }}</p>
+    </div>
+    {% endif %}
+
+    {% if stoic_data.closing_thought %}
+    <div class="stoic-closing">{{ stoic_data.closing_thought }}</div>
     {% endif %}
   </div>
   {% endif %}

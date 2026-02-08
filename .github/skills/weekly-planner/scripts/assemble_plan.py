@@ -111,6 +111,10 @@ def main():
         "--newsletter",
         help="Path to newsletter JSON from the linkwarden skill.",
     )
+    parser.add_argument(
+        "--stoic",
+        help="Path to stoic guide JSON from the stoic-guide skill.",
+    )
     args = parser.parse_args()
 
     # Load core plan data
@@ -155,6 +159,13 @@ def main():
         article_count = len(newsletter.get("clusters", []))
         print(f"Merged newsletter data: {article_count} clusters", file=sys.stderr)
 
+    # Merge stoic guide
+    if args.stoic:
+        with open(args.stoic, "r", encoding="utf-8-sig") as f:
+            stoic = json.load(f)
+        data["stoic_data"] = stoic
+        print("Merged stoic guide data", file=sys.stderr)
+
     # Determine output path
     if args.output:
         out_path = Path(args.output)
@@ -180,13 +191,15 @@ def main():
         d.get("dinner_elevation_tips") for d in data.get("days", [])
     )
     has_newsletter = "newsletter_data" in data
+    has_stoic = "stoic_data" in data
 
     print(f"Plan assembled: {days_count} days, {appetizers} appetizers, "
           f"{salads} salads, {beverages} beverages", file=sys.stderr)
     print(f"  Parenting: {'✓' if has_parenting else '✗'}  "
           f"Nutrition: {'✓' if has_nutrition else '✗'}  "
           f"Elevations: {'✓' if has_elevations else '✗'}  "
-          f"Newsletter: {'✓' if has_newsletter else '✗'}", file=sys.stderr)
+          f"Newsletter: {'✓' if has_newsletter else '✗'}  "
+          f"Stoic: {'✓' if has_stoic else '✗'}", file=sys.stderr)
     print(f"Written to {out_path}", file=sys.stderr)
     print(f"PLAN_DATA={out_path}", file=sys.stderr)
 

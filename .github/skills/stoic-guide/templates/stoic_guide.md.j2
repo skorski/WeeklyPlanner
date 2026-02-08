@@ -1,0 +1,52 @@
+# {{ theme.title }}
+
+*{{ theme.category }}* · {{ week_range }}
+
+---
+
+> "{{ anchor_quote.text }}"
+>
+> — {{ anchor_quote.source }}, *{{ anchor_quote.work }}* {{ anchor_quote.reference }}
+
+---
+
+## Introduction
+
+{{ introduction }}
+
+---
+
+## Meditations
+
+{% for m in meditations %}
+### {{ loop.index }}. {{ m.title }}{% if m.day %} · {{ m.day }}{% endif %}
+
+{{ m.reflection }}
+
+**Prompt:** {{ m.prompt }}
+{% if m.secondary_quote %}
+
+> "{{ m.secondary_quote.text }}"
+> — {{ m.secondary_quote.source }}
+{% endif %}
+
+{% endfor %}
+---
+
+## Family Exercise: {{ family_exercise.title }}
+
+{{ family_exercise.description }}
+
+*{{ family_exercise.connection }}*
+
+---
+
+## For the Young Stoic: {{ young_stoic.title }}
+
+{{ young_stoic.prompt }}
+
+*{{ young_stoic.lesson }}*
+
+---
+
+*{{ closing_thought }}*

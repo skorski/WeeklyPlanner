@@ -41,6 +41,7 @@
         <button v-if="plan.grocery_list" class="menu-item" @click="scrollTo('grocery')">Grocery List</button>
         <button v-if="plan.prep_ahead?.length" class="menu-item" @click="scrollTo('prep')">Prep Checklist</button>
         <button v-if="plan.parenting_data" class="menu-item" @click="scrollTo('parenting')">Parenting Corner</button>
+        <button v-if="plan.stoic_data" class="menu-item" @click="scrollTo('stoic')">The Stoic Guide</button>
         <button v-if="plan.newsletter_data?.clusters?.length" class="menu-item" @click="scrollTo('newsletter')">The Weekly Read</button>
       </div>
 
@@ -147,6 +148,12 @@
         <ParentingSection :data="plan.parenting_data" />
       </template>
 
+      <!-- Stoic Guide -->
+      <template v-if="plan.stoic_data">
+        <h2 id="stoic" class="section-title">🏛 The Stoic Guide</h2>
+        <StoicSection :data="plan.stoic_data" />
+      </template>
+
       <!-- Newsletter -->
       <template v-if="plan.newsletter_data?.clusters?.length">
         <h2 id="newsletter" class="section-title">📰 The Weekly Read</h2>
@@ -176,6 +183,7 @@
 import { ref, computed, onMounted, watch, nextTick, onUnmounted } from 'vue'
 import DayCard from '../components/DayCard.vue'
 import ParentingSection from '../components/ParentingSection.vue'
+import StoicSection from '../components/StoicSection.vue'
 import NewsletterSection from '../components/NewsletterSection.vue'
 
 const props = defineProps({ date: String })
@@ -253,7 +261,8 @@ function setupScrollSpy() {
   const sections = [
     ['appetizers', 'Appetizers'], ['salads', 'Salads'], ['beverages', 'Beverages'],
     ['grocery', 'Grocery List'], ['prep', 'Prep-Ahead Checklist'],
-    ['parenting', 'Parenting Corner'], ['newsletter', 'The Weekly Read']
+    ['parenting', 'Parenting Corner'], ['stoic', 'The Stoic Guide'],
+    ['newsletter', 'The Weekly Read']
   ]
   for (const [id, label] of sections) {
     const el = document.getElementById(id)

@@ -100,6 +100,21 @@ Then follow the linkwarden SKILL.md workflow to:
 
 The newsletter data is merged via `--newsletter` in the assembly step (Step 10).
 
+### Step 6c: Invoke the Stoic Guide Skill
+
+Create the weekly Stoic reflection guide. This can run in parallel with
+other skills since it only needs the week's calendar context.
+
+Follow the stoic-guide SKILL.md workflow to:
+1. Check past plans for theme variety (avoid repeating last 8 weeks)
+2. Choose a theme based on the week's calendar, season, and emotional context
+3. Research the classical source and modern commentary
+4. Build the progressive meditation sequence
+5. Include a family exercise and young stoic section
+6. Output `stoic.json` to `weekly_plans/<YYYY-MM-DD>/`
+
+The stoic data is merged via `--stoic` in the assembly step (Step 10).
+
 ### Step 7: Present Options and Get User Selections
 
 Present the user with a summary of:
@@ -163,7 +178,8 @@ python .github/skills/weekly-planner/scripts/assemble_plan.py days.json \
     --elevations elevations.json \
     --parenting parenting.json \
     --nutrition nutrition.json \
-    --newsletter newsletter.json
+    --newsletter newsletter.json \
+    --stoic stoic.json
 ```
 
 The assembler:
