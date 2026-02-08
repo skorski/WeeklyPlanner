@@ -1,0 +1,58 @@
+{
+  "week_range": "February 8 – 14, 2026",
+  "theme": {
+    "title": "Present with Wonder",
+    "category": "Presence",
+    "description": "This week invites the family to practice radical presence — being fully here with the people you love, even as the world shifts around you. From the frozen stillness of a Virginia winter to the desert light of New Mexico, from the routines of swim lessons and science camp to the anticipation of Valentine's Day, every transition is an invitation to pay closer attention. The Stoics taught that the present moment is the only thing we truly possess. This week, we practice holding it gently."
+  },
+  "anchor_quote": {
+    "text": "Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.",
+    "source": "Marcus Aurelius",
+    "work": "Meditations",
+    "reference": "Book 6, Chapter 39"
+  },
+  "introduction": "This is a week of motion. Elsie moves from the pool to the science lab to the dance studio; Laura balances book club and packing; Dan holds the logistics together while the family hurtles toward a 4:30 AM flight. It would be easy to spend the whole week living in Saturday — mentally already in Albuquerque, already past the alarm clock, already somewhere else. The Stoics would gently ask: what are you missing right now?\n\nMarcus Aurelius wrote from military camps and imperial courts, places of enormous pressure. His answer was always the same: return to the present. Love the people in front of you. As temperatures climb from 10°F to 45°F and the landscape prepares to shift from Virginia pines to desert mesas, the family practices a three-part journey: awakening to presence, practicing it in the chaos of midweek, and carrying it into the wonder of a new place.",
+  "meditations": [
+    {
+      "day": "Days 1–2 · Sunday–Monday (Awakening)",
+      "title": "The Cold Clarity of Now",
+      "reflection": "The week opens in bitter cold — highs barely cracking 22°F, the kind of weather that makes you want to retreat indoors. But cold has a gift: it makes you intensely aware of your body, your breath, the warmth of a house. The Stoics called this prosoche — attention. Before you can be present with others, you must notice that you are here. Let the cold sharpen your senses rather than dull your spirit. Notice the steam from your coffee, the weight of a blanket, Elsie's laughter from the next room.",
+      "prompt": "What is one thing I can only experience right now — today, in this cold, in this house, with these people — that I will not be able to experience next week in New Mexico?",
+      "secondary_quote": {
+        "text": "Confine yourself to the present.",
+        "source": "Marcus Aurelius, Meditations, Book 6, Chapter 32"
+      }
+    },
+    {
+      "day": "Days 3–5 · Tuesday–Thursday (Practice)",
+      "title": "Presence in the Rush",
+      "reflection": "Midweek is the crucible. Swim lessons, science camp, dance camp — the days are full, and the adults' days are full of getting her there. It is tempting to treat these as obstacles between you and the weekend. But Epictetus taught that we suffer not from events but from our judgments about them. The judgment 'this is just a busy week before the real thing' robs Tuesday through Thursday of their own life. When you are at the pool, be at the pool. When you are driving, notice the road.",
+      "prompt": "During one transition today — a car ride, a waiting room, a walk to the door — put your phone away and simply be where you are for two full minutes. What did you notice?",
+      "secondary_quote": {
+        "text": "Demand not that things happen as you wish, but wish them to happen as they do, and you will go on well.",
+        "source": "Epictetus, Enchiridion, Section 8"
+      }
+    },
+    {
+      "day": "Days 6–7 · Friday–Saturday (Integration)",
+      "title": "Carrying Presence into the New",
+      "reflection": "Friday night is packing; Saturday begins in darkness with a 4:30 AM flight. Everything about travel pulls you out of the present. Yet Seneca wrote that he was not born for one corner of the universe. The Stoic traveler carries presence onto the plane, into the rental car, through the door of a place she has never been. Valentine's Day coincides with your journey — love is not a place you arrive at but an attention you practice. As you land in Albuquerque, simply look. The light in New Mexico is unlike anywhere else.",
+      "prompt": "As you arrive in Albuquerque, take one minute before reaching for your phone. Look at the sky, the mountains, the light. Write down three words that describe what you see — not what you expected to see, but what is actually there.",
+      "secondary_quote": {
+        "text": "I am not born for any one corner of the universe; this whole world is my country.",
+        "source": "Seneca, Moral Letters to Lucilius, Letter 28"
+      }
+    }
+  ],
+  "family_exercise": {
+    "title": "The Presence Jar",
+    "description": "Place a small jar on the kitchen counter. Each time someone truly notices something — the taste of dinner, the sound of rain, a moment of eye contact — write it on a slip of paper and drop it in. On Friday night, while packing, read the slips aloud together.",
+    "connection": "This makes presence tangible and communal, transforming an abstract Stoic concept into a family game Elsie can lead."
+  },
+  "young_stoic": {
+    "title": "Elsie's Explorer Eyes",
+    "prompt": "Elsie, this week you're going somewhere brand new — Albuquerque, New Mexico! A very wise man named Marcus Aurelius said we should love what life brings us with all our heart. Here's a secret: the best explorers aren't the ones who've been to the most places — they're the ones who really look. This week, practice your 'Explorer Eyes.' Wherever you are — at swim, at science camp, at dance — pretend you're seeing it for the very first time. Then when you get to New Mexico, your Explorer Eyes will already be warmed up.",
+    "lesson": "Being present means really seeing what's in front of you. When we pay attention, every place becomes an adventure."
+  },
+  "closing_thought": "The week ahead has routine and surprise, cold and warmth, the familiar and the utterly new. On Sunday you will shiver in Virginia; by Saturday night you will stand under the vast New Mexico sky. The same heart beats in both places. Pay attention. That is the whole of the practice."
+}

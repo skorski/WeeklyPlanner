@@ -1,6 +1,6 @@
-# Album Discovery — Winter comfort cooking, diverse cuisines, Valentine's Day week, cozy family dinners
+# Album Discovery — Winter family dinners Feb 2026: Italian pasta, roast chicken, shakshuka, breakfast-for-dinner, farro salad, Philly cheesesteaks, New Mexico enchiladas — eclectic, warm, cozy, with Middle Eastern and Southwest threads
 
-*Generated: 2026-02-07 13:40 | 35 albums*
+*Generated: 2026-02-08 09:42 | 30 albums*
 
 ---
 
@@ -8,633 +8,285 @@
 
 | # | Artist | Album | Year | Sonic Style | Source | Live |
 |---|--------|-------|------|-------------|--------|------|
-| 1 | Franc Moody | Dream in Colour | 2020 | Electro, UK Funky | bandsintown | 🎵 |
-| 2 | Makaya McCraven | In These Times | 2022 | Contemporary Jazz | pitchfork |  |
-| 3 | Khruangbin | Con Todo El Mundo | 2018 | Funk, Psychedelic | web |  |
-| 4 | Hiroshi Yoshimura | Music for Nine Post Cards | 1982 | Experimental, Minimal, Ambient | discogs |  |
-| 5 | Mulatu Astatke | Mulatu of Ethiopia | 2003 | Soul-Jazz, Psychedelic | web |  |
-| 6 | Laufey | Bewitched | 2023 | Contemporary Jazz | pitchfork |  |
-| 7 | Sade | Love Deluxe | 2024 | Smooth Jazz, Contemporary Jazz, Soul, Neo Soul | web |  |
-| 8 | Say She She | Prism | 2022 | Soul, Disco, Psychedelic | bandsintown | 🎵 |
-| 9 | Midori Takada | Through The Looking Glass | 2017 | Minimal, Contemporary, Experimental, Ambient | discogs |  |
-| 10 | Nubya Garcia | Odyssey | 2024 | Contemporary Jazz | pitchfork |  |
-| 11 | Antonio Carlos Jobim | Wave | 2000 | Bossa Nova, Latin Jazz | web |  |
-| 12 | The Last Dinner Party | Prelude to Ecstasy | 2024 | — | pitchfork |  |
-| 13 | Vels Trio | Celestial Greens | 2021 | Jazz-Funk, Contemporary Jazz, Fusion | web |  |
-| 14 | Ryuichi Sakamoto | Async | 2017 | Abstract, Ambient, Experimental, Modern Classical | discogs |  |
-| 15 | Jacob Banks | Village | 2019 | Hip Hop, Funk / Soul | bandsintown | 🎵 |
-| 16 | Blood Orange | Negro Swan | 2018 | Contemporary R&B, Indie Pop | bandsintown | 🎵 |
-| 17 | Alabaster DePlume | Come With Fierce Grace | 2023 | Avant-garde Jazz | bandcamp |  |
-| 18 | Kelela | Raven | 2023 | Contemporary R&B, UK Garage, Breakbeat, Downtempo, Drum n Bass | pitchfork |  |
-| 19 | Rita Payés | Imagina | 2022 | Bossa Nova, Fado, Flamenco, Catalan Music, Latin Jazz | web |  |
-| 20 | Emma-Jean Thackray | Yellow | 2021 | Fusion, Contemporary Jazz | pitchfork |  |
-| 21 | Elis Regina & Tom Jobim | Elis & Tom | 1974 | Bossa Nova, Latin Jazz | web |  |
-| 22 | Amina Claudine Myers | Solace of the Mind | 2025 | Jazz, Blues | bandcamp |  |
-| 23 | Jefre Cantu-Ledesma | Gift Songs | 2025 | Ambient | bandcamp |  |
-| 24 | Roy Ayers | Everybody Loves the Sunshine | 1976 | Jazz-Funk, Funk | web |  |
-| 25 | Helado Negro | Far In | 2021 | Indie Pop | bandcamp |  |
-| 26 | Miguel | Wildheart | 2015 | Contemporary R&B, Pop Rock | bandsintown | 🎵 |
-| 27 | Floating Points | Cascade | 2024 | Downtempo, Techno, House, Ambient | pitchfork |  |
-| 28 | Arooj Aftab | Vulture Prince | 2022 | Minimal, Fusion, Ghazal | pitchfork |  |
-| 29 | Cleo Sol | Gold | 2024 | Neo Soul, Contemporary R&B, Gospel | web |  |
-| 30 | Seu Jorge | The Life Aquatic Studio Sessions | 2014 | Acoustic, MPB, Soundtrack | web |  |
-| 31 | Mdou Moctar | Afrique Victime | 2021 | Psychedelic Rock, African | pitchfork |  |
-| 32 | Yussef Dayes | Black Classical Music | 2023 | Afrobeat, Contemporary Jazz, Jazz-Funk | pitchfork |  |
-| 33 | Rosalía | Motomami | 2022 | Trap, Flamenco, Bachata, Reggaeton, Alt-Pop, Latin Pop | web |  |
-| 34 | Adrianne Lenker | Bright Future | 2024 | Alternative Rock, Folk | pitchfork |  |
-| 35 | Tinariwen | Amatssou | 2023 | African, Electric Blues | web |  |
+| 1 | Ambrose Akinmusire | honey from a winter stone | 2025 | Hip Hop, Jazz | bandcamp |  |
+| 2 | Anouar Brahem | The Astounding Eyes of Rita | 2009 | Contemporary Jazz | discogs |  |
+| 3 | Liana Flores | Flower of the Soul | 2024 | Folk, Bossanova | web |  |
+| 4 | Say She She | Silver | 2023 | Disco, Psychedelic, Soul | bandsintown | 🎵 |
+| 5 | Butcher Brown | Solar Music | 2023 | Soul-Jazz, Contemporary Jazz | bandsintown | 🎵 |
+| 6 | Esperanza Spalding | Songwrights Apothecary Lab | 2022 | Jazz | bandsintown | 🎵 |
+| 7 | Blood Orange | Negro Swan | 2018 | Contemporary R&B, Indie Pop | bandsintown | 🎵 |
+| 8 | Marcos Valle | Túnel Acústico | 2024 | MPB, Jazz-Funk | web |  |
+| 9 | Maria Mazzotta | Onde | 2025 | Folk, Folk Rock | web |  |
+| 10 | Beth Gibbons | Lives Outgrown | 2024 | Alternative Rock, Indie Rock | pitchfork |  |
+| 11 | Dhafer Youssef | Electric Sufi | 2001 | Contemporary Jazz | discogs |  |
+| 12 | Adrianne Lenker | Bright Future | 2024 | Alternative Rock, Folk | pitchfork |  |
+| 13 | Le Trio Joubran | The Long March | 2018 | Folk, World, & Country | discogs |  |
+| 14 | Helado Negro | PHASOR | 2024 | Ambient, Experimental | pitchfork |  |
+| 15 | Amina Claudine Myers | Solace of the Mind | 2025 | Jazz, Blues | bandcamp |  |
+| 16 | Nouvelle Vague | Should I Stay Or Should I Go? | 2024 | Bossanova | web |  |
+| 17 | Mulatu Astatke | Mulatu of Ethiopia | 2003 | Soul-Jazz, Psychedelic | discogs |  |
+| 18 | Brijean | Macro | 2024 | Indie Rock | web |  |
+| 19 | Lara Manzanares | Voz de Río | 1980 | Cumbia, Quechua, Disco, Light Music | web |  |
+| 20 | Christian McBride | The Movement Revisited | 2020 | Jazz | bandsintown | 🎵 |
+| 21 | Mauro Durante & Justin Adams | Sweet Release | 2024 | Rock, Blues, Folk, World, & Country | web |  |
+| 22 | Jefre Cantu-Ledesma | Gift Songs | 2025 | Ambient | bandcamp |  |
+| 23 | Ahmed Abdul-Malik | Jazz Sahara | 1959 | Modal, Folk | discogs |  |
+| 24 | Smithsonian Folkways | Music of New Mexico: Hispanic Traditions | 1996 | Country, Gospel, Bluegrass, Cajun, Folk | web |  |
+| 25 | Khruangbin | A La Sala | 2024 | Psychedelic, Indie Rock, Funk, Neo Soul | web |  |
+| 26 | Cleo Sol | Heaven | 2024 | Neo Soul, Soul | web |  |
+| 27 | Nubya Garcia | Odyssey | 2024 | Contemporary Jazz | bandcamp |  |
+| 28 | Mdou Moctar | Funeral for Justice | 2024 | African, Psychedelic Rock | pitchfork |  |
+| 29 | Arooj Aftab | Night Reign | 2024 | Folk, Ghazal, Qawwali | pitchfork |  |
+| 30 | Ryuichi Sakamoto | 12 | 1993 | Soundtrack, Pop Rock, Modern Classical, Downtempo, Synth-pop | discogs |  |
 
 ---
 
 ## Detailed Album Information
 
-### 1. Franc Moody — *Dream in Colour*
+### 1. Ambrose Akinmusire — *honey from a winter stone*
 
 | Field | Details |
 |-------|---------|
-| **Year** | 2020 |
-| **Label** | Juicebox Recordings |
-| **Producer** | Adam Callan, Jon Moody, Ned Franc |
-| **Genre** | Electronic, Funk / Soul |
-| **Sonic Style** | Electro, UK Funky |
-| **Country** | Europe |
-| **Format** | Vinyl |
-| **Source** | bandsintown |
-| **Upcoming Show** | 🎵 Feb 19, 2026 @ 9:30 Club, Washington DC |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/14855026-Franc-Moody-Dream-In-Colour) |
-**Why this album:** London duo blending disco-funk with indie-pop. Pure groove energy perfect for cheesesteaks on a freezing Sunday.
-
-**Lyrical Themes:** Celebration, dancing, good vibes, nightlife optimism
-
-**Mood:** Upbeat, funky, joyful
-
-**Sonic Description:** Disco-funk basslines, shimmering synths, falsetto vocals, infectious hooks
-
-<details>
-<summary>Tracklist (11 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Dream In Colour | 3:19 |
-| A2 | Terra Firma | 5:08 |
-| A3 | Skin On Skin | 3:04 |
-| A4 | Charge Me Up | 3:36 |
-| A5 | Flesh And Blood | 3:59 |
-| B6 | Night Flight | 4:02 |
-| B7 | She's Too Good For Me | 4:01 |
-| B8 | Grin And Bear It | 4:26 |
-| B9 | Night Flight Reprise | 2:16 |
-| B10 | This Is A Mood | 3:25 |
-| B11 | A Little Something For The Weekend | 3:34 |
-</details>
-
----
-
-### 2. Makaya McCraven — *In These Times*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2022 |
-| **Label** | XL Recordings |
-| **Producer** | Scott McNiece, Makaya McCraven |
-| **Genre** | Jazz |
-| **Sonic Style** | Contemporary Jazz |
-| **Country** | UK, Europe & US |
-| **Format** | Vinyl |
-| **Source** | pitchfork |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/24608399-Makaya-McCraven-In-These-Times) |
-**Why this album:** Chicago beat scientist blending jazz with hip-hop production. Warm, contemplative — ideal for a Monday shakshuka wind-down.
-
-**Lyrical Themes:** Instrumental — themes of patience, community, urban life
-
-**Mood:** Warm, meditative, groovy
-
-**Sonic Description:** Live jazz ensemble cut-and-pasted with hip-hop sensibility, lush strings, vibraphone
-
-<details>
-<summary>Tracklist (11 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | In These Times |  |
-| A2 | The Fours |  |
-| A3 | High Fives |  |
-| A4 | Dream Another |  |
-| A5 | Lullaby |  |
-| B1 | This Place That Place |  |
-| B2 | The Calling |  |
-| B3 | Seventh String |  |
-| B4 | So Ubuji |  |
-| B5 | The Knew Untitled |  |
-| B6 | The Title |  |
-</details>
-
----
-
-### 3. Khruangbin — *Con Todo El Mundo*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2018 |
-| **Label** | Dead Oceans |
-| **Producer** | Laura Lee (5), Mark Speer, Steve Christensen |
-| **Genre** | Rock, Funk / Soul |
-| **Sonic Style** | Funk, Psychedelic |
+| **Year** | 2025 |
+| **Label** | Nonesuch |
+| **Producer** | Ambrose Akinmusire |
+| **Genre** | Hip Hop, Jazz |
+| **Sonic Style** | Unknown |
 | **Country** | US |
-| **Format** | Vinyl |
-| **Source** | web |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/11530439-Khruangbin-Con-Todo-El-Mundo) |
-**Why this album:** Texas trio channeling Middle Eastern surf-funk and Thai psych. A sonic passport that makes any dinner feel like a world tour.
+| **Format** | CD |
+| **Source** | bandcamp |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/33027162-Ambrose-Akinmusire-Honey-From-A-Winter-Stone) |
+**Why this album:** Forward-thinking jazz trumpet — the title itself references winter. Emotional, atmospheric, with moments of soulfulness and calm. Perfect for a cold Monday night roasting chicken.
 
-**Lyrical Themes:** Mostly instrumental — global connection, travel, cultural bridges
+**Lyrical Themes:** Introspection, resilience, warmth in cold seasons, emotional landscape
 
-**Mood:** Laid-back, hypnotic, sun-drenched
+**Mood:** Contemplative, warm, wintry
 
-**Sonic Description:** Reverb-drenched guitar, deep bass grooves, minimalist drums, Middle Eastern and Thai influences
+**Sonic Description:** Modern jazz trumpet, atmospheric textures, restrained rhythm section, spacious arrangements
 
 <details>
-<summary>Tracklist (10 tracks)</summary>
+<summary>Tracklist (5 tracks)</summary>
 
 | # | Title | Duration |
 |---|-------|----------|
-| A1 | Cómo Me Quieres | 3:45 |
-| A2 | Lady And Man | 4:18 |
-| A3 | Maria También | 3:10 |
-| A4 | August 10 | 4:25 |
-| A5 | Cómo Te Quiero | 4:02 |
-| B1 | Shades Of Man | 3:47 |
-| B2 | Evan Finds The Third Room | 4:00 |
-| B3 | A Hymn | 3:10 |
-| B4 | Rules | 4:29 |
-| B5 | Friday Morning | 6:50 |
+| 1 | Muffled Screams | 15:27 |
+| 2 | Bloomed (The Ongoing Processional Of Nighas In Hoodies) | 7:35 |
+| 3 | MYanx . | 9:37 |
+| 4 | Owled | 12:52 |
+| 5 | S-/Kinfolks | 29:13 |
 </details>
 
 ---
 
-### 4. Hiroshi Yoshimura — *Music for Nine Post Cards*
+### 2. Anouar Brahem — *The Astounding Eyes of Rita*
 
 | Field | Details |
 |-------|---------|
-| **Year** | 1982 |
-| **Label** | Sound Process |
-| **Producer** | Satoshi Ashikawa |
-| **Genre** | Electronic, Classical, Stage & Screen |
-| **Sonic Style** | Experimental, Minimal, Ambient |
-| **Country** | Japan |
-| **Format** | Vinyl |
+| **Year** | 2009 |
+| **Label** | ECM Records |
+| **Producer** | Manfred Eicher |
+| **Genre** | Jazz, Folk, World, & Country |
+| **Sonic Style** | Contemporary Jazz |
+| **Country** | Germany |
+| **Format** | CD |
 | **Source** | discogs |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/3697479-Hiroshi-Yoshimura-Music-For-Nine-Post-Cards) |
-**Why this album:** Japanese ambient minimalism at its purest. Gentle piano and synth textures for a contemplative kale salad Wednesday.
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/2092265-Anouar-Brahem-The-Astounding-Eyes-Of-Rita) |
+**Why this album:** Tunisian oud virtuoso merging Arabic maqam traditions with jazz and chamber music. Hypnotic and meditative — ideal for Thursday's Shakshuka night.
 
-**Lyrical Themes:** Instrumental — nature, stillness, environmental awareness
+**Lyrical Themes:** Arabic poetry, longing, desert landscapes, mysticism
 
-**Mood:** Serene, crystalline, meditative
+**Mood:** Meditative, hypnotic, luminous
 
-**Sonic Description:** Sparse piano, warm analog synths, silence as instrument, environmental music
-
-<details>
-<summary>Tracklist (9 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Water Copy | 6:02 |
-| A2 | Clouds | 5:50 |
-| A3 | Blink | 4:39 |
-| A4 | Dance PM | 6:28 |
-| B1 | Ice Copy | 2:52 |
-| B2 | Soto Wa Ame | 4:30 |
-| B3 | View From My Window | 6:10 |
-| B4 | Urban Snow | 4:41 |
-| B5 | Dream | 5:20 |
-</details>
-
----
-
-### 5. Mulatu Astatke — *Mulatu of Ethiopia*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2003 |
-| **Label** | Worthy Records (2) |
-| **Producer** | Unknown |
-| **Genre** | Jazz, Funk / Soul, Folk, World, & Country |
-| **Sonic Style** | Soul-Jazz, Psychedelic |
-| **Country** | US |
-| **Format** | Vinyl |
-| **Source** | web |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/1279995-Mulatu-Astatke-Mulatu-Of-Ethiopia) |
-**Why this album:** The godfather of Ethio-jazz. Minor-key grooves and hypnotic percussion that pair perfectly with the mushroom pappardelle's earthy richness.
-
-**Lyrical Themes:** Instrumental — Ethiopian identity, jazz exploration, cultural fusion
-
-**Mood:** Hypnotic, groovy, mysterious
-
-**Sonic Description:** Ethiopian scales over jazz arrangements, vibraphone, organ, congas, walking bass
-
-<details>
-<summary>Tracklist (7 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Mulatu | 5:00 |
-| A2 | Mascaram Setaba | 2:40 |
-| A3 | Dewel | 4:00 |
-| B1 | Kulunmanqueleshi | 2:05 |
-| B2 | Kasalefkut-Hulu | 2:25 |
-| B3 | Munaye | 3:15 |
-| B4 | Chifara | 7:00 |
-</details>
-
----
-
-### 6. Laufey — *Bewitched*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2023 |
-| **Label** | AWAL Recordings |
-| **Producer** | Spencer Stewart (3), Francesca Burton, Laura Ray (3), Justin Macchio |
-| **Genre** | Jazz |
-| **Sonic Style** | Contemporary Jazz |
-| **Country** | Worldwide |
-| **Format** | Vinyl |
-| **Source** | pitchfork |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/28720624-Laufey-2-Bewitched) |
-**Why this album:** Icelandic jazz-pop prodigy blending bossa nova and golden-age jazz with Gen-Z songwriting. Romance for a bronzino Friday.
-
-**Lyrical Themes:** First love, longing, romantic daydreaming, self-discovery
-
-**Mood:** Dreamy, romantic, bittersweet
-
-**Sonic Description:** Jazz guitar, gentle strings, bossa nova rhythms, intimate vocals
-
-<details>
-<summary>Tracklist (12 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Dreamer | 3:30 |
-| A2 | Second Best | 3:24 |
-| A3 | Haunted | 3:20 |
-| A4 | Must Be Love | 3:04 |
-| A5 | While You Were Sleeping | 2:57 |
-| A6 | Lovesick | 3:45 |
-| A7 | California And Me | 3:36 |
-| B1 | Nocturne (Interlude) | 2:24 |
-| B2 | Promise | 3:54 |
-| B3 | From The Start | 2:49 |
-| B4 | Misty | 3:29 |
-| B5 | Serendipity | 3:39 |
-</details>
-
----
-
-### 7. Sade — *Love Deluxe*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2024 |
-| **Label** | Epic |
-| **Producer** | Quest Typesetting, Mike Pela, Sade |
-| **Genre** | Jazz, Funk / Soul, Pop |
-| **Sonic Style** | Smooth Jazz, Contemporary Jazz, Soul, Neo Soul |
-| **Country** | Europe |
-| **Format** | Vinyl |
-| **Source** | web |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/31756259-Sade-Love-Deluxe) |
-**Why this album:** The quintessential Valentine's Day album. Smoky, elegant, and impossibly cool — the only choice for Saturday's Christmas enchiladas on Valentine's Day.
-
-**Lyrical Themes:** Love, heartbreak, desire, emotional vulnerability
-
-**Mood:** Sensual, sophisticated, warm
-
-**Sonic Description:** Smooth jazz, quiet storm R&B, African rhythms, silky vocals, saxophone
-
-<details>
-<summary>Tracklist (9 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | No Ordinary Love |  |
-| A2 | Feel No Pain |  |
-| A3 | I Couldn't Love You More |  |
-| A4 | Like A Tattoo |  |
-| B1 | Kiss Of Life |  |
-| B2 | Cherish The Day |  |
-| B3 | Pearls |  |
-| B4 | Bullet Proof Soul |  |
-| B5 | Mermaid |  |
-</details>
-
----
-
-### 8. Say She She — *Prism*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2022 |
-| **Label** | Karma Chief Records |
-| **Producer** | Bardo Martinez, Max Shrager, Say She She |
-| **Genre** | Funk / Soul |
-| **Sonic Style** | Soul, Disco, Psychedelic |
-| **Country** | Worldwide |
-| **Format** | Vinyl |
-| **Source** | bandsintown |
-| **Upcoming Show** | 🎵 Feb 17, 2026 @ 9:30 Club, Washington DC |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/24720890-Say-She-She-Prism) |
-**Why this album:** Brooklyn trio reviving 70s disco-soul with modern indie sensibility. Shimmering harmonies for a cozy Tuesday pasta night.
-
-**Lyrical Themes:** Self-empowerment, unity, disco escapism, friendship
-
-**Mood:** Warm, groovy, empowering
-
-**Sonic Description:** Three-part harmonies, vintage disco production, funk guitar, Afrobeat percussion
+**Sonic Description:** Oud, piano, accordion, double bass — sparse and spacious chamber jazz with Middle Eastern modalities
 
 <details>
 <summary>Tracklist (8 tracks)</summary>
 
 | # | Title | Duration |
 |---|-------|----------|
-| A1 | Prism | 3:52 |
-| A2 | Don’t Wait | 4:47 |
-| A3 | Pink Roses | 3:19 |
-| A4 | Same Things | 3:56 |
-| B1 | Fortune Teller | 3:20 |
-| B2 | Apple Of My Eye | 2:37 |
-| B3 | Believe | 3:57 |
-| B4 | Better Man | 3:15 |
+| 1 | The Lover Of Beirut | 7:44 |
+| 2 | Dance With Waves | 3:56 |
+| 3 | Stopover At Djibouti | 6:34 |
+| 4 | The Astounding Eyes Of Rita | 8:41 |
+| 5 | Al Birwa | 4:51 |
+| 6 | Galilee Mon Amour | 7:17 |
+| 7 | Waking State | 7:48 |
+| 8 | For No Apparent Reason | 6:35 |
 </details>
 
 ---
 
-### 9. Midori Takada — *Through The Looking Glass*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2017 |
-| **Label** | Palto Flats |
-| **Producer** | Masamitsu Kurokawa, Midori Takada |
-| **Genre** | Electronic, Classical, Stage & Screen |
-| **Sonic Style** | Minimal, Contemporary, Experimental, Ambient |
-| **Country** | USA & Europe |
-| **Format** | Vinyl |
-| **Source** | discogs |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/9975364-Midori-Takada-Through-The-Looking-Glass) |
-**Why this album:** Percussive Japanese minimalism — marimba and hand drums creating a trance-like state. A cult classic for deep listening.
-
-**Lyrical Themes:** Instrumental — inner landscapes, ritual, meditation
-
-**Mood:** Hypnotic, ritualistic, otherworldly
-
-**Sonic Description:** Marimba, hand percussion, gong, layered rhythmic patterns
-
-<details>
-<summary>Tracklist (4 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Mr. Henri Rousseau's Dream | 11:56 |
-| A2 | Crossing | 8:46 |
-| B1 | Trompe-l’œil | 5:28 |
-| B2 | Catastrophe Σ | 15:10 |
-</details>
-
----
-
-### 10. Nubya Garcia — *Odyssey*
+### 3. Liana Flores — *Flower of the Soul*
 
 | Field | Details |
 |-------|---------|
 | **Year** | 2024 |
-| **Label** | Concord Jazz |
-| **Producer** | Nubya Garcia, Nubya Garcia, Kwes. |
-| **Genre** | Jazz |
-| **Sonic Style** | Contemporary Jazz |
-| **Country** | Worldwide |
-| **Format** | Vinyl |
-| **Source** | pitchfork |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/31803749-Nubya-Garcia-Odyssey) |
-**Why this album:** London jazz saxophonist blending Caribbean rhythms with spiritual jazz. Boundary-crossing and deeply personal.
-
-**Lyrical Themes:** Instrumental — heritage, spiritual journey, Caribbean-British identity
-
-**Mood:** Uplifting, spiritual, groovy
-
-**Sonic Description:** Tenor saxophone, dub-influenced production, Afro-Caribbean rhythms, jazz ensemble
-
-<details>
-<summary>Tracklist (12 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Dawn | 4:52 |
-| A2 | Odyssey | 7:23 |
-| A3 | Solstice | 4:49 |
-| B4 | Set It Free | 4:06 |
-| B5 | The Seer | 5:02 |
-| B6 | Odyssey (Outerlude) | 0:47 |
-| B7 | We Walk In Gold | 3:54 |
-| C8 | Water's Path | 4:01 |
-| C9 | Clarity | 6:15 |
-| C10 | In Other Words, Living | 4:07 |
-| C11 | Clarity (Outerlude) | 1:37 |
-| D12 | Triumphance | 5:54 |
-</details>
-
----
-
-### 11. Antonio Carlos Jobim — *Wave*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2000 |
 | **Label** | Verve Records |
-| **Producer** | John Wriggle, Carlos Kase, Tom Greenwood (3), Aloysio De Oliveira, Claus Ogerman, Creed Taylor, Jaques Morelenbaum, Paulo Jobim, Sherniece Smith, Bryan Koniarz |
-| **Genre** | Jazz |
-| **Sonic Style** | Bossa Nova, Latin Jazz |
-| **Country** | Europe |
-| **Format** | CD |
-| **Source** | web |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/2612563-Antonio-Carlos-Jobim-Antonio-Carlos-Jobims-Finest-Hour) |
-**Why this album:** Elegant orchestral bossa nova from the genre's godfather. Pure sophistication in every note.
-
-**Lyrical Themes:** Instrumental — romance, ocean, Brazilian landscapes
-
-**Mood:** Elegant, breezy, romantic
-
-**Sonic Description:** Acoustic guitar, lush orchestration, gentle percussion, bossa nova rhythms
-
-<details>
-<summary>Tracklist (12 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| 1 | The Girl From Ipanema | 5:25 |
-| 2 | Desafinado | 4:14 |
-| 3 | Corcovado | 4:16 |
-| 4 | Agua De Beber | 2:53 |
-| 5 | O Morro Não Tem Vez | 3:37 |
-| 6 | Insensatez | 2:55 |
-| 7 | Samba De Uma Nota Só | 2:17 |
-| 8 | Meditation | 3:18 |
-| 9 | Chega De Saudade | 4:21 |
-| 10 | Wave | 2:56 |
-| 11 | The Girl From Ipanema | 4:53 |
-| 12 | Remember | 4:02 |
-</details>
-
----
-
-### 12. The Last Dinner Party — *Prelude to Ecstasy*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2024 |
-| **Label** | Unknown |
-| **Producer** | Unknown |
-| **Genre** | Unknown |
-| **Sonic Style** | Unknown |
-| **Country** | — |
-| **Format** | — |
-| **Source** | pitchfork |
-**Why this album:** British baroque pop quintet channeling Kate Bush, Roxy Music, and chamber drama. Perfect for an ambitious cooking project.
-
-**Lyrical Themes:** Desire, mythology, feminist reclamation, theatrical romance
-
-**Mood:** Dramatic, lush, exuberant
-
-**Sonic Description:** Soaring vocals, chamber strings, art-rock guitars, baroque pop grandeur
-
-
----
-
-### 13. Vels Trio — *Celestial Greens*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2021 |
-| **Label** | Rhythm Section International |
-| **Producer** | Daniel Adhami, Vels Trio |
-| **Genre** | Electronic, Jazz |
-| **Sonic Style** | Jazz-Funk, Contemporary Jazz, Fusion |
+| **Producer** | Liana Flores, Noah Georgeson |
+| **Genre** | Latin, Folk, World, & Country |
+| **Sonic Style** | Folk, Bossanova |
 | **Country** | UK |
 | **Format** | Vinyl |
 | **Source** | web |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/20774191-Vels-Trio-Celestial-Greens) |
-**Why this album:** London jazz trio blending modern jazz with global funk and electronic textures. Fresh and adventurous.
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/30764766-Liana-Flores-Flower-of-the-Soul) |
+**Why this album:** Gentle bossa nova-tinged folk-pop with a breezy, sophisticated charm. Melodic and unobtrusive — beautiful for a lighter dinner evening.
 
-**Lyrical Themes:** Instrumental — cosmic exploration, nature, groove
+**Lyrical Themes:** Nature, love, gentle self-reflection, seasonal beauty
 
-**Mood:** Energetic, exploratory, cosmic
+**Mood:** Gentle, breezy, warm
 
-**Sonic Description:** Piano trio with electronic processing, broken beat, jazz fusion
+**Sonic Description:** Acoustic guitar, soft vocals, bossa nova rhythms, folk-pop arrangements, intimate production
 
 <details>
 <summary>Tracklist (11 tracks)</summary>
 
 | # | Title | Duration |
 |---|-------|----------|
-| A1 | Dormant Daze |  |
-| A2 | The Wad |  |
-| A3 | A Safe Space For Mates |  |
-| A4 | McEnroe |  |
-| A5 | May As Well Be |  |
-| B1 | Pop Stuff |  |
-| B2 | 40.2 |  |
-| B3 | The Winter Games |  |
-| B4 | Quick Zeus |  |
-| B5 | Ceegee |  |
-| B6 | Celestial Greens |  |
+| A1 | Hello Again | 4:13 |
+| A2 | Orange-Coloured Day | 2:48 |
+| A3 | Nightvisions | 3:56 |
+| A4 | Crystalline | 4:39 |
+| A5 | Now And Then | 4:56 |
+| B1 | Halfway Heart | 3:45 |
+| B2 | “When The Sun…” | 0:18 |
+| B3 | I Wish For The Rain | 2:32 |
+| B4 | Cuckoo | 3:05 |
+| B5 | Butterflies | 5:22 |
+| B6 | Slowly | 3:03 |
 </details>
 
 ---
 
-### 14. Ryuichi Sakamoto — *Async*
+### 4. Say She She — *Silver*
 
 | Field | Details |
 |-------|---------|
-| **Year** | 2017 |
-| **Label** | Milan |
-| **Producer** | Mai Yuda, Yoko Takatani, Joachim Pineau, Pablo Manyer, Jean-Christophe Chamboredon, Norika Sora, Ryuichi Sakamoto, Alec Fellman |
-| **Genre** | Electronic, Classical |
-| **Sonic Style** | Abstract, Ambient, Experimental, Modern Classical |
-| **Country** | France |
+| **Year** | 2023 |
+| **Label** | Karma Chief Records |
+| **Producer** | Sergio Rios |
+| **Genre** | Funk / Soul |
+| **Sonic Style** | Disco, Psychedelic, Soul |
+| **Country** | Worldwide |
 | **Format** | Vinyl |
-| **Source** | discogs |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/10762826-Ryuichi-Sakamoto-Async) |
-**Why this album:** Modern ambient masterpiece from the Yellow Magic Orchestra founder. Textural, contemplative, and deeply beautiful.
+| **Source** | bandsintown |
+| **Upcoming Show** | 🎵 Feb 17, 2026 @ 9:30 Club, Washington DC |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/28367155-Say-She-She-Silver) |
+**Why this album:** Indie soul/funk trio with Motown-inspired grooves and modern edge. Playing Feb 17 at 9:30 Club, Washington DC. Joyful and upbeat — pairs beautifully with breakfast-for-dinner Friday fun.
 
-**Lyrical Themes:** Mortality, nature, silence, technology
+**Lyrical Themes:** Empowerment, joy, dancing, togetherness, funk celebrations
 
-**Mood:** Contemplative, fragile, spacious
+**Mood:** Joyful, groovy, upbeat
 
-**Sonic Description:** Piano, field recordings, electronic textures, silence, organic-digital synthesis
+**Sonic Description:** Three-part harmonies, disco-funk bass, vintage keys, Motown-inspired arrangements with indie sensibility
 
 <details>
 <summary>Tracklist (12 tracks)</summary>
 
 | # | Title | Duration |
 |---|-------|----------|
-| A1 | Andata | 4:39 |
-| A2 | Disintegration | 5:46 |
-| A3 | Solari | 3:52 |
-| A4 | Zure | 5:12 |
-| B5 | Walker | 4:20 |
-| B6 | Stakra | 3:41 |
-| B7 | Ubi | 4:03 |
-| B8 | Fullmoon | 5:13 |
-| C9 | Async | 2:45 |
-| C10 | Tri | 3:29 |
-| C11 | Life, Life | 4:24 |
-| C12 | Honj | 3:42 |
+| A1 | Reeling | 3:40 |
+| A2 | Don't You Dare Stop | 4:30 |
+| A3 | Astral Plane | 4:41 |
+| A4 | C'est Si Bon | 3:56 |
+| B1 | Entry Level | 3:16 |
+| B2 | Passing Time | 3:27 |
+| B3 | Think About It | 2:52 |
+| B4 | Questions | 3:59 |
+| C1 | Forget Me Not | 3:56 |
+| C2 | Never Say Never | 4:26 |
+| C3 | The Water | 3:19 |
+| C4 | Echo In The Chamber | 3:20 |
 </details>
 
 ---
 
-### 15. Jacob Banks — *Village*
+### 5. Butcher Brown — *Solar Music*
 
 | Field | Details |
 |-------|---------|
-| **Year** | 2019 |
-| **Label** | Interscope Records |
-| **Producer** | Kam Sangha |
-| **Genre** | Hip Hop, Funk / Soul |
+| **Year** | 2023 |
+| **Label** | Concord Jazz |
+| **Producer** | Unknown |
+| **Genre** | Hip Hop, Jazz |
+| **Sonic Style** | Soul-Jazz, Contemporary Jazz |
+| **Country** | US |
+| **Format** | Vinyl |
+| **Source** | bandsintown |
+| **Upcoming Show** | 🎵 Mar 13, 2026 @ The Atlantis, Washington DC |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/28535095-Butcher-Brown-Solar-Music) |
+**Why this album:** Richmond VA jazz-funk-progressive soul collective. Playing Mar 13 at The Atlantis, DC. Genre-defying grooves that energize any cooking session.
+
+**Lyrical Themes:** Cosmic consciousness, groove philosophy, community, Virginia roots
+
+**Mood:** Energetic, funky, expansive
+
+**Sonic Description:** Jazz-funk fusion, heavy drums, wah-wah guitar, horn arrangements, progressive soul
+
+<details>
+<summary>Tracklist (12 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | Cozumel |  |
+| A2 | Espionage |  |
+| A3 | I Can Say To You |  |
+| A4  | Move (Ride) |  |
+| B1 | Turismo |  |
+| B2 | Eye Never Knew |  |
+| B3 | No Way Around It |  |
+| B4 | Half Of It |  |
+| B5 | DYKWYD |  |
+| C1 | Happy Hourrr |  |
+| C2 | Run It Up |  |
+| C2 | Pink Fur |  |
+</details>
+
+---
+
+### 6. Esperanza Spalding — *Songwrights Apothecary Lab*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2022 |
+| **Label** | Concord Records |
+| **Producer** | Phoelix, Raphael Saadiq, Corey King, Esperanza Spalding |
+| **Genre** | Jazz |
 | **Sonic Style** | Unknown |
 | **Country** | Europe |
 | **Format** | Vinyl |
 | **Source** | bandsintown |
-| **Upcoming Show** | 🎵 Feb 1, 2026 @ 9:30 Club, Washington DC |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/13050554-Jacob-Banks-Village) |
-**Why this album:** Nigerian-British soul with raw power and vulnerability. Deep baritone over cinematic production.
+| **Upcoming Show** | 🎵 Feb 20, 2026 @ Birchmere, Alexandria VA |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/22710080-Esperanza-Spalding-Songwrights-Apothecary-Lab) |
+**Why this album:** Boundary-pushing jazz bassist/vocalist exploring music as healing. Playing Feb 20 at Birchmere, Alexandria VA. Deep and immersive.
 
-**Lyrical Themes:** Identity, immigration, love, resilience, heritage
+**Lyrical Themes:** Healing, musicology, science of sound, community wellness
 
-**Mood:** Powerful, emotional, cinematic
+**Mood:** Immersive, healing, cerebral
 
-**Sonic Description:** Baritone vocals, orchestral soul, gospel undertones, electronic beats
+**Sonic Description:** Jazz bass, layered vocals, orchestral textures, avant-garde song structures, acoustic warmth
 
 <details>
 <summary>Tracklist (12 tracks)</summary>
 
 | # | Title | Duration |
 |---|-------|----------|
-| A1 | Chainsmoking |  |
-| A2 | Love Ain't Enough |  |
-| A3 | Mexico |  |
-| A4 | Prosecco |  |
-| A5 | Kumbaya |  |
-| A6 | Slow Up |  |
-| A7 | Grown Up |  |
-| B1 | Keeps Me Going |  |
-| B2 | Be Good To Me |  |
-| B3 | Nostalgia |  |
-| B4 | Caroline |  |
-| B5 | Witness |  |
+| A1 | Formwela 1 |  |
+| A2 | Formwela 2 |  |
+| A3 | Formwela 3 |  |
+| B1 | Formwela 4 |  |
+| B2 | Formwela 5 |  |
+| B3 | Formwela 6 |  |
+| B4 | Formwela 7 |  |
+| C1 | Formwela 8 |  |
+| C2 | Formwela 9 |  |
+| C3 | Formwela 10 |  |
+| D1 | Formwela 11 |  |
+| D2 | Formwela 12 |  |
 </details>
 
 ---
 
-### 16. Blood Orange — *Negro Swan*
+### 7. Blood Orange — *Negro Swan*
 
 | Field | Details |
 |-------|---------|
@@ -648,13 +300,13 @@
 | **Source** | bandsintown |
 | **Upcoming Show** | 🎵 Mar 3, 2026 @ The Anthem, Washington DC |
 | **Discogs** | [View on Discogs](https://www.discogs.com/release/12607063-Blood-Orange-2-Negro-Swan) |
-**Why this album:** Dev Hynes crafts a tender meditation on Black identity and queerness over gauzy R&B and indie soul.
+**Why this album:** Dev Hynes' genre-blurring soul/indie masterpiece. Playing Mar 3 at The Anthem, DC. Intimate and layered — a modern classic.
 
-**Lyrical Themes:** Black identity, queerness, anxiety, community, self-acceptance
+**Lyrical Themes:** Identity, vulnerability, Black queer experience, self-acceptance
 
-**Mood:** Tender, introspective, warm
+**Mood:** Intimate, vulnerable, tender
 
-**Sonic Description:** Gauzy R&B, indie soul, lo-fi textures, spoken word interludes, gentle synths
+**Sonic Description:** R&B, indie pop, electronic textures, spoken word interludes, lo-fi warmth, chamber pop elements
 
 <details>
 <summary>Tracklist (12 tracks)</summary>
@@ -677,698 +329,170 @@
 
 ---
 
-### 17. Alabaster DePlume — *Come With Fierce Grace*
+### 8. Marcos Valle — *Túnel Acústico*
 
 | Field | Details |
 |-------|---------|
-| **Year** | 2023 |
-| **Label** | International Anthem Recording Company |
-| **Producer** | Alabaster DePlume |
-| **Genre** | Jazz, Folk, World, & Country |
-| **Sonic Style** | Avant-garde Jazz |
-| **Country** | UK, Europe & US |
-| **Format** | Vinyl |
-| **Source** | bandcamp |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/28195030-Alabaster-DePlume-Come-With-Fierce-Grace) |
-**Why this album:** Manchester saxophonist-poet creating intimate, communal jazz. Raw, beautiful, and completely his own thing.
-
-**Lyrical Themes:** Compassion, community, vulnerability, spiritual seeking
-
-**Mood:** Intimate, raw, healing
-
-**Sonic Description:** Saxophone, spoken word, communal ensemble, free jazz elements, folk simplicity
-
-<details>
-<summary>Tracklist (12 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Sibomandi |  |
-| A2 | What Can It Take |  |
-| A3 | To That Voice And Say |  |
-| A4 | Greek Honey Slick |  |
-| A5 | Give Me Away |  |
-| A6 | Fall On Flowers |  |
-| B1 | Did You Know |  |
-| B2 | Levels Of Human |  |
-| B3 | Not Even Sobbing |  |
-| B4 | The Best Thing In The World |  |
-| B5 | Naked Like Water |  |
-| B6 | Broken Again |  |
-</details>
-
----
-
-### 18. Kelela — *Raven*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2023 |
-| **Label** | Warp Records |
-| **Producer** | Asmara (3) |
-| **Genre** | Electronic, Funk / Soul |
-| **Sonic Style** | Contemporary R&B, UK Garage, Breakbeat, Downtempo, Drum n Bass |
-| **Country** | Worldwide |
-| **Format** | Vinyl |
-| **Source** | pitchfork |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/26047453-Kelela-Raven) |
-**Why this album:** Futuristic R&B and club music filtered through a deeply personal lens. Atmospheric and transportive.
-
-**Lyrical Themes:** Self-reclamation, Black femme identity, nightlife as sanctuary
-
-**Mood:** Atmospheric, nocturnal, empowering
-
-**Sonic Description:** Ambient R&B, UK garage, techno undercurrents, ethereal vocals
-
-<details>
-<summary>Tracklist (12 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Washed Away |  |
-| A2 | Happy Ending |  |
-| A3 | Let It Go |  |
-| A4 | On The Run |  |
-| B1 | Missed Call |  |
-| B2 | Closure |  |
-| B3 | Contact |  |
-| B4 | Fooley |  |
-| C1 | Holier |  |
-| C2 | Raven |  |
-| C3 | Bruises |  |
-| C4 | Sorbet |  |
-</details>
-
----
-
-### 19. Rita Payés — *Imagina*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2022 |
-| **Label** | Not On Label |
-| **Producer** | Unknown |
-| **Genre** | Jazz, Folk, World, & Country |
-| **Sonic Style** | Bossa Nova, Fado, Flamenco, Catalan Music, Latin Jazz |
-| **Country** | Spain |
-| **Format** | Vinyl |
-| **Source** | web |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/29076991-Rita-Payés-Elisabeth-Roma-Imagina) |
-**Why this album:** Catalan jazz vocalist and trombonist with her mother on classical guitar. Bossa nova meets Mediterranean warmth.
-
-**Lyrical Themes:** Love, imagination, nature, Catalan-Brazilian cultural bridge
-
-**Mood:** Warm, intimate, sunlit
-
-**Sonic Description:** Jazz vocals, trombone, classical guitar, bossa nova rhythms, duo intimacy
-
-<details>
-<summary>Tracklist (12 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Imagina | 4:03 |
-| A2 | Melodía Sentimental | 4:52 |
-| A3 | Drume Negrita | 3:50 |
-| A4 | Alfonsina y El Mar | 5:44 |
-| A5 | Porque Llorax Blanca Niña | 3:50 |
-| A6 | Eu Sei Que Vou Te Amar | 4:06 |
-| B1 | If The Moon Turns Green | 4:54 |
-| B2 | A Rita | 4:14 |
-| B3 | Senhorinha | 5:24 |
-| B4 | Algo Contigo | 4:58 |
-| B5 | Oración Del Remanso | 5:59 |
-| B6 | Carinhoso | 3:41 |
-</details>
-
----
-
-### 20. Emma-Jean Thackray — *Yellow*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2021 |
-| **Label** | Movementt |
-| **Producer** | Emma-Jean Thackray |
-| **Genre** | Electronic, Jazz, Funk / Soul |
-| **Sonic Style** | Fusion, Contemporary Jazz |
-| **Country** | UK |
-| **Format** | Vinyl |
-| **Source** | pitchfork |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/19437127-Emma-Jean-Thackray-Yellow) |
-**Why this album:** UK jazz polymath creating cosmic, sun-drenched grooves. Equal parts Sun Ra and Stevie Wonder.
-
-**Lyrical Themes:** Cosmic consciousness, joy, spirituality, community
-
-**Mood:** Joyful, cosmic, groovy
-
-**Sonic Description:** Big-band jazz, funk, afrobeat, synth-driven cosmic grooves, multi-tracked vocals
-
-<details>
-<summary>Tracklist (12 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Mercury  |  |
-| A2 | Say Something |  |
-| A3 | About That |  |
-| B1 | Venus |  |
-| B2 | Green Funk |  |
-| B3 | Third Eye |  |
-| B4 | May There Be Peace |  |
-| C1 | Sun |  |
-| C2 | Golden Green |  |
-| C3 | Spectre |  |
-| D1 | Rahu & Ketu |  |
-| D2 | Yellow |  |
-</details>
-
----
-
-### 21. Elis Regina & Tom Jobim — *Elis & Tom*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 1974 |
-| **Label** | Philips |
-| **Producer** | Aloysio De Oliveira |
-| **Genre** | Jazz, Latin |
-| **Sonic Style** | Bossa Nova, Latin Jazz |
-| **Country** | Brazil |
-| **Format** | Vinyl |
-| **Source** | web |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/1591344-Elis-Tom-Elis-Tom) |
-**Why this album:** The pinnacle of Brazilian music. Elis's voice and Jobim's compositions create pure magic. Lush, emotional duets.
-
-**Lyrical Themes:** Love, saudade, Brazilian landscapes, longing
-
-**Mood:** Lush, emotional, transcendent
-
-**Sonic Description:** Voice and piano, orchestral arrangements, bossa nova, MPB sophistication
-
-<details>
-<summary>Tracklist (12 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Águas De Março | 3:29 |
-| A2 | Pois É | 1:45 |
-| A3 | Só Tinha De Ser Com Você | 3:50 |
-| A4 | Modinha | 2:12 |
-| A5 | Triste | 2:38 |
-| A6 | Corcovado | 3:53 |
-| A7 | O Que Tinha De Ser | 1:40 |
-| B1 | Retrato Em Branco E Preto | 3:02 |
-| B2 | Brigas, Nunca Mais | 1:36 |
-| B3 | Por Toda Minha Vida | 2:02 |
-| B4 | Fotografia | 2:45 |
-| B5 | Soneto De Separação | 2:18 |
-</details>
-
----
-
-### 22. Amina Claudine Myers — *Solace of the Mind*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2025 |
-| **Label** | Red Hook Records (4) |
-| **Producer** | Sun Chung |
-| **Genre** | Jazz, Blues |
-| **Sonic Style** | Unknown |
-| **Country** | Europe |
-| **Format** | Vinyl |
-| **Source** | bandcamp |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/34421401-Amina-Claudine-Myers-Solace-of-the-Mind) |
-**Why this album:** Solo piano and Hammond B3 organ blending jazz roots with reflective melodies. Warmth and spiritual comfort.
-
-**Lyrical Themes:** Spirituality, reflection, jazz heritage, inner peace
-
-**Mood:** Reflective, warm, spiritual
-
-**Sonic Description:** Solo piano, Hammond B3 organ, gospel-jazz roots, meditative
-
-<details>
-<summary>Tracklist (10 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | African Blues |  |
-| A2 | Song For Mother E |  |
-| A3 | Sensuous |  |
-| A4 | Steal Away |  |
-| A5 | Ode To My Ancestors |  |
-| B1 | Voices |  |
-| B2 | Hymn For John Lee Hooker |  |
-| B3 | Twilight |  |
-| B4 | Cairo |  |
-| B5 | Beneath The Sun |  |
-</details>
-
----
-
-### 23. Jefre Cantu-Ledesma — *Gift Songs*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2025 |
-| **Label** | Mexican Summer |
-| **Producer** | Jefre Cantu-Ledesma |
-| **Genre** | Electronic |
-| **Sonic Style** | Ambient |
-| **Country** | US |
-| **Format** | Vinyl |
-| **Source** | bandcamp |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/33452999-Jefre-Cantu-Ledesma-Gift-Songs) |
-**Why this album:** Dreamy ambient jazz from a Hudson Valley barn. Woolly textures meet ECM-style impressionism.
-
-**Lyrical Themes:** Instrumental — nature, intimacy, winter solitude
-
-**Mood:** Dreamy, intimate, wintry
-
-**Sonic Description:** Ambient guitar, analog warmth, subtle jazz elements, drone textures
-
-<details>
-<summary>Tracklist (5 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | The Milky Sea | 20:02 |
-| B1 | Gift Song I | 4:08 |
-| B2 | Gift Song II | 3:14 |
-| B3 | Gift Song III | 3:36 |
-| B4 | River That Flows Two Ways | 9:34 |
-</details>
-
----
-
-### 24. Roy Ayers — *Everybody Loves the Sunshine*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 1976 |
-| **Label** | Polydor |
-| **Producer** | Maurice Green, Roy Ayers |
+| **Year** | 2024 |
+| **Label** | Far Out Recordings |
+| **Producer** | Marcos Valle, Joe Davis, Daniel Maunick |
 | **Genre** | Jazz, Funk / Soul |
-| **Sonic Style** | Jazz-Funk, Funk |
-| **Country** | US |
-| **Format** | Vinyl |
-| **Source** | web |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/2028398-Roy-Ayers-Ubiquity-Everybody-Loves-The-Sunshine) |
-**Why this album:** Vibraphone-driven jazz-funk perfection. The title track alone is worth the price of admission.
-
-**Lyrical Themes:** Joy, sunshine, love, good times, community
-
-**Mood:** Uplifting, breezy, soulful
-
-**Sonic Description:** Vibraphone, funk bass, smooth vocals, jazzy arrangements
-
-<details>
-<summary>Tracklist (10 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Hey Uh-What You Say Come On | 3:45 |
-| A2 | The Golden Rod | 3:03 |
-| A3 | Keep On Walking | 3:46 |
-| A4 | You And Me My Love | 3:11 |
-| A5 | The Third Eye | 6:21 |
-| B1 | It Ain't Your Sign It's Your Mind | 3:28 |
-| B2 | People And The World | 4:48 |
-| B3 | Everybody Loves The Sunshine | 4:01 |
-| B4 | Tongue Power | 3:02 |
-| B5 | Lonesome Cowboy | 4:03 |
-</details>
-
----
-
-### 25. Helado Negro — *Far In*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2021 |
-| **Label** | 4AD |
-| **Producer** | Unknown |
-| **Genre** | Electronic, Pop |
-| **Sonic Style** | Indie Pop |
-| **Country** | US |
-| **Format** | Vinyl |
-| **Source** | bandcamp |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/20680900-Helado-Negro-Far-In) |
-**Why this album:** Ecuadorian-American artist creating bilingual dream-pop and electronic folk. Gentle and expansive.
-
-**Lyrical Themes:** Identity, belonging, nature, Latinx experience, tenderness
-
-**Mood:** Gentle, expansive, dreamy
-
-**Sonic Description:** Bilingual vocals, synth textures, folk-electronic hybrid, ambient pop
-
-<details>
-<summary>Tracklist (12 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Wake Up Tomorrow | 3:54 |
-| A2 | Gemini And Leo | 4:28 |
-| A3 | Purple Tones | 3:26 |
-| A4 | There Must Be A Song Like You | 4:50 |
-| B1 | Aguas Frías | 3:44 |
-| B2 | Aureole | 6:48 |
-| B3 | Hometown Dream | 5:34 |
-| C1 | Agosto | 4:44 |
-| C2 | Outside The Outside | 5:12 |
-| C3 | Brown Fluorescence | 1:38 |
-| C4 | Wind Conversations | 4:44 |
-| D1 | Thank You For Ever | 5:07 |
-</details>
-
----
-
-### 26. Miguel — *Wildheart*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2015 |
-| **Label** | RCA |
-| **Producer** | Mark Pitts, Miguel Jontel Pimentel, Wayne Barrow |
-| **Genre** | Hip Hop, Funk / Soul, Pop |
-| **Sonic Style** | Contemporary R&B, Pop Rock |
-| **Country** | US |
-| **Format** | Vinyl |
-| **Source** | bandsintown |
-| **Upcoming Show** | 🎵 Feb 15, 2026 @ The Anthem, Washington DC |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/7513626-Miguel-67-Wildheart) |
-**Why this album:** R&B that rocks — Miguel blends Prince-level sensuality with alt-rock guitars and psychedelic production.
-
-**Lyrical Themes:** Desire, rebellion, vulnerability, sensuality
-
-**Mood:** Sensual, rebellious, ecstatic
-
-**Sonic Description:** Falsetto R&B, rock guitars, psychedelic production, Prince-influenced grooves
-
-<details>
-<summary>Tracklist (12 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | A Beautiful Exit |  |
-| A2 | Deal |  |
-| A3 | The Valley |  |
-| A4 | Coffee |  |
-| B5 | NWA |  |
-| B6 | Waves |  |
-| B7 | What's Normal Anyway |  |
-| B8 | Hollywood Dreams |  |
-| C9 | ...Goingtohell |  |
-| C10 | Flesh |  |
-| C11 | Leaves |  |
-| C12 | Face The Sun |  |
-</details>
-
----
-
-### 27. Floating Points — *Cascade*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2024 |
-| **Label** | Ninja Tune |
-| **Producer** | Unknown |
-| **Genre** | Electronic, Jazz, Pop |
-| **Sonic Style** | Downtempo, Techno, House, Ambient |
-| **Country** | Worldwide |
-| **Format** | Vinyl |
-| **Source** | pitchfork |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/31715060-Floating-Points-Cascade) |
-**Why this album:** Electronic-jazz polymath exploring textured, organic landscapes. Successor to the acclaimed Promises.
-
-**Lyrical Themes:** Instrumental — nature, transformation, sonic exploration
-
-**Mood:** Immersive, textured, contemplative
-
-**Sonic Description:** Electronic textures, jazz piano, orchestral swells, ambient passages
-
-<details>
-<summary>Tracklist (8 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Vocoder [Club Mix] |  |
-| A2 | Key103 |  |
-| B1 | Birth4000 |  |
-| B2 | Del Oro |  |
-| C1 | Fast Forward |  |
-| C2 | Ocotillo |  |
-| D1 | Afflecks Palace |  |
-| D2 | Tilt Shift / Ablaze |  |
-</details>
-
----
-
-### 28. Arooj Aftab — *Vulture Prince*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2022 |
-| **Label** | Verve Records |
-| **Producer** | Arooj Aftab |
-| **Genre** | Electronic, Jazz, Funk / Soul, Folk, World, & Country |
-| **Sonic Style** | Minimal, Fusion, Ghazal |
-| **Country** | Worldwide |
-| **Format** | Vinyl |
-| **Source** | pitchfork |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/23678393-Arooj-Aftab-Vulture-Prince) |
-**Why this album:** Pakistani-American composer merging Urdu poetry with minimalist jazz. Grammy-winning and genre-defying.
-
-**Lyrical Themes:** Loss, grief, love, South Asian diaspora, healing
-
-**Mood:** Ethereal, mournful, beautiful
-
-**Sonic Description:** Urdu vocals, harp, guitar, upright bass, minimalist jazz, Sufi influence
-
-<details>
-<summary>Tracklist (8 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Baghon Main |  |
-| A2 | Diya Hai |  |
-| B1 | Inayaat |  |
-| B2 | Last Night |  |
-| C1 | Mohabbat |  |
-| C2 | Saans Lo |  |
-| D1 | Suroor |  |
-| D2 | Udhero Na |  |
-</details>
-
----
-
-### 29. Cleo Sol — *Gold*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2024 |
-| **Label** | Forever Living Originals |
-| **Producer** | Unknown |
-| **Genre** | Funk / Soul |
-| **Sonic Style** | Neo Soul, Contemporary R&B, Gospel |
+| **Sonic Style** | MPB, Jazz-Funk |
 | **Country** | UK |
 | **Format** | Vinyl |
 | **Source** | web |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/29560756-Cleo-Sol-Gold) |
-**Why this album:** British-Jamaican neo-soul artist creating intimate, warm music about motherhood and love.
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/31811894-Marcos-Valle-Túnel-Acústico) |
+**Why this album:** Brazilian groove master bringing a fresh acoustic take on bossa nova. Timeless and warm — a perfect companion for a relaxed dinner.
 
-**Lyrical Themes:** Motherhood, love, family, spiritual growth
+**Lyrical Themes:** Brazilian landscapes, love, rhythmic joy, acoustic intimacy
 
-**Mood:** Intimate, warm, nurturing
+**Mood:** Warm, rhythmic, nostalgic
 
-**Sonic Description:** Neo-soul vocals, acoustic guitar, warm production, gospel undertones
-
-<details>
-<summary>Tracklist (10 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | There Will Be No Crying |  |
-| A2 | Reason |  |
-| A3 | Things Will Get Better |  |
-| A4 | Only Love |  |
-| A5 | Please Don’t End It All |  |
-| B1 | Lost Angel |  |
-| B2 | Desire |  |
-| B3 | In Your Own Home |  |
-| B4 | Life Will Be |  |
-| B5 | Gold |  |
-</details>
-
----
-
-### 30. Seu Jorge — *The Life Aquatic Studio Sessions*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2014 |
-| **Label** | Hollywood Records (5) |
-| **Producer** | Mitchell Leib, Randall Poster, Wes Anderson |
-| **Genre** | Rock, Folk, World, & Country, Stage & Screen |
-| **Sonic Style** | Acoustic, MPB, Soundtrack |
-| **Country** | Europe |
-| **Format** | Vinyl |
-| **Source** | web |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/6242963-Seu-Jorge-The-Life-Aquatic-Studio-Sessions) |
-**Why this album:** Brazilian musician covering David Bowie songs in Portuguese for the Wes Anderson film. Charming and unique.
-
-**Lyrical Themes:** Bowie lyrics translated with Brazilian warmth — stardom, alienation, beauty
-
-**Mood:** Charming, whimsical, warm
-
-**Sonic Description:** Solo acoustic guitar, Portuguese vocals, bossa-folk, intimate recording
-
-<details>
-<summary>Tracklist (12 tracks)</summary>
-
-| # | Title | Duration |
-|---|-------|----------|
-| A1 | Rebel Rebel | 2:46 |
-| A2 | Life On Mars? | 3:29 |
-| A3 | Starman | 3:16 |
-| A4 | Ziggy Stardust | 3:41 |
-| B1 | Lady Stardust | 3:31 |
-| B2 | Changes | 3:40 |
-| B3 | Oh! You Pretty Things | 3:32 |
-| B4 | Rock N' Roll Suicide | 3:10 |
-| C1 | Suffragette City | 3:10 |
-| C2 | Five Years | 3:59 |
-| C3 | Queen Bitch | 3:42 |
-| D1 | When I Live My Dream | 2:55 |
-</details>
-
----
-
-### 31. Mdou Moctar — *Afrique Victime*
-
-| Field | Details |
-|-------|---------|
-| **Year** | 2021 |
-| **Label** | Matador |
-| **Producer** | Michael Coltun |
-| **Genre** | Rock, Folk, World, & Country |
-| **Sonic Style** | Psychedelic Rock, African |
-| **Country** | US |
-| **Format** | Vinyl |
-| **Source** | pitchfork |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/18772465-Mdou-Moctar-Afrique-Victime) |
-**Why this album:** Tuareg guitar hero from Niger shredding over hypnotic desert blues. Electrifying and transportive.
-
-**Lyrical Themes:** Saharan identity, resistance, love, cultural preservation
-
-**Mood:** Electrifying, hypnotic, passionate
-
-**Sonic Description:** Tuareg guitar, desert blues, psychedelic rock energy, call-and-response vocals
+**Sonic Description:** Acoustic guitar, nylon strings, bossa nova grooves, warm vocals, Brazilian percussion
 
 <details>
 <summary>Tracklist (9 tracks)</summary>
 
 | # | Title | Duration |
 |---|-------|----------|
-| A1 | Chismiten | 4:59 |
-| A2 | Taliat | 3:49 |
-| A3 | Ya Habibti | 3:32 |
-| A4 | Tala Tannam | 5:38 |
-| A5 | Untitled | 1:25 |
-| B6 | Asdikte Akal | 4:32 |
-| B7 | Layla | 4:26 |
-| B8 | Afrique Victime | 7:26 |
-| B9 | Bismilahi Atagah | 5:37 |
+| A1 | Assim Não Dá | 6:00 |
+| A2 | Feels So Good | 4:29 |
+| A3 | Não Sei | 3:54 |
+| A4 | Todo Dia Santo | 3:17 |
+| A5 | Thank You Burt (For Bacharach) | 2:42 |
+| B1 | Life Is What It Is | 5:31 |
+| B2 | Túnel Acústico | 3:29 |
+| B3 | Bora Meu Bem | 5:28 |
+| B4 | Palavras Tão Gentis | 6:10 |
 </details>
 
 ---
 
-### 32. Yussef Dayes — *Black Classical Music*
+### 9. Maria Mazzotta — *Onde*
 
 | Field | Details |
 |-------|---------|
-| **Year** | 2023 |
-| **Label** | Brownswood Recordings |
+| **Year** | 2025 |
+| **Label** | Zero Nove Nove |
 | **Producer** | Unknown |
-| **Genre** | Hip Hop, Jazz |
-| **Sonic Style** | Afrobeat, Contemporary Jazz, Jazz-Funk |
+| **Genre** | Rock, Folk, World, & Country |
+| **Sonic Style** | Folk, Folk Rock |
+| **Country** | Italy |
+| **Format** | Vinyl |
+| **Source** | web |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/33076326-Maria-Mazzotta-Onde) |
+**Why this album:** Rich Italian folk traditions and Mediterranean moods from Puglia. Heartfelt depth for an Italian pasta dinner.
+
+**Lyrical Themes:** Southern Italian folk tales, sea, waves, tradition, feminine resilience
+
+**Mood:** Heartfelt, Mediterranean, earthy
+
+**Sonic Description:** Italian folk vocals, pizzica rhythms, accordion, frame drum, Mediterranean instrumentation
+
+<details>
+<summary>Tracklist (12 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | La Furtuna | 6:28 |
+| A2 | Libro D'Amore | 4:02 |
+| A3 | Sula Nu Puei Stare | 5:23 |
+| B1 | Damme La Manu | 4:54 |
+| B2 | Navigar Non Posso...Senza Di Te | 5:06 |
+| B3 | Terra Ca Nun Senti | 4:02 |
+| B4 | Viestesana | 4:49 |
+| C1 | Canto E Sogno  | 3:58 |
+| C2 | Marinaresca | 4:35 |
+| C3 | Nanna Core | 1:56 |
+| C4 | Pizzica De Core (Malencunia) | 5:09 |
+| D1 | Matonna Te Lu Mare | 5:25 |
+</details>
+
+---
+
+### 10. Beth Gibbons — *Lives Outgrown*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2024 |
+| **Label** | Domino |
+| **Producer** | Beth Gibbons, James Ford, Lee Harris |
+| **Genre** | Rock |
+| **Sonic Style** | Alternative Rock, Indie Rock |
 | **Country** | Worldwide |
 | **Format** | Vinyl |
 | **Source** | pitchfork |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/28195162-Yussef-Dayes-Black-Classical-Music) |
-**Why this album:** UK jazz drummer creating a sprawling, genre-defying statement. From grime to Caribbean jazz to ambient.
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/30695365-Beth-Gibbons-Lives-Outgrown) |
+**Why this album:** The Portishead vocalist's first solo album — chamber-pop with French and folk influences. Mellow and elegant, perfect for a contemplative evening.
 
-**Lyrical Themes:** Instrumental — Black British identity, cultural lineage, sonic exploration
+**Lyrical Themes:** Aging, transformation, mortality, resilience, nature
 
-**Mood:** Dynamic, expansive, groove-driven
+**Mood:** Mellow, elegant, autumnal
 
-**Sonic Description:** Jazz drums, dub bass, grime influences, Caribbean rhythms, cinematic scope
+**Sonic Description:** Chamber pop, orchestral strings, folk guitar, ethereal vocals, restrained production
 
 <details>
-<summary>Tracklist (12 tracks)</summary>
+<summary>Tracklist (10 tracks)</summary>
 
 | # | Title | Duration |
 |---|-------|----------|
-| A1 | Black Classical Music |  |
-| A2 | Afro Cubanism |  |
-| A3 | Raisins Under The Sun |  |
-| A4 | Rust |  |
-| A5 | Turquoise Galaxy |  |
-| B1 | The Light |  |
-| B2 | Pon Di Plaza |  |
-| B3 | Magnolia Symphony |  |
-| B4 | Early Days |  |
-| B5 | Chasing The Drum |  |
-| C1 | Birds Of Paradise |  |
-| C2 | Gelato |  |
+| A1 | Tell Me Who You Are Today |  |
+| A2 | Floating On A Moment |  |
+| A3 | Burden Of Life |  |
+| A4 | Lost Changes |  |
+| A5 | Rewind |  |
+| B1 | Reaching Out |  |
+| B2 | Oceans |  |
+| B3 | For Sale |  |
+| B4 | Beyond The Sun |  |
+| B5 | Whispering Love |  |
 </details>
 
 ---
 
-### 33. Rosalía — *Motomami*
+### 11. Dhafer Youssef — *Electric Sufi*
 
 | Field | Details |
 |-------|---------|
-| **Year** | 2022 |
-| **Label** | Columbia |
-| **Producer** | Unknown |
-| **Genre** | Electronic, Hip Hop, Latin, Pop, Folk, World, & Country |
-| **Sonic Style** | Trap, Flamenco, Bachata, Reggaeton, Alt-Pop, Latin Pop |
-| **Country** | Europe |
-| **Format** | Vinyl |
-| **Source** | web |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/22545482-Rosalía-3-Motomami) |
-**Why this album:** Spanish flamenco-pop futurist blending reggaeton, jazz, and experimental production. Bold and genre-smashing.
+| **Year** | 2001 |
+| **Label** | Enja Records |
+| **Producer** | Steve Argüelles, Dhafer Youssef |
+| **Genre** | Jazz |
+| **Sonic Style** | Contemporary Jazz |
+| **Country** | Germany |
+| **Format** | CD |
+| **Source** | discogs |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/1012307-Dhafer-Youssef-Electric-Sufi) |
+**Why this album:** Tunisian oud master fusing Middle Eastern traditions with jazz and ambient electronica. Textured and modern — transcendent for Shakshuka night.
 
-**Lyrical Themes:** Feminine power, Spanish identity, love, independence
+**Lyrical Themes:** Sufism, spiritual seeking, desert mysticism, transcendence
 
-**Mood:** Bold, playful, avant-garde
+**Mood:** Transcendent, textured, spiritual
 
-**Sonic Description:** Flamenco vocals, reggaeton beats, experimental electronic production, jazz piano
+**Sonic Description:** Oud, electronic loops, jazz improvisation, Sufi vocal techniques, ambient textures
 
 <details>
 <summary>Tracklist (12 tracks)</summary>
 
 | # | Title | Duration |
 |---|-------|----------|
-| A1 | Saoko | 2:18 |
-| A2 | Candy | 3:13 |
-| A3 | La Fama  | 3:08 |
-| A4 | Bulerías | 2:36 |
-| A5 | Chicken Teriyaki | 2:02 |
-| A6 | Hentai | 2:43 |
-| A7 | Bizcochito | 1:49 |
-| A8 | G3 N15 | 4:12 |
-| B1 | Motomami | 1:01 |
-| B2 | Diablo | 2:46 |
-| B3 | Delirio de Grandeza | 2:35 |
-| B4 | CUUUUuuuuuute | 2:31 |
+| 1 | Mandakini | 5:07 |
+| 2 | Yabay | 3:14 |
+| 3 | Electric Sufi | 4:56 |
+| 4 | Oil On Water | 2:43 |
+| 5 | La Prière De L'Absent | 6:43 |
+| 6 | Man Of Wool | 7:03 |
+| 7 | La Nuit Sacrée | 6:23 |
+| 8 | Nouba | 6:47 |
+| 9 | Farha | 5:34 |
+| 10 | Nafha | 5:24 |
+| 11 | Al-Hallaj | 3:18 |
+| 12 | Suraj | 6:13 |
 </details>
 
 ---
 
-### 34. Adrianne Lenker — *Bright Future*
+### 12. Adrianne Lenker — *Bright Future*
 
 | Field | Details |
 |-------|---------|
@@ -1381,13 +505,13 @@
 | **Format** | Vinyl |
 | **Source** | pitchfork |
 | **Discogs** | [View on Discogs](https://www.discogs.com/release/30169163-Adrianne-Lenker-Bright-Future) |
-**Why this album:** Big Thief frontwoman stripped bare — intimate folk recordings of devastating beauty.
+**Why this album:** Big Thief frontwoman's intimate folk album. Gentle and cinematic — the kind of record that makes you want to cook slowly and appreciate the moment.
 
-**Lyrical Themes:** Nature, love, grief, wonder, childhood
+**Lyrical Themes:** Nature, love, memory, vulnerability, light and darkness
 
-**Mood:** Intimate, tender, devastating
+**Mood:** Intimate, gentle, luminous
 
-**Sonic Description:** Acoustic guitar, intimate vocals, folk minimalism, room sound
+**Sonic Description:** Acoustic guitar, fingerpicking, intimate vocals, lo-fi warmth, folk minimalism
 
 <details>
 <summary>Tracklist (12 tracks)</summary>
@@ -1410,42 +534,720 @@
 
 ---
 
-### 35. Tinariwen — *Amatssou*
+### 13. Le Trio Joubran — *The Long March*
 
 | Field | Details |
 |-------|---------|
-| **Year** | 2023 |
-| **Label** | Wedge |
-| **Producer** | Patrick Votan, Daniel Lanois |
-| **Genre** | Blues, Folk, World, & Country |
-| **Sonic Style** | African, Electric Blues |
+| **Year** | 2018 |
+| **Label** | Cooking Vinyl |
+| **Producer** | Unknown |
+| **Genre** | Folk, World, & Country |
+| **Sonic Style** | Unknown |
 | **Country** | Europe |
 | **Format** | Vinyl |
-| **Source** | web |
-| **Discogs** | [View on Discogs](https://www.discogs.com/release/27130770-Tinariwen-Amatssou) |
-**Why this album:** Legendary Tuareg desert blues collective. Hypnotic guitar interplay and ancient Saharan melodies.
+| **Source** | discogs |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/12775638-Le-Trio-Joubran-The-Long-March) |
+**Why this album:** Three Palestinian brothers modernizing traditional maqams with jazz and classical undertones. Powerful and rhythmic.
 
-**Lyrical Themes:** Desert life, exile, resistance, Tuareg heritage
+**Lyrical Themes:** Palestinian identity, homeland, resistance, unity
 
-**Mood:** Hypnotic, vast, timeless
+**Mood:** Powerful, rhythmic, resolute
 
-**Sonic Description:** Interlocking guitars, desert blues, polyrhythmic percussion, group vocals
+**Sonic Description:** Three ouds, percussion, orchestral crescendos, Arabic maqam, modern classical
+
+<details>
+<summary>Tracklist (9 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | Time Must Go By |  |
+| A2 | The Long March  |  |
+| A3 | Clay |  |
+| A4 | The Hanging Moon |  |
+| A5 | The Age Of Industry |  |
+| B1 | Carry The Earth |  |
+| B2 | The Trees We Wear |  |
+| B3 | More Than Once |  |
+| B4 | Our Final Songs |  |
+</details>
+
+---
+
+### 14. Helado Negro — *PHASOR*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2024 |
+| **Label** | 4AD |
+| **Producer** | Roberto Carlos Lange |
+| **Genre** | Electronic, Latin, Pop, Folk, World, & Country |
+| **Sonic Style** | Ambient, Experimental |
+| **Country** | Europe |
+| **Format** | Vinyl |
+| **Source** | pitchfork |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/29749759-Helado-Negro-Phasor) |
+**Why this album:** Groovy, delicate blend of indietronica with Latin textures. Mellow and drifting — great for background music on a busy weeknight.
+
+**Lyrical Themes:** Latinx identity, dreaming, domestic beauty, gentle activism
+
+**Mood:** Dreamy, mellow, groovy
+
+**Sonic Description:** Synth textures, gentle beats, bilingual vocals, indietronica, Latin-ambient fusion
+
+<details>
+<summary>Tracklist (9 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | LFO (Lupe Finds Oliveros) | 3:06 |
+| A2 | I Just Want to Wake Up with You | 3:50 |
+| A3 | Best For You and Me | 3:05 |
+| A4 | Colores del Mar | 3:44 |
+| A5 | Echo Tricks Me | 4:09 |
+| B6 | Out There | 4:54 |
+| B7 | Flores | 3:19 |
+| B8 | Wish You Could Be Here | 3:53 |
+| B9 | Es Una Fantasía | 5:02 |
+</details>
+
+---
+
+### 15. Amina Claudine Myers — *Solace of the Mind*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2025 |
+| **Label** | Red Hook Records (4) |
+| **Producer** | Sun Chung |
+| **Genre** | Jazz, Blues |
+| **Sonic Style** | Unknown |
+| **Country** | Europe |
+| **Format** | Vinyl |
+| **Source** | bandcamp |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/34421401-Amina-Claudine-Myers-Solace-of-the-Mind) |
+**Why this album:** Solo piano and Hammond B3 organ — contemplative and soulful. A beautiful winter listen that wraps around you like a blanket.
+
+**Lyrical Themes:** Spiritual solace, inner peace, gospel-rooted meditation
+
+**Mood:** Contemplative, soulful, warm
+
+**Sonic Description:** Solo piano, Hammond B3 organ, gospel-jazz, contemplative improvisation
 
 <details>
 <summary>Tracklist (10 tracks)</summary>
 
 | # | Title | Duration |
 |---|-------|----------|
-| A1 | Kek Alghalm | 3:30 |
-| A2 | Tenere Den | 3:30 |
-| A3 | Arajghiyine | 3:57 |
-| A4 | Tidjit | 5:11 |
-| A5 | Jayche Atarak | 5:58 |
-| B1 | Imidiwan Mahitinam | 3:30 |
-| B2 | Ezlan | 5:26 |
-| B3 | Anemouhagh | 3:43 |
-| B4 | Iket Adjen | 3:22 |
-| B5 | Nak Idnizdjam | 5:26 |
+| A1 | African Blues |  |
+| A2 | Song For Mother E |  |
+| A3 | Sensuous |  |
+| A4 | Steal Away |  |
+| A5 | Ode To My Ancestors |  |
+| B1 | Voices |  |
+| B2 | Hymn For John Lee Hooker |  |
+| B3 | Twilight |  |
+| B4 | Cairo |  |
+| B5 | Beneath The Sun |  |
+</details>
+
+---
+
+### 16. Nouvelle Vague — *Should I Stay Or Should I Go?*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2024 |
+| **Label** | [PIAS] |
+| **Producer** | Marc Collin, Olivier Libaux, Raphael Chassin |
+| **Genre** | Latin, Pop |
+| **Sonic Style** | Bossanova |
+| **Country** | Europe |
+| **Format** | Vinyl |
+| **Source** | web |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/29818663-Nouvelle-Vague-Should-I-Stay-Or-Should-I-Go) |
+**Why this album:** French group reimagining pop/punk classics in bossa nova and lounge style. Playful and internationally chic — adds a Parisian cool to any dinner.
+
+**Lyrical Themes:** Pop culture reimagination, nostalgia, French insouciance
+
+**Mood:** Playful, chic, breezy
+
+**Sonic Description:** Bossa nova arrangements of rock songs, French female vocals, acoustic guitar, upright bass, light percussion
+
+<details>
+<summary>Tracklist (12 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | What I Like Most About You Is Your Girlfriend |  |
+| A2 | People Are People |  |
+| A3 | You Spin Me Round |  |
+| A4 | Only You |  |
+| A5 | She's In Parties |  |
+| A6 | The Look Of Love |  |
+| A7 | Shout |  |
+| B1 | Should I Stay Or Should I Go? |  |
+| B2 | Rebel Yell |  |
+| B3 | Breakfast |  |
+| B4 | Girls On Film |  |
+| B5 | Rapture |  |
+</details>
+
+---
+
+### 17. Mulatu Astatke — *Mulatu of Ethiopia*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2003 |
+| **Label** | Worthy Records (2) |
+| **Producer** | Unknown |
+| **Genre** | Jazz, Funk / Soul, Folk, World, & Country |
+| **Sonic Style** | Soul-Jazz, Psychedelic |
+| **Country** | US |
+| **Format** | Vinyl |
+| **Source** | discogs |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/1279995-Mulatu-Astatke-Mulatu-Of-Ethiopia) |
+**Why this album:** The father of Ethio-jazz. Hypnotic grooves blending Ethiopian pentatonic scales with Latin jazz and funk. A deep cut classic that will surprise anyone who hasn't heard it.
+
+**Lyrical Themes:** Ethiopian heritage, Pan-African consciousness, groove exploration
+
+**Mood:** Hypnotic, groovy, exotic
+
+**Sonic Description:** Vibraphone, organ, Ethiopian scales, Latin percussion, jazz-funk arrangements
+
+<details>
+<summary>Tracklist (7 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | Mulatu | 5:00 |
+| A2 | Mascaram Setaba | 2:40 |
+| A3 | Dewel | 4:00 |
+| B1 | Kulunmanqueleshi | 2:05 |
+| B2 | Kasalefkut-Hulu | 2:25 |
+| B3 | Munaye | 3:15 |
+| B4 | Chifara | 7:00 |
+</details>
+
+---
+
+### 18. Brijean — *Macro*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2024 |
+| **Label** | Ghostly International |
+| **Producer** | Doug Stuart, Brijean Murphy |
+| **Genre** | Electronic, Rock |
+| **Sonic Style** | Indie Rock |
+| **Country** | US |
+| **Format** | Vinyl |
+| **Source** | web |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/31205230-Brijean-Macro) |
+**Why this album:** Dreamy, upbeat rhythms reminiscent of mid-century cocktail jazz and international lounge. Great for stylish, unobtrusive background music.
+
+**Lyrical Themes:** Joy, rhythm, dance, cosmopolitan ease
+
+**Mood:** Dreamy, upbeat, stylish
+
+**Sonic Description:** Latin-tinged electronic pop, bongo percussion, synths, breathy vocals, cocktail lounge vibes
+
+<details>
+<summary>Tracklist (12 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | Get Lost |  |
+| A2 | Euphoric Avenue |  |
+| A3 | Bang Bang Boom |  |
+| A4 | After Life |  |
+| A5 | Roxy |  |
+| A6 | Breathe |  |
+| B1 | Counting |  |
+| B2 | Counting Sheep |  |
+| B3 | Workin’ On It |  |
+| B4 | Scenic Route |  |
+| B5 | Roller Coaster |  |
+| B6 | Laura |  |
+</details>
+
+---
+
+### 19. Lara Manzanares — *Voz de Río*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 1980 |
+| **Label** | Lyra (5) |
+| **Producer** | Orquesta Swingbaly |
+| **Genre** | Latin, Funk / Soul, Pop, Folk, World, & Country |
+| **Sonic Style** | Cumbia, Quechua, Disco, Light Music |
+| **Country** | Bolivia |
+| **Format** | Vinyl |
+| **Source** | web |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/13560912-Swingbaly-Fiesta) |
+**Why this album:** Contemporary New Mexico indie folk with bilingual lyrics and Chicano storytelling. Perfect for Saturday's travel to Albuquerque — a sonic postcard from the Land of Enchantment.
+
+**Lyrical Themes:** New Mexico landscapes, bilingual identity, family, Chicano heritage, rivers and desert
+
+**Mood:** Warm, storytelling, rooted
+
+**Sonic Description:** Acoustic guitar, bilingual vocals (English/Spanish), folk arrangements, New Mexico folk traditions
+
+<details>
+<summary>Tracklist (12 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | Seranata A la Luz de la Luna |  |
+| A2 | Besame Mucho |  |
+| A3 | Another Cha Cha |  |
+| A4 | Tu Me Diste Amor, Tu Me Diste Fe |  |
+| A5 | La Negra Petrona |  |
+| B1a | Parece Que Va A Llover |  |
+| B1b | Santa Martha |  |
+| B1c | El Alacran |  |
+| B1d | Quiero Amanecer |  |
+| B1e | A la Voz de "Ahura" |  |
+| B1f | Chio Chio |  |
+| B1g | Yo Vendo Unos Ojos Negros |  |
+</details>
+
+---
+
+### 20. Christian McBride — *The Movement Revisited*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2020 |
+| **Label** | Mack Avenue Music Group |
+| **Producer** | Christian McBride |
+| **Genre** | Jazz |
+| **Sonic Style** | Unknown |
+| **Country** | US |
+| **Format** | CD |
+| **Source** | bandsintown |
+| **Upcoming Show** | 🎵 Feb 21, 2026 @ The Barns at Wolf Trap, Vienna VA |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/14847863-Christian-McBride-The-Movement-Revisited) |
+**Why this album:** Multiple Grammy-winning jazz bassist's tribute to the civil rights movement. Playing Feb 21 at Wolf Trap. Powerful and stirring big band jazz.
+
+**Lyrical Themes:** Civil rights, justice, American history, tribute, hope
+
+**Mood:** Powerful, stirring, hopeful
+
+**Sonic Description:** Big band jazz, double bass, orchestral arrangements, spoken word, gospel choir
+
+<details>
+<summary>Tracklist (12 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| 1 | Overture/The Movement Revisited | 10:44 |
+| 2 | Sister Rosa-Prologue | 3:20 |
+| 3 | Sister Rosa | 6:25 |
+| 4 | Rosa Introduces Malcolm | 3:08 |
+| 5 | Brother Malcolm-Prologue | 2:49 |
+| 6 | Brother Malcolm | 7:35 |
+| 7 | Malcolm Introduces Ali | 1:03 |
+| 8 | Ali Speaks | 2:42 |
+| 9 | Rumble In The Jungle | 6:00 |
+| 10 | Rosa Introduces MLK | 0:40 |
+| 11 | Soldiers (I Have A Dream) | 5:38 |
+| 12 | A View From The Mountaintop | 4:14 |
+</details>
+
+---
+
+### 21. Mauro Durante & Justin Adams — *Sweet Release*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2024 |
+| **Label** | Ponderosa Music Records |
+| **Producer** | Titti Santini, Justin Adams, Mauro Durante |
+| **Genre** | Rock, Blues, Folk, World, & Country |
+| **Sonic Style** | Unknown |
+| **Country** | Italy |
+| **Format** | CD |
+| **Source** | web |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/32411499-Mauro-Durante-Justin-Adams-Sweet-Release) |
+**Why this album:** Italian folk meets blues-rock from Puglia. Evocative, acoustic storytelling that bridges Southern Italy and the American South.
+
+**Lyrical Themes:** Southern Italian folk, trance-dance, release, cross-cultural dialogue
+
+**Mood:** Evocative, earthy, rhythmic
+
+**Sonic Description:** Pizzica violin, blues guitar, frame drum, Southern Italian-meets-blues fusion
+
+<details>
+<summary>Tracklist (10 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| 1 | Sweet Release | 3:53 |
+| 2 | Leuca | 5:45 |
+| 3 | Ghost Train | 4:12 |
+| 4 | Wa Habibi | 4:29 |
+| 5 | Silver And Stone | 4:38 |
+| 6 | Aurora | 6:22 |
+| 7 | Ithaca Return | 4:52 |
+| 8 | Qui Non Vorrei Morire | 3:00 |
+| 9 | Tide Keeps Turning | 4:21 |
+| 10 | Santu Paulu | 5:06 |
+</details>
+
+---
+
+### 22. Jefre Cantu-Ledesma — *Gift Songs*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2025 |
+| **Label** | Mexican Summer |
+| **Producer** | Jefre Cantu-Ledesma |
+| **Genre** | Electronic |
+| **Sonic Style** | Ambient |
+| **Country** | US |
+| **Format** | Vinyl |
+| **Source** | bandcamp |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/33452999-Jefre-Cantu-Ledesma-Gift-Songs) |
+**Why this album:** Ambient meets jazz impressionism, reflecting on hope and comfort. Created in a Hudson Valley barn — has a wintry, introspective warmth.
+
+**Lyrical Themes:** Hope, comfort, generosity, landscapes, stillness
+
+**Mood:** Wintry, introspective, hopeful
+
+**Sonic Description:** Ambient guitar washes, jazz piano, field recordings, shimmering textures, pastoral drone
+
+<details>
+<summary>Tracklist (5 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | The Milky Sea | 20:02 |
+| B1 | Gift Song I | 4:08 |
+| B2 | Gift Song II | 3:14 |
+| B3 | Gift Song III | 3:36 |
+| B4 | River That Flows Two Ways | 9:34 |
+</details>
+
+---
+
+### 23. Ahmed Abdul-Malik — *Jazz Sahara*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 1959 |
+| **Label** | Riverside Records |
+| **Producer** | Harris Lewine, Ken Braren, Paul Bacon (2), Bill Grauer |
+| **Genre** | Jazz, Folk, World, & Country |
+| **Sonic Style** | Modal, Folk |
+| **Country** | US |
+| **Format** | Vinyl |
+| **Source** | discogs |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/4689165-Ahmed-Abdul-Malik-Jazz-Sahara) |
+**Why this album:** A pioneering album that melded jazz with Middle Eastern music, placing the oud at the center of the fusion. A visionary record from the golden age of jazz.
+
+**Lyrical Themes:** Cross-cultural bridge, African diaspora, jazz-meets-East
+
+**Mood:** Pioneering, warm, exotic
+
+**Sonic Description:** Oud, jazz bass, saxophone, drums, Middle Eastern-jazz fusion, hard bop with Arabic modes
+
+<details>
+<summary>Tracklist (4 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | Ya Annas = Oh, People | 11:10 |
+| A2 | Isma'a = Listen | 9:10 |
+| B1 | El Haris = Anxious | 11:28 |
+| B2 | Farah' Alaiyna = Joy Upon Us | 6:59 |
+</details>
+
+---
+
+### 24. Smithsonian Folkways — *Music of New Mexico: Hispanic Traditions*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 1996 |
+| **Label** | Smithsonian Folkways |
+| **Producer** | Amy Horowitz, Anthony Seeger, Mary Monseur, Michael Maloney |
+| **Genre** | Jazz, Funk / Soul, Blues, Folk, World, & Country |
+| **Sonic Style** | Country, Gospel, Bluegrass, Cajun, Folk |
+| **Country** | US |
+| **Format** | CD |
+| **Source** | web |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/1720339-Various-Smithsonian-Folkways-American-Roots-Collection) |
+**Why this album:** An anthology offering an authentic glimpse into multigenerational folk music of New Mexico — sacred hymns, ballads, folk dances, and cumbia rhythms.
+
+**Lyrical Themes:** New Mexican heritage, sacred music, community, storytelling, oral tradition
+
+**Mood:** Authentic, communal, traditional
+
+**Sonic Description:** Guitar, violin, accordion, vocal harmonies, New Mexican folk traditions, cumbia rhythms
+
+<details>
+<summary>Tracklist (12 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| 1 | Penitentiary Blues | 2:53 |
+| 2 | Sweet Old Chicago | 2:56 |
+| 3 | Blue Moon Of Kentucky | 2:00 |
+| 4 | If I Had A Hammer | 2:10 |
+| 5 | Lafayette | 3:41 |
+| 6 | Bosco Stomp | 3:02 |
+| 7 | Better Day | 3:01 |
+| 8 | Long Road To Travel | 2:19 |
+| 9 | The Coo-Coo Bird | 2:33 |
+| 10 | Pretty Saro | 2:29 |
+| 11 | Freight Train | 2:43 |
+| 12 | Old Joe Bone | 1:59 |
+</details>
+
+---
+
+### 25. Khruangbin — *A La Sala*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2024 |
+| **Label** | Dead Oceans |
+| **Producer** | Mark Speer, Steve Christensen |
+| **Genre** | Rock, Funk / Soul |
+| **Sonic Style** | Psychedelic, Indie Rock, Funk, Neo Soul |
+| **Country** | USA, Canada & Europe |
+| **Format** | Vinyl |
+| **Source** | web |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/29979328-Khruangbin-A-La-Sala) |
+**Why this album:** Houston trio blending Thai funk, dub, and global psychedelia into mellow, head-nodding grooves. Perfect dinner soundtrack — never demands attention but always rewards it.
+
+**Lyrical Themes:** Home, togetherness, global wanderlust, groove meditation
+
+**Mood:** Mellow, groovy, warm
+
+**Sonic Description:** Surf guitar, dub bass, global percussion, psychedelic textures, minimal vocals
+
+<details>
+<summary>Tracklist (12 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | Fifteen Fifty-Three |  |
+| A2 | May Ninth |  |
+| A3 | Ada Jean |  |
+| A4 | Farolim De Felgueiras |  |
+| A5 | Pon Pón |  |
+| A6 | Todavía Viva |  |
+| B1 | Juegos Y Nubes |  |
+| B2 | Hold Me Up (Thank You)  |  |
+| B3 | Caja De La Sala |  |
+| B4 | Three From Two |  |
+| B5 | A Love International |  |
+| B6 | Les Petits Gris |  |
+</details>
+
+---
+
+### 26. Cleo Sol — *Heaven*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2024 |
+| **Label** | Forever Living Originals |
+| **Producer** | Inflo |
+| **Genre** | Latin, Funk / Soul, Blues |
+| **Sonic Style** | Neo Soul, Soul |
+| **Country** | UK |
+| **Format** | Vinyl |
+| **Source** | web |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/29544340-Cleo-Sol-Heaven) |
+**Why this album:** British-Jamaican neo-soul artist with a voice that stops time. Warm, devotional, and deeply personal — the ultimate comfort listening.
+
+**Lyrical Themes:** Love, motherhood, gratitude, spiritual devotion, family
+
+**Mood:** Warm, devotional, nurturing
+
+**Sonic Description:** Neo-soul vocals, acoustic guitar, strings, gospel harmonies, intimate production
+
+<details>
+<summary>Tracklist (9 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | Self | 3:19 |
+| A2 | Airplane | 4:00 |
+| A3 | Go Baby | 3:56 |
+| A4 | Heaven | 2:42 |
+| B1 | Old Friends | 2:57 |
+| B2 | Miss Romantic | 3:21 |
+| B3 | Golden Child | 3:27 |
+| B4 | Nothing On Me | 2:44 |
+| B5 | Love Will Lead You There | 3:35 |
+</details>
+
+---
+
+### 27. Nubya Garcia — *Odyssey*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2024 |
+| **Label** | Concord Jazz |
+| **Producer** | Nubya Garcia, Nubya Garcia, Kwes. |
+| **Genre** | Jazz |
+| **Sonic Style** | Contemporary Jazz |
+| **Country** | Worldwide |
+| **Format** | Vinyl |
+| **Source** | bandcamp |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/31803749-Nubya-Garcia-Odyssey) |
+**Why this album:** London jazz saxophonist channeling Caribbean and African roots through a modern jazz lens. Energetic and soulful — great for active cooking.
+
+**Lyrical Themes:** Heritage, journey, diaspora, Caribbean-London identity
+
+**Mood:** Energetic, soulful, joyful
+
+**Sonic Description:** Tenor saxophone, dub-influenced bass, Afro-Caribbean percussion, modern jazz, dancehall echoes
+
+<details>
+<summary>Tracklist (12 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | Dawn | 4:52 |
+| A2 | Odyssey | 7:23 |
+| A3 | Solstice | 4:49 |
+| B4 | Set It Free | 4:06 |
+| B5 | The Seer | 5:02 |
+| B6 | Odyssey (Outerlude) | 0:47 |
+| B7 | We Walk In Gold | 3:54 |
+| C8 | Water's Path | 4:01 |
+| C9 | Clarity | 6:15 |
+| C10 | In Other Words, Living | 4:07 |
+| C11 | Clarity (Outerlude) | 1:37 |
+| D12 | Triumphance | 5:54 |
+</details>
+
+---
+
+### 28. Mdou Moctar — *Funeral for Justice*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2024 |
+| **Label** | Matador |
+| **Producer** | Michael Coltun |
+| **Genre** | Rock, Folk, World, & Country |
+| **Sonic Style** | African, Psychedelic Rock |
+| **Country** | Worldwide |
+| **Format** | Vinyl |
+| **Source** | pitchfork |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/30574987-Mdou-Moctar-Funeral-For-Justice) |
+**Why this album:** Tuareg desert blues guitar virtuoso from Niger. Searing, urgent, and electrifying — like Hendrix channeled through the Sahara.
+
+**Lyrical Themes:** Tuareg liberation, desert justice, cultural preservation, protest
+
+**Mood:** Urgent, electrifying, powerful
+
+**Sonic Description:** Electric guitar, Tuareg scales, desert blues, rock energy, driving percussion
+
+<details>
+<summary>Tracklist (9 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | Funeral For Justice |  |
+| A2 | Imouhar |  |
+| A3 | Takoba |  |
+| A4 | Sousoume Tamacheq |  |
+| B1 | Imajighen |  |
+| B2 | Tchinta |  |
+| B3 | Djallo #1 |  |
+| B4 | Oh France |  |
+| B5 | Modern Slaves |  |
+</details>
+
+---
+
+### 29. Arooj Aftab — *Night Reign*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 2024 |
+| **Label** | Verve Records |
+| **Producer** | Eric Neuser, Arooj Aftab, Marc Anthony Thompson |
+| **Genre** | Jazz, Folk, World, & Country |
+| **Sonic Style** | Folk, Ghazal, Qawwali |
+| **Country** | Worldwide |
+| **Format** | Vinyl |
+| **Source** | pitchfork |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/30830088-Arooj-Aftab-Night-Reign) |
+**Why this album:** Pakistani-American vocalist blending Urdu ghazal traditions with ambient jazz. Ethereal and devastating — one of the most beautiful albums of 2024.
+
+**Lyrical Themes:** Night, longing, Urdu poetry, loss, transcendence
+
+**Mood:** Ethereal, devastating, beautiful
+
+**Sonic Description:** Urdu vocals, ambient textures, jazz guitar, harp, electronic processing, minimal percussion
+
+<details>
+<summary>Tracklist (9 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| A1 | Aey Nehin | 5:44 |
+| A2 | Na Gul | 5:27 |
+| A3 | Autumn Leaves | 4:47 |
+| A4 | Whiskey | 5:04 |
+| A5 | Zameen | 4:16 |
+| B1 | Raat Ki Rani | 6:13 |
+| B2 | Saaqi | 6:44 |
+| B3 | Bolo Na | 6:12 |
+| B4 | Last Night Reprise | 5:07 |
+</details>
+
+---
+
+### 30. Ryuichi Sakamoto — *12*
+
+| Field | Details |
+|-------|---------|
+| **Year** | 1993 |
+| **Label** | School |
+| **Producer** | Unknown |
+| **Genre** | Electronic, Rock, Pop, Stage & Screen |
+| **Sonic Style** | Soundtrack, Pop Rock, Modern Classical, Downtempo, Synth-pop |
+| **Country** | Japan |
+| **Format** | Box Set |
+| **Source** | discogs |
+| **Discogs** | [View on Discogs](https://www.discogs.com/release/2742461-Ryuichi-Sakamoto-Ryuichi-Sakamoto-Collection) |
+**Why this album:** The legendary composer's final album — twelve piano pieces recorded in the last year of his life. Each piece named for the date it was composed. Unbearably tender.
+
+**Lyrical Themes:** Mortality, beauty, impermanence, farewell
+
+**Mood:** Tender, still, luminous
+
+**Sonic Description:** Solo piano, silence, breath, minimal composition, each piece a meditation
+
+<details>
+<summary>Tracklist (12 tracks)</summary>
+
+| # | Title | Duration |
+|---|-------|----------|
+| 1-1 | Boku No Kakera | 4:03 |
+| 1-2 | Saru To Yuki Gomi No Kodomo | 5:10 |
+| 1-3 | Kacha Kucha Nee | 4:19 |
+| 1-4 | The Garden Of Poppies | 5:37 |
+| 1-5 | Relâché | 3:57 |
+| 1-6 | Tell 'em To Me | 4:31 |
+| 1-7 | Living In The Dark | 5:17 |
+| 1-8 | Slat Dance | 2:50 |
+| 1-9 | Venezia | 4:43 |
+| 1-10 | Saru No Ie | 2:19 |
+| 2-1 | Tibetan Dance | 5:02 |
+| 2-2 | Etude | 5:15 |
 </details>
 
 ---

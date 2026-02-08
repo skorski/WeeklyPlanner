@@ -8,9 +8,12 @@
 </div>
 {% endif %}
 
-{# --- PARENTING CORNER (2-page spread) --- #}
+{# --- PARENTING CORNER (split across pages to avoid overflow) --- #}
 {% if parenting_data %}
-{# Page 1: Theme + Dinner Questions #}
+{% set questions = parenting_data.dinner_questions | default([]) %}
+{% set q_split = (questions | length + 1) // 2 %}
+
+{# Page 1: Theme + first half of dinner questions #}
 <div class="page page-parenting">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Parenting Corner</h2>
@@ -21,9 +24,9 @@
   </div>
   {% endif %}
 
-  {% if parenting_data.dinner_questions %}
+  {% if questions %}
   <h3 style="font-size:9.5pt;font-weight:400;margin:5pt 0 3pt;">Dinner Conversation Starters</h3>
-  {% for q in parenting_data.dinner_questions %}
+  {% for q in questions[:q_split] %}
   <div class="question-entry">
     <div class="question-day">{{ q.day }} — {{ q.dinner | default("") }}</div>
     <div class="question-text">"{{ q.question }}"</div>
@@ -34,10 +37,24 @@
   <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
 </div>
 
-{# Page 2: Nudges + Book Rec + Reflection #}
+{# Page 2: remaining dinner questions #}
 <div class="page page-parenting">
   <div class="page-header">Family Corner</div>
-  <h2 class="section-header">Nudges & Reflection</h2>
+  <h2 class="section-header">Conversation Starters (continued)</h2>
+  {% for q in questions[q_split:] %}
+  <div class="question-entry">
+    <div class="question-day">{{ q.day }} — {{ q.dinner | default("") }}</div>
+    <div class="question-text">"{{ q.question }}"</div>
+    <div class="question-why">{{ q.why }}</div>
+  </div>
+  {% endfor %}
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+
+{# Page 3: Nudges #}
+<div class="page page-parenting">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Nudges</h2>
   {% if parenting_data.nudges %}
   {% for n in parenting_data.nudges %}
   <div class="nudge-card">
@@ -50,6 +67,13 @@
   </div>
   {% endfor %}
   {% endif %}
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+
+{# Page 4: Book Rec + Reflection #}
+<div class="page page-parenting">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Reflection</h2>
 
   {% if parenting_data.recommendation %}
   <div class="book-rec">
@@ -72,7 +96,10 @@
 
 {# --- STOIC GUIDE (2-page spread) --- #}
 {% if stoic_data %}
-{# Page 1: Theme + Anchor Quote + Introduction + First Meditations #}
+{# Page 1: Theme + Anchor Quote + Introduction + First Meditation #}
+{# Split point: page 1 gets intro + first meditation; page 2 gets the rest #}
+{% set split = (stoic_data.meditations | length // 2) | int %}
+{% if split < 1 %}{% set split = 1 %}{% endif %}
 <div class="page page-stoic">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">The Stoic Guide</h2>
@@ -89,7 +116,7 @@
 
   <div class="stoic-intro">{{ stoic_data.introduction }}</div>
 
-  {% for m in stoic_data.meditations[:4] %}
+  {% for m in stoic_data.meditations[:split] %}
   <div class="meditation-entry">
     {% if m.day %}<span class="meditation-day">{{ m.day }}</span>{% endif %}
     <span class="meditation-title">{{ m.title }}</span>
@@ -108,7 +135,7 @@
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Reflections & Practice</h2>
 
-  {% for m in stoic_data.meditations[4:] %}
+  {% for m in stoic_data.meditations[split:] %}
   <div class="meditation-entry">
     {% if m.day %}<span class="meditation-day">{{ m.day }}</span>{% endif %}
     <span class="meditation-title">{{ m.title }}</span>

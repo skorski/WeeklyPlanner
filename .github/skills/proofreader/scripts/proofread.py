@@ -55,13 +55,22 @@ def check_overflow(html_path):
     for p_info in results:
         sh = p_info["scrollHeight"]
         if sh > CONTENT_HEIGHT_PX:
-            is_day = "page-day" in p_info["classes"]
+            classes = p_info["classes"]
+            is_day = "page-day" in classes
+            # Pages that use overflow:hidden and must fit in a single page
+            is_bounded = is_day or any(
+                c in classes for c in (
+                    "page-stoic", "page-parenting", "page-glance",
+                    "page-support", "page-grocery", "page-extra",
+                )
+            )
             issues.append({
                 "page": p_info["index"] + 1,
                 "label": p_info["label"],
-                "classes": p_info["classes"],
+                "classes": classes,
                 "overflow_px": sh - CONTENT_HEIGHT_PX,
                 "is_day_page": is_day,
+                "is_bounded_page": is_bounded,
             })
     return issues
 
@@ -278,17 +287,17 @@ def format_report(overflow, content_issues, content_stats, structure_issues,
     warnings = 0
 
     # Overflow
-    day_overflows = [o for o in overflow if o["is_day_page"]]
-    non_day_overflows = [o for o in overflow if not o["is_day_page"]]
-    if day_overflows:
+    bounded_overflows = [o for o in overflow if o.get("is_bounded_page")]
+    cosmetic_overflows = [o for o in overflow if not o.get("is_bounded_page")]
+    if bounded_overflows:
         has_failure = True
-        lines.append(f"OVERFLOW ............ FAIL ({len(day_overflows)} day page(s) overflow)")
-        for o in day_overflows:
+        lines.append(f"OVERFLOW ............ FAIL ({len(bounded_overflows)} page(s) overflow)")
+        for o in bounded_overflows:
             lines.append(f"  Page {o['page']}: \"{o['label']}\" — {o['overflow_px']}px over")
     else:
-        lines.append(f"OVERFLOW ............ PASS (0 day pages overflow)")
-    if non_day_overflows and verbose:
-        lines.append(f"  NOTE: {len(non_day_overflows)} non-day pages overflow (by design)")
+        lines.append(f"OVERFLOW ............ PASS (0 bounded pages overflow)")
+    if cosmetic_overflows and verbose:
+        lines.append(f"  NOTE: {len(cosmetic_overflows)} unbounded pages overflow (dividers/covers)")
     lines.append("")
 
     # Content
@@ -394,11 +403,11 @@ def main():
     overflow = check_overflow(html_path)
 
     if args.overflow_only:
-        day_overflows = [o for o in overflow if o["is_day_page"]]
-        if day_overflows:
-            print(f"OVERFLOW: {len(day_overflows)} day page(s) exceed bounds",
+        bounded_overflows = [o for o in overflow if o.get("is_bounded_page")]
+        if bounded_overflows:
+            print(f"OVERFLOW: {len(bounded_overflows)} page(s) exceed bounds",
                   file=sys.stderr)
-            for o in day_overflows:
+            for o in bounded_overflows:
                 print(f"  Page {o['page']}: {o['overflow_px']}px over", file=sys.stderr)
             sys.exit(1)
         else:
@@ -429,7 +438,7 @@ def main():
             "page_numbers": page_numbers,
             "truncation": truncated,
             "passed": not any([
-                any(o["is_day_page"] for o in overflow),
+                any(o.get("is_bounded_page") for o in overflow),
                 content_issues,
                 structure_issues,
                 number_issues,
@@ -447,7 +456,7 @@ def main():
 
     # Exit code
     has_failure = any([
-        any(o["is_day_page"] for o in overflow),
+        any(o.get("is_bounded_page") for o in overflow),
         content_issues,
         structure_issues,
         number_issues,

@@ -3,302 +3,700 @@
     "members": [
       {
         "name": "Laura",
-        "age_range": "Adult woman",
+        "role": "Wife",
+        "age_group": "Adult woman",
         "activity_level": "Active",
-        "calorie_target": "2,000-2,200 kcal",
-        "focus_nutrients": ["iron", "calcium", "folate", "fiber"]
+        "daily_calories": "2,000–2,200 kcal",
+        "focus_nutrients": ["iron", "calcium", "folate", "fiber"],
+        "daily_targets": {
+          "calories": "2,000–2,200 kcal",
+          "protein": "46–55 g",
+          "iron": "18 mg",
+          "calcium": "1,000 mg",
+          "folate": "400 mcg DFE",
+          "fiber": "25 g",
+          "vitamin_d": "600 IU (15 mcg)",
+          "potassium": "2,600 mg",
+          "magnesium": "320 mg"
+        }
       },
       {
         "name": "Dan",
-        "age_range": "Adult man",
+        "role": "Husband",
+        "age_group": "Adult man",
         "activity_level": "Active",
-        "calorie_target": "2,400-2,800 kcal",
-        "focus_nutrients": ["protein", "potassium", "magnesium"]
+        "daily_calories": "2,400–2,800 kcal",
+        "focus_nutrients": ["protein", "potassium", "magnesium"],
+        "daily_targets": {
+          "calories": "2,400–2,800 kcal",
+          "protein": "56–70 g",
+          "iron": "8 mg",
+          "calcium": "1,000 mg",
+          "folate": "400 mcg DFE",
+          "fiber": "38 g",
+          "vitamin_d": "600 IU (15 mcg)",
+          "potassium": "3,400 mg",
+          "magnesium": "420 mg"
+        }
       },
       {
         "name": "Elsie",
-        "age_range": "8-year-old girl",
-        "activity_level": "Active (swim lessons, YAT)",
-        "calorie_target": "1,600-2,000 kcal",
-        "focus_nutrients": ["calcium", "vitamin D", "iron", "fiber"]
+        "role": "Daughter",
+        "age_group": "8-year-old girl",
+        "activity_level": "Active",
+        "daily_calories": "1,600–2,000 kcal",
+        "focus_nutrients": ["calcium", "vitamin_d", "iron", "fiber"],
+        "daily_targets": {
+          "calories": "1,600–2,000 kcal",
+          "protein": "19–34 g",
+          "iron": "10 mg",
+          "calcium": "1,000 mg",
+          "folate": "300 mcg DFE",
+          "fiber": "22 g",
+          "vitamin_d": "600 IU (15 mcg)",
+          "potassium": "2,300 mg",
+          "magnesium": "130 mg"
+        }
       }
     ]
   },
   "dinners": [
     {
       "day": "Sunday",
-      "name": "Philly Cheesesteaks",
-      "calories_per_serving": "~650 kcal",
-      "protein_source": "Ribeye steak",
-      "protein_level": "high",
-      "vegetable_content": "minimal",
+      "meal": "Philly Cheesesteaks",
+      "context": "Eaten at a friend's house — portions estimated",
+      "key_ingredients": ["ribeye steak", "provolone cheese", "hoagie rolls", "onions"],
+      "estimated_nutrition_per_serving": {
+        "calories": 800,
+        "protein_g": 42,
+        "fat_g": 38,
+        "saturated_fat_g": 16,
+        "carbohydrates_g": 48,
+        "fiber_g": 2,
+        "sodium_mg": 1200,
+        "iron_mg": 4.5,
+        "calcium_mg": 280,
+        "potassium_mg": 450,
+        "magnesium_mg": 45,
+        "vitamin_c_mg": 5,
+        "folate_mcg": 50,
+        "vitamin_a_iu": 200,
+        "vitamin_d_iu": 10
+      },
+      "vegetables_servings": 0.5,
       "whole_grains": false,
-      "key_nutrients": ["iron", "zinc", "B12", "protein"],
-      "concerns": ["Low vegetable content", "High saturated fat from cheese and beef", "Refined carb from hoagie roll"],
-      "overall_rating": "moderate"
+      "key_nutrients_present": ["protein", "iron", "calcium", "B12", "zinc"],
+      "key_nutrients_missing": ["fiber", "vitamin C", "vitamin A", "folate", "vitamin D"],
+      "concerns": [
+        "High in sodium (~1,200 mg per sandwich) — that's roughly half a day's limit in one sitting",
+        "High in saturated fat from ribeye and provolone",
+        "Minimal vegetables and no whole grains (white hoagie roll)"
+      ],
+      "strengths": [
+        "Excellent source of protein and iron from ribeye — great for Laura and Elsie's iron needs",
+        "Good calcium boost from provolone cheese",
+        "Rich in B12 and zinc from red meat"
+      ],
+      "rating": "C+",
+      "rating_note": "A hearty, protein-rich treat — but it's a comfort food dinner, so balance it with lighter, veggie-packed lunches this day."
     },
     {
       "day": "Monday",
-      "name": "Shakshuka with Feta",
-      "calories_per_serving": "~380 kcal",
-      "protein_source": "Eggs",
-      "protein_level": "moderate",
-      "vegetable_content": "abundant",
+      "meal": "Herb-Roasted Whole Chicken with Root Vegetables & Pan Gravy",
+      "context": "Home-cooked — generous portions with sourdough bread for the gravy",
+      "key_ingredients": ["whole chicken", "carrots", "parsnips", "potatoes", "garlic", "thyme", "rosemary", "butter", "sourdough bread"],
+      "estimated_nutrition_per_serving": {
+        "calories": 580,
+        "protein_g": 44,
+        "fat_g": 28,
+        "saturated_fat_g": 10,
+        "carbohydrates_g": 35,
+        "fiber_g": 5,
+        "sodium_mg": 650,
+        "iron_mg": 2.8,
+        "calcium_mg": 80,
+        "potassium_mg": 850,
+        "magnesium_mg": 65,
+        "vitamin_c_mg": 12,
+        "folate_mcg": 45,
+        "vitamin_a_iu": 8500,
+        "vitamin_d_iu": 15
+      },
+      "vegetables_servings": 2.0,
       "whole_grains": false,
-      "key_nutrients": ["vitamin A", "vitamin C", "lycopene", "protein", "calcium (feta)"],
-      "concerns": ["Could use a whole grain side", "Sodium from feta"],
-      "overall_rating": "good"
+      "key_nutrients_present": ["protein", "vitamin A", "potassium", "B vitamins", "iron", "magnesium"],
+      "key_nutrients_missing": ["calcium", "fiber (moderate)", "folate", "vitamin D"],
+      "concerns": [
+        "Butter and chicken skin add saturated fat — consider offering some skinless portions for Elsie",
+        "Sourdough is refined grain (not whole grain)"
+      ],
+      "strengths": [
+        "A beautifully balanced dinner! High protein, excellent potassium from root vegetables, and great vitamin A from carrots",
+        "Parsnips are an underrated source of fiber and folate — love this choice",
+        "The herbs (thyme, rosemary) add antioxidants and anti-inflammatory compounds with zero calories",
+        "Outstanding for Dan's potassium and magnesium needs"
+      ],
+      "rating": "A-",
+      "rating_note": "This is the gold-standard weeknight dinner — nourishing, warming, and well-rounded. The carrots alone deliver a day's worth of vitamin A."
     },
     {
       "day": "Tuesday",
-      "name": "Babo Pasta with Alfredo Sauce",
-      "calories_per_serving": "~580 kcal",
-      "protein_source": "Dairy (Parmigiano, butter)",
-      "protein_level": "moderate",
-      "vegetable_content": "minimal",
+      "meal": "Babo Pasta with Alfredo Sauce (Handmade Spinach Pasta)",
+      "context": "Homemade spinach pasta with rich cream sauce — a luxurious treat",
+      "key_ingredients": ["spinach pasta (egg yolks, spinach)", "heavy cream", "butter", "Parmigiano-Reggiano", "nutmeg"],
+      "estimated_nutrition_per_serving": {
+        "calories": 650,
+        "protein_g": 22,
+        "fat_g": 35,
+        "saturated_fat_g": 20,
+        "carbohydrates_g": 58,
+        "fiber_g": 3,
+        "sodium_mg": 580,
+        "iron_mg": 3.2,
+        "calcium_mg": 420,
+        "potassium_mg": 320,
+        "magnesium_mg": 55,
+        "vitamin_c_mg": 4,
+        "folate_mcg": 85,
+        "vitamin_a_iu": 2200,
+        "vitamin_d_iu": 25
+      },
+      "vegetables_servings": 0.5,
       "whole_grains": false,
-      "key_nutrients": ["calcium", "B vitamins", "protein"],
-      "concerns": ["High saturated fat", "Very low vegetable content", "Refined pasta", "Low fiber"],
-      "overall_rating": "moderate"
+      "key_nutrients_present": ["calcium", "iron", "vitamin A", "protein", "vitamin D (from egg yolks)"],
+      "key_nutrients_missing": ["fiber", "vitamin C", "potassium", "magnesium"],
+      "concerns": [
+        "Very high in saturated fat from heavy cream, butter, and cheese (~20g, which is nearly a full day's limit)",
+        "Low in fiber despite the spinach in the pasta (most of the bulk is refined flour)",
+        "Calorie-dense — Elsie's portion should be smaller"
+      ],
+      "strengths": [
+        "The spinach pasta adds iron and folate that regular pasta misses — a genuinely smart touch",
+        "Parmigiano-Reggiano is one of the richest food sources of calcium — excellent for Laura and Elsie",
+        "Egg yolks in the pasta provide one of the few dietary sources of vitamin D",
+        "Handmade pasta is a wonderful family activity that gets Elsie engaged with real food"
+      ],
+      "rating": "B-",
+      "rating_note": "Rich and satisfying — the homemade spinach pasta elevates what could be a nutritional blank. Pair with a simple green salad to boost the fiber and vitamins."
     },
     {
       "day": "Wednesday",
-      "name": "Kale Caesar Salad with Crispy Chickpeas",
-      "calories_per_serving": "~420 kcal",
-      "protein_source": "Chickpeas, Parmesan, egg (dressing)",
-      "protein_level": "moderate",
-      "vegetable_content": "abundant",
-      "whole_grains": false,
-      "key_nutrients": ["vitamin K", "vitamin A", "vitamin C", "iron", "fiber", "calcium", "folate"],
-      "concerns": ["May need additional protein for Dan's needs"],
-      "overall_rating": "excellent"
+      "meal": "Warm Farro Salad with Roasted Beets, Goat Cheese & Walnuts",
+      "context": "A hearty, nutrient-dense grain bowl — the week's veggie superstar",
+      "key_ingredients": ["farro", "golden beets", "red beets", "goat cheese", "walnuts", "arugula", "dried cranberries", "sherry-maple vinaigrette"],
+      "estimated_nutrition_per_serving": {
+        "calories": 480,
+        "protein_g": 16,
+        "fat_g": 22,
+        "saturated_fat_g": 6,
+        "carbohydrates_g": 58,
+        "fiber_g": 9,
+        "sodium_mg": 380,
+        "iron_mg": 3.5,
+        "calcium_mg": 180,
+        "potassium_mg": 620,
+        "magnesium_mg": 110,
+        "vitamin_c_mg": 10,
+        "folate_mcg": 160,
+        "vitamin_a_iu": 1800,
+        "vitamin_d_iu": 0
+      },
+      "vegetables_servings": 3.0,
+      "whole_grains": true,
+      "key_nutrients_present": ["fiber", "folate", "iron", "magnesium", "potassium", "omega-3 (walnuts)", "calcium", "vitamin A"],
+      "key_nutrients_missing": ["protein (moderate for Dan)", "vitamin D", "B12"],
+      "concerns": [
+        "Protein is lower than other dinners this week — Dan may want a larger portion or a protein-rich snack later",
+        "Dried cranberries add some added sugar — use them as an accent, not a main ingredient"
+      ],
+      "strengths": [
+        "This is the nutritional MVP of the week! Farro is an ancient whole grain packed with fiber, magnesium, and iron",
+        "Beets are loaded with folate (excellent for Laura!), potassium, and nitrates that support cardiovascular health",
+        "Walnuts provide the only significant omega-3 fatty acids in this week's dinner lineup",
+        "Arugula adds vitamin K and additional folate — such a smart green choice",
+        "Goat cheese is easier to digest than cow's milk cheese and still provides excellent calcium",
+        "Great magnesium and potassium content for Dan"
+      ],
+      "rating": "A",
+      "rating_note": "If every dinner looked like this, the whole family would be nutritionally invincible. Whole grains, colorful vegetables, healthy fats, and real food — this is how it's done."
     },
     {
       "day": "Thursday",
-      "name": "Mushroom Pappardelle with Fresh Egg Pasta",
-      "calories_per_serving": "~520 kcal",
-      "protein_source": "Eggs (pasta), mushrooms, Parmesan",
-      "protein_level": "moderate",
-      "vegetable_content": "moderate",
+      "meal": "Shakshuka with Za'atar Sourdough Toast",
+      "context": "A warming, Mediterranean-inspired egg dish — simple and nutrient-rich",
+      "key_ingredients": ["eggs", "canned tomatoes", "bell peppers", "onion", "garlic", "cumin", "harissa", "za'atar", "sourdough bread", "feta cheese"],
+      "estimated_nutrition_per_serving": {
+        "calories": 420,
+        "protein_g": 22,
+        "fat_g": 20,
+        "saturated_fat_g": 7,
+        "carbohydrates_g": 38,
+        "fiber_g": 6,
+        "sodium_mg": 780,
+        "iron_mg": 4.2,
+        "calcium_mg": 220,
+        "potassium_mg": 680,
+        "magnesium_mg": 58,
+        "vitamin_c_mg": 65,
+        "folate_mcg": 90,
+        "vitamin_a_iu": 3500,
+        "vitamin_d_iu": 40
+      },
+      "vegetables_servings": 2.5,
       "whole_grains": false,
-      "key_nutrients": ["B vitamins", "selenium", "vitamin D (mushrooms)", "potassium", "copper"],
-      "concerns": ["No animal protein beyond eggs", "Rich and buttery"],
-      "overall_rating": "good"
+      "key_nutrients_present": ["vitamin C", "vitamin A", "iron", "protein", "vitamin D (eggs)", "calcium (feta)", "potassium"],
+      "key_nutrients_missing": ["fiber (moderate)", "magnesium", "omega-3"],
+      "concerns": [
+        "Sodium is moderate-to-high from canned tomatoes and feta — use no-salt-added tomatoes if possible",
+        "Sourdough is refined grain, but the fermentation does improve mineral absorption"
+      ],
+      "strengths": [
+        "Bell peppers are one of the best sources of vitamin C on the planet — one pepper has 2x the vitamin C of an orange",
+        "Eggs provide one of the few natural sources of vitamin D, plus choline for brain development (great for Elsie!)",
+        "Tomatoes deliver lycopene (cancer-protective), potassium, and vitamin A",
+        "The spices (cumin, za'atar, harissa) add anti-inflammatory benefits and make the dish incredibly flavorful without extra calories",
+        "Excellent iron content from eggs and tomatoes — hits Laura's needs well",
+        "Feta adds calcium with less saturated fat than hard cheeses"
+      ],
+      "rating": "A-",
+      "rating_note": "A nutritional powerhouse hiding in a humble pan. The vitamin C from the peppers dramatically boosts iron absorption from the eggs — that's smart nutrition synergy."
     },
     {
       "day": "Friday",
-      "name": "Baked Bronzino with Roasted Kale",
-      "calories_per_serving": "~450 kcal",
-      "protein_source": "Bronzino (white fish)",
-      "protein_level": "high",
-      "vegetable_content": "abundant",
+      "meal": "Lemon Ricotta Pancakes with Maple Breakfast Sausage",
+      "context": "Breakfast-for-dinner — a fun family tradition",
+      "key_ingredients": ["ricotta cheese", "lemons", "flour", "eggs", "maple syrup", "breakfast sausage (pork)", "butter"],
+      "estimated_nutrition_per_serving": {
+        "calories": 580,
+        "protein_g": 24,
+        "fat_g": 28,
+        "saturated_fat_g": 12,
+        "carbohydrates_g": 56,
+        "fiber_g": 1,
+        "sodium_mg": 820,
+        "iron_mg": 2.5,
+        "calcium_mg": 250,
+        "potassium_mg": 280,
+        "magnesium_mg": 30,
+        "vitamin_c_mg": 8,
+        "folate_mcg": 40,
+        "vitamin_a_iu": 500,
+        "vitamin_d_iu": 30
+      },
+      "vegetables_servings": 0,
       "whole_grains": false,
-      "key_nutrients": ["omega-3", "vitamin D", "vitamin K", "iron (kale)", "fiber (beans)", "protein"],
-      "concerns": ["Light — may need a side for Dan's calorie needs"],
-      "overall_rating": "excellent"
+      "key_nutrients_present": ["protein", "calcium (ricotta)", "vitamin D (eggs)", "B12 (sausage)"],
+      "key_nutrients_missing": ["fiber", "vitamin C", "vitamin A", "folate", "potassium", "magnesium", "iron (low)"],
+      "concerns": [
+        "Zero vegetable servings — the lowest of the week",
+        "Very low fiber (1g) — refined flour, no whole grains",
+        "High in added sugars from maple syrup",
+        "Processed breakfast sausage adds sodium and saturated fat"
+      ],
+      "strengths": [
+        "Ricotta is an excellent source of calcium and protein — great for all three family members",
+        "Eggs in the batter provide vitamin D and choline",
+        "Lemon zest adds vitamin C and brightens the flavor naturally",
+        "Breakfast-for-dinner is a joy moment — Elsie will love this, and family happiness is nutrition too!"
+      ],
+      "rating": "C",
+      "rating_note": "A delightful treat that the whole family will love, but nutritionally it's the lightest dinner of the week. Make sure lunch and snacks this day are packed with vegetables, fiber, and iron."
     },
     {
       "day": "Saturday",
-      "name": "Christmas Enchiladas",
-      "calories_per_serving": "~550 kcal",
-      "protein_source": "Chicken",
-      "protein_level": "high",
-      "vegetable_content": "moderate",
-      "whole_grains": false,
-      "key_nutrients": ["protein", "vitamin A", "vitamin C (tomatillo)", "calcium (cheese)"],
-      "concerns": ["Sodium from cheese and sauces", "Saturated fat from cheese and crema"],
-      "overall_rating": "good"
+      "meal": "Christmas Enchiladas (Eaten Out in Albuquerque)",
+      "context": "Restaurant meal — portions estimated, featuring traditional New Mexico red and green chile",
+      "key_ingredients": ["blue corn tortillas", "red chile sauce", "green chile sauce", "cheese (cheddar/Jack blend)", "chicken or beef", "fried egg on top"],
+      "estimated_nutrition_per_serving": {
+        "calories": 620,
+        "protein_g": 34,
+        "fat_g": 30,
+        "saturated_fat_g": 14,
+        "carbohydrates_g": 50,
+        "fiber_g": 6,
+        "sodium_mg": 1100,
+        "iron_mg": 3.8,
+        "calcium_mg": 350,
+        "potassium_mg": 520,
+        "magnesium_mg": 70,
+        "vitamin_c_mg": 25,
+        "folate_mcg": 60,
+        "vitamin_a_iu": 2800,
+        "vitamin_d_iu": 20
+      },
+      "vegetables_servings": 1.5,
+      "whole_grains": true,
+      "key_nutrients_present": ["protein", "calcium", "iron", "vitamin A", "vitamin C (from chile peppers)", "fiber (blue corn)"],
+      "key_nutrients_missing": ["folate", "omega-3", "vitamin D (low)", "magnesium (moderate)"],
+      "concerns": [
+        "Restaurant portions are larger and higher in sodium than home-cooked — expect 1,100+ mg sodium",
+        "Fried egg adds extra saturated fat, though it also adds vitamin D and protein",
+        "Cheese is the largest calorie contributor — restaurant portions tend to be generous"
+      ],
+      "strengths": [
+        "Blue corn tortillas are a genuine whole grain with more protein, fiber, and antioxidants than white/yellow corn",
+        "New Mexico chile peppers (both red and green) are loaded with vitamin C and vitamin A",
+        "The combination of meat/egg + cheese delivers strong protein and calcium",
+        "This is a culturally rich meal — teaching Elsie about regional food traditions is nourishment for the soul"
+      ],
+      "rating": "B",
+      "rating_note": "A solid restaurant dinner with real nutritional merit, thanks to the blue corn and chile peppers. The sodium is the main watch-out — drink plenty of water and keep lunch light on salt."
     }
   ],
   "weekly_assessment": {
     "protein_diversity": {
-      "sources_found": ["beef (ribeye)", "eggs", "dairy (Parmigiano/butter)", "chickpeas", "mushrooms", "white fish (bronzino)", "chicken"],
-      "rating": "excellent",
-      "notes": "Outstanding protein variety — 5 distinct animal sources plus plant-based (chickpeas). Red meat, fish, poultry, eggs, and legumes all represented. Well distributed across the week."
+      "sources_this_week": ["ribeye beef", "whole chicken", "eggs (×3 dinners)", "pork sausage", "goat cheese", "Parmigiano-Reggiano", "ricotta", "feta", "chicken/beef (enchiladas)", "walnuts"],
+      "assessment": "Excellent protein diversity! The family is getting protein from red meat, poultry, eggs, dairy, nuts, and legumes across the week. Eggs appear in three dinners (Tuesday, Thursday, Friday), which is fantastic for vitamin D and choline. Red meat appears only once (Sunday), which is a healthy balance.",
+      "grade": "A"
     },
     "vegetable_coverage": {
-      "servings_per_dinner_avg": 1.7,
-      "color_diversity": ["dark greens (kale x2)", "red/orange (tomatoes, peppers, tomatillos)", "alliums (onions, garlic)"],
-      "rating": "moderate",
-      "notes": "Three dinners have abundant vegetables (shakshuka, kale Caesar, bronzino+kale), but Sunday and Tuesday are very low. The two kale nights help significantly. Lunches need to carry vegetables on low-veg days."
+      "high_veggie_days": ["Monday (carrots, parsnips, potatoes)", "Wednesday (beets, arugula)", "Thursday (tomatoes, bell peppers, onion)"],
+      "low_veggie_days": ["Sunday (onions only)", "Tuesday (spinach in pasta only)", "Friday (none)"],
+      "assessment": "Three dinners deliver strong vegetable servings, but three others fall short. Friday's breakfast-for-dinner has zero vegetables, and Sunday's cheesesteaks offer only sautéed onions. The weekly average is about 1.4 servings of vegetables per dinner — ideally, aim for 2+ per dinner. The variety is good when vegetables do appear: root vegetables, leafy greens, nightshades, and beets cover many color groups.",
+      "grade": "B-"
     },
-    "nutrient_gaps": [
-      {
-        "nutrient": "whole grains",
-        "severity": "moderate",
-        "detail": "Zero dinners include whole grains — all starches are refined (hoagie roll, white pasta x2, corn tortillas). Lunches and snacks must compensate."
+    "nutrient_gaps": {
+      "fiber": {
+        "status": "Significant gap",
+        "detail": "Only Wednesday's farro salad delivers truly strong fiber (9g). Most dinners provide 1–6g fiber, well below the 8–12g target per dinner. Weekly dinner fiber averages about 4.6g/dinner. Lunches and snacks MUST fill this gap.",
+        "priority": "HIGH"
       },
-      {
-        "nutrient": "fiber",
-        "severity": "moderate",
-        "detail": "Only Wednesday (chickpeas, kale) and Friday (beans, kale) provide meaningful dinner fiber. Other nights are refined-carb heavy."
+      "vitamin_d": {
+        "status": "Consistent gap",
+        "detail": "Vitamin D is the hardest nutrient to get from food alone. Eggs (Thursday, Friday, Tuesday) help, but the family likely needs supplementation, especially in winter. Total dinner vitamin D averages about 20 IU/dinner — the target is 600 IU/day.",
+        "priority": "HIGH"
       },
-      {
-        "nutrient": "fruit",
-        "severity": "moderate",
-        "detail": "No fruit appears at any dinner — entirely normal, but lunches and snacks must provide 2-3 daily fruit servings."
+      "omega_3": {
+        "status": "Notable gap",
+        "detail": "The only meaningful omega-3 source this week is walnuts on Wednesday. No fish or seafood appears in any dinner. This is the most consistent gap in the weekly plan.",
+        "priority": "HIGH"
       },
-      {
-        "nutrient": "vitamin D",
-        "severity": "mild",
-        "detail": "Friday's bronzino and Thursday's mushrooms provide some vitamin D, but February sunshine is limited. Consider supplementation."
+      "folate": {
+        "status": "Moderate gap",
+        "detail": "Wednesday's beets and arugula are excellent folate sources (160 mcg), and the spinach pasta on Tuesday helps (85 mcg). But most other dinners fall well short. Laura's 400 mcg daily target requires strong folate from lunches.",
+        "priority": "MEDIUM"
+      },
+      "magnesium": {
+        "status": "Moderate gap",
+        "detail": "Wednesday's farro salad is the only dinner with substantial magnesium (110 mg). Dan's 420 mg daily target is hard to hit from dinners alone — nuts, seeds, and whole grains at lunch are essential.",
+        "priority": "MEDIUM"
       }
-    ],
-    "excesses": [
-      {
-        "item": "saturated fat",
-        "severity": "mild",
-        "detail": "Sunday (beef+cheese), Tuesday (butter+Parmigiano), and Saturday (cheese+crema) are all rich. Balanced by lighter Wed-Fri dinners."
+    },
+    "excesses": {
+      "saturated_fat": {
+        "status": "Over target most days",
+        "detail": "Five of seven dinners exceed 10g saturated fat per serving (Sunday 16g, Tuesday 20g, Saturday 14g, Friday 12g, Monday 10g). The American Heart Association recommends no more than 13g/day for a 2,000-calorie diet. This week leans heavily on butter, cream, and cheese — delicious, but the family should aim for lighter lunches with olive oil, avocado, and lean proteins.",
+        "priority": "MEDIUM"
       },
-      {
-        "item": "refined carbohydrates",
-        "severity": "moderate",
-        "detail": "Every dinner with a starch uses refined carbs. Not a crisis, but whole grain lunches would help balance blood sugar and fiber."
+      "sodium": {
+        "status": "Elevated on several days",
+        "detail": "Sunday (1,200 mg), Friday (820 mg), Thursday (780 mg), and Saturday (1,100 mg) all contribute significant sodium from a single meal. The AHA recommends no more than 2,300 mg/day total. On these days, lunches and snacks should be very low in sodium.",
+        "priority": "MEDIUM"
       }
-    ],
+    },
     "fiber_assessment": {
-      "rating": "low-moderate",
-      "notes": "Wednesday and Friday are fiber-rich; other nights are low. Weekly dinner fiber averages ~8g/dinner — below ideal. Whole grain lunches and fruit snacks are essential."
+      "weekly_dinner_average_g": 4.6,
+      "best_day": "Wednesday — Farro Salad (9g)",
+      "worst_day": "Friday — Lemon Ricotta Pancakes (1g)",
+      "recommendation": "Fiber is the biggest nutritional gap this week at dinner. Target 10–15g of fiber at lunch every day through beans, lentils, whole grains, fruits, and raw vegetables. Add chia seeds to Elsie's yogurt snacks for a painless fiber boost."
     },
     "omega3_assessment": {
-      "rating": "good",
-      "notes": "Friday's bronzino provides omega-3 fatty acids. One fish dinner per week meets minimum recommendations. Add walnuts or flaxseed at breakfast for extra coverage."
+      "sources_this_week": ["walnuts (Wednesday only)"],
+      "fish_servings": 0,
+      "recommendation": "No fish or seafood this week leaves a real omega-3 gap. Recommended fixes: (1) Add a tuna or salmon lunch 2× this week, (2) Sprinkle ground flaxseed on oatmeal or yogurt, (3) Consider fish oil supplements for the whole family. The American Heart Association recommends at least 2 fish meals per week."
     },
-    "overall_dinner_grade": "B+",
-    "overall_summary": "This is a genuinely well-balanced dinner week with standout protein variety and some excellent nutrient-dense nights (Wednesday's kale Caesar and Friday's bronzino are nutritional powerhouses). The gaps — whole grains, fiber, and fruit — are entirely normal for dinner menus and easily filled through lunches and snacks. The heavier nights (Sunday, Tuesday) are balanced by lighter, vegetable-forward nights midweek. Valentine's week comfort food without nutritional guilt."
+    "overall_dinner_grade": "B",
+    "overall_summary": "This is a genuinely enjoyable and varied week of dinners — the family is eating real food, cooking at home most nights, and exploring cuisines from Philly to New Mexico to the Mediterranean. The protein diversity is outstanding, and three dinners (Monday's roast chicken, Wednesday's farro salad, Thursday's shakshuka) are genuinely excellent nutritionally. The main opportunities are: (1) boosting fiber at every meal, (2) adding fish or omega-3 sources, (3) reducing saturated fat on the heavier days, and (4) ensuring vitamin D through supplements or fortified foods. The two eat-out meals (Sunday, Saturday) are reasonable indulgences — no guilt needed. Overall, this is a family that cares about food quality and variety, and with a few strategic lunches and snacks, the week will be nutritionally complete."
   },
   "recommended_lunches": [
     {
-      "name": "Whole Grain Turkey & Avocado Wrap",
-      "description": "Whole wheat tortilla with sliced turkey, mashed avocado, shredded carrots, spinach, and a squeeze of lemon. Roll tightly and slice in half.",
-      "prep_time": "8 min",
-      "packable": true,
-      "kid_friendly": true,
-      "gaps_addressed": ["whole grains", "fiber", "vegetables"],
-      "key_nutrients": ["fiber", "protein", "vitamin A", "folate", "healthy fats"],
-      "kid_notes": "Elsie can help roll her own. Skip the spinach if she resists — the carrots and avocado carry the nutrition."
+      "day": "Sunday",
+      "meal": "Mediterranean Lentil Soup with Whole-Wheat Pita & Hummus",
+      "targets": "Fiber (14g), folate, magnesium, iron — compensates for cheesesteak's nutritional gaps",
+      "why": "Lentils are a fiber and folate powerhouse. This lunch pre-loads the nutrients that Sunday's cheesesteak dinner completely misses. The whole-wheat pita adds extra fiber, and hummus provides magnesium and healthy fats.",
+      "estimated_nutrition": {
+        "calories": 450,
+        "protein_g": 22,
+        "fiber_g": 14,
+        "iron_mg": 5.0,
+        "folate_mcg": 180,
+        "magnesium_mg": 80,
+        "potassium_mg": 600,
+        "calcium_mg": 80
+      }
     },
     {
-      "name": "Lentil Soup with Crusty Bread",
-      "description": "Red lentil soup with carrots, cumin, and lemon — make a big batch Sunday and portion for the week. Serve with a slice of whole grain bread.",
-      "prep_time": "30 min (batch), 3 min to reheat",
-      "packable": true,
-      "kid_friendly": true,
-      "gaps_addressed": ["fiber", "whole grains", "plant protein", "iron"],
-      "key_nutrients": ["fiber", "iron", "folate", "protein", "potassium"],
-      "kid_notes": "Red lentils dissolve into a smooth, creamy soup that kids love. It doesn't look 'beany' — big win."
+      "day": "Monday",
+      "meal": "Salmon & Avocado Brown Rice Bowl with Edamame",
+      "targets": "Omega-3, fiber (8g), magnesium, calcium — adds the nutrients Monday's dinner lacks",
+      "why": "This is the week's best opportunity to get omega-3 fatty acids. Canned or leftover salmon is affordable and easy. Edamame adds calcium, fiber, and plant protein. Brown rice provides the whole grains that sourdough doesn't.",
+      "estimated_nutrition": {
+        "calories": 520,
+        "protein_g": 32,
+        "fiber_g": 8,
+        "iron_mg": 3.0,
+        "folate_mcg": 150,
+        "magnesium_mg": 100,
+        "potassium_mg": 800,
+        "calcium_mg": 120,
+        "omega_3_mg": 1500
+      }
     },
     {
-      "name": "Mediterranean Grain Bowl",
-      "description": "Quinoa or farro with cucumber, cherry tomatoes, olives, feta, and a lemon-olive oil dressing. Add rotisserie chicken for Dan's portion.",
-      "prep_time": "15 min (grain cooks while you prep)",
-      "packable": true,
-      "kid_friendly": true,
-      "gaps_addressed": ["whole grains", "fiber", "vegetables"],
-      "key_nutrients": ["fiber", "protein", "calcium (feta)", "iron (quinoa)", "vitamin C"],
-      "kid_notes": "Let Elsie build her own with toppings she likes. Feta and olives are usually kid-winners."
+      "day": "Tuesday",
+      "meal": "Black Bean & Roasted Sweet Potato Tacos with Lime Slaw",
+      "targets": "Fiber (12g), vitamin C, potassium, folate — balances the heavy Alfredo dinner",
+      "why": "Black beans are one of the best fiber sources available (15g per cup). Sweet potatoes add beta-carotene and potassium. The lime slaw provides vitamin C and a fresh crunch that contrasts beautifully with Tuesday's rich pasta dinner.",
+      "estimated_nutrition": {
+        "calories": 420,
+        "protein_g": 16,
+        "fiber_g": 12,
+        "iron_mg": 3.5,
+        "folate_mcg": 200,
+        "magnesium_mg": 90,
+        "potassium_mg": 750,
+        "calcium_mg": 100,
+        "vitamin_c_mg": 35
+      }
     },
     {
-      "name": "PB&J on Whole Wheat + Fruit Side",
-      "description": "Classic peanut butter and strawberry jam on whole wheat bread with a side of apple slices or clementines.",
-      "prep_time": "3 min",
-      "packable": true,
-      "kid_friendly": true,
-      "gaps_addressed": ["whole grains", "fruit", "fiber"],
-      "key_nutrients": ["fiber", "protein", "healthy fats", "vitamin C", "potassium"],
-      "kid_notes": "The eternal school lunch. Reliable, portable, and nutritionally solid with whole wheat."
+      "day": "Wednesday",
+      "meal": "Tuna Salad Lettuce Wraps with Whole-Grain Crackers & Apple Slices",
+      "targets": "Omega-3 (1,200mg), protein (for Dan), vitamin D — complements the grain bowl dinner",
+      "why": "Wednesday's dinner is the week's healthiest but lower in protein. This tuna lunch adds omega-3s (the week's biggest gap), extra protein for Dan, and vitamin D from the fish. Apple slices add fiber and sweetness Elsie will love.",
+      "estimated_nutrition": {
+        "calories": 380,
+        "protein_g": 28,
+        "fiber_g": 6,
+        "iron_mg": 2.0,
+        "folate_mcg": 40,
+        "magnesium_mg": 45,
+        "potassium_mg": 450,
+        "calcium_mg": 60,
+        "omega_3_mg": 1200,
+        "vitamin_d_iu": 150
+      }
     },
     {
-      "name": "Chicken Caesar Salad Wrap (Leftover Wednesday Dressing)",
-      "description": "Use leftover Caesar dressing from Wednesday. Toss with romaine, grilled chicken strips, and Parmesan. Wrap in a whole wheat tortilla.",
-      "prep_time": "10 min",
-      "packable": true,
-      "kid_friendly": true,
-      "gaps_addressed": ["whole grains", "vegetables", "protein"],
-      "key_nutrients": ["protein", "calcium", "vitamin K", "fiber"],
-      "kid_notes": "Kids who eat Caesar salad at dinner will eat it in a wrap at lunch. Smart leftover play."
+      "day": "Thursday",
+      "meal": "Quinoa Bowl with Chickpeas, Roasted Broccoli & Tahini Dressing",
+      "targets": "Fiber (10g), calcium (tahini), magnesium, protein — rounds out a strong dinner",
+      "why": "Thursday's shakshuka is already great, so this lunch fills the remaining daily gaps. Tahini is a hidden champion for calcium and magnesium. Broccoli adds fiber, vitamin C, and folate. Quinoa is a complete protein — perfect for Dan.",
+      "estimated_nutrition": {
+        "calories": 480,
+        "protein_g": 20,
+        "fiber_g": 10,
+        "iron_mg": 4.0,
+        "folate_mcg": 120,
+        "magnesium_mg": 110,
+        "potassium_mg": 650,
+        "calcium_mg": 200
+      }
     },
     {
-      "name": "Hummus & Veggie Plate with Pita",
-      "description": "Hummus with carrot sticks, cucumber rounds, bell pepper strips, and whole wheat pita triangles. Add olives and cherry tomatoes for adults.",
-      "prep_time": "5 min",
-      "packable": true,
-      "kid_friendly": true,
-      "gaps_addressed": ["fiber", "vegetables", "plant protein"],
-      "key_nutrients": ["fiber", "iron", "folate", "vitamin C", "healthy fats"],
-      "kid_notes": "Most 8-year-olds love dipping. Hummus is a stealth nutrition vehicle — chickpeas, tahini, lemon."
+      "day": "Friday",
+      "meal": "Turkey & Veggie Wrap with Spinach, Tomato, Avocado & White Bean Spread",
+      "targets": "Fiber (9g), vitamin A, iron, folate, vegetables — critical since dinner has zero veggies",
+      "why": "Friday's dinner is the week's most nutritionally sparse, so lunch must carry extra weight. The whole-wheat wrap, white beans, and vegetables deliver the fiber, iron, and vitamins that pancakes and sausage completely lack. Avocado adds potassium and healthy fats.",
+      "estimated_nutrition": {
+        "calories": 460,
+        "protein_g": 26,
+        "fiber_g": 9,
+        "iron_mg": 4.5,
+        "folate_mcg": 160,
+        "magnesium_mg": 70,
+        "potassium_mg": 700,
+        "calcium_mg": 100,
+        "vitamin_a_iu": 3000,
+        "vitamin_c_mg": 20
+      }
+    },
+    {
+      "day": "Saturday",
+      "meal": "Albuquerque Grab: Fresh Fruit & Yogurt Parfait with Granola from a Local Café",
+      "targets": "Calcium (300mg), vitamin D, fiber (6g), probiotics — light lunch before a big dinner out",
+      "why": "Since Saturday's dinner is a restaurant meal with higher sodium and calories, keep lunch light but nutrient-dense. Greek yogurt delivers calcium, protein, and probiotics. Granola adds fiber and magnesium. Fresh berries provide vitamin C and antioxidants.",
+      "estimated_nutrition": {
+        "calories": 350,
+        "protein_g": 18,
+        "fiber_g": 6,
+        "iron_mg": 1.5,
+        "folate_mcg": 30,
+        "magnesium_mg": 50,
+        "potassium_mg": 400,
+        "calcium_mg": 300,
+        "vitamin_d_iu": 80
+      }
     }
   ],
   "recommended_snacks": [
     {
-      "name": "Apple Slices with Almond Butter",
-      "description": "Sliced Honeycrisp apple (use leftover apples from the Brussels sprout slaw) with 2 tbsp almond butter.",
-      "prep_time": "3 min",
-      "time_of_day": "afternoon",
-      "kid_friendly": true,
-      "gaps_addressed": ["fruit", "healthy fats", "fiber"],
-      "key_nutrients": ["fiber", "vitamin C", "healthy fats", "magnesium"]
+      "day": "Sunday",
+      "snack": "Greek Yogurt with Chia Seeds & Blueberries",
+      "targets": "Calcium (250mg), fiber (5g), omega-3 (from chia), vitamin D (fortified yogurt)",
+      "why": "After a cheesesteak dinner, the family needs calcium, fiber, and omega-3 — this snack delivers all three. Elsie will love the blueberries, and chia seeds are a sneaky fiber and omega-3 booster.",
+      "estimated_nutrition": {
+        "calories": 200,
+        "protein_g": 15,
+        "fiber_g": 5,
+        "calcium_mg": 250,
+        "omega_3_mg": 500,
+        "vitamin_d_iu": 60
+      }
     },
     {
-      "name": "Greek Yogurt with Honey and Walnuts",
-      "description": "Plain Greek yogurt with a drizzle of honey and a handful of toasted walnuts (save some from the pappardelle elevation).",
-      "prep_time": "2 min",
-      "time_of_day": "morning or afternoon",
-      "kid_friendly": true,
-      "gaps_addressed": ["calcium", "protein", "healthy fats"],
-      "key_nutrients": ["calcium", "protein", "probiotics", "omega-3 (walnuts)"]
+      "day": "Monday",
+      "snack": "Apple Slices with Almond Butter & a Sprinkle of Flaxseed",
+      "targets": "Fiber (5g), magnesium (80mg), omega-3 (flaxseed), vitamin E",
+      "why": "Almond butter is one of the best snack sources of magnesium (Dan's focus nutrient). Flaxseed adds omega-3 without any fishy taste. Apples are a great fiber vehicle that Elsie can eat anywhere.",
+      "estimated_nutrition": {
+        "calories": 250,
+        "protein_g": 7,
+        "fiber_g": 5,
+        "magnesium_mg": 80,
+        "omega_3_mg": 700,
+        "potassium_mg": 300
+      }
     },
     {
-      "name": "Clementines (No Prep Required)",
-      "description": "2-3 clementines. That's it. Portable, mess-free, and bursting with vitamin C.",
-      "prep_time": "0 min",
-      "time_of_day": "any",
-      "kid_friendly": true,
-      "gaps_addressed": ["fruit", "vitamin C"],
-      "key_nutrients": ["vitamin C", "fiber", "folate"]
+      "day": "Tuesday",
+      "snack": "Carrot & Cucumber Sticks with White Bean Dip",
+      "targets": "Fiber (4g), vitamin A, folate, iron — light counterbalance to a rich cream pasta dinner",
+      "why": "Tuesday's dinner is the heaviest of the week (cream, butter, cheese), so a light, crunchy, fiber-rich snack keeps the day in balance. White bean dip adds iron and folate — both priority nutrients for Laura.",
+      "estimated_nutrition": {
+        "calories": 150,
+        "protein_g": 6,
+        "fiber_g": 4,
+        "iron_mg": 2.0,
+        "folate_mcg": 60,
+        "vitamin_a_iu": 5000,
+        "vitamin_c_mg": 10
+      }
     },
     {
-      "name": "String Cheese + Whole Grain Crackers",
-      "description": "2 string cheese sticks with a handful of whole grain crackers. Zero thought required.",
-      "prep_time": "0 min",
-      "time_of_day": "afternoon",
-      "kid_friendly": true,
-      "gaps_addressed": ["calcium", "whole grains"],
-      "key_nutrients": ["calcium", "protein", "fiber"]
+      "day": "Wednesday",
+      "snack": "Trail Mix: Walnuts, Pumpkin Seeds, Dark Chocolate Chips & Dried Apricots",
+      "targets": "Magnesium (100mg), iron (3mg), omega-3, potassium — extends Wednesday's great nutrition",
+      "why": "Wednesday's dinner is already the week's best, so this snack doubles down on its strengths. Pumpkin seeds are a magnesium and iron champion. Dark chocolate adds flavonoids and magnesium. A portable snack Dan can take to work.",
+      "estimated_nutrition": {
+        "calories": 280,
+        "protein_g": 8,
+        "fiber_g": 4,
+        "iron_mg": 3.0,
+        "magnesium_mg": 100,
+        "omega_3_mg": 400,
+        "potassium_mg": 350
+      }
     },
     {
-      "name": "Trail Mix (DIY)",
-      "description": "Mix almonds, dried cranberries (leftover from salad), dark chocolate chips, and pumpkin seeds (leftover from enchilada garnish). Bag in portions.",
-      "prep_time": "5 min for the week",
-      "time_of_day": "any",
-      "kid_friendly": true,
-      "gaps_addressed": ["iron", "magnesium", "healthy fats"],
-      "key_nutrients": ["iron", "magnesium", "healthy fats", "fiber"]
+      "day": "Thursday",
+      "snack": "Banana with a Handful of Cashews",
+      "targets": "Potassium (450mg), magnesium (75mg) — quick, easy, travel-friendly",
+      "why": "Bananas are potassium superstars and cashews deliver magnesium and copper. This is a perfect after-school snack for Elsie and a quick energy boost for Dan and Laura.",
+      "estimated_nutrition": {
+        "calories": 260,
+        "protein_g": 6,
+        "fiber_g": 4,
+        "potassium_mg": 450,
+        "magnesium_mg": 75,
+        "calcium_mg": 20
+      }
     },
     {
-      "name": "Banana with Peanut Butter",
-      "description": "One banana, halved lengthwise, spread with peanut butter. Can freeze for a treat.",
-      "prep_time": "2 min",
-      "time_of_day": "afternoon",
-      "kid_friendly": true,
-      "gaps_addressed": ["fruit", "potassium", "healthy fats"],
-      "key_nutrients": ["potassium", "fiber", "protein", "B6"]
+      "day": "Friday",
+      "snack": "Fortified Orange Juice & Whole-Grain Toast with Peanut Butter",
+      "targets": "Vitamin D (100 IU), vitamin C (60mg), calcium (150mg), fiber (4g) — critical since dinner is nutrient-light",
+      "why": "Friday's dinner is the weakest nutritionally, so this snack needs to pull serious weight. Fortified OJ delivers vitamin C, calcium, and vitamin D in one glass. Whole-grain toast with PB adds fiber, magnesium, and protein. An afternoon snack that fills every gap the pancake dinner leaves.",
+      "estimated_nutrition": {
+        "calories": 320,
+        "protein_g": 10,
+        "fiber_g": 4,
+        "vitamin_c_mg": 60,
+        "calcium_mg": 150,
+        "vitamin_d_iu": 100,
+        "magnesium_mg": 50,
+        "iron_mg": 1.5
+      }
     },
     {
-      "name": "Pomegranate Seeds (Valentine's Snack)",
-      "description": "A bowl of fresh pomegranate seeds — ruby-red for Valentine's week. Buy a container of pre-seeded arils to save time.",
-      "prep_time": "0 min",
-      "time_of_day": "any",
-      "kid_friendly": true,
-      "gaps_addressed": ["fruit", "antioxidants", "fiber"],
-      "key_nutrients": ["vitamin C", "vitamin K", "folate", "fiber", "antioxidants"]
+      "day": "Saturday",
+      "snack": "Cheese Quesadilla on Whole-Wheat Tortilla with Salsa (Albuquerque hotel or airport snack)",
+      "targets": "Calcium (200mg), fiber (3g), vitamin C (from salsa) — practical travel snack before dinner out",
+      "why": "When traveling, grab what's available but make it count. A simple cheese quesadilla on a whole-wheat tortilla gives calcium and fiber. Fresh salsa adds vitamin C. This is a realistic snack for a family on the go in Albuquerque.",
+      "estimated_nutrition": {
+        "calories": 280,
+        "protein_g": 12,
+        "fiber_g": 3,
+        "calcium_mg": 200,
+        "vitamin_c_mg": 10,
+        "iron_mg": 1.5
+      }
     }
   ],
-  "weekly_nutrition_summary": "With these lunches and snacks supplementing the dinner menu, the family achieves solid coverage across all major nutrient categories. Whole grain gaps are filled by lunch wraps, pita, and crackers. Fruit intake jumps from zero (dinner-only) to 2-3 daily servings through snacks and lunch sides. Calcium coverage improves significantly with Greek yogurt, string cheese, and feta at lunch. The one remaining consideration is vitamin D — February in Virginia means limited sun exposure, and only two dinners (bronzino, mushrooms) provide meaningful vitamin D. A daily supplement of 600-1000 IU for all family members is a smart winter insurance policy.",
+  "weekly_nutrition_summary": "This family eats well — really well. The week features an impressive variety of proteins (beef, chicken, eggs, pork, dairy, nuts), cuisines (American, Italian, Middle Eastern, New Mexican), and cooking methods (roasting, simmering, handmade pasta). Three dinners earn an A or A- (Monday's roast chicken, Wednesday's farro salad, Thursday's shakshuka), and even the indulgent nights (cheesesteaks, pancakes) bring genuine joy to the table.\n\nThe main nutritional opportunities are:\n\n1. **Fiber is the #1 gap.** Most dinners fall well below the 8–12g target. The recommended lunches (lentil soup, black bean tacos, quinoa bowls) are specifically designed to close this gap with 6–14g of fiber each.\n\n2. **Omega-3 fatty acids are almost absent.** With no fish this week, walnuts on Wednesday are the only meaningful source. The recommended lunches include salmon and tuna on Monday and Wednesday, plus chia and flaxseed in snacks, to address this.\n\n3. **Vitamin D requires intentional effort.** Eggs help (Tuesday, Thursday, Friday), but food alone won't reach the 600 IU daily target. Consider a family vitamin D supplement, especially in winter.\n\n4. **Saturated fat is elevated.** Cream, butter, cheese, and red meat appear frequently. This isn't cause for alarm in an otherwise varied diet, but prioritizing olive oil, avocado, and lean proteins at lunch will keep the weekly average in a healthy range.\n\n5. **The emotional nutrition is outstanding.** Cooking together (handmade pasta Tuesday), eating at friends' homes (Sunday), breakfast-for-dinner (Friday), and exploring regional food culture (Saturday in Albuquerque) — these aren't on any nutrition label, but they matter deeply for Elsie's relationship with food and for the family's connection to each other.\n\nWith the recommended lunches and snacks, this week covers every essential nutrient for all three family members. Well done.",
   "special_notes": [
-    "Consider a vitamin D supplement (600-1000 IU) for all family members during February — limited sunshine and indoor time make it hard to meet needs through food alone.",
-    "Elsie's swim lessons and YAT mean she's burning extra calories Tuesday and Friday — make sure she has a hearty after-school snack those days (trail mix + string cheese, or banana with PB).",
-    "Dan's Thursday potluck lunch will be heavy — the lighter mushroom pappardelle dinner is a good balance. He may want to go easy on snacks that afternoon.",
-    "The grocery list already includes walnuts, pecans, and chickpeas — repurpose leftovers into snacks to minimize waste and extra shopping."
-  ]
+    "Vitamin D Supplement Recommendation: Consider a daily vitamin D supplement for the whole family (600 IU for adults, 600 IU for Elsie). Winter sunlight in Reston, VA is insufficient for adequate vitamin D synthesis, and even with eggs appearing in three dinners, food sources alone won't bridge the gap.",
+    "Iron Absorption Tip: Laura's iron needs (18 mg/day) are the highest in the family. Pair iron-rich foods with vitamin C to boost absorption — Thursday's shakshuka does this perfectly (eggs + bell peppers). At lunch, squeeze lemon on lentil soup (Sunday) and add tomatoes to bean dishes.",
+    "Elsie's Fiber Strategy: At 8 years old, Elsie needs 22g of fiber daily but may resist high-fiber foods. Sneak it in: chia seeds in yogurt (Sunday), almond butter on apple slices (Monday), and smoothies with spinach and banana. Make it fun, not forced.",
+    "Hydration on High-Sodium Days: Sunday (cheesesteaks, ~1,200mg sodium) and Saturday (enchiladas, ~1,100mg sodium) are the highest-sodium dinners. Encourage extra water on these days — at least 8 glasses for Dan and Laura, 5–6 for Elsie.",
+    "Saturday Travel Nutrition: Eating out in Albuquerque means less control over portions and ingredients. The recommended light lunch (yogurt parfait) and practical snack (quesadilla) keep the day nutritionally grounded without requiring a packed cooler.",
+    "Handmade Pasta as Family Nutrition Education: Tuesday's handmade spinach pasta is a brilliant opportunity to teach Elsie about where food comes from. Let her crack the eggs, knead the dough, and see the spinach turn the pasta green. Kids who cook are more likely to eat vegetables — this is long-term nutritional investment."
+  ],
+  "nutrient_importance": {
+    "protein": {
+      "why": "Protein is the building block of every cell in the body — muscles, organs, skin, hair, and immune cells all depend on it. For Dan, adequate protein supports muscle maintenance and repair from physical activity. For Elsie, protein is essential for her rapid growth phase. For Laura, protein supports immune function and energy levels throughout the day.",
+      "daily_target": "Laura: 46–55g | Dan: 56–70g | Elsie: 19–34g",
+      "best_sources_this_week": "Monday's roast chicken (44g), Sunday's cheesesteak (42g), Saturday's enchiladas (34g), Friday's pancakes + sausage (24g). Protein is the one nutrient this week covers exceptionally well — every dinner delivers meaningful protein."
+    },
+    "calcium": {
+      "why": "Calcium builds and maintains strong bones and teeth, supports nerve signaling, muscle contraction, and heart rhythm. Elsie is in a critical bone-building window — the calcium she absorbs now directly determines her bone density as an adult. Laura needs calcium to prevent osteoporosis later in life. Calcium works best when paired with vitamin D, which helps the body absorb it.",
+      "daily_target": "Laura: 1,000mg | Dan: 1,000mg | Elsie: 1,000mg",
+      "best_sources_this_week": "Tuesday's Parmigiano-Reggiano (420mg), Saturday's enchilada cheese (350mg), Sunday's provolone (280mg), Friday's ricotta (250mg), Thursday's feta (220mg). This week is strong on calcium thanks to the variety of cheeses — but dairy isn't the only source. The recommended lunches add tahini (Thursday) and edamame (Monday) for plant-based calcium."
+    },
+    "iron": {
+      "why": "Iron carries oxygen in the blood to every cell in the body. Without enough iron, you feel tired, foggy, and weak. Laura's needs are highest (18mg/day) due to menstrual iron losses. Elsie needs iron for brain development and cognitive function — iron deficiency in children is linked to attention and learning difficulties. Iron from animal sources (heme iron) is absorbed 2–3× better than plant iron.",
+      "daily_target": "Laura: 18mg | Dan: 8mg | Elsie: 10mg",
+      "best_sources_this_week": "Sunday's ribeye (4.5mg — heme iron, very well absorbed), Thursday's shakshuka (4.2mg — eggs + tomatoes), Saturday's enchiladas (3.8mg), Wednesday's farro + beets (3.5mg), Tuesday's spinach pasta (3.2mg). Laura should prioritize Sunday's cheesesteak and Thursday's shakshuka, where iron absorption is highest thanks to heme iron and vitamin C synergy."
+    },
+    "fiber": {
+      "why": "Fiber feeds the beneficial bacteria in your gut (the microbiome), regulates blood sugar, lowers cholesterol, and prevents constipation. High-fiber diets are linked to lower rates of heart disease, diabetes, and colon cancer. For Elsie, fiber supports healthy digestion and steady energy levels. For Dan, fiber helps maintain cardiovascular health. This week's biggest nutritional gap is fiber — most dinners fall short.",
+      "daily_target": "Laura: 25g | Dan: 38g | Elsie: 22g",
+      "best_sources_this_week": "Wednesday's farro salad is the fiber champion (9g), followed by Thursday's shakshuka (6g) and Saturday's enchiladas (6g). Most other dinners provide only 1–3g. The recommended lunches (lentil soup 14g, black bean tacos 12g, quinoa bowl 10g) are specifically designed to close this gap."
+    },
+    "vitamin_d": {
+      "why": "Vitamin D is essential for calcium absorption — without it, the calcium in all that cheese goes to waste. It also supports immune function, mood regulation, and muscle strength. In winter, the body cannot produce vitamin D from sunlight north of the 37th parallel (Reston, VA is at 38.9°N), making dietary sources and supplements critical. Elsie's bone growth depends on adequate vitamin D.",
+      "daily_target": "Laura: 600 IU (15 mcg) | Dan: 600 IU (15 mcg) | Elsie: 600 IU (15 mcg)",
+      "best_sources_this_week": "Thursday's shakshuka eggs (40 IU), Friday's eggs in pancakes (30 IU), Tuesday's egg yolks in pasta (25 IU), Saturday's fried egg on enchiladas (20 IU). Even with eggs in three dinners, the total is far below the 600 IU target. A daily supplement is strongly recommended for the whole family, especially in winter months."
+    },
+    "omega_3": {
+      "why": "Omega-3 fatty acids (EPA and DHA) reduce inflammation, support brain development and function, protect heart health, and may improve mood and focus. For Elsie, DHA is critical for brain development and learning. For Dan and Laura, omega-3s protect against heart disease and reduce joint inflammation. The body cannot make omega-3s — they must come from food or supplements.",
+      "daily_target": "Laura: 1,100mg ALA (or 250–500mg EPA+DHA) | Dan: 1,600mg ALA (or 250–500mg EPA+DHA) | Elsie: 900mg ALA",
+      "best_sources_this_week": "Wednesday's walnuts are the only significant source in the dinner lineup. The recommended lunches add salmon (Monday — 1,500mg) and tuna (Wednesday — 1,200mg), plus chia seeds and flaxseed in snacks. This is the week's most critical nutritional gap to address through lunches and snacks."
+    },
+    "folate": {
+      "why": "Folate (vitamin B9) is essential for DNA synthesis, cell division, and red blood cell formation. For Laura, adequate folate is especially important for reproductive health and preventing anemia. For Elsie, folate supports rapid growth and development. Folate is found abundantly in dark leafy greens, legumes, and beets — which is why Wednesday's dinner is so valuable.",
+      "daily_target": "Laura: 400 mcg DFE | Dan: 400 mcg DFE | Elsie: 300 mcg DFE",
+      "best_sources_this_week": "Wednesday's beets and arugula (160 mcg — outstanding), Thursday's tomatoes and peppers (90 mcg), Tuesday's spinach pasta (85 mcg). The recommended lunches add lentils (Sunday — 180 mcg), black beans (Tuesday — 200 mcg), and chickpeas (Thursday — 120 mcg) to ensure Laura hits her daily target."
+    },
+    "potassium": {
+      "why": "Potassium regulates blood pressure, fluid balance, and muscle and nerve function. It works in opposition to sodium — the more potassium you eat, the more sodium your body excretes, which helps protect against hypertension. For Dan (active adult man), potassium is critical for muscle function and cardiovascular health. Most Americans get only about half the recommended potassium.",
+      "daily_target": "Laura: 2,600mg | Dan: 3,400mg | Elsie: 2,300mg",
+      "best_sources_this_week": "Monday's root vegetables (850mg — parsnips and potatoes are potassium giants), Thursday's tomatoes and peppers (680mg), Wednesday's beets and farro (620mg). The recommended lunches and snacks add bananas (Thursday snack — 450mg), sweet potatoes (Tuesday lunch), and avocado (Friday lunch) to build toward Dan's ambitious 3,400mg target."
+    },
+    "magnesium": {
+      "why": "Magnesium is involved in over 300 enzyme reactions in the body, including energy production, muscle relaxation, nerve function, and bone formation. It helps regulate blood sugar and blood pressure. For Dan, magnesium supports muscle recovery after exercise and helps prevent cramps. Low magnesium is linked to poor sleep quality, anxiety, and muscle tension — it's sometimes called 'nature's relaxation mineral.'",
+      "daily_target": "Laura: 320mg | Dan: 420mg | Elsie: 130mg",
+      "best_sources_this_week": "Wednesday's farro + walnuts (110mg — the week's best), Saturday's enchiladas (70mg), Monday's root vegetables (65mg). Dan's 420mg target is challenging to hit from dinners alone. The recommended lunches add tahini (Thursday — rich in magnesium), edamame (Monday), and almond butter (Monday snack — 80mg) to close the gap. Pumpkin seeds in Wednesday's trail mix snack (100mg) are a magnesium superstar."
+    },
+    "vitamin_c": {
+      "why": "Vitamin C is a powerful antioxidant that protects cells from damage, supports immune function, helps heal wounds, and dramatically improves iron absorption (critical for Laura). It's also essential for collagen production, which keeps skin, joints, and blood vessels healthy. For Elsie, vitamin C supports her immune system during the school year when colds circulate frequently.",
+      "daily_target": "Laura: 75mg | Dan: 90mg | Elsie: 25mg",
+      "best_sources_this_week": "Thursday's bell peppers are the undisputed vitamin C champion (65mg — nearly Laura's full daily target from one dinner!), Saturday's chile peppers (25mg), Monday's carrots and parsnips (12mg). Most other dinners are low in vitamin C. The recommended lunches add lime slaw (Tuesday — 35mg), fresh fruit (Saturday), and fortified OJ (Friday — 60mg)."
+    },
+    "vitamin_a": {
+      "why": "Vitamin A supports vision (especially night vision), immune function, skin health, and cell growth. Beta-carotene (the plant form found in orange and red vegetables) is also a powerful antioxidant. For Elsie, vitamin A is essential for growth and immune defense. The body converts beta-carotene to vitamin A as needed, so it's nearly impossible to overdose from food sources.",
+      "daily_target": "Laura: 2,333 IU (700 mcg RAE) | Dan: 3,000 IU (900 mcg RAE) | Elsie: 1,333 IU (400 mcg RAE)",
+      "best_sources_this_week": "Monday's carrots (8,500 IU — a single serving exceeds the daily target for all three family members!), Thursday's tomatoes and peppers (3,500 IU), Saturday's red chile (2,800 IU), Tuesday's spinach pasta (2,200 IU). Vitamin A is one of this week's strongest nutrients — the carrots on Monday alone cover the family for days."
+    }
+  }
 }

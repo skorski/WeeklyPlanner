@@ -139,7 +139,7 @@
   .page-glance {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
   .page-glance .page-header,
@@ -151,6 +151,7 @@
     width: 100%;
     border-collapse: collapse;
     font-size: 7.5pt;
+    margin: auto 0;   /* vertically center the table in remaining space */
   }
   .page-glance th {
     font-family: var(--anchor);
@@ -493,9 +494,9 @@
   }
   .page-support p {
     font-family: var(--narrative);
-    font-size: 8.5pt;
-    line-height: 1.5;
-    margin-bottom: 3pt;
+    font-size: 8pt;
+    line-height: 1.45;
+    margin-bottom: 2pt;
   }
   .page-support .salad-entry {
     margin-bottom: 8pt;
@@ -725,21 +726,21 @@
     color: var(--muted);
   }
   .page-parenting .nudge-card {
-    padding: 4pt 0;
+    padding: 3pt 0;
     border-bottom: 0.5pt solid var(--rule);
-    margin-bottom: 5pt;
+    margin-bottom: 3pt;
     page-break-inside: avoid;
   }
   .page-parenting .nudge-card h4 {
     font-family: var(--hero);
     font-size: 8.5pt;
     font-weight: 400;
-    margin-bottom: 2pt;
+    margin-bottom: 1pt;
   }
   .page-parenting .nudge-card p {
     font-family: var(--narrative);
     font-size: 7.5pt;
-    line-height: 1.5;
+    line-height: 1.4;
   }
   .page-parenting .nudge-steps {
     font-family: var(--narrative);
@@ -751,18 +752,18 @@
   .page-parenting .nudge-steps li { margin-bottom: 1pt; }
   .page-parenting .reflection-box {
     border-left: 2pt solid var(--ochre);
-    padding: 4pt 0 4pt 8pt;
+    padding: 3pt 0 3pt 8pt;
     font-family: var(--narrative);
     font-style: italic;
     font-size: 7.5pt;
-    margin-top: 5pt;
+    margin-top: 4pt;
     color: var(--muted);
-    line-height: 1.5;
+    line-height: 1.4;
   }
   .page-parenting .book-rec {
-    padding: 4pt 0;
+    padding: 3pt 0;
     border-top: 0.5pt solid var(--rule);
-    margin-top: 5pt;
+    margin-top: 4pt;
     page-break-inside: avoid;
   }
   .page-parenting .book-rec h4 {
