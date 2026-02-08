@@ -82,11 +82,12 @@ def render_html(data, template_dir):
 
 
 def check_overflow(html_path):
-    """Detect which booklet pages have content that overflows a single half-letter page.
+    """Detect which booklet pages have content that overflows a single A5 page.
 
-    Opens the HTML in a headless Chromium browser at print dimensions (5.5" × 8.5")
-    and uses JavaScript to compare each .page element's scrollHeight against the
-    available page height.  Returns a list of dicts describing each overflowing page.
+    Opens the HTML in a headless Chromium browser at print dimensions
+    (148mm × 210mm / A5) and uses JavaScript to compare each .page element's
+    scrollHeight against the available page height.  Returns a list of dicts
+    describing each overflowing page.
     """
     try:
         from playwright.sync_api import sync_playwright
@@ -97,17 +98,17 @@ def check_overflow(html_path):
 
     file_url = html_path.resolve().as_uri()
 
-    # Page height in CSS px at 96 dpi: 8.5 * 96 = 816
-    # Margins: top 0.5in (48) + bottom 0.55in (52.8) = 100.8
-    # Available content height ≈ 715 CSS px
-    PAGE_HEIGHT_PX = 816
+    # A5 page height in CSS px at 96 dpi: 210mm ≈ 8.27in → 8.27 * 96 ≈ 794
+    # Margins: top 0.25in (24) + bottom 0.3in (28.8) ≈ 53
+    # Available content height ≈ 741 CSS px
+    PAGE_HEIGHT_PX = 794
     MARGIN_PX = 53   # top 0.25in + bottom 0.3in from @page rule
-    CONTENT_HEIGHT_PX = PAGE_HEIGHT_PX - MARGIN_PX  # ~763
+    CONTENT_HEIGHT_PX = PAGE_HEIGHT_PX - MARGIN_PX  # ~741
 
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(
-            viewport={"width": 528, "height": PAGE_HEIGHT_PX},  # 5.5in * 96dpi
+            viewport={"width": 559, "height": PAGE_HEIGHT_PX},  # 148mm ≈ 5.83in * 96dpi ≈ 559
         )
         # Inject print media emulation so the .page divs become visible
         page.emulate_media(media="print")
@@ -159,12 +160,11 @@ def check_overflow(html_path):
 
 
 def html_to_pdf(html_path, pdf_path):
-    """Convert an HTML file to a saddle-stitch booklet PDF.
+    """Convert an HTML file to a PDF with individual A5 pages in reading order.
 
-    1. Render each logical page at 5.5" × 8.5" (half-letter) via Playwright.
-    2. Impose two half-pages side-by-side on 11" × 8.5" (letter landscape)
-       in booklet signature order so the output can be printed duplex,
-       stacked, and folded once in the center.
+    Renders each logical page at A5 size (148mm × 210mm) via Playwright.
+    Pages are output sequentially — no booklet imposition or book fold.
+    Adobe Reader (or any PDF viewer) handles duplex/booklet printing.
     """
     try:
         from playwright.sync_api import sync_playwright
@@ -173,91 +173,27 @@ def html_to_pdf(html_path, pdf_path):
               file=sys.stderr)
         sys.exit(1)
 
-    try:
-        from pypdf import PdfReader, PdfWriter, PageObject, Transformation
-        from pypdf.generic import RectangleObject
-    except ImportError:
-        print("ERROR: pypdf is not installed. Run: pip install pypdf",
-              file=sys.stderr)
-        sys.exit(1)
-
-    # Step 1: Render half-letter pages (5.5 × 8.5 in, matching CSS @page)
-    HALF_W = 5.5 * 72   # 396 pt
-    HALF_H = 8.5 * 72   # 612 pt
-    FULL_W = 11 * 72    # 792 pt  (letter landscape width)
-
-    tmp_pdf = pdf_path.with_name("_booklet_pages.pdf")
     file_url = html_path.resolve().as_uri()
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page()
         page.goto(file_url, wait_until="networkidle")
         page.pdf(
-            path=str(tmp_pdf),
-            width="5.5in",
-            height="8.5in",
+            path=str(pdf_path),
+            width="148mm",
+            height="210mm",
             print_background=True,
             margin={"top": "0", "right": "0", "bottom": "0", "left": "0"},
         )
         browser.close()
 
-    # Step 2: Impose in booklet (saddle-stitch) order
-    reader = PdfReader(str(tmp_pdf))
-    n = len(reader.pages)
-
-    # Pad to a multiple of 4 (required for book fold).
-    # The back cover (last HTML page) must land on the very last padded
-    # position so it prints on the physical back of the booklet.  We
-    # build an ordered list of page indices where None = blank page,
-    # moving the back-cover index from n-1 to padded-1.
-    padded = n + ((4 - n % 4) % 4)
-    page_order = list(range(n - 1))          # all pages except back cover
-    page_order += [None] * (padded - n)      # blank padding pages
-    page_order.append(n - 1)                 # back cover last
-
-    # Build the page-pair list for booklet imposition.
-    # For a saddle-stitch booklet printed duplex:
-    #   Sheet 1 front: last, first     |  Sheet 1 back:  second, second-to-last
-    #   Sheet 2 front: ...             |  ...
-    # Each sheet has a front side (left=even-position, right=odd-position in sequence)
-    # and a back side.
-    pairs = []
-    for i in range(padded // 2):
-        left = padded - 1 - i
-        right = i
-        pairs.append((left, right))
-
-    writer = PdfWriter()
-    for left_idx, right_idx in pairs:
-        spread = PageObject.create_blank_page(width=FULL_W, height=HALF_H)
-        spread.mediabox = RectangleObject([0, 0, FULL_W, HALF_H])
-
-        # Left half-page (placed at x=0)
-        left_page = page_order[left_idx] if left_idx < len(page_order) else None
-        if left_page is not None:
-            spread.merge_transformed_page(
-                reader.pages[left_page],
-                Transformation().translate(tx=0, ty=0),
-                over=True,
-            )
-
-        # Right half-page (placed at x=HALF_W)
-        right_page = page_order[right_idx] if right_idx < len(page_order) else None
-        if right_page is not None:
-            spread.merge_transformed_page(
-                reader.pages[right_page],
-                Transformation().translate(tx=HALF_W, ty=0),
-                over=True,
-            )
-
-        writer.add_page(spread)
-
-    with open(pdf_path, "wb") as f:
-        writer.write(f)
-
-    # Clean up temp file
-    tmp_pdf.unlink(missing_ok=True)
-    print(f"Booklet imposed: {n} pages → {len(pairs)} sheets (print duplex, fold in center)",
+    # Count pages for the summary message
+    try:
+        from pypdf import PdfReader
+        n = len(PdfReader(str(pdf_path)).pages)
+    except ImportError:
+        n = "?"
+    print(f"PDF generated: {n} A5 pages in reading order",
           file=sys.stderr)
 
 
