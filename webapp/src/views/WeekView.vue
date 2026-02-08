@@ -3,7 +3,7 @@
   <div v-else-if="!plan" class="empty-state">
     <h2>Plan not found</h2>
     <p>No data for week {{ date }}.</p>
-    <router-link to="/" class="btn btn-primary" style="margin-top:16px;display:inline-flex;">← Back Home</router-link>
+    <router-link to="/" class="text-link" style="margin-top:16px;display:inline-flex;">← Back Home</router-link>
   </div>
   <template v-else>
 
@@ -46,7 +46,7 @@
       </div>
 
       <div class="menu-footer">
-        <a v-if="hasPdf" :href="`/plans/${date}/weekly-plan.pdf`" target="_blank" class="menu-item menu-pdf">📄 Download PDF</a>
+        <a v-if="hasPdf" :href="`/plans/${date}/weekly-plan.pdf`" target="_blank" class="menu-item menu-pdf">Download PDF</a>
       </div>
     </div>
 
@@ -59,7 +59,7 @@
         <div class="week-range">{{ plan.week_range }}</div>
         <div v-if="plan.highlight" class="highlight">{{ plan.highlight }}</div>
         <div class="cover-actions">
-          <a v-if="hasPdf" :href="`/plans/${date}/weekly-plan.pdf`" target="_blank" class="btn btn-outline btn-sm">📄 PDF</a>
+          <a v-if="hasPdf" :href="`/plans/${date}/weekly-plan.pdf`" target="_blank" class="text-link">PDF</a>
         </div>
       </div>
 
@@ -67,13 +67,14 @@
       <h2 id="glance" class="section-title">Week at a Glance</h2>
       <table class="glance-table">
         <thead>
-          <tr><th></th><th>Day</th><th>Weather</th><th>Events</th><th>Dinner</th><th>Album</th></tr>
+          <tr><th>Day</th><th>Events</th><th>Dinner</th><th>Album</th></tr>
         </thead>
         <tbody>
           <tr v-for="(day, i) in plan.days" :key="day.name" :class="{ 'today-row': i === todayIndex }" @click="scrollTo(`day-${i}`)" style="cursor:pointer;">
-            <td>{{ weatherIcon(day.weather) }}</td>
-            <td class="day-name">{{ day.name }}</td>
-            <td>{{ day.weather || '—' }}</td>
+            <td>
+              <div class="day-name">{{ day.name }}</div>
+              <div class="day-weather">{{ glanceWeather(day.weather) }}</div>
+            </td>
             <td>{{ day.calendar_items?.join('; ') || '—' }}</td>
             <td>{{ day.dinner || '—' }}</td>
             <td>{{ day.album || '—' }}</td>
@@ -84,7 +85,7 @@
       <!-- Daily Plan -->
       <h2 class="section-title">Daily Plan</h2>
       <div v-for="(day, i) in plan.days" :key="day.name" :id="`day-${i}`">
-        <DayCard :day="day" :isToday="i === todayIndex" />
+        <DayCard :day="day" :isToday="i === todayIndex" :weatherLine="weatherContexts[i]" />
       </div>
 
       <!-- Appetizers -->
@@ -92,10 +93,10 @@
         <h2 id="appetizers" class="section-title">Appetizers</h2>
         <div v-for="a in plan.appetizers" :key="a.name" class="item-card">
           <h4>{{ a.name }}</h4>
-          <span v-if="a.cuisine" class="cuisine-tag" style="margin-bottom:6px;">{{ a.cuisine }}</span>
+          <span v-if="a.cuisine" class="cuisine-label" style="margin-bottom:6px;">{{ a.cuisine }}</span>
           <p>{{ a.description }}</p>
           <p v-if="a.key_ingredients" class="meta">{{ a.key_ingredients.join(', ') }}</p>
-          <a v-if="a.source_url" :href="a.source_url" target="_blank" class="recipe-link">📖 {{ a.source_name || 'View recipe' }}</a>
+          <a v-if="a.source_url" :href="a.source_url" target="_blank" class="recipe-link">{{ a.source_name || 'View recipe' }}</a>
         </div>
       </template>
 
@@ -103,13 +104,13 @@
       <template v-if="plan.salads?.length">
         <h2 id="salads" class="section-title">Salads</h2>
         <div v-for="s in plan.salads" :key="s.name" class="item-card">
-          <div v-if="s.salad_type" class="cuisine-tag" style="margin-bottom:6px;">{{ s.salad_type.replace('_',' ') }}</div>
+          <div v-if="s.salad_type" class="cuisine-label" style="margin-bottom:6px;">{{ s.salad_type.replace('_',' ') }}</div>
           <h4>{{ s.name }}</h4>
           <p>{{ s.description }}</p>
           <p v-if="s.key_ingredients" class="meta">{{ s.key_ingredients.join(', ') }}</p>
-          <div v-if="s.dressing" class="dressing"><strong>Dressing:</strong> {{ s.dressing }}</div>
+          <div v-if="s.dressing" class="dressing"><strong>Dressing</strong> {{ s.dressing }}</div>
           <div v-if="s.flavor_rationale" class="rationale">{{ s.flavor_rationale }}</div>
-          <a v-if="s.source_url" :href="s.source_url" target="_blank" class="recipe-link">📖 {{ s.source_name || 'View recipe' }}</a>
+          <a v-if="s.source_url" :href="s.source_url" target="_blank" class="recipe-link">{{ s.source_name || 'View recipe' }}</a>
         </div>
       </template>
 
@@ -150,13 +151,13 @@
 
       <!-- Stoic Guide -->
       <template v-if="plan.stoic_data">
-        <h2 id="stoic" class="section-title">🏛 The Stoic Guide</h2>
+        <h2 id="stoic" class="section-title">The Stoic Guide</h2>
         <StoicSection :data="plan.stoic_data" />
       </template>
 
       <!-- Newsletter -->
       <template v-if="plan.newsletter_data?.clusters?.length">
-        <h2 id="newsletter" class="section-title">📰 The Weekly Read</h2>
+        <h2 id="newsletter" class="section-title">The Weekly Read</h2>
         <NewsletterSection :data="plan.newsletter_data" />
       </template>
 
@@ -225,6 +226,76 @@ function weatherIcon(weather) {
   if (w.includes('sun') || w.includes('clear')) return '☀️'
   return '🌤️'
 }
+
+function extractHigh(weather) {
+  if (!weather) return null
+  const m = weather.match(/(\d+)\s*°?\s*F?\s*\/\s*(\d+)/i)
+  return m ? parseInt(m[1]) : null
+}
+
+function extractTemp(weather) {
+  if (!weather) return ''
+  const m = weather.match(/(\d+)\s*°?\s*F?\s*\/\s*(\d+)\s*°?\s*F?/i)
+  if (m) return `${m[1]}° / ${m[2]}°`
+  const single = weather.match(/(\d+)\s*°?\s*F/i)
+  if (single) return `${single[1]}°`
+  return ''
+}
+
+function glanceWeather(weather) {
+  const icon = weatherIcon(weather)
+  const temp = extractTemp(weather)
+  return `${icon} ${temp}`.trim()
+}
+
+// Build contextual one-liner per day: CONDITION | TEMP · context
+const weatherContexts = computed(() => {
+  if (!plan.value?.days) return []
+  const days = plan.value.days
+  const highs = days.map(d => extractHigh(d.weather))
+  const validHighs = highs.filter(h => h !== null)
+  const maxH = Math.max(...validHighs)
+  const minH = Math.min(...validHighs)
+
+  return days.map((day, i) => {
+    const w = (day.weather || '').toLowerCase()
+    const detail = (day.weather_detail || '').toLowerCase()
+    const high = highs[i]
+    const temp = extractTemp(day.weather)
+
+    // Condition word
+    let condition = ''
+    if (w.includes('snow')) condition = 'SNOW'
+    else if (w.includes('rain') || w.includes('shower')) condition = 'RAIN'
+    else if (w.includes('overcast')) condition = 'OVERCAST'
+    else if (w.includes('cloud')) condition = 'CLOUDY'
+    else if (w.includes('partly')) condition = 'PARTLY CLOUDY'
+    else if (w.includes('clear')) condition = 'CLEAR'
+    else if (w.includes('sun')) condition = 'SUNNY'
+    else if (w) condition = day.weather.split(',')[0].toUpperCase()
+
+    let line = condition
+    if (temp) line += ` | ${temp}`
+
+    // Contextual note
+    const notes = []
+    if (high !== null && high === maxH && maxH - minH >= 5) notes.push('warmest day')
+    if (high !== null && high === minH && maxH - minH >= 5) notes.push('coldest day')
+    if (detail.includes('gust')) {
+      const gm = detail.match(/gusts?\s*(\d+)/i)
+      if (gm && parseInt(gm[1]) >= 30) notes.push('gusty')
+    }
+    const precip = detail.match(/(\d+)%\s*precip/i)
+    if (precip && parseInt(precip[1]) >= 60) notes.push('likely rain')
+    else if (precip && parseInt(precip[1]) >= 30) notes.push('chance of rain')
+    if (detail.includes('bitter')) notes.push('bitter cold')
+    if (detail.includes('clearest')) notes.push('clearest day')
+
+    if (notes.length) line += ' · ' + notes.join(', ')
+
+    return line
+  })
+})
 
 function scrollTo(id) {
   menuOpen.value = false

@@ -115,7 +115,7 @@ Pick a single Stoic theme and a **primary source text** to anchor it.
 
 ### Step 2: Deep Research
 
-Run **2-3 web searches** to find:
+Run **3-7 web searches** to find:
 1. The original classical source passage (full text, not paraphrased)
 2. Modern commentary or interpretation (Ryan Holiday, Massimo Pigliucci,
    William Irvine, or similar)
@@ -136,7 +136,7 @@ Produce a structured guide with:
    daily life.
 4. **Meditations** — 3-7 entries (depending on arc shape), each with:
    - A title
-   - A short reflection (2-4 sentences)
+   - A short reflection (3-6 sentences)
    - A journaling prompt or action item
    - Optional: a secondary quote from a different Stoic source
 5. **Family Exercise** — one activity the whole family can do together that

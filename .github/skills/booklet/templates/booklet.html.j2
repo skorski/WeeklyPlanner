@@ -1325,6 +1325,32 @@ body {
 {%- endif -%}
 {%- endmacro %}
 
+{# Compact condition word from weather string #}
+{% macro weather_condition(weather_text) -%}
+{%- set w = weather_text | default("") | lower -%}
+{%- if "snow" in w -%}Snow
+{%- elif "rain" in w or "shower" in w -%}Rain
+{%- elif "overcast" in w -%}Overcast
+{%- elif "cloud" in w -%}Cloudy
+{%- elif "partly" in w -%}Partly cloudy
+{%- elif "clear" in w -%}Clear
+{%- elif "sun" in w -%}Sunny
+{%- else -%}{{ weather_text.split(",")[0] if weather_text else "" }}
+{%- endif -%}
+{%- endmacro %}
+
+{# Single-line contextual weather: icon + pre-computed oneliner from render script #}
+{% macro weather_oneliner(day, days) -%}
+{{ weather_icon(day.weather) }} {{ weather_condition(day.weather) }} {{ day.weather_oneliner | default("") }}
+{%- endmacro %}
+
+{# Glance-table weather: emoji + temp only #}
+{% macro weather_compact(day) -%}
+{%- set oneliner = day.weather_oneliner | default("") -%}
+{%- set temp_only = oneliner.split(" · ")[0] if " · " in oneliner else oneliner -%}
+{{ weather_icon(day.weather) }} {{ temp_only }}
+{%- endmacro %}
+
 {# ============================================
    PRINT PAGES — booklet layout
    ============================================ #}
@@ -1347,7 +1373,6 @@ body {
     <thead>
       <tr>
         <th>Day</th>
-        <th></th>
         <th>Weather</th>
         <th>Events</th>
         <th>Dinner</th>
@@ -1358,8 +1383,7 @@ body {
       {% for day in days %}
       <tr>
         <td class="day-name">{{ day.name }}</td>
-        <td><span class="weather-emoji-print">{{ weather_icon(day.weather) }}</span></td>
-        <td>{{ day.weather | default("—") }}</td>
+        <td>{{ weather_compact(day) }}</td>
         <td>{% if day.calendar_items %}{% for item in day.calendar_items %}{{ item }}{% if not loop.last %}; {% endif %}{% endfor %}{% else %}—{% endif %}</td>
         <td>{{ day.dinner | default("—") }}</td>
         <td>{{ day.album | default("—") }}</td>
@@ -1386,7 +1410,7 @@ body {
   <div class="day-intro">{{ day.day_intro }}</div>
   {% endif %}
   {% if day.weather %}
-  <div class="weather-line"><span class="weather-emoji-print">{{ weather_icon(day.weather) }}</span> {{ day.weather }}{% if day.weather_detail %} · {{ day.weather_detail }}{% endif %}</div>
+  <div class="weather-line">{{ weather_oneliner(day, days) }}</div>
   {% endif %}
 
   {% if day.calendar_items %}
@@ -1765,14 +1789,13 @@ body {
   <h2 class="section-title">Week at a Glance</h2>
   <table class="glance-table">
     <thead>
-      <tr><th></th><th>Day</th><th>Weather</th><th>Events</th><th>Dinner</th><th>Album</th></tr>
+      <tr><th>Day</th><th>Weather</th><th>Events</th><th>Dinner</th><th>Album</th></tr>
     </thead>
     <tbody>
       {% for day in days %}
       <tr>
-        <td><span class="weather-emoji">{{ weather_icon(day.weather) }}</span></td>
         <td class="day-name">{{ day.name }}</td>
-        <td>{{ day.weather | default("—") }}</td>
+        <td>{{ weather_compact(day) }}</td>
         <td>{% if day.calendar_items %}{% for item in day.calendar_items %}{{ item }}{% if not loop.last %}; {% endif %}{% endfor %}{% else %}—{% endif %}</td>
         <td>{{ day.dinner | default("—") }}</td>
         <td>{{ day.album | default("—") }}</td>
@@ -1786,7 +1809,7 @@ body {
   <div class="day-card">
     <h3>{{ day.long_name }}</h3>
     {% if day.day_intro %}<p style="font-style:italic;color:var(--muted);font-size:14px;margin-bottom:10px;">{{ day.day_intro }}</p>{% endif %}
-    {% if day.weather %}<div class="weather"><span class="weather-emoji">{{ weather_icon(day.weather) }}</span> {{ day.weather }}{% if day.weather_detail %} · {{ day.weather_detail }}{% endif %}</div>{% endif %}
+    {% if day.weather %}<div class="weather">{{ weather_oneliner(day, days) }}</div>{% endif %}
 
     {% if day.calendar_items %}
     <div style="margin-bottom:10px;">

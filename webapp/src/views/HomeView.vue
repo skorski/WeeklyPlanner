@@ -19,14 +19,14 @@
         <h2>{{ latest.weekRange }}</h2>
         <div v-if="latest.highlight" class="highlight">{{ latest.highlight }}</div>
         <div class="dinner-preview">
-          <span v-for="dinner in latest.dinners" :key="dinner" class="dinner-tag">{{ dinner }}</span>
+          {{ latest.dinners.join(', ') }}
         </div>
         <div class="actions">
-          <router-link :to="`/weeks/${latest.date}`" class="btn btn-primary">
-            📖 View Full Plan
+          <router-link :to="`/weeks/${latest.date}`" class="text-link">
+            View Full Plan →
           </router-link>
-          <a v-if="latest.hasPdf" :href="`/plans/${latest.date}/weekly-plan.pdf`" target="_blank" class="btn btn-outline">
-            📄 Download PDF
+          <a v-if="latest.hasPdf" :href="`/plans/${latest.date}/weekly-plan.pdf`" target="_blank" class="text-link">
+            Download PDF
           </a>
         </div>
       </div>
@@ -40,8 +40,8 @@
             <div class="dinners-summary">{{ week.dinners.slice(0, 4).join(' · ') }}<span v-if="week.dinners.length > 4"> + {{ week.dinners.length - 4 }} more</span></div>
           </div>
           <div class="archive-actions">
-            <router-link :to="`/weeks/${week.date}`" class="btn btn-primary btn-sm">View</router-link>
-            <a v-if="week.hasPdf" :href="`/plans/${week.date}/weekly-plan.pdf`" target="_blank" class="btn btn-outline btn-sm">PDF</a>
+            <router-link :to="`/weeks/${week.date}`" class="text-link">View</router-link>
+            <a v-if="week.hasPdf" :href="`/plans/${week.date}/weekly-plan.pdf`" target="_blank" class="text-link">PDF</a>
           </div>
         </div>
       </div>

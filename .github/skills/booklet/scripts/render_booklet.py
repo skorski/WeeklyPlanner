@@ -60,6 +60,47 @@ def derive_highlight(data):
 
 def render_html(data, template_dir):
     """Render the plan data to an HTML string using the Jinja2 template."""
+    # Pre-compute contextual weather one-liners for each day
+    days = data.get("days", [])
+    highs = []
+    for d in days:
+        m = re.search(r"(\d+)\s*°?\s*F?\s*/", d.get("weather", ""))
+        highs.append(int(m.group(1)) if m else None)
+    valid = [h for h in highs if h is not None]
+    max_h = max(valid) if valid else 0
+    min_h = min(valid) if valid else 0
+    spread = max_h - min_h
+
+    for i, d in enumerate(days):
+        w = d.get("weather", "")
+        detail = (d.get("weather_detail", "") or "").lower()
+        # Extract temp range
+        tm = re.search(r"(\d+)\s*°?\s*F?\s*/\s*(\d+)", w)
+        temp = f"{tm.group(1)}°/{tm.group(2)}°" if tm else ""
+        # Contextual note
+        notes = []
+        if highs[i] is not None and spread >= 5:
+            if highs[i] == max_h:
+                notes.append("warmest day")
+            if highs[i] == min_h:
+                notes.append("coldest day")
+        if "bitter" in detail:
+            notes.append("bitter cold")
+        if "clearest" in detail:
+            notes.append("clearest day")
+        gm = re.search(r"gusts?\s*(\d+)", detail)
+        if gm and int(gm.group(1)) >= 30:
+            notes.append("gusty")
+        pm = re.search(r"(\d+)%\s*precip", detail)
+        if pm:
+            pv = int(pm.group(1))
+            if pv >= 60:
+                notes.append("likely rain")
+            elif pv >= 30:
+                notes.append("chance of rain")
+        ctx = " · " + ", ".join(notes) if notes else ""
+        d["weather_oneliner"] = f"{temp}{ctx}".strip()
+
     env = Environment(
         loader=FileSystemLoader(str(template_dir)),
         keep_trailing_newline=True,

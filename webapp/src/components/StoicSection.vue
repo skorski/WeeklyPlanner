@@ -14,7 +14,7 @@
     <div v-if="data.introduction" class="stoic-intro">{{ data.introduction }}</div>
 
     <template v-if="data.meditations?.length">
-      <h4 style="font-size:15px;font-weight:600;margin-bottom:8px;">Meditations</h4>
+      <h4 class="section-label">Meditations</h4>
       <div v-for="m in data.meditations" :key="m.title" class="meditation-card">
         <div v-if="m.day" class="meditation-day-label">{{ m.day }}</div>
         <h4>{{ m.title }}</h4>
@@ -27,13 +27,13 @@
     </template>
 
     <div v-if="data.family_exercise" class="stoic-exercise-card">
-      <h4>🏛 {{ data.family_exercise.title }}</h4>
+      <h4>{{ data.family_exercise.title }}</h4>
       <p>{{ data.family_exercise.description }}</p>
       <p style="font-style:italic;">{{ data.family_exercise.connection }}</p>
     </div>
 
     <div v-if="data.young_stoic" class="stoic-young-card">
-      <h4>🌱 {{ data.young_stoic.title }}</h4>
+      <h4>{{ data.young_stoic.title }}</h4>
       <p>{{ data.young_stoic.prompt }}</p>
       <p style="font-style:italic;">{{ data.young_stoic.lesson }}</p>
     </div>
