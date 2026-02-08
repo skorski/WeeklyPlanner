@@ -1,0 +1,52 @@
+{# --- Weather Emoji Macro --- #}
+{% macro weather_icon(weather_text) -%}
+{%- set w = weather_text | default("") | lower -%}
+{%- if "snow" in w or "blizzard" in w -%}❄️
+{%- elif "rain" in w or "drizzle" in w or "shower" in w -%}🌧️
+{%- elif "thunder" in w or "storm" in w -%}⛈️
+{%- elif "clear" in w -%}☀️
+{%- elif "partly" in w or "mostly sunny" in w -%}🌤️
+{%- elif "overcast" in w and (weather_text | default("") | lower).startswith("overcast") -%}☁️
+{%- elif "cloud" in w -%}⛅
+{%- elif "fog" in w or "mist" in w -%}🌫️
+{%- else -%}🌤️
+{%- endif -%}
+{%- endmacro %}
+
+{# Compact condition word from weather string #}
+{% macro weather_condition(weather_text) -%}
+{%- set w = weather_text | default("") | lower -%}
+{%- if "snow" in w -%}Snow
+{%- elif "rain" in w or "shower" in w -%}Rain
+{%- elif "overcast" in w -%}Overcast
+{%- elif "cloud" in w -%}Cloudy
+{%- elif "partly" in w -%}Partly cloudy
+{%- elif "clear" in w -%}Clear
+{%- elif "sun" in w -%}Sunny
+{%- else -%}{{ weather_text.split(",")[0] if weather_text else "" }}
+{%- endif -%}
+{%- endmacro %}
+
+{# Single-line contextual weather: icon + pre-computed oneliner from render script #}
+{% macro weather_oneliner(day, days) -%}
+{{ weather_icon(day.weather) }} {{ weather_condition(day.weather) }} {{ day.weather_oneliner | default("") }}
+{%- endmacro %}
+
+{# Print weather: condition + data, no emoji #}
+{% macro weather_oneliner_print(day, days) -%}
+{{ weather_condition(day.weather) }} {{ day.weather_oneliner | default("") }}
+{%- endmacro %}
+
+{# Glance-table weather: emoji + temp only #}
+{% macro weather_compact(day) -%}
+{%- set oneliner = day.weather_oneliner | default("") -%}
+{%- set temp_only = oneliner.split(" · ")[0] if " · " in oneliner else oneliner -%}
+{{ weather_icon(day.weather) }} {{ temp_only }}
+{%- endmacro %}
+
+{# Print glance-table weather: condition + temp, no emoji #}
+{% macro weather_compact_print(day) -%}
+{%- set oneliner = day.weather_oneliner | default("") -%}
+{%- set temp_only = oneliner.split(" · ")[0] if " · " in oneliner else oneliner -%}
+{{ weather_condition(day.weather) }} {{ temp_only }}
+{%- endmacro %}

@@ -43,6 +43,7 @@
         <button v-if="plan.parenting_data" class="menu-item" @click="scrollTo('parenting')">Parenting Corner</button>
         <button v-if="plan.stoic_data" class="menu-item" @click="scrollTo('stoic')">The Stoic Guide</button>
         <button v-if="plan.newsletter_data?.clusters?.length" class="menu-item" @click="scrollTo('newsletter')">The Weekly Read</button>
+        <button v-if="plan.child_wisdom" class="menu-item" @click="scrollTo('story')">Bedtime Story</button>
       </div>
 
       <div class="menu-footer">
@@ -73,7 +74,7 @@
           <tr v-for="(day, i) in plan.days" :key="day.name" :class="{ 'today-row': i === todayIndex }" @click="scrollTo(`day-${i}`)" style="cursor:pointer;">
             <td>
               <div class="day-name">{{ day.name }}</div>
-              <div class="day-weather">{{ glanceWeather(day.weather) }}</div>
+              <div class="day-weather">{{ glanceWeather(day) }}</div>
             </td>
             <td>{{ day.calendar_items?.join('; ') || '—' }}</td>
             <td>{{ day.dinner || '—' }}</td>
@@ -175,6 +176,17 @@
         <div class="support-section"><p>{{ plan.nutrition_summary }}</p></div>
       </template>
 
+      <template v-if="plan.child_wisdom">
+        <h2 id="story" class="section-title">Bedtime Story</h2>
+        <div class="story-card">
+          <h3 class="story-title">{{ plan.child_wisdom.title }}</h3>
+          <div class="story-text">{{ plan.child_wisdom.story }}</div>
+          <div v-if="plan.child_wisdom.discussion_prompt" class="story-prompt">
+            {{ plan.child_wisdom.discussion_prompt }}
+          </div>
+        </div>
+      </template>
+
       <div class="week-footer">{{ plan.week_range }} · Generated {{ plan.generated_at }}</div>
     </div>
   </template>
@@ -216,83 +228,29 @@ function shortDay(name) {
   return name?.split(' ')[0] || name
 }
 
-function weatherIcon(weather) {
-  if (!weather) return ''
-  const w = weather.toLowerCase()
-  if (w.includes('snow')) return '❄️'
-  if (w.includes('rain') || w.includes('shower')) return '🌧️'
-  if (w.includes('cloud') || w.includes('overcast')) return '☁️'
-  if (w.includes('partly')) return '⛅'
-  if (w.includes('sun') || w.includes('clear')) return '☀️'
-  return '🌤️'
+// Read pre-computed weather fields from normalized plan data
+function glanceWeather(day) {
+  const emoji = day.weather_emoji || ''
+  const high = day.weather_high
+  const low = day.weather_low
+  if (high != null && low != null) return `${emoji} ${high}° / ${low}°`.trim()
+  return emoji
 }
 
-function extractHigh(weather) {
-  if (!weather) return null
-  const m = weather.match(/(\d+)\s*°?\s*F?\s*\/\s*(\d+)/i)
-  return m ? parseInt(m[1]) : null
-}
-
-function extractTemp(weather) {
-  if (!weather) return ''
-  const m = weather.match(/(\d+)\s*°?\s*F?\s*\/\s*(\d+)\s*°?\s*F?/i)
-  if (m) return `${m[1]}° / ${m[2]}°`
-  const single = weather.match(/(\d+)\s*°?\s*F/i)
-  if (single) return `${single[1]}°`
-  return ''
-}
-
-function glanceWeather(weather) {
-  const icon = weatherIcon(weather)
-  const temp = extractTemp(weather)
-  return `${icon} ${temp}`.trim()
-}
-
-// Build contextual one-liner per day: CONDITION | TEMP · context
+// Weather context one-liners from normalized data
 const weatherContexts = computed(() => {
   if (!plan.value?.days) return []
-  const days = plan.value.days
-  const highs = days.map(d => extractHigh(d.weather))
-  const validHighs = highs.filter(h => h !== null)
-  const maxH = Math.max(...validHighs)
-  const minH = Math.min(...validHighs)
-
-  return days.map((day, i) => {
-    const w = (day.weather || '').toLowerCase()
-    const detail = (day.weather_detail || '').toLowerCase()
-    const high = highs[i]
-    const temp = extractTemp(day.weather)
-
-    // Condition word
-    let condition = ''
-    if (w.includes('snow')) condition = 'SNOW'
-    else if (w.includes('rain') || w.includes('shower')) condition = 'RAIN'
-    else if (w.includes('overcast')) condition = 'OVERCAST'
-    else if (w.includes('cloud')) condition = 'CLOUDY'
-    else if (w.includes('partly')) condition = 'PARTLY CLOUDY'
-    else if (w.includes('clear')) condition = 'CLEAR'
-    else if (w.includes('sun')) condition = 'SUNNY'
-    else if (w) condition = day.weather.split(',')[0].toUpperCase()
-
-    let line = condition
+  return plan.value.days.map(day => {
+    const cond = day.weather_condition || ''
+    const high = day.weather_high
+    const low = day.weather_low
+    const temp = (high != null && low != null) ? `${high}° / ${low}°` : ''
+    let line = cond
     if (temp) line += ` | ${temp}`
-
-    // Contextual note
-    const notes = []
-    if (high !== null && high === maxH && maxH - minH >= 5) notes.push('warmest day')
-    if (high !== null && high === minH && maxH - minH >= 5) notes.push('coldest day')
-    if (detail.includes('gust')) {
-      const gm = detail.match(/gusts?\s*(\d+)/i)
-      if (gm && parseInt(gm[1]) >= 30) notes.push('gusty')
-    }
-    const precip = detail.match(/(\d+)%\s*precip/i)
-    if (precip && parseInt(precip[1]) >= 60) notes.push('likely rain')
-    else if (precip && parseInt(precip[1]) >= 30) notes.push('chance of rain')
-    if (detail.includes('bitter')) notes.push('bitter cold')
-    if (detail.includes('clearest')) notes.push('clearest day')
-
-    if (notes.length) line += ' · ' + notes.join(', ')
-
+    const oneliner = day.weather_oneliner || ''
+    // Append contextual notes from oneliner (after the temp portion)
+    const sep = oneliner.indexOf(' · ')
+    if (sep >= 0) line += ' · ' + oneliner.slice(sep + 3)
     return line
   })
 })

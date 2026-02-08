@@ -41,6 +41,13 @@
       </div>
     </div>
 
+    <!-- Conversation Starter -->
+    <div v-if="day.dinner_question" class="conversation-block">
+      <h4>At the Table</h4>
+      <div class="conversation-question">{{ day.dinner_question.question }}</div>
+      <div v-if="day.dinner_question.why" class="conversation-why">{{ day.dinner_question.why }}</div>
+    </div>
+
     <!-- Preparation -->
     <details v-if="day.prep_detail" class="prep-detail">
       <summary>Preparation</summary>
@@ -61,7 +68,8 @@
 
     <!-- Music Gallery — The Exhale -->
     <div v-if="day.album" class="album-pairing">
-      <div class="album-name">{{ day.album }}</div>
+      <div v-if="albumArtist" class="album-artist">{{ albumArtist }}</div>
+      <div class="album-name">{{ albumTitle }}</div>
       <div class="album-meta">{{ day.album_year }} · {{ day.album_genre }}</div>
       <div v-if="day.album_description" class="album-desc">{{ day.album_description }}</div>
       <div v-if="day.album_sonic_description" class="album-sonic">{{ day.album_sonic_description }}</div>
@@ -77,27 +85,15 @@ import { computed } from 'vue'
 
 const props = defineProps({ day: Object, isToday: Boolean, weatherLine: String })
 
-// Parse calendar items into { time, event } pairs for gutter layout
+// Use pre-normalized engagements from plan data
 const parsedEngagements = computed(() => {
-  if (!props.day.calendar_items?.length) return []
-  return props.day.calendar_items.map(item => {
-    // Try to extract a time like "4:00 PM", "4:00-5:00 PM", "(evening)"
-    const timeMatch = item.match(/(\d{1,2}:\d{2}(?:\s*-\s*\d{1,2}:\d{2})?\s*[AP]M)/i)
-    if (timeMatch) {
-      const time = timeMatch[1].toUpperCase()
-      // Remove the time from the event text and clean up
-      const event = item.replace(timeMatch[0], '').replace(/^\s*[,\-·]\s*/, '').replace(/\s*\(\s*\)\s*/, '').trim()
-      return { time, event: event || item }
-    }
-    // Check for "(evening)", "(morning)" etc.
-    const periodMatch = item.match(/\((evening|morning|afternoon|night)\)/i)
-    if (periodMatch) {
-      const time = periodMatch[1].toUpperCase()
-      const event = item.replace(periodMatch[0], '').trim()
-      return { time, event }
-    }
-    // No time found — show as all-day
-    return { time: '', event: item }
-  })
+  return (props.day.engagements || []).map(e => ({
+    time: e.time || '',
+    event: e.event || ''
+  }))
 })
+
+// Use pre-normalized album fields
+const albumArtist = computed(() => props.day.album_artist || '')
+const albumTitle = computed(() => props.day.album_title || props.day.album || '')
 </script>

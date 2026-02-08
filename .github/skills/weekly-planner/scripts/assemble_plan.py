@@ -29,6 +29,193 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+# ── Weather helpers ──────────────────────────────────────────────────────────
+
+WEATHER_ICONS = [
+    ("snow", "❄️"), ("rain", "🌧️"), ("shower", "🌧️"),
+    ("cloud", "☁️"), ("overcast", "☁️"), ("partly", "⛅"),
+    ("sun", "☀️"), ("clear", "☀️"),
+]
+
+_TEMP_RE = re.compile(r"(\d+)\s*°?\s*F?\s*/\s*(\d+)\s*°?\s*F?", re.IGNORECASE)
+_GUST_RE = re.compile(r"gusts?\s*(\d+)", re.IGNORECASE)
+_PRECIP_RE = re.compile(r"(\d+)%\s*precip", re.IGNORECASE)
+_TIME_RE = re.compile(
+    r"(\d{1,2}:\d{2}(?:\s*-\s*\d{1,2}:\d{2})?\s*[AP]M)", re.IGNORECASE
+)
+_PERIOD_RE = re.compile(r"\((evening|morning|afternoon|night)\)", re.IGNORECASE)
+_PAREN_RE = re.compile(r"\s*\([^)]*\)\s*")
+_ALBUM_SEPS = [" – ", " — ", " - "]
+_DOW_MAP = {
+    "sun": "sunday", "mon": "monday", "tue": "tuesday", "wed": "wednesday",
+    "thu": "thursday", "fri": "friday", "sat": "saturday",
+}
+
+
+def _weather_icon(weather: str) -> str:
+    w = weather.lower()
+    for keyword, icon in WEATHER_ICONS:
+        if keyword in w:
+            return icon
+    return "🌤️"
+
+
+def _weather_condition(weather: str) -> str:
+    w = weather.lower()
+    for label, cond in [
+        ("snow", "SNOW"), ("rain", "RAIN"), ("shower", "RAIN"),
+        ("overcast", "OVERCAST"), ("cloud", "CLOUDY"),
+        ("partly", "PARTLY CLOUDY"), ("clear", "CLEAR"), ("sun", "SUNNY"),
+    ]:
+        if label in w:
+            return cond
+    return weather.split(",")[0].strip().upper() if weather else ""
+
+
+def normalize_weather(days: list) -> None:
+    """Add structured weather fields to each day."""
+    highs = []
+    for d in days:
+        m = _TEMP_RE.search(d.get("weather", ""))
+        high = int(m.group(1)) if m else None
+        low = int(m.group(2)) if m else None
+        d["weather_high"] = high
+        d["weather_low"] = low
+        highs.append(high)
+
+    valid = [h for h in highs if h is not None]
+    max_h = max(valid) if valid else 0
+    min_h = min(valid) if valid else 0
+    spread = max_h - min_h
+
+    for i, d in enumerate(days):
+        w = d.get("weather", "")
+        detail = (d.get("weather_detail", "") or "").lower()
+
+        d["weather_condition"] = _weather_condition(w)
+        d["weather_emoji"] = _weather_icon(w)
+
+        # Build contextual one-liner
+        high, low = d.get("weather_high"), d.get("weather_low")
+        temp = f"{high}°/{low}°" if high is not None and low is not None else ""
+        notes = []
+        if high is not None and spread >= 5:
+            if high == max_h:
+                notes.append("warmest day")
+            if high == min_h:
+                notes.append("coldest day")
+        if "bitter" in detail:
+            notes.append("bitter cold")
+        if "clearest" in detail:
+            notes.append("clearest day")
+        gm = _GUST_RE.search(detail)
+        if gm and int(gm.group(1)) >= 30:
+            notes.append("gusty")
+        pm = _PRECIP_RE.search(detail)
+        if pm:
+            pv = int(pm.group(1))
+            if pv >= 60:
+                notes.append("likely rain")
+            elif pv >= 30:
+                notes.append("chance of rain")
+        ctx = " · " + ", ".join(notes) if notes else ""
+        d["weather_oneliner"] = f"{temp}{ctx}".strip()
+
+
+# ── Engagement helpers ───────────────────────────────────────────────────────
+
+def normalize_engagements(days: list) -> None:
+    """Parse calendar_items into structured {time, event, event_short}."""
+    for d in days:
+        parsed = []
+        for item in d.get("calendar_items", []):
+            tm_match = _TIME_RE.search(item)
+            if tm_match:
+                t = tm_match.group(1).upper()
+                ev = item[:tm_match.start()] + item[tm_match.end():]
+                ev = re.sub(r"^\s*[,\-·]\s*", "", ev).strip()
+                ev = re.sub(r"\s*\(\s*\)\s*", "", ev).strip()
+            else:
+                pm_match = _PERIOD_RE.search(item)
+                if pm_match:
+                    t = pm_match.group(1).upper()
+                    ev = item[:pm_match.start()] + item[pm_match.end():]
+                    ev = ev.strip()
+                else:
+                    t = ""
+                    ev = item.strip()
+            ev_short = _PAREN_RE.sub("", ev).strip() or ev
+            parsed.append({"time": t, "event": ev, "event_short": ev_short})
+        d["engagements"] = parsed
+
+
+# ── Album helpers ────────────────────────────────────────────────────────────
+
+def normalize_albums(days: list) -> None:
+    """Split 'Artist – Title' into album_artist and album_title."""
+    for d in days:
+        album = d.get("album", "")
+        if d.get("album_artist") and d.get("album_title"):
+            continue  # already set
+        if not album:
+            d.setdefault("album_artist", "")
+            d.setdefault("album_title", "")
+            continue
+        for sep in _ALBUM_SEPS:
+            if sep in album:
+                parts = album.split(sep, 1)
+                d["album_artist"] = parts[0].strip()
+                d["album_title"] = parts[1].strip()
+                break
+        else:
+            d["album_artist"] = ""
+            d["album_title"] = album
+
+
+# ── Day-of-week helpers ─────────────────────────────────────────────────────
+
+def normalize_day_of_week(days: list) -> None:
+    """Add day_of_week ('sunday', 'monday', ...) to each day."""
+    for d in days:
+        long_n = (d.get("long_name") or "").split(",")[0].strip().lower()
+        if long_n:
+            d["day_of_week"] = long_n
+            continue
+        short = (d.get("name") or "").split()[0].strip().lower()
+        d["day_of_week"] = _DOW_MAP.get(short, short)
+
+
+# ── Section subtitle helpers ─────────────────────────────────────────────────
+
+def generate_section_subtitles(data: dict) -> None:
+    """Generate short subtitles for section dividers from the week's content.
+
+    These are starting points — the final-editor skill should polish them
+    into something witty and specific to the week.
+    """
+    days = data.get("days", [])
+    if data.get("daily_plan_subtitle"):
+        return  # already set (e.g., by the final-editor)
+
+    cuisines = list(dict.fromkeys(
+        d.get("dinner_cuisine", "") for d in days if d.get("dinner_cuisine")
+    ))
+    dinners = [d.get("dinner", "") for d in days if d.get("dinner")]
+    artists = [d.get("album_artist", "") for d in days if d.get("album_artist")]
+
+    if len(cuisines) >= 3:
+        data["daily_plan_subtitle"] = (
+            f"From {cuisines[0]} to {cuisines[-1]}, "
+            f"with {artists[0]} on the stereo" if artists
+            else f"From {cuisines[0]} to {cuisines[-1]}, seven nights at the table"
+        )
+    elif dinners and artists:
+        data["daily_plan_subtitle"] = (
+            f"{dinners[0]}, {artists[0]}, and everything in between"
+        )
+    else:
+        data["daily_plan_subtitle"] = "Seven days of dinner, music, and good company"
+
 
 def get_week_folder(data):
     """Derive the weekly_plans/<YYYY-MM-DD> folder from the plan data."""
@@ -67,8 +254,24 @@ def merge_elevations(data, elevations):
 
 
 def merge_parenting(data, parenting):
-    """Store parenting data at the top level."""
+    """Store parenting data at top level and map dinner questions onto days."""
     data["parenting_data"] = parenting
+    # Map dinner questions onto each day by day_of_week
+    dq_map = {}
+    for q in parenting.get("dinner_questions", []):
+        day_name = (q.get("day") or "").strip().lower()
+        if day_name:
+            dq_map[day_name] = q
+    for d in data.get("days", []):
+        dow = d.get("day_of_week", "")
+        dq = dq_map.get(dow)
+        if not dq:
+            # Fallback: prefix match
+            for key, val in dq_map.items():
+                if key.startswith(dow[:3]) or dow.startswith(key[:3]):
+                    dq = val
+                    break
+        d["dinner_question"] = dq
 
 
 def merge_nutrition(data, nutrition):
@@ -115,6 +318,10 @@ def main():
         "--stoic",
         help="Path to stoic guide JSON from the stoic-guide skill.",
     )
+    parser.add_argument(
+        "--child-wisdom",
+        help="Path to child-wisdom JSON from the child-wisdom skill.",
+    )
     args = parser.parse_args()
 
     # Load core plan data
@@ -128,6 +335,15 @@ def main():
     # Inject generation timestamp
     if "generated_at" not in data:
         data["generated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+    # ── Normalize structured fields on each day ──
+    days = data["days"]
+    normalize_day_of_week(days)
+    normalize_weather(days)
+    normalize_albums(days)
+    normalize_engagements(days)
+    generate_section_subtitles(data)
+    print(f"Normalized: weather, albums, engagements, day_of_week, subtitles", file=sys.stderr)
 
     # Merge elevations
     if args.elevations:
@@ -165,6 +381,12 @@ def main():
             stoic = json.load(f)
         data["stoic_data"] = stoic
         print("Merged stoic guide data", file=sys.stderr)
+
+    # Merge child wisdom story
+    if getattr(args, 'child_wisdom', None):
+        with open(args.child_wisdom, "r", encoding="utf-8-sig") as f:
+            data["child_wisdom"] = json.load(f)
+        print("Merged child wisdom story", file=sys.stderr)
 
     # Determine output path
     if args.output:

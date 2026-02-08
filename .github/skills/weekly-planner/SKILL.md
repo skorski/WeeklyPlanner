@@ -185,9 +185,22 @@ python .github/skills/weekly-planner/scripts/assemble_plan.py days.json \
 The assembler:
 - Matches elevations to days by dinner name (case-insensitive)
 - Stores parenting data at the top level as `parenting_data`
+- Maps parenting `dinner_questions` onto each day's `dinner_question` field by `day_of_week`
 - Extracts `weekly_nutrition_summary` into `nutrition_summary`
 - Stores newsletter data at the top level as `newsletter_data`
 - Uses `utf-8-sig` encoding to handle BOM from Windows/PowerShell
+
+**Normalized fields** (added automatically by `assemble_plan.py`):
+- `day_of_week` — lowercase day name ("sunday", "monday", ...) for reliable cross-skill joining
+- `weather_high`, `weather_low` — integer temperatures extracted from the freeform `weather` string
+- `weather_condition` — uppercase condition label (SUNNY, OVERCAST, RAIN, etc.)
+- `weather_emoji` — emoji for the condition (☀️, ☁️, 🌧️, etc.)
+- `weather_oneliner` — contextual one-liner like "45°/32° · warmest day, gusty"
+- `album_artist`, `album_title` — split from the "Artist – Title" format in `album`
+- `engagements` — structured array of `{time, event, event_short}` parsed from `calendar_items`
+- `dinner_question` — matched from `parenting_data.dinner_questions` by `day_of_week`
+
+These fields eliminate the need for regex parsing in downstream consumers (booklet renderer, webapp).
 
 Structure:
 
@@ -198,10 +211,19 @@ Structure:
     {
       "name": "Sun 02/08",
       "long_name": "Sunday, February 8",
+      "day_of_week": "sunday",
       "weather": "Partly cloudy, 45F/32F",
       "weather_detail": "Mostly Sunny (72%), wind 8 mph, 0% precip",
+      "weather_high": 45,
+      "weather_low": 32,
+      "weather_condition": "PARTLY CLOUDY",
+      "weather_emoji": "⛅",
+      "weather_oneliner": "45°/32° · warmest day",
       "calendar": "Soccer practice 10am",
       "calendar_items": ["Soccer practice 10:00 AM"],
+      "engagements": [
+        { "time": "10:00 AM", "event": "Soccer practice", "event_short": "Soccer practice" }
+      ],
       "time_constraints": ["Back from soccer by noon"],
       "dinner": "Slow-Cooker Beef Stew",
       "dinner_cuisine": "American",
@@ -211,7 +233,9 @@ Structure:
       "dinner_source_name": "Serious Eats",
       "dinner_notes": "Start before soccer; ready by 5 PM",
       "dinner_nutrition_notes": "Good iron from beef; add a side salad for greens",
-      "album": "Miles Davis - Kind of Blue",
+      "album": "Miles Davis – Kind of Blue",
+      "album_artist": "Miles Davis",
+      "album_title": "Kind of Blue",
       "album_year": "1959",
       "album_genre": "Jazz",
       "album_mood": "Contemplative, warm",
@@ -234,6 +258,13 @@ Structure:
           "instruction": "Top with thinly sliced shallots fried until golden — adds crunch contrast to the tender meat."
         }
       ],
+      "dinner_question": {
+        "day": "Sunday",
+        "dinner": "Slow-Cooker Beef Stew",
+        "question": "If you could cook any meal for someone you love, what would you make?",
+        "category": "imagination",
+        "why": "Encourages empathy and creative thinking through food"
+      },
       "prep_detail": {
         "prep_timeline": "3-4 hours (mostly hands-off braising)",
         "prep_steps": [

@@ -1,0 +1,145 @@
+{# --- SECTION DIVIDER: Family Corner --- #}
+{% if parenting_data %}
+<div class="page page-divider">
+  <div class="divider-title">Family Corner</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">Conversation starters, parenting nudges, and connection ideas</div>
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+{% endif %}
+
+{# --- PARENTING CORNER (2-page spread) --- #}
+{% if parenting_data %}
+{# Page 1: Theme + Dinner Questions #}
+<div class="page page-parenting">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Parenting Corner</h2>
+  {% if parenting_data.weekly_theme %}
+  <div class="theme-banner">
+    <h3>{{ parenting_data.weekly_theme.title }}</h3>
+    <p>{{ parenting_data.weekly_theme.description }}</p>
+  </div>
+  {% endif %}
+
+  {% if parenting_data.dinner_questions %}
+  <h3 style="font-size:9.5pt;font-weight:400;margin:5pt 0 3pt;">Dinner Conversation Starters</h3>
+  {% for q in parenting_data.dinner_questions %}
+  <div class="question-entry">
+    <div class="question-day">{{ q.day }} — {{ q.dinner | default("") }}</div>
+    <div class="question-text">"{{ q.question }}"</div>
+    <div class="question-why">{{ q.why }}</div>
+  </div>
+  {% endfor %}
+  {% endif %}
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+
+{# Page 2: Nudges + Book Rec + Reflection #}
+<div class="page page-parenting">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Nudges & Reflection</h2>
+  {% if parenting_data.nudges %}
+  {% for n in parenting_data.nudges %}
+  <div class="nudge-card">
+    <h4>{{ n.title }}</h4>
+    <p><em>{{ n.context }}</em></p>
+    <p>{{ n.suggestion }}</p>
+    {% if n.how_to %}
+    <ol class="nudge-steps">{% for step in n.how_to %}<li>{{ step }}</li>{% endfor %}</ol>
+    {% endif %}
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  {% if parenting_data.recommendation %}
+  <div class="book-rec">
+    <h4>{{ parenting_data.recommendation.title }}{% if parenting_data.recommendation.author %} by {{ parenting_data.recommendation.author }}{% endif %}</h4>
+    <p>{{ parenting_data.recommendation.why }}</p>
+    <p><em>{{ parenting_data.recommendation.connection }}</em></p>
+  </div>
+  {% endif %}
+
+  {% if parenting_data.parent_reflection %}
+  <div class="reflection-box">
+    {{ parenting_data.parent_reflection }}
+  </div>
+  {% endif %}
+
+  <p style="font-size:6.5pt;color:#6b6b6b;text-align:center;margin-top:6pt;font-style:italic;">You don't need to be a perfect parent — just a present one.</p>
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+{% endif %}
+
+{# --- STOIC GUIDE (2-page spread) --- #}
+{% if stoic_data %}
+{# Page 1: Theme + Anchor Quote + Introduction + First Meditations #}
+<div class="page page-stoic">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">The Stoic Guide</h2>
+  <div class="stoic-theme-banner">
+    <div class="stoic-category">{{ stoic_data.theme.category | default("") }}</div>
+    <h3>{{ stoic_data.theme.title }}</h3>
+    <p>{{ stoic_data.theme.description }}</p>
+  </div>
+
+  <div class="anchor-quote">
+    "{{ stoic_data.anchor_quote.text }}"
+    <span class="quote-source">— {{ stoic_data.anchor_quote.source }}, <em>{{ stoic_data.anchor_quote.work }}</em> {{ stoic_data.anchor_quote.reference }}</span>
+  </div>
+
+  <div class="stoic-intro">{{ stoic_data.introduction }}</div>
+
+  {% for m in stoic_data.meditations[:4] %}
+  <div class="meditation-entry">
+    {% if m.day %}<span class="meditation-day">{{ m.day }}</span>{% endif %}
+    <span class="meditation-title">{{ m.title }}</span>
+    <div class="meditation-reflection">{{ m.reflection }}</div>
+    <div class="meditation-prompt">{{ m.prompt }}</div>
+    {% if m.secondary_quote %}
+    <div class="meditation-secondary-quote">"{{ m.secondary_quote.text }}" — {{ m.secondary_quote.source }}</div>
+    {% endif %}
+  </div>
+  {% endfor %}
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+
+{# Page 2: Remaining Meditations + Family Exercise + Young Stoic + Closing #}
+<div class="page page-stoic">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Reflections & Practice</h2>
+
+  {% for m in stoic_data.meditations[4:] %}
+  <div class="meditation-entry">
+    {% if m.day %}<span class="meditation-day">{{ m.day }}</span>{% endif %}
+    <span class="meditation-title">{{ m.title }}</span>
+    <div class="meditation-reflection">{{ m.reflection }}</div>
+    <div class="meditation-prompt">{{ m.prompt }}</div>
+    {% if m.secondary_quote %}
+    <div class="meditation-secondary-quote">"{{ m.secondary_quote.text }}" — {{ m.secondary_quote.source }}</div>
+    {% endif %}
+  </div>
+  {% endfor %}
+
+  {% if stoic_data.family_exercise %}
+  <div class="stoic-exercise">
+    <h4>{{ stoic_data.family_exercise.title }}</h4>
+    <p>{{ stoic_data.family_exercise.description }}</p>
+    <p><em>{{ stoic_data.family_exercise.connection }}</em></p>
+  </div>
+  {% endif %}
+
+  {% if stoic_data.young_stoic %}
+  <div class="young-stoic">
+    <h4>{{ stoic_data.young_stoic.title }}</h4>
+    <p>{{ stoic_data.young_stoic.prompt }}</p>
+    <p><em>{{ stoic_data.young_stoic.lesson }}</em></p>
+  </div>
+  {% endif %}
+
+  {% if stoic_data.closing_thought %}
+  <div class="closing-thought">{{ stoic_data.closing_thought }}</div>
+  {% endif %}
+
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+{% endif %}

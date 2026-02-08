@@ -264,6 +264,22 @@ After all day pages fit, spot-check:
 - Enriched copy reads naturally
 - No fabricated details slipped through
 
+## Design System: "Quiet Luxury / Atmospheric Choreography"
+
+The plan's visual identity uses a deliberately restrained palette and typography.
+Your editorial copy should complement this aesthetic — warm and vivid, but never
+breathless or over-decorated. The design principles that shape the visual layout
+also shape the editorial voice:
+
+- **Whitespace as structure.** Short, purposeful copy. Let the page breathe.
+- **The Temporal Axis.** Each day is anchored by its date and weather. Day intros
+  should reinforce this sense of atmosphere and place.
+- **Elegance through removal.** If a sentence doesn't earn its space, cut it.
+  Avoid filler phrases like "why not try" or "you'll love this."
+- **No colons on labels.** Tip labels (PREPARATION, SAUCE, etc.) stand alone
+  without colons in the rendered output.
+- **No decorative emojis.** Weather emojis are functional; all others are removed.
+
 ## Output
 
 The editor produces two artifacts:

@@ -1,0 +1,81 @@
+{# --- SECTION DIVIDER: Kitchen & Pantry --- #}
+{% if salads or appetizers or beverages or grocery_list %}
+<div class="page page-divider">
+  <div class="divider-title">Kitchen & Pantry</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">Appetizers, salads, beverages, and your shopping list</div>
+  <div class="page-folio">{% set ns.pg = ns.pg %}{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+{% endif %}
+
+{# --- APPETIZERS & SALADS --- #}
+{% if salads or appetizers %}
+<div class="page page-support">
+  <div class="page-header">Kitchen & Pantry</div>
+  {% if appetizers %}
+  <h2 class="section-header">Appetizers</h2>
+  {% for a in appetizers %}
+  <h3>{{ a.name }}</h3>
+  <p>{{ a.description | default("") }}</p>
+  {% if a.key_ingredients %}<p style="font-size:7.5pt;color:var(--muted);">{{ a.key_ingredients | join(", ") }}</p>{% endif %}
+  {% endfor %}
+  {% endif %}
+
+  {% if salads %}
+  <h2 class="section-header" style="margin-top:10pt;">Salads</h2>
+  {% for s in salads %}
+  <div class="salad-entry">
+    <div class="type-label">{{ s.salad_type | default("side") | replace("_", " ") }}</div>
+    <h3>{{ s.name }}</h3>
+    <p>{{ s.description | default("") }}</p>
+    {% if s.dressing %}<div class="dressing-box"><strong>Dressing:</strong> {{ s.dressing }}</div>{% endif %}
+    {% if s.flavor_rationale %}<div class="rationale">{{ s.flavor_rationale }}</div>{% endif %}
+  </div>
+  {% endfor %}
+  {% endif %}
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+{% endif %}
+
+{# --- BEVERAGES --- #}
+{% if beverages %}
+<div class="page page-support">
+  <div class="page-header">Kitchen & Pantry</div>
+  <h2 class="section-header">Beverage Pairings</h2>
+  {% for b in beverages %}
+  <h3>{{ b.name }}</h3>
+  <p>{{ b.description | default("") }}</p>
+  {% if b.why %}<p style="font-size:7.5pt;font-style:italic;color:var(--muted);">{{ b.why }}</p>{% endif %}
+  {% endfor %}
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+{% endif %}
+
+{# --- GROCERY LIST --- #}
+<div class="page page-grocery">
+  <div class="page-header">Kitchen & Pantry</div>
+  <h2 class="section-header">Grocery List</h2>
+  {% if grocery_list %}
+  <div class="grocery-cols">
+    {% for category, items in grocery_list.items() %}
+    <div class="g-cat">
+      <h4>{{ category }}</h4>
+      <ul>{% for item in items %}<li>{{ item }}</li>{% endfor %}</ul>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+
+{# --- PREP-AHEAD (own page) --- #}
+{% if prep_ahead %}
+<div class="page page-grocery">
+  <div class="page-header">Kitchen & Pantry</div>
+  <h2 class="section-header">Prep-Ahead Checklist</h2>
+  <div class="prep-list">
+    <ul>{% for task in prep_ahead %}<li>{{ task }}</li>{% endfor %}</ul>
+  </div>
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+{% endif %}

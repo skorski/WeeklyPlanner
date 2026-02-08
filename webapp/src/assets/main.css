@@ -639,6 +639,42 @@ a:hover { text-decoration: underline; }
   margin-right: 6px;
 }
 
+/* ---- Conversation Starter — Ochre accent ---- */
+
+.conversation-block {
+  margin: calc(var(--x) * 2) 0;
+  padding: calc(var(--x) * 1) calc(var(--x) * 1.25);
+  border-left: 3px solid var(--ochre);
+}
+
+.conversation-block h4 {
+  font-family: var(--anchor);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--ochre);
+  font-weight: 600;
+  margin: 0 0 calc(var(--x) * 0.75);
+}
+
+.conversation-question {
+  font-family: var(--narrative);
+  font-size: 1.05rem;
+  font-style: italic;
+  line-height: 1.8;
+  color: var(--ink);
+  max-width: 60ch;
+}
+
+.conversation-why {
+  font-family: var(--narrative);
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--muted);
+  margin-top: calc(var(--x) * 0.5);
+  max-width: 60ch;
+}
+
 /* ---- Preparation — Collapsible, sage zone ---- */
 
 .prep-detail {
@@ -721,6 +757,15 @@ a:hover { text-decoration: underline; }
   text-align: center;
 }
 
+.album-artist {
+  font-family: var(--anchor);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
 .album-name {
   font-family: var(--hero);
   font-size: 1.3rem;
@@ -730,10 +775,11 @@ a:hover { text-decoration: underline; }
 }
 .album-meta {
   font-family: var(--anchor);
-  font-size: 0.7rem;
+  font-size: 0.65rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: var(--muted);
+  letter-spacing: 2.5px;
+  color: var(--ochre);
   margin-bottom: var(--x);
 }
 .album-desc {
@@ -741,7 +787,8 @@ a:hover { text-decoration: underline; }
   font-size: 0.9rem;
   line-height: 1.9;
   color: var(--muted);
-  margin-bottom: calc(var(--x) * 0.5);
+  max-width: 55ch;
+  margin: 0 auto calc(var(--x) * 0.5);
 }
 .album-sonic {
   font-family: var(--narrative);
@@ -749,14 +796,20 @@ a:hover { text-decoration: underline; }
   line-height: 1.9;
   color: var(--muted);
   font-style: italic;
+  max-width: 55ch;
+  margin: 0 auto;
 }
 .album-rationale {
   font-family: var(--narrative);
   font-size: 0.85rem;
   font-style: italic;
   color: var(--muted);
-  margin-top: calc(var(--x) * 0.5);
+  margin-top: calc(var(--x) * 1.5);
+  padding-top: calc(var(--x) * 0.5);
   line-height: 1.9;
+  max-width: 55ch;
+  margin-left: auto;
+  margin-right: auto;
 }
 .spotify-link {
   font-family: var(--anchor);
@@ -1215,6 +1268,43 @@ a:hover { text-decoration: underline; }
   font-size: 0.75rem;
   color: var(--muted);
   font-style: italic;
+}
+
+/* ========================================
+   BEDTIME STORY
+   ======================================== */
+
+.story-card {
+  max-width: 600px;
+  margin: 0 auto calc(var(--x) * 3);
+  padding: calc(var(--x) * 1.5) calc(var(--x) * 2);
+  border-left: 3px solid var(--ochre);
+}
+
+.story-title {
+  font-family: var(--hero);
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: calc(var(--x) * 1.25);
+  color: var(--ink);
+}
+
+.story-text {
+  font-family: var(--narrative);
+  font-size: 1rem;
+  line-height: 1.85;
+  color: var(--ink);
+  white-space: pre-line;
+}
+
+.story-prompt {
+  font-family: var(--narrative);
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--ochre);
+  margin-top: calc(var(--x) * 1.5);
+  padding-top: calc(var(--x) * 0.75);
+  border-top: 0.5px solid var(--rule);
 }
 
 /* ========================================

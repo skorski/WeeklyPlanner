@@ -1,0 +1,87 @@
+{# --- SECTION DIVIDER: Daily Plan --- #}
+<div class="page page-divider">
+  <div class="divider-title">Daily Plan</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">{{ daily_plan_subtitle | default("Seven days of dinner, music, and good company") }}</div>
+  <div class="page-folio">3</div>
+</div>
+
+{# --- DAILY PAGES (two-page spread per day) --- #}
+{% for day in days %}
+{# Page 1: The Day — weather, date, engagements, narrative, dinner #}
+<div class="page page-day page-day-left">
+  <div class="page-header">Daily Plan</div>
+  {% if day.weather %}
+  <div class="weather-line">{{ weather_oneliner_print(day, days) }}</div>
+  {% endif %}
+  <h2 class="section-header">{{ day.long_name }}</h2>
+
+  {% if day.parsed_engagements %}
+  <div class="calendar-block">
+    {% for e in day.parsed_engagements %}
+    <div class="engagement-row">
+      <span class="engagement-time">{{ e.time }}</span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">{{ e.event }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if day.day_intro %}
+  <div class="day-intro">{{ day.day_intro }}</div>
+  {% endif %}
+
+  {% if day.dinner %}
+  <div class="dinner-block">
+    <div class="dinner-name">{{ day.dinner }}</div>
+    {% if day.dinner_cuisine %}<div class="cuisine-label">{{ day.dinner_cuisine }}</div>{% endif %}
+    {% if day.dinner_description %}<div class="dinner-desc">{{ day.dinner_description }}</div>{% endif %}
+    {% if day.dinner_key_ingredients %}
+    <div class="ingredients-line">{{ day.dinner_key_ingredients | join(", ") }}</div>
+    {% endif %}
+    {% if day.dinner_notes %}<div class="notes-line">{{ day.dinner_notes }}</div>{% endif %}
+  </div>
+  {% endif %}
+
+  {% if day.dinner_question %}
+  <div class="conversation-block">
+    <h4>At the Table</h4>
+    <div class="conversation-question">{{ day.dinner_question.question }}</div>
+    {% if day.dinner_question.why %}<div class="conversation-why">{{ day.dinner_question.why }}</div>{% endif %}
+  </div>
+  {% endif %}
+
+  <div class="page-folio">{{ 4 + (loop.index0 * 2) }}</div>
+</div>
+
+{# Page 2: The Evening — chef's tips + album gallery #}
+<div class="page page-day page-day-right">
+  <div class="page-header">{{ day.long_name }}</div>
+
+  {% if day.dinner_elevation_tips %}
+  <div class="elevation-block">
+    <h4>Chef's Tips</h4>
+    {% for tip in day.dinner_elevation_tips %}
+    <div class="elevation-tip">
+      <span class="tip-label">{{ tip.type }}</span> <strong>{{ tip.title }}</strong> — {{ tip.instruction }}
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if day.album %}
+  <div class="album-block">
+    <div class="album-anchor-rule"></div>
+    {% if day.album_artist %}<div class="album-artist">{{ day.album_artist }}</div>{% endif %}
+    <div class="album-title">{{ day.album_title | default(day.album) }}</div>
+    <div class="album-info">{{ day.album_year | default("") }} · {{ day.album_genre | default("") }} · {{ day.album_mood | default("") }}</div>
+    {% if day.album_description %}<div class="album-desc">{{ day.album_description }}</div>{% endif %}
+    {% if day.album_sonic_description %}<div class="album-sonic">{{ day.album_sonic_description }}</div>{% endif %}
+    {% if day.album_pairing_rationale %}<div class="album-why">{{ day.album_pairing_rationale }}</div>{% endif %}
+  </div>
+  {% endif %}
+
+  <div class="page-folio">{{ 5 + (loop.index0 * 2) }}</div>
+</div>
+{% endfor %}
