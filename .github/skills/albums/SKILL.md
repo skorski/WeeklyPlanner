@@ -122,6 +122,10 @@ default to "cozy dinner party" vibes for every search — dig deeper. Think
 about the person who's never heard Mulatu Astatke and the person who needs
 a new Radiohead-adjacent obsession. Serve them both.
 
+The family prefers albums that can be found on spotify.
+There are preferences that can be found in the favorites folder.
+This includes things they enjoy and would prefer not to hear.
+
 ### Step 3: Build Candidate JSON
 
 Create a temporary JSON file with the candidates. Each entry should have:
