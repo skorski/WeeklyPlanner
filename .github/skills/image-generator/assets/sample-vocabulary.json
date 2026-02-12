@@ -1,0 +1,34 @@
+{
+  "name": "Storybook Warmth",
+  "description": "A cozy, hand-illustrated aesthetic for children's book pages and weekly plan covers",
+  "colors": [
+    {"hex": "#F4E8C1", "name": "warm parchment"},
+    {"hex": "#A0522D", "name": "sienna brown"},
+    {"hex": "#5B8C5A", "name": "forest sage"},
+    {"hex": "#E8927C", "name": "soft coral"},
+    {"hex": "#3B5998", "name": "twilight blue"},
+    {"hex": "#F5DEB3", "name": "wheat gold"}
+  ],
+  "art_styles": [
+    "children's book illustration",
+    "hand-drawn with visible pencil lines",
+    "watercolor wash with ink outlines"
+  ],
+  "textures": [
+    "textured watercolor paper",
+    "soft graphite shading",
+    "gentle color bleeding at edges"
+  ],
+  "composition_rules": [
+    "center subject with breathing room",
+    "warm light source from upper left",
+    "foreground detail with soft-focus background",
+    "leave space for text overlay at top or bottom"
+  ],
+  "mood_descriptors": [
+    "cozy",
+    "curious",
+    "gently adventurous",
+    "warm and safe"
+  ]
+}
