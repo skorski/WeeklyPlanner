@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=127mm, initial-scale=1.0">
+<title>{{ title }}</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family={{ fonts.heading | replace(" ", "+") }}:wght@400;700&family={{ fonts.body | replace(" ", "+") }}:wght@400;600&display=swap');
+
+  :root {
+    --bg: {{ palette.bg | default('#FFF8F0') }};
+    --text: {{ palette.text | default('#2C2C2C') }};
+    --accent: {{ palette.accent | default('#E07A5F') }};
+    --secondary: {{ palette.secondary | default('#81B29A') }};
+    --font-heading: '{{ fonts.heading | default("Literata") }}', serif;
+    --font-body: '{{ fonts.body | default("Nunito Sans") }}', sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  @page {
+    size: 127mm 127mm;
+    margin: 0;
+  }
+
+  .page {
+    width: 127mm;
+    height: 127mm;
+    overflow: hidden;
+    page-break-after: always;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page:last-child {
+    page-break-after: avoid;
+  }
+
+  /* --- Page Number --- */
+  .page-number {
+    position: absolute;
+    bottom: 4mm;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: var(--font-body);
+    font-size: 8pt;
+    color: var(--text);
+    opacity: 0.5;
+  }
+
+  /* --- Cover Page --- */
+  .page-cover {
+    background: var(--bg);
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .page-cover .cover-image {
+    width: 90mm;
+    height: 90mm;
+    object-fit: cover;
+    border-radius: 6mm;
+    margin-bottom: 6mm;
+    box-shadow: 0 2mm 6mm rgba(0,0,0,0.15);
+  }
+
+  .page-cover .cover-title {
+    font-family: var(--font-heading);
+    font-size: 18pt;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.2;
+    padding: 0 10mm;
+  }
+
+  /* --- Spread: Image Page --- */
+  .page-image {
+    background: var(--bg);
+    padding: 5mm;
+  }
+
+  .page-image img {
+    width: 117mm;
+    height: 117mm;
+    object-fit: cover;
+    border-radius: 4mm;
+  }
+
+  /* --- Spread: Text Page --- */
+  .page-text {
+    background: var(--bg);
+    padding: 12mm 14mm;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .page-text .story-text {
+    font-family: var(--font-body);
+    font-size: 11pt;
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.65;
+    text-align: left;
+  }
+
+  /* --- Text-Only Page --- */
+  .page-text-only {
+    background: var(--bg);
+    padding: 14mm 16mm;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .page-text-only .story-text {
+    font-family: var(--font-body);
+    font-size: 11pt;
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.65;
+    text-align: center;
+  }
+
+  /* --- End Page --- */
+  .page-end {
+    background: var(--bg);
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .page-end .end-decoration {
+    font-size: 36pt;
+    margin-bottom: 6mm;
+  }
+
+  .page-end .end-text {
+    font-family: var(--font-heading);
+    font-size: 24pt;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .page-end .end-flourish {
+    margin-top: 8mm;
+    font-size: 14pt;
+    color: var(--secondary);
+    letter-spacing: 3pt;
+  }
+</style>
+</head>
+<body>
+{% set ns = namespace(page_num=1) %}
+{% for page in pages %}
+{% if page.type == 'cover' %}
+  <div class="page page-cover">
+    {% if page.image_uri %}
+    <img class="cover-image" src="{{ page.image_uri }}" alt="Cover illustration">
+    {% endif %}
+    <div class="cover-title">{{ page.title | default(title) }}</div>
+  </div>
+
+{% elif page.type == 'spread' %}
+  {# Image page #}
+  <div class="page page-image">
+    {% if page.image_uri %}
+    <img src="{{ page.image_uri }}" alt="Illustration">
+    {% endif %}
+    <div class="page-number">{{ ns.page_num }}</div>
+  </div>
+  {% set ns.page_num = ns.page_num + 1 %}
+  {# Text page #}
+  <div class="page page-text">
+    <div class="story-text">{{ page.text }}</div>
+    <div class="page-number">{{ ns.page_num }}</div>
+  </div>
+  {% set ns.page_num = ns.page_num + 1 %}
+
+{% elif page.type == 'text' %}
+  <div class="page page-text-only">
+    <div class="story-text">{{ page.text }}</div>
+    <div class="page-number">{{ ns.page_num }}</div>
+  </div>
+  {% set ns.page_num = ns.page_num + 1 %}
+
+{% elif page.type == 'end' %}
+  <div class="page page-end">
+    <div class="end-decoration">&#10047;</div>
+    <div class="end-text">The End</div>
+    <div class="end-flourish">&bull; &bull; &bull;</div>
+    <div class="page-number">{{ ns.page_num }}</div>
+  </div>
+  {% set ns.page_num = ns.page_num + 1 %}
+{% endif %}
+{% endfor %}
+</body>
+</html>

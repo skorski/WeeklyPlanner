@@ -45,6 +45,13 @@
           </div>
         </div>
       </div>
+
+      <!-- Children's Stories -->
+      <div v-if="storyCount > 0" class="stories-section">
+        <h3>Children's Stories</h3>
+        <p>{{ storyCount }} {{ storyCount === 1 ? 'story' : 'stories' }} available</p>
+        <router-link to="/stories" class="text-link">Browse Stories →</router-link>
+      </div>
     </template>
   </div>
 </template>
@@ -54,6 +61,7 @@ import { ref, computed, onMounted } from 'vue'
 
 const weeks = ref([])
 const loading = ref(true)
+const storyCount = ref(0)
 
 const latest = computed(() => weeks.value[0] || null)
 const archive = computed(() => weeks.value.slice(1))
@@ -64,8 +72,14 @@ onMounted(async () => {
     weeks.value = await res.json()
   } catch (e) {
     console.error('Failed to load plans index:', e)
-  } finally {
-    loading.value = false
   }
+  try {
+    const res = await fetch('/stories/index.json')
+    const stories = await res.json()
+    storyCount.value = stories.length
+  } catch (e) {
+    // stories index may not exist yet
+  }
+  loading.value = false
 })
 </script>
