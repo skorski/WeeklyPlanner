@@ -6,6 +6,9 @@
 .cache.sqlite
 __pycache__/
 
+# Python / uv
+.venv/
+
 # Node / Vite
 webapp/node_modules/
 webapp/dist/
