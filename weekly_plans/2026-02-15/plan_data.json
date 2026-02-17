@@ -1,0 +1,1594 @@
+{
+  "week_range": "February 15 - February 21, 2026",
+  "days": [
+    {
+      "name": "Sun 02/15",
+      "long_name": "Sunday, February 15",
+      "day_of_week": "sunday",
+      "weather": "Slight rain, 47F/34F",
+      "weather_detail": "Cloudy (5%), wind 6 mph, 99% precip, 0.37in rain",
+      "weather_high": 47,
+      "weather_low": 34,
+      "weather_condition": "RAIN",
+      "weather_emoji": "🌧️",
+      "weather_oneliner": "47°/34° · likely rain",
+      "calendar": "Travel - Albuquerque, NM",
+      "calendar_items": [
+        "Traveling in Albuquerque"
+      ],
+      "engagements": [
+        {
+          "time": "",
+          "event": "Traveling in Albuquerque",
+          "event_short": "Traveling in Albuquerque"
+        }
+      ],
+      "time_constraints": [
+        "In Albuquerque for family visit"
+      ],
+      "dinner": "Taco Salad at the Range",
+      "dinner_cuisine": "Southwestern",
+      "dinner_description": "The Range Cafe has been an Albuquerque institution since 1992, born in a converted gas station in Bernalillo. Their New Mexico taco salad arrives in a crispy tortilla bowl piled with black beans, guacamole, white cheddar, and your choice of protein — generous, colorful, and unmistakably Southwest.",
+      "dinner_key_ingredients": [
+        "ground beef",
+        "lettuce",
+        "tomato",
+        "cheese",
+        "tortilla bowl",
+        "salsa",
+        "sour cream"
+      ],
+      "dinner_source_url": "https://www.rangecafe.com",
+      "dinner_source_name": "The Range Cafe, ABQ",
+      "dinner_notes": "Eating out — no cooking needed. Save room; portions are famously large.",
+      "dinner_nutrition_notes": "Restaurant meal, enjoy without worry",
+      "album": "Khruangbin – A La Sala",
+      "album_artist": "Khruangbin",
+      "album_title": "A La Sala",
+      "album_year": "2024",
+      "album_genre": "Psychedelic Soul, Global Funk",
+      "album_mood": "Laid-back, groovy, hypnotic",
+      "album_description": "Khruangbin’s 2024 fourth album — “to the living room” in Spanish — is a homecoming record, self-produced by the Houston trio with no outside collaborators. Global psychedelia filtered through spaghetti-western guitar and unhurried dub grooves.",
+      "album_sonic_description": "Surf guitar, deep bass, sparse drums, global influences spanning Thai funk to Jamaican dub",
+      "album_pairing_rationale": "Desert-tinged grooves for a desert Sunday. Khruangbin’s spacious, unhurried sound mirrors the pace of a last vacation day.",
+      "album_spotify_url": "https://open.spotify.com/album/4w33OUMfBYMEMfuuSMg9hB",
+      "activity": "Family trip in Albuquerque - Sandia Mountains",
+      "activity_notes": "Last day in ABQ, enjoy the mountains and family time",
+      "prep_notes": [],
+      "dinner_elevation_tips": [],
+      "dinner_question": null,
+      "day_intro": "Light rain over the Sandias and 47°F — your last full day in Albuquerque. No cooking tonight; just soak up the mountains and let the Range Cafe handle dinner."
+    },
+    {
+      "name": "Mon 02/16",
+      "long_name": "Monday, February 16",
+      "day_of_week": "monday",
+      "weather": "Dense drizzle, 45F/32F",
+      "weather_detail": "Cloudy (11%), wind 8 mph, 45% precip",
+      "weather_high": 45,
+      "weather_low": 32,
+      "weather_condition": "DENSE DRIZZLE",
+      "weather_emoji": "🌤️",
+      "weather_oneliner": "45°/32° · coldest day, chance of rain",
+      "calendar": "Travel - Albuquerque, NM (Presidents' Day)",
+      "calendar_items": [
+        "Presidents' Day - Albuquerque"
+      ],
+      "engagements": [
+        {
+          "time": "",
+          "event": "Presidents' Day - Albuquerque",
+          "event_short": "Presidents' Day - Albuquerque"
+        }
+      ],
+      "time_constraints": [
+        "In Albuquerque"
+      ],
+      "dinner": "Birria Pizza at La Guelaguetza",
+      "dinner_cuisine": "Mexican-Oaxacan",
+      "dinner_description": "La Guelaguetza is run by the Salazar brothers from Oaxaca’s Mixteca region — named for the Zapotec festival of reciprocal giving. Their birria pizza is a two-pound feat of engineering: flour tortillas stuffed with slow-braised beef and melted cheese, cut into wedges and served with rich consommé for dipping.",
+      "dinner_key_ingredients": [
+        "birria",
+        "pizza dough",
+        "mozzarella",
+        "onion",
+        "cilantro",
+        "consommé"
+      ],
+      "dinner_source_url": "",
+      "dinner_source_name": "La Guelaguetza, ABQ",
+      "dinner_notes": "Eating out — no cooking needed. Order one birria pizza to share; it’s enormous.",
+      "dinner_nutrition_notes": "Restaurant meal, enjoy without worry",
+      "album": "Imarhan – Essam",
+      "album_artist": "Imarhan",
+      "album_title": "Essam",
+      "album_year": "2025",
+      "album_genre": "Tishoumaren, Desert Blues",
+      "album_mood": "Warm, entrancing, rhythmic",
+      "album_description": "Tuareg desert blues from southern Algeria. Imarhan blend hypnotic electric guitar patterns with Saharan rhythms and Tamashek lyrics — music forged in the same kind of arid, ancient landscape you’ve been exploring all weekend.",
+      "album_sonic_description": "Tishoumaren guitar, pentatonic melodies, polyrhythmic percussion, call-and-response vocals",
+      "album_pairing_rationale": "Desert blues meeting Oaxacan birria — two traditions from arid lands, connected by warmth and spice.",
+      "album_spotify_url": "",
+      "activity": "Last day in Albuquerque",
+      "activity_notes": "Presidents' Day - enjoy the last of the trip",
+      "prep_notes": [],
+      "dinner_elevation_tips": [],
+      "dinner_question": null,
+      "day_intro": "Presidents’ Day drizzle in ABQ, 45°F. One more Albuquerque meal before you head home — make it count with something you can’t get in Virginia."
+    },
+    {
+      "name": "Tue 02/17",
+      "long_name": "Tuesday, February 17",
+      "day_of_week": "tuesday",
+      "weather": "Fog, 50F/31F",
+      "weather_detail": "Cloudy (29%), wind 6 mph, 1% precip",
+      "weather_high": 50,
+      "weather_low": 31,
+      "weather_condition": "FOG",
+      "weather_emoji": "🌤️",
+      "weather_oneliner": "50°/31°",
+      "calendar": "Travel day - fly home to Dulles. On-call starts. Swim lessons.",
+      "calendar_items": [
+        "Travel day - ABQ to Dulles (arrive 11pm)",
+        "On-call IM rotation begins",
+        "Swim lessons (evening)",
+        "MDE Shiproom 10:10am",
+        "SCIP Livesite Review 12:10pm",
+        "On-Call Handoff 1:35pm"
+      ],
+      "engagements": [
+        {
+          "time": "",
+          "event": "Travel day - ABQ to Dulles (arrive 11pm)",
+          "event_short": "Travel day - ABQ to Dulles"
+        },
+        {
+          "time": "",
+          "event": "On-call IM rotation begins",
+          "event_short": "On-call IM rotation begins"
+        },
+        {
+          "time": "EVENING",
+          "event": "Swim lessons",
+          "event_short": "Swim lessons"
+        },
+        {
+          "time": "10:10AM",
+          "event": "MDE Shiproom",
+          "event_short": "MDE Shiproom"
+        },
+        {
+          "time": "12:10PM",
+          "event": "SCIP Livesite Review",
+          "event_short": "SCIP Livesite Review"
+        },
+        {
+          "time": "1:35PM",
+          "event": "On-Call Handoff",
+          "event_short": "On-Call Handoff"
+        }
+      ],
+      "time_constraints": [
+        "Travel day - flying home",
+        "Arrive late at 11pm",
+        "Swim lessons in evening"
+      ],
+      "dinner": "Airport food (travel day)",
+      "dinner_cuisine": "Various",
+      "dinner_description": "Airport food: whatever looks edible at the gate. Travel day means convenience over cuisine. You’ll be home by midnight.",
+      "dinner_key_ingredients": [],
+      "dinner_source_url": "",
+      "dinner_source_name": "Airport",
+      "dinner_notes": "Grab-and-go. Hydrate well — it’s been a dry-climate week.",
+      "dinner_nutrition_notes": "Airport meal - try to grab something with protein and vegetables",
+      "album": "Puma Blue – Croak Dream",
+      "album_artist": "Puma Blue",
+      "album_title": "Croak Dream",
+      "album_year": "2025",
+      "album_genre": "Trip-Hop, Alternative R&B",
+      "album_mood": "Nocturnal, hazy, melancholic",
+      "album_description": "London artist Jacob Allen recorded this album straight to tape at Peter Gabriel’s Real World Studios with producer Sam Petts-Davies (The Smile, Frank Ocean). Trip-hop, downtempo jazz, and spectral R&B blur into something nocturnal and intimate.",
+      "album_sonic_description": "Trip-hop beats, jazz guitar, baritone vocals, ambient textures",
+      "album_pairing_rationale": "Puma Blue’s foggy, late-night atmosphere is exactly right for airport haze and a midnight arrival.",
+      "album_spotify_url": "",
+      "activity": "Travel home from ABQ",
+      "activity_notes": "Long travel day, arrive late. First day of on-call rotation.",
+      "prep_notes": [
+        "Unpack and settle in after late arrival"
+      ],
+      "dinner_elevation_tips": [],
+      "dinner_question": null,
+      "day_intro": "The long haul home. Fog at 50°F, meetings stacked even on travel day, and an 11pm arrival at Dulles. On-call rotation starts now — keep it simple."
+    },
+    {
+      "name": "Wed 02/18",
+      "long_name": "Wednesday, February 18",
+      "day_of_week": "wednesday",
+      "weather": "Fog, 61F/42F",
+      "weather_detail": "Cloudy (0%), wind 12 mph gusts 29, 8% precip",
+      "weather_high": 61,
+      "weather_low": 42,
+      "weather_condition": "FOG",
+      "weather_emoji": "🌤️",
+      "weather_oneliner": "61°/42°",
+      "calendar": "First full day back. On-call. Talks & Taps 3-5pm. Happy Hour 4:30-6pm.",
+      "calendar_items": [
+        "Elsie early release - over to Secret Kristens house",
+        "Org structure meeting 11:10am",
+        "AI Agent Launchpad 12pm",
+        "Hot Dogs sync 12:40pm",
+        "Standup 1:35pm",
+        "Talks & Taps 3-5pm",
+        "Office Hours 4:10pm",
+        "MTP Happy Hour 4:30-6pm"
+      ],
+      "engagements": [
+        {
+          "label": "Elsie early release - over to Secret Kristens house"
+        },
+        {
+          "label": "Org structure meeting 11:10am"
+        },
+        {
+          "label": "AI Agent Launchpad 12pm"
+        },
+        {
+          "label": "Hot Dogs sync 12:40pm"
+        },
+        {
+          "label": "Standup 1:35pm"
+        },
+        {
+          "label": "Talks & Taps 3-5pm"
+        },
+        {
+          "label": "Office Hours 4:10pm"
+        },
+        {
+          "label": "MTP Happy Hour 4:30-6pm"
+        }
+      ],
+      "time_constraints": [
+        "Late dinner after happy hour events (after 6pm)",
+        "On-call as IM"
+      ],
+      "dinner": "Winter Kale Caesar with Roasted Chickpeas & Shaved Parmesan",
+      "dinner_cuisine": "American",
+      "dinner_description": "A dinner-sized reinvention of the Caesar: sturdy lacinato kale massaged until tender, topped with smoky roasted chickpeas, toasted sourdough crumbs, shaved Parmesan, soft-boiled egg, and bright pickled onion. The homemade Caesar dressing pulls it together.",
+      "dinner_key_ingredients": [
+        "lacinato kale",
+        "chickpeas",
+        "Parmesan",
+        "sourdough breadcrumbs",
+        "anchovy",
+        "lemon",
+        "garlic",
+        "olive oil",
+        "eggs",
+        "cherry tomatoes",
+        "red onion"
+      ],
+      "dinner_source_url": "https://www.bonappetit.com/recipe/lacinato-kale-caesar-salad",
+      "dinner_source_name": "Bon Appétit (adapted)",
+      "dinner_notes": "Roast chickpeas earlier in the day — they take 25 minutes and keep well. Assembly takes five minutes after happy hour.",
+      "dinner_nutrition_notes": "Excellent iron from kale, protein from chickpeas and egg, vitamin C from lemon",
+      "album": "NEIL FRANCES – There Is No Runaway",
+      "album_artist": "NEIL FRANCES",
+      "album_title": "There Is No Runaway",
+      "album_year": "2023",
+      "album_genre": "Indie-Soul / Electro-Funk",
+      "album_mood": "Bright, groovy, optimistic",
+      "album_description": "LA-based indie-soul duo NEIL FRANCES blend synth-funk bass, disco guitars, and warm vocals into something irresistibly groovy. If you love Franc Moody, this is your next obsession — catchy hooks over deep grooves with a sunny, optimistic heart.",
+      "album_sonic_description": "Angular guitars, warm synths, art-pop arrangements, ethereal vocals",
+      "album_pairing_rationale": "First real dinner home deserves an album that feels like a warm welcome. Bright, danceable grooves match the spring-like 61°F and the crisp freshness of the kale Caesar.",
+      "album_spotify_url": "",
+      "activity": "Settle back into routine",
+      "activity_notes": "First full day home. Unpack remaining bags, grocery run for the week.",
+      "prep_notes": [
+        "Roast chickpeas in the morning or afternoon",
+        "Massage kale ahead of time",
+        "Make Caesar dressing"
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "Technique",
+          "title": "Massage the Kale Like You Mean It",
+          "instruction": "Strip the Lacinato kale from its stems, slice into thin ribbons, then massage vigorously for two full minutes with a generous pinch of kosher salt and a thread of good olive oil. You'll feel the leaves soften and shrink by half — that's the cell walls breaking down, releasing bitterness and turning raw kale into something silky and sweet. Let it rest in the dressing for 10 minutes before plating so it drinks in every drop of that anchovy-lemon emulsion."
+        },
+        {
+          "type": "Texture",
+          "title": "Double-Roasted Chickpeas with Smoked Paprika",
+          "instruction": "Drain and pat canned chickpeas bone-dry with paper towels — moisture is the enemy of crunch. Toss with olive oil, smoked paprika, garlic powder, and a pinch of cayenne, then spread on a sheet pan in a single layer. Roast at 425°F for 25 minutes, shaking once at the halfway mark. They're done when they rattle on the pan and sound hollow when tapped. Let them cool completely on the pan before adding to the salad — residual steam softens them, and you did not go through all that for a soggy chickpea."
+        },
+        {
+          "type": "Sauce",
+          "title": "Anchovy-Forward Caesar with Whole Egg Emulsion",
+          "instruction": "Mince 4 oil-packed anchovy fillets into a paste with the flat of your knife, then whisk into a whole raw egg with two crushed garlic cloves, the juice of one lemon, a tablespoon of Dijon, and a generous shower of finely grated Parmigiano-Reggiano. Stream in olive oil slowly while whisking until you get a dressing thick enough to coat a spoon. The whole egg (not just yolk) gives you a lighter, more stable emulsion that clings to every kale ribbon without weighing it down. Taste it — it should be aggressively savory with a bright acid punch."
+        }
+      ],
+      "dinner_question": {
+        "day": "Wednesday",
+        "dinner": "Kale Caesar Salad",
+        "question": "If Caesar salad was invented by a real person named Caesar, what food would you invent and name after yourself? What would the 'Elsie Special' have in it?",
+        "category": "imagination",
+        "why": "Eight-year-olds are building a sense of identity and love the idea that they can leave a mark on the world. Naming a dish after herself invites creative thinking and a little pride — plus it makes kale feel less like a vegetable and more like a canvas."
+      },
+      "day_intro": "First real day home, and Elsie gets out of school early — she’ll be at Secret Kristen’s for the afternoon. Fog lingers but a surprise 61°F feels practically like spring. A happy hour caps the workday, so dinner needs to be fast, light, and ready when everyone’s back."
+    },
+    {
+      "name": "Thu 02/19",
+      "long_name": "Thursday, February 19",
+      "day_of_week": "thursday",
+      "weather": "Slight rain showers, 58F/45F",
+      "weather_detail": "Mostly Sunny (60%), wind 10 mph, 63% precip, 0.50in rain",
+      "weather_high": 58,
+      "weather_low": 45,
+      "weather_condition": "RAIN",
+      "weather_emoji": "🌧️",
+      "weather_oneliner": "58°/45° · likely rain",
+      "calendar": "On-call. Regular meetings.",
+      "calendar_items": [
+        "HOLD Demo Day dry run 10:35am",
+        "SkillUp AI 12pm",
+        "AI Pair Session 12:35pm",
+        "Standup + Drills 1:35pm",
+        "1:1 Dan/CJ 3:05pm"
+      ],
+      "engagements": [
+        {
+          "time": "10:35AM",
+          "event": "HOLD Demo Day dry run",
+          "event_short": "HOLD Demo Day dry run"
+        },
+        {
+          "time": "",
+          "event": "SkillUp AI 12pm",
+          "event_short": "SkillUp AI 12pm"
+        },
+        {
+          "time": "12:35PM",
+          "event": "AI Pair Session",
+          "event_short": "AI Pair Session"
+        },
+        {
+          "time": "1:35PM",
+          "event": "Standup + Drills",
+          "event_short": "Standup + Drills"
+        },
+        {
+          "time": "3:05PM",
+          "event": "1:1 Dan/CJ",
+          "event_short": "1:1 Dan/CJ"
+        }
+      ],
+      "time_constraints": [
+        "On-call as IM",
+        "Meetings end by 3:30pm - good cooking window"
+      ],
+      "dinner": "Pan-Seared Pork Chops with Mushroom Cream Sauce",
+      "dinner_cuisine": "French-American",
+      "dinner_description": "Thick bone-in pork chops seared golden in cast iron, finished in a velvety sauce of cremini and shiitake mushrooms, white wine, thyme, and cream. The kitchen smells like browning butter by 5pm.",
+      "dinner_key_ingredients": [
+        "bone-in pork chops",
+        "cremini mushrooms",
+        "shiitake mushrooms",
+        "heavy cream",
+        "white wine",
+        "garlic",
+        "thyme",
+        "butter",
+        "potatoes"
+      ],
+      "dinner_source_url": "https://www.bonappetit.com/recipe/pork-chops-with-mushroom-sauce",
+      "dinner_source_name": "Bon Appétit",
+      "dinner_notes": "Move chops to fridge Wednesday night. Pat dry before searing for the best crust.",
+      "dinner_nutrition_notes": "Good protein from pork, B vitamins from mushrooms. Add a green side for balance.",
+      "album": "Franc Moody – Chewing The Fat",
+      "album_artist": "Franc Moody",
+      "album_title": "Chewing The Fat",
+      "album_year": "2025",
+      "album_genre": "Funk, Disco, Neo-Soul",
+      "album_mood": "Peppy, danceable, infectious",
+      "album_description": "Partly recorded at Damon Albarn's Studio 13 with rare Russian synths. Bass-driven funk-disco with new grit — and they're playing 9:30 Club tonight.",
+      "album_sonic_description": "Thick bass, disco beats, falsetto vocals, funky guitar, synth flourishes",
+      "album_pairing_rationale": "It's Franc Moody day — their peppy energy powers you through cooking and primes you for the show.",
+      "album_spotify_url": "",
+      "activity": "Franc Moody @ 9:30 Club tonight!",
+      "activity_notes": "Consider catching the show if on-call allows!",
+      "prep_notes": [
+        "Thaw pork chops overnight (move from freezer Wed night)",
+        "Make mashed potatoes"
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "Technique",
+          "title": "Dry Brine and Reverse the Sear",
+          "instruction": "Season thick-cut, bone-in pork chops generously with kosher salt on all sides and set them uncovered on a wire rack in the refrigerator for at least 4 hours, ideally overnight. The salt draws moisture to the surface, which gets reabsorbed along with the seasoning — giving you deep flavor and a drier exterior that sears beautifully. When ready to cook, bring chops to room temperature for 30 minutes, then start them in a 275°F oven on a wire rack until they hit 120°F internal. Pull them, get your cast iron screaming hot with a film of canola oil, and sear 90 seconds per side. Rest tented in foil for 5 minutes. The result is edge-to-edge pink with a mahogany crust — no gray band of overcooked meat."
+        },
+        {
+          "type": "Sauce",
+          "title": "Cognac-Deglazed Mushroom Pan Sauce with Dijon Finish",
+          "instruction": "After searing the chops, lower heat to medium and add a tablespoon of butter. Toss in a mix of sliced cremini and torn maitake mushrooms (or whatever browns are at the store) and cook without moving them for 3 minutes — you want color, not steam. Add minced shallot and two cloves of garlic, cook 1 minute, then hit the pan with 2 tablespoons of cognac and let it flame off or reduce fully. Deglaze with a splash of dry white wine, scraping every bit of fond from the iron. Add 3/4 cup heavy cream, a teaspoon of Dijon mustard, and fresh thyme leaves. Simmer until it coats the back of a spoon. Finish off-heat by swirling in a cold tablespoon of butter for gloss. Pour any resting juices from the chops back into the sauce before spooning it over."
+        },
+        {
+          "type": "Temperature",
+          "title": "Chilled Herb-Crème Fraîche Dollop",
+          "instruction": "Mix 3 tablespoons of crème fraîche (or full-fat sour cream) with a teaspoon of lemon zest, minced chives, and cracked black pepper. Keep it cold in the fridge until plating. When you set the hot chop on the plate with the warm mushroom cream sauce, drop a cold spoonful of this right on top. The temperature contrast — hot cream sauce meeting cold, tangy crème fraîche — wakes up the palate and cuts through the richness. It melts slowly as you eat, creating a second wave of flavor."
+        }
+      ],
+      "dinner_question": {
+        "day": "Thursday",
+        "dinner": "Pork Chops",
+        "question": "When we were hiking in the Sandia Mountains, what was a moment where you felt really brave or really small? Both are okay.",
+        "category": "story-drawing",
+        "why": "Travel memories fade fast at this age unless someone helps her narrate them. This question gives Elsie permission to name a feeling — awe, fear, courage — and turns a family dinner into a shared story. Processing big landscapes helps build emotional vocabulary."
+      },
+      "day_intro": "Rain and 58°F, a full day of meetings, and then — Franc Moody at 9:30 Club tonight. Cook something rich and comforting before you head out."
+    },
+    {
+      "name": "Fri 02/20",
+      "long_name": "Friday, February 20",
+      "day_of_week": "friday",
+      "weather": "Slight rain showers, 64F/44F",
+      "weather_detail": "Mostly Cloudy (53%), wind 16 mph gusts 35, 70% precip, 0.20in rain",
+      "weather_high": 64,
+      "weather_low": 44,
+      "weather_condition": "RAIN",
+      "weather_emoji": "🌧️",
+      "weather_oneliner": "64°/44° · warmest day, gusty, likely rain",
+      "calendar": "On-call. Elsie YAT 4:30-6:00pm.",
+      "calendar_items": [
+        "Elsie YAT 4:30-6:00 PM",
+        "Kim Waters at Blues Alley (evening)"
+      ],
+      "engagements": [
+        {
+          "time": "4:30-6:00 PM",
+          "event": "Elsie YAT",
+          "event_short": "Elsie YAT"
+        },
+        {
+          "time": "EVENING",
+          "event": "Kim Waters at Blues Alley",
+          "event_short": "Kim Waters at Blues Alley"
+        }
+      ],
+      "time_constraints": [
+        "Elsie at YAT 4:30-6pm",
+        "Dinner ready by ~6:30pm",
+        "On-call as IM"
+      ],
+      "dinner": "Roasted Branzino with Cherry Tomatoes, Lemon & Capers",
+      "dinner_cuisine": "Mediterranean",
+      "dinner_description": "Whole branzino scored and stuffed with lemon slices, garlic, and fresh herbs, roasted at 425°F on a bed of burst cherry tomatoes and briny capers. A staple of Mediterranean coastal cooking — crispy skin, flaky flesh, and a bright lemon-caper sauce spooned over the top.",
+      "dinner_key_ingredients": [
+        "whole branzino",
+        "cherry tomatoes",
+        "lemon",
+        "capers",
+        "garlic",
+        "fresh dill",
+        "thyme",
+        "olive oil"
+      ],
+      "dinner_source_url": "https://www.themediterraneandish.com/roasted-branzino-recipe/",
+      "dinner_source_name": "The Mediterranean Dish",
+      "dinner_notes": "Prep and stuff the fish before YAT pickup. Pop in oven when home — 20 minutes at 425°F. Fast, elegant, impressive.",
+      "dinner_nutrition_notes": "Excellent omega-3s from branzino, vitamin C from tomatoes and lemon, healthy fats from olive oil",
+      "album": "Ichiko Aoba – Windswept Adan",
+      "album_artist": "Ichiko Aoba",
+      "album_title": "Windswept Adan",
+      "album_year": "2020",
+      "album_genre": "Japanese Folk, Ambient",
+      "album_mood": "Serene, contemplative, floating",
+      "album_description": "Ichiko Aoba’s seventh album is a soundtrack for an imaginary film — the story of a girl sent to an island with no spoken language, inspired by Aoba’s travels to Japan’s Ryukyu Islands. Orchestral folk-ambient with crystalline vocals and field recordings of wind and water.",
+      "album_sonic_description": "Fingerpicked classical guitar, layered vocals, ambient orchestration, field recordings",
+      "album_pairing_rationale": "Aoba’s oceanic folk is the perfect companion for whole roasted fish — both are delicate, beautiful, and reward your full attention.",
+      "album_spotify_url": "",
+      "activity": "Elsie YAT 4:30-6pm",
+      "activity_notes": "Kim Waters at Blues Alley this weekend if you want live jazz",
+      "prep_notes": [
+        "Buy fresh branzino (or order from fish counter)",
+        "Prep fish before YAT pickup",
+        "Score, stuff, and have pan ready — 20 min roast when home"
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "Technique",
+          "title": "Score, Stuff, and Pre-Sear the Skin",
+          "instruction": "Make 3 diagonal slashes on each side of the whole branzino, cutting down to the bone — this lets heat and seasoning penetrate evenly and prevents the skin from buckling. Stuff the cavity with thin lemon rounds, a few crushed garlic cloves, and sprigs of fresh thyme and flat-leaf parsley. Before roasting, get a stainless or cast-iron pan ripping hot with a thin layer of olive oil and sear the fish for 2 minutes per side until the skin is golden and blistered. Then transfer to a sheet pan surrounded by halved cherry tomatoes and roast at 425°F for 12-15 minutes. The pre-sear gives you restaurant-crispy skin that the oven alone can never achieve."
+        },
+        {
+          "type": "Sauce",
+          "title": "Warm Lemon-Caper Brown Butter",
+          "instruction": "In a small saucepan, melt 4 tablespoons of unsalted butter over medium heat, swirling constantly. Watch it like it owes you money — it goes from golden to burnt in seconds. When the milk solids turn hazelnut-brown and it smells nutty, immediately add 2 tablespoons of drained capers (they'll sputter and crisp in the hot fat), a minced garlic clove, and the juice of half a lemon. Swirl to combine and pull off heat. The capers fry in the brown butter and turn into crispy, salty little gems. Spoon this over the roasted fish right before serving — the warm brown butter pools into the scored flesh while the fried capers add pops of salt and crunch against the tender, flaky branzino."
+        },
+        {
+          "type": "Texture",
+          "title": "Blistered Tomatoes with Raw Fennel Shave",
+          "instruction": "Toss the cherry tomatoes with olive oil and a pinch of sugar before roasting alongside the fish — the sugar accelerates caramelization and concentrates their sweetness. Once plated, scatter paper-thin raw fennel shavings (use a mandoline or a sharp knife and patience) and a handful of torn fresh basil over the top. The contrast of jammy, blistered tomatoes against cool, crisp, anise-scented fennel gives the dish a dimension that cooked-on-cooked never achieves. Finish with flaky Maldon salt and a thread of your best olive oil."
+        }
+      ],
+      "dinner_question": {
+        "day": "Friday",
+        "dinner": "Branzino",
+        "question": "This fish lived in the sea before it came to our plate. If you could breathe underwater for one day, where would you swim and what do you think you'd find?",
+        "category": "imagination",
+        "why": "Branzino is an unfamiliar protein for most kids — linking it to an underwater adventure reframes it from 'weird fish' to a gateway for wonder. Hypothetical questions like this exercise perspective-taking and creative reasoning, both of which are blooming at age eight."
+      },
+      "day_intro": "Rain again at 64°F — the warmest day of the week. Elsie has YAT until 6pm, so prep the fish before pickup and roast it the moment you’re home. Twenty minutes, done."
+    },
+    {
+      "name": "Sat 02/21",
+      "long_name": "Saturday, February 21",
+      "day_of_week": "saturday",
+      "weather": "Overcast, 49F/40F",
+      "weather_detail": "Sunny (91%), wind 11 mph gusts 33, 19% precip",
+      "weather_high": 49,
+      "weather_low": 40,
+      "weather_condition": "OVERCAST",
+      "weather_emoji": "☁️",
+      "weather_oneliner": "49°/40° · gusty",
+      "calendar": "Weekend. Fresh sourdough day!",
+      "calendar_items": [
+        "Fresh sourdough bread day"
+      ],
+      "engagements": [
+        {
+          "time": "",
+          "event": "Fresh sourdough bread day",
+          "event_short": "Fresh sourdough bread day"
+        }
+      ],
+      "time_constraints": [],
+      "dinner": "Braised White Beans with Winter Greens & Sourdough Toast",
+      "dinner_cuisine": "Tuscan",
+      "dinner_description": "Cannellini beans braised low and slow with garlic, rosemary, and chili flakes until creamy, spooned over thick sourdough toast rubbed with raw garlic. Wilted lacinato kale, a shower of Parmesan, and good olive oil finish it. Tuscan cucina povera — peasant food elevated by the bread you baked this morning.",
+      "dinner_key_ingredients": [
+        "cannellini beans",
+        "lacinato kale",
+        "garlic",
+        "rosemary",
+        "chili flakes",
+        "olive oil",
+        "sourdough bread",
+        "lemon",
+        "Parmesan rind"
+      ],
+      "dinner_source_url": "https://www.food52.com/recipes/braised-white-beans",
+      "dinner_source_name": "Food52",
+      "dinner_notes": "The star is the sourdough. Thick slices, raw-garlic rub, toasted golden. Let the bread anchor everything.",
+      "dinner_nutrition_notes": "High fiber from beans and kale, plant protein, iron, vitamin K",
+      "album": "Ye Vagabonds – All Tied Together",
+      "album_artist": "Ye Vagabonds",
+      "album_title": "All Tied Together",
+      "album_year": "2025",
+      "album_genre": "Irish Folk",
+      "album_mood": "Warm, communal, rootsy",
+      "album_description": "Irish brothers Brián and Diarmuid Mac Gloinn recorded this album in a house in Galway with producer Philip Weinrobe. Swirling folk harmonies, fiddle, and atmospheric arrangements — the most decorated act at the RTÉ Radio 1 Folk Awards.",
+      "album_sonic_description": "Close harmonies, acoustic guitar, fiddle, bodhrán, stripped-back arrangements",
+      "album_pairing_rationale": "Rustic Irish folk for a rustic Tuscan dinner. Both traditions celebrate simplicity, community, and the warmth of bread on the table.",
+      "album_spotify_url": "",
+      "activity": "Bake and enjoy fresh sourdough bread",
+      "activity_notes": "Relaxed Saturday. Good day to bake, read, and rest.",
+      "prep_notes": [
+        "Sourdough should be ready for baking",
+        "Soak beans overnight Friday if using dried"
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "Technique",
+          "title": "Smash Half, Leave Half Whole",
+          "instruction": "Once the cannellini beans are warmed through and tender, take a fork and crush roughly half of them against the side of the pot. This releases their starch into the braising liquid and creates a creamy, almost risotto-like body while the remaining whole beans give you pops of texture. This is the difference between a bowl of beans and a Tuscan braise — it should be lush enough to coat the back of a spoon without adding a drop of cream. Stir in a Parmigiano-Reggiano rind during the braise if you have one — it melts slowly and adds a savory depth that tastes like patience."
+        },
+        {
+          "type": "Sauce",
+          "title": "Garlic-Chili Oil and Lemon Zest Finish",
+          "instruction": "In a small skillet, warm 3 tablespoons of good olive oil over low heat with 3 thinly sliced garlic cloves and a fat pinch of red pepper flakes. Cook slowly — you're not frying, you're infusing. When the garlic is pale gold and the oil smells dangerous, pull it off heat and stir in a teaspoon of fresh lemon zest. Spoon this over each bowl right before serving. The warm, spicy, fragrant oil hitting the creamy beans creates an aromatic burst that elevates simple legumes into something you'd pay eighteen dollars for at a farm-to-table spot in Florence."
+        },
+        {
+          "type": "Texture",
+          "title": "Sourdough Grilled on Cast Iron with Garlic Rub",
+          "instruction": "Do not put sourdough in a toaster. Slice it thick — three-quarter inch — brush both sides with olive oil, and press it into a screaming hot cast-iron pan until it's charred in spots and crackling, about 2 minutes per side. While it's still hot, rub a halved raw garlic clove across the surface — the rough toast acts like a grater, and the garlic melts right into the bread. The char gives a smoky bitterness that plays against the creamy, mellow beans. Lean the toast against the side of the bowl at an angle so it stays crisp above the broth line and soaks from the bottom up as you eat."
+        }
+      ],
+      "dinner_question": {
+        "day": "Saturday",
+        "dinner": "White Beans",
+        "question": "Beans are one of the oldest foods humans have ever eaten — people were cooking them thousands of years ago. If you could travel back in time and have dinner with any family from history, who would you pick and what do you think they'd serve?",
+        "category": "values",
+        "why": "At eight, kids are beginning to grasp historical time and find it thrilling. This question connects a humble ingredient to a bigger story about human connection across centuries, and it quietly reinforces that family meals have always mattered."
+      },
+      "day_intro": "Overcast and 49°F. The week exhales. No calendar, no rush — just fresh sourdough in the oven and a slow Saturday at home."
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Whipped Ricotta Crostini with Honey & Walnuts",
+      "cuisine": "Italian",
+      "description": "Creamy whipped ricotta on toasted sourdough crostini, drizzled with honey, scattered with toasted walnuts and cracked black pepper.",
+      "key_ingredients": [
+        "ricotta",
+        "sourdough bread",
+        "honey",
+        "walnuts",
+        "black pepper"
+      ]
+    },
+    {
+      "name": "Roasted Sweet Potato Rounds with Goat Cheese & Pecans",
+      "cuisine": "American",
+      "description": "Roasted sweet potato coins topped with tangy goat cheese, toasted pecans, dried cranberries, and honey.",
+      "key_ingredients": [
+        "sweet potatoes",
+        "goat cheese",
+        "pecans",
+        "dried cranberries",
+        "honey"
+      ]
+    }
+  ],
+  "salads": [
+    {
+      "name": "Winter Citrus & Radicchio Salad",
+      "salad_type": "composed_dinner",
+      "description": "Blood orange and cara cara segments with shaved radicchio, burrata, pistachios, and Castelvetrano olives. Blood orange vinaigrette.",
+      "dressing": "Blood orange vinaigrette: fresh blood orange juice, champagne vinegar, Dijon mustard, EVOO, minced shallot, flaky salt",
+      "flavor_rationale": "Bitter radicchio tamed by sweet citrus and creamy burrata. Italian amaro-dolce-grasso balance."
+    },
+    {
+      "name": "Warm Farro & Roasted Root Vegetable Salad",
+      "salad_type": "tossed_dinner",
+      "description": "Chewy farro with roasted beets, carrots, parsnips, goat cheese, and hazelnuts in warm sherry vinaigrette.",
+      "dressing": "Warm sherry vinaigrette: sherry vinegar, Dijon, minced shallot, EVOO, honey, fresh thyme",
+      "flavor_rationale": "Earthy roots, nutty farro, tangy goat cheese, and bright vinaigrette. Hearty winter sustenance."
+    },
+    {
+      "name": "Shaved Brussels Sprout Slaw with Apple & Pecorino",
+      "salad_type": "side",
+      "description": "Paper-thin Brussels sprouts with Honeycrisp apple matchsticks, Pecorino, and toasted pecans.",
+      "dressing": "Lemon-Dijon: fresh lemon juice, Dijon mustard, honey, EVOO, apple cider vinegar",
+      "flavor_rationale": "Brussels bitterness balanced by sweet apple and honey. Pecorino adds umami, pecans add crunch."
+    },
+    {
+      "name": "Roasted Beet & Pomegranate Salad with Labneh",
+      "salad_type": "side",
+      "description": "Golden and red beets with pomegranate seeds, labneh, walnuts, and mint.",
+      "dressing": "Pomegranate-za'atar vinaigrette: pomegranate molasses, red wine vinegar, za'atar, EVOO, Aleppo pepper",
+      "flavor_rationale": "Sweet beets + tart pomegranate + tangy labneh. Middle Eastern sweet-tart-creamy-aromatic balance."
+    }
+  ],
+  "beverages": [
+    {
+      "name": "Malbec (Mendoza, Argentina)",
+      "description": "Full-bodied red with dark fruit, plum, and chocolate. Perfect for pork chops and rich dishes.",
+      "why": "Complements the mushroom cream sauce on Thursday and pairs with the week's heartier meals."
+    },
+    {
+      "name": "Sancerre (Loire Valley, France)",
+      "description": "Crisp, mineral-driven Sauvignon Blanc with citrus and white peach. The ideal white for branzino.",
+      "why": "Classic pairing with whole roasted fish. The acidity mirrors the lemon and capers."
+    },
+    {
+      "name": "Yuzu Ginger Sparkling Mocktail",
+      "description": "Sparkling water with fresh yuzu juice, grated ginger, honey, and mint. Refreshing and alcohol-free.",
+      "why": "Non-alcoholic option for on-call nights and kid-friendly. Pairs with the kale Caesar."
+    }
+  ],
+  "grocery_list": {
+    "Produce": [
+      "lacinato kale (2 bunches)",
+      "cherry tomatoes (2 pints)",
+      "lemons (4)",
+      "garlic (2 heads)",
+      "fresh dill",
+      "fresh thyme",
+      "fresh rosemary",
+      "sweet potatoes (2)",
+      "Honeycrisp apple (1)",
+      "Brussels sprouts (1 lb)",
+      "red onion (1)",
+      "shallots (3)",
+      "golden beets (2)",
+      "red beets (2)",
+      "blood oranges (3)",
+      "radicchio (1 head)",
+      "pomegranate (1)",
+      "fresh mint"
+    ],
+    "Protein": [
+      "whole branzino (2 fish)",
+      "bone-in pork chops (4, from freezer)"
+    ],
+    "Dairy": [
+      "heavy cream (1 pint)",
+      "Parmesan wedge",
+      "Pecorino Romano wedge",
+      "goat cheese (4 oz)",
+      "burrata (1 ball)",
+      "ricotta (8 oz)",
+      "labneh (6 oz)",
+      "butter (1 lb)",
+      "eggs (6)"
+    ],
+    "Pantry": [
+      "cannellini beans (2 cans or 1 lb dried)",
+      "chickpeas (2 cans)",
+      "capers (1 jar)",
+      "Castelvetrano olives",
+      "pistachios",
+      "walnuts",
+      "pecans",
+      "hazelnuts",
+      "dried cranberries",
+      "pearled farro",
+      "sourdough bread (fresh Saturday)",
+      "olive oil (EVOO)",
+      "champagne vinegar",
+      "sherry vinegar",
+      "apple cider vinegar",
+      "red wine vinegar",
+      "pomegranate molasses",
+      "za'atar",
+      "Aleppo pepper",
+      "chili flakes",
+      "Dijon mustard",
+      "honey",
+      "anchovy paste"
+    ],
+    "Wine & Beverages": [
+      "Malbec (Mendoza)",
+      "Sancerre",
+      "yuzu juice",
+      "fresh ginger",
+      "sparkling water"
+    ],
+    "Mushrooms": [
+      "cremini mushrooms (8 oz)",
+      "shiitake mushrooms (8 oz)"
+    ]
+  },
+  "prep_ahead": [
+    "Tuesday night: Move pork chops from freezer to fridge to thaw",
+    "Wednesday morning: Roast chickpeas for the kale Caesar, make Caesar dressing",
+    "Wednesday evening: Massage kale, pickle red onions",
+    "Thursday afternoon: Prep mashed potatoes, slice mushrooms",
+    "Friday before YAT pickup: Score and stuff branzino, prep cherry tomato pan",
+    "Friday night: Soak cannellini beans for Saturday (if using dried)",
+    "Saturday morning: Begin sourdough bake"
+  ],
+  "notes": [
+    "Dan is on-call as Incident Manager Tuesday through Tuesday — keep weeknight dinners manageable",
+    "Swim lessons Tuesday evening, Elsie YAT 4:30-6:00 Friday",
+    "Franc Moody playing 9:30 Club Thursday Feb 19 — consider going!",
+    "Kim Waters at Blues Alley Feb 20-22 for live jazz",
+    "Fresh sourdough bread on Saturday is the culinary anchor of the week's end",
+    "This week traces an arc from wide-open Southwest skies to the warm glow of your own kitchen. Let the travel days be easy on yourselves — the real cooking begins Wednesday, and each dinner builds toward Saturday’s slow, bread-scented finish.",
+    "The music follows the same path: global psychedelia and desert blues give way to art-pop, funk, and fireside folk. By Saturday, the albums are as cozy as the food."
+  ],
+  "generated_at": "2026-02-17 12:19",
+  "daily_plan_subtitle": "From Southwestern to Tuscan, with Khruangbin on the stereo",
+  "parenting_data": {
+    "week_range": "February 15 - February 21, 2026",
+    "weekly_theme": {
+      "title": "Coming Home to Each Other",
+      "description": "You just stepped off a plane from Albuquerque, and everything feels a little tilted — the suitcases aren't unpacked, the fridge is half-empty, and the rhythms of regular life haven't clicked back into place yet. This week isn't about catching up. It's about landing — not just in your house, but in each other. Elsie experienced something big out there: new landscapes, new altitude, the vastness of the Sandia Mountains. She's carrying impressions she may not have words for yet. Give her space to process, and give yourselves permission to ease back in slowly. The trip memories are still warm. Use them."
+    },
+    "dinner_questions": [
+      {
+        "day": "Wednesday",
+        "dinner": "Kale Caesar Salad",
+        "question": "If Caesar salad was invented by a real person named Caesar, what food would you invent and name after yourself? What would the 'Elsie Special' have in it?",
+        "category": "imagination",
+        "why": "Eight-year-olds are building a sense of identity and love the idea that they can leave a mark on the world. Naming a dish after herself invites creative thinking and a little pride — plus it makes kale feel less like a vegetable and more like a canvas."
+      },
+      {
+        "day": "Thursday",
+        "dinner": "Pork Chops",
+        "question": "When we were hiking in the Sandia Mountains, what was a moment where you felt really brave or really small? Both are okay.",
+        "category": "story-drawing",
+        "why": "Travel memories fade fast at this age unless someone helps her narrate them. This question gives Elsie permission to name a feeling — awe, fear, courage — and turns a family dinner into a shared story. Processing big landscapes helps build emotional vocabulary."
+      },
+      {
+        "day": "Friday",
+        "dinner": "Branzino",
+        "question": "This fish lived in the sea before it came to our plate. If you could breathe underwater for one day, where would you swim and what do you think you'd find?",
+        "category": "imagination",
+        "why": "Branzino is an unfamiliar protein for most kids — linking it to an underwater adventure reframes it from 'weird fish' to a gateway for wonder. Hypothetical questions like this exercise perspective-taking and creative reasoning, both of which are blooming at age eight."
+      },
+      {
+        "day": "Saturday",
+        "dinner": "White Beans",
+        "question": "Beans are one of the oldest foods humans have ever eaten — people were cooking them thousands of years ago. If you could travel back in time and have dinner with any family from history, who would you pick and what do you think they'd serve?",
+        "category": "values",
+        "why": "At eight, kids are beginning to grasp historical time and find it thrilling. This question connects a humble ingredient to a bigger story about human connection across centuries, and it quietly reinforces that family meals have always mattered."
+      }
+    ],
+    "nudges": [
+      {
+        "title": "The Albuquerque Scrapbook Jar",
+        "context": "Elsie just had a big travel experience and the memories are vivid now, but they'll blur within weeks. Meanwhile, Dan is on-call this week, which means his attention will be split. A small, self-directed project gives Elsie a way to process the trip even when Dad can't be fully present.",
+        "suggestion": "Set out a mason jar and some scrap paper. Each evening, anyone in the family can write or draw one memory from the Albuquerque trip and drop it in. On Sunday, read them all together.",
+        "how_to": [
+          "Put a jar, torn paper scraps, and a pen on the kitchen counter — visible, not hidden in a craft bin",
+          "Model it first: write your own memory and drop it in while Elsie is watching, no fanfare needed",
+          "On Sunday evening, dump the jar out and take turns reading each other's memories aloud"
+        ]
+      },
+      {
+        "title": "The On-Call Check-In",
+        "context": "Dan is on incident-manager rotation Tuesday through the following Tuesday. When a parent is on-call, kids sense the divided attention even if they can't name it. Elsie may interpret Dad's distraction as disinterest.",
+        "suggestion": "At the start of the week, tell Elsie honestly: 'Dad has a special work job this week where people might call him if something breaks. If I look at my phone a lot, it's not because I don't want to be with you — it's because I'm helping fix something.' Then create a small signal she can use when she really needs your attention — a hand on your arm, a sticky note, a code word.",
+        "how_to": [
+          "Have a 2-minute conversation explaining on-call in concrete terms she can picture — 'like being the school nurse but for computers'",
+          "Let her choose the signal — giving her ownership of the solution builds agency",
+          "When she uses the signal, honor it immediately, even if it's just to say 'Give me 90 seconds and I'm yours'"
+        ]
+      },
+      {
+        "title": "The Friday Handoff",
+        "context": "Friday is packed — YAT runs 4:30–6pm, and branzino is on the menu. After a long activity block, Elsie will come home wired and hungry. The transition from high-energy group time to a sit-down family dinner can be rocky.",
+        "suggestion": "Build a 10-minute decompression window between YAT pickup and dinner. In the car or at home, don't ask about the activity right away. Instead, put on a song she loves and let her just exist for a few minutes. Dinner conversation will be richer if she's had time to land.",
+        "how_to": [
+          "Queue up a playlist or let her pick one song for the drive home — music is a reset button at this age",
+          "Resist the urge to ask 'How was YAT?' immediately — let her volunteer what she wants to share",
+          "If she's quiet, that's fine. Say 'I'm glad you're here' and leave space"
+        ]
+      }
+    ],
+    "recommendation": {
+      "type": "activity",
+      "title": "Postcard Letters Home",
+      "author": null,
+      "why": "Buy two blank postcards (or make them from cardstock). Elsie writes one to herself describing her favorite moment from Albuquerque, and one to a grandparent or friend describing something she saw. The act of writing to different audiences — herself vs. someone else — exercises perspective-taking and helps her realize that her experiences are worth sharing. It also extends the trip's emotional life by a few more days.",
+      "connection": "Ties directly to this week's theme of 'Coming Home to Each Other' — the postcards arrive later, turning a past trip into a future surprise. It also gives Elsie something meaningful to do on evenings when Dan is fielding on-call pages."
+    },
+    "parent_reflection": "Think about the moment on the trip when Elsie was most herself — not performing, not reacting to you, just being. Maybe she was staring out a window at the mountains, or laughing at something only she found funny, or quietly arranging rocks in a pattern. That version of her is the one that's growing fastest right now. This week, as you settle back into routines and Dan juggles on-call, try to notice one moment like that at home. She doesn't need you to see everything — but being seen in those unguarded moments is how she learns that who she really is, is enough."
+  },
+  "nutrition_summary": "This week’s menu splits neatly in two: indulgent Albuquerque dining through Tuesday, then a beautifully balanced run of home-cooked meals. Protein is a strength — eight distinct sources from birria beef to Friday’s omega-3-rich branzino — and the kale on Wednesday and Saturday delivers serious vitamin K and iron. The early-week restaurant sodium naturally washes out as lighter meals take over. Calcium gets a boost from Parmesan, yogurt snacks, and all that kale, while Saturday’s bean night is a fiber powerhouse. Pair the recommended lunches (grain bowls, lentil stew) and fruit-forward snacks with these dinners, and the family lands at a solid A– for the week. Real food, real pleasure, nothing to stress about.",
+  "nutrition_data": {
+    "family": {
+      "members": [
+        {
+          "name": "Dan",
+          "age_range": "Adult man",
+          "activity_level": "Active",
+          "calorie_target": "2,400-2,800 kcal",
+          "focus_nutrients": [
+            "protein",
+            "potassium",
+            "magnesium"
+          ]
+        },
+        {
+          "name": "Laura",
+          "age_range": "Adult woman",
+          "activity_level": "Active",
+          "calorie_target": "2,000-2,200 kcal",
+          "focus_nutrients": [
+            "iron",
+            "calcium",
+            "folate",
+            "fiber"
+          ]
+        },
+        {
+          "name": "Elsie",
+          "age_range": "8-year-old girl",
+          "activity_level": "Active",
+          "calorie_target": "1,600-2,000 kcal",
+          "focus_nutrients": [
+            "calcium",
+            "vitamin D",
+            "iron",
+            "fiber"
+          ]
+        }
+      ]
+    },
+    "dinners": [
+      {
+        "day": "Sunday",
+        "name": "Taco Salad at the Range (ABQ)",
+        "calories_per_serving": "~650-750 kcal (restaurant portion with tortilla bowl)",
+        "protein_source": "Ground beef",
+        "protein_level": "high",
+        "vegetable_content": "moderate",
+        "whole_grains": false,
+        "key_nutrients": [
+          "protein",
+          "iron",
+          "zinc",
+          "B12",
+          "calcium (cheese)",
+          "vitamin C (tomato/salsa)",
+          "fiber (lettuce, beans if included)"
+        ],
+        "concerns": [
+          "High sodium from restaurant seasoning and cheese",
+          "Fried tortilla bowl adds significant calories and refined carbs",
+          "Saturated fat from ground beef and cheese"
+        ],
+        "overall_rating": "moderate"
+      },
+      {
+        "day": "Monday",
+        "name": "Birria Pizza at La Guelaguetza (ABQ)",
+        "calories_per_serving": "~550-650 kcal (2-3 slices)",
+        "protein_source": "Birria beef",
+        "protein_level": "high",
+        "vegetable_content": "minimal",
+        "whole_grains": false,
+        "key_nutrients": [
+          "protein",
+          "iron",
+          "zinc",
+          "B12",
+          "calcium (mozzarella)"
+        ],
+        "concerns": [
+          "High sodium from braised beef and cheese",
+          "Very low vegetable content",
+          "Saturated fat from beef and mozzarella",
+          "Refined carbs from pizza crust",
+          "Consommé dipping adds more sodium"
+        ],
+        "overall_rating": "moderate"
+      },
+      {
+        "day": "Tuesday",
+        "name": "Airport Food (Travel Day)",
+        "calories_per_serving": "~500-700 kcal (grab-and-go variable)",
+        "protein_source": "Variable (sandwich meat, cheese)",
+        "protein_level": "moderate",
+        "vegetable_content": "minimal",
+        "whole_grains": false,
+        "key_nutrients": [
+          "variable — depends on choices"
+        ],
+        "concerns": [
+          "High sodium is almost guaranteed with airport food",
+          "Likely high in refined carbs and low in vegetables",
+          "Limited fiber and micronutrient variety",
+          "Unpredictable nutritional quality"
+        ],
+        "overall_rating": "poor"
+      },
+      {
+        "day": "Wednesday",
+        "name": "Winter Kale Caesar with Roasted Chickpeas & Shaved Parmesan",
+        "calories_per_serving": "~400-450 kcal",
+        "protein_source": "Chickpeas, Parmesan, eggs",
+        "protein_level": "moderate",
+        "vegetable_content": "abundant",
+        "whole_grains": false,
+        "key_nutrients": [
+          "vitamin K",
+          "vitamin A",
+          "vitamin C",
+          "calcium (kale + Parmesan)",
+          "iron",
+          "folate",
+          "fiber",
+          "plant protein",
+          "magnesium"
+        ],
+        "concerns": [
+          "Lower total protein than meat-based dinners — adults may want a protein boost at lunch",
+          "Caesar dressing adds saturated fat if traditional recipe used"
+        ],
+        "overall_rating": "excellent"
+      },
+      {
+        "day": "Thursday",
+        "name": "Pan-Seared Pork Chops with Mushroom Cream Sauce & Mashed Potatoes",
+        "calories_per_serving": "~550-650 kcal",
+        "protein_source": "Bone-in pork chops",
+        "protein_level": "high",
+        "vegetable_content": "minimal",
+        "whole_grains": false,
+        "key_nutrients": [
+          "protein",
+          "thiamin (B1)",
+          "niacin (B3)",
+          "B6",
+          "phosphorus",
+          "selenium",
+          "zinc",
+          "potassium (potatoes)",
+          "vitamin D (mushrooms)"
+        ],
+        "concerns": [
+          "Heavy cream sauce adds saturated fat",
+          "Mashed potatoes with butter are calorie-dense",
+          "Very few vegetables — mushrooms are the only plant in the main dish",
+          "Could benefit from a side salad or steamed vegetable"
+        ],
+        "overall_rating": "moderate"
+      },
+      {
+        "day": "Friday",
+        "name": "Roasted Branzino with Cherry Tomatoes, Lemon & Capers",
+        "calories_per_serving": "~300-350 kcal",
+        "protein_source": "Branzino (European sea bass)",
+        "protein_level": "high",
+        "vegetable_content": "moderate",
+        "whole_grains": false,
+        "key_nutrients": [
+          "omega-3 fatty acids",
+          "vitamin D",
+          "B12",
+          "selenium",
+          "phosphorus",
+          "vitamin C (tomatoes, lemon)",
+          "lycopene"
+        ],
+        "concerns": [
+          "Light on calories — active family members may need a starchy side or bread",
+          "Capers add some sodium, though modest"
+        ],
+        "overall_rating": "excellent"
+      },
+      {
+        "day": "Saturday",
+        "name": "Braised White Beans with Winter Greens & Sourdough Toast",
+        "calories_per_serving": "~350-420 kcal",
+        "protein_source": "Cannellini beans",
+        "protein_level": "moderate",
+        "vegetable_content": "abundant",
+        "whole_grains": false,
+        "key_nutrients": [
+          "fiber",
+          "plant protein",
+          "iron",
+          "folate",
+          "potassium",
+          "magnesium",
+          "vitamin K",
+          "vitamin A",
+          "calcium (kale + Parmesan rind)"
+        ],
+        "concerns": [
+          "Lower total protein than meat-based dinners",
+          "Sourdough is refined, not whole grain",
+          "May need a protein supplement for the active husband"
+        ],
+        "overall_rating": "excellent"
+      }
+    ],
+    "weekly_assessment": {
+      "protein_diversity": {
+        "sources_found": [
+          "ground beef",
+          "birria beef",
+          "chickpeas",
+          "pork",
+          "branzino",
+          "cannellini beans",
+          "Parmesan",
+          "eggs"
+        ],
+        "rating": "good",
+        "notes": "Eight distinct protein sources spanning red meat, pork, fish, legumes, dairy, and eggs — that is genuinely impressive variety for one week. Beef appears twice (Sunday and Monday) but as very different preparations. The back half of the week beautifully alternates between animal and plant-based proteins. One easy win: add a handful of nuts or seeds to lunches to round out amino acid profiles on the plant-based dinner nights."
+      },
+      "vegetable_coverage": {
+        "servings_per_dinner_avg": 1.6,
+        "color_diversity": [
+          "dark greens (kale)",
+          "red/orange (tomatoes)",
+          "white/tan (mushrooms, beans, onion)"
+        ],
+        "rating": "moderate",
+        "notes": "Wednesday, Friday, and Saturday pull real weight with kale, tomatoes, and greens. But Sunday through Tuesday and Thursday are light on vegetables. The restaurant and travel stretch at the start of the week is the main gap — totally understandable when you're in Albuquerque enjoying the food scene. Lunches mid-week should lean green to compensate."
+      },
+      "nutrient_gaps": [
+        {
+          "nutrient": "Fruit",
+          "severity": "high",
+          "detail": "Zero fruit appears in any dinner this week. Lunches and snacks must carry the entire fruit load — aim for 2-3 servings daily through the rest of the day."
+        },
+        {
+          "nutrient": "Calcium",
+          "severity": "moderate",
+          "detail": "Cheese and Parmesan appear several times but in modest amounts. Kale contributes some, but the family — especially Elsie and Laura — would benefit from dedicated calcium-rich lunches and snacks (yogurt, milk, fortified foods)."
+        },
+        {
+          "nutrient": "Vitamin D",
+          "severity": "moderate",
+          "detail": "Branzino on Friday and mushrooms on Thursday provide some vitamin D, but February sunlight is limited. A daily supplement (600-1000 IU) is worth considering for all three family members."
+        },
+        {
+          "nutrient": "Whole grains",
+          "severity": "moderate",
+          "detail": "Not a single dinner includes whole grains this week. Sourdough is delicious but refined. Work whole grains into lunches — brown rice bowls, whole wheat wraps, or oatmeal for breakfast."
+        },
+        {
+          "nutrient": "Fiber",
+          "severity": "mild",
+          "detail": "Wednesday and Saturday dinners are fiber powerhouses (chickpeas, beans, kale), but the first half of the week is quite low. Daily target is 25-35g for adults, 25g for Elsie. Lunches need to contribute."
+        }
+      ],
+      "excesses": [
+        {
+          "item": "Sodium",
+          "severity": "moderate",
+          "detail": "Three restaurant/travel meals in a row (Sunday-Tuesday) likely push sodium well above the 2,300mg daily limit. Home-cooked meals Wednesday-Saturday help reset, but keep lunch sodium low during the travel stretch."
+        },
+        {
+          "item": "Saturated fat",
+          "severity": "mild",
+          "detail": "Beef twice, heavy cream sauce Thursday, cheese in multiple dishes. Not alarming for one week — this is winter comfort food territory. Balance with lighter, olive-oil-forward lunches."
+        },
+        {
+          "item": "Refined carbohydrates",
+          "severity": "mild",
+          "detail": "Tortilla bowl, pizza crust, sourdough bread, mashed potatoes — no whole grains offset these. The body handles this fine, but swapping to whole grain bread at lunch would be a smart move."
+        }
+      ],
+      "fiber_assessment": {
+        "rating": "moderate",
+        "notes": "The week has a split personality on fiber. Sunday through Thursday averages maybe 4-6g per dinner. Then Wednesday's chickpeas and kale deliver 10-12g, and Saturday's beans and greens hit 13-15g. To smooth this out, prioritize fiber-rich lunches — hummus wraps, bean soups, or grain bowls — especially early in the week."
+      },
+      "omega3_assessment": {
+        "rating": "good",
+        "notes": "Branzino on Friday is a fantastic omega-3 source. One fish dinner per week meets the American Heart Association's recommendation. To lock in even more, add walnuts or flaxseed to morning oatmeal or snacks."
+      },
+      "overall_dinner_grade": "B",
+      "overall_summary": "This is a genuinely fun week of eating — Albuquerque restaurants to kick things off, a travel day, then a beautiful progression of home-cooked meals that gets progressively lighter and more plant-forward. The protein diversity is a real strength, with eight distinct sources including fish and two legume-based dinners. The main opportunities are in the first half of the week, where restaurant and travel meals bring higher sodium and lower vegetable content (completely normal for a trip). Fruit is absent from all dinners, whole grains don't make an appearance, and calcium could use a boost — but all three of these are easily addressed through smart lunches and snacks. The back half of the week is nutritionally excellent, especially Wednesday's kale Caesar and Saturday's braised beans."
+    },
+    "recommended_lunches": [
+      {
+        "name": "Mediterranean Grain Bowl with Hummus & Veggies",
+        "description": "Quinoa or farro base topped with hummus, cucumber, cherry tomatoes, red bell pepper, kalamata olives, feta cheese, and a lemon-olive oil drizzle. Pack the dressing separately if taking to school or work.",
+        "prep_time": "15 min (or batch-prep grains on Sunday)",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "whole grains",
+          "vegetables",
+          "fiber",
+          "calcium"
+        ],
+        "key_nutrients": [
+          "fiber",
+          "plant protein",
+          "calcium (feta)",
+          "vitamin C",
+          "folate",
+          "magnesium",
+          "iron"
+        ],
+        "kid_notes": "Elsie can pick her favorite veggies — even just cucumber and tomatoes with hummus and grains is a great combo. Add a few pita chips for crunch."
+      },
+      {
+        "name": "Turkey & Avocado Whole Wheat Wrap",
+        "description": "Sliced turkey breast, avocado, spinach, shredded carrots, and a smear of cream cheese in a whole wheat tortilla. Slice into pinwheels for easy packing.",
+        "prep_time": "10 min",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "whole grains",
+          "vegetables",
+          "healthy fats"
+        ],
+        "key_nutrients": [
+          "protein",
+          "fiber",
+          "vitamin A",
+          "vitamin K",
+          "potassium",
+          "monounsaturated fats",
+          "folate"
+        ],
+        "kid_notes": "Pinwheel slices are easier for kids to handle. If Elsie isn't an avocado fan, swap for hummus — still gets the healthy fats from olive oil in the hummus."
+      },
+      {
+        "name": "Black Bean & Sweet Potato Soup (Thermos-Ready)",
+        "description": "A warming soup made with black beans, roasted sweet potato, cumin, lime, and a dollop of Greek yogurt. Makes a great batch-cook meal for the week — just reheat and pour into a thermos.",
+        "prep_time": "25 min (batch cook, then 2 min to reheat)",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "fiber",
+          "vegetables",
+          "potassium",
+          "iron"
+        ],
+        "key_nutrients": [
+          "fiber",
+          "iron",
+          "potassium",
+          "vitamin A",
+          "plant protein",
+          "folate",
+          "magnesium",
+          "calcium (yogurt topping)"
+        ],
+        "kid_notes": "Blend it smoother for kids who don't love chunky soup. The sweet potato makes it naturally sweet, which most kids enjoy. Serve with a few tortilla chips for dipping."
+      },
+      {
+        "name": "Caprese Pasta Salad with Whole Grain Penne",
+        "description": "Whole grain penne tossed with fresh mozzarella balls, halved cherry tomatoes, fresh basil, and a balsamic-olive oil dressing. Tastes great cold — perfect for a packed lunch.",
+        "prep_time": "15 min",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "whole grains",
+          "calcium",
+          "vegetables"
+        ],
+        "key_nutrients": [
+          "calcium",
+          "protein",
+          "lycopene",
+          "fiber",
+          "vitamin C",
+          "B vitamins"
+        ],
+        "kid_notes": "Kids love pasta — this is a nutritional upgrade over plain noodles that most school-age kids will happily eat. The mozzarella balls are fun to eat."
+      },
+      {
+        "name": "Chicken Salad Lettuce Cups with Grapes",
+        "description": "Classic chicken salad (rotisserie chicken, Greek yogurt instead of mayo, celery, a touch of Dijon, salt and pepper) served in butter lettuce cups with halved red grapes mixed in.",
+        "prep_time": "10 min (using rotisserie chicken)",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "protein",
+          "fruit",
+          "calcium"
+        ],
+        "key_nutrients": [
+          "protein",
+          "calcium (yogurt)",
+          "vitamin K",
+          "vitamin C (grapes)",
+          "potassium",
+          "probiotics"
+        ],
+        "kid_notes": "Pack the lettuce cups and chicken salad separately so they stay crisp. Elsie can eat the chicken salad with crackers if lettuce cups aren't her thing."
+      },
+      {
+        "name": "Peanut Butter & Banana Whole Wheat Sandwich with Honey Drizzle",
+        "description": "Natural peanut butter and sliced banana on whole wheat bread with a light drizzle of honey. Simple, filling, and universally loved.",
+        "prep_time": "5 min",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "whole grains",
+          "fruit",
+          "healthy fats",
+          "magnesium"
+        ],
+        "key_nutrients": [
+          "fiber",
+          "magnesium",
+          "potassium",
+          "protein",
+          "healthy fats",
+          "vitamin B6",
+          "manganese"
+        ],
+        "kid_notes": "A lunchbox classic for a reason — Elsie will eat this happily. The banana adds potassium and natural sweetness that makes whole wheat bread more appealing."
+      },
+      {
+        "name": "Lentil & Vegetable Stew with Crusty Bread",
+        "description": "Red lentils simmered with carrots, celery, onion, garlic, cumin, and a squeeze of lemon. Hearty, warming, and incredibly nutrient-dense. Great for batch-cooking on the weekend.",
+        "prep_time": "25 min (batch cook, then 2 min to reheat)",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "fiber",
+          "iron",
+          "folate",
+          "vegetables"
+        ],
+        "key_nutrients": [
+          "iron",
+          "folate",
+          "fiber",
+          "plant protein",
+          "vitamin A",
+          "potassium",
+          "magnesium",
+          "zinc"
+        ],
+        "kid_notes": "Red lentils break down into a smooth, thick stew that's easier for kids than whole lentils. The mild cumin flavor works well for most children. Serve with bread for dipping."
+      }
+    ],
+    "recommended_snacks": [
+      {
+        "name": "Greek Yogurt Parfait with Berries & Granola",
+        "description": "Plain Greek yogurt layered with mixed berries (blueberries, strawberries, raspberries) and a sprinkle of granola. Add a drizzle of honey for sweetness.",
+        "prep_time": "3 min",
+        "time_of_day": "morning",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "calcium",
+          "fruit",
+          "vitamin D (if fortified yogurt)",
+          "probiotics"
+        ],
+        "key_nutrients": [
+          "calcium",
+          "protein",
+          "vitamin C",
+          "antioxidants",
+          "probiotics",
+          "fiber (berries)",
+          "vitamin D"
+        ]
+      },
+      {
+        "name": "Apple Slices with Almond Butter",
+        "description": "A medium apple, sliced, with 2 tablespoons of almond butter for dipping. Zero cooking, maximum satisfaction.",
+        "prep_time": "2 min",
+        "time_of_day": "afternoon",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "fruit",
+          "healthy fats",
+          "magnesium",
+          "fiber"
+        ],
+        "key_nutrients": [
+          "fiber",
+          "vitamin C",
+          "vitamin E",
+          "magnesium",
+          "healthy fats",
+          "potassium"
+        ]
+      },
+      {
+        "name": "Cheese & Whole Grain Crackers with Clementines",
+        "description": "A few slices of cheddar or Gouda cheese with whole grain crackers and 2 clementines. Easy to pack, no prep beyond slicing cheese.",
+        "prep_time": "2 min",
+        "time_of_day": "afternoon",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "calcium",
+          "whole grains",
+          "fruit",
+          "vitamin C"
+        ],
+        "key_nutrients": [
+          "calcium",
+          "protein",
+          "vitamin C",
+          "fiber",
+          "phosphorus",
+          "vitamin A"
+        ]
+      },
+      {
+        "name": "Trail Mix with Walnuts, Dark Chocolate & Dried Cranberries",
+        "description": "A small handful (~1/4 cup) of walnuts, dark chocolate chips, dried cranberries, and pumpkin seeds. Make a big batch on Sunday and portion into snack bags for the week.",
+        "prep_time": "0 min (pre-portioned)",
+        "time_of_day": "afternoon",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "omega-3 (walnuts)",
+          "magnesium",
+          "healthy fats",
+          "iron (pumpkin seeds)"
+        ],
+        "key_nutrients": [
+          "omega-3 fatty acids",
+          "magnesium",
+          "iron",
+          "zinc",
+          "antioxidants",
+          "fiber",
+          "healthy fats"
+        ]
+      },
+      {
+        "name": "Carrot & Celery Sticks with Hummus",
+        "description": "Pre-cut carrot and celery sticks with a small container of hummus. The ultimate zero-thought, high-nutrition snack.",
+        "prep_time": "3 min (or 0 min with pre-cut veggies)",
+        "time_of_day": "afternoon",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "vegetables",
+          "fiber",
+          "vitamin A"
+        ],
+        "key_nutrients": [
+          "vitamin A",
+          "fiber",
+          "plant protein",
+          "iron",
+          "folate",
+          "potassium"
+        ]
+      },
+      {
+        "name": "Banana with a Glass of Milk",
+        "description": "One banana and an 8 oz glass of whole milk (or fortified plant milk). The simplest snack in the world, and one of the most nutritionally complete.",
+        "prep_time": "0 min",
+        "time_of_day": "morning",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "fruit",
+          "calcium",
+          "vitamin D",
+          "potassium"
+        ],
+        "key_nutrients": [
+          "potassium",
+          "calcium",
+          "vitamin D",
+          "vitamin B6",
+          "magnesium",
+          "protein"
+        ]
+      },
+      {
+        "name": "Hard-Boiled Eggs with Everything Bagel Seasoning",
+        "description": "Two hard-boiled eggs sprinkled with everything bagel seasoning. Batch-boil a dozen on Sunday for easy grab-and-go protein all week.",
+        "prep_time": "0 min (pre-boiled)",
+        "time_of_day": "morning",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "protein",
+          "vitamin D",
+          "B12",
+          "choline"
+        ],
+        "key_nutrients": [
+          "protein",
+          "vitamin D",
+          "B12",
+          "choline",
+          "selenium",
+          "riboflavin",
+          "vitamin A"
+        ]
+      }
+    ],
+    "weekly_nutrition_summary": "### How Dinners, Lunches & Snacks Come Together\n\nThis week's dinner menu tells a story of two halves — an adventurous Albuquerque trip packed with bold, indulgent flavors, followed by a beautifully balanced stretch of home-cooked meals. By pairing the right lunches and snacks with these dinners, the family can hit their nutritional targets comfortably without sacrificing enjoyment.\n\n### Macronutrient Balance\n\n**Protein** is the strongest suit of this week's dinners. Ground beef, birria, pork chops, branzino, chickpeas, and cannellini beans deliver a remarkable eight distinct protein sources. Protein is essential for muscle repair and growth — critical for Dan's active lifestyle — and for Elsie's rapid development. The amino acid variety from mixing animal and plant sources ensures the family gets the full spectrum of essential amino acids.\n\n**Carbohydrates** lean heavily refined this week (tortilla bowl, pizza crust, sourdough, mashed potatoes), which is why the lunch recommendations emphasize whole grains like quinoa, farro, and whole wheat. Complex carbohydrates provide sustained energy, feed beneficial gut bacteria through their fiber content, and help maintain stable blood sugar levels throughout the day — especially important for Elsie's focus at school.\n\n**Healthy fats** get a boost from Friday's branzino (omega-3s) and the olive oil used in several home-cooked dinners. The snack recommendations add walnuts and almond butter to further diversify fat sources. Omega-3 fatty acids are anti-inflammatory, support brain development in children, and contribute to cardiovascular health in adults.\n\n### Key Vitamins and Why They Matter\n\n**Vitamin A** (from kale, carrots in lunches, sweet potatoes): Essential for vision, immune function, and skin health. Kale on Wednesday and Saturday provides generous amounts, and the carrot-heavy snacks and lunches fill in the rest of the week. For Elsie, vitamin A supports healthy growth and immune defense against school-season germs.\n\n**Vitamin C** (from tomatoes, lemon, bell peppers, berries, clementines): A powerful antioxidant that helps the body absorb iron — particularly important for Laura and Elsie, who need extra iron. The lemon in Friday's branzino and Wednesday's Caesar, plus the fruit-forward snacks, keep vitamin C flowing all week. It also supports collagen production for healthy skin, joints, and wound healing.\n\n**Vitamin D** (from branzino, mushrooms, eggs, fortified dairy): The \"sunshine vitamin\" is tough to get in February, making dietary sources crucial. Branzino and mushrooms provide some, and the recommended yogurt parfaits and milk add more. Vitamin D is essential for calcium absorption (making it doubly important for bone health), immune function, and mood regulation — all three family members benefit, but Elsie's growing bones make this especially critical.\n\n**Vitamin K** (from kale, spinach, leafy greens): Abundant on Wednesday and Saturday when kale takes center stage. Vitamin K is essential for blood clotting and bone metabolism. It works synergistically with calcium and vitamin D to build strong bones — a trio that's particularly important for Elsie's skeletal development and Laura's long-term bone density.\n\n**B Vitamins** (B1/thiamin from pork, B3/niacin from meat and fish, B6 from potatoes and bananas, B12 from beef and fish, folate from beans and kale): This week covers the B-vitamin spectrum beautifully. B vitamins are the engine of energy metabolism — they help convert food into usable energy. Folate is especially important for Laura (cell division and red blood cell formation) and is abundant in Wednesday's and Saturday's legume-and-greens dinners.\n\n### Key Minerals and Why They Matter\n\n**Calcium** (from Parmesan, mozzarella, kale, yogurt, milk, feta): Dinners provide moderate calcium through cheese and kale, but the real calcium boost comes from the snack recommendations — Greek yogurt parfaits, cheese with crackers, and milk. Calcium builds and maintains strong bones and teeth, supports muscle contraction, and aids nerve signaling. Elsie needs 1,000-1,300mg daily for her growing skeleton, and Laura needs 1,000mg to maintain bone density. The combination of dairy-forward snacks and kale-rich dinners should get everyone close to target.\n\n**Iron** (from beef, pork, beans, chickpeas, kale, lentils, pumpkin seeds): Iron is well-represented this week, with both heme iron (from meat, which is more easily absorbed) and non-heme iron (from plants). Iron carries oxygen in the blood and supports energy production. Laura and Elsie have higher iron needs — Laura due to menstruation, Elsie due to growth. The vitamin C in tomatoes, lemon, and berries enhances iron absorption from plant sources, making Wednesday's and Saturday's dinners particularly efficient.\n\n**Potassium** (from potatoes, beans, bananas, kale, tomatoes): Thursday's mashed potatoes and Saturday's beans are potassium stars, and the banana snacks fill in gaps. Potassium regulates fluid balance, muscle contractions, and nerve signals. It also helps counteract sodium's effect on blood pressure — important this week given the sodium-heavy restaurant meals early on. Dan, as an active adult, needs potassium for muscle recovery.\n\n**Magnesium** (from beans, chickpeas, kale, nuts, whole grains): Wednesday and Saturday dinners plus the nut-based snacks and whole grain lunches cover magnesium well. Magnesium supports over 300 enzyme reactions in the body, including energy production, muscle and nerve function, and blood sugar regulation. It's a key recovery mineral for active people and helps with sleep quality — beneficial for the whole family.\n\n**Zinc** (from beef, pork, beans, pumpkin seeds): Well-covered by this week's protein variety. Zinc supports immune function, wound healing, and cell division. It's especially important for Elsie's growth and immune resilience during the school year.\n\n**Selenium** (from branzino, pork, eggs): Friday's fish and Thursday's pork provide excellent selenium. This trace mineral acts as a powerful antioxidant, supports thyroid function, and boosts immune defense.\n\n**Phosphorus** (from meat, fish, beans, dairy): Present in nearly every dinner this week. Phosphorus works with calcium to build strong bones and teeth, and plays a role in how the body uses carbohydrates and fats.\n\n### Fiber: The Unsung Hero\n\nThe dinner menu averages about 7-8g of fiber per meal — ranging from nearly zero on travel/restaurant days to 13-15g on Saturday's bean night. The daily target is 25-35g for adults and 25g for Elsie. The recommended lunches (lentil stew, grain bowls, bean soup) and fiber-rich snacks (apples, berries, hummus with veggies) are designed to push daily totals into the healthy range. Fiber feeds beneficial gut bacteria, promotes digestive regularity, helps maintain healthy cholesterol levels, and provides sustained energy by slowing sugar absorption.\n\n### The Bottom Line\n\nWith the recommended lunches and snacks supplementing this dinner menu, the family moves from a \"B\" to a solid \"A-\" nutritional week. Calcium coverage improves from moderate to strong, fiber from inconsistent to adequate, fruit intake from absent to 2-3 daily servings, and whole grain representation from zero to regular. The early-week sodium spike from restaurant dining is naturally offset by the lighter home-cooked meals that follow. This is a week of real food, eaten with real pleasure — exactly as it should be.",
+    "special_notes": [
+      "February in Virginia means limited sunlight — consider a daily vitamin D supplement (600 IU for Elsie, 1,000 IU for Dan and Laura) to complement dietary sources.",
+      "The Albuquerque restaurant days (Sunday-Monday) will likely be high in sodium. Balance with extra water and lower-sodium choices at lunch on those days.",
+      "Tuesday's travel day is the hardest to control nutritionally. If possible, grab a yogurt and fruit at the airport rather than a heavy sandwich — this helps calcium and fruit intake on an otherwise nutritionally unpredictable day.",
+      "Elsie's iron needs are elevated during growth spurts. The combination of iron-fortified cereal at breakfast plus the iron-rich dinners (beef, beans, kale) this week should cover her well, but watch for signs of fatigue.",
+      "Dan's higher calorie needs (2,400-2,800 kcal) mean he may want larger lunch portions or an extra snack on plant-based dinner nights (Wednesday, Saturday) when dinner calories are lower.",
+      "Laura's folate needs are well-served by Wednesday's and Saturday's chickpea and bean dinners — these are among the best natural folate sources available.",
+      "The branzino on Friday is a nutritional highlight of the week — omega-3s, vitamin D, selenium, and lean protein in one beautiful dish. Consider making fish a weekly tradition."
+    ]
+  },
+  "newsletter_data": {
+    "newsletter_title": "The Weekly Read",
+    "week_range": "February 8 – February 14, 2026",
+    "clusters": [
+      {
+        "theme": "Places That Can't Hold Their People",
+        "synthesis": "Two seemingly unrelated stories this week circled the same quiet crisis: what happens when a place stops being somewhere people want to stay? New Mexico — the fifth-largest state by area, home to crimson sunsets and a cultural lineage older than the republic — is losing residents for the first time since the pandemic. Nearly 19,000 educated professionals have fled since 2010, chasing opportunity in Denver, Austin, and other boom towns. Meanwhile, the U.S. House passed the most significant federal housing legislation in a decade with a near-unanimous 390-9 vote, finally acknowledging what millions of families already know: there aren't enough homes, and the ones that exist cost too much. Here's the tension nobody is naming: New Mexico's median home price has surged 59% since 2019 while its population shrinks. Housing is simultaneously unaffordable *and* unable to attract newcomers. The Housing for the 21st Century Act promises to cut red tape and modernize HUD programs, but it's designed for places bursting at the seams — the Austins and Phoenixes gobbling up New Mexico's departing talent. A recent Harvard Kennedy School analysis argues that New Mexico's brain drain won't reverse until the state builds economic ecosystems that give young professionals a reason to unpack their boxes. Free college tuition through the Opportunity Scholarship is a start, but enchantment alone doesn't pay the mortgage. When 390 members of Congress agree on anything, it's worth pausing to ask: who does this actually help? And who gets left behind in the Land of Enchantment?",
+        "articles": [
+          {
+            "title": "New Mexico Population Changes",
+            "url": "https://gemini.google.com/app/e7533afd0e20d1b9",
+            "tags": [],
+            "one_liner": "The fifth-largest state can't stop hemorrhaging its best and brightest — and geography, water, and a 50th-ranked education system explain why."
+          },
+          {
+            "title": "House passes sweeping bipartisan housing package",
+            "url": "https://thehill.com/homenews/house/5730206-house-passes-bipartisan-housing-package/",
+            "tags": [],
+            "one_liner": "A 390-9 vote that proves housing affordability is the rare issue that can make French Hill and Maxine Waters agree."
+          }
+        ]
+      },
+      {
+        "theme": "The USB-C Moment for AI",
+        "synthesis": "Every transformative technology eventually gets its boring-but-essential standardization moment — the point where the wild frontier yields to interoperability. This week, WebMCP landed in Chrome 146 Canary, and if you squint past the acronym soup, you'll see what might be the most consequential web standard since HTTPS. Right now, AI agents navigate websites the way a tourist navigates Tokyo without Google Translate: screenshot everything, pray the model can identify a button, burn thousands of tokens on what a human does in two clicks. WebMCP proposes something radical in its simplicity — let websites just *tell* agents what they can do. Two APIs, one standard, and suddenly a single structured function call replaces dozens of fragile browser interactions. Google's Khushal Sagar calls it the \"USB-C of AI agent interactions,\" and the metaphor is apt: nobody gets excited about a cable standard, but everyone benefits when their devices just work. What's most interesting isn't the technology — it's the philosophical choice buried in the spec. WebMCP is explicitly *not* for headless, autonomous agents. It's designed for the browser, where a human is watching, collaborating, guiding. In an industry racing toward full autonomy, Google and Microsoft jointly shipped a standard that says: actually, the human should stay in the loop. Early benchmarks suggest up to 89% fewer tokens consumed per interaction. But the deeper question lingers: if we make it trivially easy for AI to interact with every website, have we built a better tool — or have we just made it cheaper to replace the browsing we used to do ourselves?",
+        "articles": [
+          {
+            "title": "Vercel Security Checkpoint",
+            "url": "https://venturebeat.com/infrastructure/google-chrome-ships-webmcp-in-early-preview-turning-every-website-into-a",
+            "tags": [],
+            "one_liner": "Chrome 146 ships the web standard that could turn every website into an API for AI agents — and deliberately keeps humans in the driver's seat."
+          }
+        ]
+      }
+    ],
+    "reflections": "This week's reading orbited a single idea: the tension between systems designed for people and systems designed to scale. New Mexico is a place engineered by geography and history for a certain kind of life — and it's watching its people leave for places optimized for growth. Congress is building housing policy for booming metros while quieter places hollow out. And the web is being re-architected so that AI agents can navigate it efficiently — but only, the authors insist, with a human still at the helm. Everywhere you look, the same question: when we optimize a system, who are we optimizing it for?",
+    "fun_section": {
+      "title": "And Finally…",
+      "content": "Octopuses have three hearts — but two of them stop beating every time they swim. The effort of pushing their boneless bodies through water is so taxing that the two hearts responsible for pumping blood to their gills simply give up until the octopus stops to rest. This is why octopuses prefer crawling along the ocean floor to swimming: it's literally less heartbreaking. Scientists believe this cardiac quirk also explains why octopuses tire so easily — imagine running a marathon while two-thirds of your circulatory system takes a nap. Next time you feel exhausted on a Monday morning, just remember: at least all your hearts are working.",
+      "source_url": "https://www.classpop.com/magazine/fun-facts-for-kids",
+      "source_name": "Classpop"
+    },
+    "total_articles": 3,
+    "total_words": 2743,
+    "generated_at": "2026-02-17T17:30:00Z"
+  },
+  "stoic_data": {
+    "week_range": "February 15 - February 21, 2026",
+    "theme": {
+      "title": "The Art of Reentry",
+      "category": "Transitions & Duty",
+      "description": "This week explores the Stoic discipline of returning—to home, to routine, to responsibility. After the expansiveness of travel in the Sandia Mountains, the family settles back into the rhythm of daily life while Dan takes on the weight of on-call duty. The Stoics remind us that peace is not a place we visit; it is a practice we carry. Whether standing atop a mountain or answering a midnight page, tranquility belongs to the prepared mind."
+    },
+    "anchor_quote": {
+      "text": "Nothing, to my way of thinking, is a better proof of a well-ordered mind than a man's ability to stop just where he is and pass some time in his own company.",
+      "source": "Seneca",
+      "work": "Letters from a Stoic",
+      "reference": "Letter 2"
+    },
+    "introduction": "You spent last week among the high desert and granite peaks of the Sandias. Now the altitude drops, the suitcases open, and ordinary life reassembles itself—school lunches, work queues, the familiar creak of your own front door. Meanwhile Dan steps into the on-call rotation, carrying the quiet vigilance of an incident manager who must be ready at any hour. The Stoics would see nothing contradictory here. Marcus Aurelius governed an empire and still rose each morning reminding himself that the work ahead was a human being's work. Seneca traveled widely and yet insisted that the real journey was always inward. This week, we practice the art of reentry: finding depth in the return, steadiness under duty, and gratitude in the meals and moments that make a home.",
+    "meditations": [
+      {
+        "day": "Wednesday",
+        "title": "Settling the Mind After Motion",
+        "reflection": "The bags are unpacked, the travel laundry is running, and the house smells like home again. But the mind may still be in motion—replaying mountain vistas, calculating time zones, wondering if you forgot something. Seneca warned that changing your sky does not change your soul. The real unpacking is internal: letting go of the restlessness that travel stirs and choosing to be fully present in the room you are standing in. Tonight's Kale Caesar salad is simple, grounding—leaves and bread and the honest work of your own kitchen. Let the meal anchor you.",
+        "prompt": "What is one thing from the trip that you want to carry forward into daily life—not as nostalgia, but as a practice?",
+        "secondary_quote": {
+          "text": "If you really want to escape the things that harass you, what you're needing is not to be in a different place but to be a different person.",
+          "source": "Seneca, Letters from a Stoic, Letter 104"
+        }
+      },
+      {
+        "day": "Thursday",
+        "title": "The Vigilant Mind",
+        "reflection": "Dan is now two days into on-call. The phone could ring at any moment with an incident that demands calm, clear thinking. Marcus Aurelius faced a version of this every day as emperor—the constant readiness for problems not of his making. He wrote that it does not matter whether you are cold or warm, sleepy or rested, praised or criticized; what matters is that you are doing your proper duty. On-call is not a burden to resent but a role to inhabit fully. The pork chops tonight are hearty, sustaining—fuel for someone who must stay sharp. Eat well, rest when you can, and trust that you are equal to whatever comes.",
+        "prompt": "When has being 'on call' in any area of your life—parenting, work, friendship—actually revealed a strength you didn't know you had?",
+        "secondary_quote": {
+          "text": "At the break of day, when you are reluctant to get up, have this thought ready: 'I am getting up for a man's work.'",
+          "source": "Marcus Aurelius, Meditations, Book 5, Section 1"
+        }
+      },
+      {
+        "day": "Friday",
+        "title": "Welcoming What Arrives",
+        "reflection": "The fog lifts. Friday brings warmth—sixty-four degrees in February, an unexpected gift. Epictetus taught that we suffer not from events themselves but from our judgments about them. The reverse is also true: we can find joy not by demanding particular outcomes but by welcoming what arrives. Tonight's branzino is a fish of the Mediterranean, the very sea the Stoics knew. Its preparation asks for restraint—a little oil, some lemon, high heat, and trust. The best things, in cooking and in life, come from not overhandling them.",
+        "prompt": "What is something that arrived in your life uninvited but turned out to be exactly what you needed?",
+        "secondary_quote": {
+          "text": "Don't hope that events will turn out the way you want; welcome events in whichever way they happen: this is the path to peace.",
+          "source": "Epictetus, Enchiridion, Section 8"
+        }
+      },
+      {
+        "day": "Saturday",
+        "title": "The Ordinary as Sacred",
+        "reflection": "Snow is forecast for tomorrow, and today sits in the hinge between the warming trend and the coming cold. Saturdays have their own quiet philosophy: the week's urgency fades, and what remains is the texture of home life. White beans simmering with garlic, a loaf of sourdough torn by hand—these are not lesser experiences than standing on a mountain. Marcus Aurelius reminded himself to see the crack in a loaf of bread as beautiful, to find in everyday things a 'fitness and appeal.' The Stoic does not need grandeur. Home, routine, a warm meal shared—this is the life worth living, right here.",
+        "prompt": "Look around your home today. What ordinary object or routine do you take for granted that actually holds deep meaning for your family?",
+        "secondary_quote": {
+          "text": "Begin at once to live, and count each separate day as a separate life.",
+          "source": "Seneca, Letters from a Stoic, Letter 101"
+        }
+      }
+    ],
+    "family_exercise": {
+      "title": "The Reentry Ritual",
+      "description": "On Wednesday evening after dinner, gather as a family. Each person shares one thing they are glad to come home to and one thing from the trip they want to remember. Then together, choose one small change to make at home this week—inspired by something you saw or felt while traveling. Write it on a card and place it on the kitchen counter as a reminder that home is not static; it grows with you.",
+      "connection": "This exercise bridges the transition from travel back to routine, turning reentry from a deflation into an intentional act. It teaches that home is not the opposite of adventure—it is where adventure is integrated."
+    },
+    "young_stoic": {
+      "title": "The Mountain You Carry",
+      "prompt": "You climbed the Sandia Mountains last week. But did you know there's a mountain inside you too? The Stoics believed that every person has an inner citadel—a strong, quiet place inside where no storm can reach. This week, whenever something feels hard—a tough homework problem, a friend being unkind, or just a gloomy day—close your eyes for five seconds and imagine you're standing on top of your inner mountain, looking out at everything below. You're strong up there. Nothing can knock you off.",
+      "lesson": "True strength is not about what happens around you but about the steadiness you carry within. You can visit mountains, but you also are one."
+    },
+    "closing_thought": "The Sandias will stand long after this week fades from memory. But the steadiness you practice tonight—answering the page with calm, tearing the bread with gratitude, settling into the creak and comfort of home—that is the mountain you are building inside yourself. As Seneca wrote, the proof of a well-ordered mind is the ability to stop just where you are and pass some time in your own company. Welcome home. The work begins here."
+  },
+  "story_data": {
+    "title": "The Watermelon Mountain Mystery",
+    "subtitle": "A Sandia Mountains Mystery",
+    "story": "Chelsie pressed her forehead against the window of the Sandia Peak Tramway and watched Albuquerque shrink beneath her like a toy city. The cable car swayed gently, climbing higher and higher, until the desert floor gave way to snow-dusted pines and granite cliffs that glowed faintly pink in the afternoon light.\n\n\"Mertle, are you watching?\" she whispered, holding up the kind little turtle puppet so he could see. Mertle’s button eyes reflected the whole Rio Grande Valley.\n\nAt the top, Chelsie stepped into snow up to her ankles and laughed out loud. The air was so cold it tasted like peppermint, and so quiet she could hear her own heartbeat. Daddio was reading a sign nearby: SANDIA CREST — 10,678 FEET.\n\n\"Did you know Sandia means watermelon?\" he said.\n\nChelsie squinted at the pink-and-green mountainside — pink granite, green juniper — and suddenly the name made perfect sense. She crunched through the snow in wide circles, arms out, catching flakes on her tongue, while Mertle bounced along in her coat pocket.\n\nBut the mountain was only one chapter of their adventure. Earlier that week, Chelsie had stood mesmerized at the aquarium, watching seahorses drift like tiny enchanted horses through the water, and then gasping when a shadow passed overhead — a shark gliding through the tunnel tank, slow and ancient and magnificent.\n\nThere was the evening they’d discovered birria pizza at a little restaurant, the cheese pulling in long strings while the consommé dripped down their chins. There was the morning Chelsie found a spray mop in the Airbnb kitchen and spent a gleeful half hour mopping every tile in the house, announcing she’d found her \"true calling.\" And there were the quiet evenings curled up by the fire crackling in the den, Mertle propped on a pillow, everyone’s socks drying on the hearth.\n\nNow, standing at 10,678 feet with the whole world below her, Chelsie tried to memorize it all. Not just the view — the seahorses, the shark’s shadow, the cheese pull, the mop handle in her hands, the warmth of the fire on her shins.\n\n\"The best souvenirs aren’t things you buy,\" she told Mertle softly, watching the last light turn the snow to rose gold. \"They’re the things you notice.\"\n\nDaddio put his arm around her shoulder. \"Ready to head down?\"\n\nChelsie took one more look. She wanted to remember everything.",
+    "theme": "Gratitude and Reflection",
+    "lesson": "The best souvenirs aren’t things you buy — they’re things you notice.",
+    "characters": [
+      "Chelsie",
+      "Daddio",
+      "Mertle"
+    ],
+    "setting": "Sandia Mountains, New Mexico"
+  },
+  "highlight": "From the Sandia Mountains to fresh sourdough on Saturday — a week that trades desert adventure for the deep comfort of coming home.",
+  "child_wisdom": {
+    "title": "The Watermelon Mountain Mystery",
+    "story": "Chelsie pressed her forehead against the window of the Sandia Peak Tramway and watched Albuquerque shrink beneath her like a toy city. The cable car swayed gently, climbing higher and higher, until the desert floor gave way to snow-dusted pines and granite cliffs that glowed faintly pink in the afternoon light.\n\n\"Mertle, are you watching?\" she whispered, holding up the kind little turtle puppet so he could see. Mertle’s button eyes reflected the whole Rio Grande Valley.\n\nAt the top, Chelsie stepped into snow up to her ankles and laughed out loud. The air was so cold it tasted like peppermint, and so quiet she could hear her own heartbeat. Daddio was reading a sign nearby: SANDIA CREST — 10,678 FEET.\n\n\"Did you know Sandia means watermelon?\" he said.\n\nChelsie squinted at the pink-and-green mountainside — pink granite, green juniper — and suddenly the name made perfect sense. She crunched through the snow in wide circles, arms out, catching flakes on her tongue, while Mertle bounced along in her coat pocket.\n\nBut the mountain was only one chapter of their adventure. Earlier that week, Chelsie had stood mesmerized at the aquarium, watching seahorses drift like tiny enchanted horses through the water, and then gasping when a shadow passed overhead — a shark gliding through the tunnel tank, slow and ancient and magnificent.\n\nThere was the evening they’d discovered birria pizza at a little restaurant, the cheese pulling in long strings while the consommé dripped down their chins. There was the morning Chelsie found a spray mop in the Airbnb kitchen and spent a gleeful half hour mopping every tile in the house, announcing she’d found her \"true calling.\" And there were the quiet evenings curled up by the fire crackling in the den, Mertle propped on a pillow, everyone’s socks drying on the hearth.\n\nNow, standing at 10,678 feet with the whole world below her, Chelsie tried to memorize it all. Not just the view — the seahorses, the shark’s shadow, the cheese pull, the mop handle in her hands, the warmth of the fire on her shins.\n\n\"The best souvenirs aren’t things you buy,\" she told Mertle softly, watching the last light turn the snow to rose gold. \"They’re the things you notice.\"\n\nDaddio put his arm around her shoulder. \"Ready to head down?\"\n\nChelsie took one more look. She wanted to remember everything.",
+    "discussion_prompt": "What was your favorite thing you noticed on our trip to New Mexico?"
+  }
+}

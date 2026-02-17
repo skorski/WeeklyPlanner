@@ -1,0 +1,46 @@
+{
+  "newsletter_title": "The Weekly Read",
+  "week_range": "February 8 – February 14, 2026",
+  "clusters": [
+    {
+      "theme": "Places That Can't Hold Their People",
+      "synthesis": "Two seemingly unrelated stories this week circled the same quiet crisis: what happens when a place stops being somewhere people want to stay? New Mexico — the fifth-largest state by area, home to crimson sunsets and a cultural lineage older than the republic — is losing residents for the first time since the pandemic. Nearly 19,000 educated professionals have fled since 2010, chasing opportunity in Denver, Austin, and other boom towns. Meanwhile, the U.S. House passed the most significant federal housing legislation in a decade with a near-unanimous 390-9 vote, finally acknowledging what millions of families already know: there aren't enough homes, and the ones that exist cost too much. Here's the tension nobody is naming: New Mexico's median home price has surged 59% since 2019 while its population shrinks. Housing is simultaneously unaffordable *and* unable to attract newcomers. The Housing for the 21st Century Act promises to cut red tape and modernize HUD programs, but it's designed for places bursting at the seams — the Austins and Phoenixes gobbling up New Mexico's departing talent. A recent Harvard Kennedy School analysis argues that New Mexico's brain drain won't reverse until the state builds economic ecosystems that give young professionals a reason to unpack their boxes. Free college tuition through the Opportunity Scholarship is a start, but enchantment alone doesn't pay the mortgage. When 390 members of Congress agree on anything, it's worth pausing to ask: who does this actually help? And who gets left behind in the Land of Enchantment?",
+      "articles": [
+        {
+          "title": "New Mexico Population Changes",
+          "url": "https://gemini.google.com/app/e7533afd0e20d1b9",
+          "tags": [],
+          "one_liner": "The fifth-largest state can't stop hemorrhaging its best and brightest — and geography, water, and a 50th-ranked education system explain why."
+        },
+        {
+          "title": "House passes sweeping bipartisan housing package",
+          "url": "https://thehill.com/homenews/house/5730206-house-passes-bipartisan-housing-package/",
+          "tags": [],
+          "one_liner": "A 390-9 vote that proves housing affordability is the rare issue that can make French Hill and Maxine Waters agree."
+        }
+      ]
+    },
+    {
+      "theme": "The USB-C Moment for AI",
+      "synthesis": "Every transformative technology eventually gets its boring-but-essential standardization moment — the point where the wild frontier yields to interoperability. This week, WebMCP landed in Chrome 146 Canary, and if you squint past the acronym soup, you'll see what might be the most consequential web standard since HTTPS. Right now, AI agents navigate websites the way a tourist navigates Tokyo without Google Translate: screenshot everything, pray the model can identify a button, burn thousands of tokens on what a human does in two clicks. WebMCP proposes something radical in its simplicity — let websites just *tell* agents what they can do. Two APIs, one standard, and suddenly a single structured function call replaces dozens of fragile browser interactions. Google's Khushal Sagar calls it the \"USB-C of AI agent interactions,\" and the metaphor is apt: nobody gets excited about a cable standard, but everyone benefits when their devices just work. What's most interesting isn't the technology — it's the philosophical choice buried in the spec. WebMCP is explicitly *not* for headless, autonomous agents. It's designed for the browser, where a human is watching, collaborating, guiding. In an industry racing toward full autonomy, Google and Microsoft jointly shipped a standard that says: actually, the human should stay in the loop. Early benchmarks suggest up to 89% fewer tokens consumed per interaction. But the deeper question lingers: if we make it trivially easy for AI to interact with every website, have we built a better tool — or have we just made it cheaper to replace the browsing we used to do ourselves?",
+      "articles": [
+        {
+          "title": "Vercel Security Checkpoint",
+          "url": "https://venturebeat.com/infrastructure/google-chrome-ships-webmcp-in-early-preview-turning-every-website-into-a",
+          "tags": [],
+          "one_liner": "Chrome 146 ships the web standard that could turn every website into an API for AI agents — and deliberately keeps humans in the driver's seat."
+        }
+      ]
+    }
+  ],
+  "reflections": "This week's reading orbited a single idea: the tension between systems designed for people and systems designed to scale. New Mexico is a place engineered by geography and history for a certain kind of life — and it's watching its people leave for places optimized for growth. Congress is building housing policy for booming metros while quieter places hollow out. And the web is being re-architected so that AI agents can navigate it efficiently — but only, the authors insist, with a human still at the helm. Everywhere you look, the same question: when we optimize a system, who are we optimizing it for?",
+  "fun_section": {
+    "title": "And Finally…",
+    "content": "Octopuses have three hearts — but two of them stop beating every time they swim. The effort of pushing their boneless bodies through water is so taxing that the two hearts responsible for pumping blood to their gills simply give up until the octopus stops to rest. This is why octopuses prefer crawling along the ocean floor to swimming: it's literally less heartbreaking. Scientists believe this cardiac quirk also explains why octopuses tire so easily — imagine running a marathon while two-thirds of your circulatory system takes a nap. Next time you feel exhausted on a Monday morning, just remember: at least all your hearts are working.",
+    "source_url": "https://www.classpop.com/magazine/fun-facts-for-kids",
+    "source_name": "Classpop"
+  },
+  "total_articles": 3,
+  "total_words": 2743,
+  "generated_at": "2026-02-17T17:30:00Z"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Winter Kale Caesar with Roasted Chickpeas & Shaved Parmesan",
+    "elevations": [
+      {
+        "type": "Technique",
+        "title": "Massage the Kale Like You Mean It",
+        "instruction": "Strip the Lacinato kale from its stems, slice into thin ribbons, then massage vigorously for two full minutes with a generous pinch of kosher salt and a thread of good olive oil. You'll feel the leaves soften and shrink by half — that's the cell walls breaking down, releasing bitterness and turning raw kale into something silky and sweet. Let it rest in the dressing for 10 minutes before plating so it drinks in every drop of that anchovy-lemon emulsion."
+      },
+      {
+        "type": "Texture",
+        "title": "Double-Roasted Chickpeas with Smoked Paprika",
+        "instruction": "Drain and pat canned chickpeas bone-dry with paper towels — moisture is the enemy of crunch. Toss with olive oil, smoked paprika, garlic powder, and a pinch of cayenne, then spread on a sheet pan in a single layer. Roast at 425°F for 25 minutes, shaking once at the halfway mark. They're done when they rattle on the pan and sound hollow when tapped. Let them cool completely on the pan before adding to the salad — residual steam softens them, and you did not go through all that for a soggy chickpea."
+      },
+      {
+        "type": "Sauce",
+        "title": "Anchovy-Forward Caesar with Whole Egg Emulsion",
+        "instruction": "Mince 4 oil-packed anchovy fillets into a paste with the flat of your knife, then whisk into a whole raw egg with two crushed garlic cloves, the juice of one lemon, a tablespoon of Dijon, and a generous shower of finely grated Parmigiano-Reggiano. Stream in olive oil slowly while whisking until you get a dressing thick enough to coat a spoon. The whole egg (not just yolk) gives you a lighter, more stable emulsion that clings to every kale ribbon without weighing it down. Taste it — it should be aggressively savory with a bright acid punch."
+      }
+    ]
+  },
+  {
+    "name": "Pan-Seared Pork Chops with Mushroom Cream Sauce",
+    "elevations": [
+      {
+        "type": "Technique",
+        "title": "Dry Brine and Reverse the Sear",
+        "instruction": "Season thick-cut, bone-in pork chops generously with kosher salt on all sides and set them uncovered on a wire rack in the refrigerator for at least 4 hours, ideally overnight. The salt draws moisture to the surface, which gets reabsorbed along with the seasoning — giving you deep flavor and a drier exterior that sears beautifully. When ready to cook, bring chops to room temperature for 30 minutes, then start them in a 275°F oven on a wire rack until they hit 120°F internal. Pull them, get your cast iron screaming hot with a film of canola oil, and sear 90 seconds per side. Rest tented in foil for 5 minutes. The result is edge-to-edge pink with a mahogany crust — no gray band of overcooked meat."
+      },
+      {
+        "type": "Sauce",
+        "title": "Cognac-Deglazed Mushroom Pan Sauce with Dijon Finish",
+        "instruction": "After searing the chops, lower heat to medium and add a tablespoon of butter. Toss in a mix of sliced cremini and torn maitake mushrooms (or whatever browns are at the store) and cook without moving them for 3 minutes — you want color, not steam. Add minced shallot and two cloves of garlic, cook 1 minute, then hit the pan with 2 tablespoons of cognac and let it flame off or reduce fully. Deglaze with a splash of dry white wine, scraping every bit of fond from the iron. Add 3/4 cup heavy cream, a teaspoon of Dijon mustard, and fresh thyme leaves. Simmer until it coats the back of a spoon. Finish off-heat by swirling in a cold tablespoon of butter for gloss. Pour any resting juices from the chops back into the sauce before spooning it over."
+      },
+      {
+        "type": "Temperature",
+        "title": "Chilled Herb-Crème Fraîche Dollop",
+        "instruction": "Mix 3 tablespoons of crème fraîche (or full-fat sour cream) with a teaspoon of lemon zest, minced chives, and cracked black pepper. Keep it cold in the fridge until plating. When you set the hot chop on the plate with the warm mushroom cream sauce, drop a cold spoonful of this right on top. The temperature contrast — hot cream sauce meeting cold, tangy crème fraîche — wakes up the palate and cuts through the richness. It melts slowly as you eat, creating a second wave of flavor."
+      }
+    ]
+  },
+  {
+    "name": "Roasted Branzino with Cherry Tomatoes, Lemon & Capers",
+    "elevations": [
+      {
+        "type": "Technique",
+        "title": "Score, Stuff, and Pre-Sear the Skin",
+        "instruction": "Make 3 diagonal slashes on each side of the whole branzino, cutting down to the bone — this lets heat and seasoning penetrate evenly and prevents the skin from buckling. Stuff the cavity with thin lemon rounds, a few crushed garlic cloves, and sprigs of fresh thyme and flat-leaf parsley. Before roasting, get a stainless or cast-iron pan ripping hot with a thin layer of olive oil and sear the fish for 2 minutes per side until the skin is golden and blistered. Then transfer to a sheet pan surrounded by halved cherry tomatoes and roast at 425°F for 12-15 minutes. The pre-sear gives you restaurant-crispy skin that the oven alone can never achieve."
+      },
+      {
+        "type": "Sauce",
+        "title": "Warm Lemon-Caper Brown Butter",
+        "instruction": "In a small saucepan, melt 4 tablespoons of unsalted butter over medium heat, swirling constantly. Watch it like it owes you money — it goes from golden to burnt in seconds. When the milk solids turn hazelnut-brown and it smells nutty, immediately add 2 tablespoons of drained capers (they'll sputter and crisp in the hot fat), a minced garlic clove, and the juice of half a lemon. Swirl to combine and pull off heat. The capers fry in the brown butter and turn into crispy, salty little gems. Spoon this over the roasted fish right before serving — the warm brown butter pools into the scored flesh while the fried capers add pops of salt and crunch against the tender, flaky branzino."
+      },
+      {
+        "type": "Texture",
+        "title": "Blistered Tomatoes with Raw Fennel Shave",
+        "instruction": "Toss the cherry tomatoes with olive oil and a pinch of sugar before roasting alongside the fish — the sugar accelerates caramelization and concentrates their sweetness. Once plated, scatter paper-thin raw fennel shavings (use a mandoline or a sharp knife and patience) and a handful of torn fresh basil over the top. The contrast of jammy, blistered tomatoes against cool, crisp, anise-scented fennel gives the dish a dimension that cooked-on-cooked never achieves. Finish with flaky Maldon salt and a thread of your best olive oil."
+      }
+    ]
+  },
+  {
+    "name": "Braised White Beans with Winter Greens & Sourdough Toast",
+    "elevations": [
+      {
+        "type": "Technique",
+        "title": "Smash Half, Leave Half Whole",
+        "instruction": "Once the cannellini beans are warmed through and tender, take a fork and crush roughly half of them against the side of the pot. This releases their starch into the braising liquid and creates a creamy, almost risotto-like body while the remaining whole beans give you pops of texture. This is the difference between a bowl of beans and a Tuscan braise — it should be lush enough to coat the back of a spoon without adding a drop of cream. Stir in a Parmigiano-Reggiano rind during the braise if you have one — it melts slowly and adds a savory depth that tastes like patience."
+      },
+      {
+        "type": "Sauce",
+        "title": "Garlic-Chili Oil and Lemon Zest Finish",
+        "instruction": "In a small skillet, warm 3 tablespoons of good olive oil over low heat with 3 thinly sliced garlic cloves and a fat pinch of red pepper flakes. Cook slowly — you're not frying, you're infusing. When the garlic is pale gold and the oil smells dangerous, pull it off heat and stir in a teaspoon of fresh lemon zest. Spoon this over each bowl right before serving. The warm, spicy, fragrant oil hitting the creamy beans creates an aromatic burst that elevates simple legumes into something you'd pay eighteen dollars for at a farm-to-table spot in Florence."
+      },
+      {
+        "type": "Texture",
+        "title": "Sourdough Grilled on Cast Iron with Garlic Rub",
+        "instruction": "Do not put sourdough in a toaster. Slice it thick — three-quarter inch — brush both sides with olive oil, and press it into a screaming hot cast-iron pan until it's charred in spots and crackling, about 2 minutes per side. While it's still hot, rub a halved raw garlic clove across the surface — the rough toast acts like a grater, and the garlic melts right into the bread. The char gives a smoky bitterness that plays against the creamy, mellow beans. Lean the toast against the side of the bowl at an angle so it stays crisp above the broth line and soaks from the bottom up as you eat."
+      }
+    ]
+  }
+]
