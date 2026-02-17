@@ -1,0 +1,255 @@
+[
+  {
+    "artist": "Ichiko Aoba",
+    "title": "Windswept Adan",
+    "source": "web",
+    "year": "2020",
+    "description": "Ethereal Japanese folk-ambient album evoking oceanic landscapes. Perfect companion for the branzino dinner - its gentle acoustic guitar and Aoba's crystalline voice create an atmosphere as delicate as the fish itself.",
+    "lyrical_themes": "Nature, ocean, mythology, spiritual contemplation",
+    "mood": "Serene, contemplative, floating",
+    "sonic_description": "Fingerpicked classical guitar, layered vocals, ambient orchestration, field recordings"
+  },
+  {
+    "artist": "Khruangbin",
+    "title": "A La Sala",
+    "source": "web",
+    "year": "2024",
+    "description": "Houston trio's fourth album blends global psychedelia with soul, funk, and dub. The perfect midweek decompressor for an on-call night.",
+    "lyrical_themes": "Instrumental exploration, global sonic journeys",
+    "mood": "Laid-back, groovy, hypnotic",
+    "sonic_description": "Surf guitar, deep bass, sparse drums, global influences spanning Thai funk to Jamaican dub"
+  },
+  {
+    "artist": "Parcels",
+    "title": "Live Vol. 2",
+    "source": "web",
+    "year": "2023",
+    "description": "Australian disco-funk band's electric live album. Similar to Franc Moody's peppy danceable energy that the family loves.",
+    "lyrical_themes": "Joy, dancing, connection, nightlife",
+    "mood": "Euphoric, energetic, celebratory",
+    "sonic_description": "Live disco-funk, tight grooves, soaring vocals, analog synths",
+    "upcoming_show": ""
+  },
+  {
+    "artist": "Franc Moody",
+    "title": "Chewing The Fat",
+    "source": "web",
+    "year": "2025",
+    "description": "Family favorite's newest album! London duo's signature bass-driven funk-disco. Playing 9:30 Club Feb 19, 2026.",
+    "lyrical_themes": "Self-expression, hedonism, modern life",
+    "mood": "Peppy, danceable, infectious",
+    "sonic_description": "Thick bass, disco beats, falsetto vocals, funky guitar, synth flourishes",
+    "upcoming_show": "Feb 19, 2026 @ 9:30 Club, Washington DC"
+  },
+  {
+    "artist": "Dijon",
+    "title": "Baby",
+    "source": "pitchfork",
+    "year": "2025",
+    "description": "Neo-soul meets neo-psychedelia. Pitchfork score of 90. Intimate, experimental, and deeply emotional.",
+    "lyrical_themes": "Love, vulnerability, identity, introspection",
+    "mood": "Intimate, dreamy, emotionally raw",
+    "sonic_description": "Lo-fi neo-soul, psychedelic textures, sparse arrangements, whispered vocals"
+  },
+  {
+    "artist": "Imarhan",
+    "title": "Essam",
+    "source": "web",
+    "year": "2025",
+    "description": "Tuareg desert blues from Algeria. Hypnotic guitar patterns and Saharan rhythms that pair beautifully with the Middle Eastern-adjacent flavors of the week.",
+    "lyrical_themes": "Desert life, cultural heritage, resistance, hope",
+    "mood": "Warm, entrancing, rhythmic",
+    "sonic_description": "Tishoumaren guitar, pentatonic melodies, polyrhythmic percussion, call-and-response vocals"
+  },
+  {
+    "artist": "Jungle",
+    "title": "Volcano",
+    "source": "web",
+    "year": "2023",
+    "description": "UK collective's soulful, rhythm-centric funk. Dance-friendly energy similar to the Franc Moody vibe the family enjoys.",
+    "lyrical_themes": "Love, self-discovery, movement, joy",
+    "mood": "Upbeat, groovy, soulful",
+    "sonic_description": "Modern funk, disco bass, falsetto harmonies, electronic production, live drums"
+  },
+  {
+    "artist": "Cate Le Bon",
+    "title": "Michelangelo Dying",
+    "source": "pitchfork",
+    "year": "2025",
+    "description": "Welsh art-pop shapeshifter's latest. Dream pop meets angular post-punk. Perfect for a contemplative salad night.",
+    "lyrical_themes": "Art, mortality, observation, absurdity",
+    "mood": "Cerebral, dreamy, slightly off-kilter",
+    "sonic_description": "Angular guitars, warm synths, art-pop arrangements, ethereal vocals"
+  },
+  {
+    "artist": "Mulatu Astatke",
+    "title": "Mulatu of Ethiopia",
+    "source": "discogs",
+    "year": "1972",
+    "description": "The godfather of Ethio-jazz. Vibraphone-driven grooves that feel both ancient and modern. A deep cut that transforms any dinner into an event.",
+    "lyrical_themes": "Instrumental - Ethiopian modal music meets jazz harmony",
+    "mood": "Sophisticated, groovy, mysterious",
+    "sonic_description": "Vibraphone, organ, congas, walking bass, Ethiopian pentatonic scales"
+  },
+  {
+    "artist": "Kim Waters",
+    "title": "Rhythm & Romance",
+    "source": "bandsintown",
+    "year": "2023",
+    "description": "Smooth jazz saxophonist playing Blues Alley Feb 20-22. Silky saxophone over R&B grooves.",
+    "lyrical_themes": "Love, romance, nightlife",
+    "mood": "Smooth, romantic, relaxed",
+    "sonic_description": "Smooth soprano and alto saxophone, R&B rhythms, polished production",
+    "upcoming_show": "Feb 20-22, 2026 @ Blues Alley, Washington DC"
+  },
+  {
+    "artist": "Luedji Luna",
+    "title": "Antes que a Terra acabe",
+    "source": "pitchfork",
+    "year": "2025",
+    "description": "Brazilian neo-soul with MPB and Afro-Brazilian rhythms. Warm and textured, like a sonic embrace.",
+    "lyrical_themes": "Afro-Brazilian identity, nature, love, ancestral connection",
+    "mood": "Warm, soulful, earthy",
+    "sonic_description": "MPB guitar, neo-soul vocals, subtle percussion, Afro-Brazilian rhythms"
+  },
+  {
+    "artist": "Ye Vagabonds",
+    "title": "All Tied Together",
+    "source": "web",
+    "year": "2025",
+    "description": "Irish folk brothers with inviting harmonies. Perfect for a rustic Tuscan bean dinner by the fire.",
+    "lyrical_themes": "Home, nature, Irish mythology, togetherness",
+    "mood": "Warm, communal, rootsy",
+    "sonic_description": "Close harmonies, acoustic guitar, fiddle, bodhr\u00e1n, stripped-back arrangements"
+  },
+  {
+    "artist": "The James Hunter Six",
+    "title": "Off The Fence",
+    "source": "web",
+    "year": "2025",
+    "description": "Blue-eyed soul and R&B with retro sophistication. Vintage Motown-adjacent grooves.",
+    "lyrical_themes": "Love, heartbreak, everyday life",
+    "mood": "Sophisticated, soulful, swinging",
+    "sonic_description": "Horns, Hammond organ, walking bass, classic soul arrangements"
+  },
+  {
+    "artist": "Puma Blue",
+    "title": "Croak Dream",
+    "source": "web",
+    "year": "2025",
+    "description": "Trip-hop meets alternative R&B. Late-night, smoke-filled-room energy for a post-dinner wind-down.",
+    "lyrical_themes": "Longing, urban isolation, nocturnal contemplation",
+    "mood": "Nocturnal, hazy, melancholic",
+    "sonic_description": "Trip-hop beats, jazz guitar, baritone vocals, ambient textures"
+  },
+  {
+    "artist": "SAULT",
+    "title": "10",
+    "source": "pitchfork",
+    "year": "2025",
+    "description": "UK collective's genre-defying mix of funk, soul, Afrobeat, and post-punk. Always surprising, never predictable.",
+    "lyrical_themes": "Resistance, joy, community, identity",
+    "mood": "Defiant, joyful, textured",
+    "sonic_description": "Funk bass, Afrobeat percussion, choir vocals, post-punk guitar, gospel influences"
+  },
+  {
+    "artist": "Paco Versailles",
+    "title": "Fever",
+    "source": "web",
+    "year": "2023",
+    "description": "Electronic disco meets flamenco for an irresistible dance-floor fusion. Mediterranean heat in musical form.",
+    "lyrical_themes": "Passion, nightlife, Mediterranean romance",
+    "mood": "Sultry, danceable, passionate",
+    "sonic_description": "Flamenco guitar, electronic beats, disco bass, Spanish vocals"
+  },
+  {
+    "artist": "haruka nakamura",
+    "title": "Nuance",
+    "source": "web",
+    "year": "2020",
+    "description": "Japanese ambient composer's delicate piano pieces with field recordings. Like sonic origami - intricate, beautiful, and deeply peaceful.",
+    "lyrical_themes": "Instrumental - nature, stillness, passage of time",
+    "mood": "Peaceful, meditative, tender",
+    "sonic_description": "Solo piano, subtle electronics, field recordings, string arrangements"
+  },
+  {
+    "artist": "NEIL FRANCES",
+    "title": "There Is No Runaway",
+    "source": "web",
+    "year": "2023",
+    "description": "Indie-soul electro-funk duo. Catchy hooks meet deep grooves - perfect for families who love Franc Moody.",
+    "lyrical_themes": "Love, self-discovery, resilience",
+    "mood": "Bright, groovy, optimistic",
+    "sonic_description": "Indie-soul vocals, synth-funk bass, disco guitars, electronic production"
+  },
+  {
+    "artist": "Tom Misch",
+    "title": "What Kinda Music",
+    "source": "web",
+    "year": "2020",
+    "description": "South London guitarist's jazz-funk-electronic fusion with Yussef Dayes. Effortlessly cool dinner soundtrack.",
+    "lyrical_themes": "Exploration, identity, musical journeys",
+    "mood": "Cool, jazzy, exploratory",
+    "sonic_description": "Jazz guitar, electronic beats, broken beat, Yussef Dayes drums, soulful vocals"
+  },
+  {
+    "artist": "L'\u00c9cart",
+    "title": "L'\u00c9cart",
+    "source": "discogs",
+    "year": "2022",
+    "description": "French-Moroccan fusion band blending gnawa music with jazz and electronic. A sonic journey through Marrakech after midnight.",
+    "lyrical_themes": "Cultural fusion, spiritual trance, desert mysticism",
+    "mood": "Hypnotic, spiritual, groovy",
+    "sonic_description": "Gnawa bass, jazz horns, electronic beats, trance-like repetition, Moroccan vocals"
+  },
+  {
+    "artist": "Greentea Peng",
+    "title": "Tell Dem It's Sunny",
+    "source": "pitchfork",
+    "year": "2025",
+    "description": "UK neo-soul meets dub and trip-hop. Conscious, groovy, and deeply original.",
+    "lyrical_themes": "Spirituality, social commentary, self-empowerment",
+    "mood": "Conscious, groovy, rebellious",
+    "sonic_description": "Dub bass, trip-hop beats, neo-soul vocals, reggae influences, lo-fi textures"
+  },
+  {
+    "artist": "Nubya Garcia",
+    "title": "Odyssey",
+    "source": "web",
+    "year": "2024",
+    "description": "London jazz saxophonist's sophomore album. Spans Caribbean rhythms, broken beat, and spiritual jazz. A journey worth taking.",
+    "lyrical_themes": "Heritage, movement, exploration, Caribbean identity",
+    "mood": "Dynamic, soulful, adventurous",
+    "sonic_description": "Tenor saxophone, Afro-Caribbean rhythms, broken beat, spiritual jazz, electronic elements"
+  },
+  {
+    "artist": "Altea Laporte",
+    "title": "Aiguamarina",
+    "source": "bandcamp",
+    "year": "2024",
+    "description": "Catalan singer blending Mediterranean folk with ambient electronics. Like sunset over the Costa Brava.",
+    "lyrical_themes": "Sea, memory, Mediterranean identity, seasons",
+    "mood": "Dreamy, Mediterranean, nostalgic",
+    "sonic_description": "Catalan vocals, ambient synths, acoustic guitar, Mediterranean folk melodies"
+  },
+  {
+    "artist": "Kraak & Smaak",
+    "title": "Sweet Time",
+    "source": "web",
+    "year": "2024",
+    "description": "Dutch electronic-funk trio's latest. Disco-infused grooves that keep the body moving and the mood lifted.",
+    "lyrical_themes": "Joy, nightlife, connection, celebration",
+    "mood": "Funky, upbeat, danceable",
+    "sonic_description": "Electronic funk, disco bass, soulful guest vocals, vintage synths"
+  },
+  {
+    "artist": "Arooj Aftab",
+    "title": "Night Reign",
+    "source": "pitchfork",
+    "year": "2024",
+    "description": "Pakistani-American vocalist's hypnotic blend of Urdu poetry with minimalist jazz. Grammy-winning ethereal beauty.",
+    "lyrical_themes": "Loss, longing, night, Urdu poetry, spiritual devotion",
+    "mood": "Ethereal, haunting, meditative",
+    "sonic_description": "Minimalist jazz, Urdu vocals, harp, double bass, ambient electronics"
+  }
+]

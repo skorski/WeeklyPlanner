@@ -1,0 +1,228 @@
+[
+  {
+    "name": "Roasted Branzino with Cherry Tomatoes, Lemon & Capers",
+    "category": "dinner",
+    "cuisine": "Mediterranean",
+    "description": "Whole branzino scored and stuffed with lemon slices, garlic, and fresh herbs, then roasted on a bed of burst cherry tomatoes and briny capers. The skin crisps beautifully while the flesh stays moist and flaky.",
+    "key_ingredients": ["whole branzino", "cherry tomatoes", "lemon", "capers", "garlic", "fresh herbs", "olive oil"],
+    "source_url": "https://www.themediterraneandish.com/roasted-branzino-recipe/",
+    "source_name": "The Mediterranean Dish",
+    "why": "User-requested craving. Branzino is peak seasonal fish, and the Mediterranean preparation is bright and satisfying."
+  },
+  {
+    "name": "Pan-Seared Pork Chops with Mushroom Cream Sauce",
+    "category": "dinner",
+    "cuisine": "French-American",
+    "description": "Thick bone-in pork chops seared to a golden crust, then finished in a velvety sauce of saut\u00e9ed cremini and shiitake mushrooms, white wine, garlic, thyme, and cream. Rich, comforting, and pairs beautifully with mashed potatoes.",
+    "key_ingredients": ["bone-in pork chops", "cremini mushrooms", "shiitake mushrooms", "heavy cream", "white wine", "garlic", "thyme"],
+    "source_url": "https://www.bonappetit.com/recipe/pork-chops-with-mushroom-sauce",
+    "source_name": "Bon App\u00e9tit",
+    "why": "User has pork chops in the freezer and craves mushrooms. Classic comfort food for a cold week."
+  },
+  {
+    "name": "Winter Kale Caesar with Roasted Chickpeas & Shaved Parmesan",
+    "category": "dinner",
+    "cuisine": "American",
+    "description": "A hearty dinner-sized salad of massaged lacinato kale, crispy roasted chickpeas, shaved Parmesan, toasted breadcrumbs, and a creamy homemade Caesar dressing. Substantial enough to be the star of the meal.",
+    "key_ingredients": ["lacinato kale", "chickpeas", "Parmesan", "sourdough breadcrumbs", "anchovy", "lemon", "garlic", "olive oil"],
+    "source_url": "https://www.bonappetit.com/recipe/lacinato-kale-caesar-salad",
+    "source_name": "Bon App\u00e9tit",
+    "why": "User requested a hearty salad for Wednesday. Kale is peak season, and the chickpeas make it dinner-worthy."
+  },
+  {
+    "name": "Nikujaga (Japanese Meat & Potato Stew)",
+    "category": "dinner",
+    "cuisine": "Japanese",
+    "description": "Japan's beloved home-style stew of thinly sliced beef simmered with potatoes, carrots, and onions in a gently sweet soy-dashi broth. Homey, kid-friendly, and deeply comforting on a cold night.",
+    "key_ingredients": ["thinly sliced beef", "Yukon gold potatoes", "carrots", "onion", "soy sauce", "mirin", "dashi", "sake"],
+    "source_url": "https://www.justonecookbook.com/nikujaga/",
+    "source_name": "Just One Cookbook",
+    "why": "Provides Asian cuisine diversity. Hearty and comforting for a foggy, cool week."
+  },
+  {
+    "name": "Chicken Shawarma with Garlic Toum & Pickled Turnips",
+    "category": "dinner",
+    "cuisine": "Middle Eastern",
+    "description": "Spiced roasted chicken thighs with warm cumin, coriander, turmeric, and cinnamon, served with fluffy pita, creamy garlic toum, pickled turnips, and a fresh herb salad. Bold flavors the whole family can customize.",
+    "key_ingredients": ["chicken thighs", "cumin", "coriander", "turmeric", "cinnamon", "garlic", "lemon", "pita", "pickled turnips"],
+    "source_url": "https://www.seriouseats.com/chicken-shawarma-recipe",
+    "source_name": "Serious Eats",
+    "why": "House rule: always include Middle Eastern. Shawarma is kid-approved and endlessly customizable."
+  },
+  {
+    "name": "Cacio e Pepe",
+    "category": "dinner",
+    "cuisine": "Italian",
+    "description": "The Roman classic of tonnarelli pasta tossed with Pecorino Romano and cracked black pepper, creating a silky, cheesy emulsion with just three ingredients. Simple, elegant, and universally loved.",
+    "key_ingredients": ["tonnarelli or spaghetti", "Pecorino Romano", "black pepper", "pasta water"],
+    "source_url": "https://www.seriouseats.com/cacio-e-pepe-recipe",
+    "source_name": "Serious Eats",
+    "why": "House rule: always include Italian. Quick weeknight meal, pairs beautifully with sourdough bread."
+  },
+  {
+    "name": "Lamb Tagine with Apricots & Almonds",
+    "category": "dinner",
+    "cuisine": "Moroccan",
+    "description": "Fall-apart tender lamb shoulder braised with warming spices\u2014cinnamon, ginger, saffron\u2014with dried apricots and toasted almonds. Served over fluffy couscous, it fills the house with an intoxicating aroma.",
+    "key_ingredients": ["lamb shoulder", "dried apricots", "almonds", "cinnamon", "ginger", "saffron", "onion", "couscous"],
+    "source_url": "https://www.epicurious.com/recipes/food/views/lamb-tagine",
+    "source_name": "Epicurious",
+    "why": "Rich, warming North African cuisine adds global diversity. Weekend-worthy project that rewards patience."
+  },
+  {
+    "name": "Japchae (Korean Glass Noodle Stir-Fry)",
+    "category": "dinner",
+    "cuisine": "Korean",
+    "description": "Chewy sweet potato glass noodles tossed with saut\u00e9ed spinach, carrots, shiitake mushrooms, and beef in a sweet soy-sesame sauce. Colorful, balanced, and irresistible to kids and adults alike.",
+    "key_ingredients": ["sweet potato noodles", "beef sirloin", "spinach", "carrots", "shiitake mushrooms", "soy sauce", "sesame oil", "garlic"],
+    "source_url": "https://www.beyondkimchee.com/japchae/",
+    "source_name": "Beyond Kimchee",
+    "why": "Korean representation for cuisine diversity. Quick weeknight meal, colorful and kid-friendly."
+  },
+  {
+    "name": "French Onion Soup with Sourdough Croutons",
+    "category": "dinner",
+    "cuisine": "French",
+    "description": "Deeply caramelized onions simmered in rich beef broth and sherry, ladled into crocks and topped with thick slices of sourdough bread and bubbling Gruy\u00e8re. The ultimate winter comfort food.",
+    "key_ingredients": ["yellow onions", "beef broth", "dry sherry", "sourdough bread", "Gruy\u00e8re", "thyme", "butter"],
+    "source_url": "https://www.seriouseats.com/french-onion-soup-recipe",
+    "source_name": "Serious Eats",
+    "why": "Perfect pairing for Saturday's fresh sourdough bread. Classic cold-weather comfort food."
+  },
+  {
+    "name": "Lentil Shepherd's Pie",
+    "category": "dinner",
+    "cuisine": "British",
+    "description": "Hearty filling of green lentils and mushrooms in a rich gravy topped with creamy mashed potatoes, baked until golden and bubbly. All the comfort of shepherd's pie, entirely vegetarian.",
+    "key_ingredients": ["green lentils", "mushrooms", "carrots", "peas", "tomato paste", "Worcestershire sauce", "potatoes", "butter"],
+    "source_url": "https://www.epicurious.com/recipes/food/views/lentil-shepherds-pie",
+    "source_name": "Epicurious",
+    "why": "Vegetarian option #1. Deeply satisfying comfort food, hearty enough for carnivores."
+  },
+  {
+    "name": "Butternut Squash & Sage Risotto",
+    "category": "dinner",
+    "cuisine": "Italian",
+    "description": "Creamy Arborio rice studded with roasted butternut squash, crispy fried sage leaves, and finished with generous Parmesan and a drizzle of brown butter. Sweet, savory, and luxuriously creamy.",
+    "key_ingredients": ["Arborio rice", "butternut squash", "sage", "Parmesan", "butter", "onion", "white wine", "vegetable broth"],
+    "source_url": "https://www.food52.com/recipes/butternut-squash-risotto",
+    "source_name": "Food52",
+    "why": "Vegetarian option #2, Italian diversity. Squash is in season and pairs with the week's sourdough."
+  },
+  {
+    "name": "Braised White Beans with Winter Greens & Sourdough Toast",
+    "category": "dinner",
+    "cuisine": "Tuscan",
+    "description": "Cannellini beans braised with garlic, rosemary, and chili flakes until creamy, then topped with wilted kale and served over thick sourdough toast rubbed with garlic. Simple, rustic, nourishing.",
+    "key_ingredients": ["cannellini beans", "kale", "garlic", "rosemary", "chili flakes", "olive oil", "sourdough bread", "lemon"],
+    "source_url": "https://www.food52.com/recipes/braised-white-beans",
+    "source_name": "Food52",
+    "why": "Another great sourdough pairing candidate. Tuscan rusticity, quick weeknight preparation."
+  },
+  {
+    "name": "Whipped Ricotta Crostini with Honey & Walnuts",
+    "category": "appetizer",
+    "cuisine": "Italian",
+    "description": "Creamy whipped ricotta spread on toasted sourdough crostini, drizzled with local honey, scattered with toasted walnuts and a crack of black pepper. Elegant simplicity.",
+    "key_ingredients": ["ricotta", "sourdough bread", "honey", "walnuts", "black pepper", "olive oil"],
+    "source_url": "https://www.bonappetit.com/recipe/whipped-ricotta-crostini",
+    "source_name": "Bon App\u00e9tit",
+    "why": "Uses the week's sourdough, quick to assemble, and kid-approved."
+  },
+  {
+    "name": "Roasted Sweet Potato Rounds with Goat Cheese & Pecans",
+    "category": "appetizer",
+    "cuisine": "American",
+    "description": "Roasted sweet potato coins topped with tangy goat cheese, toasted pecans, dried cranberries, and a drizzle of honey. A colorful, seasonal bite-sized appetizer.",
+    "key_ingredients": ["sweet potatoes", "goat cheese", "pecans", "dried cranberries", "honey"],
+    "source_url": "https://insanelygoodrecipes.com/winter-appetizers/",
+    "source_name": "Insanely Good Recipes",
+    "why": "Seasonal February produce, beautiful presentation, and easy to prep ahead."
+  },
+  {
+    "name": "Winter Citrus & Radicchio Salad",
+    "category": "salad",
+    "salad_type": "composed_dinner",
+    "cuisine": "Italian",
+    "description": "A stunning composed salad of blood orange and cara cara segments arranged with shaved radicchio, creamy burrata, toasted pistachios, and Castelvetrano olives. A visual and flavor masterpiece.",
+    "key_ingredients": ["blood oranges", "cara cara oranges", "radicchio", "burrata", "pistachios", "Castelvetrano olives"],
+    "dressing": "Blood orange vinaigrette: fresh blood orange juice, champagne vinegar, Dijon mustard, extra-virgin olive oil, minced shallot, flaky salt, cracked black pepper",
+    "flavor_rationale": "The bitter radicchio is tamed by sweet citrus segments and creamy burrata, while the acid in the vinaigrette brightens every bite. Pistachios add crunch and richness. This follows the Italian principle of balancing amaro (bitter) with dolce (sweet) and grasso (fat).",
+    "seasonal_note": "Blood oranges and radicchio are at their peak on the East Coast in January\u2013March.",
+    "source_url": "https://www.food52.com/recipes/winter-citrus-radicchio-salad",
+    "source_name": "Food52",
+    "why": "Dinner-sized composed salad with stunning winter citrus at peak season."
+  },
+  {
+    "name": "Warm Farro & Roasted Root Vegetable Salad",
+    "category": "salad",
+    "salad_type": "tossed_dinner",
+    "cuisine": "Mediterranean",
+    "description": "Chewy pearled farro tossed with roasted beets, carrots, and parsnips, crumbled goat cheese, toasted hazelnuts, and a warm sherry vinaigrette. Hearty, warming, and substantial.",
+    "key_ingredients": ["pearled farro", "beets", "carrots", "parsnips", "goat cheese", "hazelnuts", "shallot"],
+    "dressing": "Warm sherry vinaigrette: sherry vinegar, Dijon mustard, minced shallot, extra-virgin olive oil, honey, fresh thyme, salt, black pepper. Whisked warm to slightly wilt the greens.",
+    "flavor_rationale": "Earthy roasted roots provide sweetness and depth, while the nutty farro adds chew and substance. The tangy goat cheese and bright vinaigrette cut through the richness, and hazelnuts provide crunch contrast. The warm dressing ties everything together.",
+    "seasonal_note": "Root vegetables (beets, carrots, parsnips) and farro are winter staples on the East Coast.",
+    "source_url": "https://www.epicurious.com/recipes/food/views/warm-farro-salad",
+    "source_name": "Epicurious",
+    "why": "Tossed dinner salad with winter roots at peak season. Hearty enough to stand alone."
+  },
+  {
+    "name": "Shaved Brussels Sprout Slaw with Apple & Pecorino",
+    "category": "salad",
+    "salad_type": "side",
+    "cuisine": "American",
+    "description": "Paper-thin Brussels sprouts tossed with crisp Honeycrisp apple matchsticks, shaved Pecorino, toasted pecans, and a bright lemon-Dijon dressing. Crunchy, fresh, and addictive.",
+    "key_ingredients": ["Brussels sprouts", "Honeycrisp apple", "Pecorino Romano", "pecans", "lemon"],
+    "dressing": "Lemon-Dijon dressing: fresh lemon juice, Dijon mustard, honey, extra-virgin olive oil, apple cider vinegar, salt, cracked black pepper",
+    "flavor_rationale": "The slight bitterness of raw Brussels sprouts is balanced by the sweet apple and honey in the dressing. Pecorino adds salty umami while pecans contribute toasty richness. The acid from lemon and vinegar keeps everything bright and prevents heaviness.",
+    "seasonal_note": "Brussels sprouts and storage apples are prime East Coast winter produce.",
+    "source_url": "https://www.bonappetit.com/recipe/shaved-brussels-sprout-salad",
+    "source_name": "Bon App\u00e9tit",
+    "why": "Crunchy side salad that pairs with rich mains. Uses peak-season Brussels sprouts."
+  },
+  {
+    "name": "Roasted Beet & Pomegranate Salad with Labneh",
+    "category": "salad",
+    "salad_type": "side",
+    "cuisine": "Middle Eastern",
+    "description": "Roasted golden and red beets with jewel-toned pomegranate seeds, creamy labneh, toasted walnuts, and fresh mint. A stunning, flavor-packed side.",
+    "key_ingredients": ["golden beets", "red beets", "pomegranate seeds", "labneh", "walnuts", "mint"],
+    "dressing": "Pomegranate-za'atar vinaigrette: pomegranate molasses, red wine vinegar, za'atar, extra-virgin olive oil, garlic, salt, Aleppo pepper",
+    "flavor_rationale": "Sweet roasted beets complement tart pomegranate and tangy labneh, while za'atar and Aleppo pepper add aromatic warmth. The walnuts bring crunch, and mint adds a fresh herbal lift. This is a study in Middle Eastern flavor balance: sweet, tart, creamy, and aromatic.",
+    "seasonal_note": "Beets are stored and available year-round on the East Coast; pomegranates finish their season in February.",
+    "source_url": "https://www.seriouseats.com/roasted-beet-salad",
+    "source_name": "Serious Eats",
+    "why": "Middle Eastern side salad to complement shawarma or any main. Gorgeous winter colors."
+  },
+  {
+    "name": "Malbec (Mendoza, Argentina)",
+    "category": "beverage",
+    "cuisine": "Argentine",
+    "description": "Full-bodied red with dark fruit, plum, and a hint of chocolate. Perfect for rich meats and cold winter nights.",
+    "key_ingredients": ["Malbec grapes"],
+    "source_url": "",
+    "source_name": "Wine pairing recommendation",
+    "why": "Pairs beautifully with pork chops, lamb tagine, and the week's richer dishes."
+  },
+  {
+    "name": "Sancerre (Loire Valley, France)",
+    "category": "beverage",
+    "cuisine": "French",
+    "description": "Crisp, mineral-driven Sauvignon Blanc with notes of citrus, white peach, and wet stone. The ideal white for the branzino.",
+    "key_ingredients": ["Sauvignon Blanc grapes"],
+    "source_url": "",
+    "source_name": "Wine pairing recommendation",
+    "why": "Classic pairing with whole roasted fish. The acidity mirrors the lemon and capers."
+  },
+  {
+    "name": "Yuzu Ginger Sparkling Mocktail",
+    "category": "beverage",
+    "cuisine": "Japanese",
+    "description": "Sparkling water with fresh yuzu juice, grated ginger, honey, and a sprig of shiso or mint. Refreshing, bright, and alcohol-free.",
+    "key_ingredients": ["yuzu juice", "fresh ginger", "honey", "sparkling water", "mint"],
+    "source_url": "",
+    "source_name": "Original creation",
+    "why": "Non-alcoholic option that pairs with the Japanese and Korean meals. Kid-friendly and elegant."
+  }
+]

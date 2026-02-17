@@ -1,0 +1,77 @@
+{
+  "week_range": "February 15 - February 21, 2026",
+  "weekly_theme": {
+    "title": "Coming Home to Each Other",
+    "description": "You just stepped off a plane from Albuquerque, and everything feels a little tilted — the suitcases aren't unpacked, the fridge is half-empty, and the rhythms of regular life haven't clicked back into place yet. This week isn't about catching up. It's about landing — not just in your house, but in each other. Elsie experienced something big out there: new landscapes, new altitude, the vastness of the Sandia Mountains. She's carrying impressions she may not have words for yet. Give her space to process, and give yourselves permission to ease back in slowly. The trip memories are still warm. Use them."
+  },
+  "dinner_questions": [
+    {
+      "day": "Wednesday",
+      "dinner": "Kale Caesar Salad",
+      "question": "If Caesar salad was invented by a real person named Caesar, what food would you invent and name after yourself? What would the 'Elsie Special' have in it?",
+      "category": "imagination",
+      "why": "Eight-year-olds are building a sense of identity and love the idea that they can leave a mark on the world. Naming a dish after herself invites creative thinking and a little pride — plus it makes kale feel less like a vegetable and more like a canvas."
+    },
+    {
+      "day": "Thursday",
+      "dinner": "Pork Chops",
+      "question": "When we were hiking in the Sandia Mountains, what was a moment where you felt really brave or really small? Both are okay.",
+      "category": "story-drawing",
+      "why": "Travel memories fade fast at this age unless someone helps her narrate them. This question gives Elsie permission to name a feeling — awe, fear, courage — and turns a family dinner into a shared story. Processing big landscapes helps build emotional vocabulary."
+    },
+    {
+      "day": "Friday",
+      "dinner": "Branzino",
+      "question": "This fish lived in the sea before it came to our plate. If you could breathe underwater for one day, where would you swim and what do you think you'd find?",
+      "category": "imagination",
+      "why": "Branzino is an unfamiliar protein for most kids — linking it to an underwater adventure reframes it from 'weird fish' to a gateway for wonder. Hypothetical questions like this exercise perspective-taking and creative reasoning, both of which are blooming at age eight."
+    },
+    {
+      "day": "Saturday",
+      "dinner": "White Beans",
+      "question": "Beans are one of the oldest foods humans have ever eaten — people were cooking them thousands of years ago. If you could travel back in time and have dinner with any family from history, who would you pick and what do you think they'd serve?",
+      "category": "values",
+      "why": "At eight, kids are beginning to grasp historical time and find it thrilling. This question connects a humble ingredient to a bigger story about human connection across centuries, and it quietly reinforces that family meals have always mattered."
+    }
+  ],
+  "nudges": [
+    {
+      "title": "The Albuquerque Scrapbook Jar",
+      "context": "Elsie just had a big travel experience and the memories are vivid now, but they'll blur within weeks. Meanwhile, Dan is on-call this week, which means his attention will be split. A small, self-directed project gives Elsie a way to process the trip even when Dad can't be fully present.",
+      "suggestion": "Set out a mason jar and some scrap paper. Each evening, anyone in the family can write or draw one memory from the Albuquerque trip and drop it in. On Sunday, read them all together.",
+      "how_to": [
+        "Put a jar, torn paper scraps, and a pen on the kitchen counter — visible, not hidden in a craft bin",
+        "Model it first: write your own memory and drop it in while Elsie is watching, no fanfare needed",
+        "On Sunday evening, dump the jar out and take turns reading each other's memories aloud"
+      ]
+    },
+    {
+      "title": "The On-Call Check-In",
+      "context": "Dan is on incident-manager rotation Tuesday through the following Tuesday. When a parent is on-call, kids sense the divided attention even if they can't name it. Elsie may interpret Dad's distraction as disinterest.",
+      "suggestion": "At the start of the week, tell Elsie honestly: 'Dad has a special work job this week where people might call him if something breaks. If I look at my phone a lot, it's not because I don't want to be with you — it's because I'm helping fix something.' Then create a small signal she can use when she really needs your attention — a hand on your arm, a sticky note, a code word.",
+      "how_to": [
+        "Have a 2-minute conversation explaining on-call in concrete terms she can picture — 'like being the school nurse but for computers'",
+        "Let her choose the signal — giving her ownership of the solution builds agency",
+        "When she uses the signal, honor it immediately, even if it's just to say 'Give me 90 seconds and I'm yours'"
+      ]
+    },
+    {
+      "title": "The Friday Handoff",
+      "context": "Friday is packed — YAT runs 4:30–6pm, and branzino is on the menu. After a long activity block, Elsie will come home wired and hungry. The transition from high-energy group time to a sit-down family dinner can be rocky.",
+      "suggestion": "Build a 10-minute decompression window between YAT pickup and dinner. In the car or at home, don't ask about the activity right away. Instead, put on a song she loves and let her just exist for a few minutes. Dinner conversation will be richer if she's had time to land.",
+      "how_to": [
+        "Queue up a playlist or let her pick one song for the drive home — music is a reset button at this age",
+        "Resist the urge to ask 'How was YAT?' immediately — let her volunteer what she wants to share",
+        "If she's quiet, that's fine. Say 'I'm glad you're here' and leave space"
+      ]
+    }
+  ],
+  "recommendation": {
+    "type": "activity",
+    "title": "Postcard Letters Home",
+    "author": null,
+    "why": "Buy two blank postcards (or make them from cardstock). Elsie writes one to herself describing her favorite moment from Albuquerque, and one to a grandparent or friend describing something she saw. The act of writing to different audiences — herself vs. someone else — exercises perspective-taking and helps her realize that her experiences are worth sharing. It also extends the trip's emotional life by a few more days.",
+    "connection": "Ties directly to this week's theme of 'Coming Home to Each Other' — the postcards arrive later, turning a past trip into a future surprise. It also gives Elsie something meaningful to do on evenings when Dan is fielding on-call pages."
+  },
+  "parent_reflection": "Think about the moment on the trip when Elsie was most herself — not performing, not reacting to you, just being. Maybe she was staring out a window at the mountains, or laughing at something only she found funny, or quietly arranging rocks in a pattern. That version of her is the one that's growing fastest right now. This week, as you settle back into routines and Dan juggles on-call, try to notice one moment like that at home. She doesn't need you to see everything — but being seen in those unguarded moments is how she learns that who she really is, is enough."
+}

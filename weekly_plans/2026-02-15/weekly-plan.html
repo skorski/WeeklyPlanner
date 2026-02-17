@@ -1,0 +1,4082 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weekly Planner — February 15 - February 21, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+/* ========================================
+   Quiet Luxury — Atmospheric Choreography
+   A curated supplement, not a utility.
+   ======================================== */
+
+:root {
+  --paper: #F9F8F6;
+  --ink: #1A1A1A;
+  --muted: #6b6b6b;
+  --rule: #E0E0E0;
+  --oxblood: #4A1B1B;
+  --ochre: #B68D40;
+  --sage: #7D8E7B;
+  --midnight: #101820;
+  --album-tint: #F2F0ED;
+  --hero: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --anchor: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --narrative: 'Source Serif 4', Charter, Georgia, serif;
+  --x: 16px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--narrative);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--oxblood); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ========================================
+   SCREEN LAYOUT — Mobile HTML
+   ======================================== */
+
+.page { display: none; } /* pages are for print only */
+
+
+@media screen {
+  .screen-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 calc(var(--x) * 1.5) calc(var(--x) * 4);
+  }
+
+  /* Cover */
+  .cover-screen {
+    text-align: center;
+    padding: calc(var(--x) * 5) var(--x) calc(var(--x) * 5);
+  }
+  .cover-screen h1 {
+    font-family: var(--hero);
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    padding-bottom: calc(var(--x) * 1.5);
+  }
+  .cover-screen .week-range {
+    font-family: var(--anchor);
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+  }
+  .cover-screen .highlight {
+    margin-top: calc(var(--x) * 2);
+    font-family: var(--hero);
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--muted);
+  }
+
+  /* Section titles */
+  .section-title {
+    font-family: var(--anchor);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--muted);
+    margin: calc(var(--x) * 4) 0 calc(var(--x) * 1.5);
+    padding-bottom: calc(var(--x) * 0.5);
+    border-bottom: 0.5px solid var(--rule);
+  }
+
+  /* Glance Table */
+  .glance-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    margin-bottom: calc(var(--x) * 2);
+    display: table;
+  }
+  .glance-table th {
+    font-family: var(--anchor);
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--muted);
+    padding: calc(var(--x) * 0.5) calc(var(--x) * 0.5);
+    border-bottom: 0.5px solid var(--ink);
+  }
+  .glance-table td {
+    font-family: var(--narrative);
+    padding: calc(var(--x) * 0.6) calc(var(--x) * 0.5);
+    border-bottom: 0.5px solid var(--rule);
+    vertical-align: top;
+  }
+  .glance-table .day-name {
+    font-family: var(--anchor);
+    font-weight: 600;
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+  .glance-table .day-weather {
+    font-family: var(--anchor);
+    font-size: 0.7rem;
+    color: var(--ochre);
+    white-space: nowrap;
+    margin-top: 2px;
+  }
+
+  /* Day Card */
+  .day-card {
+    border-top: 0.5px solid var(--rule);
+    padding-top: 0;
+    padding-bottom: calc(var(--x) * 2);
+    margin-top: 100px;
+  }
+  .day-card:first-child { margin-top: calc(var(--x) * 2); }
+
+  /* Weather Horizon */
+  .weather-horizon,
+  .day-card .weather {
+    font-family: var(--anchor);
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--ochre);
+    text-align: right;
+    padding: calc(var(--x) * 0.75) 0;
+  }
+
+  /* Today indicator */
+  .today-indicator {
+    font-family: var(--anchor);
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--ochre);
+    font-weight: 600;
+    margin-bottom: calc(var(--x) * 0.25);
+  }
+
+  /* Date Hero */
+  .day-card h3 {
+    font-family: var(--hero);
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+
+  /* Engagements gutter */
+  .engagements {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  .engagement-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0;
+    padding: 5px 0;
+  }
+  .engagement-time {
+    font-family: var(--anchor);
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--oxblood);
+    width: 15%;
+    min-width: 90px;
+    flex-shrink: 0;
+    text-align: right;
+    padding-right: 12px;
+  }
+  .engagement-rule {
+    width: 1px;
+    align-self: stretch;
+    background: var(--rule);
+    flex-shrink: 0;
+  }
+  .engagement-event {
+    font-family: var(--anchor);
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--ink);
+    padding-left: 12px;
+  }
+
+  /* Calendar items (simple oxblood style) */
+  .day-card .calendar-items {
+    margin-bottom: calc(var(--x) * 0.75);
+  }
+  .day-card .calendar-items div {
+    font-family: var(--anchor);
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--oxblood);
+    padding: 3px 0;
+  }
+
+  /* Day Intro */
+  .day-card .day-intro {
+    font-family: var(--narrative);
+    font-style: italic;
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.8;
+    margin: 0 15% 60px 15%;
+  }
+
+  /* Dinner title */
+  .day-card .dinner-title {
+    font-family: var(--hero);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 48px;
+    margin-bottom: calc(var(--x) * 0.25);
+  }
+
+  /* Cuisine label */
+  .day-card .cuisine-label {
+    font-family: var(--anchor);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--oxblood);
+    margin-bottom: var(--x);
+    display: block;
+  }
+
+  .day-card .description {
+    font-family: var(--narrative);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 65ch;
+    margin-bottom: calc(var(--x) * 0.75);
+  }
+  .day-card .ingredients {
+    font-family: var(--narrative);
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin-bottom: calc(var(--x) * 0.5);
+  }
+  .day-card .notes {
+    font-family: var(--narrative);
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: var(--x);
+  }
+
+  /* Recipe link */
+  .recipe-link {
+    font-family: var(--anchor);
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--oxblood);
+    border-bottom: 1px solid var(--oxblood);
+    padding-bottom: 1px;
+    display: inline;
+    margin-top: calc(var(--x) * 0.5);
+  }
+  .recipe-link:hover { text-decoration: none; opacity: 0.7; }
+
+  /* Links */
+  .day-card a, .item-card a {
+    color: var(--oxblood);
+    text-decoration: none;
+  }
+  .day-card a:hover, .item-card a:hover {
+    text-decoration: underline;
+  }
+
+  /* Chef's Tips — sage accent */
+  .day-card .elevation-tips {
+    margin-top: calc(var(--x) * 2);
+    padding-left: calc(var(--x) * 1.25);
+    border-left: 2px solid var(--sage);
+  }
+  .day-card .elevation-tips h4 {
+    font-family: var(--anchor);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--sage);
+    font-weight: 600;
+    margin-bottom: var(--x);
+  }
+  .day-card .elevation-tip {
+    font-family: var(--narrative);
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: calc(var(--x) * 0.75);
+    max-width: 65ch;
+  }
+  .day-card .elevation-tip .tip-label {
+    font-family: var(--anchor);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--sage);
+    font-weight: 600;
+    margin-right: 6px;
+  }
+
+  .weather-emoji { font-size: 16px; margin-right: 4px; }
+
+  /* Conversation starter */
+  .day-card .conversation-block {
+    margin: 16px 0;
+    padding: 12px 16px;
+    border-left: 3px solid var(--ochre);
+  }
+  .day-card .conversation-block h4 {
+    font-family: var(--anchor);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--ochre);
+    font-weight: 600;
+    margin: 0 0 8px;
+  }
+  .day-card .conversation-question {
+    font-family: var(--narrative);
+    font-size: 1rem;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--ink);
+  }
+  .day-card .conversation-why {
+    font-family: var(--narrative);
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+
+  /* Spotify link */
+  .spotify-link {
+    font-family: var(--anchor);
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--muted);
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 1px;
+    margin-top: var(--x);
+    display: inline-block;
+  }
+  .spotify-link:hover { color: var(--ink); border-color: var(--ink); text-decoration: none; }
+
+  /* Detailed prep section */
+  .prep-detail {
+    margin-top: calc(var(--x) * 1.5);
+    padding-left: calc(var(--x) * 1.25);
+    border-left: 2px solid var(--sage);
+  }
+  .prep-detail summary {
+    font-family: var(--anchor);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--sage);
+    cursor: pointer;
+    list-style: none;
+    padding: calc(var(--x) * 0.5) 0;
+  }
+  .prep-detail summary::-webkit-details-marker { display: none; }
+  .prep-detail .prep-meta {
+    display: flex;
+    gap: var(--x);
+    flex-wrap: wrap;
+    margin: calc(var(--x) * 0.5) 0;
+    font-family: var(--anchor);
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  .prep-detail .prep-meta-item {
+    font-family: var(--anchor);
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  .prep-detail .prep-steps {
+    counter-reset: prep-step;
+    list-style: none;
+    padding: 0;
+    margin-top: calc(var(--x) * 0.5);
+  }
+  .prep-detail .prep-steps li {
+    counter-increment: prep-step;
+    position: relative;
+    padding: calc(var(--x) * 0.5) 0 calc(var(--x) * 0.5) 28px;
+    font-family: var(--narrative);
+    font-size: 1rem;
+    line-height: 1.8;
+    border-bottom: 0.5px solid var(--rule);
+  }
+  .prep-detail .prep-steps li:last-child { border-bottom: none; }
+  .prep-detail .prep-steps li::before {
+    content: counter(prep-step);
+    position: absolute;
+    left: 0;
+    top: calc(var(--x) * 0.5);
+    font-family: var(--anchor);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--muted);
+  }
+  .prep-detail .prep-equipment {
+    margin-top: calc(var(--x) * 0.5);
+    font-family: var(--anchor);
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .prep-detail .prep-make-ahead {
+    margin-top: calc(var(--x) * 0.5);
+    font-family: var(--narrative);
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--muted);
+  }
+
+  /* Album Pairing */
+  .day-card .album-pairing {
+    margin: calc(var(--x) * 3) auto calc(var(--x) * 1.5);
+    max-width: 90%;
+    padding: calc(var(--x) * 2);
+    background: linear-gradient(180deg, var(--paper) 0%, var(--album-tint) 100%);
+    text-align: center;
+  }
+  .day-card .album-artist {
+    font-family: var(--anchor);
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--muted);
+    margin-bottom: 2px;
+  }
+  .day-card .album-name {
+    font-family: var(--hero);
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--midnight);
+    margin-bottom: 4px;
+  }
+  .day-card .album-meta {
+    font-family: var(--anchor);
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--ochre);
+    margin-bottom: var(--x);
+  }
+  .day-card .album-desc {
+    font-family: var(--narrative);
+    font-size: 0.9rem;
+    line-height: 1.9;
+    color: var(--muted);
+    max-width: 55ch;
+    margin: 0 auto calc(var(--x) * 0.5);
+  }
+  .day-card .album-sonic {
+    font-family: var(--narrative);
+    font-size: 0.85rem;
+    line-height: 1.9;
+    color: var(--muted);
+    font-style: italic;
+    max-width: 55ch;
+    margin: 0 auto;
+  }
+  .day-card .album-rationale {
+    font-family: var(--narrative);
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--muted);
+    margin-top: calc(var(--x) * 1.5);
+    padding-top: calc(var(--x) * 0.5);
+    line-height: 1.9;
+    max-width: 55ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Parenting section — screen */
+  .parenting-section {
+    margin-bottom: var(--x);
+  }
+  .section-label {
+    font-family: var(--anchor);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--sage);
+    margin-bottom: var(--x);
+  }
+  .parenting-section .theme-banner {
+    padding: calc(var(--x) * 1.5) 0;
+    margin-bottom: calc(var(--x) * 1.5);
+    border-bottom: 0.5px solid var(--rule);
+  }
+  .parenting-section .theme-banner h3 {
+    font-family: var(--hero);
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: calc(var(--x) * 0.25);
+  }
+  .parenting-section .theme-banner p {
+    font-family: var(--narrative);
+    font-size: 1rem;
+    color: var(--muted);
+    line-height: 1.8;
+    max-width: 65ch;
+  }
+  .parenting-section .question-card {
+    padding: var(--x) 0;
+    border-bottom: 0.5px solid var(--rule);
+  }
+  .parenting-section .question-card:last-child { border-bottom: none; }
+  .parenting-section .question-day {
+    font-family: var(--anchor);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--ochre);
+    font-weight: 600;
+  }
+  .parenting-section .question-text {
+    font-family: var(--hero);
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 300;
+    margin: calc(var(--x) * 0.25) 0;
+    line-height: 1.5;
+  }
+  .parenting-section .question-why {
+    font-family: var(--narrative);
+    font-size: 0.85rem;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+  .parenting-section .nudge-card {
+    padding: var(--x) 0;
+    border-bottom: 0.5px solid var(--rule);
+  }
+  .parenting-section .nudge-card:last-child { border-bottom: none; }
+  .parenting-section .nudge-card h4 {
+    font-family: var(--hero);
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-bottom: calc(var(--x) * 0.25);
+  }
+  .parenting-section .nudge-card p {
+    font-family: var(--narrative);
+    font-size: 0.95rem;
+    line-height: 1.8;
+    max-width: 65ch;
+  }
+  .parenting-section .nudge-steps {
+    font-family: var(--narrative);
+    font-size: 0.9rem;
+    margin-top: calc(var(--x) * 0.35);
+    padding-left: var(--x);
+    line-height: 1.7;
+  }
+  .parenting-section .nudge-steps li { margin-bottom: 3px; }
+  .parenting-section .reflection-box {
+    padding: calc(var(--x) * 1.5) 0 calc(var(--x) * 1.5) calc(var(--x) * 1.5);
+    border-left: 2px solid var(--ochre);
+    font-family: var(--hero);
+    font-style: italic;
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: calc(var(--x) * 1.5);
+    color: var(--muted);
+  }
+  .parenting-section .book-rec {
+    padding: var(--x) 0;
+    margin-top: var(--x);
+    border-top: 0.5px solid var(--rule);
+  }
+  .parenting-section .book-rec h4 {
+    font-family: var(--hero);
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 2px;
+  }
+  .parenting-section .book-rec p {
+    font-family: var(--narrative);
+    font-size: 0.9rem;
+    color: var(--muted);
+    line-height: 1.8;
+  }
+
+  /* Stoic Guide (screen) */
+  .stoic-section { margin-bottom: var(--x); }
+  .stoic-theme-header {
+    padding: calc(var(--x) * 1.5) 0;
+    margin-bottom: calc(var(--x) * 1.5);
+    border-bottom: 0.5px solid var(--rule);
+  }
+  .stoic-category-tag {
+    font-family: var(--anchor);
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--muted);
+    display: block;
+    margin-bottom: calc(var(--x) * 0.5);
+  }
+  .stoic-theme-header h3 {
+    font-family: var(--hero);
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: calc(var(--x) * 0.25);
+  }
+  .stoic-theme-header p {
+    font-family: var(--narrative);
+    font-size: 1rem;
+    color: var(--muted);
+    line-height: 1.8;
+    max-width: 65ch;
+  }
+  .stoic-anchor-quote {
+    border-left: 2px solid var(--rule);
+    padding: var(--x) 0 var(--x) calc(var(--x) * 1.25);
+    margin: calc(var(--x) * 1.5) 0;
+    font-family: var(--hero);
+    font-style: italic;
+    font-size: 1.15rem;
+    font-weight: 300;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .stoic-anchor-quote cite {
+    display: block;
+    font-style: normal;
+    font-family: var(--anchor);
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    color: var(--muted);
+    margin-top: calc(var(--x) * 0.5);
+  }
+  .stoic-intro {
+    font-family: var(--narrative);
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--muted);
+    margin-bottom: calc(var(--x) * 1.5);
+    max-width: 65ch;
+  }
+  .meditation-card {
+    padding: var(--x) 0;
+    border-bottom: 0.5px solid var(--rule);
+  }
+  .meditation-card:last-child { border-bottom: none; }
+  .meditation-day-label {
+    font-family: var(--anchor);
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--ochre);
+    margin-bottom: calc(var(--x) * 0.25);
+  }
+  .meditation-card h4 {
+    font-family: var(--hero);
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-bottom: calc(var(--x) * 0.25);
+  }
+  .meditation-card p {
+    font-family: var(--narrative);
+    font-size: 0.95rem;
+    color: var(--muted);
+    margin-bottom: calc(var(--x) * 0.25);
+    line-height: 1.8;
+    max-width: 65ch;
+  }
+  .meditation-prompt-text {
+    font-family: var(--narrative);
+    font-size: 0.85rem;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+  .meditation-sec-quote {
+    font-family: var(--hero);
+    font-size: 0.9rem;
+    color: var(--muted);
+    font-style: italic;
+    font-weight: 300;
+  }
+  .stoic-exercise-card {
+    padding: calc(var(--x) * 1.25) 0;
+    margin: calc(var(--x) * 1.5) 0;
+    border-top: 0.5px solid var(--rule);
+  }
+  .stoic-exercise-card h4 {
+    font-family: var(--hero);
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-bottom: calc(var(--x) * 0.5);
+  }
+  .stoic-exercise-card p {
+    font-family: var(--narrative);
+    font-size: 0.95rem;
+    color: var(--muted);
+    line-height: 1.8;
+    max-width: 65ch;
+  }
+  .stoic-young-card {
+    border-left: 2px solid var(--ochre);
+    padding: var(--x) 0 var(--x) calc(var(--x) * 1.25);
+    margin: calc(var(--x) * 1.25) 0;
+  }
+  .stoic-young-card h4 {
+    font-family: var(--hero);
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: calc(var(--x) * 0.35);
+  }
+  .stoic-young-card p {
+    font-family: var(--narrative);
+    font-size: 0.95rem;
+    color: var(--muted);
+    line-height: 1.8;
+  }
+  .stoic-closing {
+    text-align: center;
+    font-family: var(--hero);
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--muted);
+    margin-top: calc(var(--x) * 1.5);
+    padding-top: calc(var(--x) * 1.25);
+    border-top: 0.5px solid var(--rule);
+  }
+
+  /* Support sections */
+  .support-section {
+    margin-bottom: calc(var(--x) * 1.5);
+  }
+  .support-section h4 {
+    font-family: var(--anchor);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: var(--sage);
+    margin-bottom: calc(var(--x) * 0.5);
+  }
+  .support-section p, .support-section li {
+    font-family: var(--narrative);
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  .support-section li { margin-left: var(--x); margin-bottom: 3px; }
+
+  /* Item cards — Appetizers, Salads, Beverages */
+  .item-card, .appetizer-card, .salad-card, .beverage-card {
+    padding: calc(var(--x) * 1.25) 0;
+    border-bottom: 0.5px solid var(--rule);
+  }
+  .item-card:last-child, .appetizer-card:last-child, .salad-card:last-child, .beverage-card:last-child { border-bottom: none; }
+  .item-card h4, .appetizer-card h4, .salad-card h4, .beverage-card h4 {
+    font-family: var(--hero);
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 4px;
+  }
+  .item-card p, .appetizer-card p, .salad-card p, .beverage-card p {
+    font-family: var(--narrative);
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 4px;
+    max-width: 65ch;
+  }
+  .item-card .cuisine-label, .appetizer-card .cuisine-label {
+    font-family: var(--anchor);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--oxblood);
+    display: block;
+    margin-bottom: 4px;
+  }
+  .salad-card .salad-type {
+    font-family: var(--anchor);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--oxblood);
+    margin-bottom: 4px;
+  }
+  .salad-card .dressing {
+    font-family: var(--narrative);
+    font-size: 0.9rem;
+    margin-top: calc(var(--x) * 0.5);
+    color: var(--muted);
+  }
+  .salad-card .rationale, .rationale {
+    font-family: var(--narrative);
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--muted);
+    margin-top: calc(var(--x) * 0.35);
+  }
+  .appetizer-card .ingredients, .salad-card .ingredients, .beverage-card .ingredients {
+    font-family: var(--narrative);
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin-bottom: calc(var(--x) * 0.5);
+  }
+
+  /* Grocery & Prep */
+  .grocery-section {
+    columns: 2;
+    column-gap: calc(var(--x) * 2);
+  }
+  .grocery-category {
+    break-inside: avoid;
+    margin-bottom: calc(var(--x) * 1.25);
+  }
+  .grocery-category h4 {
+    font-family: var(--anchor);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--sage);
+    font-weight: 600;
+    margin-bottom: calc(var(--x) * 0.25);
+  }
+  .grocery-category li {
+    font-family: var(--narrative);
+    font-size: 0.95rem;
+    margin-left: var(--x);
+    margin-bottom: 2px;
+    line-height: 1.6;
+  }
+
+  .prep-checklist li {
+    font-family: var(--narrative);
+    font-size: 1rem;
+    margin-left: var(--x);
+    margin-bottom: calc(var(--x) * 0.25);
+    list-style: none;
+    line-height: 1.7;
+  }
+  .prep-checklist li::before {
+    content: "☐ ";
+    color: var(--muted);
+  }
+
+  /* Newsletter */
+  .newsletter-section .cluster { margin-bottom: calc(var(--x) * 2); }
+  .newsletter-section .cluster h3 {
+    font-family: var(--hero);
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: calc(var(--x) * 0.5);
+  }
+  .newsletter-section .cluster p {
+    font-family: var(--narrative);
+    font-size: 1rem;
+    margin-bottom: calc(var(--x) * 0.5);
+    line-height: 1.8;
+    max-width: 65ch;
+  }
+  .newsletter-section .cluster li {
+    font-family: var(--narrative);
+    font-size: 1rem;
+    margin-left: var(--x);
+    margin-bottom: calc(var(--x) * 0.25);
+    line-height: 1.7;
+  }
+
+  .through-line {
+    border-left: 2px solid var(--ochre);
+    padding: var(--x) 0 var(--x) calc(var(--x) * 1.25);
+    font-family: var(--hero);
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.6;
+    margin: calc(var(--x) * 1.5) 0;
+    color: var(--muted);
+  }
+
+  .fun-box {
+    padding: calc(var(--x) * 1.5) 0;
+    margin-top: calc(var(--x) * 1.5);
+    border-top: 0.5px solid var(--rule);
+  }
+  .fun-box h3 {
+    font-family: var(--hero);
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: calc(var(--x) * 0.5);
+  }
+  .fun-box p {
+    font-family: var(--narrative);
+    font-size: 1rem;
+    line-height: 1.8;
+    max-width: 65ch;
+  }
+  .fun-box .fun-source {
+    font-family: var(--anchor);
+    font-size: 0.75rem;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  .extra-section {
+    margin-bottom: calc(var(--x) * 2);
+    padding-top: var(--x);
+    border-top: 0.5px solid var(--rule);
+  }
+  .extra-section h3 {
+    font-family: var(--hero);
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: calc(var(--x) * 0.75);
+  }
+
+  /* ---- Bedtime Story ---- */
+  .story-card {
+    max-width: 600px;
+    margin: 0 auto calc(var(--x) * 2);
+    padding: calc(var(--x) * 1.5) calc(var(--x) * 2);
+    border-left: 3px solid var(--ochre);
+  }
+  .story-card .story-title {
+    font-family: var(--hero);
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: calc(var(--x) * 1);
+    color: var(--ink);
+  }
+  .story-card .story-text {
+    font-family: var(--narrative);
+    font-size: 0.95rem;
+    line-height: 1.85;
+    color: var(--ink);
+    white-space: pre-line;
+  }
+  .story-card .story-prompt {
+    font-family: var(--narrative);
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--ochre);
+    margin-top: calc(var(--x) * 1.5);
+    padding-top: calc(var(--x) * 0.75);
+    border-top: 0.5px solid var(--rule);
+  }
+
+  .footer {
+    text-align: center;
+    padding: calc(var(--x) * 2);
+    font-family: var(--anchor);
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    color: var(--muted);
+    border-top: 0.5px solid var(--rule);
+    margin-top: calc(var(--x) * 4);
+  }
+}
+
+@media (max-width: 480px) {
+  :root { --x: 14px; }
+  .cover-screen h1 { font-size: 2.8rem; }
+  .day-card h3 { font-size: 2rem; }
+  .day-card .dinner-title { font-size: 1.6rem; }
+  .grocery-section { columns: 1; }
+  .day-card .album-pairing { max-width: 100%; }
+  .day-card .day-intro { margin: 0 8% 40px 8%; }
+}
+
+
+@media print {
+  .screen-container { display: none !important; }
+
+  @page {
+    size: 148mm 210mm;  /* A5 */
+    margin: 0.25in 0.4in 0.3in 0.4in;
+  }
+
+  body {
+    font-family: var(--narrative);
+    font-size: 9pt;
+    line-height: 1.5;
+    background: white;
+    color: var(--ink);
+  }
+
+  /* ---- Page container ---- */
+  .page {
+    display: block;
+    page-break-after: always;
+    position: relative;
+    height: 7.71in;  /* A5: 210mm - 0.25in top - 0.3in bottom */
+    overflow: hidden;
+  }
+  .page:last-child { page-break-after: avoid; }
+
+  /* ---- Page furniture: folio + running header ---- */
+  .page-folio {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: var(--anchor);
+    font-size: 6.5pt;
+    color: var(--muted);
+  }
+  .page-header {
+    font-family: var(--anchor);
+    font-size: 6.5pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    color: var(--muted);
+    margin-bottom: 14pt;
+  }
+  .page-cover .page-folio,
+  .page-back .page-folio,
+  .page-divider .page-folio,
+  .page-cover .page-header,
+  .page-back .page-header { display: none; }
+
+  /* ---- Shared section header ---- */
+  .section-header {
+    font-family: var(--hero);
+    font-size: 13pt;
+    font-weight: 400;
+    margin-bottom: 4pt;
+    padding-bottom: 3pt;
+    border-bottom: 0.5pt solid var(--rule);
+  }
+  .page-day .section-header {
+    font-size: 16pt;
+    margin-bottom: 6pt;
+    padding-bottom: 4pt;
+  }
+
+  /* ---- Section divider pages ---- */
+  .page-divider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 7.0in;
+  }
+  .page-divider .divider-title {
+    font-family: var(--hero);
+    font-size: 20pt;
+    font-weight: 400;
+    letter-spacing: -0.3pt;
+    margin-bottom: 6pt;
+  }
+  .page-divider .divider-rule {
+    width: 30pt;
+    height: 0.5pt;
+    background: var(--rule);
+    margin: 0 auto 8pt;
+  }
+  .page-divider .divider-sub {
+    font-family: var(--hero);
+    font-size: 8pt;
+    color: var(--muted);
+    font-style: italic;
+    max-width: 3in;
+    line-height: 1.5;
+  }
+
+  /* ---- COVER ---- */
+  .page-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 7.0in;
+  }
+  .page-cover h1 {
+    font-family: var(--hero);
+    font-size: 22pt;
+    font-weight: 400;
+    letter-spacing: -0.5pt;
+    margin-bottom: 6pt;
+  }
+  .page-cover .week-range {
+    font-family: var(--anchor);
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+    color: var(--muted);
+    margin-bottom: 20pt;
+  }
+  .page-cover .divider {
+    width: 36pt;
+    height: 0.5pt;
+    background: var(--rule);
+    margin: 0 auto 20pt;
+  }
+  .page-cover .highlight-text {
+    font-family: var(--hero);
+    font-style: italic;
+    font-size: 10pt;
+    color: var(--muted);
+    max-width: 3.2in;
+    line-height: 1.5;
+  }
+
+  /* ---- GLANCE ---- */
+  .page-glance {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .page-glance .page-header,
+  .page-glance .section-header,
+  .page-glance table {
+    width: 100%;
+  }
+  .page-glance table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 7.5pt;
+    margin: auto 0;   /* vertically center the table in remaining space */
+  }
+  .page-glance th {
+    font-family: var(--anchor);
+    text-align: left;
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    color: var(--muted);
+    padding: 3pt 3pt;
+    border-bottom: 0.5pt solid var(--ink);
+  }
+  .page-glance td {
+    font-family: var(--narrative);
+    padding: 4pt 3pt;
+    border-bottom: 0.5pt solid var(--rule);
+    vertical-align: top;
+  }
+  .page-glance .day-name {
+    font-family: var(--anchor);
+    font-weight: 600;
+    font-size: 7pt;
+  }
+  .page-glance .day-weather {
+    font-family: var(--anchor);
+    font-size: 5.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    color: var(--ochre);
+    margin-top: 1pt;
+  }
+
+  /* ---- DAY PAGES ---- */
+  .page-day .day-intro {
+    font-family: var(--narrative);
+    font-style: italic;
+    font-size: 8.5pt;
+    color: var(--muted);
+    margin: 4pt 10% 8pt 10%;
+    line-height: 1.6;
+  }
+  .page-day .weather-line {
+    font-family: var(--anchor);
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--ochre);
+    text-align: right;
+    margin-bottom: 2pt;
+  }
+  .page-day .dinner-block {
+    margin-bottom: 6pt;
+    page-break-inside: avoid;
+  }
+  .page-day .dinner-name {
+    font-family: var(--hero);
+    font-size: 12pt;
+    font-weight: 400;
+    margin-bottom: 2pt;
+  }
+  .page-day .cuisine-label {
+    font-family: var(--anchor);
+    font-size: 6.5pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    color: var(--oxblood);
+    margin-bottom: 3pt;
+  }
+  .page-day .dinner-desc {
+    font-family: var(--narrative);
+    font-size: 9pt;
+    line-height: 1.6;
+    margin-bottom: 4pt;
+  }
+  .page-day .ingredients-line {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    color: var(--muted);
+    margin-bottom: 3pt;
+  }
+  .page-day .notes-line {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 3pt;
+  }
+  .page-day .album-block {
+    padding: 4pt 0 2pt;
+    margin: 2pt auto 2pt;
+    max-width: 75%;
+    text-align: center;
+    page-break-inside: avoid;
+  }
+  .page-day .album-anchor-rule {
+    width: 20pt;
+    height: 0.5pt;
+    background: var(--rule);
+    margin: 0 auto 2pt;
+  }
+  .page-day .album-artist {
+    font-family: var(--anchor);
+    font-size: 5.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.5pt;
+    color: var(--muted);
+    margin-bottom: 1pt;
+  }
+  .page-day .album-title {
+    font-family: var(--hero);
+    font-size: 9pt;
+    font-weight: 400;
+    color: var(--midnight);
+    margin-bottom: 2pt;
+  }
+  .page-day .album-info {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+    color: var(--ochre);
+    margin-bottom: 2pt;
+  }
+  .page-day .album-desc {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    line-height: 1.5;
+    margin-top: 1pt;
+    text-align: center;
+  }
+  .page-day .album-sonic {
+    font-family: var(--narrative);
+    font-size: 6.5pt;
+    color: var(--muted);
+    font-style: italic;
+    line-height: 1.5;
+    margin-top: 1pt;
+  }
+  .page-day .album-why {
+    font-family: var(--narrative);
+    font-size: 6.5pt;
+    font-style: italic;
+    color: var(--muted);
+    line-height: 1.5;
+    margin-top: 3pt;
+    padding-top: 2pt;
+  }
+  /* Chef's tips — inline labels, sage accent */
+  .page-day .elevation-block {
+    margin-top: 3pt;
+    padding-left: 6pt;
+    border-left: 1.5pt solid var(--sage);
+    page-break-inside: avoid;
+  }
+  .page-day .elevation-block h4 {
+    font-family: var(--anchor);
+    font-size: 5.5pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--sage);
+    font-weight: 600;
+    margin-bottom: 1pt;
+  }
+  .page-day .elevation-tip {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    line-height: 1.45;
+    margin-bottom: 1pt;
+  }
+  .page-day .elevation-tip .tip-label {
+    font-family: var(--anchor);
+    font-size: 5.5pt;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    color: var(--sage);
+    font-weight: 600;
+  }
+  .weather-emoji-print { font-size: 8pt; }
+
+  /* ---- Evening page (page 2 of spread) — generous spacing ---- */
+  .page-day-right .elevation-block {
+    margin-top: 0;
+    padding-left: 8pt;
+    border-left: 2pt solid var(--sage);
+  }
+  .page-day-right .elevation-block h4 {
+    font-size: 6.5pt;
+    letter-spacing: 2pt;
+    margin-bottom: 3pt;
+  }
+  .page-day-right .elevation-tip {
+    font-size: 8.5pt;
+    line-height: 1.6;
+    margin-bottom: 6pt;
+  }
+  .page-day-right .elevation-tip .tip-label {
+    font-size: 6.5pt;
+    letter-spacing: 1.5pt;
+  }
+  .page-day-right .album-block {
+    padding: 10pt 0 4pt;
+    margin: 16pt auto 4pt;
+    max-width: 75%;
+  }
+  .page-day-right .album-anchor-rule {
+    margin: 0 auto 6pt;
+  }
+  .page-day-right .album-artist {
+    font-size: 6.5pt;
+    letter-spacing: 3pt;
+    margin-bottom: 2pt;
+  }
+  .page-day-right .album-title {
+    font-size: 11pt;
+    margin-bottom: 3pt;
+  }
+  .page-day-right .album-info {
+    font-size: 7pt;
+    letter-spacing: 3pt;
+    margin-bottom: 4pt;
+  }
+  .page-day-right .album-desc {
+    font-size: 8pt;
+    line-height: 1.7;
+    margin-top: 3pt;
+  }
+  .page-day-right .album-sonic {
+    font-size: 7.5pt;
+    line-height: 1.7;
+    margin-top: 2pt;
+  }
+  .page-day-right .album-why {
+    font-size: 7.5pt;
+    line-height: 1.7;
+    margin-top: 6pt;
+    padding-top: 4pt;
+  }
+
+  /* ---- Conversation starter (below dinner on left page) ---- */
+  .page-day-left .conversation-block {
+    margin: 6pt 0 4pt;
+    padding: 4pt 8pt;
+    border-left: 2pt solid var(--ochre);
+  }
+  .page-day-left .conversation-block h4 {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    color: var(--ochre);
+    font-weight: 600;
+    margin: 0 0 2pt;
+  }
+  .page-day-left .conversation-question {
+    font-family: var(--narrative);
+    font-size: 8.5pt;
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--ink);
+  }
+  .page-day-left .conversation-why {
+    font-family: var(--narrative);
+    font-size: 6.5pt;
+    line-height: 1.4;
+    color: var(--muted);
+    margin-top: 2pt;
+  }
+
+  /* Calendar engagements — hanging indent gutter */
+  .page-day .calendar-block {
+    margin-bottom: 3pt;
+    padding: 2pt 0;
+  }
+  .page-day .engagement-row {
+    display: flex;
+    align-items: baseline;
+    padding: 1pt 0;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .page-day .engagement-time {
+    font-family: var(--anchor);
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    color: var(--oxblood);
+    flex-shrink: 0;
+    min-width: 72pt;
+    text-align: right;
+    padding-right: 5pt;
+  }
+  .page-day .engagement-rule {
+    width: 0.5pt;
+    align-self: stretch;
+    background: var(--rule);
+    flex-shrink: 0;
+  }
+  .page-day .engagement-event {
+    font-family: var(--anchor);
+    font-size: 7.5pt;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    color: var(--ink);
+    padding-left: 5pt;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .page-day .prep-block {
+    margin-top: 5pt;
+    padding-top: 3pt;
+    border-top: 0.5pt solid var(--rule);
+    page-break-inside: avoid;
+  }
+  .page-day .prep-block h4 {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--sage);
+    font-weight: 600;
+    margin-bottom: 2pt;
+  }
+  .page-day .prep-block li {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    margin-left: 12pt;
+    margin-bottom: 1pt;
+    line-height: 1.4;
+  }
+
+  /* ---- SUPPORT PAGES (appetizers, salads, beverages) ---- */
+  .page-support h3 {
+    font-family: var(--hero);
+    font-size: 9.5pt;
+    font-weight: 400;
+    margin: 6pt 0 2pt;
+  }
+  .page-support p {
+    font-family: var(--narrative);
+    font-size: 8pt;
+    line-height: 1.45;
+    margin-bottom: 2pt;
+  }
+  .page-support .salad-entry {
+    margin-bottom: 8pt;
+    padding-bottom: 5pt;
+    border-bottom: 0.5pt solid var(--rule);
+    page-break-inside: avoid;
+  }
+  .page-support .type-label {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--oxblood);
+  }
+  .page-support .dressing-box {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    padding: 3pt 0;
+    color: var(--muted);
+    margin: 3pt 0;
+  }
+  .page-support .rationale {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    font-style: italic;
+    color: var(--muted);
+  }
+  .page-support li {
+    font-family: var(--narrative);
+    font-size: 8.5pt;
+    margin-left: 12pt;
+    margin-bottom: 2pt;
+    line-height: 1.4;
+  }
+
+  /* ---- GROCERY ---- */
+  .page-grocery .grocery-cols {
+    columns: 2;
+    column-gap: 14pt;
+  }
+  .page-grocery .g-cat {
+    break-inside: avoid;
+    margin-bottom: 6pt;
+  }
+  .page-grocery .g-cat h4 {
+    font-family: var(--anchor);
+    font-size: 6.5pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    margin-bottom: 2pt;
+    color: var(--sage);
+    font-weight: 600;
+  }
+  .page-grocery .g-cat li {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    margin-left: 10pt;
+    margin-bottom: 1pt;
+    line-height: 1.4;
+  }
+  .page-grocery .prep-list {
+    margin-top: 8pt;
+    padding-top: 6pt;
+    border-top: 0.5pt solid var(--rule);
+  }
+  .page-grocery .prep-list h3 {
+    font-family: var(--anchor);
+    font-size: 8pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--muted);
+    margin-bottom: 4pt;
+  }
+  .page-grocery .prep-list li {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    margin-left: 10pt;
+    margin-bottom: 2pt;
+    list-style: none;
+    line-height: 1.4;
+  }
+  .page-grocery .prep-list li::before {
+    content: "☐ ";
+    color: var(--muted);
+  }
+
+  /* ---- EXTRA SECTIONS ---- */
+  .page-extra .extra-content {
+    font-family: var(--narrative);
+    font-size: 8.5pt;
+    line-height: 1.5;
+  }
+
+  /* ---- NEWSLETTER (The Weekly Read) ---- */
+  .page-newsletter {
+    font-size: 8.5pt;
+    line-height: 1.45;
+  }
+  .page-newsletter .cluster-theme {
+    font-family: var(--narrative);
+    font-size: 11pt;
+    font-weight: 400;
+    color: var(--ink);
+    margin: 8pt 0 4pt 0;
+    border-bottom: 0.5pt solid var(--rule);
+    padding-bottom: 2pt;
+  }
+  .page-newsletter .cluster-synthesis {
+    font-family: var(--narrative);
+    font-size: 8.5pt;
+    line-height: 1.5;
+    margin-bottom: 6pt;
+    text-align: justify;
+  }
+  .page-newsletter .article-list {
+    margin: 0 0 6pt 0;
+    padding: 0;
+    list-style: none;
+  }
+  .page-newsletter .article-list li {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    margin-bottom: 3pt;
+    padding-left: 8pt;
+    text-indent: -8pt;
+    line-height: 1.4;
+  }
+  .page-newsletter .article-list li .article-title {
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .page-newsletter .article-list li .article-tags {
+    font-style: italic;
+    color: var(--muted);
+    font-size: 6.5pt;
+  }
+  .page-newsletter .article-list li .article-oneliner {
+    color: var(--muted);
+    font-size: 7pt;
+    display: block;
+    padding-left: 8pt;
+  }
+  .page-newsletter .through-line {
+    font-family: var(--narrative);
+    font-style: italic;
+    font-size: 8pt;
+    color: var(--muted);
+    border-left: 2pt solid var(--ochre);
+    padding-left: 8pt;
+    margin: 6pt 0;
+  }
+  .page-newsletter .fun-section {
+    padding: 6pt 0;
+    margin-top: 6pt;
+    border-top: 0.5pt solid var(--rule);
+  }
+  .page-newsletter .fun-section h3 {
+    font-family: var(--hero);
+    font-size: 9pt;
+    font-weight: 400;
+    color: var(--ink);
+    margin-bottom: 3pt;
+  }
+  .page-newsletter .fun-section p {
+    font-family: var(--narrative);
+    font-size: 8pt;
+    margin-bottom: 2pt;
+    line-height: 1.5;
+  }
+  .page-newsletter .fun-section .fun-source {
+    font-family: var(--anchor);
+    font-size: 6.5pt;
+    color: var(--muted);
+    font-style: italic;
+  }
+  .page-newsletter .newsletter-footer {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    color: var(--muted);
+    text-align: center;
+    margin-top: 8pt;
+    font-style: italic;
+  }
+
+  /* ---- PARENTING ---- */
+  .page-parenting .theme-banner {
+    padding: 5pt 0;
+    margin-bottom: 6pt;
+    border-bottom: 0.5pt solid var(--rule);
+  }
+  .page-parenting .theme-banner h3 {
+    font-family: var(--hero);
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 2pt;
+  }
+  .page-parenting .theme-banner p {
+    font-family: var(--hero);
+    font-size: 7.5pt;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .page-parenting .question-entry {
+    padding: 2pt 0;
+    border-bottom: 0.5pt solid var(--rule);
+    page-break-inside: avoid;
+  }
+  .page-parenting .question-day {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--ochre);
+    font-weight: 600;
+  }
+  .page-parenting .question-text {
+    font-family: var(--hero);
+    font-size: 8.5pt;
+    font-style: italic;
+    margin: 1pt 0;
+    line-height: 1.4;
+  }
+  .page-parenting .question-why {
+    font-family: var(--narrative);
+    font-size: 6.5pt;
+    color: var(--muted);
+  }
+  .page-parenting .nudge-card {
+    padding: 3pt 0;
+    border-bottom: 0.5pt solid var(--rule);
+    margin-bottom: 3pt;
+    page-break-inside: avoid;
+  }
+  .page-parenting .nudge-card h4 {
+    font-family: var(--hero);
+    font-size: 8.5pt;
+    font-weight: 400;
+    margin-bottom: 1pt;
+  }
+  .page-parenting .nudge-card p {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    line-height: 1.4;
+  }
+  .page-parenting .nudge-steps {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    margin-top: 2pt;
+    padding-left: 10pt;
+    line-height: 1.4;
+  }
+  .page-parenting .nudge-steps li { margin-bottom: 1pt; }
+  .page-parenting .reflection-box {
+    border-left: 2pt solid var(--ochre);
+    padding: 3pt 0 3pt 8pt;
+    font-family: var(--narrative);
+    font-style: italic;
+    font-size: 7.5pt;
+    margin-top: 4pt;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+  .page-parenting .book-rec {
+    padding: 3pt 0;
+    border-top: 0.5pt solid var(--rule);
+    margin-top: 4pt;
+    page-break-inside: avoid;
+  }
+  .page-parenting .book-rec h4 {
+    font-family: var(--hero);
+    font-size: 8.5pt;
+    font-weight: 400;
+    margin-bottom: 1pt;
+  }
+  .page-parenting .book-rec p {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+
+  /* ---- STOIC GUIDE ---- */
+  .page-stoic {
+    font-size: 8pt;
+    line-height: 1.45;
+  }
+  .page-stoic .stoic-theme-banner {
+    padding: 6pt 0;
+    margin-bottom: 6pt;
+    border-bottom: 0.5pt solid var(--rule);
+  }
+  .page-stoic .stoic-theme-banner h3 {
+    font-family: var(--hero);
+    font-size: 11pt;
+    font-weight: 400;
+    margin-bottom: 2pt;
+  }
+  .page-stoic .stoic-theme-banner .stoic-category {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--muted);
+  }
+  .page-stoic .stoic-theme-banner p {
+    font-family: var(--hero);
+    font-size: 7.5pt;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .page-stoic .anchor-quote {
+    border-left: 2pt solid var(--rule);
+    padding: 4pt 0 4pt 8pt;
+    margin: 6pt 0;
+    font-family: var(--narrative);
+    font-style: italic;
+    font-size: 8pt;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .page-stoic .anchor-quote .quote-source {
+    display: block;
+    font-style: normal;
+    font-family: var(--anchor);
+    font-size: 6.5pt;
+    color: var(--muted);
+    margin-top: 2pt;
+  }
+  .page-stoic .stoic-intro {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    margin-bottom: 6pt;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .page-stoic .meditation-entry {
+    padding: 4pt 0;
+    border-bottom: 0.5pt solid var(--rule);
+  }
+  .page-stoic .meditation-entry:last-child { border-bottom: none; }
+  .page-stoic .meditation-title {
+    font-family: var(--narrative);
+    font-weight: 400;
+    font-size: 8pt;
+  }
+  .page-stoic .meditation-day {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    color: var(--ochre);
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+  }
+  .page-stoic .meditation-reflection {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    color: var(--muted);
+    margin: 2pt 0;
+    line-height: 1.5;
+  }
+  .page-stoic .meditation-prompt {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    color: var(--muted);
+    font-style: italic;
+  }
+  .page-stoic .meditation-secondary-quote {
+    font-family: var(--narrative);
+    font-size: 6.5pt;
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 2pt;
+  }
+  .page-stoic .stoic-exercise {
+    padding: 5pt 0;
+    margin: 6pt 0;
+    border-top: 0.5pt solid var(--rule);
+  }
+  .page-stoic .stoic-exercise h4 {
+    font-family: var(--hero);
+    font-size: 8.5pt;
+    font-weight: 400;
+    margin-bottom: 2pt;
+  }
+  .page-stoic .stoic-exercise p {
+    font-family: var(--hero);
+    font-size: 7.5pt;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .page-stoic .young-stoic {
+    padding: 5pt 0 5pt 8pt;
+    margin: 6pt 0;
+    border-left: 2pt solid var(--ochre);
+  }
+  .page-stoic .young-stoic h4 {
+    font-family: var(--narrative);
+    font-size: 8.5pt;
+    font-weight: 400;
+    margin-bottom: 2pt;
+  }
+  .page-stoic .young-stoic p {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .page-stoic .closing-thought {
+    text-align: center;
+    font-family: var(--narrative);
+    font-style: italic;
+    font-size: 8pt;
+    color: var(--muted);
+    margin-top: 8pt;
+    padding-top: 4pt;
+    border-top: 0.5pt solid var(--rule);
+  }
+
+  /* ---- BACK COVER ---- */
+  .page-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20pt;
+    height: 7.71in;  /* A5 */
+    text-align: center;
+  }
+  .page-back .back-inner {
+    max-width: 4.2in;
+    margin: 0 auto;
+  }
+  /* ---- Story section ---- */
+  .page-back .story-section {
+    text-align: left;
+    margin-bottom: 10pt;
+  }
+  .page-back .story-title {
+    font-family: var(--hero);
+    font-size: 11pt;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 8pt;
+    padding-bottom: 4pt;
+    color: var(--ink);
+  }
+  .page-back .story-text {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    line-height: 1.65;
+    color: var(--ink);
+    text-align: justify;
+  }
+  .page-back .story-text p {
+    margin-bottom: 4pt;
+  }
+  .page-back .story-prompt {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    font-style: italic;
+    color: var(--ochre);
+    margin-top: 8pt;
+    text-align: center;
+  }
+  .page-back .notes-section {
+    text-align: left;
+    margin-bottom: 14pt;
+  }
+  .page-back .notes-section h3 {
+    font-family: var(--hero);
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 4pt;
+    padding-bottom: 3pt;
+    border-bottom: 0.5pt solid var(--rule);
+  }
+  .page-back .notes-section li {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    margin-left: 10pt;
+    margin-bottom: 2pt;
+    text-align: left;
+    line-height: 1.4;
+  }
+  .page-back .nutrition {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    color: var(--muted);
+    margin-bottom: 14pt;
+    padding: 6pt 0;
+    border-top: 0.5pt solid var(--rule);
+    text-align: left;
+    line-height: 1.5;
+  }
+  .page-back .nutrition strong {
+    display: block;
+    font-family: var(--anchor);
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    margin-bottom: 3pt;
+    color: var(--sage);
+    font-weight: 600;
+  }
+  .page-back .back-divider {
+    width: 30pt;
+    height: 0.5pt;
+    background: var(--rule);
+    margin: 12pt auto;
+  }
+  .page-back .colophon {
+    font-family: var(--anchor);
+    font-size: 6.5pt;
+    color: var(--muted);
+    font-style: italic;
+    letter-spacing: 0.5pt;
+  }
+}
+
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+<div class="page page-cover">
+  <h1>Weekly Planner</h1>
+  <div class="week-range">February 15 - February 21, 2026</div>
+  <div class="divider"></div>
+  
+  <div class="highlight-text">From the Sandia Mountains to fresh sourdough on Saturday — a week that trades desert adventure for the deep comfort of coming home.</div>
+  
+</div>
+
+
+<div class="page page-glance">
+  <div class="page-header">Overview</div>
+  <h2 class="section-header">Week at a Glance</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Events</th>
+        <th>Dinner</th>
+        <th>Album</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="day-name">Sun 02/15<div class="day-weather">Rain 47°/34°</div></td>
+        <td>Traveling in Albuquerque</td>
+        <td>Taco Salad at the Range</td>
+        <td>Khruangbin – A La Sala</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Mon 02/16<div class="day-weather">Dense drizzle 45°/32°</div></td>
+        <td>Presidents' Day - Albuquerque</td>
+        <td>Birria Pizza at La Guelaguetza</td>
+        <td>Imarhan – Essam</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Tue 02/17<div class="day-weather">Fog 50°/31°</div></td>
+        <td>Travel day - ABQ to Dulles (arrive 11pm); On-call IM rotation begins; Swim lessons (evening); MDE Shiproom 10:10am; SCIP Livesite Review 12:10pm; On-Call Handoff 1:35pm</td>
+        <td>Airport food (travel day)</td>
+        <td>Puma Blue – Croak Dream</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Wed 02/18<div class="day-weather">Fog 61°/42°</div></td>
+        <td>Elsie early release - over to Secret Kristens house; Org structure meeting 11:10am; AI Agent Launchpad 12pm; Hot Dogs sync 12:40pm; Standup 1:35pm; Talks & Taps 3-5pm; Office Hours 4:10pm; MTP Happy Hour 4:30-6pm</td>
+        <td>Winter Kale Caesar with Roasted Chickpeas & Shaved Parmesan</td>
+        <td>NEIL FRANCES – There Is No Runaway</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Thu 02/19<div class="day-weather">Rain 58°/45°</div></td>
+        <td>HOLD Demo Day dry run 10:35am; SkillUp AI 12pm; AI Pair Session 12:35pm; Standup + Drills 1:35pm; 1:1 Dan/CJ 3:05pm</td>
+        <td>Pan-Seared Pork Chops with Mushroom Cream Sauce</td>
+        <td>Franc Moody – Chewing The Fat</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Fri 02/20<div class="day-weather">Rain 64°/44°</div></td>
+        <td>Elsie YAT 4:30-6:00 PM; Kim Waters at Blues Alley (evening)</td>
+        <td>Roasted Branzino with Cherry Tomatoes, Lemon & Capers</td>
+        <td>Ichiko Aoba – Windswept Adan</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Sat 02/21<div class="day-weather">Overcast 49°/40°</div></td>
+        <td>Fresh sourdough bread day</td>
+        <td>Braised White Beans with Winter Greens & Sourdough Toast</td>
+        <td>Ye Vagabonds – All Tied Together</td>
+      </tr>
+      
+    </tbody>
+  </table>
+  <div class="page-folio">2</div>
+</div>
+
+
+<div class="page page-divider">
+  <div class="divider-title">Daily Plan</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">From Southwestern to Tuscan, with Khruangbin on the stereo</div>
+  <div class="page-folio">3</div>
+</div>
+
+
+
+
+<div class="page page-day page-day-left">
+  <div class="page-header">Daily Plan</div>
+  
+  <div class="weather-line">Rain 47°/34° · likely rain</div>
+  
+  <h2 class="section-header">Sunday, February 15</h2>
+
+  
+  <div class="calendar-block">
+    
+    <div class="engagement-row">
+      <span class="engagement-time"></span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">Traveling in Albuquerque</span>
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="day-intro">Light rain over the Sandias and 47°F — your last full day in Albuquerque. No cooking tonight; just soak up the mountains and let the Range Cafe handle dinner.</div>
+  
+
+  
+  <div class="dinner-block">
+    <div class="dinner-name">Taco Salad at the Range</div>
+    <div class="cuisine-label">Southwestern</div>
+    <div class="dinner-desc">The Range Cafe has been an Albuquerque institution since 1992, born in a converted gas station in Bernalillo. Their New Mexico taco salad arrives in a crispy tortilla bowl piled with black beans, guacamole, white cheddar, and your choice of protein — generous, colorful, and unmistakably Southwest.</div>
+    
+    <div class="ingredients-line">ground beef, lettuce, tomato, cheese, tortilla bowl, salsa, sour cream</div>
+    
+    <div class="notes-line">Eating out — no cooking needed. Save room; portions are famously large.</div>
+  </div>
+  
+
+  
+
+  <div class="page-folio">4</div>
+</div>
+
+
+<div class="page page-day page-day-right">
+  <div class="page-header">Sunday, February 15</div>
+
+  
+
+  
+  <div class="album-block">
+    <div class="album-anchor-rule"></div>
+    <div class="album-artist">Khruangbin</div>
+    <div class="album-title">A La Sala</div>
+    <div class="album-info">2024 · Psychedelic Soul, Global Funk · Laid-back, groovy, hypnotic</div>
+    <div class="album-desc">Khruangbin’s 2024 fourth album — “to the living room” in Spanish — is a homecoming record, self-produced by the Houston trio with no outside collaborators. Global psychedelia filtered through spaghetti-western guitar and unhurried dub grooves.</div>
+    <div class="album-sonic">Surf guitar, deep bass, sparse drums, global influences spanning Thai funk to Jamaican dub</div>
+    <div class="album-why">Desert-tinged grooves for a desert Sunday. Khruangbin’s spacious, unhurried sound mirrors the pace of a last vacation day.</div>
+  </div>
+  
+
+  <div class="page-folio">5</div>
+</div>
+
+
+<div class="page page-day page-day-left">
+  <div class="page-header">Daily Plan</div>
+  
+  <div class="weather-line">Dense drizzle 45°/32° · coldest day, chance of rain</div>
+  
+  <h2 class="section-header">Monday, February 16</h2>
+
+  
+  <div class="calendar-block">
+    
+    <div class="engagement-row">
+      <span class="engagement-time"></span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">Presidents' Day - Albuquerque</span>
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="day-intro">Presidents’ Day drizzle in ABQ, 45°F. One more Albuquerque meal before you head home — make it count with something you can’t get in Virginia.</div>
+  
+
+  
+  <div class="dinner-block">
+    <div class="dinner-name">Birria Pizza at La Guelaguetza</div>
+    <div class="cuisine-label">Mexican-Oaxacan</div>
+    <div class="dinner-desc">La Guelaguetza is run by the Salazar brothers from Oaxaca’s Mixteca region — named for the Zapotec festival of reciprocal giving. Their birria pizza is a two-pound feat of engineering: flour tortillas stuffed with slow-braised beef and melted cheese, cut into wedges and served with rich consommé for dipping.</div>
+    
+    <div class="ingredients-line">birria, pizza dough, mozzarella, onion, cilantro, consommé</div>
+    
+    <div class="notes-line">Eating out — no cooking needed. Order one birria pizza to share; it’s enormous.</div>
+  </div>
+  
+
+  
+
+  <div class="page-folio">6</div>
+</div>
+
+
+<div class="page page-day page-day-right">
+  <div class="page-header">Monday, February 16</div>
+
+  
+
+  
+  <div class="album-block">
+    <div class="album-anchor-rule"></div>
+    <div class="album-artist">Imarhan</div>
+    <div class="album-title">Essam</div>
+    <div class="album-info">2025 · Tishoumaren, Desert Blues · Warm, entrancing, rhythmic</div>
+    <div class="album-desc">Tuareg desert blues from southern Algeria. Imarhan blend hypnotic electric guitar patterns with Saharan rhythms and Tamashek lyrics — music forged in the same kind of arid, ancient landscape you’ve been exploring all weekend.</div>
+    <div class="album-sonic">Tishoumaren guitar, pentatonic melodies, polyrhythmic percussion, call-and-response vocals</div>
+    <div class="album-why">Desert blues meeting Oaxacan birria — two traditions from arid lands, connected by warmth and spice.</div>
+  </div>
+  
+
+  <div class="page-folio">7</div>
+</div>
+
+
+<div class="page page-day page-day-left">
+  <div class="page-header">Daily Plan</div>
+  
+  <div class="weather-line">Fog 50°/31°</div>
+  
+  <h2 class="section-header">Tuesday, February 17</h2>
+
+  
+  <div class="calendar-block">
+    
+    <div class="engagement-row">
+      <span class="engagement-time"></span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">Travel day - ABQ to Dulles</span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time"></span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">On-call IM rotation begins</span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time">EVENING</span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">Swim lessons</span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time">10:10AM</span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">MDE Shiproom</span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time">12:10PM</span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">SCIP Livesite Review</span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time">1:35PM</span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">On-Call Handoff</span>
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="day-intro">The long haul home. Fog at 50°F, meetings stacked even on travel day, and an 11pm arrival at Dulles. On-call rotation starts now — keep it simple.</div>
+  
+
+  
+  <div class="dinner-block">
+    <div class="dinner-name">Airport food (travel day)</div>
+    <div class="cuisine-label">Various</div>
+    <div class="dinner-desc">Airport food: whatever looks edible at the gate. Travel day means convenience over cuisine. You’ll be home by midnight.</div>
+    
+    <div class="notes-line">Grab-and-go. Hydrate well — it’s been a dry-climate week.</div>
+  </div>
+  
+
+  
+
+  <div class="page-folio">8</div>
+</div>
+
+
+<div class="page page-day page-day-right">
+  <div class="page-header">Tuesday, February 17</div>
+
+  
+
+  
+  <div class="album-block">
+    <div class="album-anchor-rule"></div>
+    <div class="album-artist">Puma Blue</div>
+    <div class="album-title">Croak Dream</div>
+    <div class="album-info">2025 · Trip-Hop, Alternative R&B · Nocturnal, hazy, melancholic</div>
+    <div class="album-desc">London artist Jacob Allen recorded this album straight to tape at Peter Gabriel’s Real World Studios with producer Sam Petts-Davies (The Smile, Frank Ocean). Trip-hop, downtempo jazz, and spectral R&B blur into something nocturnal and intimate.</div>
+    <div class="album-sonic">Trip-hop beats, jazz guitar, baritone vocals, ambient textures</div>
+    <div class="album-why">Puma Blue’s foggy, late-night atmosphere is exactly right for airport haze and a midnight arrival.</div>
+  </div>
+  
+
+  <div class="page-folio">9</div>
+</div>
+
+
+<div class="page page-day page-day-left">
+  <div class="page-header">Daily Plan</div>
+  
+  <div class="weather-line">Fog 61°/42°</div>
+  
+  <h2 class="section-header">Wednesday, February 18</h2>
+
+  
+  <div class="calendar-block">
+    
+    <div class="engagement-row">
+      <span class="engagement-time"></span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event"></span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time"></span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event"></span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time"></span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event"></span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time"></span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event"></span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time"></span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event"></span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time"></span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event"></span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time"></span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event"></span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time"></span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event"></span>
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="day-intro">First real day home, and Elsie gets out of school early — she’ll be at Secret Kristen’s for the afternoon. Fog lingers but a surprise 61°F feels practically like spring. A happy hour caps the workday, so dinner needs to be fast, light, and ready when everyone’s back.</div>
+  
+
+  
+  <div class="dinner-block">
+    <div class="dinner-name">Winter Kale Caesar with Roasted Chickpeas & Shaved Parmesan</div>
+    <div class="cuisine-label">American</div>
+    <div class="dinner-desc">A dinner-sized reinvention of the Caesar: sturdy lacinato kale massaged until tender, topped with smoky roasted chickpeas, toasted sourdough crumbs, shaved Parmesan, soft-boiled egg, and bright pickled onion. The homemade Caesar dressing pulls it together.</div>
+    
+    <div class="ingredients-line">lacinato kale, chickpeas, Parmesan, sourdough breadcrumbs, anchovy, lemon, garlic, olive oil, eggs, cherry tomatoes, red onion</div>
+    
+    <div class="notes-line">Roast chickpeas earlier in the day — they take 25 minutes and keep well. Assembly takes five minutes after happy hour.</div>
+  </div>
+  
+
+  
+  <div class="conversation-block">
+    <h4>At the Table</h4>
+    <div class="conversation-question">If Caesar salad was invented by a real person named Caesar, what food would you invent and name after yourself? What would the 'Elsie Special' have in it?</div>
+    <div class="conversation-why">Eight-year-olds are building a sense of identity and love the idea that they can leave a mark on the world. Naming a dish after herself invites creative thinking and a little pride — plus it makes kale feel less like a vegetable and more like a canvas.</div>
+  </div>
+  
+
+  <div class="page-folio">10</div>
+</div>
+
+
+<div class="page page-day page-day-right">
+  <div class="page-header">Wednesday, February 18</div>
+
+  
+  <div class="elevation-block">
+    <h4>Chef's Tips</h4>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">Technique</span> <strong>Massage the Kale Like You Mean It</strong> — Strip the Lacinato kale from its stems, slice into thin ribbons, then massage vigorously for two full minutes with a generous pinch of kosher salt and a thread of good olive oil. You'll feel the leaves soften and shrink by half — that's the cell walls breaking down, releasing bitterness and turning raw kale into something silky and sweet. Let it rest in the dressing for 10 minutes before plating so it drinks in every drop of that anchovy-lemon emulsion.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">Texture</span> <strong>Double-Roasted Chickpeas with Smoked Paprika</strong> — Drain and pat canned chickpeas bone-dry with paper towels — moisture is the enemy of crunch. Toss with olive oil, smoked paprika, garlic powder, and a pinch of cayenne, then spread on a sheet pan in a single layer. Roast at 425°F for 25 minutes, shaking once at the halfway mark. They're done when they rattle on the pan and sound hollow when tapped. Let them cool completely on the pan before adding to the salad — residual steam softens them, and you did not go through all that for a soggy chickpea.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">Sauce</span> <strong>Anchovy-Forward Caesar with Whole Egg Emulsion</strong> — Mince 4 oil-packed anchovy fillets into a paste with the flat of your knife, then whisk into a whole raw egg with two crushed garlic cloves, the juice of one lemon, a tablespoon of Dijon, and a generous shower of finely grated Parmigiano-Reggiano. Stream in olive oil slowly while whisking until you get a dressing thick enough to coat a spoon. The whole egg (not just yolk) gives you a lighter, more stable emulsion that clings to every kale ribbon without weighing it down. Taste it — it should be aggressively savory with a bright acid punch.
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="album-block">
+    <div class="album-anchor-rule"></div>
+    <div class="album-artist">NEIL FRANCES</div>
+    <div class="album-title">There Is No Runaway</div>
+    <div class="album-info">2023 · Indie-Soul / Electro-Funk · Bright, groovy, optimistic</div>
+    <div class="album-desc">LA-based indie-soul duo NEIL FRANCES blend synth-funk bass, disco guitars, and warm vocals into something irresistibly groovy. If you love Franc Moody, this is your next obsession — catchy hooks over deep grooves with a sunny, optimistic heart.</div>
+    <div class="album-sonic">Angular guitars, warm synths, art-pop arrangements, ethereal vocals</div>
+    <div class="album-why">First real dinner home deserves an album that feels like a warm welcome. Bright, danceable grooves match the spring-like 61°F and the crisp freshness of the kale Caesar.</div>
+  </div>
+  
+
+  <div class="page-folio">11</div>
+</div>
+
+
+<div class="page page-day page-day-left">
+  <div class="page-header">Daily Plan</div>
+  
+  <div class="weather-line">Rain 58°/45° · likely rain</div>
+  
+  <h2 class="section-header">Thursday, February 19</h2>
+
+  
+  <div class="calendar-block">
+    
+    <div class="engagement-row">
+      <span class="engagement-time">10:35AM</span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">HOLD Demo Day dry run</span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time"></span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">SkillUp AI 12pm</span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time">12:35PM</span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">AI Pair Session</span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time">1:35PM</span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">Standup + Drills</span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time">3:05PM</span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">1:1 Dan/CJ</span>
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="day-intro">Rain and 58°F, a full day of meetings, and then — Franc Moody at 9:30 Club tonight. Cook something rich and comforting before you head out.</div>
+  
+
+  
+  <div class="dinner-block">
+    <div class="dinner-name">Pan-Seared Pork Chops with Mushroom Cream Sauce</div>
+    <div class="cuisine-label">French-American</div>
+    <div class="dinner-desc">Thick bone-in pork chops seared golden in cast iron, finished in a velvety sauce of cremini and shiitake mushrooms, white wine, thyme, and cream. The kitchen smells like browning butter by 5pm.</div>
+    
+    <div class="ingredients-line">bone-in pork chops, cremini mushrooms, shiitake mushrooms, heavy cream, white wine, garlic, thyme, butter, potatoes</div>
+    
+    <div class="notes-line">Move chops to fridge Wednesday night. Pat dry before searing for the best crust.</div>
+  </div>
+  
+
+  
+  <div class="conversation-block">
+    <h4>At the Table</h4>
+    <div class="conversation-question">When we were hiking in the Sandia Mountains, what was a moment where you felt really brave or really small? Both are okay.</div>
+    <div class="conversation-why">Travel memories fade fast at this age unless someone helps her narrate them. This question gives Elsie permission to name a feeling — awe, fear, courage — and turns a family dinner into a shared story. Processing big landscapes helps build emotional vocabulary.</div>
+  </div>
+  
+
+  <div class="page-folio">12</div>
+</div>
+
+
+<div class="page page-day page-day-right">
+  <div class="page-header">Thursday, February 19</div>
+
+  
+  <div class="elevation-block">
+    <h4>Chef's Tips</h4>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">Technique</span> <strong>Dry Brine and Reverse the Sear</strong> — Season thick-cut, bone-in pork chops generously with kosher salt on all sides and set them uncovered on a wire rack in the refrigerator for at least 4 hours, ideally overnight. The salt draws moisture to the surface, which gets reabsorbed along with the seasoning — giving you deep flavor and a drier exterior that sears beautifully. When ready to cook, bring chops to room temperature for 30 minutes, then start them in a 275°F oven on a wire rack until they hit 120°F internal. Pull them, get your cast iron screaming hot with a film of canola oil, and sear 90 seconds per side. Rest tented in foil for 5 minutes. The result is edge-to-edge pink with a mahogany crust — no gray band of overcooked meat.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">Sauce</span> <strong>Cognac-Deglazed Mushroom Pan Sauce with Dijon Finish</strong> — After searing the chops, lower heat to medium and add a tablespoon of butter. Toss in a mix of sliced cremini and torn maitake mushrooms (or whatever browns are at the store) and cook without moving them for 3 minutes — you want color, not steam. Add minced shallot and two cloves of garlic, cook 1 minute, then hit the pan with 2 tablespoons of cognac and let it flame off or reduce fully. Deglaze with a splash of dry white wine, scraping every bit of fond from the iron. Add 3/4 cup heavy cream, a teaspoon of Dijon mustard, and fresh thyme leaves. Simmer until it coats the back of a spoon. Finish off-heat by swirling in a cold tablespoon of butter for gloss. Pour any resting juices from the chops back into the sauce before spooning it over.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">Temperature</span> <strong>Chilled Herb-Crème Fraîche Dollop</strong> — Mix 3 tablespoons of crème fraîche (or full-fat sour cream) with a teaspoon of lemon zest, minced chives, and cracked black pepper. Keep it cold in the fridge until plating. When you set the hot chop on the plate with the warm mushroom cream sauce, drop a cold spoonful of this right on top. The temperature contrast — hot cream sauce meeting cold, tangy crème fraîche — wakes up the palate and cuts through the richness. It melts slowly as you eat, creating a second wave of flavor.
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="album-block">
+    <div class="album-anchor-rule"></div>
+    <div class="album-artist">Franc Moody</div>
+    <div class="album-title">Chewing The Fat</div>
+    <div class="album-info">2025 · Funk, Disco, Neo-Soul · Peppy, danceable, infectious</div>
+    <div class="album-desc">Partly recorded at Damon Albarn's Studio 13 with rare Russian synths. Bass-driven funk-disco with new grit — and they're playing 9:30 Club tonight.</div>
+    <div class="album-sonic">Thick bass, disco beats, falsetto vocals, funky guitar, synth flourishes</div>
+    <div class="album-why">It's Franc Moody day — their peppy energy powers you through cooking and primes you for the show.</div>
+  </div>
+  
+
+  <div class="page-folio">13</div>
+</div>
+
+
+<div class="page page-day page-day-left">
+  <div class="page-header">Daily Plan</div>
+  
+  <div class="weather-line">Rain 64°/44° · warmest day, gusty, likely rain</div>
+  
+  <h2 class="section-header">Friday, February 20</h2>
+
+  
+  <div class="calendar-block">
+    
+    <div class="engagement-row">
+      <span class="engagement-time">4:30-6:00 PM</span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">Elsie YAT</span>
+    </div>
+    
+    <div class="engagement-row">
+      <span class="engagement-time">EVENING</span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">Kim Waters at Blues Alley</span>
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="day-intro">Rain again at 64°F — the warmest day of the week. Elsie has YAT until 6pm, so prep the fish before pickup and roast it the moment you’re home. Twenty minutes, done.</div>
+  
+
+  
+  <div class="dinner-block">
+    <div class="dinner-name">Roasted Branzino with Cherry Tomatoes, Lemon & Capers</div>
+    <div class="cuisine-label">Mediterranean</div>
+    <div class="dinner-desc">Whole branzino scored and stuffed with lemon slices, garlic, and fresh herbs, roasted at 425°F on a bed of burst cherry tomatoes and briny capers. A staple of Mediterranean coastal cooking — crispy skin, flaky flesh, and a bright lemon-caper sauce spooned over the top.</div>
+    
+    <div class="ingredients-line">whole branzino, cherry tomatoes, lemon, capers, garlic, fresh dill, thyme, olive oil</div>
+    
+    <div class="notes-line">Prep and stuff the fish before YAT pickup. Pop in oven when home — 20 minutes at 425°F. Fast, elegant, impressive.</div>
+  </div>
+  
+
+  
+  <div class="conversation-block">
+    <h4>At the Table</h4>
+    <div class="conversation-question">This fish lived in the sea before it came to our plate. If you could breathe underwater for one day, where would you swim and what do you think you'd find?</div>
+    <div class="conversation-why">Branzino is an unfamiliar protein for most kids — linking it to an underwater adventure reframes it from 'weird fish' to a gateway for wonder. Hypothetical questions like this exercise perspective-taking and creative reasoning, both of which are blooming at age eight.</div>
+  </div>
+  
+
+  <div class="page-folio">14</div>
+</div>
+
+
+<div class="page page-day page-day-right">
+  <div class="page-header">Friday, February 20</div>
+
+  
+  <div class="elevation-block">
+    <h4>Chef's Tips</h4>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">Technique</span> <strong>Score, Stuff, and Pre-Sear the Skin</strong> — Make 3 diagonal slashes on each side of the whole branzino, cutting down to the bone — this lets heat and seasoning penetrate evenly and prevents the skin from buckling. Stuff the cavity with thin lemon rounds, a few crushed garlic cloves, and sprigs of fresh thyme and flat-leaf parsley. Before roasting, get a stainless or cast-iron pan ripping hot with a thin layer of olive oil and sear the fish for 2 minutes per side until the skin is golden and blistered. Then transfer to a sheet pan surrounded by halved cherry tomatoes and roast at 425°F for 12-15 minutes. The pre-sear gives you restaurant-crispy skin that the oven alone can never achieve.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">Sauce</span> <strong>Warm Lemon-Caper Brown Butter</strong> — In a small saucepan, melt 4 tablespoons of unsalted butter over medium heat, swirling constantly. Watch it like it owes you money — it goes from golden to burnt in seconds. When the milk solids turn hazelnut-brown and it smells nutty, immediately add 2 tablespoons of drained capers (they'll sputter and crisp in the hot fat), a minced garlic clove, and the juice of half a lemon. Swirl to combine and pull off heat. The capers fry in the brown butter and turn into crispy, salty little gems. Spoon this over the roasted fish right before serving — the warm brown butter pools into the scored flesh while the fried capers add pops of salt and crunch against the tender, flaky branzino.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">Texture</span> <strong>Blistered Tomatoes with Raw Fennel Shave</strong> — Toss the cherry tomatoes with olive oil and a pinch of sugar before roasting alongside the fish — the sugar accelerates caramelization and concentrates their sweetness. Once plated, scatter paper-thin raw fennel shavings (use a mandoline or a sharp knife and patience) and a handful of torn fresh basil over the top. The contrast of jammy, blistered tomatoes against cool, crisp, anise-scented fennel gives the dish a dimension that cooked-on-cooked never achieves. Finish with flaky Maldon salt and a thread of your best olive oil.
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="album-block">
+    <div class="album-anchor-rule"></div>
+    <div class="album-artist">Ichiko Aoba</div>
+    <div class="album-title">Windswept Adan</div>
+    <div class="album-info">2020 · Japanese Folk, Ambient · Serene, contemplative, floating</div>
+    <div class="album-desc">Ichiko Aoba’s seventh album is a soundtrack for an imaginary film — the story of a girl sent to an island with no spoken language, inspired by Aoba’s travels to Japan’s Ryukyu Islands. Orchestral folk-ambient with crystalline vocals and field recordings of wind and water.</div>
+    <div class="album-sonic">Fingerpicked classical guitar, layered vocals, ambient orchestration, field recordings</div>
+    <div class="album-why">Aoba’s oceanic folk is the perfect companion for whole roasted fish — both are delicate, beautiful, and reward your full attention.</div>
+  </div>
+  
+
+  <div class="page-folio">15</div>
+</div>
+
+
+<div class="page page-day page-day-left">
+  <div class="page-header">Daily Plan</div>
+  
+  <div class="weather-line">Overcast 49°/40° · gusty</div>
+  
+  <h2 class="section-header">Saturday, February 21</h2>
+
+  
+  <div class="calendar-block">
+    
+    <div class="engagement-row">
+      <span class="engagement-time"></span>
+      <span class="engagement-rule"></span>
+      <span class="engagement-event">Fresh sourdough bread day</span>
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="day-intro">Overcast and 49°F. The week exhales. No calendar, no rush — just fresh sourdough in the oven and a slow Saturday at home.</div>
+  
+
+  
+  <div class="dinner-block">
+    <div class="dinner-name">Braised White Beans with Winter Greens & Sourdough Toast</div>
+    <div class="cuisine-label">Tuscan</div>
+    <div class="dinner-desc">Cannellini beans braised low and slow with garlic, rosemary, and chili flakes until creamy, spooned over thick sourdough toast rubbed with raw garlic. Wilted lacinato kale, a shower of Parmesan, and good olive oil finish it. Tuscan cucina povera — peasant food elevated by the bread you baked this morning.</div>
+    
+    <div class="ingredients-line">cannellini beans, lacinato kale, garlic, rosemary, chili flakes, olive oil, sourdough bread, lemon, Parmesan rind</div>
+    
+    <div class="notes-line">The star is the sourdough. Thick slices, raw-garlic rub, toasted golden. Let the bread anchor everything.</div>
+  </div>
+  
+
+  
+  <div class="conversation-block">
+    <h4>At the Table</h4>
+    <div class="conversation-question">Beans are one of the oldest foods humans have ever eaten — people were cooking them thousands of years ago. If you could travel back in time and have dinner with any family from history, who would you pick and what do you think they'd serve?</div>
+    <div class="conversation-why">At eight, kids are beginning to grasp historical time and find it thrilling. This question connects a humble ingredient to a bigger story about human connection across centuries, and it quietly reinforces that family meals have always mattered.</div>
+  </div>
+  
+
+  <div class="page-folio">16</div>
+</div>
+
+
+<div class="page page-day page-day-right">
+  <div class="page-header">Saturday, February 21</div>
+
+  
+  <div class="elevation-block">
+    <h4>Chef's Tips</h4>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">Technique</span> <strong>Smash Half, Leave Half Whole</strong> — Once the cannellini beans are warmed through and tender, take a fork and crush roughly half of them against the side of the pot. This releases their starch into the braising liquid and creates a creamy, almost risotto-like body while the remaining whole beans give you pops of texture. This is the difference between a bowl of beans and a Tuscan braise — it should be lush enough to coat the back of a spoon without adding a drop of cream. Stir in a Parmigiano-Reggiano rind during the braise if you have one — it melts slowly and adds a savory depth that tastes like patience.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">Sauce</span> <strong>Garlic-Chili Oil and Lemon Zest Finish</strong> — In a small skillet, warm 3 tablespoons of good olive oil over low heat with 3 thinly sliced garlic cloves and a fat pinch of red pepper flakes. Cook slowly — you're not frying, you're infusing. When the garlic is pale gold and the oil smells dangerous, pull it off heat and stir in a teaspoon of fresh lemon zest. Spoon this over each bowl right before serving. The warm, spicy, fragrant oil hitting the creamy beans creates an aromatic burst that elevates simple legumes into something you'd pay eighteen dollars for at a farm-to-table spot in Florence.
+    </div>
+    
+    <div class="elevation-tip">
+      <span class="tip-label">Texture</span> <strong>Sourdough Grilled on Cast Iron with Garlic Rub</strong> — Do not put sourdough in a toaster. Slice it thick — three-quarter inch — brush both sides with olive oil, and press it into a screaming hot cast-iron pan until it's charred in spots and crackling, about 2 minutes per side. While it's still hot, rub a halved raw garlic clove across the surface — the rough toast acts like a grater, and the garlic melts right into the bread. The char gives a smoky bitterness that plays against the creamy, mellow beans. Lean the toast against the side of the bowl at an angle so it stays crisp above the broth line and soaks from the bottom up as you eat.
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="album-block">
+    <div class="album-anchor-rule"></div>
+    <div class="album-artist">Ye Vagabonds</div>
+    <div class="album-title">All Tied Together</div>
+    <div class="album-info">2025 · Irish Folk · Warm, communal, rootsy</div>
+    <div class="album-desc">Irish brothers Brián and Diarmuid Mac Gloinn recorded this album in a house in Galway with producer Philip Weinrobe. Swirling folk harmonies, fiddle, and atmospheric arrangements — the most decorated act at the RTÉ Radio 1 Folk Awards.</div>
+    <div class="album-sonic">Close harmonies, acoustic guitar, fiddle, bodhrán, stripped-back arrangements</div>
+    <div class="album-why">Rustic Irish folk for a rustic Tuscan dinner. Both traditions celebrate simplicity, community, and the warmth of bread on the table.</div>
+  </div>
+  
+
+  <div class="page-folio">17</div>
+</div>
+
+
+
+
+<div class="page page-divider">
+  <div class="divider-title">Kitchen & Pantry</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">Appetizers, salads, beverages, and your shopping list</div>
+  <div class="page-folio">18</div>
+</div>
+
+
+
+
+<div class="page page-support">
+  <div class="page-header">Kitchen & Pantry</div>
+  
+  <h2 class="section-header">Appetizers</h2>
+  
+  <h3>Whipped Ricotta Crostini with Honey & Walnuts</h3>
+  <p>Creamy whipped ricotta on toasted sourdough crostini, drizzled with honey, scattered with toasted walnuts and cracked black pepper.</p>
+  <p style="font-size:7.5pt;color:var(--muted);">ricotta, sourdough bread, honey, walnuts, black pepper</p>
+  
+  <h3>Roasted Sweet Potato Rounds with Goat Cheese & Pecans</h3>
+  <p>Roasted sweet potato coins topped with tangy goat cheese, toasted pecans, dried cranberries, and honey.</p>
+  <p style="font-size:7.5pt;color:var(--muted);">sweet potatoes, goat cheese, pecans, dried cranberries, honey</p>
+  
+  
+
+  
+  <h2 class="section-header" style="margin-top:10pt;">Salads</h2>
+  
+  <div class="salad-entry">
+    <div class="type-label">composed dinner</div>
+    <h3>Winter Citrus & Radicchio Salad</h3>
+    <p>Blood orange and cara cara segments with shaved radicchio, burrata, pistachios, and Castelvetrano olives. Blood orange vinaigrette.</p>
+    <div class="dressing-box"><strong>Dressing:</strong> Blood orange vinaigrette: fresh blood orange juice, champagne vinegar, Dijon mustard, EVOO, minced shallot, flaky salt</div>
+    <div class="rationale">Bitter radicchio tamed by sweet citrus and creamy burrata. Italian amaro-dolce-grasso balance.</div>
+  </div>
+  
+  <div class="salad-entry">
+    <div class="type-label">tossed dinner</div>
+    <h3>Warm Farro & Roasted Root Vegetable Salad</h3>
+    <p>Chewy farro with roasted beets, carrots, parsnips, goat cheese, and hazelnuts in warm sherry vinaigrette.</p>
+    <div class="dressing-box"><strong>Dressing:</strong> Warm sherry vinaigrette: sherry vinegar, Dijon, minced shallot, EVOO, honey, fresh thyme</div>
+    <div class="rationale">Earthy roots, nutty farro, tangy goat cheese, and bright vinaigrette. Hearty winter sustenance.</div>
+  </div>
+  
+  <div class="salad-entry">
+    <div class="type-label">side</div>
+    <h3>Shaved Brussels Sprout Slaw with Apple & Pecorino</h3>
+    <p>Paper-thin Brussels sprouts with Honeycrisp apple matchsticks, Pecorino, and toasted pecans.</p>
+    <div class="dressing-box"><strong>Dressing:</strong> Lemon-Dijon: fresh lemon juice, Dijon mustard, honey, EVOO, apple cider vinegar</div>
+    <div class="rationale">Brussels bitterness balanced by sweet apple and honey. Pecorino adds umami, pecans add crunch.</div>
+  </div>
+  
+  <div class="salad-entry">
+    <div class="type-label">side</div>
+    <h3>Roasted Beet & Pomegranate Salad with Labneh</h3>
+    <p>Golden and red beets with pomegranate seeds, labneh, walnuts, and mint.</p>
+    <div class="dressing-box"><strong>Dressing:</strong> Pomegranate-za'atar vinaigrette: pomegranate molasses, red wine vinegar, za'atar, EVOO, Aleppo pepper</div>
+    <div class="rationale">Sweet beets + tart pomegranate + tangy labneh. Middle Eastern sweet-tart-creamy-aromatic balance.</div>
+  </div>
+  
+  
+  <div class="page-folio">19</div>
+</div>
+
+
+
+
+<div class="page page-support">
+  <div class="page-header">Kitchen & Pantry</div>
+  <h2 class="section-header">Beverage Pairings</h2>
+  
+  <h3>Malbec (Mendoza, Argentina)</h3>
+  <p>Full-bodied red with dark fruit, plum, and chocolate. Perfect for pork chops and rich dishes.</p>
+  <p style="font-size:7.5pt;font-style:italic;color:var(--muted);">Complements the mushroom cream sauce on Thursday and pairs with the week's heartier meals.</p>
+  
+  <h3>Sancerre (Loire Valley, France)</h3>
+  <p>Crisp, mineral-driven Sauvignon Blanc with citrus and white peach. The ideal white for branzino.</p>
+  <p style="font-size:7.5pt;font-style:italic;color:var(--muted);">Classic pairing with whole roasted fish. The acidity mirrors the lemon and capers.</p>
+  
+  <h3>Yuzu Ginger Sparkling Mocktail</h3>
+  <p>Sparkling water with fresh yuzu juice, grated ginger, honey, and mint. Refreshing and alcohol-free.</p>
+  <p style="font-size:7.5pt;font-style:italic;color:var(--muted);">Non-alcoholic option for on-call nights and kid-friendly. Pairs with the kale Caesar.</p>
+  
+  <div class="page-folio">20</div>
+</div>
+
+
+
+<div class="page page-grocery">
+  <div class="page-header">Kitchen & Pantry</div>
+  <h2 class="section-header">Grocery List</h2>
+  
+  <div class="grocery-cols">
+    
+    <div class="g-cat">
+      <h4>Produce</h4>
+      <ul><li>lacinato kale (2 bunches)</li><li>cherry tomatoes (2 pints)</li><li>lemons (4)</li><li>garlic (2 heads)</li><li>fresh dill</li><li>fresh thyme</li><li>fresh rosemary</li><li>sweet potatoes (2)</li><li>Honeycrisp apple (1)</li><li>Brussels sprouts (1 lb)</li><li>red onion (1)</li><li>shallots (3)</li><li>golden beets (2)</li><li>red beets (2)</li><li>blood oranges (3)</li><li>radicchio (1 head)</li><li>pomegranate (1)</li><li>fresh mint</li></ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Protein</h4>
+      <ul><li>whole branzino (2 fish)</li><li>bone-in pork chops (4, from freezer)</li></ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Dairy</h4>
+      <ul><li>heavy cream (1 pint)</li><li>Parmesan wedge</li><li>Pecorino Romano wedge</li><li>goat cheese (4 oz)</li><li>burrata (1 ball)</li><li>ricotta (8 oz)</li><li>labneh (6 oz)</li><li>butter (1 lb)</li><li>eggs (6)</li></ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Pantry</h4>
+      <ul><li>cannellini beans (2 cans or 1 lb dried)</li><li>chickpeas (2 cans)</li><li>capers (1 jar)</li><li>Castelvetrano olives</li><li>pistachios</li><li>walnuts</li><li>pecans</li><li>hazelnuts</li><li>dried cranberries</li><li>pearled farro</li><li>sourdough bread (fresh Saturday)</li><li>olive oil (EVOO)</li><li>champagne vinegar</li><li>sherry vinegar</li><li>apple cider vinegar</li><li>red wine vinegar</li><li>pomegranate molasses</li><li>za'atar</li><li>Aleppo pepper</li><li>chili flakes</li><li>Dijon mustard</li><li>honey</li><li>anchovy paste</li></ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Wine & Beverages</h4>
+      <ul><li>Malbec (Mendoza)</li><li>Sancerre</li><li>yuzu juice</li><li>fresh ginger</li><li>sparkling water</li></ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Mushrooms</h4>
+      <ul><li>cremini mushrooms (8 oz)</li><li>shiitake mushrooms (8 oz)</li></ul>
+    </div>
+    
+  </div>
+  
+  <div class="page-folio">21</div>
+</div>
+
+
+
+<div class="page page-grocery">
+  <div class="page-header">Kitchen & Pantry</div>
+  <h2 class="section-header">Prep-Ahead Checklist</h2>
+  <div class="prep-list">
+    <ul><li>Tuesday night: Move pork chops from freezer to fridge to thaw</li><li>Wednesday morning: Roast chickpeas for the kale Caesar, make Caesar dressing</li><li>Wednesday evening: Massage kale, pickle red onions</li><li>Thursday afternoon: Prep mashed potatoes, slice mushrooms</li><li>Friday before YAT pickup: Score and stuff branzino, prep cherry tomato pan</li><li>Friday night: Soak cannellini beans for Saturday (if using dried)</li><li>Saturday morning: Begin sourdough bake</li></ul>
+  </div>
+  <div class="page-folio">22</div>
+</div>
+
+
+
+
+<div class="page page-divider">
+  <div class="divider-title">Family Corner</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">Conversation starters, parenting nudges, and connection ideas</div>
+  <div class="page-folio">23</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="page page-parenting">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Parenting Corner</h2>
+  
+  <div class="theme-banner">
+    <h3>Coming Home to Each Other</h3>
+    <p>You just stepped off a plane from Albuquerque, and everything feels a little tilted — the suitcases aren't unpacked, the fridge is half-empty, and the rhythms of regular life haven't clicked back into place yet. This week isn't about catching up. It's about landing — not just in your house, but in each other. Elsie experienced something big out there: new landscapes, new altitude, the vastness of the Sandia Mountains. She's carrying impressions she may not have words for yet. Give her space to process, and give yourselves permission to ease back in slowly. The trip memories are still warm. Use them.</p>
+  </div>
+  
+
+  
+  <h3 style="font-size:9.5pt;font-weight:400;margin:5pt 0 3pt;">Dinner Conversation Starters</h3>
+  
+  <div class="question-entry">
+    <div class="question-day">Wednesday — Kale Caesar Salad</div>
+    <div class="question-text">"If Caesar salad was invented by a real person named Caesar, what food would you invent and name after yourself? What would the 'Elsie Special' have in it?"</div>
+    <div class="question-why">Eight-year-olds are building a sense of identity and love the idea that they can leave a mark on the world. Naming a dish after herself invites creative thinking and a little pride — plus it makes kale feel less like a vegetable and more like a canvas.</div>
+  </div>
+  
+  <div class="question-entry">
+    <div class="question-day">Thursday — Pork Chops</div>
+    <div class="question-text">"When we were hiking in the Sandia Mountains, what was a moment where you felt really brave or really small? Both are okay."</div>
+    <div class="question-why">Travel memories fade fast at this age unless someone helps her narrate them. This question gives Elsie permission to name a feeling — awe, fear, courage — and turns a family dinner into a shared story. Processing big landscapes helps build emotional vocabulary.</div>
+  </div>
+  
+  
+  <div class="page-folio">24</div>
+</div>
+
+
+<div class="page page-parenting">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Conversation Starters (continued)</h2>
+  
+  <div class="question-entry">
+    <div class="question-day">Friday — Branzino</div>
+    <div class="question-text">"This fish lived in the sea before it came to our plate. If you could breathe underwater for one day, where would you swim and what do you think you'd find?"</div>
+    <div class="question-why">Branzino is an unfamiliar protein for most kids — linking it to an underwater adventure reframes it from 'weird fish' to a gateway for wonder. Hypothetical questions like this exercise perspective-taking and creative reasoning, both of which are blooming at age eight.</div>
+  </div>
+  
+  <div class="question-entry">
+    <div class="question-day">Saturday — White Beans</div>
+    <div class="question-text">"Beans are one of the oldest foods humans have ever eaten — people were cooking them thousands of years ago. If you could travel back in time and have dinner with any family from history, who would you pick and what do you think they'd serve?"</div>
+    <div class="question-why">At eight, kids are beginning to grasp historical time and find it thrilling. This question connects a humble ingredient to a bigger story about human connection across centuries, and it quietly reinforces that family meals have always mattered.</div>
+  </div>
+  
+  <div class="page-folio">25</div>
+</div>
+
+
+<div class="page page-parenting">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Nudges</h2>
+  
+  
+  <div class="nudge-card">
+    <h4>The Albuquerque Scrapbook Jar</h4>
+    <p><em>Elsie just had a big travel experience and the memories are vivid now, but they'll blur within weeks. Meanwhile, Dan is on-call this week, which means his attention will be split. A small, self-directed project gives Elsie a way to process the trip even when Dad can't be fully present.</em></p>
+    <p>Set out a mason jar and some scrap paper. Each evening, anyone in the family can write or draw one memory from the Albuquerque trip and drop it in. On Sunday, read them all together.</p>
+    
+    <ol class="nudge-steps"><li>Put a jar, torn paper scraps, and a pen on the kitchen counter — visible, not hidden in a craft bin</li><li>Model it first: write your own memory and drop it in while Elsie is watching, no fanfare needed</li><li>On Sunday evening, dump the jar out and take turns reading each other's memories aloud</li></ol>
+    
+  </div>
+  
+  <div class="nudge-card">
+    <h4>The On-Call Check-In</h4>
+    <p><em>Dan is on incident-manager rotation Tuesday through the following Tuesday. When a parent is on-call, kids sense the divided attention even if they can't name it. Elsie may interpret Dad's distraction as disinterest.</em></p>
+    <p>At the start of the week, tell Elsie honestly: 'Dad has a special work job this week where people might call him if something breaks. If I look at my phone a lot, it's not because I don't want to be with you — it's because I'm helping fix something.' Then create a small signal she can use when she really needs your attention — a hand on your arm, a sticky note, a code word.</p>
+    
+    <ol class="nudge-steps"><li>Have a 2-minute conversation explaining on-call in concrete terms she can picture — 'like being the school nurse but for computers'</li><li>Let her choose the signal — giving her ownership of the solution builds agency</li><li>When she uses the signal, honor it immediately, even if it's just to say 'Give me 90 seconds and I'm yours'</li></ol>
+    
+  </div>
+  
+  <div class="nudge-card">
+    <h4>The Friday Handoff</h4>
+    <p><em>Friday is packed — YAT runs 4:30–6pm, and branzino is on the menu. After a long activity block, Elsie will come home wired and hungry. The transition from high-energy group time to a sit-down family dinner can be rocky.</em></p>
+    <p>Build a 10-minute decompression window between YAT pickup and dinner. In the car or at home, don't ask about the activity right away. Instead, put on a song she loves and let her just exist for a few minutes. Dinner conversation will be richer if she's had time to land.</p>
+    
+    <ol class="nudge-steps"><li>Queue up a playlist or let her pick one song for the drive home — music is a reset button at this age</li><li>Resist the urge to ask 'How was YAT?' immediately — let her volunteer what she wants to share</li><li>If she's quiet, that's fine. Say 'I'm glad you're here' and leave space</li></ol>
+    
+  </div>
+  
+  
+  <div class="page-folio">26</div>
+</div>
+
+
+<div class="page page-parenting">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Reflection</h2>
+
+  
+  <div class="book-rec">
+    <h4>Postcard Letters Home</h4>
+    <p>Buy two blank postcards (or make them from cardstock). Elsie writes one to herself describing her favorite moment from Albuquerque, and one to a grandparent or friend describing something she saw. The act of writing to different audiences — herself vs. someone else — exercises perspective-taking and helps her realize that her experiences are worth sharing. It also extends the trip's emotional life by a few more days.</p>
+    <p><em>Ties directly to this week's theme of 'Coming Home to Each Other' — the postcards arrive later, turning a past trip into a future surprise. It also gives Elsie something meaningful to do on evenings when Dan is fielding on-call pages.</em></p>
+  </div>
+  
+
+  
+  <div class="reflection-box">
+    Think about the moment on the trip when Elsie was most herself — not performing, not reacting to you, just being. Maybe she was staring out a window at the mountains, or laughing at something only she found funny, or quietly arranging rocks in a pattern. That version of her is the one that's growing fastest right now. This week, as you settle back into routines and Dan juggles on-call, try to notice one moment like that at home. She doesn't need you to see everything — but being seen in those unguarded moments is how she learns that who she really is, is enough.
+  </div>
+  
+
+  <p style="font-size:6.5pt;color:#6b6b6b;text-align:center;margin-top:6pt;font-style:italic;">You don't need to be a perfect parent — just a present one.</p>
+  <div class="page-folio">27</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="page page-stoic">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">The Stoic Guide</h2>
+  <div class="stoic-theme-banner">
+    <div class="stoic-category">Transitions & Duty</div>
+    <h3>The Art of Reentry</h3>
+    <p>This week explores the Stoic discipline of returning—to home, to routine, to responsibility. After the expansiveness of travel in the Sandia Mountains, the family settles back into the rhythm of daily life while Dan takes on the weight of on-call duty. The Stoics remind us that peace is not a place we visit; it is a practice we carry. Whether standing atop a mountain or answering a midnight page, tranquility belongs to the prepared mind.</p>
+  </div>
+
+  <div class="anchor-quote">
+    "Nothing, to my way of thinking, is a better proof of a well-ordered mind than a man's ability to stop just where he is and pass some time in his own company."
+    <span class="quote-source">— Seneca, <em>Letters from a Stoic</em> Letter 2</span>
+  </div>
+
+  <div class="stoic-intro">You spent last week among the high desert and granite peaks of the Sandias. Now the altitude drops, the suitcases open, and ordinary life reassembles itself—school lunches, work queues, the familiar creak of your own front door. Meanwhile Dan steps into the on-call rotation, carrying the quiet vigilance of an incident manager who must be ready at any hour. The Stoics would see nothing contradictory here. Marcus Aurelius governed an empire and still rose each morning reminding himself that the work ahead was a human being's work. Seneca traveled widely and yet insisted that the real journey was always inward. This week, we practice the art of reentry: finding depth in the return, steadiness under duty, and gratitude in the meals and moments that make a home.</div>
+
+  
+  <div class="meditation-entry">
+    <span class="meditation-day">Wednesday</span>
+    <span class="meditation-title">Settling the Mind After Motion</span>
+    <div class="meditation-reflection">The bags are unpacked, the travel laundry is running, and the house smells like home again. But the mind may still be in motion—replaying mountain vistas, calculating time zones, wondering if you forgot something. Seneca warned that changing your sky does not change your soul. The real unpacking is internal: letting go of the restlessness that travel stirs and choosing to be fully present in the room you are standing in. Tonight's Kale Caesar salad is simple, grounding—leaves and bread and the honest work of your own kitchen. Let the meal anchor you.</div>
+    <div class="meditation-prompt">What is one thing from the trip that you want to carry forward into daily life—not as nostalgia, but as a practice?</div>
+    
+    <div class="meditation-secondary-quote">"If you really want to escape the things that harass you, what you're needing is not to be in a different place but to be a different person." — Seneca, Letters from a Stoic, Letter 104</div>
+    
+  </div>
+  
+  <div class="meditation-entry">
+    <span class="meditation-day">Thursday</span>
+    <span class="meditation-title">The Vigilant Mind</span>
+    <div class="meditation-reflection">Dan is now two days into on-call. The phone could ring at any moment with an incident that demands calm, clear thinking. Marcus Aurelius faced a version of this every day as emperor—the constant readiness for problems not of his making. He wrote that it does not matter whether you are cold or warm, sleepy or rested, praised or criticized; what matters is that you are doing your proper duty. On-call is not a burden to resent but a role to inhabit fully. The pork chops tonight are hearty, sustaining—fuel for someone who must stay sharp. Eat well, rest when you can, and trust that you are equal to whatever comes.</div>
+    <div class="meditation-prompt">When has being 'on call' in any area of your life—parenting, work, friendship—actually revealed a strength you didn't know you had?</div>
+    
+    <div class="meditation-secondary-quote">"At the break of day, when you are reluctant to get up, have this thought ready: 'I am getting up for a man's work.'" — Marcus Aurelius, Meditations, Book 5, Section 1</div>
+    
+  </div>
+  
+  <div class="page-folio">28</div>
+</div>
+
+
+<div class="page page-stoic">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Reflections & Practice</h2>
+
+  
+  <div class="meditation-entry">
+    <span class="meditation-day">Friday</span>
+    <span class="meditation-title">Welcoming What Arrives</span>
+    <div class="meditation-reflection">The fog lifts. Friday brings warmth—sixty-four degrees in February, an unexpected gift. Epictetus taught that we suffer not from events themselves but from our judgments about them. The reverse is also true: we can find joy not by demanding particular outcomes but by welcoming what arrives. Tonight's branzino is a fish of the Mediterranean, the very sea the Stoics knew. Its preparation asks for restraint—a little oil, some lemon, high heat, and trust. The best things, in cooking and in life, come from not overhandling them.</div>
+    <div class="meditation-prompt">What is something that arrived in your life uninvited but turned out to be exactly what you needed?</div>
+    
+    <div class="meditation-secondary-quote">"Don't hope that events will turn out the way you want; welcome events in whichever way they happen: this is the path to peace." — Epictetus, Enchiridion, Section 8</div>
+    
+  </div>
+  
+  <div class="meditation-entry">
+    <span class="meditation-day">Saturday</span>
+    <span class="meditation-title">The Ordinary as Sacred</span>
+    <div class="meditation-reflection">Snow is forecast for tomorrow, and today sits in the hinge between the warming trend and the coming cold. Saturdays have their own quiet philosophy: the week's urgency fades, and what remains is the texture of home life. White beans simmering with garlic, a loaf of sourdough torn by hand—these are not lesser experiences than standing on a mountain. Marcus Aurelius reminded himself to see the crack in a loaf of bread as beautiful, to find in everyday things a 'fitness and appeal.' The Stoic does not need grandeur. Home, routine, a warm meal shared—this is the life worth living, right here.</div>
+    <div class="meditation-prompt">Look around your home today. What ordinary object or routine do you take for granted that actually holds deep meaning for your family?</div>
+    
+    <div class="meditation-secondary-quote">"Begin at once to live, and count each separate day as a separate life." — Seneca, Letters from a Stoic, Letter 101</div>
+    
+  </div>
+  
+
+  
+  <div class="stoic-exercise">
+    <h4>The Reentry Ritual</h4>
+    <p>On Wednesday evening after dinner, gather as a family. Each person shares one thing they are glad to come home to and one thing from the trip they want to remember. Then together, choose one small change to make at home this week—inspired by something you saw or felt while traveling. Write it on a card and place it on the kitchen counter as a reminder that home is not static; it grows with you.</p>
+    <p><em>This exercise bridges the transition from travel back to routine, turning reentry from a deflation into an intentional act. It teaches that home is not the opposite of adventure—it is where adventure is integrated.</em></p>
+  </div>
+  
+
+  
+  <div class="young-stoic">
+    <h4>The Mountain You Carry</h4>
+    <p>You climbed the Sandia Mountains last week. But did you know there's a mountain inside you too? The Stoics believed that every person has an inner citadel—a strong, quiet place inside where no storm can reach. This week, whenever something feels hard—a tough homework problem, a friend being unkind, or just a gloomy day—close your eyes for five seconds and imagine you're standing on top of your inner mountain, looking out at everything below. You're strong up there. Nothing can knock you off.</p>
+    <p><em>True strength is not about what happens around you but about the steadiness you carry within. You can visit mountains, but you also are one.</em></p>
+  </div>
+  
+
+  
+  <div class="closing-thought">The Sandias will stand long after this week fades from memory. But the steadiness you practice tonight—answering the page with calm, tearing the bread with gratitude, settling into the creak and comfort of home—that is the mountain you are building inside yourself. As Seneca wrote, the proof of a well-ordered mind is the ability to stop just where you are and pass some time in your own company. Welcome home. The work begins here.</div>
+  
+
+  <div class="page-folio">29</div>
+</div>
+
+
+
+
+<div class="page page-divider">
+  <div class="divider-title">The Weekly Read</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">3 articles clipped · Themes, reflections, and something fun</div>
+  <div class="page-folio">30</div>
+</div>
+
+
+
+<div class="page page-newsletter">
+  <div class="page-header">The Weekly Read</div>
+
+  <h3 class="cluster-theme">Places That Can't Hold Their People</h3>
+  <div class="cluster-synthesis">Two seemingly unrelated stories this week circled the same quiet crisis: what happens when a place stops being somewhere people want to stay? New Mexico — the fifth-largest state by area, home to crimson sunsets and a cultural lineage older than the republic — is losing residents for the first time since the pandemic. Nearly 19,000 educated professionals have fled since 2010, chasing opportunity in Denver, Austin, and other boom towns. Meanwhile, the U.S. House passed the most significant federal housing legislation in a decade with a near-unanimous 390-9 vote, finally acknowledging what millions of families already know: there aren't enough homes, and the ones that exist cost too much. Here's the tension nobody is naming: New Mexico's median home price has surged 59% since 2019 while its population shrinks. Housing is simultaneously unaffordable *and* unable to attract newcomers. The Housing for the 21st Century Act promises to cut red tape and modernize HUD programs, but it's designed for places bursting at the seams — the Austins and Phoenixes gobbling up New Mexico's departing talent. A recent Harvard Kennedy School analysis argues that New Mexico's brain drain won't reverse until the state builds economic ecosystems that give young professionals a reason to unpack their boxes. Free college tuition through the Opportunity Scholarship is a start, but enchantment alone doesn't pay the mortgage. When 390 members of Congress agree on anything, it's worth pausing to ask: who does this actually help? And who gets left behind in the Land of Enchantment?</div>
+  <ul class="article-list">
+  
+    <li>
+      <span class="article-title">New Mexico Population Changes</span>
+      
+      <span class="article-oneliner">The fifth-largest state can't stop hemorrhaging its best and brightest — and geography, water, and a 50th-ranked education system explain why.</span>
+    </li>
+  
+    <li>
+      <span class="article-title">House passes sweeping bipartisan housing package</span>
+      
+      <span class="article-oneliner">A 390-9 vote that proves housing affordability is the rare issue that can make French Hill and Maxine Waters agree.</span>
+    </li>
+  
+  </ul>
+
+  <div class="page-folio">31</div>
+</div>
+
+<div class="page page-newsletter">
+  <div class="page-header">The Weekly Read</div>
+
+  <h3 class="cluster-theme">The USB-C Moment for AI</h3>
+  <div class="cluster-synthesis">Every transformative technology eventually gets its boring-but-essential standardization moment — the point where the wild frontier yields to interoperability. This week, WebMCP landed in Chrome 146 Canary, and if you squint past the acronym soup, you'll see what might be the most consequential web standard since HTTPS. Right now, AI agents navigate websites the way a tourist navigates Tokyo without Google Translate: screenshot everything, pray the model can identify a button, burn thousands of tokens on what a human does in two clicks. WebMCP proposes something radical in its simplicity — let websites just *tell* agents what they can do. Two APIs, one standard, and suddenly a single structured function call replaces dozens of fragile browser interactions. Google's Khushal Sagar calls it the "USB-C of AI agent interactions," and the metaphor is apt: nobody gets excited about a cable standard, but everyone benefits when their devices just work. What's most interesting isn't the technology — it's the philosophical choice buried in the spec. WebMCP is explicitly *not* for headless, autonomous agents. It's designed for the browser, where a human is watching, collaborating, guiding. In an industry racing toward full autonomy, Google and Microsoft jointly shipped a standard that says: actually, the human should stay in the loop. Early benchmarks suggest up to 89% fewer tokens consumed per interaction. But the deeper question lingers: if we make it trivially easy for AI to interact with every website, have we built a better tool — or have we just made it cheaper to replace the browsing we used to do ourselves?</div>
+  <ul class="article-list">
+  
+    <li>
+      <span class="article-title">Vercel Security Checkpoint</span>
+      
+      <span class="article-oneliner">Chrome 146 ships the web standard that could turn every website into an API for AI agents — and deliberately keeps humans in the driver's seat.</span>
+    </li>
+  
+  </ul>
+
+  <div class="page-folio">32</div>
+</div>
+
+
+
+
+<div class="page page-newsletter">
+  <div class="page-header">The Weekly Read</div>
+
+
+  <div class="through-line">
+    <strong>The Through-Line:</strong> This week's reading orbited a single idea: the tension between systems designed for people and systems designed to scale. New Mexico is a place engineered by geography and history for a certain kind of life — and it's watching its people leave for places optimized for growth. Congress is building housing policy for booming metros while quieter places hollow out. And the web is being re-architected so that AI agents can navigate it efficiently — but only, the authors insist, with a human still at the helm. Everywhere you look, the same question: when we optimize a system, who are we optimizing it for?
+  </div>
+
+
+
+  <div class="fun-section">
+    <h3>And Finally…</h3>
+    <p>Octopuses have three hearts — but two of them stop beating every time they swim. The effort of pushing their boneless bodies through water is so taxing that the two hearts responsible for pumping blood to their gills simply give up until the octopus stops to rest. This is why octopuses prefer crawling along the ocean floor to swimming: it's literally less heartbreaking. Scientists believe this cardiac quirk also explains why octopuses tire so easily — imagine running a marathon while two-thirds of your circulatory system takes a nap. Next time you feel exhausted on a Monday morning, just remember: at least all your hearts are working.</p>
+    
+    <p class="fun-source">Source: <a href="https://www.classpop.com/magazine/fun-facts-for-kids">Classpop</a></p>
+    
+  </div>
+
+
+  <p class="newsletter-footer">3 articles · February 8 – February 14, 2026</p>
+  <div class="page-folio">33</div>
+</div>
+
+
+
+
+
+
+
+<div class="page page-back">
+  <div class="back-inner">
+  
+  <div class="story-section">
+    <h3 class="story-title">The Watermelon Mountain Mystery</h3>
+    <div class="story-text">Chelsie pressed her forehead against the window of the Sandia Peak Tramway and watched Albuquerque shrink beneath her like a toy city. The cable car swayed gently, climbing higher and higher, until the desert floor gave way to snow-dusted pines and granite cliffs that glowed faintly pink in the afternoon light.</p><p>"Mertle, are you watching?" she whispered, holding up the kind little turtle puppet so he could see. Mertle’s button eyes reflected the whole Rio Grande Valley.</p><p>At the top, Chelsie stepped into snow up to her ankles and laughed out loud. The air was so cold it tasted like peppermint, and so quiet she could hear her own heartbeat. Daddio was reading a sign nearby: SANDIA CREST — 10,678 FEET.</p><p>"Did you know Sandia means watermelon?" he said.</p><p>Chelsie squinted at the pink-and-green mountainside — pink granite, green juniper — and suddenly the name made perfect sense. She crunched through the snow in wide circles, arms out, catching flakes on her tongue, while Mertle bounced along in her coat pocket.</p><p>But the mountain was only one chapter of their adventure. Earlier that week, Chelsie had stood mesmerized at the aquarium, watching seahorses drift like tiny enchanted horses through the water, and then gasping when a shadow passed overhead — a shark gliding through the tunnel tank, slow and ancient and magnificent.</p><p>There was the evening they’d discovered birria pizza at a little restaurant, the cheese pulling in long strings while the consommé dripped down their chins. There was the morning Chelsie found a spray mop in the Airbnb kitchen and spent a gleeful half hour mopping every tile in the house, announcing she’d found her "true calling." And there were the quiet evenings curled up by the fire crackling in the den, Mertle propped on a pillow, everyone’s socks drying on the hearth.</p><p>Now, standing at 10,678 feet with the whole world below her, Chelsie tried to memorize it all. Not just the view — the seahorses, the shark’s shadow, the cheese pull, the mop handle in her hands, the warmth of the fire on her shins.</p><p>"The best souvenirs aren’t things you buy," she told Mertle softly, watching the last light turn the snow to rose gold. "They’re the things you notice."</p><p>Daddio put his arm around her shoulder. "Ready to head down?"</p><p>Chelsie took one more look. She wanted to remember everything.</div>
+    
+    <div class="story-prompt">What was your favorite thing you noticed on our trip to New Mexico?</div>
+    
+  </div>
+  
+  <div class="back-divider"></div>
+  <div class="colophon">February 15 - February 21, 2026 · Generated 2026-02-17 12:19</div>
+  </div>
+</div>
+
+
+
+<div class="screen-container">
+  <div class="cover-screen">
+    <h1>Weekly Planner</h1>
+    <div class="week-range">February 15 - February 21, 2026</div>
+    
+    <div class="highlight">From the Sandia Mountains to fresh sourdough on Saturday — a week that trades desert adventure for the deep comfort of coming home.</div>
+    
+  </div>
+
+  <h2 class="section-title">Week at a Glance</h2>
+  <table class="glance-table">
+    <thead>
+      <tr><th>Day</th><th>Weather</th><th>Events</th><th>Dinner</th><th>Album</th></tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="day-name">Sun 02/15</td>
+        <td>🌧️ 47°/34°</td>
+        <td>Traveling in Albuquerque</td>
+        <td>Taco Salad at the Range</td>
+        <td>Khruangbin – A La Sala</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Mon 02/16</td>
+        <td>🌧️ 45°/32°</td>
+        <td>Presidents' Day - Albuquerque</td>
+        <td>Birria Pizza at La Guelaguetza</td>
+        <td>Imarhan – Essam</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Tue 02/17</td>
+        <td>🌫️ 50°/31°</td>
+        <td>Travel day - ABQ to Dulles (arrive 11pm); On-call IM rotation begins; Swim lessons (evening); MDE Shiproom 10:10am; SCIP Livesite Review 12:10pm; On-Call Handoff 1:35pm</td>
+        <td>Airport food (travel day)</td>
+        <td>Puma Blue – Croak Dream</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Wed 02/18</td>
+        <td>🌫️ 61°/42°</td>
+        <td>Elsie early release - over to Secret Kristens house; Org structure meeting 11:10am; AI Agent Launchpad 12pm; Hot Dogs sync 12:40pm; Standup 1:35pm; Talks & Taps 3-5pm; Office Hours 4:10pm; MTP Happy Hour 4:30-6pm</td>
+        <td>Winter Kale Caesar with Roasted Chickpeas & Shaved Parmesan</td>
+        <td>NEIL FRANCES – There Is No Runaway</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Thu 02/19</td>
+        <td>🌧️ 58°/45°</td>
+        <td>HOLD Demo Day dry run 10:35am; SkillUp AI 12pm; AI Pair Session 12:35pm; Standup + Drills 1:35pm; 1:1 Dan/CJ 3:05pm</td>
+        <td>Pan-Seared Pork Chops with Mushroom Cream Sauce</td>
+        <td>Franc Moody – Chewing The Fat</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Fri 02/20</td>
+        <td>🌧️ 64°/44°</td>
+        <td>Elsie YAT 4:30-6:00 PM; Kim Waters at Blues Alley (evening)</td>
+        <td>Roasted Branzino with Cherry Tomatoes, Lemon & Capers</td>
+        <td>Ichiko Aoba – Windswept Adan</td>
+      </tr>
+      
+      <tr>
+        <td class="day-name">Sat 02/21</td>
+        <td>☁️ 49°/40°</td>
+        <td>Fresh sourdough bread day</td>
+        <td>Braised White Beans with Winter Greens & Sourdough Toast</td>
+        <td>Ye Vagabonds – All Tied Together</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <h2 class="section-title">Daily Plan</h2>
+  
+  <div class="day-card">
+    <div class="weather-horizon">🌧️ Rain 47°/34° · likely rain</div>
+    <h3>Sunday, February 15</h3>
+
+    
+    <div class="engagements">
+      <div class="engagement-row"><span class="engagement-event">Traveling in Albuquerque</span></div>
+    </div>
+    
+
+    <p class="day-intro">Light rain over the Sandias and 47°F — your last full day in Albuquerque. No cooking tonight; just soak up the mountains and let the Range Cafe handle dinner.</p>
+
+    
+    <div class="dinner-title">Taco Salad at the Range</div>
+    <span class="cuisine-label">Southwestern</span>
+    <p class="description">The Range Cafe has been an Albuquerque institution since 1992, born in a converted gas station in Bernalillo. Their New Mexico taco salad arrives in a crispy tortilla bowl piled with black beans, guacamole, white cheddar, and your choice of protein — generous, colorful, and unmistakably Southwest.</p>
+    <p class="ingredients">ground beef, lettuce, tomato, cheese, tortilla bowl, salsa, sour cream</p>
+    <a href="https://www.rangecafe.com" target="_blank" rel="noopener" class="recipe-link">Recipe — The Range Cafe, ABQ</a>
+    <p class="notes">Eating out — no cooking needed. Save room; portions are famously large.</p>
+    
+
+    
+
+    
+
+    
+
+    
+    <div class="album-pairing">
+      <div class="album-artist">Khruangbin</div>
+      <div class="album-name">A La Sala</div>
+      <div class="album-meta">2024 · Psychedelic Soul, Global Funk</div>
+      <div class="album-desc">Khruangbin’s 2024 fourth album — “to the living room” in Spanish — is a homecoming record, self-produced by the Houston trio with no outside collaborators. Global psychedelia filtered through spaghetti-western guitar and unhurried dub grooves.</div>
+      <div class="album-sonic">Surf guitar, deep bass, sparse drums, global influences spanning Thai funk to Jamaican dub</div>
+      <div class="album-rationale">Desert-tinged grooves for a desert Sunday. Khruangbin’s spacious, unhurried sound mirrors the pace of a last vacation day.</div>
+      <a href="https://open.spotify.com/album/4w33OUMfBYMEMfuuSMg9hB" target="_blank" rel="noopener" class="spotify-link">Listen on Spotify</a>
+    </div>
+    
+
+  </div>
+  
+  <div class="day-card">
+    <div class="weather-horizon">🌧️ Dense drizzle 45°/32° · coldest day, chance of rain</div>
+    <h3>Monday, February 16</h3>
+
+    
+    <div class="engagements">
+      <div class="engagement-row"><span class="engagement-event">Presidents' Day - Albuquerque</span></div>
+    </div>
+    
+
+    <p class="day-intro">Presidents’ Day drizzle in ABQ, 45°F. One more Albuquerque meal before you head home — make it count with something you can’t get in Virginia.</p>
+
+    
+    <div class="dinner-title">Birria Pizza at La Guelaguetza</div>
+    <span class="cuisine-label">Mexican-Oaxacan</span>
+    <p class="description">La Guelaguetza is run by the Salazar brothers from Oaxaca’s Mixteca region — named for the Zapotec festival of reciprocal giving. Their birria pizza is a two-pound feat of engineering: flour tortillas stuffed with slow-braised beef and melted cheese, cut into wedges and served with rich consommé for dipping.</p>
+    <p class="ingredients">birria, pizza dough, mozzarella, onion, cilantro, consommé</p>
+    
+    <p class="notes">Eating out — no cooking needed. Order one birria pizza to share; it’s enormous.</p>
+    
+
+    
+
+    
+
+    
+
+    
+    <div class="album-pairing">
+      <div class="album-artist">Imarhan</div>
+      <div class="album-name">Essam</div>
+      <div class="album-meta">2025 · Tishoumaren, Desert Blues</div>
+      <div class="album-desc">Tuareg desert blues from southern Algeria. Imarhan blend hypnotic electric guitar patterns with Saharan rhythms and Tamashek lyrics — music forged in the same kind of arid, ancient landscape you’ve been exploring all weekend.</div>
+      <div class="album-sonic">Tishoumaren guitar, pentatonic melodies, polyrhythmic percussion, call-and-response vocals</div>
+      <div class="album-rationale">Desert blues meeting Oaxacan birria — two traditions from arid lands, connected by warmth and spice.</div>
+      
+    </div>
+    
+
+  </div>
+  
+  <div class="day-card">
+    <div class="weather-horizon">🌫️ Fog 50°/31°</div>
+    <h3>Tuesday, February 17</h3>
+
+    
+    <div class="engagements">
+      <div class="engagement-row"><span class="engagement-event">Travel day - ABQ to Dulles (arrive 11pm)</span></div><div class="engagement-row"><span class="engagement-event">On-call IM rotation begins</span></div><div class="engagement-row"><span class="engagement-event">Swim lessons (evening)</span></div><div class="engagement-row"><span class="engagement-event">MDE Shiproom 10:10am</span></div><div class="engagement-row"><span class="engagement-event">SCIP Livesite Review 12:10pm</span></div><div class="engagement-row"><span class="engagement-event">On-Call Handoff 1:35pm</span></div>
+    </div>
+    
+
+    <p class="day-intro">The long haul home. Fog at 50°F, meetings stacked even on travel day, and an 11pm arrival at Dulles. On-call rotation starts now — keep it simple.</p>
+
+    
+    <div class="dinner-title">Airport food (travel day)</div>
+    <span class="cuisine-label">Various</span>
+    <p class="description">Airport food: whatever looks edible at the gate. Travel day means convenience over cuisine. You’ll be home by midnight.</p>
+    
+    
+    <p class="notes">Grab-and-go. Hydrate well — it’s been a dry-climate week.</p>
+    
+
+    
+
+    
+
+    
+
+    
+    <div class="album-pairing">
+      <div class="album-artist">Puma Blue</div>
+      <div class="album-name">Croak Dream</div>
+      <div class="album-meta">2025 · Trip-Hop, Alternative R&B</div>
+      <div class="album-desc">London artist Jacob Allen recorded this album straight to tape at Peter Gabriel’s Real World Studios with producer Sam Petts-Davies (The Smile, Frank Ocean). Trip-hop, downtempo jazz, and spectral R&B blur into something nocturnal and intimate.</div>
+      <div class="album-sonic">Trip-hop beats, jazz guitar, baritone vocals, ambient textures</div>
+      <div class="album-rationale">Puma Blue’s foggy, late-night atmosphere is exactly right for airport haze and a midnight arrival.</div>
+      
+    </div>
+    
+
+  </div>
+  
+  <div class="day-card">
+    <div class="weather-horizon">🌫️ Fog 61°/42°</div>
+    <h3>Wednesday, February 18</h3>
+
+    
+    <div class="engagements">
+      <div class="engagement-row"><span class="engagement-event">Elsie early release - over to Secret Kristens house</span></div><div class="engagement-row"><span class="engagement-event">Org structure meeting 11:10am</span></div><div class="engagement-row"><span class="engagement-event">AI Agent Launchpad 12pm</span></div><div class="engagement-row"><span class="engagement-event">Hot Dogs sync 12:40pm</span></div><div class="engagement-row"><span class="engagement-event">Standup 1:35pm</span></div><div class="engagement-row"><span class="engagement-event">Talks & Taps 3-5pm</span></div><div class="engagement-row"><span class="engagement-event">Office Hours 4:10pm</span></div><div class="engagement-row"><span class="engagement-event">MTP Happy Hour 4:30-6pm</span></div>
+    </div>
+    
+
+    <p class="day-intro">First real day home, and Elsie gets out of school early — she’ll be at Secret Kristen’s for the afternoon. Fog lingers but a surprise 61°F feels practically like spring. A happy hour caps the workday, so dinner needs to be fast, light, and ready when everyone’s back.</p>
+
+    
+    <div class="dinner-title">Winter Kale Caesar with Roasted Chickpeas & Shaved Parmesan</div>
+    <span class="cuisine-label">American</span>
+    <p class="description">A dinner-sized reinvention of the Caesar: sturdy lacinato kale massaged until tender, topped with smoky roasted chickpeas, toasted sourdough crumbs, shaved Parmesan, soft-boiled egg, and bright pickled onion. The homemade Caesar dressing pulls it together.</p>
+    <p class="ingredients">lacinato kale, chickpeas, Parmesan, sourdough breadcrumbs, anchovy, lemon, garlic, olive oil, eggs, cherry tomatoes, red onion</p>
+    <a href="https://www.bonappetit.com/recipe/lacinato-kale-caesar-salad" target="_blank" rel="noopener" class="recipe-link">Recipe — Bon Appétit (adapted)</a>
+    <p class="notes">Roast chickpeas earlier in the day — they take 25 minutes and keep well. Assembly takes five minutes after happy hour.</p>
+    
+
+    
+    <div class="elevation-tips">
+      <h4>Chef's Tips</h4>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">Technique</span> <strong>Massage the Kale Like You Mean It</strong> — Strip the Lacinato kale from its stems, slice into thin ribbons, then massage vigorously for two full minutes with a generous pinch of kosher salt and a thread of good olive oil. You'll feel the leaves soften and shrink by half — that's the cell walls breaking down, releasing bitterness and turning raw kale into something silky and sweet. Let it rest in the dressing for 10 minutes before plating so it drinks in every drop of that anchovy-lemon emulsion.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">Texture</span> <strong>Double-Roasted Chickpeas with Smoked Paprika</strong> — Drain and pat canned chickpeas bone-dry with paper towels — moisture is the enemy of crunch. Toss with olive oil, smoked paprika, garlic powder, and a pinch of cayenne, then spread on a sheet pan in a single layer. Roast at 425°F for 25 minutes, shaking once at the halfway mark. They're done when they rattle on the pan and sound hollow when tapped. Let them cool completely on the pan before adding to the salad — residual steam softens them, and you did not go through all that for a soggy chickpea.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">Sauce</span> <strong>Anchovy-Forward Caesar with Whole Egg Emulsion</strong> — Mince 4 oil-packed anchovy fillets into a paste with the flat of your knife, then whisk into a whole raw egg with two crushed garlic cloves, the juice of one lemon, a tablespoon of Dijon, and a generous shower of finely grated Parmigiano-Reggiano. Stream in olive oil slowly while whisking until you get a dressing thick enough to coat a spoon. The whole egg (not just yolk) gives you a lighter, more stable emulsion that clings to every kale ribbon without weighing it down. Taste it — it should be aggressively savory with a bright acid punch.
+      </div>
+      
+    </div>
+    
+
+    
+    <div class="conversation-block">
+      <h4>At the Table</h4>
+      <div class="conversation-question">If Caesar salad was invented by a real person named Caesar, what food would you invent and name after yourself? What would the 'Elsie Special' have in it?</div>
+      <div class="conversation-why">Eight-year-olds are building a sense of identity and love the idea that they can leave a mark on the world. Naming a dish after herself invites creative thinking and a little pride — plus it makes kale feel less like a vegetable and more like a canvas.</div>
+    </div>
+    
+
+    
+
+    
+    <div class="album-pairing">
+      <div class="album-artist">NEIL FRANCES</div>
+      <div class="album-name">There Is No Runaway</div>
+      <div class="album-meta">2023 · Indie-Soul / Electro-Funk</div>
+      <div class="album-desc">LA-based indie-soul duo NEIL FRANCES blend synth-funk bass, disco guitars, and warm vocals into something irresistibly groovy. If you love Franc Moody, this is your next obsession — catchy hooks over deep grooves with a sunny, optimistic heart.</div>
+      <div class="album-sonic">Angular guitars, warm synths, art-pop arrangements, ethereal vocals</div>
+      <div class="album-rationale">First real dinner home deserves an album that feels like a warm welcome. Bright, danceable grooves match the spring-like 61°F and the crisp freshness of the kale Caesar.</div>
+      
+    </div>
+    
+
+  </div>
+  
+  <div class="day-card">
+    <div class="weather-horizon">🌧️ Rain 58°/45° · likely rain</div>
+    <h3>Thursday, February 19</h3>
+
+    
+    <div class="engagements">
+      <div class="engagement-row"><span class="engagement-event">HOLD Demo Day dry run 10:35am</span></div><div class="engagement-row"><span class="engagement-event">SkillUp AI 12pm</span></div><div class="engagement-row"><span class="engagement-event">AI Pair Session 12:35pm</span></div><div class="engagement-row"><span class="engagement-event">Standup + Drills 1:35pm</span></div><div class="engagement-row"><span class="engagement-event">1:1 Dan/CJ 3:05pm</span></div>
+    </div>
+    
+
+    <p class="day-intro">Rain and 58°F, a full day of meetings, and then — Franc Moody at 9:30 Club tonight. Cook something rich and comforting before you head out.</p>
+
+    
+    <div class="dinner-title">Pan-Seared Pork Chops with Mushroom Cream Sauce</div>
+    <span class="cuisine-label">French-American</span>
+    <p class="description">Thick bone-in pork chops seared golden in cast iron, finished in a velvety sauce of cremini and shiitake mushrooms, white wine, thyme, and cream. The kitchen smells like browning butter by 5pm.</p>
+    <p class="ingredients">bone-in pork chops, cremini mushrooms, shiitake mushrooms, heavy cream, white wine, garlic, thyme, butter, potatoes</p>
+    <a href="https://www.bonappetit.com/recipe/pork-chops-with-mushroom-sauce" target="_blank" rel="noopener" class="recipe-link">Recipe — Bon Appétit</a>
+    <p class="notes">Move chops to fridge Wednesday night. Pat dry before searing for the best crust.</p>
+    
+
+    
+    <div class="elevation-tips">
+      <h4>Chef's Tips</h4>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">Technique</span> <strong>Dry Brine and Reverse the Sear</strong> — Season thick-cut, bone-in pork chops generously with kosher salt on all sides and set them uncovered on a wire rack in the refrigerator for at least 4 hours, ideally overnight. The salt draws moisture to the surface, which gets reabsorbed along with the seasoning — giving you deep flavor and a drier exterior that sears beautifully. When ready to cook, bring chops to room temperature for 30 minutes, then start them in a 275°F oven on a wire rack until they hit 120°F internal. Pull them, get your cast iron screaming hot with a film of canola oil, and sear 90 seconds per side. Rest tented in foil for 5 minutes. The result is edge-to-edge pink with a mahogany crust — no gray band of overcooked meat.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">Sauce</span> <strong>Cognac-Deglazed Mushroom Pan Sauce with Dijon Finish</strong> — After searing the chops, lower heat to medium and add a tablespoon of butter. Toss in a mix of sliced cremini and torn maitake mushrooms (or whatever browns are at the store) and cook without moving them for 3 minutes — you want color, not steam. Add minced shallot and two cloves of garlic, cook 1 minute, then hit the pan with 2 tablespoons of cognac and let it flame off or reduce fully. Deglaze with a splash of dry white wine, scraping every bit of fond from the iron. Add 3/4 cup heavy cream, a teaspoon of Dijon mustard, and fresh thyme leaves. Simmer until it coats the back of a spoon. Finish off-heat by swirling in a cold tablespoon of butter for gloss. Pour any resting juices from the chops back into the sauce before spooning it over.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">Temperature</span> <strong>Chilled Herb-Crème Fraîche Dollop</strong> — Mix 3 tablespoons of crème fraîche (or full-fat sour cream) with a teaspoon of lemon zest, minced chives, and cracked black pepper. Keep it cold in the fridge until plating. When you set the hot chop on the plate with the warm mushroom cream sauce, drop a cold spoonful of this right on top. The temperature contrast — hot cream sauce meeting cold, tangy crème fraîche — wakes up the palate and cuts through the richness. It melts slowly as you eat, creating a second wave of flavor.
+      </div>
+      
+    </div>
+    
+
+    
+    <div class="conversation-block">
+      <h4>At the Table</h4>
+      <div class="conversation-question">When we were hiking in the Sandia Mountains, what was a moment where you felt really brave or really small? Both are okay.</div>
+      <div class="conversation-why">Travel memories fade fast at this age unless someone helps her narrate them. This question gives Elsie permission to name a feeling — awe, fear, courage — and turns a family dinner into a shared story. Processing big landscapes helps build emotional vocabulary.</div>
+    </div>
+    
+
+    
+
+    
+    <div class="album-pairing">
+      <div class="album-artist">Franc Moody</div>
+      <div class="album-name">Chewing The Fat</div>
+      <div class="album-meta">2025 · Funk, Disco, Neo-Soul</div>
+      <div class="album-desc">Partly recorded at Damon Albarn's Studio 13 with rare Russian synths. Bass-driven funk-disco with new grit — and they're playing 9:30 Club tonight.</div>
+      <div class="album-sonic">Thick bass, disco beats, falsetto vocals, funky guitar, synth flourishes</div>
+      <div class="album-rationale">It's Franc Moody day — their peppy energy powers you through cooking and primes you for the show.</div>
+      
+    </div>
+    
+
+  </div>
+  
+  <div class="day-card">
+    <div class="weather-horizon">🌧️ Rain 64°/44° · warmest day, gusty, likely rain</div>
+    <h3>Friday, February 20</h3>
+
+    
+    <div class="engagements">
+      <div class="engagement-row"><span class="engagement-event">Elsie YAT 4:30-6:00 PM</span></div><div class="engagement-row"><span class="engagement-event">Kim Waters at Blues Alley (evening)</span></div>
+    </div>
+    
+
+    <p class="day-intro">Rain again at 64°F — the warmest day of the week. Elsie has YAT until 6pm, so prep the fish before pickup and roast it the moment you’re home. Twenty minutes, done.</p>
+
+    
+    <div class="dinner-title">Roasted Branzino with Cherry Tomatoes, Lemon & Capers</div>
+    <span class="cuisine-label">Mediterranean</span>
+    <p class="description">Whole branzino scored and stuffed with lemon slices, garlic, and fresh herbs, roasted at 425°F on a bed of burst cherry tomatoes and briny capers. A staple of Mediterranean coastal cooking — crispy skin, flaky flesh, and a bright lemon-caper sauce spooned over the top.</p>
+    <p class="ingredients">whole branzino, cherry tomatoes, lemon, capers, garlic, fresh dill, thyme, olive oil</p>
+    <a href="https://www.themediterraneandish.com/roasted-branzino-recipe/" target="_blank" rel="noopener" class="recipe-link">Recipe — The Mediterranean Dish</a>
+    <p class="notes">Prep and stuff the fish before YAT pickup. Pop in oven when home — 20 minutes at 425°F. Fast, elegant, impressive.</p>
+    
+
+    
+    <div class="elevation-tips">
+      <h4>Chef's Tips</h4>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">Technique</span> <strong>Score, Stuff, and Pre-Sear the Skin</strong> — Make 3 diagonal slashes on each side of the whole branzino, cutting down to the bone — this lets heat and seasoning penetrate evenly and prevents the skin from buckling. Stuff the cavity with thin lemon rounds, a few crushed garlic cloves, and sprigs of fresh thyme and flat-leaf parsley. Before roasting, get a stainless or cast-iron pan ripping hot with a thin layer of olive oil and sear the fish for 2 minutes per side until the skin is golden and blistered. Then transfer to a sheet pan surrounded by halved cherry tomatoes and roast at 425°F for 12-15 minutes. The pre-sear gives you restaurant-crispy skin that the oven alone can never achieve.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">Sauce</span> <strong>Warm Lemon-Caper Brown Butter</strong> — In a small saucepan, melt 4 tablespoons of unsalted butter over medium heat, swirling constantly. Watch it like it owes you money — it goes from golden to burnt in seconds. When the milk solids turn hazelnut-brown and it smells nutty, immediately add 2 tablespoons of drained capers (they'll sputter and crisp in the hot fat), a minced garlic clove, and the juice of half a lemon. Swirl to combine and pull off heat. The capers fry in the brown butter and turn into crispy, salty little gems. Spoon this over the roasted fish right before serving — the warm brown butter pools into the scored flesh while the fried capers add pops of salt and crunch against the tender, flaky branzino.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">Texture</span> <strong>Blistered Tomatoes with Raw Fennel Shave</strong> — Toss the cherry tomatoes with olive oil and a pinch of sugar before roasting alongside the fish — the sugar accelerates caramelization and concentrates their sweetness. Once plated, scatter paper-thin raw fennel shavings (use a mandoline or a sharp knife and patience) and a handful of torn fresh basil over the top. The contrast of jammy, blistered tomatoes against cool, crisp, anise-scented fennel gives the dish a dimension that cooked-on-cooked never achieves. Finish with flaky Maldon salt and a thread of your best olive oil.
+      </div>
+      
+    </div>
+    
+
+    
+    <div class="conversation-block">
+      <h4>At the Table</h4>
+      <div class="conversation-question">This fish lived in the sea before it came to our plate. If you could breathe underwater for one day, where would you swim and what do you think you'd find?</div>
+      <div class="conversation-why">Branzino is an unfamiliar protein for most kids — linking it to an underwater adventure reframes it from 'weird fish' to a gateway for wonder. Hypothetical questions like this exercise perspective-taking and creative reasoning, both of which are blooming at age eight.</div>
+    </div>
+    
+
+    
+
+    
+    <div class="album-pairing">
+      <div class="album-artist">Ichiko Aoba</div>
+      <div class="album-name">Windswept Adan</div>
+      <div class="album-meta">2020 · Japanese Folk, Ambient</div>
+      <div class="album-desc">Ichiko Aoba’s seventh album is a soundtrack for an imaginary film — the story of a girl sent to an island with no spoken language, inspired by Aoba’s travels to Japan’s Ryukyu Islands. Orchestral folk-ambient with crystalline vocals and field recordings of wind and water.</div>
+      <div class="album-sonic">Fingerpicked classical guitar, layered vocals, ambient orchestration, field recordings</div>
+      <div class="album-rationale">Aoba’s oceanic folk is the perfect companion for whole roasted fish — both are delicate, beautiful, and reward your full attention.</div>
+      
+    </div>
+    
+
+  </div>
+  
+  <div class="day-card">
+    <div class="weather-horizon">☁️ Overcast 49°/40° · gusty</div>
+    <h3>Saturday, February 21</h3>
+
+    
+    <div class="engagements">
+      <div class="engagement-row"><span class="engagement-event">Fresh sourdough bread day</span></div>
+    </div>
+    
+
+    <p class="day-intro">Overcast and 49°F. The week exhales. No calendar, no rush — just fresh sourdough in the oven and a slow Saturday at home.</p>
+
+    
+    <div class="dinner-title">Braised White Beans with Winter Greens & Sourdough Toast</div>
+    <span class="cuisine-label">Tuscan</span>
+    <p class="description">Cannellini beans braised low and slow with garlic, rosemary, and chili flakes until creamy, spooned over thick sourdough toast rubbed with raw garlic. Wilted lacinato kale, a shower of Parmesan, and good olive oil finish it. Tuscan cucina povera — peasant food elevated by the bread you baked this morning.</p>
+    <p class="ingredients">cannellini beans, lacinato kale, garlic, rosemary, chili flakes, olive oil, sourdough bread, lemon, Parmesan rind</p>
+    <a href="https://www.food52.com/recipes/braised-white-beans" target="_blank" rel="noopener" class="recipe-link">Recipe — Food52</a>
+    <p class="notes">The star is the sourdough. Thick slices, raw-garlic rub, toasted golden. Let the bread anchor everything.</p>
+    
+
+    
+    <div class="elevation-tips">
+      <h4>Chef's Tips</h4>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">Technique</span> <strong>Smash Half, Leave Half Whole</strong> — Once the cannellini beans are warmed through and tender, take a fork and crush roughly half of them against the side of the pot. This releases their starch into the braising liquid and creates a creamy, almost risotto-like body while the remaining whole beans give you pops of texture. This is the difference between a bowl of beans and a Tuscan braise — it should be lush enough to coat the back of a spoon without adding a drop of cream. Stir in a Parmigiano-Reggiano rind during the braise if you have one — it melts slowly and adds a savory depth that tastes like patience.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">Sauce</span> <strong>Garlic-Chili Oil and Lemon Zest Finish</strong> — In a small skillet, warm 3 tablespoons of good olive oil over low heat with 3 thinly sliced garlic cloves and a fat pinch of red pepper flakes. Cook slowly — you're not frying, you're infusing. When the garlic is pale gold and the oil smells dangerous, pull it off heat and stir in a teaspoon of fresh lemon zest. Spoon this over each bowl right before serving. The warm, spicy, fragrant oil hitting the creamy beans creates an aromatic burst that elevates simple legumes into something you'd pay eighteen dollars for at a farm-to-table spot in Florence.
+      </div>
+      
+      <div class="elevation-tip">
+        <span class="tip-label">Texture</span> <strong>Sourdough Grilled on Cast Iron with Garlic Rub</strong> — Do not put sourdough in a toaster. Slice it thick — three-quarter inch — brush both sides with olive oil, and press it into a screaming hot cast-iron pan until it's charred in spots and crackling, about 2 minutes per side. While it's still hot, rub a halved raw garlic clove across the surface — the rough toast acts like a grater, and the garlic melts right into the bread. The char gives a smoky bitterness that plays against the creamy, mellow beans. Lean the toast against the side of the bowl at an angle so it stays crisp above the broth line and soaks from the bottom up as you eat.
+      </div>
+      
+    </div>
+    
+
+    
+    <div class="conversation-block">
+      <h4>At the Table</h4>
+      <div class="conversation-question">Beans are one of the oldest foods humans have ever eaten — people were cooking them thousands of years ago. If you could travel back in time and have dinner with any family from history, who would you pick and what do you think they'd serve?</div>
+      <div class="conversation-why">At eight, kids are beginning to grasp historical time and find it thrilling. This question connects a humble ingredient to a bigger story about human connection across centuries, and it quietly reinforces that family meals have always mattered.</div>
+    </div>
+    
+
+    
+
+    
+    <div class="album-pairing">
+      <div class="album-artist">Ye Vagabonds</div>
+      <div class="album-name">All Tied Together</div>
+      <div class="album-meta">2025 · Irish Folk</div>
+      <div class="album-desc">Irish brothers Brián and Diarmuid Mac Gloinn recorded this album in a house in Galway with producer Philip Weinrobe. Swirling folk harmonies, fiddle, and atmospheric arrangements — the most decorated act at the RTÉ Radio 1 Folk Awards.</div>
+      <div class="album-sonic">Close harmonies, acoustic guitar, fiddle, bodhrán, stripped-back arrangements</div>
+      <div class="album-rationale">Rustic Irish folk for a rustic Tuscan dinner. Both traditions celebrate simplicity, community, and the warmth of bread on the table.</div>
+      
+    </div>
+    
+
+  </div>
+  
+
+  
+  <h2 class="section-title">Appetizers</h2>
+  
+  <div class="appetizer-card">
+    <h4>Whipped Ricotta Crostini with Honey & Walnuts</h4>
+    <span class="cuisine-label">Italian</span>
+    <p>Creamy whipped ricotta on toasted sourdough crostini, drizzled with honey, scattered with toasted walnuts and cracked black pepper.</p>
+    <p class="ingredients">ricotta, sourdough bread, honey, walnuts, black pepper</p>
+    
+  </div>
+  
+  <div class="appetizer-card">
+    <h4>Roasted Sweet Potato Rounds with Goat Cheese & Pecans</h4>
+    <span class="cuisine-label">American</span>
+    <p>Roasted sweet potato coins topped with tangy goat cheese, toasted pecans, dried cranberries, and honey.</p>
+    <p class="ingredients">sweet potatoes, goat cheese, pecans, dried cranberries, honey</p>
+    
+  </div>
+  
+  
+
+  
+  <h2 class="section-title">Salads</h2>
+  
+  <div class="salad-card">
+    <div class="salad-type">composed dinner</div>
+    <h4>Winter Citrus & Radicchio Salad</h4>
+    <p>Blood orange and cara cara segments with shaved radicchio, burrata, pistachios, and Castelvetrano olives. Blood orange vinaigrette.</p>
+    
+    <div class="dressing"><strong>Dressing:</strong> Blood orange vinaigrette: fresh blood orange juice, champagne vinegar, Dijon mustard, EVOO, minced shallot, flaky salt</div>
+    <div class="rationale">Bitter radicchio tamed by sweet citrus and creamy burrata. Italian amaro-dolce-grasso balance.</div>
+    
+  </div>
+  
+  <div class="salad-card">
+    <div class="salad-type">tossed dinner</div>
+    <h4>Warm Farro & Roasted Root Vegetable Salad</h4>
+    <p>Chewy farro with roasted beets, carrots, parsnips, goat cheese, and hazelnuts in warm sherry vinaigrette.</p>
+    
+    <div class="dressing"><strong>Dressing:</strong> Warm sherry vinaigrette: sherry vinegar, Dijon, minced shallot, EVOO, honey, fresh thyme</div>
+    <div class="rationale">Earthy roots, nutty farro, tangy goat cheese, and bright vinaigrette. Hearty winter sustenance.</div>
+    
+  </div>
+  
+  <div class="salad-card">
+    <div class="salad-type">side</div>
+    <h4>Shaved Brussels Sprout Slaw with Apple & Pecorino</h4>
+    <p>Paper-thin Brussels sprouts with Honeycrisp apple matchsticks, Pecorino, and toasted pecans.</p>
+    
+    <div class="dressing"><strong>Dressing:</strong> Lemon-Dijon: fresh lemon juice, Dijon mustard, honey, EVOO, apple cider vinegar</div>
+    <div class="rationale">Brussels bitterness balanced by sweet apple and honey. Pecorino adds umami, pecans add crunch.</div>
+    
+  </div>
+  
+  <div class="salad-card">
+    <div class="salad-type">side</div>
+    <h4>Roasted Beet & Pomegranate Salad with Labneh</h4>
+    <p>Golden and red beets with pomegranate seeds, labneh, walnuts, and mint.</p>
+    
+    <div class="dressing"><strong>Dressing:</strong> Pomegranate-za'atar vinaigrette: pomegranate molasses, red wine vinegar, za'atar, EVOO, Aleppo pepper</div>
+    <div class="rationale">Sweet beets + tart pomegranate + tangy labneh. Middle Eastern sweet-tart-creamy-aromatic balance.</div>
+    
+  </div>
+  
+  
+
+  
+  <h2 class="section-title">Beverages</h2>
+  
+  <div class="beverage-card">
+    <h4>Malbec (Mendoza, Argentina)</h4>
+    <p>Full-bodied red with dark fruit, plum, and chocolate. Perfect for pork chops and rich dishes.</p>
+    <p class="rationale">Complements the mushroom cream sauce on Thursday and pairs with the week's heartier meals.</p>
+  </div>
+  
+  <div class="beverage-card">
+    <h4>Sancerre (Loire Valley, France)</h4>
+    <p>Crisp, mineral-driven Sauvignon Blanc with citrus and white peach. The ideal white for branzino.</p>
+    <p class="rationale">Classic pairing with whole roasted fish. The acidity mirrors the lemon and capers.</p>
+  </div>
+  
+  <div class="beverage-card">
+    <h4>Yuzu Ginger Sparkling Mocktail</h4>
+    <p>Sparkling water with fresh yuzu juice, grated ginger, honey, and mint. Refreshing and alcohol-free.</p>
+    <p class="rationale">Non-alcoholic option for on-call nights and kid-friendly. Pairs with the kale Caesar.</p>
+  </div>
+  
+  
+
+  <h2 class="section-title">Grocery List</h2>
+  
+  <div class="grocery-section">
+    
+    <div class="grocery-category">
+      <h4>Produce</h4>
+      <ul><li>lacinato kale (2 bunches)</li><li>cherry tomatoes (2 pints)</li><li>lemons (4)</li><li>garlic (2 heads)</li><li>fresh dill</li><li>fresh thyme</li><li>fresh rosemary</li><li>sweet potatoes (2)</li><li>Honeycrisp apple (1)</li><li>Brussels sprouts (1 lb)</li><li>red onion (1)</li><li>shallots (3)</li><li>golden beets (2)</li><li>red beets (2)</li><li>blood oranges (3)</li><li>radicchio (1 head)</li><li>pomegranate (1)</li><li>fresh mint</li></ul>
+    </div>
+    
+    <div class="grocery-category">
+      <h4>Protein</h4>
+      <ul><li>whole branzino (2 fish)</li><li>bone-in pork chops (4, from freezer)</li></ul>
+    </div>
+    
+    <div class="grocery-category">
+      <h4>Dairy</h4>
+      <ul><li>heavy cream (1 pint)</li><li>Parmesan wedge</li><li>Pecorino Romano wedge</li><li>goat cheese (4 oz)</li><li>burrata (1 ball)</li><li>ricotta (8 oz)</li><li>labneh (6 oz)</li><li>butter (1 lb)</li><li>eggs (6)</li></ul>
+    </div>
+    
+    <div class="grocery-category">
+      <h4>Pantry</h4>
+      <ul><li>cannellini beans (2 cans or 1 lb dried)</li><li>chickpeas (2 cans)</li><li>capers (1 jar)</li><li>Castelvetrano olives</li><li>pistachios</li><li>walnuts</li><li>pecans</li><li>hazelnuts</li><li>dried cranberries</li><li>pearled farro</li><li>sourdough bread (fresh Saturday)</li><li>olive oil (EVOO)</li><li>champagne vinegar</li><li>sherry vinegar</li><li>apple cider vinegar</li><li>red wine vinegar</li><li>pomegranate molasses</li><li>za'atar</li><li>Aleppo pepper</li><li>chili flakes</li><li>Dijon mustard</li><li>honey</li><li>anchovy paste</li></ul>
+    </div>
+    
+    <div class="grocery-category">
+      <h4>Wine & Beverages</h4>
+      <ul><li>Malbec (Mendoza)</li><li>Sancerre</li><li>yuzu juice</li><li>fresh ginger</li><li>sparkling water</li></ul>
+    </div>
+    
+    <div class="grocery-category">
+      <h4>Mushrooms</h4>
+      <ul><li>cremini mushrooms (8 oz)</li><li>shiitake mushrooms (8 oz)</li></ul>
+    </div>
+    
+  </div>
+  
+
+  
+  <h2 class="section-title">Prep-Ahead Checklist</h2>
+  <ul class="prep-checklist">
+    <li>Tuesday night: Move pork chops from freezer to fridge to thaw</li><li>Wednesday morning: Roast chickpeas for the kale Caesar, make Caesar dressing</li><li>Wednesday evening: Massage kale, pickle red onions</li><li>Thursday afternoon: Prep mashed potatoes, slice mushrooms</li><li>Friday before YAT pickup: Score and stuff branzino, prep cherry tomato pan</li><li>Friday night: Soak cannellini beans for Saturday (if using dried)</li><li>Saturday morning: Begin sourdough bake</li>
+  </ul>
+  
+
+  
+  <h2 class="section-title">Parenting Corner</h2>
+  <div class="parenting-section">
+    
+    <div class="theme-banner">
+      <h3>Coming Home to Each Other</h3>
+      <p>You just stepped off a plane from Albuquerque, and everything feels a little tilted — the suitcases aren't unpacked, the fridge is half-empty, and the rhythms of regular life haven't clicked back into place yet. This week isn't about catching up. It's about landing — not just in your house, but in each other. Elsie experienced something big out there: new landscapes, new altitude, the vastness of the Sandia Mountains. She's carrying impressions she may not have words for yet. Give her space to process, and give yourselves permission to ease back in slowly. The trip memories are still warm. Use them.</p>
+    </div>
+    
+
+    
+    <h4 class="section-label">Dinner Conversation Starters</h4>
+    
+    <div class="question-card">
+      <div class="question-day">Wednesday — Kale Caesar Salad</div>
+      <div class="question-text">"If Caesar salad was invented by a real person named Caesar, what food would you invent and name after yourself? What would the 'Elsie Special' have in it?"</div>
+      <div class="question-why">Eight-year-olds are building a sense of identity and love the idea that they can leave a mark on the world. Naming a dish after herself invites creative thinking and a little pride — plus it makes kale feel less like a vegetable and more like a canvas.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-day">Thursday — Pork Chops</div>
+      <div class="question-text">"When we were hiking in the Sandia Mountains, what was a moment where you felt really brave or really small? Both are okay."</div>
+      <div class="question-why">Travel memories fade fast at this age unless someone helps her narrate them. This question gives Elsie permission to name a feeling — awe, fear, courage — and turns a family dinner into a shared story. Processing big landscapes helps build emotional vocabulary.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-day">Friday — Branzino</div>
+      <div class="question-text">"This fish lived in the sea before it came to our plate. If you could breathe underwater for one day, where would you swim and what do you think you'd find?"</div>
+      <div class="question-why">Branzino is an unfamiliar protein for most kids — linking it to an underwater adventure reframes it from 'weird fish' to a gateway for wonder. Hypothetical questions like this exercise perspective-taking and creative reasoning, both of which are blooming at age eight.</div>
+    </div>
+    
+    <div class="question-card">
+      <div class="question-day">Saturday — White Beans</div>
+      <div class="question-text">"Beans are one of the oldest foods humans have ever eaten — people were cooking them thousands of years ago. If you could travel back in time and have dinner with any family from history, who would you pick and what do you think they'd serve?"</div>
+      <div class="question-why">At eight, kids are beginning to grasp historical time and find it thrilling. This question connects a humble ingredient to a bigger story about human connection across centuries, and it quietly reinforces that family meals have always mattered.</div>
+    </div>
+    
+    
+
+    
+    <h4 class="section-label">Parenting Nudges</h4>
+    
+    <div class="nudge-card">
+      <h4>The Albuquerque Scrapbook Jar</h4>
+      <p style="font-style:italic;">Elsie just had a big travel experience and the memories are vivid now, but they'll blur within weeks. Meanwhile, Dan is on-call this week, which means his attention will be split. A small, self-directed project gives Elsie a way to process the trip even when Dad can't be fully present.</p>
+      <p>Set out a mason jar and some scrap paper. Each evening, anyone in the family can write or draw one memory from the Albuquerque trip and drop it in. On Sunday, read them all together.</p>
+      
+      <ol class="nudge-steps"><li>Put a jar, torn paper scraps, and a pen on the kitchen counter — visible, not hidden in a craft bin</li><li>Model it first: write your own memory and drop it in while Elsie is watching, no fanfare needed</li><li>On Sunday evening, dump the jar out and take turns reading each other's memories aloud</li></ol>
+      
+    </div>
+    
+    <div class="nudge-card">
+      <h4>The On-Call Check-In</h4>
+      <p style="font-style:italic;">Dan is on incident-manager rotation Tuesday through the following Tuesday. When a parent is on-call, kids sense the divided attention even if they can't name it. Elsie may interpret Dad's distraction as disinterest.</p>
+      <p>At the start of the week, tell Elsie honestly: 'Dad has a special work job this week where people might call him if something breaks. If I look at my phone a lot, it's not because I don't want to be with you — it's because I'm helping fix something.' Then create a small signal she can use when she really needs your attention — a hand on your arm, a sticky note, a code word.</p>
+      
+      <ol class="nudge-steps"><li>Have a 2-minute conversation explaining on-call in concrete terms she can picture — 'like being the school nurse but for computers'</li><li>Let her choose the signal — giving her ownership of the solution builds agency</li><li>When she uses the signal, honor it immediately, even if it's just to say 'Give me 90 seconds and I'm yours'</li></ol>
+      
+    </div>
+    
+    <div class="nudge-card">
+      <h4>The Friday Handoff</h4>
+      <p style="font-style:italic;">Friday is packed — YAT runs 4:30–6pm, and branzino is on the menu. After a long activity block, Elsie will come home wired and hungry. The transition from high-energy group time to a sit-down family dinner can be rocky.</p>
+      <p>Build a 10-minute decompression window between YAT pickup and dinner. In the car or at home, don't ask about the activity right away. Instead, put on a song she loves and let her just exist for a few minutes. Dinner conversation will be richer if she's had time to land.</p>
+      
+      <ol class="nudge-steps"><li>Queue up a playlist or let her pick one song for the drive home — music is a reset button at this age</li><li>Resist the urge to ask 'How was YAT?' immediately — let her volunteer what she wants to share</li><li>If she's quiet, that's fine. Say 'I'm glad you're here' and leave space</li></ol>
+      
+    </div>
+    
+    
+
+    
+    <div class="book-rec">
+        <h4>Postcard Letters Home</h4>
+        <p>Buy two blank postcards (or make them from cardstock). Elsie writes one to herself describing her favorite moment from Albuquerque, and one to a grandparent or friend describing something she saw. The act of writing to different audiences — herself vs. someone else — exercises perspective-taking and helps her realize that her experiences are worth sharing. It also extends the trip's emotional life by a few more days.</p>
+        <p style="font-style:italic;">Ties directly to this week's theme of 'Coming Home to Each Other' — the postcards arrive later, turning a past trip into a future surprise. It also gives Elsie something meaningful to do on evenings when Dan is fielding on-call pages.</p>
+    </div>
+    
+
+    
+    <div class="reflection-box">
+      Think about the moment on the trip when Elsie was most herself — not performing, not reacting to you, just being. Maybe she was staring out a window at the mountains, or laughing at something only she found funny, or quietly arranging rocks in a pattern. That version of her is the one that's growing fastest right now. This week, as you settle back into routines and Dan juggles on-call, try to notice one moment like that at home. She doesn't need you to see everything — but being seen in those unguarded moments is how she learns that who she really is, is enough.
+    </div>
+    
+  </div>
+  
+
+  
+  <h2 class="section-title">The Stoic Guide</h2>
+  <div class="stoic-section">
+    <div class="stoic-theme-header">
+      <span class="stoic-category-tag">Transitions & Duty</span>
+      <h3>The Art of Reentry</h3>
+      <p>This week explores the Stoic discipline of returning—to home, to routine, to responsibility. After the expansiveness of travel in the Sandia Mountains, the family settles back into the rhythm of daily life while Dan takes on the weight of on-call duty. The Stoics remind us that peace is not a place we visit; it is a practice we carry. Whether standing atop a mountain or answering a midnight page, tranquility belongs to the prepared mind.</p>
+    </div>
+
+    <blockquote class="stoic-anchor-quote">
+      "Nothing, to my way of thinking, is a better proof of a well-ordered mind than a man's ability to stop just where he is and pass some time in his own company."
+      <cite>— Seneca, <em>Letters from a Stoic</em> Letter 2</cite>
+    </blockquote>
+
+    <div class="stoic-intro">You spent last week among the high desert and granite peaks of the Sandias. Now the altitude drops, the suitcases open, and ordinary life reassembles itself—school lunches, work queues, the familiar creak of your own front door. Meanwhile Dan steps into the on-call rotation, carrying the quiet vigilance of an incident manager who must be ready at any hour. The Stoics would see nothing contradictory here. Marcus Aurelius governed an empire and still rose each morning reminding himself that the work ahead was a human being's work. Seneca traveled widely and yet insisted that the real journey was always inward. This week, we practice the art of reentry: finding depth in the return, steadiness under duty, and gratitude in the meals and moments that make a home.</div>
+
+    <h4 class="section-label">Meditations</h4>
+    
+    <div class="meditation-card">
+      <div class="meditation-day-label">Wednesday</div>
+      <h4>Settling the Mind After Motion</h4>
+      <p>The bags are unpacked, the travel laundry is running, and the house smells like home again. But the mind may still be in motion—replaying mountain vistas, calculating time zones, wondering if you forgot something. Seneca warned that changing your sky does not change your soul. The real unpacking is internal: letting go of the restlessness that travel stirs and choosing to be fully present in the room you are standing in. Tonight's Kale Caesar salad is simple, grounding—leaves and bread and the honest work of your own kitchen. Let the meal anchor you.</p>
+      <p class="meditation-prompt-text"><strong>Prompt:</strong> What is one thing from the trip that you want to carry forward into daily life—not as nostalgia, but as a practice?</p>
+      
+      <p class="meditation-sec-quote">"If you really want to escape the things that harass you, what you're needing is not to be in a different place but to be a different person." — <em>Seneca, Letters from a Stoic, Letter 104</em></p>
+      
+    </div>
+    
+    <div class="meditation-card">
+      <div class="meditation-day-label">Thursday</div>
+      <h4>The Vigilant Mind</h4>
+      <p>Dan is now two days into on-call. The phone could ring at any moment with an incident that demands calm, clear thinking. Marcus Aurelius faced a version of this every day as emperor—the constant readiness for problems not of his making. He wrote that it does not matter whether you are cold or warm, sleepy or rested, praised or criticized; what matters is that you are doing your proper duty. On-call is not a burden to resent but a role to inhabit fully. The pork chops tonight are hearty, sustaining—fuel for someone who must stay sharp. Eat well, rest when you can, and trust that you are equal to whatever comes.</p>
+      <p class="meditation-prompt-text"><strong>Prompt:</strong> When has being 'on call' in any area of your life—parenting, work, friendship—actually revealed a strength you didn't know you had?</p>
+      
+      <p class="meditation-sec-quote">"At the break of day, when you are reluctant to get up, have this thought ready: 'I am getting up for a man's work.'" — <em>Marcus Aurelius, Meditations, Book 5, Section 1</em></p>
+      
+    </div>
+    
+    <div class="meditation-card">
+      <div class="meditation-day-label">Friday</div>
+      <h4>Welcoming What Arrives</h4>
+      <p>The fog lifts. Friday brings warmth—sixty-four degrees in February, an unexpected gift. Epictetus taught that we suffer not from events themselves but from our judgments about them. The reverse is also true: we can find joy not by demanding particular outcomes but by welcoming what arrives. Tonight's branzino is a fish of the Mediterranean, the very sea the Stoics knew. Its preparation asks for restraint—a little oil, some lemon, high heat, and trust. The best things, in cooking and in life, come from not overhandling them.</p>
+      <p class="meditation-prompt-text"><strong>Prompt:</strong> What is something that arrived in your life uninvited but turned out to be exactly what you needed?</p>
+      
+      <p class="meditation-sec-quote">"Don't hope that events will turn out the way you want; welcome events in whichever way they happen: this is the path to peace." — <em>Epictetus, Enchiridion, Section 8</em></p>
+      
+    </div>
+    
+    <div class="meditation-card">
+      <div class="meditation-day-label">Saturday</div>
+      <h4>The Ordinary as Sacred</h4>
+      <p>Snow is forecast for tomorrow, and today sits in the hinge between the warming trend and the coming cold. Saturdays have their own quiet philosophy: the week's urgency fades, and what remains is the texture of home life. White beans simmering with garlic, a loaf of sourdough torn by hand—these are not lesser experiences than standing on a mountain. Marcus Aurelius reminded himself to see the crack in a loaf of bread as beautiful, to find in everyday things a 'fitness and appeal.' The Stoic does not need grandeur. Home, routine, a warm meal shared—this is the life worth living, right here.</p>
+      <p class="meditation-prompt-text"><strong>Prompt:</strong> Look around your home today. What ordinary object or routine do you take for granted that actually holds deep meaning for your family?</p>
+      
+      <p class="meditation-sec-quote">"Begin at once to live, and count each separate day as a separate life." — <em>Seneca, Letters from a Stoic, Letter 101</em></p>
+      
+    </div>
+    
+
+    
+    <div class="stoic-exercise-card">
+      <h4>The Reentry Ritual</h4>
+      <p>On Wednesday evening after dinner, gather as a family. Each person shares one thing they are glad to come home to and one thing from the trip they want to remember. Then together, choose one small change to make at home this week—inspired by something you saw or felt while traveling. Write it on a card and place it on the kitchen counter as a reminder that home is not static; it grows with you.</p>
+      <p style="font-style:italic;">This exercise bridges the transition from travel back to routine, turning reentry from a deflation into an intentional act. It teaches that home is not the opposite of adventure—it is where adventure is integrated.</p>
+    </div>
+    
+
+    
+    <div class="stoic-young-card">
+      <h4>The Mountain You Carry</h4>
+      <p>You climbed the Sandia Mountains last week. But did you know there's a mountain inside you too? The Stoics believed that every person has an inner citadel—a strong, quiet place inside where no storm can reach. This week, whenever something feels hard—a tough homework problem, a friend being unkind, or just a gloomy day—close your eyes for five seconds and imagine you're standing on top of your inner mountain, looking out at everything below. You're strong up there. Nothing can knock you off.</p>
+      <p style="font-style:italic;">True strength is not about what happens around you but about the steadiness you carry within. You can visit mountains, but you also are one.</p>
+    </div>
+    
+
+    
+    <div class="stoic-closing">The Sandias will stand long after this week fades from memory. But the steadiness you practice tonight—answering the page with calm, tearing the bread with gratitude, settling into the creak and comfort of home—that is the mountain you are building inside yourself. As Seneca wrote, the proof of a well-ordered mind is the ability to stop just where you are and pass some time in your own company. Welcome home. The work begins here.</div>
+    
+  </div>
+  
+
+  
+  <h2 class="section-title">The Weekly Read</h2>
+  
+  <div class="support-section">
+    <h3>Places That Can't Hold Their People</h3>
+    <p>Two seemingly unrelated stories this week circled the same quiet crisis: what happens when a place stops being somewhere people want to stay? New Mexico — the fifth-largest state by area, home to crimson sunsets and a cultural lineage older than the republic — is losing residents for the first time since the pandemic. Nearly 19,000 educated professionals have fled since 2010, chasing opportunity in Denver, Austin, and other boom towns. Meanwhile, the U.S. House passed the most significant federal housing legislation in a decade with a near-unanimous 390-9 vote, finally acknowledging what millions of families already know: there aren't enough homes, and the ones that exist cost too much. Here's the tension nobody is naming: New Mexico's median home price has surged 59% since 2019 while its population shrinks. Housing is simultaneously unaffordable *and* unable to attract newcomers. The Housing for the 21st Century Act promises to cut red tape and modernize HUD programs, but it's designed for places bursting at the seams — the Austins and Phoenixes gobbling up New Mexico's departing talent. A recent Harvard Kennedy School analysis argues that New Mexico's brain drain won't reverse until the state builds economic ecosystems that give young professionals a reason to unpack their boxes. Free college tuition through the Opportunity Scholarship is a start, but enchantment alone doesn't pay the mortgage. When 390 members of Congress agree on anything, it's worth pausing to ask: who does this actually help? And who gets left behind in the Land of Enchantment?</p>
+    <ul>
+    
+      <li><strong>New Mexico Population Changes</strong><br>The fifth-largest state can't stop hemorrhaging its best and brightest — and geography, water, and a 50th-ranked education system explain why.</li>
+    
+      <li><strong>House passes sweeping bipartisan housing package</strong><br>A 390-9 vote that proves housing affordability is the rare issue that can make French Hill and Maxine Waters agree.</li>
+    
+    </ul>
+  </div>
+  
+  <div class="support-section">
+    <h3>The USB-C Moment for AI</h3>
+    <p>Every transformative technology eventually gets its boring-but-essential standardization moment — the point where the wild frontier yields to interoperability. This week, WebMCP landed in Chrome 146 Canary, and if you squint past the acronym soup, you'll see what might be the most consequential web standard since HTTPS. Right now, AI agents navigate websites the way a tourist navigates Tokyo without Google Translate: screenshot everything, pray the model can identify a button, burn thousands of tokens on what a human does in two clicks. WebMCP proposes something radical in its simplicity — let websites just *tell* agents what they can do. Two APIs, one standard, and suddenly a single structured function call replaces dozens of fragile browser interactions. Google's Khushal Sagar calls it the "USB-C of AI agent interactions," and the metaphor is apt: nobody gets excited about a cable standard, but everyone benefits when their devices just work. What's most interesting isn't the technology — it's the philosophical choice buried in the spec. WebMCP is explicitly *not* for headless, autonomous agents. It's designed for the browser, where a human is watching, collaborating, guiding. In an industry racing toward full autonomy, Google and Microsoft jointly shipped a standard that says: actually, the human should stay in the loop. Early benchmarks suggest up to 89% fewer tokens consumed per interaction. But the deeper question lingers: if we make it trivially easy for AI to interact with every website, have we built a better tool — or have we just made it cheaper to replace the browsing we used to do ourselves?</p>
+    <ul>
+    
+      <li><strong>Vercel Security Checkpoint</strong><br>Chrome 146 ships the web standard that could turn every website into an API for AI agents — and deliberately keeps humans in the driver's seat.</li>
+    
+    </ul>
+  </div>
+  
+  
+  <div class="through-line">
+    <strong>The Through-Line:</strong> This week's reading orbited a single idea: the tension between systems designed for people and systems designed to scale. New Mexico is a place engineered by geography and history for a certain kind of life — and it's watching its people leave for places optimized for growth. Congress is building housing policy for booming metros while quieter places hollow out. And the web is being re-architected so that AI agents can navigate it efficiently — but only, the authors insist, with a human still at the helm. Everywhere you look, the same question: when we optimize a system, who are we optimizing it for?
+  </div>
+  
+  
+  <div class="fun-box">
+    <h3>And Finally…</h3>
+    <p>Octopuses have three hearts — but two of them stop beating every time they swim. The effort of pushing their boneless bodies through water is so taxing that the two hearts responsible for pumping blood to their gills simply give up until the octopus stops to rest. This is why octopuses prefer crawling along the ocean floor to swimming: it's literally less heartbreaking. Scientists believe this cardiac quirk also explains why octopuses tire so easily — imagine running a marathon while two-thirds of your circulatory system takes a nap. Next time you feel exhausted on a Monday morning, just remember: at least all your hearts are working.</p>
+    
+    <p class="fun-source"><em>Source: <a href="https://www.classpop.com/magazine/fun-facts-for-kids">Classpop</a></em></p>
+    
+  </div>
+  
+  
+
+  
+
+  
+  <h2 class="section-title">Notes</h2>
+  <div class="support-section">
+    <ul><li>Dan is on-call as Incident Manager Tuesday through Tuesday — keep weeknight dinners manageable</li><li>Swim lessons Tuesday evening, Elsie YAT 4:30-6:00 Friday</li><li>Franc Moody playing 9:30 Club Thursday Feb 19 — consider going!</li><li>Kim Waters at Blues Alley Feb 20-22 for live jazz</li><li>Fresh sourdough bread on Saturday is the culinary anchor of the week's end</li><li>This week traces an arc from wide-open Southwest skies to the warm glow of your own kitchen. Let the travel days be easy on yourselves — the real cooking begins Wednesday, and each dinner builds toward Saturday’s slow, bread-scented finish.</li><li>The music follows the same path: global psychedelia and desert blues give way to art-pop, funk, and fireside folk. By Saturday, the albums are as cozy as the food.</li></ul>
+  </div>
+  
+
+  
+  <h2 class="section-title">Nutrition</h2>
+  <div class="support-section"><p>This week’s menu splits neatly in two: indulgent Albuquerque dining through Tuesday, then a beautifully balanced run of home-cooked meals. Protein is a strength — eight distinct sources from birria beef to Friday’s omega-3-rich branzino — and the kale on Wednesday and Saturday delivers serious vitamin K and iron. The early-week restaurant sodium naturally washes out as lighter meals take over. Calcium gets a boost from Parmesan, yogurt snacks, and all that kale, while Saturday’s bean night is a fiber powerhouse. Pair the recommended lunches (grain bowls, lentil stew) and fruit-forward snacks with these dinners, and the family lands at a solid A– for the week. Real food, real pleasure, nothing to stress about.</p></div>
+  
+
+  
+  <h2 class="section-title">Bedtime Story</h2>
+  <div class="story-card">
+    <h3 class="story-title">The Watermelon Mountain Mystery</h3>
+    <div class="story-text">Chelsie pressed her forehead against the window of the Sandia Peak Tramway and watched Albuquerque shrink beneath her like a toy city. The cable car swayed gently, climbing higher and higher, until the desert floor gave way to snow-dusted pines and granite cliffs that glowed faintly pink in the afternoon light.
+
+"Mertle, are you watching?" she whispered, holding up the kind little turtle puppet so he could see. Mertle’s button eyes reflected the whole Rio Grande Valley.
+
+At the top, Chelsie stepped into snow up to her ankles and laughed out loud. The air was so cold it tasted like peppermint, and so quiet she could hear her own heartbeat. Daddio was reading a sign nearby: SANDIA CREST — 10,678 FEET.
+
+"Did you know Sandia means watermelon?" he said.
+
+Chelsie squinted at the pink-and-green mountainside — pink granite, green juniper — and suddenly the name made perfect sense. She crunched through the snow in wide circles, arms out, catching flakes on her tongue, while Mertle bounced along in her coat pocket.
+
+But the mountain was only one chapter of their adventure. Earlier that week, Chelsie had stood mesmerized at the aquarium, watching seahorses drift like tiny enchanted horses through the water, and then gasping when a shadow passed overhead — a shark gliding through the tunnel tank, slow and ancient and magnificent.
+
+There was the evening they’d discovered birria pizza at a little restaurant, the cheese pulling in long strings while the consommé dripped down their chins. There was the morning Chelsie found a spray mop in the Airbnb kitchen and spent a gleeful half hour mopping every tile in the house, announcing she’d found her "true calling." And there were the quiet evenings curled up by the fire crackling in the den, Mertle propped on a pillow, everyone’s socks drying on the hearth.
+
+Now, standing at 10,678 feet with the whole world below her, Chelsie tried to memorize it all. Not just the view — the seahorses, the shark’s shadow, the cheese pull, the mop handle in her hands, the warmth of the fire on her shins.
+
+"The best souvenirs aren’t things you buy," she told Mertle softly, watching the last light turn the snow to rose gold. "They’re the things you notice."
+
+Daddio put his arm around her shoulder. "Ready to head down?"
+
+Chelsie took one more look. She wanted to remember everything.</div>
+    
+    <div class="story-prompt">What was your favorite thing you noticed on our trip to New Mexico?</div>
+    
+  </div>
+  
+
+  <div class="footer">February 15 - February 21, 2026 · Generated 2026-02-17 12:19</div>
+</div>
+
+</body>
+</html>
