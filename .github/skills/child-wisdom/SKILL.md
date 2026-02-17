@@ -1,7 +1,7 @@
 ---
 name: child-wisdom
 description: >
-  Write a short illustrated-style children's mystery story (250-400 words) with
+  Write a short illustrated-style children's mystery story (250-800 words) with
   a life lesson woven in. The story's theme aligns with the parenting coach's
   weekly theme, and elements from the week (dinner ingredients, album moods,
   weather, family activities) appear as subtle details in the narrative. Use
@@ -13,25 +13,25 @@ description: >
 
 Write a short children's mystery story for the back page of the weekly family
 planner booklet. The story is designed to be read aloud at bedtime or at the
-dinner table — a 2-3 minute read that sparks conversation.
+dinner table — a 3-5 minute read that sparks conversation.
 
 ## Story Formula
 
 Every story follows this structure:
 
-1. **The Setup** (~80 words) — Introduce a child protagonist (age 7-9,
+1. **The Setup** (~80-160 words) — Introduce a child protagonist (age 7-9,
    gender-neutral name) in a familiar setting. Something small but puzzling
    happens — a missing object, a strange sound, a note with no author.
 
-2. **The Investigation** (~120 words) — The protagonist follows clues. Each
+2. **The Investigation** (~120-400 words) — The protagonist follows clues. Each
    clue connects to a sensory detail (smell, sound, texture). The mystery
    deepens but never becomes scary — it's curiosity-driven, not fear-driven.
 
-3. **The Reveal** (~80 words) — The answer is surprising but warm. The
+3. **The Reveal** (~80-160 words) — The answer is surprising but warm. The
    "mystery" turns out to be an act of kindness, a misunderstanding, or a
    natural phenomenon. No villains — only discoveries.
 
-4. **The Wisdom** (~40 words) — A single closing line or short paragraph
+4. **The Wisdom** (~40-80 words) — A single closing line or short paragraph
    that names the life lesson without being preachy. Written as the
    protagonist's own realization, not an adult's lecture.
 
@@ -60,7 +60,7 @@ A JSON file with this structure:
   "story": "Full story text with paragraph breaks...",
   "theme": "Love in Action",
   "life_lesson": "Sometimes the biggest kindnesses are the ones nobody sees.",
-  "reading_time": "2 minutes",
+  "reading_time": "3-5 minutes",
   "discussion_prompt": "Has anyone ever done something kind for you without telling you?"
 }
 ```
@@ -85,7 +85,7 @@ Using the formula above, write a story that:
 - Features weather or setting details from the forecast
 - Is appropriate for an 8-year-old reader/listener
 - Contains a small mystery that resolves warmly
-- Stays between 250-400 words
+- Stays between 250-800 words
 
 ### Step 3: Save Output
 ```bash
@@ -99,8 +99,8 @@ The booklet skill picks up `child-wisdom.json` via `assemble_plan.py`:
 python assemble_plan.py days.json --child-wisdom child-wisdom.json ...
 ```
 
-The story renders on the back page of the booklet, replacing or augmenting
-the notes section.
+The story renders on the back pages of the booklet (up to two pages) to ensure
+there is room for a valid and strong story arc.
 
 ## Style Guide
 
@@ -109,7 +109,7 @@ the notes section.
   word per story that a child might ask about (e.g., "iridescent," "peculiar")
 - **Tone**: Cozy mystery, not thriller — think Encyclopedia Brown meets
   Frog and Toad
-- **Length**: 250-400 words (strict — must fit on a half-letter page)
+- **Length**: 250-800 words (story may span multiple pages in the booklet)
 - **No**: Violence, scares, sadness, moralistic lecturing, talking animals
   (unless the week's theme calls for it)
 - **Yes**: Sensory details, small kindnesses, child agency, satisfying
