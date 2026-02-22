@@ -35,14 +35,16 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,woff,woff2,json}'],
+        globPatterns: ['**/*.{js,css,html,svg,woff,woff2}'],
+        navigateFallback: '/index.html',
+        navigateFallbackDenylist: [/\/plans\//, /\/stories\//],
         runtimeCaching: [
           {
             urlPattern: /\/plans\/.*/,
             handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'plan-data',
-              expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 },
             },
           },
           {

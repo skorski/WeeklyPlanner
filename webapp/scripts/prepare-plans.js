@@ -53,8 +53,9 @@ for (const folder of folders) {
     copyFileSync(pdfFile, join(destDir, 'weekly-plan.pdf'))
   }
 
-  // Read plan data for the manifest
-  const planData = JSON.parse(readFileSync(planFile, 'utf-8'))
+  // Read plan data for the manifest (strip BOM if present)
+  const raw = readFileSync(planFile, 'utf-8').replace(/^\uFEFF/, '')
+  const planData = JSON.parse(raw)
   const days = planData.days || []
 
   // Extract summary info for the homepage
