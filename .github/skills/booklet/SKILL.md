@@ -39,8 +39,12 @@ weekly_plans/2026-02-08/
   1. Cover — week title, date range, hero highlight
   2. Week at a Glance — overview summary table
   3. **Section divider** — "Daily Plan"
-  4–10. Daily pages — dinner + album + chef's tips per day (running header: DAILY PLAN)
-  11. **Section divider** — "Kitchen & Pantry"
+  4–31. Daily pages — 4-page spread per day × 7 days (running header: DAILY PLAN)
+     - Page 1: Day overview — weather, events, dinner, conversation starter
+     - Page 2: Principles — daily mini-essay from the weekly principles theme
+     - Page 3: Recipe — nonna's instructions + engineer merge-flow table
+     - Page 4: Variations + chef's tips + album pairing
+  32. **Section divider** — "Kitchen & Pantry"
   12. Appetizers & Salads
   13. Beverage Pairings
   14. Grocery List

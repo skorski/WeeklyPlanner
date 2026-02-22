@@ -1,0 +1,61 @@
+# Recipe Cards
+
+*{{ recipe_cards | length }} recipes for the week*
+
+---
+
+{% for card in recipe_cards %}
+## {{ card.day }} — {{ card.name }}
+
+| | |
+|---|---|
+| **Source** | {% if card.source_url %}[{{ card.source_name | default("Recipe") }}]({{ card.source_url }}){% else %}{{ card.source_name | default("—") }}{% endif %} |
+| **Servings** | {{ card.servings | default("4") }} |
+| **Prep** | {{ card.prep_time | default("—") }} |
+| **Cook** | {{ card.cook_time | default("—") }} |
+
+### Nonna Says
+
+> {{ card.nonna_says }}
+
+### How It Comes Together
+
+{% if card.engineer_table -%}
+{% if card.engineer_table.preheat %}*Preheat oven to {{ card.engineer_table.preheat }}*
+
+{% endif -%}
+{% for group in card.engineer_table.groups -%}
+**{% if loop.index == 1 %}Group A{% elif loop.index == 2 %}Group B{% elif loop.index == 3 %}Group C{% else %}Group {{ loop.index }}{% endif %}{% if group.merge_action %} → {{ group.merge_action }}{% endif %}**
+
+{% for ing in group.ingredients -%}
+- {{ ing.qty }} {{ ing.item }}{% if ing.prep %} *({{ ing.prep }})*{% endif %}
+
+{% endfor %}
+{% endfor -%}
+**Final assembly:** {{ card.engineer_table.final_steps | join(" → ") }}
+
+{% if card.parallel_table -%}
+*{{ card.parallel_table.note | default("Meanwhile:") }}*
+
+{% for group in card.parallel_table.groups -%}
+{% if group.merge_action %}**{{ group.merge_action }}**{% endif %}
+
+{% for ing in group.ingredients -%}
+- {{ ing.qty }} {{ ing.item }}{% if ing.prep %} *({{ ing.prep }})*{% endif %}
+
+{% endfor %}
+{% endfor -%}
+**Then:** {{ card.parallel_table.final_steps | join(" → ") }}
+
+{% endif -%}
+{% endif -%}
+
+### Variations
+
+{% for v in card.variations -%}
+{{ loop.index }}. **{{ v.name }}** — {{ v.twist }}{% if v.source_url %} ([recipe]({{ v.source_url }})){% endif %}
+
+{% endfor %}
+---
+
+{% endfor %}

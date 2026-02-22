@@ -10,3 +10,5 @@ Do not select opra music.
 ## Cate Le Bon - Michelangelo Dying - NOT A FAN
 
 Too slow and atmospheric. Do not select this album.
+
+## The Pixies - Great nostalgic album from Fight Club

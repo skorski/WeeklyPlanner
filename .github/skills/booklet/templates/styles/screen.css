@@ -274,6 +274,22 @@ a:hover { text-decoration: underline; }
     color: var(--muted);
     margin-bottom: var(--x);
   }
+  .day-card .elsie-note {
+    font-family: var(--narrative);
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--ink);
+    background: #fef9e7;
+    border-left: 3px solid #f0c040;
+    padding: 0.5rem 0.75rem;
+    margin: 0.5rem 0;
+  }
+  .elsie-nogo {
+    font-family: var(--narrative);
+    font-size: 1rem;
+    color: var(--muted);
+    margin-top: 0.75rem;
+  }
 
   /* Recipe link */
   .recipe-link {
@@ -289,6 +305,172 @@ a:hover { text-decoration: underline; }
     margin-top: calc(var(--x) * 0.5);
   }
   .recipe-link:hover { text-decoration: none; opacity: 0.7; }
+
+  /* Principles card (screen daily view) */
+  .principles-card {
+    margin-top: calc(var(--x) * 2);
+    padding: calc(var(--x) * 1.5);
+    background: #f7f5f0;
+    border-radius: 6px;
+  }
+  .principles-theme-header {
+    margin-bottom: calc(var(--x));
+    padding-bottom: calc(var(--x));
+    border-bottom: 1px solid var(--rule);
+  }
+  .principles-category-tag {
+    font-family: var(--anchor);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--ochre);
+    font-weight: 600;
+  }
+  .principles-theme-header h4 {
+    font-family: var(--hero);
+    font-size: 1.15rem;
+    color: var(--midnight);
+    margin: 0.25rem 0 0;
+  }
+  .principles-theme-header p {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--muted);
+    margin: 0.15rem 0 0;
+  }
+  .principles-anchor {
+    font-size: 0.85rem;
+    font-style: italic;
+    border-left: 3px solid var(--ochre);
+    padding: 0.5rem 0.75rem;
+    margin: 0.5rem 0;
+  }
+  .principles-anchor cite {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--muted);
+    font-style: normal;
+    margin-top: 0.25rem;
+  }
+  .principle-title {
+    font-family: var(--hero);
+    font-size: 1.05rem;
+    color: var(--midnight);
+    margin: 0.5rem 0 0.25rem;
+  }
+  .principle-essay {
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+  .principle-quote {
+    font-size: 0.85rem;
+    font-style: italic;
+    border-left: 2px solid var(--rule);
+    padding: 0.35rem 0.75rem;
+    margin: 0.5rem 0;
+  }
+  .principle-quote cite {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--muted);
+    font-style: normal;
+    margin-top: 0.15rem;
+  }
+  .principle-reflect {
+    font-size: 0.85rem;
+    background: white;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+  }
+
+  /* Recipe card detail (screen daily view) */
+  .recipe-card-detail {
+    margin-top: calc(var(--x) * 1.5);
+  }
+  .recipe-card-detail summary {
+    font-family: var(--anchor);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: var(--sage);
+  }
+  .nonna-section h4, .engineer-section h4, .variations-section h4 {
+    font-family: var(--anchor);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--sage);
+    font-weight: 600;
+    margin: 0.75rem 0 0.25rem;
+  }
+  .nonna-section blockquote {
+    font-style: italic;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    border-left: 3px solid var(--sage);
+    padding: 0.5rem 0.75rem;
+    margin: 0.25rem 0;
+  }
+  .eng-group {
+    margin-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    border-left: 2px solid var(--rule);
+  }
+  .eng-group-label {
+    font-family: var(--anchor);
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--ochre);
+  }
+  .eng-group ul {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin: 0.15rem 0;
+    padding-left: 1rem;
+    list-style: none;
+  }
+  .eng-group ul li::before { content: "· "; color: var(--muted); }
+  .eng-group ul em { font-size: 0.8rem; color: var(--muted); }
+  .eng-final {
+    font-size: 0.85rem;
+    padding: 0.35rem 0.75rem;
+    background: #f7f5f0;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+  }
+  .preheat {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: var(--muted);
+  }
+  .variation {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 0.25rem;
+  }
+  .variation a { font-size: 0.75rem; color: var(--muted); }
+
+  /* Principles section (full-week summary in screen view) */
+  .principles-section {
+    margin-bottom: calc(var(--x) * 3);
+  }
+  .principles-intro {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    margin: 0.75rem 0;
+  }
+  .principles-closing-screen {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--muted);
+    text-align: center;
+    margin-top: 1rem;
+  }
 
   /* Links */
   .day-card a, .item-card a {

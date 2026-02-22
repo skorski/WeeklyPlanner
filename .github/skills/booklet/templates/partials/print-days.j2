@@ -6,7 +6,7 @@
   <div class="page-folio">3</div>
 </div>
 
-{# --- DAILY PAGES (two-page spread per day) --- #}
+{# --- DAILY PAGES (four-page spread per day) --- #}
 {% for day in days %}
 {# Page 1: The Day — weather, date, engagements, narrative, dinner #}
 <div class="page page-day page-day-left">
@@ -41,6 +41,7 @@
     <div class="ingredients-line">{{ day.dinner_key_ingredients | join(", ") }}</div>
     {% endif %}
     {% if day.dinner_notes %}<div class="notes-line">{{ day.dinner_notes }}</div>{% endif %}
+    {% if day.elsie_note %}<div class="elsie-note">🧒 {{ day.elsie_note }}</div>{% endif %}
   </div>
   {% endif %}
 
@@ -52,12 +53,115 @@
   </div>
   {% endif %}
 
-  <div class="page-folio">{{ 4 + (loop.index0 * 2) }}</div>
+  <div class="page-folio">{{ 4 + (loop.index0 * 4) }}</div>
 </div>
 
-{# Page 2: The Evening — chef's tips + album gallery #}
+{# Page 2: Principles — daily reading #}
+<div class="page page-day page-day-principles">
+  <div class="page-header">{{ day.long_name }} · Principles</div>
+
+  {% if principles_data and principles_data.daily_entries %}
+  {% set principle = principles_data.daily_entries[loop.index0] %}
+  {% if principle %}
+  <div class="principles-block">
+    {% if loop.index0 == 0 and principles_data.theme %}
+    <div class="principles-theme-banner">
+      <span class="principles-category">{{ principles_data.theme.category | default("") }}</span>
+      <div class="principles-theme-title">{{ principles_data.theme.title }}</div>
+      {% if principles_data.theme.description %}<div class="principles-theme-desc">{{ principles_data.theme.description }}</div>{% endif %}
+    </div>
+    {% if principles_data.anchor_quote %}
+    <blockquote class="principles-anchor-quote">
+      "{{ principles_data.anchor_quote.text }}"
+      <cite>— {{ principles_data.anchor_quote.source }}{% if principles_data.anchor_quote.work %}, <em>{{ principles_data.anchor_quote.work }}</em>{% endif %}{% if principles_data.anchor_quote.reference %} {{ principles_data.anchor_quote.reference }}{% endif %}</cite>
+    </blockquote>
+    {% endif %}
+    {% endif %}
+
+    <h3 class="principles-entry-title">{{ principle.title }}</h3>
+    <div class="principles-essay">{% for para in principle.essay.split('\n\n') %}<p>{{ para }}</p>{% endfor %}</div>
+
+    {% if principle.source_quote %}
+    <blockquote class="principles-quote">
+      "{{ principle.source_quote.text }}"
+      <cite>— {{ principle.source_quote.source }}</cite>
+    </blockquote>
+    {% endif %}
+
+    {% if principle.reflection_prompt %}
+    <div class="principles-reflect"><strong>Reflect:</strong> {{ principle.reflection_prompt }}</div>
+    {% endif %}
+
+    {% if loop.last and principles_data.closing_line %}
+    <div class="principles-closing">{{ principles_data.closing_line }}</div>
+    {% endif %}
+  </div>
+  {% endif %}
+  {% else %}
+  <div class="principles-block principles-empty">
+    <p class="empty-note">Principles content not yet generated for this week.</p>
+  </div>
+  {% endif %}
+
+  <div class="page-folio">{{ 5 + (loop.index0 * 4) }}</div>
+</div>
+
+{# Page 3: Recipe Card — nonna's instructions + engineer table #}
+<div class="page page-day page-day-recipe">
+  <div class="page-header">{{ day.long_name }} · Recipe</div>
+
+  {% if day.recipe_card %}
+  <div class="recipe-card-block">
+    {% if day.recipe_card.source_url %}
+    <div class="recipe-source-line"><a href="{{ day.recipe_card.source_url }}">{{ day.recipe_card.source_name | default("View recipe") }}</a>{% if day.recipe_card.servings %} · {{ day.recipe_card.servings }} servings{% endif %}{% if day.recipe_card.prep_time %} · Prep {{ day.recipe_card.prep_time }}{% endif %}{% if day.recipe_card.cook_time %} · Cook {{ day.recipe_card.cook_time }}{% endif %}</div>
+    {% endif %}
+
+    {% if day.recipe_card.nonna_says %}
+    <div class="nonna-block">
+      <h4>Mamma Karen Says</h4>
+      <blockquote class="nonna-quote">{{ day.recipe_card.nonna_says }}</blockquote>
+    </div>
+    {% endif %}
+
+    {% if day.recipe_card.engineer_table %}
+    <div class="engineer-block">
+      <h4>How It Comes Together</h4>
+      {% if day.recipe_card.engineer_table.preheat %}
+      <div class="preheat-line">Preheat oven to {{ day.recipe_card.engineer_table.preheat }}</div>
+      {% endif %}
+      {% for group in day.recipe_card.engineer_table.groups %}
+      <div class="engineer-group">
+        <div class="group-header">{% if loop.index == 1 %}A{% elif loop.index == 2 %}B{% elif loop.index == 3 %}C{% elif loop.index == 4 %}D{% else %}{{ loop.index }}{% endif %}{% if group.merge_action %} · {{ group.merge_action }}{% endif %}</div>
+        <ul class="group-ingredients">
+          {% for ing in group.ingredients %}
+          <li>{{ ing.qty }} {{ ing.item }}{% if ing.prep %} <em>({{ ing.prep }})</em>{% endif %}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+      {% if day.recipe_card.engineer_table.final_steps %}
+      <div class="final-assembly"><strong>Final:</strong> {{ day.recipe_card.engineer_table.final_steps | join(" → ") }}</div>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  <div class="page-folio">{{ 6 + (loop.index0 * 4) }}</div>
+</div>
+
+{# Page 4: Variations + Chef's Tips + Album #}
 <div class="page page-day page-day-right">
   <div class="page-header">{{ day.long_name }}</div>
+
+  {% if day.recipe_card and day.recipe_card.variations %}
+  <div class="variations-block">
+    <h4>Variations</h4>
+    {% for v in day.recipe_card.variations %}
+    <div class="variation-item"><strong>{{ v.name }}</strong> — {{ v.twist }}{% if v.source_url %} <a href="{{ v.source_url }}" class="variation-link">(recipe)</a>{% endif %}</div>
+    {% endfor %}
+  </div>
+  {% endif %}
 
   {% if day.dinner_elevation_tips %}
   <div class="elevation-block">
@@ -79,9 +183,11 @@
     {% if day.album_description %}<div class="album-desc">{{ day.album_description }}</div>{% endif %}
     {% if day.album_sonic_description %}<div class="album-sonic">{{ day.album_sonic_description }}</div>{% endif %}
     {% if day.album_pairing_rationale %}<div class="album-why">{{ day.album_pairing_rationale }}</div>{% endif %}
+    {% if day.album_lyrical_story %}<div class="album-story">{{ day.album_lyrical_story }}</div>{% endif %}
+    {% if day.album_spotify_url %}<a href="{{ day.album_spotify_url }}" class="spotify-link" target="_blank" rel="noopener">Listen on Spotify</a>{% endif %}
   </div>
   {% endif %}
 
-  <div class="page-folio">{{ 5 + (loop.index0 * 2) }}</div>
+  <div class="page-folio">{{ 7 + (loop.index0 * 4) }}</div>
 </div>
 {% endfor %}

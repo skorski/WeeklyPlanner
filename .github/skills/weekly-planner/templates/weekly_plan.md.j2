@@ -12,6 +12,10 @@
 | **{{ day.name }}** | {% set w = day.weather | default("") | lower %}{% if "snow" in w or "blizzard" in w %}❄️{% elif "rain" in w or "drizzle" in w %}🌧️{% elif "thunder" in w %}⛈️{% elif "clear" in w %}☀️{% elif "partly" in w %}🌤️{% elif "overcast" in w %}☁️{% elif "cloud" in w %}⛅{% elif "fog" in w %}🌫️{% else %}🌤️{% endif %} | {{ day.weather | default("—") }} | {% if day.calendar_items %}{% for item in day.calendar_items %}{{ item }}{% if not loop.last %}; {% endif %}{% endfor %}{% else %}—{% endif %} | {{ day.dinner | default("—") }} | {{ day.album | default("—") }} |
 {% endfor %}
 
+{% if elsie_no_list -%}
+> **🍽️ Elsie's No-Go List This Week:** {{ elsie_no_list | join(", ") }}
+{% endif %}
+
 ---
 
 ## Daily Breakdown
@@ -60,6 +64,46 @@
 
 {% if day.dinner_nutrition_notes %}**Nutrition:** {{ day.dinner_nutrition_notes }}{% endif %}
 
+{% if day.elsie_note %}> **🧒 Elsie Note:** {{ day.elsie_note }}{% endif %}
+
+{% if day.recipe_card -%}
+##### Recipe Directions
+
+{% if day.recipe_card.nonna_says -%}
+> **Mamma Karen Says:** {{ day.recipe_card.nonna_says }}
+{% endif %}
+
+{% if day.recipe_card.engineer_table -%}
+**How It Comes Together**
+{% if day.recipe_card.engineer_table.preheat %}*Preheat oven to {{ day.recipe_card.engineer_table.preheat }}*{% endif %}
+
+{% for group in day.recipe_card.engineer_table.groups -%}
+**Step {{ loop.index }}{% if group.merge_action %} — {{ group.merge_action }}{% endif %}**
+{% for ing in group.ingredients -%}
+- {{ ing.qty }} {{ ing.item }}{% if ing.prep %} *({{ ing.prep }})*{% endif %}
+{% endfor %}
+{% endfor -%}
+
+{% if day.recipe_card.engineer_table.final_steps -%}
+**Final:** {{ day.recipe_card.engineer_table.final_steps | join(" → ") }}
+{% endif %}
+{% endif -%}
+
+{% if day.recipe_card.variations -%}
+**Variations:**
+{% for v in day.recipe_card.variations -%}
+- **{{ v.name }}** — {{ v.twist }}{% if v.source_url %} ([recipe]({{ v.source_url }})){% endif %}
+{% endfor %}
+{% endif -%}
+{% endif -%}
+
+{% if day.dinner_elevation_tips -%}
+##### Chef's Tips
+{% for tip in day.dinner_elevation_tips -%}
+- **{{ tip.type | upper }}:** {{ tip.title }} — {{ tip.instruction }}
+{% endfor %}
+{% endif -%}
+
 {% endif -%}
 
 {% if day.album -%}
@@ -72,6 +116,8 @@
 | **Mood** | {{ day.album_mood | default("—") }} |
 
 {% if day.album_description %}{{ day.album_description }}{% endif %}
+
+{% if day.album_lyrical_story %}**The Story:** *{{ day.album_lyrical_story }}*{% endif %}
 
 {% if day.album_sonic_description %}**Sound:** {{ day.album_sonic_description }}{% endif %}
 

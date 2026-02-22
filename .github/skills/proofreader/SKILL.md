@@ -23,7 +23,18 @@ Opens the HTML in headless Chromium at print dimensions (5.5" × 8.5") and
 measures every `.page` element's `scrollHeight` vs the available content
 area (715 CSS px). Reports any page that bleeds past its boundary.
 
-### 2. Content Completeness
+### 2. Field Shape Validation
+Validates that `plan_data.json` fields match the exact types expected by the
+Jinja2 booklet templates. Catches mismatches that silently produce blank
+sections:
+- `dinner_question` must be a dict `{question, why}`, not a plain string
+- `dinner_elevation_tips[]` must be dicts `{type, title, instruction}`, not strings
+- `recipe_card` must be a dict `{nonna_says, engineer_table, variations}`, not None — recipe pages will be blank if missing
+- `stoic_data` must use `theme` (dict) and `meditations[]`, not `weekly_theme`/`days`
+- `principles_data` must use `daily_entries[]` and `theme` (dict), not `days`/`weekly_theme`
+- `parenting_data` must use `dinner_questions[]`, not `days`
+
+### 3. Content Completeness
 Compares the rendered HTML against `plan_data.json` to verify:
 - Every day's **dinner name** appears on a `page-day-left`
 - Every day's **album title** appears on a `page-day-right`
@@ -31,8 +42,9 @@ Compares the rendered HTML against `plan_data.json` to verify:
 - Every day's **conversation starter** appears on a `page-day-left`
 - Every day's **weather one-liner** appears
 - All **engagements** (calendar events) render on the correct day
+- Every day's **recipe card** (nonna text) appears on a `page-day-recipe`
 
-### 3. Page Structure Validation
+### 4. Page Structure Validation
 - Cover is page 1 (no page number)
 - Week at a Glance is page 2
 - Daily Plan divider is page 3 (no page number)
@@ -41,14 +53,26 @@ Compares the rendered HTML against `plan_data.json` to verify:
 - Back cover is the last page (no page number)
 - Page numbers are sequential with no gaps
 
-### 4. Text Truncation Detection
+### 5. Text Truncation Detection
 Checks for CSS `text-overflow: ellipsis` truncation in engagement rows
 and other constrained elements by comparing rendered text width against
 container width.
 
+### 6. Markdown Completeness
+Validates the rendered markdown (`weekly-plan.md`) contains:
+- Every day's dinner name, recipe directions (nonna says), chef's tips, and album
+- Auto-detected from sibling file, or pass explicitly with `--md`
+
+### 7. PDF Content Validation
+Extracts text from the PDF (`weekly-plan.pdf`) via pypdf and verifies:
+- Every day's dinner name, recipe directions, and chef's tips are present
+- Reports total page count
+- Auto-detected from sibling file, or pass explicitly with `--pdf`
+
 ## Usage
 
 ```bash
+# Full validation of all three outputs (HTML, MD, PDF auto-detected)
 python .github/skills/proofreader/scripts/proofread.py \
     weekly_plans/2026-02-08/plan_data.json \
     weekly_plans/2026-02-08/weekly-plan.html
@@ -56,6 +80,10 @@ python .github/skills/proofreader/scripts/proofread.py \
 
 **Options:**
 ```bash
+# Explicit paths for markdown and PDF
+python .github/skills/proofreader/scripts/proofread.py plan_data.json weekly-plan.html \
+    --md weekly-plan.md --pdf weekly-plan.pdf
+
 # Only check overflow (fast)
 python .github/skills/proofreader/scripts/proofread.py plan_data.json weekly-plan.html --overflow-only
 
@@ -74,13 +102,16 @@ Returns a structured report with pass/fail for each check:
 PROOFREADER REPORT
 ==================
 
+FIELD SHAPES ........ PASS (all fields match template contract)
 OVERFLOW ............ PASS (0 day pages overflow)
-CONTENT ............. PASS (7/7 dinners, 7/7 albums, 7/7 tips, 7/7 questions)
-STRUCTURE ........... PASS (26 pages, correct section order)
-PAGE NUMBERS ........ PASS (sequential 2-25, dividers hidden)
-TRUNCATION .......... WARN (2 engagements truncated on Tuesday)
+CONTENT ............. PASS (7/7 dinners, 7/7 albums, 7/7 tips, 7/7 questions, 7/7 recipes)
+STRUCTURE ........... PASS (42 pages, correct section order)
+PAGE NUMBERS ........ PASS (sequential 2-31, dividers hidden)
+TRUNCATION .......... PASS (no text truncated)
+MARKDOWN ............ PASS (7/7 dinners, 7/7 recipes, 7/7 tips, 7/7 albums)
+PDF CONTENT ......... PASS (7/7 dinners, 7/7 recipes, 7/7 tips, 42 pages)
 
-RESULT: PASS (1 warning)
+RESULT: PASS
 ```
 
 Exit codes:

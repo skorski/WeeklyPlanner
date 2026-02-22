@@ -1,10 +1,13 @@
 {# --- COVER PAGE --- #}
 <div class="page page-cover">
-  <h1>Weekly Planner</h1>
+  <h1>The Corbiani Almanac</h1>
   <div class="week-range">{{ week_range }}</div>
   <div class="divider"></div>
   {% if highlight %}
   <div class="highlight-text">{{ highlight }}</div>
+  {% endif %}
+  {% if elsie_no_list %}
+  <div class="elsie-nogo">🍽️ Elsie's No-Go List: {{ elsie_no_list | join(", ") }}</div>
   {% endif %}
 </div>
 

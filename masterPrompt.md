@@ -7,24 +7,27 @@ The weekly-planner is the key skill that you will want to leverage for this proc
 Review my calendar using the workIQ MCP server. Pay special attention to any meetings between 3 and 9. All events from Laura@astraeawealth.com should be included in the plan. These are related to our family and must be part of the final report. Tentative work meetings in that block can be ignored. Tentative meetings from Laura must be included.
 
 This week we have:
-- Dan is on call as Incident manager from Tuesday - Tuesday
+- Dan is on call as Incident manager until tuesday afternoon
+- Likely that school will be cancelled on monday.
 - Swim lessons on tuesday night
 - Elsie YAT 4:30-600 Friday
 
 Dinners:
-- Sunday: Taco Salad at the Range in ABQ
-- Monday: Birria Pizza at La Guelaguetza in ABQ
-- Tuesday: Travel day, random food at the airport. We get back to Dulles at 11pm
-
+- Tuesday: Babo Pasta
 
 Cravings:
-- Bronzino with cherry tomatoes and lemons.
-- Wednesday night should be a hearty salad.
-- We will have fresh sourdough bread on Saturday
-- Pork chops are in the freezer and would make a good dinner with mushrooms.
+- Pizza one of the nights, likely thursday. Suggest at least three different pizzas
+  - Buffalo chicken - White pie with capers and blue cheese
+  - Traditional cheese and pepperoni
+  - Something fun and completely different.
+
+Elsies Selections:
+
+- No -> Cooked red peppers
+- Yes -> Tuna fish (potentially a tuna fish sandwich for lunch)
 
 Weekly Kids Story:
-- This should talk about reflecting on the trip to ABQ. Ideally talk about going up to the top of the sandia mountains and how Sandia means watermelon. Chelsea should be walking around at the top of the mountain in the snow and have a great time.
+- This weeks story should be about a kid who refused to eat dinner. Each time the parent, in this case Karen, adds something new to it. This starts out with Karen trying to serve Dan chicken liver spread, one of her favorites. Dan hates it. In each section of the story, Momma Karen tries to add something new to make it taste better. This includes increasingly crazy things like whipped cream or putting it into a cake.
 - The characters in the story should take from a set of the following. Only use ~3 of them including Chelsie
   - Papa Puleo - Great Grand Father
   - Momma Karen - Grand Mother

@@ -1,9 +1,9 @@
 {# --- SECTION DIVIDER: Kitchen & Pantry --- #}
-{% if salads or appetizers or beverages or grocery_list %}
+{% if salads or appetizers or beverages %}
 <div class="page page-divider">
   <div class="divider-title">Kitchen & Pantry</div>
   <div class="divider-rule"></div>
-  <div class="divider-sub">Appetizers, salads, beverages, and your shopping list</div>
+  <div class="divider-sub">Appetizers, salads, and beverages</div>
   <div class="page-folio">{% set ns.pg = ns.pg %}{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
 </div>
 {% endif %}
@@ -47,35 +47,6 @@
   <p>{{ b.description | default("") }}</p>
   {% if b.why %}<p style="font-size:7.5pt;font-style:italic;color:var(--muted);">{{ b.why }}</p>{% endif %}
   {% endfor %}
-  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
-</div>
-{% endif %}
-
-{# --- GROCERY LIST --- #}
-<div class="page page-grocery">
-  <div class="page-header">Kitchen & Pantry</div>
-  <h2 class="section-header">Grocery List</h2>
-  {% if grocery_list %}
-  <div class="grocery-cols">
-    {% for category, items in grocery_list.items() %}
-    <div class="g-cat">
-      <h4>{{ category }}</h4>
-      <ul>{% for item in items %}<li>{{ item }}</li>{% endfor %}</ul>
-    </div>
-    {% endfor %}
-  </div>
-  {% endif %}
-  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
-</div>
-
-{# --- PREP-AHEAD (own page) --- #}
-{% if prep_ahead %}
-<div class="page page-grocery">
-  <div class="page-header">Kitchen & Pantry</div>
-  <h2 class="section-header">Prep-Ahead Checklist</h2>
-  <div class="prep-list">
-    <ul>{% for task in prep_ahead %}<li>{{ task }}</li>{% endfor %}</ul>
-  </div>
   <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
 </div>
 {% endif %}

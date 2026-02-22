@@ -23,12 +23,15 @@ The user provides unstructured text about their week. Extract:
 
 - **Specific recipe/day assignments** (e.g., "tacos on Tuesday") -- these are locked in.
 - **Food preferences** -- ingredients, cuisines, dietary restrictions.
+- **Elsie's no-go list** -- ask what Elsie doesn't want to eat this week. Kids' food
+  preferences change weekly, so always ask. Store the list for display in the plan.
 - **Music mood/preferences** -- genre, vibe, artist references.
 - **Known commitments** -- meetings, kids' activities, travel, social events.
 - **Weekend plans** -- outings, errands, rest days.
 
 Ask follow-up questions only if critical information is missing (the week range,
-or whether they have hard dietary restrictions). Keep it to 2-3 questions max.
+or whether they have hard dietary restrictions). **Always ask what Elsie doesn't
+want to eat this week** — this is a required question, not optional.
 
 ### Step 2: Determine the Plan Folder
 
@@ -45,13 +48,25 @@ weekly_plans/
     weekly-plan.md
 ```
 
-### Step 3: Fetch Weather
+### Step 3: Fetch Weather and School Calendar
 
 Invoke the `weather` skill to get the forecast for the target week:
 
 ```bash
 python .github/skills/weather/scripts/fetch_weather.py --start <YYYY-MM-DD> --end <YYYY-MM-DD> -o weekly_plans/<YYYY-MM-DD>/weather.md
 ```
+
+Invoke the `school-calendar` skill to check for days off or early releases:
+
+```bash
+python .github/skills/school-calendar/scripts/lookup_school_calendar.py --start <YYYY-MM-DD> --end <YYYY-MM-DD> -o weekly_plans/<YYYY-MM-DD>/school.json
+```
+
+If there are **no-school days**, add them to the relevant day's `calendar_items`
+(e.g., "No School — Thanksgiving Break"). If there are **early release days**,
+add those too (e.g., "Early Release — End of Quarter 1"). A day off means Elsie
+is home all day, which may affect meal timing, activity planning, or dinner
+complexity.
 
 ### Step 4: Check Work Calendar (if workIq MCP server available)
 
@@ -115,6 +130,22 @@ Follow the stoic-guide SKILL.md workflow to:
 
 The stoic data is merged via `--stoic` in the assembly step (Step 10).
 
+### Step 6d: Invoke the Principles Skill
+
+Create the weekly "Principles for Living" guide. This can run in parallel
+with other skills since it only needs the week's calendar context.
+
+Follow the principles SKILL.md workflow to:
+1. Check past plans for theme variety (avoid repeating last 8 weeks)
+2. Choose a weekly theme and primary thinker
+3. Research the original source and supporting perspectives
+4. Write 7 daily mini-essays (200–300 words each, one per day Sun–Sat)
+5. Output `principles.json` to `weekly_plans/<YYYY-MM-DD>/`
+
+The principles data is merged via `--principles` in the assembly step (Step 10).
+Each daily entry becomes its own A5 page in the booklet (page 2 of each day's
+4-page spread).
+
 ### Step 7: Present Options and Get User Selections
 
 Present the user with a summary of:
@@ -145,7 +176,33 @@ For days without user-specified assignments:
   mellow for weeknight wind-down, genre affinity (jazz with French, cumbia with
   Latin, ambient with Asian, etc.).
 
-### Step 9: Nutritional Review
+### Step 9: Elsie's No-Go Check
+
+After dinners are assigned, cross-reference each dinner's key ingredients and
+cuisine against Elsie's no-go list from Step 1. This does **not** change the
+selected recipes — the dinners stand as planned. Instead:
+
+1. Store `elsie_no_list` at the top level of `plan_data.json` (array of strings).
+2. For each day, if the dinner contains or features something on Elsie's no-go
+   list, add an `elsie_note` string to that day's entry. The note should:
+   - Acknowledge the conflict warmly (e.g., "Elsie's not a fan of mushrooms this week")
+   - Offer one small, practical substitution or workaround (e.g., "Set aside her
+     portion before adding mushrooms, or swap in zucchini for her plate")
+   - Keep it brief — 1-2 sentences max
+3. If a dinner has no conflict, omit `elsie_note` for that day.
+
+Example:
+```json
+"elsie_no_list": ["mushrooms", "olives", "spicy food"],
+"days": [
+  {
+    "dinner": "Wild Mushroom Risotto",
+    "elsie_note": "Elsie's not into mushrooms this week — make her portion plain risotto with extra parmesan and butter, stirred in before the mushrooms go in."
+  }
+]
+```
+
+### Step 10: Nutritional Review
 
 Review the final 7-day dinner lineup as a nutritionist:
 
@@ -158,7 +215,7 @@ Review the final 7-day dinner lineup as a nutritionist:
 Present findings to the user. If adjustments are needed, swap from the remaining
 recipe pool and re-pair albums.
 
-### Step 10: Build the Plan JSON
+### Step 11: Build the Plan JSON
 
 Build a temporary JSON file containing the core plan structure (days, appetizers,
 salads, beverages, grocery list, prep tasks, notes). The supporting skill data
@@ -179,7 +236,8 @@ python .github/skills/weekly-planner/scripts/assemble_plan.py days.json \
     --parenting parenting.json \
     --nutrition nutrition.json \
     --newsletter newsletter.json \
-    --stoic stoic.json
+    --stoic stoic.json \
+    --principles principles.json
 ```
 
 The assembler:
@@ -207,6 +265,7 @@ Structure:
 ```json
 {
   "week_range": "February 8 - February 14, 2026",
+  "elsie_no_list": ["mushrooms", "olives"],
   "days": [
     {
       "name": "Sun 02/08",
@@ -233,6 +292,7 @@ Structure:
       "dinner_source_name": "Serious Eats",
       "dinner_notes": "Start before soccer; ready by 5 PM",
       "dinner_nutrition_notes": "Good iron from beef; add a side salad for greens",
+      "elsie_note": "Elsie's not into mushrooms this week — set aside her portion before adding the mushroom gravy, and top with extra butter instead.",
       "album": "Miles Davis – Kind of Blue",
       "album_artist": "Miles Davis",
       "album_title": "Kind of Blue",
@@ -350,7 +410,7 @@ Structure:
 }
 ```
 
-### Step 11: Final Editorial Pass
+### Step 12: Final Editorial Pass
 
 Invoke the **final-editor** skill to polish the plan copy before rendering.
 The editor enriches thin content, adds day introductions, rewrites terse
@@ -375,7 +435,7 @@ python .github/skills/final-editor/scripts/edit_plan.py \
 
 The editorial report lets the user review all changes before rendering.
 
-### Step 12: Render the Report
+### Step 13: Render the Report
 
 If you used the modular approach (Option B), `assemble_plan.py` already wrote
 `plan_data.json` to the correct folder. Now render the markdown:
@@ -391,7 +451,7 @@ filename (but not the folder) with `-o`:
 python .github/skills/weekly-planner/scripts/build_plan.py plan_data.json -o weekly-plan.md
 ```
 
-### Step 13: Generate Booklet (optional)
+### Step 14: Generate Booklet (optional)
 
 If the user wants a printable PDF or mobile HTML, invoke the **booklet** skill.
 Keep the plan JSON file around until after the booklet is generated:
@@ -403,7 +463,7 @@ python .github/skills/booklet/scripts/render_booklet.py plan_data.json
 This produces `weekly-plan.html` and `weekly-plan.pdf` in the same
 `weekly_plans/<YYYY-MM-DD>/` folder.
 
-### Step 14: Clean Up
+### Step 15: Clean Up
 
 Remove the temporary JSON file after all rendering is complete.
 
