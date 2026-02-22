@@ -38,13 +38,32 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,woff,woff2}'],
         navigateFallback: '/index.html',
         navigateFallbackDenylist: [/\/plans\//, /\/stories\//],
+        skipWaiting: true,
+        clientsClaim: true,
+        cleanupOutdatedCaches: true,
         runtimeCaching: [
+          {
+            urlPattern: /\/plans\/index\.json$/,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'plan-index',
+              expiration: { maxEntries: 1, maxAgeSeconds: 60 * 60 },
+            },
+          },
           {
             urlPattern: /\/plans\/.*/,
             handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'plan-data',
-              expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 },
+              expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 * 24 },
+            },
+          },
+          {
+            urlPattern: /\/stories\/index\.json$/,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'stories-index',
+              expiration: { maxEntries: 1, maxAgeSeconds: 60 * 60 },
             },
           },
           {
