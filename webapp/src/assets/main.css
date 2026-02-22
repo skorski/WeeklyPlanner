@@ -747,6 +747,201 @@ a:hover { text-decoration: underline; }
   color: var(--muted);
 }
 
+/* ---- Mamma Karen's Recipe — The Heart of the Kitchen ---- */
+
+.recipe-section {
+  margin: calc(var(--x) * 2.5) 0 calc(var(--x) * 1.5);
+  padding: calc(var(--x) * 1.5) calc(var(--x) * 1.5);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.recipe-header h4 {
+  font-family: var(--hero);
+  font-size: 1.15rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--oxblood);
+  letter-spacing: 0.5px;
+  margin-bottom: calc(var(--x) * 1);
+}
+
+.nonna-quote {
+  font-family: var(--narrative);
+  font-size: 1rem;
+  line-height: 1.9;
+  color: var(--ink);
+  padding: 0 0 0 calc(var(--x) * 1.25);
+  margin: 0 0 calc(var(--x) * 1.5);
+  border-left: 2px solid var(--ochre);
+  max-width: 60ch;
+}
+
+.recipe-detail {
+  margin-top: calc(var(--x) * 1);
+}
+
+.recipe-detail summary {
+  font-family: var(--anchor);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: var(--muted);
+  cursor: pointer;
+  list-style: none;
+  padding: calc(var(--x) * 0.5) 0;
+  transition: color 0.2s ease;
+}
+.recipe-detail summary::-webkit-details-marker { display: none; }
+.recipe-detail summary:hover { color: var(--ink); }
+
+.recipe-detail[open] summary {
+  color: var(--oxblood);
+  margin-bottom: calc(var(--x) * 0.75);
+}
+
+.engineer-content {
+  padding-left: calc(var(--x) * 1);
+}
+
+.preheat {
+  font-family: var(--anchor);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+  margin-bottom: calc(var(--x) * 1);
+}
+
+.preheat-label {
+  font-weight: 600;
+  color: var(--ochre);
+  margin-right: 6px;
+}
+
+.ingredient-group {
+  margin-bottom: calc(var(--x) * 1.25);
+  padding-bottom: calc(var(--x) * 1);
+  border-bottom: 1px solid var(--rule);
+}
+.ingredient-group:last-of-type {
+  border-bottom: none;
+  margin-bottom: calc(var(--x) * 0.5);
+}
+
+.ingredient-list {
+  display: grid;
+  gap: calc(var(--x) * 0.25);
+}
+
+.ingredient-row {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr auto;
+  gap: calc(var(--x) * 0.5);
+  align-items: baseline;
+  font-family: var(--narrative);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.ing-qty {
+  font-family: var(--anchor);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--ochre);
+  text-align: right;
+}
+
+.ing-item {
+  color: var(--ink);
+}
+
+.ing-prep {
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.merge-action {
+  font-family: var(--narrative);
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--sage);
+  margin-top: calc(var(--x) * 0.5);
+  padding-left: 6rem;
+  max-width: 55ch;
+}
+
+.final-steps {
+  font-family: var(--narrative);
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: var(--ink);
+  margin-top: calc(var(--x) * 0.75);
+  padding-top: calc(var(--x) * 0.75);
+  border-top: 1px solid var(--rule);
+}
+
+.final-label {
+  font-family: var(--anchor);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--sage);
+  margin-right: 8px;
+}
+
+.step-arrow {
+  color: var(--rule);
+}
+
+.variations-content {
+  display: grid;
+  gap: calc(var(--x) * 1);
+  padding-left: calc(var(--x) * 1);
+}
+
+.variation-row {
+  padding-bottom: calc(var(--x) * 0.75);
+  border-bottom: 1px solid var(--rule);
+}
+.variation-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.variation-name {
+  font-family: var(--hero);
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: var(--ink);
+  margin-bottom: 2px;
+}
+
+.variation-twist {
+  font-family: var(--narrative);
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 55ch;
+}
+
+.variation-link {
+  font-family: var(--anchor);
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1px;
+  margin-top: 4px;
+  display: inline-block;
+}
+.variation-link:hover { color: var(--ink); border-color: var(--ink); text-decoration: none; }
+
 /* ---- Album Pairing — The Evening Installation ---- */
 
 .album-pairing {
