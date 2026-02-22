@@ -1,5 +1,6 @@
 ---
 name: stoic-guide
+category: researcher
 description: >
   Create a weekly Stoic reflection guide for the family — a themed series of
   meditations, journaling prompts, and readings drawn from classical Stoic
@@ -215,6 +216,32 @@ The rendered markdown contains:
 5. **Family Exercise** — boxed activity with connection to source material
 6. **For the Young Stoic** — child-friendly prompt with simple lesson
 7. **Closing Thought** — final reflection to carry forward
+
+## Output Contract
+
+The content-validator checks this output before assembly. All fields are required
+unless marked optional.
+
+```json
+{
+  "theme": {"title": "str", "category": "str", "description": "str"},
+  "anchor_quote": {"text": "str", "source": "str", "work": "str", "reference": "str"},
+  "introduction": "str",
+  "meditations": [
+    {"day": "str", "title": "str", "reflection": "str", "prompt": "str", "secondary_quote": {"text": "str", "source": "str"}}
+  ],
+  "family_exercise": {"title": "str", "description": "str", "connection": "str"},
+  "young_stoic": {"title": "str", "prompt": "str", "lesson": "str"},
+  "closing_thought": "str"
+}
+```
+
+### Validation Rules
+- `theme` must be a dict with `title`, `category`, and `description` (not a plain string)
+- Use the `meditations` array (NOT `days`)
+- `anchor_quote` must be a dict with `text`, `source`, `work`, and `reference`
+- 3-7 meditations required
+- `secondary_quote` within each meditation is optional
 
 ## Integration with Weekly Planner
 

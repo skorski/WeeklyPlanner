@@ -1,5 +1,6 @@
 ---
 name: image-generator
+category: utility
 description: >
   Generate, edit, and style-transfer images using Azure OpenAI (DALL-E 3 / GPT-image-1).
   Supports building a visual vocabulary from a mood-board directory, refining image prompts

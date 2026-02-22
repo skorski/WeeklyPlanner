@@ -1,5 +1,6 @@
 ---
 name: parenting-coach
+category: researcher
 description: >
   Review the weekly family plan and provide parenting insights tailored to an
   8-year-old girl — dinner conversation starters, developmental nudges, connection
@@ -281,6 +282,29 @@ The rendered markdown contains:
 4. **Recommendation** — a book, game, or activity with a brief review and connection
    to the week's theme
 5. **Parent Reflection** — a closing thought for the parents
+
+## Output Contract
+
+The content-validator checks this output before assembly. All fields are required
+unless marked optional.
+
+```json
+{
+  "weekly_theme": {"title": "str", "description": "str"},
+  "dinner_questions": [
+    {"day": "Sunday", "dinner": "str", "question": "str", "category": "str", "why": "str"}
+  ],
+  "nudges": [{"title": "str", "context": "str", "suggestion": "str", "how_to": ["str"]}],
+  "recommendation": {"type": "str", "title": "str", "author": "str", "why": "str", "connection": "str"},
+  "parent_reflection": "str"
+}
+```
+
+### Validation Rules
+- Exactly 7 `dinner_questions` (one per day, Sunday through Saturday)
+- `weekly_theme` must be a dict with `title` and `description` (not a plain string)
+- Each question must have both `question` and `why` fields
+- `nudges` should contain 2-4 items, each with `how_to` as an array of strings
 
 ## Guidelines
 

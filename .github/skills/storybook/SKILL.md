@@ -1,6 +1,7 @@
 ---
 name: storybook
-description: Process children's stories into interactive flipbook web pages and printable 5x5 inch square PDFs
+category: formatter
+description: Processchildren's stories into interactive flipbook web pages and printable 5x5 inch square PDFs
 ---
 
 # Storybook Skill

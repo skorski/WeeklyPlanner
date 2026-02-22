@@ -1,5 +1,6 @@
 ---
 name: nutrition-coach
+category: researcher
 description: >
   Analyze a weekly dinner menu for a family of three (active child girl, active
   husband, active wife) and identify nutritional deficiencies and excesses. Since
@@ -311,6 +312,27 @@ The generated markdown contains:
 6. **Weekly Nutrition Summary** — how the complete picture (dinners + lunches +
    snacks) comes together
 7. **Special Notes** — supplement recommendations or family-specific callouts
+
+## Output Contract
+
+The content-validator checks this output before assembly. All fields are required
+unless marked optional.
+
+```json
+{
+  "daily_breakdown": [{"day": "str", "dinner": "str", "key_nutrients": ["str"], "gaps": ["str"]}],
+  "weekly_summary": {"strengths": "str", "gaps": "str", "recommendations": "str"},
+  "lunch_suggestions": [{"name": "str", "description": "str", "nutrients": ["str"]}],
+  "snack_suggestions": [{"name": "str", "description": "str", "nutrients": ["str"]}],
+  "weekly_nutrition_summary": "str"
+}
+```
+
+### Validation Rules
+- `daily_breakdown` must cover all 7 dinners (Sunday through Saturday)
+- Must include both `lunch_suggestions` and `snack_suggestions` arrays
+- Each suggestion must have `name`, `description`, and `nutrients` fields
+- `weekly_summary` must be a dict with `strengths`, `gaps`, and `recommendations`
 
 ## Guidelines
 

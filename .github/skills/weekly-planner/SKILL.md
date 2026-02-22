@@ -1,5 +1,6 @@
 ---
 name: weekly-planner
+category: orchestration
 description: >
   Create a weekly family planner that organizes dinners, activities, and schedules
   into a structured report. Takes unstructured information about the upcoming week
@@ -17,7 +18,22 @@ Sunday-to-Sunday family plan with dinners, music pairings, and activities.
 
 ## Workflow
 
-### Step 1: Parse the User's Free-Text Input
+The planner runs as a **6-phase pipeline**. Each phase must complete before the
+next begins. Two phases contain mandatory user checkpoints (marked 🛑) where
+execution pauses for user input.
+
+```
+Phase 1: GATHER → Phase 2: RESEARCH → Phase 3: REVIEW
+    → Phase 4: ASSEMBLE → Phase 5: FORMAT → Phase 6: QA
+```
+
+---
+
+### Phase 1: GATHER
+
+Collect all inputs and contextual data needed for the plan.
+
+#### 1.1 Parse the User's Free-Text Input
 
 The user provides unstructured text about their week. Extract:
 
@@ -33,7 +49,7 @@ Ask follow-up questions only if critical information is missing (the week range,
 or whether they have hard dietary restrictions). **Always ask what Elsie doesn't
 want to eat this week** — this is a required question, not optional.
 
-### Step 2: Determine the Plan Folder
+#### 1.2 Determine the Plan Folder
 
 All output for a weekly plan goes into `weekly_plans/<YYYY-MM-DD>/` where the date
 is the **starting Sunday** of the plan week. Create this folder early — all skill
@@ -48,7 +64,7 @@ weekly_plans/
     weekly-plan.md
 ```
 
-### Step 3: Fetch Weather and School Calendar
+#### 1.3 Fetch Weather and School Calendar
 
 Invoke the `weather` skill to get the forecast for the target week:
 
@@ -68,7 +84,7 @@ add those too (e.g., "Early Release — End of Quarter 1"). A day off means Elsi
 is home all day, which may affect meal timing, activity planning, or dinner
 complexity.
 
-### Step 4: Check Work Calendar (if workIq MCP server available)
+#### 1.4 Check Work Calendar (if workIq MCP server available)
 
 If the `workIq` MCP server is available, query the user's work calendar to identify:
 
@@ -76,7 +92,19 @@ If the `workIq` MCP server is available, query the user's work calendar to ident
 - Work-from-home vs. office days
 - Weekend work commitments or evening events
 
-### Step 5: Invoke the Recipes Skill
+---
+
+### Phase 2: RESEARCH
+
+Run researcher skills in two waves. Wave 1 has no inter-skill dependencies and
+runs **in parallel**. Wave 2 depends on the user's dinner and album selections
+from the checkpoint between the waves.
+
+#### Wave 1 — Parallel Research (no dependencies)
+
+Launch all five skills simultaneously:
+
+**2.1 Invoke the Recipes Skill**
 
 Pass the user's food preferences (ingredients, cuisines, restrictions) to the
 `recipes` skill. This produces a curated list of:
@@ -86,20 +114,20 @@ Pass the user's food preferences (ingredients, cuisines, restrictions) to the
 - 2 appetizers, 4 salads, 3 beverage pairings
 
 The recipes skill handles its own web searches. Feed it the extracted food
-preferences from Step 1 as the prompt. Save the output markdown to
+preferences from Phase 1 as the prompt. Save the output markdown to
 `weekly_plans/<YYYY-MM-DD>/recipes.md`.
 
-### Step 6: Invoke the Albums Skill
+**2.2 Invoke the Albums Skill**
 
 Pass the user's music preferences (mood, genre, vibe -- or derive from the week's
 theme if not specified) to the `albums` skill. This produces ~30 album
 recommendations with metadata. Save the output markdown to
 `weekly_plans/<YYYY-MM-DD>/albums.md`.
 
-### Step 6b: Invoke the Linkwarden Skill
+**2.3 Invoke the Linkwarden Skill**
 
-Fetch the user's recent reading from Linkwarden. This can run in parallel with
-albums and recipes since it has no dependencies on dinner selections.
+Fetch the user's recent reading from Linkwarden. This has no dependencies on
+dinner selections.
 
 ```bash
 python .github/skills/linkwarden/scripts/fetch_links.py --days 7 -o weekly_plans/<YYYY-MM-DD>/links.json
@@ -113,12 +141,12 @@ Then follow the linkwarden SKILL.md workflow to:
 5. Research additional perspectives via web search
 6. Output `newsletter.json` to `weekly_plans/<YYYY-MM-DD>/`
 
-The newsletter data is merged via `--newsletter` in the assembly step (Step 10).
+The newsletter data is merged via `--newsletter` in the assembly phase.
 
-### Step 6c: Invoke the Stoic Guide Skill
+**2.4 Invoke the Stoic Guide Skill**
 
-Create the weekly Stoic reflection guide. This can run in parallel with
-other skills since it only needs the week's calendar context.
+Create the weekly Stoic reflection guide. This only needs the week's calendar
+context.
 
 Follow the stoic-guide SKILL.md workflow to:
 1. Check past plans for theme variety (avoid repeating last 8 weeks)
@@ -128,12 +156,12 @@ Follow the stoic-guide SKILL.md workflow to:
 5. Include a family exercise and young stoic section
 6. Output `stoic.json` to `weekly_plans/<YYYY-MM-DD>/`
 
-The stoic data is merged via `--stoic` in the assembly step (Step 10).
+The stoic data is merged via `--stoic` in the assembly phase.
 
-### Step 6d: Invoke the Principles Skill
+**2.5 Invoke the Principles Skill**
 
-Create the weekly "Principles for Living" guide. This can run in parallel
-with other skills since it only needs the week's calendar context.
+Create the weekly "Principles for Living" guide. This only needs the week's
+calendar context.
 
 Follow the principles SKILL.md workflow to:
 1. Check past plans for theme variety (avoid repeating last 8 weeks)
@@ -142,29 +170,31 @@ Follow the principles SKILL.md workflow to:
 4. Write 7 daily mini-essays (200–300 words each, one per day Sun–Sat)
 5. Output `principles.json` to `weekly_plans/<YYYY-MM-DD>/`
 
-The principles data is merged via `--principles` in the assembly step (Step 10).
+The principles data is merged via `--principles` in the assembly phase.
 Each daily entry becomes its own A5 page in the booklet (page 2 of each day's
 4-page spread).
 
-### Step 7: Present Options and Get User Selections
+#### 🛑 USER CHECKPOINT — Dinner & Album Selection
+
+This is a **mandatory stop**. Do not proceed to Wave 2 without user input.
 
 Present the user with a summary of:
 
-1. **Available dinners** -- the recipe list from Step 4
-2. **Available albums** -- the album list from Step 5
-3. **Pre-assigned days** -- any recipe/day locks from the original prompt
+1. **Available dinners** — the recipe list from Step 2.1
+2. **Available albums** — the album list from Step 2.2
+3. **Pre-assigned days** — any recipe/day locks from the original prompt
 
 Ask the user to:
 
 - **Select 7 dinners** for the week (Sunday through Saturday) from the recipe list
-- **Optionally assign specific recipes to specific days** -- or allow auto-assignment
-- **Select albums** they like -- or allow automatic pairing
+- **Optionally assign specific recipes to specific days** — or allow auto-assignment
+- **Approve albums** they like — or allow automatic pairing
 
 Respect any assignments the user made in the original prompt (e.g., "tacos on
 Tuesday" means tacos are locked to Tuesday). The user may also say "pick for me"
 for some or all days.
 
-### Step 8: Auto-Assign Remaining Days
+#### Auto-Assign Remaining Days
 
 For days without user-specified assignments:
 
@@ -176,10 +206,86 @@ For days without user-specified assignments:
   mellow for weeknight wind-down, genre affinity (jazz with French, cumbia with
   Latin, ambient with Asian, etc.).
 
-### Step 9: Elsie's No-Go Check
+#### Wave 2 — Post-Selection Research (depends on user choices)
+
+Launch all five skills after the user has selected dinners and approved albums:
+
+**2.6 Invoke the Dinner-Designer Skill**
+
+Pass the 7 selected dinners to the `dinner-designer` skill for chef's elevations
+(sauces, marinades, texture contrasts, temperature play). Save output to
+`weekly_plans/<YYYY-MM-DD>/elevations.json`.
+
+**2.7 Invoke the Recipe-Cards Skill**
+
+Pass the 7 selected dinners to the `recipe-cards` skill for detailed cooking
+instructions, Cooking-for-Engineers step tables, and recipe variations. Save
+output to `weekly_plans/<YYYY-MM-DD>/recipe_cards.json`.
+
+**2.8 Invoke the Parenting-Coach Skill**
+
+Pass the weekly plan context (dinners, activities, calendar) to the
+`parenting-coach` skill for dinner conversation starters, developmental nudges,
+and connection rituals. Save output to `weekly_plans/<YYYY-MM-DD>/parenting.json`.
+
+**2.9 Invoke the Nutrition-Coach Skill**
+
+Pass the 7 selected dinners to the `nutrition-coach` skill for nutritional
+analysis, deficiency/excess flagging, and lunch/snack recommendations. Save
+output to `weekly_plans/<YYYY-MM-DD>/nutrition.json`.
+
+**2.10 Invoke the Child-Wisdom Skill**
+
+Pass the week's theme and context to the `child-wisdom` skill to write a short
+illustrated-style children's mystery story with a life lesson. Save output to
+`weekly_plans/<YYYY-MM-DD>/story.json`.
+
+---
+
+### Phase 3: REVIEW
+
+Validate all researcher output before assembly. This phase invokes the
+**content-validator** skill to catch structural or quality issues early.
+
+#### 3.1 Run Content Validation
+
+The content-validator reads all researcher output files from
+`weekly_plans/<YYYY-MM-DD>/`:
+
+- `recipes.md`, `albums.md`, `newsletter.json`, `stoic.json`, `principles.json`
+- `elevations.json`, `recipe_cards.json`, `parenting.json`, `nutrition.json`, `story.json`
+
+It validates:
+- **Field shapes** — required keys present, correct types (strings, arrays, objects)
+- **Completeness** — no empty or placeholder values, all 7 days covered where applicable
+- **Quality** — descriptions meet minimum length, no obvious template artifacts
+
+#### 3.2 Handle Validation Failures
+
+If the content-validator finds issues:
+
+1. **Generate fix instructions** describing exactly what is wrong and what the
+   corrected output should look like.
+2. **Re-invoke the failing researcher skill** with the fix instructions appended
+   to the original prompt.
+3. **Re-run the content-validator** on the updated output.
+4. **Maximum 2 retries** per skill. If a skill still fails after 2 retries,
+   **escalate to the user** with a summary of what is wrong and which skill
+   cannot produce valid output.
+
+The content-validator **must pass on all files** before proceeding to Phase 4.
+
+---
+
+### Phase 4: ASSEMBLE
+
+Build the unified plan data, apply editorial polish, render a markdown draft,
+and get user approval.
+
+#### 4.1 Elsie's No-Go Check
 
 After dinners are assigned, cross-reference each dinner's key ingredients and
-cuisine against Elsie's no-go list from Step 1. This does **not** change the
+cuisine against Elsie's no-go list from Phase 1. This does **not** change the
 selected recipes — the dinners stand as planned. Instead:
 
 1. Store `elsie_no_list` at the top level of `plan_data.json` (array of strings).
@@ -202,20 +308,7 @@ Example:
 ]
 ```
 
-### Step 10: Nutritional Review
-
-Review the final 7-day dinner lineup as a nutritionist:
-
-- Check protein variety across the week (not all chicken, not all beef)
-- Verify vegetable coverage (at least 2-3 servings/day represented)
-- Flag if any day is excessively heavy or light
-- Suggest swaps or side additions if the week is nutritionally lopsided
-- Note any allergen concerns if the user mentioned restrictions
-
-Present findings to the user. If adjustments are needed, swap from the remaining
-recipe pool and re-pair albums.
-
-### Step 11: Build the Plan JSON
+#### 4.2 Build the Plan JSON
 
 Build a temporary JSON file containing the core plan structure (days, appetizers,
 salads, beverages, grocery list, prep tasks, notes). The supporting skill data
@@ -410,7 +503,7 @@ Structure:
 }
 ```
 
-### Step 12: Final Editorial Pass
+#### 4.3 Final Editorial Pass
 
 Invoke the **final-editor** skill to polish the plan copy before rendering.
 The editor enriches thin content, adds day introductions, rewrites terse
@@ -435,10 +528,9 @@ python .github/skills/final-editor/scripts/edit_plan.py \
 
 The editorial report lets the user review all changes before rendering.
 
-### Step 13: Render the Report
+#### 4.4 Render Markdown Draft
 
-If you used the modular approach (Option B), `assemble_plan.py` already wrote
-`plan_data.json` to the correct folder. Now render the markdown:
+Render the markdown from the assembled and edited `plan_data.json`:
 
 ```bash
 python .github/skills/weekly-planner/scripts/build_plan.py weekly_plans/<YYYY-MM-DD>/plan_data.json
@@ -451,21 +543,94 @@ filename (but not the folder) with `-o`:
 python .github/skills/weekly-planner/scripts/build_plan.py plan_data.json -o weekly-plan.md
 ```
 
-### Step 14: Generate Booklet (optional)
+#### 🛑 USER CHECKPOINT — Plan Review
 
-If the user wants a printable PDF or mobile HTML, invoke the **booklet** skill.
-Keep the plan JSON file around until after the booklet is generated:
+This is a **mandatory stop**. Present the full rendered markdown to the user for
+review before proceeding to formatting.
+
+If the user requests changes:
+
+1. **Identify the originating skill** responsible for the content that needs
+   changing (e.g., a dinner description → dinner-designer, an album note →
+   albums, a conversation starter → parenting-coach).
+2. **Re-invoke that skill** with the user's change request appended to the
+   original prompt.
+3. **Run the content-validator** (Phase 3) on the updated output.
+4. **Re-assemble** the plan (repeat Steps 4.2–4.4).
+5. **Re-render** the markdown and present again.
+
+**Do NOT create custom fix scripts** — all content changes must flow through
+the originating skill so its internal logic and quality checks apply.
+
+---
+
+### Phase 5: FORMAT
+
+Produce the three deliverable formats: markdown (already done), HTML, and PDF.
+
+#### 5.1 Render HTML
+
+Generate the mobile-friendly HTML from the full `plan_data.json`:
 
 ```bash
-python .github/skills/booklet/scripts/render_booklet.py plan_data.json
+python .github/skills/booklet/scripts/render_booklet.py weekly_plans/<YYYY-MM-DD>/plan_data.json --html-only
 ```
 
-This produces `weekly-plan.html` and `weekly-plan.pdf` in the same
-`weekly_plans/<YYYY-MM-DD>/` folder.
+This produces `weekly-plan.html` in the `weekly_plans/<YYYY-MM-DD>/` folder.
 
-### Step 15: Clean Up
+#### 5.2 Create Print-Optimized JSON
 
-Remove the temporary JSON file after all rendering is complete.
+Invoke the **print-formatter** to create a trimmed version of the plan data
+optimized for A5 page rendering:
+
+```bash
+python .github/skills/booklet/scripts/print_formatter.py weekly_plans/<YYYY-MM-DD>/plan_data.json \
+    -o weekly_plans/<YYYY-MM-DD>/plan_data_print.json
+```
+
+The print formatter trims verbose content to fit A5 constraints while preserving
+all essential information.
+
+#### 5.3 Render PDF
+
+Generate the printable PDF from the print-optimized JSON:
+
+```bash
+python .github/skills/booklet/scripts/render_booklet.py weekly_plans/<YYYY-MM-DD>/plan_data_print.json --pdf-only
+```
+
+This produces `weekly-plan.pdf` in the `weekly_plans/<YYYY-MM-DD>/` folder.
+
+---
+
+### Phase 6: QA
+
+Validate all three outputs and report any issues to the user.
+
+#### 6.1 Invoke the Proofreader
+
+Run the **proofreader** skill on all three deliverables:
+
+- `weekly_plans/<YYYY-MM-DD>/weekly-plan.md` (markdown)
+- `weekly_plans/<YYYY-MM-DD>/weekly-plan.html` (HTML)
+- `weekly_plans/<YYYY-MM-DD>/weekly-plan.pdf` (PDF)
+
+The proofreader checks:
+- Page overflow in HTML/PDF
+- All plan content (dinners, albums, chef's tips, conversation starters, events)
+  appears on the correct pages
+- Page numbering sequence is valid
+- Section order matches the expected layout
+
+#### 6.2 Handle QA Failures
+
+If the proofreader finds failures, **report them to the user** with:
+- Which output(s) failed
+- What specific issues were found
+- Suggested corrective action (e.g., "re-run Phase 5 after trimming day intro
+  on Wednesday" or "album description on Thursday overflows — shorten by ~20 words")
+
+Do not auto-fix QA failures — present them for user decision.
 
 ## Output Format
 

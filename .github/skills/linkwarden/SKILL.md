@@ -1,5 +1,6 @@
 ---
 name: linkwarden
+category: researcher
 description: >
   Scrape articles clipped to a Linkwarden instance over the previous week, extract
   full text, group them thematically, and produce a reflective newsletter for the
@@ -226,3 +227,31 @@ weekly_plans/<YYYY-MM-DD>/
   newsletter.json      ← structured newsletter data
   newsletter.md        ← rendered markdown
 ```
+
+## Output Contract
+
+The content-validator checks this output before assembly. All fields are required
+unless marked optional.
+
+```json
+{
+  "total_articles": 0,
+  "week_range": "str",
+  "clusters": [
+    {
+      "theme": "str",
+      "synthesis": "str",
+      "articles": [{"title": "str", "tags": ["str"], "one_liner": "str"}]
+    }
+  ],
+  "reflections": "str",
+  "fun_section": {"title": "str", "content": "str", "source_url": "str", "source_name": "str"}
+}
+```
+
+### Validation Rules
+- `total_articles` must be an integer ≥ 0
+- `clusters` must be a non-empty array when `total_articles` > 0
+- Each article in a cluster must have `title` and `one_liner`
+- `fun_section` is optional but when present must have all four fields
+- `reflections` is a prose string summarizing the week's reading themes

@@ -1,5 +1,6 @@
 ---
 name: recipe-cards
+category: researcher
 description: >
   Generate detailed recipe cards for each dinner in the weekly plan. For each
   recipe: fetch the full recipe from its source URL, distill it into Mamma
@@ -286,3 +287,15 @@ The rendered markdown contains one card per recipe with:
 2. Mamma Karen's instructions (blockquote)
 3. Engineer's step table
 4. Three variations with links
+
+## Output Contract
+
+The content-validator checks this output before assembly. The JSON schema is
+documented in Step 6 above. All fields in that schema are required.
+
+### Validation Rules
+- Each `recipe_card` must have a non-empty `nonna_says` field (4-8 sentences)
+- `engineer_table` must contain at least 2 groups
+- Exactly 3 `variations` per recipe, each with `name`, `twist`, and `source_url`
+- At most one snarky remark per recipe
+- No em dashes (—) anywhere in the output

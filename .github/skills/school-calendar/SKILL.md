@@ -1,5 +1,6 @@
 ---
 name: school-calendar
+category: researcher
 description: >
   Look up Fairfax County Public Schools (FCPS) 2025-2026 school calendar for
   days off, half days, and early releases within a date range. Use this skill
@@ -39,6 +40,22 @@ to get school events for the plan week. Then:
    (e.g., "Early Release — End of Quarter 1")
 3. Factor school closures into dinner planning — a day off means Elsie is home
    all day, which may affect meal timing or complexity
+
+## Output Contract
+
+The content-validator checks this output before assembly.
+
+```json
+{
+  "no_school": ["YYYY-MM-DD — Reason"],
+  "early_release": ["YYYY-MM-DD — Reason"]
+}
+```
+
+### Validation Rules
+- Both `no_school` and `early_release` must be arrays (may be empty)
+- Each entry is a string with date and reason separated by ` — `
+- Dates must fall within the requested week range
 
 ## Updating the Calendar
 
