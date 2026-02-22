@@ -1,0 +1,415 @@
+{
+  "summary": "This week's dinner menu is protein-rich and carbohydrate-heavy, with pasta or bread appearing at nearly every meal. Iron and B12 are exceptionally well-covered thanks to red meats throughout the week and clams on Friday, while calcium gets a solid boost from cheese-centric dishes (Tuesday's parmigiano, Thursday's mac & cheese, Saturday's pizza). However, the menu runs light on fresh vegetables, fruit, and whole grains — leaving fiber, vitamin C, vitamin D, and omega-3 fatty acids as the primary nutritional gaps that lunches and snacks need to fill.",
+  "strengths": [
+    "Excellent protein variety across the week — beef, lamb, chicken, pork (gravy meats), clams, eggs, and cheese ensure all essential amino acids are well-represented for muscle growth and recovery",
+    "Outstanding B12 and iron coverage: clams on Friday are one of nature's richest B12 and iron sources, and red meat appears Sunday through Wednesday",
+    "Good calcium intake from multiple cheese-heavy meals (parmigiano Tuesday, three-cheese mac Thursday, pizza Saturday) plus the Italian chopped salad's provolone",
+    "The Italian chopped salad served throughout the week provides a critical daily base of leafy greens, tomatoes, chickpeas, and olives — adding fiber, vitamin K, folate, and vitamin C that the pasta-heavy dinners lack",
+    "Tuesday's Babo Pasta is a nutritional standout: spinach in the dough delivers folate and vitamin K, egg yolks add vitamin D and choline, pine nuts contribute vitamin E and magnesium, and parmigiano rounds out the calcium",
+    "Cultural and flavor diversity (Italian, British, Japanese, American) exposes Elsie to varied ingredients, expanding her palate and broadening micronutrient coverage"
+  ],
+  "gaps": [
+    "Fiber is significantly low — refined pasta dominates five of seven dinners, and vegetable portions are modest; the family needs 25-38g daily and dinners alone contribute roughly 4-8g per meal",
+    "Vitamin C is under-represented at dinner: only the Sunday gravy tomato sauce and the Italian chopped salad provide meaningful amounts; no citrus, bell peppers, or cruciferous vegetables appear in any dinner",
+    "Omega-3 fatty acids appear only on Friday (clams) at dinner — a growing child's brain and an active adult's cardiovascular system need these daily; tuna lunches help but aren't sufficient alone",
+    "Vitamin D is critically low: only egg yolks (Tuesday, Wednesday) and trace amounts in cheese offer any dinner-based vitamin D; February in Virginia means minimal sun exposure too",
+    "Fresh fruit and raw vegetables are nearly absent from dinners (Thursday's fruit + berries is the sole exception), limiting antioxidant, phytonutrient, and fiber intake",
+    "Magnesium sources are sparse — only pine nuts (Tuesday) and some from potatoes (Monday) provide meaningful amounts, yet this mineral is essential for an active family's muscle and nerve function",
+    "Sodium is likely elevated from cured meats in Sunday gravy, pepperoni pizza, and cheese-heavy dishes — worth monitoring, especially for the 8-year-old"
+  ],
+  "daily_dinner_analysis": [
+    {
+      "day": "Sunday",
+      "dinner": "Italian Sunday Gravy & Pasta",
+      "key_nutrients": [
+        "Protein (mixed meats — sausage, pork, beef provide complete amino acids)",
+        "Iron (heme iron from red meat, highly bioavailable)",
+        "Vitamin B12 (abundant from mixed meats)",
+        "Zinc (red meat is one of the best sources)",
+        "Lycopene (cooked tomato sauce concentrates this powerful antioxidant)",
+        "Vitamin C (tomato sauce retains moderate levels even after cooking)",
+        "Vitamin B3/Niacin (from meats and enriched pasta)",
+        "Carbohydrates (pasta and garlic bread provide sustained energy)"
+      ],
+      "missing_nutrients": [
+        "Calcium (no dairy in the sauce; cheese garnish helps only slightly)",
+        "Fiber (refined pasta and white garlic bread are low-fiber)",
+        "Vitamin D (no sources present)",
+        "Vitamin K (no leafy greens in the dish)",
+        "Omega-3 fatty acids (saturated fat-heavy meats dominate)",
+        "Vitamin E (minimal sources)"
+      ]
+    },
+    {
+      "day": "Monday",
+      "dinner": "Shepherd's Pie",
+      "key_nutrients": [
+        "Protein (ground beef or lamb provides complete protein)",
+        "Iron (heme iron from red meat)",
+        "Vitamin B12 (beef/lamb are top sources)",
+        "Vitamin A (carrots are rich in beta-carotene; the body converts it to vitamin A)",
+        "Vitamin K (peas provide a moderate amount)",
+        "Potassium (mashed potatoes are an excellent source — one large potato has more potassium than a banana)",
+        "Fiber (peas contribute ~4g per serving; carrots add more)",
+        "Folate (peas are a good plant-based folate source)",
+        "Vitamin C (potatoes retain surprising vitamin C levels; peas contribute too)",
+        "Zinc (from beef/lamb)"
+      ],
+      "missing_nutrients": [
+        "Calcium (no dairy beyond butter in mashed potatoes)",
+        "Vitamin D (no meaningful sources)",
+        "Omega-3 fatty acids (lamb has trace amounts but not significant)",
+        "Vitamin E (no nuts, seeds, or plant oils featured)",
+        "Magnesium (modest amounts from peas but not enough)"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "dinner": "Babo Pasta (Spinach Egg-Yolk Pasta with Brown Butter, Sage, Pine Nuts, Parmigiano)",
+      "key_nutrients": [
+        "Calcium (parmigiano is one of the most calcium-dense cheeses — ~330mg per ounce)",
+        "Folate (spinach in the pasta dough is one of the best natural folate sources)",
+        "Vitamin K (spinach provides abundant K1 for blood clotting and bone health)",
+        "Iron (spinach contributes non-heme iron; egg yolks add more)",
+        "Vitamin D (egg yolks are one of few natural food sources of vitamin D)",
+        "Vitamin E (pine nuts are exceptionally rich in vitamin E)",
+        "Magnesium (pine nuts provide significant magnesium — ~70mg per ounce)",
+        "Vitamin A (brown butter concentrates fat-soluble vitamin A; egg yolks contribute too)",
+        "Vitamin B12 (egg yolks and parmigiano both contribute)",
+        "Choline (egg yolks are the richest common food source of choline, critical for brain development)",
+        "Healthy fats (brown butter, olive oil, and pine nuts provide a mix of mono/polyunsaturated fats)"
+      ],
+      "missing_nutrients": [
+        "Vitamin C (no raw fruits or vegetables; spinach loses most vitamin C when cooked into dough)",
+        "Fiber (refined flour base despite spinach addition; pine nuts add modest fiber)",
+        "Potassium (no high-potassium ingredients)",
+        "Omega-3 fatty acids (pine nuts have some omega-6 but negligible omega-3)"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "dinner": "Niku Udon (Japanese Beef Udon in Dashi Broth with Soft Egg, Scallions, Nori)",
+      "key_nutrients": [
+        "Protein (beef and egg provide high-quality complete protein)",
+        "Iron (beef provides heme iron; nori contains non-heme iron)",
+        "Vitamin B12 (beef, egg, and nori all contribute — nori is one of few plant sources of B12)",
+        "Iodine (dashi broth made from kombu is extraordinarily rich in iodine, essential for thyroid function)",
+        "Vitamin D (egg yolk contributes a modest but meaningful amount)",
+        "Vitamin K (scallions and nori both provide vitamin K)",
+        "Zinc (beef is an excellent zinc source)",
+        "Selenium (beef contributes to this antioxidant mineral)",
+        "Umami compounds (dashi provides glutamate and inosinate — while not a 'nutrient,' these support appetite and meal satisfaction)"
+      ],
+      "missing_nutrients": [
+        "Calcium (no dairy or calcium-rich vegetables)",
+        "Vitamin C (scallions provide trace amounts but not meaningful levels)",
+        "Fiber (udon noodles are refined wheat with very low fiber)",
+        "Vitamin A (no orange/red vegetables or leafy greens)",
+        "Vitamin E (no nuts, seeds, or significant plant oil)",
+        "Omega-3 (dashi from bonito flakes has trace omega-3 but not significant)",
+        "Potassium (broth has some, but not a high-potassium meal)"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "dinner": "Mac & Cheese with Panko Crust + Fruit + Berries & Cream Parfaits",
+      "key_nutrients": [
+        "Calcium (three-cheese blend makes this one of the highest-calcium meals of the week — likely 400-500mg per serving)",
+        "Vitamin A (cheese is rich in preformed retinol; cream adds more)",
+        "Vitamin B12 (cheese and cream contribute moderately)",
+        "Vitamin C (fresh fruit and berries are excellent sources — a cup of strawberries provides 100% of daily needs)",
+        "Fiber (berries are among the highest-fiber fruits; other fresh fruit contributes too)",
+        "Potassium (bananas, berries, and other fresh fruit are good sources)",
+        "Antioxidants (berries provide anthocyanins, ellagic acid, and other powerful antioxidants)",
+        "Phosphorus (cheese is rich in phosphorus, which works with calcium for bone health)"
+      ],
+      "missing_nutrients": [
+        "Iron (no meat, leafy greens, or legumes — this is the lowest-iron dinner of the week)",
+        "Zinc (cheese has some but far less than meat-based meals)",
+        "Vitamin D (cheese has trace amounts only)",
+        "Vitamin K (no leafy greens or fermented foods)",
+        "Omega-3 fatty acids (no fish, flax, or walnuts)",
+        "Folate (no leafy greens or legumes)",
+        "Protein (cheese provides some but less than meat-based meals; not a concern for one night)"
+      ]
+    },
+    {
+      "day": "Friday",
+      "dinner": "Linguini with Clams (White Wine, Garlic, Olive Oil, Pangritata)",
+      "key_nutrients": [
+        "Iron (clams are an iron powerhouse — 3oz provides ~24mg, nearly 3x the daily value; this single meal likely covers the whole week's shortfall)",
+        "Vitamin B12 (clams contain more B12 per serving than any other common food — ~84mcg per 3oz, over 3,500% of daily value)",
+        "Zinc (clams provide excellent zinc alongside the iron)",
+        "Omega-3 fatty acids (clams provide EPA and DHA, though less than fatty fish like salmon)",
+        "Selenium (clams are a top selenium source, supporting thyroid and immune function)",
+        "Vitamin E (olive oil contributes meaningful vitamin E)",
+        "Manganese (clams are rich in this trace mineral important for bone health)",
+        "Copper (clams provide copper, which aids iron absorption)",
+        "Healthy monounsaturated fats (olive oil base)"
+      ],
+      "missing_nutrients": [
+        "Vitamin C (no fruits or vitamin-C-rich vegetables; a squeeze of lemon would help and boost iron absorption)",
+        "Calcium (no dairy in this dish)",
+        "Fiber (refined linguini and breadcrumbs are very low-fiber)",
+        "Vitamin A (no orange vegetables, leafy greens, or dairy)",
+        "Vitamin K (no leafy greens)",
+        "Potassium (modest amounts from clams but not a high-potassium meal)",
+        "Vitamin D (minimal)"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "dinner": "Pizza Night (Buffalo Chicken White Pie, Cheese & Pepperoni, Mac & Cheese Pizza)",
+      "key_nutrients": [
+        "Calcium (cheese on all three pizzas makes this the highest-calcium meal of the week)",
+        "Protein (chicken, pepperoni, and cheese all contribute significant protein)",
+        "Vitamin A (cheese provides preformed retinol; tomato sauce on pepperoni pie adds beta-carotene)",
+        "Vitamin B12 (cheese and pepperoni contribute)",
+        "Iron (pepperoni provides heme iron, though it's a processed source)",
+        "Zinc (cheese and pepperoni contribute moderate zinc)",
+        "Phosphorus (cheese and meat are rich sources)",
+        "B vitamins (B1, B2, B3 from enriched pizza dough and meat)"
+      ],
+      "missing_nutrients": [
+        "Vitamin C (no fresh vegetables or fruit on the pizzas)",
+        "Fiber (white pizza dough is refined; no vegetables to add fiber)",
+        "Vitamin D (trace amounts in cheese only)",
+        "Vitamin K (no leafy greens — adding a side salad would help enormously)",
+        "Omega-3 fatty acids (no fish or plant-based omega-3 sources)",
+        "Folate (no leafy greens or legumes)",
+        "Magnesium (minimal sources)",
+        "Vitamin E (no nuts, seeds, or plant oils beyond what's in the dough)"
+      ]
+    }
+  ],
+  "vitamin_mineral_table": [
+    {
+      "nutrient": "Vitamin A",
+      "importance": "Vitamin A is essential for healthy vision (especially night vision), immune system strength, and proper cell growth. For an active 8-year-old like Elsie, it supports the rapid growth of skin, hair, and the lining of her respiratory and digestive tracts. Deficiency signs include frequent infections, dry skin, and difficulty seeing in dim light — a child who squints at screens in the evening or gets sick often may not be getting enough.",
+      "dinner_sources": "Monday (carrots in shepherd's pie — excellent beta-carotene source), Tuesday (brown butter and egg yolks), Thursday (three-cheese blend and cream), Saturday (cheese on all pizzas), Sunday (tomato sauce provides beta-carotene)",
+      "status": "adequate",
+      "recommendation": "Dinners provide reasonable vitamin A coverage. Reinforce with carrot sticks, sweet potato fries, or mango slices as snacks. The Italian chopped salad's tomatoes and any dark leafy greens help too."
+    },
+    {
+      "nutrient": "Vitamin B1 (Thiamine)",
+      "importance": "Thiamine converts carbohydrates into usable energy — critical for a week this carb-heavy. It also supports nerve function and muscle coordination. For Elsie's active lifestyle, B1 deficiency would manifest as fatigue, irritability, and poor concentration. Since the body can't store much thiamine, it needs to be replenished daily.",
+      "dinner_sources": "Present in enriched pasta (Sunday, Tuesday, Thursday, Friday), pork in Sunday gravy (pork is the richest common meat source of B1), peas in Monday's shepherd's pie, and enriched pizza dough (Saturday)",
+      "status": "adequate",
+      "recommendation": "The heavy pasta and enriched grain intake this week actually works in thiamine's favor — enriched flour is fortified with B1. Whole grain bread for sandwiches at lunch would add even more."
+    },
+    {
+      "nutrient": "Vitamin B2 (Riboflavin)",
+      "importance": "Riboflavin is crucial for energy production and helps the body use other B vitamins effectively. It supports healthy skin, eyes, and red blood cell production. For active kids, B2 is important because it helps convert food into the energy they burn through constantly. Deficiency shows up as cracked lips, sore throat, and sensitivity to light.",
+      "dinner_sources": "Eggs (Tuesday, Wednesday), dairy and cheese (Tuesday, Thursday, Saturday), meats throughout the week, and enriched pasta all contribute riboflavin",
+      "status": "adequate",
+      "recommendation": "Good coverage from eggs, dairy, and enriched grains. A glass of milk or yogurt at lunch reinforces this further."
+    },
+    {
+      "nutrient": "Vitamin B3 (Niacin)",
+      "importance": "Niacin supports energy metabolism, DNA repair, and healthy skin. It plays a key role in converting food into cellular energy, which matters enormously for active growing children. Niacin deficiency is rare in meat-eating families but would show as fatigue, digestive problems, and skin issues. The body can also synthesize niacin from the amino acid tryptophan, found in protein-rich foods.",
+      "dinner_sources": "Abundant from chicken (Saturday's buffalo chicken), beef (Sunday, Monday, Wednesday), and enriched pasta/bread throughout the week. Tuna at lunch is also an excellent niacin source.",
+      "status": "adequate",
+      "recommendation": "Protein-rich dinners every night ensure strong niacin coverage. No supplementation needed."
+    },
+    {
+      "nutrient": "Vitamin B6 (Pyridoxine)",
+      "importance": "Vitamin B6 is vital for brain development and function — it helps produce neurotransmitters like serotonin and dopamine that regulate mood, sleep, and focus. For Elsie at age 8, B6 directly supports cognitive development, learning, and emotional regulation. It also aids hemoglobin production (carrying oxygen to muscles during activity). Deficiency can cause irritability, confusion, and weakened immunity.",
+      "dinner_sources": "Beef (Sunday, Monday, Wednesday), chicken (Saturday), potatoes (Monday — potatoes are one of the best vegetable sources of B6), and chickpeas in the Italian chopped salad",
+      "status": "adequate",
+      "recommendation": "Well-covered through meats and potatoes. Bananas (in the banana nut bread and banana pudding Sunday) are also good B6 sources, and tuna sandwiches at lunch add more."
+    },
+    {
+      "nutrient": "Vitamin B12 (Cobalamin)",
+      "importance": "B12 is essential for nerve function, red blood cell formation, and DNA synthesis. For a growing child, B12 deficiency can cause irreversible neurological damage, fatigue, and developmental delays. It's only found naturally in animal products, making it critical to track in any diet. Active family members need adequate B12 for energy metabolism and oxygen transport to muscles.",
+      "dinner_sources": "Exceptional coverage this week: clams on Friday provide astronomical B12 (one serving = 35x daily needs), red meat Sunday through Wednesday, eggs Tuesday and Wednesday, cheese on multiple days, and nori on Wednesday (one of few plant sources)",
+      "status": "adequate",
+      "recommendation": "This is the best-covered nutrient of the week. Friday's clams alone could cover the entire family's B12 needs for a month. No action needed."
+    },
+    {
+      "nutrient": "Vitamin C",
+      "importance": "Vitamin C is a powerful antioxidant that supports immune function, collagen production (critical for growing bones, skin, and connective tissue), and dramatically improves iron absorption from plant sources. For Elsie, vitamin C helps wounds heal faster (important for active kids who get scrapes and bruises), builds strong gums, and protects cells from oxidative stress during intense physical activity. Deficiency leads to weakened immunity, slow wound healing, and fatigue.",
+      "dinner_sources": "Sunday (tomato sauce provides moderate vitamin C), Monday (peas and potatoes contribute some), Thursday (fresh fruit and berries are excellent sources). The Italian chopped salad's tomatoes and any peppers add daily vitamin C. Most other dinners are very low.",
+      "status": "low",
+      "recommendation": "This is a significant gap. Add citrus fruit to lunches daily — an orange or clementines with lunch takes 10 seconds and covers the daily need. Strawberries, kiwi, and bell pepper strips (raw, not cooked — Elsie's preference) are excellent snack options. Consider adding a lemon squeeze to Friday's clams to dramatically boost iron absorption."
+    },
+    {
+      "nutrient": "Vitamin D",
+      "importance": "Vitamin D is critical for calcium absorption and bone mineralization — without it, all the calcium from this week's cheese-heavy meals can't be properly used. For Elsie at age 8, vitamin D deficiency can stunt bone growth and weaken the immune system. It also regulates mood (seasonal affective disorder is linked to low D). In February in Virginia, the sun angle is too low for skin to produce meaningful vitamin D, making dietary sources essential.",
+      "dinner_sources": "Tuesday (egg yolks in the pasta provide ~40 IU each), Wednesday (soft egg provides another ~40 IU). Cheese throughout the week provides trace amounts. No fatty fish, fortified milk, or other significant sources appear at dinner.",
+      "status": "low",
+      "recommendation": "This is the most critical gap of the week, especially in February. Serve fortified milk or orange juice at every lunch. Consider a daily vitamin D supplement for the whole family (1000 IU for adults, 600 IU for Elsie) — the AAP recommends this for children. Fatty fish like salmon or sardines at lunch once a week would help. Even fortified yogurt as a snack adds vitamin D."
+    },
+    {
+      "nutrient": "Vitamin E",
+      "importance": "Vitamin E is a fat-soluble antioxidant that protects cell membranes from damage — particularly important for an active family whose exercise generates oxidative stress. For Elsie, vitamin E supports immune function and healthy skin. It also helps the body use vitamin K effectively. Deficiency is uncommon but manifests as muscle weakness and coordination problems.",
+      "dinner_sources": "Tuesday (pine nuts are an excellent source — ~2.6mg per ounce), Friday (olive oil provides moderate vitamin E), and small amounts from other cooking oils throughout the week",
+      "status": "low",
+      "recommendation": "Add sunflower seeds or almonds as a daily snack — just a small handful provides 40-50% of the daily value. Peanut butter on the sandwich bread is another easy source. Avocado on sandwiches or as a side would contribute both vitamin E and healthy fats."
+    },
+    {
+      "nutrient": "Vitamin K",
+      "importance": "Vitamin K is essential for blood clotting (a scraped knee won't stop bleeding without it) and plays a crucial role in bone metabolism — it activates proteins that help calcium bind to bones. For Elsie's growing skeleton, vitamin K works in tandem with calcium and vitamin D to build strong bones. There are two forms: K1 from leafy greens and K2 from fermented foods and animal products.",
+      "dinner_sources": "Tuesday (spinach in pasta dough provides K1), Monday (peas contribute moderate K1), Wednesday (scallions and nori provide some), and the Italian chopped salad provides daily K1 from any leafy greens in it. K2 comes from the cheese on multiple nights.",
+      "status": "adequate",
+      "recommendation": "The Italian chopped salad served throughout the week is the key vitamin K source — make sure it's served generously and consistently. If the salad base is romaine (likely for Italian chopped), that's ~50mcg per cup. Adding a leafy green side salad on pizza night Saturday would fill the day's biggest gap."
+    },
+    {
+      "nutrient": "Iron",
+      "importance": "Iron carries oxygen in the blood to every cell in the body — muscles, brain, organs. For an active 8-year-old girl, iron is especially critical: rapid growth increases iron needs, and girls approaching puberty need to build iron stores before menstruation begins. Iron deficiency is the most common nutritional deficiency in children and causes fatigue, poor concentration, weakened immunity, and decreased athletic performance. There are two types: heme iron (from meat, highly absorbable) and non-heme iron (from plants, less absorbable).",
+      "dinner_sources": "Outstanding coverage: clams on Friday are an iron powerhouse (~24mg per 3oz — more than the full daily value in one meal), red meat appears Sunday through Wednesday (each providing ~3-5mg heme iron), nori on Wednesday adds non-heme iron, and spinach in Tuesday's pasta contributes more. Thursday is the only low-iron dinner.",
+      "status": "adequate",
+      "recommendation": "Iron is very well-covered this week. Friday's clams alone provide more iron than most people get in several days. To maximize absorption, pair iron-rich meals with vitamin C (a squeeze of lemon on the clams, tomato sauce with Sunday's meat). Avoid serving milk with iron-heavy dinners, as calcium competes with iron for absorption."
+    },
+    {
+      "nutrient": "Calcium",
+      "importance": "Calcium is the primary building block of bones and teeth, and ages 4-8 are a critical window for bone mass accumulation that determines lifelong bone density. Elsie needs ~1000mg daily. Calcium also enables muscle contraction, nerve signaling, and heart rhythm regulation. Deficiency in childhood leads to weak bones, increased fracture risk, and can set the stage for osteoporosis decades later. Active children who jump, run, and play actually build more bone IF they have adequate calcium to work with.",
+      "dinner_sources": "Thursday's three-cheese mac & cheese (~400-500mg), Saturday's triple pizza night (~500-600mg), Tuesday's parmigiano (~330mg per ounce grated over pasta), and the Italian chopped salad's provolone all contribute. Monday and Friday are the lowest-calcium dinners.",
+      "status": "adequate",
+      "recommendation": "Cheese-heavy meals cover calcium well on several days, but Monday, Wednesday, and Friday are gaps. Serve a glass of milk at lunch daily (~300mg per cup) and yogurt as a snack to ensure consistent daily intake. For Elsie specifically, chocolate milk after active play is an excellent calcium + protein recovery drink."
+    },
+    {
+      "nutrient": "Zinc",
+      "importance": "Zinc is essential for immune function, wound healing, taste perception, and cell division during growth. For Elsie, zinc directly supports her immune system (fighting off school germs), helps her grow properly, and even affects appetite — a zinc-deficient child may become a picky eater. Active children lose zinc through sweat, increasing their needs. Zinc also supports cognitive function and attention span.",
+      "dinner_sources": "Strong coverage from red meat on Sunday, Monday, and Wednesday (~5-7mg per serving), clams on Friday (~2-3mg), cheese on Tuesday, Thursday, and Saturday, and pepperoni on Saturday. Wednesday's beef udon contributes well too.",
+      "status": "adequate",
+      "recommendation": "Zinc is well-covered by the meat-heavy dinner rotation. Pumpkin seeds as a snack are the single best plant-based zinc source. Tuna sandwiches at lunch add moderate zinc too."
+    },
+    {
+      "nutrient": "Magnesium",
+      "importance": "Magnesium is involved in over 300 enzymatic reactions in the body — it's essential for muscle and nerve function, blood sugar regulation, and energy production. For an active child, magnesium prevents muscle cramps, supports bone structure (60% of the body's magnesium is in bones), and aids sleep quality. Deficiency causes muscle cramps, irritability, difficulty sleeping, and fatigue — symptoms often mistaken for 'just being a tired kid.'",
+      "dinner_sources": "Tuesday (pine nuts are magnesium-rich — ~70mg per ounce), Monday (potatoes contribute ~50mg per large potato), and modest amounts from whole wheat in some breads. Most dinners are magnesium-poor because refined pasta and cheese are low sources.",
+      "status": "low",
+      "recommendation": "Add magnesium-rich snacks daily: almonds, cashews, pumpkin seeds, or dark chocolate (a square of 70%+ dark chocolate has ~50mg magnesium and kids love it). Banana nut bread on Sunday helps. At lunch, peanut butter sandwiches on whole wheat are an easy magnesium boost. Consider adding black beans or edamame as sides — both are excellent magnesium sources and kid-friendly."
+    },
+    {
+      "nutrient": "Potassium",
+      "importance": "Potassium regulates fluid balance, muscle contractions, and nerve signals. For active family members, potassium is critical — it's lost through sweat during exercise and deficiency causes muscle weakness, cramps, and fatigue. It also counteracts sodium's blood pressure effects, which matters this week given the higher-sodium meals (pepperoni, cured meats, cheese). Children ages 4-8 need ~2300mg daily.",
+      "dinner_sources": "Monday (mashed potatoes are excellent — ~900mg per large potato), Thursday (bananas, berries, and fresh fruit contribute), Sunday (tomato sauce provides ~400mg per cup). Other dinners are moderate to low. The Italian chopped salad adds daily potassium from tomatoes, chickpeas, and any lettuce.",
+      "status": "low",
+      "recommendation": "Serve a banana at breakfast or as a snack 3-4 days this week (~420mg each). Add avocado to sandwiches at lunch. Sweet potatoes, oranges, and yogurt are all potassium-rich snack options. Given the higher sodium intake from cheese and cured meats this week, extra potassium helps maintain balance."
+    },
+    {
+      "nutrient": "Fiber",
+      "importance": "Fiber supports healthy digestion, feeds beneficial gut bacteria, regulates blood sugar, and promotes satiety. For Elsie, adequate fiber prevents constipation (common in kids with refined-grain-heavy diets), supports a healthy gut microbiome that strengthens immunity, and helps maintain stable energy levels throughout the school day. Children ages 4-8 need ~25g daily. Most American children get less than half that amount.",
+      "dinner_sources": "Monday (peas and carrots in shepherd's pie — peas are one of the highest-fiber common vegetables at ~4g per half cup), Thursday (berries are fiber stars — raspberries have 8g per cup), Tuesday (pine nuts add ~1g per ounce). Refined pasta on five nights contributes very little fiber. The Italian chopped salad's chickpeas and vegetables help daily.",
+      "status": "low",
+      "recommendation": "This is a significant gap that needs lunch and snack compensation. Switch to whole wheat bread for sandwiches (adds ~3-4g fiber per sandwich). Add raw vegetables with hummus as a daily snack (carrots, cucumbers, snap peas — Elsie-friendly since they're raw, not cooked). Apples with peanut butter (~5g fiber from the apple alone) are another easy option. At lunch, include beans or lentils when possible — even a small bean salad adds 6-8g fiber."
+    },
+    {
+      "nutrient": "Omega-3 Fatty Acids (EPA/DHA)",
+      "importance": "Omega-3s are critical for brain development and function — especially DHA, which makes up 40% of the polyunsaturated fatty acids in the brain. For Elsie at 8, omega-3s support learning, memory, focus, and emotional regulation. They also reduce inflammation (important for active joints and muscles), support heart health for Dan and Laura, and contribute to healthy skin and eyes. The American diet is typically far too high in omega-6 relative to omega-3.",
+      "dinner_sources": "Friday (clams provide moderate EPA/DHA — less than salmon but meaningful), and trace amounts from egg yolks on Tuesday and Wednesday. No other dinners provide significant omega-3s. The Italian chopped salad's olive oil provides plant-based omega-9 but not omega-3.",
+      "status": "low",
+      "recommendation": "Tuna sandwiches for Elsie's lunch 1-2 days is excellent — canned light tuna provides ~200-300mg omega-3 per serving and she loves it. Add walnuts or ground flaxseed to the banana nut bread (or as snack trail mix). Consider canned salmon or sardines for adult lunches. A tablespoon of chia seeds in Thursday's parfaits would add ~2500mg ALA omega-3 without changing the flavor."
+    },
+    {
+      "nutrient": "Folate (Vitamin B9)",
+      "importance": "Folate is essential for DNA synthesis and cell division — processes that happen rapidly in growing children. It works closely with B12 to form red blood cells and is critical for brain development and cognitive function. For Elsie, adequate folate supports her rapid cell growth, healthy blood, and neurological development. Deficiency causes megaloblastic anemia (large, malformed red blood cells), fatigue, and poor growth. The synthetic form (folic acid) is added to enriched grains.",
+      "dinner_sources": "Tuesday (spinach in pasta dough is one of the richest natural folate sources), Monday (peas provide good folate — ~50mcg per half cup), enriched pasta throughout the week contains added folic acid, and the Italian chopped salad's greens and chickpeas contribute daily folate",
+      "status": "adequate",
+      "recommendation": "Between enriched pasta (most US pasta contains ~100mcg folic acid per serving) and natural folate from spinach Tuesday and peas Monday, coverage is reasonable. Adding leafy greens to lunches and raw spinach to sandwiches would strengthen this further."
+    }
+  ],
+  "recommended_lunches": [
+    {
+      "day": "Sunday",
+      "suggestion": "Light lunch since dinner is hearty Sunday gravy: Turkey and avocado wrap on whole wheat tortilla with lettuce and tomato, side of baby carrots and hummus, clementine",
+      "fills_gaps": ["Fiber", "Vitamin C", "Vitamin E", "Potassium", "Magnesium"],
+      "kid_friendly": true
+    },
+    {
+      "day": "Monday",
+      "suggestion": "Elsie's favorite: Tuna fish sandwich on whole wheat bread with lettuce, side of cucumber slices, an apple, and a glass of fortified milk",
+      "fills_gaps": ["Omega-3", "Fiber", "Vitamin C", "Vitamin D", "Calcium"],
+      "kid_friendly": true
+    },
+    {
+      "day": "Tuesday",
+      "suggestion": "PB&J on whole wheat bread with banana slices, handful of baby carrots, yogurt cup (fortified with vitamin D)",
+      "fills_gaps": ["Fiber", "Vitamin C", "Magnesium", "Vitamin D", "Potassium", "Vitamin E"],
+      "kid_friendly": true
+    },
+    {
+      "day": "Wednesday",
+      "suggestion": "Tuna fish sandwich on whole wheat bread (Elsie's request — 2nd tuna day), with raw snap peas, an orange, and a cheese stick",
+      "fills_gaps": ["Omega-3", "Fiber", "Vitamin C", "Calcium", "Vitamin D"],
+      "kid_friendly": true
+    },
+    {
+      "day": "Thursday",
+      "suggestion": "Chicken and black bean quesadilla on whole wheat tortilla with salsa, side of sliced bell peppers (raw — Elsie approved), and kiwi slices",
+      "fills_gaps": ["Iron", "Fiber", "Vitamin C", "Magnesium", "Folate", "Zinc"],
+      "kid_friendly": true
+    },
+    {
+      "day": "Friday",
+      "suggestion": "Egg salad sandwich on whole wheat with lettuce, side of edamame, and strawberries with a glass of fortified OJ",
+      "fills_gaps": ["Vitamin C", "Fiber", "Vitamin D", "Calcium", "Magnesium", "Folate"],
+      "kid_friendly": true
+    },
+    {
+      "day": "Saturday",
+      "suggestion": "Leftover soup or chili with whole grain crackers (make ahead from earlier in the week), raw veggie sticks with ranch, grapes, and a glass of milk",
+      "fills_gaps": ["Fiber", "Vitamin C", "Vitamin D", "Potassium", "Magnesium"],
+      "kid_friendly": true
+    }
+  ],
+  "recommended_snacks": [
+    {
+      "snack": "Apple slices with almond or peanut butter",
+      "when": "Daily after-school snack, especially Monday through Friday",
+      "fills_gaps": ["Fiber", "Vitamin E", "Magnesium"],
+      "kid_friendly": true
+    },
+    {
+      "snack": "Clementine or orange segments",
+      "when": "Daily — pack in lunch bags or serve as after-dinner snack (especially Sunday, Wednesday, Friday, Saturday when dinner vitamin C is lowest)",
+      "fills_gaps": ["Vitamin C", "Folate", "Fiber"],
+      "kid_friendly": true
+    },
+    {
+      "snack": "Yogurt parfait with granola and berries (use vitamin D-fortified yogurt)",
+      "when": "3-4 times this week as an afternoon snack or breakfast supplement",
+      "fills_gaps": ["Vitamin D", "Calcium", "Fiber", "Vitamin C", "Potassium"],
+      "kid_friendly": true
+    },
+    {
+      "snack": "Trail mix: almonds, pumpkin seeds, sunflower seeds, dark chocolate chips, and dried cranberries",
+      "when": "Keep a container available all week — great for grab-and-go before activities",
+      "fills_gaps": ["Magnesium", "Vitamin E", "Zinc", "Iron", "Fiber"],
+      "kid_friendly": true
+    },
+    {
+      "snack": "Raw veggies (carrots, cucumber, snap peas) with hummus",
+      "when": "Serve alongside lunch or as pre-dinner snack 3-4 days",
+      "fills_gaps": ["Fiber", "Vitamin A", "Vitamin K", "Folate", "Potassium"],
+      "kid_friendly": true
+    },
+    {
+      "snack": "Banana (whole or frozen banana 'nice cream' blended with a splash of milk)",
+      "when": "Tuesday, Wednesday, and Friday when dinner potassium is lowest",
+      "fills_gaps": ["Potassium", "Vitamin B6", "Magnesium", "Fiber"],
+      "kid_friendly": true
+    },
+    {
+      "snack": "Cheese and whole grain crackers",
+      "when": "Monday, Wednesday, and Friday when dinner calcium is lower",
+      "fills_gaps": ["Calcium", "Fiber", "Vitamin B12"],
+      "kid_friendly": true
+    },
+    {
+      "snack": "Fortified milk or chocolate milk (especially after physical activity)",
+      "when": "Daily — serve at lunch or as post-activity recovery drink",
+      "fills_gaps": ["Vitamin D", "Calcium", "Potassium", "Vitamin B2"],
+      "kid_friendly": true
+    }
+  ],
+  "special_notes": {
+    "elsie_preferences": "Elsie dislikes cooked red peppers — all recommendations use raw vegetables or avoid peppers. Raw bell pepper strips (green, yellow, or orange) may be acceptable since her dislike is specifically for cooked peppers. Tuna fish is recommended for 2 lunches (Monday and Wednesday) since she loves it — this conveniently fills the week's omega-3 gap.",
+    "banana_treats_sunday": "The banana nut bread and banana pudding on Sunday provide a potassium and B6 boost. The walnuts in the banana nut bread are one of the few omega-3-containing nuts — a nutritional bonus. These treats are best served as afternoon snack rather than right after the heavy Sunday gravy dinner.",
+    "italian_chopped_salad": "The Italian chopped salad served throughout the week is this menu's nutritional safety net. It provides daily vitamin K (from romaine/greens), vitamin C (from tomatoes), fiber (from chickpeas and vegetables), calcium (from provolone), and folate (from greens and chickpeas). Serve it generously — it compensates for the pasta-heavy dinners.",
+    "sodium_watch": "Several meals this week are higher in sodium: Sunday gravy (cured meats), pepperoni pizza (Saturday), cheese-heavy dishes (Thursday, Saturday), and clam preparation (Friday). Balance with potassium-rich foods and plenty of water. For Dan and Laura, keeping sodium in check helps with blood pressure; for Elsie, establishing lower-sodium taste preferences now benefits her long-term.",
+    "february_vitamin_d": "In February in Northern Virginia (latitude ~39°N), the sun angle is too low for the skin to produce vitamin D from UV-B rays. This makes dietary vitamin D and supplementation especially important. The AAP recommends 600 IU daily for children over 1 year. A vitamin D3 supplement is the most reliable way to ensure adequacy during winter months.",
+    "iron_absorption_tip": "Friday's clam linguini is an iron bonanza, but iron absorption is maximized by pairing with vitamin C and inhibited by calcium (dairy). Consider serving the clams without cheese and adding a lemon squeeze and a side of vitamin-C-rich vegetables. Conversely, the cheese-heavy meals (Thursday, Saturday) naturally pair calcium with lower-iron dishes — an accidentally smart combination."
+  }
+}

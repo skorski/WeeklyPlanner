@@ -1,0 +1,2352 @@
+﻿{
+  "week_range": "February 22 - March 1, 2026",
+  "days": [
+    {
+      "name": "Sun 02/22",
+      "long_name": "Sunday, February 22",
+      "day_of_week": "sunday",
+      "weather": "Snow, 37F/29F",
+      "weather_detail": "Cloudy (0%), wind 15 mph, 86% precip, 0.73in snow",
+      "weather_high": 37,
+      "weather_low": 29,
+      "weather_condition": "SNOW",
+      "weather_emoji": "❄️",
+      "weather_oneliner": "37°/29° · moderate snow",
+      "calendar": "Snow day - family cooking together, Dan on call as IM",
+      "calendar_items": [
+        "Snow day - family cooking together",
+        "Dan on call as IM"
+      ],
+      "engagements": [
+        {
+          "time": "All day",
+          "event": "Snow day cooking",
+          "event_short": "Snow day cooking"
+        }
+      ],
+      "time_constraints": [
+        "Snow day - family cooking together",
+        "Dan on call as IM"
+      ],
+      "dinner": "Sunday Gravy and Pasta",
+      "dinner_cuisine": "Italian-American",
+      "dinner_description": "Italian-American Sunday gravy with mixed meats slow-simmered in tomato sauce, served over rigatoni with garlic bread.",
+      "dinner_key_ingredients": [
+        "San Marzano tomatoes",
+        "Italian sausage",
+        "pork rib",
+        "rigatoni",
+        "garlic",
+        "basil",
+        "Parmigiano-Reggiano"
+      ],
+      "dinner_source_url": "https://www.gonnawantseconds.com/italian-sunday-gravy-recipe/",
+      "dinner_source_name": "Gonna Want Seconds",
+      "dinner_notes": "Dan on call as Incident Manager. Snow day family cooking.",
+      "dinner_nutrition_notes": "",
+      "album": "Thee Sacred Souls – Thee Sacred Souls",
+      "album_artist": "Thee Sacred Souls",
+      "album_title": "Thee Sacred Souls",
+      "album_year": "2022",
+      "album_genre": "Vintage Soul, Chicano Soul",
+      "album_mood": "Tender, soulful, warm",
+      "album_description": "San Diego soul trio channeling Motown and Chicano soul.",
+      "album_sonic_description": "Vintage soul with warm organ, walking bass, and sweet falsetto.",
+      "album_pairing_rationale": "Warm vintage soul for slow Sunday gravy cooking.",
+      "album_spotify_url": "https://open.spotify.com/album/5Y0UFru7iFR4dGklSAXhkr",
+      "activity": "Family baking and cooking day",
+      "activity_notes": "",
+      "prep_notes": [],
+      "dinner_elevation_tips": [
+        {
+          "type": "preparation",
+          "title": "Brown the Meats in Stages",
+          "instruction": "Sear meats individually in a screaming-hot Dutch oven with canola oil. Get a hard, dark crust on each piece before removing. This fond is liquid gold. 3-4 minutes per side, undisturbed."
+        },
+        {
+          "type": "sauce",
+          "title": "Parmigiano Rind in the Gravy",
+          "instruction": "Drop a 3-inch piece of Parmigiano-Reggiano rind into the gravy during the last 90 minutes. It softens, releases umami, and adds silky body."
+        },
+        {
+          "type": "acid",
+          "title": "Fresh Basil and Good Olive Oil Finish",
+          "instruction": "Tear 8-10 fresh basil leaves over plated pasta. Finish with a thread of your best extra-virgin olive oil."
+        },
+        {
+          "type": "texture",
+          "title": "Garlic Butter Toast",
+          "instruction": "Mix softened butter with grated garlic, flaky salt, and minced parsley. Spread on thick bread slices and broil until golden (90 seconds max)."
+        }
+      ],
+      "dinner_question": {
+        "question": "If you were in charge of naming this snowstorm, what would you call it — and what would its personality be like?",
+        "why": "Snow days feel like disruptions, but they're actually the unscheduled hours your family almost never gets. Resist the urge to fill them with activities or screens. Boredom is the doorway to the kind of spontaneous play and conversation you can't manufacture. If she says 'I'm bored,' try: 'Tell me more about that.' You might be surprised where it goes."
+      },
+      "day_intro": "Snow blankets Reston and the kitchen fills with slow-simmered tomato sauce. Today is about patience.",
+      "recipe_card": {
+        "source_url": "https://www.gonnawantseconds.com/italian-sunday-gravy-recipe/",
+        "source_name": "Gonna Want Seconds",
+        "servings": "6-8",
+        "prep_time": "30 min",
+        "cook_time": "3-4 hours",
+        "nonna_says": "First thing, you brown your meats. Every single piece gets a hard sear in that pot. Don't crowd it or nothing gets color. Take them out, same pot, get those onions in there. Low and slow till they're sweet. Garlic goes in, and if you can't smell it through the whole house, you didn't use enough. Tomato paste, stir it around till it gets dark. Now the San Marzanos, crush them with your hands right into the pot. Everything goes back in, bring it up to a bubble, then low. Real low. Three, four hours. You stir when you think about it. The house will tell you when it's done.",
+        "variations": [
+          {
+            "name": "Bolognese Ragu",
+            "twist": "Skip the big meat pieces, use a mix of ground beef, pork, and veal with milk and white wine for a Emilia-Romagna style meat sauce",
+            "source_url": "https://www.seriouseats.com/the-best-slow-cooked-bolognese-sauce-recipe"
+          },
+          {
+            "name": "Braciole Sunday Gravy",
+            "twist": "Add thin beef rolls stuffed with breadcrumbs, garlic, parsley, and pecorino — they simmer in the sauce like little presents",
+            "source_url": "https://www.gonnawantseconds.com/italian-sunday-gravy-recipe/"
+          },
+          {
+            "name": "Vegetarian Sunday Sauce",
+            "twist": "Replace meats with portobello mushrooms, eggplant, and white beans — long simmer still builds the depth",
+            "source_url": "https://oursaltykitchen.com/sunday-sauce-with-homemade-meatballs/"
+          }
+        ],
+        "engineer_table": {
+          "preheat": "",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "1 lb",
+                  "item": "Italian sausage",
+                  "prep": "whole links"
+                },
+                {
+                  "qty": "1 lb",
+                  "item": "pork ribs",
+                  "prep": "separated"
+                },
+                {
+                  "qty": "3 tbsp",
+                  "item": "olive oil",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "brown all sides in batches, remove"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 large",
+                  "item": "onion",
+                  "prep": "diced"
+                },
+                {
+                  "qty": "4 cloves",
+                  "item": "garlic",
+                  "prep": "sliced"
+                },
+                {
+                  "qty": "3 tbsp",
+                  "item": "tomato paste",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "soften onion 5 min, garlic 1 min, toast paste 2 min"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "2 (28-oz) cans",
+                  "item": "San Marzano tomatoes",
+                  "prep": "hand-crushed"
+                },
+                {
+                  "qty": "1 cup",
+                  "item": "water",
+                  "prep": "to rinse cans"
+                },
+                {
+                  "qty": "4-5 leaves",
+                  "item": "fresh basil",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "add to pot, stir"
+            }
+          ],
+          "final_steps": [
+            "return all meats",
+            "bring to simmer",
+            "cover, low heat 3-4 hours",
+            "stir occasionally",
+            "season and serve over rigatoni"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mon 02/23",
+      "long_name": "Monday, February 23",
+      "day_of_week": "monday",
+      "weather": "Snow, 36F/27F",
+      "weather_detail": "Mostly Cloudy (52%), wind 20 mph, 63% precip, 0.17in snow",
+      "weather_high": 36,
+      "weather_low": 27,
+      "weather_condition": "SNOW",
+      "weather_emoji": "❄️",
+      "weather_oneliner": "36°/27° · snow, windy",
+      "calendar": "School likely cancelled, Dan on call (AM), Phone screen 5-6 PM",
+      "calendar_items": [
+        "School likely cancelled",
+        "Dan on call (AM)",
+        "Phone screen 5-6 PM"
+      ],
+      "engagements": [
+        {
+          "time": "AM",
+          "event": "Dan on call",
+          "event_short": "On call"
+        },
+        {
+          "time": "5:00 PM",
+          "event": "Phone screen",
+          "event_short": "Phone screen"
+        }
+      ],
+      "time_constraints": [
+        "School likely cancelled",
+        "Dan on call (AM)",
+        "Phone screen 5-6 PM"
+      ],
+      "dinner": "Shepherds Pie",
+      "dinner_cuisine": "British",
+      "dinner_description": "Classic comfort: ground beef with peas and carrots under golden fork-raked mashed potato crust.",
+      "dinner_key_ingredients": [
+        "ground beef",
+        "peas",
+        "carrots",
+        "potatoes",
+        "tomato paste",
+        "red wine",
+        "Worcestershire"
+      ],
+      "dinner_source_url": "https://www.yellowblissroad.com/easy-shepherds-pie-recipe/",
+      "dinner_source_name": "Yellow Bliss Road",
+      "dinner_notes": "School likely cancelled (snow). Dan on call AM.",
+      "dinner_nutrition_notes": "",
+      "album": "Curtis Harding – If Words Were Flowers",
+      "album_artist": "Curtis Harding",
+      "album_title": "If Words Were Flowers",
+      "album_year": "2021",
+      "album_genre": "Soul, Garage Rock",
+      "album_mood": "Gritty, hopeful, soulful",
+      "album_description": "Atlanta soul-rocker blending classic soul with garage rock grit.",
+      "album_sonic_description": "Retro soul meets garage rock with fuzz guitar and punchy drums.",
+      "album_pairing_rationale": "Gritty soul-rock for a cozy snow day indoors.",
+      "album_spotify_url": "https://open.spotify.com/album/3vnXMBAQz8VS7CIp9cZTMj",
+      "activity": "Snow day with Elsie",
+      "activity_notes": "",
+      "prep_notes": [],
+      "dinner_elevation_tips": [
+        {
+          "type": "preparation",
+          "title": "Bloom Your Tomato Paste",
+          "instruction": "After browning meat, push aside and add 2 tbsp tomato paste to bare pan. Cook 2 full minutes until brick-red and sweet-smelling, then stir into meat."
+        },
+        {
+          "type": "sauce",
+          "title": "Red Wine and Worcestershire",
+          "instruction": "Pour half cup dry red wine and reduce by half. Add generous tablespoon of Worcestershire with the stock."
+        },
+        {
+          "type": "texture",
+          "title": "Fork-Raked Top with Butter Dots",
+          "instruction": "Drag fork across potato surface in crosshatch. Dot with small pieces of cold butter. Bake at 400F until ridges are deeply golden."
+        },
+        {
+          "type": "acid",
+          "title": "Fresh Thyme and Flaky Salt",
+          "instruction": "Scatter fresh thyme leaves and Maldon salt over golden top right out of the oven."
+        }
+      ],
+      "dinner_question": {
+        "question": "Shepherd's Pie has all these layers — potato, meat, vegetables all stacked up. If you made a 'layer pie' of your perfect day, what would each layer be?",
+        "why": "When one parent is on call or distracted by work, be honest about it: 'Dad has an important job to do today, and sometimes he'll need to step away.' Eight-year-olds handle honesty far better than vague unavailability. It also models that adults have responsibilities they take seriously — and that's something to respect, not resent."
+      },
+      "day_intro": "The snow continues lighter. Shepherd's pie is ultimate snow day food.",
+      "recipe_card": {
+        "source_url": "https://www.yellowblissroad.com/easy-shepherds-pie-recipe/",
+        "source_name": "Yellow Bliss Road",
+        "servings": "4-6",
+        "prep_time": "20 min",
+        "cook_time": "45 min",
+        "nonna_says": "Boil your potatoes till they're soft, and salt that water like you mean it. Mash them with butter and milk till they're like clouds. Brown the beef good, break it up, don't leave big chunks. Onion, carrots, peas, let everything get friendly in there. Tomato paste, a good splash of Worcestershire, some broth, let it thicken up. You want it saucy, not soupy. Everything goes in the dish, potatoes on top. Now make little peaks with your fork. That's where the gold happens, those peaks get all brown and crispy. Oven, 400, wait till it's bubbling at the edges. Don't you dare take it out early.",
+        "variations": [
+          {
+            "name": "Lamb Shepherd's Pie",
+            "twist": "Use ground lamb with fresh rosemary and a splash of red wine for the authentic British version",
+            "source_url": "https://www.simplyrecipes.com/recipes/shepherds_pie/"
+          },
+          {
+            "name": "Sweet Potato Topped",
+            "twist": "Swap regular mashed potatoes for roasted sweet potato mash with a hint of cinnamon",
+            "source_url": "https://www.wellplated.com/sweet-potato-shepherds-pie/"
+          },
+          {
+            "name": "Guinness Cottage Pie",
+            "twist": "Deglaze the meat with Guinness stout and add extra root veg for an Irish pub classic",
+            "source_url": "https://www.thespruceeats.com/guinness-cottage-pie-recipe-435689"
+          }
+        ],
+        "engineer_table": {
+          "preheat": "400°F (200°C)",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "2.5 lbs",
+                  "item": "potatoes",
+                  "prep": "peeled, cubed"
+                },
+                {
+                  "qty": "4 tbsp",
+                  "item": "butter",
+                  "prep": ""
+                },
+                {
+                  "qty": "½ cup",
+                  "item": "milk",
+                  "prep": "warm"
+                },
+                {
+                  "qty": "1 tsp",
+                  "item": "salt",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "boil 15 min, drain, mash smooth"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1.5 lbs",
+                  "item": "ground beef",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tbsp",
+                  "item": "olive oil",
+                  "prep": ""
+                },
+                {
+                  "qty": "1",
+                  "item": "onion",
+                  "prep": "diced"
+                },
+                {
+                  "qty": "2",
+                  "item": "carrots",
+                  "prep": "diced"
+                }
+              ],
+              "merge_action": "brown beef, drain fat, sauté veg 5 min"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "2 tbsp",
+                  "item": "tomato paste",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tbsp",
+                  "item": "Worcestershire",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 cup",
+                  "item": "beef broth",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 cup",
+                  "item": "frozen peas",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "stir in, simmer 8-10 min until thick"
+            }
+          ],
+          "final_steps": [
+            "spread filling in baking dish",
+            "top with mashed potatoes",
+            "fork peaks for browning",
+            "bake 25-30 min until golden"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Tue 02/24",
+      "long_name": "Tuesday, February 24",
+      "day_of_week": "tuesday",
+      "weather": "Overcast, 35F/21F",
+      "weather_detail": "Sunny (91%), wind 15 mph, 6% precip",
+      "weather_high": 35,
+      "weather_low": 21,
+      "weather_condition": "OVERCAST",
+      "weather_emoji": "☁️",
+      "weather_oneliner": "35°/21° · cold but sunny",
+      "calendar": "Dan off-call afternoon, Swim lessons evening",
+      "calendar_items": [
+        "Dan off-call afternoon",
+        "Swim lessons evening"
+      ],
+      "engagements": [
+        {
+          "time": "PM",
+          "event": "Off-call",
+          "event_short": "Off-call"
+        },
+        {
+          "time": "Evening",
+          "event": "Swim lessons",
+          "event_short": "Swim"
+        }
+      ],
+      "time_constraints": [
+        "Dan off-call afternoon",
+        "Swim lessons evening"
+      ],
+      "dinner": "Babo Pasta with Brown Butter and Sage",
+      "dinner_cuisine": "Italian",
+      "dinner_description": "Homemade spinach egg-yolk pasta in brown butter with crispy sage, pine nuts, and lemon zest.",
+      "dinner_key_ingredients": [
+        "spinach",
+        "egg yolks",
+        "00 flour",
+        "butter",
+        "sage",
+        "pine nuts",
+        "Parmigiano-Reggiano",
+        "lemon"
+      ],
+      "dinner_source_url": "https://www.theclevercarrot.com/2022/05/fresh-spinach-pasta-dough/",
+      "dinner_source_name": "The Clever Carrot",
+      "dinner_notes": "Dan off-call Tuesday afternoon. Swim lessons evening.",
+      "dinner_nutrition_notes": "",
+      "album": "Tom Misch – Geography",
+      "album_artist": "Tom Misch",
+      "album_title": "Geography",
+      "album_year": "2018",
+      "album_genre": "Jazz-Pop, Neo-Soul",
+      "album_mood": "Warm, breezy, melodic",
+      "album_description": "London multi-instrumentalist jazzy pop debut.",
+      "album_sonic_description": "Jazz-pop with silky guitar, hip-hop beats, and warm keys.",
+      "album_pairing_rationale": "Breezy guitar grooves for silky Babo pasta and brown butter.",
+      "album_spotify_url": "https://open.spotify.com/album/28enuddLPEA914scF1bEKt",
+      "activity": "Family favorite night",
+      "activity_notes": "",
+      "prep_notes": [],
+      "dinner_elevation_tips": [
+        {
+          "type": "preparation",
+          "title": "Rest Dough 45 Minutes",
+          "instruction": "Rest wrapped dough for full 45 minutes at room temp. The extra time lets gluten relax completely for thinner, more even rolling."
+        },
+        {
+          "type": "sauce",
+          "title": "Brown Butter with Crispy Sage",
+          "instruction": "Melt 4 tbsp butter over medium heat. When foam subsides, add 12-15 sage leaves. Cook until butter is nutty-brown and sage crispy (60-90 sec). Kill heat. Toss pasta with splash of pasta water."
+        },
+        {
+          "type": "texture",
+          "title": "Toasted Pine Nuts and Microplaned Parm",
+          "instruction": "Toast pine nuts in dry pan until golden (3-4 min, watch carefully). Scatter over pasta. Grate Parmigiano on Microplane so it falls like snow."
+        },
+        {
+          "type": "acid",
+          "title": "Lemon Zest Shower",
+          "instruction": "Zest half a lemon directly over each plate using Microplane just before serving."
+        }
+      ],
+      "dinner_question": {
+        "question": "You had swim lessons tonight — what's one thing in the water that felt easier than it used to? Even a tiny thing counts.",
+        "why": "The transition from snow days back to routine (school, swim, structured time) can feel jarring for everyone. If she's cranky or resistant tonight, it's probably not about swim — it's about missing the slow pace of the last two days. Name it gently: 'It's a lot going from snow days to a busy evening, huh?' Feeling understood is often all she needs."
+      },
+      "day_intro": "Cold but sunny. Dan is finally off-call. Celebrate with the family's most beloved pasta.",
+      "recipe_card": {
+        "source_url": "https://www.theclevercarrot.com/2022/05/fresh-spinach-pasta-dough/",
+        "source_name": "The Clever Carrot",
+        "servings": "4",
+        "prep_time": "45 min + 45 min rest",
+        "cook_time": "10 min",
+        "nonna_says": "This one takes patience and you're going to give it the respect it deserves. Blanch that spinach, thirty seconds, into ice water, and squeeze every single drop out. I mean dry. Chop it fine. Make a mountain of flour on your board, push a well in the middle. Eggs, yolks, spinach, pour it in. Fork first, then your hands. Knead it till it's smooth as silk, ten minutes at least. Wrap it up, let it rest forty-five minutes. For the sauce, butter in a pan on medium heat. Watch it. When it smells like hazelnuts and turns golden, that's when the sage goes in. They'll crackle. Toss the pasta, good cheese, and eat it while it's hot.",
+        "variations": [
+          {
+            "name": "Pumpkin Sage Brown Butter Ravioli",
+            "twist": "Fill fresh pasta with roasted pumpkin purée and ricotta, serve with the same brown butter sage sauce",
+            "source_url": "https://www.bonappetit.com/recipe/pumpkin-ravioli-with-sage-brown-butter"
+          },
+          {
+            "name": "Beet Pasta",
+            "twist": "Replace spinach with roasted beet purée for a stunning magenta pasta with the same egg-yolk dough",
+            "source_url": "https://www.theclevercarrot.com/2020/03/beet-pasta/"
+          },
+          {
+            "name": "Lemon Ricotta Pasta",
+            "twist": "Skip the brown butter, toss green pasta with fresh ricotta, lemon zest, and cracked black pepper",
+            "source_url": "https://www.bonappetit.com/recipe/lemony-ricotta-pasta-with-spinach"
+          }
+        ],
+        "engineer_table": {
+          "preheat": "",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "3 cups (90g)",
+                  "item": "fresh baby spinach",
+                  "prep": "packed"
+                },
+                {
+                  "qty": "1 pot",
+                  "item": "boiling water",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "blanch 30 sec, ice bath, squeeze bone-dry, chop fine"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "3 cups (425g)",
+                  "item": "00 flour",
+                  "prep": "mounded"
+                },
+                {
+                  "qty": "5 large",
+                  "item": "egg yolks",
+                  "prep": ""
+                },
+                {
+                  "qty": "2 large",
+                  "item": "whole eggs",
+                  "prep": ""
+                },
+                {
+                  "qty": "pinch",
+                  "item": "kosher salt",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "well method, incorporate spinach-egg mix, knead 10 min"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "6 tbsp",
+                  "item": "unsalted butter",
+                  "prep": ""
+                },
+                {
+                  "qty": "8-10",
+                  "item": "fresh sage leaves",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "cook butter to golden brown, add sage till crackly"
+            }
+          ],
+          "final_steps": [
+            "rest dough 45 min wrapped",
+            "roll thin, cut to shape",
+            "boil pasta 2-3 min",
+            "toss in brown butter sage",
+            "finish with Parmigiano"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Wed 02/25",
+      "long_name": "Wednesday, February 25",
+      "day_of_week": "wednesday",
+      "weather": "Drizzle, 52F/32F",
+      "weather_detail": "Sunny (92%), wind 13 mph, 9% precip",
+      "weather_high": 52,
+      "weather_low": 32,
+      "weather_condition": "DRIZZLE",
+      "weather_emoji": "🌤️",
+      "weather_oneliner": "52°/32° · warming up, sunny",
+      "calendar": "Elsie science potions camp 3:45-4:45",
+      "calendar_items": [
+        "Elsie science potions camp 3:45-4:45"
+      ],
+      "engagements": [
+        {
+          "time": "3:45 PM",
+          "event": "Elsie science potions camp",
+          "event_short": "Science camp"
+        }
+      ],
+      "time_constraints": [
+        "Elsie science potions camp 3:45-4:45"
+      ],
+      "dinner": "Niku Udon",
+      "dinner_cuisine": "Japanese",
+      "dinner_description": "Chewy udon in real dashi with soy-mirin glazed beef, onsen egg, and toppings bar.",
+      "dinner_key_ingredients": [
+        "udon noodles",
+        "kombu",
+        "katsuobushi",
+        "ribeye",
+        "soy sauce",
+        "mirin",
+        "eggs",
+        "scallions",
+        "nori"
+      ],
+      "dinner_source_url": "https://www.justonecookbook.com/beef-udon/",
+      "dinner_source_name": "Just One Cookbook",
+      "dinner_notes": "Elsie science potions camp 3:45-4:45 PM.",
+      "dinner_nutrition_notes": "",
+      "album": "Tatsuro Yamashita – For You",
+      "album_artist": "Tatsuro Yamashita",
+      "album_title": "For You",
+      "album_year": "1982",
+      "album_genre": "Japanese City Pop",
+      "album_mood": "Romantic, breezy, groovy",
+      "album_description": "The king of Japanese city pop. Lush and melodic.",
+      "album_sonic_description": "Lush synth-pop with funky bass lines and bright horns.",
+      "album_pairing_rationale": "Japanese city pop for Niku Udon night.",
+      "album_spotify_url": "https://open.spotify.com/album/7JYCYMDIlMICSxpaTdqFIL",
+      "activity": "Ask Elsie about her potions experiments",
+      "activity_notes": "",
+      "prep_notes": [],
+      "dinner_elevation_tips": [
+        {
+          "type": "preparation",
+          "title": "Build Real Dashi",
+          "instruction": "Bring 4 cups water with 4-inch kombu piece to just below boil (never boil kombu). Remove, add packed cup of katsuobushi, steep 5 min, strain. Season with soy, mirin, pinch of sugar."
+        },
+        {
+          "type": "sauce",
+          "title": "Soy-Mirin Glazed Beef",
+          "instruction": "Slice beef paper-thin against grain. Sear in batches 30 sec per side. Deglaze with 2 tbsp each soy and mirin. Reduce to glaze (30 sec), toss beef to coat."
+        },
+        {
+          "type": "temperature",
+          "title": "Onsen Egg",
+          "instruction": "Hold water at 167F for 13 minutes with eggs. Transfer to ice water. Crack over finished udon - white barely set, yolk completely liquid."
+        },
+        {
+          "type": "texture",
+          "title": "Toppings Bar",
+          "instruction": "Set out shichimi togarashi, torn nori, sliced scallions, and tenkasu (crispy tempura bits) for everyone to customize."
+        }
+      ],
+      "dinner_question": {
+        "question": "You did science potions camp today! What was the wildest thing you mixed together, and what happened when you did?",
+        "why": "Wednesday is the hump of the week, and Elsie has camp right after school. Watch for signs she's overstimulated or emotionally full by dinnertime. If she's quiet or snappy at the table, try a side-by-side activity instead of face-to-face conversation — help her chop scallions for the udon, stand next to her while she draws. Kids open up sideways."
+      },
+      "day_intro": "Warming up to 52! Elsie comes home from science camp buzzing. Steaming udon is exactly what she needs.",
+      "recipe_card": {
+        "source_url": "https://www.justonecookbook.com/beef-udon/",
+        "source_name": "Just One Cookbook",
+        "servings": "2",
+        "prep_time": "15 min",
+        "cook_time": "20 min",
+        "nonna_says": "This one isn't mine, it's from another grandmother far away, but she'd tell you the same thing I would: start with good broth. Kombu goes in cold water, low heat. Pull it out before it boils or it gets slimy and bitter. Bonito flakes go in, steep two minutes, strain. That's your dashi. For the beef, slice it paper thin. Cook it fast with soy, mirin, and a little sugar. Don't overdo it or it turns into shoe leather. Noodles, hot broth, beef on top, scallions. Simple things done right.",
+        "variations": [
+          {
+            "name": "Curry Udon (Kare Udon)",
+            "twist": "Thicken the dashi broth with Japanese curry roux for a warming, spiced version",
+            "source_url": "https://www.justonecookbook.com/curry-udon/"
+          },
+          {
+            "name": "Sukiyaki Style",
+            "twist": "Cook the beef and onions sukiyaki-style with sake, soy, and sugar, then serve over udon in lighter broth",
+            "source_url": "https://www.justonecookbook.com/sukiyaki/"
+          },
+          {
+            "name": "Kimchi Udon",
+            "twist": "Add fermented kimchi and gochugaru to the broth for a Korean-Japanese fusion bowl with funky heat",
+            "source_url": "https://www.bonappetit.com/recipe/kimchi-udon-with-scallions"
+          }
+        ],
+        "engineer_table": {
+          "preheat": "",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "4 cups",
+                  "item": "water",
+                  "prep": ""
+                },
+                {
+                  "qty": "4-inch piece",
+                  "item": "kombu",
+                  "prep": "wiped"
+                },
+                {
+                  "qty": "20g",
+                  "item": "katsuobushi (bonito)",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "kombu in cold water, heat to just below boil, remove kombu, add bonito, steep 2 min, strain"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "8 oz",
+                  "item": "ribeye",
+                  "prep": "sliced paper-thin"
+                },
+                {
+                  "qty": "½",
+                  "item": "onion",
+                  "prep": "thin sliced"
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "soy sauce",
+                  "prep": ""
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "mirin",
+                  "prep": ""
+                },
+                {
+                  "qty": "½ tbsp",
+                  "item": "sugar",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "sauté onion, add beef quickly, season, cook 2-3 min"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "200g",
+                  "item": "udon noodles",
+                  "prep": "fresh or frozen"
+                },
+                {
+                  "qty": "2",
+                  "item": "scallions",
+                  "prep": "sliced"
+                }
+              ],
+              "merge_action": "cook noodles per package"
+            }
+          ],
+          "final_steps": [
+            "season dashi with 2 tbsp mirin + 1-2 tbsp soy + ½ tsp salt",
+            "noodles in bowls",
+            "ladle hot broth over",
+            "top with beef and scallions"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Thu 02/26",
+      "long_name": "Thursday, February 26",
+      "day_of_week": "thursday",
+      "weather": "Rain, 43F/34F",
+      "weather_detail": "Cloudy (28%), wind 9 mph, 51% precip, 0.31in rain",
+      "weather_high": 43,
+      "weather_low": 34,
+      "weather_condition": "RAIN",
+      "weather_emoji": "🌧️",
+      "weather_oneliner": "43°/34° · slight rain",
+      "calendar": "Elsie dance camp 3:45-4:45, Dan picks up Elsie 4:30, Laura late meeting, Dan + Elsie evening",
+      "calendar_items": [
+        "Elsie dance camp 3:45-4:45",
+        "Dan picks up Elsie 4:30",
+        "Laura late meeting",
+        "Dan + Elsie evening"
+      ],
+      "engagements": [
+        {
+          "time": "3:45 PM",
+          "event": "Dance camp",
+          "event_short": "Dance camp"
+        },
+        {
+          "time": "4:30 PM",
+          "event": "Dan picks up Elsie",
+          "event_short": "Pickup"
+        },
+        {
+          "time": "Eve",
+          "event": "Dan + Elsie night",
+          "event_short": "Dan+Elsie"
+        }
+      ],
+      "time_constraints": [
+        "Elsie dance camp 3:45-4:45",
+        "Dan picks up Elsie 4:30",
+        "Laura late meeting",
+        "Dan + Elsie evening"
+      ],
+      "dinner": "Mac and Cheese + Berries and Cream Parfaits",
+      "dinner_cuisine": "American",
+      "dinner_description": "Three-cheese baked mac with panko crust, fruit, and berries & cream parfaits.",
+      "dinner_key_ingredients": [
+        "sharp cheddar",
+        "Gruyere",
+        "American cheese",
+        "macaroni",
+        "panko",
+        "strawberries",
+        "blueberries",
+        "whipped cream"
+      ],
+      "dinner_source_url": "https://epicdishes.com/ultimate-baked-mac-and-cheese-recipe/",
+      "dinner_source_name": "Epic Dishes",
+      "dinner_notes": "Elsie dance camp 3:45-4:45. Dan pickup 4:30. Laura late meeting. Dan + Elsie evening.",
+      "dinner_nutrition_notes": "",
+      "album": "Vulfpeck – The Joy of Music, The Job of Real Estate",
+      "album_artist": "Vulfpeck",
+      "album_title": "The Joy of Music, The Job of Real Estate",
+      "album_year": "2020",
+      "album_genre": "Minimalist Funk",
+      "album_mood": "Playful, warm, joyful",
+      "album_description": "Michigan funk collective with playful grooves.",
+      "album_sonic_description": "Lo-fi funk with tight pocket grooves and slap bass.",
+      "album_pairing_rationale": "Playful funk for Elsie kid night.",
+      "album_spotify_url": "https://open.spotify.com/album/7ceGpv4OBnSHhgSwdYtXbP",
+      "activity": "Dan and Elsie cook together",
+      "activity_notes": "",
+      "prep_notes": [],
+      "dinner_elevation_tips": [
+        {
+          "type": "preparation",
+          "title": "Three-Cheese Blend",
+          "instruction": "Use 50% sharp cheddar, 30% Gruyere, 20% American cheese. The American contains sodium citrate which prevents grainy sauce."
+        },
+        {
+          "type": "texture",
+          "title": "Buttered Panko Crust",
+          "instruction": "Toss 1 cup panko with 2 tbsp melted butter, pinch garlic powder, 1 tbsp grated Parm. Spread over mac, bake 375F until deeply golden and shattery."
+        },
+        {
+          "type": "sauce",
+          "title": "Mustard Powder in the Roux",
+          "instruction": "Whisk 1 tsp dry mustard powder and pinch cayenne into the flour when making roux. Cook 1 minute before adding milk."
+        },
+        {
+          "type": "preparation",
+          "title": "Undercook Pasta by 3 Minutes",
+          "instruction": "Boil macaroni 3 minutes short of package time. It finishes cooking in sauce and oven. Overcooked noodles turn to mush."
+        }
+      ],
+      "dinner_question": {
+        "question": "It's a Dan-and-Elsie night! If you could plan the perfect evening for just the two of us — anything goes — what would it look like, hour by hour?",
+        "why": "One-on-one time with a parent is different from family time, and it should feel different. Dan — let yourself be a little sillier, a little more relaxed than usual. Share something about your own day that you wouldn't normally mention at a family dinner. Eight-year-olds are starting to understand that their parents are real people with inner lives, and small revelations ('I had a hard meeting today but then I saw a funny meme') build a bridge she'll walk across for years."
+      },
+      "day_intro": "Rainy and 43. Laura has a late meeting — tonight belongs to Dan and Elsie.",
+      "recipe_card": {
+        "source_url": "https://epicdishes.com/ultimate-baked-mac-and-cheese-recipe/",
+        "source_name": "Epic Dishes",
+        "servings": "4-6",
+        "prep_time": "15 min",
+        "cook_time": "30 min",
+        "nonna_says": "Cook the pasta two minutes short, it finishes in the oven. Melt your butter, whisk in the flour, let it cook a minute so it doesn't taste like paste. Milk goes in slow, keep whisking. When it's thick like cream, off the heat. Three cheeses: cheddar for flavor, Gruyère because we have standards, and American because it melts like a dream. Stir till it's glossy. Pasta in, into the dish. Panko on top with melted butter. Oven till it's bubbling at the edges and gold on top. See? Not so hard.",
+        "variations": [
+          {
+            "name": "Lobster Mac and Cheese",
+            "twist": "Fold in chunks of steamed lobster tail and add a pinch of smoked paprika for a luxurious upgrade",
+            "source_url": "https://www.seriouseats.com/lobster-mac-and-cheese-recipe"
+          },
+          {
+            "name": "Truffle Mac and Cheese",
+            "twist": "Drizzle truffle oil and fold in sautéed mushrooms for an earthy, indulgent twist",
+            "source_url": "https://www.bonappetit.com/recipe/grown-up-mac-and-cheese"
+          },
+          {
+            "name": "Buffalo Chicken Mac",
+            "twist": "Mix in shredded buffalo chicken and top with blue cheese crumbles for game-day energy",
+            "source_url": "https://www.halfbakedharvest.com/buffalo-chicken-mac-and-cheese/"
+          }
+        ],
+        "engineer_table": {
+          "preheat": "350°F (175°C)",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "1 lb",
+                  "item": "elbow macaroni",
+                  "prep": "cook 2 min short of al dente"
+                }
+              ],
+              "merge_action": "drain, reserve ½ cup pasta water"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "4 tbsp",
+                  "item": "butter",
+                  "prep": ""
+                },
+                {
+                  "qty": "¼ cup",
+                  "item": "flour",
+                  "prep": ""
+                },
+                {
+                  "qty": "3 cups",
+                  "item": "whole milk",
+                  "prep": "warm"
+                },
+                {
+                  "qty": "½ tsp",
+                  "item": "mustard powder",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "roux 1 min, whisk in milk, thicken 5 min"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "2 cups",
+                  "item": "sharp cheddar",
+                  "prep": "shredded"
+                },
+                {
+                  "qty": "1 cup",
+                  "item": "Gruyère",
+                  "prep": "shredded"
+                },
+                {
+                  "qty": "4 oz",
+                  "item": "American cheese",
+                  "prep": "torn"
+                }
+              ],
+              "merge_action": "stir into sauce off heat until melted"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 cup",
+                  "item": "panko",
+                  "prep": ""
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "butter",
+                  "prep": "melted"
+                }
+              ],
+              "merge_action": "toss together for topping"
+            }
+          ],
+          "final_steps": [
+            "combine pasta + cheese sauce",
+            "pour into baking dish",
+            "top with panko mixture",
+            "bake 25-30 min until golden and bubbly"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Fri 02/27",
+      "long_name": "Friday, February 27",
+      "day_of_week": "friday",
+      "weather": "Drizzle, 44F/32F",
+      "weather_detail": "Sunny (92%), wind 15 mph, 48% precip",
+      "weather_high": 44,
+      "weather_low": 32,
+      "weather_condition": "DRIZZLE",
+      "weather_emoji": "🌤️",
+      "weather_oneliner": "44°/32° · sunny",
+      "calendar": "Elsie YAT 4:30-6:00",
+      "calendar_items": [
+        "Elsie YAT 4:30-6:00"
+      ],
+      "engagements": [
+        {
+          "time": "4:30 PM",
+          "event": "Elsie YAT",
+          "event_short": "YAT 4:30-6"
+        }
+      ],
+      "time_constraints": [
+        "Elsie YAT 4:30-6:00"
+      ],
+      "dinner": "Linguini with Clams",
+      "dinner_cuisine": "Italian",
+      "dinner_description": "Classic linguini alle vongole: clams in white wine with garlic three ways and pangritata.",
+      "dinner_key_ingredients": [
+        "linguini",
+        "littleneck clams",
+        "garlic",
+        "white wine",
+        "olive oil",
+        "breadcrumbs",
+        "lemon",
+        "parsley"
+      ],
+      "dinner_source_url": "https://www.sipandfeast.com/linguine-alle-vongole/",
+      "dinner_source_name": "Sip and Feast",
+      "dinner_notes": "Elsie YAT 4:30-6:00 PM.",
+      "dinner_nutrition_notes": "",
+      "album": "Steely Dan – Aja",
+      "album_artist": "Steely Dan",
+      "album_title": "Aja",
+      "album_year": "1977",
+      "album_genre": "Jazz-Rock",
+      "album_mood": "Sophisticated, cool, sardonic",
+      "album_description": "Jazz-rock perfection with sardonic storytelling.",
+      "album_sonic_description": "Jazz-rock fusion with session perfection.",
+      "album_pairing_rationale": "Sophisticated jazz-rock for elegant clam pasta.",
+      "album_spotify_url": "https://open.spotify.com/album/1HZAD5F54pk2dPBMGCPMMJ",
+      "activity": "Elegant Friday — Steely Dan and white wine",
+      "activity_notes": "",
+      "prep_notes": [],
+      "dinner_elevation_tips": [
+        {
+          "type": "preparation",
+          "title": "Finish Pasta in Clam Broth",
+          "instruction": "Steam clams open first, reserve and strain all liquor. Cook linguini 2 min short, finish directly in clam broth with pasta water. Starch-clam liquor creates silky, briny sauce."
+        },
+        {
+          "type": "sauce",
+          "title": "Garlic Three Ways",
+          "instruction": "(1) Thinly sliced garlic cooked golden in olive oil as base. (2) One clove grated raw into sauce at end. (3) Garlic-infused breadcrumbs as finish. Three textures, three intensities."
+        },
+        {
+          "type": "texture",
+          "title": "Pangritata (Crispy Garlic Breadcrumbs)",
+          "instruction": "Toast coarse breadcrumbs in olive oil with minced garlic, red pepper flakes, and lemon zest until deeply golden. Scatter over plated pasta."
+        },
+        {
+          "type": "acid",
+          "title": "White Wine Reduction and Lemon Finish",
+          "instruction": "Use dry Vermentino or Pinot Grigio, reduce by two-thirds before adding clam broth. Finish with lemon squeeze and rough-chopped parsley."
+        }
+      ],
+      "dinner_question": {
+        "question": "You just came from YAT — if you had to perform one scene from your life this week as a little play, which moment would you pick?",
+        "why": "After a week this full — snow days, on-call stress, camps every afternoon, swim — Friday night is not the time for catching up on anything. It's the time for being low-energy together. If the house is messy, leave it. If there's homework, it can wait until tomorrow. Your presence tonight matters more than your productivity."
+      },
+      "day_intro": "Sunny, 44. While Elsie is at YAT, prep the clams. Steely Dan, a glass of Vermentino, perfection.",
+      "recipe_card": {
+        "source_url": "https://www.sipandfeast.com/linguine-alle-vongole/",
+        "source_name": "Sip and Feast",
+        "servings": "4",
+        "prep_time": "30 min (purge clams)",
+        "cook_time": "15 min",
+        "nonna_says": "First, and I cannot stress this enough, soak your clams in salty water. Thirty minutes minimum. Any sand in your pasta and dinner is ruined. Heat olive oil, good olive oil, and let the garlic go golden. Not brown, golden. A pinch of red pepper if you like. In go all the clams, pour the wine over, lid on tight. Five minutes, they open. Take them out right away. Let that beautiful juice reduce a little. The pasta goes in that juice with a splash of pasta water, toss it until the noodles drink everything up. Clams back in, parsley, a thread of your best olive oil. No cheese. Never cheese with clams.",
+        "variations": [
+          {
+            "name": "Linguine alle Vongole in Rosso",
+            "twist": "Add San Marzano tomatoes to the clam sauce for the red version — equally classic in Naples",
+            "source_url": "https://www.the-pasta-project.com/linguine-alle-vongole-in-rosso/"
+          },
+          {
+            "name": "Spaghetti with Mussels",
+            "twist": "Swap clams for mussels and add a splash of cream and fresh tarragon for a French-Italian crossover",
+            "source_url": "https://www.bonappetit.com/recipe/spaghetti-with-mussels"
+          },
+          {
+            "name": "Clams Casino Pasta",
+            "twist": "Top with crispy breadcrumbs, bacon bits, and roasted peppers for an Italian-American bar-style twist",
+            "source_url": "https://www.seriouseats.com/clams-casino-recipe"
+          }
+        ],
+        "engineer_table": {
+          "preheat": "",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "2 lbs",
+                  "item": "littleneck clams",
+                  "prep": "scrubbed, purged 30 min"
+                },
+                {
+                  "qty": "⅓ cup",
+                  "item": "extra-virgin olive oil",
+                  "prep": ""
+                },
+                {
+                  "qty": "3-4 cloves",
+                  "item": "garlic",
+                  "prep": "thinly sliced"
+                },
+                {
+                  "qty": "½ tsp",
+                  "item": "red pepper flakes",
+                  "prep": ""
+                },
+                {
+                  "qty": "¾ cup",
+                  "item": "dry white wine",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "heat oil, sauté garlic 1 min, add clams + wine, cover 5-7 min"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 lb",
+                  "item": "linguine",
+                  "prep": "cook 1 min short of al dente"
+                }
+              ],
+              "merge_action": "drain, reserve 1 cup pasta water"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "¼ cup",
+                  "item": "fresh Italian parsley",
+                  "prep": "chopped"
+                },
+                {
+                  "qty": "drizzle",
+                  "item": "finishing olive oil",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "ready for finishing"
+            }
+          ],
+          "final_steps": [
+            "remove clams from broth, reduce broth 2 min",
+            "add pasta to broth, toss with pasta water",
+            "return clams, add parsley + oil",
+            "serve immediately, no cheese"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sat 02/28",
+      "long_name": "Saturday, February 28",
+      "day_of_week": "saturday",
+      "weather": "Overcast, 53F/31F",
+      "weather_detail": "Sunny (92%), wind 10 mph, 7% precip",
+      "weather_high": 53,
+      "weather_low": 31,
+      "weather_condition": "OVERCAST",
+      "weather_emoji": "☀️",
+      "weather_oneliner": "53°/31° · beautiful day",
+      "calendar": "Pizza party with friends!",
+      "calendar_items": [
+        "Pizza party with friends!"
+      ],
+      "engagements": [
+        {
+          "time": "Evening",
+          "event": "Pizza party with friends",
+          "event_short": "Pizza party!"
+        }
+      ],
+      "time_constraints": [
+        "Pizza party with friends!"
+      ],
+      "dinner": "Pizza Night (3 Pies)",
+      "dinner_cuisine": "Italian-American",
+      "dinner_description": "Three pies: Buffalo Chicken White, Cheese & Pepperoni with Hot Honey, Mac & Cheese Pizza.",
+      "dinner_key_ingredients": [
+        "bread flour",
+        "yeast",
+        "buffalo sauce",
+        "chicken",
+        "Gorgonzola",
+        "capers",
+        "mozzarella",
+        "pepperoni",
+        "honey"
+      ],
+      "dinner_source_url": "https://bakingsteel.com/blogs/recipes/72-hour-pizza-dough-recipe",
+      "dinner_source_name": "Baking Steel",
+      "dinner_notes": "Pizza party with friends! Dough started Wednesday.",
+      "dinner_nutrition_notes": "",
+      "album": "Jungle – Volcano",
+      "album_artist": "Jungle",
+      "album_title": "Volcano",
+      "album_year": "2023",
+      "album_genre": "Funk-Disco, Electronic Soul",
+      "album_mood": "Danceable, euphoric, warm",
+      "album_description": "London funk-electronic duo with irresistible grooves.",
+      "album_sonic_description": "Modern funk-disco with layered synths and driving beats.",
+      "album_pairing_rationale": "Pure party energy for pizza night with friends.",
+      "album_spotify_url": "https://open.spotify.com/album/0gR68YDpntC5nNR3V0TPKR",
+      "activity": "Friends, pizza, and Jungle on the speakers",
+      "activity_notes": "",
+      "prep_notes": [],
+      "dinner_elevation_tips": [
+        {
+          "type": "preparation",
+          "title": "72-Hour Cold Fermented Dough",
+          "instruction": "Make dough 3 days ahead. Bread flour, 65% hydration, 1/4 tsp yeast per 500g flour, 3% salt. Refrigerate 72 hours. Pull out 2 hours before baking."
+        },
+        {
+          "type": "sauce",
+          "title": "Blue Cheese Bechamel for Buffalo Pie",
+          "instruction": "Make light bechamel with butter, flour, milk. Off heat, crumble in Gorgonzola dolce until melted. Spread as base. Top with buffalo chicken, mozz, capers, thin celery slices."
+        },
+        {
+          "type": "texture",
+          "title": "Cup-and-Char Pepperoni",
+          "instruction": "Use natural-casing pepperoni sliced thick. The casing causes edges to curl into cups that pool with rendered spicy fat. Place on top of cheese."
+        },
+        {
+          "type": "temperature",
+          "title": "Hot Honey Drizzle",
+          "instruction": "After pulling pepperoni pie from oven, drizzle with hot honey (3 tbsp honey + 1 tsp red pepper flakes, warmed)."
+        }
+      ],
+      "dinner_question": {
+        "question": "You're the host tonight! If you could give our pizza party a theme — like a restaurant name and a vibe — what would it be?",
+        "why": "When friends are over, you'll see a different version of Elsie — her 'social self.' She might be louder, bossier, sillier, or more reserved than she is at home. All of that is normal. She's trying on different ways of being in the world, and a pizza party is a safe lab for that. Don't correct her social behavior in front of friends. If something needs addressing, save it for the quiet debrief at bedtime."
+      },
+      "day_intro": "Beautiful 53 and sunny. Friends gather for three homemade pies and Jungle turns the kitchen into a dance floor.",
+      "recipe_card": {
+        "source_url": "https://bakingsteel.com/blogs/recipes/72-hour-pizza-dough-recipe",
+        "source_name": "Baking Steel",
+        "servings": "3 pies",
+        "prep_time": "20 min + 72 hours cold ferment",
+        "cook_time": "6-8 min per pie",
+        "nonna_says": "Three days before, you make this dough. Flour, water, a whisper of yeast, salt. Mix it, knead it a little, into the fridge. Three days. The yeast does slow, beautiful work. On pizza night, pull it out three hours early. Divide it into three balls. Stretch with your hands, never a rolling pin. For the buffalo chicken: shredded chicken, hot sauce, blue cheese, mozzarella. For the classic: good sauce, mozzarella, pepperoni on top so the edges curl. The mac and cheese one is ridiculous but the kids will love you forever. Hot oven, as hot as it goes. Six, seven minutes. Watch it.",
+        "variations": [
+          {
+            "name": "Detroit-Style Pan Pizza",
+            "twist": "Press dough into an oiled steel pan, cheese to the edges for caramelized corners, sauce on top",
+            "source_url": "https://www.seriouseats.com/detroit-style-pizza-recipe"
+          },
+          {
+            "name": "Grilled Pizza",
+            "twist": "Stretch dough, grill one side directly on grates, flip, add toppings, cover to melt",
+            "source_url": "https://www.bonappetit.com/recipe/grilled-pizza"
+          },
+          {
+            "name": "Pizza Bianca with Potatoes",
+            "twist": "Skip tomato sauce entirely — olive oil, thinly sliced potatoes, rosemary, sea salt on the crust",
+            "source_url": "https://www.kingarthurbaking.com/recipes/pizza-bianca-recipe"
+          }
+        ],
+        "engineer_table": {
+          "preheat": "Oven max (500-550°F) with pizza stone/steel",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "500g",
+                  "item": "bread flour",
+                  "prep": ""
+                },
+                {
+                  "qty": "350g",
+                  "item": "water",
+                  "prep": "room temp"
+                },
+                {
+                  "qty": "16g",
+                  "item": "sea salt",
+                  "prep": ""
+                },
+                {
+                  "qty": "1g (¼ tsp)",
+                  "item": "instant yeast",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "mix flour+yeast, add water, rest 30 min, add salt, knead"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 cup",
+                  "item": "buffalo sauce",
+                  "prep": ""
+                },
+                {
+                  "qty": "2 cups",
+                  "item": "shredded chicken",
+                  "prep": "cooked"
+                },
+                {
+                  "qty": "½ cup",
+                  "item": "gorgonzola",
+                  "prep": "crumbled"
+                }
+              ],
+              "merge_action": "toss chicken in sauce (Pie 1 topping)"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 cup",
+                  "item": "pizza sauce",
+                  "prep": "San Marzano"
+                },
+                {
+                  "qty": "2 cups",
+                  "item": "mozzarella",
+                  "prep": "shredded"
+                },
+                {
+                  "qty": "½ cup",
+                  "item": "pepperoni",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "classic assembly (Pie 2 topping)"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "2 cups",
+                  "item": "mac and cheese",
+                  "prep": "cooked, cooled"
+                },
+                {
+                  "qty": "1 cup",
+                  "item": "mozzarella",
+                  "prep": "shredded"
+                },
+                {
+                  "qty": "drizzle",
+                  "item": "truffle oil",
+                  "prep": "optional"
+                }
+              ],
+              "merge_action": "spread on dough (Pie 3 topping)"
+            }
+          ],
+          "final_steps": [
+            "bulk rise 1-2 hrs, cold ferment 72 hrs",
+            "divide into 3 balls, warm 3 hrs",
+            "stretch by hand, add toppings",
+            "bake on stone/steel 6-8 min each"
+          ]
+        }
+      }
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Banana Nut Bread",
+      "cuisine": "American",
+      "description": "Moist banana bread with walnuts from brown bananas."
+    }
+  ],
+  "salads": [
+    {
+      "name": "Italian Chopped Salad",
+      "salad_type": "composed_dinner",
+      "description": "Romaine, salami, provolone, chickpeas, pepperoncini, red onion, Italian vinaigrette."
+    }
+  ],
+  "beverages": [
+    {
+      "name": "Smoked Maple Old Fashioned",
+      "description": "Bourbon, maple syrup, bitters. Snow day warmth.",
+      "why": "Warmth for rich slow-cooked meats."
+    },
+    {
+      "name": "Hot Toddy",
+      "description": "Whiskey, honey, lemon, nutmeg.",
+      "why": "The ultimate snow day drink."
+    }
+  ],
+  "grocery_list": {
+    "Produce": [
+      "fresh basil",
+      "parsley",
+      "sage",
+      "thyme",
+      "lemons (3)",
+      "scallions",
+      "garlic (3 heads)",
+      "brown bananas",
+      "strawberries",
+      "blueberries",
+      "romaine",
+      "cherry tomatoes",
+      "red onion",
+      "pepperoncini",
+      "celery"
+    ],
+    "Meat": [
+      "Italian sausage",
+      "pork rib",
+      "ground beef 1.5lb",
+      "ribeye 1lb",
+      "chicken breast",
+      "pepperoni",
+      "littleneck clams 3lbs",
+      "salami"
+    ],
+    "Dairy": [
+      "butter 2lbs",
+      "Parmigiano wedge",
+      "Gorgonzola dolce",
+      "sharp cheddar",
+      "Gruyere",
+      "American cheese",
+      "provolone",
+      "mozzarella 2lbs",
+      "milk",
+      "cream",
+      "eggs dozen"
+    ],
+    "Pantry": [
+      "San Marzano tomatoes",
+      "tomato paste",
+      "rigatoni",
+      "linguini",
+      "macaroni",
+      "udon noodles",
+      "bread flour",
+      "yeast",
+      "panko",
+      "pine nuts",
+      "walnuts",
+      "chickpeas",
+      "kombu",
+      "katsuobushi",
+      "nori",
+      "shichimi",
+      "tenkasu"
+    ]
+  },
+  "prep_ahead": [
+    "Sun: Make breakfast casserole for weekday lunches (thaw sausage/potatoes Sat night)",
+    "Wed AM: Make pizza dough (72hr ferment)",
+    "Sun: Bake banana bread while gravy simmers",
+    "Tue: Make pasta dough",
+    "Fri: Buy clams day-of"
+  ],
+  "notes": [
+    "Dan on call until Tue PM",
+    "School likely cancelled Mon",
+    "Swim Tue evening",
+    "Science camp Wed 3:45",
+    "Dance camp Thu 3:45",
+    "Laura late Thu",
+    "YAT Fri 4:30",
+    "Pizza party Sat!",
+    "Start dough Wed!",
+    "Breakfast casserole for weekday lunches (red peppers, potatoes, sausage from freezer)"
+  ],
+  "generated_at": "2026-02-22 00:20",
+  "daily_plan_subtitle": "From Sunday gravy in the snow to Saturday pizza with friends",
+  "parenting_data": {
+    "week_range": "February 22 - March 1, 2026",
+    "weekly_theme": {
+      "title": "Snowed In, Opened Up",
+      "description": "The week starts with snow trapping everyone indoors — and that's the gift. The unstructured togetherness of a snow day is exactly the kind of slow time an 8-year-old secretly craves, even if she'd never say so. As the weather thaws and the week fills with camps, swim, and a pizza party, the warmth you build in those first quiet days carries forward like embers."
+    },
+    "dinner_questions": [
+      {
+        "day": "Sunday",
+        "dinner": "Sunday Gravy and Pasta",
+        "question": "If you were in charge of naming this snowstorm, what would you call it — and what would its personality be like?",
+        "category": "connection",
+        "why": "Snow days feel like disruptions, but they're actually the unscheduled hours your family almost never gets. Resist the urge to fill them with activities or screens. Boredom is the doorway to the kind of spontaneous play and conversation you can't manufacture. If she says 'I'm bored,' try: 'Tell me more about that.' You might be surprised where it goes."
+      },
+      {
+        "day": "Sunday",
+        "dinner": "Sunday Gravy and Pasta",
+        "question": "What's the secret to making really good pasta sauce? If you had to teach someone who'd never cooked before, what would you tell them first?",
+        "category": "connection",
+        "why": "Snow days feel like disruptions, but they're actually the unscheduled hours your family almost never gets. Resist the urge to fill them with activities or screens. Boredom is the doorway to the kind of spontaneous play and conversation you can't manufacture. If she says 'I'm bored,' try: 'Tell me more about that.' You might be surprised where it goes."
+      },
+      {
+        "day": "Monday",
+        "dinner": "Shepherds Pie",
+        "question": "Shepherd's Pie has all these layers — potato, meat, vegetables all stacked up. If you made a 'layer pie' of your perfect day, what would each layer be?",
+        "category": "connection",
+        "why": "When one parent is on call or distracted by work, be honest about it: 'Dad has an important job to do today, and sometimes he'll need to step away.' Eight-year-olds handle honesty far better than vague unavailability. It also models that adults have responsibilities they take seriously — and that's something to respect, not resent."
+      },
+      {
+        "day": "Monday",
+        "dinner": "Shepherds Pie",
+        "question": "Dad's working as the Incident Manager today, which means he helps fix problems when things go wrong. What do you think would be the hardest part of that job?",
+        "category": "connection",
+        "why": "When one parent is on call or distracted by work, be honest about it: 'Dad has an important job to do today, and sometimes he'll need to step away.' Eight-year-olds handle honesty far better than vague unavailability. It also models that adults have responsibilities they take seriously — and that's something to respect, not resent."
+      },
+      {
+        "day": "Tuesday",
+        "dinner": "Babo Pasta",
+        "question": "You had swim lessons tonight — what's one thing in the water that felt easier than it used to? Even a tiny thing counts.",
+        "category": "connection",
+        "why": "The transition from snow days back to routine (school, swim, structured time) can feel jarring for everyone. If she's cranky or resistant tonight, it's probably not about swim — it's about missing the slow pace of the last two days. Name it gently: 'It's a lot going from snow days to a busy evening, huh?' Feeling understood is often all she needs."
+      },
+      {
+        "day": "Tuesday",
+        "dinner": "Babo Pasta",
+        "question": "If you could swim anywhere in the world — an ocean, a lake, a pool on top of a mountain — where would you pick, and who would you bring?",
+        "category": "connection",
+        "why": "The transition from snow days back to routine (school, swim, structured time) can feel jarring for everyone. If she's cranky or resistant tonight, it's probably not about swim — it's about missing the slow pace of the last two days. Name it gently: 'It's a lot going from snow days to a busy evening, huh?' Feeling understood is often all she needs."
+      },
+      {
+        "day": "Wednesday",
+        "dinner": "Niku Udon",
+        "question": "You did science potions camp today! What was the wildest thing you mixed together, and what happened when you did?",
+        "category": "connection",
+        "why": "Wednesday is the hump of the week, and Elsie has camp right after school. Watch for signs she's overstimulated or emotionally full by dinnertime. If she's quiet or snappy at the table, try a side-by-side activity instead of face-to-face conversation — help her chop scallions for the udon, stand next to her while she draws. Kids open up sideways."
+      },
+      {
+        "day": "Wednesday",
+        "dinner": "Niku Udon",
+        "question": "Udon noodles come from Japan, where they slurp their noodles really loudly because it means the food is delicious. If our family had a food tradition from another country, what would you want it to be?",
+        "category": "connection",
+        "why": "Wednesday is the hump of the week, and Elsie has camp right after school. Watch for signs she's overstimulated or emotionally full by dinnertime. If she's quiet or snappy at the table, try a side-by-side activity instead of face-to-face conversation — help her chop scallions for the udon, stand next to her while she draws. Kids open up sideways."
+      },
+      {
+        "day": "Thursday",
+        "dinner": "Mac and Cheese",
+        "question": "It's a Dan-and-Elsie night! If you could plan the perfect evening for just the two of us — anything goes — what would it look like, hour by hour?",
+        "category": "connection",
+        "why": "One-on-one time with a parent is different from family time, and it should feel different. Dan — let yourself be a little sillier, a little more relaxed than usual. Share something about your own day that you wouldn't normally mention at a family dinner. Eight-year-olds are starting to understand that their parents are real people with inner lives, and small revelations ('I had a hard meeting today but then I saw a funny meme') build a bridge she'll walk across for years."
+      },
+      {
+        "day": "Thursday",
+        "dinner": "Mac and Cheese",
+        "question": "Berries and cream for dessert — if you could invent a brand-new dessert that doesn't exist yet, what would it be called and what would be in it?",
+        "category": "connection",
+        "why": "One-on-one time with a parent is different from family time, and it should feel different. Dan — let yourself be a little sillier, a little more relaxed than usual. Share something about your own day that you wouldn't normally mention at a family dinner. Eight-year-olds are starting to understand that their parents are real people with inner lives, and small revelations ('I had a hard meeting today but then I saw a funny meme') build a bridge she'll walk across for years."
+      },
+      {
+        "day": "Friday",
+        "dinner": "Linguini with Clams",
+        "question": "You just came from YAT — if you had to perform one scene from your life this week as a little play, which moment would you pick?",
+        "category": "connection",
+        "why": "After a week this full — snow days, on-call stress, camps every afternoon, swim — Friday night is not the time for catching up on anything. It's the time for being low-energy together. If the house is messy, leave it. If there's homework, it can wait until tomorrow. Your presence tonight matters more than your productivity."
+      },
+      {
+        "day": "Friday",
+        "dinner": "Linguini with Clams",
+        "question": "Clams live in shells at the bottom of the ocean. If you could live inside any animal's home for a day — a bird's nest, a beaver dam, a beehive — which would you choose and why?",
+        "category": "connection",
+        "why": "After a week this full — snow days, on-call stress, camps every afternoon, swim — Friday night is not the time for catching up on anything. It's the time for being low-energy together. If the house is messy, leave it. If there's homework, it can wait until tomorrow. Your presence tonight matters more than your productivity."
+      },
+      {
+        "day": "Saturday",
+        "dinner": "Pizza Night",
+        "question": "You're the host tonight! If you could give our pizza party a theme — like a restaurant name and a vibe — what would it be?",
+        "category": "connection",
+        "why": "When friends are over, you'll see a different version of Elsie — her 'social self.' She might be louder, bossier, sillier, or more reserved than she is at home. All of that is normal. She's trying on different ways of being in the world, and a pizza party is a safe lab for that. Don't correct her social behavior in front of friends. If something needs addressing, save it for the quiet debrief at bedtime."
+      },
+      {
+        "day": "Saturday",
+        "dinner": "Pizza Night",
+        "question": "What's one thing about each of your friends that you think is really cool — something not everyone would notice about them?",
+        "category": "connection",
+        "why": "When friends are over, you'll see a different version of Elsie — her 'social self.' She might be louder, bossier, sillier, or more reserved than she is at home. All of that is normal. She's trying on different ways of being in the world, and a pizza party is a safe lab for that. Don't correct her social behavior in front of friends. If something needs addressing, save it for the quiet debrief at bedtime."
+      }
+    ],
+    "nudges": [
+      {
+        "title": "The Snow Day Deposit",
+        "context": "Sunday and Monday are gift days — unscheduled, unhurried, trapped together by weather. These are rare.",
+        "suggestion": "Use the snow days to build a 'connection deposit' that carries through the busy rest of the week. Do one thing that's entirely Elsie-led: she picks the activity, the timing, and the rules. It could be baking, a craft, a game, or just lying on the floor and talking. The key is that you follow — no steering, no improving, no teaching.",
+        "how_to": [
+          "Say: 'The snow gave us extra time together. You're in charge — what should we do?'",
+          "Set a timer for 20 minutes so she knows the time is real and protected",
+          "When the timer goes off, say: 'That was my favorite part of today.' Mean it."
+        ]
+      },
+      {
+        "title": "The Thursday Night Tradition",
+        "context": "Dan and Elsie have a rare one-on-one evening while Laura works late. This is too good to waste on screens.",
+        "suggestion": "Start a 'Thursday Night Thing' — not a one-time event, but the beginning of a tradition. It doesn't matter what the thing is (this week it might be making berries and cream and watching a movie). What matters is that Dan says: 'This was great. Let's make Thursday nights our thing when we can.' Traditions give 8-year-olds a sense of stability and specialness.",
+        "how_to": [
+          "After dinner, ask: 'So what's our plan tonight? Your call.'",
+          "At the end of the evening, say: 'I really liked tonight. Should Thursday be our thing?'",
+          "Let her name it — 'Dan and Elsie Thursdays' or whatever she invents. The name makes it real."
+        ]
+      },
+      {
+        "title": "The Camp Debrief Reframe",
+        "context": "Elsie has three different camps this week (science potions, dance, YAT). That's a lot of new input for an 8-year-old brain.",
+        "suggestion": "Instead of asking 'How was camp?' (which gets you 'fine'), try: 'Tell me one thing that surprised you today.' Surprise is a more specific emotion than 'good' or 'fun,' and it forces her to scan her memory for something real. If she says 'nothing,' follow up with: 'Nothing?! Not even a tiny thing?' — said with genuine playful curiosity, not interrogation.",
+        "how_to": [
+          "Swap 'How was it?' for 'What surprised you?' for one whole week",
+          "If she gives a real answer, ask one follow-up: 'Why do you think that surprised you?'",
+          "Don't push for more than two exchanges — let the conversation breathe and she may come back to it later"
+        ]
+      }
+    ],
+    "recommendation": {
+      "type": "book",
+      "title": "Rosie Revere, Engineer",
+      "author": "Andrea Beaty",
+      "why": "A picture book she may have outgrown — or think she has — but will love being read aloud during a snow day. It's about a girl who builds inventions and learns that failure is just the first step. Perfect for a week where she's doing science potions camp and building things.",
+      "connection": "Ties directly to the science potions camp on Wednesday and the week's theme of opening up through experimentation. Read it together on Sunday or Monday during the snow, and when she comes home from science camp, you can say: 'So — did you have a Rosie Revere moment today?'"
+    },
+    "parent_reflection": "Somewhere this week — maybe during the snow day chaos, maybe during Thursday night's quiet — she's going to say or do something that shows you who she's becoming, not just who she is right now. It might be a flash of empathy, a surprisingly sharp observation, or the way she takes charge of the pizza party. When it happens, pause. Tell her you noticed. And then, later, when she's asleep, let yourself feel the weight of the fact that you're doing this well. The very fact that you're thinking about how to connect with her this week means she already has what she needs most: parents who are paying attention."
+  },
+  "nutrition_summary": "This week's dinner menu is protein-rich and carbohydrate-heavy, with pasta or bread appearing at nearly every meal. Iron and B12 are exceptionally well-covered thanks to red meats throughout the week and clams on Friday, while calcium gets a solid boost from cheese-centric dishes (Tuesday's parmigiano, Thursday's mac & cheese, Saturday's pizza). However, the menu runs light on fresh vegetables, fruit, and whole grains — leaving fiber, vitamin C, vitamin D, and omega-3 fatty acids as the primary nutritional gaps that lunches and snacks need to fill.",
+  "nutrition_data": {
+    "summary": "This week's dinner menu is protein-rich and carbohydrate-heavy, with pasta or bread appearing at nearly every meal. Iron and B12 are exceptionally well-covered thanks to red meats throughout the week and clams on Friday, while calcium gets a solid boost from cheese-centric dishes (Tuesday's parmigiano, Thursday's mac & cheese, Saturday's pizza). However, the menu runs light on fresh vegetables, fruit, and whole grains — leaving fiber, vitamin C, vitamin D, and omega-3 fatty acids as the primary nutritional gaps that lunches and snacks need to fill.",
+    "strengths": [
+      "Excellent protein variety across the week — beef, lamb, chicken, pork (gravy meats), clams, eggs, and cheese ensure all essential amino acids are well-represented for muscle growth and recovery",
+      "Outstanding B12 and iron coverage: clams on Friday are one of nature's richest B12 and iron sources, and red meat appears Sunday through Wednesday",
+      "Good calcium intake from multiple cheese-heavy meals (parmigiano Tuesday, three-cheese mac Thursday, pizza Saturday) plus the Italian chopped salad's provolone",
+      "The Italian chopped salad served throughout the week provides a critical daily base of leafy greens, tomatoes, chickpeas, and olives — adding fiber, vitamin K, folate, and vitamin C that the pasta-heavy dinners lack",
+      "Tuesday's Babo Pasta is a nutritional standout: spinach in the dough delivers folate and vitamin K, egg yolks add vitamin D and choline, pine nuts contribute vitamin E and magnesium, and parmigiano rounds out the calcium",
+      "Cultural and flavor diversity (Italian, British, Japanese, American) exposes Elsie to varied ingredients, expanding her palate and broadening micronutrient coverage"
+    ],
+    "gaps": [
+      "Fiber is significantly low — refined pasta dominates five of seven dinners, and vegetable portions are modest; the family needs 25-38g daily and dinners alone contribute roughly 4-8g per meal",
+      "Vitamin C is under-represented at dinner: only the Sunday gravy tomato sauce and the Italian chopped salad provide meaningful amounts; no citrus, bell peppers, or cruciferous vegetables appear in any dinner",
+      "Omega-3 fatty acids appear only on Friday (clams) at dinner — a growing child's brain and an active adult's cardiovascular system need these daily; tuna lunches help but aren't sufficient alone",
+      "Vitamin D is critically low: only egg yolks (Tuesday, Wednesday) and trace amounts in cheese offer any dinner-based vitamin D; February in Virginia means minimal sun exposure too",
+      "Fresh fruit and raw vegetables are nearly absent from dinners (Thursday's fruit + berries is the sole exception), limiting antioxidant, phytonutrient, and fiber intake",
+      "Magnesium sources are sparse — only pine nuts (Tuesday) and some from potatoes (Monday) provide meaningful amounts, yet this mineral is essential for an active family's muscle and nerve function",
+      "Sodium is likely elevated from cured meats in Sunday gravy, pepperoni pizza, and cheese-heavy dishes — worth monitoring, especially for the 8-year-old"
+    ],
+    "daily_dinner_analysis": [
+      {
+        "day": "Sunday",
+        "dinner": "Italian Sunday Gravy & Pasta",
+        "key_nutrients": [
+          "Protein (mixed meats — sausage, pork, beef provide complete amino acids)",
+          "Iron (heme iron from red meat, highly bioavailable)",
+          "Vitamin B12 (abundant from mixed meats)",
+          "Zinc (red meat is one of the best sources)",
+          "Lycopene (cooked tomato sauce concentrates this powerful antioxidant)",
+          "Vitamin C (tomato sauce retains moderate levels even after cooking)",
+          "Vitamin B3/Niacin (from meats and enriched pasta)",
+          "Carbohydrates (pasta and garlic bread provide sustained energy)"
+        ],
+        "missing_nutrients": [
+          "Calcium (no dairy in the sauce; cheese garnish helps only slightly)",
+          "Fiber (refined pasta and white garlic bread are low-fiber)",
+          "Vitamin D (no sources present)",
+          "Vitamin K (no leafy greens in the dish)",
+          "Omega-3 fatty acids (saturated fat-heavy meats dominate)",
+          "Vitamin E (minimal sources)"
+        ]
+      },
+      {
+        "day": "Monday",
+        "dinner": "Shepherd's Pie",
+        "key_nutrients": [
+          "Protein (ground beef or lamb provides complete protein)",
+          "Iron (heme iron from red meat)",
+          "Vitamin B12 (beef/lamb are top sources)",
+          "Vitamin A (carrots are rich in beta-carotene; the body converts it to vitamin A)",
+          "Vitamin K (peas provide a moderate amount)",
+          "Potassium (mashed potatoes are an excellent source — one large potato has more potassium than a banana)",
+          "Fiber (peas contribute ~4g per serving; carrots add more)",
+          "Folate (peas are a good plant-based folate source)",
+          "Vitamin C (potatoes retain surprising vitamin C levels; peas contribute too)",
+          "Zinc (from beef/lamb)"
+        ],
+        "missing_nutrients": [
+          "Calcium (no dairy beyond butter in mashed potatoes)",
+          "Vitamin D (no meaningful sources)",
+          "Omega-3 fatty acids (lamb has trace amounts but not significant)",
+          "Vitamin E (no nuts, seeds, or plant oils featured)",
+          "Magnesium (modest amounts from peas but not enough)"
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "dinner": "Babo Pasta (Spinach Egg-Yolk Pasta with Brown Butter, Sage, Pine Nuts, Parmigiano)",
+        "key_nutrients": [
+          "Calcium (parmigiano is one of the most calcium-dense cheeses — ~330mg per ounce)",
+          "Folate (spinach in the pasta dough is one of the best natural folate sources)",
+          "Vitamin K (spinach provides abundant K1 for blood clotting and bone health)",
+          "Iron (spinach contributes non-heme iron; egg yolks add more)",
+          "Vitamin D (egg yolks are one of few natural food sources of vitamin D)",
+          "Vitamin E (pine nuts are exceptionally rich in vitamin E)",
+          "Magnesium (pine nuts provide significant magnesium — ~70mg per ounce)",
+          "Vitamin A (brown butter concentrates fat-soluble vitamin A; egg yolks contribute too)",
+          "Vitamin B12 (egg yolks and parmigiano both contribute)",
+          "Choline (egg yolks are the richest common food source of choline, critical for brain development)",
+          "Healthy fats (brown butter, olive oil, and pine nuts provide a mix of mono/polyunsaturated fats)"
+        ],
+        "missing_nutrients": [
+          "Vitamin C (no raw fruits or vegetables; spinach loses most vitamin C when cooked into dough)",
+          "Fiber (refined flour base despite spinach addition; pine nuts add modest fiber)",
+          "Potassium (no high-potassium ingredients)",
+          "Omega-3 fatty acids (pine nuts have some omega-6 but negligible omega-3)"
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "dinner": "Niku Udon (Japanese Beef Udon in Dashi Broth with Soft Egg, Scallions, Nori)",
+        "key_nutrients": [
+          "Protein (beef and egg provide high-quality complete protein)",
+          "Iron (beef provides heme iron; nori contains non-heme iron)",
+          "Vitamin B12 (beef, egg, and nori all contribute — nori is one of few plant sources of B12)",
+          "Iodine (dashi broth made from kombu is extraordinarily rich in iodine, essential for thyroid function)",
+          "Vitamin D (egg yolk contributes a modest but meaningful amount)",
+          "Vitamin K (scallions and nori both provide vitamin K)",
+          "Zinc (beef is an excellent zinc source)",
+          "Selenium (beef contributes to this antioxidant mineral)",
+          "Umami compounds (dashi provides glutamate and inosinate — while not a 'nutrient,' these support appetite and meal satisfaction)"
+        ],
+        "missing_nutrients": [
+          "Calcium (no dairy or calcium-rich vegetables)",
+          "Vitamin C (scallions provide trace amounts but not meaningful levels)",
+          "Fiber (udon noodles are refined wheat with very low fiber)",
+          "Vitamin A (no orange/red vegetables or leafy greens)",
+          "Vitamin E (no nuts, seeds, or significant plant oil)",
+          "Omega-3 (dashi from bonito flakes has trace omega-3 but not significant)",
+          "Potassium (broth has some, but not a high-potassium meal)"
+        ]
+      },
+      {
+        "day": "Thursday",
+        "dinner": "Mac & Cheese with Panko Crust + Fruit + Berries & Cream Parfaits",
+        "key_nutrients": [
+          "Calcium (three-cheese blend makes this one of the highest-calcium meals of the week — likely 400-500mg per serving)",
+          "Vitamin A (cheese is rich in preformed retinol; cream adds more)",
+          "Vitamin B12 (cheese and cream contribute moderately)",
+          "Vitamin C (fresh fruit and berries are excellent sources — a cup of strawberries provides 100% of daily needs)",
+          "Fiber (berries are among the highest-fiber fruits; other fresh fruit contributes too)",
+          "Potassium (bananas, berries, and other fresh fruit are good sources)",
+          "Antioxidants (berries provide anthocyanins, ellagic acid, and other powerful antioxidants)",
+          "Phosphorus (cheese is rich in phosphorus, which works with calcium for bone health)"
+        ],
+        "missing_nutrients": [
+          "Iron (no meat, leafy greens, or legumes — this is the lowest-iron dinner of the week)",
+          "Zinc (cheese has some but far less than meat-based meals)",
+          "Vitamin D (cheese has trace amounts only)",
+          "Vitamin K (no leafy greens or fermented foods)",
+          "Omega-3 fatty acids (no fish, flax, or walnuts)",
+          "Folate (no leafy greens or legumes)",
+          "Protein (cheese provides some but less than meat-based meals; not a concern for one night)"
+        ]
+      },
+      {
+        "day": "Friday",
+        "dinner": "Linguini with Clams (White Wine, Garlic, Olive Oil, Pangritata)",
+        "key_nutrients": [
+          "Iron (clams are an iron powerhouse — 3oz provides ~24mg, nearly 3x the daily value; this single meal likely covers the whole week's shortfall)",
+          "Vitamin B12 (clams contain more B12 per serving than any other common food — ~84mcg per 3oz, over 3,500% of daily value)",
+          "Zinc (clams provide excellent zinc alongside the iron)",
+          "Omega-3 fatty acids (clams provide EPA and DHA, though less than fatty fish like salmon)",
+          "Selenium (clams are a top selenium source, supporting thyroid and immune function)",
+          "Vitamin E (olive oil contributes meaningful vitamin E)",
+          "Manganese (clams are rich in this trace mineral important for bone health)",
+          "Copper (clams provide copper, which aids iron absorption)",
+          "Healthy monounsaturated fats (olive oil base)"
+        ],
+        "missing_nutrients": [
+          "Vitamin C (no fruits or vitamin-C-rich vegetables; a squeeze of lemon would help and boost iron absorption)",
+          "Calcium (no dairy in this dish)",
+          "Fiber (refined linguini and breadcrumbs are very low-fiber)",
+          "Vitamin A (no orange vegetables, leafy greens, or dairy)",
+          "Vitamin K (no leafy greens)",
+          "Potassium (modest amounts from clams but not a high-potassium meal)",
+          "Vitamin D (minimal)"
+        ]
+      },
+      {
+        "day": "Saturday",
+        "dinner": "Pizza Night (Buffalo Chicken White Pie, Cheese & Pepperoni, Mac & Cheese Pizza)",
+        "key_nutrients": [
+          "Calcium (cheese on all three pizzas makes this the highest-calcium meal of the week)",
+          "Protein (chicken, pepperoni, and cheese all contribute significant protein)",
+          "Vitamin A (cheese provides preformed retinol; tomato sauce on pepperoni pie adds beta-carotene)",
+          "Vitamin B12 (cheese and pepperoni contribute)",
+          "Iron (pepperoni provides heme iron, though it's a processed source)",
+          "Zinc (cheese and pepperoni contribute moderate zinc)",
+          "Phosphorus (cheese and meat are rich sources)",
+          "B vitamins (B1, B2, B3 from enriched pizza dough and meat)"
+        ],
+        "missing_nutrients": [
+          "Vitamin C (no fresh vegetables or fruit on the pizzas)",
+          "Fiber (white pizza dough is refined; no vegetables to add fiber)",
+          "Vitamin D (trace amounts in cheese only)",
+          "Vitamin K (no leafy greens — adding a side salad would help enormously)",
+          "Omega-3 fatty acids (no fish or plant-based omega-3 sources)",
+          "Folate (no leafy greens or legumes)",
+          "Magnesium (minimal sources)",
+          "Vitamin E (no nuts, seeds, or plant oils beyond what's in the dough)"
+        ]
+      }
+    ],
+    "vitamin_mineral_table": [
+      {
+        "nutrient": "Vitamin A",
+        "importance": "Vitamin A is essential for healthy vision (especially night vision), immune system strength, and proper cell growth. For an active 8-year-old like Elsie, it supports the rapid growth of skin, hair, and the lining of her respiratory and digestive tracts. Deficiency signs include frequent infections, dry skin, and difficulty seeing in dim light — a child who squints at screens in the evening or gets sick often may not be getting enough.",
+        "dinner_sources": "Monday (carrots in shepherd's pie — excellent beta-carotene source), Tuesday (brown butter and egg yolks), Thursday (three-cheese blend and cream), Saturday (cheese on all pizzas), Sunday (tomato sauce provides beta-carotene)",
+        "status": "adequate",
+        "recommendation": "Dinners provide reasonable vitamin A coverage. Reinforce with carrot sticks, sweet potato fries, or mango slices as snacks. The Italian chopped salad's tomatoes and any dark leafy greens help too."
+      },
+      {
+        "nutrient": "Vitamin B1 (Thiamine)",
+        "importance": "Thiamine converts carbohydrates into usable energy — critical for a week this carb-heavy. It also supports nerve function and muscle coordination. For Elsie's active lifestyle, B1 deficiency would manifest as fatigue, irritability, and poor concentration. Since the body can't store much thiamine, it needs to be replenished daily.",
+        "dinner_sources": "Present in enriched pasta (Sunday, Tuesday, Thursday, Friday), pork in Sunday gravy (pork is the richest common meat source of B1), peas in Monday's shepherd's pie, and enriched pizza dough (Saturday)",
+        "status": "adequate",
+        "recommendation": "The heavy pasta and enriched grain intake this week actually works in thiamine's favor — enriched flour is fortified with B1. Whole grain bread for sandwiches at lunch would add even more."
+      },
+      {
+        "nutrient": "Vitamin B2 (Riboflavin)",
+        "importance": "Riboflavin is crucial for energy production and helps the body use other B vitamins effectively. It supports healthy skin, eyes, and red blood cell production. For active kids, B2 is important because it helps convert food into the energy they burn through constantly. Deficiency shows up as cracked lips, sore throat, and sensitivity to light.",
+        "dinner_sources": "Eggs (Tuesday, Wednesday), dairy and cheese (Tuesday, Thursday, Saturday), meats throughout the week, and enriched pasta all contribute riboflavin",
+        "status": "adequate",
+        "recommendation": "Good coverage from eggs, dairy, and enriched grains. A glass of milk or yogurt at lunch reinforces this further."
+      },
+      {
+        "nutrient": "Vitamin B3 (Niacin)",
+        "importance": "Niacin supports energy metabolism, DNA repair, and healthy skin. It plays a key role in converting food into cellular energy, which matters enormously for active growing children. Niacin deficiency is rare in meat-eating families but would show as fatigue, digestive problems, and skin issues. The body can also synthesize niacin from the amino acid tryptophan, found in protein-rich foods.",
+        "dinner_sources": "Abundant from chicken (Saturday's buffalo chicken), beef (Sunday, Monday, Wednesday), and enriched pasta/bread throughout the week. Tuna at lunch is also an excellent niacin source.",
+        "status": "adequate",
+        "recommendation": "Protein-rich dinners every night ensure strong niacin coverage. No supplementation needed."
+      },
+      {
+        "nutrient": "Vitamin B6 (Pyridoxine)",
+        "importance": "Vitamin B6 is vital for brain development and function — it helps produce neurotransmitters like serotonin and dopamine that regulate mood, sleep, and focus. For Elsie at age 8, B6 directly supports cognitive development, learning, and emotional regulation. It also aids hemoglobin production (carrying oxygen to muscles during activity). Deficiency can cause irritability, confusion, and weakened immunity.",
+        "dinner_sources": "Beef (Sunday, Monday, Wednesday), chicken (Saturday), potatoes (Monday — potatoes are one of the best vegetable sources of B6), and chickpeas in the Italian chopped salad",
+        "status": "adequate",
+        "recommendation": "Well-covered through meats and potatoes. Bananas (in the banana nut bread and banana pudding Sunday) are also good B6 sources, and tuna sandwiches at lunch add more."
+      },
+      {
+        "nutrient": "Vitamin B12 (Cobalamin)",
+        "importance": "B12 is essential for nerve function, red blood cell formation, and DNA synthesis. For a growing child, B12 deficiency can cause irreversible neurological damage, fatigue, and developmental delays. It's only found naturally in animal products, making it critical to track in any diet. Active family members need adequate B12 for energy metabolism and oxygen transport to muscles.",
+        "dinner_sources": "Exceptional coverage this week: clams on Friday provide astronomical B12 (one serving = 35x daily needs), red meat Sunday through Wednesday, eggs Tuesday and Wednesday, cheese on multiple days, and nori on Wednesday (one of few plant sources)",
+        "status": "adequate",
+        "recommendation": "This is the best-covered nutrient of the week. Friday's clams alone could cover the entire family's B12 needs for a month. No action needed."
+      },
+      {
+        "nutrient": "Vitamin C",
+        "importance": "Vitamin C is a powerful antioxidant that supports immune function, collagen production (critical for growing bones, skin, and connective tissue), and dramatically improves iron absorption from plant sources. For Elsie, vitamin C helps wounds heal faster (important for active kids who get scrapes and bruises), builds strong gums, and protects cells from oxidative stress during intense physical activity. Deficiency leads to weakened immunity, slow wound healing, and fatigue.",
+        "dinner_sources": "Sunday (tomato sauce provides moderate vitamin C), Monday (peas and potatoes contribute some), Thursday (fresh fruit and berries are excellent sources). The Italian chopped salad's tomatoes and any peppers add daily vitamin C. Most other dinners are very low.",
+        "status": "low",
+        "recommendation": "This is a significant gap. Add citrus fruit to lunches daily — an orange or clementines with lunch takes 10 seconds and covers the daily need. Strawberries, kiwi, and bell pepper strips (raw, not cooked — Elsie's preference) are excellent snack options. Consider adding a lemon squeeze to Friday's clams to dramatically boost iron absorption."
+      },
+      {
+        "nutrient": "Vitamin D",
+        "importance": "Vitamin D is critical for calcium absorption and bone mineralization — without it, all the calcium from this week's cheese-heavy meals can't be properly used. For Elsie at age 8, vitamin D deficiency can stunt bone growth and weaken the immune system. It also regulates mood (seasonal affective disorder is linked to low D). In February in Virginia, the sun angle is too low for skin to produce meaningful vitamin D, making dietary sources essential.",
+        "dinner_sources": "Tuesday (egg yolks in the pasta provide ~40 IU each), Wednesday (soft egg provides another ~40 IU). Cheese throughout the week provides trace amounts. No fatty fish, fortified milk, or other significant sources appear at dinner.",
+        "status": "low",
+        "recommendation": "This is the most critical gap of the week, especially in February. Serve fortified milk or orange juice at every lunch. Consider a daily vitamin D supplement for the whole family (1000 IU for adults, 600 IU for Elsie) — the AAP recommends this for children. Fatty fish like salmon or sardines at lunch once a week would help. Even fortified yogurt as a snack adds vitamin D."
+      },
+      {
+        "nutrient": "Vitamin E",
+        "importance": "Vitamin E is a fat-soluble antioxidant that protects cell membranes from damage — particularly important for an active family whose exercise generates oxidative stress. For Elsie, vitamin E supports immune function and healthy skin. It also helps the body use vitamin K effectively. Deficiency is uncommon but manifests as muscle weakness and coordination problems.",
+        "dinner_sources": "Tuesday (pine nuts are an excellent source — ~2.6mg per ounce), Friday (olive oil provides moderate vitamin E), and small amounts from other cooking oils throughout the week",
+        "status": "low",
+        "recommendation": "Add sunflower seeds or almonds as a daily snack — just a small handful provides 40-50% of the daily value. Peanut butter on the sandwich bread is another easy source. Avocado on sandwiches or as a side would contribute both vitamin E and healthy fats."
+      },
+      {
+        "nutrient": "Vitamin K",
+        "importance": "Vitamin K is essential for blood clotting (a scraped knee won't stop bleeding without it) and plays a crucial role in bone metabolism — it activates proteins that help calcium bind to bones. For Elsie's growing skeleton, vitamin K works in tandem with calcium and vitamin D to build strong bones. There are two forms: K1 from leafy greens and K2 from fermented foods and animal products.",
+        "dinner_sources": "Tuesday (spinach in pasta dough provides K1), Monday (peas contribute moderate K1), Wednesday (scallions and nori provide some), and the Italian chopped salad provides daily K1 from any leafy greens in it. K2 comes from the cheese on multiple nights.",
+        "status": "adequate",
+        "recommendation": "The Italian chopped salad served throughout the week is the key vitamin K source — make sure it's served generously and consistently. If the salad base is romaine (likely for Italian chopped), that's ~50mcg per cup. Adding a leafy green side salad on pizza night Saturday would fill the day's biggest gap."
+      },
+      {
+        "nutrient": "Iron",
+        "importance": "Iron carries oxygen in the blood to every cell in the body — muscles, brain, organs. For an active 8-year-old girl, iron is especially critical: rapid growth increases iron needs, and girls approaching puberty need to build iron stores before menstruation begins. Iron deficiency is the most common nutritional deficiency in children and causes fatigue, poor concentration, weakened immunity, and decreased athletic performance. There are two types: heme iron (from meat, highly absorbable) and non-heme iron (from plants, less absorbable).",
+        "dinner_sources": "Outstanding coverage: clams on Friday are an iron powerhouse (~24mg per 3oz — more than the full daily value in one meal), red meat appears Sunday through Wednesday (each providing ~3-5mg heme iron), nori on Wednesday adds non-heme iron, and spinach in Tuesday's pasta contributes more. Thursday is the only low-iron dinner.",
+        "status": "adequate",
+        "recommendation": "Iron is very well-covered this week. Friday's clams alone provide more iron than most people get in several days. To maximize absorption, pair iron-rich meals with vitamin C (a squeeze of lemon on the clams, tomato sauce with Sunday's meat). Avoid serving milk with iron-heavy dinners, as calcium competes with iron for absorption."
+      },
+      {
+        "nutrient": "Calcium",
+        "importance": "Calcium is the primary building block of bones and teeth, and ages 4-8 are a critical window for bone mass accumulation that determines lifelong bone density. Elsie needs ~1000mg daily. Calcium also enables muscle contraction, nerve signaling, and heart rhythm regulation. Deficiency in childhood leads to weak bones, increased fracture risk, and can set the stage for osteoporosis decades later. Active children who jump, run, and play actually build more bone IF they have adequate calcium to work with.",
+        "dinner_sources": "Thursday's three-cheese mac & cheese (~400-500mg), Saturday's triple pizza night (~500-600mg), Tuesday's parmigiano (~330mg per ounce grated over pasta), and the Italian chopped salad's provolone all contribute. Monday and Friday are the lowest-calcium dinners.",
+        "status": "adequate",
+        "recommendation": "Cheese-heavy meals cover calcium well on several days, but Monday, Wednesday, and Friday are gaps. Serve a glass of milk at lunch daily (~300mg per cup) and yogurt as a snack to ensure consistent daily intake. For Elsie specifically, chocolate milk after active play is an excellent calcium + protein recovery drink."
+      },
+      {
+        "nutrient": "Zinc",
+        "importance": "Zinc is essential for immune function, wound healing, taste perception, and cell division during growth. For Elsie, zinc directly supports her immune system (fighting off school germs), helps her grow properly, and even affects appetite — a zinc-deficient child may become a picky eater. Active children lose zinc through sweat, increasing their needs. Zinc also supports cognitive function and attention span.",
+        "dinner_sources": "Strong coverage from red meat on Sunday, Monday, and Wednesday (~5-7mg per serving), clams on Friday (~2-3mg), cheese on Tuesday, Thursday, and Saturday, and pepperoni on Saturday. Wednesday's beef udon contributes well too.",
+        "status": "adequate",
+        "recommendation": "Zinc is well-covered by the meat-heavy dinner rotation. Pumpkin seeds as a snack are the single best plant-based zinc source. Tuna sandwiches at lunch add moderate zinc too."
+      },
+      {
+        "nutrient": "Magnesium",
+        "importance": "Magnesium is involved in over 300 enzymatic reactions in the body — it's essential for muscle and nerve function, blood sugar regulation, and energy production. For an active child, magnesium prevents muscle cramps, supports bone structure (60% of the body's magnesium is in bones), and aids sleep quality. Deficiency causes muscle cramps, irritability, difficulty sleeping, and fatigue — symptoms often mistaken for 'just being a tired kid.'",
+        "dinner_sources": "Tuesday (pine nuts are magnesium-rich — ~70mg per ounce), Monday (potatoes contribute ~50mg per large potato), and modest amounts from whole wheat in some breads. Most dinners are magnesium-poor because refined pasta and cheese are low sources.",
+        "status": "low",
+        "recommendation": "Add magnesium-rich snacks daily: almonds, cashews, pumpkin seeds, or dark chocolate (a square of 70%+ dark chocolate has ~50mg magnesium and kids love it). Banana nut bread on Sunday helps. At lunch, peanut butter sandwiches on whole wheat are an easy magnesium boost. Consider adding black beans or edamame as sides — both are excellent magnesium sources and kid-friendly."
+      },
+      {
+        "nutrient": "Potassium",
+        "importance": "Potassium regulates fluid balance, muscle contractions, and nerve signals. For active family members, potassium is critical — it's lost through sweat during exercise and deficiency causes muscle weakness, cramps, and fatigue. It also counteracts sodium's blood pressure effects, which matters this week given the higher-sodium meals (pepperoni, cured meats, cheese). Children ages 4-8 need ~2300mg daily.",
+        "dinner_sources": "Monday (mashed potatoes are excellent — ~900mg per large potato), Thursday (bananas, berries, and fresh fruit contribute), Sunday (tomato sauce provides ~400mg per cup). Other dinners are moderate to low. The Italian chopped salad adds daily potassium from tomatoes, chickpeas, and any lettuce.",
+        "status": "low",
+        "recommendation": "Serve a banana at breakfast or as a snack 3-4 days this week (~420mg each). Add avocado to sandwiches at lunch. Sweet potatoes, oranges, and yogurt are all potassium-rich snack options. Given the higher sodium intake from cheese and cured meats this week, extra potassium helps maintain balance."
+      },
+      {
+        "nutrient": "Fiber",
+        "importance": "Fiber supports healthy digestion, feeds beneficial gut bacteria, regulates blood sugar, and promotes satiety. For Elsie, adequate fiber prevents constipation (common in kids with refined-grain-heavy diets), supports a healthy gut microbiome that strengthens immunity, and helps maintain stable energy levels throughout the school day. Children ages 4-8 need ~25g daily. Most American children get less than half that amount.",
+        "dinner_sources": "Monday (peas and carrots in shepherd's pie — peas are one of the highest-fiber common vegetables at ~4g per half cup), Thursday (berries are fiber stars — raspberries have 8g per cup), Tuesday (pine nuts add ~1g per ounce). Refined pasta on five nights contributes very little fiber. The Italian chopped salad's chickpeas and vegetables help daily.",
+        "status": "low",
+        "recommendation": "This is a significant gap that needs lunch and snack compensation. Switch to whole wheat bread for sandwiches (adds ~3-4g fiber per sandwich). Add raw vegetables with hummus as a daily snack (carrots, cucumbers, snap peas — Elsie-friendly since they're raw, not cooked). Apples with peanut butter (~5g fiber from the apple alone) are another easy option. At lunch, include beans or lentils when possible — even a small bean salad adds 6-8g fiber."
+      },
+      {
+        "nutrient": "Omega-3 Fatty Acids (EPA/DHA)",
+        "importance": "Omega-3s are critical for brain development and function — especially DHA, which makes up 40% of the polyunsaturated fatty acids in the brain. For Elsie at 8, omega-3s support learning, memory, focus, and emotional regulation. They also reduce inflammation (important for active joints and muscles), support heart health for Dan and Laura, and contribute to healthy skin and eyes. The American diet is typically far too high in omega-6 relative to omega-3.",
+        "dinner_sources": "Friday (clams provide moderate EPA/DHA — less than salmon but meaningful), and trace amounts from egg yolks on Tuesday and Wednesday. No other dinners provide significant omega-3s. The Italian chopped salad's olive oil provides plant-based omega-9 but not omega-3.",
+        "status": "low",
+        "recommendation": "Tuna sandwiches for Elsie's lunch 1-2 days is excellent — canned light tuna provides ~200-300mg omega-3 per serving and she loves it. Add walnuts or ground flaxseed to the banana nut bread (or as snack trail mix). Consider canned salmon or sardines for adult lunches. A tablespoon of chia seeds in Thursday's parfaits would add ~2500mg ALA omega-3 without changing the flavor."
+      },
+      {
+        "nutrient": "Folate (Vitamin B9)",
+        "importance": "Folate is essential for DNA synthesis and cell division — processes that happen rapidly in growing children. It works closely with B12 to form red blood cells and is critical for brain development and cognitive function. For Elsie, adequate folate supports her rapid cell growth, healthy blood, and neurological development. Deficiency causes megaloblastic anemia (large, malformed red blood cells), fatigue, and poor growth. The synthetic form (folic acid) is added to enriched grains.",
+        "dinner_sources": "Tuesday (spinach in pasta dough is one of the richest natural folate sources), Monday (peas provide good folate — ~50mcg per half cup), enriched pasta throughout the week contains added folic acid, and the Italian chopped salad's greens and chickpeas contribute daily folate",
+        "status": "adequate",
+        "recommendation": "Between enriched pasta (most US pasta contains ~100mcg folic acid per serving) and natural folate from spinach Tuesday and peas Monday, coverage is reasonable. Adding leafy greens to lunches and raw spinach to sandwiches would strengthen this further."
+      }
+    ],
+    "recommended_lunches": [
+      {
+        "day": "Sunday",
+        "suggestion": "Light lunch since dinner is hearty Sunday gravy: Turkey and avocado wrap on whole wheat tortilla with lettuce and tomato, side of baby carrots and hummus, clementine",
+        "fills_gaps": [
+          "Fiber",
+          "Vitamin C",
+          "Vitamin E",
+          "Potassium",
+          "Magnesium"
+        ],
+        "kid_friendly": true
+      },
+      {
+        "day": "Monday",
+        "suggestion": "Elsie's favorite: Tuna fish sandwich on whole wheat bread with lettuce, side of cucumber slices, an apple, and a glass of fortified milk",
+        "fills_gaps": [
+          "Omega-3",
+          "Fiber",
+          "Vitamin C",
+          "Vitamin D",
+          "Calcium"
+        ],
+        "kid_friendly": true
+      },
+      {
+        "day": "Tuesday",
+        "suggestion": "PB&J on whole wheat bread with banana slices, handful of baby carrots, yogurt cup (fortified with vitamin D)",
+        "fills_gaps": [
+          "Fiber",
+          "Vitamin C",
+          "Magnesium",
+          "Vitamin D",
+          "Potassium",
+          "Vitamin E"
+        ],
+        "kid_friendly": true
+      },
+      {
+        "day": "Wednesday",
+        "suggestion": "Tuna fish sandwich on whole wheat bread (Elsie's request — 2nd tuna day), with raw snap peas, an orange, and a cheese stick",
+        "fills_gaps": [
+          "Omega-3",
+          "Fiber",
+          "Vitamin C",
+          "Calcium",
+          "Vitamin D"
+        ],
+        "kid_friendly": true
+      },
+      {
+        "day": "Thursday",
+        "suggestion": "Chicken and black bean quesadilla on whole wheat tortilla with salsa, side of sliced bell peppers (raw — Elsie approved), and kiwi slices",
+        "fills_gaps": [
+          "Iron",
+          "Fiber",
+          "Vitamin C",
+          "Magnesium",
+          "Folate",
+          "Zinc"
+        ],
+        "kid_friendly": true
+      },
+      {
+        "day": "Friday",
+        "suggestion": "Egg salad sandwich on whole wheat with lettuce, side of edamame, and strawberries with a glass of fortified OJ",
+        "fills_gaps": [
+          "Vitamin C",
+          "Fiber",
+          "Vitamin D",
+          "Calcium",
+          "Magnesium",
+          "Folate"
+        ],
+        "kid_friendly": true
+      },
+      {
+        "day": "Saturday",
+        "suggestion": "Leftover soup or chili with whole grain crackers (make ahead from earlier in the week), raw veggie sticks with ranch, grapes, and a glass of milk",
+        "fills_gaps": [
+          "Fiber",
+          "Vitamin C",
+          "Vitamin D",
+          "Potassium",
+          "Magnesium"
+        ],
+        "kid_friendly": true
+      }
+    ],
+    "recommended_snacks": [
+      {
+        "snack": "Apple slices with almond or peanut butter",
+        "when": "Daily after-school snack, especially Monday through Friday",
+        "fills_gaps": [
+          "Fiber",
+          "Vitamin E",
+          "Magnesium"
+        ],
+        "kid_friendly": true
+      },
+      {
+        "snack": "Clementine or orange segments",
+        "when": "Daily — pack in lunch bags or serve as after-dinner snack (especially Sunday, Wednesday, Friday, Saturday when dinner vitamin C is lowest)",
+        "fills_gaps": [
+          "Vitamin C",
+          "Folate",
+          "Fiber"
+        ],
+        "kid_friendly": true
+      },
+      {
+        "snack": "Yogurt parfait with granola and berries (use vitamin D-fortified yogurt)",
+        "when": "3-4 times this week as an afternoon snack or breakfast supplement",
+        "fills_gaps": [
+          "Vitamin D",
+          "Calcium",
+          "Fiber",
+          "Vitamin C",
+          "Potassium"
+        ],
+        "kid_friendly": true
+      },
+      {
+        "snack": "Trail mix: almonds, pumpkin seeds, sunflower seeds, dark chocolate chips, and dried cranberries",
+        "when": "Keep a container available all week — great for grab-and-go before activities",
+        "fills_gaps": [
+          "Magnesium",
+          "Vitamin E",
+          "Zinc",
+          "Iron",
+          "Fiber"
+        ],
+        "kid_friendly": true
+      },
+      {
+        "snack": "Raw veggies (carrots, cucumber, snap peas) with hummus",
+        "when": "Serve alongside lunch or as pre-dinner snack 3-4 days",
+        "fills_gaps": [
+          "Fiber",
+          "Vitamin A",
+          "Vitamin K",
+          "Folate",
+          "Potassium"
+        ],
+        "kid_friendly": true
+      },
+      {
+        "snack": "Banana (whole or frozen banana 'nice cream' blended with a splash of milk)",
+        "when": "Tuesday, Wednesday, and Friday when dinner potassium is lowest",
+        "fills_gaps": [
+          "Potassium",
+          "Vitamin B6",
+          "Magnesium",
+          "Fiber"
+        ],
+        "kid_friendly": true
+      },
+      {
+        "snack": "Cheese and whole grain crackers",
+        "when": "Monday, Wednesday, and Friday when dinner calcium is lower",
+        "fills_gaps": [
+          "Calcium",
+          "Fiber",
+          "Vitamin B12"
+        ],
+        "kid_friendly": true
+      },
+      {
+        "snack": "Fortified milk or chocolate milk (especially after physical activity)",
+        "when": "Daily — serve at lunch or as post-activity recovery drink",
+        "fills_gaps": [
+          "Vitamin D",
+          "Calcium",
+          "Potassium",
+          "Vitamin B2"
+        ],
+        "kid_friendly": true
+      }
+    ],
+    "special_notes": {
+      "elsie_preferences": "Elsie dislikes cooked red peppers — all recommendations use raw vegetables or avoid peppers. Raw bell pepper strips (green, yellow, or orange) may be acceptable since her dislike is specifically for cooked peppers. Tuna fish is recommended for 2 lunches (Monday and Wednesday) since she loves it — this conveniently fills the week's omega-3 gap.",
+      "banana_treats_sunday": "The banana nut bread and banana pudding on Sunday provide a potassium and B6 boost. The walnuts in the banana nut bread are one of the few omega-3-containing nuts — a nutritional bonus. These treats are best served as afternoon snack rather than right after the heavy Sunday gravy dinner.",
+      "italian_chopped_salad": "The Italian chopped salad served throughout the week is this menu's nutritional safety net. It provides daily vitamin K (from romaine/greens), vitamin C (from tomatoes), fiber (from chickpeas and vegetables), calcium (from provolone), and folate (from greens and chickpeas). Serve it generously — it compensates for the pasta-heavy dinners.",
+      "sodium_watch": "Several meals this week are higher in sodium: Sunday gravy (cured meats), pepperoni pizza (Saturday), cheese-heavy dishes (Thursday, Saturday), and clam preparation (Friday). Balance with potassium-rich foods and plenty of water. For Dan and Laura, keeping sodium in check helps with blood pressure; for Elsie, establishing lower-sodium taste preferences now benefits her long-term.",
+      "february_vitamin_d": "In February in Northern Virginia (latitude ~39°N), the sun angle is too low for the skin to produce vitamin D from UV-B rays. This makes dietary vitamin D and supplementation especially important. The AAP recommends 600 IU daily for children over 1 year. A vitamin D3 supplement is the most reliable way to ensure adequacy during winter months.",
+      "iron_absorption_tip": "Friday's clam linguini is an iron bonanza, but iron absorption is maximized by pairing with vitamin C and inhibited by calcium (dairy). Consider serving the clams without cheese and adding a lemon squeeze and a side of vitamin-C-rich vegetables. Conversely, the cheese-heavy meals (Thursday, Saturday) naturally pair calcium with lower-iron dishes — an accidentally smart combination."
+    }
+  },
+  "stoic_data": {
+    "week_range": "February 22 – 28, 2026",
+    "theme": {
+      "title": "The Inner Fire",
+      "category": "Resilience",
+      "description": "Late winter tests our patience — the cold lingers, responsibilities pile up, and spring feels far away. The Stoics taught that we carry an inner fire: the power to choose calm over chaos, presence over worry, and warmth over withdrawal. This week, as snow gives way to thaw and stress gives way to celebration, we tend that flame together."
+    },
+    "anchor_quote": {
+      "text": "Men look for retreats for themselves, the country, the sea-shore, the hills; and you yourself, too, are peculiarly accustomed to feel the same want. Yet all this is very unlike a philosopher, when you may at any hour you please retreat into yourself.",
+      "source": "Marcus Aurelius",
+      "work": "Meditations",
+      "reference": "4.3"
+    },
+    "introduction": "Late winter tests our patience — the cold lingers, responsibilities pile up, and spring feels far away. The Stoics taught that we carry an inner fire: the power to choose calm over chaos, presence over worry, and warmth over withdrawal. This week, as snow gives way to thaw and stress gives way to celebration, we tend that flame together.",
+    "meditations": [
+      {
+        "day": "Sunday",
+        "title": "A Quiet Place Inside",
+        "reflection": "The snow is falling and the world slows down. Marcus Aurelius governed an entire empire, yet he found his greatest refuge not in a palace but in his own thoughts. Today, as snow blankets everything outside, try treating the stillness as a gift — a chance to settle into the quiet place you always carry with you. You don't need a vacation to find peace; you just need a pause.",
+        "prompt": "What does 'quiet' feel like to you? Where in your day could you create even two minutes of real stillness?",
+        "secondary_quote": {
+          "text": "Nowhere does a man retreat into more quiet or more privacy than into his own mind.",
+          "source": "Marcus Aurelius, Meditations 4.3"
+        }
+      },
+      {
+        "day": "Monday",
+        "title": "The Line You Draw",
+        "reflection": "School is cancelled, the on-call phone might ring at any moment, and the day's plans have dissolved. Epictetus — a man who was once enslaved — built his entire philosophy around one idea: know what you control and release what you don't. You can't control the snow, the school district, or when an incident fires. But you can control how you show up for your family in the moments between alerts. That's where your power lives today.",
+        "prompt": "Draw a line down a page. On the left, write what's stressing you today. On the right, write only the parts you can actually influence. How does the right side feel different?",
+        "secondary_quote": {
+          "text": "Some things are under our control, while others are not under our control. Under our control are conception, choice, desire, aversion, and, in a word, everything that is our own doing.",
+          "source": "Epictetus, Enchiridion 1"
+        }
+      },
+      {
+        "day": "Tuesday",
+        "title": "Through, Not Around",
+        "reflection": "The final stretch of on-call duty. Marcus Aurelius didn't write about obstacles from a place of comfort — he wrote from a military camp on the frozen Danube frontier, facing both enemies and plague. His insight was radical: the obstacle isn't blocking the path, it is the path. Every stressful incident you manage today is building the very resilience you'll rely on tomorrow. The fire inside grows stronger with each challenge it absorbs.",
+        "prompt": "Think of a hard thing you pushed through recently. What strength did you discover in yourself that you didn't know you had?",
+        "secondary_quote": {
+          "text": "The understanding adapts and alters every obstacle to action to suit its object, and a hindrance to a given duty becomes a help, an obstacle in a given path a furtherance.",
+          "source": "Marcus Aurelius, Meditations 5.20"
+        }
+      },
+      {
+        "day": "Wednesday",
+        "title": "The Thaw",
+        "reflection": "The temperature is climbing and the worst of the week's stress is behind you. How much of this week's worry actually came true? Seneca noticed two thousand years ago that we rehearse disasters that never arrive, and the suffering we invent often dwarfs the real thing. Today, as the world literally thaws, let your mind thaw too. Notice how much lighter you feel when you stop bracing for impact.",
+        "prompt": "What were you most worried about earlier this week? How much of that worry turned out to be unnecessary?",
+        "secondary_quote": {
+          "text": "There are more things likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.",
+          "source": "Seneca, Letters to Lucilius 13.4"
+        }
+      },
+      {
+        "day": "Thursday",
+        "title": "Tending the Fire",
+        "reflection": "With the hardest part of the week behind you, today is about what you feed your mind. Marcus Aurelius understood that we become what we think about — not once, but repeatedly. If you spend the day replaying Monday's stress, your soul takes on that color. If you choose to notice one kind word, one warm meal, one moment of laughter, your mind is dyed in those colors instead. The inner fire needs good fuel.",
+        "prompt": "If you could choose one 'color' for your thoughts today — calm, gratitude, curiosity, courage — which would you pick? What's one small thing you can do to practice it?",
+        "secondary_quote": {
+          "text": "As are your repeated imaginations so will your mind be, for the soul is dyed by its imaginations.",
+          "source": "Marcus Aurelius, Meditations 5.16"
+        }
+      },
+      {
+        "day": "Friday",
+        "title": "The Gift of Today",
+        "reflection": "Friday energy pulls us forward — into weekend plans, pizza party excitement, next week's to-do list. Seneca warns that living in the future is a quiet form of not living at all. The pizza party will be wonderful tomorrow, but today has its own unrepeatable gifts: a Friday afternoon, a week survived, the simple satisfaction of having made it through. Don't rush past this moment to get to the next one.",
+        "prompt": "What is one thing about today — just today — that you're grateful for? Say it out loud at dinner tonight.",
+        "secondary_quote": {
+          "text": "The greatest hindrance to living is expectancy, which depends upon the morrow and wastes to-day.",
+          "source": "Seneca, On the Shortness of Life 9"
+        }
+      },
+      {
+        "day": "Saturday",
+        "title": "The Shared Table",
+        "reflection": "The pizza is in the oven and the people you love are gathered close. Seneca — often remembered as stern — wrote tenderly about human connection. We are not built for isolation; we are built for shared tables and laughter and the beautiful mess of life together. This week tested your patience and resilience, but it ends here: warm food, warm company, and the inner fire you carried through it all.",
+        "prompt": "At the pizza party tonight, ask everyone at the table: 'What was the hardest part of your week, and what got you through it?'",
+        "secondary_quote": {
+          "text": "We are the parts of one great body. Nature produced us related to one another, since she created us from the same source and to the same end. She engendered in us mutual affection, and made us prone to friendships.",
+          "source": "Seneca, Letters to Lucilius 95.52"
+        }
+      }
+    ],
+    "family_exercise": {
+      "title": "The Fire Inside Drawing",
+      "description": "After dinner one evening, give everyone a piece of paper and ask them to draw what their 'inner fire' looks like today. Is it a roaring bonfire? A tiny candle? A glowing ember? Share your drawings and talk about what makes your fire grow bigger and what makes it shrink.",
+      "connection": "Marcus Aurelius compared the mind to a fire in Meditations 4.1: 'A bright fire masters what falls into it, whereby a little taper would have been put out, but a bright fire very quickly appropriates and devours what is heaped upon it, and leaps up higher out of those very obstacles.'"
+    },
+    "young_stoic": {
+      "title": "The Two Buckets",
+      "prompt": "Imagine you have two buckets. One is for things you CAN control (like being kind, trying hard, choosing to smile). The other is for things you CAN'T control (like snow days, what other people say, or when the Wi-Fi goes out). When something bugs you this week, ask yourself: which bucket does it go in? You might be surprised how much lighter the 'can't control' bucket feels once you set it down.",
+      "lesson": "Epictetus taught that most of our frustration comes from trying to control things in the wrong bucket. When you learn to let go of what you can't control, you have more energy for what you can."
+    },
+    "closing_thought": "A bright fire appropriates and devours what is heaped upon it, and leaps up higher out of those very obstacles. Be the fire this week, not the taper."
+  },
+  "principles_data": {
+    "thinker": "Naval Ravikant",
+    "week_range": "February 22 – 28, 2026",
+    "anchor_quote": {
+      "text": "A calm mind, a fit body, and a house full of love. These things cannot be bought — they must be earned.",
+      "source": "Naval Ravikant",
+      "work": "The Almanack of Naval Ravikant",
+      "reference": "Happiness section"
+    },
+    "daily_entries": [
+      {
+        "day": "Sunday",
+        "title": "The Quiet Cockpit",
+        "essay": "There's a protocol in aviation called the 'sterile cockpit rule.' Below 10,000 feet — during takeoff and landing, the moments of highest risk — pilots are forbidden from discussing anything unrelated to the flight. No small talk about last night's game. No chatter about scheduling. Just the work in front of them. Naval Ravikant frames the same idea for daily life: 'A busy calendar and a busy mind will destroy your ability to create anything great.' (The Almanack of Naval Ravikant, Happiness section). Most people fill silence with noise — checking their phone at a red light, turning on a podcast the instant they're alone, scrolling through news while waiting for pasta water to boil. The discomfort of a quiet mind feels like a problem to solve. Naval argues it's actually the solution. Here's the mechanism: when your mind is cluttered, you default to first-available thinking. You respond to the loudest input, not the most important one. Your kid asks a question and you answer from the surface because your attention is split three ways.\n\nA work decision lands in your lap and you choose the fastest path to make the discomfort stop. Charlie Munger put it differently but meant the same thing: 'A lot of people with high IQs are terrible investors because they've got terrible temperaments.' (Poor Charlie's Almanack, Talk 2). Temperament — the ability to stay calm in the noise — matters more than raw intelligence. The calm advantage isn't about being passive. It's about creating a few degrees of separation between stimulus and response. Viktor Frankl wrote about this space from inside a concentration camp; you can practice it while making Sunday gravy. When the pot boils over, when the toddler screams, when the PagerDuty alert fires — the person who pauses, even for two seconds, makes a fundamentally different decision than the person who reacts. This week's snow is a gift for this practice. The world slows down. Use it. Today, try one hour of sterile cockpit: no phone, no background noise, just the task in front of you and the people in the room.",
+        "source_quote": {
+          "text": "A busy calendar and a busy mind will destroy your ability to create anything great.",
+          "source": "Naval Ravikant, The Almanack of Naval Ravikant, Happiness section"
+        },
+        "reflection_prompt": "When was the last time you sat with genuine silence — no input, no screen, no music — for more than ten minutes? What came up?"
+      },
+      {
+        "day": "Monday",
+        "title": "The Panic Tax",
+        "essay": "The PagerDuty alert fires. Your heart rate spikes. Cortisol floods your system in about 300 milliseconds — far faster than your prefrontal cortex can engage. You're already reaching for your laptop before you've read the full message. This is the panic tax: the cost you pay in decision quality every time urgency hijacks your thinking. Naval Ravikant describes the trap precisely: 'In any situation in life, you only have three options. You can change it, you can accept it, or you can leave it. What is not a good option is to sit around wishing you would change it but not changing it, wishing you would leave it but not leaving it, and not accepting it.' (The Almanack of Naval Ravikant). Most people, when an alert fires or a crisis arrives, choose a secret fourth option: they panic and do something — anything — to discharge the anxiety. That something is rarely the right something. Consider what actually happens in an incident. The engineer who immediately starts restarting services feels productive. The engineer who spends ninety seconds reading logs before touching anything feels slow.\n\nBut the second engineer identifies the root cause on the first try, while the first engineer creates a cascade of new problems to troubleshoot. The panic tax isn't just the bad decision — it's the time spent cleaning up after it. Annie Duke, the former professional poker player, calls this 'resulting' — judging the quality of a decision by its outcome rather than its process (Thinking in Bets, Ch. 1). When you panic and get lucky, you reinforce the panic. When you stay calm and things go sideways anyway, you might wrongly abandon the calm approach. The skill isn't in the outcome. It's in recognizing that your first instinct under pressure is almost always your worst instinct. The practice for today is small: the next time something urgent lands in your lap — a work message, a kid's meltdown, a pot boiling over — count to five before you act. Not because the pause fixes the problem, but because it lets your prefrontal cortex catch up with your amygdala. Five seconds is the cheapest investment you'll ever make.",
+        "source_quote": {
+          "text": "In any situation in life, you only have three options. You can change it, you can accept it, or you can leave it.",
+          "source": "Naval Ravikant, The Almanack of Naval Ravikant"
+        },
+        "reflection_prompt": "Think about the last time you reacted immediately to a stressful situation. Would the outcome have been different if you'd waited ninety seconds before responding?"
+      },
+      {
+        "day": "Tuesday",
+        "title": "The Orientation Gap",
+        "essay": "Viktor Frankl wrote: 'Between stimulus and response there is a space. In that space is our freedom and our power to choose our response.' This is perhaps the most quoted line in all of self-help literature — and also the most misunderstood. People treat it as a platitude about patience. It's actually a technical description of how expertise works. John Boyd, the fighter pilot and military strategist, built an entire theory of conflict around this space. He called it the OODA loop: Observe, Orient, Decide, Act. The key insight — the one most people miss — is that 'Orient' is where the real work happens. Observation is passive. Decision and action are downstream. But orientation is where you bring your entire mental model to bear on what you've just seen. It's where experience, training, and calm intersect to produce clarity. Naval Ravikant arrives at the same place from a different direction: 'The classical virtues are all decision-making heuristics to make one optimize for the long term rather than for the short term.' (The Almanack of Naval Ravikant). Virtues like patience, courage, and temperance aren't moral decorations.\n\nThey're orientation tools. When you practice patience, you're training your OODA loop to hold in the Orient phase longer, resisting the pull toward premature action. Here's where it gets practical. Tonight you're off call. The snow is winding down. The instinct is to fill the evening with catch-up tasks — laundry, emails, prep for tomorrow. But the orientation gap says: before you decide how to spend your evening, spend two minutes observing how you actually feel. Tired? Restless? Relieved? The action you choose from an honest observation of your state will be fundamentally different from the action you choose out of habit or obligation. Charlie Munger practiced this religiously: 'It takes character to sit there with all that cash and to do nothing. I didn't get to where I am by going after mediocre opportunities.' (Poor Charlie's Almanack). The gap between stimulus and response isn't empty — it's where you do your best thinking. Most people rush through it because the gap feels uncomfortable. The calm advantage is learning to live there.",
+        "source_quote": {
+          "text": "Between stimulus and response there is a space. In that space is our freedom and our power to choose our response.",
+          "source": "Viktor Frankl, Man's Search for Meaning"
+        },
+        "reflection_prompt": "Today, before your next decision — even a small one like what to eat or what to do next — pause and ask: what am I actually feeling right now, and is that feeling driving this choice?"
+      },
+      {
+        "day": "Wednesday",
+        "title": "Pressure Is Contagious",
+        "essay": "Robert Greene devotes a full chapter of The Laws of Human Nature to what he calls 'emotional contagion' — the fact that emotions transfer between people as reliably as a virus. You walk into a room where someone is anxious, and within minutes your shoulders tighten. Your partner comes home stressed, and by dinner you're snapping at each other over nothing. Greene's insight, drawn from Ch. 11 of Laws of Human Nature: we underestimate how much of what we feel actually originates outside ourselves. This is where the calm advantage becomes a superpower in relationships. Naval Ravikant frames it as a choice about identity: 'Real happiness only comes as a side-effect of peace. Most of it is going to come from acceptance, not from changing your external environment.' If you wait for the people around you to be calm before you can be calm, you'll wait forever. Someone has to go first. Watch what happens at a family dinner when one person is agitated. The conversation fragments. People talk past each other. The eight-year-old picks up the tension and starts acting out — not because she's misbehaving, but because she's the most honest mirror in the room.\n\nNow watch what happens when the same family sits down and one person is genuinely relaxed — not performing relaxation, but actually settled. The conversation finds its rhythm. People listen longer before responding. The food tastes better because you're actually tasting it. There's a Navy SEAL concept called 'calm is contagious.' It comes from Rorke Denver, who observed that in combat, the leader's emotional state sets the ceiling for the entire team. If the leader panics, everyone panics. If the leader is steady, people can access their training. The same physics apply at a kitchen table. Tonight, Elsie comes home from science potions camp. She'll be excited, probably tired, possibly overwhelmed by the transition from structured activity to home. Your job isn't to match her energy or manage it. It's to be the steady thing in the room. Greene would say you're using emotional contagion strategically. Naval would say you're choosing peace. Either way, you're going first.",
+        "source_quote": {
+          "text": "We underestimate how much of what we feel actually originates outside ourselves.",
+          "source": "Robert Greene, The Laws of Human Nature, Ch. 11"
+        },
+        "reflection_prompt": "At dinner tonight, notice: whose emotional state is setting the temperature of the room? Is it yours?"
+      },
+      {
+        "day": "Thursday",
+        "title": "Decide Less, Decide Better",
+        "essay": "Annie Duke, former professional poker player, has a devastating insight about how most people make decisions. In Thinking in Bets (Ch. 3), she observes that we treat every decision as if it has equal weight. Should I take this job? What should I have for lunch? Should I check my email? The decision machinery fires the same way for all three, which means by the time you face the important decision, your machinery is exhausted from grinding through trivia. Naval Ravikant puts it more bluntly: 'If you want to make the wrong decision, ask everyone.' The instinct to crowdsource decisions — texting three friends, reading five reviews, asking your partner what they think about something only you can decide — is really an instinct to avoid the discomfort of choosing. Each consultation feels responsible but actually depletes the cognitive resources you need for the decision itself. Charlie Munger practiced aggressive decision elimination. His famous 'too hard' pile wasn't laziness — it was strategic. 'Recognize reality even when you don't like it — especially when you don't like it.' (Poor Charlie's Almanack). If a decision was too complex to evaluate clearly, he put it aside.\n\nNot every problem deserves your analytical attention. Some problems solve themselves if you leave them alone. Others aren't actually your problems. Here's what this looks like tonight. Dan and Elsie have the house to themselves — Laura's at her late meeting, and the menu is mac and cheese followed by berries and cream parfaits. The temptation is to optimize the evening: plan an activity, structure the time, make it 'special.' But the calm advantage says: reduce the decisions. The dinner is decided. The dessert is decided. Let the evening be simple. When you eliminate the small decisions, you create space for the one thing that actually matters — being present with your kid without an agenda. James Clear frames this as environment design (Atomic Habits, Ch. 6): the best way to make good decisions isn't to have more willpower — it's to design your life so you face fewer decisions in the first place. The meal plan, the prep-ahead list, the weekly rhythm — these aren't organizational tools. They're decision-elimination tools that preserve your calm for the moments that actually require it.",
+        "source_quote": {
+          "text": "If you want to make the wrong decision, ask everyone.",
+          "source": "Naval Ravikant, The Almanack of Naval Ravikant"
+        },
+        "reflection_prompt": "How many decisions did you make today that didn't actually need your attention? What would your day look like if you put half of them in the 'too hard' pile?"
+      },
+      {
+        "day": "Friday",
+        "title": "The Case for Useful Tension",
+        "essay": "Here's the contrarian take: Nassim Taleb argues that systems — including people — don't just tolerate stress; they require it. 'Wind extinguishes a candle and energizes fire. Likewise with randomness, uncertainty, chaos: you want to use them, not hide from them.' (Antifragile, Prologue). If the calm advantage is real, does that mean we should seek out maximum tranquility? Should we insulate ourselves from all pressure? Absolutely not. And this is where a lot of self-help advice goes wrong. The goal isn't to eliminate stress — it's to choose your stress wisely and meet it from a calm foundation. There's a meaningful difference between chaos that happens to you and challenge that you walk toward. The first depletes; the second strengthens. Taleb calls this antifragility: the property of getting stronger from disorder, rather than merely surviving it. Naval Ravikant resolves the apparent contradiction: 'A rational person can find peace by cultivating indifference to things outside their control.' The key word is 'outside.' You don't cultivate indifference to your craft, your relationships, or your health.\n\nYou cultivate indifference to other people's opinions, market fluctuations, and whether your flight is delayed. The calm advantage is selective. Consider today's schedule. Elsie has YAT from 4:30 to 6:00. You have a window to prep the linguini with clams — a dish that requires precise timing. The clams need to steam exactly right; the pasta needs to finish in the broth. This is useful tension. It demands your full attention, rewards your skill, and produces something beautiful. Compare this to the useless tension of checking Slack every four minutes to see if anyone needs something. Munger's framework for this was characteristically blunt: 'Knowing what you don't know is more useful than being brilliant.' (Poor Charlie's Almanack). The calm person isn't the person with zero stress. It's the person who knows which stress to engage and which to release. Tonight, engage with the clams. Release everything else.",
+        "source_quote": {
+          "text": "Wind extinguishes a candle and energizes fire. Likewise with randomness, uncertainty, chaos: you want to use them, not hide from them.",
+          "source": "Nassim Taleb, Antifragile, Prologue"
+        },
+        "reflection_prompt": "What's one source of tension in your life that's actually making you stronger? And one that's just noise you could release?"
+      },
+      {
+        "day": "Saturday",
+        "title": "The Host's Advantage",
+        "essay": "The best incident managers and the best dinner party hosts share a trait that looks effortless but isn't: they make everyone else feel calmer just by being in the room. Watch a great host work. They don't rush. They don't apologize for the food. They don't hover. They move through their own kitchen like they belong there, and that quiet confidence becomes the emotional scaffolding for the entire evening. Naval Ravikant captured why this works: 'A calm mind, a fit body, and a house full of love. These things cannot be bought — they must be earned.' (The Almanack of Naval Ravikant, Happiness section). The host's advantage isn't a performance. It's the accumulated result of preparation meeting presence. You made the dough three days ago. You prepped the toppings this afternoon. The buffalo chicken is sauced, the pepperoni is sliced, the mac and cheese pizza is ready to assemble. So when friends arrive, you're not scrambling — you're hosting. That difference changes everything. Robert Greene would recognize this as a form of strategic authority (The 48 Laws of Power, Law 4: Always Say Less Than Necessary).\n\nThe host who over-explains the menu, who narrates every step of the cooking process, who seeks validation for their choices, actually transfers their anxiety to the guests. The host who puts a drink in your hand, points you toward the music, and goes back to stretching dough — that person makes you feel like everything is going to be exactly right. Here's the integration point for the whole week. Sunday you practiced the quiet cockpit. Monday you learned the panic tax. Tuesday you found the orientation gap. Wednesday you understood emotional contagion. Thursday you eliminated unnecessary decisions. Friday you engaged with useful tension. Tonight, all of it converges. You're hosting friends, making three pizzas from dough you fermented for three days, with Jungle's Volcano on the speakers and your kid running between the kitchen and the living room. The calm advantage was never about sitting still. It was about doing hard things from a place of steadiness. The pizza doesn't care about your philosophy. But the people eating it can feel the difference between a host who's frantic and one who's free.",
+        "source_quote": {
+          "text": "A calm mind, a fit body, and a house full of love. These things cannot be bought — they must be earned.",
+          "source": "Naval Ravikant, The Almanack of Naval Ravikant, Happiness section"
+        },
+        "reflection_prompt": "Looking back at this week, which moment were you most calm? What made that possible — and how could you build more of those conditions into next week?"
+      }
+    ],
+    "theme": {
+      "title": "The Calm Advantage",
+      "category": "Strategy & Self-Mastery",
+      "description": "Pressure doesn't create character — it reveals it. This week, we explore how a deliberately calm mind becomes your most powerful tool for decision-making, whether you're managing a production incident at 2 AM or navigating a tense conversation at the dinner table. Drawing from Naval Ravikant's philosophy of equanimity, with supporting insights from Charlie Munger, Annie Duke, and Nassim Taleb."
+    }
+  },
+  "story_data": {
+    "title": "The Great Chicken Liver Caper",
+    "characters": [
+      "Momma Karen",
+      "Chelsie",
+      "Mr. Bugles"
+    ],
+    "life_lesson": "Sometimes the things we think we don't like can surprise us, but it's also perfectly okay to have your own preferences.",
+    "sections": [
+      {
+        "section_number": 1,
+        "title": "The Snow Day Standoff",
+        "text": "Fat snowflakes tumbled past the kitchen window like tiny parachuters who'd lost their maps. Chelsie pressed her nose against the glass and grinned. A snow day! No school, no homework, just a whole glorious day at Momma Karen's house.\n\n\"Lunchtime, my darling!\" Momma Karen sang from the kitchen, sliding a plate across the counter with the pride of a queen presenting a crown jewel.\n\nChelsie looked down. On the plate sat a mound of grayish-brown paste on toast.\n\n\"What... is that?\" Chelsie whispered.\n\n\"Chicken liver spread! My absolute favorite since I was your age. One bite and you'll be hooked.\"\n\nChelsie's sock puppet, Mr. Bugles — who lived permanently on her left hand and had googly eyes that rattled when he talked — leaned toward the plate and sniffed.\n\n\"Lady, that looks like something the cat already decided against,\" Mr. Bugles announced.\n\n\"MR. BUGLES!\" Chelsie gasped, trying not to laugh.\n\nMomma Karen put her hands on her hips. \"Fine. You don't like it plain? Just wait.\""
+      },
+      {
+        "section_number": 2,
+        "title": "Operation Whipped Cream",
+        "text": "Momma Karen disappeared into the kitchen like a scientist entering her laboratory. Pots clanged. The refrigerator opened and closed three times. Something whirred.\n\nShe returned holding the same toast — now topped with a magnificent mountain of whipped cream and a cherry on top.\n\n\"There!\" Momma Karen beamed. \"Everyone loves whipped cream.\"\n\nChelsie took the tiniest bite in the history of tiny bites. Her face scrunched. It tasted like a sundae had gotten into a fight with a barnyard and both of them lost.\n\n\"It's... creative,\" Chelsie said carefully.\n\nMr. Bugles had no such manners. \"ALERT! ALERT! My taste buds are filing a police report!\" He flopped dramatically onto the table. \"Someone call 9-1-1 and ask for the food crimes division!\"\n\nMomma Karen snatched the plate back. \"Okay, okay. Whipped cream was too simple. I need to think BIGGER.\"\n\nOutside, the snow was piling up past the first porch step. Chelsie watched Momma Karen march back to the kitchen with the determination of a general heading into battle, and she had a feeling this was far from over."
+      },
+      {
+        "section_number": 3,
+        "title": "The Liver Cake Disaster",
+        "text": "Twenty minutes later, the kitchen smelled like chocolate mixed with something... mysterious.\n\nMomma Karen emerged carrying an actual cake. It had chocolate frosting, rainbow sprinkles, and a little flag on top that read \"YUM\" in wobbly letters she'd written with icing.\n\n\"Chicken liver chocolate cake!\" she announced triumphantly. \"I mixed the spread right into the batter. You can't even taste it!\"\n\n\"If you can't even taste it,\" Mr. Bugles said, tilting his googly-eyed head, \"then why is it in there?\"\n\n\"Because!\" Momma Karen said, as if that explained everything.\n\nChelsie took a brave forkful. She chewed. She chewed some more. She tilted her head, then tilted it the other way.\n\n\"Well?\" Momma Karen leaned in.\n\n\"It tastes like a brownie that's keeping a secret,\" Chelsie said.\n\n\"A DARK secret,\" Mr. Bugles added. \"A secret that should stay buried. Under the snow. Forever.\"\n\nMomma Karen looked at the cake, then at the snow outside, then back at the cake. Her shoulders slumped just a little. Chelsie noticed, and something tugged at her heart."
+      },
+      {
+        "section_number": 4,
+        "title": "The Real Recipe",
+        "text": "Chelsie hopped off her stool and walked over to Momma Karen, Mr. Bugles swinging gently at her side.\n\n\"Momma Karen? How come you love chicken liver spread so much anyway?\"\n\nMomma Karen's eyes went soft and faraway. \"When I was a little girl — even littler than you — my mother used to make it on snow days. We'd sit by the window and eat it on warm toast and watch the world turn white. It tasted like being safe and warm and loved.\"\n\nThe kitchen got very quiet. Even Mr. Bugles didn't say a word, which might have been a world record.\n\nChelsie looked at the original plate of chicken liver toast, still sitting on the counter. No whipped cream. No cake. Just the plain, simple spread the way Momma Karen's mother used to make it.\n\n\"Can I try it one more time?\" Chelsie asked. \"The regular way?\"\n\nShe took a real bite this time — not a tiny, scared one, but an honest bite. She chewed slowly. It was salty, and savory, and kind of rich, and... actually not terrible?\n\n\"It's not my favorite,\" Chelsie said honestly. \"But I get why it's yours.\""
+      },
+      {
+        "section_number": 5,
+        "title": "Snow Day, Sorted",
+        "text": "Momma Karen's face broke into the biggest, warmest smile. She wrapped Chelsie in a hug that smelled like chocolate frosting and kitchen adventures.\n\n\"That,\" Momma Karen said, \"is the nicest thing anyone has ever said about my chicken liver spread.\"\n\n\"Don't get used to it,\" Mr. Bugles muttered. \"I'm still calling my lawyer.\"\n\nThey all laughed — the kind of deep, belly laugh that fogs up kitchen windows. Momma Karen made Chelsie a grilled cheese sandwich (because grandmothers always have a backup plan), and they sat together by the window, watching the snow pile higher and higher.\n\nMomma Karen ate her chicken liver toast. Chelsie ate her grilled cheese. And Mr. Bugles ate exactly nothing because he was a sock, but he had a lot of opinions about both.\n\n\"You know what, kid?\" Mr. Bugles said, watching the snowflakes fall. \"Today was weird. The food was suspicious. But this? Sitting here with your crazy grandmother watching the snow?\" He paused. \"This is pretty perfect.\"\n\nAnd for once, everybody — even Momma Karen — agreed with Mr. Bugles.\n\nThe End."
+      }
+    ]
+  },
+  "highlight": "Snow to Sunshine — Sunday gravy simmers while snow falls, and by Saturday friends gather for homemade pizza.",
+  "child_wisdom": {
+    "title": "The Great Chicken Liver Caper",
+    "story": "Fat snowflakes tumbled past the kitchen window like tiny parachuters who'd lost their maps. Chelsie pressed her nose against the glass and grinned. A snow day! No school, no homework, just a whole glorious day at Momma Karen's house.\n\n\"Lunchtime, my darling!\" Momma Karen sang from the kitchen, sliding a plate across the counter with the pride of a queen presenting a crown jewel.\n\nChelsie looked down. On the plate sat a mound of grayish-brown paste on toast.\n\n\"What... is that?\" Chelsie whispered.\n\n\"Chicken liver spread! My absolute favorite since I was your age. One bite and you'll be hooked.\"\n\nChelsie's sock puppet, Mr. Bugles — who lived permanently on her left hand and had googly eyes that rattled when he talked — leaned toward the plate and sniffed.\n\n\"Lady, that looks like something the cat already decided against,\" Mr. Bugles announced.\n\n\"MR. BUGLES!\" Chelsie gasped, trying not to laugh.\n\nMomma Karen put her hands on her hips. \"Fine. You don't like it plain? Just wait.\"\n\nMomma Karen disappeared into the kitchen like a scientist entering her laboratory. Pots clanged. The refrigerator opened and closed three times. Something whirred.\n\nShe returned holding the same toast — now topped with a magnificent mountain of whipped cream and a cherry on top.\n\n\"There!\" Momma Karen beamed. \"Everyone loves whipped cream.\"\n\nChelsie took the tiniest bite in the history of tiny bites. Her face scrunched. It tasted like a sundae had gotten into a fight with a barnyard and both of them lost.\n\n\"It's... creative,\" Chelsie said carefully.\n\nMr. Bugles had no such manners. \"ALERT! ALERT! My taste buds are filing a police report!\" He flopped dramatically onto the table. \"Someone call 9-1-1 and ask for the food crimes division!\"\n\nMomma Karen snatched the plate back. \"Okay, okay. Whipped cream was too simple. I need to think BIGGER.\"\n\nOutside, the snow was piling up past the first porch step. Chelsie watched Momma Karen march back to the kitchen with the determination of a general heading into battle, and she had a feeling this was far from over.\n\nTwenty minutes later, the kitchen smelled like chocolate mixed with something... mysterious.\n\nMomma Karen emerged carrying an actual cake. It had chocolate frosting, rainbow sprinkles, and a little flag on top that read \"YUM\" in wobbly letters she'd written with icing.\n\n\"Chicken liver chocolate cake!\" she announced triumphantly. \"I mixed the spread right into the batter. You can't even taste it!\"\n\n\"If you can't even taste it,\" Mr. Bugles said, tilting his googly-eyed head, \"then why is it in there?\"\n\n\"Because!\" Momma Karen said, as if that explained everything.\n\nChelsie took a brave forkful. She chewed. She chewed some more. She tilted her head, then tilted it the other way.\n\n\"Well?\" Momma Karen leaned in.\n\n\"It tastes like a brownie that's keeping a secret,\" Chelsie said.\n\n\"A DARK secret,\" Mr. Bugles added. \"A secret that should stay buried. Under the snow. Forever.\"\n\nMomma Karen looked at the cake, then at the snow outside, then back at the cake. Her shoulders slumped just a little. Chelsie noticed, and something tugged at her heart.\n\nChelsie hopped off her stool and walked over to Momma Karen, Mr. Bugles swinging gently at her side.\n\n\"Momma Karen? How come you love chicken liver spread so much anyway?\"\n\nMomma Karen's eyes went soft and faraway. \"When I was a little girl — even littler than you — my mother used to make it on snow days. We'd sit by the window and eat it on warm toast and watch the world turn white. It tasted like being safe and warm and loved.\"\n\nThe kitchen got very quiet. Even Mr. Bugles didn't say a word, which might have been a world record.\n\nChelsie looked at the original plate of chicken liver toast, still sitting on the counter. No whipped cream. No cake. Just the plain, simple spread the way Momma Karen's mother used to make it.\n\n\"Can I try it one more time?\" Chelsie asked. \"The regular way?\"\n\nShe took a real bite this time — not a tiny, scared one, but an honest bite. She chewed slowly. It was salty, and savory, and kind of rich, and... actually not terrible?\n\n\"It's not my favorite,\" Chelsie said honestly. \"But I get why it's yours.\"\n\nMomma Karen's face broke into the biggest, warmest smile. She wrapped Chelsie in a hug that smelled like chocolate frosting and kitchen adventures.\n\n\"That,\" Momma Karen said, \"is the nicest thing anyone has ever said about my chicken liver spread.\"\n\n\"Don't get used to it,\" Mr. Bugles muttered. \"I'm still calling my lawyer.\"\n\nThey all laughed — the kind of deep, belly laugh that fogs up kitchen windows. Momma Karen made Chelsie a grilled cheese sandwich (because grandmothers always have a backup plan), and they sat together by the window, watching the snow pile higher and higher.\n\nMomma Karen ate her chicken liver toast. Chelsie ate her grilled cheese. And Mr. Bugles ate exactly nothing because he was a sock, but he had a lot of opinions about both.\n\n\"You know what, kid?\" Mr. Bugles said, watching the snowflakes fall. \"Today was weird. The food was suspicious. But this? Sitting here with your crazy grandmother watching the snow?\" He paused. \"This is pretty perfect.\"\n\nAnd for once, everybody — even Momma Karen — agreed with Mr. Bugles.\n\nThe End.",
+    "characters": [
+      "Momma Karen",
+      "Chelsie",
+      "Mr. Bugles"
+    ],
+    "life_lesson": "Sometimes the things we think we don't like can surprise us, but it's also perfectly okay to have your own preferences.",
+    "discussion_prompt": "What food would you never want to try? What if someone added your favorite thing to it?"
+  },
+  "newsletter_data": null,
+  "lunches": [
+    {
+      "name": "Breakfast Casserole",
+      "days": "Monday through Friday lunches",
+      "description": "Egg-based breakfast casserole with sausage, potatoes, and red peppers from the freezer. Make Sunday, portion for the week.",
+      "ingredients": [
+        "eggs",
+        "sausage (freezer)",
+        "potatoes (freezer)",
+        "red peppers (freezer)",
+        "cheese",
+        "milk"
+      ],
+      "nutrition_fills": [
+        "Protein",
+        "Vitamin C (red peppers)",
+        "Potassium (potatoes)",
+        "B12 (eggs + sausage)",
+        "Iron"
+      ],
+      "note": "Elsie dislikes cooked red peppers — she may need the peppers picked out or a pepper-free corner of the casserole."
+    }
+  ]
+}

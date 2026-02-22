@@ -238,6 +238,22 @@
     color: var(--muted);
     margin-bottom: 3pt;
   }
+  .page-day .elsie-note {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    font-style: italic;
+    color: var(--ink);
+    background: #fef9e7;
+    border-left: 2pt solid #f0c040;
+    padding: 3pt 6pt;
+    margin: 4pt 0 3pt;
+  }
+  .page-cover .elsie-nogo {
+    font-family: var(--narrative);
+    font-size: 8.5pt;
+    color: var(--muted);
+    margin-top: 10pt;
+  }
   .page-day .album-block {
     padding: 4pt 0 2pt;
     margin: 2pt auto 2pt;
@@ -419,6 +435,248 @@
     line-height: 1.4;
     color: var(--muted);
     margin-top: 2pt;
+  }
+
+  /* ---- Principles page (page 2 of spread) ---- */
+  .page-day-principles .principles-block {
+    padding: 0;
+  }
+  .principles-theme-banner {
+    margin-bottom: 6pt;
+    padding-bottom: 4pt;
+    border-bottom: 0.5pt solid var(--rule);
+  }
+  .principles-category {
+    font-family: var(--anchor);
+    font-size: 5.5pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    color: var(--ochre);
+    font-weight: 600;
+  }
+  .principles-theme-title {
+    font-family: var(--hero);
+    font-size: 11pt;
+    color: var(--midnight);
+    margin: 2pt 0 1pt;
+  }
+  .principles-theme-desc {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    font-style: italic;
+    color: var(--muted);
+  }
+  .principles-anchor-quote {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--ink);
+    border-left: 2pt solid var(--ochre);
+    padding: 3pt 8pt;
+    margin: 4pt 0 6pt;
+  }
+  .principles-anchor-quote cite {
+    display: block;
+    font-size: 6.5pt;
+    color: var(--muted);
+    margin-top: 2pt;
+    font-style: normal;
+  }
+  .principles-entry-title {
+    font-family: var(--hero);
+    font-size: 10pt;
+    color: var(--midnight);
+    margin: 4pt 0 3pt;
+  }
+  .principles-essay {
+    font-family: var(--narrative);
+    font-size: 8pt;
+    line-height: 1.65;
+    color: var(--ink);
+  }
+  .principles-essay p {
+    margin: 0 0 6pt 0;
+  }
+  .principles-essay p:last-child {
+    margin-bottom: 0;
+  }
+  .principles-quote {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--ink);
+    border-left: 1.5pt solid var(--rule);
+    padding: 2pt 6pt;
+    margin: 4pt 0;
+  }
+  .principles-quote cite {
+    display: block;
+    font-size: 6pt;
+    color: var(--muted);
+    margin-top: 1pt;
+    font-style: normal;
+  }
+  .principles-reflect {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    line-height: 1.5;
+    color: var(--ink);
+    margin-top: 4pt;
+    padding: 3pt 6pt;
+    background: #f7f5f0;
+  }
+  .principles-closing {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    font-style: italic;
+    color: var(--muted);
+    margin-top: 6pt;
+    text-align: center;
+  }
+  .principles-empty .empty-note {
+    font-family: var(--narrative);
+    font-size: 8pt;
+    color: var(--muted);
+    font-style: italic;
+    text-align: center;
+    margin-top: 40pt;
+  }
+
+  /* ---- Recipe page (page 3 of spread) ---- */
+  .recipe-card-block {
+    padding: 0;
+  }
+  .recipe-source-line {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    color: var(--muted);
+    margin-bottom: 4pt;
+  }
+  .recipe-source-line a {
+    color: var(--muted);
+    text-decoration: none;
+    border-bottom: 0.5pt solid var(--rule);
+  }
+  .nonna-block {
+    margin-bottom: 6pt;
+  }
+  .nonna-block h4 {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    color: var(--sage);
+    font-weight: 600;
+    margin-bottom: 2pt;
+  }
+  .nonna-quote {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    font-style: italic;
+    line-height: 1.6;
+    color: var(--ink);
+    border-left: 2pt solid var(--sage);
+    padding: 3pt 8pt;
+    margin: 0;
+  }
+  .engineer-block {
+    margin-top: 4pt;
+  }
+  .engineer-block h4 {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    color: var(--ink);
+    font-weight: 600;
+    margin-bottom: 3pt;
+  }
+  .preheat-line {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 3pt;
+  }
+  .engineer-group {
+    margin-bottom: 3pt;
+    padding-left: 6pt;
+    border-left: 1.5pt solid var(--rule);
+  }
+  .group-header {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--ochre);
+    margin-bottom: 1pt;
+  }
+  .group-ingredients {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    line-height: 1.45;
+    margin: 0;
+    padding-left: 10pt;
+    list-style: none;
+  }
+  .group-ingredients li { margin-bottom: 0.5pt; }
+  .group-ingredients li::before { content: "· "; color: var(--muted); }
+  .group-ingredients em { font-size: 6.5pt; color: var(--muted); }
+  .final-assembly {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    line-height: 1.5;
+    color: var(--ink);
+    margin-top: 4pt;
+    padding: 3pt 6pt;
+    background: #f7f5f0;
+  }
+
+  /* ---- Variations (page 4, top) ---- */
+  .variations-block {
+    margin-bottom: 6pt;
+  }
+  .variations-block h4 {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    color: var(--ink);
+    font-weight: 600;
+    margin-bottom: 2pt;
+  }
+  .variation-item {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    line-height: 1.5;
+    margin-bottom: 1pt;
+  }
+  .variation-link {
+    font-size: 6pt;
+    color: var(--muted);
+    text-decoration: none;
+  }
+  .album-story {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    line-height: 1.5;
+    color: var(--ink);
+    margin-top: 3pt;
+  }
+  .spotify-link {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    color: var(--sage);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 3pt;
   }
 
   /* Calendar engagements — hanging indent gutter */

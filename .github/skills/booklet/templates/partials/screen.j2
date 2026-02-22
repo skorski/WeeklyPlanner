@@ -1,10 +1,13 @@
 
 <div class="screen-container">
   <div class="cover-screen">
-    <h1>Weekly Planner</h1>
+    <h1>The Corbiani Almanac</h1>
     <div class="week-range">{{ week_range }}</div>
     {% if highlight %}
     <div class="highlight">{{ highlight }}</div>
+    {% endif %}
+    {% if elsie_no_list %}
+    <div class="elsie-nogo">🍽️ Elsie's No-Go List: {{ elsie_no_list | join(", ") }}</div>
     {% endif %}
   </div>
 
@@ -47,6 +50,7 @@
     {% if day.dinner_key_ingredients %}<p class="ingredients">{{ day.dinner_key_ingredients | join(", ") }}</p>{% endif %}
     {% if day.dinner_source_url %}<a href="{{ day.dinner_source_url }}" target="_blank" rel="noopener" class="recipe-link">Recipe — {{ day.dinner_source_name | default("View recipe") }}</a>{% endif %}
     {% if day.dinner_notes %}<p class="notes">{{ day.dinner_notes }}</p>{% endif %}
+    {% if day.elsie_note %}<div class="elsie-note">🧒 {{ day.elsie_note }}</div>{% endif %}
     {% endif %}
 
     {% if day.dinner_elevation_tips %}
@@ -68,6 +72,38 @@
     </div>
     {% endif %}
 
+    {% if principles_data and principles_data.daily_entries %}
+    {% set principle = principles_data.daily_entries[loop.index0] %}
+    {% if principle %}
+    <div class="principles-card">
+      {% if loop.index0 == 0 and principles_data.theme %}
+      <div class="principles-theme-header">
+        <span class="principles-category-tag">{{ principles_data.theme.category | default("") }}</span>
+        <h4>{{ principles_data.theme.title }}</h4>
+        {% if principles_data.theme.description %}<p>{{ principles_data.theme.description }}</p>{% endif %}
+      </div>
+      {% if principles_data.anchor_quote %}
+      <blockquote class="principles-anchor">
+        "{{ principles_data.anchor_quote.text }}"
+        <cite>— {{ principles_data.anchor_quote.source }}{% if principles_data.anchor_quote.work %}, <em>{{ principles_data.anchor_quote.work }}</em>{% endif %}</cite>
+      </blockquote>
+      {% endif %}
+      {% endif %}
+      <h4 class="principle-title">{{ principle.title }}</h4>
+      <div class="principle-essay">{% for para in principle.essay.split('\n\n') %}<p>{{ para }}</p>{% endfor %}</div>
+      {% if principle.source_quote %}
+      <blockquote class="principle-quote">
+        "{{ principle.source_quote.text }}"
+        <cite>— {{ principle.source_quote.source }}</cite>
+      </blockquote>
+      {% endif %}
+      {% if principle.reflection_prompt %}
+      <div class="principle-reflect"><strong>Reflect:</strong> {{ principle.reflection_prompt }}</div>
+      {% endif %}
+    </div>
+    {% endif %}
+    {% endif %}
+
     {% if day.prep_detail %}
     <details class="prep-detail">
       <summary>Full Prep Instructions</summary>
@@ -85,6 +121,41 @@
       {% endif %}
       {% if day.prep_detail.make_ahead %}
       <div class="prep-make-ahead"><strong>Make ahead</strong> {{ day.prep_detail.make_ahead }}</div>
+      {% endif %}
+    </details>
+    {% endif %}
+
+    {% if day.recipe_card %}
+    <details class="recipe-card-detail">
+      <summary>Recipe Card</summary>
+      {% if day.recipe_card.nonna_says %}
+      <div class="nonna-section">
+        <h4>Mamma Karen Says</h4>
+        <blockquote>{{ day.recipe_card.nonna_says }}</blockquote>
+      </div>
+      {% endif %}
+      {% if day.recipe_card.engineer_table %}
+      <div class="engineer-section">
+        <h4>How It Comes Together</h4>
+        {% if day.recipe_card.engineer_table.preheat %}<p class="preheat">Preheat oven to {{ day.recipe_card.engineer_table.preheat }}</p>{% endif %}
+        {% for group in day.recipe_card.engineer_table.groups %}
+        <div class="eng-group">
+          <div class="eng-group-label">{% if loop.index == 1 %}A{% elif loop.index == 2 %}B{% elif loop.index == 3 %}C{% elif loop.index == 4 %}D{% else %}{{ loop.index }}{% endif %}{% if group.merge_action %} · {{ group.merge_action }}{% endif %}</div>
+          <ul>{% for ing in group.ingredients %}<li>{{ ing.qty }} {{ ing.item }}{% if ing.prep %} <em>({{ ing.prep }})</em>{% endif %}</li>{% endfor %}</ul>
+        </div>
+        {% endfor %}
+        {% if day.recipe_card.engineer_table.final_steps %}
+        <div class="eng-final"><strong>Final:</strong> {{ day.recipe_card.engineer_table.final_steps | join(" → ") }}</div>
+        {% endif %}
+      </div>
+      {% endif %}
+      {% if day.recipe_card.variations %}
+      <div class="variations-section">
+        <h4>Variations</h4>
+        {% for v in day.recipe_card.variations %}
+        <div class="variation"><strong>{{ v.name }}</strong> — {{ v.twist }}{% if v.source_url %} <a href="{{ v.source_url }}">(recipe)</a>{% endif %}</div>
+        {% endfor %}
+      </div>
       {% endif %}
     </details>
     {% endif %}
@@ -209,6 +280,31 @@
     <div class="reflection-box">
       {{ parenting_data.parent_reflection }}
     </div>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if principles_data %}
+  <h2 class="section-title">Principles for Living</h2>
+  <div class="principles-section">
+    {% if principles_data.theme %}
+    <div class="principles-theme-header">
+      <span class="principles-category-tag">{{ principles_data.theme.category | default("") }}</span>
+      <h4>{{ principles_data.theme.title }}</h4>
+      {% if principles_data.theme.description %}<p>{{ principles_data.theme.description }}</p>{% endif %}
+    </div>
+    {% endif %}
+    {% if principles_data.anchor_quote %}
+    <blockquote class="principles-anchor">
+      "{{ principles_data.anchor_quote.text }}"
+      <cite>— {{ principles_data.anchor_quote.source }}{% if principles_data.anchor_quote.work %}, <em>{{ principles_data.anchor_quote.work }}</em>{% endif %}</cite>
+    </blockquote>
+    {% endif %}
+    {% if principles_data.introduction %}
+    <div class="principles-intro">{{ principles_data.introduction }}</div>
+    {% endif %}
+    {% if principles_data.closing_line %}
+    <div class="principles-closing-screen">{{ principles_data.closing_line }}</div>
     {% endif %}
   </div>
   {% endif %}

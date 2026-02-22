@@ -1,0 +1,41 @@
+# {{ theme.title }}
+
+*{{ theme.category }}* · {{ week_range }}
+
+---
+
+> "{{ anchor_quote.text }}"
+>
+> — {{ anchor_quote.source }}{% if anchor_quote.work %}, *{{ anchor_quote.work }}*{% endif %}{% if anchor_quote.reference %} {{ anchor_quote.reference }}{% endif %}
+
+---
+
+## The Week's Principle
+
+{{ introduction }}
+
+---
+
+## Daily Readings
+
+{% for entry in daily_entries %}
+### {{ entry.day }} — {{ entry.title }}
+
+{{ entry.essay }}
+
+{% if entry.source_quote %}
+> "{{ entry.source_quote.text }}"
+> — {{ entry.source_quote.source }}
+{% endif %}
+
+{% if entry.reflection_prompt %}**Reflect:** {{ entry.reflection_prompt }}{% endif %}
+
+{% if not loop.last %}---{% endif %}
+
+{% endfor %}
+
+---
+
+## The Week in One Line
+
+*{{ closing_line }}*
