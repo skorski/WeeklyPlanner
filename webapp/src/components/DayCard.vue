@@ -41,6 +41,36 @@
       </div>
     </div>
 
+    <!-- Recipe Card -->
+    <details v-if="day.recipe_card" class="recipe-card-detail">
+      <summary>Mamma Karen Says</summary>
+      <blockquote v-if="day.recipe_card.nonna_says" class="nonna-quote">{{ day.recipe_card.nonna_says }}</blockquote>
+
+      <div v-if="day.recipe_card.engineer_table" class="engineer-table">
+        <h5>How It Comes Together</h5>
+        <div v-if="day.recipe_card.engineer_table.preheat" class="preheat">Preheat: {{ day.recipe_card.engineer_table.preheat }}</div>
+        <div v-for="(group, gi) in day.recipe_card.engineer_table.groups" :key="gi" class="ingredient-group">
+          <ul class="ingredient-list">
+            <li v-for="ing in group.ingredients" :key="ing.item">
+              <span class="ing-qty">{{ ing.qty }}</span> {{ ing.item }}<span v-if="ing.prep" class="ing-prep"> ({{ ing.prep }})</span>
+            </li>
+          </ul>
+          <div v-if="group.merge_action" class="merge-action">→ {{ group.merge_action }}</div>
+        </div>
+        <div v-if="day.recipe_card.engineer_table.final_steps?.length" class="final-steps">
+          <strong>Then:</strong> {{ day.recipe_card.engineer_table.final_steps.join(' → ') }}
+        </div>
+      </div>
+
+      <div v-if="day.recipe_card.variations?.length" class="variations">
+        <h5>Variations</h5>
+        <div v-for="v in day.recipe_card.variations" :key="v.name" class="variation">
+          <strong>{{ v.name }}</strong> — {{ v.twist }}
+          <a v-if="v.source_url" :href="v.source_url" target="_blank" class="recipe-link">Source →</a>
+        </div>
+      </div>
+    </details>
+
     <!-- Conversation Starter -->
     <div v-if="day.dinner_question" class="conversation-block">
       <h4>At the Table</h4>

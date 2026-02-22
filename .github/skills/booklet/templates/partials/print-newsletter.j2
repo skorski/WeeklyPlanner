@@ -69,18 +69,50 @@
 {% endfor %}
 {% endif %}
 
+{# --- BEDTIME STORY (multi-page) --- #}
+{% if child_wisdom %}
+<div class="page page-divider">
+  <div class="divider-title">Bedtime Story</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">{{ child_wisdom.title }}</div>
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+
+{% set paragraphs = child_wisdom.story.split('\n\n') %}
+{% set ns_story = namespace(page_paras=[]) %}
+{% for para in paragraphs %}
+{% if para.strip() %}
+{% set ns_story.page_paras = ns_story.page_paras + [para.strip()] %}
+{% endif %}
+{% endfor %}
+
+{# Render story pages — ~15 short paragraphs per page for A5 at 9pt #}
+{% set per_page = 15 %}
+{% set total_pages = (ns_story.page_paras | length + per_page - 1) // per_page %}
+{% for page_num in range(total_pages) %}
+{% set start = page_num * per_page %}
+{% set end = [start + per_page, ns_story.page_paras | length] | min %}
+<div class="page page-story">
+  <div class="page-header">Bedtime Story</div>
+  {% if page_num == 0 %}
+  <h3 class="story-title">{{ child_wisdom.title }}</h3>
+  {% endif %}
+  <div class="story-text">
+    {% for i in range(start, end) %}
+    <p>{{ ns_story.page_paras[i] }}</p>
+    {% endfor %}
+  </div>
+  {% if page_num == total_pages - 1 and child_wisdom.discussion_prompt %}
+  <div class="story-prompt">{{ child_wisdom.discussion_prompt }}</div>
+  {% endif %}
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+{% endfor %}
+{% endif %}
+
 {# --- BACK COVER --- #}
 <div class="page page-back">
   <div class="back-inner">
-  {% if child_wisdom %}
-  <div class="story-section">
-    <h3 class="story-title">{{ child_wisdom.title }}</h3>
-    <div class="story-text">{{ child_wisdom.story | replace('\n\n', '</p><p>') | replace('\n', ' ') }}</div>
-    {% if child_wisdom.discussion_prompt %}
-    <div class="story-prompt">{{ child_wisdom.discussion_prompt }}</div>
-    {% endif %}
-  </div>
-  {% endif %}
   <div class="back-divider"></div>
   <div class="colophon">{{ week_range }} · Generated {{ generated_at }}</div>
   </div>
