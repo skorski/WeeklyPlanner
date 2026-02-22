@@ -10,7 +10,7 @@
 |-----|---|---------|--------|--------|-------|
 | **Sun 02/22** | ❄️ | Snow, 37F/29F | Snow day - family cooking together; Dan on call as IM | Sunday Gravy and Pasta | Thee Sacred Souls – Thee Sacred Souls |
 | **Mon 02/23** | ❄️ | Snow, 36F/27F | School likely cancelled; Dan on call (AM); Phone screen 5-6 PM | Shepherds Pie | Curtis Harding – If Words Were Flowers |
-| **Tue 02/24** | ☁️ | Overcast, 35F/21F | Dan off-call afternoon; Swim lessons evening | Babo Pasta with Brown Butter and Sage | Tom Misch – Geography |
+| **Tue 02/24** | ☁️ | Overcast, 35F/21F | Dan off-call afternoon; Swim lessons evening | Babo Pasta with Alfredo Sauce | Tom Misch – Geography |
 | **Wed 02/25** | 🌧️ | Drizzle, 52F/32F | Elsie science potions camp 3:45-4:45 | Niku Udon | Tatsuro Yamashita – For You |
 | **Thu 02/26** | 🌧️ | Rain, 43F/34F | Elsie dance camp 3:45-4:45; Dan picks up Elsie 4:30; Laura late meeting; Dan + Elsie evening | Mac and Cheese + Berries and Cream Parfaits | Vulfpeck – The Joy of Music, The Job of Real Estate |
 | **Fri 02/27** | 🌧️ | Drizzle, 44F/32F | Elsie YAT 4:30-6:00 | Linguini with Clams | Steely Dan – Aja |
@@ -217,14 +217,14 @@ Atlanta soul-rocker blending classic soul with garage rock grit.
 - Dan off-call afternoon
 - Swim lessons evening
 
-#### Dinner: Babo Pasta with Brown Butter and Sage
+#### Dinner: Babo Pasta with Alfredo Sauce
 
 | | |
 |---|---|
 | **Cuisine** | Italian |
-| **Key Ingredients** | spinach, egg yolks, 00 flour, butter, sage, pine nuts, Parmigiano-Reggiano, lemon |
+| **Key Ingredients** | babo pasta (spinach egg-yolk), heavy cream, butter, parmesan, garlic, nutmeg |
 | **Source** | [The Clever Carrot](https://www.theclevercarrot.com/2022/05/fresh-spinach-pasta-dough/) |
-Homemade spinach egg-yolk pasta in brown butter with crispy sage, pine nuts, and lemon zest.
+Homemade spinach egg-yolk pasta tossed in a creamy Alfredo sauce with parmesan and a touch of nutmeg.
 
 *Dan off-call Tuesday afternoon. Swim lessons evening.*
 
@@ -234,7 +234,7 @@ Homemade spinach egg-yolk pasta in brown butter with crispy sage, pine nuts, and
 
 ##### Recipe Directions
 
-> **Mamma Karen Says:** This one takes patience and you're going to give it the respect it deserves. Blanch that spinach, thirty seconds, into ice water, and squeeze every single drop out. I mean dry. Chop it fine. Make a mountain of flour on your board, push a well in the middle. Eggs, yolks, spinach, pour it in. Fork first, then your hands. Knead it till it's smooth as silk, ten minutes at least. Wrap it up, let it rest forty-five minutes. For the sauce, butter in a pan on medium heat. Watch it. When it smells like hazelnuts and turns golden, that's when the sage goes in. They'll crackle. Toss the pasta, good cheese, and eat it while it's hot.
+> **Mamma Karen Says:** This one is simple and you are not going to mess it up. Blanch your spinach, thirty seconds, ice water, squeeze every drop out. Chop it fine. Make a mountain of flour on your board, push a well in the middle. Eggs, yolks, spinach, pour it in. Fork first, then your hands. Knead it till it is smooth as silk, ten minutes at least. For the sauce, melt butter with a clove of garlic, low heat. Pull the garlic when it is golden. Pour in the cream, let it barely simmer. Toss the pasta in with a good handful of parmesan and a scrape of nutmeg. Add pasta water if it needs loosening. Eat it while it is hot.
 
 
 **How It Comes Together**
@@ -250,20 +250,23 @@ Homemade spinach egg-yolk pasta in brown butter with crispy sage, pine nuts, and
 - 2 large whole eggs
 - pinch kosher salt
 
-**Step 3 — cook butter to golden brown, add sage till crackly**
-- 6 tbsp unsalted butter
-- 8-10 fresh sage leaves
+**Step 3 — melt butter with garlic (remove garlic), add cream, simmer 2 min, stir in parmesan off heat**
+- 3 Tbs butter
+- 1 clove garlic *(smashed)*
+- 1 cup heavy cream
+- 1 cup parmesan *(finely grated)*
+- pinch nutmeg *(freshly grated)*
 
-**Final:** rest dough 45 min wrapped → roll thin, cut to shape → boil pasta 2-3 min → toss in brown butter sage → finish with Parmigiano
+**Final:** toss pasta in Alfredo sauce → add pasta water to loosen → plate and finish with parmesan
 
 **Variations:**
-- **Pumpkin Sage Brown Butter Ravioli** — Fill fresh pasta with roasted pumpkin purée and ricotta, serve with the same brown butter sage sauce ([recipe](https://www.bonappetit.com/recipe/pumpkin-ravioli-with-sage-brown-butter))
-- **Beet Pasta** — Replace spinach with roasted beet purée for a stunning magenta pasta with the same egg-yolk dough ([recipe](https://www.theclevercarrot.com/2020/03/beet-pasta/))
-- **Lemon Ricotta Pasta** — Skip the brown butter, toss green pasta with fresh ricotta, lemon zest, and cracked black pepper ([recipe](https://www.bonappetit.com/recipe/lemony-ricotta-pasta-with-spinach))
+- **Fettuccine Alfredo Classico** — Use fettuccine instead of spinach pasta for the Roman original ([recipe](https://www.seriouseats.com/fettuccine-alfredo-recipe))
+- **Alfredo with Roasted Garlic** — Swap raw garlic for a full roasted head mashed into the cream sauce ([recipe](https://www.bonappetit.com/recipe/roasted-garlic-alfredo))
+- **Lemon Cream Pasta** — Add lemon zest and juice to the Alfredo for brightness, finish with fresh basil ([recipe](https://www.loveandlemons.com/lemon-pasta/))
 
 ##### Chef's Tips
 - **PREPARATION:** Rest Dough 45 Minutes — Rest wrapped dough for full 45 minutes at room temp. The extra time lets gluten relax completely for thinner, more even rolling.
-- **SAUCE:** Brown Butter with Crispy Sage — Melt 4 tbsp butter over medium heat. When foam subsides, add 12-15 sage leaves. Cook until butter is nutty-brown and sage crispy (60-90 sec). Kill heat. Toss pasta with splash of pasta water.
+- **SAUCE:** Silky Alfredo Finish — Reserve 1 cup pasta water. Toss hot pasta with butter, cream, and finely grated parmesan off-heat, adding pasta water a splash at a time until glossy and clinging. A pinch of nutmeg ties it together.
 - **TEXTURE:** Toasted Pine Nuts and Microplaned Parm — Toast pine nuts in dry pan until golden (3-4 min, watch carefully). Scatter over pasta. Grate Parmigiano on Microplane so it falls like snow.
 - **ACID:** Lemon Zest Shower — Zest half a lemon directly over each plate using Microplane just before serving.
 
@@ -281,7 +284,7 @@ London multi-instrumentalist jazzy pop debut.
 
 **Sound:** Jazz-pop with silky guitar, hip-hop beats, and warm keys.
 
-**Why this pairing:** *Breezy guitar grooves for silky Babo pasta and brown butter.*
+**Why this pairing:** *Breezy guitar grooves for silky Babo pasta and Alfredo sauce.*
 
 **Activity:** Family favorite night
 
@@ -692,7 +695,7 @@ Whiskey, honey, lemon, nutmeg.
 **Produce**
 - fresh basil
 - parsley
-- sage
+- nutmeg (ground)
 - thyme
 - lemons (3)
 - scallions
@@ -728,6 +731,7 @@ Whiskey, honey, lemon, nutmeg.
 - milk
 - cream
 - eggs dozen
+- heavy cream (1 cup, for Babo Alfredo)
 
 **Pantry**
 - San Marzano tomatoes

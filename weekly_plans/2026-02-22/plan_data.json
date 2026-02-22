@@ -416,18 +416,16 @@
         "Dan off-call afternoon",
         "Swim lessons evening"
       ],
-      "dinner": "Babo Pasta with Brown Butter and Sage",
+      "dinner": "Babo Pasta with Alfredo Sauce",
       "dinner_cuisine": "Italian",
-      "dinner_description": "Homemade spinach egg-yolk pasta in brown butter with crispy sage, pine nuts, and lemon zest.",
+      "dinner_description": "Homemade spinach egg-yolk pasta tossed in a creamy Alfredo sauce with parmesan and a touch of nutmeg.",
       "dinner_key_ingredients": [
-        "spinach",
-        "egg yolks",
-        "00 flour",
+        "babo pasta (spinach egg-yolk)",
+        "heavy cream",
         "butter",
-        "sage",
-        "pine nuts",
-        "Parmigiano-Reggiano",
-        "lemon"
+        "parmesan",
+        "garlic",
+        "nutmeg"
       ],
       "dinner_source_url": "https://www.theclevercarrot.com/2022/05/fresh-spinach-pasta-dough/",
       "dinner_source_name": "The Clever Carrot",
@@ -441,7 +439,7 @@
       "album_mood": "Warm, breezy, melodic",
       "album_description": "London multi-instrumentalist jazzy pop debut.",
       "album_sonic_description": "Jazz-pop with silky guitar, hip-hop beats, and warm keys.",
-      "album_pairing_rationale": "Breezy guitar grooves for silky Babo pasta and brown butter.",
+      "album_pairing_rationale": "Breezy guitar grooves for silky Babo pasta and Alfredo sauce.",
       "album_spotify_url": "https://open.spotify.com/album/28enuddLPEA914scF1bEKt",
       "activity": "Family favorite night",
       "activity_notes": "",
@@ -454,8 +452,8 @@
         },
         {
           "type": "sauce",
-          "title": "Brown Butter with Crispy Sage",
-          "instruction": "Melt 4 tbsp butter over medium heat. When foam subsides, add 12-15 sage leaves. Cook until butter is nutty-brown and sage crispy (60-90 sec). Kill heat. Toss pasta with splash of pasta water."
+          "title": "Silky Alfredo Finish",
+          "instruction": "Reserve 1 cup pasta water. Toss hot pasta with butter, cream, and finely grated parmesan off-heat, adding pasta water a splash at a time until glossy and clinging. A pinch of nutmeg ties it together."
         },
         {
           "type": "texture",
@@ -479,22 +477,22 @@
         "servings": "4",
         "prep_time": "45 min + 45 min rest",
         "cook_time": "10 min",
-        "nonna_says": "This one takes patience and you're going to give it the respect it deserves. Blanch that spinach, thirty seconds, into ice water, and squeeze every single drop out. I mean dry. Chop it fine. Make a mountain of flour on your board, push a well in the middle. Eggs, yolks, spinach, pour it in. Fork first, then your hands. Knead it till it's smooth as silk, ten minutes at least. Wrap it up, let it rest forty-five minutes. For the sauce, butter in a pan on medium heat. Watch it. When it smells like hazelnuts and turns golden, that's when the sage goes in. They'll crackle. Toss the pasta, good cheese, and eat it while it's hot.",
+        "nonna_says": "This one is simple and you are not going to mess it up. Blanch your spinach, thirty seconds, ice water, squeeze every drop out. Chop it fine. Make a mountain of flour on your board, push a well in the middle. Eggs, yolks, spinach, pour it in. Fork first, then your hands. Knead it till it is smooth as silk, ten minutes at least. For the sauce, melt butter with a clove of garlic, low heat. Pull the garlic when it is golden. Pour in the cream, let it barely simmer. Toss the pasta in with a good handful of parmesan and a scrape of nutmeg. Add pasta water if it needs loosening. Eat it while it is hot.",
         "variations": [
           {
-            "name": "Pumpkin Sage Brown Butter Ravioli",
-            "twist": "Fill fresh pasta with roasted pumpkin purée and ricotta, serve with the same brown butter sage sauce",
-            "source_url": "https://www.bonappetit.com/recipe/pumpkin-ravioli-with-sage-brown-butter"
+            "name": "Fettuccine Alfredo Classico",
+            "twist": "Use fettuccine instead of spinach pasta for the Roman original",
+            "source_url": "https://www.seriouseats.com/fettuccine-alfredo-recipe"
           },
           {
-            "name": "Beet Pasta",
-            "twist": "Replace spinach with roasted beet purée for a stunning magenta pasta with the same egg-yolk dough",
-            "source_url": "https://www.theclevercarrot.com/2020/03/beet-pasta/"
+            "name": "Alfredo with Roasted Garlic",
+            "twist": "Swap raw garlic for a full roasted head mashed into the cream sauce",
+            "source_url": "https://www.bonappetit.com/recipe/roasted-garlic-alfredo"
           },
           {
-            "name": "Lemon Ricotta Pasta",
-            "twist": "Skip the brown butter, toss green pasta with fresh ricotta, lemon zest, and cracked black pepper",
-            "source_url": "https://www.bonappetit.com/recipe/lemony-ricotta-pasta-with-spinach"
+            "name": "Lemon Cream Pasta",
+            "twist": "Add lemon zest and juice to the Alfredo for brightness, finish with fresh basil",
+            "source_url": "https://www.loveandlemons.com/lemon-pasta/"
           }
         ],
         "engineer_table": {
@@ -543,25 +541,38 @@
             {
               "ingredients": [
                 {
-                  "qty": "6 tbsp",
-                  "item": "unsalted butter",
+                  "qty": "3 Tbs",
+                  "item": "butter",
                   "prep": ""
                 },
                 {
-                  "qty": "8-10",
-                  "item": "fresh sage leaves",
+                  "qty": "1 clove",
+                  "item": "garlic",
+                  "prep": "smashed"
+                },
+                {
+                  "qty": "1 cup",
+                  "item": "heavy cream",
                   "prep": ""
+                },
+                {
+                  "qty": "1 cup",
+                  "item": "parmesan",
+                  "prep": "finely grated"
+                },
+                {
+                  "qty": "pinch",
+                  "item": "nutmeg",
+                  "prep": "freshly grated"
                 }
               ],
-              "merge_action": "cook butter to golden brown, add sage till crackly"
+              "merge_action": "melt butter with garlic (remove garlic), add cream, simmer 2 min, stir in parmesan off heat"
             }
           ],
           "final_steps": [
-            "rest dough 45 min wrapped",
-            "roll thin, cut to shape",
-            "boil pasta 2-3 min",
-            "toss in brown butter sage",
-            "finish with Parmigiano"
+            "toss pasta in Alfredo sauce",
+            "add pasta water to loosen",
+            "plate and finish with parmesan"
           ]
         }
       }
@@ -1366,7 +1377,7 @@
     "Produce": [
       "fresh basil",
       "parsley",
-      "sage",
+      "nutmeg (ground)",
       "thyme",
       "lemons (3)",
       "scallions",
@@ -1401,7 +1412,8 @@
       "mozzarella 2lbs",
       "milk",
       "cream",
-      "eggs dozen"
+      "eggs dozen",
+      "heavy cream (1 cup, for Babo Alfredo)"
     ],
     "Pantry": [
       "San Marzano tomatoes",
