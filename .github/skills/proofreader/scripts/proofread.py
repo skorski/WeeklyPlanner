@@ -557,18 +557,6 @@ def format_report(overflow, content_issues, content_stats, structure_issues,
     has_failure = False
     warnings = 0
 
-    # Field shapes (run first — these cause blank sections)
-    if shape_issues is None:
-        shape_issues = []
-    if shape_issues:
-        has_failure = True
-        lines.append(f"FIELD SHAPES ........ FAIL ({len(shape_issues)} issue(s))")
-        for issue in shape_issues:
-            lines.append(f"  {issue}")
-    else:
-        lines.append(f"FIELD SHAPES ........ PASS (all fields match template contract)")
-    lines.append("")
-
     # Overflow
     bounded_overflows = [o for o in overflow if o.get("is_bounded_page")]
     cosmetic_overflows = [o for o in overflow if not o.get("is_bounded_page")]
@@ -740,8 +728,9 @@ def main():
             print("OVERFLOW: PASS", file=sys.stderr)
             sys.exit(0)
 
-    print("  Checking field shapes...", file=sys.stderr)
-    shape_issues = check_field_shapes(plan_data)
+    # Field shape validation moved to content-validator (pre-assembly Phase 3).
+    # Proofreader now focuses on post-render validation only.
+    shape_issues = []
 
     print("  Checking content completeness...", file=sys.stderr)
     content_issues, content_stats = check_content(html_text, plan_data)

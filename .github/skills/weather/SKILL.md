@@ -1,5 +1,6 @@
 ---
 name: weather
+category: researcher
 description: >
   Fetch the weekly weather forecast for Reston, VA and format it as a structured
   markdown file for use by other agents. Use this skill when the user asks for the
@@ -61,3 +62,17 @@ python scripts/fetch_weather.py --start 2026-02-08 --end 2026-02-15 -o weather.m
 - Requires Python 3.7+ and `jinja2 openmeteo-requests requests-cache retry-requests pandas`
 - The markdown layout is defined in `templates/weekly_forecast.md.j2` — edit the template to customize output format
 - Sunshine classification: Sunny (≥75%), Mostly Sunny (50-74%), Mostly Cloudy (25-49%), Cloudy (<25%) based on % of daylight hours with sunshine
+
+## Output Contract
+
+The content-validator checks this output before assembly. Weather data is parsed by
+`assemble_plan.py` into per-day fields in `plan_data.json`.
+
+### Validation Rules
+- The markdown output must be parseable by `assemble_plan.py`
+- Each day's weather is extracted into the following fields on each day object:
+  `weather_high`, `weather_low`, `weather_condition`, `weather_emoji`, `weather_oneliner`
+- All temperature values are in Fahrenheit (integers)
+- `weather_condition` is a short string (e.g., "Sunny", "Partly Cloudy", "Rain")
+- `weather_emoji` is a single weather emoji character
+- `weather_oneliner` is a brief human-readable forecast sentence

@@ -55,6 +55,12 @@ The entire workflow is orchestrated by a **single master prompt** (`masterPrompt
           │            └──────────┬────────────┘────────────────────┘
           │                       │
           │                       ▼
+          │            ┌─────────────────────────┐
+          │            │  content-validator      │──► FAIL? loop back
+          │            │  (pre-assembly QA)      │    to researcher
+          │            └──────────┬──────────────┘
+          │                       │ PASS
+          │                       ▼
           │            ┌─────────────────────┐
           │            │  assemble_plan.py   │  ◄── merges all JSON artifacts
           │            └──────────┬──────────┘
@@ -72,19 +78,42 @@ The entire workflow is orchestrated by a **single master prompt** (`masterPrompt
           │                       ▼
           │              plan_data.json (enriched)
           │                       │
-          │          ┌────────────┼─────────────┐
-          │          ▼            ▼              ▼
-          │   ┌────────────┐ ┌──────────┐ ┌────────────┐
-          │   │ build_plan │ │ booklet  │ │ proofreader│◄─┐
-          │   │   .py      │ │          │ │            │  │
-          │   └─────┬──────┘ └────┬─────┘ └─────┬──────┘  │
-          │         ▼             ▼              ▼         │
-          │   weekly-plan.md  .html + .pdf   QA report    │
-          │                                     │         │
-          │                              FAIL?──┘ loops   │
-          │                              back to editor   │
-          └───────────────────────────────────────────────
+          │          ┌────────────┼──────────────────┐
+          │          ▼            ▼                  ▼
+          │   ┌────────────┐ ┌──────────┐   ┌────────────────┐
+          │   │ build_plan │ │ booklet  │   │print-formatter │
+          │   │   .py      │ │          │   │ (A5 trimming)  │
+          │   └─────┬──────┘ └────┬─────┘   └───────┬────────┘
+          │         ▼             ▼                  ▼
+          │  weekly-plan.md  .html (full)    .pdf (trimmed)
+          │         │             │                  │
+          │         └─────────────┼──────────────────┘
+          │                       ▼
+          │               ┌────────────┐
+          │               │ proofreader│◄─┐
+          │               └─────┬──────┘  │
+          │                     ▼         │
+          │                 QA report     │
+          │                     │         │
+          │              FAIL?──┘ loops   │
+          │              back to editor   │
+          └───────────────────────────────
 ```
+
+### Pipeline Phases
+
+The end-to-end workflow runs through six sequential phases:
+
+| Phase | Name | What Happens |
+|:-----:|------|--------------|
+| **1** | **GATHER** | Collect external context: weather forecast, school calendar, family favorites, and user preferences from `masterPrompt.md`. |
+| **2** | **RESEARCH** | Run parallel researcher skills (recipes, albums, linkwarden, stoic-guide). **User selects dinners & albums**, then second-wave skills (dinner-designer, parenting-coach, nutrition-coach, child-wisdom) run in parallel. |
+| **3** | **REVIEW** | `content-validator` checks every skill output for completeness and schema conformance. Failures loop back to the originating researcher for automatic correction. |
+| **4** | **ASSEMBLE** | `assemble_plan.py` merges all validated artifacts into `plan_data.json`. `final-editor` enriches prose and verifies page fit. A rendered markdown draft is presented for **user review** — change requests route back to the originating skill. |
+| **5** | **FORMAT** | Render three output tiers: **MD** (full verbosity), **HTML** (full verbosity), **PDF** (print-optimized via `print-formatter` for A5 pages). |
+| **6** | **QA** | `proofreader` validates all three outputs for overflow, missing content, page structure, and numbering. Failures loop back to the editor or formatter. |
+
+> **Verbosity tiers:** The pipeline produces three outputs at different verbosity levels. Markdown and HTML contain full content (day intros, album backstories, recipe origin stories). The PDF is print-optimized — `print-formatter` trims verbose prose, tightens layout, and ensures every page fits within A5 (148 mm × 210 mm) without overflow.
 
 ---
 
@@ -137,6 +166,8 @@ Each skill is a self-contained agent with a persona, a workflow, and a defined d
 | **final-editor** | Polish prose, add day intros, verify page fit | `plan_data.json` | `plan_data.json` (enriched) + `editorial-report.md` | Web search |
 | **booklet** | Render HTML + printable A5 PDF | `plan_data.json` | `weekly-plan.html` + `weekly-plan.pdf` | Playwright |
 | **proofreader** | QA: overflow, completeness, page structure | HTML + JSON | Pass/fail report | Playwright |
+| **content-validator** | Pre-assembly quality gate: schema & completeness checks | Skill output JSON/MD | Pass/fail per artifact (FAIL → re-invoke researcher) | None |
+| **print-formatter** | A5 page fitting for PDF: trim prose, tighten layout | `plan_data.json` (enriched) | `weekly-plan.pdf` (print-optimized) | Playwright |
 
 ### Skill ↔ Tool Interactions
 

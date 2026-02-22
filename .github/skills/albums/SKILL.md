@@ -1,5 +1,6 @@
 ---
 name: albums
+category: researcher
 description: >
   Discover exciting, story-driven album recommendations for a family dinner
   table. Searches Bandcamp, Pitchfork, Discogs, Bands In Town (DC area), and
@@ -229,6 +230,19 @@ The generated markdown contains:
    - Lyrical themes and mood (copyright-safe descriptions, not full lyrics)
    - Sonic description
    - Collapsible tracklist with durations
+
+## Output Contract
+
+The content-validator checks this output before assembly. Each album object in the
+albums array must include the fields documented in the existing JSON schema above.
+
+### Validation Rules
+- Each album must have a non-empty `spotify_url`
+- When paired to days during assembly, albums become the following fields on each day in `plan_data.json`:
+  `album`, `album_artist`, `album_title`, `album_year`, `album_genre`, `album_mood`,
+  `album_description`, `album_sonic_description`, `album_pairing_rationale`, `album_spotify_url`
+- All album metadata fields must be strings (not null)
+- `album_year` should be a 4-digit year string
 
 ## Configuration
 

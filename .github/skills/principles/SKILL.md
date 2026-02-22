@@ -1,5 +1,6 @@
 ---
 name: principles
+category: researcher
 description: >
   Generate a weekly "Principles for Living" guide — 7 daily mini-essays built
   around a single strategic theme drawn from thinkers like Ray Dalio, Robert
@@ -224,3 +225,23 @@ The rendered markdown contains:
 2. **Introduction** — contextual essay connecting theme to real life
 3. **7 daily entries** — titled mini-essays with quotes and reflection prompts
 4. **Closing line** — a single sentence to carry through the week
+
+## Output Contract
+
+The content-validator checks this output before assembly. All fields are required
+unless marked optional.
+
+```json
+{
+  "theme": {"title": "str", "description": "str"},
+  "daily_entries": [
+    {"day": "Sunday", "title": "str", "thinker": "str", "essay": "str (350-450 words, 2 paragraphs separated by \\n\\n)"}
+  ]
+}
+```
+
+### Validation Rules
+- Use `daily_entries` array (NOT `days`)
+- `theme` must be a dict with `title` and `description` (not a plain string)
+- Each essay must be 350-450 words, exactly 2 paragraphs separated by `\n\n`
+- Exactly 7 entries required (Sunday through Saturday)

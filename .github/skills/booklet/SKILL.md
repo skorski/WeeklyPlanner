@@ -1,5 +1,6 @@
 ---
 name: booklet
+category: formatter
 description: >
   Generate a mobile-friendly HTML file and a printable PDF from a weekly
   plan. The PDF contains individual A5 pages (148mm × 210mm) in reading order with

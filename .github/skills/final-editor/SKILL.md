@@ -1,5 +1,6 @@
 ---
 name: final-editor
+category: utility
 description: >
   Polish and enrich a weekly plan's JSON data before rendering. Acts as a
   magazine editor — rewrites terse copy into warm, engaging prose; adds day

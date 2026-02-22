@@ -1,5 +1,6 @@
 ---
 name: child-wisdom
+category: researcher
 description: >
   Write a short illustrated-style children's mystery story (250-800 words) with
   a life lesson woven in. The story's theme aligns with the parenting coach's
@@ -114,6 +115,28 @@ there is room for a valid and strong story arc.
   (unless the week's theme calls for it)
 - **Yes**: Sensory details, small kindnesses, child agency, satisfying
   resolutions, quiet wonder
+
+## Output Contract
+
+The content-validator checks this output before assembly. All fields are required
+unless marked optional.
+
+```json
+{
+  "title": "str",
+  "story": "str (250-800 words)",
+  "theme": "str",
+  "life_lesson": "str",
+  "characters": ["str"],
+  "discussion_prompt": "str"
+}
+```
+
+### Validation Rules
+- `title` must be non-empty
+- `story` must be 250-800 words
+- `discussion_prompt` must be non-empty
+- `characters` is an array of character names appearing in the story
 
 ## Configuration
 - No external dependencies — the story is written by the LLM

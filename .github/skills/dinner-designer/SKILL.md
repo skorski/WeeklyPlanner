@@ -1,5 +1,6 @@
 ---
 name: dinner-designer
+category: researcher
 description: >
   Elevate a list of recipes by analyzing each one and adding a professional chef's
   touch — sauces, marinades, preparation tweaks, texture contrasts, and temperature
@@ -182,6 +183,37 @@ The generated markdown contains:
    instructions, and the designer's note
 3. **Pantry Checklist** — a consolidated list of extra ingredients needed across
    all elevations so the cook can shop once
+
+## Output Contract
+
+The content-validator checks this output before assembly. All fields are required
+unless marked optional.
+
+```json
+{
+  "elevations": [
+    {
+      "name": "Dinner Name",
+      "elevations": [
+        {
+          "type": "sauce|marinade|texture|temperature|preparation|acid",
+          "title": "Short name",
+          "instruction": "Actionable instruction",
+          "why": "Culinary reasoning (optional)",
+          "extra_ingredients": ["ingredient1"]
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Validation Rules
+- Each dinner must have 2-4 elevation tips
+- Each tip is a dict with at minimum `type`, `title`, `instruction`
+- `why` and `extra_ingredients` are optional
+- When merged into `plan_data.json`, these become `dinner_elevation_tips` on each day
+- Never output tips as formatted strings — always use the structured dict format
 
 ## Configuration
 

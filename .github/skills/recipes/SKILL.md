@@ -1,5 +1,6 @@
 ---
 name: recipes
+category: researcher
 description: >
   Curate a diverse weekly dinner menu from a freeform prompt containing desired dishes
   and ingredients. Produces 10 dinner recipes with diverse cuisine origins, plus 2
@@ -205,6 +206,36 @@ The generated markdown contains:
 
 Each entry includes: name, cuisine origin, brief description, key ingredients,
 source URL, and a note on why it was selected.
+
+## Output Contract
+
+The content-validator checks this output before assembly. When dinners are selected
+and assigned to days, the structured output must match:
+
+```json
+{
+  "dinners": [
+    {
+      "day": "Sunday",
+      "name": "str",
+      "cuisine": "str",
+      "description": "str",
+      "key_ingredients": ["str"],
+      "source_url": "str",
+      "why": "str"
+    }
+  ],
+  "appetizers": [{"name": "str", "description": "str", "source_url": "str"}],
+  "salads": [{"name": "str", "description": "str", "dressing": "str", "source_url": "str"}],
+  "beverages": [{"name": "str", "description": "str", "pairing_note": "str"}]
+}
+```
+
+### Validation Rules
+- Exactly 7 dinners when assigned to days (Sunday through Saturday)
+- Each dinner must have `name`, `source_url`, and `day`
+- At least 2 appetizers, 2 salads, and 2 beverages
+- `source_url` must be a valid URL string (not empty)
 
 ## Configuration
 
