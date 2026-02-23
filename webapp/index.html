@@ -11,6 +11,12 @@
 </head>
 <body>
   <div id="app"></div>
+  <script>
+    // Unregister any leftover service worker from the old PWA build
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js');
+    }
+  </script>
   <script type="module" src="/src/main.js"></script>
 </body>
 </html>
