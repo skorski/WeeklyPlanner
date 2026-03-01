@@ -86,8 +86,8 @@
 {% endif %}
 {% endfor %}
 
-{# Render story pages — ~15 short paragraphs per page for A5 at 9pt #}
-{% set per_page = 15 %}
+{# Render story pages — ~10 paragraphs per page for A5 at 9pt #}
+{% set per_page = 8 %}
 {% set total_pages = (ns_story.page_paras | length + per_page - 1) // per_page %}
 {% for page_num in range(total_pages) %}
 {% set start = page_num * per_page %}

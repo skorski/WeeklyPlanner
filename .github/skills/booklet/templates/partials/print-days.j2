@@ -158,7 +158,7 @@
   <div class="variations-block">
     <h4>Variations</h4>
     {% for v in day.recipe_card.variations %}
-    <div class="variation-item"><strong>{{ v.name }}</strong> — {{ v.twist }}{% if v.source_url %} <a href="{{ v.source_url }}" class="variation-link">(recipe)</a>{% endif %}</div>
+    <div class="variation-item"><strong>{{ v.name }}</strong> — {{ v.twist | truncate(80, true, '…') }}{% if v.source_url %} <a href="{{ v.source_url }}" class="variation-link">(recipe)</a>{% endif %}</div>
     {% endfor %}
   </div>
   {% endif %}
@@ -168,7 +168,7 @@
     <h4>Chef's Tips</h4>
     {% for tip in day.dinner_elevation_tips %}
     <div class="elevation-tip">
-      <span class="tip-label">{{ tip.type }}</span> <strong>{{ tip.title }}</strong> — {{ tip.instruction }}
+      <span class="tip-label">{{ tip.type }}</span> <strong>{{ tip.title }}</strong> — {{ tip.instruction | truncate(200, true, '…') }}
     </div>
     {% endfor %}
   </div>
@@ -180,8 +180,7 @@
     {% if day.album_artist %}<div class="album-artist">{{ day.album_artist }}</div>{% endif %}
     <div class="album-title">{{ day.album_title | default(day.album) }}</div>
     <div class="album-info">{{ day.album_year | default("") }} · {{ day.album_genre | default("") }} · {{ day.album_mood | default("") }}</div>
-    {% if day.album_description %}<div class="album-desc">{{ day.album_description }}</div>{% endif %}
-    {% if day.album_sonic_description %}<div class="album-sonic">{{ day.album_sonic_description }}</div>{% endif %}
+    {% if day.album_description %}<div class="album-desc">{{ day.album_description | truncate(120, true, '…') }}</div>{% endif %}
     {% if day.album_pairing_rationale %}<div class="album-why">{{ day.album_pairing_rationale }}</div>{% endif %}
     {% if day.album_lyrical_story %}<div class="album-story">{{ day.album_lyrical_story }}</div>{% endif %}
     {% if day.album_spotify_url %}<a href="{{ day.album_spotify_url }}" class="spotify-link" target="_blank" rel="noopener">Listen on Spotify</a>{% endif %}

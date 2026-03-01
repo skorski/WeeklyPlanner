@@ -322,6 +322,10 @@ def main():
         "--child-wisdom",
         help="Path to child-wisdom JSON from the child-wisdom skill.",
     )
+    parser.add_argument(
+        "--principles",
+        help="Path to principles JSON from the principles skill.",
+    )
     args = parser.parse_args()
 
     # Load core plan data
@@ -387,6 +391,12 @@ def main():
         with open(args.child_wisdom, "r", encoding="utf-8-sig") as f:
             data["child_wisdom"] = json.load(f)
         print("Merged child wisdom story", file=sys.stderr)
+
+    # Merge principles
+    if getattr(args, 'principles', None):
+        with open(args.principles, "r", encoding="utf-8-sig") as f:
+            data["principles_data"] = json.load(f)
+        print("Merged principles data", file=sys.stderr)
 
     # Determine output path
     if args.output:

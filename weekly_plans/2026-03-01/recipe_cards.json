@@ -1,0 +1,460 @@
+{
+  "recipe_cards": [
+    {
+      "day": "Sunday",
+      "name": "Beef & Mushroom Stroganoff over Egg Noodles",
+      "source_url": "https://food52.com/recipes/11208-beef-stroganoff-with-mushrooms-and-onions",
+      "source_name": "Food52",
+      "servings": "4",
+      "prep_time": "15 min",
+      "cook_time": "35 min",
+      "nonna_says": "Heat a big heavy pan, get it nice and hot. Sear the beef strips fast, two minutes each side, then get them out. Same pan, cook the onions and mushrooms with a pinch of salt until they smell like heaven and all that brown goodness lifts off the bottom. Sprinkle the flour, stir it in, then pour the brandy and let it sizzle. Add your broths, bring it to a gentle bubble, and let the beef finish cooking low and slow for twenty minutes. Cook your egg noodles till they still have a little bite. Off the heat, stir in the sour cream, a squeeze of lemon, the Dijon, and fresh dill. If you're using dried dill from a jar, honey, we need to have a talk.",
+      "variations": [
+        {
+          "name": "One-Pot Ground Beef Stroganoff",
+          "twist": "Swap sirloin for ground beef and cook the noodles directly in the sauce for a quick weeknight one-pot version",
+          "source_url": "https://www.budgetbytes.com/beef-stroganoff/"
+        },
+        {
+          "name": "All-Mushroom Vegetarian Stroganoff",
+          "twist": "Replace beef entirely with a mix of shiitake, cremini, and oyster mushrooms for deep umami richness",
+          "source_url": "https://smittenkitchen.com/2020/01/mushroom-stroganoff/"
+        },
+        {
+          "name": "Smoked Paprika Chicken Stroganoff",
+          "twist": "Use chicken thighs and double the smoked paprika for a Hungarian paprikash-leaning twist",
+          "source_url": "https://www.bonappetit.com/recipe/chicken-paprikash"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "1 lb", "item": "sirloin steak", "prep": "sliced into 1/2-inch strips" },
+              { "qty": "1 tbsp", "item": "vegetable oil", "prep": "" }
+            ],
+            "merge_action": "sear 2 min per side over high heat (remove)"
+          },
+          {
+            "ingredients": [
+              { "qty": "8 oz", "item": "cremini mushrooms", "prep": "sliced" },
+              { "qty": "4 oz", "item": "oyster mushrooms", "prep": "torn" },
+              { "qty": "1 small", "item": "onion", "prep": "diced" },
+              { "qty": "1/2 tsp", "item": "salt", "prep": "" },
+              { "qty": "1 tbsp", "item": "vegetable oil", "prep": "" },
+              { "qty": "2 tbsp", "item": "all-purpose flour", "prep": "" }
+            ],
+            "merge_action": "saute 8 min until golden, add flour, stir 30 sec"
+          },
+          {
+            "ingredients": [
+              { "qty": "1 1/2 cups", "item": "beef broth", "prep": "" },
+              { "qty": "1 1/2 cups", "item": "chicken broth", "prep": "" },
+              { "qty": "1/3 cup", "item": "brandy", "prep": "" }
+            ],
+            "merge_action": "deglaze pan, scrape fond"
+          },
+          {
+            "ingredients": [
+              { "qty": "2/3 cup", "item": "sour cream", "prep": "" },
+              { "qty": "1 tbsp", "item": "lemon juice", "prep": "" },
+              { "qty": "1/2 tsp", "item": "Dijon mustard", "prep": "" },
+              { "qty": "1 tbsp", "item": "fresh dill", "prep": "chopped" },
+              { "qty": "1/2 tsp", "item": "paprika", "prep": "" }
+            ],
+            "merge_action": "whisk together, set aside"
+          }
+        ],
+        "final_steps": ["return beef, simmer 20 min", "cook 1/3 lb egg noodles separately", "fold sour cream mixture in off heat", "serve over noodles"]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Monday",
+      "name": "Baked Ham, Broccoli & Potato Gratin",
+      "source_url": "https://www.tasteofhome.com/recipes/ham-potato-casserole/",
+      "source_name": "Taste of Home",
+      "servings": "8",
+      "prep_time": "20 min",
+      "cook_time": "55 min",
+      "nonna_says": "Peel your potatoes, cut them into nice chunks, and get them boiling until they're just barely tender. You want them to hold their shape, not turn to mush. While they simmer, melt the butter in a big skillet, soften the onions, then stir in the flour and whisk in the milk until it thickens up and coats the back of a spoon. Toss in the cheddar and stir until it's silky smooth. Fold in the ham and blanched broccoli florets. Pour everything over those potatoes in a buttered baking dish, cover and bake at 350 for half an hour, then uncover and let the top get golden for another fifteen. This is the kind of dish that makes people think you spent all day cooking, so just smile and accept the compliment.",
+      "variations": [
+        {
+          "name": "Croque Monsieur Potato Gratin",
+          "twist": "Swap cheddar for Gruyere and fold Dijon mustard into the bechamel for a French bistro spin",
+          "source_url": "https://myeverydaytable.com/best-ham-and-potatoes-au-gratin/"
+        },
+        {
+          "name": "Ham and Cauliflower Low-Carb Gratin",
+          "twist": "Replace half the potatoes with cauliflower florets for a lighter, lower-carb version",
+          "source_url": "https://www.empirecipes.com/potatoes-au-gratin-with-ham/"
+        },
+        {
+          "name": "No-Dairy Ham and Potato Gratin",
+          "twist": "Swap the cheese sauce for herb-seasoned chicken broth thickened with mustard and lemon juice",
+          "source_url": "https://food52.com/recipes/33280-no-dairy-ham-and-potato-gratin"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "350\u00b0F (175\u00b0C)",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "4 lbs", "item": "Yukon Gold potatoes", "prep": "peeled, cut into 3/4-inch pieces" },
+              { "qty": "", "item": "water", "prep": "to cover" }
+            ],
+            "merge_action": "boil, then simmer 8-10 min until crisp-tender, drain"
+          },
+          {
+            "ingredients": [
+              { "qty": "1/4 cup", "item": "butter", "prep": "" },
+              { "qty": "1 small", "item": "onion", "prep": "chopped" },
+              { "qty": "1/4 cup", "item": "all-purpose flour", "prep": "" },
+              { "qty": "2 cups", "item": "whole milk", "prep": "" },
+              { "qty": "2 cups", "item": "sharp cheddar", "prep": "shredded" },
+              { "qty": "1 tsp", "item": "salt", "prep": "" },
+              { "qty": "1/2 tsp", "item": "black pepper", "prep": "" }
+            ],
+            "merge_action": "saute onion 5 min, add flour, whisk in milk, melt cheese"
+          },
+          {
+            "ingredients": [
+              { "qty": "2 cups", "item": "baked ham", "prep": "cubed" },
+              { "qty": "2 cups", "item": "broccoli florets", "prep": "blanched" }
+            ],
+            "merge_action": "fold into cheese sauce"
+          }
+        ],
+        "final_steps": ["pour sauce over potatoes in greased 13x9 dish", "cover, bake 25-30 min", "uncover, bake 15-20 min until golden", "rest 5 min"]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Tuesday",
+      "name": "Babo Pasta: Homemade Spinach Pasta with Alfredo Sauce",
+      "source_url": "https://www.bonappetit.com/recipe/fresh-pasta-dough",
+      "source_name": "Family Recipe (technique: Bon Appetit)",
+      "servings": "4",
+      "prep_time": "45 min",
+      "cook_time": "10 min",
+      "nonna_says": "Blanch the spinach for thirty seconds, squeeze out every last drop of water, and chop it fine. Make a well in your 00 flour, drop in the egg yolks, the spinach, and a drizzle of olive oil. Work it together with your hands until you've got a smooth, bright green ball of dough, then wrap it tight and let it rest for thirty minutes. Roll it thin through the pasta machine, dust it with flour, and cut your fettuccine. For the sauce, melt butter low and slow, pour in the cream, and stir in a mountain of freshly grated Parmigiano until it's thick and glossy. Cook your pasta in salty boiling water for just two minutes. If you're reaching for the jarred stuff, just close this book and order delivery.",
+      "variations": [
+        {
+          "name": "Cacio e Pepe with Fresh Spinach Pasta",
+          "twist": "Skip the cream and toss the green pasta with pecorino, cracked black pepper, and starchy pasta water",
+          "source_url": "https://www.bonappetit.com/recipe/cacio-e-pepe"
+        },
+        {
+          "name": "Brown Butter and Sage Spinach Fettuccine",
+          "twist": "Replace Alfredo with nutty browned butter, crispy fried sage leaves, and a shower of shaved Parmigiano",
+          "source_url": "https://www.theclevercarrot.com/2022/05/fresh-spinach-pasta-dough/"
+        },
+        {
+          "name": "Lemon Ricotta Spinach Pasta",
+          "twist": "Toss fresh pasta with ricotta, lemon zest, toasted pine nuts, and a splash of pasta water for a lighter finish",
+          "source_url": "https://www.laurafuentes.com/spinach-alfredo/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "150g", "item": "fresh spinach", "prep": "" }
+            ],
+            "merge_action": "blanch 30 sec, ice bath, squeeze dry, chop fine"
+          },
+          {
+            "ingredients": [
+              { "qty": "250g", "item": "00 flour", "prep": "" },
+              { "qty": "3 large", "item": "egg yolks", "prep": "" },
+              { "qty": "1 tsp", "item": "olive oil", "prep": "" },
+              { "qty": "pinch", "item": "salt", "prep": "" }
+            ],
+            "merge_action": "make well, add spinach + wet, knead 8-10 min until smooth"
+          }
+        ],
+        "final_steps": ["wrap and rest 30 min", "roll thin, dust with flour, cut fettuccine", "cook 2 min in boiling salted water", "toss with Alfredo sauce"]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, make the Alfredo:",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "1/2 cup", "item": "unsalted butter", "prep": "" },
+              { "qty": "1 cup", "item": "heavy cream", "prep": "" },
+              { "qty": "1 1/2 cups", "item": "Parmigiano-Reggiano", "prep": "freshly grated" },
+              { "qty": "to taste", "item": "black pepper", "prep": "freshly ground" },
+              { "qty": "pinch", "item": "nutmeg", "prep": "" }
+            ],
+            "merge_action": "melt butter, add cream, simmer, stir in cheese until glossy"
+          }
+        ],
+        "final_steps": ["toss with drained pasta immediately", "serve with extra Parmigiano"]
+      }
+    },
+    {
+      "day": "Wednesday",
+      "name": "Beef & Broccoli Stir Fry with Oyster Mushrooms",
+      "source_url": "https://www.seriouseats.com/chinese-american-beef-and-broccoli-with-oyster-sauce-recipe",
+      "source_name": "Serious Eats",
+      "servings": "4",
+      "prep_time": "20 min",
+      "cook_time": "15 min",
+      "nonna_says": "Slice the flank steak thin against the grain and toss it with soy sauce, Shaoxing wine, and cornstarch. Let it sit while you mix the sauce: oyster sauce, soy, a little sugar, chicken stock, and cornstarch. Blanch the broccoli for thirty seconds until it turns that electric green, then shock it in ice water and drain it dry. Get your wok screaming hot, sear the beef in batches until it's got color but still pink inside, and set it aside. Same wok, hit the garlic and ginger for thirty seconds, add the broccoli and oyster mushrooms, and toss them fast. Pour in the sauce, return the beef, and stir until everything is coated in a sticky, glossy glaze. Serve it over rice immediately because nobody in the history of cooking has ever been sorry for eating this hot.",
+      "variations": [
+        {
+          "name": "Black Bean Sauce Beef and Broccolini",
+          "twist": "Swap oyster sauce for fermented black bean sauce and use broccolini for a more bitter, complex bite",
+          "source_url": "https://thewoksoflife.com/beef-with-broccoli-all-purpose-stir-fry-sauce/"
+        },
+        {
+          "name": "Beef and Broccoli Noodle Stir Fry",
+          "twist": "Skip the rice and toss everything with chewy udon noodles and a splash of hoisin for a saucy one-bowl dinner",
+          "source_url": "https://www.lindsaypleskot.com/beef-and-broccoli-noodles/"
+        },
+        {
+          "name": "Crispy Ginger Tofu and Broccoli Stir Fry",
+          "twist": "Replace beef with pressed, cornstarch-dusted tofu fried until shatteringly crispy, and add fresh ginger matchsticks",
+          "source_url": "https://www.seriouseats.com/vegan-stir-fry-with-crispy-tofu"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "1 lb", "item": "flank steak", "prep": "sliced thin against the grain" },
+              { "qty": "2 tbsp", "item": "soy sauce", "prep": "" },
+              { "qty": "1 tbsp", "item": "Shaoxing wine", "prep": "" },
+              { "qty": "1 tbsp", "item": "cornstarch", "prep": "" }
+            ],
+            "merge_action": "toss together, marinate 15-30 min"
+          },
+          {
+            "ingredients": [
+              { "qty": "3 tbsp", "item": "oyster sauce", "prep": "" },
+              { "qty": "2 tbsp", "item": "soy sauce", "prep": "" },
+              { "qty": "1 tsp", "item": "sugar", "prep": "" },
+              { "qty": "1/2 cup", "item": "chicken stock", "prep": "" },
+              { "qty": "1 tbsp", "item": "cornstarch", "prep": "" },
+              { "qty": "1 tsp", "item": "sesame oil", "prep": "" }
+            ],
+            "merge_action": "whisk together, set aside"
+          },
+          {
+            "ingredients": [
+              { "qty": "1 lb", "item": "broccoli florets", "prep": "" },
+              { "qty": "6 oz", "item": "oyster mushrooms", "prep": "torn into pieces" },
+              { "qty": "4 cloves", "item": "garlic", "prep": "minced" },
+              { "qty": "1-inch piece", "item": "fresh ginger", "prep": "minced" },
+              { "qty": "3 tbsp", "item": "vegetable oil", "prep": "divided" }
+            ],
+            "merge_action": "blanch broccoli 30 sec, ice bath; stir-fry aromatics 30 sec"
+          }
+        ],
+        "final_steps": ["sear beef in batches over high heat (remove)", "wok-fry garlic, ginger, broccoli, mushrooms 1 min", "return beef, pour sauce, toss until glazed", "serve over steamed rice"]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Thursday",
+      "name": "Broccoli & Oyster Mushroom Flatbread with Ricotta & Chili Honey",
+      "source_url": "https://food52.com/recipes/85857-broccoli-pizza-recipe",
+      "source_name": "Food52",
+      "servings": "4",
+      "prep_time": "15 min",
+      "cook_time": "20 min",
+      "nonna_says": "Heat your oven to 450 and get that pizza stone hot if you've got one. Toss the broccoli florets and sliced oyster mushrooms with olive oil, salt, and a pinch of red pepper, then roast them until they're charred and sweet at the edges. Mix the ricotta with lemon zest, a clove of grated garlic, salt, and pepper until it's smooth and spreadable. Stretch your dough thin, spread the ricotta all over, and scatter the charred vegetables on top. Bake until the crust is golden and puffed, about ten minutes. Pull it out and drizzle the hot honey all over while it's still steaming. This is not diet food and it was never trying to be.",
+      "variations": [
+        {
+          "name": "Broccoli Pesto and Burrata Flatbread",
+          "twist": "Blend half the broccoli into a pesto with basil, garlic, and pine nuts, then top with torn burrata after baking",
+          "source_url": "https://peasandcrayons.com/cheesy-broccoli-pesto-flatbread-pizza/"
+        },
+        {
+          "name": "Mediterranean Broccoli Flatbread with Olives and Feta",
+          "twist": "Add kalamata olives and crumbled feta instead of ricotta, finish with lemon juice and oregano",
+          "source_url": "https://umamigirl.com/naan-pizza-ricotta-broccoli/"
+        },
+        {
+          "name": "Smitten Kitchen Broccoli Pizza",
+          "twist": "Use a thin, crispy crust with mozzarella and roasted lemon-pepper broccoli for a classic pizzeria approach",
+          "source_url": "https://smittenkitchen.com/2017/02/broccoli-pizza/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "450\u00b0F (230\u00b0C) with pizza stone",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "2 heads", "item": "broccoli", "prep": "cut into small florets" },
+              { "qty": "6 oz", "item": "oyster mushrooms", "prep": "sliced" },
+              { "qty": "2 tbsp", "item": "olive oil", "prep": "" },
+              { "qty": "1/2 tsp", "item": "salt", "prep": "" },
+              { "qty": "pinch", "item": "red pepper flakes", "prep": "" }
+            ],
+            "merge_action": "toss, roast 425F 15 min until charred at edges"
+          },
+          {
+            "ingredients": [
+              { "qty": "1 cup", "item": "whole-milk ricotta", "prep": "" },
+              { "qty": "1", "item": "lemon", "prep": "zested" },
+              { "qty": "1 clove", "item": "garlic", "prep": "grated" },
+              { "qty": "to taste", "item": "salt and pepper", "prep": "" }
+            ],
+            "merge_action": "stir until smooth and spreadable"
+          },
+          {
+            "ingredients": [
+              { "qty": "3 tbsp", "item": "honey", "prep": "" },
+              { "qty": "1 tsp", "item": "crushed red pepper", "prep": "" },
+              { "qty": "1 tsp", "item": "apple cider vinegar", "prep": "" }
+            ],
+            "merge_action": "warm gently, whisk together"
+          }
+        ],
+        "final_steps": ["stretch 1 lb pizza dough thin", "spread ricotta, top with roasted vegetables", "bake 10 min until crust is golden", "drizzle chili honey, slice, serve"]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Friday",
+      "name": "Pan-Seared Branzino with Lemon-Herb Butter & Roasted Broccoli",
+      "source_url": "https://www.foodandwine.com/recipes/pan-roasted-branzino-with-caper-butter",
+      "source_name": "Food & Wine",
+      "servings": "4",
+      "prep_time": "10 min",
+      "cook_time": "20 min",
+      "nonna_says": "Pat the branzino fillets bone dry with paper towels, both sides. Season with salt and pepper, nothing fancy. Get your pan hot with a little olive oil, then lay the fillets in skin side down and press them flat with a spatula for the first minute so the skin crisps evenly. Don't touch them for three minutes until the skin is golden and crunchy. Flip gently, cook another two minutes, then take them out. In the same pan, drop in the butter, let it foam and turn just barely golden, then add capers, lemon juice, and a handful of fresh herbs. Spoon that sizzling butter over the fish and serve it next to your roasted broccoli. See? Ten minutes and you've got a restaurant plate.",
+      "variations": [
+        {
+          "name": "Branzino with White Wine and Cherry Tomatoes",
+          "twist": "Deglaze the pan with white wine, add burst cherry tomatoes and olives for a Mediterranean pan sauce",
+          "source_url": "https://www.foodnetwork.com/recipes/giada-de-laurentiis/pan-seared-branzino-with-tomato-and-capers-3028154"
+        },
+        {
+          "name": "Whole Roasted Branzino with Herbs and Lemon",
+          "twist": "Stuff whole fish with lemon slices, rosemary, and thyme, then roast at 425F for an impressive presentation",
+          "source_url": "https://www.feastingathome.com/branzino-recipe/"
+        },
+        {
+          "name": "Branzino with Almond Brown Butter",
+          "twist": "Toast slivered almonds in the brown butter alongside the capers for a nutty, crunchy finish",
+          "source_url": "https://www.chewoutloud.com/branzino-recipe/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "4", "item": "branzino fillets", "prep": "patted very dry" },
+              { "qty": "to taste", "item": "salt and pepper", "prep": "" },
+              { "qty": "2 tbsp", "item": "olive oil", "prep": "" }
+            ],
+            "merge_action": "season, sear skin-side down 3 min, flip 2 min (remove)"
+          },
+          {
+            "ingredients": [
+              { "qty": "4 tbsp", "item": "unsalted butter", "prep": "" },
+              { "qty": "2 tbsp", "item": "capers", "prep": "drained" },
+              { "qty": "2 tbsp", "item": "lemon juice", "prep": "" },
+              { "qty": "1 tsp", "item": "lemon zest", "prep": "" },
+              { "qty": "2 tbsp", "item": "fresh parsley", "prep": "chopped" },
+              { "qty": "1 tsp", "item": "fresh thyme", "prep": "leaves" }
+            ],
+            "merge_action": "foam butter until golden, add capers and lemon, swirl in herbs"
+          }
+        ],
+        "final_steps": ["spoon butter sauce over fish", "serve alongside roasted broccoli"]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, roast the broccoli:",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "1 lb", "item": "broccoli florets", "prep": "" },
+              { "qty": "2 tbsp", "item": "olive oil", "prep": "" },
+              { "qty": "to taste", "item": "salt and pepper", "prep": "" },
+              { "qty": "1 tbsp", "item": "lemon juice", "prep": "" }
+            ],
+            "merge_action": "toss together, spread on sheet pan"
+          }
+        ],
+        "final_steps": ["roast at 425F 18-20 min until charred at edges", "squeeze lemon over before serving"]
+      }
+    },
+    {
+      "day": "Saturday",
+      "name": "BBQ Pork Butt with Broccoli Slaw",
+      "source_url": "https://www.seriouseats.com/the-food-lab-complete-guide-to-smoking-pulled-pork-barbecue",
+      "source_name": "Serious Eats",
+      "servings": "8-10",
+      "prep_time": "30 min + overnight",
+      "cook_time": "10-14 hours",
+      "nonna_says": "Mix your rub the night before: brown sugar, smoked paprika, black pepper, garlic powder, onion powder, mustard powder, and a good amount of kosher salt. Rub the pork butt all over, every crevice, and let it sit uncovered in the fridge overnight so the surface dries out and the flavors sink in. Set up your smoker at 225, add your wood chunks, and put the meat on fat side up. This is a patience game. You're looking at ten to twelve hours until it hits 200 degrees inside and the bone wiggles loose. Pull it out, wrap it in foil, let it rest for an hour, then shred it with two forks. For the slaw, shave the broccoli stems and toss them with shredded cabbage, vinegar, a little sugar, and mayo. The people who tell you barbecue shouldn't take all day have never made anything worth eating.",
+      "variations": [
+        {
+          "name": "Coffee-Rubbed Pulled Pork",
+          "twist": "Add finely ground espresso to the spice rub for a deep, smoky bitterness that balances the sweetness",
+          "source_url": "https://www.smokedbbqsource.com/barbecue-pork-rub-recipe/"
+        },
+        {
+          "name": "Asian-Style Pulled Pork Bao Buns",
+          "twist": "Marinate with soy, ginger, and five-spice, then serve shredded pork in steamed bao with hoisin and pickled cucumber",
+          "source_url": "https://www.recipetineats.com/pulled-pork-with-bbq-sauce/"
+        },
+        {
+          "name": "Carolina Vinegar-Sauce Pulled Pork",
+          "twist": "Skip the sweet sauce and serve with a sharp cider vinegar and red pepper flake mop for a tangy Eastern NC finish",
+          "source_url": "https://www.foodnetwork.com/recipes/tyler-florence/pulled-pork-barbecue-recipe-1953137"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "Smoker to 225\u00b0F (107\u00b0C)",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "1/4 cup", "item": "brown sugar", "prep": "packed" },
+              { "qty": "1/4 cup", "item": "smoked paprika", "prep": "" },
+              { "qty": "1 tbsp", "item": "black pepper", "prep": "" },
+              { "qty": "1 tbsp", "item": "garlic powder", "prep": "" },
+              { "qty": "1 tbsp", "item": "onion powder", "prep": "" },
+              { "qty": "2 tsp", "item": "mustard powder", "prep": "" },
+              { "qty": "2 tbsp", "item": "kosher salt", "prep": "" },
+              { "qty": "1 tsp", "item": "cayenne pepper", "prep": "" }
+            ],
+            "merge_action": "mix together thoroughly"
+          },
+          {
+            "ingredients": [
+              { "qty": "6-8 lb", "item": "bone-in pork butt", "prep": "trimmed" },
+              { "qty": "2 tbsp", "item": "yellow mustard", "prep": "" }
+            ],
+            "merge_action": "coat with mustard, apply rub, refrigerate uncovered overnight"
+          }
+        ],
+        "final_steps": ["smoke fat-side up at 225F for 10-12 hrs", "target 200-205F internal temp", "wrap in foil, rest 1 hr", "shred with two forks, toss with juices"]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, make the broccoli slaw:",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "4", "item": "broccoli stems", "prep": "peeled and shaved thin" },
+              { "qty": "2 cups", "item": "green cabbage", "prep": "shredded" },
+              { "qty": "2 tbsp", "item": "apple cider vinegar", "prep": "" },
+              { "qty": "1 tsp", "item": "sugar", "prep": "" },
+              { "qty": "3 tbsp", "item": "mayonnaise", "prep": "" },
+              { "qty": "1/2 tsp", "item": "salt", "prep": "" }
+            ],
+            "merge_action": "toss vegetables with dressing until well coated"
+          }
+        ],
+        "final_steps": ["chill 30 min before serving", "adjust seasoning, serve alongside pulled pork"]
+      }
+    }
+  ]
+}
