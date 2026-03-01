@@ -94,12 +94,9 @@
 </div>
 {% endif %}
 
-{# --- STOIC GUIDE (2-page spread) --- #}
+{# --- STOIC GUIDE (multi-page spread) --- #}
 {% if stoic_data %}
-{# Page 1: Theme + Anchor Quote + Introduction + First Meditation #}
-{# Split point: page 1 gets intro + first meditation; page 2 gets the rest #}
-{% set split = (stoic_data.meditations | length // 2) | int %}
-{% if split < 1 %}{% set split = 1 %}{% endif %}
+{# Page 1: Theme + Anchor Quote + Introduction #}
 <div class="page page-stoic">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">The Stoic Guide</h2>
@@ -116,7 +113,7 @@
 
   <div class="stoic-intro">{{ stoic_data.introduction }}</div>
 
-  {% for m in stoic_data.meditations[:split] %}
+  {% for m in stoic_data.meditations[:2] %}
   <div class="meditation-entry">
     {% if m.day %}<span class="meditation-day">{{ m.day }}</span>{% endif %}
     <span class="meditation-title">{{ m.title }}</span>
@@ -130,12 +127,19 @@
   <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
 </div>
 
-{# Page 2: Remaining Meditations + Family Exercise + Young Stoic + Closing #}
+{# Meditation pages: 2-3 meditations per page #}
+{% set med_per_page = 3 %}
+{% set remaining = stoic_data.meditations[2:] %}
+{% set total_med_pages = (remaining | length + med_per_page - 1) // med_per_page %}
+{% for page_num in range(total_med_pages) %}
+{% set start = page_num * med_per_page %}
+{% set end = [start + med_per_page, remaining | length] | min %}
+{% set is_last_med_page = (page_num == total_med_pages - 1) %}
 <div class="page page-stoic">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Reflections & Practice</h2>
 
-  {% for m in stoic_data.meditations[split:] %}
+  {% for m in remaining[start:end] %}
   <div class="meditation-entry">
     {% if m.day %}<span class="meditation-day">{{ m.day }}</span>{% endif %}
     <span class="meditation-title">{{ m.title }}</span>
@@ -146,6 +150,15 @@
     {% endif %}
   </div>
   {% endfor %}
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+{% endfor %}
+
+{# Final page: Family Exercise + Young Stoic + Closing #}
+{% if stoic_data.family_exercise or stoic_data.young_stoic or stoic_data.closing_thought %}
+<div class="page page-stoic">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Practice Together</h2>
 
   {% if stoic_data.family_exercise %}
   <div class="stoic-exercise">
@@ -169,4 +182,5 @@
 
   <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
 </div>
+{% endif %}
 {% endif %}

@@ -7,8 +7,7 @@ The weekly-planner is the key skill that you will want to leverage for this proc
 Review my calendar using the workIQ MCP server. Pay special attention to any meetings between 3 and 9. All events from Laura@astraeawealth.com should be included in the plan. These are related to our family and must be part of the final report. Tentative work meetings in that block can be ignored. Tentative meetings from Laura must be included.
 
 This week we have:
-- Dan is on call as Incident manager until tuesday afternoon
-- Likely that school will be cancelled on monday.
+- Dan has Product Day on Wednesday at work.
 - Swim lessons on tuesday night
 - Elsie YAT 4:30-600 Friday
 
@@ -16,18 +15,22 @@ Dinners:
 - Tuesday: Babo Pasta
 
 Cravings:
-- Pizza one of the nights, likely thursday. Suggest at least three different pizzas
-  - Buffalo chicken - White pie with capers and blue cheese
-  - Traditional cheese and pepperoni
-  - Something fun and completely different.
+- Friday should be some type of fish. Probably bronzino
+- Every meal should have broccoli and potentially green onions. We bought 20 pounds of broccoli and need to use it.
+- Broccoli, baked ham, and potatoes
+- Broccoli stir fry with beef
+- We also have a log oyster and cremini mushrooms.
+- Stroganoff
+- Saturday is going to be nice and we should grill something. Likely making pulled pork and cole slaw
+- Something to have for lunch via meal prep
 
 Elsies Selections:
 
-- No -> Cooked red peppers
-- Yes -> Tuna fish (potentially a tuna fish sandwich for lunch)
+- No -> Fish
+- Yes -> 
 
 Weekly Kids Story:
-- This weeks story should be about a kid who refused to eat dinner. Each time the parent, in this case Karen, adds something new to it. This starts out with Karen trying to serve Dan chicken liver spread, one of her favorites. Dan hates it. In each section of the story, Momma Karen tries to add something new to make it taste better. This includes increasingly crazy things like whipped cream or putting it into a cake.
+- This weeks story should be about spring coming early in reston. We are starting to have days that are in the 50s. Talk about why the seasons happen and how the earth turns to make it warmer during the summer time. Discuss the streams in reston and have chelsie walking through the woods and seeing the plants come up. Talk about the animals that come out of hibernation in the woods of reston.
 - The characters in the story should take from a set of the following. Only use ~3 of them including Chelsie
   - Papa Puleo - Great Grand Father
   - Momma Karen - Grand Mother

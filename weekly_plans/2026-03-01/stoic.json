@@ -1,0 +1,98 @@
+{
+  "week_range": "March 1 – 7, 2026",
+  "theme": {
+    "title": "What the Thaw Teaches",
+    "category": "Acceptance",
+    "description": "Learning to welcome change by watching winter release its grip — not fighting what's ending, not rushing what's arriving, but moving with the current of things."
+  },
+  "anchor_quote": {
+    "text": "Some things are hurrying into existence, and others are hurrying out of it; and of that which is coming into existence part is already extinguished. Motions and changes are continually renewing the world, just as the uninterrupted course of time is always renewing the infinite duration of ages.",
+    "source": "Marcus Aurelius",
+    "work": "Meditations",
+    "reference": "6.15"
+  },
+  "introduction": "This week, the world outside your window will do something remarkable: it will change completely. Snow on Monday, seventy-three degrees by Thursday. Winter doesn't ask permission to leave, and spring doesn't wait for an invitation. The Stoics watched these cycles closely — not as poetry, but as philosophy in motion.\n\nMarcus Aurelius, who governed through plagues and wars, returned again and again to one quiet observation: everything is in flux. Not as a lament, but as a liberation. If nothing is permanent, then the hard thing you're enduring right now will pass. And the good thing? That will pass too — which is not sad, but a reason to pay closer attention to it while it's here.\n\nThis week, as the snow melts and the air warms, we practice the Stoic art of acceptance. Not passive resignation — the Stoics were never passive — but the active choice to stop arguing with reality and start working with it. The weather will do what it does. The calendar will be full. Your only real task is to meet each day as it arrives, not as you wish it were.",
+  "meditations": [
+    {
+      "day": "Sunday",
+      "title": "The Calm Before",
+      "reflection": "Today is fifty degrees and overcast — a pause between seasons. The Stoics valued these in-between moments. Before the snow comes tomorrow, before the week accelerates, there is just this: a quiet Sunday, the last day of one thing and the first day of another. Notice the pause. Most of us skip right over it.",
+      "prompt": "Look out a window for one minute. What do you see that won't be there next week? Write it down — not to mourn it, but to honor it.",
+      "secondary_quote": {
+        "text": "The present is the only thing of which a man can be deprived, if it is true that this is the only thing which he has.",
+        "source": "Marcus Aurelius, Meditations 2.14"
+      }
+    },
+    {
+      "day": "Monday",
+      "title": "Snow Falls. Now What?",
+      "reflection": "The snow arrives today — moderate, persistent, cold. You didn't choose it. You can't cancel it. Epictetus would say this is one of those things plainly not up to you. The roads, the schedule disruptions, the extra layers — none of that is in your control. But your response? That belongs entirely to you. The Stoic doesn't curse the snow. The Stoic puts on boots.",
+      "prompt": "Name one thing today that frustrated you but was completely outside your control. Now name one thing you did control well in response.",
+      "secondary_quote": {
+        "text": "Some things are within our power, while others are not. Within our power are opinion, motivation, desire, aversion — whatever is of our own doing. Not within our power are our body, our property, our reputation, our office.",
+        "source": "Epictetus, Enchiridion 1.1"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "title": "Inside the Storm",
+      "reflection": "More snow today, clouds blocking every scrap of sunlight. Elsie has swim lessons — indoors, warm water, a small rebellion against the weather. There's a lesson here: you don't have to defeat the storm. You just have to find the warm water inside it. Seneca wrote that we suffer more in imagination than in reality. The snow feels endless when you stare at forecasts. But the actual day? You live it one hour at a time, and most of those hours are fine.",
+      "prompt": "What are you bracing for this week that might turn out easier than you think? Write down the worry, then write down what's actually happening right now.",
+      "secondary_quote": {
+        "text": "We are more often frightened than hurt; and we suffer more in imagination than in reality.",
+        "source": "Seneca, Letters to Lucilius 13.4"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "title": "The Turn",
+      "reflection": "Today the temperature jumps twenty degrees. The snow begins to melt. If you're paying attention, you'll feel the shift in your body — a loosening, a small exhale. Dan, today is Product Day: a different kind of thaw, where ideas that have been frozen in planning finally start to move. The Stoics didn't just accept change — they expected it. Marcus Aurelius trained himself to see impermanence not as loss but as nature doing what nature does.",
+      "prompt": "What in your life has been frozen that might be ready to thaw? A conversation, a decision, a project? Write one sentence about what moving forward would look like.",
+      "secondary_quote": {
+        "text": "The universe is change; our life is what our thoughts make it.",
+        "source": "Marcus Aurelius, Meditations 4.3"
+      }
+    },
+    {
+      "day": "Thursday",
+      "title": "Warm Enough to Let Go",
+      "reflection": "Seventy-three degrees. Yesterday's snow is a memory. The temptation now is to cling — to wish this warmth would stay, to dread the next cold snap. But the Stoic practice is simpler: enjoy the warmth without demanding it be permanent. Seneca's advice was to hold everything lightly — the good days and the hard ones — because both are borrowed.",
+      "prompt": "What are you enjoying right now that you've been taking for granted? Spend thirty seconds genuinely appreciating it. That's the whole exercise.",
+      "secondary_quote": {
+        "text": "True happiness is to enjoy the present, without anxious dependence upon the future.",
+        "source": "Seneca, On the Happy Life 10.3"
+      }
+    },
+    {
+      "day": "Friday",
+      "title": "New Rhythms",
+      "reflection": "Elsie has YAT today — young actors stepping into stories that aren't their own, practicing being someone else for an hour. There's a Stoic idea here too: we play roles. Parent, worker, child, friend. Epictetus said life gives us a part to play and our job is to play it well — not to choose the script, but to bring dignity and attention to whatever scene we're in. Today, as the week winds down, ask yourself: am I playing my part well, or am I wishing for a different one?",
+      "prompt": "Which role did you play today — parent, partner, colleague, friend? Did you bring your full attention to it, or were you somewhere else in your mind?",
+      "secondary_quote": {
+        "text": "Remember that you are an actor in a play, the character of which is determined by the Playwright. If He wishes the play to be short, it is short; if long, it is long.",
+        "source": "Epictetus, Enchiridion 17"
+      }
+    },
+    {
+      "day": "Saturday",
+      "title": "What Remains After the Thaw",
+      "reflection": "The week ends warm again — seventy-three degrees, the world softened and green-edged. You survived the snow, the busy calendar, the transitions. But 'survived' is the wrong word. You lived through it. The Stoics would say: this is what life is. Not the stable moments between changes, but the changes themselves. The river doesn't pause, and neither do you. The only question is whether you floated with attention or thrashed against the current.",
+      "prompt": "Look back at Sunday's note — what you saw out the window that wouldn't last. Was losing it as hard as you imagined? What replaced it?",
+      "secondary_quote": {
+        "text": "Lead me, O Zeus, and thou, O Destiny, wherever your decrees have fixed my lot. I follow willingly; and, did I not, wicked and wretched, I must follow still.",
+        "source": "Cleanthes, Hymn to Zeus (quoted in Seneca, Letters 107.11)"
+      }
+    }
+  ],
+  "family_exercise": {
+    "title": "The Thaw Walk",
+    "description": "One evening this week — ideally Thursday or Saturday when it's warm — go outside together for ten minutes. Each person finds one sign of winter leaving and one sign of spring arriving. Share what you found. Then ask: what's one thing in your own life that's thawing right now — something that felt stuck and is starting to move?",
+    "connection": "Marcus Aurelius practiced observing nature's cycles as a form of meditation. In Meditations 6.15, he watches things hurrying into and out of existence, finding in that motion not anxiety but clarity. This walk is that meditation with your shoes on."
+  },
+  "young_stoic": {
+    "title": "The Snowman Question",
+    "prompt": "Imagine you built a snowman on Monday when the snow was fresh. By Thursday, it's 73 degrees and the snowman is melting. Do you feel sad, or do you think: 'I'm glad I built it when I could'? The Stoics would say both feelings are okay — but the second one is wiser. You can't keep the snow. But you can always remember the fun of building. What's something you loved doing that ended? Can you smile about it instead of feeling sad?",
+    "lesson": "The ancient Stoics believed that nothing lasts forever — not snowmen, not bad days, not even the things we love. But that's not a reason to be sad. It's a reason to enjoy things while they're here and let them go when it's time."
+  },
+  "closing_thought": "The snow came and went. The warmth arrived without your permission. You adjusted, adapted, and kept going — which is, when you think about it, the oldest human skill there is. The Stoics simply gave it a name: acceptance. Carry that into next week. Not everything needs to be held. Some things just need to be met."
+}

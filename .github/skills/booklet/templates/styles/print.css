@@ -1231,16 +1231,11 @@
   .page-story .story-text {
     font-family: var(--narrative);
     font-size: 9pt;
-    line-height: 1.7;
+    line-height: 1.5;
     color: var(--ink);
-    text-align: justify;
   }
   .page-story .story-text p {
     margin-bottom: 6pt;
-    text-indent: 12pt;
-  }
-  .page-story .story-text p:first-child {
-    text-indent: 0;
   }
   .page-story .story-prompt {
     font-family: var(--narrative);

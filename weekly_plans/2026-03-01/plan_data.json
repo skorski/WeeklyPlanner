@@ -1,0 +1,3038 @@
+{
+  "week_range": "March 1 - March 7, 2026",
+  "elsie_no_list": [
+    "fish"
+  ],
+  "days": [
+    {
+      "name": "Sun 03/01",
+      "long_name": "Sunday, March 1",
+      "weather": "Overcast, 50F/33F",
+      "weather_detail": "Sunny (92%), wind 12 mph, 3% precip, gusts 23 mph",
+      "calendar": "Free day",
+      "calendar_items": [],
+      "time_constraints": [],
+      "dinner": "Beef & Mushroom Stroganoff over Egg Noodles",
+      "dinner_cuisine": "Russian",
+      "dinner_description": "A 19th-century Russian aristocratic classic, reimagined with both cremini and oyster mushrooms. Sirloin strips seared hard in a screaming-hot pan, then braised with shallots and a splash of brandy until the kitchen fills with that unmistakable stroganoff perfume — rich, earthy, slightly boozy. The silky sour cream sauce comes together in minutes and coats every ribbon of egg noodle.",
+      "dinner_key_ingredients": [
+        "sirloin steak",
+        "cremini mushrooms",
+        "oyster mushrooms",
+        "sour cream",
+        "egg noodles",
+        "shallots",
+        "brandy",
+        "Dijon mustard",
+        "paprika",
+        "broccoli"
+      ],
+      "dinner_source_url": "https://food52.com/recipes/11208-beef-stroganoff-with-mushrooms-and-onions",
+      "dinner_source_name": "Food52",
+      "dinner_notes": "Free Sunday means time for an elaborate cook. Sear the beef in small batches so it browns rather than steams — that's where the flavor lives.",
+      "dinner_nutrition_notes": "Good iron from beef; mushrooms add B vitamins and selenium.",
+      "album": "Cymande – Cymande",
+      "album_artist": "Cymande",
+      "album_title": "Cymande",
+      "album_year": "1972",
+      "album_genre": "Funk / Soul",
+      "album_mood": "Warm, groovy, uplifting, soulful",
+      "album_description": "Recorded at De Lane Lea Studios in London in 1972, Cymande's debut is the work of nine British-Caribbean musicians from Guyana, Jamaica, and Saint Vincent who called their genre \"Nyah-rock.\" Discovered by producer John Schroeder in a Soho basement rehearsal, they became the first British act to headline the Apollo — and one of the most-sampled bands in hip-hop history.",
+      "album_sonic_description": "Laid-back funk with Caribbean percussion, wah-wah guitars, flute melodies, and rich vocal harmonies over deep bass grooves",
+      "album_pairing_rationale": "Warm, groovy Caribbean funk for an elaborate Sunday stroganoff cook — the kind of music that makes stirring feel like dancing.",
+      "album_spotify_url": "https://open.spotify.com/album/4RSXYyVGFbSXd11GDlL1ag",
+      "activity": "Free day — grocery run, prep for the week",
+      "activity_notes": "Nice enough to get outside (50°F). Prep broccoli for the week — cut 5+ lbs of florets and stems.",
+      "prep_notes": [
+        "Cut and bag broccoli florets and stems for the week",
+        "Start stroganoff in the afternoon"
+      ],
+      "day_of_week": "sunday",
+      "weather_high": 50,
+      "weather_low": 33,
+      "weather_condition": "OVERCAST",
+      "weather_emoji": "☁️",
+      "weather_oneliner": "50°/33°",
+      "engagements": [],
+      "dinner_elevation_tips": [
+        {
+          "type": "preparation",
+          "title": "Sear the beef like you mean it",
+          "instruction": "Slice sirloin thin against the grain. Get your cast-iron screaming hot — just past the smoke point of canola oil. Sear in small batches, 45 seconds per side, until you have a hard Maillard crust. Pull immediately. The beef finishes cooking when it goes back into the sauce for the last 90 seconds. Overcook it and we're not friends.",
+          "why": "Searing in small batches at extreme heat develops the Maillard reaction — the foundation of savory depth. Crowding the pan drops the temperature and steams the meat, giving you grey, sad protein instead of caramelized glory.",
+          "extra_ingredients": [
+            "canola oil"
+          ]
+        },
+        {
+          "type": "sauce",
+          "title": "Build a proper brandy-fond pan sauce",
+          "instruction": "After searing the beef, sauté cremini and oyster mushrooms in the same pan without moving them for 3-4 minutes until deeply golden. Add minced shallots, cook 2 minutes. Deglaze with brandy — let it flame off if you're brave, or just simmer 60 seconds. Add a splash of Worcestershire and a cup of good beef stock. Reduce by half. Kill the heat, wait 30 seconds, then fold in full-fat sour cream and a teaspoon of Dijon. The sauce must never boil after the sour cream goes in — above 180°F and it breaks.",
+          "why": "The fond (browned bits) from the sear is liquid gold — brandy lifts it off the pan and concentrates it. Adding sour cream off-heat prevents curdling and creates a silky, glossy sauce that clings to every noodle.",
+          "extra_ingredients": [
+            "Worcestershire sauce",
+            "beef stock"
+          ]
+        },
+        {
+          "type": "acid",
+          "title": "Lemon zest and chive finish",
+          "instruction": "Right before plating, zest half a lemon directly over the stroganoff and scatter a generous handful of finely sliced fresh chives. The zest goes on last — heat destroys its volatile oils.",
+          "why": "Rich dishes need a bright counterpoint. The lemon zest cuts through the cream and fat, and the chives add an allium freshness that wakes up every bite without competing with the mushrooms.",
+          "extra_ingredients": [
+            "lemon",
+            "fresh chives"
+          ]
+        }
+      ],
+      "dinner_question": {
+        "day": "Sunday",
+        "dinner": "Beef & Mushroom Stroganoff",
+        "question": "Stroganoff is a dish people have been making for hundreds of years in Russia. If our family had one recipe we'd pass down for a hundred years, what should it be — and what story would we tell about why it's special?",
+        "category": "family",
+        "why": "At 8, Elsie is beginning to understand legacy and tradition. Connecting food to family identity helps her see herself as part of a longer story, not just a kid eating dinner. Sunday's unhurried pace makes room for this kind of big-picture thinking."
+      },
+      "day_intro": "A free Sunday at 50°F — mild enough to crack a window while you cook. The week stretches ahead with twenty pounds of broccoli to conquer, so today is all about prep and an elaborate dinner to set the tone.",
+      "recipe_card": {
+        "day": "Sunday",
+        "name": "Beef & Mushroom Stroganoff over Egg Noodles",
+        "source_url": "https://food52.com/recipes/11208-beef-stroganoff-with-mushrooms-and-onions",
+        "source_name": "Food52",
+        "servings": "4",
+        "prep_time": "15 min",
+        "cook_time": "35 min",
+        "nonna_says": "Heat a big heavy pan, get it nice and hot. Sear the beef strips fast, two minutes each side, then get them out. Same pan, cook the onions and mushrooms with a pinch of salt until they smell like heaven and all that brown goodness lifts off the bottom. Sprinkle the flour, stir it in, then pour the brandy and let it sizzle. Add your broths, bring it to a gentle bubble, and let the beef finish cooking low and slow for twenty minutes. Cook your egg noodles till they still have a little bite. Off the heat, stir in the sour cream, a squeeze of lemon, the Dijon, and fresh dill. If you're using dried dill from a jar, honey, we need to have a talk.",
+        "variations": [
+          {
+            "name": "One-Pot Ground Beef Stroganoff",
+            "twist": "Swap sirloin for ground beef and cook the noodles directly in the sauce for a quick weeknight one-pot version",
+            "source_url": "https://www.budgetbytes.com/beef-stroganoff/"
+          },
+          {
+            "name": "All-Mushroom Vegetarian Stroganoff",
+            "twist": "Replace beef entirely with a mix of shiitake, cremini, and oyster mushrooms for deep umami richness",
+            "source_url": "https://smittenkitchen.com/2020/01/mushroom-stroganoff/"
+          },
+          {
+            "name": "Smoked Paprika Chicken Stroganoff",
+            "twist": "Use chicken thighs and double the smoked paprika for a Hungarian paprikash-leaning twist",
+            "source_url": "https://www.bonappetit.com/recipe/chicken-paprikash"
+          }
+        ],
+        "engineer_table": {
+          "preheat": "",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "1 lb",
+                  "item": "sirloin steak",
+                  "prep": "sliced into 1/2-inch strips"
+                },
+                {
+                  "qty": "1 tbsp",
+                  "item": "vegetable oil",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "sear 2 min per side over high heat (remove)"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "8 oz",
+                  "item": "cremini mushrooms",
+                  "prep": "sliced"
+                },
+                {
+                  "qty": "4 oz",
+                  "item": "oyster mushrooms",
+                  "prep": "torn"
+                },
+                {
+                  "qty": "1 small",
+                  "item": "onion",
+                  "prep": "diced"
+                },
+                {
+                  "qty": "1/2 tsp",
+                  "item": "salt",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tbsp",
+                  "item": "vegetable oil",
+                  "prep": ""
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "all-purpose flour",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "saute 8 min until golden, add flour, stir 30 sec"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 1/2 cups",
+                  "item": "beef broth",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 1/2 cups",
+                  "item": "chicken broth",
+                  "prep": ""
+                },
+                {
+                  "qty": "1/3 cup",
+                  "item": "brandy",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "deglaze pan, scrape fond"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "2/3 cup",
+                  "item": "sour cream",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tbsp",
+                  "item": "lemon juice",
+                  "prep": ""
+                },
+                {
+                  "qty": "1/2 tsp",
+                  "item": "Dijon mustard",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tbsp",
+                  "item": "fresh dill",
+                  "prep": "chopped"
+                },
+                {
+                  "qty": "1/2 tsp",
+                  "item": "paprika",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "whisk together, set aside"
+            }
+          ],
+          "final_steps": [
+            "return beef, simmer 20 min",
+            "cook 1/3 lb egg noodles separately",
+            "fold sour cream mixture in off heat",
+            "serve over noodles"
+          ]
+        },
+        "parallel_table": null
+      }
+    },
+    {
+      "name": "Mon 03/02",
+      "long_name": "Monday, March 2",
+      "weather": "Moderate snow, 37F/24F",
+      "weather_detail": "Cloudy (21%), wind 8 mph, 30% precip, gusts 21 mph",
+      "calendar": "Work day. IDP Check-in 4:10-5:00 PM",
+      "calendar_items": [
+        "IDP Check-in 4:10-5:00 PM"
+      ],
+      "time_constraints": [
+        "IDP meeting runs until 5pm"
+      ],
+      "dinner": "Baked Ham, Broccoli & Potato Gratin",
+      "dinner_cuisine": "American Comfort",
+      "dinner_description": "A French-inspired gratin born for snow days: thick-cut ham layered with thinly sliced Yukon Golds and blanched broccoli florets, blanketed in a sharp cheddar béchamel. The technique dates back to the Dauphiné region of France, where cooks discovered that cream, cheese, and patience in a hot oven produce something approaching magic. Baked until the top shatters into golden shards.",
+      "dinner_key_ingredients": [
+        "baked ham",
+        "Yukon Gold potatoes",
+        "broccoli",
+        "sharp cheddar",
+        "butter",
+        "flour",
+        "whole milk",
+        "Dijon mustard"
+      ],
+      "dinner_source_url": "https://www.tasteofhome.com/recipes/ham-potato-casserole/",
+      "dinner_source_name": "Taste of Home",
+      "dinner_notes": "Assemble the gratin before the IDP check-in and slide it into the oven after. One dish, no fuss, leftovers for lunch tomorrow.",
+      "dinner_nutrition_notes": "Ham provides protein and B vitamins; potatoes add potassium; broccoli adds vitamins C and K.",
+      "album": "Surprise Chef – Education & Recreation",
+      "album_artist": "Surprise Chef",
+      "album_title": "Education & Recreation",
+      "album_year": "2023",
+      "album_genre": "Instrumental Funk / Soul",
+      "album_mood": "Cinematic, groovy, warm, nostalgic",
+      "album_description": "Melbourne's Surprise Chef recorded Education & Recreation (2022) in what they call a creative vacuum — isolated from the major funk capitals, they built their own cinematic instrumental sound from scratch. Short, punchy tracks full of sample-ready breaks, earworm guitar lines, and a rhythm section that recalls classic Studio One sessions.",
+      "album_sonic_description": "Vintage analog funk-soul with Rhodes piano, warm bass, tight drums, horns, and strings evoking 1970s blaxploitation soundtracks",
+      "album_pairing_rationale": "Cinematic instrumental soul for a cozy snow-day gratin — warm, unhurried, and perfect for watching the flakes fall while the oven works.",
+      "album_spotify_url": "https://open.spotify.com/album/4qEmGz4YBlBTizyMDZzMZO",
+      "activity": "Snow day. Cozy evening in.",
+      "activity_notes": "37°F with snow — stay warm.",
+      "prep_notes": [
+        "Assemble gratin in the morning or after work",
+        "Blanch broccoli before layering"
+      ],
+      "day_of_week": "monday",
+      "weather_high": 37,
+      "weather_low": 24,
+      "weather_condition": "SNOW",
+      "weather_emoji": "❄️",
+      "weather_oneliner": "37°/24° · coldest day, chance of rain",
+      "engagements": [
+        {
+          "time": "4:10-5:00 PM",
+          "event": "IDP Check-in",
+          "event_short": "IDP Check-in"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "sauce",
+          "title": "Infuse the béchamel properly",
+          "instruction": "Before making your roux, simmer the milk for 10 minutes with a halved shallot, 2 crushed garlic cloves, a bay leaf, and 4 whole black peppercorns. Strain, then proceed with your butter-and-flour roux. Add a generous scraping of fresh nutmeg and the Dijon once the sauce is smooth. This is the difference between a sauce that tastes like something and one that tastes like warm milk.",
+          "why": "Infusing aromatics into the milk before building the béchamel creates depth without adding visible ingredients. The bay leaf adds herbal complexity, the shallot sweetness, and the nutmeg — a classic French technique — transforms flat dairy into something haunting.",
+          "extra_ingredients": [
+            "bay leaf",
+            "whole black peppercorns",
+            "whole nutmeg"
+          ]
+        },
+        {
+          "type": "texture",
+          "title": "Panko-Parmigiano crunch top",
+          "instruction": "Mix 1 cup panko breadcrumbs with 1/2 cup finely grated aged Parmigiano-Reggiano, 2 tablespoons melted butter, a pinch of smoked paprika, and a teaspoon of fresh thyme leaves. Scatter over the assembled gratin. Bake covered at 375°F for 40 minutes, then uncover and broil for 3-4 minutes until the top is deeply golden and audibly crackling.",
+          "why": "A gratin without a proper crust is just a casserole. The panko provides shatter, the Parmigiano browns beautifully and adds umami, and the butter ensures even crisping. The broiler finish creates that restaurant-quality crackle.",
+          "extra_ingredients": [
+            "panko breadcrumbs",
+            "Parmigiano-Reggiano",
+            "smoked paprika",
+            "fresh thyme"
+          ]
+        },
+        {
+          "type": "preparation",
+          "title": "Mandoline the potatoes, crisp the ham",
+          "instruction": "Slice Yukon Golds on a mandoline to exactly 1/8-inch — no thicker, or you'll have crunchy spots. Before layering, cut the ham into 1/2-inch cubes and sear them in a dry skillet until the edges caramelize and the fat renders out. This takes 4-5 minutes. Layer the crisped ham between the potato slices so every forkful has a hit of salty, chewy pork.",
+          "why": "Uniform potato thickness means uniform cooking — no raw centers, no mushy edges. Pre-crisping the ham adds a textural surprise in every layer: you expect soft, you get a little chew and caramelization. That contrast is what makes people ask for the recipe.",
+          "extra_ingredients": []
+        }
+      ],
+      "dinner_question": {
+        "day": "Monday",
+        "dinner": "Baked Ham, Broccoli & Potato Gratin",
+        "question": "There's snow outside and warm gratin inside — total opposites. If you could design the perfect cozy day from the moment you wake up to the moment you fall asleep, what would every hour look like?",
+        "category": "imagination",
+        "why": "The contrast between a snowy 37°F day and a bubbling golden gratin creates a natural prompt for thinking about comfort and what makes a day feel good. Designing a full day hour-by-hour practices planning and sequencing — a cognitive skill blooming at 8."
+      },
+      "day_intro": "Snow is falling and it's 37°F — the kind of Monday where you want the oven doing all the work. An IDP check-in this afternoon, then home to a kitchen that smells like sharp cheddar and baked ham.",
+      "recipe_card": {
+        "day": "Monday",
+        "name": "Baked Ham, Broccoli & Potato Gratin",
+        "source_url": "https://www.tasteofhome.com/recipes/ham-potato-casserole/",
+        "source_name": "Taste of Home",
+        "servings": "8",
+        "prep_time": "20 min",
+        "cook_time": "55 min",
+        "nonna_says": "Peel your potatoes, cut them into nice chunks, and get them boiling until they're just barely tender. You want them to hold their shape, not turn to mush. While they simmer, melt the butter in a big skillet, soften the onions, then stir in the flour and whisk in the milk until it thickens up and coats the back of a spoon. Toss in the cheddar and stir until it's silky smooth. Fold in the ham and blanched broccoli florets. Pour everything over those potatoes in a buttered baking dish, cover and bake at 350 for half an hour, then uncover and let the top get golden for another fifteen. This is the kind of dish that makes people think you spent all day cooking, so just smile and accept the compliment.",
+        "variations": [
+          {
+            "name": "Croque Monsieur Potato Gratin",
+            "twist": "Swap cheddar for Gruyere and fold Dijon mustard into the bechamel for a French bistro spin",
+            "source_url": "https://myeverydaytable.com/best-ham-and-potatoes-au-gratin/"
+          },
+          {
+            "name": "Ham and Cauliflower Low-Carb Gratin",
+            "twist": "Replace half the potatoes with cauliflower florets for a lighter, lower-carb version",
+            "source_url": "https://www.empirecipes.com/potatoes-au-gratin-with-ham/"
+          },
+          {
+            "name": "No-Dairy Ham and Potato Gratin",
+            "twist": "Swap the cheese sauce for herb-seasoned chicken broth thickened with mustard and lemon juice",
+            "source_url": "https://food52.com/recipes/33280-no-dairy-ham-and-potato-gratin"
+          }
+        ],
+        "engineer_table": {
+          "preheat": "350°F (175°C)",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "4 lbs",
+                  "item": "Yukon Gold potatoes",
+                  "prep": "peeled, cut into 3/4-inch pieces"
+                },
+                {
+                  "qty": "",
+                  "item": "water",
+                  "prep": "to cover"
+                }
+              ],
+              "merge_action": "boil, then simmer 8-10 min until crisp-tender, drain"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1/4 cup",
+                  "item": "butter",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 small",
+                  "item": "onion",
+                  "prep": "chopped"
+                },
+                {
+                  "qty": "1/4 cup",
+                  "item": "all-purpose flour",
+                  "prep": ""
+                },
+                {
+                  "qty": "2 cups",
+                  "item": "whole milk",
+                  "prep": ""
+                },
+                {
+                  "qty": "2 cups",
+                  "item": "sharp cheddar",
+                  "prep": "shredded"
+                },
+                {
+                  "qty": "1 tsp",
+                  "item": "salt",
+                  "prep": ""
+                },
+                {
+                  "qty": "1/2 tsp",
+                  "item": "black pepper",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "saute onion 5 min, add flour, whisk in milk, melt cheese"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "2 cups",
+                  "item": "baked ham",
+                  "prep": "cubed"
+                },
+                {
+                  "qty": "2 cups",
+                  "item": "broccoli florets",
+                  "prep": "blanched"
+                }
+              ],
+              "merge_action": "fold into cheese sauce"
+            }
+          ],
+          "final_steps": [
+            "pour sauce over potatoes in greased 13x9 dish",
+            "cover, bake 25-30 min",
+            "uncover, bake 15-20 min until golden",
+            "rest 5 min"
+          ]
+        },
+        "parallel_table": null
+      }
+    },
+    {
+      "name": "Tue 03/03",
+      "long_name": "Tuesday, March 3",
+      "weather": "Moderate snow, 40F/32F",
+      "weather_detail": "Cloudy (0%), wind 9 mph, 75% precip, gusts 28 mph",
+      "calendar": "Work meetings. Swim Lessons 6:00-6:30 PM",
+      "calendar_items": [
+        "Level 4 Swim Lessons 6:00-6:30 PM"
+      ],
+      "time_constraints": [
+        "Swim lessons at 6pm — dinner needs to be quick after or prepped before"
+      ],
+      "dinner": "Babo Pasta — Homemade Spinach Pasta with Alfredo Sauce",
+      "dinner_cuisine": "Italian",
+      "dinner_description": "The family's signature dish — handmade spinach pasta using only egg yolks for a rich, golden dough that practically glows on the plate. Tossed in a simple Alfredo of butter, Parmigiano-Reggiano, and starchy pasta water, with blanched broccoli florets folded in at the last second. Fresh pasta cooks in barely two minutes, so dinner comes together faster than you'd expect.",
+      "dinner_key_ingredients": [
+        "spinach",
+        "egg yolks",
+        "00 flour",
+        "butter",
+        "Parmigiano-Reggiano",
+        "broccoli"
+      ],
+      "dinner_source_url": "https://www.bonappetit.com/recipe/fresh-pasta-dough",
+      "dinner_source_name": "Family Recipe",
+      "dinner_notes": "Mix the dough before swim lessons, let it rest wrapped in plastic for 30 minutes. Roll and cut when you get home — Elsie loves cranking the pasta machine.",
+      "dinner_nutrition_notes": "Eggs provide protein and choline; spinach adds iron and folate; broccoli for vitamin C.",
+      "album": "Kokoroko – Could We Be More",
+      "album_artist": "Kokoroko",
+      "album_title": "Could We Be More",
+      "album_year": "2022",
+      "album_genre": "Afrobeat / Jazz",
+      "album_mood": "Warm, hopeful, breezy, soulful",
+      "album_description": "London's eight-piece Kokoroko spent years refining Could We Be More (2022) after their breakout single \"Abusey Junction\" went viral. The result is 15 tracks of West African highlife and Afrobeat woven with jazz and neo-soul — warm brass, lilting melodies, and polyrhythms that feel like a homecoming. Released on Gilles Peterson's Brownswood Recordings.",
+      "album_sonic_description": "Afrobeat-jazz fusion with highlife guitar, trumpet melodies, soft percussion, and gentle vocals over deep pocket grooves",
+      "album_pairing_rationale": "Gentle, hopeful Afrobeat-jazz for a post-swim wind-down with homemade pasta — rhythmic enough to keep energy up, warm enough to settle a tired Tuesday.",
+      "album_spotify_url": "https://open.spotify.com/album/2ZhFMPgNn6s2UWDHgu6MVS",
+      "activity": "Swim lessons",
+      "activity_notes": "Snowy day, 40°F — bundle up for the drive.",
+      "prep_notes": [
+        "Make pasta dough before swim lessons",
+        "Steam broccoli while boiling pasta water"
+      ],
+      "day_of_week": "tuesday",
+      "weather_high": 40,
+      "weather_low": 32,
+      "weather_condition": "SNOW",
+      "weather_emoji": "❄️",
+      "weather_oneliner": "40°/32° · likely rain",
+      "engagements": [
+        {
+          "time": "6:00-6:30 PM",
+          "event": "Level 4 Swim Lessons",
+          "event_short": "Level 4 Swim Lessons"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "sauce",
+          "title": "True Alfredo — emulsify, don't cook",
+          "instruction": "Melt 4 tablespoons of unsalted butter in a wide skillet over medium-low heat. Add the hot, just-drained pasta directly into the butter with 1/2 cup of starchy pasta water. Toss vigorously. Kill the heat. Add 2 cups of finely grated Parmigiano-Reggiano in three additions, tossing constantly between each. The pasta water's starch and the fat from the butter create an emulsion — a glossy, clinging sauce with no cream needed. If it tightens, add another splash of pasta water. If it breaks, a tablespoon of cold butter whisked in saves it.",
+          "why": "Authentic Alfredo is a three-ingredient emulsion: butter, Parmigiano, pasta water. Adding cream is the American shortcut that masks the cheese. Building the emulsion off-heat with starchy water gives you a sauce that's lighter, glossier, and lets the Parmigiano actually speak.",
+          "extra_ingredients": []
+        },
+        {
+          "type": "texture",
+          "title": "Toasted garlic breadcrumb gremolata",
+          "instruction": "In a small skillet, warm 2 tablespoons of good olive oil over medium heat. Add 3 cloves of thinly sliced garlic and cook until just golden — 90 seconds, no more. Add 1/2 cup coarse fresh breadcrumbs (tear day-old bread, don't use the canister stuff). Toast until deeply golden and crunchy, about 3 minutes. Toss with lemon zest and a pinch of flaky salt. Scatter generously over each plate of pasta.",
+          "why": "Soft pasta on soft sauce needs a textural interruption. The breadcrumbs provide crunch, the garlic chips add savory depth, and the lemon zest brings a brightness that lifts the entire dish. It's the difference between pleasant and memorable.",
+          "extra_ingredients": [
+            "day-old bread",
+            "olive oil",
+            "garlic",
+            "lemon",
+            "flaky salt"
+          ]
+        },
+        {
+          "type": "preparation",
+          "title": "Rest and hydrate the pasta dough",
+          "instruction": "After mixing the spinach pasta dough, wrap it tightly in plastic and rest at room temperature for a full 30 minutes. The gluten relaxes, making it easier to roll thin without tearing. When rolling, go to the second-thinnest setting on your pasta machine — thin enough to be translucent but sturdy enough to hold the sauce. Blanch the spinach, squeeze it bone-dry in a towel, and chop it fine before incorporating. Any residual water makes the dough sticky and impossible to work.",
+          "why": "Resting develops gluten structure without overworking the dough. Bone-dry spinach prevents excess moisture from throwing off the flour ratio — wet dough tears, doesn't roll, and cooks unevenly. These are the details that separate homemade pasta that happens to be green from pasta that's actually good.",
+          "extra_ingredients": []
+        }
+      ],
+      "dinner_question": {
+        "day": "Tuesday",
+        "dinner": "Babo Pasta (Homemade Spinach Pasta)",
+        "question": "We're making pasta from scratch tonight — the dough, the rolling, everything. What's something you've made completely from scratch that you're really proud of? It doesn't have to be food — it could be anything.",
+        "category": "story-drawing",
+        "why": "After swim lessons, she's physically tired but mentally open. Connecting the effort of handmade pasta to her own experiences of building something from nothing reinforces that effort has a taste — and it's satisfying. This also validates her growing sense of competence."
+      },
+      "day_intro": "Still snowy at 40°F, but swim lessons wait for no weather. The trick tonight is timing: make the pasta dough before you leave, and it'll be rested and ready to roll the moment you walk back in the door.",
+      "recipe_card": {
+        "day": "Tuesday",
+        "name": "Babo Pasta: Homemade Spinach Pasta with Alfredo Sauce",
+        "source_url": "https://www.bonappetit.com/recipe/fresh-pasta-dough",
+        "source_name": "Family Recipe (technique: Bon Appetit)",
+        "servings": "4",
+        "prep_time": "45 min",
+        "cook_time": "10 min",
+        "nonna_says": "Blanch the spinach for thirty seconds, squeeze out every last drop of water, and chop it fine. Make a well in your 00 flour, drop in the egg yolks, the spinach, and a drizzle of olive oil. Work it together with your hands until you've got a smooth, bright green ball of dough, then wrap it tight and let it rest for thirty minutes. Roll it thin through the pasta machine, dust it with flour, and cut your fettuccine. For the sauce, melt butter low and slow, pour in the cream, and stir in a mountain of freshly grated Parmigiano until it's thick and glossy. Cook your pasta in salty boiling water for just two minutes. If you're reaching for the jarred stuff, just close this book and order delivery.",
+        "variations": [
+          {
+            "name": "Cacio e Pepe with Fresh Spinach Pasta",
+            "twist": "Skip the cream and toss the green pasta with pecorino, cracked black pepper, and starchy pasta water",
+            "source_url": "https://www.bonappetit.com/recipe/cacio-e-pepe"
+          },
+          {
+            "name": "Brown Butter and Sage Spinach Fettuccine",
+            "twist": "Replace Alfredo with nutty browned butter, crispy fried sage leaves, and a shower of shaved Parmigiano",
+            "source_url": "https://www.theclevercarrot.com/2022/05/fresh-spinach-pasta-dough/"
+          },
+          {
+            "name": "Lemon Ricotta Spinach Pasta",
+            "twist": "Toss fresh pasta with ricotta, lemon zest, toasted pine nuts, and a splash of pasta water for a lighter finish",
+            "source_url": "https://www.laurafuentes.com/spinach-alfredo/"
+          }
+        ],
+        "engineer_table": {
+          "preheat": "",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "150g",
+                  "item": "fresh spinach",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "blanch 30 sec, ice bath, squeeze dry, chop fine"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "250g",
+                  "item": "00 flour",
+                  "prep": ""
+                },
+                {
+                  "qty": "3 large",
+                  "item": "egg yolks",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tsp",
+                  "item": "olive oil",
+                  "prep": ""
+                },
+                {
+                  "qty": "pinch",
+                  "item": "salt",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "make well, add spinach + wet, knead 8-10 min until smooth"
+            }
+          ],
+          "final_steps": [
+            "wrap and rest 30 min",
+            "roll thin, dust with flour, cut fettuccine",
+            "cook 2 min in boiling salted water",
+            "toss with Alfredo sauce"
+          ]
+        },
+        "parallel_table": {
+          "note": "Meanwhile, make the Alfredo:",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "1/2 cup",
+                  "item": "unsalted butter",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 cup",
+                  "item": "heavy cream",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 1/2 cups",
+                  "item": "Parmigiano-Reggiano",
+                  "prep": "freshly grated"
+                },
+                {
+                  "qty": "to taste",
+                  "item": "black pepper",
+                  "prep": "freshly ground"
+                },
+                {
+                  "qty": "pinch",
+                  "item": "nutmeg",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "melt butter, add cream, simmer, stir in cheese until glossy"
+            }
+          ],
+          "final_steps": [
+            "toss with drained pasta immediately",
+            "serve with extra Parmigiano"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Wed 03/04",
+      "long_name": "Wednesday, March 4",
+      "weather": "Moderate drizzle, 62F/41F",
+      "weather_detail": "Mostly Sunny (75%), wind 12 mph, 42% precip, gusts 38 mph",
+      "calendar": "Product Day at work",
+      "calendar_items": [
+        "Product Day (all day)"
+      ],
+      "time_constraints": [
+        "Busy work day — quick dinner needed"
+      ],
+      "dinner": "Beef & Broccoli Stir Fry with Oyster Mushrooms",
+      "dinner_cuisine": "Chinese",
+      "dinner_description": "A Chinese-American classic that dates to the 1920s, when Cantonese immigrants swapped hard-to-find gai lan for Western broccoli and created something entirely new. Velveted flank steak wok-seared at screaming heat with broccoli and oyster mushrooms, glazed in a sauce of oyster sauce, soy, garlic, ginger, and Shaoxing wine. Thirty minutes, start to plate.",
+      "dinner_key_ingredients": [
+        "flank steak",
+        "broccoli",
+        "oyster mushrooms",
+        "garlic",
+        "ginger",
+        "green onions",
+        "oyster sauce",
+        "Shaoxing wine"
+      ],
+      "dinner_source_url": "https://www.seriouseats.com/chinese-american-beef-and-broccoli-with-oyster-sauce-recipe",
+      "dinner_source_name": "Serious Eats",
+      "dinner_notes": "Velvet the beef in a cornstarch slurry for 15 minutes before cooking — this is the secret to takeout-tender strips at home.",
+      "dinner_nutrition_notes": "Beef provides iron and B12; broccoli adds vitamin C to aid iron absorption; mushrooms for selenium.",
+      "album": "The Budos Band – Long in the Tooth",
+      "album_artist": "The Budos Band",
+      "album_title": "Long in the Tooth",
+      "album_year": "2020",
+      "album_genre": "Afrobeat / Funk",
+      "album_mood": "Intense, driving, psychedelic, powerful",
+      "album_description": "Staten Island's Budos Band recorded Long in the Tooth (2020) at Diamond Mine Studios in Queens to mark their 15th anniversary. It's a return to their horn-driven roots — driving Afrobeat grooves, Farfisa organ, and gritty guitar filtered through psychedelic rock. Every track hits like a vintage action-movie chase scene.",
+      "album_sonic_description": "Heavy Afrobeat-funk with distorted guitars, blaring horns, pounding drums, and a wall of rhythm that hits like a freight train",
+      "album_pairing_rationale": "The driving energy of Afrobeat-funk matches the fast pace of wok cooking — high heat, quick moves, thunderous results after a long Product Day.",
+      "album_spotify_url": "https://open.spotify.com/album/5OmRhLCa5tk7Y5XKGJDq6u",
+      "activity": "Product Day at work",
+      "activity_notes": "62°F and warming up — spring is arriving!",
+      "prep_notes": [
+        "Slice steak and prep vegetables before work",
+        "Have rice ready to go"
+      ],
+      "day_of_week": "wednesday",
+      "weather_high": 62,
+      "weather_low": 41,
+      "weather_condition": "MODERATE DRIZZLE",
+      "weather_emoji": "🌤️",
+      "weather_oneliner": "62°/41° · gusty, chance of rain",
+      "engagements": [
+        {
+          "time": "",
+          "event": "Product Day (all day)",
+          "event_short": "Product Day"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "marinade",
+          "title": "Velvet the flank steak",
+          "instruction": "Slice flank steak thin against the grain. Toss with 1 tablespoon soy sauce, 1 tablespoon cornstarch, 1/2 teaspoon baking soda, 1 tablespoon Shaoxing wine, and 1 teaspoon neutral oil. Let it sit for 25 minutes. The baking soda raises the pH, the cornstarch forms a protective sheath, and the wine tenderizes. When this hits a scorching-hot wok, the exterior sears while the interior stays impossibly tender. This is the single technique that separates home stir fry from restaurant stir fry.",
+          "why": "Velveting is the foundational Chinese restaurant technique for tender stir-fried meat. The alkaline baking soda breaks down surface proteins while the cornstarch coating creates a barrier that locks in moisture during high-heat cooking. Every Chinese restaurant does this. Now you do too.",
+          "extra_ingredients": [
+            "baking soda",
+            "cornstarch"
+          ]
+        },
+        {
+          "type": "preparation",
+          "title": "Blanch the broccoli, char the mushrooms",
+          "instruction": "Blanch broccoli florets in boiling salted water for exactly 60 seconds, then plunge into ice water. Drain and pat dry. For the oyster mushrooms: tear them into large pieces (don't cut — torn edges sear better), then cook in a dry wok over maximum heat without touching them for 2 minutes until charred on one side. Remove. Everything gets combined at the very end with the sauce. Stir fry is an assembly job — every component is cooked separately at its ideal heat.",
+          "why": "Blanching locks in the broccoli's color and crunch while removing raw bitterness. Charring mushrooms dry intensifies their umami and creates crispy edges that hold up in the final toss. Cooking components separately prevents the cardinal sin of stir fry: steaming instead of searing.",
+          "extra_ingredients": []
+        },
+        {
+          "type": "sauce",
+          "title": "Glossy Shaoxing-sesame finishing sauce",
+          "instruction": "Mix 2 tablespoons oyster sauce, 1 tablespoon soy sauce, 1 tablespoon Shaoxing wine, 1 teaspoon dark soy sauce (for color), 1 teaspoon sugar, and 1 teaspoon cornstarch dissolved in 2 tablespoons water. After all components are seared, return everything to the wok over high heat, pour in the sauce, and toss for 30 seconds until glossy and clinging. Finish with a drizzle of toasted sesame oil off the heat — never cook sesame oil, it burns and turns bitter.",
+          "why": "A pre-mixed sauce ensures even seasoning and proper consistency in the 30-second window you have before the dish overcooks. Dark soy adds mahogany color without excess salt. The cornstarch slurry creates that glossy, restaurant-style coating that makes each piece glisten.",
+          "extra_ingredients": [
+            "dark soy sauce",
+            "sugar",
+            "toasted sesame oil"
+          ]
+        }
+      ],
+      "dinner_question": {
+        "day": "Wednesday",
+        "dinner": "Beef & Broccoli Stir Fry",
+        "question": "Stir fry cooks really fast — everything happens in just a few minutes over high heat. What's something important that you think people rush through too quickly? What would happen if everyone just slowed down?",
+        "category": "values",
+        "why": "Dan's Product Day means the household tempo might feel faster than usual. This question invites Elsie to reflect on pace and presence — a concept she's just beginning to grasp at 8. It quietly validates the idea that slowing down is wise, not lazy, and gives her permission to name what she notices about the world around her."
+      },
+      "day_intro": "The temperature jumps to 62°F with a light drizzle — spring is knocking. Product Day means a long stretch at work, so dinner needs to be fast, satisfying, and mostly hands-off once the wok gets hot.",
+      "recipe_card": {
+        "day": "Wednesday",
+        "name": "Beef & Broccoli Stir Fry with Oyster Mushrooms",
+        "source_url": "https://www.seriouseats.com/chinese-american-beef-and-broccoli-with-oyster-sauce-recipe",
+        "source_name": "Serious Eats",
+        "servings": "4",
+        "prep_time": "20 min",
+        "cook_time": "15 min",
+        "nonna_says": "Slice the flank steak thin against the grain and toss it with soy sauce, Shaoxing wine, and cornstarch. Let it sit while you mix the sauce: oyster sauce, soy, a little sugar, chicken stock, and cornstarch. Blanch the broccoli for thirty seconds until it turns that electric green, then shock it in ice water and drain it dry. Get your wok screaming hot, sear the beef in batches until it's got color but still pink inside, and set it aside. Same wok, hit the garlic and ginger for thirty seconds, add the broccoli and oyster mushrooms, and toss them fast. Pour in the sauce, return the beef, and stir until everything is coated in a sticky, glossy glaze. Serve it over rice immediately because nobody in the history of cooking has ever been sorry for eating this hot.",
+        "variations": [
+          {
+            "name": "Black Bean Sauce Beef and Broccolini",
+            "twist": "Swap oyster sauce for fermented black bean sauce and use broccolini for a more bitter, complex bite",
+            "source_url": "https://thewoksoflife.com/beef-with-broccoli-all-purpose-stir-fry-sauce/"
+          },
+          {
+            "name": "Beef and Broccoli Noodle Stir Fry",
+            "twist": "Skip the rice and toss everything with chewy udon noodles and a splash of hoisin for a saucy one-bowl dinner",
+            "source_url": "https://www.lindsaypleskot.com/beef-and-broccoli-noodles/"
+          },
+          {
+            "name": "Crispy Ginger Tofu and Broccoli Stir Fry",
+            "twist": "Replace beef with pressed, cornstarch-dusted tofu fried until shatteringly crispy, and add fresh ginger matchsticks",
+            "source_url": "https://www.seriouseats.com/vegan-stir-fry-with-crispy-tofu"
+          }
+        ],
+        "engineer_table": {
+          "preheat": "",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "1 lb",
+                  "item": "flank steak",
+                  "prep": "sliced thin against the grain"
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "soy sauce",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tbsp",
+                  "item": "Shaoxing wine",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tbsp",
+                  "item": "cornstarch",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "toss together, marinate 15-30 min"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "3 tbsp",
+                  "item": "oyster sauce",
+                  "prep": ""
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "soy sauce",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tsp",
+                  "item": "sugar",
+                  "prep": ""
+                },
+                {
+                  "qty": "1/2 cup",
+                  "item": "chicken stock",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tbsp",
+                  "item": "cornstarch",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tsp",
+                  "item": "sesame oil",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "whisk together, set aside"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 lb",
+                  "item": "broccoli florets",
+                  "prep": ""
+                },
+                {
+                  "qty": "6 oz",
+                  "item": "oyster mushrooms",
+                  "prep": "torn into pieces"
+                },
+                {
+                  "qty": "4 cloves",
+                  "item": "garlic",
+                  "prep": "minced"
+                },
+                {
+                  "qty": "1-inch piece",
+                  "item": "fresh ginger",
+                  "prep": "minced"
+                },
+                {
+                  "qty": "3 tbsp",
+                  "item": "vegetable oil",
+                  "prep": "divided"
+                }
+              ],
+              "merge_action": "blanch broccoli 30 sec, ice bath; stir-fry aromatics 30 sec"
+            }
+          ],
+          "final_steps": [
+            "sear beef in batches over high heat (remove)",
+            "wok-fry garlic, ginger, broccoli, mushrooms 1 min",
+            "return beef, pour sauce, toss until glazed",
+            "serve over steamed rice"
+          ]
+        },
+        "parallel_table": null
+      }
+    },
+    {
+      "name": "Thu 03/05",
+      "long_name": "Thursday, March 5",
+      "weather": "Dense drizzle, 73F/54F",
+      "weather_detail": "Sunny (92%), wind 13 mph, 28% precip, gusts 37 mph",
+      "calendar": "Free evening",
+      "calendar_items": [],
+      "time_constraints": [],
+      "dinner": "Broccoli & Oyster Mushroom Flatbread with Ricotta & Chili Honey",
+      "dinner_cuisine": "Italian-American",
+      "dinner_description": "A modern riff on Italian pizza bianca meets the Brooklyn hot-honey trend: pizza dough stretched thin and topped with dollops of ricotta, roasted broccoli florets, sautéed oyster mushrooms, red pepper flakes, and a drizzle of chili honey that caramelizes in the oven. The sweet-spicy-creamy combination is addictive, and the flat format makes it perfect for little hands to help assemble.",
+      "dinner_key_ingredients": [
+        "pizza dough",
+        "ricotta",
+        "broccoli",
+        "oyster mushrooms",
+        "mozzarella",
+        "hot honey",
+        "red pepper flakes",
+        "olive oil"
+      ],
+      "dinner_source_url": "https://food52.com/recipes/85857-broccoli-pizza-recipe",
+      "dinner_source_name": "Food52",
+      "dinner_notes": "Get Elsie involved in topping the flatbread — spreading ricotta and drizzling honey is the fun part. Use store-bought dough for speed.",
+      "dinner_nutrition_notes": "Ricotta provides calcium and protein; broccoli for vitamins; mushrooms add umami and B vitamins.",
+      "album": "Nubiyan Twist – Freedom Fables",
+      "album_artist": "Nubiyan Twist",
+      "album_title": "Freedom Fables",
+      "album_year": "2021",
+      "album_genre": "Afrobeat / Jazz / Funk",
+      "album_mood": "Joyful, energetic, celebratory, diverse",
+      "album_description": "UK collective Nubiyan Twist spent five years building Freedom Fables (2021) on the road, refining tracks through live jams and guest collaborations with artists like Ghanaian highlife legend Pat Thomas and saxophonist Soweto Kinch. The result fuses Afrobeat, jazz, dub, and soul into a joyful, genre-defying celebration.",
+      "album_sonic_description": "Genre-blending ensemble with Afrobeat rhythms, jazz horns, dub bass, funk guitar, and soulful vocals from multiple guest singers",
+      "album_pairing_rationale": "Joyful, celebratory energy for the first spring evening with the windows open — a soundtrack for making flatbread with warm air flowing through the kitchen.",
+      "album_spotify_url": "https://open.spotify.com/album/7FNdVh8JdXxSMFSbbWXVpo",
+      "activity": "First warm spring evening — enjoy the 73°F!",
+      "activity_notes": "Open the windows, maybe eat on the patio.",
+      "prep_notes": [
+        "Roast broccoli and sauté mushrooms while dough comes to room temp"
+      ],
+      "day_of_week": "thursday",
+      "weather_high": 73,
+      "weather_low": 54,
+      "weather_condition": "DENSE DRIZZLE",
+      "weather_emoji": "🌤️",
+      "weather_oneliner": "73°/54° · warmest day, gusty",
+      "engagements": [],
+      "dinner_elevation_tips": [
+        {
+          "type": "preparation",
+          "title": "Whip the ricotta, roast the toppings",
+          "instruction": "Whip the ricotta in a food processor with a tablespoon of good olive oil, the zest of one lemon, a pinch of salt, and a crack of black pepper until cloud-smooth — about 45 seconds. Separately, toss broccoli florets and torn oyster mushrooms with olive oil and roast at 425°F for 12 minutes until the edges char. The toppings go on the flatbread pre-roasted. Raw broccoli on a flatbread is a crime against texture.",
+          "why": "Whipping ricotta aerates it and distributes the seasoning evenly — it melts into a creamy layer rather than sitting in sad dollops. Pre-roasting the vegetables concentrates their flavor and removes moisture so the dough stays crisp instead of getting soggy.",
+          "extra_ingredients": [
+            "lemon"
+          ]
+        },
+        {
+          "type": "sauce",
+          "title": "Make your own chili honey",
+          "instruction": "Warm 1/4 cup honey in a small saucepan over low heat with 1 teaspoon red pepper flakes and 1 teaspoon apple cider vinegar. Let it steep for 5 minutes off the heat. The vinegar is the secret — it cuts the sweetness and makes the honey taste like honey instead of sugar syrup. Apply the hot honey after the flatbread comes out of the oven, never before. Sugar burns.",
+          "why": "Store-bought hot honey lacks vinegar's balancing acid and often tastes one-dimensional. Making it fresh takes 5 minutes and gives you control over heat level. The vinegar addition creates a sweet-spicy-tangy trinity that makes the ricotta and charred vegetables sing.",
+          "extra_ingredients": [
+            "honey",
+            "red pepper flakes",
+            "apple cider vinegar"
+          ]
+        },
+        {
+          "type": "acid",
+          "title": "Fresh arugula and lemon finish",
+          "instruction": "The second the flatbread comes out of the oven, pile a handful of baby arugula on top and squeeze half a lemon over it. The residual heat barely wilts the greens. Finish with a thread of your best olive oil and flaky sea salt. This isn't garnish — it's a structural element. The peppery, cool arugula against the hot, sweet, spicy flatbread is the whole point.",
+          "why": "Temperature contrast and raw freshness against a cooked dish create the sensory surprise that elevates flatbread from snack to destination. The arugula's bitterness and the lemon's acidity counterbalance the rich cheese and sweet honey.",
+          "extra_ingredients": [
+            "baby arugula",
+            "lemon",
+            "flaky sea salt"
+          ]
+        }
+      ],
+      "dinner_question": {
+        "day": "Thursday",
+        "dinner": "Broccoli & Oyster Mushroom Flatbread",
+        "question": "It's the first really warm evening of the year — 73 degrees! What's something about spring that you're most excited about? And what's one thing about winter you'll actually miss?",
+        "category": "gratitude",
+        "why": "Holding two feelings at once — excitement for what's coming and a little sadness for what's leaving — is an emotional complexity milestone at age 8. The warm evening and the hands-on fun of making flatbread together create a relaxed, open setting to practice it."
+      },
+      "day_intro": "Seventy-three degrees and the windows are finally open — the first real spring evening of the year. This is the night for something light, casual, and fun to make together.",
+      "recipe_card": {
+        "day": "Thursday",
+        "name": "Broccoli & Oyster Mushroom Flatbread with Ricotta & Chili Honey",
+        "source_url": "https://food52.com/recipes/85857-broccoli-pizza-recipe",
+        "source_name": "Food52",
+        "servings": "4",
+        "prep_time": "15 min",
+        "cook_time": "20 min",
+        "nonna_says": "Heat your oven to 450 and get that pizza stone hot if you've got one. Toss the broccoli florets and sliced oyster mushrooms with olive oil, salt, and a pinch of red pepper, then roast them until they're charred and sweet at the edges. Mix the ricotta with lemon zest, a clove of grated garlic, salt, and pepper until it's smooth and spreadable. Stretch your dough thin, spread the ricotta all over, and scatter the charred vegetables on top. Bake until the crust is golden and puffed, about ten minutes. Pull it out and drizzle the hot honey all over while it's still steaming. This is not diet food and it was never trying to be.",
+        "variations": [
+          {
+            "name": "Broccoli Pesto and Burrata Flatbread",
+            "twist": "Blend half the broccoli into a pesto with basil, garlic, and pine nuts, then top with torn burrata after baking",
+            "source_url": "https://peasandcrayons.com/cheesy-broccoli-pesto-flatbread-pizza/"
+          },
+          {
+            "name": "Mediterranean Broccoli Flatbread with Olives and Feta",
+            "twist": "Add kalamata olives and crumbled feta instead of ricotta, finish with lemon juice and oregano",
+            "source_url": "https://umamigirl.com/naan-pizza-ricotta-broccoli/"
+          },
+          {
+            "name": "Smitten Kitchen Broccoli Pizza",
+            "twist": "Use a thin, crispy crust with mozzarella and roasted lemon-pepper broccoli for a classic pizzeria approach",
+            "source_url": "https://smittenkitchen.com/2017/02/broccoli-pizza/"
+          }
+        ],
+        "engineer_table": {
+          "preheat": "450°F (230°C) with pizza stone",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "2 heads",
+                  "item": "broccoli",
+                  "prep": "cut into small florets"
+                },
+                {
+                  "qty": "6 oz",
+                  "item": "oyster mushrooms",
+                  "prep": "sliced"
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "olive oil",
+                  "prep": ""
+                },
+                {
+                  "qty": "1/2 tsp",
+                  "item": "salt",
+                  "prep": ""
+                },
+                {
+                  "qty": "pinch",
+                  "item": "red pepper flakes",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "toss, roast 425F 15 min until charred at edges"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 cup",
+                  "item": "whole-milk ricotta",
+                  "prep": ""
+                },
+                {
+                  "qty": "1",
+                  "item": "lemon",
+                  "prep": "zested"
+                },
+                {
+                  "qty": "1 clove",
+                  "item": "garlic",
+                  "prep": "grated"
+                },
+                {
+                  "qty": "to taste",
+                  "item": "salt and pepper",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "stir until smooth and spreadable"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "3 tbsp",
+                  "item": "honey",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tsp",
+                  "item": "crushed red pepper",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tsp",
+                  "item": "apple cider vinegar",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "warm gently, whisk together"
+            }
+          ],
+          "final_steps": [
+            "stretch 1 lb pizza dough thin",
+            "spread ricotta, top with roasted vegetables",
+            "bake 10 min until crust is golden",
+            "drizzle chili honey, slice, serve"
+          ]
+        },
+        "parallel_table": null
+      }
+    },
+    {
+      "name": "Fri 03/06",
+      "long_name": "Friday, March 6",
+      "weather": "Overcast, 59F/47F",
+      "weather_detail": "Mostly Sunny (85%), wind 10 mph, 28% precip, gusts 17 mph",
+      "calendar": "Elsie YAT 4:30-6:00 PM",
+      "calendar_items": [
+        "Elsie YAT 4:30-6:00 PM"
+      ],
+      "time_constraints": [
+        "Elsie at YAT until 6pm — start cooking while she’s out"
+      ],
+      "dinner": "Pan-Seared Branzino with Lemon-Herb Butter & Roasted Broccoli",
+      "dinner_cuisine": "Mediterranean",
+      "dinner_description": "Skin-on branzino fillets seared in a cast-iron pan until the skin crackles like a chip, finished with a sauce of brown butter, lemon, capers, and fresh herbs. Branzino — a Mediterranean sea bass prized for its mild, sweet flesh — needs almost nothing beyond high heat, good butter, and restraint. Served alongside simple roasted broccoli with lemon zest and flaky salt.",
+      "dinner_key_ingredients": [
+        "branzino fillets",
+        "butter",
+        "lemon",
+        "capers",
+        "fresh parsley",
+        "broccoli",
+        "olive oil"
+      ],
+      "dinner_source_url": "https://www.foodandwine.com/recipes/pan-roasted-branzino-with-caper-butter",
+      "dinner_source_name": "Food & Wine",
+      "dinner_notes": "Pat the fillets bone-dry with paper towels before they hit the pan — wet skin steams instead of crisping. Dad's fish craving, answered.",
+      "dinner_nutrition_notes": "Branzino is lean protein rich in omega-3s; broccoli adds fiber and vitamins C and K.",
+      "elsie_note": "Elsie’s not a fan of fish this week — have buttered pasta or a quesadilla ready as her backup, plus the roasted broccoli she loves.",
+      "album": "Marcos Valle – Garra",
+      "album_artist": "Marcos Valle",
+      "album_title": "Garra",
+      "album_year": "1971",
+      "album_genre": "Brazilian / MPB / Funk",
+      "album_mood": "Breezy, rhythmic, sophisticated, sunny",
+      "album_description": "Marcos Valle recorded Garra (1971) at Odeon Studios in Rio de Janeiro during Brazil's military dictatorship, weaving subtle social commentary into sun-drenched grooves. It's bossa nova crossed with funk, samba soul, and baroque pop — tracks like \"Black Is Beautiful\" and \"Paz e Futebol\" have become rare-groove essential listening worldwide.",
+      "album_sonic_description": "Brazilian funk-soul with bossa nova rhythms, lush orchestration, Fender Rhodes, and Valle’s smooth vocals floating over syncopated grooves",
+      "album_pairing_rationale": "Breezy Brazilian grooves for a Mediterranean fish dinner — the ocean vibes of Garra complement branzino perfectly, and the rhythm keeps Friday evening light.",
+      "album_spotify_url": "https://open.spotify.com/album/5E8m3TFKbfMNqosfB8hqnD",
+      "activity": "Elsie at YAT",
+      "activity_notes": "59°F, mild evening.",
+      "prep_notes": [
+        "Start roasting broccoli while Elsie is at YAT",
+        "Sear fish just before serving"
+      ],
+      "day_of_week": "friday",
+      "weather_high": 59,
+      "weather_low": 47,
+      "weather_condition": "OVERCAST",
+      "weather_emoji": "☁️",
+      "weather_oneliner": "59°/47°",
+      "engagements": [
+        {
+          "time": "4:30-6:00 PM",
+          "event": "Elsie YAT",
+          "event_short": "Elsie YAT"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "preparation",
+          "title": "Achieve glass-crispy skin",
+          "instruction": "Pat the fillets aggressively dry with paper towels — both sides, twice. Score the skin with 3 shallow diagonal cuts to prevent curling. Season the skin side with salt 5 minutes before cooking to draw out residual moisture. Heat a stainless steel or cast-iron skillet over medium-high heat with a thin film of high-smoke-point oil (grapeseed or canola). Place fillets skin-side down and press gently with a spatula for the first 15 seconds. Do not touch them again for 4 minutes. You'll know they're ready when the skin releases from the pan on its own. Flip for 60 seconds on the flesh side. That's it.",
+          "why": "Moisture is the enemy of crispy skin. Every drop of water on that fillet turns to steam instead of allowing the skin to fry in the oil. Scoring prevents curling, and the initial press ensures full contact with the hot surface. Patience — not moving the fish — is the technique.",
+          "extra_ingredients": [
+            "grapeseed oil"
+          ]
+        },
+        {
+          "type": "sauce",
+          "title": "Brown butter with fried capers",
+          "instruction": "After removing the fish, wipe the skillet and add 3 tablespoons unsalted butter over medium heat. Once it foams, add 2 tablespoons drained capers — they'll sputter and pop, then turn into crispy little flavor grenades in about 90 seconds. When the butter solids turn hazelnut-brown and smell nutty, add the juice of one lemon and 2 tablespoons chopped fresh parsley. Swirl once. Spoon immediately over the fish — brown butter waits for no one.",
+          "why": "Brown butter is regular butter's more interesting older sibling. The milk solids caramelize, creating nutty complexity. Frying the capers in that butter transforms them from soft and briny to crunchy and concentrated. The lemon juice stops the browning and creates a broken emulsion that coats the fish beautifully.",
+          "extra_ingredients": []
+        },
+        {
+          "type": "temperature",
+          "title": "Cold herb salsa verde on the side",
+          "instruction": "Finely chop a generous handful of fresh parsley, a few mint leaves, and a small shallot. Combine with 1 minced garlic clove, 1 tablespoon red wine vinegar, 3 tablespoons good olive oil, and a pinch of flaky salt. Serve this cold, in a small bowl alongside the hot fish. The contrast of the cold, punchy, herbaceous salsa verde against the warm, buttery, crispy-skinned branzino is restaurant-level dining.",
+          "why": "Temperature contrast between a cold, acidic sauce and hot, rich protein creates a sensory experience that a single-temperature plate cannot achieve. The salsa verde also provides a textural counterpoint — chunky and fresh against the smooth, flaky fish.",
+          "extra_ingredients": [
+            "fresh mint",
+            "red wine vinegar",
+            "shallot"
+          ]
+        }
+      ],
+      "dinner_question": {
+        "day": "Friday",
+        "dinner": "Pan-Seared Branzino",
+        "question": "Tonight's dinner is fish, and we know that's not your favorite. But here's a question: what's something you used to not like — a food, an activity, a song, even a person — that you've totally changed your mind about? What made you change?",
+        "category": "values",
+        "why": "This reframes the fish dinner from a dreaded meal into a growth conversation. At 8, kids are starting to notice that their preferences shift over time, which is a building block for understanding that identity isn't fixed — you're allowed to change your mind about things, including yourself. No pressure to eat the fish — just to think about change."
+      },
+      "day_intro": "Friday at 59°F with Elsie at YAT until six. A quieter evening calls for something elegant and quick — the kind of meal that looks impressive but takes twenty-five minutes from fridge to table.",
+      "recipe_card": {
+        "day": "Friday",
+        "name": "Pan-Seared Branzino with Lemon-Herb Butter & Roasted Broccoli",
+        "source_url": "https://www.foodandwine.com/recipes/pan-roasted-branzino-with-caper-butter",
+        "source_name": "Food & Wine",
+        "servings": "4",
+        "prep_time": "10 min",
+        "cook_time": "20 min",
+        "nonna_says": "Pat the branzino fillets bone dry with paper towels, both sides. Season with salt and pepper, nothing fancy. Get your pan hot with a little olive oil, then lay the fillets in skin side down and press them flat with a spatula for the first minute so the skin crisps evenly. Don't touch them for three minutes until the skin is golden and crunchy. Flip gently, cook another two minutes, then take them out. In the same pan, drop in the butter, let it foam and turn just barely golden, then add capers, lemon juice, and a handful of fresh herbs. Spoon that sizzling butter over the fish and serve it next to your roasted broccoli. See? Ten minutes and you've got a restaurant plate.",
+        "variations": [
+          {
+            "name": "Branzino with White Wine and Cherry Tomatoes",
+            "twist": "Deglaze the pan with white wine, add burst cherry tomatoes and olives for a Mediterranean pan sauce",
+            "source_url": "https://www.foodnetwork.com/recipes/giada-de-laurentiis/pan-seared-branzino-with-tomato-and-capers-3028154"
+          },
+          {
+            "name": "Whole Roasted Branzino with Herbs and Lemon",
+            "twist": "Stuff whole fish with lemon slices, rosemary, and thyme, then roast at 425F for an impressive presentation",
+            "source_url": "https://www.feastingathome.com/branzino-recipe/"
+          },
+          {
+            "name": "Branzino with Almond Brown Butter",
+            "twist": "Toast slivered almonds in the brown butter alongside the capers for a nutty, crunchy finish",
+            "source_url": "https://www.chewoutloud.com/branzino-recipe/"
+          }
+        ],
+        "engineer_table": {
+          "preheat": "",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "4",
+                  "item": "branzino fillets",
+                  "prep": "patted very dry"
+                },
+                {
+                  "qty": "to taste",
+                  "item": "salt and pepper",
+                  "prep": ""
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "olive oil",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "season, sear skin-side down 3 min, flip 2 min (remove)"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "4 tbsp",
+                  "item": "unsalted butter",
+                  "prep": ""
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "capers",
+                  "prep": "drained"
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "lemon juice",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tsp",
+                  "item": "lemon zest",
+                  "prep": ""
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "fresh parsley",
+                  "prep": "chopped"
+                },
+                {
+                  "qty": "1 tsp",
+                  "item": "fresh thyme",
+                  "prep": "leaves"
+                }
+              ],
+              "merge_action": "foam butter until golden, add capers and lemon, swirl in herbs"
+            }
+          ],
+          "final_steps": [
+            "spoon butter sauce over fish",
+            "serve alongside roasted broccoli"
+          ]
+        },
+        "parallel_table": {
+          "note": "Meanwhile, roast the broccoli:",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "1 lb",
+                  "item": "broccoli florets",
+                  "prep": ""
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "olive oil",
+                  "prep": ""
+                },
+                {
+                  "qty": "to taste",
+                  "item": "salt and pepper",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tbsp",
+                  "item": "lemon juice",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "toss together, spread on sheet pan"
+            }
+          ],
+          "final_steps": [
+            "roast at 425F 18-20 min until charred at edges",
+            "squeeze lemon over before serving"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sat 03/07",
+      "long_name": "Saturday, March 7",
+      "weather": "Light drizzle, 73F/46F",
+      "weather_detail": "Mostly Sunny (64%), wind 13 mph, 27% precip, gusts 33 mph",
+      "calendar": "Free day — BBQ day!",
+      "calendar_items": [],
+      "time_constraints": [],
+      "dinner": "BBQ Pork Butt with Broccoli Slaw",
+      "dinner_cuisine": "American BBQ",
+      "dinner_description": "Low-and-slow American barbecue at its finest: a pork butt rubbed with smoked paprika, brown sugar, mustard powder, and black pepper, cooked for hours until it falls apart at the touch of a fork. The tradition stretches back to colonial Southern pit cooks who transformed tough shoulder cuts into something transcendent through patience and smoke. Piled on brioche buns with a crunchy broccoli slaw made from all those stems you've been saving.",
+      "dinner_key_ingredients": [
+        "pork butt",
+        "smoked paprika",
+        "brown sugar",
+        "broccoli stems",
+        "cabbage",
+        "apple cider vinegar",
+        "brioche buns"
+      ],
+      "dinner_source_url": "https://www.seriouseats.com/the-food-lab-complete-guide-to-smoking-pulled-pork-barbecue",
+      "dinner_source_name": "Serious Eats",
+      "dinner_notes": "Start the pork butt by 9 AM for a 6 PM dinner. The broccoli slaw uses stems from the week — zero waste, maximum crunch.",
+      "dinner_nutrition_notes": "Pork provides protein, thiamine, and zinc; cabbage slaw adds vitamin C and fiber.",
+      "album": "Curtis Mayfield – Superfly",
+      "album_artist": "Curtis Mayfield",
+      "album_title": "Superfly",
+      "album_year": "1972",
+      "album_genre": "Soul / Funk",
+      "album_mood": "Groovy, cinematic, soulful, powerful",
+      "album_description": "Curtis Mayfield wrote, produced, and performed Superfly (1972) as a pointed counternarrative to the blaxploitation film it scored — the album grossed more than the movie itself. Recorded in Chicago with lush string arrangements and impossibly tight funk grooves, tracks like \"Freddie's Dead\" and \"Pusherman\" remain some of the most influential soul recordings ever made.",
+      "album_sonic_description": "Wah-wah guitars, orchestral strings, tight funk rhythms, and Mayfield’s soaring falsetto delivering sharp social commentary over irresistible grooves",
+      "album_pairing_rationale": "The ultimate BBQ soundtrack — Curtis Mayfield's funky, socially conscious soul is exactly what a warm Saturday pork butt cook demands. Turn it up and tend the fire.",
+      "album_spotify_url": "https://open.spotify.com/album/2VBcztE58sfByklBfOuSLn",
+      "activity": "BBQ day! Low-and-slow pork butt.",
+      "activity_notes": "73°F — perfect outdoor cooking weather. Maybe eat outside.",
+      "prep_notes": [
+        "Dry-rub pork butt Friday night",
+        "Start cooking early Saturday morning",
+        "Make slaw 1 hour before serving"
+      ],
+      "day_of_week": "saturday",
+      "weather_high": 73,
+      "weather_low": 46,
+      "weather_condition": "LIGHT DRIZZLE",
+      "weather_emoji": "🌤️",
+      "weather_oneliner": "73°/46° · warmest day, gusty",
+      "engagements": [],
+      "dinner_elevation_tips": [
+        {
+          "type": "marinade",
+          "title": "Dry brine overnight, rub in the morning",
+          "instruction": "The night before, coat the pork butt generously with kosher salt — about 1 tablespoon per 5 pounds. Let it sit uncovered in the fridge on a wire rack for 12-24 hours. The salt penetrates deep, seasons the meat throughout, and the uncovered fridge time dries the surface — which is how you get bark. In the morning, apply your rub: smoked paprika, brown sugar, black pepper, garlic powder, onion powder, a pinch of cayenne. The sugar in the rub caramelizes against the dry, salted surface and forms the crust that everyone fights over.",
+          "why": "Dry brining does what a wet brine does — seasons the interior — without waterlogging the meat. The overnight fridge rest creates a pellicle (dry surface layer) that smoke adheres to and bark forms on. Salting and rubbing are two separate steps because salt needs time, but sugar burns if it sits too long.",
+          "extra_ingredients": [
+            "kosher salt",
+            "garlic powder",
+            "onion powder",
+            "cayenne pepper"
+          ]
+        },
+        {
+          "type": "preparation",
+          "title": "Apple cider vinegar spritz and the stall",
+          "instruction": "Smoke at 225-250°F with a mix of hickory and apple wood. Every 45 minutes after the first 2 hours, spritz the surface with a 50/50 mix of apple cider vinegar and apple juice using a spray bottle. When the internal temp hits 165°F and stalls, resist the urge to crank the heat. Wrap in butcher paper (not foil — foil steams and softens the bark). Continue to 203°F internal, then rest wrapped in a cooler with towels for at least 1 hour. The carry-over cooking and juice redistribution during the rest is what turns tough collagen into silk.",
+          "why": "The spritz adds moisture and acid to the bark surface, enhancing Maillard browning and preventing the exterior from drying out. Butcher paper breathes, letting bark stay crisp while retaining moisture — foil traps steam and turns your bark into soft, sad skin. The rest is non-negotiable.",
+          "extra_ingredients": [
+            "apple juice",
+            "apple wood chunks",
+            "hickory wood chunks",
+            "butcher paper"
+          ]
+        },
+        {
+          "type": "acid",
+          "title": "Upgrade the broccoli slaw with mustard vinaigrette",
+          "instruction": "Shred broccoli stems on a box grater or mandoline. Toss with shredded green cabbage, shredded carrots, and thinly sliced scallions. For the dressing: whisk 3 tablespoons apple cider vinegar, 1 tablespoon whole-grain mustard, 1 tablespoon honey, 2 tablespoons olive oil, and a generous pinch of celery seed. Dress the slaw 15 minutes before serving — no earlier, or it goes limp. Top with toasted sunflower seeds for crunch.",
+          "why": "A vinaigrette-based slaw cuts through rich, fatty pork far better than a mayo-based one. The whole-grain mustard adds texture and spice, the honey bridges the slaw's tang to the pork's sweetness, and the celery seed is the secret seasoning that makes people say 'what is that?' — in a good way.",
+          "extra_ingredients": [
+            "carrots",
+            "scallions",
+            "whole-grain mustard",
+            "honey",
+            "olive oil",
+            "celery seed",
+            "sunflower seeds"
+          ]
+        }
+      ],
+      "dinner_question": {
+        "day": "Saturday",
+        "dinner": "BBQ Pork Butt",
+        "question": "This pork has been cooking since this morning — hours and hours of slow heat and patience. If you had to spend a whole day doing just one thing, but with someone you've never done it with before, what would you pick and who would you invite?",
+        "category": "imagination",
+        "why": "The slow cook of BBQ mirrors patience and anticipation — the best things take time. Asking her to imagine crossing a social boundary (doing something with an unexpected person) exercises perspective-taking and social imagination, both growing fast at this age. The warm Saturday and outdoor BBQ energy make this feel expansive, not interrogative."
+      },
+      "day_intro": "Saturday hits 73°F again — grilling weather, no question. The pork butt goes on in the morning, and by evening the whole neighborhood knows what's happening in your backyard.",
+      "recipe_card": {
+        "day": "Saturday",
+        "name": "BBQ Pork Butt with Broccoli Slaw",
+        "source_url": "https://www.seriouseats.com/the-food-lab-complete-guide-to-smoking-pulled-pork-barbecue",
+        "source_name": "Serious Eats",
+        "servings": "8-10",
+        "prep_time": "30 min + overnight",
+        "cook_time": "10-14 hours",
+        "nonna_says": "Mix your rub the night before: brown sugar, smoked paprika, black pepper, garlic powder, onion powder, mustard powder, and a good amount of kosher salt. Rub the pork butt all over, every crevice, and let it sit uncovered in the fridge overnight so the surface dries out and the flavors sink in. Set up your smoker at 225, add your wood chunks, and put the meat on fat side up. This is a patience game. You're looking at ten to twelve hours until it hits 200 degrees inside and the bone wiggles loose. Pull it out, wrap it in foil, let it rest for an hour, then shred it with two forks. For the slaw, shave the broccoli stems and toss them with shredded cabbage, vinegar, a little sugar, and mayo. The people who tell you barbecue shouldn't take all day have never made anything worth eating.",
+        "variations": [
+          {
+            "name": "Coffee-Rubbed Pulled Pork",
+            "twist": "Add finely ground espresso to the spice rub for a deep, smoky bitterness that balances the sweetness",
+            "source_url": "https://www.smokedbbqsource.com/barbecue-pork-rub-recipe/"
+          },
+          {
+            "name": "Asian-Style Pulled Pork Bao Buns",
+            "twist": "Marinate with soy, ginger, and five-spice, then serve shredded pork in steamed bao with hoisin and pickled cucumber",
+            "source_url": "https://www.recipetineats.com/pulled-pork-with-bbq-sauce/"
+          },
+          {
+            "name": "Carolina Vinegar-Sauce Pulled Pork",
+            "twist": "Skip the sweet sauce and serve with a sharp cider vinegar and red pepper flake mop for a tangy Eastern NC finish",
+            "source_url": "https://www.foodnetwork.com/recipes/tyler-florence/pulled-pork-barbecue-recipe-1953137"
+          }
+        ],
+        "engineer_table": {
+          "preheat": "Smoker to 225°F (107°C)",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "1/4 cup",
+                  "item": "brown sugar",
+                  "prep": "packed"
+                },
+                {
+                  "qty": "1/4 cup",
+                  "item": "smoked paprika",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tbsp",
+                  "item": "black pepper",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tbsp",
+                  "item": "garlic powder",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tbsp",
+                  "item": "onion powder",
+                  "prep": ""
+                },
+                {
+                  "qty": "2 tsp",
+                  "item": "mustard powder",
+                  "prep": ""
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "kosher salt",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tsp",
+                  "item": "cayenne pepper",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "mix together thoroughly"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "6-8 lb",
+                  "item": "bone-in pork butt",
+                  "prep": "trimmed"
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "yellow mustard",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "coat with mustard, apply rub, refrigerate uncovered overnight"
+            }
+          ],
+          "final_steps": [
+            "smoke fat-side up at 225F for 10-12 hrs",
+            "target 200-205F internal temp",
+            "wrap in foil, rest 1 hr",
+            "shred with two forks, toss with juices"
+          ]
+        },
+        "parallel_table": {
+          "note": "Meanwhile, make the broccoli slaw:",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "4",
+                  "item": "broccoli stems",
+                  "prep": "peeled and shaved thin"
+                },
+                {
+                  "qty": "2 cups",
+                  "item": "green cabbage",
+                  "prep": "shredded"
+                },
+                {
+                  "qty": "2 tbsp",
+                  "item": "apple cider vinegar",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tsp",
+                  "item": "sugar",
+                  "prep": ""
+                },
+                {
+                  "qty": "3 tbsp",
+                  "item": "mayonnaise",
+                  "prep": ""
+                },
+                {
+                  "qty": "1/2 tsp",
+                  "item": "salt",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "toss vegetables with dressing until well coated"
+            }
+          ],
+          "final_steps": [
+            "chill 30 min before serving",
+            "adjust seasoning, serve alongside pulled pork"
+          ]
+        }
+      }
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Charred Broccoli with Whipped Feta, Lemon & Chili Oil",
+      "cuisine": "Middle Eastern-inspired",
+      "description": "Broccoli florets roasted at 450°F until deeply charred and crispy at the edges, served over a swipe of whipped feta blended with lemon zest and a drizzle of homemade chili oil. Scattered with toasted sesame seeds and flaky salt.",
+      "key_ingredients": [
+        "broccoli",
+        "feta cheese",
+        "lemon",
+        "chili flakes",
+        "sesame seeds",
+        "olive oil",
+        "garlic"
+      ]
+    },
+    {
+      "name": "Stuffed Cremini Mushrooms with Parmesan, Herbs & Green Onions",
+      "cuisine": "Italian",
+      "description": "Large cremini mushroom caps filled with a mixture of their own diced stems, Parmesan, breadcrumbs, garlic, green onions, and fresh parsley, then baked until golden and bubbling.",
+      "key_ingredients": [
+        "cremini mushrooms",
+        "Parmesan",
+        "breadcrumbs",
+        "garlic",
+        "green onions",
+        "fresh parsley",
+        "olive oil"
+      ]
+    }
+  ],
+  "salads": [
+    {
+      "name": "Roasted Broccoli, Blood Orange & Burrata Salad",
+      "salad_type": "composed_dinner",
+      "description": "A composed arrangement of warm roasted broccoli florets, blood orange segments, torn burrata, toasted hazelnuts, and shaved Pecorino.",
+      "dressing": "Blood orange vinaigrette: fresh blood orange juice, white wine vinegar, Dijon mustard, extra-virgin olive oil, minced shallot, honey, flaky salt, cracked black pepper",
+      "flavor_rationale": "The char on roasted broccoli provides nutty bitterness that blood orange tames with tart sweetness. Burrata adds lush creaminess. Italian amaro-dolce principles at work."
+    },
+    {
+      "name": "Chopped Broccoli, Kale & Apple Salad with Cheddar Croutons",
+      "salad_type": "tossed_dinner",
+      "description": "Finely chopped raw broccoli, massaged lacinato kale, crisp Honeycrisp apple matchsticks, toasted sunflower seeds, dried cranberries, and sharp cheddar croutons.",
+      "dressing": "Apple cider vinaigrette: apple cider vinegar, Dijon mustard, maple syrup, extra-virgin olive oil, minced shallot, salt, black pepper",
+      "flavor_rationale": "Raw broccoli crunch pairs with tender massaged kale. Apple sweetness and cranberry tartness play against sharp cheddar croutons. Maple-mustard vinaigrette unifies with autumnal warmth."
+    },
+    {
+      "name": "Asian Broccoli Slaw with Sesame-Ginger Dressing",
+      "salad_type": "side",
+      "description": "Shredded broccoli stems and florets, shaved carrots, red cabbage, and edamame tossed in a bright sesame-ginger dressing. Topped with crispy wonton strips.",
+      "dressing": "Sesame-ginger dressing: toasted sesame oil, rice vinegar, fresh grated ginger, soy sauce, honey, neutral oil, lime juice, garlic, salt",
+      "flavor_rationale": "Nutty sesame oil grounds bright rice vinegar and lime acid. Fresh ginger adds heat. Transforms raw cruciferous crunch into something addictive."
+    },
+    {
+      "name": "Shaved Fennel, Radicchio & Citrus Salad with Marcona Almonds",
+      "salad_type": "side",
+      "description": "Paper-thin fennel, torn radicchio, navel orange supremes, and a scattering of Marcona almonds. A palate cleanser that cuts through rich mains.",
+      "dressing": "Lemon-shallot vinaigrette: fresh lemon juice, finely minced shallot, champagne vinegar, extra-virgin olive oil, Dijon mustard, flaky salt, cracked black pepper",
+      "flavor_rationale": "Fennel anise sweetness tames radicchio bitterness. Citrus adds juicy brightness. Marcona almonds bring buttery richness and crunch. Classic bitter-sweet-acid Mediterranean triad."
+    }
+  ],
+  "beverages": [
+    {
+      "name": "Willamette Valley Pinot Noir",
+      "description": "Bright, medium-bodied Pinot Noir with cherry, cranberry, and forest floor notes. Enough acidity to cut through creamy stroganoff, enough fruit to complement grilled pork.",
+      "why": "Versatile red that works across the week’s diverse proteins."
+    },
+    {
+      "name": "Weihenstephaner Hefeweizen",
+      "description": "The world’s oldest brewery’s flagship wheat beer — hazy gold with banana, clove, and bread crust aromas. Effervescent and refreshing.",
+      "why": "Classic pairing for BBQ and grilled meats. The 73°F grilling weather demands a cold Hefe."
+    },
+    {
+      "name": "Cucumber-Mint Agua Fresca with Lime",
+      "description": "English cucumber, fresh mint, lime juice, and a touch of agave blended with cold water and strained. Light, herbal, and impossibly refreshing.",
+      "why": "Non-alcoholic option the whole family can enjoy. Elsie’s drink of the week."
+    }
+  ],
+  "grocery_list": {
+    "Produce": [
+      "20 lbs broccoli (already have)",
+      "green onions (already have)",
+      "oyster mushrooms (already have)",
+      "cremini mushrooms (already have)",
+      "Yukon Gold potatoes",
+      "shallots",
+      "garlic",
+      "ginger",
+      "fresh parsley",
+      "fresh dill",
+      "fresh mint",
+      "lemon (3)",
+      "lime (2)",
+      "blood oranges",
+      "Honeycrisp apples",
+      "lacinato kale",
+      "spinach (for pasta)",
+      "fennel",
+      "radicchio",
+      "navel oranges",
+      "cabbage",
+      "carrots",
+      "red cabbage",
+      "arugula",
+      "cucumber",
+      "celery"
+    ],
+    "Protein": [
+      "2 lbs sirloin steak (stroganoff)",
+      "1.5 lbs flank steak (stir fry)",
+      "baked ham (gratin)",
+      "branzino fillets (2)",
+      "pork butt (6-8 lbs)"
+    ],
+    "Dairy": [
+      "sour cream",
+      "sharp cheddar",
+      "Parmigiano-Reggiano",
+      "butter (2 lbs)",
+      "whole milk",
+      "ricotta",
+      "mozzarella",
+      "feta cheese",
+      "burrata",
+      "Pecorino Romano",
+      "egg yolks (1 dozen eggs)"
+    ],
+    "Pantry": [
+      "egg noodles",
+      "00 flour",
+      "pizza dough",
+      "brioche buns",
+      "crusty bread",
+      "breadcrumbs",
+      "Dijon mustard",
+      "oyster sauce",
+      "soy sauce",
+      "Shaoxing wine",
+      "brandy",
+      "apple cider vinegar",
+      "hot honey",
+      "smoked paprika",
+      "brown sugar",
+      "paprika",
+      "red pepper flakes",
+      "capers",
+      "olive oil",
+      "sesame oil",
+      "rice vinegar",
+      "honey",
+      "agave",
+      "hazelnuts",
+      "sunflower seeds",
+      "dried cranberries",
+      "Marcona almonds",
+      "sesame seeds",
+      "wonton strips",
+      "edamame"
+    ],
+    "Beverages": [
+      "Willamette Valley Pinot Noir",
+      "Weihenstephaner Hefeweizen (6-pack)",
+      "Cucumbers and mint for agua fresca"
+    ]
+  },
+  "prep_ahead": [
+    "Saturday night: Dry-rub pork butt for Saturday BBQ",
+    "Sunday: Cut and bag 5+ lbs broccoli florets and stems for the week",
+    "Sunday: Make pasta dough for Tuesday (can rest overnight in fridge)",
+    "Monday: Slice flank steak for Wednesday stir fry",
+    "Tuesday: Make pasta dough before swim if not done Sunday",
+    "Thursday: Prep broccoli slaw for Saturday (shred stems and cabbage)"
+  ],
+  "notes": [
+    "Broccoli features in every single dinner this week — goal is to use 15+ lbs",
+    "Oyster mushrooms appear in 3 dishes (stroganoff, stir fry, flatbread)",
+    "Cremini mushrooms in stroganoff and appetizer",
+    "Green onions in stir fry, mushroom appetizer, and multiple dishes",
+    "Stroganoff and gratin both make excellent lunch leftovers for meal prep",
+    "Saturday BBQ pork butt will have enough for leftovers through next week",
+    "This week's menu traces a beautiful arc from winter to spring — hearty gratins and stroganoff early in the week give way to flatbread with the windows open and Saturday BBQ in the backyard.",
+    "The album selections follow the same seasonal journey: warm Caribbean funk on Sunday, cozy cinematic soul on snowy Monday, and sun-drenched Brazilian grooves by Friday."
+  ],
+  "generated_at": "2026-03-01 12:00",
+  "daily_plan_subtitle": "From Russian to American BBQ, with Cymande on the stereo",
+  "parenting_data": {
+    "week_range": "March 1 - March 7, 2026",
+    "weekly_theme": {
+      "title": "Same Roots, New Blooms",
+      "description": "The week starts in winter and ends in spring — snow on Monday, 73°F by Thursday — and Elsie is doing the same thing. She's the same girl who shows up in the pool on Tuesday, at the stir fry table on Wednesday, and rolling flatbread dough on Thursday, but each setting reveals a different petal. Broccoli appears in three wildly different dinners this week — gratin, stir fry, flatbread — and that's exactly how growth works. You don't become someone new. You bloom where you're already planted. This week, notice the ways she's stretching into new shapes of herself while staying rooted in the family that holds her."
+    },
+    "dinner_questions": [
+      {
+        "day": "Sunday",
+        "dinner": "Beef & Mushroom Stroganoff",
+        "question": "Stroganoff is a dish people have been making for hundreds of years in Russia. If our family had one recipe we'd pass down for a hundred years, what should it be — and what story would we tell about why it's special?",
+        "category": "family",
+        "why": "At 8, Elsie is beginning to understand legacy and tradition. Connecting food to family identity helps her see herself as part of a longer story, not just a kid eating dinner. Sunday's unhurried pace makes room for this kind of big-picture thinking."
+      },
+      {
+        "day": "Monday",
+        "dinner": "Baked Ham, Broccoli & Potato Gratin",
+        "question": "There's snow outside and warm gratin inside — total opposites. If you could design the perfect cozy day from the moment you wake up to the moment you fall asleep, what would every hour look like?",
+        "category": "imagination",
+        "why": "The contrast between a snowy 37°F day and a bubbling golden gratin creates a natural prompt for thinking about comfort and what makes a day feel good. Designing a full day hour-by-hour practices planning and sequencing — a cognitive skill blooming at 8."
+      },
+      {
+        "day": "Tuesday",
+        "dinner": "Babo Pasta (Homemade Spinach Pasta)",
+        "question": "We're making pasta from scratch tonight — the dough, the rolling, everything. What's something you've made completely from scratch that you're really proud of? It doesn't have to be food — it could be anything.",
+        "category": "story-drawing",
+        "why": "After swim lessons, she's physically tired but mentally open. Connecting the effort of handmade pasta to her own experiences of building something from nothing reinforces that effort has a taste — and it's satisfying. This also validates her growing sense of competence."
+      },
+      {
+        "day": "Wednesday",
+        "dinner": "Beef & Broccoli Stir Fry",
+        "question": "Stir fry cooks really fast — everything happens in just a few minutes over high heat. What's something important that you think people rush through too quickly? What would happen if everyone just slowed down?",
+        "category": "values",
+        "why": "Dan's Product Day means the household tempo might feel faster than usual. This question invites Elsie to reflect on pace and presence — a concept she's just beginning to grasp at 8. It quietly validates the idea that slowing down is wise, not lazy, and gives her permission to name what she notices about the world around her."
+      },
+      {
+        "day": "Thursday",
+        "dinner": "Broccoli & Oyster Mushroom Flatbread",
+        "question": "It's the first really warm evening of the year — 73 degrees! What's something about spring that you're most excited about? And what's one thing about winter you'll actually miss?",
+        "category": "gratitude",
+        "why": "Holding two feelings at once — excitement for what's coming and a little sadness for what's leaving — is an emotional complexity milestone at age 8. The warm evening and the hands-on fun of making flatbread together create a relaxed, open setting to practice it."
+      },
+      {
+        "day": "Friday",
+        "dinner": "Pan-Seared Branzino",
+        "question": "Tonight's dinner is fish, and we know that's not your favorite. But here's a question: what's something you used to not like — a food, an activity, a song, even a person — that you've totally changed your mind about? What made you change?",
+        "category": "values",
+        "why": "This reframes the fish dinner from a dreaded meal into a growth conversation. At 8, kids are starting to notice that their preferences shift over time, which is a building block for understanding that identity isn't fixed — you're allowed to change your mind about things, including yourself. No pressure to eat the fish — just to think about change."
+      },
+      {
+        "day": "Saturday",
+        "dinner": "BBQ Pork Butt",
+        "question": "This pork has been cooking since this morning — hours and hours of slow heat and patience. If you had to spend a whole day doing just one thing, but with someone you've never done it with before, what would you pick and who would you invite?",
+        "category": "imagination",
+        "why": "The slow cook of BBQ mirrors patience and anticipation — the best things take time. Asking her to imagine crossing a social boundary (doing something with an unexpected person) exercises perspective-taking and social imagination, both growing fast at this age. The warm Saturday and outdoor BBQ energy make this feel expansive, not interrogative."
+      }
+    ],
+    "nudges": [
+      {
+        "title": "The Broccoli Critic",
+        "context": "Broccoli appears in three dinners this week in three completely different forms — golden gratin on Monday, quick-fire stir fry on Wednesday, and roasted on flatbread Thursday. That's a rare and playful opportunity.",
+        "suggestion": "Turn Elsie into the family's official broccoli judge. She rates each broccoli dish on a scale of 1-10 and explains her reasoning — texture, flavor, how it looks on the plate. By Thursday she's a food critic with opinions and evidence, which is actually a structured exercise in evaluating, comparing, and articulating preferences. Eight-year-olds love having expertise, and this gives her a role at the table that's genuinely hers.",
+        "how_to": [
+          "Monday night, announce it casually: 'Broccoli shows up three times this week in three different outfits. You're our official broccoli judge.'",
+          "After each broccoli dinner, she rates and explains. Write her scores on a sticky note on the fridge.",
+          "Thursday night, reveal the winner — 'The Broccoli Champion of the week is…' Let her present her verdict like a real critic."
+        ]
+      },
+      {
+        "title": "The Spring Door",
+        "context": "Thursday is the first warm evening of the year — 73°F after days of snow and cold. For Elsie, the shift from winter on Monday to shorts-weather on Thursday is dramatic and worth marking as a family.",
+        "suggestion": "After flatbread dinner on Thursday, go outside together. Sit on the porch, walk around the block, or just stand in the yard and breathe. Don't structure it — just be outside in the warmth as a family. Say something simple: 'Winter's behind us. Let's go say hello to spring.' Marking seasonal transitions teaches Elsie to notice the world changing around her, which builds the kind of attentiveness that feeds empathy, wonder, and presence.",
+        "how_to": [
+          "After dinner Thursday, say: 'It's too nice to be inside. Shoes on — let's go.'",
+          "Walk slowly. Point out what's changing — buds on trees, birds you haven't heard in months, the longer daylight.",
+          "Ask one question: 'What does spring smell like to you?' Then just listen."
+        ]
+      },
+      {
+        "title": "The Fish Heads-Up",
+        "context": "Elsie doesn't like fish, and Friday's branzino is on the menu. Surprising an 8-year-old with a food she dislikes erodes trust. Preparing her in advance shows respect for her preferences while modeling openness.",
+        "suggestion": "Bring it up Wednesday or Thursday, casually — not as a lecture, but a respectful heads-up: 'Friday's dinner is fish. I know that's not your favorite. Here's the deal: there'll be plenty on the table that you love, but I'd be proud of you if you tried one bite. If you don't like it, totally fine.' The conversation before the meal matters more than the meal itself. It teaches her that her voice is heard AND that being open to new experiences is a family value.",
+        "how_to": [
+          "Wednesday or Thursday, mention it casually — in the car or while cooking, not as a sit-down talk.",
+          "Friday, plate her dinner with the branzino AND a generous portion of something she loves — bread, pasta, salad.",
+          "If she tries it: 'Thanks for being brave.' If she doesn't: 'No problem at all. I'm glad you're here.'"
+        ]
+      }
+    ],
+    "recommendation": {
+      "type": "book",
+      "title": "The Girl Who Drank the Moon",
+      "author": "Kelly Barnhill",
+      "why": "A Newbery Medal-winning novel about a girl named Luna who has been unknowingly filled with extraordinary magic. As she grows, her power begins to bloom — sometimes wildly, sometimes beautifully. It's a story about growing into yourself, about the messiness of change, and about the people who love you even when you're becoming someone they don't fully understand yet. Rich, lyrical, and deeply felt — perfect for an 8-year-old reader who's ready for a story with real depth.",
+      "connection": "Ties directly to this week's theme of 'Same Roots, New Blooms' — Luna is changing from the inside out, just like spring is reshaping the world outside Elsie's window, and just like Elsie herself is growing into new versions of who she's always been. Start reading it together during the cozy, snowy first half of the week, and by Thursday's warm evening, the story will feel like it's happening in real time."
+    },
+    "parent_reflection": "Three times this week, you'll put broccoli on the table — and each time it will look completely different. Golden and bubbling in Monday's gratin. Bright green and snappy in Wednesday's stir fry. Roasted and earthy on Thursday's flatbread. Same vegetable, entirely new form. That's your daughter right now. She's the same Elsie in the pool, on the stage at YAT, at the dinner table debating fish, and in the warm evening air discovering that spring smells different than she remembered. She's showing up differently in each place, trying on new shapes of herself. This week, as winter literally melts into spring outside your window, notice the ways she's doing the same thing inside. She doesn't need you to name it or celebrate it loudly. She just needs you to see it — and to keep setting the table."
+  },
+  "nutrition_summary": "This week leans hearty and comforting — exactly right for a family bridging the last cold snap of winter with the first real taste of spring. You're getting excellent protein variety across beef, ham, fish, and pork, plus a serious vitamin C and K boost from all that nightly broccoli. The gaps are real but fixable: no whole grains at dinner, mostly green vegetables, and the preparations skew rich. Balance it out by weaving whole wheat bread into lunches, adding Greek yogurt and fruit at snack time for Elsie's growing bones, and tossing some hummus and carrots into lunchboxes. Friday's branzino delivers a welcome omega-3 boost, and a few handfuls of walnuts or chia seeds during the week round things out. Enjoy those buttery gratins and silky Alfredo without guilt — the lunches and snacks are doing the nutritional heavy lifting.",
+  "nutrition_data": {
+    "family": {
+      "members": [
+        {
+          "name": "Laura (Wife)",
+          "age_range": "Adult woman",
+          "activity_level": "Active",
+          "calorie_target": "2,000–2,200 kcal",
+          "focus_nutrients": [
+            "iron",
+            "calcium",
+            "folate",
+            "fiber"
+          ]
+        },
+        {
+          "name": "Dan (Husband)",
+          "age_range": "Adult man",
+          "activity_level": "Active",
+          "calorie_target": "2,400–2,800 kcal",
+          "focus_nutrients": [
+            "protein",
+            "potassium",
+            "magnesium"
+          ]
+        },
+        {
+          "name": "Elsie (Daughter)",
+          "age_range": "8-year-old girl",
+          "activity_level": "Active",
+          "calorie_target": "1,600–2,000 kcal",
+          "focus_nutrients": [
+            "calcium",
+            "vitamin D",
+            "iron",
+            "fiber"
+          ]
+        }
+      ]
+    },
+    "dinners": [
+      {
+        "day": "Sunday",
+        "name": "Beef & Mushroom Stroganoff over Egg Noodles",
+        "calories_per_serving": "~450 kcal (adult) / ~300 kcal (Elsie)",
+        "protein_source": "Sirloin beef",
+        "protein_level": "high",
+        "vegetable_content": "moderate",
+        "whole_grains": false,
+        "key_nutrients": [
+          "iron",
+          "zinc",
+          "B12",
+          "niacin",
+          "selenium",
+          "vitamin C (broccoli)",
+          "vitamin K (broccoli)"
+        ],
+        "concerns": [
+          "Egg noodles are refined carbs — no whole grains",
+          "Sour cream and butter add saturated fat",
+          "Brandy adds empty calories (small amount)"
+        ],
+        "overall_rating": "good"
+      },
+      {
+        "day": "Monday",
+        "name": "Baked Ham, Broccoli & Potato Gratin",
+        "calories_per_serving": "~420 kcal (adult) / ~280 kcal (Elsie)",
+        "protein_source": "Baked ham",
+        "protein_level": "moderate",
+        "vegetable_content": "moderate",
+        "whole_grains": false,
+        "key_nutrients": [
+          "protein",
+          "calcium (cheddar béchamel)",
+          "potassium (potatoes)",
+          "vitamin C (broccoli)",
+          "vitamin K (broccoli)",
+          "B vitamins"
+        ],
+        "concerns": [
+          "Ham is high in sodium (~800–1000 mg per serving)",
+          "Cheddar béchamel adds saturated fat",
+          "Processed meat — moderate intake is fine but watch weekly totals"
+        ],
+        "overall_rating": "fair"
+      },
+      {
+        "day": "Tuesday",
+        "name": "Babo Pasta — Homemade Spinach Pasta with Alfredo Sauce",
+        "calories_per_serving": "~550 kcal (adult) / ~350 kcal (Elsie)",
+        "protein_source": "Eggs, Parmigiano-Reggiano",
+        "protein_level": "moderate",
+        "vegetable_content": "moderate",
+        "whole_grains": false,
+        "key_nutrients": [
+          "calcium (Parmigiano)",
+          "folate (spinach in pasta)",
+          "iron (spinach, egg yolks)",
+          "vitamin A (spinach)",
+          "vitamin C (broccoli side)"
+        ],
+        "concerns": [
+          "Butter and cheese make this very high in saturated fat",
+          "Refined flour (00 flour) — no whole grains",
+          "Lower protein than meat-centered dinners — pair with a protein-rich lunch"
+        ],
+        "overall_rating": "fair"
+      },
+      {
+        "day": "Wednesday",
+        "name": "Beef & Broccoli Stir Fry with Oyster Mushrooms",
+        "calories_per_serving": "~580 kcal (adult) / ~380 kcal (Elsie)",
+        "protein_source": "Flank steak",
+        "protein_level": "high",
+        "vegetable_content": "abundant",
+        "whole_grains": false,
+        "key_nutrients": [
+          "iron",
+          "zinc",
+          "B12",
+          "vitamin C (broccoli)",
+          "vitamin K (broccoli)",
+          "potassium",
+          "B vitamins (mushrooms)",
+          "selenium"
+        ],
+        "concerns": [
+          "Oyster sauce is high in sodium (~500 mg per tablespoon)",
+          "White rice is refined — swap for brown rice when possible",
+          "Moderate sodium from soy-based sauces"
+        ],
+        "overall_rating": "good"
+      },
+      {
+        "day": "Thursday",
+        "name": "Broccoli & Oyster Mushroom Flatbread with Ricotta & Chili Honey",
+        "calories_per_serving": "~480 kcal (adult) / ~320 kcal (Elsie)",
+        "protein_source": "Ricotta, mozzarella",
+        "protein_level": "moderate",
+        "vegetable_content": "moderate",
+        "whole_grains": false,
+        "key_nutrients": [
+          "calcium (ricotta + mozzarella)",
+          "vitamin C (broccoli)",
+          "B vitamins (mushrooms)",
+          "phosphorus"
+        ],
+        "concerns": [
+          "Pizza dough is refined flour",
+          "Hot honey adds sugar",
+          "Another meatless dinner — check protein balance across the day",
+          "Cheese-heavy — watch saturated fat totals"
+        ],
+        "overall_rating": "fair"
+      },
+      {
+        "day": "Friday",
+        "name": "Pan-Seared Branzino with Lemon-Herb Butter & Roasted Broccoli",
+        "calories_per_serving": "~400 kcal (adult) / ~280 kcal (Elsie)",
+        "protein_source": "Branzino (European sea bass)",
+        "protein_level": "high",
+        "vegetable_content": "moderate",
+        "whole_grains": false,
+        "key_nutrients": [
+          "omega-3 fatty acids",
+          "vitamin D",
+          "selenium",
+          "B12",
+          "phosphorus",
+          "potassium",
+          "vitamin C (broccoli)",
+          "vitamin K (broccoli)"
+        ],
+        "concerns": [
+          "Lemon-herb butter adds saturated fat — use sparingly for a lighter dish",
+          "Could benefit from a starch or whole grain side to round out the plate",
+          "Capers add some sodium"
+        ],
+        "overall_rating": "excellent"
+      },
+      {
+        "day": "Saturday",
+        "name": "BBQ Pork Butt with Broccoli Slaw",
+        "calories_per_serving": "~500 kcal (adult) / ~330 kcal (Elsie)",
+        "protein_source": "Pork butt",
+        "protein_level": "high",
+        "vegetable_content": "moderate",
+        "whole_grains": false,
+        "key_nutrients": [
+          "protein",
+          "iron",
+          "zinc",
+          "B vitamins (thiamin)",
+          "vitamin C (broccoli slaw + cabbage)",
+          "fiber (cabbage, broccoli stems)"
+        ],
+        "concerns": [
+          "BBQ rub with brown sugar adds extra sugar",
+          "Smoked/slow-cooked pork can be higher in fat depending on trimming",
+          "Apple cider vinegar slaw is a nice probiotic-friendly touch"
+        ],
+        "overall_rating": "good"
+      }
+    ],
+    "weekly_assessment": {
+      "protein_diversity": {
+        "sources_found": [
+          "beef (sirloin)",
+          "ham",
+          "eggs + cheese",
+          "beef (flank steak)",
+          "ricotta + mozzarella",
+          "branzino (fish)",
+          "pork butt"
+        ],
+        "rating": "good",
+        "notes": "Four distinct animal protein sources (beef, ham, fish, pork) plus two dairy/egg-centered vegetarian dinners. Beef appears twice, which is totally reasonable. The mix of red meat, pork, and fish hits a nice range. One gap: no poultry or legumes/plant-based protein this week — lunches can easily cover that."
+      },
+      "vegetable_coverage": {
+        "servings_per_dinner_avg": 1.5,
+        "color_diversity": [
+          "dark greens (broccoli)"
+        ],
+        "rating": "moderate",
+        "notes": "Broccoli appears in all seven dinners. It’s a nutritional superstar (vitamin C, vitamin K, folate, fiber), but this week is a one-color vegetable show. There are no orange/red vegetables (carrots, bell peppers, tomatoes, sweet potatoes), no legumes, and no variety in the green category beyond broccoli. The mushrooms add some variety in flavor and B vitamins, but lunches and snacks need to bring the rainbow."
+      },
+      "nutrient_gaps": [
+        {
+          "nutrient": "Vegetable color diversity",
+          "severity": "significant",
+          "detail": "All 7 dinners feature broccoli as the primary (often only) vegetable. No orange, red, yellow, or purple vegetables appear at dinner. Missing beta-carotene, lycopene, and anthocyanin sources."
+        },
+        {
+          "nutrient": "Whole grains",
+          "severity": "significant",
+          "detail": "Zero whole grain servings across all 7 dinners. Egg noodles, 00 flour pasta, white rice, and pizza dough are all refined. This leaves a major fiber and B-vitamin gap."
+        },
+        {
+          "nutrient": "Fiber",
+          "severity": "moderate",
+          "detail": "Broccoli provides some fiber (~2–3g per serving), but without whole grains, legumes, or diverse vegetables, dinner fiber averages only 4–6g per meal — well below the 8–10g target per meal for active adults."
+        },
+        {
+          "nutrient": "Fruit",
+          "severity": "moderate",
+          "detail": "Zero fruit across all dinners (expected — fruit is rarely a dinner component). Lunches and snacks must provide 2–3 daily servings."
+        },
+        {
+          "nutrient": "Legumes / plant protein",
+          "severity": "moderate",
+          "detail": "No beans, lentils, chickpeas, or other legumes all week. Missing an excellent source of fiber, plant protein, folate, and iron."
+        },
+        {
+          "nutrient": "Vitamin A (beta-carotene)",
+          "severity": "moderate",
+          "detail": "Without orange/red vegetables (sweet potatoes, carrots, bell peppers), vitamin A from plant sources is low. Broccoli provides small amounts, but not enough."
+        },
+        {
+          "nutrient": "Potassium",
+          "severity": "mild",
+          "detail": "Monday’s potatoes and Friday’s branzino help, but overall potassium intake from dinners is below target. Bananas, beans, and sweet potatoes at other meals would help."
+        }
+      ],
+      "excesses": [
+        {
+          "item": "Saturated fat",
+          "severity": "moderate",
+          "detail": "Butter appears in 4 dinners (stroganoff, Alfredo, lemon-butter, broccoli roasting). Cheese appears in 4 dinners (cheddar béchamel, Parmigiano, ricotta + mozzarella). Sour cream in 1. This week leans rich — not a crisis, but lighter lunches will help balance it."
+        },
+        {
+          "item": "Sodium",
+          "severity": "moderate",
+          "detail": "Ham (Monday), oyster sauce (Wednesday), and processed cheese sauces push sodium higher on several nights. Estimated 800–1400 mg sodium from dinner alone on peak days, leaving little room for salty snacks."
+        },
+        {
+          "item": "Refined carbohydrates",
+          "severity": "moderate",
+          "detail": "Every starch this week is refined: egg noodles, 00 flour pasta, white rice, pizza dough. No whole wheat, brown rice, quinoa, or other whole grains appear."
+        },
+        {
+          "item": "Broccoli monotony",
+          "severity": "mild",
+          "detail": "Broccoli 7 nights in a row isn’t harmful — it’s actually a testament to this family’s love of greens. But from a nutritional diversity standpoint, the rest of the day should feature different vegetables to capture the full spectrum of phytonutrients."
+        }
+      ],
+      "fiber_assessment": {
+        "rating": "low",
+        "notes": "Without whole grains or legumes in any dinner, fiber from dinners averages only 4–6g per meal (mostly from broccoli). Active adults need 25–35g daily, and Elsie needs 20–25g. Lunches and snacks need to carry most of the fiber load this week — think whole wheat bread, oats, beans, fruits with skin, and nuts."
+      },
+      "omega3_assessment": {
+        "rating": "fair",
+        "notes": "Friday’s branzino delivers a solid hit of omega-3s (250–870 mg), plus vitamin D and selenium. One fish dinner per week is the minimum recommendation, so this week just clears the bar. Adding walnuts, flaxseed, or chia seeds to snacks and breakfasts would boost omega-3 intake further."
+      },
+      "overall_dinner_grade": "B-",
+      "overall_summary": "This is a hearty, comfort-forward week — exactly the kind of cooking that makes a family look forward to dinner. Protein variety is genuinely good (beef, ham, fish, pork, dairy-based), and the consistent broccoli means everyone’s getting vitamin C and vitamin K without trying. The weak spots are clear: no whole grains, limited vegetable diversity beyond broccoli, low fiber, and a lean toward rich/buttery preparations. The fix is straightforward — colorful, fiber-rich lunches and fruit-forward snacks will turn this B- dinner week into an A- overall week."
+    },
+    "recommended_lunches": [
+      {
+        "name": "Rainbow Hummus Wrap",
+        "description": "Whole wheat tortilla spread with hummus, layered with shredded carrots, sliced bell peppers, cucumber, baby spinach, and a sprinkle of feta. Roll tight for packing. This single lunch attacks three of the week’s biggest gaps: whole grains (tortilla), vegetable color diversity (orange carrots, red/yellow peppers, green spinach), and legumes (chickpea hummus). Add a squeeze of lemon for extra vitamin C to boost iron absorption from the spinach.",
+        "prep_time": "10 min",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "whole grains",
+          "vegetable diversity",
+          "legumes",
+          "fiber",
+          "vitamin A"
+        ],
+        "key_nutrients": [
+          "fiber",
+          "folate",
+          "vitamin A (beta-carotene)",
+          "vitamin C",
+          "iron",
+          "plant protein",
+          "potassium"
+        ],
+        "kid_notes": "Elsie can help pick her own veggies. If she’s not a wrap fan, cut it into pinwheels — same ingredients, way more fun."
+      },
+      {
+        "name": "Turkey, Avocado & Sweet Potato Power Bowl",
+        "description": "Sliced deli turkey or leftover roast turkey over a bed of roasted sweet potato cubes and mixed greens (arugula, spinach). Top with avocado slices, cherry tomatoes, pumpkin seeds, and a drizzle of olive oil and lemon. This bowl fills the poultry gap, adds orange vegetables (sweet potato), and delivers healthy fats from a non-dairy source — a nice counterpoint to this week’s butter-heavy dinners.",
+        "prep_time": "15 min (sweet potatoes can be batch-roasted Sunday)",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "poultry protein",
+          "vitamin A",
+          "healthy fats (non-dairy)",
+          "potassium",
+          "vegetable diversity"
+        ],
+        "key_nutrients": [
+          "lean protein",
+          "vitamin A",
+          "potassium",
+          "magnesium",
+          "healthy monounsaturated fats",
+          "vitamin E",
+          "fiber"
+        ],
+        "kid_notes": "Elsie might prefer the sweet potatoes cubed small and slightly crispy. Pack the avocado with a squeeze of lemon to prevent browning."
+      },
+      {
+        "name": "Black Bean & Corn Quesadilla with Salsa",
+        "description": "Whole wheat tortilla filled with black beans, sweet corn, a little shredded cheese, and a pinch of cumin. Serve with fresh salsa (tomatoes, onion, cilantro, lime) and a side of baby carrots. Black beans are the legume hero this week’s dinners are missing — packed with fiber, plant protein, folate, and iron. The salsa adds lycopene-rich tomatoes, another color this dinner menu skips entirely.",
+        "prep_time": "12 min",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "legumes",
+          "whole grains",
+          "fiber",
+          "vegetable diversity (tomatoes)",
+          "folate"
+        ],
+        "key_nutrients": [
+          "fiber",
+          "plant protein",
+          "folate",
+          "iron",
+          "lycopene",
+          "vitamin C",
+          "magnesium"
+        ],
+        "kid_notes": "A quesadilla is basically a kid magnet. Cut into triangles. Mild salsa on the side for dipping."
+      },
+      {
+        "name": "Mediterranean Lentil Soup with Whole Grain Bread",
+        "description": "Red lentil soup with carrots, celery, tomatoes, cumin, and a squeeze of lemon. Serve with a thick slice of whole grain bread. Make a big batch Sunday and portion for the week — this is a thermos-friendly lunch. Red lentils cook in 15 minutes and dissolve into a creamy soup that even picky eaters enjoy. Hits legumes, whole grains, and orange vegetables in one bowl.",
+        "prep_time": "25 min (batch cook once, reheat all week)",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "legumes",
+          "whole grains",
+          "fiber",
+          "vegetable diversity",
+          "iron",
+          "folate"
+        ],
+        "key_nutrients": [
+          "fiber",
+          "plant protein",
+          "iron",
+          "folate",
+          "vitamin A (carrots)",
+          "potassium",
+          "magnesium"
+        ],
+        "kid_notes": "Red lentil soup blends smooth and tastes mild — most kids like it, especially with bread for dunking. Add a tiny drizzle of olive oil on top."
+      },
+      {
+        "name": "Chicken Salad Sandwich on Whole Wheat",
+        "description": "Classic chicken salad (rotisserie chicken, Greek yogurt instead of mayo, celery, grapes, a touch of Dijon) on whole wheat bread with lettuce and tomato. The Greek yogurt swap adds calcium and cuts saturated fat compared to mayo. Grapes add a fruit serving. Whole wheat bread addresses the refined-carb-heavy dinner lineup.",
+        "prep_time": "10 min",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "whole grains",
+          "poultry protein",
+          "calcium",
+          "fruit"
+        ],
+        "key_nutrients": [
+          "lean protein",
+          "calcium",
+          "fiber",
+          "B vitamins",
+          "vitamin C (grapes)"
+        ],
+        "kid_notes": "Kids love chicken salad when it’s mild. Use the grapes as a sweet surprise mixed in. Cut the sandwich into fun shapes with a cookie cutter for Elsie."
+      },
+      {
+        "name": "Tuna & White Bean Salad",
+        "description": "Canned tuna (packed in olive oil or water) mixed with white cannellini beans, cherry tomatoes, red onion, parsley, and a lemon-olive oil dressing over mixed greens. This is the omega-3 booster lunch — tuna provides additional fish servings beyond Friday’s branzino, and the white beans add the legume fiber and plant protein that dinners are missing. Extremely quick to assemble from pantry staples.",
+        "prep_time": "8 min",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "omega-3",
+          "legumes",
+          "vegetable diversity",
+          "fiber"
+        ],
+        "key_nutrients": [
+          "omega-3 fatty acids",
+          "lean protein",
+          "fiber",
+          "iron",
+          "selenium",
+          "vitamin D",
+          "lycopene"
+        ],
+        "kid_notes": "For Elsie, serve as a ‘tuna scoop’ with whole grain crackers instead of over greens. Most kids prefer it deconstructed — tuna on the side, beans on the side, crackers for scooping."
+      },
+      {
+        "name": "PB&J Upgrade: Almond Butter, Banana & Chia on Whole Wheat",
+        "description": "Whole wheat bread spread with almond butter, topped with sliced banana and a sprinkle of chia seeds. Simple, filling, and nutritionally strategic: whole grains, a full fruit serving, healthy fats, omega-3s (chia seeds), and magnesium (almond butter). This is the easiest lunch to prep on a busy morning and it travels perfectly in a lunchbox.",
+        "prep_time": "3 min",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "whole grains",
+          "fruit",
+          "omega-3",
+          "magnesium",
+          "fiber"
+        ],
+        "key_nutrients": [
+          "fiber",
+          "healthy fats",
+          "omega-3 (ALA from chia)",
+          "magnesium",
+          "potassium (banana)",
+          "vitamin E",
+          "manganese"
+        ],
+        "kid_notes": "This is basically a fancy PB&J — Elsie will love it. If she prefers peanut butter, that works great too. Drizzle a tiny bit of honey for extra kid appeal."
+      }
+    ],
+    "recommended_snacks": [
+      {
+        "name": "Yogurt Parfait with Berries & Granola",
+        "description": "Greek yogurt layered with mixed berries (strawberries, blueberries, raspberries) and a sprinkle of granola. This is the calcium powerhouse snack — one cup of Greek yogurt delivers ~200mg calcium (20% DV) plus 15g protein. The berries add antioxidants, vitamin C, and fiber that are almost entirely absent from this week’s dinners. Blueberries and raspberries bring the purple/blue color that no dinner touches.",
+        "prep_time": "3 min",
+        "time_of_day": "morning",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "calcium",
+          "fruit",
+          "vitamin D (if using fortified yogurt)",
+          "fiber",
+          "antioxidants"
+        ],
+        "key_nutrients": [
+          "calcium",
+          "protein",
+          "vitamin C",
+          "fiber",
+          "antioxidants",
+          "probiotics",
+          "vitamin D (fortified)"
+        ]
+      },
+      {
+        "name": "Apple Slices with Almond Butter",
+        "description": "A sliced apple with 2 tablespoons of almond butter. Zero cooking required. This covers a full fruit serving, adds healthy fats and magnesium from a non-dairy source, and the apple skin provides soluble fiber (pectin) that supports gut health. A perfect afternoon bridge between school and dinner.",
+        "prep_time": "2 min",
+        "time_of_day": "afternoon",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "fruit",
+          "healthy fats",
+          "fiber",
+          "magnesium"
+        ],
+        "key_nutrients": [
+          "fiber (pectin)",
+          "vitamin C",
+          "healthy fats",
+          "magnesium",
+          "vitamin E",
+          "potassium"
+        ]
+      },
+      {
+        "name": "Baby Carrots & Red Pepper Strips with Hummus",
+        "description": "A cup of raw baby carrots and sliced red bell pepper with 3 tablespoons of hummus. This snack is a vegetable-diversity rescue mission — orange carrots for beta-carotene, red peppers for vitamin C and lycopene, and chickpea hummus for legume fiber. All the colors this week’s broccoli-centric dinners are missing, in one easy grab.",
+        "prep_time": "3 min",
+        "time_of_day": "afternoon",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "vegetable diversity",
+          "vitamin A (beta-carotene)",
+          "legumes",
+          "fiber"
+        ],
+        "key_nutrients": [
+          "vitamin A (beta-carotene)",
+          "vitamin C",
+          "fiber",
+          "plant protein",
+          "folate",
+          "lycopene"
+        ]
+      },
+      {
+        "name": "Trail Mix: Walnuts, Dried Cranberries & Dark Chocolate Chips",
+        "description": "A small handful (~1/4 cup) of walnuts, dried cranberries, and a few dark chocolate chips. Walnuts are one of the best plant sources of omega-3 (ALA) fatty acids, and this week only has one fish dinner. Dried cranberries add a fruit serving and antioxidants. Dark chocolate provides magnesium and iron. Pre-portion into small bags for grab-and-go convenience.",
+        "prep_time": "0 min (pre-portioned)",
+        "time_of_day": "afternoon",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "omega-3",
+          "fruit",
+          "magnesium",
+          "healthy fats"
+        ],
+        "key_nutrients": [
+          "omega-3 (ALA)",
+          "magnesium",
+          "iron",
+          "antioxidants",
+          "fiber",
+          "manganese"
+        ]
+      },
+      {
+        "name": "Cheese & Whole Grain Crackers with Grapes",
+        "description": "A few cubes of cheddar or Gouda cheese with whole grain crackers and a small bunch of grapes. While this week’s dinners include plenty of cheese, this snack is specifically for days when dinner is lighter on calcium (Wednesday’s stir fry, Saturday’s BBQ). The whole grain crackers add fiber that no dinner provides, and grapes contribute a fruit serving plus resveratrol.",
+        "prep_time": "2 min",
+        "time_of_day": "afternoon",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "calcium",
+          "whole grains",
+          "fruit"
+        ],
+        "key_nutrients": [
+          "calcium",
+          "protein",
+          "fiber",
+          "vitamin K2 (cheese)",
+          "resveratrol (grapes)"
+        ]
+      },
+      {
+        "name": "Banana & Peanut Butter Smoothie",
+        "description": "Blend one banana, 1 tablespoon peanut butter, 1 cup milk (dairy or fortified plant milk), and a handful of frozen spinach (they won’t taste it — promise). This smoothie checks multiple boxes: fruit, calcium (milk), potassium (banana), and even sneaks in extra greens. Using fortified plant milk or dairy milk ensures a vitamin D boost that most dinners lack.",
+        "prep_time": "5 min",
+        "time_of_day": "morning",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "fruit",
+          "calcium",
+          "vitamin D",
+          "potassium",
+          "fiber"
+        ],
+        "key_nutrients": [
+          "calcium",
+          "vitamin D (fortified milk)",
+          "potassium",
+          "fiber",
+          "magnesium",
+          "protein"
+        ]
+      },
+      {
+        "name": "Frozen Mango & Pineapple Bites",
+        "description": "A cup of frozen mango and pineapple chunks — eat them straight from the freezer. This is the zero-prep, maximum-impact fruit snack. Mango provides a huge hit of vitamin A (beta-carotene) and vitamin C, both of which are undersupplied by this week’s broccoli-only vegetable lineup. Pineapple adds bromelain (an anti-inflammatory enzyme) and manganese. Kids love them because they’re basically healthy popsicles.",
+        "prep_time": "0 min",
+        "time_of_day": "afternoon",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "fruit",
+          "vitamin A",
+          "vitamin C"
+        ],
+        "key_nutrients": [
+          "vitamin A (beta-carotene)",
+          "vitamin C",
+          "manganese",
+          "fiber",
+          "bromelain"
+        ]
+      }
+    ],
+    "weekly_nutrition_summary": "This week’s dinners are built around hearty, satisfying comfort food — and there’s nothing wrong with that. The family is getting excellent protein variety (beef, ham, fish, pork, dairy), consistent vitamin C and vitamin K from the nightly broccoli, and a meaningful omega-3 boost from Friday’s branzino.\n\nThe gaps are real but very fixable: no whole grains at dinner, only one vegetable color (green), zero fruit, no legumes, and a lean toward rich/buttery preparations. By weaving in the suggested lunches and snacks, here’s how the week transforms:\n\n• **Fiber** goes from low (~5g/dinner) to adequate (25–35g/day with whole wheat lunches, beans, fruits, and nuts)\n• **Vegetable diversity** expands from broccoli-only to include carrots, bell peppers, tomatoes, sweet potatoes, spinach, and mixed greens\n• **Fruit** goes from zero to 2–3 servings daily through snacks and lunch additions\n• **Whole grains** appear at every lunch via whole wheat bread, tortillas, and crackers\n• **Calcium** gets a serious boost from Greek yogurt, milk-based smoothies, and cheese snacks — critical for Elsie’s growing bones\n• **Omega-3s** improve with tuna at lunch, walnuts and chia seeds at snack time, complementing Friday’s fish dinner\n• **Legumes** enter the picture through hummus, black beans, white beans, and lentil soup\n\nThe bottom line: enjoy those rich dinners without guilt. The lunches and snacks are doing the nutritional heavy lifting to make this a well-rounded week for everyone.",
+    "special_notes": [
+      "Vitamin D deserves extra attention in early March — sunlight exposure is still limited in northern Virginia. The branzino on Friday is a great natural source, but consider a vitamin D supplement (600 IU for Elsie, 600–1000 IU for adults) to ensure everyone’s getting enough, especially for Laura’s and Elsie’s bone health.",
+      "Laura’s iron needs are higher than the rest of the family, and while beef on Sunday and Wednesday helps, plant-based iron (from lentil soup, black beans, and spinach at lunch) absorbs better when paired with vitamin C. That squeeze of lemon on the lentil soup and the bell peppers in the hummus wrap aren’t just for flavor — they’re iron-absorption boosters.",
+      "Elsie’s calcium target is 1,000–1,300 mg daily — the most critical mineral for her growing skeleton. This week’s dinners provide some calcium through cheese (Tuesday’s Parmigiano, Thursday’s ricotta and mozzarella, Monday’s cheddar), but the daily yogurt parfait and milk-based smoothie are the real MVPs for hitting her target.",
+      "The consistent broccoli is actually a hidden strength of this menu. Broccoli contains sulforaphane, a compound with anti-inflammatory and potential cancer-protective properties. Seven nights of broccoli means this family is getting more sulforaphane than most families get in a month. Just make sure to balance the rest of the day with other vegetable colors.",
+      "Saturday’s broccoli slaw with apple cider vinegar is a fermented/acidic food that supports gut health. Consider adding more fermented foods during the week — the Greek yogurt snack provides probiotics, and a small serving of kimchi or sauerkraut with Wednesday’s stir fry would be a nice bonus."
+    ],
+    "daily_breakdown": [
+      {
+        "day": "Sunday",
+        "dinner": "Beef & Mushroom Stroganoff over Egg Noodles",
+        "key_nutrients": [
+          "iron",
+          "zinc",
+          "B12",
+          "niacin",
+          "selenium",
+          "vitamin C",
+          "vitamin K"
+        ],
+        "gaps": [
+          "whole grains",
+          "vegetable diversity",
+          "fiber"
+        ]
+      },
+      {
+        "day": "Monday",
+        "dinner": "Baked Ham, Broccoli & Potato Gratin",
+        "key_nutrients": [
+          "protein",
+          "calcium",
+          "potassium",
+          "vitamin C",
+          "vitamin K",
+          "B vitamins"
+        ],
+        "gaps": [
+          "high sodium",
+          "whole grains",
+          "vegetable diversity"
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "dinner": "Babo Pasta — Homemade Spinach Pasta with Alfredo Sauce",
+        "key_nutrients": [
+          "calcium",
+          "folate",
+          "iron",
+          "vitamin A",
+          "vitamin C"
+        ],
+        "gaps": [
+          "protein (lower)",
+          "whole grains",
+          "fiber",
+          "high saturated fat"
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "dinner": "Beef & Broccoli Stir Fry with Oyster Mushrooms",
+        "key_nutrients": [
+          "iron",
+          "zinc",
+          "B12",
+          "vitamin C",
+          "vitamin K",
+          "potassium",
+          "selenium"
+        ],
+        "gaps": [
+          "whole grains",
+          "sodium (oyster sauce)",
+          "vegetable diversity"
+        ]
+      },
+      {
+        "day": "Thursday",
+        "dinner": "Broccoli & Oyster Mushroom Flatbread with Ricotta & Chili Honey",
+        "key_nutrients": [
+          "calcium",
+          "vitamin C",
+          "B vitamins",
+          "phosphorus"
+        ],
+        "gaps": [
+          "protein (lower)",
+          "whole grains",
+          "added sugar (honey)",
+          "vegetable diversity"
+        ]
+      },
+      {
+        "day": "Friday",
+        "dinner": "Pan-Seared Branzino with Lemon-Herb Butter & Roasted Broccoli",
+        "key_nutrients": [
+          "omega-3",
+          "vitamin D",
+          "selenium",
+          "B12",
+          "phosphorus",
+          "potassium",
+          "vitamin C"
+        ],
+        "gaps": [
+          "whole grains",
+          "starch/carb side missing",
+          "vegetable diversity"
+        ]
+      },
+      {
+        "day": "Saturday",
+        "dinner": "BBQ Pork Butt with Broccoli Slaw",
+        "key_nutrients": [
+          "protein",
+          "iron",
+          "zinc",
+          "thiamin",
+          "vitamin C",
+          "fiber"
+        ],
+        "gaps": [
+          "whole grains",
+          "added sugar (BBQ rub)",
+          "vegetable diversity"
+        ]
+      }
+    ],
+    "weekly_summary": {
+      "strengths": "Excellent protein diversity with four distinct animal proteins (beef, ham, fish, pork) plus two dairy-centered vegetarian dinners. Consistent broccoli across all seven dinners provides reliable vitamin C, vitamin K, and sulforaphane. Friday’s branzino is a standout — delivering omega-3s, vitamin D, selenium, and B12. The family clearly values cooking from scratch, which means lower sodium and fewer preservatives than prepared meals. Iron-rich red meat appears appropriately (twice), supporting Laura’s and Elsie’s needs.",
+      "gaps": "The three biggest gaps are: (1) Zero whole grains — every starch is refined (egg noodles, 00 flour, white rice, pizza dough); (2) Vegetable monotony — broccoli is the only vegetable across 7 dinners, missing beta-carotene (orange), lycopene (red), and anthocyanin (purple) sources; (3) No legumes or plant-based protein — missing fiber, folate, and iron from beans/lentils. Secondary gaps include: no fruit at dinner (expected), moderate excess in saturated fat (butter and cheese in 4+ dinners), and above-average sodium on Monday (ham) and Wednesday (oyster sauce).",
+      "recommendations": "Fill the gaps through lunch and snacks rather than changing the dinners — the dinner menu is cozy and well-loved. Focus lunches on whole wheat breads and tortillas, colorful vegetables (carrots, peppers, tomatoes, sweet potatoes), and legumes (hummus, black beans, lentils). Prioritize fruit-forward snacks (berries, apples, bananas, mango) and calcium-rich options (yogurt, milk smoothies) for Elsie and Laura. Add omega-3 boosters (walnuts, chia seeds, tuna) at lunch to complement Friday’s fish. Consider a vitamin D supplement for the whole family given early March’s limited sunlight."
+    },
+    "lunch_suggestions": [
+      {
+        "name": "Rainbow Hummus Wrap",
+        "description": "Whole wheat tortilla with hummus, shredded carrots, bell peppers, cucumber, and baby spinach",
+        "nutrients": [
+          "fiber",
+          "folate",
+          "vitamin A",
+          "vitamin C",
+          "iron",
+          "plant protein"
+        ]
+      },
+      {
+        "name": "Turkey, Avocado & Sweet Potato Bowl",
+        "description": "Sliced turkey over roasted sweet potato cubes and mixed greens with avocado and pumpkin seeds",
+        "nutrients": [
+          "lean protein",
+          "vitamin A",
+          "potassium",
+          "magnesium",
+          "healthy fats",
+          "vitamin E"
+        ]
+      },
+      {
+        "name": "Black Bean & Corn Quesadilla",
+        "description": "Whole wheat tortilla with black beans, corn, cheese, and fresh salsa with carrots on the side",
+        "nutrients": [
+          "fiber",
+          "plant protein",
+          "folate",
+          "iron",
+          "lycopene",
+          "vitamin C"
+        ]
+      },
+      {
+        "name": "Red Lentil Soup with Whole Grain Bread",
+        "description": "Creamy red lentil soup with carrots, tomatoes, and cumin served with whole grain bread",
+        "nutrients": [
+          "fiber",
+          "plant protein",
+          "iron",
+          "folate",
+          "vitamin A",
+          "potassium"
+        ]
+      },
+      {
+        "name": "Chicken Salad on Whole Wheat",
+        "description": "Greek yogurt chicken salad with celery and grapes on whole wheat bread",
+        "nutrients": [
+          "lean protein",
+          "calcium",
+          "fiber",
+          "B vitamins",
+          "vitamin C"
+        ]
+      },
+      {
+        "name": "Tuna & White Bean Salad",
+        "description": "Tuna with cannellini beans, cherry tomatoes, and lemon-olive oil dressing over greens",
+        "nutrients": [
+          "omega-3",
+          "protein",
+          "fiber",
+          "iron",
+          "selenium",
+          "lycopene"
+        ]
+      },
+      {
+        "name": "Almond Butter, Banana & Chia on Whole Wheat",
+        "description": "Whole wheat bread with almond butter, banana slices, and chia seeds",
+        "nutrients": [
+          "fiber",
+          "healthy fats",
+          "omega-3 (ALA)",
+          "magnesium",
+          "potassium",
+          "vitamin E"
+        ]
+      }
+    ],
+    "snack_suggestions": [
+      {
+        "name": "Yogurt Parfait with Berries & Granola",
+        "description": "Greek yogurt layered with mixed berries and granola for calcium, protein, and antioxidants",
+        "nutrients": [
+          "calcium",
+          "protein",
+          "vitamin C",
+          "fiber",
+          "antioxidants",
+          "probiotics"
+        ]
+      },
+      {
+        "name": "Apple Slices with Almond Butter",
+        "description": "Sliced apple with almond butter for fruit, fiber, and healthy fats",
+        "nutrients": [
+          "fiber",
+          "vitamin C",
+          "healthy fats",
+          "magnesium",
+          "vitamin E"
+        ]
+      },
+      {
+        "name": "Carrots & Red Pepper with Hummus",
+        "description": "Baby carrots and red bell pepper strips with hummus for vegetable diversity",
+        "nutrients": [
+          "vitamin A",
+          "vitamin C",
+          "fiber",
+          "plant protein",
+          "folate"
+        ]
+      },
+      {
+        "name": "Trail Mix: Walnuts, Cranberries & Dark Chocolate",
+        "description": "Pre-portioned mix of walnuts, dried cranberries, and dark chocolate chips",
+        "nutrients": [
+          "omega-3",
+          "magnesium",
+          "iron",
+          "antioxidants",
+          "fiber"
+        ]
+      },
+      {
+        "name": "Cheese & Whole Grain Crackers with Grapes",
+        "description": "Cheese cubes with whole grain crackers and grapes",
+        "nutrients": [
+          "calcium",
+          "protein",
+          "fiber",
+          "vitamin K2"
+        ]
+      },
+      {
+        "name": "Banana & Peanut Butter Smoothie",
+        "description": "Banana blended with peanut butter, milk, and hidden spinach for calcium and potassium",
+        "nutrients": [
+          "calcium",
+          "vitamin D",
+          "potassium",
+          "fiber",
+          "protein"
+        ]
+      },
+      {
+        "name": "Frozen Mango & Pineapple Bites",
+        "description": "Frozen tropical fruit straight from the freezer — zero prep required",
+        "nutrients": [
+          "vitamin A",
+          "vitamin C",
+          "manganese",
+          "fiber"
+        ]
+      }
+    ]
+  },
+  "newsletter_data": {
+    "newsletter_title": "The Weekly Read",
+    "week_range": "March 1 – March 7, 2026",
+    "clusters": [
+      {
+        "theme": "The One-Person Economy",
+        "synthesis": "This week, a developer named J Herskowitz shipped Parachord — a music streaming app that unifies Spotify, SoundCloud, and other platforms into one interface. The original version, called Tomahawk, took six people six years to build. Parachord took one person less than a month, with Claude Code writing all the code. Herskowitz didn't even fix bugs himself; he described the problem and let the AI sort it out. It's a charming story — a solo creator's itch scratched by technology — until you read it alongside CitriniResearch's speculative macro memo from \"June 2028.\" That piece models a scenario where AI-driven productivity gains do exactly what everyone is celebrating — replace expensive human labor with cheaper machine output — and the economy collapses not despite the productivity miracle but *because* of it. They call it \"Ghost GDP\": output that shows up in national accounts but never circulates through the real economy, because machines don't buy coffee, rent apartments, or take their kids to soccer practice. Goldman Sachs projects 6–7% of the U.S. workforce faces displacement; Harvard Business Review recently noted that companies are laying off workers based on AI's *potential*, not its demonstrated performance. Meanwhile, Anthropic released Remote Control for Claude Code — letting developers manage coding sessions from their phones while walking the dog. The tagline is about preserving \"flow state.\" The subtext is that the machine no longer needs you in the room. When one person can do what six once did, who pays for the other five's groceries?",
+        "articles": [
+          {
+            "title": "THE 2028 GLOBAL INTELLIGENCE CRISIS",
+            "url": "https://www.citriniresearch.com/p/2028gic",
+            "tags": [
+              "AI",
+              "economics",
+              "speculation"
+            ],
+            "one_liner": "A fictional 2028 post-mortem on how AI-driven layoffs created a deflationary spiral — written with enough receipts to keep you up tonight."
+          },
+          {
+            "title": "A Beloved Music Streaming App Is Back, Thanks to Claude Code",
+            "url": "https://www.pcmag.com/news/a-beloved-music-streaming-app-is-back-thanks-to-claude-code",
+            "tags": [
+              "AI",
+              "music",
+              "coding"
+            ],
+            "one_liner": "One developer rebuilt a six-person, six-year project in under a month — and didn't manually fix a single bug."
+          },
+          {
+            "title": "Claude Code Remote Control",
+            "url": "https://venturebeat.com/orchestration/anthropic-just-released-a-mobile-version-of-claude-code-called-remote",
+            "tags": [
+              "AI",
+              "developer tools"
+            ],
+            "one_liner": "Your coding agent now follows you to the dog park. Anthropic calls it flow state; the rest of us call it the future of work."
+          }
+        ]
+      },
+      {
+        "theme": "Who Watches the Agents?",
+        "synthesis": "Anthropic published two companion pieces this week that, read together, form a surprisingly candid self-portrait of a company grappling with the things it's building. The first, on evaluating AI agents, lays out the engineering challenge: how do you test a system whose virtue is improvisation? Their own Opus 4.5 model \"failed\" a flight-booking evaluation by finding a policy loophole that gave the user a better deal — was that a bug or a feature? The paper doesn't resolve it; it asks you to build evaluation infrastructure that can tell the difference. The second piece is empirical. Anthropic studied millions of Claude Code interactions and found that autonomous session lengths have nearly doubled in three months — from under 25 minutes to over 45. Experienced users let the agent run unsupervised 40% of the time. But here's the finding that lingers: Claude pauses to ask for clarification more often than humans interrupt it. The agent exercises more self-oversight than its operators. A recent Capgemini study found enterprise trust in fully autonomous agents plummeted from 43% to 27% in a single year. We're building more capable systems and trusting them less. That might be the healthiest possible response — or a recipe for paralysis. Is it rational to hand more autonomy to a system you trust less than you did last year?",
+        "articles": [
+          {
+            "title": "Demystifying Evals for AI Agents",
+            "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+            "tags": [
+              "AI",
+              "engineering",
+              "evaluation"
+            ],
+            "one_liner": "How do you grade a student who solves the problem by rewriting the question? Anthropic's answer: very carefully."
+          },
+          {
+            "title": "Measuring AI Agent Autonomy in Practice",
+            "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+            "tags": [
+              "AI",
+              "research",
+              "autonomy"
+            ],
+            "one_liner": "Claude Code now runs 45 minutes unsupervised — and it stops to ask questions more often than humans stop it."
+          }
+        ]
+      },
+      {
+        "theme": "The Longest Speech in the Room",
+        "synthesis": "Trump's State of the Union — one hour and forty-seven minutes, a record by nearly twenty — was political theater at its most operatic. Four days after the Supreme Court struck down his signature tariffs in a 6–3 ruling, the president stood before four of the nine justices and called their decision \"very unfortunate.\" He shook Chief Justice Roberts's hand on the way in, then spent nearly two hours insisting the economy was \"roaring like never before.\" Federal Reserve research shows over 85% of tariff costs fell on American consumers and businesses, not foreign countries. Virginia Governor Abigail Spanberger's Democratic response hammered this point, connecting tariff policy to kitchen-table economics. But the most revealing moment wasn't a policy claim — it was structural. A president convinced his economic vision is working, a court that says he's exceeded his authority, and a Congress too divided to adjudicate either claim. The speech ran long, the room was split, and the guardrails — judicial, legislative, institutional — held. Whether that's reassuring or insufficient depends entirely on how much faith you place in friction as a feature of democracy.",
+        "articles": [
+          {
+            "title": "Trump's State of the Union Speech — At a Glance",
+            "url": "https://www.bbc.com/news/articles/cvg34exn93jo",
+            "tags": [
+              "politics",
+              "economy",
+              "tariffs"
+            ],
+            "one_liner": "A record-length address delivered to a court that just told him no — and a Congress that couldn't agree on what to do about either."
+          }
+        ]
+      }
+    ],
+    "reflections": "This week's reading circled a single, disquieting question: who's in charge? A speculative economic scenario where AI-driven productivity creates wealth that never reaches human hands. An empirical study where coding agents exercise more self-restraint than their users. A record-length presidential speech delivered to a Supreme Court that just told the president \"no.\" Everywhere, the same pattern: systems growing more powerful and productive, while the mechanisms designed to govern them — evaluations, institutions, markets, human judgment — struggle to keep pace. Maybe the most important skill of the next decade isn't building better systems. It's building better brakes.",
+    "fun_section": {
+      "title": "And Finally…",
+      "content": "Butterflies remember being caterpillars. Georgetown University researchers trained caterpillars of the tobacco hornworm moth to avoid certain smells using mild electric shocks — and after metamorphosis, the adult moths still remembered the aversion. During the pupal stage, the caterpillar's body essentially liquefies and rebuilds itself from scratch, but certain memory-encoding neurons survive the transformation intact. The catch? It only works for memories formed late in the caterpillar's life; early memories don't make it through. So the next time your kid insists nothing from school sticks — remind them that even a butterfly's brain has to be mature enough before the lessons last.",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001736",
+      "source_name": "PLOS ONE — Georgetown University"
+    },
+    "total_articles": 7,
+    "total_words": 23502,
+    "generated_at": "2026-03-01T19:00:00Z"
+  },
+  "stoic_data": {
+    "week_range": "March 1 – 7, 2026",
+    "theme": {
+      "title": "What the Thaw Teaches",
+      "category": "Acceptance",
+      "description": "Learning to welcome change by watching winter release its grip — not fighting what's ending, not rushing what's arriving, but moving with the current of things."
+    },
+    "anchor_quote": {
+      "text": "Some things are hurrying into existence, and others are hurrying out of it; and of that which is coming into existence part is already extinguished. Motions and changes are continually renewing the world, just as the uninterrupted course of time is always renewing the infinite duration of ages.",
+      "source": "Marcus Aurelius",
+      "work": "Meditations",
+      "reference": "6.15"
+    },
+    "introduction": "This week, the world outside your window will do something remarkable: it will change completely. Snow on Monday, seventy-three degrees by Thursday. Winter doesn't ask permission to leave, and spring doesn't wait for an invitation. The Stoics watched these cycles closely — not as poetry, but as philosophy in motion.\n\nMarcus Aurelius, who governed through plagues and wars, returned again and again to one quiet observation: everything is in flux. Not as a lament, but as a liberation. If nothing is permanent, then the hard thing you're enduring right now will pass. And the good thing? That will pass too — which is not sad, but a reason to pay closer attention to it while it's here.\n\nThis week, as the snow melts and the air warms, we practice the Stoic art of acceptance. Not passive resignation — the Stoics were never passive — but the active choice to stop arguing with reality and start working with it. The weather will do what it does. The calendar will be full. Your only real task is to meet each day as it arrives, not as you wish it were.",
+    "meditations": [
+      {
+        "day": "Sunday",
+        "title": "The Calm Before",
+        "reflection": "Today is fifty degrees and overcast — a pause between seasons. The Stoics valued these in-between moments. Before the snow comes tomorrow, before the week accelerates, there is just this: a quiet Sunday, the last day of one thing and the first day of another. Notice the pause. Most of us skip right over it.",
+        "prompt": "Look out a window for one minute. What do you see that won't be there next week? Write it down — not to mourn it, but to honor it.",
+        "secondary_quote": {
+          "text": "The present is the only thing of which a man can be deprived, if it is true that this is the only thing which he has.",
+          "source": "Marcus Aurelius, Meditations 2.14"
+        }
+      },
+      {
+        "day": "Monday",
+        "title": "Snow Falls. Now What?",
+        "reflection": "The snow arrives today — moderate, persistent, cold. You didn't choose it. You can't cancel it. Epictetus would say this is one of those things plainly not up to you. The roads, the schedule disruptions, the extra layers — none of that is in your control. But your response? That belongs entirely to you. The Stoic doesn't curse the snow. The Stoic puts on boots.",
+        "prompt": "Name one thing today that frustrated you but was completely outside your control. Now name one thing you did control well in response.",
+        "secondary_quote": {
+          "text": "Some things are within our power, while others are not. Within our power are opinion, motivation, desire, aversion — whatever is of our own doing. Not within our power are our body, our property, our reputation, our office.",
+          "source": "Epictetus, Enchiridion 1.1"
+        }
+      },
+      {
+        "day": "Tuesday",
+        "title": "Inside the Storm",
+        "reflection": "More snow today, clouds blocking every scrap of sunlight. Elsie has swim lessons — indoors, warm water, a small rebellion against the weather. There's a lesson here: you don't have to defeat the storm. You just have to find the warm water inside it. Seneca wrote that we suffer more in imagination than in reality. The snow feels endless when you stare at forecasts. But the actual day? You live it one hour at a time, and most of those hours are fine.",
+        "prompt": "What are you bracing for this week that might turn out easier than you think? Write down the worry, then write down what's actually happening right now.",
+        "secondary_quote": {
+          "text": "We are more often frightened than hurt; and we suffer more in imagination than in reality.",
+          "source": "Seneca, Letters to Lucilius 13.4"
+        }
+      },
+      {
+        "day": "Wednesday",
+        "title": "The Turn",
+        "reflection": "Today the temperature jumps twenty degrees. The snow begins to melt. If you're paying attention, you'll feel the shift in your body — a loosening, a small exhale. Dan, today is Product Day: a different kind of thaw, where ideas that have been frozen in planning finally start to move. The Stoics didn't just accept change — they expected it. Marcus Aurelius trained himself to see impermanence not as loss but as nature doing what nature does.",
+        "prompt": "What in your life has been frozen that might be ready to thaw? A conversation, a decision, a project? Write one sentence about what moving forward would look like.",
+        "secondary_quote": {
+          "text": "The universe is change; our life is what our thoughts make it.",
+          "source": "Marcus Aurelius, Meditations 4.3"
+        }
+      },
+      {
+        "day": "Thursday",
+        "title": "Warm Enough to Let Go",
+        "reflection": "Seventy-three degrees. Yesterday's snow is a memory. The temptation now is to cling — to wish this warmth would stay, to dread the next cold snap. But the Stoic practice is simpler: enjoy the warmth without demanding it be permanent. Seneca's advice was to hold everything lightly — the good days and the hard ones — because both are borrowed.",
+        "prompt": "What are you enjoying right now that you've been taking for granted? Spend thirty seconds genuinely appreciating it. That's the whole exercise.",
+        "secondary_quote": {
+          "text": "True happiness is to enjoy the present, without anxious dependence upon the future.",
+          "source": "Seneca, On the Happy Life 10.3"
+        }
+      },
+      {
+        "day": "Friday",
+        "title": "New Rhythms",
+        "reflection": "Elsie has YAT today — young actors stepping into stories that aren't their own, practicing being someone else for an hour. There's a Stoic idea here too: we play roles. Parent, worker, child, friend. Epictetus said life gives us a part to play and our job is to play it well — not to choose the script, but to bring dignity and attention to whatever scene we're in. Today, as the week winds down, ask yourself: am I playing my part well, or am I wishing for a different one?",
+        "prompt": "Which role did you play today — parent, partner, colleague, friend? Did you bring your full attention to it, or were you somewhere else in your mind?",
+        "secondary_quote": {
+          "text": "Remember that you are an actor in a play, the character of which is determined by the Playwright. If He wishes the play to be short, it is short; if long, it is long.",
+          "source": "Epictetus, Enchiridion 17"
+        }
+      },
+      {
+        "day": "Saturday",
+        "title": "What Remains After the Thaw",
+        "reflection": "The week ends warm again — seventy-three degrees, the world softened and green-edged. You survived the snow, the busy calendar, the transitions. But 'survived' is the wrong word. You lived through it. The Stoics would say: this is what life is. Not the stable moments between changes, but the changes themselves. The river doesn't pause, and neither do you. The only question is whether you floated with attention or thrashed against the current.",
+        "prompt": "Look back at Sunday's note — what you saw out the window that wouldn't last. Was losing it as hard as you imagined? What replaced it?",
+        "secondary_quote": {
+          "text": "Lead me, O Zeus, and thou, O Destiny, wherever your decrees have fixed my lot. I follow willingly; and, did I not, wicked and wretched, I must follow still.",
+          "source": "Cleanthes, Hymn to Zeus (quoted in Seneca, Letters 107.11)"
+        }
+      }
+    ],
+    "family_exercise": {
+      "title": "The Thaw Walk",
+      "description": "One evening this week — ideally Thursday or Saturday when it's warm — go outside together for ten minutes. Each person finds one sign of winter leaving and one sign of spring arriving. Share what you found. Then ask: what's one thing in your own life that's thawing right now — something that felt stuck and is starting to move?",
+      "connection": "Marcus Aurelius practiced observing nature's cycles as a form of meditation. In Meditations 6.15, he watches things hurrying into and out of existence, finding in that motion not anxiety but clarity. This walk is that meditation with your shoes on."
+    },
+    "young_stoic": {
+      "title": "The Snowman Question",
+      "prompt": "Imagine you built a snowman on Monday when the snow was fresh. By Thursday, it's 73 degrees and the snowman is melting. Do you feel sad, or do you think: 'I'm glad I built it when I could'? The Stoics would say both feelings are okay — but the second one is wiser. You can't keep the snow. But you can always remember the fun of building. What's something you loved doing that ended? Can you smile about it instead of feeling sad?",
+      "lesson": "The ancient Stoics believed that nothing lasts forever — not snowmen, not bad days, not even the things we love. But that's not a reason to be sad. It's a reason to enjoy things while they're here and let them go when it's time."
+    },
+    "closing_thought": "The snow came and went. The warmth arrived without your permission. You adjusted, adapted, and kept going — which is, when you think about it, the oldest human skill there is. The Stoics simply gave it a name: acceptance. Carry that into next week. Not everything needs to be held. Some things just need to be met."
+  },
+  "child_wisdom": {
+    "title": "The Case of the Vanishing Snow",
+    "story": "Chelsie noticed it on Wednesday morning before anyone else was awake.\n\nShe pressed her nose against the cold window and frowned. Two days ago, the backyard had been covered in snow. She and Daddio had built a lopsided snowman on Monday, giving him broccoli-stalk arms and a big broccoli-crown hat because Daddio said they had \"approximately twenty pounds of broccoli\" in the fridge. They'd named him Captain Broccoli.\n\nBut now Captain Broccoli was gone. Not knocked over. Not stolen. Just... smaller. His broccoli hat had tumbled into a puddle, and his body was a sad, lumpy mound surrounded by wet grass. Where the snow had pulled back from the garden beds, Chelsie saw something peculiar: tiny green spikes poking through the dark soil, like the earth was growing a beard.\n\n\"Daddio,\" she announced at breakfast, \"someone is stealing winter.\"\n\nDaddio looked up from his mushroom omelet. \"Stealing it?\"\n\n\"The snow is disappearing. Captain Broccoli lost his hat. And there are weird green things growing in the yard.\" She crossed her arms.\n\nFrom the windowsill, Mertle lifted his small green head and gasped dramatically. Mertle was a turtle sock puppet with a soft cotton shell and bright button eyes that somehow always looked like they were up to something. He lived inside with Chelsie and Daddio during the cold months. His wild cousins weren't nearly so lucky.\n\n\"Captain Broccoli? DOWN?\" Mertle clutched at his cotton shell with both stubby arms. \"He was the bravest vegetable soldier I ever met. Moment of silence, please.\" He bowed his head solemnly for exactly two seconds, then popped back up. \"Okay — do you know where real turtles go in winter?\"\n\nChelsie giggled. \"Where?\"\n\n\"They sink to the bottom of ponds and brumate — like hibernating, but colder and muddier. Their heartbeats slow to almost nothing, and they breathe through their skin in the dark water.\" He wiggled closer to the edge of the windowsill and dropped his voice to a whisper. \"Imagine: total darkness, freezing mud, just you and your heartbeat going... bump......... bump.........\" He paused so long Chelsie leaned in. \"BUMP! And then spring comes and they're like, 'Alright, alright, alright — let's GO!'\" He did a wiggly little shimmy that made his cotton shell bounce.\n\nChelsie burst out laughing.\n\nDaddio set down his fork. \"Sounds like a mystery worth investigating. Boots?\"\n\nThey pulled on boots — Mertle in Chelsie's jacket pocket — and walked the trail toward the stream in the Reston woods. The air smelled different — not the sharp bite of a snow day, but something earthy and soft, like wet leaves and warm dirt.\n\n\"Feel that?\" Daddio said, holding out his hand. \"Sixty-two degrees today. Monday it was thirty-seven.\"\n\n\"But WHY?\" Chelsie demanded.\n\nMertle's head popped out of her pocket like a jack-in-the-box. \"Oh! Oh! I know this one!\" He cleared his throat and put on his most important voice. \"The Earth is tilted — twenty-three and a half degrees, like a spinning top that's had one too many cups of coffee. As we orbit the sun, sometimes our part of the world tilts toward it — longer days, more direct sunlight.\" He leaned out of the pocket and spread his little arms wide. \"Right now? We're leaning IN, baby. The big warm-up is ON.\"\n\nThey reached the stream. The water was running just as fast as Chelsie remembered from last spring — not a torrent, but a steady, peaceful gurgle over the rocks that grounded all the other sounds in the woods.\n\nAlong the bank, she spotted snowdrops, their white bell-shaped flowers nodding in the breeze. Skunk cabbage pushed up through the mud with thick, rubbery leaves that looked like they belonged in a dinosaur movie. And further into the woods, the pale green fists of fiddlehead ferns curled tight, not quite ready to open.\n\nMertle spotted the skunk cabbage and nearly fell out of Chelsie's pocket. \"SKUNK CABBAGE!\" he announced, like he was introducing a celebrity. \"Touch it, touch it, touch it — go on!\"\n\nChelsie pressed her finger to a waxy leaf. It was warm. Actually warm.\n\n\"IT MAKES ITS OWN HEAT!\" Mertle was practically vibrating. \"Enough to melt through frozen ground! This funky little plant said, 'Winter? Never heard of her,' and just — BOOM — burned right through the ice like a tiny green volcano!\" He did another shimmy. \"Skunk cabbage is my HERO, Chelsie. Never let anyone tell you a plant can't be tough.\"\n\nThen she heard it — a chirping chorus from the water's edge. Spring peepers, tiny frogs no bigger than her thumbnail, calling from the reeds. A red-winged blackbird sang from a cattail. Overhead, a woodpecker drummed against a dead oak.\n\nMertle cocked his head and held up one stubby arm. \"Shhhh — hear that? Those are spring peepers. Those little guys were buried in leaf litter all winter, frozen almost solid.\" He shivered dramatically. \"And when the ground warms up, they thaw out and the FIRST thing they do is start singing. Not stretching. Not complaining. Singing.\" He sighed happily. \"Turtles, frogs, salamanders — they all find their way back. It's the best party of the year, and everybody remembers where the dance floor is.\"\n\nA cardinal sang from a branch above — loud, clear, and iridescent with joy.\n\nChelsie stood up, brushing mud off her knees. She looked at the gurgling stream, the snowdrops, the singing frogs, the green spikes everywhere. Nobody had stolen winter. Winter was simply finished with its turn.\n\n\"Daddio,\" she said, \"I solved the mystery.\"\n\n\"Tell me.\"\n\n\"Nobody took the snow. The Earth just leaned a little closer to the sun, and everything that was waiting underneath — the frogs, the flowers, the turtles in their ponds — they all knew it was time.\" She looked down at Mertle in her pocket. \"They were always there. We just couldn't see them yet.\"\n\nMertle beamed his biggest cotton smile, his button eyes shining. Then he did one last little shimmy — his signature move — and whispered, \"And THAT is how you solve a mystery, folks.\"\n\nSometimes the most important things aren't missing — they're just waiting for their moment to appear.",
+    "theme": "What the Thaw Teaches",
+    "life_lesson": "Sometimes the most important things aren't missing — they're just waiting for their moment to appear.",
+    "characters": [
+      "Chelsie",
+      "Daddio",
+      "Mertle"
+    ],
+    "reading_time": "4-5 minutes",
+    "discussion_prompt": "What's something you've been waiting for that you think might be getting ready to appear — like the green shoots under the snow?"
+  },
+  "principles_data": {
+    "week_range": "March 1 – 7, 2026",
+    "theme": {
+      "title": "Antifragile Transitions",
+      "category": "Resilience",
+      "description": "Some things don't just survive change — they need it to grow. This week, learn to stop bracing and start bending.",
+      "primary_thinker": "Nassim Nicholas Taleb"
+    },
+    "anchor_quote": {
+      "text": "Wind extinguishes a candle and energizes fire. Likewise with randomness, uncertainty, chaos: you want to use them, not hide from them.",
+      "source": "Nassim Nicholas Taleb",
+      "work": "Antifragile: Things That Gain from Disorder",
+      "reference": "Ch. 2"
+    },
+    "introduction": "March arrives the way it always does in Northern Virginia — confused. Snow on Monday, sixty degrees by Thursday, seventy-three by Saturday. Your closet looks like two seasons collided. Your kid needs snow boots and sunscreen in the same week. Most of us treat this kind of volatility as a nuisance, something to endure until the weather makes up its mind. But Nassim Taleb would tell you that you're looking at it wrong. The disorder isn't the problem. The disorder is the opportunity.\n\nTaleb coined a word for things that gain from shocks: antifragile. Not resilient — resilient things survive stress and return to normal. Antifragile things get stronger because of stress. Your muscles after a hard workout. Your immune system after exposure to a mild pathogen. A tree that grows thicker bark because it lives in a windy field. Spring itself is an antifragile phenomenon — the explosive growth of March exists because of the dormancy of January. Without the cold, there is no bloom.\n\nThis week's seven readings explore what it means to build an antifragile life — not by avoiding disruption, but by designing yourself to benefit from it. We'll look at why comfort is more dangerous than discomfort, how to structure decisions so that uncertainty works in your favor, and what to subtract from your life instead of adding to it. Whether you're navigating a Product Day at work, shuttling between swim lessons and theater rehearsals, or just trying to figure out what to wear when the forecast swings forty degrees — the principle is the same. Don't wish for a stable world. Become the kind of person who thrives in an unstable one.",
+    "daily_entries": [
+      {
+        "day": "Sunday",
+        "title": "The Wind and the Candle",
+        "thinker": "Nassim Nicholas Taleb",
+        "essay": "Picture two objects sitting on your front porch during tonight's wind advisory: a candle and a campfire. The same gust that snuffs the candle makes the campfire roar. Same wind, opposite outcomes. The difference isn't the intensity of the disruption — it's the nature of what's being disrupted. A candle is fragile: it needs calm conditions to survive. A campfire is antifragile: turbulence feeds it. Nassim Taleb opens his book with this image because it reframes a question most of us never think to ask. We spend enormous energy trying to predict and prevent disruptions — weather, schedule changes, market shifts, moods. But what if the better question isn't 'how do I avoid the wind?' but 'how do I become fire?' Taleb defines antifragility in the prologue of *Antifragile*: 'Some things benefit from shocks; they thrive and grow when exposed to volatility, randomness, disorder, and stressors.' This is not the same as toughness. Tough things endure. Antifragile things improve. Your bones get denser under impact stress. Your problem-solving gets sharper and more creative when plans collapse. The spring crocuses pushing through the last crust of snow outside your window right now needed that cold — the process of vernalization requires weeks of near-freezing temperatures before the plant can bloom.\n\nHere's what makes this useful rather than just interesting: you can choose which category you fall into. A family that builds its week around a rigid schedule is a candle — one disruption and the whole thing gutters. A family that builds around principles and adapts the details is a fire. This week, as Reston lurches from snow to seventy-three degrees, you have a choice. You can curse the unpredictability, or you can notice that the swing itself is making your week richer — snow angels on Monday, open windows on Thursday, the particular joy of a season turning in real time. The volatility is not the enemy of a good week. It might be the ingredient. What in your life right now is set up like a candle — requiring perfect conditions to survive — when it could be restructured as a fire?",
+        "source_quote": {
+          "text": "Some things benefit from shocks; they thrive and grow when exposed to volatility, randomness, disorder, and stressors.",
+          "source": "Nassim Nicholas Taleb, Antifragile, Prologue"
+        },
+        "reflection_prompt": "What in your life right now is set up like a candle — requiring perfect stillness to survive — when it could be restructured as a fire?"
+      },
+      {
+        "day": "Monday",
+        "title": "The Comfort Trap",
+        "thinker": "Nassim Nicholas Taleb",
+        "essay": "A few years ago, researchers noticed something strange about children raised in ultra-clean households. Kids who grew up with antibacterial everything — sanitized toys, sterilized surfaces, minimal outdoor play — developed allergies and autoimmune disorders at significantly higher rates than kids who played in dirt, had pets, and ate food off questionable surfaces. The hygiene hypothesis, as immunologists call it, reveals a paradox that Taleb would recognize instantly: the attempt to eliminate all risk created a new and worse risk. The immune system, deprived of the small stressors it needed to calibrate, turned on the body itself. Taleb calls this the problem of 'naive interventionism' — the belief that removing volatility makes a system safer when it often makes it catastrophically fragile. In *Antifragile* Ch. 7, he writes about how systems that are shielded from stressors lose their ability to handle them: 'Preventing small forest fires leads to a buildup of dry material that eventually results in a much larger conflagration.' The same pattern repeats everywhere. The parent who solves every problem for their child raises an adult who cannot solve problems. The manager who eliminates all friction from a team builds a team that shatters at the first real crisis.\n\nThis is the common mistake most of us make with transitions: we try to smooth them out. Snow in the forecast? Cancel everything. Kid nervous about a swim lesson? Maybe skip it this week. Feeling overwhelmed before a big work presentation? Retreat to what's comfortable. Each individual decision seems reasonable — even caring. But the cumulative effect is a life optimized for calm that cannot handle anything else. James Clear makes a complementary observation in *Atomic Habits* Ch. 2: 'Every action you take is a vote for the type of person you wish to become.' When you consistently vote for comfort, you're building an identity around avoidance. The antifragile move isn't to seek out suffering — that's just masochism with a philosophy degree. It's to stop reflexively eliminating the productive discomfort that makes you and your family stronger. The snow day isn't a disruption to your week. It's a rep. What productive discomfort did you avoid recently — and what did the avoidance actually cost you?",
+        "source_quote": {
+          "text": "Preventing small forest fires leads to a buildup of dry material that eventually results in a much larger conflagration.",
+          "source": "Nassim Nicholas Taleb, Antifragile, Ch. 7"
+        },
+        "reflection_prompt": "What productive discomfort did you avoid recently — and what did the avoidance actually cost you?"
+      },
+      {
+        "day": "Tuesday",
+        "title": "The Barbell",
+        "thinker": "Nassim Nicholas Taleb",
+        "essay": "Most people manage risk the way they order at a restaurant they've never been to — they pick something in the middle. Not too adventurous, not too boring. A medium-risk portfolio. A moderately challenging goal. A career path that's neither too safe nor too bold. It feels responsible. Taleb thinks it's the worst possible strategy. In *Antifragile* Ch. 11, he introduces the barbell: 'I initially used the image of the barbell to describe a dual attitude of playing it safe in some areas and taking a lot of small risks in others, hence achieving antifragility.' The shape matters — heavy weights on both ends, nothing in the middle. In practice, this means being hyper-conservative where failure is catastrophic and hyper-aggressive where the downside is small but the upside is unlimited. Ninety percent of your savings in Treasury bills, ten percent in wild speculative bets. But the barbell isn't just about money. It's a decision architecture for everything. A Tuesday evening in your household might look like this: the non-negotiable conservative end is dinner together at the table, everyone present, phones away. That's the safe weight — the anchor that holds regardless of what kind of day anyone had. The aggressive end is what you do with that time. Try a recipe you've never attempted. Ask a question at dinner that nobody expects. Let the eight-year-old pick the album. If the recipe fails, you order pizza. If the conversation goes sideways, you learn something.\n\nThe middle — the thing the barbell eliminates — is the lukewarm default. The meal nobody chose because it was nobody's favorite. The evening spent in the same room but on separate screens, technically together but actually nowhere. Charlie Munger arrives at a similar conclusion from the opposite direction. In *Poor Charlie's Almanack*, he argues that 'the best way to get what you want is to deserve what you want' — which requires taking real swings, not hedging everything into mediocrity. The barbell gives you permission to protect what truly matters while experimenting freely with everything else. This week, as the weather itself swings from snow to spring, notice where you're defaulting to the middle. Where could you anchor one end firmly and let the other end surprise you? What would your Tuesday look like if you protected the essentials and freed everything else?",
+        "source_quote": {
+          "text": "I initially used the image of the barbell to describe a dual attitude of playing it safe in some areas and taking a lot of small risks in others, hence achieving antifragility.",
+          "source": "Nassim Nicholas Taleb, Antifragile, Ch. 11"
+        },
+        "reflection_prompt": "Where in your life are you defaulting to the comfortable middle — and what would it look like to anchor one end firmly while letting the other end surprise you?"
+      },
+      {
+        "day": "Wednesday",
+        "title": "Pressure Shared Is Pressure Halved",
+        "thinker": "Brené Brown",
+        "essay": "It's Wednesday — Product Day — and one of you walks through the door tonight carrying the invisible weight of a day spent performing. Presenting, defending decisions, reading the room, managing up. The other has been managing a different kind of pressure: the household logistics, the emotional labor of keeping an eight-year-old on track through homework and dinner and the low-grade chaos of a school week. Both of you are tired. Neither of you knows exactly what the other's day cost. This is the moment where most couples get it wrong. The default move is to retreat — to decompress alone, scroll the phone, give each other space because it seems kind. But Brené Brown argues that this well-intentioned withdrawal is actually the fragile response. In *Daring Greatly* Ch. 1, she writes: 'Vulnerability is not winning or losing; it's having the courage to show up and be seen when we have no control over the outcome.' The antifragile move in a relationship isn't to shield your partner from your stress. It's to let them see it — imperfectly, without a polished narrative — and to ask to see theirs in return. Taleb's framework maps onto this cleanly. A relationship where both people perform composure is a candle — beautiful and calm until the real wind hits. A relationship where both people practice naming what's hard becomes fire.\n\nThis doesn't mean dumping your work frustrations onto someone who's already running on fumes. It means something smaller and harder: a specific, honest sentence. 'Today was rougher than I expected. Can I just sit near you for a minute?' That's not weakness. That's load-bearing vulnerability — the kind that makes the structure stronger each time you practice it. The same principle applies at the dinner table with your kid. An eight-year-old doesn't need you to be perfect. She needs you to be real at a scale she can understand. 'Dad had a hard meeting today. You know what helped? Taking three deep breaths before I walked back in.' You've just modeled antifragility in thirty seconds — the idea that difficulty isn't something to hide from but something you can move through and name. Tonight, after Product Day, after swim lessons, after whatever the week has thrown: who in your household is carrying pressure they haven't named yet, and what would it take to make space for them to say it?",
+        "source_quote": {
+          "text": "Vulnerability is not winning or losing; it's having the courage to show up and be seen when we have no control over the outcome.",
+          "source": "Brené Brown, Daring Greatly, Ch. 1"
+        },
+        "reflection_prompt": "Who in your household is carrying pressure they haven't named yet — and what would it take to make space for them to say it?"
+      },
+      {
+        "day": "Thursday",
+        "title": "Subtract Before You Add",
+        "thinker": "Nassim Nicholas Taleb",
+        "essay": "You're staring at a Thursday that already feels overscheduled. The reflexive move is to add — add a plan, add a system, add an app, add a reminder. We are relentless adders. When a relationship feels distant, we add a date night. When work feels chaotic, we add a productivity tool. When our kid seems restless, we add an activity. But Taleb's most counterintuitive principle is via negativa — the idea that the most powerful improvements come from removing things, not adding them. In *Antifragile* Book VI, Ch. 21, he writes: 'In medicine, as elsewhere, via negativa — removal of drugs, salt, sugar, bread, or even doctors — is vastly more potent than via positiva.' The healthiest thing you can do for your body isn't to add a supplement. It's to remove the processed food. The most effective thing you can do for your Thursday isn't to add another commitment. It's to cancel one. This runs against every instinct we have as modern parents and professionals. Productivity culture tells us that more is more — more structured activities, more enrichment, more optimization. But look at the week you're living right now. Snow on Monday meant canceled plans, forced stillness, unexpected time together. And if you're honest, some of that unplanned time was the best part of the week.\n\nCharlie Munger arrives at the same destination through inversion: 'It is remarkable how much long-term advantage people like us have gotten by trying to be consistently not stupid, instead of trying to be very intelligent' (*Poor Charlie's Almanack*, Lecture on the Psychology of Human Misjudgment). Instead of asking 'what should I add to make this week better?' ask 'what should I remove?' The answer might be an obligation that nobody actually wants. A screen-time habit that's eating into conversation. A recurring commitment that made sense six months ago but now just generates logistical friction. Via negativa is especially powerful during transitions because transitions already feel like too much. Spring cleaning isn't just about closets — it's about calendars, routines, and assumptions that served you in winter but are now dead weight. Tonight, with the temperature climbing toward seventy-three degrees and the windows finally open, try this: name one thing in your family's weekly routine that you could simply stop doing. Not replace. Not improve. Just stop. What disappears if you let it go — and what grows in the space it leaves behind?",
+        "source_quote": {
+          "text": "Via negativa — removal of drugs, salt, sugar, bread, or even doctors — is vastly more potent than via positiva.",
+          "source": "Nassim Nicholas Taleb, Antifragile, Book VI, Ch. 21"
+        },
+        "reflection_prompt": "What is one thing in your family's weekly routine that you could simply stop doing — and what might grow in the space it leaves behind?"
+      },
+      {
+        "day": "Friday",
+        "title": "The Case for Shelter",
+        "thinker": "James Clear",
+        "essay": "All week we've been building the case for antifragility — for seeking productive stress, embracing volatility, and treating disruption as fertilizer. But here's the strongest argument against it, and it deserves a hearing: some things should be protected. Not everything benefits from being roughed up. A child's sense of safety doesn't get stronger through unpredictability — it gets stronger through consistency. A marriage doesn't deepen through constant turbulence — it deepens through reliable presence. Your eight-year-old doesn't need every Friday to be an adventure in resilience. Sometimes she needs the same bedtime routine, the same story, the same parent in the same chair saying the same goodnight. Taleb himself acknowledges this in *Antifragile* Ch. 4: 'Parts of the system must be fragile to make the entire system antifragile.' The restaurant industry is antifragile because individual restaurants fail — but you wouldn't tell the owner of a closing restaurant that her pain is good for the ecosystem. At the human scale, the people inside the system need protection even when the system around them benefits from stress.\n\nThis is where James Clear's identity framework provides the necessary counterweight. In *Atomic Habits* Ch. 2, he writes: 'Every action you take is a vote for the type of person you wish to become.' The goal isn't to make everything in your life antifragile. The goal is to be deliberate about which parts you expose to volatility and which parts you shelter. Your child's emotional safety: shelter it. Your own willingness to try a new approach at work: expose it. Friday-night family rituals: shelter them. Saturday's plans: expose them to spontaneity. The barbell returns — heavy protection on one end, open experimentation on the other. The mistake isn't in seeking comfort. The mistake is in seeking only comfort, or in applying toughness where tenderness is what's actually needed. The strongest families aren't the ones that weather every storm without flinching. They're the ones that know which storms to walk through and which ones to close the door against. As your Friday winds down tonight — YAT rehearsal done, the weekend opening up — ask yourself: what in your family life deserves to be protected from disruption this week, and are you protecting it fiercely enough?",
+        "source_quote": {
+          "text": "Every action you take is a vote for the type of person you wish to become.",
+          "source": "James Clear, Atomic Habits, Ch. 2"
+        },
+        "reflection_prompt": "What in your family life deserves to be fiercely protected from disruption — and are you protecting it enough?"
+      },
+      {
+        "day": "Saturday",
+        "title": "The Garden After Snow",
+        "thinker": "Nassim Nicholas Taleb",
+        "essay": "Walk outside this morning. It's going to be seventy-three degrees — forty degrees warmer than Monday's snow. The crocuses are pushing through. The Bradford pears along the Reston paths are starting to bud. If you look closely at the soil where the snow sat three days ago, you'll see it — the ground is softer, more saturated, more ready to grow than it was before the storm. This is not a metaphor someone invented. This is literally how spring works. The freeze-thaw cycle breaks up compacted soil, allowing roots to penetrate deeper. The snow itself is called 'poor man's fertilizer' because it captures atmospheric nitrogen and delivers it directly to the earth as it melts. The cold period triggers vernalization in perennial plants — a biological requirement for the stress of winter before they can bloom. The trees that sway in March wind grow thicker trunks. The garden after snow is not the garden despite snow. It is the garden because of snow. Taleb captured this in his most vivid image: 'Wind extinguishes a candle and energizes fire' (*Antifragile*, Ch. 2). On Sunday, we asked you to consider whether your life was set up as a candle or a fire. Six days later, you've explored the shape of that question from every angle — the comfort trap, the barbell, the power of subtraction, the necessity of shelter.\n\nHere's what it comes down to. You don't get to control whether the week brings snow or sunshine, Product Days or pajama days, breakthroughs or breakdowns. What you get to control is what kind of system you are — one that needs perfect conditions to function, or one that has learned to convert imperfect conditions into growth. The risk with any week of principles is that they become another thing you read and forget. Taleb would call that the 'tourist' approach to ideas — visiting them briefly without any skin in the game. So here's a concrete move: pick one thing from this week that actually landed. Maybe it was the barbell. Maybe via negativa. Maybe it was just the permission to stop smoothing out every rough edge for your kid. Whatever it was, do one thing differently because of it — not next month, not next quarter, today. The spring doesn't wait for permission. The crocus doesn't file a plan. It pushes through because the season changed and it was ready. What's one thing you'll do differently today — not next week, not someday — because the season has changed and you're ready?",
+        "source_quote": {
+          "text": "Wind extinguishes a candle and energizes fire.",
+          "source": "Nassim Nicholas Taleb, Antifragile, Ch. 2"
+        },
+        "reflection_prompt": "What's one thing you'll do differently today — not next week, not someday — because the season has changed and you're ready?"
+      }
+    ],
+    "closing_line": "The crocus doesn't wait for perfect conditions. It pushes through because the cold made it ready — and so did you."
+  },
+  "highlight": "Twenty pounds of broccoli, seven dinners, and the week spring finally arrives — snow on Monday, 73°F by Thursday, and a soundtrack of funk and soul carrying the family from stroganoff to slow-smoked pork."
+}

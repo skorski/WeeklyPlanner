@@ -1,0 +1,913 @@
+{
+  "family": {
+    "members": [
+      {
+        "name": "Laura (Wife)",
+        "age_range": "Adult woman",
+        "activity_level": "Active",
+        "calorie_target": "2,000–2,200 kcal",
+        "focus_nutrients": [
+          "iron",
+          "calcium",
+          "folate",
+          "fiber"
+        ]
+      },
+      {
+        "name": "Dan (Husband)",
+        "age_range": "Adult man",
+        "activity_level": "Active",
+        "calorie_target": "2,400–2,800 kcal",
+        "focus_nutrients": [
+          "protein",
+          "potassium",
+          "magnesium"
+        ]
+      },
+      {
+        "name": "Elsie (Daughter)",
+        "age_range": "8-year-old girl",
+        "activity_level": "Active",
+        "calorie_target": "1,600–2,000 kcal",
+        "focus_nutrients": [
+          "calcium",
+          "vitamin D",
+          "iron",
+          "fiber"
+        ]
+      }
+    ]
+  },
+  "dinners": [
+    {
+      "day": "Sunday",
+      "name": "Beef & Mushroom Stroganoff over Egg Noodles",
+      "calories_per_serving": "~450 kcal (adult) / ~300 kcal (Elsie)",
+      "protein_source": "Sirloin beef",
+      "protein_level": "high",
+      "vegetable_content": "moderate",
+      "whole_grains": false,
+      "key_nutrients": [
+        "iron",
+        "zinc",
+        "B12",
+        "niacin",
+        "selenium",
+        "vitamin C (broccoli)",
+        "vitamin K (broccoli)"
+      ],
+      "concerns": [
+        "Egg noodles are refined carbs — no whole grains",
+        "Sour cream and butter add saturated fat",
+        "Brandy adds empty calories (small amount)"
+      ],
+      "overall_rating": "good"
+    },
+    {
+      "day": "Monday",
+      "name": "Baked Ham, Broccoli & Potato Gratin",
+      "calories_per_serving": "~420 kcal (adult) / ~280 kcal (Elsie)",
+      "protein_source": "Baked ham",
+      "protein_level": "moderate",
+      "vegetable_content": "moderate",
+      "whole_grains": false,
+      "key_nutrients": [
+        "protein",
+        "calcium (cheddar béchamel)",
+        "potassium (potatoes)",
+        "vitamin C (broccoli)",
+        "vitamin K (broccoli)",
+        "B vitamins"
+      ],
+      "concerns": [
+        "Ham is high in sodium (~800–1000 mg per serving)",
+        "Cheddar béchamel adds saturated fat",
+        "Processed meat — moderate intake is fine but watch weekly totals"
+      ],
+      "overall_rating": "fair"
+    },
+    {
+      "day": "Tuesday",
+      "name": "Babo Pasta — Homemade Spinach Pasta with Alfredo Sauce",
+      "calories_per_serving": "~550 kcal (adult) / ~350 kcal (Elsie)",
+      "protein_source": "Eggs, Parmigiano-Reggiano",
+      "protein_level": "moderate",
+      "vegetable_content": "moderate",
+      "whole_grains": false,
+      "key_nutrients": [
+        "calcium (Parmigiano)",
+        "folate (spinach in pasta)",
+        "iron (spinach, egg yolks)",
+        "vitamin A (spinach)",
+        "vitamin C (broccoli side)"
+      ],
+      "concerns": [
+        "Butter and cheese make this very high in saturated fat",
+        "Refined flour (00 flour) — no whole grains",
+        "Lower protein than meat-centered dinners — pair with a protein-rich lunch"
+      ],
+      "overall_rating": "fair"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Beef & Broccoli Stir Fry with Oyster Mushrooms",
+      "calories_per_serving": "~580 kcal (adult) / ~380 kcal (Elsie)",
+      "protein_source": "Flank steak",
+      "protein_level": "high",
+      "vegetable_content": "abundant",
+      "whole_grains": false,
+      "key_nutrients": [
+        "iron",
+        "zinc",
+        "B12",
+        "vitamin C (broccoli)",
+        "vitamin K (broccoli)",
+        "potassium",
+        "B vitamins (mushrooms)",
+        "selenium"
+      ],
+      "concerns": [
+        "Oyster sauce is high in sodium (~500 mg per tablespoon)",
+        "White rice is refined — swap for brown rice when possible",
+        "Moderate sodium from soy-based sauces"
+      ],
+      "overall_rating": "good"
+    },
+    {
+      "day": "Thursday",
+      "name": "Broccoli & Oyster Mushroom Flatbread with Ricotta & Chili Honey",
+      "calories_per_serving": "~480 kcal (adult) / ~320 kcal (Elsie)",
+      "protein_source": "Ricotta, mozzarella",
+      "protein_level": "moderate",
+      "vegetable_content": "moderate",
+      "whole_grains": false,
+      "key_nutrients": [
+        "calcium (ricotta + mozzarella)",
+        "vitamin C (broccoli)",
+        "B vitamins (mushrooms)",
+        "phosphorus"
+      ],
+      "concerns": [
+        "Pizza dough is refined flour",
+        "Hot honey adds sugar",
+        "Another meatless dinner — check protein balance across the day",
+        "Cheese-heavy — watch saturated fat totals"
+      ],
+      "overall_rating": "fair"
+    },
+    {
+      "day": "Friday",
+      "name": "Pan-Seared Branzino with Lemon-Herb Butter & Roasted Broccoli",
+      "calories_per_serving": "~400 kcal (adult) / ~280 kcal (Elsie)",
+      "protein_source": "Branzino (European sea bass)",
+      "protein_level": "high",
+      "vegetable_content": "moderate",
+      "whole_grains": false,
+      "key_nutrients": [
+        "omega-3 fatty acids",
+        "vitamin D",
+        "selenium",
+        "B12",
+        "phosphorus",
+        "potassium",
+        "vitamin C (broccoli)",
+        "vitamin K (broccoli)"
+      ],
+      "concerns": [
+        "Lemon-herb butter adds saturated fat — use sparingly for a lighter dish",
+        "Could benefit from a starch or whole grain side to round out the plate",
+        "Capers add some sodium"
+      ],
+      "overall_rating": "excellent"
+    },
+    {
+      "day": "Saturday",
+      "name": "BBQ Pork Butt with Broccoli Slaw",
+      "calories_per_serving": "~500 kcal (adult) / ~330 kcal (Elsie)",
+      "protein_source": "Pork butt",
+      "protein_level": "high",
+      "vegetable_content": "moderate",
+      "whole_grains": false,
+      "key_nutrients": [
+        "protein",
+        "iron",
+        "zinc",
+        "B vitamins (thiamin)",
+        "vitamin C (broccoli slaw + cabbage)",
+        "fiber (cabbage, broccoli stems)"
+      ],
+      "concerns": [
+        "BBQ rub with brown sugar adds extra sugar",
+        "Smoked/slow-cooked pork can be higher in fat depending on trimming",
+        "Apple cider vinegar slaw is a nice probiotic-friendly touch"
+      ],
+      "overall_rating": "good"
+    }
+  ],
+  "weekly_assessment": {
+    "protein_diversity": {
+      "sources_found": [
+        "beef (sirloin)",
+        "ham",
+        "eggs + cheese",
+        "beef (flank steak)",
+        "ricotta + mozzarella",
+        "branzino (fish)",
+        "pork butt"
+      ],
+      "rating": "good",
+      "notes": "Four distinct animal protein sources (beef, ham, fish, pork) plus two dairy/egg-centered vegetarian dinners. Beef appears twice, which is totally reasonable. The mix of red meat, pork, and fish hits a nice range. One gap: no poultry or legumes/plant-based protein this week — lunches can easily cover that."
+    },
+    "vegetable_coverage": {
+      "servings_per_dinner_avg": 1.5,
+      "color_diversity": [
+        "dark greens (broccoli)"
+      ],
+      "rating": "moderate",
+      "notes": "Broccoli appears in all seven dinners. It’s a nutritional superstar (vitamin C, vitamin K, folate, fiber), but this week is a one-color vegetable show. There are no orange/red vegetables (carrots, bell peppers, tomatoes, sweet potatoes), no legumes, and no variety in the green category beyond broccoli. The mushrooms add some variety in flavor and B vitamins, but lunches and snacks need to bring the rainbow."
+    },
+    "nutrient_gaps": [
+      {
+        "nutrient": "Vegetable color diversity",
+        "severity": "significant",
+        "detail": "All 7 dinners feature broccoli as the primary (often only) vegetable. No orange, red, yellow, or purple vegetables appear at dinner. Missing beta-carotene, lycopene, and anthocyanin sources."
+      },
+      {
+        "nutrient": "Whole grains",
+        "severity": "significant",
+        "detail": "Zero whole grain servings across all 7 dinners. Egg noodles, 00 flour pasta, white rice, and pizza dough are all refined. This leaves a major fiber and B-vitamin gap."
+      },
+      {
+        "nutrient": "Fiber",
+        "severity": "moderate",
+        "detail": "Broccoli provides some fiber (~2–3g per serving), but without whole grains, legumes, or diverse vegetables, dinner fiber averages only 4–6g per meal — well below the 8–10g target per meal for active adults."
+      },
+      {
+        "nutrient": "Fruit",
+        "severity": "moderate",
+        "detail": "Zero fruit across all dinners (expected — fruit is rarely a dinner component). Lunches and snacks must provide 2–3 daily servings."
+      },
+      {
+        "nutrient": "Legumes / plant protein",
+        "severity": "moderate",
+        "detail": "No beans, lentils, chickpeas, or other legumes all week. Missing an excellent source of fiber, plant protein, folate, and iron."
+      },
+      {
+        "nutrient": "Vitamin A (beta-carotene)",
+        "severity": "moderate",
+        "detail": "Without orange/red vegetables (sweet potatoes, carrots, bell peppers), vitamin A from plant sources is low. Broccoli provides small amounts, but not enough."
+      },
+      {
+        "nutrient": "Potassium",
+        "severity": "mild",
+        "detail": "Monday’s potatoes and Friday’s branzino help, but overall potassium intake from dinners is below target. Bananas, beans, and sweet potatoes at other meals would help."
+      }
+    ],
+    "excesses": [
+      {
+        "item": "Saturated fat",
+        "severity": "moderate",
+        "detail": "Butter appears in 4 dinners (stroganoff, Alfredo, lemon-butter, broccoli roasting). Cheese appears in 4 dinners (cheddar béchamel, Parmigiano, ricotta + mozzarella). Sour cream in 1. This week leans rich — not a crisis, but lighter lunches will help balance it."
+      },
+      {
+        "item": "Sodium",
+        "severity": "moderate",
+        "detail": "Ham (Monday), oyster sauce (Wednesday), and processed cheese sauces push sodium higher on several nights. Estimated 800–1400 mg sodium from dinner alone on peak days, leaving little room for salty snacks."
+      },
+      {
+        "item": "Refined carbohydrates",
+        "severity": "moderate",
+        "detail": "Every starch this week is refined: egg noodles, 00 flour pasta, white rice, pizza dough. No whole wheat, brown rice, quinoa, or other whole grains appear."
+      },
+      {
+        "item": "Broccoli monotony",
+        "severity": "mild",
+        "detail": "Broccoli 7 nights in a row isn’t harmful — it’s actually a testament to this family’s love of greens. But from a nutritional diversity standpoint, the rest of the day should feature different vegetables to capture the full spectrum of phytonutrients."
+      }
+    ],
+    "fiber_assessment": {
+      "rating": "low",
+      "notes": "Without whole grains or legumes in any dinner, fiber from dinners averages only 4–6g per meal (mostly from broccoli). Active adults need 25–35g daily, and Elsie needs 20–25g. Lunches and snacks need to carry most of the fiber load this week — think whole wheat bread, oats, beans, fruits with skin, and nuts."
+    },
+    "omega3_assessment": {
+      "rating": "fair",
+      "notes": "Friday’s branzino delivers a solid hit of omega-3s (250–870 mg), plus vitamin D and selenium. One fish dinner per week is the minimum recommendation, so this week just clears the bar. Adding walnuts, flaxseed, or chia seeds to snacks and breakfasts would boost omega-3 intake further."
+    },
+    "overall_dinner_grade": "B-",
+    "overall_summary": "This is a hearty, comfort-forward week — exactly the kind of cooking that makes a family look forward to dinner. Protein variety is genuinely good (beef, ham, fish, pork, dairy-based), and the consistent broccoli means everyone’s getting vitamin C and vitamin K without trying. The weak spots are clear: no whole grains, limited vegetable diversity beyond broccoli, low fiber, and a lean toward rich/buttery preparations. The fix is straightforward — colorful, fiber-rich lunches and fruit-forward snacks will turn this B- dinner week into an A- overall week."
+  },
+  "recommended_lunches": [
+    {
+      "name": "Rainbow Hummus Wrap",
+      "description": "Whole wheat tortilla spread with hummus, layered with shredded carrots, sliced bell peppers, cucumber, baby spinach, and a sprinkle of feta. Roll tight for packing. This single lunch attacks three of the week’s biggest gaps: whole grains (tortilla), vegetable color diversity (orange carrots, red/yellow peppers, green spinach), and legumes (chickpea hummus). Add a squeeze of lemon for extra vitamin C to boost iron absorption from the spinach.",
+      "prep_time": "10 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "whole grains",
+        "vegetable diversity",
+        "legumes",
+        "fiber",
+        "vitamin A"
+      ],
+      "key_nutrients": [
+        "fiber",
+        "folate",
+        "vitamin A (beta-carotene)",
+        "vitamin C",
+        "iron",
+        "plant protein",
+        "potassium"
+      ],
+      "kid_notes": "Elsie can help pick her own veggies. If she’s not a wrap fan, cut it into pinwheels — same ingredients, way more fun."
+    },
+    {
+      "name": "Turkey, Avocado & Sweet Potato Power Bowl",
+      "description": "Sliced deli turkey or leftover roast turkey over a bed of roasted sweet potato cubes and mixed greens (arugula, spinach). Top with avocado slices, cherry tomatoes, pumpkin seeds, and a drizzle of olive oil and lemon. This bowl fills the poultry gap, adds orange vegetables (sweet potato), and delivers healthy fats from a non-dairy source — a nice counterpoint to this week’s butter-heavy dinners.",
+      "prep_time": "15 min (sweet potatoes can be batch-roasted Sunday)",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "poultry protein",
+        "vitamin A",
+        "healthy fats (non-dairy)",
+        "potassium",
+        "vegetable diversity"
+      ],
+      "key_nutrients": [
+        "lean protein",
+        "vitamin A",
+        "potassium",
+        "magnesium",
+        "healthy monounsaturated fats",
+        "vitamin E",
+        "fiber"
+      ],
+      "kid_notes": "Elsie might prefer the sweet potatoes cubed small and slightly crispy. Pack the avocado with a squeeze of lemon to prevent browning."
+    },
+    {
+      "name": "Black Bean & Corn Quesadilla with Salsa",
+      "description": "Whole wheat tortilla filled with black beans, sweet corn, a little shredded cheese, and a pinch of cumin. Serve with fresh salsa (tomatoes, onion, cilantro, lime) and a side of baby carrots. Black beans are the legume hero this week’s dinners are missing — packed with fiber, plant protein, folate, and iron. The salsa adds lycopene-rich tomatoes, another color this dinner menu skips entirely.",
+      "prep_time": "12 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "legumes",
+        "whole grains",
+        "fiber",
+        "vegetable diversity (tomatoes)",
+        "folate"
+      ],
+      "key_nutrients": [
+        "fiber",
+        "plant protein",
+        "folate",
+        "iron",
+        "lycopene",
+        "vitamin C",
+        "magnesium"
+      ],
+      "kid_notes": "A quesadilla is basically a kid magnet. Cut into triangles. Mild salsa on the side for dipping."
+    },
+    {
+      "name": "Mediterranean Lentil Soup with Whole Grain Bread",
+      "description": "Red lentil soup with carrots, celery, tomatoes, cumin, and a squeeze of lemon. Serve with a thick slice of whole grain bread. Make a big batch Sunday and portion for the week — this is a thermos-friendly lunch. Red lentils cook in 15 minutes and dissolve into a creamy soup that even picky eaters enjoy. Hits legumes, whole grains, and orange vegetables in one bowl.",
+      "prep_time": "25 min (batch cook once, reheat all week)",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "legumes",
+        "whole grains",
+        "fiber",
+        "vegetable diversity",
+        "iron",
+        "folate"
+      ],
+      "key_nutrients": [
+        "fiber",
+        "plant protein",
+        "iron",
+        "folate",
+        "vitamin A (carrots)",
+        "potassium",
+        "magnesium"
+      ],
+      "kid_notes": "Red lentil soup blends smooth and tastes mild — most kids like it, especially with bread for dunking. Add a tiny drizzle of olive oil on top."
+    },
+    {
+      "name": "Chicken Salad Sandwich on Whole Wheat",
+      "description": "Classic chicken salad (rotisserie chicken, Greek yogurt instead of mayo, celery, grapes, a touch of Dijon) on whole wheat bread with lettuce and tomato. The Greek yogurt swap adds calcium and cuts saturated fat compared to mayo. Grapes add a fruit serving. Whole wheat bread addresses the refined-carb-heavy dinner lineup.",
+      "prep_time": "10 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "whole grains",
+        "poultry protein",
+        "calcium",
+        "fruit"
+      ],
+      "key_nutrients": [
+        "lean protein",
+        "calcium",
+        "fiber",
+        "B vitamins",
+        "vitamin C (grapes)"
+      ],
+      "kid_notes": "Kids love chicken salad when it’s mild. Use the grapes as a sweet surprise mixed in. Cut the sandwich into fun shapes with a cookie cutter for Elsie."
+    },
+    {
+      "name": "Tuna & White Bean Salad",
+      "description": "Canned tuna (packed in olive oil or water) mixed with white cannellini beans, cherry tomatoes, red onion, parsley, and a lemon-olive oil dressing over mixed greens. This is the omega-3 booster lunch — tuna provides additional fish servings beyond Friday’s branzino, and the white beans add the legume fiber and plant protein that dinners are missing. Extremely quick to assemble from pantry staples.",
+      "prep_time": "8 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "omega-3",
+        "legumes",
+        "vegetable diversity",
+        "fiber"
+      ],
+      "key_nutrients": [
+        "omega-3 fatty acids",
+        "lean protein",
+        "fiber",
+        "iron",
+        "selenium",
+        "vitamin D",
+        "lycopene"
+      ],
+      "kid_notes": "For Elsie, serve as a ‘tuna scoop’ with whole grain crackers instead of over greens. Most kids prefer it deconstructed — tuna on the side, beans on the side, crackers for scooping."
+    },
+    {
+      "name": "PB&J Upgrade: Almond Butter, Banana & Chia on Whole Wheat",
+      "description": "Whole wheat bread spread with almond butter, topped with sliced banana and a sprinkle of chia seeds. Simple, filling, and nutritionally strategic: whole grains, a full fruit serving, healthy fats, omega-3s (chia seeds), and magnesium (almond butter). This is the easiest lunch to prep on a busy morning and it travels perfectly in a lunchbox.",
+      "prep_time": "3 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "whole grains",
+        "fruit",
+        "omega-3",
+        "magnesium",
+        "fiber"
+      ],
+      "key_nutrients": [
+        "fiber",
+        "healthy fats",
+        "omega-3 (ALA from chia)",
+        "magnesium",
+        "potassium (banana)",
+        "vitamin E",
+        "manganese"
+      ],
+      "kid_notes": "This is basically a fancy PB&J — Elsie will love it. If she prefers peanut butter, that works great too. Drizzle a tiny bit of honey for extra kid appeal."
+    }
+  ],
+  "recommended_snacks": [
+    {
+      "name": "Yogurt Parfait with Berries & Granola",
+      "description": "Greek yogurt layered with mixed berries (strawberries, blueberries, raspberries) and a sprinkle of granola. This is the calcium powerhouse snack — one cup of Greek yogurt delivers ~200mg calcium (20% DV) plus 15g protein. The berries add antioxidants, vitamin C, and fiber that are almost entirely absent from this week’s dinners. Blueberries and raspberries bring the purple/blue color that no dinner touches.",
+      "prep_time": "3 min",
+      "time_of_day": "morning",
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "calcium",
+        "fruit",
+        "vitamin D (if using fortified yogurt)",
+        "fiber",
+        "antioxidants"
+      ],
+      "key_nutrients": [
+        "calcium",
+        "protein",
+        "vitamin C",
+        "fiber",
+        "antioxidants",
+        "probiotics",
+        "vitamin D (fortified)"
+      ]
+    },
+    {
+      "name": "Apple Slices with Almond Butter",
+      "description": "A sliced apple with 2 tablespoons of almond butter. Zero cooking required. This covers a full fruit serving, adds healthy fats and magnesium from a non-dairy source, and the apple skin provides soluble fiber (pectin) that supports gut health. A perfect afternoon bridge between school and dinner.",
+      "prep_time": "2 min",
+      "time_of_day": "afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "fruit",
+        "healthy fats",
+        "fiber",
+        "magnesium"
+      ],
+      "key_nutrients": [
+        "fiber (pectin)",
+        "vitamin C",
+        "healthy fats",
+        "magnesium",
+        "vitamin E",
+        "potassium"
+      ]
+    },
+    {
+      "name": "Baby Carrots & Red Pepper Strips with Hummus",
+      "description": "A cup of raw baby carrots and sliced red bell pepper with 3 tablespoons of hummus. This snack is a vegetable-diversity rescue mission — orange carrots for beta-carotene, red peppers for vitamin C and lycopene, and chickpea hummus for legume fiber. All the colors this week’s broccoli-centric dinners are missing, in one easy grab.",
+      "prep_time": "3 min",
+      "time_of_day": "afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "vegetable diversity",
+        "vitamin A (beta-carotene)",
+        "legumes",
+        "fiber"
+      ],
+      "key_nutrients": [
+        "vitamin A (beta-carotene)",
+        "vitamin C",
+        "fiber",
+        "plant protein",
+        "folate",
+        "lycopene"
+      ]
+    },
+    {
+      "name": "Trail Mix: Walnuts, Dried Cranberries & Dark Chocolate Chips",
+      "description": "A small handful (~1/4 cup) of walnuts, dried cranberries, and a few dark chocolate chips. Walnuts are one of the best plant sources of omega-3 (ALA) fatty acids, and this week only has one fish dinner. Dried cranberries add a fruit serving and antioxidants. Dark chocolate provides magnesium and iron. Pre-portion into small bags for grab-and-go convenience.",
+      "prep_time": "0 min (pre-portioned)",
+      "time_of_day": "afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "omega-3",
+        "fruit",
+        "magnesium",
+        "healthy fats"
+      ],
+      "key_nutrients": [
+        "omega-3 (ALA)",
+        "magnesium",
+        "iron",
+        "antioxidants",
+        "fiber",
+        "manganese"
+      ]
+    },
+    {
+      "name": "Cheese & Whole Grain Crackers with Grapes",
+      "description": "A few cubes of cheddar or Gouda cheese with whole grain crackers and a small bunch of grapes. While this week’s dinners include plenty of cheese, this snack is specifically for days when dinner is lighter on calcium (Wednesday’s stir fry, Saturday’s BBQ). The whole grain crackers add fiber that no dinner provides, and grapes contribute a fruit serving plus resveratrol.",
+      "prep_time": "2 min",
+      "time_of_day": "afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "calcium",
+        "whole grains",
+        "fruit"
+      ],
+      "key_nutrients": [
+        "calcium",
+        "protein",
+        "fiber",
+        "vitamin K2 (cheese)",
+        "resveratrol (grapes)"
+      ]
+    },
+    {
+      "name": "Banana & Peanut Butter Smoothie",
+      "description": "Blend one banana, 1 tablespoon peanut butter, 1 cup milk (dairy or fortified plant milk), and a handful of frozen spinach (they won’t taste it — promise). This smoothie checks multiple boxes: fruit, calcium (milk), potassium (banana), and even sneaks in extra greens. Using fortified plant milk or dairy milk ensures a vitamin D boost that most dinners lack.",
+      "prep_time": "5 min",
+      "time_of_day": "morning",
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "fruit",
+        "calcium",
+        "vitamin D",
+        "potassium",
+        "fiber"
+      ],
+      "key_nutrients": [
+        "calcium",
+        "vitamin D (fortified milk)",
+        "potassium",
+        "fiber",
+        "magnesium",
+        "protein"
+      ]
+    },
+    {
+      "name": "Frozen Mango & Pineapple Bites",
+      "description": "A cup of frozen mango and pineapple chunks — eat them straight from the freezer. This is the zero-prep, maximum-impact fruit snack. Mango provides a huge hit of vitamin A (beta-carotene) and vitamin C, both of which are undersupplied by this week’s broccoli-only vegetable lineup. Pineapple adds bromelain (an anti-inflammatory enzyme) and manganese. Kids love them because they’re basically healthy popsicles.",
+      "prep_time": "0 min",
+      "time_of_day": "afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "fruit",
+        "vitamin A",
+        "vitamin C"
+      ],
+      "key_nutrients": [
+        "vitamin A (beta-carotene)",
+        "vitamin C",
+        "manganese",
+        "fiber",
+        "bromelain"
+      ]
+    }
+  ],
+  "weekly_nutrition_summary": "This week’s dinners are built around hearty, satisfying comfort food — and there’s nothing wrong with that. The family is getting excellent protein variety (beef, ham, fish, pork, dairy), consistent vitamin C and vitamin K from the nightly broccoli, and a meaningful omega-3 boost from Friday’s branzino.\n\nThe gaps are real but very fixable: no whole grains at dinner, only one vegetable color (green), zero fruit, no legumes, and a lean toward rich/buttery preparations. By weaving in the suggested lunches and snacks, here’s how the week transforms:\n\n• **Fiber** goes from low (~5g/dinner) to adequate (25–35g/day with whole wheat lunches, beans, fruits, and nuts)\n• **Vegetable diversity** expands from broccoli-only to include carrots, bell peppers, tomatoes, sweet potatoes, spinach, and mixed greens\n• **Fruit** goes from zero to 2–3 servings daily through snacks and lunch additions\n• **Whole grains** appear at every lunch via whole wheat bread, tortillas, and crackers\n• **Calcium** gets a serious boost from Greek yogurt, milk-based smoothies, and cheese snacks — critical for Elsie’s growing bones\n• **Omega-3s** improve with tuna at lunch, walnuts and chia seeds at snack time, complementing Friday’s fish dinner\n• **Legumes** enter the picture through hummus, black beans, white beans, and lentil soup\n\nThe bottom line: enjoy those rich dinners without guilt. The lunches and snacks are doing the nutritional heavy lifting to make this a well-rounded week for everyone.",
+  "special_notes": [
+    "Vitamin D deserves extra attention in early March — sunlight exposure is still limited in northern Virginia. The branzino on Friday is a great natural source, but consider a vitamin D supplement (600 IU for Elsie, 600–1000 IU for adults) to ensure everyone’s getting enough, especially for Laura’s and Elsie’s bone health.",
+    "Laura’s iron needs are higher than the rest of the family, and while beef on Sunday and Wednesday helps, plant-based iron (from lentil soup, black beans, and spinach at lunch) absorbs better when paired with vitamin C. That squeeze of lemon on the lentil soup and the bell peppers in the hummus wrap aren’t just for flavor — they’re iron-absorption boosters.",
+    "Elsie’s calcium target is 1,000–1,300 mg daily — the most critical mineral for her growing skeleton. This week’s dinners provide some calcium through cheese (Tuesday’s Parmigiano, Thursday’s ricotta and mozzarella, Monday’s cheddar), but the daily yogurt parfait and milk-based smoothie are the real MVPs for hitting her target.",
+    "The consistent broccoli is actually a hidden strength of this menu. Broccoli contains sulforaphane, a compound with anti-inflammatory and potential cancer-protective properties. Seven nights of broccoli means this family is getting more sulforaphane than most families get in a month. Just make sure to balance the rest of the day with other vegetable colors.",
+    "Saturday’s broccoli slaw with apple cider vinegar is a fermented/acidic food that supports gut health. Consider adding more fermented foods during the week — the Greek yogurt snack provides probiotics, and a small serving of kimchi or sauerkraut with Wednesday’s stir fry would be a nice bonus."
+  ],
+  "daily_breakdown": [
+    {
+      "day": "Sunday",
+      "dinner": "Beef & Mushroom Stroganoff over Egg Noodles",
+      "key_nutrients": [
+        "iron",
+        "zinc",
+        "B12",
+        "niacin",
+        "selenium",
+        "vitamin C",
+        "vitamin K"
+      ],
+      "gaps": [
+        "whole grains",
+        "vegetable diversity",
+        "fiber"
+      ]
+    },
+    {
+      "day": "Monday",
+      "dinner": "Baked Ham, Broccoli & Potato Gratin",
+      "key_nutrients": [
+        "protein",
+        "calcium",
+        "potassium",
+        "vitamin C",
+        "vitamin K",
+        "B vitamins"
+      ],
+      "gaps": [
+        "high sodium",
+        "whole grains",
+        "vegetable diversity"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "dinner": "Babo Pasta — Homemade Spinach Pasta with Alfredo Sauce",
+      "key_nutrients": [
+        "calcium",
+        "folate",
+        "iron",
+        "vitamin A",
+        "vitamin C"
+      ],
+      "gaps": [
+        "protein (lower)",
+        "whole grains",
+        "fiber",
+        "high saturated fat"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "dinner": "Beef & Broccoli Stir Fry with Oyster Mushrooms",
+      "key_nutrients": [
+        "iron",
+        "zinc",
+        "B12",
+        "vitamin C",
+        "vitamin K",
+        "potassium",
+        "selenium"
+      ],
+      "gaps": [
+        "whole grains",
+        "sodium (oyster sauce)",
+        "vegetable diversity"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "dinner": "Broccoli & Oyster Mushroom Flatbread with Ricotta & Chili Honey",
+      "key_nutrients": [
+        "calcium",
+        "vitamin C",
+        "B vitamins",
+        "phosphorus"
+      ],
+      "gaps": [
+        "protein (lower)",
+        "whole grains",
+        "added sugar (honey)",
+        "vegetable diversity"
+      ]
+    },
+    {
+      "day": "Friday",
+      "dinner": "Pan-Seared Branzino with Lemon-Herb Butter & Roasted Broccoli",
+      "key_nutrients": [
+        "omega-3",
+        "vitamin D",
+        "selenium",
+        "B12",
+        "phosphorus",
+        "potassium",
+        "vitamin C"
+      ],
+      "gaps": [
+        "whole grains",
+        "starch/carb side missing",
+        "vegetable diversity"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "dinner": "BBQ Pork Butt with Broccoli Slaw",
+      "key_nutrients": [
+        "protein",
+        "iron",
+        "zinc",
+        "thiamin",
+        "vitamin C",
+        "fiber"
+      ],
+      "gaps": [
+        "whole grains",
+        "added sugar (BBQ rub)",
+        "vegetable diversity"
+      ]
+    }
+  ],
+  "weekly_summary": {
+    "strengths": "Excellent protein diversity with four distinct animal proteins (beef, ham, fish, pork) plus two dairy-centered vegetarian dinners. Consistent broccoli across all seven dinners provides reliable vitamin C, vitamin K, and sulforaphane. Friday’s branzino is a standout — delivering omega-3s, vitamin D, selenium, and B12. The family clearly values cooking from scratch, which means lower sodium and fewer preservatives than prepared meals. Iron-rich red meat appears appropriately (twice), supporting Laura’s and Elsie’s needs.",
+    "gaps": "The three biggest gaps are: (1) Zero whole grains — every starch is refined (egg noodles, 00 flour, white rice, pizza dough); (2) Vegetable monotony — broccoli is the only vegetable across 7 dinners, missing beta-carotene (orange), lycopene (red), and anthocyanin (purple) sources; (3) No legumes or plant-based protein — missing fiber, folate, and iron from beans/lentils. Secondary gaps include: no fruit at dinner (expected), moderate excess in saturated fat (butter and cheese in 4+ dinners), and above-average sodium on Monday (ham) and Wednesday (oyster sauce).",
+    "recommendations": "Fill the gaps through lunch and snacks rather than changing the dinners — the dinner menu is cozy and well-loved. Focus lunches on whole wheat breads and tortillas, colorful vegetables (carrots, peppers, tomatoes, sweet potatoes), and legumes (hummus, black beans, lentils). Prioritize fruit-forward snacks (berries, apples, bananas, mango) and calcium-rich options (yogurt, milk smoothies) for Elsie and Laura. Add omega-3 boosters (walnuts, chia seeds, tuna) at lunch to complement Friday’s fish. Consider a vitamin D supplement for the whole family given early March’s limited sunlight."
+  },
+  "lunch_suggestions": [
+    {
+      "name": "Rainbow Hummus Wrap",
+      "description": "Whole wheat tortilla with hummus, shredded carrots, bell peppers, cucumber, and baby spinach",
+      "nutrients": [
+        "fiber",
+        "folate",
+        "vitamin A",
+        "vitamin C",
+        "iron",
+        "plant protein"
+      ]
+    },
+    {
+      "name": "Turkey, Avocado & Sweet Potato Bowl",
+      "description": "Sliced turkey over roasted sweet potato cubes and mixed greens with avocado and pumpkin seeds",
+      "nutrients": [
+        "lean protein",
+        "vitamin A",
+        "potassium",
+        "magnesium",
+        "healthy fats",
+        "vitamin E"
+      ]
+    },
+    {
+      "name": "Black Bean & Corn Quesadilla",
+      "description": "Whole wheat tortilla with black beans, corn, cheese, and fresh salsa with carrots on the side",
+      "nutrients": [
+        "fiber",
+        "plant protein",
+        "folate",
+        "iron",
+        "lycopene",
+        "vitamin C"
+      ]
+    },
+    {
+      "name": "Red Lentil Soup with Whole Grain Bread",
+      "description": "Creamy red lentil soup with carrots, tomatoes, and cumin served with whole grain bread",
+      "nutrients": [
+        "fiber",
+        "plant protein",
+        "iron",
+        "folate",
+        "vitamin A",
+        "potassium"
+      ]
+    },
+    {
+      "name": "Chicken Salad on Whole Wheat",
+      "description": "Greek yogurt chicken salad with celery and grapes on whole wheat bread",
+      "nutrients": [
+        "lean protein",
+        "calcium",
+        "fiber",
+        "B vitamins",
+        "vitamin C"
+      ]
+    },
+    {
+      "name": "Tuna & White Bean Salad",
+      "description": "Tuna with cannellini beans, cherry tomatoes, and lemon-olive oil dressing over greens",
+      "nutrients": [
+        "omega-3",
+        "protein",
+        "fiber",
+        "iron",
+        "selenium",
+        "lycopene"
+      ]
+    },
+    {
+      "name": "Almond Butter, Banana & Chia on Whole Wheat",
+      "description": "Whole wheat bread with almond butter, banana slices, and chia seeds",
+      "nutrients": [
+        "fiber",
+        "healthy fats",
+        "omega-3 (ALA)",
+        "magnesium",
+        "potassium",
+        "vitamin E"
+      ]
+    }
+  ],
+  "snack_suggestions": [
+    {
+      "name": "Yogurt Parfait with Berries & Granola",
+      "description": "Greek yogurt layered with mixed berries and granola for calcium, protein, and antioxidants",
+      "nutrients": [
+        "calcium",
+        "protein",
+        "vitamin C",
+        "fiber",
+        "antioxidants",
+        "probiotics"
+      ]
+    },
+    {
+      "name": "Apple Slices with Almond Butter",
+      "description": "Sliced apple with almond butter for fruit, fiber, and healthy fats",
+      "nutrients": [
+        "fiber",
+        "vitamin C",
+        "healthy fats",
+        "magnesium",
+        "vitamin E"
+      ]
+    },
+    {
+      "name": "Carrots & Red Pepper with Hummus",
+      "description": "Baby carrots and red bell pepper strips with hummus for vegetable diversity",
+      "nutrients": [
+        "vitamin A",
+        "vitamin C",
+        "fiber",
+        "plant protein",
+        "folate"
+      ]
+    },
+    {
+      "name": "Trail Mix: Walnuts, Cranberries & Dark Chocolate",
+      "description": "Pre-portioned mix of walnuts, dried cranberries, and dark chocolate chips",
+      "nutrients": [
+        "omega-3",
+        "magnesium",
+        "iron",
+        "antioxidants",
+        "fiber"
+      ]
+    },
+    {
+      "name": "Cheese & Whole Grain Crackers with Grapes",
+      "description": "Cheese cubes with whole grain crackers and grapes",
+      "nutrients": [
+        "calcium",
+        "protein",
+        "fiber",
+        "vitamin K2"
+      ]
+    },
+    {
+      "name": "Banana & Peanut Butter Smoothie",
+      "description": "Banana blended with peanut butter, milk, and hidden spinach for calcium and potassium",
+      "nutrients": [
+        "calcium",
+        "vitamin D",
+        "potassium",
+        "fiber",
+        "protein"
+      ]
+    },
+    {
+      "name": "Frozen Mango & Pineapple Bites",
+      "description": "Frozen tropical fruit straight from the freezer — zero prep required",
+      "nutrients": [
+        "vitamin A",
+        "vitamin C",
+        "manganese",
+        "fiber"
+      ]
+    }
+  ]
+}

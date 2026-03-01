@@ -1,0 +1,269 @@
+[
+  {
+    "name": "Beef & Mushroom Stroganoff over Egg Noodles",
+    "base_description": "Russian-style sirloin and mushroom stroganoff with brandy, sour cream, and Dijon over egg noodles with a broccoli side.",
+    "flavor_profile": "Rich umami, earthy mushrooms, tangy sour cream, warm brandy depth, mustard bite",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Sear the beef like you mean it",
+        "instruction": "Slice sirloin thin against the grain. Get your cast-iron screaming hot — just past the smoke point of canola oil. Sear in small batches, 45 seconds per side, until you have a hard Maillard crust. Pull immediately. The beef finishes cooking when it goes back into the sauce for the last 90 seconds. Overcook it and we're not friends.",
+        "why": "Searing in small batches at extreme heat develops the Maillard reaction — the foundation of savory depth. Crowding the pan drops the temperature and steams the meat, giving you grey, sad protein instead of caramelized glory.",
+        "extra_ingredients": [
+          "canola oil"
+        ]
+      },
+      {
+        "type": "sauce",
+        "title": "Build a proper brandy-fond pan sauce",
+        "instruction": "After searing the beef, sauté cremini and oyster mushrooms in the same pan without moving them for 3-4 minutes until deeply golden. Add minced shallots, cook 2 minutes. Deglaze with brandy — let it flame off if you're brave, or just simmer 60 seconds. Add a splash of Worcestershire and a cup of good beef stock. Reduce by half. Kill the heat, wait 30 seconds, then fold in full-fat sour cream and a teaspoon of Dijon. The sauce must never boil after the sour cream goes in — above 180°F and it breaks.",
+        "why": "The fond (browned bits) from the sear is liquid gold — brandy lifts it off the pan and concentrates it. Adding sour cream off-heat prevents curdling and creates a silky, glossy sauce that clings to every noodle.",
+        "extra_ingredients": [
+          "Worcestershire sauce",
+          "beef stock"
+        ]
+      },
+      {
+        "type": "acid",
+        "title": "Lemon zest and chive finish",
+        "instruction": "Right before plating, zest half a lemon directly over the stroganoff and scatter a generous handful of finely sliced fresh chives. The zest goes on last — heat destroys its volatile oils.",
+        "why": "Rich dishes need a bright counterpoint. The lemon zest cuts through the cream and fat, and the chives add an allium freshness that wakes up every bite without competing with the mushrooms.",
+        "extra_ingredients": [
+          "lemon",
+          "fresh chives"
+        ]
+      }
+    ],
+    "designers_note": "This is comfort food that should taste like someone spent all day on it — but didn't. The secret is the fond. Every bit of flavor is built in one pan, layer by layer. Respect the sear, respect the sour cream temperature, and the sauce will be better than any restaurant version."
+  },
+  {
+    "name": "Baked Ham, Broccoli & Potato Gratin",
+    "base_description": "American comfort gratin with baked ham, Yukon Gold potatoes, broccoli, and sharp cheddar béchamel with Dijon.",
+    "flavor_profile": "Savory-salty ham, creamy béchamel, sharp cheddar tang, earthy potato, mild broccoli sweetness",
+    "elevations": [
+      {
+        "type": "sauce",
+        "title": "Infuse the béchamel properly",
+        "instruction": "Before making your roux, simmer the milk for 10 minutes with a halved shallot, 2 crushed garlic cloves, a bay leaf, and 4 whole black peppercorns. Strain, then proceed with your butter-and-flour roux. Add a generous scraping of fresh nutmeg and the Dijon once the sauce is smooth. This is the difference between a sauce that tastes like something and one that tastes like warm milk.",
+        "why": "Infusing aromatics into the milk before building the béchamel creates depth without adding visible ingredients. The bay leaf adds herbal complexity, the shallot sweetness, and the nutmeg — a classic French technique — transforms flat dairy into something haunting.",
+        "extra_ingredients": [
+          "bay leaf",
+          "whole black peppercorns",
+          "whole nutmeg"
+        ]
+      },
+      {
+        "type": "texture",
+        "title": "Panko-Parmigiano crunch top",
+        "instruction": "Mix 1 cup panko breadcrumbs with 1/2 cup finely grated aged Parmigiano-Reggiano, 2 tablespoons melted butter, a pinch of smoked paprika, and a teaspoon of fresh thyme leaves. Scatter over the assembled gratin. Bake covered at 375°F for 40 minutes, then uncover and broil for 3-4 minutes until the top is deeply golden and audibly crackling.",
+        "why": "A gratin without a proper crust is just a casserole. The panko provides shatter, the Parmigiano browns beautifully and adds umami, and the butter ensures even crisping. The broiler finish creates that restaurant-quality crackle.",
+        "extra_ingredients": [
+          "panko breadcrumbs",
+          "Parmigiano-Reggiano",
+          "smoked paprika",
+          "fresh thyme"
+        ]
+      },
+      {
+        "type": "preparation",
+        "title": "Mandoline the potatoes, crisp the ham",
+        "instruction": "Slice Yukon Golds on a mandoline to exactly 1/8-inch — no thicker, or you'll have crunchy spots. Before layering, cut the ham into 1/2-inch cubes and sear them in a dry skillet until the edges caramelize and the fat renders out. This takes 4-5 minutes. Layer the crisped ham between the potato slices so every forkful has a hit of salty, chewy pork.",
+        "why": "Uniform potato thickness means uniform cooking — no raw centers, no mushy edges. Pre-crisping the ham adds a textural surprise in every layer: you expect soft, you get a little chew and caramelization. That contrast is what makes people ask for the recipe.",
+        "extra_ingredients": []
+      }
+    ],
+    "designers_note": "A gratin is a test of patience and precision. The mandoline work, the infused béchamel, the crisped ham — none of this is hard, but all of it is intentional. This is the kind of dish where the technique is invisible but the result makes people go quiet mid-bite."
+  },
+  {
+    "name": "Babo Pasta — Homemade Spinach Pasta with Alfredo Sauce",
+    "base_description": "Family-recipe Italian spinach pasta made with egg yolks and 00 flour, served with a butter and Parmigiano-Reggiano Alfredo sauce and broccoli side.",
+    "flavor_profile": "Clean butter richness, nutty aged Parmigiano, delicate spinach earthiness, egg yolk silkiness",
+    "elevations": [
+      {
+        "type": "sauce",
+        "title": "True Alfredo — emulsify, don't cook",
+        "instruction": "Melt 4 tablespoons of unsalted butter in a wide skillet over medium-low heat. Add the hot, just-drained pasta directly into the butter with 1/2 cup of starchy pasta water. Toss vigorously. Kill the heat. Add 2 cups of finely grated Parmigiano-Reggiano in three additions, tossing constantly between each. The pasta water's starch and the fat from the butter create an emulsion — a glossy, clinging sauce with no cream needed. If it tightens, add another splash of pasta water. If it breaks, a tablespoon of cold butter whisked in saves it.",
+        "why": "Authentic Alfredo is a three-ingredient emulsion: butter, Parmigiano, pasta water. Adding cream is the American shortcut that masks the cheese. Building the emulsion off-heat with starchy water gives you a sauce that's lighter, glossier, and lets the Parmigiano actually speak.",
+        "extra_ingredients": []
+      },
+      {
+        "type": "texture",
+        "title": "Toasted garlic breadcrumb gremolata",
+        "instruction": "In a small skillet, warm 2 tablespoons of good olive oil over medium heat. Add 3 cloves of thinly sliced garlic and cook until just golden — 90 seconds, no more. Add 1/2 cup coarse fresh breadcrumbs (tear day-old bread, don't use the canister stuff). Toast until deeply golden and crunchy, about 3 minutes. Toss with lemon zest and a pinch of flaky salt. Scatter generously over each plate of pasta.",
+        "why": "Soft pasta on soft sauce needs a textural interruption. The breadcrumbs provide crunch, the garlic chips add savory depth, and the lemon zest brings a brightness that lifts the entire dish. It's the difference between pleasant and memorable.",
+        "extra_ingredients": [
+          "day-old bread",
+          "olive oil",
+          "garlic",
+          "lemon",
+          "flaky salt"
+        ]
+      },
+      {
+        "type": "preparation",
+        "title": "Rest and hydrate the pasta dough",
+        "instruction": "After mixing the spinach pasta dough, wrap it tightly in plastic and rest at room temperature for a full 30 minutes. The gluten relaxes, making it easier to roll thin without tearing. When rolling, go to the second-thinnest setting on your pasta machine — thin enough to be translucent but sturdy enough to hold the sauce. Blanch the spinach, squeeze it bone-dry in a towel, and chop it fine before incorporating. Any residual water makes the dough sticky and impossible to work.",
+        "why": "Resting develops gluten structure without overworking the dough. Bone-dry spinach prevents excess moisture from throwing off the flour ratio — wet dough tears, doesn't roll, and cooks unevenly. These are the details that separate homemade pasta that happens to be green from pasta that's actually good.",
+        "extra_ingredients": []
+      }
+    ],
+    "designers_note": "This is a family recipe, so I'm not here to reinvent it — I'm here to make sure every step is executed at the highest level. The emulsion technique alone will transform this dish. And that breadcrumb gremolata? It's the move that makes everyone at the table look up from their plate."
+  },
+  {
+    "name": "Beef & Broccoli Stir Fry with Oyster Mushrooms",
+    "base_description": "Chinese-American stir fry with flank steak, broccoli, oyster mushrooms, garlic, ginger, oyster sauce, and Shaoxing wine.",
+    "flavor_profile": "Savory-sweet oyster sauce, ginger heat, garlic depth, umami mushrooms, bright green broccoli",
+    "elevations": [
+      {
+        "type": "marinade",
+        "title": "Velvet the flank steak",
+        "instruction": "Slice flank steak thin against the grain. Toss with 1 tablespoon soy sauce, 1 tablespoon cornstarch, 1/2 teaspoon baking soda, 1 tablespoon Shaoxing wine, and 1 teaspoon neutral oil. Let it sit for 25 minutes. The baking soda raises the pH, the cornstarch forms a protective sheath, and the wine tenderizes. When this hits a scorching-hot wok, the exterior sears while the interior stays impossibly tender. This is the single technique that separates home stir fry from restaurant stir fry.",
+        "why": "Velveting is the foundational Chinese restaurant technique for tender stir-fried meat. The alkaline baking soda breaks down surface proteins while the cornstarch coating creates a barrier that locks in moisture during high-heat cooking. Every Chinese restaurant does this. Now you do too.",
+        "extra_ingredients": [
+          "baking soda",
+          "cornstarch"
+        ]
+      },
+      {
+        "type": "preparation",
+        "title": "Blanch the broccoli, char the mushrooms",
+        "instruction": "Blanch broccoli florets in boiling salted water for exactly 60 seconds, then plunge into ice water. Drain and pat dry. For the oyster mushrooms: tear them into large pieces (don't cut — torn edges sear better), then cook in a dry wok over maximum heat without touching them for 2 minutes until charred on one side. Remove. Everything gets combined at the very end with the sauce. Stir fry is an assembly job — every component is cooked separately at its ideal heat.",
+        "why": "Blanching locks in the broccoli's color and crunch while removing raw bitterness. Charring mushrooms dry intensifies their umami and creates crispy edges that hold up in the final toss. Cooking components separately prevents the cardinal sin of stir fry: steaming instead of searing.",
+        "extra_ingredients": []
+      },
+      {
+        "type": "sauce",
+        "title": "Glossy Shaoxing-sesame finishing sauce",
+        "instruction": "Mix 2 tablespoons oyster sauce, 1 tablespoon soy sauce, 1 tablespoon Shaoxing wine, 1 teaspoon dark soy sauce (for color), 1 teaspoon sugar, and 1 teaspoon cornstarch dissolved in 2 tablespoons water. After all components are seared, return everything to the wok over high heat, pour in the sauce, and toss for 30 seconds until glossy and clinging. Finish with a drizzle of toasted sesame oil off the heat — never cook sesame oil, it burns and turns bitter.",
+        "why": "A pre-mixed sauce ensures even seasoning and proper consistency in the 30-second window you have before the dish overcooks. Dark soy adds mahogany color without excess salt. The cornstarch slurry creates that glossy, restaurant-style coating that makes each piece glisten.",
+        "extra_ingredients": [
+          "dark soy sauce",
+          "sugar",
+          "toasted sesame oil"
+        ]
+      }
+    ],
+    "designers_note": "This dish lives or dies on heat management. Every component gets its own moment in the wok at maximum temperature. The velveting makes the beef tender, the blanching makes the broccoli perfect, the charring makes the mushrooms incredible. It comes together in under 90 seconds at the end. That's the discipline of wok cooking."
+  },
+  {
+    "name": "Broccoli & Oyster Mushroom Flatbread with Ricotta & Chili Honey",
+    "base_description": "Italian-American flatbread with pizza dough, ricotta, broccoli, oyster mushrooms, mozzarella, hot honey, and red pepper flakes.",
+    "flavor_profile": "Creamy ricotta, sweet-spicy honey, earthy mushrooms, charred broccoli, stretchy mozzarella",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Whip the ricotta, roast the toppings",
+        "instruction": "Whip the ricotta in a food processor with a tablespoon of good olive oil, the zest of one lemon, a pinch of salt, and a crack of black pepper until cloud-smooth — about 45 seconds. Separately, toss broccoli florets and torn oyster mushrooms with olive oil and roast at 425°F for 12 minutes until the edges char. The toppings go on the flatbread pre-roasted. Raw broccoli on a flatbread is a crime against texture.",
+        "why": "Whipping ricotta aerates it and distributes the seasoning evenly — it melts into a creamy layer rather than sitting in sad dollops. Pre-roasting the vegetables concentrates their flavor and removes moisture so the dough stays crisp instead of getting soggy.",
+        "extra_ingredients": [
+          "lemon"
+        ]
+      },
+      {
+        "type": "sauce",
+        "title": "Make your own chili honey",
+        "instruction": "Warm 1/4 cup honey in a small saucepan over low heat with 1 teaspoon red pepper flakes and 1 teaspoon apple cider vinegar. Let it steep for 5 minutes off the heat. The vinegar is the secret — it cuts the sweetness and makes the honey taste like honey instead of sugar syrup. Apply the hot honey after the flatbread comes out of the oven, never before. Sugar burns.",
+        "why": "Store-bought hot honey lacks vinegar's balancing acid and often tastes one-dimensional. Making it fresh takes 5 minutes and gives you control over heat level. The vinegar addition creates a sweet-spicy-tangy trinity that makes the ricotta and charred vegetables sing.",
+        "extra_ingredients": [
+          "honey",
+          "red pepper flakes",
+          "apple cider vinegar"
+        ]
+      },
+      {
+        "type": "acid",
+        "title": "Fresh arugula and lemon finish",
+        "instruction": "The second the flatbread comes out of the oven, pile a handful of baby arugula on top and squeeze half a lemon over it. The residual heat barely wilts the greens. Finish with a thread of your best olive oil and flaky sea salt. This isn't garnish — it's a structural element. The peppery, cool arugula against the hot, sweet, spicy flatbread is the whole point.",
+        "why": "Temperature contrast and raw freshness against a cooked dish create the sensory surprise that elevates flatbread from snack to destination. The arugula's bitterness and the lemon's acidity counterbalance the rich cheese and sweet honey.",
+        "extra_ingredients": [
+          "baby arugula",
+          "lemon",
+          "flaky sea salt"
+        ]
+      }
+    ],
+    "designers_note": "Flatbread is deceptively simple, which means every detail matters. Whipped ricotta, charred toppings, homemade chili honey, and that arugula landing on the hot surface — this is a flatbread that makes people put their phones down. Or pick them up, because they're going to want a photo."
+  },
+  {
+    "name": "Pan-Seared Branzino with Lemon-Herb Butter & Roasted Broccoli",
+    "base_description": "Mediterranean-style branzino fillets with butter, lemon, capers, fresh parsley, and roasted broccoli.",
+    "flavor_profile": "Delicate white fish, briny capers, bright lemon, nutty brown butter, herbal parsley",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Achieve glass-crispy skin",
+        "instruction": "Pat the fillets aggressively dry with paper towels — both sides, twice. Score the skin with 3 shallow diagonal cuts to prevent curling. Season the skin side with salt 5 minutes before cooking to draw out residual moisture. Heat a stainless steel or cast-iron skillet over medium-high heat with a thin film of high-smoke-point oil (grapeseed or canola). Place fillets skin-side down and press gently with a spatula for the first 15 seconds. Do not touch them again for 4 minutes. You'll know they're ready when the skin releases from the pan on its own. Flip for 60 seconds on the flesh side. That's it.",
+        "why": "Moisture is the enemy of crispy skin. Every drop of water on that fillet turns to steam instead of allowing the skin to fry in the oil. Scoring prevents curling, and the initial press ensures full contact with the hot surface. Patience — not moving the fish — is the technique.",
+        "extra_ingredients": [
+          "grapeseed oil"
+        ]
+      },
+      {
+        "type": "sauce",
+        "title": "Brown butter with fried capers",
+        "instruction": "After removing the fish, wipe the skillet and add 3 tablespoons unsalted butter over medium heat. Once it foams, add 2 tablespoons drained capers — they'll sputter and pop, then turn into crispy little flavor grenades in about 90 seconds. When the butter solids turn hazelnut-brown and smell nutty, add the juice of one lemon and 2 tablespoons chopped fresh parsley. Swirl once. Spoon immediately over the fish — brown butter waits for no one.",
+        "why": "Brown butter is regular butter's more interesting older sibling. The milk solids caramelize, creating nutty complexity. Frying the capers in that butter transforms them from soft and briny to crunchy and concentrated. The lemon juice stops the browning and creates a broken emulsion that coats the fish beautifully.",
+        "extra_ingredients": []
+      },
+      {
+        "type": "temperature",
+        "title": "Cold herb salsa verde on the side",
+        "instruction": "Finely chop a generous handful of fresh parsley, a few mint leaves, and a small shallot. Combine with 1 minced garlic clove, 1 tablespoon red wine vinegar, 3 tablespoons good olive oil, and a pinch of flaky salt. Serve this cold, in a small bowl alongside the hot fish. The contrast of the cold, punchy, herbaceous salsa verde against the warm, buttery, crispy-skinned branzino is restaurant-level dining.",
+        "why": "Temperature contrast between a cold, acidic sauce and hot, rich protein creates a sensory experience that a single-temperature plate cannot achieve. The salsa verde also provides a textural counterpoint — chunky and fresh against the smooth, flaky fish.",
+        "extra_ingredients": [
+          "fresh mint",
+          "red wine vinegar",
+          "shallot"
+        ]
+      }
+    ],
+    "designers_note": "Branzino is an elegant fish that rewards restraint. The skin does the heavy lifting — get it crispy and you've won. The brown butter with fried capers is the kind of 3-minute sauce that makes people think you went to culinary school. You didn't. You just read these instructions."
+  },
+  {
+    "name": "BBQ Pork Butt with Broccoli Slaw",
+    "base_description": "American BBQ-style smoked pork butt with a dry rub of smoked paprika and brown sugar, served with a broccoli stem and cabbage slaw in apple cider vinegar.",
+    "flavor_profile": "Smoky bark, sweet-savory rub, rich pork fat, tangy-crunchy slaw, vinegar brightness",
+    "elevations": [
+      {
+        "type": "marinade",
+        "title": "Dry brine overnight, rub in the morning",
+        "instruction": "The night before, coat the pork butt generously with kosher salt — about 1 tablespoon per 5 pounds. Let it sit uncovered in the fridge on a wire rack for 12-24 hours. The salt penetrates deep, seasons the meat throughout, and the uncovered fridge time dries the surface — which is how you get bark. In the morning, apply your rub: smoked paprika, brown sugar, black pepper, garlic powder, onion powder, a pinch of cayenne. The sugar in the rub caramelizes against the dry, salted surface and forms the crust that everyone fights over.",
+        "why": "Dry brining does what a wet brine does — seasons the interior — without waterlogging the meat. The overnight fridge rest creates a pellicle (dry surface layer) that smoke adheres to and bark forms on. Salting and rubbing are two separate steps because salt needs time, but sugar burns if it sits too long.",
+        "extra_ingredients": [
+          "kosher salt",
+          "garlic powder",
+          "onion powder",
+          "cayenne pepper"
+        ]
+      },
+      {
+        "type": "preparation",
+        "title": "Apple cider vinegar spritz and the stall",
+        "instruction": "Smoke at 225-250°F with a mix of hickory and apple wood. Every 45 minutes after the first 2 hours, spritz the surface with a 50/50 mix of apple cider vinegar and apple juice using a spray bottle. When the internal temp hits 165°F and stalls, resist the urge to crank the heat. Wrap in butcher paper (not foil — foil steams and softens the bark). Continue to 203°F internal, then rest wrapped in a cooler with towels for at least 1 hour. The carry-over cooking and juice redistribution during the rest is what turns tough collagen into silk.",
+        "why": "The spritz adds moisture and acid to the bark surface, enhancing Maillard browning and preventing the exterior from drying out. Butcher paper breathes, letting bark stay crisp while retaining moisture — foil traps steam and turns your bark into soft, sad skin. The rest is non-negotiable.",
+        "extra_ingredients": [
+          "apple juice",
+          "apple wood chunks",
+          "hickory wood chunks",
+          "butcher paper"
+        ]
+      },
+      {
+        "type": "acid",
+        "title": "Upgrade the broccoli slaw with mustard vinaigrette",
+        "instruction": "Shred broccoli stems on a box grater or mandoline. Toss with shredded green cabbage, shredded carrots, and thinly sliced scallions. For the dressing: whisk 3 tablespoons apple cider vinegar, 1 tablespoon whole-grain mustard, 1 tablespoon honey, 2 tablespoons olive oil, and a generous pinch of celery seed. Dress the slaw 15 minutes before serving — no earlier, or it goes limp. Top with toasted sunflower seeds for crunch.",
+        "why": "A vinaigrette-based slaw cuts through rich, fatty pork far better than a mayo-based one. The whole-grain mustard adds texture and spice, the honey bridges the slaw's tang to the pork's sweetness, and the celery seed is the secret seasoning that makes people say 'what is that?' — in a good way.",
+        "extra_ingredients": [
+          "carrots",
+          "scallions",
+          "whole-grain mustard",
+          "honey",
+          "olive oil",
+          "celery seed",
+          "sunflower seeds"
+        ]
+      }
+    ],
+    "designers_note": "BBQ pork butt is a 14-hour commitment and it deserves to be treated like one. The dry brine is the move that separates backyard BBQ from competition BBQ. And that slaw — it's not an afterthought, it's the co-star. Crunchy, tangy, and bright against all that smoky richness. This is a Saturday well spent."
+  }
+]

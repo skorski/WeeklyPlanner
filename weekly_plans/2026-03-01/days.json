@@ -1,0 +1,497 @@
+{
+  "week_range": "March 1 - March 7, 2026",
+  "elsie_no_list": [
+    "fish"
+  ],
+  "days": [
+    {
+      "name": "Sun 03/01",
+      "long_name": "Sunday, March 1",
+      "weather": "Overcast, 50F/33F",
+      "weather_detail": "Sunny (92%), wind 12 mph, 3% precip, gusts 23 mph",
+      "calendar": "Free day",
+      "calendar_items": [],
+      "time_constraints": [],
+      "dinner": "Beef & Mushroom Stroganoff over Egg Noodles",
+      "dinner_cuisine": "Russian",
+      "dinner_description": "Tender strips of sirloin seared hard, then braised with cremini and oyster mushrooms, shallots, and a splash of brandy in a silky sour cream sauce spiked with Dijon and paprika. Served over wide egg noodles with a shower of fresh dill and steamed broccoli on the side.",
+      "dinner_key_ingredients": [
+        "sirloin steak",
+        "cremini mushrooms",
+        "oyster mushrooms",
+        "sour cream",
+        "egg noodles",
+        "shallots",
+        "brandy",
+        "Dijon mustard",
+        "paprika",
+        "broccoli"
+      ],
+      "dinner_source_url": "https://food52.com/recipes/11208-beef-stroganoff-with-mushrooms-and-onions",
+      "dinner_source_name": "Food52",
+      "dinner_notes": "Free Sunday to do an elaborate cook. Uses both cremini and oyster mushrooms.",
+      "dinner_nutrition_notes": "Good iron from beef; mushrooms add B vitamins and selenium.",
+      "album": "Cymande – Cymande",
+      "album_artist": "Cymande",
+      "album_title": "Cymande",
+      "album_year": "1972",
+      "album_genre": "Funk / Soul",
+      "album_mood": "Warm, groovy, uplifting, soulful",
+      "album_description": "Legendary British-Caribbean funk-soul-rock group whose debut is a masterclass in groove. Songs like Bra and The Message are hypnotic, rhythmic, and deeply melodic.",
+      "album_sonic_description": "Laid-back funk with Caribbean percussion, wah-wah guitars, flute melodies, and rich vocal harmonies over deep bass grooves",
+      "album_pairing_rationale": "Warm, groovy Caribbean funk is the perfect Sunday soundtrack for an elaborate stroganoff cook — the kind of music that makes stirring feel like dancing.",
+      "album_spotify_url": "https://open.spotify.com/album/4RSXYyVGFbSXd11GDlL1ag",
+      "activity": "Free day — grocery run, prep for the week",
+      "activity_notes": "Nice enough to get outside (50°F). Prep broccoli for the week — cut 5+ lbs of florets and stems.",
+      "prep_notes": [
+        "Cut and bag broccoli florets and stems for the week",
+        "Start stroganoff in the afternoon"
+      ]
+    },
+    {
+      "name": "Mon 03/02",
+      "long_name": "Monday, March 2",
+      "weather": "Moderate snow, 37F/24F",
+      "weather_detail": "Cloudy (21%), wind 8 mph, 30% precip, gusts 21 mph",
+      "calendar": "Work day. IDP Check-in 4:10-5:00 PM",
+      "calendar_items": [
+        "IDP Check-in 4:10-5:00 PM"
+      ],
+      "time_constraints": [
+        "IDP meeting runs until 5pm"
+      ],
+      "dinner": "Baked Ham, Broccoli & Potato Gratin",
+      "dinner_cuisine": "American Comfort",
+      "dinner_description": "Thick-cut baked ham layered with thinly sliced Yukon Gold potatoes and blanched broccoli florets, blanketed in a sharp cheddar béchamel. Baked until bubbling and golden on top.",
+      "dinner_key_ingredients": [
+        "baked ham",
+        "Yukon Gold potatoes",
+        "broccoli",
+        "sharp cheddar",
+        "butter",
+        "flour",
+        "whole milk",
+        "Dijon mustard"
+      ],
+      "dinner_source_url": "https://www.tasteofhome.com/recipes/ham-potato-casserole/",
+      "dinner_source_name": "Taste of Home",
+      "dinner_notes": "Perfect snowy Monday comfort food. One-dish meal, oven does the work.",
+      "dinner_nutrition_notes": "Ham provides protein and B vitamins; potatoes add potassium; broccoli adds vitamins C and K.",
+      "album": "Surprise Chef – Education & Recreation",
+      "album_artist": "Surprise Chef",
+      "album_title": "Education & Recreation",
+      "album_year": "2023",
+      "album_genre": "Instrumental Funk / Soul",
+      "album_mood": "Cinematic, groovy, warm, nostalgic",
+      "album_description": "Melbourne’s Surprise Chef deliver cinematic instrumental funk-soul that sounds like a lost 1970s soundtrack. Each track pulses with rhythm and storytelling through melody alone.",
+      "album_sonic_description": "Vintage analog funk-soul with Rhodes piano, warm bass, tight drums, horns, and strings evoking 1970s blaxploitation soundtracks",
+      "album_pairing_rationale": "A cinematic instrumental soundtrack for a cozy snow-day gratin — warm, unhurried, and perfect for watching the snow fall while the oven does its work.",
+      "album_spotify_url": "https://open.spotify.com/album/4qEmGz4YBlBTizyMDZzMZO",
+      "activity": "Snow day. Cozy evening in.",
+      "activity_notes": "37°F with snow — stay warm.",
+      "prep_notes": [
+        "Assemble gratin in the morning or after work",
+        "Blanch broccoli before layering"
+      ]
+    },
+    {
+      "name": "Tue 03/03",
+      "long_name": "Tuesday, March 3",
+      "weather": "Moderate snow, 40F/32F",
+      "weather_detail": "Cloudy (0%), wind 9 mph, 75% precip, gusts 28 mph",
+      "calendar": "Work meetings. Swim Lessons 6:00-6:30 PM",
+      "calendar_items": [
+        "Level 4 Swim Lessons 6:00-6:30 PM"
+      ],
+      "time_constraints": [
+        "Swim lessons at 6pm — dinner needs to be quick after or prepped before"
+      ],
+      "dinner": "Babo Pasta — Homemade Spinach Pasta with Alfredo Sauce",
+      "dinner_cuisine": "Italian",
+      "dinner_description": "Handmade spinach pasta using only egg yolks for a rich, golden dough, tossed in a simple Alfredo of butter, Parmigiano-Reggiano, and pasta water. Family signature dish. Serve with steamed broccoli on the side.",
+      "dinner_key_ingredients": [
+        "spinach",
+        "egg yolks",
+        "00 flour",
+        "butter",
+        "Parmigiano-Reggiano",
+        "broccoli"
+      ],
+      "dinner_source_url": "https://www.bonappetit.com/recipe/fresh-pasta-dough",
+      "dinner_source_name": "Family Recipe",
+      "dinner_notes": "Family signature dish. Make the pasta dough before swim, cook after.",
+      "dinner_nutrition_notes": "Eggs provide protein and choline; spinach adds iron and folate; broccoli for vitamin C.",
+      "album": "Kokoroko – Could We Be More",
+      "album_artist": "Kokoroko",
+      "album_title": "Could We Be More",
+      "album_year": "2022",
+      "album_genre": "Afrobeat / Jazz",
+      "album_mood": "Warm, hopeful, breezy, soulful",
+      "album_description": "London’s Kokoroko blend West African highlife and Afrobeat with jazz and neo-soul into something entirely fresh — warm, rhythmic, and deeply human.",
+      "album_sonic_description": "Afrobeat-jazz fusion with highlife guitar, trumpet melodies, soft percussion, and gentle vocals over deep pocket grooves",
+      "album_pairing_rationale": "Warm, hopeful Afrobeat-jazz for a post-swim wind-down with homemade pasta — the grooves are gentle enough for a tired Tuesday but rhythmic enough to keep the kitchen moving.",
+      "album_spotify_url": "https://open.spotify.com/album/2ZhFMPgNn6s2UWDHgu6MVS",
+      "activity": "Swim lessons",
+      "activity_notes": "Snowy day, 40°F — bundle up for the drive.",
+      "prep_notes": [
+        "Make pasta dough before swim lessons",
+        "Steam broccoli while boiling pasta water"
+      ]
+    },
+    {
+      "name": "Wed 03/04",
+      "long_name": "Wednesday, March 4",
+      "weather": "Moderate drizzle, 62F/41F",
+      "weather_detail": "Mostly Sunny (75%), wind 12 mph, 42% precip, gusts 38 mph",
+      "calendar": "Product Day at work",
+      "calendar_items": [
+        "Product Day (all day)"
+      ],
+      "time_constraints": [
+        "Busy work day — quick dinner needed"
+      ],
+      "dinner": "Beef & Broccoli Stir Fry with Oyster Mushrooms",
+      "dinner_cuisine": "Chinese",
+      "dinner_description": "Velveted flank steak wok-seared with broccoli florets and oyster mushrooms in a glossy sauce of oyster sauce, soy, garlic, ginger, and Shaoxing wine. Green onions piled on top.",
+      "dinner_key_ingredients": [
+        "flank steak",
+        "broccoli",
+        "oyster mushrooms",
+        "garlic",
+        "ginger",
+        "green onions",
+        "oyster sauce",
+        "Shaoxing wine"
+      ],
+      "dinner_source_url": "https://www.seriouseats.com/chinese-american-beef-and-broccoli-with-oyster-sauce-recipe",
+      "dinner_source_name": "Serious Eats",
+      "dinner_notes": "Quick wok meal after a long Product Day. 30 minutes start to finish.",
+      "dinner_nutrition_notes": "Beef provides iron and B12; broccoli adds vitamin C to aid iron absorption; mushrooms for selenium.",
+      "album": "The Budos Band – Long in the Tooth",
+      "album_artist": "The Budos Band",
+      "album_title": "Long in the Tooth",
+      "album_year": "2020",
+      "album_genre": "Afrobeat / Funk",
+      "album_mood": "Intense, driving, psychedelic, powerful",
+      "album_description": "Staten Island’s Budos Band merge Afrobeat, heavy funk, and psychedelic rock into thunderous instrumental grooves. Raw energy from start to finish.",
+      "album_sonic_description": "Heavy Afrobeat-funk with distorted guitars, blaring horns, pounding drums, and a wall of rhythm that hits like a freight train",
+      "album_pairing_rationale": "The driving energy of Afrobeat-funk matches the fast pace of wok cooking — high heat, quick moves, thunderous results. Perfect after a long Product Day.",
+      "album_spotify_url": "https://open.spotify.com/album/5OmRhLCa5tk7Y5XKGJDq6u",
+      "activity": "Product Day at work",
+      "activity_notes": "62°F and warming up — spring is arriving!",
+      "prep_notes": [
+        "Slice steak and prep vegetables before work",
+        "Have rice ready to go"
+      ]
+    },
+    {
+      "name": "Thu 03/05",
+      "long_name": "Thursday, March 5",
+      "weather": "Dense drizzle, 73F/54F",
+      "weather_detail": "Sunny (92%), wind 13 mph, 28% precip, gusts 37 mph",
+      "calendar": "Free evening",
+      "calendar_items": [],
+      "time_constraints": [],
+      "dinner": "Broccoli & Oyster Mushroom Flatbread with Ricotta & Chili Honey",
+      "dinner_cuisine": "Italian-American",
+      "dinner_description": "Store-bought or homemade pizza dough stretched thin and topped with dollops of ricotta, roasted broccoli florets, sautéed oyster mushrooms, red pepper flakes, and a drizzle of hot honey after baking. Crispy, creamy, sweet-spicy.",
+      "dinner_key_ingredients": [
+        "pizza dough",
+        "ricotta",
+        "broccoli",
+        "oyster mushrooms",
+        "mozzarella",
+        "hot honey",
+        "red pepper flakes",
+        "olive oil"
+      ],
+      "dinner_source_url": "https://food52.com/recipes/85857-broccoli-pizza-recipe",
+      "dinner_source_name": "Food52",
+      "dinner_notes": "Light, casual, fun for a warm spring evening. Get Elsie involved in topping the flatbread.",
+      "dinner_nutrition_notes": "Ricotta provides calcium and protein; broccoli for vitamins; mushrooms add umami and B vitamins.",
+      "album": "Nubiyan Twist – Freedom Fables",
+      "album_artist": "Nubiyan Twist",
+      "album_title": "Freedom Fables",
+      "album_year": "2021",
+      "album_genre": "Afrobeat / Jazz / Funk",
+      "album_mood": "Joyful, energetic, celebratory, diverse",
+      "album_description": "UK collective Nubiyan Twist fuse Afrobeat, jazz, dub, funk, and soul with rotating vocalists into a joyful, genre-defying album that’s pure energy.",
+      "album_sonic_description": "Genre-blending ensemble with Afrobeat rhythms, jazz horns, dub bass, funk guitar, and soulful vocals from multiple guest singers",
+      "album_pairing_rationale": "Joyful, celebratory energy for the first real spring evening (73°F!) — a soundtrack for making flatbread with the windows open and spring air flowing in.",
+      "album_spotify_url": "https://open.spotify.com/album/7FNdVh8JdXxSMFSbbWXVpo",
+      "activity": "First warm spring evening — enjoy the 73°F!",
+      "activity_notes": "Open the windows, maybe eat on the patio.",
+      "prep_notes": [
+        "Roast broccoli and sauté mushrooms while dough comes to room temp"
+      ]
+    },
+    {
+      "name": "Fri 03/06",
+      "long_name": "Friday, March 6",
+      "weather": "Overcast, 59F/47F",
+      "weather_detail": "Mostly Sunny (85%), wind 10 mph, 28% precip, gusts 17 mph",
+      "calendar": "Elsie YAT 4:30-6:00 PM",
+      "calendar_items": [
+        "Elsie YAT 4:30-6:00 PM"
+      ],
+      "time_constraints": [
+        "Elsie at YAT until 6pm — start cooking while she’s out"
+      ],
+      "dinner": "Pan-Seared Branzino with Lemon-Herb Butter & Roasted Broccoli",
+      "dinner_cuisine": "Mediterranean",
+      "dinner_description": "Skin-on branzino fillets seared until the skin crackles, finished with a pan sauce of brown butter, lemon, capers, and fresh herbs. Served alongside broccoli roasted at 425°F until charred at the tips.",
+      "dinner_key_ingredients": [
+        "branzino fillets",
+        "butter",
+        "lemon",
+        "capers",
+        "fresh parsley",
+        "broccoli",
+        "olive oil"
+      ],
+      "dinner_source_url": "https://www.foodandwine.com/recipes/pan-roasted-branzino-with-caper-butter",
+      "dinner_source_name": "Food & Wine",
+      "dinner_notes": "Dad’s fish craving. Simple, elegant, 25 minutes.",
+      "dinner_nutrition_notes": "Branzino is lean protein rich in omega-3s; broccoli adds fiber and vitamins C and K.",
+      "elsie_note": "Elsie’s not a fan of fish this week — have buttered pasta or a quesadilla ready as her backup, plus the roasted broccoli she loves.",
+      "album": "Marcos Valle – Garra",
+      "album_artist": "Marcos Valle",
+      "album_title": "Garra",
+      "album_year": "1971",
+      "album_genre": "Brazilian / MPB / Funk",
+      "album_mood": "Breezy, rhythmic, sophisticated, sunny",
+      "album_description": "Brazilian legend Marcos Valle’s grooviest album — a sun-drenched blend of bossa nova, funk, and psychedelic soul that practically smells like the ocean.",
+      "album_sonic_description": "Brazilian funk-soul with bossa nova rhythms, lush orchestration, Fender Rhodes, and Valle’s smooth vocals floating over syncopated grooves",
+      "album_pairing_rationale": "Breezy Brazilian grooves for a Mediterranean fish dinner — the ocean vibes of Garra complement branzino perfectly, and the rhythm keeps Friday evening energy flowing.",
+      "album_spotify_url": "https://open.spotify.com/album/5E8m3TFKbfMNqosfB8hqnD",
+      "activity": "Elsie at YAT",
+      "activity_notes": "59°F, mild evening.",
+      "prep_notes": [
+        "Start roasting broccoli while Elsie is at YAT",
+        "Sear fish just before serving"
+      ]
+    },
+    {
+      "name": "Sat 03/07",
+      "long_name": "Saturday, March 7",
+      "weather": "Light drizzle, 73F/46F",
+      "weather_detail": "Mostly Sunny (64%), wind 13 mph, 27% precip, gusts 33 mph",
+      "calendar": "Free day — BBQ day!",
+      "calendar_items": [],
+      "time_constraints": [],
+      "dinner": "BBQ Pork Butt with Broccoli Slaw",
+      "dinner_cuisine": "American BBQ",
+      "dinner_description": "Pork butt rubbed with smoked paprika, brown sugar, mustard powder, and black pepper, slow-cooked low and slow until falling apart. Piled on brioche buns with a tangy broccoli slaw made from shredded broccoli stems, cabbage, apple cider vinegar, and a touch of mayo.",
+      "dinner_key_ingredients": [
+        "pork butt",
+        "smoked paprika",
+        "brown sugar",
+        "broccoli stems",
+        "cabbage",
+        "apple cider vinegar",
+        "brioche buns"
+      ],
+      "dinner_source_url": "https://www.seriouseats.com/the-food-lab-complete-guide-to-smoking-pulled-pork-barbecue",
+      "dinner_source_name": "Serious Eats",
+      "dinner_notes": "73°F grilling weather! Start the pork butt in the morning for evening BBQ. Zero-waste broccoli slaw uses stems.",
+      "dinner_nutrition_notes": "Pork provides protein, thiamine, and zinc; cabbage slaw adds vitamin C and fiber.",
+      "album": "Curtis Mayfield – Superfly",
+      "album_artist": "Curtis Mayfield",
+      "album_title": "Superfly",
+      "album_year": "1972",
+      "album_genre": "Soul / Funk",
+      "album_mood": "Groovy, cinematic, soulful, powerful",
+      "album_description": "Curtis Mayfield’s legendary soundtrack — funky, socially conscious, and impossibly groovy. One of the greatest soul albums ever made.",
+      "album_sonic_description": "Wah-wah guitars, orchestral strings, tight funk rhythms, and Mayfield’s soaring falsetto delivering sharp social commentary over irresistible grooves",
+      "album_pairing_rationale": "The ultimate BBQ soundtrack — Curtis Mayfield’s funky, groovy soul is exactly what a warm Saturday pork butt cook demands. Turn it up, tend the fire, let the music do its work.",
+      "album_spotify_url": "https://open.spotify.com/album/2VBcztE58sfByklBfOuSLn",
+      "activity": "BBQ day! Low-and-slow pork butt.",
+      "activity_notes": "73°F — perfect outdoor cooking weather. Maybe eat outside.",
+      "prep_notes": [
+        "Dry-rub pork butt Friday night",
+        "Start cooking early Saturday morning",
+        "Make slaw 1 hour before serving"
+      ]
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Charred Broccoli with Whipped Feta, Lemon & Chili Oil",
+      "cuisine": "Middle Eastern-inspired",
+      "description": "Broccoli florets roasted at 450°F until deeply charred and crispy at the edges, served over a swipe of whipped feta blended with lemon zest and a drizzle of homemade chili oil. Scattered with toasted sesame seeds and flaky salt.",
+      "key_ingredients": [
+        "broccoli",
+        "feta cheese",
+        "lemon",
+        "chili flakes",
+        "sesame seeds",
+        "olive oil",
+        "garlic"
+      ]
+    },
+    {
+      "name": "Stuffed Cremini Mushrooms with Parmesan, Herbs & Green Onions",
+      "cuisine": "Italian",
+      "description": "Large cremini mushroom caps filled with a mixture of their own diced stems, Parmesan, breadcrumbs, garlic, green onions, and fresh parsley, then baked until golden and bubbling.",
+      "key_ingredients": [
+        "cremini mushrooms",
+        "Parmesan",
+        "breadcrumbs",
+        "garlic",
+        "green onions",
+        "fresh parsley",
+        "olive oil"
+      ]
+    }
+  ],
+  "salads": [
+    {
+      "name": "Roasted Broccoli, Blood Orange & Burrata Salad",
+      "salad_type": "composed_dinner",
+      "description": "A composed arrangement of warm roasted broccoli florets, blood orange segments, torn burrata, toasted hazelnuts, and shaved Pecorino.",
+      "dressing": "Blood orange vinaigrette: fresh blood orange juice, white wine vinegar, Dijon mustard, extra-virgin olive oil, minced shallot, honey, flaky salt, cracked black pepper",
+      "flavor_rationale": "The char on roasted broccoli provides nutty bitterness that blood orange tames with tart sweetness. Burrata adds lush creaminess. Italian amaro-dolce principles at work."
+    },
+    {
+      "name": "Chopped Broccoli, Kale & Apple Salad with Cheddar Croutons",
+      "salad_type": "tossed_dinner",
+      "description": "Finely chopped raw broccoli, massaged lacinato kale, crisp Honeycrisp apple matchsticks, toasted sunflower seeds, dried cranberries, and sharp cheddar croutons.",
+      "dressing": "Apple cider vinaigrette: apple cider vinegar, Dijon mustard, maple syrup, extra-virgin olive oil, minced shallot, salt, black pepper",
+      "flavor_rationale": "Raw broccoli crunch pairs with tender massaged kale. Apple sweetness and cranberry tartness play against sharp cheddar croutons. Maple-mustard vinaigrette unifies with autumnal warmth."
+    },
+    {
+      "name": "Asian Broccoli Slaw with Sesame-Ginger Dressing",
+      "salad_type": "side",
+      "description": "Shredded broccoli stems and florets, shaved carrots, red cabbage, and edamame tossed in a bright sesame-ginger dressing. Topped with crispy wonton strips.",
+      "dressing": "Sesame-ginger dressing: toasted sesame oil, rice vinegar, fresh grated ginger, soy sauce, honey, neutral oil, lime juice, garlic, salt",
+      "flavor_rationale": "Nutty sesame oil grounds bright rice vinegar and lime acid. Fresh ginger adds heat. Transforms raw cruciferous crunch into something addictive."
+    },
+    {
+      "name": "Shaved Fennel, Radicchio & Citrus Salad with Marcona Almonds",
+      "salad_type": "side",
+      "description": "Paper-thin fennel, torn radicchio, navel orange supremes, and a scattering of Marcona almonds. A palate cleanser that cuts through rich mains.",
+      "dressing": "Lemon-shallot vinaigrette: fresh lemon juice, finely minced shallot, champagne vinegar, extra-virgin olive oil, Dijon mustard, flaky salt, cracked black pepper",
+      "flavor_rationale": "Fennel anise sweetness tames radicchio bitterness. Citrus adds juicy brightness. Marcona almonds bring buttery richness and crunch. Classic bitter-sweet-acid Mediterranean triad."
+    }
+  ],
+  "beverages": [
+    {
+      "name": "Willamette Valley Pinot Noir",
+      "description": "Bright, medium-bodied Pinot Noir with cherry, cranberry, and forest floor notes. Enough acidity to cut through creamy stroganoff, enough fruit to complement grilled pork.",
+      "why": "Versatile red that works across the week’s diverse proteins."
+    },
+    {
+      "name": "Weihenstephaner Hefeweizen",
+      "description": "The world’s oldest brewery’s flagship wheat beer — hazy gold with banana, clove, and bread crust aromas. Effervescent and refreshing.",
+      "why": "Classic pairing for BBQ and grilled meats. The 73°F grilling weather demands a cold Hefe."
+    },
+    {
+      "name": "Cucumber-Mint Agua Fresca with Lime",
+      "description": "English cucumber, fresh mint, lime juice, and a touch of agave blended with cold water and strained. Light, herbal, and impossibly refreshing.",
+      "why": "Non-alcoholic option the whole family can enjoy. Elsie’s drink of the week."
+    }
+  ],
+  "grocery_list": {
+    "Produce": [
+      "20 lbs broccoli (already have)",
+      "green onions (already have)",
+      "oyster mushrooms (already have)",
+      "cremini mushrooms (already have)",
+      "Yukon Gold potatoes",
+      "shallots",
+      "garlic",
+      "ginger",
+      "fresh parsley",
+      "fresh dill",
+      "fresh mint",
+      "lemon (3)",
+      "lime (2)",
+      "blood oranges",
+      "Honeycrisp apples",
+      "lacinato kale",
+      "spinach (for pasta)",
+      "fennel",
+      "radicchio",
+      "navel oranges",
+      "cabbage",
+      "carrots",
+      "red cabbage",
+      "arugula",
+      "cucumber",
+      "celery"
+    ],
+    "Protein": [
+      "2 lbs sirloin steak (stroganoff)",
+      "1.5 lbs flank steak (stir fry)",
+      "baked ham (gratin)",
+      "branzino fillets (2)",
+      "pork butt (6-8 lbs)"
+    ],
+    "Dairy": [
+      "sour cream",
+      "sharp cheddar",
+      "Parmigiano-Reggiano",
+      "butter (2 lbs)",
+      "whole milk",
+      "ricotta",
+      "mozzarella",
+      "feta cheese",
+      "burrata",
+      "Pecorino Romano",
+      "egg yolks (1 dozen eggs)"
+    ],
+    "Pantry": [
+      "egg noodles",
+      "00 flour",
+      "pizza dough",
+      "brioche buns",
+      "crusty bread",
+      "breadcrumbs",
+      "Dijon mustard",
+      "oyster sauce",
+      "soy sauce",
+      "Shaoxing wine",
+      "brandy",
+      "apple cider vinegar",
+      "hot honey",
+      "smoked paprika",
+      "brown sugar",
+      "paprika",
+      "red pepper flakes",
+      "capers",
+      "olive oil",
+      "sesame oil",
+      "rice vinegar",
+      "honey",
+      "agave",
+      "hazelnuts",
+      "sunflower seeds",
+      "dried cranberries",
+      "Marcona almonds",
+      "sesame seeds",
+      "wonton strips",
+      "edamame"
+    ],
+    "Beverages": [
+      "Willamette Valley Pinot Noir",
+      "Weihenstephaner Hefeweizen (6-pack)",
+      "Cucumbers and mint for agua fresca"
+    ]
+  },
+  "prep_ahead": [
+    "Saturday night: Dry-rub pork butt for Saturday BBQ",
+    "Sunday: Cut and bag 5+ lbs broccoli florets and stems for the week",
+    "Sunday: Make pasta dough for Tuesday (can rest overnight in fridge)",
+    "Monday: Slice flank steak for Wednesday stir fry",
+    "Tuesday: Make pasta dough before swim if not done Sunday",
+    "Thursday: Prep broccoli slaw for Saturday (shred stems and cabbage)"
+  ],
+  "notes": [
+    "Broccoli features in every single dinner this week — goal is to use 15+ lbs",
+    "Oyster mushrooms appear in 3 dishes (stroganoff, stir fry, flatbread)",
+    "Cremini mushrooms in stroganoff and appetizer",
+    "Green onions in stir fry, mushroom appetizer, and multiple dishes",
+    "Stroganoff and gratin both make excellent lunch leftovers for meal prep",
+    "Saturday BBQ pork butt will have enough for leftovers through next week"
+  ]
+}

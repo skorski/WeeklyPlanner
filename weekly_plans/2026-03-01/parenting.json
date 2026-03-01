@@ -1,0 +1,98 @@
+{
+  "week_range": "March 1 - March 7, 2026",
+  "weekly_theme": {
+    "title": "Same Roots, New Blooms",
+    "description": "The week starts in winter and ends in spring — snow on Monday, 73\u00b0F by Thursday — and Elsie is doing the same thing. She's the same girl who shows up in the pool on Tuesday, at the stir fry table on Wednesday, and rolling flatbread dough on Thursday, but each setting reveals a different petal. Broccoli appears in three wildly different dinners this week — gratin, stir fry, flatbread — and that's exactly how growth works. You don't become someone new. You bloom where you're already planted. This week, notice the ways she's stretching into new shapes of herself while staying rooted in the family that holds her."
+  },
+  "dinner_questions": [
+    {
+      "day": "Sunday",
+      "dinner": "Beef & Mushroom Stroganoff",
+      "question": "Stroganoff is a dish people have been making for hundreds of years in Russia. If our family had one recipe we'd pass down for a hundred years, what should it be — and what story would we tell about why it's special?",
+      "category": "family",
+      "why": "At 8, Elsie is beginning to understand legacy and tradition. Connecting food to family identity helps her see herself as part of a longer story, not just a kid eating dinner. Sunday's unhurried pace makes room for this kind of big-picture thinking."
+    },
+    {
+      "day": "Monday",
+      "dinner": "Baked Ham, Broccoli & Potato Gratin",
+      "question": "There's snow outside and warm gratin inside — total opposites. If you could design the perfect cozy day from the moment you wake up to the moment you fall asleep, what would every hour look like?",
+      "category": "imagination",
+      "why": "The contrast between a snowy 37\u00b0F day and a bubbling golden gratin creates a natural prompt for thinking about comfort and what makes a day feel good. Designing a full day hour-by-hour practices planning and sequencing — a cognitive skill blooming at 8."
+    },
+    {
+      "day": "Tuesday",
+      "dinner": "Babo Pasta (Homemade Spinach Pasta)",
+      "question": "We're making pasta from scratch tonight — the dough, the rolling, everything. What's something you've made completely from scratch that you're really proud of? It doesn't have to be food — it could be anything.",
+      "category": "story-drawing",
+      "why": "After swim lessons, she's physically tired but mentally open. Connecting the effort of handmade pasta to her own experiences of building something from nothing reinforces that effort has a taste — and it's satisfying. This also validates her growing sense of competence."
+    },
+    {
+      "day": "Wednesday",
+      "dinner": "Beef & Broccoli Stir Fry",
+      "question": "Stir fry cooks really fast — everything happens in just a few minutes over high heat. What's something important that you think people rush through too quickly? What would happen if everyone just slowed down?",
+      "category": "values",
+      "why": "Dan's Product Day means the household tempo might feel faster than usual. This question invites Elsie to reflect on pace and presence — a concept she's just beginning to grasp at 8. It quietly validates the idea that slowing down is wise, not lazy, and gives her permission to name what she notices about the world around her."
+    },
+    {
+      "day": "Thursday",
+      "dinner": "Broccoli & Oyster Mushroom Flatbread",
+      "question": "It's the first really warm evening of the year — 73 degrees! What's something about spring that you're most excited about? And what's one thing about winter you'll actually miss?",
+      "category": "gratitude",
+      "why": "Holding two feelings at once — excitement for what's coming and a little sadness for what's leaving — is an emotional complexity milestone at age 8. The warm evening and the hands-on fun of making flatbread together create a relaxed, open setting to practice it."
+    },
+    {
+      "day": "Friday",
+      "dinner": "Pan-Seared Branzino",
+      "question": "Tonight's dinner is fish, and we know that's not your favorite. But here's a question: what's something you used to not like — a food, an activity, a song, even a person — that you've totally changed your mind about? What made you change?",
+      "category": "values",
+      "why": "This reframes the fish dinner from a dreaded meal into a growth conversation. At 8, kids are starting to notice that their preferences shift over time, which is a building block for understanding that identity isn't fixed — you're allowed to change your mind about things, including yourself. No pressure to eat the fish — just to think about change."
+    },
+    {
+      "day": "Saturday",
+      "dinner": "BBQ Pork Butt",
+      "question": "This pork has been cooking since this morning — hours and hours of slow heat and patience. If you had to spend a whole day doing just one thing, but with someone you've never done it with before, what would you pick and who would you invite?",
+      "category": "imagination",
+      "why": "The slow cook of BBQ mirrors patience and anticipation — the best things take time. Asking her to imagine crossing a social boundary (doing something with an unexpected person) exercises perspective-taking and social imagination, both growing fast at this age. The warm Saturday and outdoor BBQ energy make this feel expansive, not interrogative."
+    }
+  ],
+  "nudges": [
+    {
+      "title": "The Broccoli Critic",
+      "context": "Broccoli appears in three dinners this week in three completely different forms — golden gratin on Monday, quick-fire stir fry on Wednesday, and roasted on flatbread Thursday. That's a rare and playful opportunity.",
+      "suggestion": "Turn Elsie into the family's official broccoli judge. She rates each broccoli dish on a scale of 1-10 and explains her reasoning — texture, flavor, how it looks on the plate. By Thursday she's a food critic with opinions and evidence, which is actually a structured exercise in evaluating, comparing, and articulating preferences. Eight-year-olds love having expertise, and this gives her a role at the table that's genuinely hers.",
+      "how_to": [
+        "Monday night, announce it casually: 'Broccoli shows up three times this week in three different outfits. You're our official broccoli judge.'",
+        "After each broccoli dinner, she rates and explains. Write her scores on a sticky note on the fridge.",
+        "Thursday night, reveal the winner — 'The Broccoli Champion of the week is…' Let her present her verdict like a real critic."
+      ]
+    },
+    {
+      "title": "The Spring Door",
+      "context": "Thursday is the first warm evening of the year — 73\u00b0F after days of snow and cold. For Elsie, the shift from winter on Monday to shorts-weather on Thursday is dramatic and worth marking as a family.",
+      "suggestion": "After flatbread dinner on Thursday, go outside together. Sit on the porch, walk around the block, or just stand in the yard and breathe. Don't structure it — just be outside in the warmth as a family. Say something simple: 'Winter's behind us. Let's go say hello to spring.' Marking seasonal transitions teaches Elsie to notice the world changing around her, which builds the kind of attentiveness that feeds empathy, wonder, and presence.",
+      "how_to": [
+        "After dinner Thursday, say: 'It's too nice to be inside. Shoes on — let's go.'",
+        "Walk slowly. Point out what's changing — buds on trees, birds you haven't heard in months, the longer daylight.",
+        "Ask one question: 'What does spring smell like to you?' Then just listen."
+      ]
+    },
+    {
+      "title": "The Fish Heads-Up",
+      "context": "Elsie doesn't like fish, and Friday's branzino is on the menu. Surprising an 8-year-old with a food she dislikes erodes trust. Preparing her in advance shows respect for her preferences while modeling openness.",
+      "suggestion": "Bring it up Wednesday or Thursday, casually — not as a lecture, but a respectful heads-up: 'Friday's dinner is fish. I know that's not your favorite. Here's the deal: there'll be plenty on the table that you love, but I'd be proud of you if you tried one bite. If you don't like it, totally fine.' The conversation before the meal matters more than the meal itself. It teaches her that her voice is heard AND that being open to new experiences is a family value.",
+      "how_to": [
+        "Wednesday or Thursday, mention it casually — in the car or while cooking, not as a sit-down talk.",
+        "Friday, plate her dinner with the branzino AND a generous portion of something she loves — bread, pasta, salad.",
+        "If she tries it: 'Thanks for being brave.' If she doesn't: 'No problem at all. I'm glad you're here.'"
+      ]
+    }
+  ],
+  "recommendation": {
+    "type": "book",
+    "title": "The Girl Who Drank the Moon",
+    "author": "Kelly Barnhill",
+    "why": "A Newbery Medal-winning novel about a girl named Luna who has been unknowingly filled with extraordinary magic. As she grows, her power begins to bloom — sometimes wildly, sometimes beautifully. It's a story about growing into yourself, about the messiness of change, and about the people who love you even when you're becoming someone they don't fully understand yet. Rich, lyrical, and deeply felt — perfect for an 8-year-old reader who's ready for a story with real depth.",
+    "connection": "Ties directly to this week's theme of 'Same Roots, New Blooms' — Luna is changing from the inside out, just like spring is reshaping the world outside Elsie's window, and just like Elsie herself is growing into new versions of who she's always been. Start reading it together during the cozy, snowy first half of the week, and by Thursday's warm evening, the story will feel like it's happening in real time."
+  },
+  "parent_reflection": "Three times this week, you'll put broccoli on the table — and each time it will look completely different. Golden and bubbling in Monday's gratin. Bright green and snappy in Wednesday's stir fry. Roasted and earthy on Thursday's flatbread. Same vegetable, entirely new form. That's your daughter right now. She's the same Elsie in the pool, on the stage at YAT, at the dinner table debating fish, and in the warm evening air discovering that spring smells different than she remembered. She's showing up differently in each place, trying on new shapes of herself. This week, as winter literally melts into spring outside your window, notice the ways she's doing the same thing inside. She doesn't need you to name it or celebrate it loudly. She just needs you to see it — and to keep setting the table."
+}
