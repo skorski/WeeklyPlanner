@@ -7,30 +7,27 @@ The weekly-planner is the key skill that you will want to leverage for this proc
 Review my calendar using the workIQ MCP server. Pay special attention to any meetings between 3 and 9. All events from Laura@astraeawealth.com should be included in the plan. These are related to our family and must be part of the final report. Tentative work meetings in that block can be ignored. Tentative meetings from Laura must be included.
 
 This week we have:
-- Dan has Product Day on Wednesday at work.
-- Swim lessons on tuesday night
-- Elsie YAT 4:30-600 Friday
+- Laura is leaving for portland early on Wednesday morning.
+- Dan will be doing all pickup and dropoff from wednesady through saturday.
+- Laura returns on Saturday for Elsie's play
 
 Dinners:
 - Tuesday: Babo Pasta
+- Sunday: Pulled pork picnic with cole slaw on taco shells
+- Thursday: american tacos with costco taco seasoning
 
 Cravings:
-- Friday should be some type of fish. Probably bronzino
-- Every meal should have broccoli and potentially green onions. We bought 20 pounds of broccoli and need to use it.
-- Broccoli, baked ham, and potatoes
-- Broccoli stir fry with beef
-- We also have a log oyster and cremini mushrooms.
-- Stroganoff
-- Saturday is going to be nice and we should grill something. Likely making pulled pork and cole slaw
-- Something to have for lunch via meal prep
+- Salad on Monday night
+- Something that can help us finish the fresh brocoli.
+- Will be making a breakfast quiche for all lunches this week. Sausage, spinach, ham, cheese, etc.
 
 Elsies Selections:
 
-- No -> Fish
+- No -> Mushrooms
 - Yes -> 
 
 Weekly Kids Story:
-- This weeks story should be about spring coming early in reston. We are starting to have days that are in the 50s. Talk about why the seasons happen and how the earth turns to make it warmer during the summer time. Discuss the streams in reston and have chelsie walking through the woods and seeing the plants come up. Talk about the animals that come out of hibernation in the woods of reston.
+- This weeks story should be about a janitor at hunters woods elementary who is hiding food in the classrooms to feed the mice. She enjoyes the conversations she has with the mice and the mice help clean up the rooms. This should be a story of wonder where janitors and other people are not very well appreciated for the hard work they do. Cover other professions, like power lineman, who do the hard jobs that make every day life possible. Within the story, the janitor should have short conversations with some of the mice about how much she enjoys making the school a bit better. The mice help out by finding missing treasures from the kids and putting them back on the desk. Its a story of all of the people that make life work. The characters in this story can be completely new, aside from Chelsie discovering the answer to the mystery.
 - The characters in the story should take from a set of the following. Only use ~3 of them including Chelsie
   - Papa Puleo - Great Grand Father
   - Momma Karen - Grand Mother

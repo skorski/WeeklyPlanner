@@ -1,0 +1,333 @@
+{
+  "elevations": [
+    {
+      "day": "Sunday",
+      "name": "Pulled Pork Picnic with Cole Slaw on Taco Shells",
+      "base_description": "Slow-cooked pulled pork with tangy cole slaw served on crispy taco shells — a picnic-style dinner that's equal parts comfort and crunch",
+      "flavor_profile": "Smoky, tangy, crunchy, with sweet-heat undertones",
+      "elevations": [
+        {
+          "type": "sauce",
+          "title": "Carolina-Style Apple Cider Finishing Sauce",
+          "description": "A vinegar-forward finishing sauce tossed with the shredded pork to brighten the richness and prevent the meat from tasting one-note sweet.",
+          "instruction": "Mix 2 tablespoons apple cider vinegar, 1 tablespoon brown sugar, 1 teaspoon smoked paprika, and a pinch of cayenne in a small bowl. After shredding the pork, toss the meat with this sauce while it's still hot — the warm fibers absorb every drop. Let it sit 5 minutes before serving.",
+          "instructions": "Mix 2 tbsp apple cider vinegar, 1 tbsp brown sugar, 1 tsp smoked paprika, pinch of cayenne. Toss with freshly shredded hot pork. Rest 5 minutes before serving.",
+          "why": "Vinegar-based finishing sauces are the backbone of Carolina BBQ. The acid cuts through rendered fat, the sugar caramelizes against the warm meat, and the smoked paprika reinforces the low-and-slow smokiness without adding liquid smoke.",
+          "ingredients": ["apple cider vinegar", "brown sugar", "smoked paprika", "cayenne pepper"],
+          "extra_ingredients": ["apple cider vinegar", "brown sugar", "smoked paprika", "cayenne pepper"]
+        },
+        {
+          "type": "acid",
+          "title": "Quick-Pickled Red Onions",
+          "description": "Bright pink, tangy, crunchy pickled onion rings that cut through the richness of the pork and add visual pop to the taco shells.",
+          "instruction": "Thinly slice one red onion into rings. Place in a jar or bowl and cover with 1/2 cup apple cider vinegar, 1 tablespoon sugar, and 1 teaspoon salt. Let sit at room temperature for 30 minutes minimum. These keep in the fridge for a week — make extra for Thursday's tacos.",
+          "instructions": "Thin-slice 1 red onion. Cover with 1/2 cup apple cider vinegar, 1 tbsp sugar, 1 tsp salt. Sit 30 min. Refrigerate — good for a week.",
+          "why": "Quick-pickled onions are the single highest-impact, lowest-effort upgrade in a chef's arsenal. The acid and sweetness create a counterpoint to rich proteins, while the raw crunch adds texture that cooked onions can't.",
+          "ingredients": ["red onion", "apple cider vinegar", "granulated sugar"],
+          "extra_ingredients": ["red onion", "apple cider vinegar", "granulated sugar"]
+        },
+        {
+          "type": "temperature",
+          "title": "Ice-Cold Buttermilk Slaw",
+          "description": "A tangy, creamy slaw dressed with buttermilk instead of straight mayo — kept ice-cold until the moment it hits the hot pork.",
+          "instruction": "Whisk together 1/4 cup buttermilk, 2 tablespoons mayo, 1 tablespoon apple cider vinegar, 1 teaspoon honey, and 1 teaspoon Dijon mustard. Toss with shredded cabbage and carrots. Refrigerate until serving — the colder the better. The temperature contrast of ice-cold slaw against hot, smoky pork is what makes this dish exciting.",
+          "instructions": "Whisk 1/4 cup buttermilk, 2 tbsp mayo, 1 tbsp apple cider vinegar, 1 tsp honey, 1 tsp Dijon. Toss with cabbage and carrots. Refrigerate until plating.",
+          "why": "Temperature contrast is one of the most underused tools in home cooking. Cold, tangy slaw against hot, fatty pork creates sensory surprise with every bite. The buttermilk adds tang without the heaviness of a pure mayo dressing.",
+          "ingredients": ["buttermilk", "Dijon mustard", "honey"],
+          "extra_ingredients": ["buttermilk", "Dijon mustard", "honey"]
+        },
+        {
+          "type": "preparation",
+          "title": "Smoked Paprika Butter-Toasted Shells",
+          "description": "Brush taco shells with butter and smoked paprika before toasting for deeper flavor and extra crispness.",
+          "instruction": "Melt 1 tablespoon butter and stir in 1/2 teaspoon smoked paprika. Brush the inside of each taco shell lightly with the mixture. Toast in a 375°F oven for 3-4 minutes until fragrant and extra crispy. The buttered shells won't shatter like dry-toasted ones — they'll crack cleanly and taste intentional.",
+          "instructions": "Melt 1 tbsp butter + 1/2 tsp smoked paprika. Brush inside of shells. Toast at 375°F for 3-4 minutes.",
+          "why": "Taco shells are usually an afterthought — a vehicle. Butter-toasting them with smoked paprika turns the shell itself into a flavor layer. The fat also strengthens the shell structurally, preventing the sad mid-bite shatter.",
+          "ingredients": ["butter", "smoked paprika"],
+          "extra_ingredients": ["butter", "smoked paprika"]
+        }
+      ],
+      "designers_note": "This is a Sunday with the whole family — time to invest. The four upgrades work as a system: the vinegar sauce brightens the pork, the pickled onions add acid punch, the cold slaw creates temperature drama, and the buttered shells tie it all together. Elsie can help with the pickle jar (shaking it is fun) and brushing the shells. Make double pickled onions — you'll thank yourself on Thursday."
+    },
+    {
+      "day": "Monday",
+      "name": "Chickpea & Broccoli Curry over Rice",
+      "base_description": "A warming coconut milk curry with chickpeas, broccoli, and garam masala served over steamed rice",
+      "flavor_profile": "Creamy, warmly spiced, earthy, with coconut richness",
+      "elevations": [
+        {
+          "type": "preparation",
+          "title": "Bloom the Spices in Coconut Oil",
+          "description": "Toast garam masala and cumin seeds in coconut oil before adding any other ingredients to unlock fat-soluble flavor compounds.",
+          "instruction": "Heat 1 tablespoon coconut oil in your pot over medium heat. Add 1/2 teaspoon cumin seeds and let them sizzle for 30 seconds until they pop and turn fragrant. Add your garam masala and stir for another 30 seconds. Now add your onions and garlic. This 60-second step doubles the aromatic impact of your spice cabinet — bloomed spices taste three-dimensional instead of flat.",
+          "instructions": "Heat 1 tbsp coconut oil, add 1/2 tsp cumin seeds until they pop (30 sec), add garam masala (30 sec more), then proceed with onions and garlic.",
+          "why": "Most home cooks add spices to liquid, where they partially dissolve but never fully activate. Fat-blooming unlocks volatile aromatic compounds — the same spices taste richer, warmer, and more complex. Every Indian restaurant does this; most home cooks skip it.",
+          "ingredients": ["coconut oil", "cumin seeds"],
+          "extra_ingredients": ["coconut oil", "cumin seeds"]
+        },
+        {
+          "type": "sauce",
+          "title": "Cool Lime Crema",
+          "description": "A cold, tangy crema dolloped onto each bowl of hot curry — the temperature and acid contrast transforms the dish.",
+          "instruction": "Stir together 3 tablespoons sour cream (or plain yogurt), the juice of half a lime, and a pinch of salt. Dollop a spoonful onto each bowl of hot curry at the table. Don't stir it in — let each person swirl it through as they eat. The cold crema against hot curry creates the same magic as sour cream on chili. Elsie can squeeze the lime.",
+          "instructions": "Mix 3 tbsp sour cream or yogurt, juice of 1/2 lime, pinch of salt. Dollop on each hot bowl at the table.",
+          "why": "Rich, creamy curries need a brightness anchor. The cold crema provides temperature contrast, the lime provides acid, and the dairy tempers the spice heat — making this kid-friendly while still interesting for adults.",
+          "ingredients": ["sour cream or plain yogurt", "lime"],
+          "extra_ingredients": ["sour cream or plain yogurt", "lime"]
+        },
+        {
+          "type": "texture",
+          "title": "Toasted Coconut Flake Garnish",
+          "description": "Golden, nutty coconut flakes scattered over each bowl add a crunch layer that the creamy curry desperately needs.",
+          "instruction": "Toast 1/3 cup unsweetened coconut flakes in a dry skillet over medium heat, stirring constantly for 2-3 minutes until golden and fragrant. Remove immediately — they go from golden to burnt in seconds. Scatter over each bowl right before serving. The crunch against the creamy curry is addictive.",
+          "instructions": "Toast 1/3 cup unsweetened coconut flakes in a dry skillet, stirring constantly, 2-3 min until golden. Scatter over bowls.",
+          "why": "Coconut curry with a coconut garnish isn't redundant — it's layered. The toasted flakes bring a nutty, caramelized note that raw coconut milk doesn't have, plus a textural crunch that breaks up the uniformity of a one-pot curry.",
+          "ingredients": ["unsweetened coconut flakes"],
+          "extra_ingredients": ["unsweetened coconut flakes"]
+        },
+        {
+          "type": "acid",
+          "title": "Lime and Cilantro Shower",
+          "description": "A squeeze of fresh lime and a shower of torn cilantro right before serving lifts the entire dish from rich and heavy to rich and vibrant.",
+          "instruction": "Squeeze the juice of half a lime over the entire pot of curry just before serving. Roughly tear a handful of fresh cilantro leaves and scatter over the top — don't chop them, tearing preserves the oils better. The acid and herb brightness should be the last thing to hit the dish.",
+          "instructions": "Squeeze 1/2 lime over the finished curry. Tear cilantro leaves and scatter on top just before serving.",
+          "why": "Acid added at the end of cooking is fundamentally different from acid cooked into a dish. The fresh lime juice and raw cilantro create a 'high note' that sits on top of the warm, deep curry flavors — like treble over bass.",
+          "ingredients": ["lime", "fresh cilantro"],
+          "extra_ingredients": ["lime", "fresh cilantro"]
+        }
+      ],
+      "designers_note": "Curry is one of the most forgiving dishes to elevate because the upgrades are all about finishing, not rebuilding. The spice bloom is the only step that changes your process — everything else happens after cooking. The lime crema is the star: it turns a solid weeknight curry into something with restaurant-level contrast. Elsie can toast the coconut flakes and squeeze the lime — both are satisfying tasks for an 8-year-old."
+    },
+    {
+      "day": "Tuesday",
+      "name": "Babo Pasta",
+      "base_description": "Homemade spinach pasta with rich egg yolks and a classic alfredo sauce — a family original worth treating with respect",
+      "flavor_profile": "Rich, buttery, savory, with the grassy depth of spinach pasta",
+      "elevations": [
+        {
+          "type": "preparation",
+          "title": "The Pasta Water Emulsion",
+          "description": "Reserve starchy pasta cooking water and use it to build a silky, clingy sauce instead of a heavy cream puddle.",
+          "instruction": "Before draining the pasta, ladle out 1 full cup of the starchy cooking water. When building the alfredo, work off the heat: add cheese in small handfuls, alternating with splashes of pasta water, tossing vigorously with tongs after each addition. The starch in the water acts as an emulsifier — it binds the fat and cheese into a glossy, spoonable sauce that clings to every strand instead of sliding off into a pool on the plate.",
+          "instructions": "Reserve 1 cup pasta water before draining. Off heat, add cheese in handfuls alternating with splashes of pasta water, tossing with tongs between additions.",
+          "why": "This is how every Italian restaurant makes pasta sauce cling. The starch molecules act as a bridge between fat and water, creating an emulsion. Without pasta water, you get separated butter and cheese clumps. With it, you get silk.",
+          "ingredients": [],
+          "extra_ingredients": []
+        },
+        {
+          "type": "acid",
+          "title": "Lemon Zest and Nutmeg Whisper",
+          "description": "Two secret ingredients that make every great alfredo taste more complex without anyone identifying them.",
+          "instruction": "Using a Microplane, zest one lemon directly over the finished sauce — hold the grater high so the oils mist down. Follow with 4-5 passes of whole nutmeg on the same Microplane. Stir gently. You should not taste 'lemon' or 'nutmeg' — you should taste an alfredo that feels brighter and more interesting than you expected. These are background players, not soloists.",
+          "instructions": "Microplane the zest of 1 lemon and 4-5 passes of whole nutmeg into the finished sauce. Stir gently.",
+          "why": "Lemon zest provides citrus oils (not juice acidity) that lift heavy dairy sauces. Nutmeg has been the silent partner of cream sauces since the Renaissance — it adds warmth and depth that your palate reads as 'richness' rather than 'spice.'",
+          "ingredients": ["lemon", "whole nutmeg"],
+          "extra_ingredients": ["lemon", "whole nutmeg"]
+        },
+        {
+          "type": "texture",
+          "title": "Garlic Butter Panko Crown",
+          "description": "A golden, crunchy breadcrumb topping that provides the textural contrast a creamy pasta desperately needs.",
+          "instruction": "Melt 1 tablespoon butter in a small skillet over medium heat. Add 1 minced garlic clove and stir for 30 seconds. Add 1/4 cup panko breadcrumbs and stir constantly for 2-3 minutes until golden and fragrant. Season with a tiny pinch of salt. Crown each plate of pasta with a generous spoonful. The crunch against the silky alfredo is what separates a good pasta from a memorable one.",
+          "instructions": "Melt 1 tbsp butter, add 1 minced garlic clove (30 sec), add 1/4 cup panko (2-3 min until golden). Pinch of salt. Spoon over each plate.",
+          "why": "Creamy dishes without texture contrast fatigue the palate by the third bite. Toasted breadcrumbs provide crunch, butter provides richness in a different form, and garlic ties the topping to the dish thematically.",
+          "ingredients": ["panko breadcrumbs", "garlic clove", "butter"],
+          "extra_ingredients": ["panko breadcrumbs", "garlic clove", "butter"]
+        },
+        {
+          "type": "preparation",
+          "title": "Finish in the Pan, Not on the Plate",
+          "description": "Transfer pasta into the sauce pan and toss — never pour sauce over drained pasta on a plate.",
+          "instruction": "Using tongs, transfer the cooked pasta directly from the pot into the sauce pan. Toss vigorously for 60 seconds over low heat, adding splashes of pasta water if needed. The pasta's porous surface absorbs the sauce and the agitation creates an emulsion. Serve directly from the pan to warmed plates. If you pour sauce over pasta on a plate, you've made two separate things sharing space. If you finish pasta in the sauce, you've made one unified dish.",
+          "instructions": "Use tongs to transfer pasta into sauce pan. Toss 60 seconds over low heat, adding pasta water splashes. Serve from pan to warmed plates.",
+          "why": "Every Italian chef would rather burn their restaurant down than pour sauce over pasta. Finishing in the pan allows the pasta to absorb sauce, the starch to bind, and the fats to emulsify. It's the single most important pasta technique.",
+          "ingredients": [],
+          "extra_ingredients": []
+        }
+      ],
+      "designers_note": "Babo Pasta is a family original — it deserves the full treatment. This is Laura's last dinner before her trip, so make it feel intentional. The four elevations don't add complexity to the recipe — they refine the technique. The pasta water trick and finishing in the pan are the two things that separate home alfredo from restaurant alfredo, and they cost nothing. The panko crown gives Elsie something to sprinkle, which is always a win."
+    },
+    {
+      "day": "Wednesday",
+      "name": "One-Pan Chicken Broccoli Couscous",
+      "base_description": "Chicken cooked with broccoli and couscous in one pan with chicken broth, lemon, and garlic — a weeknight workhorse",
+      "flavor_profile": "Savory, lemony, garlicky, with the nuttiness of toasted grain",
+      "elevations": [
+        {
+          "type": "preparation",
+          "title": "Toast the Couscous First",
+          "description": "Dry-toast the couscous in the pan before adding broth — this single 90-second step transforms bland grains into something with backbone.",
+          "instruction": "After searing your chicken and setting it aside, scatter the dry couscous into the hot pan and stir for 90 seconds until it smells nutty and turns a shade darker. Then add your broth and continue as normal. This is the same principle as toasting rice for pilaf — the Maillard reaction on the grain surface creates depth that broth alone cannot provide.",
+          "instructions": "After removing chicken, scatter dry couscous in hot pan. Stir 90 seconds until nutty-smelling and slightly darker. Add broth, continue normally.",
+          "why": "Untoasted couscous absorbs liquid and sits there. Toasted couscous absorbs liquid and contributes flavor. The Maillard reaction creates hundreds of new aromatic compounds on the grain surface. Ninety seconds of effort, exponential flavor return.",
+          "ingredients": [],
+          "extra_ingredients": []
+        },
+        {
+          "type": "acid",
+          "title": "The Lemon Squeeze",
+          "description": "A generous squeeze of fresh lemon over the finished dish right before serving — the simplest and most impactful upgrade.",
+          "instruction": "Cut a lemon in half. After plating, squeeze one half generously over the entire dish. The acid wakes up the chicken broth and garlic, turning 'fine' into 'really good.' Hand Elsie the other half — she can squeeze her own plate. Kids who squeeze their own lemon eat more enthusiastically.",
+          "instructions": "Squeeze half a lemon over the plated dish. Give Elsie the other half to squeeze herself.",
+          "why": "Acid is the most neglected seasoning in home cooking. A hit of fresh lemon at the end doesn't make food taste like lemon — it makes food taste like more of itself. It amplifies existing flavors the way salt does.",
+          "ingredients": ["lemon"],
+          "extra_ingredients": ["lemon"]
+        },
+        {
+          "type": "sauce",
+          "title": "Cold Butter Finish",
+          "description": "A pat of cold butter stirred into the hot couscous right off the heat creates an effortless glossy richness.",
+          "instruction": "The moment the pan comes off the heat, drop 1 tablespoon of cold butter (straight from the fridge) onto the couscous and stir gently until it melts and disappears. Cold butter emulsifies into hot food better than melted butter — it creates a glossy, slightly luxurious finish instead of an oily slick. This is the French technique called 'monter au beurre' and it takes 10 seconds.",
+          "instructions": "Off heat, drop 1 tbsp cold butter onto couscous. Stir gently until melted and glossy.",
+          "why": "Cold butter creates a stable emulsion when stirred into hot food — the proteins in the butter act as an emulsifier, binding fat and water into a creamy finish. This is why restaurant food always seems to have an extra something. That something is butter.",
+          "ingredients": ["butter"],
+          "extra_ingredients": ["butter"]
+        }
+      ],
+      "designers_note": "Dan is solo tonight and Elsie's been at play rehearsal until 7. These three upgrades require zero extra dishes, zero extra prep, and less than three minutes total. Toast the couscous (90 seconds), drop in cold butter (10 seconds), squeeze a lemon (5 seconds). That's it. The dish was already designed to be easy — these elevations respect that design while making it taste like someone who knows what they're doing cooked it."
+    },
+    {
+      "day": "Thursday",
+      "name": "American Tacos with Costco Taco Seasoning",
+      "base_description": "Classic ground beef tacos with Costco taco seasoning and standard toppings — a reliable crowd-pleaser",
+      "flavor_profile": "Savory, warmly spiced, with the comforting familiarity of a Tuesday-night staple",
+      "elevations": [
+        {
+          "type": "preparation",
+          "title": "Bloom the Seasoning in the Fat",
+          "description": "Cook the seasoning dry in the rendered beef fat for 60 seconds before adding water — this doubles the flavor of the same packet.",
+          "instruction": "After browning the beef, drain most of the fat but leave about a tablespoon in the pan. Sprinkle the Costco seasoning directly onto the meat and stir it into the fat for a full 60 seconds over medium heat before adding the water called for on the packet. You'll smell the difference immediately — the spices will bloom and deepen. Then add the water and simmer as usual. Same packet, dramatically better result.",
+          "instructions": "Drain beef leaving 1 tbsp fat. Sprinkle seasoning on meat, stir 60 seconds over medium heat. Then add water and simmer normally.",
+          "why": "Spice packets are designed to dissolve in water, but water extracts only water-soluble flavors. Fat extracts fat-soluble flavors. Blooming the seasoning in rendered beef fat unlocks cumin's earthiness, chili powder's warmth, and garlic's pungency in ways that water simply cannot.",
+          "ingredients": [],
+          "extra_ingredients": []
+        },
+        {
+          "type": "acid",
+          "title": "Sunday's Pickled Red Onions",
+          "description": "The pickled red onions from Sunday are still perfect in the fridge — the single best taco topping that exists.",
+          "instruction": "Pull the jar of quick-pickled red onions from Sunday out of the fridge. Pile a forkful on each taco. If Sunday's batch is gone (unlikely — you made extra), slice half a red onion paper-thin, cover with apple cider vinegar, a pinch of sugar, and let sit 15 minutes while the beef cooks. Pink, crunchy, tangy — Elsie will pick them off and eat them straight. That's fine.",
+          "instructions": "Use Sunday's leftover pickled onions. If gone: thin-slice 1/2 red onion, cover with ACV + pinch of sugar, 15 min.",
+          "why": "Pickled onions on tacos are non-negotiable in professional kitchens. The acid cuts the seasoned beef's richness, the crunch adds texture against soft tortillas, and the pink color makes the taco look like it belongs on a food blog instead of a Tuesday.",
+          "ingredients": [],
+          "extra_ingredients": []
+        },
+        {
+          "type": "preparation",
+          "title": "Char the Tortillas Properly",
+          "description": "A properly charred tortilla is the difference between a taco and a sad wrap — 20 seconds per side in a screaming hot dry skillet.",
+          "instruction": "Heat a dry skillet or comal over high heat until it's truly hot — flick water at it, and it should evaporate instantly. Lay each tortilla flat for 20 seconds until you see dark char spots, then flip for another 15 seconds. Stack them in a clean kitchen towel to stay warm and pliable. The char adds a smoky, slightly bitter note that makes the tortilla taste like bread instead of packaging material.",
+          "instructions": "Screaming hot dry skillet. Each tortilla 20 seconds per side until char spots appear. Stack in a towel.",
+          "why": "Raw or microwave-warmed tortillas are pliable but flavorless. Char creates Maillard compounds on the surface — the same browning chemistry that makes toast taste better than bread. Twenty seconds of attention per tortilla pays for itself in flavor.",
+          "ingredients": [],
+          "extra_ingredients": []
+        }
+      ],
+      "designers_note": "Thursday is a solo-dad night with a kid fresh from play rehearsal. These three upgrades require exactly zero extra ingredients (assuming Sunday's pickled onions survived), zero extra dishes, and maybe three minutes of extra effort. The seasoning bloom happens during cooking. The pickled onions are already made. The tortilla charring happens while Elsie washes her hands. This is the kind of elevation that makes you feel like a better cook without actually asking more of you."
+    },
+    {
+      "day": "Friday",
+      "name": "Mac & Cheese with Broccoli",
+      "base_description": "One-pot mac and cheese with cheddar and broccoli — the ultimate Friday comfort food for a tired dad and a tired kid",
+      "flavor_profile": "Creamy, sharp, cheesy, with the earthy sweetness of broccoli",
+      "elevations": [
+        {
+          "type": "sauce",
+          "title": "The Dijon Mustard Secret",
+          "description": "One teaspoon of Dijon mustard stirred into the cheese sauce — invisible to kids, transformative to flavor.",
+          "instruction": "When you're stirring the cheese into the pasta, add 1 teaspoon of Dijon mustard and stir until incorporated. You will not taste 'mustard.' You will taste sharper, more complex, more interesting cheese. Dijon contains vinegar and mustard seed compounds that enhance the perception of cheese flavor — it's the oldest mac and cheese trick in professional kitchens and Elsie will never know it's there.",
+          "instructions": "Stir 1 tsp Dijon mustard into the cheese sauce as you add the cheese. Stir until incorporated.",
+          "why": "Mustard's acetic acid and isothiocyanate compounds amplify the tongue's perception of umami and sharpness. In practice, this means your cheddar tastes like better, more expensive cheddar. The amount is small enough that it won't register as 'mustard' to a child's palate.",
+          "ingredients": ["Dijon mustard"],
+          "extra_ingredients": ["Dijon mustard"]
+        },
+        {
+          "type": "texture",
+          "title": "Buttered Panko Crunch Top",
+          "description": "Golden, butter-toasted panko breadcrumbs scattered on top of each bowl — the thing that separates restaurant mac from homemade mac.",
+          "instruction": "While the mac finishes, melt 1 tablespoon butter in a small skillet. Add 1/4 cup panko breadcrumbs and stir constantly over medium heat for 2 minutes until golden and fragrant. Scatter over each bowl of mac and cheese at the table. The crunch-to-creamy ratio is what makes restaurant mac and cheese better than homemade. This closes that gap in 2 minutes. Let Elsie scatter her own — she'll use too much, and that's correct.",
+          "instructions": "Melt 1 tbsp butter, add 1/4 cup panko, stir 2 min until golden. Scatter over each bowl.",
+          "why": "Palate fatigue is real: a uniformly creamy dish becomes boring by bite four. The panko crunch provides a textural reset every few bites, keeping the dish exciting from first scoop to last. The butter browns the panko and adds its own nutty richness.",
+          "ingredients": ["panko breadcrumbs", "butter"],
+          "extra_ingredients": ["panko breadcrumbs", "butter"]
+        },
+        {
+          "type": "preparation",
+          "title": "Broiler-Charred Broccoli",
+          "description": "Char the broccoli under the broiler instead of steaming it in the pot — nutty, sweet, slightly smoky instead of soggy and green.",
+          "instruction": "Toss broccoli florets with 1 teaspoon olive oil and a pinch of salt on a sheet pan. Broil on the top rack for 4-5 minutes, watching carefully, until the edges blacken and char. Add the charred broccoli on top of each bowl of mac — not stirred in, on top, so it stays crispy. Charred broccoli tastes like a completely different vegetable than steamed broccoli — nutty, sweet, and slightly smoky. Kids who hate steamed broccoli often love it charred.",
+          "instructions": "Toss broccoli with 1 tsp olive oil + pinch of salt on sheet pan. Broil 4-5 min until edges char. Place on top of bowls, not stirred in.",
+          "why": "The broiler creates temperatures above 500°F at the surface, triggering Maillard reactions and caramelization on the broccoli's edges. This converts the vegetable's natural sugars into complex, nutty-sweet flavor compounds. Keeping it on top preserves the crunch contrast.",
+          "ingredients": ["olive oil"],
+          "extra_ingredients": ["olive oil"]
+        }
+      ],
+      "designers_note": "Friday night after a long solo-dad week. Elsie's been at rehearsal every day and Dan's been holding it down. These three upgrades honor the comfort-food intent of the dish while sneaking in professional technique. The Dijon is invisible. The panko takes 2 minutes. The charred broccoli might convert a broccoli skeptic — it's genuinely different from the steamed version. Total extra effort: 6 minutes. Total impact: the difference between eating to refuel and eating to enjoy."
+    },
+    {
+      "day": "Saturday",
+      "name": "Pizza after Elsie's YAT Play",
+      "base_description": "Ordered pizza after Elsie's theater performance — a celebration meal where the experience matters more than the food",
+      "flavor_profile": "Familiar, comforting, celebratory",
+      "elevations": [
+        {
+          "type": "sauce",
+          "title": "DIY Dipping Sauce Station",
+          "description": "Three ramekins of dipping sauces turn ordered pizza from delivery food into an event — and let Elsie feel like she's at a restaurant.",
+          "instruction": "Set out three small bowls: (1) Ranch dressing (from the fridge, done). (2) Garlic butter — melt 2 tablespoons butter, stir in 1/4 teaspoon garlic powder and a pinch of Italian seasoning. (3) Hot honey — warm 2 tablespoons honey with a pinch of red pepper flakes for 30 seconds in the microwave. Three sauces, five minutes total, and suddenly everyone is talking about which one they like best instead of just eating.",
+          "instructions": "Three ramekins: ranch (from fridge), garlic butter (2 tbsp butter + garlic powder + Italian seasoning), hot honey (2 tbsp honey + pinch red pepper flakes, microwaved 30 sec).",
+          "why": "Dipping transforms passive eating into active choosing. Each sauce offers a different flavor profile — cool and herby, warm and savory, sweet and spicy. Kids love options, and the conversation about sauce preferences is more engaging than the pizza itself.",
+          "ingredients": ["ranch dressing", "garlic powder", "Italian seasoning", "honey", "red pepper flakes"],
+          "extra_ingredients": ["ranch dressing", "garlic powder", "Italian seasoning", "honey", "red pepper flakes"]
+        },
+        {
+          "type": "temperature",
+          "title": "Cold Parm Salad on the Side",
+          "description": "A simple cold salad next to hot pizza — a restaurant move that takes 3 minutes and makes both taste better.",
+          "instruction": "Toss a few handfuls of mixed greens with 1 tablespoon olive oil, the juice of half a lemon, and a pinch of salt. Shave Parmigiano-Reggiano over the top with a vegetable peeler. Serve cold alongside the hot pizza. The crisp, cold, acidic salad resets your palate between slices — it's why Italian restaurants always serve insalata alongside pizza. This takes 3 minutes and uses ingredients you already have.",
+          "instructions": "Toss greens with 1 tbsp olive oil, juice of 1/2 lemon, pinch of salt. Shave Parmesan on top. Serve cold next to hot pizza.",
+          "why": "Temperature contrast between cold salad and hot pizza creates palate interest. The lemon and Parmigiano provide acid and umami that complement the pizza's richness without competing. This is the simplest version of the Italian restaurant experience.",
+          "ingredients": ["mixed salad greens", "lemon", "Parmigiano-Reggiano", "olive oil"],
+          "extra_ingredients": ["mixed salad greens", "lemon", "Parmigiano-Reggiano", "olive oil"]
+        },
+        {
+          "type": "preparation",
+          "title": "The Celebration Table",
+          "description": "Set the table like it matters — because after a week of play rehearsal and solo parenting, it does.",
+          "instruction": "Use real plates (not paper), cloth napkins if you have them, and light a candle. Put sparkling water in wine glasses for everyone — Elsie too. Print or write a small 'playbill' card at her place setting that says 'Starring: Elsie' with tonight's menu. The food is delivery pizza. The experience is a celebration. After a week of 4-7 PM rehearsals and dad holding down the fort, this moment should feel earned and intentional.",
+          "instructions": "Real plates, cloth napkins, candle. Sparkling water in wine glasses. Handwritten 'playbill' card at Elsie's place: 'Starring: Elsie.'",
+          "why": "The plate tells a story — and tonight the story isn't about the food, it's about the performer. Ritual and presentation transform delivery pizza into a post-show celebration dinner. The 'playbill' card costs nothing but communicates everything.",
+          "ingredients": ["sparkling water"],
+          "extra_ingredients": ["sparkling water"]
+        }
+      ],
+      "designers_note": "Saturday night is not about the pizza. It's about Elsie coming off stage and walking into a home that says 'we saw you, and we're proud.' The dipping sauces give her choices (agency after a week of following a director's instructions). The salad makes it feel like a real dinner. The table setting makes it feel like an occasion. Dan's been solo parenting all week — this is the victory lap, and it should feel like one."
+    }
+  ],
+  "pantry_checklist": [
+    {"item": "Apple cider vinegar", "used_in": ["Sunday", "Thursday"], "notes": "Backbone of the pickled onions and finishing sauce. A bottle lasts months."},
+    {"item": "Red onion (2)", "used_in": ["Sunday", "Thursday"], "notes": "One for Sunday's pickled onions (make extra), backup for Thursday if needed."},
+    {"item": "Smoked paprika", "used_in": ["Sunday"], "notes": "For the finishing sauce and butter-toasted shells. Standard spice aisle."},
+    {"item": "Cayenne pepper", "used_in": ["Sunday"], "notes": "Just a pinch for the finishing sauce. Skip if Elsie is heat-sensitive."},
+    {"item": "Buttermilk (small carton)", "used_in": ["Sunday"], "notes": "For the tangy slaw dressing. Use the rest in pancakes over the weekend."},
+    {"item": "Dijon mustard", "used_in": ["Sunday", "Friday"], "notes": "In the slaw dressing and the mac & cheese. A jar lasts forever."},
+    {"item": "Honey", "used_in": ["Sunday", "Saturday"], "notes": "Slaw dressing and hot honey dipping sauce. You probably already have this."},
+    {"item": "Brown sugar", "used_in": ["Sunday"], "notes": "For the Carolina finishing sauce. A tablespoon is all you need."},
+    {"item": "Coconut oil", "used_in": ["Monday"], "notes": "For blooming the spices. Regular cooking oil works in a pinch, but coconut oil ties the flavor to the coconut milk."},
+    {"item": "Cumin seeds", "used_in": ["Monday"], "notes": "Whole seeds, not ground. They pop and sizzle in hot oil — different flavor than ground cumin."},
+    {"item": "Sour cream or plain yogurt", "used_in": ["Monday"], "notes": "For the lime crema. Either works. Greek yogurt is tangier."},
+    {"item": "Limes (3)", "used_in": ["Monday"], "notes": "Two halves for the curry and crema. One extra for garnish or emergencies."},
+    {"item": "Unsweetened coconut flakes", "used_in": ["Monday"], "notes": "Not sweetened, not shredded — flakes toast better. Baking aisle."},
+    {"item": "Fresh cilantro (1 bunch)", "used_in": ["Monday"], "notes": "Torn over the curry. Store stems-down in a jar of water in the fridge."},
+    {"item": "Lemons (3)", "used_in": ["Tuesday", "Wednesday", "Saturday"], "notes": "Zest for the alfredo, squeeze for the couscous, juice for the salad. Three covers the week."},
+    {"item": "Whole nutmeg", "used_in": ["Tuesday"], "notes": "Fresh-grated is incomparably better than pre-ground. One nut lasts years."},
+    {"item": "Panko breadcrumbs", "used_in": ["Tuesday", "Friday"], "notes": "For the garlic panko crown and the mac & cheese crunch top. One box covers both."},
+    {"item": "Garlic powder", "used_in": ["Saturday"], "notes": "For the garlic butter dipping sauce. You probably have this."},
+    {"item": "Italian seasoning", "used_in": ["Saturday"], "notes": "For the garlic butter dipping sauce. Standard spice aisle."},
+    {"item": "Red pepper flakes", "used_in": ["Saturday"], "notes": "For the hot honey. Just a pinch — the honey tames the heat."},
+    {"item": "Mixed salad greens", "used_in": ["Saturday"], "notes": "For the cold Parm salad alongside pizza. A small bag or clamshell."},
+    {"item": "Parmigiano-Reggiano (small wedge)", "used_in": ["Saturday"], "notes": "Shaved with a vegetable peeler over the salad. The real thing matters here."},
+    {"item": "Sparkling water", "used_in": ["Saturday"], "notes": "For the celebration glasses. One bottle is enough."},
+    {"item": "Ranch dressing", "used_in": ["Saturday"], "notes": "For the dipping sauce station. From the fridge — no prep needed."}
+  ]
+}
