@@ -1,0 +1,146 @@
+{
+  "parenting_data": {
+    "week_range": "March 8 – March 14, 2026",
+    "weekly_theme": {
+      "title": "Every Star Has a Stage Crew",
+      "description": "This week, everyone in the family is stepping into an unfamiliar role. Elsie is performing under the lights, Dan is running the household solo, and Laura is trusting her team from Portland. Just like in theater, every role matters — the star on stage, the director backstage, the producer who believes from far away. Look for moments to notice the invisible work that makes things run, and remind Elsie (and yourself) that courage isn't just about the spotlight. It's about showing up, every day, even when nobody's watching."
+    },
+    "dinner_questions": [
+      {
+        "day": "Sunday",
+        "dinner": "Pulled Pork Picnic with Cole Slaw on Taco Shells",
+        "question": "This pulled pork has been cooking low and slow all day, just quietly getting ready. What's something YOU've been working on slowly that you're almost ready to show people?",
+        "category": "reflection",
+        "why": "Connects the slow-cooking metaphor to Elsie's own preparation for Saturday's performance. Lets her name what she's been building toward, which strengthens her sense of competence and anticipation. At 8, kids are learning to recognize their own growth — this question holds up a mirror.",
+        "follow_up": "What part of getting ready feels exciting, and what part feels a little scary?"
+      },
+      {
+        "day": "Monday",
+        "dinner": "Chickpea & Broccoli Curry over Rice",
+        "question": "Tech week started today! What's one thing your director or a crew member did that most people in the audience will never know about?",
+        "category": "values",
+        "why": "Draws attention to behind-the-scenes contributions — the stagehands, the costume helper, the kid who moves the props. This builds gratitude and connects directly to the weekly story about the school janitor. At 8, kids are developing moral reasoning about fairness and recognition; noticing invisible labor is a powerful lesson.",
+        "follow_up": "Do you think it's harder to be the person on stage or the person nobody sees? Why?"
+      },
+      {
+        "day": "Tuesday",
+        "dinner": "Babo Pasta",
+        "question": "This is our last dinner all three of us before Mom flies to Portland. If you could give Mom one thing to carry in her suitcase that would remind her of us — not clothes, something more like a feeling or a memory — what would you pack for her?",
+        "category": "family_connection",
+        "why": "Tuesday is the emotional pivot of the week — the last full-family dinner before Laura leaves. This question lets Elsie process the upcoming separation through imagination rather than anxiety. Naming a feeling or memory she'd 'pack' builds emotional vocabulary and gives the family a sweet shared moment before the shift.",
+        "follow_up": "What do you think Mom will miss most about being home this week?"
+      },
+      {
+        "day": "Wednesday",
+        "dinner": "One-Pan Chicken Broccoli Couscous",
+        "question": "It's just you and me tonight, roommate. If we weren't parent and kid — if we were just two people sharing this apartment for the week — what three house rules would you want us to have?",
+        "category": "imagination",
+        "why": "The first solo-Dad dinner needs to feel special, not sad. This question reframes the dynamic playfully — 'roommates' gives Elsie a sense of partnership and autonomy rather than absence. Eight-year-olds are building their sense of fairness and self-governance; letting her set 'rules' gives her agency during a week when things feel different.",
+        "follow_up": "Okay, I get three rules too. Want to hear mine, or should we negotiate?"
+      },
+      {
+        "day": "Thursday",
+        "dinner": "American Tacos",
+        "question": "In your play, you get to become someone else on stage. If you could step into the life of anyone you actually know — a friend, a teacher, someone at YAT — for just one day, who would you pick and what do you think you'd learn?",
+        "category": "imagination",
+        "why": "Perspective-taking is a critical skill at age 8, when empathy is developing rapidly but still needs scaffolding. Connecting it to her theatrical experience makes it concrete — she already knows what it feels like to 'be' someone else. This question extends that skill into real life.",
+        "follow_up": "Do you think that person would want to be you for a day? What would surprise them?"
+      },
+      {
+        "day": "Friday",
+        "dinner": "Mac & Cheese with Broccoli",
+        "question": "You picked tonight's dinner — chef's choice, mac and cheese. If you were in charge of planning our whole weekend, not just dinner but everything from wake-up to bedtime, what would the Dan-and-Elsie Saturday look like before the big show?",
+        "category": "family_connection",
+        "why": "This is the last quiet evening before the performance. Letting Elsie plan Saturday morning gives her ownership and control during a week that's felt big and fast. It also opens a natural door to talk about pre-show feelings without asking directly. Eight-year-olds thrive when they feel trusted to lead.",
+        "follow_up": "Is there anything you want to make sure happens before you go on stage? Like a good-luck ritual?"
+      },
+      {
+        "day": "Saturday",
+        "dinner": "Pizza after the play",
+        "question": "You just performed! Forget whether it went 'well' or 'badly' — tell me about one single moment on stage tonight. What were you feeling right then, in your body and in your head?",
+        "category": "reflection",
+        "why": "After a performance, kids (and adults) tend to evaluate: was I good? This question sidesteps judgment and asks Elsie to notice her own experience. It builds emotional granularity — the ability to name specific feelings beyond 'good' or 'nervous.' Savoring a moment of courage, even a scary one, teaches her that bravery is something she can feel in her body.",
+        "follow_up": "Was there a moment where you looked out at the audience? What did that feel like?"
+      }
+    ],
+    "nudges": [
+      {
+        "title": "The Pep-Talk Jar",
+        "context": "Elsie has tech rehearsals every evening this week, building toward Saturday's performance. The nerves will build alongside the excitement.",
+        "suggestion": "Starting Sunday night, grab a mason jar (or a bowl, a shoe — anything with an opening) and write one short note of encouragement each evening. Just a sentence or two on a scrap of paper: 'I watched you practice your lines in the mirror and I thought — she's got this.' Dan writes his in person. Laura texts or voice-memos hers from Portland and Dan transcribes them. On Saturday morning, before the show, Elsie opens them all at once.",
+        "how_to": [
+          "Find a jar or container Sunday evening and label it 'Open Saturday Morning'",
+          "Each night after Elsie goes to bed, write a short, specific note about something you noticed that day — not generic praise, but something real you saw",
+          "Text Laura each evening to send her contribution — she writes from Portland, you fold it in",
+          "Saturday morning, let Elsie open them all at breakfast. Don't rush it. Let her read each one."
+        ],
+        "why": "Physical artifacts of love are powerful for 8-year-olds — they can hold them, reread them, carry them. This also keeps Laura present in the buildup even while she's away.",
+        "timing": "Sunday through Saturday morning"
+      },
+      {
+        "title": "The Wednesday Night Reset",
+        "context": "Wednesday is the first evening without Laura, and Elsie will come home from a 3-hour rehearsal tired and possibly emotional. The temptation will be to fill the gap with chatter or distraction.",
+        "suggestion": "After you pick Elsie up from rehearsal, don't ask questions in the car. Put on her favorite music and let her decompress. When you get home, do something intentionally low-key together before dinner: sit on the porch in the warm spring air (it'll be 66°F), make hot chocolate, or lie on the floor and listen to one song with your eyes closed. Five minutes of shared stillness says 'this is okay, we've got this' louder than any pep talk.",
+        "how_to": [
+          "Have her favorite playlist queued up in the car before pickup",
+          "When she gets in, just say 'Hey, kid' — no questions about rehearsal yet",
+          "At home, offer one simple choice: 'Porch, hot chocolate, or floor music?' — let her pick",
+          "Set a mental timer for 5 minutes of no agenda. If she talks, listen. If she doesn't, that's fine too."
+        ],
+        "why": "Transitions are hard for 8-year-olds, especially emotional ones. The first night without Mom needs to feel calm, not compensated for. Silence and proximity are underrated parenting tools.",
+        "timing": "Wednesday evening after rehearsal"
+      },
+      {
+        "title": "The Post-Show Download",
+        "context": "Saturday night, after the performance, Dan and Laura will both be buzzing with pride. The instinct will be to shower Elsie with praise and analysis. Resist it — at least for the first few minutes.",
+        "suggestion": "After the show, give Elsie a huge hug. Then, instead of 'You were amazing!' (which evaluates), try: 'I'm so glad I got to watch you do that. What do you want to tell me?' Let her lead. She might want to talk about the one line she almost forgot, or the funny thing that happened backstage, or she might just want pizza. Her experience of the performance matters more than your review of it.",
+        "how_to": [
+          "Agree with Laura beforehand: first response is a hug and 'What do you want to tell me?'",
+          "Let Elsie steer the conversation at the pizza celebration — if she wants to replay every moment, great. If she wants to talk about something else entirely, follow her lead",
+          "Later that night, at bedtime, try: 'What's something about tonight you want to remember when you're older?'"
+        ],
+        "why": "When we lead with evaluation ('You were great!'), kids learn to perform for approval. When we lead with curiosity ('What was that like for you?'), they learn to trust their own experience. This builds intrinsic motivation — she did it for herself, not for applause.",
+        "timing": "Saturday evening after the performance"
+      }
+    ],
+    "recommendation": {
+      "type": "book",
+      "title": "Stage Fright on a Summer Night",
+      "author": "Mary Pope Osborne",
+      "why": "In this Magic Tree House adventure (#25), Jack and Annie travel back to Elizabethan London and end up performing on stage at the Globe Theatre — terrified, unprepared, and thrilling. It's a quick chapter-book read (perfect for bedtime this week) that normalizes stage fright, celebrates improvisation, and shows that the best performances come from heart, not perfection. Elsie will see herself in Annie's mix of fear and determination.",
+      "connection": "Directly mirrors Elsie's week — tech rehearsals, mounting nerves, and the thrill of stepping on stage. Reading it Monday-Wednesday gives her a fictional companion going through the same journey. Plus, it's genuinely fun, which matters when the week is already intense.",
+      "description": "A Magic Tree House chapter book where Jack and Annie end up performing at Shakespeare's Globe Theatre — the perfect companion for a girl with her own opening night approaching.",
+      "link": ""
+    },
+    "parent_reflection": {
+      "title": "The Director's Chair",
+      "content": "This week, you're not just Dad — you're the chauffeur, the lunch-packer, the audience of one at the dinner table, and the calm backstage presence Elsie needs before Saturday's curtain call. That's a lot of roles for one person. Here's the thing, though: you don't have to perform any of them perfectly. What Elsie will remember about this week isn't whether the couscous was slightly overcooked on Wednesday or whether you forgot to sign something for school. She'll remember that you were there — at every rehearsal pickup, at every dinner, in every quiet moment between the chaos.\n\nSolo parenting can feel lonely, especially at 8 PM when the house is quiet and there's no other adult to debrief with. Give yourself permission to feel that. Text Laura. Call a friend. Or just sit with the stillness and recognize that you're doing something deeply meaningful: showing your daughter that when Mom travels, the family doesn't just survive — it hums along with warmth and intention. She's watching how you handle this week, and what she sees will quietly shape how she imagines partnership, resilience, and love for the rest of her life.\n\nAnd Saturday, when she steps on that stage and the lights come up — look at her face. Really look. That's the face of a girl who knows, bone-deep, that she is loved. You helped build that. Not just this week, but every week that came before it."
+    },
+    "solo_parenting_tips": [
+      {
+        "tip": "Stage backpacks and lunch bags by the front door the night before — mornings will be tighter without a second pair of hands",
+        "context": "Solo mornings with school drop-off are the most logistically stressful part. The quiche-for-lunch strategy is already brilliant — just portion it into containers each evening so morning is grab-and-go. Lay out Elsie's clothes too if she'll let you."
+      },
+      {
+        "tip": "Schedule a FaceTime with Laura at the same time every evening — make it a ritual, not a reminder",
+        "context": "Predictable connection with the traveling parent reduces anxiety for both Elsie and Laura. Right before bed works well — it bookends the day and becomes something to look forward to rather than a source of 'I miss Mom' sadness. Let Elsie show Laura something from rehearsal each night."
+      },
+      {
+        "tip": "Lower your standards for household order — this is a presence week, not a productivity week",
+        "context": "Paper plates are fine. The laundry can wait until Sunday. Your energy is a finite resource this week, and every ounce spent scrubbing a countertop is an ounce not spent sitting on the porch with your daughter. Give yourself permission to let the house look like two people actually live in it."
+      },
+      {
+        "tip": "Build in 10 minutes of decompression after every rehearsal pickup — no questions in the car",
+        "context": "Elsie will be simultaneously amped up and exhausted after 3-hour rehearsals. The car ride home is not the time for 'How was it?' Put on music, let her zone out, and wait for her to talk first. If she doesn't talk, that's data too — she's processing. The dinner table question will catch what matters."
+      },
+      {
+        "tip": "Have a 'Dad's Choice' backup meal in your back pocket for any night the plan feels like too much",
+        "context": "If Thursday's tacos feel overwhelming after a long solo day, scrambled eggs and toast is a perfectly valid dinner. The meal matters far less than the conversation at the table. Nobody ever looked back on their childhood and thought 'I wish Dad had made more elaborate dinners.' They remember the talking."
+      },
+      {
+        "tip": "Take one photo each day to send Laura — not posed, just a real moment",
+        "context": "A candid shot of Elsie reading her lines at the kitchen table, or laughing at something silly, or asleep on the couch after rehearsal. These photos keep Laura connected to the texture of the week and give Dan a reason to pause and notice the small beautiful moments instead of just powering through logistics."
+      }
+    ]
+  }
+}

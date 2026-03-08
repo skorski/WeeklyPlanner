@@ -1,0 +1,347 @@
+{
+  "family": {
+    "members": [
+      {"name": "Dan", "age_range": "Adult man", "activity_level": "Active", "calorie_target": "2,400-2,800 kcal", "focus_nutrients": ["protein", "potassium", "magnesium"]},
+      {"name": "Laura", "age_range": "Adult woman", "activity_level": "Active", "calorie_target": "2,000-2,200 kcal", "focus_nutrients": ["iron", "calcium", "folate", "fiber"], "notes": "Traveling Wed-Sat; dinners unknown those days"},
+      {"name": "Elsie", "age_range": "School-age girl (8)", "activity_level": "Active (play rehearsals 4-7 PM daily)", "calorie_target": "1,600-2,000 kcal", "focus_nutrients": ["calcium", "vitamin D", "iron", "fiber"]}
+    ]
+  },
+  "dinners": [
+    {
+      "day": "Sunday", "name": "Pulled Pork Picnic with Cole Slaw on Taco Shells",
+      "calories_per_serving": "~500 kcal", "protein_source": "Pork shoulder", "protein_level": "high",
+      "vegetable_content": "moderate", "whole_grains": false,
+      "key_nutrients": ["protein", "iron", "zinc", "B12", "vitamin C (slaw)", "vitamin K (cabbage)"],
+      "concerns": ["High sodium from seasoning rub", "Refined carbs from taco shells", "Moderate saturated fat"],
+      "overall_rating": "good"
+    },
+    {
+      "day": "Monday", "name": "Chickpea & Broccoli Curry over Rice",
+      "calories_per_serving": "~450 kcal", "protein_source": "Chickpeas", "protein_level": "moderate",
+      "vegetable_content": "abundant", "whole_grains": false,
+      "key_nutrients": ["fiber", "folate", "iron (plant)", "vitamin C", "vitamin K", "manganese", "potassium", "vitamin A"],
+      "concerns": ["Coconut milk adds saturated fat", "White rice is refined; consider brown rice"],
+      "overall_rating": "excellent"
+    },
+    {
+      "day": "Tuesday", "name": "Babo Pasta with Alfredo Sauce",
+      "calories_per_serving": "~650 kcal", "protein_source": "Eggs, cream, parmesan", "protein_level": "moderate",
+      "vegetable_content": "minimal", "whole_grains": false,
+      "key_nutrients": ["iron (spinach pasta)", "folate (spinach)", "calcium (parmesan/cream)", "B12 (eggs)", "vitamin A"],
+      "concerns": ["High saturated fat (butter, cream, cheese)", "Low vegetable content", "High calorie density", "Refined carbs"],
+      "overall_rating": "moderate"
+    },
+    {
+      "day": "Wednesday", "name": "One-Pan Chicken Broccoli Couscous",
+      "calories_per_serving": "~450 kcal", "protein_source": "Chicken thighs", "protein_level": "high",
+      "vegetable_content": "abundant", "whole_grains": false,
+      "key_nutrients": ["protein", "vitamin C", "vitamin K", "B6", "niacin", "selenium", "phosphorus"],
+      "concerns": ["Couscous is refined semolina; consider whole wheat couscous"],
+      "overall_rating": "excellent"
+    },
+    {
+      "day": "Thursday", "name": "American Tacos with Costco Taco Seasoning",
+      "calories_per_serving": "~500 kcal", "protein_source": "Ground beef", "protein_level": "high",
+      "vegetable_content": "moderate", "whole_grains": false,
+      "key_nutrients": ["protein", "iron (heme)", "zinc", "B12", "vitamin C (tomato/lettuce)", "calcium (cheese/sour cream)"],
+      "concerns": ["High sodium from seasoning packet", "Saturated fat from ground beef and cheese", "Refined taco shells"],
+      "overall_rating": "good"
+    },
+    {
+      "day": "Friday", "name": "Mac & Cheese with Broccoli",
+      "calories_per_serving": "~550 kcal", "protein_source": "Cheddar cheese", "protein_level": "moderate",
+      "vegetable_content": "moderate", "whole_grains": false,
+      "key_nutrients": ["calcium", "vitamin C (broccoli)", "vitamin K", "phosphorus", "B12", "protein"],
+      "concerns": ["High saturated fat (cheese, butter)", "High sodium", "Refined pasta"],
+      "overall_rating": "moderate"
+    },
+    {
+      "day": "Saturday", "name": "Pizza (ordered) after Elsie's Play",
+      "calories_per_serving": "~600 kcal", "protein_source": "Mozzarella, possibly meat toppings", "protein_level": "moderate",
+      "vegetable_content": "minimal", "whole_grains": false,
+      "key_nutrients": ["calcium (mozzarella)", "protein", "lycopene (tomato sauce)", "B12"],
+      "concerns": ["High sodium", "High saturated fat", "Refined crust", "Low vegetable content"],
+      "overall_rating": "moderate"
+    }
+  ],
+  "weekly_assessment": {
+    "protein_diversity": {
+      "sources_found": ["pork", "chickpeas", "eggs/dairy", "chicken", "ground beef", "cheese"],
+      "rating": "good",
+      "notes": "6 distinct protein sources including plant-based (chickpeas). Good variety of animal and plant proteins. Missing fish/seafood this week."
+    },
+    "vegetable_coverage": {
+      "servings_per_dinner_avg": 1.4,
+      "color_diversity": ["dark greens (broccoli, spinach)", "purple/white (cabbage)", "red (tomato)"],
+      "rating": "moderate",
+      "notes": "Broccoli is the vegetable hero this week (3 dinners). Good cruciferous coverage but limited variety beyond broccoli. Tuesday, Saturday, and Friday lean light on veggies. Lunches and snacks need to add orange/yellow vegetables and fruits."
+    },
+    "nutrient_gaps": [
+      {"nutrient": "Omega-3 fatty acids", "severity": "high", "detail": "No fish or seafood this week. Zero omega-3 from dinner sources. Must supplement through snacks or supplements."},
+      {"nutrient": "Vitamin D", "severity": "high", "detail": "No fatty fish, minimal egg yolks (only in pasta). Very difficult to get adequate vitamin D from food alone without fish."},
+      {"nutrient": "Fiber", "severity": "moderate", "detail": "Only Monday (chickpeas) provides substantial fiber at dinner. Zero whole grains all week. Daily quiche lunch adds minimal fiber. Target 25-35g/day."},
+      {"nutrient": "Fruit", "severity": "high", "detail": "Zero fruit in any dinner or the quiche lunch. Must come entirely from snacks."},
+      {"nutrient": "Potassium", "severity": "moderate", "detail": "No potatoes, bananas, or beans (except Monday chickpeas). Broccoli provides some but not enough."},
+      {"nutrient": "Magnesium", "severity": "moderate", "detail": "Limited sources this week. Chickpeas on Monday help but insufficient for the week."},
+      {"nutrient": "Vitamin E", "severity": "mild", "detail": "No nuts, seeds, or avocado featured prominently in dinners."}
+    ],
+    "excesses": [
+      {"item": "Saturated fat", "severity": "moderate", "detail": "Alfredo sauce (Tue), mac & cheese (Fri), pizza (Sat), plus daily quiche with cheese. 4 of 7 dinners + lunch are cheese/cream heavy."},
+      {"item": "Sodium", "severity": "moderate", "detail": "Taco seasoning (Thu), pizza (Sat), pulled pork rub (Sun), mac & cheese (Fri). Multiple processed-seasoning dinners plus daily quiche with ham/sausage."},
+      {"item": "Refined carbohydrates", "severity": "moderate", "detail": "Zero whole grains all week. Every starch is refined: taco shells, white rice, regular pasta, couscous, pizza crust, elbow macaroni."}
+    ],
+    "fiber_assessment": {"rating": "low", "notes": "Only chickpea curry (Mon) and broccoli sides provide meaningful fiber. Zero whole grains. Daily quiche adds almost no fiber. Family needs 25-35g/day; dinners alone provide ~8-12g on average."},
+    "omega3_assessment": {"rating": "poor", "notes": "No fish this week. Must supplement with walnuts, flaxseed, or chia in snacks."},
+    "overall_dinner_grade": "B-",
+    "overall_summary": "This week's dinners deliver solid protein variety and good broccoli coverage, but lean heavily on cheese, cream, and refined carbs. The daily quiche lunch compounds the saturated fat and sodium picture. The biggest gaps are omega-3s (no fish), fiber (no whole grains), fruit (zero), and vitamin D. The good news: these are all easy to fix with strategic snacks and a few simple swaps."
+  },
+  "recommended_lunches": [
+    {
+      "name": "Breakfast Quiche (already planned)",
+      "description": "Sausage, spinach, ham, cheese, eggs in pie crust. Already decided for all lunches this week.",
+      "prep_time": "Pre-made Sunday",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["protein"],
+      "key_nutrients": ["protein", "B12", "iron", "calcium", "vitamin A"],
+      "kid_notes": "Already a family favorite. Add a side of fruit and raw veggies to round it out."
+    },
+    {
+      "name": "Quiche Lunch Booster: Fruit Cup + Carrot Sticks",
+      "description": "Pair the daily quiche with a cup of mixed berries (strawberries, blueberries, raspberries) and carrot sticks with hummus. This combo fills the fruit and fiber gaps the quiche doesn't cover.",
+      "prep_time": "5 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["fruit", "fiber", "vitamin C", "vitamin A", "potassium"],
+      "key_nutrients": ["vitamin C", "fiber", "vitamin A", "potassium", "antioxidants"],
+      "kid_notes": "Pack berries in a separate container so they don't get soggy. Elsie can dip carrots in hummus."
+    },
+    {
+      "name": "Quiche Lunch Booster: Whole Grain Crackers + Trail Mix",
+      "description": "Add whole grain crackers (Triscuits, whole wheat Ritz) and a small bag of trail mix (walnuts, almonds, dried cranberries, dark chocolate chips) alongside the quiche.",
+      "prep_time": "3 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["fiber", "whole grains", "omega-3", "magnesium", "vitamin E"],
+      "key_nutrients": ["fiber", "omega-3 (walnuts)", "magnesium", "vitamin E", "healthy fats"],
+      "kid_notes": "Make trail mix bags Sunday night for the whole week. Kids love the chocolate chip incentive."
+    }
+  ],
+  "recommended_snacks": [
+    {
+      "name": "Apple Slices with Almond Butter",
+      "description": "Sliced apple with 2 tbsp almond butter. The classic after-school snack that covers fruit, healthy fats, and fiber in one satisfying bite.",
+      "prep_time": "3 min",
+      "time_of_day": "After school (before rehearsal)",
+      "kid_friendly": true,
+      "gaps_addressed": ["fruit", "fiber", "healthy fats", "vitamin E", "magnesium"],
+      "key_nutrients": ["fiber", "vitamin C", "vitamin E", "magnesium", "healthy monounsaturated fats"]
+    },
+    {
+      "name": "Greek Yogurt Parfait with Granola & Berries",
+      "description": "Plain Greek yogurt layered with granola and mixed berries, drizzled with honey. Excellent calcium delivery and gut-friendly probiotics.",
+      "prep_time": "3 min",
+      "time_of_day": "Morning snack or dessert",
+      "kid_friendly": true,
+      "gaps_addressed": ["calcium", "probiotics", "fruit", "protein", "fiber"],
+      "key_nutrients": ["calcium", "protein", "probiotics", "vitamin C", "fiber"]
+    },
+    {
+      "name": "Banana + Handful of Walnuts",
+      "description": "A whole banana and 1/4 cup walnuts. Zero prep, maximum nutrient density. Banana is the potassium king, walnuts are the best plant omega-3 source.",
+      "prep_time": "0 min",
+      "time_of_day": "Anytime",
+      "kid_friendly": true,
+      "gaps_addressed": ["potassium", "omega-3", "magnesium", "fruit", "fiber"],
+      "key_nutrients": ["potassium", "omega-3 (ALA)", "magnesium", "vitamin B6", "fiber"]
+    },
+    {
+      "name": "Cheese String + Clementine",
+      "description": "A mozzarella cheese stick and a clementine orange. The ultimate no-prep, packable, kid-approved snack. Calcium + vitamin C in one grab.",
+      "prep_time": "0 min",
+      "time_of_day": "Lunchbox addition or after school",
+      "kid_friendly": true,
+      "gaps_addressed": ["calcium", "vitamin C", "fruit"],
+      "key_nutrients": ["calcium", "protein", "vitamin C"]
+    },
+    {
+      "name": "Edamame with Sea Salt",
+      "description": "Steamed frozen edamame pods with a light sprinkle of sea salt. Fun to pop out of shells. Great plant protein and iron source.",
+      "prep_time": "5 min (microwave)",
+      "time_of_day": "Afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": ["iron (plant)", "fiber", "folate", "magnesium", "protein"],
+      "key_nutrients": ["iron", "protein", "fiber", "folate", "magnesium", "vitamin K"]
+    },
+    {
+      "name": "Smoothie: Spinach, Banana, Berries, Flaxseed, Milk",
+      "description": "Blend 1 cup milk, handful spinach, 1 banana, 1/2 cup frozen berries, 1 tbsp ground flaxseed. The ultimate gap-filler in one glass: calcium, fruit, omega-3, fiber, iron, and vitamin D (if using fortified milk).",
+      "prep_time": "5 min",
+      "time_of_day": "Breakfast or afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": ["omega-3", "calcium", "vitamin D", "fruit", "iron", "fiber", "potassium"],
+      "key_nutrients": ["omega-3 (flaxseed)", "calcium", "vitamin D", "iron", "fiber", "potassium", "vitamin C", "folate"]
+    },
+    {
+      "name": "Sardines on Whole Wheat Crackers (Dan only)",
+      "description": "Canned sardines on Triscuits with a squeeze of lemon. Not for everyone, but the single best food for omega-3, vitamin D, calcium, and B12 all at once.",
+      "prep_time": "2 min",
+      "time_of_day": "Afternoon (Dan's solo snack)",
+      "kid_friendly": false,
+      "gaps_addressed": ["omega-3", "vitamin D", "calcium", "B12", "whole grains"],
+      "key_nutrients": ["omega-3 (DHA/EPA)", "vitamin D", "calcium (bones)", "B12", "selenium"]
+    }
+  ],
+  "recommended_supplements": [
+    {"name": "Vitamin D3", "why": "No fatty fish this week, limited sun exposure in early March. Very difficult to get 600 IU/day from food alone without fish or fortified foods.", "dose": "1000 IU/day for adults, 600 IU/day for Elsie"},
+    {"name": "Omega-3 Fish Oil (or algae oil)", "why": "No fish this week means zero DHA/EPA. Walnuts and flaxseed provide ALA but conversion to DHA is poor (5-10%). Consider supplementing this week.", "dose": "500-1000 mg combined EPA/DHA for adults, 250 mg for Elsie"}
+  ],
+  "weekly_nutrition_summary": "This week's dinners are hearty and satisfying -- exactly right for a busy tech-week schedule with solo parenting duties. The protein variety is solid (pork, chickpeas, chicken, beef, dairy), and broccoli makes three appearances which is genuinely excellent for vitamins C, K, and folate. The main gaps are omega-3s (no fish), fiber (no whole grains), and fruit (zero in dinners or lunch). The daily quiche lunch is protein-rich but compounds the saturated fat and sodium picture. The fix is straightforward: pair every quiche lunch with a fruit cup and raw veggies, add a daily smoothie or yogurt parfait for calcium and fruit, and keep walnuts and bananas on the counter for grab-and-go omega-3 and potassium. With these additions, the family hits adequate intake across all major nutrient categories.",
+  "special_notes": [
+    "Vitamin D supplement recommended for all family members in March -- sun angle in Northern Virginia is still too low for meaningful skin synthesis.",
+    "Elsie is in a growth period and extremely active with play rehearsals. Make sure she eats a substantial after-school snack before 4 PM rehearsal -- apple + almond butter or yogurt parfait are ideal.",
+    "Laura is traveling Wed-Sat and eating unknown dinners. She should focus on fish, salads, and fruit at restaurants to counterbalance the week's gaps.",
+    "The daily quiche is a smart meal-prep move but watch the sodium: ham + sausage + cheese in one dish adds up. Balance with low-sodium snacks.",
+    "Consider swapping white rice (Monday) for brown rice and regular pasta (Friday) for whole wheat -- easy fiber wins with zero extra effort."
+  ],
+  "nutrition_summary": {
+    "overview": "This week's menu earns a solid B-minus -- strong on protein variety and cruciferous vegetables (broccoli appears in three dinners), but heavy on cheese, cream, and refined carbs. The daily breakfast quiche for lunch adds good protein but doubles down on the saturated fat and sodium. The biggest nutritional gaps are omega-3 fatty acids (no fish all week), dietary fiber (zero whole grains), fruit (completely absent from meals), and vitamin D (no fatty fish or significant fortified foods). All of these gaps are easily correctable with strategic snacking: a daily fruit serving, walnuts for omega-3, yogurt for calcium, and a vitamin D supplement round out the picture nicely.",
+    "nutrient_importance_guide": [
+      {
+        "nutrient": "Protein",
+        "what_it_does": "Builds and repairs muscles, organs, skin, and blood. Makes enzymes and hormones. Essential for growth in children. Every cell in the body contains protein. For Elsie, adequate protein supports her rapid growth and the physical demands of play rehearsals.",
+        "deficiency_symptoms": "Muscle wasting, fatigue, slow wound healing, weakened immunity, hair loss, brittle nails.",
+        "daily_recommended": {"adult_male": "56g", "adult_female": "46g", "child_8yo": "19g"},
+        "best_food_sources": ["chicken", "beef", "fish", "eggs", "Greek yogurt", "lentils", "chickpeas"],
+        "status_this_week": "adequate",
+        "notes": "Excellent protein variety: pork, chickpeas, eggs/dairy, chicken, beef, and cheese across 7 dinners plus daily quiche."
+      },
+      {
+        "nutrient": "Calcium",
+        "what_it_does": "Builds and maintains strong bones and teeth. Essential for muscle contraction, nerve signaling, blood clotting, and heart rhythm. Critically important for Elsie at age 8 -- peak bone-building years. 90% of adult bone mass is established by age 18.",
+        "deficiency_symptoms": "Long-term: osteoporosis, fractures. Short-term: muscle cramps, numbness in fingers, abnormal heart rhythm. In children: stunted growth, weak bones.",
+        "daily_recommended": {"adult_male": "1000mg", "adult_female": "1000mg", "child_8yo": "1000mg"},
+        "best_food_sources": ["milk", "yogurt", "cheese", "fortified orange juice", "sardines", "broccoli", "kale"],
+        "status_this_week": "moderate",
+        "notes": "Cheese appears in alfredo (Tue), mac & cheese (Fri), pizza (Sat), tacos (Thu), and daily quiche. Adequate for adults but may fall short of 1000mg for Elsie without yogurt/milk snacks."
+      },
+      {
+        "nutrient": "Iron",
+        "what_it_does": "Carries oxygen in red blood cells to every tissue in the body. Essential for energy production, immune function, and cognitive development. Especially important for growing children and women of childbearing age. Heme iron (from meat) is absorbed 2-3x better than plant iron.",
+        "deficiency_symptoms": "Fatigue, weakness, pale skin, cold hands/feet, poor concentration, frequent infections. In children: developmental delays, behavioral issues.",
+        "daily_recommended": {"adult_male": "8mg", "adult_female": "18mg", "child_8yo": "10mg"},
+        "best_food_sources": ["red meat", "spinach", "lentils", "chickpeas", "fortified cereals", "dark chocolate"],
+        "status_this_week": "adequate",
+        "notes": "Good sources: beef (Thu), pork (Sun), chickpeas (Mon), spinach pasta (Tue), broccoli (Mon/Wed/Fri), plus quiche with sausage/ham/spinach daily."
+      },
+      {
+        "nutrient": "Vitamin D",
+        "what_it_does": "Helps the body absorb calcium for bone health. Supports immune function, mood regulation, and muscle function. Acts more like a hormone than a vitamin -- affects over 1000 genes. In March in Northern Virginia, sun angle is too low for meaningful skin synthesis.",
+        "deficiency_symptoms": "Bone pain, muscle weakness, fatigue, depression, frequent illness. In children: rickets (soft, weak bones), delayed growth.",
+        "daily_recommended": {"adult_male": "600 IU (15 mcg)", "adult_female": "600 IU (15 mcg)", "child_8yo": "600 IU (15 mcg)"},
+        "best_food_sources": ["fatty fish (salmon, sardines)", "fortified milk", "egg yolks", "fortified orange juice", "cod liver oil"],
+        "status_this_week": "deficient",
+        "notes": "No fatty fish this week. Egg yolks in pasta and quiche provide small amounts (~40 IU per yolk) but far short of 600 IU. Supplement recommended."
+      },
+      {
+        "nutrient": "Omega-3 Fatty Acids (DHA/EPA)",
+        "what_it_does": "Critical for brain development and function, heart health, and reducing inflammation. DHA makes up 40% of the fatty acids in the brain. Essential for Elsie's cognitive development, attention, and learning. Also supports eye health and mood regulation.",
+        "deficiency_symptoms": "Poor concentration, dry skin, mood swings, joint pain. In children: learning difficulties, behavioral issues, dry/rough skin.",
+        "daily_recommended": {"adult_male": "1.6g ALA or 250-500mg EPA/DHA", "adult_female": "1.1g ALA or 250-500mg EPA/DHA", "child_8yo": "0.9g ALA or 150-250mg EPA/DHA"},
+        "best_food_sources": ["salmon", "sardines", "mackerel", "walnuts", "flaxseed", "chia seeds", "algae oil"],
+        "status_this_week": "deficient",
+        "notes": "Zero fish this week = zero DHA/EPA from dinners. Walnuts and flaxseed in recommended snacks provide ALA (plant omega-3) but conversion to DHA is only 5-10%. Supplement recommended."
+      },
+      {
+        "nutrient": "Fiber",
+        "what_it_does": "Feeds beneficial gut bacteria, promotes regular digestion, helps control blood sugar, lowers cholesterol, and increases satiety. Two types: soluble (oats, beans) slows digestion; insoluble (whole grains, vegetables) adds bulk. Both are essential.",
+        "deficiency_symptoms": "Constipation, blood sugar spikes, increased hunger, higher cholesterol, poor gut health.",
+        "daily_recommended": {"adult_male": "38g", "adult_female": "25g", "child_8yo": "25g"},
+        "best_food_sources": ["beans/lentils", "whole grains", "broccoli", "berries", "avocado", "chia seeds", "oats"],
+        "status_this_week": "low",
+        "notes": "Zero whole grains in any dinner or lunch. Monday chickpeas (~12g fiber) is the only high-fiber dinner. Broccoli helps (~3g per serving) but total dinner fiber averages ~8-12g/day against 25-38g targets. Add fruits, nuts, and whole grain crackers."
+      },
+      {
+        "nutrient": "Vitamin C",
+        "what_it_does": "Powerful antioxidant that protects cells from damage. Essential for collagen production (skin, joints, wound healing), immune function, and iron absorption. Enhances the absorption of plant-based iron by 3-6x when eaten together.",
+        "deficiency_symptoms": "Weakened immunity, slow wound healing, dry/rough skin, easy bruising, fatigue, bleeding gums.",
+        "daily_recommended": {"adult_male": "90mg", "adult_female": "75mg", "child_8yo": "25mg"},
+        "best_food_sources": ["bell peppers", "citrus fruits", "strawberries", "broccoli", "kiwi", "tomatoes"],
+        "status_this_week": "adequate",
+        "notes": "Broccoli in 3 dinners provides ~80mg vitamin C per serving. Tomato in tacos and pizza adds more. Clementines and berries in snacks provide extra coverage."
+      },
+      {
+        "nutrient": "Vitamin K",
+        "what_it_does": "Essential for blood clotting and bone metabolism. Works with vitamin D and calcium to build strong bones. K1 (from plants) handles clotting; K2 (from fermented foods) directs calcium to bones.",
+        "deficiency_symptoms": "Easy bruising, excessive bleeding from cuts, weakened bones.",
+        "daily_recommended": {"adult_male": "120 mcg", "adult_female": "90 mcg", "child_8yo": "55 mcg"},
+        "best_food_sources": ["broccoli", "spinach", "kale", "Brussels sprouts", "green beans"],
+        "status_this_week": "adequate",
+        "notes": "Excellent coverage: broccoli (3 dinners, ~110 mcg per cup) and spinach in pasta (Tue) and daily quiche."
+      },
+      {
+        "nutrient": "Folate (Vitamin B9)",
+        "what_it_does": "Essential for DNA synthesis and cell division. Critical during rapid growth (childhood). Works with B12 to form red blood cells. Important for brain function and emotional health.",
+        "deficiency_symptoms": "Fatigue, irritability, mouth sores, poor growth in children, anemia.",
+        "daily_recommended": {"adult_male": "400 mcg DFE", "adult_female": "400 mcg DFE", "child_8yo": "200 mcg DFE"},
+        "best_food_sources": ["chickpeas", "spinach", "broccoli", "lentils", "asparagus", "fortified grains"],
+        "status_this_week": "adequate",
+        "notes": "Chickpeas (Mon), spinach in pasta (Tue) and quiche, broccoli (3 dinners) all contribute well."
+      },
+      {
+        "nutrient": "Potassium",
+        "what_it_does": "Regulates fluid balance, muscle contractions, and nerve signals. Counteracts sodium to help maintain healthy blood pressure. Especially important this week given elevated sodium from seasoning packets and cured meats.",
+        "deficiency_symptoms": "Muscle cramps, weakness, fatigue, irregular heartbeat, constipation.",
+        "daily_recommended": {"adult_male": "3400mg", "adult_female": "2600mg", "child_8yo": "2300mg"},
+        "best_food_sources": ["bananas", "potatoes", "sweet potatoes", "beans", "spinach", "avocado", "yogurt"],
+        "status_this_week": "low",
+        "notes": "No potatoes, limited bananas, only one legume dinner (Mon). Broccoli provides some (~460mg per cup) but insufficient. Bananas and yogurt in snacks help close the gap."
+      },
+      {
+        "nutrient": "Magnesium",
+        "what_it_does": "Involved in 300+ enzyme reactions including energy production, muscle/nerve function, blood sugar control, and sleep regulation. Helps activate vitamin D. Most Americans are mildly deficient.",
+        "deficiency_symptoms": "Muscle cramps, insomnia, anxiety, fatigue, headaches, irregular heartbeat.",
+        "daily_recommended": {"adult_male": "420mg", "adult_female": "320mg", "child_8yo": "130mg"},
+        "best_food_sources": ["dark chocolate", "almonds", "cashews", "spinach", "black beans", "avocado", "whole grains"],
+        "status_this_week": "low",
+        "notes": "No nuts, seeds, or whole grains in dinners. Chickpeas (Mon) and spinach (Tue/quiche) provide some. Almond butter snack and trail mix help close the gap."
+      },
+      {
+        "nutrient": "Zinc",
+        "what_it_does": "Supports immune function, wound healing, protein synthesis, and taste/smell sensation. Essential for growth and development in children.",
+        "deficiency_symptoms": "Weakened immunity, slow wound healing, loss of taste/smell, poor appetite, delayed growth in children.",
+        "daily_recommended": {"adult_male": "11mg", "adult_female": "8mg", "child_8yo": "5mg"},
+        "best_food_sources": ["beef", "pork", "chicken", "chickpeas", "cashews", "pumpkin seeds", "cheese"],
+        "status_this_week": "adequate",
+        "notes": "Beef (Thu), pork (Sun), chicken (Wed), chickpeas (Mon), and cheese throughout provide good zinc coverage."
+      },
+      {
+        "nutrient": "Vitamin B12",
+        "what_it_does": "Essential for nerve function, red blood cell formation, and DNA synthesis. Only found naturally in animal products. Works with folate to prevent anemia. Critical for energy and cognitive function.",
+        "deficiency_symptoms": "Fatigue, weakness, numbness/tingling, memory problems, mood changes, anemia.",
+        "daily_recommended": {"adult_male": "2.4 mcg", "adult_female": "2.4 mcg", "child_8yo": "1.2 mcg"},
+        "best_food_sources": ["beef", "sardines", "eggs", "milk", "cheese", "chicken", "pork"],
+        "status_this_week": "adequate",
+        "notes": "Excellent coverage: meat in 4 dinners, eggs in daily quiche, cheese throughout."
+      },
+      {
+        "nutrient": "Vitamin A",
+        "what_it_does": "Essential for vision (especially night vision), immune function, skin health, and cell growth. Important for children's growth and development.",
+        "deficiency_symptoms": "Night blindness, dry eyes, frequent infections, dry/rough skin, delayed growth.",
+        "daily_recommended": {"adult_male": "900 mcg RAE", "adult_female": "700 mcg RAE", "child_8yo": "400 mcg RAE"},
+        "best_food_sources": ["sweet potatoes", "carrots", "spinach", "broccoli", "eggs", "dairy"],
+        "status_this_week": "moderate",
+        "notes": "Broccoli, spinach (pasta/quiche), eggs (quiche), and dairy provide decent vitamin A. Missing orange vegetables (sweet potatoes, carrots). Carrot sticks as a lunch side help."
+      },
+      {
+        "nutrient": "Vitamin E",
+        "what_it_does": "Powerful antioxidant protecting cells from oxidative damage. Supports immune function, skin health, and eye health. Works synergistically with vitamin C.",
+        "deficiency_symptoms": "Rarely severe, but: muscle weakness, vision problems, weakened immunity.",
+        "daily_recommended": {"adult_male": "15mg", "adult_female": "15mg", "child_8yo": "7mg"},
+        "best_food_sources": ["almonds", "sunflower seeds", "avocado", "spinach", "olive oil", "peanut butter"],
+        "status_this_week": "low",
+        "notes": "No nuts, seeds, or avocado in dinners. Olive oil in cooking provides small amounts. Almond butter snack and trail mix are the primary fixes."
+      }
+    ]
+  }
+}
