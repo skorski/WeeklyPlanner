@@ -1,0 +1,405 @@
+{
+  "family": {
+    "members": [
+      {"name": "Dan", "age_range": "Adult man", "activity_level": "Active", "calorie_target": "2,400-2,800 kcal", "focus_nutrients": ["protein", "potassium", "magnesium"]},
+      {"name": "Laura", "age_range": "Adult woman", "activity_level": "Active", "calorie_target": "2,000-2,200 kcal", "focus_nutrients": ["iron", "calcium", "folate", "fiber"]},
+      {"name": "Elsie", "age_range": "School-age girl (8)", "activity_level": "Very active (swim lessons Tue, Swimming Egg Hunt Sat)", "calorie_target": "1,600-2,000 kcal", "focus_nutrients": ["calcium", "vitamin D", "iron", "fiber"]}
+    ]
+  },
+  "dinners": [
+    {
+      "day": "Sunday",
+      "name": "Pasta & Gravy (Italian-American Sunday Gravy)",
+      "calories_per_serving": "~750 kcal",
+      "protein_source": "Pork ribs, Italian sausage, beef",
+      "protein_level": "high",
+      "vegetable_content": "moderate",
+      "whole_grains": false,
+      "key_nutrients": ["protein", "iron (heme)", "zinc", "B12", "lycopene (tomato sauce)", "potassium (tomato sauce)", "niacin", "vitamin B6"],
+      "concerns": ["High saturated fat from three meat sources", "High sodium from sausage and slow-simmered sauce", "Refined carbs from pasta", "Large portion temptation — this is a feast dish"],
+      "overall_rating": "good"
+    },
+    {
+      "day": "Monday",
+      "name": "Mujadara (Lentils & Rice with Crispy Onions)",
+      "calories_per_serving": "~380 kcal",
+      "protein_source": "Green lentils (complete protein with rice)",
+      "protein_level": "moderate",
+      "vegetable_content": "minimal",
+      "whole_grains": false,
+      "key_nutrients": ["fiber", "iron (plant)", "folate", "manganese", "potassium", "magnesium", "copper", "probiotics (yogurt topping)", "calcium (yogurt)"],
+      "concerns": ["Plant iron needs vitamin C pairing for absorption — squeeze lemon or serve with tomato salad", "White basmati rice is refined; brown rice or bulgur would boost fiber", "Fried onions add calories and fat"],
+      "overall_rating": "excellent"
+    },
+    {
+      "day": "Tuesday",
+      "name": "Babo Pasta (Homemade Spinach Pasta with Butter & Parmigiano)",
+      "calories_per_serving": "~500 kcal",
+      "protein_source": "Egg yolks, Parmigiano-Reggiano",
+      "protein_level": "moderate",
+      "vegetable_content": "minimal",
+      "whole_grains": false,
+      "key_nutrients": ["iron (spinach in pasta)", "folate (spinach)", "calcium (Parmigiano)", "B12 (eggs)", "vitamin A", "vitamin K (spinach)"],
+      "concerns": ["High saturated fat from butter and cheese", "Low vegetable content despite spinach in dough — most nutrients cook out", "Refined carbs (00 flour)", "Pre-swim timing: serve early and moderate portion for Elsie"],
+      "overall_rating": "moderate"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Corned Beef & Cabbage with Potatoes and Carrots",
+      "calories_per_serving": "~550 kcal",
+      "protein_source": "Salt-cured beef brisket",
+      "protein_level": "high",
+      "vegetable_content": "abundant",
+      "whole_grains": false,
+      "key_nutrients": ["protein", "iron (heme)", "B12", "zinc", "vitamin C (cabbage)", "potassium (potatoes)", "vitamin A (carrots)", "vitamin K (cabbage)", "fiber (vegetables)"],
+      "concerns": ["Very high sodium from curing salt — rinse brisket well before cooking", "Saturated fat from brisket fat cap", "Mustard seed is fine but watch added salt"],
+      "overall_rating": "good"
+    },
+    {
+      "day": "Thursday",
+      "name": "Corned Beef Tacos with Pickled Red Onions & Mustard Crema",
+      "calories_per_serving": "~450 kcal",
+      "protein_source": "Leftover shredded corned beef",
+      "protein_level": "high",
+      "vegetable_content": "moderate",
+      "whole_grains": false,
+      "key_nutrients": ["protein", "iron (heme)", "B12", "zinc", "vitamin C (lime, cabbage)", "vitamin K (cabbage)", "prebiotics (pickled onions)"],
+      "concerns": ["Still high sodium from corned beef (third consecutive high-sodium day with Saturday)", "Refined flour tortillas", "Sour cream in crema adds saturated fat", "Watch total corned beef intake — three meals from one brisket is smart but sodium-heavy"],
+      "overall_rating": "good"
+    },
+    {
+      "day": "Friday",
+      "name": "Big Dinner Salad with Chickpeas, Avocado, Eggs & Tahini",
+      "calories_per_serving": "~550 kcal",
+      "protein_source": "Chickpeas, soft-boiled eggs, pepitas",
+      "protein_level": "high",
+      "vegetable_content": "abundant",
+      "whole_grains": false,
+      "key_nutrients": ["fiber", "iron (plant — chickpeas, greens)", "folate", "vitamin E (pepitas, avocado)", "magnesium (pepitas, tahini)", "potassium (avocado)", "healthy fats (avocado, tahini)", "calcium (Parmesan)", "vitamin K (greens)", "vitamin C (lemon dressing)", "zinc (pepitas)", "antioxidants (beets)"],
+      "concerns": ["High calorie density from avocado + tahini + pepitas — watch portions for Elsie", "Pickled beets add some sodium"],
+      "overall_rating": "excellent"
+    },
+    {
+      "day": "Saturday",
+      "name": "Kimchi Fried Rice Bowls with Corned Beef & Fried Egg",
+      "calories_per_serving": "~500 kcal",
+      "protein_source": "Corned beef (leftover), fried egg",
+      "protein_level": "high",
+      "vegetable_content": "moderate",
+      "whole_grains": false,
+      "key_nutrients": ["protein", "iron (heme)", "B12", "probiotics (kimchi)", "vitamin C (kimchi, scallions)", "vitamin K (scallions)", "selenium (sesame)", "capsaicin (gochujang — anti-inflammatory)"],
+      "concerns": ["High sodium from corned beef + kimchi + gochujang triple threat", "Fried in sesame oil adds calories", "Day-old white rice is refined", "Gochujang may be too spicy for Elsie — serve hers milder"],
+      "overall_rating": "good"
+    }
+  ],
+  "weekly_assessment": {
+    "protein_diversity": {
+      "sources_found": ["pork ribs", "Italian sausage", "beef (gravy)", "green lentils", "eggs", "Parmigiano-Reggiano", "corned beef brisket", "chickpeas", "pepitas", "tahini"],
+      "rating": "excellent",
+      "notes": "Ten distinct protein sources spanning meat, legumes, eggs, dairy, nuts, and seeds. Lentils (Mon) and chickpeas (Fri) provide excellent plant-protein days. The lentil-rice combination on Monday creates a complete amino acid profile. Missing: fish and poultry. The week is beef-heavy (corned beef appears in 3 of 7 dinners) but the variety around it is strong."
+    },
+    "vegetable_coverage": {
+      "servings_per_dinner_avg": 1.8,
+      "color_diversity": ["dark greens (spinach, mixed greens, scallions)", "white/green (cabbage — 3 dinners)", "orange (carrots)", "red/purple (tomato sauce, pickled beets, pickled red onions)", "fermented (kimchi)"],
+      "rating": "good",
+      "notes": "Cabbage is the vegetable MVP this week — it appears in three dinners (Wed, Thu, Sat) plus the salad (Fri). Wednesday is the vegetable champion with cabbage, potatoes, and carrots all in one pot. Friday's salad brings excellent variety with greens, avocado, beets, and chickpeas. Weak spots are Sunday (tomato sauce is the only vegetable), Tuesday (spinach baked into pasta dough doesn't count as a serving), and Monday (just fried onions). Lunches need to bring orange and yellow vegetables."
+    },
+    "nutrient_gaps": [
+      {"nutrient": "Omega-3 fatty acids", "severity": "high", "detail": "No fish or seafood all week. Zero DHA/EPA from dinners. Pepitas and avocado (Fri) provide some ALA but conversion to DHA is poor (5-10%). This is the week's biggest gap and needs snack-level intervention."},
+      {"nutrient": "Vitamin D", "severity": "high", "detail": "No fatty fish, and egg yolks are the only food source (Tue pasta, Fri salad, Sat fried rice). Each yolk provides ~40 IU against a 600 IU daily target. Mid-March sun angle in Reston, VA is improving but still insufficient for skin synthesis. Supplement recommended."},
+      {"nutrient": "Whole grains", "severity": "moderate", "detail": "Zero whole grains in any dinner — refined pasta (Sun, Tue), white basmati (Mon), flour tortillas (Thu), white rice (Sat), and the salad (Fri) and corned beef (Wed) have none. Easy fix: swap basmati for brown rice on Monday, use whole wheat tortillas on Thursday."},
+      {"nutrient": "Fruit", "severity": "moderate", "detail": "Only lime juice (Thu) appears in dinners. Lemon in Friday's dressing is barely a serving. Zero whole fruit all week at dinner. Must come entirely from lunches and snacks."},
+      {"nutrient": "Vitamin E", "severity": "mild", "detail": "Friday's salad (pepitas, avocado) is the only significant source. Six other dinners provide minimal vitamin E. Almond butter snacks and avocado at lunch can help."}
+    ],
+    "excesses": [
+      {"item": "Sodium", "severity": "high", "detail": "This is the week's red flag. Corned beef is salt-cured and appears in THREE dinners (Wed, Thu, Sat). Sunday gravy has high-sodium sausage. Kimchi and gochujang (Sat) add more. Estimate 4 of 7 dinners exceed 800mg sodium per serving. Counterbalance with potassium-rich foods (bananas, potatoes already in Wed dinner, avocado Fri) and keep lunches and snacks low-sodium."},
+      {"item": "Saturated fat", "severity": "moderate", "detail": "Sunday gravy (three meats), Babo pasta (butter + Parmigiano), and corned beef brisket fat are the main contributors. Friday's salad and Monday's mujadara balance with healthy fats. Net picture is manageable but not ideal — the week leans rich, which is perfect for March comfort, just balance with lighter lunches."},
+      {"item": "Red/processed meat", "severity": "moderate", "detail": "Corned beef in 3 dinners plus sausage and pork ribs on Sunday. That's processed/cured meat in 4 of 7 dinners. Not a problem for one week, but worth noting. Monday, Tuesday, and Friday provide the plant-forward balance."}
+    ],
+    "fiber_assessment": {"rating": "moderate", "notes": "Monday's mujadara (lentils: ~8g fiber) and Friday's big salad (chickpeas, avocado, greens: ~16g fiber) are the stars. Wednesday's vegetables (cabbage, potatoes, carrots) add ~4g. Other days are low-fiber (refined pasta, white rice, flour tortillas). Weekly dinner average is ~6-8g per dinner against 25-38g daily targets. Lunches and snacks need to carry the fiber load — whole grain bread, fruits, and raw vegetables are the fix."},
+    "omega3_assessment": {"rating": "poor", "notes": "No fish, no walnuts, no flaxseed, no chia in any dinner. Friday's pepitas and avocado provide some ALA omega-3 but not the DHA/EPA the brain and heart need. This is a one-week gap, not a crisis — fix with walnuts in snacks, a sardine snack for Dan, and consider fish oil supplements."},
+    "overall_dinner_grade": "B+",
+    "overall_summary": "This is a deeply satisfying comfort-food week with genuine nutritional intelligence behind it. The protein diversity is excellent — ten distinct sources from three meats to lentils to chickpeas to pepitas. The vegetable coverage is surprisingly strong thanks to cabbage showing up in three dinners and Friday's salad being a nutritional powerhouse. Iron coverage is outstanding for Laura and Elsie, with heme iron from corned beef (3 dinners) and plant iron from lentils and chickpeas. The main watchpoint is sodium — corned beef in three dinners plus Sunday gravy sausage means four high-sodium nights. Balance that with potassium-rich snacks and low-sodium lunches. The omega-3 and vitamin D gaps are typical for a no-fish week and easily managed with supplements and strategic snacking. Monday's mujadara and Friday's big salad are the nutritional anchors — lean on those days to feel great about the week."
+  },
+  "recommended_lunches": [
+    {
+      "name": "Turkey & Avocado Whole Wheat Wrap",
+      "description": "Sliced turkey breast, avocado, shredded carrots, baby spinach, and a thin smear of hummus in a whole wheat tortilla. Low-sodium turkey is key — this lunch counterbalances the corned beef dinners. The wrap delivers whole grains the dinners completely miss, and avocado adds potassium to offset sodium.",
+      "prep_time": "5 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["whole grains", "vitamin E", "potassium", "fiber", "low-sodium protein"],
+      "key_nutrients": ["fiber (whole wheat + avocado)", "vitamin A (carrots, spinach)", "potassium (avocado)", "iron (spinach)", "protein (turkey)", "folate (spinach)", "vitamin E (avocado)"],
+      "kid_notes": "Elsie can help roll her own wrap. Cut in half for easier handling. Great for Tue swim day — eat at 5 PM before lessons."
+    },
+    {
+      "name": "PB&J on Whole Wheat with Banana",
+      "description": "The workhorse lunch — peanut butter and strawberry jam on whole wheat bread with a banana on the side. Provides whole grains, fruit, potassium, magnesium, and healthy fats in the most kid-approved package possible. Zero sodium stress.",
+      "prep_time": "3 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["whole grains", "fruit", "potassium", "magnesium", "vitamin E"],
+      "key_nutrients": ["fiber (whole wheat + banana)", "potassium (banana + PB)", "magnesium (peanut butter)", "vitamin E (peanut butter)", "vitamin B6 (banana)", "healthy fats"],
+      "kid_notes": "Perfect for Saturday's packed lunch at the Swimming Egg Hunt. Easy to eat between activities. Add a juice box for hydration."
+    },
+    {
+      "name": "Tuna Salad on Whole Grain Crackers",
+      "description": "Canned light tuna mixed with a little mayo, diced celery, and lemon juice, served on Triscuits or whole grain crackers. This is the week's omega-3 rescue lunch — one 3oz can of tuna delivers ~250mg DHA/EPA, which no dinner this week provides.",
+      "prep_time": "5 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["omega-3 (DHA/EPA)", "vitamin D", "whole grains", "protein", "selenium"],
+      "key_nutrients": ["omega-3 (DHA/EPA)", "vitamin D", "selenium", "protein", "B12", "fiber (crackers)"],
+      "kid_notes": "Elsie may prefer tuna with a squeeze of lemon and crackers on the side for dipping. Serve mid-week (Wed or Thu) to break up the corned beef streak."
+    },
+    {
+      "name": "Bean & Cheese Quesadilla with Salsa",
+      "description": "Black beans and shredded cheddar on a whole wheat tortilla, pan-crisped and served with fresh salsa and sour cream. Fiber bomb meets calcium delivery system. Quick enough for a school day, satisfying enough to fuel afternoon activities.",
+      "prep_time": "8 min",
+      "packable": false,
+      "kid_friendly": true,
+      "gaps_addressed": ["fiber", "calcium", "whole grains", "folate", "iron (plant)"],
+      "key_nutrients": ["fiber (black beans: 7g per half cup)", "calcium (cheese)", "folate (black beans)", "iron (plant)", "vitamin C (salsa)", "protein"],
+      "kid_notes": "Great for Friday when everyone is home — make it fresh. Elsie can assemble her own. Salsa provides the vitamin C to boost iron absorption from the beans."
+    },
+    {
+      "name": "Salmon Onigiri (Rice Balls) with Edamame",
+      "description": "Canned salmon mixed into seasoned rice, shaped into triangles, wrapped in nori. Served with steamed edamame. Fun, packable, and the week's best omega-3 + vitamin D delivery outside of supplements. The nori adds iodine and iron.",
+      "prep_time": "15 min (batch Sunday)",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["omega-3 (DHA/EPA)", "vitamin D", "calcium (salmon bones)", "iron (edamame)", "magnesium"],
+      "key_nutrients": ["omega-3 (DHA/EPA — canned salmon)", "vitamin D", "calcium (salmon bones in canned)", "iron (edamame)", "protein", "folate (edamame)", "iodine (nori)"],
+      "kid_notes": "Make these Sunday afternoon with leftover rice. Elsie loves foods she can eat with her hands. Canned salmon with bones is a calcium goldmine — you won't taste them mashed into rice."
+    },
+    {
+      "name": "Veggie & Hummus Bento Box",
+      "description": "Carrot sticks, cucumber rounds, cherry tomatoes, bell pepper strips, and a generous cup of hummus, with a handful of whole grain pita chips. Pure vegetable volume to counterbalance the meat-heavy dinners. Hummus provides fiber, iron, and folate from chickpeas.",
+      "prep_time": "5 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["vegetables", "fiber", "vitamin A (carrots)", "vitamin C (bell peppers)", "folate", "iron (plant)"],
+      "key_nutrients": ["vitamin A (carrots)", "vitamin C (bell peppers, tomatoes)", "fiber (hummus, vegetables)", "iron (plant — hummus)", "folate (chickpeas)", "potassium"],
+      "kid_notes": "Pack in a compartmented bento box. Elsie can graze between the Airbrush Art and Swimming Egg Hunt on Saturday. Bell peppers are the highest vitamin C vegetable — one cup has 3x an orange."
+    }
+  ],
+  "recommended_snacks": [
+    {
+      "name": "Apple Slices with Almond Butter",
+      "description": "Sliced Honeycrisp or Fuji apple with 2 tablespoons almond butter. The ultimate after-school snack — sweet, satisfying, and covers fruit, healthy fats, vitamin E, and magnesium in one grab. Almond butter edges out peanut butter for vitamin E (7.3mg vs 2.9mg per 2 tbsp).",
+      "prep_time": "3 min",
+      "time_of_day": "After school (Wed/Thu before activities)",
+      "kid_friendly": true,
+      "gaps_addressed": ["fruit", "vitamin E", "magnesium", "fiber", "healthy fats"],
+      "key_nutrients": ["vitamin E", "magnesium", "fiber", "healthy monounsaturated fats", "quercetin (apple skin)"]
+    },
+    {
+      "name": "Greek Yogurt Parfait with Granola & Berries",
+      "description": "Plain Greek yogurt layered with crunchy granola, blueberries, and a drizzle of honey. Calcium powerhouse (200mg per cup of yogurt), plus probiotics to complement Saturday's kimchi. The granola adds the whole grains every dinner this week is missing.",
+      "prep_time": "3 min",
+      "time_of_day": "Morning snack or post-swim Tuesday",
+      "kid_friendly": true,
+      "gaps_addressed": ["calcium", "probiotics", "fruit", "whole grains", "protein"],
+      "key_nutrients": ["calcium (200mg per cup)", "protein (15g)", "probiotics", "fiber (granola + berries)", "antioxidants (blueberries)", "vitamin C"]
+    },
+    {
+      "name": "Banana & Walnuts",
+      "description": "One whole banana and a quarter cup of walnuts. Zero prep, maximum return. Banana delivers 422mg potassium — critical this week to counterbalance all that corned beef sodium. Walnuts are the best plant-based omega-3 source (2.5g ALA per quarter cup).",
+      "prep_time": "0 min",
+      "time_of_day": "Anytime — keep on the counter",
+      "kid_friendly": true,
+      "gaps_addressed": ["potassium", "omega-3 (ALA)", "magnesium", "fruit", "fiber"],
+      "key_nutrients": ["potassium (422mg)", "omega-3 ALA (2.5g)", "magnesium", "vitamin B6", "fiber", "manganese"]
+    },
+    {
+      "name": "Cheese Stick & Clementine",
+      "description": "A mozzarella string cheese and a clementine orange. The easiest grab-and-go snack that exists. Calcium + vitamin C in one fist — and the vitamin C from the clementine helps absorb plant iron from earlier meals.",
+      "prep_time": "0 min",
+      "time_of_day": "Lunchbox addition or after school",
+      "kid_friendly": true,
+      "gaps_addressed": ["calcium", "vitamin C", "fruit"],
+      "key_nutrients": ["calcium (200mg)", "vitamin C (35mg)", "protein (6g)"]
+    },
+    {
+      "name": "Trail Mix (Walnuts, Almonds, Dried Cranberries, Dark Chocolate)",
+      "description": "Homemade trail mix in snack bags — quarter cup walnuts, quarter cup almonds, 2 tbsp dried cranberries, 1 tbsp dark chocolate chips. Make a batch Sunday night for the whole week. Covers omega-3, vitamin E, magnesium, iron, and fruit in one satisfying handful.",
+      "prep_time": "5 min (batch for the week)",
+      "time_of_day": "Afternoon or Saturday activity fuel",
+      "kid_friendly": true,
+      "gaps_addressed": ["omega-3", "vitamin E", "magnesium", "iron", "fruit", "fiber"],
+      "key_nutrients": ["omega-3 ALA (walnuts)", "vitamin E (almonds)", "magnesium (almonds, dark chocolate)", "iron (dark chocolate, almonds)", "antioxidants (cranberries, dark chocolate)", "fiber"]
+    },
+    {
+      "name": "Edamame with Sea Salt",
+      "description": "Steamed frozen edamame pods with a light sprinkle of flaky sea salt. Fun to pop out of shells — Elsie will treat it like a game. One cup delivers 18g protein, 8g fiber, 3.5mg iron, and 100mg calcium. It's basically a superfood in a shell.",
+      "prep_time": "5 min (microwave)",
+      "time_of_day": "Afternoon or pre-dinner",
+      "kid_friendly": true,
+      "gaps_addressed": ["iron (plant)", "fiber", "folate", "magnesium", "calcium", "protein"],
+      "key_nutrients": ["iron (3.5mg per cup)", "protein (18g)", "fiber (8g)", "folate", "magnesium", "calcium (100mg)", "vitamin K"]
+    },
+    {
+      "name": "Sardines on Crackers (Dan's Power Snack)",
+      "description": "Canned sardines on whole grain Triscuits with a squeeze of lemon and cracked pepper. Not for everyone — this is Dan's solo afternoon snack. The single most nutrient-dense food on the planet: one tin delivers 1.4g omega-3 DHA/EPA, 350mg calcium, 4.8mcg vitamin D (nearly 100% daily value), and 8.9mcg B12.",
+      "prep_time": "2 min",
+      "time_of_day": "Dan's afternoon snack",
+      "kid_friendly": false,
+      "gaps_addressed": ["omega-3 (DHA/EPA)", "vitamin D", "calcium", "B12", "whole grains"],
+      "key_nutrients": ["omega-3 DHA/EPA (1.4g)", "vitamin D (4.8mcg)", "calcium (350mg from bones)", "B12 (8.9mcg)", "selenium", "protein"]
+    }
+  ],
+  "recommended_supplements": [
+    {"name": "Vitamin D3", "why": "No fatty fish this week and mid-March sun in Reston, VA is improving but still not enough for reliable skin synthesis (UV index remains below 3 most days). Egg yolks provide ~40 IU each, but the family needs 600 IU daily. Even with sardines for Dan, supplementation is the safest path for everyone.", "dose": "1000 IU/day for adults, 600 IU/day for Elsie"},
+    {"name": "Omega-3 Fish Oil (or algae oil)", "why": "No fish in any dinner this week. Walnuts and flaxseed provide ALA (plant omega-3) but human conversion to DHA/EPA is only 5-10%. The tuna and salmon lunches help, but supplementation ensures consistent intake, especially for Elsie's developing brain.", "dose": "500-1000 mg combined EPA/DHA for adults, 250 mg for Elsie"}
+  ],
+  "weekly_nutrition_summary": "This week's menu is March comfort cooking at its best — hearty, warm, and built around a brilliantly efficient corned beef that feeds three dinners. The protein diversity is genuinely excellent, with ten distinct sources from pork ribs to lentils to pepitas. Iron coverage is a standout: Laura and Elsie get heme iron from corned beef in three dinners, plant iron from Monday's lentils and Friday's chickpeas, and the vitamin C in cabbage, lime, and lemon helps absorb it all. Friday's big dinner salad is the nutritional MVP of the week — fiber, healthy fats, plant protein, vitamin E, magnesium, and potassium all in one bowl. The main watchpoint is sodium: corned beef is salt-cured by nature, and having it three nights means sodium runs high mid-to-late week. Counter that with potassium-rich bananas and avocado, and keep lunches on the lighter side. The omega-3 and vitamin D gaps are typical for any no-fish week — tuna or salmon lunches plus a D3 supplement close them cleanly. With the suggested lunches (especially the tuna salad and salmon onigiri for omega-3, and the PB&J and wraps for whole grains) and snacks (banana-walnut for potassium, yogurt parfait for calcium, trail mix for vitamin E), this family hits adequate intake across every major nutrient category. The week leans rich, which is exactly right for mid-March. Add some lighter lunches to keep energy steady, and you're golden.",
+  "special_notes": [
+    "SODIUM STRATEGY: Corned beef appears in 3 dinners (Wed, Thu, Sat) and Sunday gravy has high-sodium sausage. That's 4 high-sodium nights. Rinse the corned beef well before cooking, skip added salt at the table, and lean heavily on potassium-rich foods (bananas, potatoes in Wed dinner, avocado Fri) to help the kidneys flush excess sodium.",
+    "TUESDAY SWIM FUELING: Elsie has swim lessons 6-6:30 PM. Serve the Babo pasta early (5:00-5:15 PM) and keep portions moderate — pasta with butter is ideal pre-exercise fuel (easily digestible carbs). Post-swim, offer a Greek yogurt parfait or cheese stick for protein recovery.",
+    "SATURDAY PACKED LUNCH: The family is out 9:45 AM - 2:45 PM for Airbrush Art and Swimming Egg Hunt. Pack the PB&J lunch, trail mix, banana, and a water bottle. PB&J travels well, banana provides quick energy, and trail mix keeps everyone going through the swimming event.",
+    "WEDNESDAY-THURSDAY AFTER-SCHOOL SNACKS: With after-school activities both days, have apple + almond butter or cheese stick + clementine ready at pickup. These provide sustained energy without the sugar crash of processed snacks.",
+    "IRON ABSORPTION TRICK: Monday's mujadara has excellent plant iron from lentils, but plant iron absorbs poorly without vitamin C. Squeeze half a lemon over the mujadara or serve a small tomato-cucumber side salad to boost absorption by 3-6x. Same applies to Friday's chickpeas — the lemon-tahini dressing already handles this beautifully.",
+    "FIBER WATCH: Zero whole grains appear in any dinner this week. The fix is simple — make lunches do the heavy lifting with whole wheat bread, tortillas, and crackers. Between whole grain lunches and fruit/vegetable snacks, fiber targets are achievable without changing a single dinner recipe.",
+    "Elsie's calcium goal is 1000mg/day. Dinner sources (Parmigiano Tuesday, Parmesan Friday, yogurt Monday) help but aren't enough alone. The Greek yogurt snack (200mg), cheese stick (200mg), and milk at meals close the gap. If she drinks 2 cups of milk per day, she's covered."
+  ],
+  "nutrition_summary": {
+    "overview": "This week earns a solid B-plus — excellent protein diversity, strong iron coverage from both heme and plant sources, and Friday's salad is a genuine nutritional powerhouse. The corned beef three-peat is smart cooking (one brisket, three creative meals) but drives sodium high mid-to-late week. Monday's mujadara and Friday's big salad are the nutritional anchors — plant-forward, fiber-rich, and packed with micronutrients that the meat-heavier days miss. The biggest gaps (omega-3, vitamin D, whole grains, fruit) are all easily fixed through lunches and snacks without changing a single dinner recipe.",
+    "nutrient_importance_guide": [
+      {
+        "nutrient": "Protein",
+        "what_it_does": "Protein is the body's building material — it constructs and repairs muscles, organs, skin, hair, and blood. It makes the enzymes that digest your food, the hormones that regulate your mood, and the antibodies that fight infection. For Elsie at 8, protein is especially critical: she's building new tissue at a rate she won't match again until puberty. Every cell in her body contains protein, and she's making millions of new cells every day. For Dan, protein supports muscle recovery from his active lifestyle; for Laura, it maintains lean muscle mass and supports immune function.",
+        "deficiency_symptoms": "Muscle wasting, fatigue, slow wound healing, weakened immunity, hair loss, brittle nails. In children: stunted growth, poor concentration, frequent illness.",
+        "daily_recommended": {"adult_male": "56g", "adult_female": "46g", "child_8yo": "19g"},
+        "best_food_sources": ["chicken", "beef", "fish", "eggs", "Greek yogurt", "lentils", "chickpeas", "pork", "cheese"],
+        "status_this_week": "excellent",
+        "notes": "Outstanding week for protein. Ten distinct sources across 7 dinners: pork ribs, sausage, beef (Sunday gravy), lentils (Monday), eggs and Parmigiano (Tuesday), corned beef (Wed/Thu/Sat), chickpeas, eggs, and pepitas (Friday). The lentil-rice combination on Monday creates a complete amino acid profile equal to meat. Dan easily exceeds his 56g target on meat nights; Elsie's 19g is met by even the lighter dinners."
+      },
+      {
+        "nutrient": "Calcium",
+        "what_it_does": "Calcium builds and maintains strong bones and teeth — but that's only half the story. It's also essential for muscle contraction (including your heart beating), nerve signaling, blood clotting, and hormone secretion. For Elsie at 8, this is mission-critical: she's in her peak bone-building decade. Roughly 90% of adult bone mass is laid down by age 18, and the calcium she absorbs now literally determines whether she has strong or fragile bones for the rest of her life. It's like making deposits in a bone bank — and you can't make deposits after 30.",
+        "deficiency_symptoms": "Long-term: osteoporosis, stress fractures, dental problems. Short-term: muscle cramps, numbness in fingers, abnormal heart rhythm. In children: stunted growth, weak bones, tooth decay.",
+        "daily_recommended": {"adult_male": "1000mg", "adult_female": "1000mg", "child_8yo": "1000mg"},
+        "best_food_sources": ["milk", "yogurt", "cheese", "fortified orange juice", "sardines (with bones)", "broccoli", "kale", "canned salmon (with bones)", "tofu"],
+        "status_this_week": "moderate",
+        "notes": "Parmigiano-Reggiano on Tuesday and Friday provides excellent calcium (~330mg per ounce — it's one of the highest-calcium cheeses). Yogurt with Monday's mujadara adds ~200mg. But there are 4 dinners with minimal calcium (Sunday, Wednesday, Thursday, Saturday). Snack strategy is essential: Greek yogurt parfait (200mg), cheese stick (200mg), and 2 cups of milk per day (600mg) close the gap for Elsie."
+      },
+      {
+        "nutrient": "Iron",
+        "what_it_does": "Iron carries oxygen in your red blood cells to every tissue in your body — it's literally what makes your blood red. Without enough iron, your cells starve for oxygen and everything slows down: energy, concentration, immunity, temperature regulation. There are two types: heme iron (from meat, absorbed 2-3x better) and non-heme iron (from plants, needs vitamin C to absorb well). Laura needs the most iron in the family — women of childbearing age require 18mg/day, more than double what Dan needs. Elsie's growing body demands 10mg/day to keep up with her expanding blood volume.",
+        "deficiency_symptoms": "Fatigue, weakness, pale skin, cold hands and feet, poor concentration, dizziness, frequent infections. In children: developmental delays, behavioral issues, impaired cognitive function, restless legs.",
+        "daily_recommended": {"adult_male": "8mg", "adult_female": "18mg", "child_8yo": "10mg"},
+        "best_food_sources": ["red meat", "lentils", "spinach", "chickpeas", "fortified cereals", "dark chocolate", "pork", "tofu", "pumpkin seeds"],
+        "status_this_week": "excellent",
+        "notes": "This is the week's nutritional highlight. Heme iron from corned beef in three dinners (Wed/Thu/Sat) and pork ribs + sausage on Sunday. Plant iron from lentils (Monday) and chickpeas (Friday). Spinach in Tuesday's pasta dough adds more. The key: vitamin C from cabbage (Wed/Thu), lime (Thu), lemon (Fri), and kimchi (Sat) dramatically boosts absorption of both types. Laura's challenging 18mg target is genuinely achievable this week."
+      },
+      {
+        "nutrient": "Vitamin D",
+        "what_it_does": "Vitamin D is the gatekeeper for calcium — without it, your body can't absorb the calcium you eat, no matter how much cheese or yogurt you consume. It also plays a crucial role in immune defense (your immune cells have vitamin D receptors), mood regulation (low D is linked to seasonal depression), and muscle function. It acts more like a hormone than a vitamin, influencing over 1,000 genes. In mid-March in Reston, VA, the sun angle is improving but UV index stays below 3 most days — not enough for reliable skin synthesis.",
+        "deficiency_symptoms": "Bone pain, muscle weakness, fatigue, depression, frequent illness. In children: rickets (soft, deformed bones), delayed growth, weakened immunity, tooth decay.",
+        "daily_recommended": {"adult_male": "600 IU (15 mcg)", "adult_female": "600 IU (15 mcg)", "child_8yo": "600 IU (15 mcg)"},
+        "best_food_sources": ["fatty fish (salmon, sardines, mackerel)", "fortified milk", "egg yolks", "fortified orange juice", "cod liver oil", "UV-exposed mushrooms"],
+        "status_this_week": "deficient",
+        "notes": "This is the week's hardest gap to close through food alone. No fatty fish in any dinner. Egg yolks appear in Tuesday's pasta and Friday/Saturday's eggs, but each yolk provides only ~40 IU against a 600 IU target. The salmon onigiri lunch and Dan's sardine snack help significantly. Fortified milk at meals adds ~120 IU per cup. But supplementation is the realistic path — 1000 IU for adults, 600 IU for Elsie."
+      },
+      {
+        "nutrient": "Omega-3 Fatty Acids (DHA/EPA)",
+        "what_it_does": "Omega-3s are the building blocks of brain cell membranes — DHA alone makes up 40% of the fatty acids in your brain. For Elsie at 8, this is critical: her brain is still developing rapidly and will be for another decade. Omega-3s support attention, learning, memory, and emotional regulation. They also reduce inflammation throughout the body, support heart health (lowering triglycerides and blood pressure), and keep eyes healthy. There are three types: ALA (from plants — walnuts, flax), and EPA/DHA (from fish and algae). The body converts ALA to DHA at only 5-10%, so fish-based sources are far more effective.",
+        "deficiency_symptoms": "Poor concentration, dry skin, mood swings, joint stiffness, fatigue. In children: learning difficulties, behavioral issues, dry/rough skin, poor sleep.",
+        "daily_recommended": {"adult_male": "1.6g ALA or 250-500mg EPA/DHA", "adult_female": "1.1g ALA or 250-500mg EPA/DHA", "child_8yo": "0.9g ALA or 150-250mg EPA/DHA"},
+        "best_food_sources": ["salmon", "sardines", "mackerel", "anchovies", "walnuts", "flaxseed", "chia seeds", "hemp hearts", "algae oil"],
+        "status_this_week": "deficient",
+        "notes": "Zero fish in any dinner — that's the week's most significant gap. Friday's pepitas and avocado provide some ALA, but conversion to DHA is minimal. The fix: tuna salad and salmon onigiri lunches provide real DHA/EPA. Dan's sardine snack delivers 1.4g in one sitting. Walnut snacks and trail mix add ALA. Fish oil supplement recommended for consistent coverage, especially for Elsie."
+      },
+      {
+        "nutrient": "Fiber",
+        "what_it_does": "Fiber is your gut's best friend — it feeds the trillions of beneficial bacteria in your intestines, which in turn produce short-chain fatty acids that reduce inflammation, strengthen your gut lining, and even influence mood (95% of serotonin is made in the gut). Soluble fiber (in oats, beans, avocado) slows digestion and helps control blood sugar. Insoluble fiber (in whole grains, vegetable skins) adds bulk and keeps things moving. For Elsie, fiber supports regular digestion, stable energy levels, and a healthy microbiome — and most American kids get less than half the recommended amount.",
+        "deficiency_symptoms": "Constipation, blood sugar spikes and crashes, increased hunger, higher cholesterol, bloating, poor gut health.",
+        "daily_recommended": {"adult_male": "38g", "adult_female": "25g", "child_8yo": "25g"},
+        "best_food_sources": ["lentils", "black beans", "chickpeas", "avocado", "whole wheat bread", "oats", "berries", "broccoli", "chia seeds", "pears"],
+        "status_this_week": "moderate",
+        "notes": "Monday's lentils (~8g fiber per serving) and Friday's salad (~16g from chickpeas, avocado, and greens) are the heroes. Wednesday's cabbage, potatoes, and carrots add ~4g. But Sunday's pasta, Tuesday's pasta, Thursday's tacos, and Saturday's fried rice are all fiber-poor (refined carbs). Zero whole grains in any dinner. With strategic lunches (whole wheat wraps, PB&J on whole wheat) and snacks (apple + almond butter, trail mix, edamame), the family can reach 25-38g daily."
+      },
+      {
+        "nutrient": "Folate (Vitamin B9)",
+        "what_it_does": "Folate is essential for DNA synthesis and cell division — it's the vitamin that makes growth possible. Every time a cell divides (and Elsie's cells are dividing rapidly), it needs folate to copy its DNA correctly. It works hand-in-hand with B12 to form healthy red blood cells and prevent anemia. For Laura, folate supports energy, mood, and reproductive health. Low folate is linked to fatigue, irritability, and poor concentration in both adults and children.",
+        "deficiency_symptoms": "Fatigue, irritability, mouth sores, poor growth in children, megaloblastic anemia (oversized, dysfunctional red blood cells), neural tube defects in pregnancy.",
+        "daily_recommended": {"adult_male": "400 mcg DFE", "adult_female": "400 mcg DFE", "child_8yo": "200 mcg DFE"},
+        "best_food_sources": ["lentils", "chickpeas", "spinach", "asparagus", "broccoli", "black beans", "fortified grains", "avocado", "edamame"],
+        "status_this_week": "good",
+        "notes": "Strong coverage: lentils on Monday (~180 mcg per cup), chickpeas on Friday (~280 mcg per cup), spinach in Tuesday's pasta, and avocado on Friday. Edamame snacks add more. This is a folate-rich week thanks to the legume-forward Monday and Friday anchors."
+      },
+      {
+        "nutrient": "Potassium",
+        "what_it_does": "Potassium is sodium's counterbalance — it helps your kidneys flush excess sodium, relaxes blood vessel walls to lower blood pressure, and prevents muscle cramps. This week, potassium is especially important because corned beef in three dinners means sodium is running high. Every milligram of potassium you eat helps offset the sodium load. It also supports nerve function, heartbeat regularity, and fluid balance. Most Americans get only 2,500mg against a 2,600-3,400mg target.",
+        "deficiency_symptoms": "Muscle cramps, weakness, fatigue, irregular heartbeat, constipation, bloating.",
+        "daily_recommended": {"adult_male": "3400mg", "adult_female": "2600mg", "child_8yo": "2300mg"},
+        "best_food_sources": ["bananas", "potatoes", "sweet potatoes", "avocado", "spinach", "beans", "yogurt", "tomato sauce", "dried apricots"],
+        "status_this_week": "moderate",
+        "notes": "Wednesday's potatoes are the best single source (~900mg per medium potato). Sunday's tomato sauce provides ~500mg per cup. Friday's avocado adds ~485mg. Banana snacks (422mg each) are the easiest daily fix. The banana-and-walnut snack is this week's secret weapon: potassium + omega-3 in one grab."
+      },
+      {
+        "nutrient": "Magnesium",
+        "what_it_does": "Magnesium is involved in over 300 enzyme reactions in the body — energy production, muscle and nerve function, blood sugar control, blood pressure regulation, and bone building. It helps activate vitamin D (so without enough magnesium, even a D supplement works less effectively). It's also crucial for sleep quality, stress response, and exercise recovery. For Dan, magnesium supports muscle function and recovery from an active lifestyle. Most Americans are mildly deficient.",
+        "deficiency_symptoms": "Muscle cramps, insomnia, anxiety, fatigue, headaches, irregular heartbeat, restless legs.",
+        "daily_recommended": {"adult_male": "420mg", "adult_female": "320mg", "child_8yo": "130mg"},
+        "best_food_sources": ["dark chocolate", "almonds", "cashews", "pumpkin seeds (pepitas)", "spinach", "black beans", "avocado", "whole grains", "edamame"],
+        "status_this_week": "moderate",
+        "notes": "Friday is the magnesium champion — pepitas (150mg per oz), avocado (58mg), and tahini (28mg per tbsp) all deliver. Monday's lentils add ~70mg per cup. But 5 of 7 dinners are low in magnesium. Almond butter snack (80mg per 2 tbsp), trail mix, and edamame close the gap. Elsie's lower target (130mg) is easier to reach."
+      },
+      {
+        "nutrient": "Vitamin C",
+        "what_it_does": "Vitamin C is a powerful antioxidant that protects cells from damage, but its most practical superpower this week is boosting iron absorption. When you eat vitamin C alongside plant iron (lentils, chickpeas, spinach), absorption increases 3-6x. It's also essential for making collagen (the protein in skin, joints, and blood vessels), supporting immune function, and healing wounds. Elsie needs vitamin C to support her growing connective tissue and immune system.",
+        "deficiency_symptoms": "Weakened immunity, slow wound healing, dry/rough skin, easy bruising, fatigue, bleeding gums.",
+        "daily_recommended": {"adult_male": "90mg", "adult_female": "75mg", "child_8yo": "25mg"},
+        "best_food_sources": ["bell peppers", "citrus fruits", "strawberries", "broccoli", "kiwi", "tomatoes", "cabbage"],
+        "status_this_week": "good",
+        "notes": "Surprisingly strong thanks to cabbage's triple appearance (Wed/Thu/Sat — cabbage has 60% of the vitamin C of an orange per cup). Tomato sauce on Sunday, lime on Thursday, lemon on Friday, and kimchi on Saturday all contribute. The clementine snack and bell peppers in the veggie bento add more. Iron absorption is well-supported."
+      },
+      {
+        "nutrient": "Vitamin K",
+        "what_it_does": "Vitamin K is the blood-clotting vitamin — without it, a small cut would just keep bleeding. It also works with calcium and vitamin D to build and maintain strong bones. There are two forms: K1 (from green leafy plants) handles clotting, and K2 (from fermented foods like kimchi) directs calcium to your bones and teeth instead of your arteries. This week's kimchi (Saturday) provides K2, which is the harder form to get.",
+        "deficiency_symptoms": "Easy bruising, excessive bleeding from cuts, nosebleeds, weakened bones.",
+        "daily_recommended": {"adult_male": "120 mcg", "adult_female": "90 mcg", "child_8yo": "55 mcg"},
+        "best_food_sources": ["kale", "spinach", "broccoli", "Brussels sprouts", "cabbage", "fermented foods (K2)", "green beans"],
+        "status_this_week": "good",
+        "notes": "Green vegetables throughout the week provide solid K1: spinach (Tue), cabbage (Wed/Thu/Sat), mixed greens (Fri), scallions (Sat). Kimchi on Saturday provides valuable K2 for bone health. One cup of raw cabbage alone has 68 mcg — more than Elsie's daily need."
+      },
+      {
+        "nutrient": "Zinc",
+        "what_it_does": "Zinc is the immune system's favorite mineral — it helps develop and activate T-cells (the immune cells that directly kill infected cells). It's also essential for wound healing, taste and smell perception, protein synthesis, and DNA production. For Elsie, zinc supports growth, appetite regulation, and immune defense. For Dan, it supports testosterone production and muscle repair.",
+        "deficiency_symptoms": "Weakened immunity, slow wound healing, loss of taste/smell, poor appetite, delayed growth in children, frequent colds.",
+        "daily_recommended": {"adult_male": "11mg", "adult_female": "8mg", "child_8yo": "5mg"},
+        "best_food_sources": ["beef", "pork", "crab", "chickpeas", "pumpkin seeds", "cashews", "cheese", "dark chocolate"],
+        "status_this_week": "excellent",
+        "notes": "Outstanding zinc coverage. Beef and pork in 4 dinners (Sun, Wed, Thu, Sat) provide heme zinc (best absorbed). Chickpeas (Fri) and pepitas (Fri) add plant zinc. Parmigiano (Tue, Fri) contributes as well. The family easily meets zinc targets this week."
+      },
+      {
+        "nutrient": "Vitamin B12",
+        "what_it_does": "B12 is essential for nerve function — it maintains the myelin sheath that insulates nerve fibers, like the rubber coating on electrical wire. Without it, nerves short-circuit: you get numbness, tingling, and eventually cognitive problems. It also works with folate to form healthy red blood cells. B12 is only found naturally in animal products, which is why vegetarian/vegan diets need supplementation. This week's meat-heavy menu means B12 is well covered.",
+        "deficiency_symptoms": "Fatigue, weakness, numbness/tingling in hands and feet, memory problems, mood changes, balance issues, megaloblastic anemia.",
+        "daily_recommended": {"adult_male": "2.4 mcg", "adult_female": "2.4 mcg", "child_8yo": "1.2 mcg"},
+        "best_food_sources": ["beef liver", "sardines", "beef", "fortified cereal", "tuna", "salmon", "milk", "eggs", "cheese"],
+        "status_this_week": "excellent",
+        "notes": "Abundant coverage: corned beef in 3 dinners, pork/sausage/beef on Sunday, eggs on Tuesday/Friday/Saturday. Even Monday's yogurt topping provides B12. This is one nutrient the family doesn't need to worry about this week."
+      },
+      {
+        "nutrient": "Vitamin E",
+        "what_it_does": "Vitamin E is a fat-soluble antioxidant that protects cell membranes from oxidative damage — think of it as a bodyguard for every cell in your body. It supports immune function, skin health (prevents UV damage and aging), and eye health. It works synergistically with vitamin C: vitamin C regenerates vitamin E after it neutralizes a free radical, so eating them together multiplies the benefit.",
+        "deficiency_symptoms": "Muscle weakness, vision problems, weakened immunity, nerve damage (long-term). Rare in severe form, but suboptimal intake is common.",
+        "daily_recommended": {"adult_male": "15mg", "adult_female": "15mg", "child_8yo": "7mg"},
+        "best_food_sources": ["almonds", "sunflower seeds", "avocado", "spinach", "olive oil", "peanut butter", "hazelnuts", "pumpkin seeds"],
+        "status_this_week": "moderate",
+        "notes": "Friday's salad is the only significant dinner source — pepitas and avocado together provide ~5mg. Tuesday's spinach in pasta adds a small amount. The fix: almond butter snack (7.3mg per 2 tbsp — nearly half the daily value) and trail mix with almonds. With snacks, vitamin E targets are achievable."
+      },
+      {
+        "nutrient": "Probiotics & Gut Health",
+        "what_it_does": "Probiotics are live beneficial bacteria that support digestive health, immune function, and even mental health through the gut-brain axis. They help maintain the balance of your microbiome — the ecosystem of trillions of bacteria in your intestines. Fermented foods provide these bacteria naturally. For Elsie, a healthy gut microbiome supports nutrient absorption, immune defense, and has been linked to better mood and behavior regulation.",
+        "deficiency_symptoms": "Bloating, irregular digestion, weakened immunity, skin issues, mood fluctuations.",
+        "daily_recommended": {"adult_male": "No RDA; aim for 1-2 servings fermented food daily", "adult_female": "No RDA; aim for 1-2 servings fermented food daily", "child_8yo": "No RDA; aim for 1 serving fermented food daily"},
+        "best_food_sources": ["yogurt", "kimchi", "sauerkraut", "kefir", "miso", "kombucha", "tempeh"],
+        "status_this_week": "good",
+        "notes": "Two excellent probiotic sources: yogurt with Monday's mujadara and kimchi on Saturday. The Greek yogurt snack adds daily probiotic coverage. Pickled red onions (Thursday) and pickled beets (Friday) are fermented/pickled but may not contain live cultures depending on preparation. Good variety of fermented food exposure this week."
+      }
+    ]
+  }
+}

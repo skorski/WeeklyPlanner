@@ -1,0 +1,306 @@
+{
+  "week_range": "March 15 - 21, 2026",
+  "week_title": "The Corned Beef Chronicles",
+  "week_subtitle": "From Sunday Gravy to Saturday kimchi, one brisket feeds the whole week",
+  "family": [
+    "Dan",
+    "Laura",
+    "Elsie"
+  ],
+  "theme": "Comfort food remixed across five cultures",
+  "weather_summary": "Cold early week (27-41°F) warming to 60°F by Saturday. Light rain and drizzle most days with sunny breaks.",
+  "school_events": [
+    "No School Friday 03/20",
+    "Early Release Wednesday 03/18"
+  ],
+  "special_notes": [
+    "No YAT this week",
+    "Swim lessons Tuesday 6:00-6:30 PM",
+    "After school programs Wed (Science Potions) and Thu (Dance Camp)",
+    "Kiet picks up kids on Wednesday (early release)",
+    "St. Patrick’s Day Tuesday 03/17",
+    "Airbrush Art & Swimming Egg Hunt Saturday 9:45 AM - 2:45 PM (bring lunch)"
+  ],
+  "elsie_no_list": [
+    "Roasted red peppers"
+  ],
+  "days": [
+    {
+      "name": "Sunday 03/15",
+      "long_name": "Sunday, March 15",
+      "date": "2026-03-15",
+      "weather": "Slight rain, 56°F/40°F, Cloudy",
+      "weather_detail": "Cloudy (26% sunshine), 68% cloud cover, 28% precip, gusts 34 mph",
+      "dinner": "Pasta and Gravy (Sunday Gravy)",
+      "dinner_description": "Italian-American Sunday Gravy with pork ribs, sausage, and beef in slow-simmered tomato sauce over pasta",
+      "dinner_cuisine": "Italian-American",
+      "dinner_source_url": "https://www.seriouseats.com/italian-american-red-sauce-recipe",
+      "dinner_key_ingredients": [
+        "San Marzano tomatoes",
+        "pork ribs",
+        "Italian sausage",
+        "beef",
+        "garlic",
+        "basil",
+        "pasta"
+      ],
+      "album": "Talking Heads — Remain in Light",
+      "album_year": "1980",
+      "album_description": "The album that fused Afrobeat with new wave, produced by Brian Eno. Polyrhythmic perfection.",
+      "album_mood": "Cerebral, groovy, revelatory",
+      "album_sonic_description": "Post-punk meets Afrobeat with layered polyrhythms, looping guitar, driving bass",
+      "album_genre": "Post-punk / Afrobeat",
+      "album_spotify_url": "https://open.spotify.com/album/1JvXxGEkQMTkMOSfNBrMFp",
+      "album_pairing_rationale": "Sunday Gravy is a layered, slow-building project. Polyrhythmic grooves keep energy up during hours of stirring and tasting.",
+      "calendar_items": []
+    },
+    {
+      "name": "Monday 03/16",
+      "long_name": "Monday, March 16",
+      "date": "2026-03-16",
+      "weather": "Moderate rain showers, 69°F/38°F, Cloudy",
+      "weather_detail": "100% cloud, 82% precip, 1.20 inch rain expected, gusts 39 mph",
+      "dinner": "Mujadara (Lentils and Rice with Crispy Onions)",
+      "dinner_description": "Spiced green lentils and basmati rice topped with crispy fried onions, served with herbed yogurt",
+      "dinner_cuisine": "Middle Eastern (Levantine)",
+      "dinner_source_url": "https://www.themediterraneandish.com/mujadara-lentils-and-rice/",
+      "dinner_key_ingredients": [
+        "green lentils",
+        "basmati rice",
+        "yellow onions",
+        "cumin",
+        "coriander",
+        "cinnamon",
+        "yogurt"
+      ],
+      "album": "Fela Kuti — Zombie",
+      "album_year": "1977",
+      "album_description": "The Afrobeat masterpiece. Fela’s searing critique of the Nigerian military over 12 minutes of hypnotic groove.",
+      "album_mood": "Revolutionary, hypnotic, defiant, exhilarating",
+      "album_sonic_description": "Classic Afrobeat with extended polyrhythmic grooves, horn riffs, call-and-response",
+      "album_genre": "Afrobeat",
+      "album_spotify_url": "https://open.spotify.com/album/2wWpOLUQ6ELBFix63YrpJb",
+      "album_pairing_rationale": "Both mujadara and Fela are deceptively simple. One groove, one pot. Both reward patience.",
+      "calendar_items": [
+        "DP-900 Bootcamp 11:00 AM - 3:00 PM",
+        "Release Bash 2:20 PM - 3:05 PM"
+      ]
+    },
+    {
+      "name": "Tuesday 03/17",
+      "long_name": "Tuesday, March 17 — St. Patrick’s Day",
+      "date": "2026-03-17",
+      "weather": "Overcast, 41°F/29°F, Sunny",
+      "weather_detail": "Sunny (92% sunshine), 44% cloud, cold and clear, gusts 33 mph",
+      "dinner": "Babo Pasta (Homemade Spinach Pasta)",
+      "dinner_description": "The family signature dish: silky fresh pasta with spinach puree and golden egg yolks, brown butter and Parmesan",
+      "dinner_cuisine": "Italian",
+      "dinner_source_url": "https://www.seriouseats.com/fresh-pasta-recipe",
+      "dinner_key_ingredients": [
+        "00 flour",
+        "egg yolks",
+        "fresh spinach",
+        "Parmigiano-Reggiano",
+        "butter",
+        "garlic"
+      ],
+      "album": "Flogging Molly — Drunken Lullabies",
+      "album_year": "2002",
+      "album_description": "The definitive Irish punk party album. Fiddle-driven energy that is impossible to sit still through.",
+      "album_mood": "Energetic, bittersweet, rebellious, joyful",
+      "album_sonic_description": "Irish folk-punk with fiddle, accordion, banjo, and tin whistle over punk rock rhythms",
+      "album_genre": "Celtic Punk / Folk-Punk",
+      "album_spotify_url": "https://open.spotify.com/album/1h1Grg5u4obJqnYkfSAF24",
+      "album_pairing_rationale": "St. Patrick’s Day demands Irish energy. Flogging Molly fills the house while Elsie helps roll green pasta on the greenest day of the year.",
+      "calendar_items": [
+        "Level 4 Swim Lessons 6:00-6:30 PM (Laura)"
+      ]
+    },
+    {
+      "name": "Wednesday 03/18",
+      "long_name": "Wednesday, March 18",
+      "date": "2026-03-18",
+      "weather": "Overcast, 43°F/27°F, Sunny",
+      "weather_detail": "Sunny (91% sunshine), 64% cloud, coldest night at 27°F, calm 9 mph",
+      "dinner": "Corned Beef and Cabbage with Potatoes and Carrots",
+      "dinner_description": "Salt-cured brisket slow-braised with cabbage wedges, waxy potatoes, and sweet carrots. Served with whole-grain mustard.",
+      "dinner_cuisine": "Irish-American",
+      "dinner_source_url": "https://www.seriouseats.com/corned-beef-and-cabbage-recipe",
+      "dinner_key_ingredients": [
+        "corned beef brisket",
+        "green cabbage",
+        "Yukon Gold potatoes",
+        "carrots",
+        "bay leaves",
+        "mustard seed"
+      ],
+      "album": "Dropkick Murphys — Sing Loud, Sing Proud!",
+      "album_year": "2001",
+      "album_description": "Boston Celtic punk anthems with bagpipes and power chords. Turns any room into a rowdy Irish pub.",
+      "album_mood": "Rowdy, anthemic, celebratory, defiant",
+      "album_sonic_description": "Celtic punk with bagpipes, tin whistles, mandolins over driving punk guitar and thunderous drums",
+      "album_genre": "Celtic Punk",
+      "album_spotify_url": "https://open.spotify.com/album/0it5xHHMsDKINQiqk9BPXG",
+      "album_pairing_rationale": "Irish punk for Irish dinner. Both are proudly working-class, unapologetically loud, and perfect for a cold night.",
+      "calendar_items": [
+        "Early Release — Kiet picks up kids",
+        "Elsie’s Science Potions Camp 3:45-4:45 PM (Laura)",
+        "MTP Sovereign Office Hours 4:10-5:00 PM"
+      ]
+    },
+    {
+      "name": "Thursday 03/19",
+      "long_name": "Thursday, March 19",
+      "date": "2026-03-19",
+      "weather": "Light drizzle, 52°F/33°F, Mostly Sunny",
+      "weather_detail": "Mostly Sunny (84% sunshine), 96% cloud, calm 9 mph",
+      "dinner": "Corned Beef Tacos with Pickled Onions and Mustard Crema",
+      "dinner_description": "Shredded leftover corned beef in flour tortillas with quick-pickled red onions, shredded cabbage, and bright mustard crema",
+      "dinner_cuisine": "Irish-Mexican Fusion",
+      "dinner_source_url": "https://www.bonappetit.com/recipe/corned-beef-tacos",
+      "dinner_key_ingredients": [
+        "leftover corned beef",
+        "flour tortillas",
+        "red onion",
+        "cabbage",
+        "sour cream",
+        "mustard",
+        "lime",
+        "cilantro"
+      ],
+      "album": "Chicano Batman — Freedom Is Free",
+      "album_year": "2017",
+      "album_description": "Psychedelic soul from East LA. Tropicalia, funk, and R&B swirling through a Chicano lens.",
+      "album_mood": "Dreamy, groovy, warm, politically conscious",
+      "album_sonic_description": "Psychedelic soul with vintage organ, smooth bass, funky drums, and falsetto vocals",
+      "album_genre": "Psychedelic Soul / Tropicalia",
+      "album_spotify_url": "https://open.spotify.com/album/0JMT1ksLTpqhfETRvVVzuW",
+      "album_pairing_rationale": "Fusion tacos demand fusion music. Chicano Batman blends Mexican-American soul like the Irish-Mexican mashup on the plate.",
+      "calendar_items": [
+        "Dentist 10:00 AM - 12:00 PM",
+        "Elsie’s Dance Camp 3:45-4:45 PM (Laura)",
+        "1:1 Dan / CJ 3:05-3:30 PM"
+      ]
+    },
+    {
+      "name": "Friday 03/20",
+      "long_name": "Friday, March 20",
+      "date": "2026-03-20",
+      "weather": "Moderate drizzle, 59°F/42°F, Mostly Sunny",
+      "weather_detail": "Mostly Sunny (78% sunshine), 78% cloud, warming up, gusts 32 mph",
+      "dinner": "Big Dinner Salad (Vegetarian Night)",
+      "dinner_description": "Composed dinner salad with roasted chickpeas, avocado, soft-boiled eggs, Parmesan, pepitas, pickled beets, and lemon-tahini dressing",
+      "dinner_cuisine": "American",
+      "dinner_source_url": "https://cookieandkate.com/big-dinner-salad/",
+      "dinner_key_ingredients": [
+        "mixed greens",
+        "chickpeas",
+        "avocado",
+        "soft-boiled eggs",
+        "Parmesan",
+        "pepitas",
+        "pickled beets",
+        "lemon",
+        "tahini"
+      ],
+      "album": "Say She She — Prism",
+      "album_year": "2023",
+      "album_description": "Brooklyn disco-soul trio channeling Chic and Sister Sledge with modern flair.",
+      "album_mood": "Joyful, groovy, empowering, warm",
+      "album_sonic_description": "Vintage disco-soul with lush strings, funky bass, and gorgeous three-part vocal harmonies",
+      "album_genre": "Disco-Soul / Funk",
+      "album_spotify_url": "https://open.spotify.com/album/4UVjPHvQdmznKEHiQPckDY",
+      "album_pairing_rationale": "No school, no rush. Disco grooves match the light, fresh energy of a vegetarian dinner. Dancing in the kitchen.",
+      "calendar_items": [
+        "Elsie No School (all day)",
+        "Rob / Dan Sync 2:35-3:00 PM"
+      ]
+    },
+    {
+      "name": "Saturday 03/21",
+      "long_name": "Saturday, March 21",
+      "date": "2026-03-21",
+      "weather": "Dense drizzle, 60°F/49°F, Sunny",
+      "weather_detail": "Sunny (89% sunshine), 91% cloud, warmest night, gusts 34 mph",
+      "dinner": "Corned Beef Kimchi Fried Rice Bowls",
+      "dinner_description": "Day-old rice stir-fried with leftover corned beef, kimchi, gochujang, and sesame oil, topped with a fried egg",
+      "dinner_cuisine": "Korean Fusion",
+      "dinner_source_url": "https://www.allrecipes.com/recipe/263929/corned-beef-kimchi-fried-rice/",
+      "dinner_key_ingredients": [
+        "leftover corned beef",
+        "day-old rice",
+        "kimchi",
+        "gochujang",
+        "sesame oil",
+        "eggs",
+        "scallions"
+      ],
+      "album": "Hiatus Kaiyote — Love Heart Cheat Code",
+      "album_year": "2024",
+      "album_description": "Melbourne’s genre-defying quartet at their most adventurous. Neo-soul, jazz, electronic, R&B in beautiful collision.",
+      "album_mood": "Adventurous, warm, complex, groove-heavy",
+      "album_sonic_description": "Future soul with intricate polyrhythms, jazz harmony, electronic textures, and acrobatic vocals",
+      "album_genre": "Future Soul / Neo-Soul / Jazz",
+      "album_spotify_url": "https://open.spotify.com/album/2gVb2gKJNqCihVjIjPNqFi",
+      "album_pairing_rationale": "Korean fusion bowls demand genre-fusion music. Hiatus Kaiyote remixes traditions into something entirely new, just like corned beef meets kimchi.",
+      "calendar_items": [
+        "Airbrush Art & Swimming Egg Hunt 9:45 AM - 2:45 PM (bring lunch) (Laura)"
+      ]
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Baba Ganoush",
+      "description": "Smoky roasted eggplant dip with tahini, lemon, and garlic",
+      "source_url": "https://www.seriouseats.com/baba-ganoush-recipe"
+    },
+    {
+      "name": "Irish Cheddar Soda Bread",
+      "description": "Quick-baked soda bread with sharp Irish cheddar and fresh chives",
+      "source_url": "https://www.tasteofhome.com/recipes/irish-soda-bread/"
+    }
+  ],
+  "salads": [
+    {
+      "name": "Winter Citrus & Fennel Salad",
+      "description": "Composed dinner salad with blood oranges, fennel, and pistachios",
+      "dressing": "Blood orange vinaigrette with Dijon, shallot, and honey",
+      "source_url": "https://www.bonappetit.com/recipe/citrus-fennel-salad"
+    },
+    {
+      "name": "Kale Caesar with Sourdough Croutons",
+      "description": "Tossed dinner salad with lacinato kale and anchovy dressing",
+      "dressing": "Classic Caesar with anchovy, garlic, lemon, Dijon, and Parmesan",
+      "source_url": "https://www.seriouseats.com/kale-caesar-salad"
+    },
+    {
+      "name": "Pickled Beet & Goat Cheese Salad",
+      "description": "Side salad with pickled beets, crumbled goat cheese, and arugula",
+      "dressing": "Sherry vinaigrette with Dijon mustard and shallot",
+      "source_url": "https://www.food52.com/recipes/beet-goat-cheese-salad"
+    },
+    {
+      "name": "Carrot-Ginger Slaw",
+      "description": "Crunchy side slaw with shredded carrots, cabbage, and toasted sesame",
+      "dressing": "Ginger-lime dressing with rice vinegar, sesame oil, and honey",
+      "source_url": "https://www.recipetineats.com/asian-slaw/"
+    }
+  ],
+  "beverages": [
+    {
+      "name": "Guinness Extra Stout",
+      "description": "Classic Irish stout, roasty and creamy",
+      "pairing_note": "Essential for St. Patrick’s Day week, perfect with corned beef"
+    },
+    {
+      "name": "Vinho Verde",
+      "description": "Light, slightly effervescent Portuguese white wine",
+      "pairing_note": "Bright acidity cuts through rich pasta and meat dishes"
+    },
+    {
+      "name": "Mint-Cucumber Agua Fresca",
+      "description": "Non-alcoholic refresher with fresh mint, cucumber, and lime",
+      "pairing_note": "Kid-friendly, perfect alongside spicy tacos and kimchi bowls"
+    }
+  ]
+}
