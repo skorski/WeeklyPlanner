@@ -17,8 +17,8 @@
 {# --- Import shared macros --- #}
 {% from "partials/macros.j2" import weather_icon, weather_condition, weather_oneliner, weather_oneliner_print, weather_compact, weather_compact_print %}
 
-{# Page counter: cover=1, glance=2, daily-divider=3, days=4..17, kitchen starts=18 #}
-{% set ns = namespace(pg = 18) %}
+{# Page counter: cover=1, glance=2, daily-divider=3, days=4..31 (7 days × 4 pages), kitchen starts=32 #}
+{% set ns = namespace(pg = 4 + (days | length * 4)) %}
 
 {# ============================================
    PRINT LAYOUT — Booklet pages (hidden on screen)
