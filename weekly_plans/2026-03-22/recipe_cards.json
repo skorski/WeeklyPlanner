@@ -1,0 +1,519 @@
+{
+  "recipe_cards": [
+    {
+      "day": "Sunday",
+      "name": "Grilled Chicken Thighs w/ Tabbouleh, Hummus & Turmeric Rice",
+      "source_url": "https://www.seriouseats.com/the-best-grilled-chicken-thighs-recipe",
+      "source_name": "Serious Eats",
+      "servings": "4",
+      "prep_time": "20 min + 2 hr marinate",
+      "cook_time": "40 min",
+      "nonna_says": "You make the marinade first. Olive oil, soy sauce, garlic, a little brown sugar, smoked paprika, cumin, a squeeze of lemon. Mix it with your hands, not a whisk. Coat those thighs and let them sit in the fridge at least two hours, overnight if you can. Get the grill hot, medium-high, oil the grates. Lay the chicken down and don't you dare touch it for six minutes. Flip once, cook another six. You want char marks and juicy inside, not rubber. While it rests, toss your tabbouleh with more lemon than you think you need. If your hummus came from a plastic tub, I won't say anything, but I'll know.",
+      "variations": [
+        {
+          "name": "Za'atar & Lemon Grilled Chicken",
+          "twist": "Replace the marinade with za'atar, sumac, lemon juice, and olive oil for a tangy, herbal Middle Eastern flavor profile.",
+          "source_url": "https://kalynskitchen.com/grilled-chicken-thighs-with-lemon-zaatar/"
+        },
+        {
+          "name": "Tahini-Honey Grilled Chicken Thighs",
+          "twist": "Marinate in tahini, honey, lemon, and coriander for a creamy, nutty crust that caramelizes beautifully on the grill.",
+          "source_url": "https://www.recipesbydiane.com/grilled-tahini-honey-chicken-thighs/"
+        },
+        {
+          "name": "Sumac & Allspice Palestinian-Style Thighs",
+          "twist": "Season with sumac, Aleppo pepper, allspice, and garlic for a musakhan-inspired warmth, served with pickled onions and charred lemon.",
+          "source_url": "https://www.themediterraneandish.com/sumac-grilled-chicken-thighs/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "Grill to medium-high (400-450F)",
+        "groups": [
+          {
+            "ingredients": [
+              {"qty": "3 tbsp", "item": "olive oil", "prep": ""},
+              {"qty": "3 tbsp", "item": "soy sauce", "prep": ""},
+              {"qty": "3 cloves", "item": "garlic", "prep": "minced"},
+              {"qty": "1 tbsp", "item": "light brown sugar", "prep": ""},
+              {"qty": "1 tbsp", "item": "lemon juice", "prep": ""},
+              {"qty": "1 tbsp", "item": "Dijon mustard", "prep": ""},
+              {"qty": "1 tsp", "item": "smoked paprika", "prep": ""},
+              {"qty": "1/2 tsp", "item": "ground cumin", "prep": ""},
+              {"qty": "1 tsp", "item": "kosher salt", "prep": ""},
+              {"qty": "1/2 tsp", "item": "black pepper", "prep": ""}
+            ],
+            "merge_action": "Whisk into marinade"
+          },
+          {
+            "ingredients": [
+              {"qty": "2.5 lbs", "item": "bone-in, skin-on chicken thighs", "prep": "patted dry"}
+            ],
+            "merge_action": "Coat in marinade, refrigerate 2 hours or overnight"
+          }
+        ],
+        "final_steps": [
+          "Oil grill grates, place chicken skin-side down",
+          "Grill 6-7 min per side undisturbed until charred",
+          "Internal temp 165F, rest 5 min before serving"
+        ]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, prepare the sides:",
+        "groups": [
+          {
+            "ingredients": [
+              {"qty": "1 cup", "item": "bulgur wheat", "prep": "fine"},
+              {"qty": "1 cup", "item": "boiling water", "prep": ""}
+            ],
+            "merge_action": "Pour water over bulgur, cover 15 min, fluff"
+          },
+          {
+            "ingredients": [
+              {"qty": "1 bunch", "item": "flat-leaf parsley", "prep": "finely chopped"},
+              {"qty": "1/2 bunch", "item": "fresh mint", "prep": "finely chopped"},
+              {"qty": "3", "item": "Roma tomatoes", "prep": "diced small"},
+              {"qty": "1", "item": "English cucumber", "prep": "diced small"},
+              {"qty": "3 tbsp", "item": "lemon juice", "prep": ""},
+              {"qty": "3 tbsp", "item": "olive oil", "prep": ""},
+              {"qty": "", "item": "salt and pepper", "prep": "to taste"}
+            ],
+            "merge_action": "Toss vegetables and herbs with dressed bulgur"
+          },
+          {
+            "ingredients": [
+              {"qty": "1.5 cups", "item": "basmati rice", "prep": "rinsed"},
+              {"qty": "2.25 cups", "item": "water", "prep": ""},
+              {"qty": "1 tsp", "item": "turmeric", "prep": ""},
+              {"qty": "2 tbsp", "item": "butter", "prep": ""},
+              {"qty": "1 tsp", "item": "kosher salt", "prep": ""}
+            ],
+            "merge_action": "Toast rice in butter with turmeric 1 min, add water, bring to boil, cover, simmer 15 min"
+          }
+        ],
+        "final_steps": [
+          "Fluff rice with fork",
+          "Plate chicken over turmeric rice with tabbouleh and hummus alongside"
+        ]
+      }
+    },
+    {
+      "day": "Monday",
+      "name": "Corned Beef Hash with Fried Eggs & Toast",
+      "source_url": "https://www.seriouseats.com/the-best-corned-beef-hash-recipe",
+      "source_name": "Serious Eats",
+      "servings": "3-4",
+      "prep_time": "10 min",
+      "cook_time": "25 min",
+      "nonna_says": "Cut the potatoes into little cubes, boil them with vinegar and salt until just tender, and drain them good. Melt butter in your heaviest skillet, medium-high. Soften the onions and peppers first, then add the potatoes and press them flat. Now here's where everybody messes up. Stop. Touching. The. Hash. Let it sit and get crispy on the bottom, five, six minutes. Then fold in the corned beef, press it down again, and let it crust up one more time. Top each plate with a fried egg, runny yolk, and good toast. You earned this breakfast.",
+      "variations": [
+        {
+          "name": "Sweet Potato Corned Beef Hash",
+          "twist": "Swap Yukon Golds for sweet potatoes and add a pinch of chipotle for a smoky-sweet version that's surprisingly addictive.",
+          "source_url": "https://cookcraftandcreate.com/corned-beef-hash-breakfast-ideas/"
+        },
+        {
+          "name": "Cheesy Baked Hash Casserole",
+          "twist": "Transfer the hash to a baking dish, top with cheddar and chives, and bake until bubbly for a crowd-friendly brunch dish.",
+          "source_url": "https://simplychickenrecipe.com/corned-beef-has-recipes/"
+        },
+        {
+          "name": "Kimchi Corned Beef Hash",
+          "twist": "Fold in chopped kimchi and finish with sesame oil and scallions for a Korean-American fusion that wakes everything up.",
+          "source_url": "https://www.tastingtable.com/1775543/ingredients-corned-beef-hash/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {"qty": "1 large", "item": "Yukon Gold potato (13 oz)", "prep": "1/2-inch cubes"},
+              {"qty": "1 tbsp", "item": "distilled white vinegar", "prep": ""},
+              {"qty": "1 tbsp", "item": "kosher salt", "prep": ""},
+              {"qty": "1 quart", "item": "water", "prep": ""}
+            ],
+            "merge_action": "Boil potatoes in vinegar water until just tender (5 min), drain well"
+          },
+          {
+            "ingredients": [
+              {"qty": "2 tbsp", "item": "unsalted butter", "prep": ""},
+              {"qty": "1/2 large", "item": "white onion (3.5 oz)", "prep": "unevenly chopped"},
+              {"qty": "1 medium", "item": "green bell pepper (7 oz)", "prep": "diced"},
+              {"qty": "1/4 tsp", "item": "kosher salt", "prep": ""}
+            ],
+            "merge_action": "Melt butter over medium-high, cook onion and pepper until softened (3-4 min)"
+          },
+          {
+            "ingredients": [
+              {"qty": "8 oz", "item": "cooked corned beef brisket", "prep": "fat trimmed, diced or shredded"}
+            ],
+            "merge_action": "Add drained potatoes, press flat, crisp 6-8 min undisturbed. Fold in corned beef, press flat again, crisp 5 min more."
+          }
+        ],
+        "final_steps": [
+          "Season to taste",
+          "Serve with crispy fried eggs on top",
+          "Toast on the side, hot sauce optional"
+        ]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Tuesday",
+      "name": "Babo Pasta (Homemade Spinach Pasta with Egg Yolks)",
+      "source_url": "https://cookingwithmammac.com/homemade-spinach-pasta-dough/",
+      "source_name": "Cooking with Mamma C",
+      "servings": "4-6",
+      "prep_time": "30 min + 30 min rest",
+      "cook_time": "45 min",
+      "nonna_says": "Thaw your spinach, squeeze every last drop of water out with a towel until your hands are green and tired. Make a mountain of flour with a well in the middle. Crack in the eggs, add the spinach, a pinch of salt, and pull the flour in a little at a time until it becomes a shaggy mess that you knead into silk. Six minutes with the dough hook if you have a mixer, ten by hand. Wrap it up and let it rest, thirty minutes, no peeking. Roll it thin through the machine, cut it however you like, and cook it fresh in boiling salted water for two minutes. Butter, good Parm, maybe some of the pasta water to bring it together. That's Babo Pasta night, and nobody gets to skip it.",
+      "variations": [
+        {
+          "name": "Paglia e Fieno (Straw and Hay Pasta)",
+          "twist": "Make half the batch with regular egg dough and half with spinach, toss both together with peas, prosciutto, and cream sauce.",
+          "source_url": "https://cookingwithmammac.com/paglia-e-fieno-straw-and-hay-pasta/"
+        },
+        {
+          "name": "Spinach Pasta with Walnut Cream Sauce",
+          "twist": "Blend toasted walnuts with garlic, Parm, and cream into a rich, nutty sauce that makes the green pasta sing.",
+          "source_url": "https://cookingwithmammac.com/linguine-with-creamy-walnut-sauce/"
+        },
+        {
+          "name": "Spinach Pasta with Bolognese",
+          "twist": "Pair your green fettuccine with a slow-simmered beef and sausage Bolognese for an Emilia-Romagna classic.",
+          "source_url": "https://cookingwithmammac.com/spaghetti-bolognese/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {"qty": "10 oz", "item": "frozen chopped spinach", "prep": "thawed, drained, squeezed bone-dry"}
+            ],
+            "merge_action": "Microwave 2.5-3 min to thaw, drain, squeeze with towels until no liquid remains"
+          },
+          {
+            "ingredients": [
+              {"qty": "400 g (3 1/3 cups)", "item": "all-purpose flour (King Arthur preferred)", "prep": ""},
+              {"qty": "4", "item": "extra-large eggs", "prep": ""},
+              {"qty": "1 pinch", "item": "salt", "prep": ""}
+            ],
+            "merge_action": "Combine flour, salt, eggs, and dried spinach in mixer with dough hook. Mix on low until combined, knead on speed 2 for 6 min."
+          }
+        ],
+        "final_steps": [
+          "Knead by hand 2 min on floured surface until smooth",
+          "Wrap in plastic, rest 30 min at room temperature",
+          "Cut dough into 4 pieces, roll through pasta machine from widest to setting 4",
+          "Cut into fettuccine or desired shape",
+          "Boil in salted water 2-3 min until tender"
+        ]
+      },
+      "parallel_table": {
+        "note": "While pasta cooks, prepare the sauce:",
+        "groups": [
+          {
+            "ingredients": [
+              {"qty": "4 tbsp", "item": "unsalted butter", "prep": ""},
+              {"qty": "1/2 cup", "item": "reserved pasta water", "prep": "starchy"},
+              {"qty": "1 cup", "item": "Parmigiano-Reggiano", "prep": "freshly grated"},
+              {"qty": "", "item": "black pepper", "prep": "freshly cracked"}
+            ],
+            "merge_action": "Melt butter in large skillet, add pasta water, toss drained pasta, add Parm and pepper, toss until creamy"
+          }
+        ],
+        "final_steps": [
+          "Serve immediately with extra Parm at the table"
+        ]
+      }
+    },
+    {
+      "day": "Wednesday",
+      "name": "Lemon Ricotta Pancakes with Berry Compote",
+      "source_url": "https://www.seriouseats.com/lemon-ricotta-pancakes-recipe",
+      "source_name": "Serious Eats",
+      "servings": "4 (about 12 pancakes)",
+      "prep_time": "15 min",
+      "cook_time": "15 min",
+      "nonna_says": "Whisk the ricotta, milk, egg yolks, melted butter, vanilla, and lemon zest until it's smooth and smells like a good morning. In another bowl, the flour, baking powder, salt, and sugar get a quick mix. Fold the dry into the wet, gently. Now beat those egg whites to stiff peaks and fold them in like you're tucking a baby into bed. That air is everything. Medium-low heat, butter in the pan, quarter cup per pancake. Wait for the bubbles, flip once, don't press down on them. Serve with warm berries and a little powdered sugar if you're feeling fancy. These pancakes are clouds, honey, actual clouds.",
+      "variations": [
+        {
+          "name": "Lemon Poppy Seed Ricotta Pancakes",
+          "twist": "Stir 2 tablespoons of poppy seeds into the batter for a bakery-style crunch that turns brunch into something special.",
+          "source_url": "https://www.loveandlemons.com/lemon-ricotta-pancakes/"
+        },
+        {
+          "name": "Blueberry Ricotta Pancakes",
+          "twist": "Fold a cup of fresh blueberries into the batter for juicy, fruity bursts that turn golden and jammy on the griddle.",
+          "source_url": "https://www.kingarthurbaking.com/recipes/lemon-ricotta-pancakes-recipe"
+        },
+        {
+          "name": "Orange Ricotta Pancakes with Mascarpone",
+          "twist": "Swap lemon zest for orange zest and serve with sweetened whipped mascarpone for an Italian-brunch elevation.",
+          "source_url": "https://www.allrecipes.com/recipe/257657/lemon-ricotta-pancakes/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "Griddle or skillet to medium-low",
+        "groups": [
+          {
+            "ingredients": [
+              {"qty": "1 cup (8 oz)", "item": "whole milk ricotta", "prep": ""},
+              {"qty": "3/4 cup", "item": "whole milk", "prep": ""},
+              {"qty": "4 large", "item": "eggs", "prep": "separated (yolks and whites)"},
+              {"qty": "2 tbsp", "item": "unsalted butter", "prep": "melted"},
+              {"qty": "1/2 tsp", "item": "vanilla extract", "prep": ""},
+              {"qty": "1 tsp", "item": "lemon zest", "prep": "finely grated"}
+            ],
+            "merge_action": "Whisk ricotta, milk, egg yolks, melted butter, vanilla, and zest until smooth"
+          },
+          {
+            "ingredients": [
+              {"qty": "1 cup + 1 tbsp (141 g)", "item": "all-purpose flour", "prep": ""},
+              {"qty": "1 tsp", "item": "baking powder", "prep": ""},
+              {"qty": "1/2 tsp", "item": "kosher salt", "prep": ""},
+              {"qty": "3 tbsp (45 g)", "item": "granulated sugar", "prep": ""}
+            ],
+            "merge_action": "Whisk dry ingredients, fold gently into wet mixture"
+          },
+          {
+            "ingredients": [
+              {"qty": "4", "item": "egg whites (reserved from above)", "prep": "beaten to stiff peaks"}
+            ],
+            "merge_action": "Fold whipped whites into batter in two additions, keeping it light and airy"
+          }
+        ],
+        "final_steps": [
+          "Butter griddle, drop 1/4 cup batter per pancake",
+          "Cook 2-3 min until bubbles form, flip, cook 1-2 min more",
+          "Keep warm in 200F oven while finishing batch"
+        ]
+      },
+      "parallel_table": {
+        "note": "Make the berry compote while pancakes cook:",
+        "groups": [
+          {
+            "ingredients": [
+              {"qty": "2 cups", "item": "mixed berries (blueberries, raspberries, strawberries)", "prep": "fresh or frozen"},
+              {"qty": "2 tbsp", "item": "sugar", "prep": ""},
+              {"qty": "1 tbsp", "item": "lemon juice", "prep": ""},
+              {"qty": "1/4 cup", "item": "water", "prep": ""}
+            ],
+            "merge_action": "Simmer all together in a small saucepan over medium heat 8-10 min, stirring occasionally, until berries burst and sauce thickens"
+          }
+        ],
+        "final_steps": [
+          "Spoon warm compote over pancakes",
+          "Dust with powdered sugar, serve with maple syrup"
+        ]
+      }
+    },
+    {
+      "day": "Thursday",
+      "name": "Chicken & Charred Corn Street Tacos with Elote Crema",
+      "source_url": "https://www.ambitiouskitchen.com/street-corn-chicken-tacos/",
+      "source_name": "Ambitious Kitchen",
+      "servings": "4 (12 tacos)",
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "nonna_says": "Season the chicken thighs with cumin, chili powder, garlic powder, paprika, salt, and a squeeze of lime. Get a cast iron screaming hot with a little oil and sear those thighs until they've got real color, about five minutes a side. While they rest, same pan, throw in the corn kernels and don't stir them for three minutes so they get that black char. Mix your crema: mayo, sour cream, lime juice, chili powder, a clove of garlic grated in. Slice the chicken thin against the grain. Warm your tortillas on the flame, pile them high, drizzle the crema, crumble the cotija, cilantro, done. This is Tuesday night dinner that tastes like a party.",
+      "variations": [
+        {
+          "name": "Al Pastor-Style Chicken Tacos",
+          "twist": "Marinate chicken in adobo, pineapple juice, and guajillo chili for a sweet, smoky al pastor spin with grilled pineapple.",
+          "source_url": "https://www.ambitiouskitchen.com/street-corn-chicken-tacos/"
+        },
+        {
+          "name": "Baja Fish Tacos with Elote Slaw",
+          "twist": "Swap chicken for beer-battered white fish and turn the charred corn into a crunchy slaw with cabbage and lime.",
+          "source_url": "https://www.littlespicejar.com/mexican-street-corn-chicken-tacos/"
+        },
+        {
+          "name": "Chipotle-Lime Chicken Tacos with Avocado Crema",
+          "twist": "Add chipotle peppers to the marinade and blend avocado into the crema for a smoky, creamy, dairy-free alternative.",
+          "source_url": "https://www.recipesbymarilyn.com/chicken-street-tacos/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "Cast iron skillet over high heat",
+        "groups": [
+          {
+            "ingredients": [
+              {"qty": "1.5 lbs", "item": "boneless skinless chicken thighs", "prep": "patted dry"},
+              {"qty": "1 tsp", "item": "ground cumin", "prep": ""},
+              {"qty": "1 tsp", "item": "chili powder", "prep": ""},
+              {"qty": "1/2 tsp", "item": "garlic powder", "prep": ""},
+              {"qty": "1/2 tsp", "item": "smoked paprika", "prep": ""},
+              {"qty": "1 tsp", "item": "kosher salt", "prep": ""},
+              {"qty": "1/2 tsp", "item": "black pepper", "prep": ""},
+              {"qty": "1 tbsp", "item": "olive oil", "prep": ""},
+              {"qty": "1 tbsp", "item": "lime juice", "prep": ""}
+            ],
+            "merge_action": "Rub chicken with spices, oil, and lime. Sear in hot cast iron 5 min per side. Rest 5 min, slice thin against grain."
+          },
+          {
+            "ingredients": [
+              {"qty": "3 ears", "item": "fresh corn", "prep": "kernels cut off (about 2 cups)"},
+              {"qty": "1 tbsp", "item": "olive oil", "prep": ""},
+              {"qty": "pinch", "item": "salt", "prep": ""}
+            ],
+            "merge_action": "Same hot skillet, cook corn undisturbed 3 min until charred, toss and char 2 min more"
+          },
+          {
+            "ingredients": [
+              {"qty": "3 tbsp", "item": "mayonnaise", "prep": ""},
+              {"qty": "3 tbsp", "item": "sour cream", "prep": ""},
+              {"qty": "1 tbsp", "item": "lime juice", "prep": ""},
+              {"qty": "1/2 tsp", "item": "chili powder", "prep": ""},
+              {"qty": "1 clove", "item": "garlic", "prep": "finely grated"},
+              {"qty": "pinch", "item": "salt", "prep": ""}
+            ],
+            "merge_action": "Stir together into elote crema"
+          }
+        ],
+        "final_steps": [
+          "Warm 12 corn tortillas on open flame or dry skillet",
+          "Fill with sliced chicken and charred corn",
+          "Drizzle crema, crumble cotija cheese, top with cilantro and lime wedges"
+        ]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Friday",
+      "name": "Homemade Ricotta-Herb Ravioli with Brown Butter Sage Sauce",
+      "source_url": "https://giadzy.com/blogs/recipes/ricotta-ravioli-with-sage-brown-butter",
+      "source_name": "Giadzy",
+      "servings": "2 (date night)",
+      "prep_time": "45 min + 30 min rest",
+      "cook_time": "30 min",
+      "nonna_says": "Make the dough first. Flour mountain, well in the center, crack in the eggs, olive oil, pinch of salt, and pull the flour in slowly until it comes together. Knead it ten minutes, wrap it, let it rest. For the filling, mix your ricotta with Parm, an egg, parsley, basil, a whisper of nutmeg, salt and pepper. Roll the dough thin, thin, thin through the machine. Spoon little mounds of filling two inches apart, brush water around each one, lay the top sheet, press out the air, and cut. Boil them gently, three minutes, they float when they're done. Brown your butter with whole sage leaves until it smells like heaven and the leaves go crispy. Toss the ravioli in, grate more Parm on top. This is date night. You've earned it.",
+      "variations": [
+        {
+          "name": "Butternut Squash Ravioli with Brown Butter",
+          "twist": "Fill with roasted butternut squash, amaretti crumbs, and nutmeg for a sweet, autumnal ravioli that's pure northern Italy.",
+          "source_url": "https://www.vincenzosplate.com/ravioli-butter-and-sage/"
+        },
+        {
+          "name": "Ricotta Ravioli with Burst Cherry Tomatoes",
+          "twist": "Skip the brown butter and toss ravioli with burst cherry tomatoes, garlic, basil, and olive oil for a lighter, summery finish.",
+          "source_url": "https://dinnerin30.com/brown-butter-sage-ravioli/"
+        },
+        {
+          "name": "Ravioli with Brown Butter, Sage & Hazelnuts",
+          "twist": "Add toasted hazelnuts to the brown butter sage sauce for a nutty crunch that elevates the dish to restaurant territory.",
+          "source_url": "https://www.ice.edu/blog/how-make-homemade-ricotta-ravioli-with-brown-butter-sage-and-hazelnut-sauce"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {"qty": "2 cups", "item": "all-purpose flour (or 00 flour)", "prep": ""},
+              {"qty": "3 large", "item": "eggs", "prep": ""},
+              {"qty": "1 tbsp", "item": "olive oil", "prep": ""},
+              {"qty": "1/2 tsp", "item": "salt", "prep": ""}
+            ],
+            "merge_action": "Form flour well, add eggs/oil/salt, incorporate gradually, knead 8-10 min until smooth and elastic. Wrap, rest 30 min."
+          },
+          {
+            "ingredients": [
+              {"qty": "1 cup", "item": "whole-milk ricotta", "prep": "drained if wet"},
+              {"qty": "1/2 cup", "item": "Parmigiano-Reggiano", "prep": "finely grated"},
+              {"qty": "1", "item": "egg", "prep": ""},
+              {"qty": "2 tbsp", "item": "fresh parsley", "prep": "finely chopped"},
+              {"qty": "1 tbsp", "item": "fresh basil", "prep": "finely chopped"},
+              {"qty": "1/4 tsp", "item": "nutmeg", "prep": "freshly grated"},
+              {"qty": "", "item": "salt and pepper", "prep": "to taste"}
+            ],
+            "merge_action": "Mix filling until just combined, chill 15 min"
+          }
+        ],
+        "final_steps": [
+          "Roll dough thin (second-to-last pasta machine setting)",
+          "Place 1 tbsp filling mounds 2 inches apart, brush water around each",
+          "Top with second sheet, press to seal removing air, cut with wheel or knife",
+          "Boil ravioli in salted water 2-3 min until they float"
+        ]
+      },
+      "parallel_table": {
+        "note": "While ravioli boil, make the sauce:",
+        "groups": [
+          {
+            "ingredients": [
+              {"qty": "8 tbsp (1 stick)", "item": "unsalted butter", "prep": ""},
+              {"qty": "15-20", "item": "fresh sage leaves", "prep": "whole"},
+              {"qty": "2 tbsp", "item": "lemon juice", "prep": "optional, for brightness"},
+              {"qty": "", "item": "salt and pepper", "prep": "to taste"},
+              {"qty": "", "item": "Parmigiano-Reggiano", "prep": "for finishing"}
+            ],
+            "merge_action": "Melt butter over medium heat, add sage, swirl until butter turns golden-brown and sage is crispy (3-4 min). Optional: stir in lemon juice."
+          }
+        ],
+        "final_steps": [
+          "Transfer ravioli directly into brown butter with a spider or slotted spoon",
+          "Toss gently to coat",
+          "Plate and finish with grated Parm and cracked pepper"
+        ]
+      }
+    },
+    {
+      "day": "Saturday",
+      "name": "Udon Soup with Premade Soup Dumplings",
+      "source_url": "https://www.justonecookbook.com/udon-noodle-soup/",
+      "source_name": "Just One Cookbook",
+      "servings": "3-4",
+      "prep_time": "15 min (+ 10 min kombu soak)",
+      "cook_time": "15 min",
+      "nonna_says": "I know, I know, this isn't Italian, but a good broth is a good broth and I respect it. Soak your kombu in cold water ten minutes, then bring it up slow, medium heat, and pull it out right before it boils. Drop in the bonito flakes, let them steep a couple minutes, strain everything out. Now you've got dashi. Add soy sauce, mirin, a little sugar, a pinch of salt. Taste it. It should be clean and savory and warm. Cook your udon, steam your dumplings, put it all in a big bowl, pour the hot broth over. Green onions, a soft egg if you want. Simple things done right, that's what good cooking is.",
+      "variations": [
+        {
+          "name": "Curry Udon Soup",
+          "twist": "Stir Japanese curry roux into the dashi broth for a rich, velvety, warmly spiced soup that's pure comfort food.",
+          "source_url": "https://sudachirecipes.com/authentic-japanese-udon-recipes/"
+        },
+        {
+          "name": "Kimchi Udon Soup",
+          "twist": "Add kimchi, gochujang, and sliced pork to the broth for a spicy Korean-Japanese fusion bowl.",
+          "source_url": "https://chefsbliss.com/udon-soup-recipes/"
+        },
+        {
+          "name": "Miso Butter Udon",
+          "twist": "Whisk white miso and a knob of butter into the broth for a rich, umami-loaded bowl topped with corn and scallions.",
+          "source_url": "https://www.justonecookbook.com/best-authentic-japanese-udon-noodle-recipes/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {"qty": "4 cups", "item": "water", "prep": ""},
+              {"qty": "1 piece (4-5 inches)", "item": "kombu (dried kelp)", "prep": ""},
+              {"qty": "1 cup (loosely packed)", "item": "katsuobushi (bonito flakes)", "prep": ""}
+            ],
+            "merge_action": "Soak kombu in water 10 min. Heat slowly over medium, remove kombu just before boiling. Add bonito flakes, simmer 1-2 min, steep 2-3 min, strain through fine sieve."
+          },
+          {
+            "ingredients": [
+              {"qty": "2 tbsp", "item": "soy sauce (usukuchi preferred)", "prep": ""},
+              {"qty": "2 tbsp", "item": "mirin", "prep": ""},
+              {"qty": "1 tsp", "item": "sugar", "prep": ""},
+              {"qty": "pinch", "item": "salt", "prep": ""}
+            ],
+            "merge_action": "Add seasonings to strained dashi, warm gently over medium-low, adjust to taste"
+          }
+        ],
+        "final_steps": [
+          "Cook udon noodles per package directions, drain",
+          "Steam premade soup dumplings per package directions",
+          "Divide udon among bowls, ladle hot broth over",
+          "Top with soup dumplings, sliced green onions, soft-boiled egg, nori strips"
+        ]
+      },
+      "parallel_table": null
+    }
+  ]
+}

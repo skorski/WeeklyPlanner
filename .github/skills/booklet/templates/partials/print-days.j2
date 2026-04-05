@@ -37,6 +37,7 @@
     <div class="dinner-name">{{ day.dinner }}</div>
     {% if day.dinner_cuisine %}<div class="cuisine-label">{{ day.dinner_cuisine }}</div>{% endif %}
     {% if day.dinner_description %}<div class="dinner-desc">{{ day.dinner_description }}</div>{% endif %}
+    {% if day.restaurant_backstory %}<div class="restaurant-backstory"><strong>The Story:</strong> {{ day.restaurant_backstory }}</div>{% endif %}
     {% if day.dinner_key_ingredients %}
     <div class="ingredients-line">{{ day.dinner_key_ingredients | join(", ") }}</div>
     {% endif %}

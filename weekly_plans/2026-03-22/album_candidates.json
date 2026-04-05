@@ -1,0 +1,744 @@
+[
+  {
+    "artist": "Lettuce",
+    "title": "Unify",
+    "source": "bandcamp",
+    "year": "2022",
+    "description": "Modern funk supergroup delivering groove-heavy, energetic jams. Perfect for a hot Sunday grilling session — this album is pure backyard party fuel with tight horns and slippery bass.",
+    "lyrical_themes": "Unity, groove, community, celebration",
+    "lyrical_story": "Lettuce builds a sonic block party across 12 tracks, moving from laid-back morning grooves to peak-hour funk explosions. The album is an instrumental journey that tells the story of bringing people together through rhythm — each track is a new scene at the cookout.",
+    "mood": "Upbeat, joyful, high-energy, party-ready",
+    "sonic_description": "Horn-driven modern funk with jazz-fusion chops, tight rhythm section, and Parliament-Funkadelic-inspired grooves",
+    "genres": [
+      "Funk",
+      "Jazz-Funk"
+    ],
+    "styles": [
+      "Modern Funk",
+      "Jazz-Funk",
+      "Instrumental Funk"
+    ],
+    "label": "Round Hill Records",
+    "producer": "Lettuce",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Lettuce%20Unify"
+  },
+  {
+    "artist": "El Michels Affair",
+    "title": "Yeti Season",
+    "source": "pitchfork",
+    "year": "2021",
+    "description": "Cinematic soul instrumentals that pair storytelling with groove. Leon Michels crafts a retro-psychedelic world that's perfect for a cozy rainy evening — it pulls you in without putting you to sleep.",
+    "lyrical_themes": "Mystical journeys, noir atmosphere, exploration",
+    "lyrical_story": "Yeti Season follows a mythological expedition through sound — each track is a chapter in a psychedelic adventure, moving from brooding funk to triumphant soul. It's like a Tarantino soundtrack for a film set in 1970s Istanbul.",
+    "mood": "Cinematic, mysterious, groovy, warm",
+    "sonic_description": "Retro-psychedelic soul with Turkish and Middle Eastern influences, heavy bass, vintage keys, and lush string arrangements",
+    "genres": [
+      "Funk",
+      "Soul"
+    ],
+    "styles": [
+      "Psychedelic Soul",
+      "Instrumental",
+      "Cinematic"
+    ],
+    "label": "Big Crown Records",
+    "producer": "Leon Michels",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/El%20Michels%20Affair%20Yeti%20Season"
+  },
+  {
+    "artist": "Vaudou Game",
+    "title": "Otodi",
+    "source": "discogs",
+    "year": "2020",
+    "description": "Togolese Afro-funk band led by Peter Solo, blending West African highlife with James Brown-style funk. Pure rhythmic fire that pairs beautifully with bold, spiced dishes.",
+    "lyrical_themes": "African identity, dance, joy, spiritual celebration",
+    "lyrical_story": "Peter Solo sings about the spirit of Vodun and the power of music to heal and unite. Across the album, he moves from personal devotion to communal celebration, always grounded in the pulse of West African rhythm.",
+    "mood": "Energetic, celebratory, rhythmic, joyful",
+    "sonic_description": "Tight Afro-funk grooves with vintage organ, wah-wah guitar, punchy horns, and hypnotic polyrhythms",
+    "genres": [
+      "Funk",
+      "African"
+    ],
+    "styles": [
+      "Afro-Funk",
+      "Highlife",
+      "Psychedelic"
+    ],
+    "label": "Hot Casa Records",
+    "producer": "Peter Solo",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Vaudou%20Game%20Otodi"
+  },
+  {
+    "artist": "Ibibio Sound Machine",
+    "title": "Pull the Rope",
+    "source": "pitchfork",
+    "year": "2024",
+    "description": "London-based band fusing Nigerian highlife and disco with synth-funk and electro-disco. The result is irresistibly danceable and utterly original — a conversation starter every time.",
+    "lyrical_themes": "Collective strength, identity, heritage, resistance through joy",
+    "lyrical_story": "Frontwoman Eno Williams channels her Nigerian-British identity into an album about pulling together — literally and metaphorically. She sings about community bonds, cultural pride, and finding power in solidarity, all wrapped in euphoric dance music.",
+    "mood": "Euphoric, danceable, powerful, celebratory",
+    "sonic_description": "Electro-disco meets West African highlife, with driving synth bass, Afrobeat percussion, post-punk energy, and soaring vocals",
+    "genres": [
+      "Electronic",
+      "Funk",
+      "African"
+    ],
+    "styles": [
+      "Afro-Funk",
+      "Electro-Disco",
+      "Highlife",
+      "Synth-Funk"
+    ],
+    "label": "Merge Records",
+    "producer": "Hot Chip",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Ibibio%20Sound%20Machine%20Pull%20the%20Rope"
+  },
+  {
+    "artist": "Victoria Monét",
+    "title": "JAGUAR II",
+    "source": "web",
+    "year": "2023",
+    "description": "Grammy-winning neo-soul and R&B powerhouse. This album is pure groove — funky bass, disco strings, and Victoria's silky voice create a sophisticated yet high-energy dinner soundtrack.",
+    "lyrical_themes": "Confidence, romance, empowerment, sensuality, motherhood",
+    "lyrical_story": "Victoria celebrates the full spectrum of womanhood — from the euphoria of new love ('On My Mama') to the vulnerability of motherhood ('Hollywood'). It's a victory lap wrapped in disco-funk, telling the story of a woman who's arrived.",
+    "mood": "Confident, sensual, funky, glamorous",
+    "sonic_description": "Modern R&B with classic funk and disco foundations, lush strings, punchy bass, and immaculate vocal layering",
+    "genres": [
+      "R&B",
+      "Funk",
+      "Pop"
+    ],
+    "styles": [
+      "Neo-Soul",
+      "Disco",
+      "Contemporary R&B"
+    ],
+    "label": "Lovett Music / RCA",
+    "producer": "D'Mile, Victoria Monét",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Victoria%20Monét%20JAGUAR%20II"
+  },
+  {
+    "artist": "Genesis Owusu",
+    "title": "STRUGGLER",
+    "source": "web",
+    "year": "2023",
+    "description": "Australian-Ghanaian artist delivering a genre-smashing mix of dance-punk, funk, and neo-soul. High energy, wildly creative, and guaranteed to get people talking.",
+    "lyrical_themes": "Survival, identity, existential struggle, absurdity, resilience",
+    "lyrical_story": "Genesis Owusu narrates the life of a cockroach surviving the apocalypse — a metaphor for persevering through systemic oppression and personal chaos. Each track is a new survival scenario, moving from frantic punk energy to soulful resolve.",
+    "mood": "Frantic, bold, defiant, exhilarating",
+    "sonic_description": "Dance-punk meets funk and post-punk, with distorted guitars, punchy drums, rap verses, and genre-shifting production",
+    "genres": [
+      "Funk",
+      "Rock",
+      "Hip Hop"
+    ],
+    "styles": [
+      "Dance-Punk",
+      "Funk Rock",
+      "Neo-Soul",
+      "Art Pop"
+    ],
+    "label": "Ourness",
+    "producer": "Andrew Klippel, Genesis Owusu",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Genesis%20Owusu%20STRUGGLER"
+  },
+  {
+    "artist": "Gallant",
+    "title": "Zinc",
+    "source": "web",
+    "year": "2024",
+    "description": "Psychedelic soul with cosmic grooves and emotive falsetto. Gallant pushes R&B into otherworldly territory while keeping the beat locked and the emotion high.",
+    "lyrical_themes": "Transformation, love, cosmic connection, emotional vulnerability",
+    "lyrical_story": "Gallant explores the alchemy of love and self-reinvention. The album arc moves from emotional dissolution to reconstruction, like a phoenix story told through falsetto and synth pads. Each track is a chemical reaction.",
+    "mood": "Cosmic, emotional, groovy, transcendent",
+    "sonic_description": "Psychedelic soul with lush synths, driving drums, falsetto vocals, and experimental production touches",
+    "genres": [
+      "R&B",
+      "Soul"
+    ],
+    "styles": [
+      "Psychedelic Soul",
+      "Alternative R&B",
+      "Neo-Soul"
+    ],
+    "label": "Maison Carnage",
+    "producer": "Gallant, Adrian Younge",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Gallant%20Zinc"
+  },
+  {
+    "artist": "Common",
+    "title": "The Auditorium, Vol. 1",
+    "source": "bandcamp",
+    "year": "2024",
+    "description": "Common over Pete Rock production — golden-age hip-hop with jazzy funk beats and vivid storytelling. Warm, wise, and endlessly re-listenable. Perfect for a contemplative dinner conversation.",
+    "lyrical_themes": "Legacy, community, Black excellence, personal growth, city life",
+    "lyrical_story": "Common reflects on decades of hip-hop culture and personal evolution over Pete Rock's signature soulful loops. He tells stories of Chicago's South Side, fatherhood, and artistic purpose — a wise elder sharing hard-won wisdom.",
+    "mood": "Warm, reflective, groovy, uplifting",
+    "sonic_description": "Classic boom-bap with jazzy soul samples, warm bass, crisp drums, and conscious lyricism",
+    "genres": [
+      "Hip Hop"
+    ],
+    "styles": [
+      "Jazz-Rap",
+      "Conscious Hip Hop",
+      "Boom Bap"
+    ],
+    "label": "Loma Vista",
+    "producer": "Pete Rock",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Common%20The%20Auditorium,%20Vol.%201"
+  },
+  {
+    "artist": "Tyler, The Creator",
+    "title": "Chromakopia",
+    "source": "web",
+    "year": "2024",
+    "description": "Tyler's most mature and funky work — G-funk meets soul meets jazz in a colorful, narrative-driven album. Incredible production and genuine storytelling about fame, family, and identity.",
+    "lyrical_themes": "Fame, legacy, family, racial identity, creativity, fatherhood",
+    "lyrical_story": "Tyler confronts the weight of success and the search for authenticity. His mother narrates interludes as Tyler moves through scenes of luxury, loneliness, and self-discovery. It's a coming-of-age story for someone who's already arrived.",
+    "mood": "Playful, introspective, funky, ambitious",
+    "sonic_description": "Rich, layered production blending G-funk, soul, jazz, and vintage synths with Tyler's dynamic vocal delivery",
+    "genres": [
+      "Hip Hop",
+      "Funk",
+      "Soul"
+    ],
+    "styles": [
+      "Alternative Hip Hop",
+      "G-Funk",
+      "Neo-Soul",
+      "Art Pop"
+    ],
+    "label": "Columbia",
+    "producer": "Tyler, The Creator",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Tyler,%20The%20Creator%20Chromakopia"
+  },
+  {
+    "artist": "Moonchild",
+    "title": "Starfruit",
+    "source": "bandsintown",
+    "year": "2022",
+    "description": "LA-based neo-soul trio with jazz-funk grooves and gorgeous harmonies. Grammy-nominated and perfect for a sophisticated dinner. They're playing Lincoln Theatre in DC on April 4!",
+    "lyrical_themes": "Love, self-worth, Black womanhood, healing, connection",
+    "lyrical_story": "A tribute to Black women in music, Starfruit features collaborations with Lalah Hathaway, Alex Isley, and Rapsody. The album traces a journey from self-doubt to self-love, each guest adding a new chapter of wisdom and warmth.",
+    "mood": "Warm, soulful, uplifting, sophisticated",
+    "sonic_description": "Silky neo-soul with jazzy keys, muted trumpet, warm bass, and Amber Navran's distinctive vocals",
+    "genres": [
+      "R&B",
+      "Soul",
+      "Jazz"
+    ],
+    "styles": [
+      "Neo-Soul",
+      "Jazz-Funk",
+      "Contemporary R&B"
+    ],
+    "label": "Moonchild Music",
+    "producer": "Moonchild",
+    "upcoming_show": "Apr 4, 2026 @ Lincoln Theatre, Washington DC",
+    "spotify_url": "https://open.spotify.com/search/Moonchild%20Starfruit"
+  },
+  {
+    "artist": "The Brook & The Bluff",
+    "title": "Bluebeard",
+    "source": "bandsintown",
+    "year": "2023",
+    "description": "Birmingham indie-soul-rock band with soaring harmonies and heartfelt songwriting. Their sound is warm and inviting — perfect for a spring dinner. Playing 9:30 Club on March 23!",
+    "lyrical_themes": "Growing up, relationships, nostalgia, self-discovery",
+    "lyrical_story": "The band explores the messy terrain of early adulthood — failed relationships, hometown memories, and the bittersweet process of becoming who you are. It's tender without being precious, with enough rock energy to keep it moving.",
+    "mood": "Warm, nostalgic, energetic, hopeful",
+    "sonic_description": "Indie rock with soul and folk influences, rich vocal harmonies, jangly guitars, and driving rhythms",
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "styles": [
+      "Indie Rock",
+      "Indie Soul",
+      "Folk Rock"
+    ],
+    "label": "Independent",
+    "producer": "The Brook & The Bluff",
+    "upcoming_show": "Mar 23, 2026 @ 9:30 Club, Washington DC",
+    "spotify_url": "https://open.spotify.com/search/The%20Brook%20&%20The%20Bluff%20Bluebeard"
+  },
+  {
+    "artist": "The Soul Rebels",
+    "title": "Poetry in Motion",
+    "source": "bandsintown",
+    "year": "2019",
+    "description": "New Orleans brass band meets hip-hop meets funk. Raw energy and irresistible grooves — the kind of music that makes you move even while seated. Playing The Atlantis in DC on March 28!",
+    "lyrical_themes": "New Orleans culture, unity, resilience, celebration",
+    "lyrical_story": "Born from the streets of New Orleans, The Soul Rebels blend second-line brass traditions with hip-hop swagger. This album tells the story of a city that dances through adversity, featuring collaborations that bridge generations of Black music.",
+    "mood": "Explosive, joyful, funky, infectious",
+    "sonic_description": "Brass band funk with hip-hop beats, sousaphone bass lines, trumpet leads, and crowd-moving energy",
+    "genres": [
+      "Funk",
+      "Jazz",
+      "Hip Hop"
+    ],
+    "styles": [
+      "Brass Band",
+      "Jazz-Funk",
+      "Hip Hop"
+    ],
+    "label": "Rounder Records",
+    "producer": "The Soul Rebels",
+    "upcoming_show": "Mar 28, 2026 @ The Atlantis, Washington DC",
+    "spotify_url": "https://open.spotify.com/search/The%20Soul%20Rebels%20Poetry%20in%20Motion"
+  },
+  {
+    "artist": "Orquesta Akokán",
+    "title": "16 Rayos",
+    "source": "bandcamp",
+    "year": "2021",
+    "description": "Cuban big-band mambo and salsa with staggering energy. Recorded in Havana with an 18-piece orchestra, this is the sound of a packed dance floor. Pairs perfectly with bold Latin-inspired dishes.",
+    "lyrical_themes": "Love, Cuban heritage, Afro-Cuban spirituality, dance",
+    "lyrical_story": "The album channels the golden age of Cuban mambo through modern eyes — songs about forbidden love, spiritual devotion, and the electric energy of Havana's dance halls. Every track demands movement.",
+    "mood": "Fiery, passionate, exuberant, rhythmic",
+    "sonic_description": "Full-orchestra Cuban mambo with blazing horns, driving timbales, piano montunos, and powerful vocals",
+    "genres": [
+      "Latin",
+      "Jazz"
+    ],
+    "styles": [
+      "Mambo",
+      "Salsa",
+      "Son",
+      "Afro-Cuban"
+    ],
+    "label": "Daptone Records",
+    "producer": "Jacob Plasse",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Orquesta%20Akokán%2016%20Rayos"
+  },
+  {
+    "artist": "Cimafunk",
+    "title": "El Alimento",
+    "source": "web",
+    "year": "2021",
+    "description": "Afro-Cuban funk sensation blending timba, soul, and funk into something entirely his own. This album is pure joy — the musical equivalent of a vibrant Havana street party.",
+    "lyrical_themes": "Cuban identity, joy, resilience, food as love, community",
+    "lyrical_story": "Cimafunk uses food as a metaphor for cultural nourishment. Each track feeds the listener something different — street-corner funk, family warmth, romantic heat — building a portrait of Cuban life that's irresistible and deeply human.",
+    "mood": "Joyful, funky, infectious, warm",
+    "sonic_description": "Afro-Cuban funk with heavy bass, timba rhythms, soul vocals, and P-Funk-inspired grooves",
+    "genres": [
+      "Funk",
+      "Latin"
+    ],
+    "styles": [
+      "Afro-Cuban Funk",
+      "Timba",
+      "Soul"
+    ],
+    "label": "Sony Music Latin",
+    "producer": "Cimafunk, Jacob Plasse",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Cimafunk%20El%20Alimento"
+  },
+  {
+    "artist": "Mildlife",
+    "title": "Chorus",
+    "source": "discogs",
+    "year": "2024",
+    "description": "Australian jazz-funk outfit pushing into space disco territory. Hypnotic grooves that build and build, perfect for a long dinner where the conversation flows as smoothly as the music.",
+    "lyrical_themes": "Cosmic exploration, collective consciousness, transcendence",
+    "lyrical_story": "Mildlife crafts extended musical journeys that feel like space travel — each track launches from a funky groove into interstellar territory, building tension and release over 7-minute odysseys. It's a trip through the cosmos anchored by a killer rhythm section.",
+    "mood": "Hypnotic, groovy, cosmic, transcendent",
+    "sonic_description": "Space disco meets jazz-funk with analog synths, Krautrock-inspired motorik beats, jazzy flute, and extended improvisations",
+    "genres": [
+      "Electronic",
+      "Funk",
+      "Jazz"
+    ],
+    "styles": [
+      "Space Disco",
+      "Jazz-Funk",
+      "Krautrock",
+      "Neo-Psychedelia"
+    ],
+    "label": "Heavenly Recordings",
+    "producer": "Mildlife",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Mildlife%20Chorus"
+  },
+  {
+    "artist": "Greentea Peng",
+    "title": "MAN MADE",
+    "source": "web",
+    "year": "2021",
+    "description": "UK neo-soul with dub, ragga, and spiritual jazz undertones. Greentea Peng's voice is magnetic, and the grooves are deep and head-nodding. A fresh, unique sound for adventurous listeners.",
+    "lyrical_themes": "Spirituality, social critique, self-knowledge, nature vs. technology",
+    "lyrical_story": "Greentea Peng questions the modern world's disconnection from nature and spirit. She moves from frustrated social commentary to meditative peace, with each track a different lens on what it means to be human in a man-made world.",
+    "mood": "Spiritual, groovy, rebellious, mellow-but-engaging",
+    "sonic_description": "UK neo-soul fused with dub, ragga, jazz, and psychedelia. Deep bass, reggae rhythms, smoky vocals, and live instrumentation",
+    "genres": [
+      "R&B",
+      "Soul",
+      "Reggae"
+    ],
+    "styles": [
+      "Neo-Soul",
+      "Dub",
+      "Reggae",
+      "Psychedelic Soul"
+    ],
+    "label": "EMI / Universal",
+    "producer": "SAMO, Earbuds",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Greentea%20Peng%20MAN%20MADE"
+  },
+  {
+    "artist": "Olivia Dean",
+    "title": "Messy",
+    "source": "web",
+    "year": "2023",
+    "description": "British pop-soul debut that's warm, honest, and effortlessly groovy. Olivia's voice is a gift, and her songwriting is mature beyond her years. A perfect spring dinner companion.",
+    "lyrical_themes": "Young love, friendship, growing pains, London life, family",
+    "lyrical_story": "Olivia paints vivid scenes of her 20s in London — the chaos of new love ('Dive'), the ache of family loss ('The Hardest Part'), and the joy of friendship ('UFO'). It's a coming-of-age story told with remarkable warmth and wit.",
+    "mood": "Warm, honest, breezy, soulful",
+    "sonic_description": "British pop-soul with jazzy piano, upbeat rhythms, horn accents, and a voice that radiates sunshine",
+    "genres": [
+      "Pop",
+      "Soul"
+    ],
+    "styles": [
+      "Pop Soul",
+      "Indie Pop",
+      "Jazz Pop"
+    ],
+    "label": "Island Records",
+    "producer": "Joel Pott",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Olivia%20Dean%20Messy"
+  },
+  {
+    "artist": "Tems",
+    "title": "Born in the Wild",
+    "source": "web",
+    "year": "2024",
+    "description": "Nigerian superstar Tems delivers a deeply soulful Afrobeats album about love, ambition, and spiritual grounding. Her voice is staggering, and the production is lush and rhythmic.",
+    "lyrical_themes": "Self-discovery, love, Nigerian identity, independence, faith",
+    "lyrical_story": "Tems traces her journey from Lagos to global stardom without losing her roots. She sings about romantic longing, spiritual faith, and the wildness of following your own path. It's a declaration of independence wrapped in velvet grooves.",
+    "mood": "Soulful, powerful, warm, rhythmic",
+    "sonic_description": "Afrobeats with R&B soul, layered vocals, West African percussion, and lush modern production",
+    "genres": [
+      "R&B",
+      "African"
+    ],
+    "styles": [
+      "Afrobeats",
+      "Contemporary R&B",
+      "Neo-Soul"
+    ],
+    "label": "RCA / Since '93",
+    "producer": "Tems, GuiltyBeatz",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Tems%20Born%20in%20the%20Wild"
+  },
+  {
+    "artist": "Young Fathers",
+    "title": "Heavy Heavy",
+    "source": "web",
+    "year": "2023",
+    "description": "Edinburgh trio creating a genre-defying explosion of gospel, punk, Afrobeat, and electronica. Every track hits like a freight train of joy. This album will have the whole table talking.",
+    "lyrical_themes": "Identity, fatherhood, resistance, spiritual ecstasy, community",
+    "lyrical_story": "Young Fathers channel the weight of being fathers, immigrants, and artists into music that vibrates with spiritual intensity. The album moves from raw punk energy to gospel transcendence, telling a story of finding light in the heaviness of modern life.",
+    "mood": "Explosive, spiritual, raw, joyful",
+    "sonic_description": "Genre-blending fusion of gospel, Afrobeat, post-punk, and electronica with tribal drums, distorted vocals, and euphoric chanting",
+    "genres": [
+      "Electronic",
+      "Hip Hop",
+      "Rock"
+    ],
+    "styles": [
+      "Art Pop",
+      "Afrobeat",
+      "Gospel",
+      "Post-Punk"
+    ],
+    "label": "Ninja Tune",
+    "producer": "Young Fathers, Tim Deghenghi",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Young%20Fathers%20Heavy%20Heavy"
+  },
+  {
+    "artist": "Adi Oasis",
+    "title": "Lotus Glow",
+    "source": "web",
+    "year": "2023",
+    "description": "Brooklyn-based multi-instrumentalist delivering sultry modern funk and neo-soul. Her bass playing alone is worth the listen, but the songwriting seals the deal. Sophisticated yet groovy.",
+    "lyrical_themes": "Self-empowerment, love, sensuality, growth",
+    "lyrical_story": "Adi Oasis crafts a sonic garden where each song is a different bloom — from the confident strut of the opener to vulnerable late-night confessions. It's the story of a woman finding her power through music, love, and self-expression.",
+    "mood": "Sultry, confident, groovy, lush",
+    "sonic_description": "Modern funk and neo-soul with prominent bass, silky vocals, vintage synths, and disco-inflected production",
+    "genres": [
+      "Funk",
+      "Soul",
+      "R&B"
+    ],
+    "styles": [
+      "Neo-Soul",
+      "Modern Funk",
+      "Disco"
+    ],
+    "label": "Adi Oasis Music",
+    "producer": "Adi Oasis",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Adi%20Oasis%20Lotus%20Glow"
+  },
+  {
+    "artist": "Ghost-Note",
+    "title": "Swagism",
+    "source": "bandcamp",
+    "year": "2019",
+    "description": "Robert Sput Searight (Snarky Puppy) and Nate Werth lead this percussion-driven funk collective. The grooves are impossibly tight, the energy is volcanic, and the global influences make every track an adventure.",
+    "lyrical_themes": "Rhythm as language, global unity, groove, celebration",
+    "lyrical_story": "Ghost-Note uses percussion as storytelling — each track is a conversation between rhythms from different cultures. From West African djembe to New Orleans second-line, the album tells the universal story of humans communicating through drums.",
+    "mood": "Volcanic, percussive, global, exhilarating",
+    "sonic_description": "Percussion-driven funk with world music influences, tight horn arrangements, and polyrhythmic complexity",
+    "genres": [
+      "Funk",
+      "Jazz"
+    ],
+    "styles": [
+      "Percussion Ensemble",
+      "Jazz-Funk",
+      "World Fusion",
+      "Afrobeat"
+    ],
+    "label": "Ropeadope",
+    "producer": "Robert 'Sput' Searight, Nate Werth",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Ghost-Note%20Swagism"
+  },
+  {
+    "artist": "Butcher Brown",
+    "title": "Solar Music",
+    "source": "pitchfork",
+    "year": "2022",
+    "description": "Richmond, VA jazz-funk collective blending hip-hop, neo-soul, and psychedelia. Their live energy translates perfectly to record. A local-ish band with national acclaim.",
+    "lyrical_themes": "Community, cosmic exploration, Black joy, improvisation",
+    "lyrical_story": "Butcher Brown channel the spirit of Sun Ra and Parliament into a modern jazz-funk odyssey. The album moves from earthbound hip-hop grooves to cosmic jazz explorations, telling the story of music as a vehicle for transcendence.",
+    "mood": "Cosmic, funky, free-spirited, adventurous",
+    "sonic_description": "Jazz-funk fusion with hip-hop beats, psychedelic guitar, vintage keys, and improvisational energy",
+    "genres": [
+      "Jazz",
+      "Funk",
+      "Hip Hop"
+    ],
+    "styles": [
+      "Jazz-Funk",
+      "Neo-Soul",
+      "Psychedelic",
+      "Hip Hop"
+    ],
+    "label": "Concord Jazz",
+    "producer": "Butcher Brown",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Butcher%20Brown%20Solar%20Music"
+  },
+  {
+    "artist": "Daniel Villarreal",
+    "title": "Lados B",
+    "source": "bandcamp",
+    "year": "2023",
+    "description": "Chicago percussionist blending cumbia, psychedelic Latin, and jazz into deeply groovy instrumental explorations. A beautiful cultural bridge that pairs perfectly with Latin-inspired dishes.",
+    "lyrical_themes": "Cultural heritage, rhythm, migration, Latin American roots",
+    "lyrical_story": "Villarreal channels his Latin American heritage through Chicago's jazz lens. Each track is a musical journey between worlds — cumbia rhythms meeting jazz improvisation, creating a story of cultural migration told entirely through percussion and melody.",
+    "mood": "Hypnotic, warm, rhythmic, exploratory",
+    "sonic_description": "Cumbia-infused jazz with psychedelic guitar, Latin percussion, ambient textures, and Chicago jazz sensibility",
+    "genres": [
+      "Jazz",
+      "Latin"
+    ],
+    "styles": [
+      "Cumbia",
+      "Jazz-Funk",
+      "Psychedelic",
+      "Latin Jazz"
+    ],
+    "label": "International Anthem",
+    "producer": "Daniel Villarreal",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Daniel%20Villarreal%20Lados%20B"
+  },
+  {
+    "artist": "Cavalier",
+    "title": "Different Type Time",
+    "source": "bandcamp",
+    "year": "2024",
+    "description": "Funk-infused, boom-bap hip-hop with a velvet touch. Cavalier raps with effortless charisma over honey-dripped grooves. A hidden gem for anyone who misses the golden age of hip-hop.",
+    "lyrical_themes": "Legacy, culture, everyday moments, style, heritage",
+    "lyrical_story": "Cavalier moves through scenes of city life with the confidence of someone who knows exactly who they are. He raps about cultural pride, artistic ambition, and the beauty in ordinary moments — a love letter to hip-hop's storytelling tradition.",
+    "mood": "Smooth, confident, nostalgic, funky",
+    "sonic_description": "Boom-bap with funk samples, honeyed basslines, live instrumentation, and charismatic, laid-back vocals",
+    "genres": [
+      "Hip Hop"
+    ],
+    "styles": [
+      "Boom Bap",
+      "Jazz-Rap",
+      "Funk"
+    ],
+    "label": "Backwoodz Studioz",
+    "producer": "Quelle Chris",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Cavalier%20Different%20Type%20Time"
+  },
+  {
+    "artist": "Lalah Hathaway",
+    "title": "VANTABLACK",
+    "source": "web",
+    "year": "2024",
+    "description": "Donny Hathaway's daughter carries forward the soul legacy with a stunning neo-soul record. Her voice is one of the most powerful instruments in modern music — rich, textured, and deeply moving.",
+    "lyrical_themes": "Love, Black identity, resilience, legacy, womanhood",
+    "lyrical_story": "Lalah honors her father's legacy while carving her own path. The album moves from intimate ballads about romantic love to anthemic declarations of Black pride, with her legendary voice — capable of singing two notes at once — as the through-line.",
+    "mood": "Rich, powerful, soulful, intimate",
+    "sonic_description": "Contemporary R&B and neo-soul with lush arrangements, jazz harmonies, and one of the most extraordinary voices in music",
+    "genres": [
+      "R&B",
+      "Soul"
+    ],
+    "styles": [
+      "Neo-Soul",
+      "Contemporary R&B",
+      "Jazz"
+    ],
+    "label": "Hathaway Entertainment",
+    "producer": "Lalah Hathaway",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Lalah%20Hathaway%20VANTABLACK"
+  },
+  {
+    "artist": "Franc Moody",
+    "title": "Into the Ether",
+    "source": "web",
+    "year": "2024",
+    "description": "The family already loves Dream in Colour — this is Franc Moody's follow-up and it's even more danceable. Peppy, dynamic disco-funk with infectious hooks. A guaranteed crowd-pleaser.",
+    "lyrical_themes": "Dancing, romance, nightlife, euphoria, connection",
+    "lyrical_story": "Franc Moody takes listeners on a night out through London's clubs — from the anticipation of getting ready to the euphoria of the dance floor to the tender walk home. It's a love letter to nightlife and human connection through dance.",
+    "mood": "Euphoric, danceable, peppy, dynamic",
+    "sonic_description": "Disco-funk with driving bass, shimmering synths, crisp drums, and irresistible hooks — think Jamiroquai meets Daft Punk",
+    "genres": [
+      "Funk",
+      "Electronic",
+      "Pop"
+    ],
+    "styles": [
+      "Disco",
+      "Nu-Disco",
+      "Synth-Funk",
+      "Indie Dance"
+    ],
+    "label": "Juicebox Recordings",
+    "producer": "Franc Moody",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Franc%20Moody%20Into%20the%20Ether"
+  },
+  {
+    "artist": "Khruangbin",
+    "title": "A La Sala",
+    "source": "web",
+    "year": "2024",
+    "description": "The Houston trio's most intimate album — psychedelic funk, Thai surf rock, and dub grooves blended into something utterly unique. It's laid-back but rhythmic, perfect for a cozy dinner.",
+    "lyrical_themes": "Home, togetherness, cultural fusion, simplicity",
+    "lyrical_story": "Named after their ethos of 'to the living room,' this album celebrates the intimacy of gathering at home. Each track draws from a different global tradition — Thai funk, Mexican cumbia, Ethiopian jazz — creating a musical world tour from your dinner table.",
+    "mood": "Intimate, groovy, worldly, chill-but-rhythmic",
+    "sonic_description": "Psychedelic funk with Thai surf rock, dub bass, clean guitar, and global rhythmic influences",
+    "genres": [
+      "Funk",
+      "Rock"
+    ],
+    "styles": [
+      "Psychedelic Funk",
+      "Dub",
+      "World Fusion",
+      "Surf Rock"
+    ],
+    "label": "Dead Oceans",
+    "producer": "Steve Christensen, Khruangbin",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Khruangbin%20A%20La%20Sala"
+  },
+  {
+    "artist": "Jamila Woods",
+    "title": "Water Made Us",
+    "source": "web",
+    "year": "2023",
+    "description": "Chicago poet and singer crafting exquisite neo-soul about love, Blackness, and the liquid nature of human connection. Rich storytelling, gorgeous production, and a voice that commands attention.",
+    "lyrical_themes": "Love as element, Black womanhood, emotional fluidity, astrology",
+    "lyrical_story": "Jamila uses water as a metaphor for every kind of love — romantic, platonic, self-love, ancestral. Each song explores a different state of emotional 'water' — from the flood of new love to the drought of heartbreak to the calm of self-acceptance.",
+    "mood": "Reflective, warm, poetic, groovy",
+    "sonic_description": "Neo-soul with jazz, funk, and electronic elements, rich textures, and Jamila's distinctively warm, conversational vocals",
+    "genres": [
+      "R&B",
+      "Soul"
+    ],
+    "styles": [
+      "Neo-Soul",
+      "Alternative R&B",
+      "Jazz"
+    ],
+    "label": "Jagjaguwar",
+    "producer": "McClenney",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Jamila%20Woods%20Water%20Made%20Us"
+  },
+  {
+    "artist": "Sheila E.",
+    "title": "The Glamorous Life",
+    "source": "web",
+    "year": "1984",
+    "description": "Prince protégée Sheila E. delivers a percussive funk masterpiece. The title track alone is worth the price of admission — pure 80s funk glamour with enough sophistication for a grown-up Friday night.",
+    "lyrical_themes": "Glamour, nightlife, romance, independence, dance",
+    "lyrical_story": "Sheila tells the story of a woman too fabulous for ordinary life. She moves through scenes of Hollywood glamour and romantic intrigue, but always on her own terms. It's a feminist funk statement wrapped in sequins and timbales.",
+    "mood": "Glamorous, funky, sophisticated, playful",
+    "sonic_description": "80s synth-funk with explosive percussion, Prince-crafted production, pop hooks, and Sheila's powerhouse drumming",
+    "genres": [
+      "Funk",
+      "Pop"
+    ],
+    "styles": [
+      "Synth-Funk",
+      "Minneapolis Sound",
+      "Electro-Funk"
+    ],
+    "label": "Warner Bros.",
+    "producer": "Prince, Sheila E.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Sheila%20E.%20The%20Glamorous%20Life"
+  },
+  {
+    "artist": "Asake",
+    "title": "Work of Art",
+    "source": "web",
+    "year": "2023",
+    "description": "Nigerian Afrobeats superstar blending Fuji music, amapiano, and street-level storytelling. Every track is a banger — the kind of album that makes you want to cook and dance simultaneously.",
+    "lyrical_themes": "Success, hustle, faith, Nigerian street life, celebration",
+    "lyrical_story": "Asake channels the energy of Lagos's street markets into anthemic Afrobeats. He tells stories of hustling, praying, and celebrating — the trilogy of Nigerian street life — with a voice that's both gritty and melodic.",
+    "mood": "Anthemic, infectious, celebratory, street-smart",
+    "sonic_description": "Afrobeats with Fuji music influences, amapiano bass, percussion-heavy production, and chant-like vocal hooks",
+    "genres": [
+      "African",
+      "Pop"
+    ],
+    "styles": [
+      "Afrobeats",
+      "Fuji",
+      "Amapiano"
+    ],
+    "label": "YBNL / Empire",
+    "producer": "Magicsticks",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Asake%20Work%20of%20Art"
+  }
+]

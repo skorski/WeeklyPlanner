@@ -105,7 +105,7 @@ For each day in the plan:
 
 | Section | What to do |
 |---------|------------|
-| `highlight` | **Rewrite.** The cover highlight should be the most compelling sentence in the entire plan. What makes this week special? |
+| `highlight` | **Rewrite.** The cover highlight is the witty one-liner on the cover. It should focus on lessons learned, themes of substance, or a clever observation about the week's deeper meaning. Keep it short (under 15 words), punchy, and almost entirely disconnected from specific food or weather details. Think magazine tagline, not weather report. Examples: "The week we learned that saying no is a complete sentence." / "Seven days of proving the map is not the territory." / "Clarity is just paying attention on purpose." |
 | `notes` | **Enrich.** Add 1-2 editorial notes that tie the week together — a thematic observation, a seasonal insight, a family ritual suggestion. |
 | `nutrition_summary` | **Rewrite.** Turn clinical nutrition data into a friendly, encouraging summary. "Grade: C+" → "This week leans hearty and comforting — which is exactly right for February. Balance it out with..." |
 

@@ -1,0 +1,86 @@
+{
+  "week_range": "March 22 – 28, 2026",
+  "theme": {
+    "title": "What Is Actually Happening",
+    "category": "Clarity",
+    "description": "When the week swings from 84°F to snow, from packed meetings to parents' night out, the mind writes stories faster than the weather changes. The Stoics practiced seeing things as they actually are — stripped of drama, fear, and excitement — and discovering that reality, unembellished, is always manageable."
+  },
+  "anchor_quote": {
+    "text": "Always to define whatever it is we perceive — to trace its outline — so we can see what it really is: its substance. Stripped bare. As a whole. Unmodified.",
+    "source": "Marcus Aurelius",
+    "work": "Meditations",
+    "reference": "3.11 (Gregory Hays translation)"
+  },
+  "introduction": "This week, the weather will do something absurd. Sunday opens at 84 degrees — the kind of warmth that tricks you into thinking summer arrived early. By Friday, it's snowing. Saturday bottoms out at 46. If you tried to plan your wardrobe on Sunday, you'd be wrong by Thursday. If you panicked on Saturday, you'd forget you were in shorts three days ago. The weather, in other words, is doing exactly what the Stoics warned your mind does every day: swinging wildly between impressions that feel permanent but aren't.\n\nMarcus Aurelius, governing an empire through plague and war, returned again and again to a single discipline: see things as they are, not as they appear. In Meditations 3.11, he prescribed a method — define the thing in front of you, trace its outline, strip away everything that doesn't belong to it. A meeting is not an ordeal; it is a conversation with a colleague. A cold snap is not a betrayal of spring; it is 46 degrees. A child's performance is not your anxiety about her performance; it is a girl on a stage, doing her best.\n\nThis week, with Monday packed with meetings and Friday bright with theater and a night out, the opportunities to practice are everywhere. Each day builds on the last: from noticing how quickly the mind embellishes, to testing those impressions, to finally seeing — with steady, clear eyes — what is actually happening. The Stoics didn't promise this would make life easier. They promised it would make life real.",
+  "meditations": [
+    {
+      "day": "Sunday",
+      "title": "The First Impression",
+      "reflection": "The thermometer says 84. The mind says summer. But look closer: the calendar says March 22, the trees are barely budding, and the birds are as confused as you are. Today's practice is simple — notice the gap between what something feels like and what it actually is. Warmth in late March is not summer. It's just warmth.",
+      "prompt": "Step outside and describe the day using only facts — temperature, sounds, what you see. No adjectives like 'beautiful' or 'strange.' Just what is.",
+      "secondary_quote": {
+        "text": "It is not things that disturb us, but our judgments about things.",
+        "source": "Epictetus, Enchiridion 5"
+      }
+    },
+    {
+      "day": "Monday",
+      "title": "The Weight You Added",
+      "reflection": "You have a full afternoon — meetings from three until eight. The mind labels this 'overwhelming' before the first one starts. But strip it bare, as Marcus taught: you will sit in rooms and talk with people. That is all. The overwhelm is not in the calendar. It is in the story you wrote about the calendar.",
+      "prompt": "Before your first meeting, write down what you expect the day to feel like. At night, write what it actually felt like. Compare the two.",
+      "secondary_quote": {
+        "text": "We are more often frightened than hurt; and we suffer more in imagination than in reality.",
+        "source": "Seneca, Letters to Lucilius 13"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "title": "Testing the Impression",
+      "reflection": "Epictetus taught his students a single essential practice: when an impression arrives — a worry, a desire, a judgment — do not accept it immediately. Say to it: 'Wait. Let me see who you are. Let me test you.' This week, the weather tests you with false signals and the calendar tests you with density. Today, practice the pause. One impression at a time.",
+      "prompt": "Choose one moment today when you feel a strong reaction. Before you act, ask: 'Is this the thing itself, or is this my story about the thing?'"
+    },
+    {
+      "day": "Wednesday",
+      "title": "The Bare Facts",
+      "reflection": "Marcus Aurelius had a peculiar habit: he would describe luxuries and pleasures in the plainest terms. Roasted meat is a dead animal. Purple robes are sheep wool dipped in shellfish blood. Not to drain the joy from life, but to see it clearly. Today, practice his method on something that worries you. Describe it in the simplest possible terms. Watch the worry shrink.",
+      "prompt": "Take one thing that's been on your mind — a deadline, a conversation, a decision. Write it in one plain sentence, as Marcus would. No drama. Just what it is.",
+      "secondary_quote": {
+        "text": "Objective judgment, now, at this very moment. Unselfish action, now, at this very moment. Willing acceptance — now, at this very moment — of all external events. That's all you need.",
+        "source": "Marcus Aurelius, Meditations 6.13"
+      }
+    },
+    {
+      "day": "Thursday",
+      "title": "Seeing the Quarter End",
+      "reflection": "Tomorrow is the last day of the third quarter. Elsie comes home early. A season of school — tests, friendships, routines — wraps up quietly. The mind wants to rush to evaluate: was it good? Was it enough? The Stoic slows down. Before you judge a thing, see it clearly. What actually happened these last ten weeks? Not the grade, not the worry — the actual days, the small growth, the effort given.",
+      "prompt": "At dinner, each person shares one fact about this past quarter — something they actually did, not how they feel about it. One concrete fact each."
+    },
+    {
+      "day": "Friday",
+      "title": "Clear Joy",
+      "reflection": "Clarity isn't only for hard things. Today, Elsie performs at YAT. Tonight, the parents go out. The temptation is to rush through joy — to photograph it instead of seeing it, to already be thinking about tomorrow's cold snap. The Stoic sees joy clearly: not clinging to it, not fearing its end, but being fully present to its actual texture. What does Elsie's face look like when she steps onto the stage? What does a quiet dinner with your partner actually feel like?",
+      "prompt": "During one good moment today, stop and describe it to yourself in real time, like a slow-motion replay. Don't caption it for anyone. Just watch.",
+      "secondary_quote": {
+        "text": "True happiness is to enjoy the present, without anxious dependence upon the future.",
+        "source": "Seneca, De Vita Beata 15"
+      }
+    },
+    {
+      "day": "Saturday",
+      "title": "Snow in Spring",
+      "reflection": "Yesterday was theater and warmth. Today, 46 degrees and the possibility of snow. The mind says 'this shouldn't be happening in late March.' But the weather doesn't consult your preferences. This is the week's final lesson: reality is not obligated to match your expectations. When you see things clearly — this is cold, this is Saturday, this is a day — there is nothing to resist. There is only what is.",
+      "prompt": "Spend two minutes outside in the cold. Don't call it 'miserable' or 'refreshing.' Just feel it. Notice what your mind adds, and gently set those additions aside."
+    }
+  ],
+  "family_exercise": {
+    "title": "The Fact Game",
+    "description": "After dinner one evening this week, go around the table. Each person describes their day using only facts — no feelings, no judgments, no 'good' or 'bad.' Just what happened. 'I woke up at 7. I ate toast. I had a math test. I talked to my friend.' Then discuss: what did your mind want to add? What's the difference between the facts and the story you tell about them?",
+    "connection": "Marcus Aurelius practiced this daily in his private journal — defining things by their substance, stripped of embellishment. He used this method as his primary tool for maintaining clarity under the immense pressure of governing the Roman Empire."
+  },
+  "young_stoic": {
+    "title": "The Inside Weather Report",
+    "prompt": "Imagine you're a weather reporter, but instead of the weather outside, you're reporting on the weather inside your head. Try it: 'Currently, there's a small storm of nervousness about my play. Partly cloudy with some excitement about getting out of school early. Light winds of wondering what's for dinner.' When you describe your feelings like weather, they feel less scary — because weather always passes.",
+    "lesson": "The Stoics believed that our feelings are like clouds — they drift in, they look big, but they always move on. You don't have to believe everything a cloud tells you. You can just watch it pass."
+  },
+  "closing_thought": "The world will do what it does — swing from warm to cold, from busy to still, from worry to joy. Your only task is to see each thing for what it actually is. Not what it threatens to be, not what you wish it were. Just what it is. That is enough. That has always been enough."
+}

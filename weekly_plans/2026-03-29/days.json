@@ -1,0 +1,315 @@
+{
+  "plan_title": "Spring Break Family Plan",
+  "week_range": "March 29 – April 4, 2026",
+  "family_message": "Cherry blossoms, a new house to dream about, and a Cleveland adventure. Spring break is here!",
+  "school_note": "Spring Break — no school Mon–Fri!",
+  "days": [
+    {
+      "name": "Sun 03/29",
+      "long_name": "Sunday, March 29",
+      "date": "2026-03-29",
+      "dinner": "Sausage & Gravy with Pasta",
+      "dinner_cuisine": "Italian-American",
+      "dinner_description": "Classic Italian-American Sunday gravy with sausage over pasta — the kind of slow-simmered tomato sauce that fills the house with warmth on a cool spring evening.",
+      "dinner_source_url": "https://www.bonappetit.com/recipe/orecchiette-with-sausage-and-peas",
+      "dinner_source_name": "Bon Appétit",
+      "dinner_key_ingredients": [
+        "Italian sausage",
+        "crushed tomatoes",
+        "garlic",
+        "basil",
+        "red pepper flakes",
+        "pasta",
+        "Parmesan"
+      ],
+      "album": "Stevie Wonder – Songs in the Key of Life",
+      "album_artist": "Stevie Wonder",
+      "album_title": "Songs in the Key of Life",
+      "album_year": "1976",
+      "album_genre": "Soul / Funk / Pop",
+      "album_mood": "Joyous, spiritual, warm, profound, celebratory",
+      "album_description": "Widely considered the greatest album ever made. A sprawling, joyous masterwork that covers love, justice, spirituality, and everything in between — with grooves that never quit.",
+      "album_sonic_description": "Expansive soul-funk-pop with Stevie's multi-instrumental genius — harmonica, Clavinet, synthesizers, gospel choirs, and grooves that range from intimate to anthemic",
+      "album_pairing_rationale": "Sunday comfort food deserves the warmest album ever made. Stevie's soulful grooves are the musical equivalent of sausage gravy — rich, satisfying, and universally loved.",
+      "album_spotify_url": "https://open.spotify.com/album/7CHbtqCFJhRwQ6I3Smf74c",
+      "weather": "Sunny, 62°F/30°F",
+      "weather_detail": "Sunny — 94% sunshine, 1% precip, 14 mph wind (gusts to 25 mph)",
+      "calendar_items": [
+        "Cherry blossom visit at the Tidal Basin"
+      ],
+      "day_intro": ""
+    },
+    {
+      "name": "Mon 03/30",
+      "long_name": "Monday, March 30",
+      "date": "2026-03-30",
+      "dinner": "Babo Pasta",
+      "dinner_cuisine": "Italian",
+      "dinner_description": "Intimate homemade pasta night — a simple, elegant Italian dish that lets the ingredients shine. Perfect for a cozy evening after a big day of house viewing.",
+      "dinner_source_url": "",
+      "dinner_source_name": "",
+      "dinner_key_ingredients": [
+        "pasta",
+        "garlic",
+        "olive oil",
+        "Parmesan",
+        "fresh herbs",
+        "butter"
+      ],
+      "album": "Silk Sonic – An Evening with Silk Sonic",
+      "album_artist": "Silk Sonic",
+      "album_title": "An Evening with Silk Sonic",
+      "album_year": "2021",
+      "album_genre": "Retro Soul / Funk",
+      "album_mood": "Smooth, flirtatious, warm, playful, nostalgic",
+      "album_description": "Bruno Mars and Anderson .Paak's retro-soul love letter is pure dinner-table gold — every track is a singalong waiting to happen. Fun, funky, and impossibly charming.",
+      "album_sonic_description": "Lush retro soul with Motown strings, funky bass, crisp drum breaks, velvet harmonies, and production that sounds like a lost 1970s masterpiece",
+      "album_pairing_rationale": "Intimate Italian pasta calls for smooth, flirtatious grooves. Silk Sonic's velvet harmonies are the perfect soundtrack for a quiet evening at home.",
+      "album_spotify_url": "https://open.spotify.com/album/4VZ7jhV0wHpoNPCB7Vmiml",
+      "weather": "Slight rain, 73°F/50°F",
+      "weather_detail": "Cloudy — 20% sunshine, 42% precip, 15 mph wind (gusts to 32 mph)",
+      "calendar_items": [
+        "House viewing at 4:00 PM",
+        "MTP Sovereign Staff Meeting 4:10-5:00 PM"
+      ],
+      "day_intro": ""
+    },
+    {
+      "name": "Tue 03/31",
+      "long_name": "Tuesday, March 31",
+      "date": "2026-03-31",
+      "dinner": "Grilled Chicken",
+      "dinner_cuisine": "American",
+      "dinner_description": "Simple grilled chicken — the first real spring grilling day with sunshine and 79°F. Quick and easy before swim lessons.",
+      "dinner_source_url": "",
+      "dinner_source_name": "",
+      "dinner_key_ingredients": [
+        "chicken breasts or thighs",
+        "olive oil",
+        "lemon",
+        "garlic",
+        "herbs",
+        "salt",
+        "pepper"
+      ],
+      "album": "Jungle – Loving in Stereo",
+      "album_artist": "Jungle",
+      "album_title": "Loving in Stereo",
+      "album_year": "2021",
+      "album_genre": "Modern Disco-Funk",
+      "album_mood": "Euphoric, sun-drenched, optimistic, danceable",
+      "album_description": "Modern soul-funk collective from London. Jungle delivers danceable joy with sonic sophistication — the sound of stepping back into the sunshine after a long winter.",
+      "album_sonic_description": "Modern disco-funk with falsetto vocals, retro synths, punchy brass, four-on-the-floor drums, and wall-to-wall groove",
+      "album_pairing_rationale": "Sunny 79°F grilling weather meets sun-drenched disco-funk. Jungle's breezy optimism is the sound of spring finally arriving.",
+      "album_spotify_url": "https://open.spotify.com/album/1hykVcbmenjAoG7wwoXmCV",
+      "weather": "Sunny, 79°F/59°F",
+      "weather_detail": "Sunny — 97% sunshine, 20% precip, 15 mph wind (gusts to 35 mph)",
+      "calendar_items": [
+        "1:1 meetings 2:50-4:30 PM",
+        "Elsie's Level 4 Swim Lessons 6:00-6:30 PM (2310 Colts Neck Rd, Reston)"
+      ],
+      "day_intro": ""
+    },
+    {
+      "name": "Wed 04/01",
+      "long_name": "Wednesday, April 1",
+      "date": "2026-04-01",
+      "dinner": "Pizza",
+      "dinner_cuisine": "Italian-American",
+      "dinner_description": "Homemade pizza night — everyone picks their toppings. A relaxed midweek dinner for the warmest day of the week so far.",
+      "dinner_source_url": "",
+      "dinner_source_name": "",
+      "dinner_key_ingredients": [
+        "pizza dough",
+        "mozzarella",
+        "tomato sauce",
+        "toppings of choice",
+        "olive oil",
+        "basil"
+      ],
+      "album": "Parliament – Mothership Connection",
+      "album_artist": "Parliament",
+      "album_title": "Mothership Connection",
+      "album_year": "1975",
+      "album_genre": "P-Funk",
+      "album_mood": "Euphoric, cosmic, absurdist, celebratory",
+      "album_description": "George Clinton's P-Funk motherlode. Sci-fi funk mythology, some of the heaviest grooves ever recorded, and lyrics that'll have the whole table laughing and dancing.",
+      "album_sonic_description": "Deep, heavy P-Funk with Bootsy Collins' rubbery bass, layered synthesizers, tight horn charts, and George Clinton's wild vocal performances",
+      "album_pairing_rationale": "Pizza night is casual and fun — Parliament brings the cosmic party energy. Bootsy's bass is the perfect soundtrack for rolling dough and arguing about toppings.",
+      "album_spotify_url": "https://open.spotify.com/album/7qqcE5xC5YISPxoC4Q302Z",
+      "weather": "Slight rain showers, 81°F/61°F",
+      "weather_detail": "Sunny — 96% sunshine, 67% precip, 15 mph wind (gusts to 35 mph)",
+      "calendar_items": [
+        "Relaxed day",
+        "1:1 Suhani 9:20 AM"
+      ],
+      "day_intro": ""
+    },
+    {
+      "name": "Thu 04/02",
+      "long_name": "Thursday, April 2",
+      "date": "2026-04-02",
+      "dinner": "Waffles",
+      "dinner_cuisine": "American",
+      "dinner_description": "Breakfast for dinner! Crispy waffles with all the fixings. Another house viewing today keeps the excitement building — waffles are the perfect low-effort reward after a big day.",
+      "dinner_source_url": "",
+      "dinner_source_name": "",
+      "dinner_key_ingredients": [
+        "waffle batter",
+        "eggs",
+        "butter",
+        "maple syrup",
+        "fresh berries",
+        "whipped cream"
+      ],
+      "album": "Prince – Sign 'O' the Times",
+      "album_artist": "Prince",
+      "album_title": "Sign 'O' the Times",
+      "album_year": "1987",
+      "album_genre": "Funk / Rock / Pop / Soul",
+      "album_mood": "Eclectic, passionate, funky, socially aware, joyful",
+      "album_description": "Prince's double-album masterpiece — 80 minutes of funk, rock, soul, and pop from the most prolific genius in music history. Every track hits different; every groove is flawless.",
+      "album_sonic_description": "Genre-omnivorous — Minneapolis funk, psychedelic rock, electronic pop, gospel soul, and stripped-down balladry, all played almost entirely by Prince himself",
+      "album_pairing_rationale": "Breakfast for dinner is gloriously eclectic — just like Prince. His joyful party energy ('Housequake') matches the playful chaos of waffles at dinnertime.",
+      "album_spotify_url": "https://open.spotify.com/album/2z1LzgfxxN3E5dkVUNfN6H",
+      "weather": "Light drizzle, 82°F/63°F",
+      "weather_detail": "Sunny — 96% sunshine, 66% precip, 14 mph wind (gusts to 31 mph)",
+      "calendar_items": [
+        "House viewing #2",
+        "Free day (Spring Break)"
+      ],
+      "day_intro": ""
+    },
+    {
+      "name": "Fri 04/03",
+      "long_name": "Friday, April 3",
+      "date": "2026-04-03",
+      "dinner": "Good Pizza (Cleveland)",
+      "dinner_cuisine": "NY-Style Pizza",
+      "dinner_description": "Flying to Cleveland! Dinner at Good Pizza — NY-style slices on E 4th Street. The Spicy Vodka pie ($26) is the hit, plus Margherita ($24) and Pepperoni with hot honey ($28). Casual, 4.8★, open till 10 PM. Don't skip the Cheesy Bread Loaf ($14.85) and Classic Tiramisu ($5.85).",
+      "dinner_source_url": "https://goodpizzacleveland.com",
+      "dinner_source_name": "Good Pizza Cleveland",
+      "dinner_key_ingredients": [
+        "Spicy Vodka pie",
+        "Margherita",
+        "Pepperoni with hot honey",
+        "Cheesy Bread Loaf",
+        "Classic Tiramisu"
+      ],
+      "album": "The Soul Rebels – Poetry in Motion",
+      "album_artist": "The Soul Rebels",
+      "album_title": "Poetry in Motion",
+      "album_year": "2019",
+      "album_genre": "Brass Funk / Hip-Hop",
+      "album_mood": "Jubilant, energetic, celebratory, defiant joy",
+      "album_description": "New Orleans brass band that fuses hip-hop, funk, and soul into a high-energy brass party. Playing the 9:30 Club this week — perfect timing to discover them at dinner, then catch them live.",
+      "album_sonic_description": "Brass-heavy funk with hip-hop beats, call-and-response vocals, New Orleans second-line rhythms layered with modern production",
+      "album_pairing_rationale": "Travel day energy needs a brass band. The Soul Rebels' jubilant New Orleans funk is the perfect soundtrack for landing in a new city and hunting down great pizza.",
+      "album_spotify_url": "https://open.spotify.com/album/2ogO7VuKYuRMqsC1d7lbYs",
+      "weather": "Light drizzle, 77°F/64°F",
+      "weather_detail": "Sunny — 94% sunshine, 39% precip, 13 mph wind (gusts to 32 mph)",
+      "calendar_items": [
+        "Flying to Cleveland!",
+        "Dinner at Good Pizza (2057 E 4th St, Cleveland, OH 44115) — open Fri 11 AM–10 PM, (216) 400-9333"
+      ],
+      "day_intro": ""
+    },
+    {
+      "name": "Sat 04/04",
+      "long_name": "Saturday, April 4",
+      "date": "2026-04-04",
+      "dinner": "Savage Burger (Cleveland)",
+      "dinner_cuisine": "American Smash Burgers",
+      "dinner_description": "Exploring Cleveland! Dinner at Savage Burger — legendary smash burgers with Cajun fries and signature \"savage sauce.\" Try the Classic Savage, Hawaiian Savage, or Super Savage. Open till midnight. Beyond Burger available for plant-based option.",
+      "dinner_source_url": "https://savage-burger-cleveland.cloveronline.com",
+      "dinner_source_name": "Savage Burger Cleveland",
+      "dinner_key_ingredients": [
+        "Classic Savage Burger",
+        "Super Savage",
+        "Cajun fries",
+        "Savage Fries",
+        "savage sauce",
+        "tater tots"
+      ],
+      "album": "Kaytranada – BUBBA",
+      "album_artist": "Kaytranada",
+      "album_title": "BUBBA",
+      "album_year": "2019",
+      "album_genre": "Electronic / House / R&B",
+      "album_mood": "Sensual, groovy, sophisticated, nocturnal cool",
+      "album_description": "Haitian-Canadian producer who makes house music that bumps and grooves like nothing else. A dinner party staple that bridges hip-hop, R&B, and electronic dance music.",
+      "album_sonic_description": "Housey electronic production with deep bass, syncopated rhythms, R&B vocal features, and impossibly smooth transitions between tracks",
+      "album_pairing_rationale": "Exploring a new city at night calls for groovy, nocturnal beats. Kaytranada's sophisticated cool matches the adventure of discovering Cleveland's best smash burgers.",
+      "album_spotify_url": "https://open.spotify.com/album/73cx7CQjHEROjjzUGP3UpQ",
+      "weather": "Light drizzle, 80°F/62°F",
+      "weather_detail": "Sunny — 98% sunshine, 44% precip, 12 mph wind (gusts to 26 mph)",
+      "calendar_items": [
+        "Exploring Cleveland!",
+        "Dinner at Savage Burger (4259 Fulton Rd, Cleveland, OH 44144) — open Sat 11 AM–12 AM, (216) 415-5114"
+      ],
+      "day_intro": ""
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Whipped Feta Dip with Roasted Spring Radishes & Honey",
+      "description": "Creamy whipped feta served with honey-roasted radishes and warm pita",
+      "source_url": "https://www.bonappetit.com/recipe/whipped-feta-with-olives"
+    },
+    {
+      "name": "Vietnamese Fresh Spring Rolls with Peanut-Hoisin Dipping Sauce",
+      "description": "Rice paper rolls with shrimp, herbs, vermicelli, and peanut dipping sauce",
+      "source_url": "https://www.seriouseats.com/vietnamese-spring-rolls-with-peanut-sauce-recipe"
+    }
+  ],
+  "salads": [
+    {
+      "name": "Green Goddess Salad with Herbs & Cashew Dressing",
+      "salad_type": "tossed_dinner",
+      "description": "Hearty tossed salad with green goddess dressing made from herbs and cashews",
+      "dressing": "Green goddess dressing with avocado, herbs, lemon",
+      "source_url": "https://www.tasteofhome.com/article/green-goddess-salad/"
+    },
+    {
+      "name": "Spring Niçoise Salad with Seared Tuna, Asparagus & Radishes",
+      "salad_type": "composed_dinner",
+      "description": "Classic composed salad with seared tuna, eggs, olives, potatoes, asparagus, and radishes",
+      "dressing": "Dijon vinaigrette",
+      "source_url": "https://www.seriouseats.com/classic-salade-nicoise-recipe"
+    },
+    {
+      "name": "Shaved Asparagus & Pea Shoot Salad with Lemon-Parmesan Vinaigrette",
+      "salad_type": "side",
+      "description": "Raw shaved asparagus and pea shoots with lemon, Parmesan, and olive oil",
+      "dressing": "Lemon-Parmesan vinaigrette",
+      "source_url": "https://www.loveandlemons.com/asparagus-salad/"
+    },
+    {
+      "name": "Quick-Pickled Radish & Cucumber Salad with Sesame-Ginger Dressing",
+      "salad_type": "side",
+      "description": "Quick-pickled radishes and cucumbers with sesame and rice vinegar",
+      "dressing": "Rice vinegar sesame-ginger dressing",
+      "source_url": "https://food52.com/recipes/80043-japanese-cucumber-salad"
+    }
+  ],
+  "beverages": [
+    {
+      "name": "Albariño (Rías Baixas White Wine)",
+      "description": "Crisp Spanish white wine — citrus and stone fruit",
+      "pairing_note": "Perfect with grilled chicken and seafood-adjacent dishes",
+      "source_url": "https://www.winemag.com/buying-guide/?varietal=Albarino"
+    },
+    {
+      "name": "Hefeweizen (Bavarian Wheat Beer)",
+      "description": "German wheat beer — banana and clove notes",
+      "pairing_note": "Great with pizza and waffles (breakfast beer!)",
+      "source_url": "https://www.beeradvocate.com/beer/styles/89/"
+    },
+    {
+      "name": "Cucumber-Mint Agua Fresca",
+      "description": "Refreshing non-alcoholic cooler with cucumber, mint, and lime",
+      "pairing_note": "Kid-friendly, pairs with everything spring",
+      "source_url": "https://www.bonappetit.com/recipe/cucumber-agua-fresca"
+    }
+  ]
+}

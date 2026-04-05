@@ -225,6 +225,170 @@
 
 {% endif -%}
 
+{% if parenting_data -%}
+## Parenting Corner — {{ parenting_data.weekly_theme.title | default("This Week") }}
+
+{% if parenting_data.weekly_theme.description %}{{ parenting_data.weekly_theme.description }}{% endif %}
+
+### Dinner Conversation Starters
+
+| Day | Dinner | Question |
+|-----|--------|----------|
+{% for q in parenting_data.dinner_questions -%}
+| {{ q.day }} | {{ q.dinner | default("—") }} | {{ q.question }} |
+{% endfor %}
+
+{% if parenting_data.nudges -%}
+### Parenting Nudges
+{% for n in parenting_data.nudges %}
+**{{ n.title }}** — {{ n.context | default("") }}
+{{ n.suggestion | default("") }}
+{% if n.how_to -%}
+{% for step in n.how_to %}- {{ step }}
+{% endfor %}
+{% endif -%}
+{% endfor %}
+{% endif -%}
+
+{% if parenting_data.recommendation -%}
+### 📚 Recommendation: *{{ parenting_data.recommendation.title }}* by {{ parenting_data.recommendation.author | default("") }}
+
+{{ parenting_data.recommendation.why | default("") }}
+{% endif -%}
+
+{% if parenting_data.parent_reflection -%}
+
+### 💭 Parent Reflection
+
+*{{ parenting_data.parent_reflection }}*
+{% endif -%}
+
+---
+
+{% endif -%}
+
+{% if stoic_data -%}
+## Stoic Guide — {{ stoic_data.theme.title | default("Weekly Reflection") }}
+
+*Category: {{ stoic_data.theme.category | default("") }}*
+
+{% if stoic_data.anchor_quote -%}
+> "{{ stoic_data.anchor_quote.text }}"
+> — {{ stoic_data.anchor_quote.source }}, *{{ stoic_data.anchor_quote.work }}* {{ stoic_data.anchor_quote.reference }}
+{% endif %}
+
+{% if stoic_data.introduction %}{{ stoic_data.introduction }}{% endif %}
+
+{% for m in stoic_data.meditations -%}
+### {{ m.day }} — {{ m.title }}
+
+{{ m.reflection }}
+
+{% if m.prompt %}**Journal prompt:** {{ m.prompt }}{% endif %}
+
+{% if m.secondary_quote -%}
+> "{{ m.secondary_quote.text }}"
+> — {{ m.secondary_quote.source }}
+{% endif %}
+
+{% endfor -%}
+
+{% if stoic_data.family_exercise -%}
+### 👨‍👩‍👧 Family Exercise: {{ stoic_data.family_exercise.title }}
+
+{{ stoic_data.family_exercise.description }}
+
+*{{ stoic_data.family_exercise.connection }}*
+{% endif %}
+
+{% if stoic_data.young_stoic -%}
+### 🧒 For the Young Stoic: {{ stoic_data.young_stoic.title }}
+
+{{ stoic_data.young_stoic.prompt }}
+
+*{{ stoic_data.young_stoic.lesson }}*
+{% endif %}
+
+{% if stoic_data.closing_thought -%}
+**Closing thought:** *{{ stoic_data.closing_thought }}*
+{% endif %}
+
+---
+
+{% endif -%}
+
+{% if principles_data -%}
+## Principles for Living — {{ principles_data.theme.title | default("Weekly Theme") }}
+
+{% if principles_data.anchor_quote -%}
+> "{{ principles_data.anchor_quote.text }}"
+> — {{ principles_data.anchor_quote.source }}, *{{ principles_data.anchor_quote.work }}* {{ principles_data.anchor_quote.reference | default("") }}
+{% endif %}
+
+{% if principles_data.introduction %}{{ principles_data.introduction }}{% endif %}
+
+{% for entry in principles_data.daily_entries -%}
+### {{ entry.day }} — {{ entry.title }}
+
+{{ entry.essay }}
+
+{% if entry.reflection_prompt %}**Reflect:** *{{ entry.reflection_prompt }}*{% endif %}
+
+{% endfor -%}
+
+{% if principles_data.closing_line -%}
+**Closing:** *{{ principles_data.closing_line }}*
+{% endif %}
+
+---
+
+{% endif -%}
+
+{% if child_wisdom -%}
+## Bedtime Story — {{ child_wisdom.title | default("This Week's Tale") }}
+
+*{{ child_wisdom.reading_time | default("3-5 minutes") }} read · Theme: {{ child_wisdom.theme | default("") }}*
+
+{{ child_wisdom.story }}
+
+**Life lesson:** *{{ child_wisdom.life_lesson | default("") }}*
+
+{% if child_wisdom.discussion_prompt -%}
+**Discussion:** {{ child_wisdom.discussion_prompt }}
+{% endif %}
+
+---
+
+{% endif -%}
+
+{% if newsletter_data and newsletter_data.total_articles > 0 -%}
+## The Weekly Read — {{ newsletter_data.week_range | default("") }}
+
+{% for cluster in newsletter_data.clusters -%}
+### {{ cluster.theme }}
+
+{{ cluster.synthesis }}
+
+{% for a in cluster.articles -%}
+- **{{ a.title }}** — {{ a.one_liner }}
+{% endfor %}
+
+{% endfor -%}
+
+{% if newsletter_data.reflections %}{{ newsletter_data.reflections }}{% endif %}
+
+{% if newsletter_data.fun_section -%}
+### {{ newsletter_data.fun_section.title | default("And Finally…") }}
+
+{{ newsletter_data.fun_section.content }}
+
+*Source: [{{ newsletter_data.fun_section.source_name }}]({{ newsletter_data.fun_section.source_url }})*
+{% endif %}
+
+---
+
+{% endif -%}
+
 {% if notes -%}
 ## Additional Notes
 

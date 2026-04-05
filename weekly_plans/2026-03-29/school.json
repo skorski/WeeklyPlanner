@@ -1,0 +1,30 @@
+{
+  "no_school": [
+    {
+      "date": "2026-03-30",
+      "reason": "Spring Break",
+      "type": "holiday"
+    },
+    {
+      "date": "2026-03-31",
+      "reason": "Spring Break",
+      "type": "holiday"
+    },
+    {
+      "date": "2026-04-01",
+      "reason": "Spring Break",
+      "type": "holiday"
+    },
+    {
+      "date": "2026-04-02",
+      "reason": "Spring Break",
+      "type": "holiday"
+    },
+    {
+      "date": "2026-04-03",
+      "reason": "Spring Break",
+      "type": "holiday"
+    }
+  ],
+  "early_release": []
+}

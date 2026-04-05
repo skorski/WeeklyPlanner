@@ -1,0 +1,72 @@
+[
+  {
+    "day": "Sunday",
+    "date": "03/22",
+    "album": "Lettuce — Unify",
+    "album_year": "2022",
+    "album_label": "Round Hill Records",
+    "album_spotify_url": "https://open.spotify.com/search/Lettuce%20Unify",
+    "album_sonic_style": "Horn-driven modern funk with jazz-fusion chops, tight rhythm section, and Parliament-Funkadelic grooves",
+    "album_match_reason": "A sonic block party for an 84°F grilling day. Lettuce builds from laid-back morning grooves to peak-hour funk explosions — the perfect arc for firing up the grill, eating tabbouleh in the sun, and dancing on the patio. Instrumental, so everyone can talk over it without competing with lyrics."
+  },
+  {
+    "day": "Monday",
+    "date": "03/23",
+    "album": "Common — The Auditorium, Vol. 1",
+    "album_year": "2024",
+    "album_label": "Loma Vista",
+    "album_spotify_url": "https://open.spotify.com/search/Common%20The%20Auditorium,%20Vol.%201",
+    "album_sonic_style": "Classic boom-bap with jazzy soul samples, warm bass, crisp drums, and conscious lyricism",
+    "album_match_reason": "Pete Rock's soulful loops wrap around you like a blanket on a rainy day dropping from 66° to 36°. Common tells stories of Chicago's South Side, fatherhood, and decades of hip-hop wisdom — cozy, warm, and full of conversation starters over corned beef hash. A wise-elder album for a hunker-down night."
+  },
+  {
+    "day": "Tuesday",
+    "date": "03/24",
+    "album": "Lalah Hathaway — VANTABLACK",
+    "album_year": "2024",
+    "album_label": "Hathaway Entertainment",
+    "album_spotify_url": "https://open.spotify.com/search/Lalah%20Hathaway%20VANTABLACK",
+    "album_sonic_style": "Contemporary R&B and neo-soul with lush arrangements, jazz harmonies, and one of the most extraordinary voices in music",
+    "album_match_reason": "Babo pasta night is a family ritual, and Lalah Hathaway — daughter of Donny — makes music about legacy, love, and carrying family traditions forward. Her voice is intimate enough for a cold 49°F evening around the table but powerful enough to stop everyone mid-bite. Soulful warmth for a soulful meal."
+  },
+  {
+    "day": "Wednesday",
+    "date": "03/25",
+    "album": "Olivia Dean — Messy",
+    "album_year": "2023",
+    "album_label": "Island Records",
+    "album_spotify_url": "https://open.spotify.com/search/Olivia%20Dean%20Messy",
+    "album_sonic_style": "British pop-soul with jazzy piano, upbeat rhythms, horn accents, and a voice that radiates sunshine",
+    "album_match_reason": "Breakfast for dinner calls for breezy, lighthearted energy — and Olivia Dean paints vivid scenes of London life with the warmth of a pancake stack. She sings about the chaos of new love, the joy of friendship, and family loss with infectious honesty. Every track is a conversation starter. Perfect 59°F moderate-day whimsy."
+  },
+  {
+    "day": "Thursday",
+    "date": "03/26",
+    "album": "Cimafunk — El Alimento",
+    "album_year": "2021",
+    "album_label": "Sony Music Latin",
+    "album_spotify_url": "https://open.spotify.com/search/Cimafunk%20El%20Alimento",
+    "album_sonic_style": "Afro-Cuban funk with heavy bass, timba rhythms, soul vocals, and P-Funk-inspired grooves",
+    "album_match_reason": "'El Alimento' means 'The Food' — Cimafunk uses food as a metaphor for cultural nourishment, making this the destiny album for street taco night. Afro-Cuban funk with P-Funk swagger brings the festive 67°F spring energy. Every track feeds you something different: street-corner funk, family warmth, romantic heat. Lively and infectious."
+  },
+  {
+    "day": "Friday",
+    "date": "03/27",
+    "album": "Sheila E. — The Glamorous Life",
+    "album_year": "1984",
+    "album_label": "Warner Bros.",
+    "album_spotify_url": "https://open.spotify.com/search/Sheila%20E.%20The%20Glamorous%20Life",
+    "album_sonic_style": "80s synth-funk with explosive percussion, Prince-crafted production, pop hooks, and powerhouse drumming",
+    "album_match_reason": "Date night making ravioli with snow falling outside deserves glamour. Prince-crafted synth-funk with Sheila's explosive percussion is sophisticated enough for adults only but funky enough to dance around the kitchen. A feminist funk statement wrapped in pure joy — the kind of album that makes rolling pasta feel like a scene from a movie."
+  },
+  {
+    "day": "Saturday",
+    "date": "03/28",
+    "album": "El Michels Affair — Yeti Season",
+    "album_year": "2021",
+    "album_label": "Big Crown Records",
+    "album_spotify_url": "https://open.spotify.com/search/El%20Michels%20Affair%20Yeti%20Season",
+    "album_sonic_style": "Retro-psychedelic soul with Turkish and Middle Eastern influences, heavy bass, vintage keys, and lush strings",
+    "album_match_reason": "A mythological expedition through sound for a 46°F evening of udon soup and dumplings. Each track is a chapter — brooding funk to triumphant soul — like a Tarantino soundtrack for a far-away adventure. The Turkish and Middle Eastern influences create a rich, cinematic warmth that pairs beautifully with steaming bowls. Contemplative but groovy enough to keep everyone engaged."
+  }
+]
