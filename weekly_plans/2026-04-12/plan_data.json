@@ -100,28 +100,29 @@
       "name": "Mon 04/13",
       "long_name": "Monday, April 13",
       "date": "2026-04-13",
-      "dinner": "Grilled Chicken Thighs with Lemon and Herbs",
-      "dinner_cuisine": "Mediterranean",
-      "dinner_description": "Expertly marinated bone-in chicken thighs prepared on Sunday with lemon, olive oil, garlic, and fresh herbs. After two days absorbing all that flavor, they go straight on a two-zone grill until charred and juicy with crispy skin.",
-      "dinner_source_url": "https://food52.com/recipes/27499-how-to-grill-chicken",
-      "dinner_source_name": "Food52",
+      "dinner": "Corned Beef Hash with Yellow Potatoes",
+      "dinner_cuisine": "American",
+      "dinner_description": "Crispy golden corned beef hash with Yukon Gold potatoes, pan-fried in cast iron until deeply crusty. Crowned with fried eggs.",
+      "dinner_source_url": "https://www.seriouseats.com/corned-beef-hash-recipe",
+      "dinner_source_name": "Serious Eats",
       "dinner_key_ingredients": [
-        "chicken thighs (bone-in)",
-        "lemon",
-        "olive oil",
-        "garlic",
-        "fresh herbs"
+        "corned beef",
+        "Yukon Gold potatoes",
+        "yellow onion",
+        "butter",
+        "eggs",
+        "parsley"
       ],
-      "album": "Vulfpeck – The Beautiful Game",
-      "album_artist": "Vulfpeck",
-      "album_title": "The Beautiful Game",
-      "album_year": "2016",
-      "album_genre": "Minimalist Funk",
-      "album_mood": "Joyful, quirky, infectious",
-      "album_description": "Minimalist funk with maximum joy. Irresistibly catchy, quirky, and family-friendly.",
-      "album_sonic_description": "Minimalist funk, low-volume aesthetic, tight bass and drums, playful keys, occasional vocals",
-      "album_pairing_rationale": "Fun, catchy Vulfpeck grooves for a simple weeknight grill — both are unpretentious and delicious.",
-      "album_spotify_url": "https://open.spotify.com/album/0fMXx9FHWM0LarKmjmLq1P",
+      "album": "Tom Misch – Geography",
+      "album_artist": "Tom Misch",
+      "album_title": "Geography",
+      "album_year": "2018",
+      "album_genre": "Jazz-Pop / Soul",
+      "album_mood": "Warm, breezy, sophisticated",
+      "album_description": "South London producer-guitarist creates jazzy, soulful grooves that are sophisticated yet accessible.",
+      "album_sonic_description": "Jazz-inflected guitar pop, soul vocals, electronic beats, warm bass, London-scene production",
+      "album_pairing_rationale": "Breezy and warm — the perfect soundtrack for Dad picking up Elsie and making a cozy hash together.",
+      "album_spotify_url": "https://open.spotify.com/album/28NhpLGQBp8VEGxFfLqhfP",
       "weather": "Cloudy, 82F/58F",
       "weather_detail": "Cloudy — 35% sunshine, 9% precip, 18 mph wind (gusts to 33 mph)",
       "calendar_items": [
@@ -149,52 +150,51 @@
       ],
       "dinner_elevation_tips": [
         {
-          "type": "Marinades & Brines",
+          "type": "Texture Play",
           "title": "",
-          "instruction": "These thighs have been marinating since Sunday — two full days in a mixture of ½ cup full-fat Greek yogurt, zest of 2 lemons, 4 smashed garlic cloves, 2 tablespoons olive oil, 1 teaspoon cumin, 1 teaspoon smoked paprika, and a big pinch of salt. The yogurt has been tenderizing them beautifully. Just pull them from the fridge 30 minutes before grilling to take the chill off, then straight onto a medium-high two-zone grill."
+          "instruction": "The cardinal rule of hash: DO NOT STIR. Get your cast-iron skillet ripping hot with a mix of butter and oil. Spread the potato-and-corned-beef mixture in an even layer and press it down firmly with a spatula. Let it sit untouched for 5-6 minutes until the bottom develops a dark, crackling crust. Flip in sections (not all at once) and repeat."
         },
         {
           "type": "Acid & Brightness",
           "title": "",
-          "instruction": "While the chicken thighs rests, make a 2-minute salsa verde: roughly chop a big handful each of parsley and mint, mix with 2 tablespoons capers (chopped), 1 minced garlic clove, juice of 1 lemon, red pepper flakes, and enough olive oil to make it spoonable. Spoon it over the carved chicken thighs at the table."
+          "instruction": "Top each serving with a fried egg (crispy edges, runny yolk) and a generous spoonful of quick-pickled red onions: thinly slice 1 red onion, toss with ½ cup apple cider vinegar, 1 tablespoon sugar, and a pinch of salt. Let sit 20 minutes while you cook. The pink, tangy onions cut right through the richness."
         },
         {
-          "type": "Temperature Contrast",
+          "type": "Preparation Upgrade",
           "title": "",
-          "instruction": "Serve the chicken thighs hot off the grill but pair it with a cold, crunchy shaved fennel and arugula salad dressed with lemon juice, olive oil, shaved Parmesan, and flaky salt."
+          "instruction": "Par-boil the yellow potatoes (cut into ½-inch cubes) for exactly 6 minutes — until a knife meets slight resistance. Drain and let them steam dry in the colander for 5 minutes. The roughed-up edges from the parboil will crisp beautifully in the skillet."
         }
       ],
       "dinner_question": {
         "day": "Monday",
-        "dinner": "Grilled Chicken Thighs",
+        "dinner": "Corned Beef Hash with Yellow Potatoes",
         "question": "We're listening to Vulfpeck tonight — they're a band that started by making super short, silly songs in a basement. What's something you started small that turned into something bigger than you expected?",
         "follow_up": "If you could start any tiny project this week — even something goofy — what would it be?",
         "connection_to_theme": "Small beginnings growing into something real. Seeds don't start big. Reinforces that what matters is starting, not knowing the ending."
       },
-      "dinner_notes": "Thighs were marinated on Sunday — just pull from the fridge and grill. No additional prep needed.",
       "recipe_card": {
-        "source_url": "https://food52.com/recipes/27499-how-to-grill-chicken",
+        "source_url": "https://www.seriouseats.com/corned-beef-hash-recipe",
         "source_name": "",
-        "prep_time": "15 min + 2 hr marinate",
+        "prep_time": "15 min",
         "cook_time": "25 min",
         "servings": 4,
-        "nonna_says": "Whisk the olive oil, lemon juice, lemon zest, garlic, and all those beautiful herbs together. Toss the chicken in there and let it sit in the fridge for two hours. No more than that or the lemon makes it mushy. Set up your grill with two zones, hot side and cool side. Sear the chicken skin-side down on the hot side until you get good color, then move it to the cool side and close the lid. Let it cook through gently, about 20 minutes, until the juices run clear. Thighs and drumsticks are forgiving, which is why I like them. Squeeze more lemon on top before you serve. Even your eight-year-old will eat this without complaining.",
-        "engineer_table_html": "<table class=\"engineer-table\">\n  <tr><th>Ingredient</th><th>Prep</th><th>Step 1: Marinate</th><th>Step 2: Sear</th><th>Step 3: Indirect</th><th>Step 4: Serve</th></tr>\n  <tr><td>Chicken pieces</td><td>Pat dry</td><td>Coat in</td></tr>\n  <tr><td>Olive oil</td><td>marinade</td></tr>\n  <tr><td>Lemon juice + zest</td><td>Juice, zest</td><td>2 hours max</td><td>Squeeze more</td></tr>\n  <tr><td>Garlic</td><td>Mince</td><td>in marinade</td></tr>\n  <tr><td>Rosemary + oregano</td><td>Chop</td><td>in marinade</td></tr>\n  <tr><td>Thyme</td><td>Strip leaves</td><td>in marinade</td></tr>\n  <tr><td>Red pepper flakes</td><td>in marinade</td></tr>\n  <tr><td>Grill (two-zone)</td><td>Hot side 5 min</td><td>Cool side 20 min</td></tr>\n  <tr><td>Parsley</td><td>Chop</td><td>Garnish</td></tr>\n</table>",
+        "nonna_says": "Cut your Yukon Golds into half-inch cubes and parboil them with a splash of vinegar and salt until just barely tender, about four minutes. Drain them and let them dry out. Melt butter in your biggest cast iron pan over medium-high heat. Cook the onions and peppers until they soften and start to brown. Add the potatoes and let them get golden and crispy, turning them every few minutes. Now fold in the shredded corned beef, press everything flat, and leave it alone. That's the secret, don't fiddle with it. Let the bottom get a dark, gorgeous crust, then stir and press again. Fry your eggs and set them right on top. The runny yolk is the sauce and I won't hear otherwise.",
+        "engineer_table_html": "<table class=\"engineer-table\">\n  <tr><th>Ingredient</th><th>Prep</th><th>Step 1: Parboil</th><th>Step 2: Saute</th><th>Step 3: Crisp</th><th>Step 4: Hash</th><th>Step 5: Serve</th></tr>\n  <tr><td>Yukon Gold potatoes</td><td>Cube 1/2-inch</td><td>Boil 4 min</td><td>Add, brown 8 min</td></tr>\n  <tr><td>White vinegar</td><td>Add to water</td></tr>\n  <tr><td>Butter</td><td>Melt in CI pan</td></tr>\n  <tr><td>Yellow onion</td><td>Chop unevenly</td><td>Cook 6 min</td></tr>\n  <tr><td>Bell pepper</td><td>Dice</td><td>Cook with onion</td></tr>\n  <tr><td>Corned beef</td><td>Shred by hand</td><td>Fold in, press</td></tr>\n  <tr><td>Eggs</td><td>Fry, place on top</td></tr>\n  <tr><td>Parsley</td><td>Chop</td><td>Garnish</td></tr>\n</table>",
         "variations": [
           {
-            "name": "Spatchcock Lemon Herb Chicken",
-            "twist": "Remove the backbone from a whole chicken, lay flat, and grill for even cooking and maximum crispy skin with the same lemon-herb marinade.",
-            "source_url": "https://somuchfoodblog.com/spatchcocked-grilled-lemon-chicken/"
+            "name": "Sweet Potato Corned Beef Hash",
+            "twist": "Swap Yukon Golds for sweet potatoes and add smoked paprika. The natural sweetness caramelizes beautifully in cast iron.",
+            "source_url": "https://craveworthynutrition.com/5-delicious-corned-beef-hash-variations"
           },
           {
-            "name": "Yogurt-Marinated Lemon Herb Chicken",
-            "twist": "Replace olive oil with Greek yogurt in the marinade. The lactic acid tenderizes the chicken for an incredibly juicy, tangy result.",
-            "source_url": "https://cravingsomethinghealthy.com/yogurt-marinated-chicken/"
+            "name": "Kimchi Corned Beef Hash",
+            "twist": "Fold in chopped kimchi near the end of cooking for a spicy, tangy, umami-packed fusion hash. Finish with sesame oil and scallions.",
+            "source_url": "https://simplyfamilyrecipes.com/corned-beef-hash-recipes/"
           },
           {
-            "name": "Za'atar Grilled Chicken",
-            "twist": "Swap rosemary and oregano for za'atar spice blend (thyme, sumac, sesame). Serve with lemon-herb yogurt sauce for a Middle Eastern twist.",
-            "source_url": "https://finefoodsblog.com/grilled-zaatar-chicken-with-lemon-herb-yogurt-sauce/"
+            "name": "Mexican-Style Corned Beef Hash",
+            "twist": "Add cumin, chili powder, black beans, and corn. Top with pico de gallo, cilantro, and sour cream. Serve with warm tortillas.",
+            "source_url": "https://www.tasteofhome.com/recipes/easy-corned-beef-hash/"
           }
         ]
       }
@@ -325,29 +325,28 @@
       "name": "Wed 04/15",
       "long_name": "Wednesday, April 15",
       "date": "2026-04-15",
-      "dinner": "Corned Beef Hash with Yellow Potatoes",
-      "dinner_cuisine": "American",
-      "dinner_description": "Crispy golden corned beef hash with Yukon Gold potatoes, pan-fried in cast iron until deeply crusty. Crowned with fried eggs.",
-      "dinner_source_url": "https://www.seriouseats.com/corned-beef-hash-recipe",
-      "dinner_source_name": "Serious Eats",
+      "dinner": "Grilled Chicken Thighs with Lemon and Herbs",
+      "dinner_cuisine": "Mediterranean",
+      "dinner_description": "Expertly marinated bone-in chicken thighs prepared on Sunday with lemon, olive oil, garlic, and fresh herbs. After two days absorbing all that flavor, they go straight on a two-zone grill until charred and juicy with crispy skin.",
+      "dinner_source_url": "https://food52.com/recipes/27499-how-to-grill-chicken",
+      "dinner_source_name": "Food52",
       "dinner_key_ingredients": [
-        "corned beef",
-        "Yukon Gold potatoes",
-        "yellow onion",
-        "butter",
-        "eggs",
-        "parsley"
+        "chicken thighs (bone-in)",
+        "lemon",
+        "olive oil",
+        "garlic",
+        "fresh herbs"
       ],
-      "album": "Tom Misch – Geography",
-      "album_artist": "Tom Misch",
-      "album_title": "Geography",
-      "album_year": "2018",
-      "album_genre": "Jazz-Pop / Soul",
-      "album_mood": "Warm, breezy, sophisticated",
-      "album_description": "South London producer-guitarist creates jazzy, soulful grooves that are sophisticated yet accessible.",
-      "album_sonic_description": "Jazz-inflected guitar pop, soul vocals, electronic beats, warm bass, London-scene production",
-      "album_pairing_rationale": "Breezy and warm — the perfect soundtrack for Dad picking up Elsie and making a cozy hash together.",
-      "album_spotify_url": "https://open.spotify.com/album/28NhpLGQBp8VEGxFfLqhfP",
+      "album": "Vulfpeck – The Beautiful Game",
+      "album_artist": "Vulfpeck",
+      "album_title": "The Beautiful Game",
+      "album_year": "2016",
+      "album_genre": "Minimalist Funk",
+      "album_mood": "Joyful, quirky, infectious",
+      "album_description": "Minimalist funk with maximum joy. Irresistibly catchy, quirky, and family-friendly.",
+      "album_sonic_description": "Minimalist funk, low-volume aesthetic, tight bass and drums, playful keys, occasional vocals",
+      "album_pairing_rationale": "Fun, catchy Vulfpeck grooves for a simple weeknight grill — both are unpretentious and delicious.",
+      "album_spotify_url": "https://open.spotify.com/album/0fMXx9FHWM0LarKmjmLq1P",
       "weather": "Sunny, 87F/65F",
       "weather_detail": "Sunny — 96% sunshine, 11% precip, 9 mph wind (gusts to 20 mph)",
       "calendar_items": [
@@ -375,54 +374,55 @@
       ],
       "dinner_elevation_tips": [
         {
-          "type": "Texture Play",
+          "type": "Marinades & Brines",
           "title": "",
-          "instruction": "The cardinal rule of hash: DO NOT STIR. Get your cast-iron skillet ripping hot with a mix of butter and oil. Spread the potato-and-corned-beef mixture in an even layer and press it down firmly with a spatula. Let it sit untouched for 5-6 minutes until the bottom develops a dark, crackling crust. Flip in sections (not all at once) and repeat."
+          "instruction": "These thighs have been marinating since Sunday — two full days in a mixture of ½ cup full-fat Greek yogurt, zest of 2 lemons, 4 smashed garlic cloves, 2 tablespoons olive oil, 1 teaspoon cumin, 1 teaspoon smoked paprika, and a big pinch of salt. The yogurt has been tenderizing them beautifully. Just pull them from the fridge 30 minutes before grilling to take the chill off, then straight onto a medium-high two-zone grill."
         },
         {
           "type": "Acid & Brightness",
           "title": "",
-          "instruction": "Top each serving with a fried egg (crispy edges, runny yolk) and a generous spoonful of quick-pickled red onions: thinly slice 1 red onion, toss with ½ cup apple cider vinegar, 1 tablespoon sugar, and a pinch of salt. Let sit 20 minutes while you cook. The pink, tangy onions cut right through the richness."
+          "instruction": "While the chicken thighs rests, make a 2-minute salsa verde: roughly chop a big handful each of parsley and mint, mix with 2 tablespoons capers (chopped), 1 minced garlic clove, juice of 1 lemon, red pepper flakes, and enough olive oil to make it spoonable. Spoon it over the carved chicken thighs at the table."
         },
         {
-          "type": "Preparation Upgrade",
+          "type": "Temperature Contrast",
           "title": "",
-          "instruction": "Par-boil the yellow potatoes (cut into ½-inch cubes) for exactly 6 minutes — until a knife meets slight resistance. Drain and let them steam dry in the colander for 5 minutes. The roughed-up edges from the parboil will crisp beautifully in the skillet."
+          "instruction": "Serve the chicken thighs hot off the grill but pair it with a cold, crunchy shaved fennel and arugula salad dressed with lemon juice, olive oil, shaved Parmesan, and flaky salt."
         }
       ],
       "dinner_question": {
         "day": "Wednesday",
-        "dinner": "Corned Beef Hash",
+        "dinner": "Grilled Chicken Thighs with Lemon and Herbs",
         "question": "Corned beef hash is basically leftovers turned into something new and delicious. What's something old or leftover in your life that you could remix into something cool?",
         "follow_up": "Tom Misch — the guy we're listening to — literally remixes other people's songs into new ones. If you could remix one thing about your week so far, what would you change?",
         "connection_to_theme": "Transformation and making the best of what you have. When life gives you uncertainty, you remix. You don't need a brand-new ingredient — sometimes the best thing comes from working with what's already in front of you."
       },
       "recipe_card": {
-        "source_url": "https://www.seriouseats.com/corned-beef-hash-recipe",
+        "source_url": "https://food52.com/recipes/27499-how-to-grill-chicken",
         "source_name": "",
-        "prep_time": "15 min",
+        "prep_time": "15 min + 2 hr marinate",
         "cook_time": "25 min",
         "servings": 4,
-        "nonna_says": "Cut your Yukon Golds into half-inch cubes and parboil them with a splash of vinegar and salt until just barely tender, about four minutes. Drain them and let them dry out. Melt butter in your biggest cast iron pan over medium-high heat. Cook the onions and peppers until they soften and start to brown. Add the potatoes and let them get golden and crispy, turning them every few minutes. Now fold in the shredded corned beef, press everything flat, and leave it alone. That's the secret, don't fiddle with it. Let the bottom get a dark, gorgeous crust, then stir and press again. Fry your eggs and set them right on top. The runny yolk is the sauce and I won't hear otherwise.",
-        "engineer_table_html": "<table class=\"engineer-table\">\n  <tr><th>Ingredient</th><th>Prep</th><th>Step 1: Parboil</th><th>Step 2: Saute</th><th>Step 3: Crisp</th><th>Step 4: Hash</th><th>Step 5: Serve</th></tr>\n  <tr><td>Yukon Gold potatoes</td><td>Cube 1/2-inch</td><td>Boil 4 min</td><td>Add, brown 8 min</td></tr>\n  <tr><td>White vinegar</td><td>Add to water</td></tr>\n  <tr><td>Butter</td><td>Melt in CI pan</td></tr>\n  <tr><td>Yellow onion</td><td>Chop unevenly</td><td>Cook 6 min</td></tr>\n  <tr><td>Bell pepper</td><td>Dice</td><td>Cook with onion</td></tr>\n  <tr><td>Corned beef</td><td>Shred by hand</td><td>Fold in, press</td></tr>\n  <tr><td>Eggs</td><td>Fry, place on top</td></tr>\n  <tr><td>Parsley</td><td>Chop</td><td>Garnish</td></tr>\n</table>",
+        "nonna_says": "Whisk the olive oil, lemon juice, lemon zest, garlic, and all those beautiful herbs together. Toss the chicken in there and let it sit in the fridge for two hours. No more than that or the lemon makes it mushy. Set up your grill with two zones, hot side and cool side. Sear the chicken skin-side down on the hot side until you get good color, then move it to the cool side and close the lid. Let it cook through gently, about 20 minutes, until the juices run clear. Thighs and drumsticks are forgiving, which is why I like them. Squeeze more lemon on top before you serve. Even your eight-year-old will eat this without complaining.",
+        "engineer_table_html": "<table class=\"engineer-table\">\n  <tr><th>Ingredient</th><th>Prep</th><th>Step 1: Marinate</th><th>Step 2: Sear</th><th>Step 3: Indirect</th><th>Step 4: Serve</th></tr>\n  <tr><td>Chicken pieces</td><td>Pat dry</td><td>Coat in</td></tr>\n  <tr><td>Olive oil</td><td>marinade</td></tr>\n  <tr><td>Lemon juice + zest</td><td>Juice, zest</td><td>2 hours max</td><td>Squeeze more</td></tr>\n  <tr><td>Garlic</td><td>Mince</td><td>in marinade</td></tr>\n  <tr><td>Rosemary + oregano</td><td>Chop</td><td>in marinade</td></tr>\n  <tr><td>Thyme</td><td>Strip leaves</td><td>in marinade</td></tr>\n  <tr><td>Red pepper flakes</td><td>in marinade</td></tr>\n  <tr><td>Grill (two-zone)</td><td>Hot side 5 min</td><td>Cool side 20 min</td></tr>\n  <tr><td>Parsley</td><td>Chop</td><td>Garnish</td></tr>\n</table>",
         "variations": [
           {
-            "name": "Sweet Potato Corned Beef Hash",
-            "twist": "Swap Yukon Golds for sweet potatoes and add smoked paprika. The natural sweetness caramelizes beautifully in cast iron.",
-            "source_url": "https://craveworthynutrition.com/5-delicious-corned-beef-hash-variations"
+            "name": "Spatchcock Lemon Herb Chicken",
+            "twist": "Remove the backbone from a whole chicken, lay flat, and grill for even cooking and maximum crispy skin with the same lemon-herb marinade.",
+            "source_url": "https://somuchfoodblog.com/spatchcocked-grilled-lemon-chicken/"
           },
           {
-            "name": "Kimchi Corned Beef Hash",
-            "twist": "Fold in chopped kimchi near the end of cooking for a spicy, tangy, umami-packed fusion hash. Finish with sesame oil and scallions.",
-            "source_url": "https://simplyfamilyrecipes.com/corned-beef-hash-recipes/"
+            "name": "Yogurt-Marinated Lemon Herb Chicken",
+            "twist": "Replace olive oil with Greek yogurt in the marinade. The lactic acid tenderizes the chicken for an incredibly juicy, tangy result.",
+            "source_url": "https://cravingsomethinghealthy.com/yogurt-marinated-chicken/"
           },
           {
-            "name": "Mexican-Style Corned Beef Hash",
-            "twist": "Add cumin, chili powder, black beans, and corn. Top with pico de gallo, cilantro, and sour cream. Serve with warm tortillas.",
-            "source_url": "https://www.tasteofhome.com/recipes/easy-corned-beef-hash/"
+            "name": "Za'atar Grilled Chicken",
+            "twist": "Swap rosemary and oregano for za'atar spice blend (thyme, sumac, sesame). Serve with lemon-herb yogurt sauce for a Middle Eastern twist.",
+            "source_url": "https://finefoodsblog.com/grilled-zaatar-chicken-with-lemon-herb-yogurt-sauce/"
           }
         ]
-      }
+      },
+      "dinner_notes": "Thighs were marinated on Sunday — just pull from the fridge and grill. No additional prep needed."
     },
     {
       "name": "Thu 04/16",
