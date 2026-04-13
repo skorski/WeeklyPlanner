@@ -1,0 +1,329 @@
+{
+  "plan_title": "The Corbiani Weekly — April 12-18, 2026",
+  "week_range": "April 12 – 18, 2026",
+  "highlight": "Spring grilling season kicks off, house offer on the line, and a pizza party with friends",
+  "family_message": "This week is about patience and presence. The house offer may come through or it may not — either way, the family is together, the weather is gorgeous, and the grill is ready. Lean into the warmth of spring, the joy of cooking together, and the certainty that home is wherever you three are.",
+  "school_note": "Normal school week for Elsie — no days off or early releases.",
+  "days": [
+    {
+      "name": "Sun 04/12",
+      "long_name": "Sunday, April 12",
+      "date": "2026-04-12",
+      "dinner": "Chicken Parmesan",
+      "dinner_cuisine": "Italian-American",
+      "dinner_description": "Kenji gold-standard chicken parm: buttermilk-marinated cutlets with shatteringly crisp breadcrumb crust, quick San Marzano sauce, and bubbly mozzarella.",
+      "dinner_source_url": "https://www.seriouseats.com/the-best-chicken-parmesan-recipe",
+      "dinner_source_name": "Serious Eats",
+      "dinner_key_ingredients": [
+        "chicken cutlets",
+        "buttermilk",
+        "breadcrumbs",
+        "parmesan",
+        "mozzarella",
+        "San Marzano tomatoes",
+        "basil",
+        "garlic"
+      ],
+      "album": "Zucchero – Blue's",
+      "album_artist": "Zucchero",
+      "album_title": "Blue's",
+      "album_year": "1987",
+      "album_genre": "Italian Blues-Soul",
+      "album_mood": "Passionate, bluesy, Mediterranean",
+      "album_description": "Italy's king of soul and blues. Senza una donna is iconic, but the whole album grooves with Mediterranean passion.",
+      "album_sonic_description": "Italian blues-soul, raspy vocals, electric guitar, organ, Mediterranean rhythms, raw emotional delivery",
+      "album_pairing_rationale": "Italian soul for Italian comfort food — Zucchero's passionate vocals are the musical equivalent of Chicken Parm.",
+      "album_spotify_url": "https://open.spotify.com/album/1F1t0KAWcW8JOKP0gcfnBB",
+      "weather": "Sunny, 72F/44F",
+      "weather_detail": "Sunny — 94% sunshine, 1% precip, 13 mph wind (gusts to 29 mph)",
+      "calendar_items": [],
+      "day_intro": ""
+    },
+    {
+      "name": "Mon 04/13",
+      "long_name": "Monday, April 13",
+      "date": "2026-04-13",
+      "dinner": "Grilled Chicken with Lemon and Herbs",
+      "dinner_cuisine": "Mediterranean",
+      "dinner_description": "Simple bone-in chicken marinated in lemon, olive oil, garlic, and fresh herbs, grilled over two-zone fire until charred and juicy.",
+      "dinner_source_url": "https://food52.com/recipes/27499-how-to-grill-chicken",
+      "dinner_source_name": "Food52",
+      "dinner_key_ingredients": [
+        "chicken thighs",
+        "lemon",
+        "olive oil",
+        "garlic",
+        "rosemary",
+        "oregano",
+        "red pepper flakes"
+      ],
+      "album": "Vulfpeck – The Beautiful Game",
+      "album_artist": "Vulfpeck",
+      "album_title": "The Beautiful Game",
+      "album_year": "2016",
+      "album_genre": "Minimalist Funk",
+      "album_mood": "Joyful, quirky, infectious",
+      "album_description": "Minimalist funk with maximum joy. Irresistibly catchy, quirky, and family-friendly.",
+      "album_sonic_description": "Minimalist funk, low-volume aesthetic, tight bass and drums, playful keys, occasional vocals",
+      "album_pairing_rationale": "Fun, catchy Vulfpeck grooves for a simple weeknight grill — both are unpretentious and delicious.",
+      "album_spotify_url": "https://open.spotify.com/album/0fMXx9FHWM0LarKmjmLq1P",
+      "weather": "Cloudy, 82F/58F",
+      "weather_detail": "Cloudy — 35% sunshine, 9% precip, 18 mph wind (gusts to 33 mph)",
+      "calendar_items": [
+        "Dan-Ryan 1:1 4:05-4:30 PM",
+        "MTP Sovereign Staff Meeting 4:40-5:30 PM",
+        "Snarky Puppy @ Warner Theatre (DC) tonight!"
+      ],
+      "day_intro": ""
+    },
+    {
+      "name": "Tue 04/14",
+      "long_name": "Tuesday, April 14",
+      "date": "2026-04-14",
+      "dinner": "Babo Pasta",
+      "dinner_cuisine": "Italian",
+      "dinner_description": "The family's beloved Babo Pasta: silky homemade spinach pasta made with 00 flour, blanched spinach puree, and rich egg yolks only.",
+      "dinner_source_url": "https://food52.com/recipes/87659-best-spinach-pasta-recipe",
+      "dinner_source_name": "Food52",
+      "dinner_key_ingredients": [
+        "00 flour",
+        "fresh spinach",
+        "egg yolks",
+        "salt",
+        "parmesan",
+        "butter"
+      ],
+      "album": "Snarky Puppy – Somni",
+      "album_artist": "Snarky Puppy",
+      "album_title": "Somni",
+      "album_year": "2025",
+      "album_genre": "Jazz-Funk Fusion",
+      "album_mood": "Dynamic, precise, exhilarating",
+      "album_description": "Grammy-winning jazz-funk collective with precision grooves. They played Warner Theatre in DC last night!",
+      "album_sonic_description": "Jazz-funk fusion, tight ensemble playing, horn sections, electric keys, complex rhythms",
+      "album_pairing_rationale": "Fresh energy for the family's comfort staple — Snarky Puppy played DC last night, making this a timely pick.",
+      "album_spotify_url": "https://open.spotify.com/album/3MrRksHGM0Lf0x0yVMwHRK",
+      "weather": "Light drizzle, 84F/60F",
+      "weather_detail": "Sunny — 89% sunshine, 19% precip, 12 mph wind (gusts to 26 mph)",
+      "calendar_items": [
+        "1:1 Robyn 3:10-3:30 PM",
+        "1:1 Alex 3:30-3:50 PM",
+        "1:1 Angel 3:50-4:10 PM",
+        "1:1 Eric 4:10-4:30 PM",
+        "Swim Lessons 6:00-6:30 PM (Elsie)",
+        "On-call rotation starts"
+      ],
+      "day_intro": ""
+    },
+    {
+      "name": "Wed 04/15",
+      "long_name": "Wednesday, April 15",
+      "date": "2026-04-15",
+      "dinner": "Corned Beef Hash with Yellow Potatoes",
+      "dinner_cuisine": "American",
+      "dinner_description": "Crispy golden corned beef hash with Yukon Gold potatoes, pan-fried in cast iron until deeply crusty. Crowned with fried eggs.",
+      "dinner_source_url": "https://www.seriouseats.com/corned-beef-hash-recipe",
+      "dinner_source_name": "Serious Eats",
+      "dinner_key_ingredients": [
+        "corned beef",
+        "Yukon Gold potatoes",
+        "yellow onion",
+        "butter",
+        "eggs",
+        "parsley"
+      ],
+      "album": "Tom Misch – Geography",
+      "album_artist": "Tom Misch",
+      "album_title": "Geography",
+      "album_year": "2018",
+      "album_genre": "Jazz-Pop / Soul",
+      "album_mood": "Warm, breezy, sophisticated",
+      "album_description": "South London producer-guitarist creates jazzy, soulful grooves that are sophisticated yet accessible.",
+      "album_sonic_description": "Jazz-inflected guitar pop, soul vocals, electronic beats, warm bass, London-scene production",
+      "album_pairing_rationale": "Breezy and warm — the perfect soundtrack for Dad picking up Elsie and making a cozy hash together.",
+      "album_spotify_url": "https://open.spotify.com/album/28NhpLGQBp8VEGxFfLqhfP",
+      "weather": "Sunny, 87F/65F",
+      "weather_detail": "Sunny — 96% sunshine, 11% precip, 9 mph wind (gusts to 20 mph)",
+      "calendar_items": [
+        "Dan picks up Elsie from school (Laura work meeting)",
+        "MTP Office Hours 4:10-5:00 PM (tentative)"
+      ],
+      "day_intro": ""
+    },
+    {
+      "name": "Thu 04/16",
+      "long_name": "Thursday, April 16",
+      "date": "2026-04-16",
+      "dinner": "Grilled Steaks with Potatoes, Peppers, and Cilantro Chimichurri",
+      "dinner_cuisine": "Argentinian-American",
+      "dinner_description": "Thick-cut ribeye or strip steaks grilled over high heat with grilled bell peppers, roasted baby potatoes, and vibrant cilantro-parsley chimichurri.",
+      "dinner_source_url": "https://www.splendidtable.org/story/2019/03/11/the-perfect-rib-eye-steak-with-whole-grilled-potatoes-and-chimichurri-sauce",
+      "dinner_source_name": "The Splendid Table",
+      "dinner_key_ingredients": [
+        "ribeye or strip steak",
+        "bell peppers",
+        "baby potatoes",
+        "cilantro",
+        "parsley",
+        "red wine vinegar",
+        "garlic",
+        "olive oil"
+      ],
+      "album": "Earth, Wind & Fire – That's the Way of the World",
+      "album_artist": "Earth, Wind & Fire",
+      "album_title": "That's the Way of the World",
+      "album_year": "1975",
+      "album_genre": "Funk / Soul / Disco",
+      "album_mood": "Euphoric, uplifting, celebratory",
+      "album_description": "The quintessential feel-good funk-soul album. Shining Star alone will have the whole family dancing.",
+      "album_sonic_description": "Orchestral funk, soaring vocals, kalimba, tight horn arrangements, disco-influenced rhythms",
+      "album_pairing_rationale": "Bold, high-energy EWF for 87-degree grilling night — steaks on the grill with Shining Star on the speakers.",
+      "album_spotify_url": "https://open.spotify.com/album/2WYkFhEwRYuBGnllkFsmKB",
+      "weather": "Sunny, 87F/67F",
+      "weather_detail": "Sunny — 94% sunshine, 12% precip, 11 mph wind (gusts to 22 mph)",
+      "calendar_items": [
+        "1:1 Dan/CJ 3:05-3:30 PM",
+        "Catch up 4:00-4:30 PM"
+      ],
+      "day_intro": ""
+    },
+    {
+      "name": "Fri 04/17",
+      "long_name": "Friday, April 17",
+      "date": "2026-04-17",
+      "dinner": "Homemade Pizza Night",
+      "dinner_cuisine": "Italian",
+      "dinner_description": "No-knead overnight pizza dough baked on screaming-hot steel. Topping bar for guests: fresh mozz, roasted red peppers, artichoke hearts, olives, basil, cherry tomatoes, ricotta. NO PORK.",
+      "dinner_source_url": "https://www.seriouseats.com/foolproof-pan-pizza-recipe",
+      "dinner_source_name": "Serious Eats",
+      "dinner_key_ingredients": [
+        "bread flour",
+        "yeast",
+        "fresh mozzarella",
+        "San Marzano tomatoes",
+        "basil",
+        "roasted red peppers",
+        "artichoke hearts",
+        "olives",
+        "ricotta"
+      ],
+      "album": "Jamiroquai – Travelling Without Moving",
+      "album_artist": "Jamiroquai",
+      "album_title": "Travelling Without Moving",
+      "album_year": "1996",
+      "album_genre": "Acid Jazz / Disco-Funk",
+      "album_mood": "Energetic, funky, futuristic",
+      "album_description": "Acid jazz meets disco-funk with Virtual Insanity as its centerpiece. High-energy party vibes.",
+      "album_sonic_description": "Acid jazz, disco-funk, didgeridoo, tight bass grooves, orchestral touches, electronic elements",
+      "album_pairing_rationale": "Party vibes for pizza night with friends — Jamiroquai brings the energy that makes a Friday feel like a celebration.",
+      "album_spotify_url": "https://open.spotify.com/album/5F13Y96FKDn4C7mFSCVLBo",
+      "weather": "Sunny, 86F/68F",
+      "weather_detail": "Sunny — 90% sunshine, 13% precip, 10 mph wind (gusts to 20 mph)",
+      "calendar_items": [
+        "YAT (Elsie) 4:30-6:00 PM",
+        "Sophia & Faran coming for pizza (NO PORK)"
+      ],
+      "day_intro": ""
+    },
+    {
+      "name": "Sat 04/18",
+      "long_name": "Saturday, April 18",
+      "date": "2026-04-18",
+      "dinner": "Grilled Smash Burgers with Green Goddess Salad",
+      "dinner_cuisine": "American",
+      "dinner_description": "Juicy smash-style burgers from 80/20 chuck on a hot grill, served on toasted brioche with all the fixings. Paired with a vibrant green goddess salad.",
+      "dinner_source_url": "https://www.seriouseats.com/the-best-burgers-recipe",
+      "dinner_source_name": "Serious Eats",
+      "dinner_key_ingredients": [
+        "ground chuck 80/20",
+        "brioche buns",
+        "sharp cheddar",
+        "lettuce",
+        "tomato",
+        "red onion",
+        "pickles"
+      ],
+      "album": "Khruangbin – A LA SALA",
+      "album_artist": "Khruangbin",
+      "album_title": "A LA SALA",
+      "album_year": "2024",
+      "album_genre": "Psychedelic Funk / Global",
+      "album_mood": "Hypnotic, warm, globally-minded",
+      "album_description": "Global funk-psych trio with hypnotic grooves. A La Sala means to the living room — music for intimate home spaces.",
+      "album_sonic_description": "Psychedelic funk, Thai-influenced melodies, surf guitar, dub bass, minimalist but lush production",
+      "album_pairing_rationale": "Breezy summer grooves for outdoor grilling at 88 degrees. Khruangbin turns a backyard into a global lounge.",
+      "album_spotify_url": "https://open.spotify.com/album/4OJBMFnpMfBCewkRWVbDJx",
+      "weather": "Sunny, 88F/66F",
+      "weather_detail": "Sunny — 97% sunshine, 16% precip, 10 mph wind (gusts to 19 mph)",
+      "calendar_items": [
+        "Forest Bathing Workshop 9:00-10:30 AM",
+        "YAT 9:00 AM-12:00 PM (tentative)"
+      ],
+      "day_intro": ""
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Whipped Ricotta & Spring Pea Crostini",
+      "description": "Creamy whipped ricotta on toasted baguette slices topped with fresh spring peas, lemon zest, and mint",
+      "source_url": "https://www.bonappetit.com/recipe/pea-and-ricotta-crostini"
+    },
+    {
+      "name": "Grilled Asparagus with Romesco Sauce",
+      "description": "Charred asparagus spears with a smoky red pepper and almond romesco",
+      "source_url": "https://www.seriouseats.com/grilled-asparagus-recipe"
+    }
+  ],
+  "salads": [
+    {
+      "name": "Spring Asparagus, Pea & Goat Cheese Composed Salad",
+      "salad_type": "composed_dinner",
+      "description": "Artfully arranged blanched asparagus, fresh peas, crumbled goat cheese, radishes, and soft-boiled egg on a bed of arugula",
+      "dressing": "Lemon-tarragon vinaigrette: fresh lemon juice, champagne vinegar, Dijon mustard, minced tarragon, extra-virgin olive oil, honey, flaky salt",
+      "source_url": "https://www.bonappetit.com/recipe/spring-pea-salad"
+    },
+    {
+      "name": "Green Goddess Tossed Salad",
+      "salad_type": "tossed_dinner",
+      "description": "Generous tossed salad with romaine, avocado, cucumber, herbs, and a creamy green goddess dressing",
+      "dressing": "Green goddess: avocado, Greek yogurt, fresh basil, tarragon, chives, parsley, lemon juice, garlic, anchovy paste, buttermilk, salt",
+      "source_url": "https://www.bonappetit.com/recipe/green-goddess-salad"
+    },
+    {
+      "name": "Strawberry, Radish & Arugula Side Salad",
+      "salad_type": "side",
+      "description": "Peppery arugula with sliced strawberries, shaved radishes, and toasted almonds",
+      "dressing": "Strawberry-balsamic vinaigrette: strawberry puree, white balsamic vinegar, Dijon, extra-virgin olive oil, black pepper",
+      "source_url": "https://food52.com/recipes/strawberry-arugula-salad"
+    },
+    {
+      "name": "Shaved Asparagus & Parmesan Side Salad",
+      "salad_type": "side",
+      "description": "Raw asparagus shaved into ribbons with shaved Parmigiano-Reggiano, lemon, and pine nuts",
+      "dressing": "Simple lemon: fresh lemon juice, extra-virgin olive oil, flaky salt, cracked pepper",
+      "source_url": "https://www.seriouseats.com/shaved-asparagus-salad-recipe"
+    }
+  ],
+  "beverages": [
+    {
+      "name": "Strawberry Basil Lemonade",
+      "description": "Fresh strawberry and basil muddled into classic lemonade",
+      "pairing_note": "Refreshing with grilled meats and pizza"
+    },
+    {
+      "name": "Cucumber-Lime Agua Fresca",
+      "description": "Cool cucumber and lime blended with a touch of honey",
+      "pairing_note": "Light and hydrating for hot spring evenings"
+    },
+    {
+      "name": "Rosemary-Citrus Spritzer",
+      "description": "Sparkling water infused with rosemary and orange slices",
+      "pairing_note": "Elegant, family-friendly, pairs well with Italian dishes"
+    }
+  ],
+  "elsie_no_go": [
+    "Mushrooms"
+  ],
+  "on_call_note": "Dan is on-call Tuesday through next Tuesday — expect possible interruptions.",
+  "house_note": "House offer pending — waiting for a response. Patience is the theme this week."
+}

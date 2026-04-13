@@ -186,7 +186,11 @@ def build_template_data(response, start_date, end_date):
         days.append({
             "name": day_date.strftime("%a %m/%d"),
             "long_name": day_date.strftime("%A, %B %d"),
-            "conditions": WMO_CODES.get(code, f"Unknown ({code})"),
+            # For cloudiness-only codes (0-3), derive conditions from actual
+            # sunshine data instead of the WMO code, which often says "Overcast"
+            # even on days with 90%+ sunshine.
+            "conditions": (classify_sunshine(sunshine_pct) if code <= 3
+                           else WMO_CODES.get(code, f"Unknown ({code})")),
             "high": f"{row['temp_max']:.0f}",
             "low": f"{row['temp_min']:.0f}",
             "precip_pct": int(row["precip_prob"]) if not pd.isna(row["precip_prob"]) else 0,

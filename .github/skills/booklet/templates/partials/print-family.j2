@@ -51,12 +51,13 @@
   <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
 </div>
 
-{# Page 3: Nudges #}
+{# Page 3: Nudges (first half) #}
+{% set nudges = parenting_data.nudges | default([]) %}
+{% set n_split = (nudges | length + 1) // 2 %}
 <div class="page page-parenting">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Nudges</h2>
-  {% if parenting_data.nudges %}
-  {% for n in parenting_data.nudges %}
+  {% for n in nudges[:n_split] %}
   <div class="nudge-card">
     <h4>{{ n.title }}</h4>
     <p><em>{{ n.context }}</em></p>
@@ -66,22 +67,58 @@
     {% endif %}
   </div>
   {% endfor %}
-  {% endif %}
   <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
 </div>
 
-{# Page 4: Book Rec + Reflection #}
+{# Page 4: Nudges (second half) #}
+{% if nudges | length > n_split %}
 <div class="page page-parenting">
   <div class="page-header">Family Corner</div>
-  <h2 class="section-header">Reflection</h2>
+  <h2 class="section-header">Nudges (continued)</h2>
+  {% for n in nudges[n_split:] %}
+  <div class="nudge-card">
+    <h4>{{ n.title }}</h4>
+    <p><em>{{ n.context }}</em></p>
+    <p>{{ n.suggestion }}</p>
+    {% if n.how_to %}
+    <ol class="nudge-steps">{% for step in n.how_to %}<li>{{ step }}</li>{% endfor %}</ol>
+    {% endif %}
+  </div>
+  {% endfor %}
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+{% endif %}
+
+{# Page 5: Connection Ritual + Book Rec #}
+<div class="page page-parenting">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Connection & Reading</h2>
+
+  {% if parenting_data.connection_ritual %}
+  <div class="connection-ritual">
+    <h4>{{ parenting_data.connection_ritual.title }}</h4>
+    <p>{{ parenting_data.connection_ritual.description }}</p>
+    {% if parenting_data.connection_ritual.when %}
+    <p class="ritual-meta"><strong>When:</strong> {{ parenting_data.connection_ritual.when }}{% if parenting_data.connection_ritual.duration %} · {{ parenting_data.connection_ritual.duration }}{% endif %}</p>
+    {% endif %}
+  </div>
+  {% endif %}
 
   {% if parenting_data.recommendation %}
   <div class="book-rec">
-    <h4>{{ parenting_data.recommendation.title }}{% if parenting_data.recommendation.author %} by {{ parenting_data.recommendation.author }}{% endif %}</h4>
+    <h4>📖 {{ parenting_data.recommendation.title }}{% if parenting_data.recommendation.author %} by {{ parenting_data.recommendation.author }}{% endif %}</h4>
     <p>{{ parenting_data.recommendation.why }}</p>
     <p><em>{{ parenting_data.recommendation.connection }}</em></p>
   </div>
   {% endif %}
+
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+
+{# Page 6: Parent Reflection #}
+<div class="page page-parenting">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Reflection</h2>
 
   {% if parenting_data.parent_reflection %}
   <div class="reflection-box">

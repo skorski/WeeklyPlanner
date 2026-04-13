@@ -1,0 +1,10 @@
+{
+  "no_school": [],
+  "early_release": [
+    {
+      "date": "2026-03-27",
+      "reason": "End of Quarter 3 \u2014 2-hour early release",
+      "type": "quarter_end"
+    }
+  ]
+}

@@ -47,6 +47,7 @@
     <div class="dinner-title">{{ day.dinner }}</div>
     {% if day.dinner_cuisine %}<span class="cuisine-label">{{ day.dinner_cuisine }}</span>{% endif %}
     {% if day.dinner_description %}<p class="description">{{ day.dinner_description }}</p>{% endif %}
+    {% if day.restaurant_backstory %}<div class="restaurant-backstory"><strong>The Story:</strong> {{ day.restaurant_backstory }}</div>{% endif %}
     {% if day.dinner_key_ingredients %}<p class="ingredients">{{ day.dinner_key_ingredients | join(", ") }}</p>{% endif %}
     {% if day.dinner_source_url %}<a href="{{ day.dinner_source_url }}" target="_blank" rel="noopener" class="recipe-link">Recipe — {{ day.dinner_source_name | default("View recipe") }}</a>{% endif %}
     {% if day.dinner_notes %}<p class="notes">{{ day.dinner_notes }}</p>{% endif %}
@@ -134,7 +135,12 @@
         <blockquote>{{ day.recipe_card.nonna_says }}</blockquote>
       </div>
       {% endif %}
-      {% if day.recipe_card.engineer_table %}
+      {% if day.recipe_card.engineer_table_html %}
+      <div class="engineer-section">
+        <h4>How It Comes Together</h4>
+        {{ day.recipe_card.engineer_table_html | safe }}
+      </div>
+      {% elif day.recipe_card.engineer_table %}
       <div class="engineer-section">
         <h4>How It Comes Together</h4>
         {% if day.recipe_card.engineer_table.preheat %}<p class="preheat">Preheat oven to {{ day.recipe_card.engineer_table.preheat }}</p>{% endif %}

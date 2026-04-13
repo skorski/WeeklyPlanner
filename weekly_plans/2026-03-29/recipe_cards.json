@@ -1,0 +1,297 @@
+{
+  "recipe_cards": [
+    {
+      "day": "Sunday",
+      "name": "Sausage & Gravy with Pasta",
+      "source_url": "https://coleycooks.com/authentic-italian-sunday-gravy/",
+      "source_name": "Coley Cooks",
+      "servings": "6-8",
+      "prep_time": "30 min",
+      "cook_time": "3 hours",
+      "nonna_says": "Heat olive oil in your biggest, heaviest pot. Brown the sausage on all sides, don't crowd it, work in batches if you have to. Take it out, soften the onions with a pinch of salt, then garlic till you smell it. Stir in the tomato paste and cook it for a minute so it loses that raw tin taste. Crush the San Marzanos by hand right into the pot, add your bay leaves, and bring it up. Nestle the sausage and the pork back in, lid on, lowest heat you got, three hours. Stir every twenty minutes or the bottom will burn and you'll cry. If you're using dried basil instead of fresh, I don't want to know about it.",
+      "variations": [
+        {
+          "name": "Sunday Gravy alla Vodka",
+          "twist": "Ladle out a cup of finished sauce, simmer with a splash of vodka, then stir in heavy cream and Parmigiano for a rich, silky variation",
+          "source_url": "https://www.bonappetit.com/recipe/rigatoni-with-easy-vodka-sauce"
+        },
+        {
+          "name": "Ragù Napoletano with Braciole",
+          "twist": "Roll thin beef slices around pine nuts, raisins, and parsley, tie them up, and braise in the Sunday sauce for a traditional Neapolitan feast",
+          "source_url": "https://www.seriouseats.com/braciole-italian-beef-rolls-recipe"
+        },
+        {
+          "name": "Spicy Arrabbiata Sunday Gravy",
+          "twist": "Double the garlic, add a generous pour of crushed red pepper flakes, and finish with fresh parsley for a fiery, garlicky version",
+          "source_url": "https://www.bonappetit.com/recipe/rigatoni-arrabbiata"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "2 lbs", "item": "Italian sausage links (sweet or hot)", "prep": "" },
+              { "qty": "2 lbs", "item": "pork spare ribs or shoulder", "prep": "cut into chunks" },
+              { "qty": "3 tbsp", "item": "olive oil", "prep": "" }
+            ],
+            "merge_action": "brown all sides in batches, 8 min total (remove)"
+          },
+          {
+            "ingredients": [
+              { "qty": "1 large", "item": "onion", "prep": "finely chopped" },
+              { "qty": "6 cloves", "item": "garlic", "prep": "minced" },
+              { "qty": "1/2 tsp", "item": "red pepper flakes", "prep": "" },
+              { "qty": "3 tbsp", "item": "tomato paste", "prep": "" }
+            ],
+            "merge_action": "sauté onion 5 min, add garlic and flakes 1 min, stir in paste 1 min"
+          },
+          {
+            "ingredients": [
+              { "qty": "2 (28 oz) cans", "item": "whole San Marzano tomatoes", "prep": "crushed by hand" },
+              { "qty": "1 cup", "item": "dry red wine", "prep": "" },
+              { "qty": "3", "item": "bay leaves", "prep": "" },
+              { "qty": "1 bunch", "item": "fresh basil", "prep": "" },
+              { "qty": "1 piece", "item": "Parmesan rind", "prep": "optional" }
+            ],
+            "merge_action": "deglaze with wine, add tomatoes, bay leaves, basil, rind"
+          }
+        ],
+        "final_steps": ["return meats to pot", "bring to boil then reduce to lowest simmer", "lid on, cook 3 hours stirring every 20 min", "remove bay leaves and bones", "taste and season with salt and pepper"]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, 20 minutes before serving:",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "1 lb", "item": "rigatoni or ziti", "prep": "" },
+              { "qty": "1 tbsp", "item": "salt", "prep": "" },
+              { "qty": "6 quarts", "item": "water", "prep": "" }
+            ],
+            "merge_action": "boil salted water, cook pasta to al dente"
+          }
+        ],
+        "final_steps": ["drain, reserving 1 cup pasta water", "toss pasta with a few ladles of sauce", "serve with meats on the side and grated Pecorino"]
+      }
+    },
+    {
+      "day": "Monday",
+      "name": "Babo Pasta (Homemade Spinach Pasta with Egg Yolks)",
+      "source_url": "https://bitingatthebits.com/fresh-spinach-pasta-dough-recipe-using-00-flour/",
+      "source_name": "Biting at the Bits",
+      "servings": "4",
+      "prep_time": "45 min (plus 30 min rest)",
+      "cook_time": "3 min",
+      "nonna_says": "Blanch the spinach for thirty seconds, shock it in ice water, then squeeze it dry. I mean really dry, wring it like a dishrag. Blend the spinach with the yolks and salt until it's smooth and green as a garden. Make your well in the flour and pour the green mixture right in the middle. Pull the flour in with a fork, then get your hands in there and knead for a good ten minutes until the dough is smooth and springs back when you poke it. Wrap it up, let it rest half an hour. Roll it thin, cut your ribbons, and cook them in boiling salted water for just two or three minutes. Anyone who overcooks fresh pasta in this house answers to me.",
+      "variations": [
+        {
+          "name": "Beet Pasta Dough",
+          "twist": "Replace spinach with roasted and pureed beets for a vivid magenta dough with earthy sweetness",
+          "source_url": "https://www.feastingathome.com/beet-pasta/"
+        },
+        {
+          "name": "Saffron Egg Yolk Pasta",
+          "twist": "Skip the spinach, steep a pinch of saffron in the yolks for a golden, aromatic dough that pairs beautifully with butter and sage",
+          "source_url": "https://www.greatitalianchefs.com/recipes/saffron-pasta-recipe"
+        },
+        {
+          "name": "Squid Ink Pasta",
+          "twist": "Swap spinach for squid ink to get dramatic black noodles with a subtle briny, oceanic flavor",
+          "source_url": "https://www.seriouseats.com/squid-ink-pasta"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "6 oz (170g)", "item": "fresh baby spinach", "prep": "blanched 30 sec, ice bath, squeezed dry" },
+              { "qty": "6 large", "item": "egg yolks", "prep": "" },
+              { "qty": "1 tsp", "item": "salt", "prep": "" }
+            ],
+            "merge_action": "blend until very smooth"
+          },
+          {
+            "ingredients": [
+              { "qty": "200g (1 2/3 cups)", "item": "00 flour or all-purpose flour", "prep": "mounded with a well" }
+            ],
+            "merge_action": "pour spinach-yolk mixture into well, incorporate with fork"
+          }
+        ],
+        "final_steps": ["knead 8-10 min until smooth and elastic", "wrap in plastic, rest 30 min", "roll thin and cut into tagliatelle or pappardelle", "boil in salted water 2-3 min", "toss with butter and Parmigiano"]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Tuesday",
+      "name": "Grilled Chicken Thighs",
+      "source_url": "https://www.wellplated.com/chicken-thigh-marinade/",
+      "source_name": "Well Plated",
+      "servings": "4",
+      "prep_time": "10 min (plus 2 hrs marinating)",
+      "cook_time": "14 min",
+      "nonna_says": "Whisk the soy sauce, olive oil, honey, garlic, vinegar, mustard, and spices together in a bowl. Put the chicken thighs in and make sure every single piece is coated. Into the fridge for at least two hours, overnight if you can plan that far ahead. Get your grill hot, medium-high, and oil the grates so the chicken doesn't stick. Six or seven minutes per side, don't press down on them with the spatula like some kind of sandwich. Let them rest five minutes before you cut into them. Chicken is simple, but simple done right is better than fancy done wrong.",
+      "variations": [
+        {
+          "name": "Tandoori Grilled Chicken",
+          "twist": "Marinate in yogurt with cumin, coriander, turmeric, and garam masala for tender, smoky, warmly spiced thighs",
+          "source_url": "https://www.indianhealthyrecipes.com/tandoori-chicken-recipe/"
+        },
+        {
+          "name": "Jamaican Jerk Chicken",
+          "twist": "Use a bold marinade of allspice, Scotch bonnet peppers, thyme, ginger, and citrus for fiery Caribbean flavor",
+          "source_url": "https://www.onceuponachef.com/recipes/caribbean-jerk-chicken.html"
+        },
+        {
+          "name": "Chimichurri Grilled Chicken",
+          "twist": "Grill simply with salt and pepper, then drench in a fresh parsley, garlic, red wine vinegar, and olive oil sauce",
+          "source_url": "https://www.bonappetit.com/recipe/grilled-chicken-with-chimichurri"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "1/4 cup", "item": "soy sauce", "prep": "" },
+              { "qty": "1/4 cup", "item": "olive oil", "prep": "" },
+              { "qty": "3 tbsp", "item": "honey", "prep": "" },
+              { "qty": "3 cloves", "item": "garlic", "prep": "minced" },
+              { "qty": "1 tbsp", "item": "apple cider vinegar", "prep": "" },
+              { "qty": "1 tbsp", "item": "Dijon mustard", "prep": "" },
+              { "qty": "1 tsp", "item": "smoked paprika", "prep": "" },
+              { "qty": "1 tsp", "item": "black pepper", "prep": "" },
+              { "qty": "1/2 tsp", "item": "salt", "prep": "" }
+            ],
+            "merge_action": "whisk together into marinade"
+          },
+          {
+            "ingredients": [
+              { "qty": "2 lbs", "item": "bone-in, skin-on chicken thighs", "prep": "patted dry" }
+            ],
+            "merge_action": "coat in marinade, refrigerate 2-24 hours"
+          }
+        ],
+        "final_steps": ["preheat grill to medium-high", "oil grates", "grill skin-side down 6-7 min", "flip, grill 6-7 min until 175°F internal", "rest 5 min before serving"]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Wednesday",
+      "name": "Homemade Pizza",
+      "source_url": "https://www.recipetineats.com/pizza-dough-recipe/",
+      "source_name": "RecipeTin Eats",
+      "servings": "3 pizzas",
+      "prep_time": "20 min (plus 2 hrs rise)",
+      "cook_time": "10 min per pizza",
+      "nonna_says": "Mix the flour, yeast, sugar, and salt in your big bowl. Add the warm water and olive oil, stir until it comes together, then dump it out and knead five minutes until smooth. Oil the bowl, put the dough back, cover it, and let it rise for an hour or until doubled. Punch it down, divide into three balls, cover with a damp towel, and let them rest another hour. Stretch each ball out with your hands, not a rolling pin. Top with sauce, good mozzarella, and whatever makes you happy, but don't be greedy or you'll get a soggy mess. Hottest oven you've got, ten minutes, and watch for the cheese to bubble and brown.",
+      "variations": [
+        {
+          "name": "Detroit-Style Pan Pizza",
+          "twist": "Press dough into an oiled rectangular pan with cheese pushed to the edges for caramelized, crispy frico corners",
+          "source_url": "https://www.seriouseats.com/detroit-style-pizza-recipe"
+        },
+        {
+          "name": "Grandma-Style Sheet Pan Pizza",
+          "twist": "Bake on an oiled sheet pan for a thin, crispy, focaccia-like crust topped with fresh mozzarella and sauce on top",
+          "source_url": "https://www.bonappetit.com/recipe/grandma-style-pizza"
+        },
+        {
+          "name": "Grilled Pizza",
+          "twist": "Stretch dough thin, grill one side until charred, flip, top quickly, and close the lid for a smoky, blistered crust",
+          "source_url": "https://www.seriouseats.com/grilled-pizza-recipe"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "as hot as your oven goes (475-550°F / 250-290°C)",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "3 1/4 cups (430g)", "item": "bread flour", "prep": "" },
+              { "qty": "2 tsp", "item": "instant yeast", "prep": "" },
+              { "qty": "2 tsp", "item": "sugar", "prep": "" },
+              { "qty": "1 tsp", "item": "salt", "prep": "" }
+            ],
+            "merge_action": "whisk together dry ingredients"
+          },
+          {
+            "ingredients": [
+              { "qty": "1 1/4 cups (295ml)", "item": "warm water", "prep": "about 105°F" },
+              { "qty": "1 tbsp", "item": "olive oil", "prep": "" }
+            ],
+            "merge_action": "add to dry, stir until shaggy dough forms"
+          },
+          {
+            "ingredients": [
+              { "qty": "1/2 cup", "item": "pizza sauce", "prep": "" },
+              { "qty": "8 oz", "item": "mozzarella", "prep": "shredded or torn" },
+              { "qty": "as desired", "item": "toppings (pepperoni, vegetables, etc.)", "prep": "" }
+            ],
+            "merge_action": "spread sauce, then cheese, then toppings on stretched dough"
+          }
+        ],
+        "final_steps": ["knead 5 min until smooth", "rise 1 hour covered", "divide into 3 balls, rest 1 hour", "stretch by hand to 10-12 inches", "top and bake 10 min until bubbly and golden"]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Thursday",
+      "name": "Buttermilk Waffles (Breakfast for Dinner)",
+      "source_url": "https://www.kingarthurbaking.com/recipes/classic-buttermilk-waffles-recipe",
+      "source_name": "King Arthur Baking",
+      "servings": "6 waffles",
+      "prep_time": "10 min",
+      "cook_time": "20 min",
+      "nonna_says": "Whisk the flour, sugar, baking powder, baking soda, and salt together in a big bowl. In another bowl, beat the eggs, then stir in the buttermilk, melted butter, and vanilla. Pour the wet into the dry and stir just until combined, a few lumps are fine. If you overmix these, you'll get tough little hockey pucks and nobody wants that. Let the batter rest five minutes while the waffle iron heats up good and hot. Cook until deep golden, not pale and sad. Serve them straight off the iron or keep warm in a low oven on a wire rack so they stay crispy.",
+      "variations": [
+        {
+          "name": "Overnight Yeasted Waffles",
+          "twist": "Mix batter with yeast the night before for extra-tangy, impossibly crisp waffles with complex flavor",
+          "source_url": "https://www.melskitchencafe.com/overnight-raised-waffles/"
+        },
+        {
+          "name": "Cornmeal Buttermilk Waffles",
+          "twist": "Swap half the flour for cornmeal for a rustic, crunchy waffle that pairs perfectly with fried chicken and honey",
+          "source_url": "https://www.foodnetwork.com/recipes/food-network-kitchen/the-best-buttermilk-waffles-7449241"
+        },
+        {
+          "name": "Chocolate Chip Waffles",
+          "twist": "Fold in mini chocolate chips and a tablespoon of cocoa powder for a decadent dessert-for-dinner waffle",
+          "source_url": "https://www.sprinklesomesugar.com/buttery-golden-buttermilk-waffles/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "waffle iron to medium-high",
+        "groups": [
+          {
+            "ingredients": [
+              { "qty": "1 3/4 cups", "item": "all-purpose flour", "prep": "" },
+              { "qty": "2 tbsp", "item": "granulated sugar", "prep": "" },
+              { "qty": "2 tsp", "item": "baking powder", "prep": "" },
+              { "qty": "1 tsp", "item": "baking soda", "prep": "" },
+              { "qty": "1 tsp", "item": "salt", "prep": "" }
+            ],
+            "merge_action": "whisk together dry ingredients"
+          },
+          {
+            "ingredients": [
+              { "qty": "2 large", "item": "eggs", "prep": "beaten" },
+              { "qty": "1 3/4 cups", "item": "buttermilk", "prep": "" },
+              { "qty": "8 tbsp (1 stick)", "item": "unsalted butter", "prep": "melted and cooled" },
+              { "qty": "2 tsp", "item": "vanilla extract", "prep": "" }
+            ],
+            "merge_action": "whisk wet ingredients together"
+          },
+          {
+            "ingredients": [
+              { "qty": "as desired", "item": "maple syrup, fresh berries, whipped cream", "prep": "for serving" }
+            ],
+            "merge_action": ""
+          }
+        ],
+        "final_steps": ["fold wet into dry until just combined (lumps OK)", "rest batter 5 min", "pour 1/3 cup per waffle onto hot iron", "cook until deep golden and crisp, about 3-4 min", "serve immediately or hold on wire rack in 200°F oven"]
+      },
+      "parallel_table": null
+    }
+  ]
+}

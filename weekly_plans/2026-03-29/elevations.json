@@ -1,0 +1,175 @@
+[
+  {
+    "name": "Sausage & Gravy with Pasta",
+    "base_description": "Classic Italian-American Sunday gravy — sausage slow-simmered in tomato sauce, served over pasta. The kind of dish that makes the whole house smell like someone's grandmother is in the kitchen.",
+    "flavor_profile": "Rich, tomato-forward, meaty, savory with garlic and herbs. Deep umami from long-simmered pork. Currently one-note in texture — everything is soft.",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Red Wine Fond Build",
+        "instruction": "Sear sausages in a screaming-hot cast-iron or Dutch oven until deeply browned on all sides — we're talking mahogany, not beige. Remove the sausages, drop the heat to medium, and pour in half a cup of dry red wine (Chianti or any Sangiovese). Scrape up every bit of fond with a wooden spoon. Let the wine reduce by half before adding your tomatoes. This deglaze is the backbone of a gravy that tastes like it simmered for 8 hours even if it only went 3.",
+        "why": "The Maillard reaction on the sausage casing creates concentrated savory compounds in the fond. Red wine dissolves those flavors and adds tannic depth and acidity that balances the sweetness of tomatoes.",
+        "extra_ingredients": ["dry red wine (Chianti or similar)"]
+      },
+      {
+        "type": "acid",
+        "title": "Gremolata Finish",
+        "instruction": "Right before plating, make a quick gremolata: finely mince 1 clove of raw garlic, zest one lemon on a Microplane, and chiffonade a big handful of flat-leaf Italian parsley. Combine. Scatter a generous pinch over each plate of pasta after saucing. Do not cook this — it goes on raw and bright.",
+        "why": "Sunday gravy is rich and long-cooked, which means brightness dies. The raw garlic, lemon zest, and parsley cut through the richness like a knife, waking up every bite. It's the difference between good and 'I need the recipe.'",
+        "extra_ingredients": ["flat-leaf Italian parsley", "lemon (for zest)"]
+      },
+      {
+        "type": "texture",
+        "title": "Pangrattato (Toasted Garlic Breadcrumbs)",
+        "instruction": "Tear day-old bread into rough crumbs (or pulse in a food processor — not too fine). Heat 3 tablespoons of olive oil in a skillet over medium heat, add the breadcrumbs with 2 minced garlic cloves and a pinch of red pepper flakes. Toast, stirring constantly, until golden and crunchy — about 4 minutes. Season with salt. Spoon over each plate of sauced pasta.",
+        "why": "Every bite of this dish is currently soft: soft pasta, soft sauce, tender sausage. Pangrattato adds a shattering crunch on top that makes your teeth happy and gives your brain a reason to keep eating. The Italians call it 'poor man's Parmesan' and they're not wrong.",
+        "extra_ingredients": ["day-old bread or panko", "red pepper flakes"]
+      },
+      {
+        "type": "preparation",
+        "title": "Finish Pasta in the Sauce",
+        "instruction": "Cook your pasta 2 full minutes short of the package time — it should be bendy but have a visible white core when you bite it in half. Reserve a full cup of starchy pasta water before draining. Transfer the pasta directly into the simmering gravy with a spider or tongs, add half a cup of pasta water, and toss aggressively for 90 seconds over medium heat. The starch emulsifies with the fat in the gravy and creates a glossy, clingy coating that no amount of ladling-on-top can replicate.",
+        "why": "This is the single most impactful technique in Italian cooking. The starch in pasta water binds with the fat in the sauce to create an emulsion — the sauce becomes one with the noodle instead of sitting on top of it like a hat.",
+        "extra_ingredients": []
+      }
+    ],
+    "designers_note": "This is already a great dish — the elevations are about precision, not reinvention. Sear harder, deglaze properly, finish the pasta in the sauce, and hit it with brightness at the end. That's the difference between 'good Sunday gravy' and 'why does this taste like a restaurant.'"
+  },
+  {
+    "name": "Babo Pasta",
+    "base_description": "The family's signature: homemade spinach pasta made with only egg yolks, prepared weekly. This is a dish that has earned its place — the elevations are whispers, not shouts.",
+    "flavor_profile": "Rich and eggy from the yolks, earthy and vegetal from spinach, silky texture. Delicate and nuanced — a dish that respects simplicity.",
+    "elevations": [
+      {
+        "type": "sauce",
+        "title": "Brown Butter & Crispy Sage",
+        "instruction": "Cut 4 tablespoons of unsalted butter into pieces and place in a light-colored skillet over medium heat (you need to see the color change). Swirl occasionally. When the foam subsides and the milk solids turn the color of a hazelnut — that's the moment. Immediately drop in 8-10 fresh sage leaves and let them sizzle for 15 seconds until crispy but still green. Pull the pan off the heat. Toss your drained pasta directly in the brown butter with 2 tablespoons of reserved pasta water. The sage leaves become crackling garnish on top.",
+        "why": "Brown butter is the single best friend of egg-yolk pasta. The nutty, toasty milk solids complement the richness of the yolks without competing. Sage brings a woodsy, slightly peppery note that pairs with spinach like they grew up together — because they basically did.",
+        "extra_ingredients": ["unsalted butter", "fresh sage leaves"]
+      },
+      {
+        "type": "texture",
+        "title": "Toasted Pine Nuts",
+        "instruction": "Toast 3 tablespoons of pine nuts in a dry skillet over medium-low heat, shaking the pan every 20 seconds. The moment they turn golden and you smell that sweet, nutty aroma — pull them off the heat and onto a plate immediately. Pine nuts go from toasted to burned in about 8 seconds, so stand there and watch them like they owe you money. Scatter over the finished pasta.",
+        "why": "This pasta is all silk and richness. Pine nuts add a buttery crunch that contrasts the smooth noodle without fighting the delicate flavor. It's a textural wake-up call that keeps each forkful interesting.",
+        "extra_ingredients": ["pine nuts"]
+      },
+      {
+        "type": "acid",
+        "title": "Microplaned Lemon Zest",
+        "instruction": "After plating, take a Microplane and zest fresh lemon directly over each serving — about 5-6 passes per plate. Use only the bright yellow outer layer, never the white pith. Do this at the table if you want the citrus oil to hit everyone's nose before their fork.",
+        "why": "Rich egg-yolk pasta with brown butter needs one small spark of acid to keep it from feeling heavy. Lemon zest provides aromatic brightness without the liquid acidity of juice, which would break the butter's emulsion. It's the lightest touch with the biggest impact.",
+        "extra_ingredients": ["lemon (for zest)"]
+      }
+    ],
+    "designers_note": "I'm not going to mess with perfection. This is your family's dish and you've earned the right to make it exactly how you love it. Brown butter, crispy sage, toasted pine nuts, and a whisper of lemon zest — that's a restaurant finishing move applied to a dish that already has soul. Three small upgrades, zero disruption to the ritual."
+  },
+  {
+    "name": "Grilled Chicken",
+    "base_description": "Simple grilled chicken with strategic leftovers planned for Korean lettuce wraps or shawarma wraps later in the week. This needs to be delicious now and stay moist for days.",
+    "flavor_profile": "Smoky, charred, simple. Currently a blank canvas — high potential for depth through brine and sauce work.",
+    "elevations": [
+      {
+        "type": "marinade",
+        "title": "24-Hour Dry Brine",
+        "instruction": "The night before: pat chicken pieces (bone-in, skin-on thighs are best for this) completely dry with paper towels. Mix together 1 tablespoon kosher salt, 1 teaspoon sugar, 1 teaspoon smoked paprika, ½ teaspoon garlic powder, and ½ teaspoon black pepper. Season every surface of every piece generously. Place on a wire rack set over a sheet pan, uncovered, in the refrigerator for 12-24 hours. The salt draws out moisture, dissolves into it, and the brine gets reabsorbed — seasoning the meat all the way through. The uncovered fridge time dries the skin so it crisps beautifully on the grill.",
+        "why": "A dry brine does three things a wet marinade can't: it seasons the meat throughout (not just the surface), it improves moisture retention during cooking by restructuring proteins, and it dries the exterior for superior browning. This is the difference between chicken that tastes seasoned and chicken that is seasoned.",
+        "extra_ingredients": ["kosher salt", "sugar", "smoked paprika", "garlic powder"]
+      },
+      {
+        "type": "sauce",
+        "title": "Chimichurri Board Sauce",
+        "instruction": "Make chimichurri: finely mince 1 cup flat-leaf parsley, ½ cup fresh cilantro, 4 garlic cloves, and 1 small shallot. Combine with ½ cup good olive oil, 3 tablespoons red wine vinegar, ½ teaspoon red pepper flakes, and salt. Here's the move: spread half the chimichurri directly onto your cutting board in a thick layer. When the chicken comes off the grill and has rested, slice it right on the board so every cut soaks up the herbs and oil. Serve the remaining chimichurri on the side. Make a double batch — you'll use the extra to dress the leftover chicken for wraps.",
+        "why": "A board sauce means every surface of every slice gets coated in herb and garlic oil as you cut. It's more flavorful than spooning sauce on top because the warm juices from the rested chicken mingle with the chimichurri right at the moment of slicing. Plus, the extra chimichurri keeps leftover chicken moist and flavorful for days.",
+        "extra_ingredients": ["flat-leaf parsley (1 cup)", "fresh cilantro (½ cup)", "shallot", "red wine vinegar", "red pepper flakes", "good olive oil"]
+      },
+      {
+        "type": "temperature",
+        "title": "Quick-Pickled Red Onions",
+        "instruction": "Slice 1 large red onion into thin rings. In a jar, combine ½ cup rice vinegar, 2 tablespoons sugar, 1 teaspoon salt, and ½ cup warm water. Stir to dissolve. Pack the onions in, making sure they're submerged. Wait 15 minutes minimum — they'll turn electric pink and taste like crunchy, tangy candy. Pile on top of the grilled chicken, and save the rest for the leftover wraps later in the week.",
+        "why": "Hot, smoky grilled chicken against cold, tangy, crunchy pickled onion is a sensory contrast that makes every bite interesting. The acid cuts through the char and the crunch breaks up the tender meat. These also hold in the fridge for a week, so they'll dress your leftover Korean wraps and shawarma wraps perfectly.",
+        "extra_ingredients": ["red onion", "rice vinegar"]
+      },
+      {
+        "type": "preparation",
+        "title": "Leftover Strategy: Grill Smart, Store Smarter",
+        "instruction": "Grill extra bone-in, skin-on thighs alongside your dinner pieces. Pull all chicken at 160°F internal (not 165°F — carryover heat will take it there during rest). Rest the dinner chicken for 10 minutes tented loosely with foil, then slice on the chimichurri board. For the leftovers: let the extra thighs cool for 20 minutes, then store them WHOLE (not sliced) in airtight containers. Spoon leftover chimichurri and some pickled onion juice over the top before sealing. When you're ready for Korean lettuce wraps or shawarma wraps, slice or shred the cold chicken — it will be moist because you stored it intact with acid and oil protecting the surface.",
+        "why": "Sliced chicken dries out in the fridge because of exposed surface area. Whole pieces stored with an oil-and-acid dressing (chimichurri) create a protective barrier that keeps moisture locked in. Pulling at 160°F instead of 165°F prevents overcooking — the 5-degree carryover is real science, not a gamble.",
+        "extra_ingredients": []
+      }
+    ],
+    "designers_note": "This is really two meals in one, and the secret is treating it that way from the start. The dry brine makes both the dinner and the leftovers better. The chimichurri does triple duty — board sauce tonight, storage dressing for the fridge, and ready-made flavor for wraps later. Cook once, eat smart all week."
+  },
+  {
+    "name": "Homemade Pizza",
+    "base_description": "Wednesday pizza night — homemade dough, family-style. The kind of night where everyone gets a say in toppings and the kitchen smells like a pizzeria.",
+    "flavor_profile": "Tomato, cheese, dough — the holy trinity. Currently relies on toppings for excitement rather than dough and sauce quality.",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "24-48 Hour Cold Ferment Dough",
+        "instruction": "Make your dough 1-2 days before pizza night. Mix bread flour (higher protein = more chew), salt, yeast (reduce to ¼ teaspoon per cup of flour for a slow rise), olive oil, and water. Knead until smooth and slightly tacky. Portion into individual balls, oil them lightly, and place in sealed containers in the fridge. The cold slows the yeast, which develops complex flavors — tanginess, sweetness, and a depth that same-day dough simply cannot achieve. Pull dough out 1 hour before baking to take the chill off.",
+        "why": "Cold fermentation is the single biggest upgrade for homemade pizza. The slow yeast action produces organic acids and alcohols that create the complex, slightly tangy flavor you taste in great pizzeria dough. It also develops gluten structure, making the dough easier to stretch and more forgiving to work with.",
+        "extra_ingredients": ["bread flour"]
+      },
+      {
+        "type": "sauce",
+        "title": "Bloomed Garlic & San Marzano Raw Sauce",
+        "instruction": "In a small saucepan, warm 3 tablespoons of olive oil over medium-low heat. Add 3 thinly sliced garlic cloves and ¼ teaspoon red pepper flakes. Cook gently — we're blooming, not browning — for 60 seconds until fragrant. Remove from heat and let cool completely. In a bowl, hand-crush one 28-oz can of San Marzano tomatoes (squeeze each one through your fingers). Stir in the bloomed garlic oil, a generous pinch of salt, and 4-5 torn fresh basil leaves. That's it. Do not cook this sauce — the oven does the cooking. Spread thin.",
+        "why": "Blooming garlic and red pepper in oil extracts their fat-soluble flavor compounds, making them 3x more aromatic than raw. San Marzanos hand-crushed give you irregular texture — some chunks, some smooth — which creates pockets of concentrated tomato flavor on the baked pizza. A raw sauce tastes fresher and brighter than one that's been simmered to death.",
+        "extra_ingredients": ["San Marzano canned tomatoes (28 oz)", "fresh basil", "red pepper flakes"]
+      },
+      {
+        "type": "texture",
+        "title": "Hot Honey Soppressata Pie",
+        "instruction": "For one pizza: lay down mozzarella, then scatter thin slices of soppressata (or spicy pepperoni). Bake until the soppressata cups curl and the edges crisp. The moment it comes out of the oven, thread hot honey generously over the top — you can buy Mike's Hot Honey or make your own by warming honey with ½ teaspoon red pepper flakes for 5 minutes, then straining. Finish with torn fresh basil and a shower of grated Pecorino Romano. This is the crowd-pleaser.",
+        "why": "The combination of spicy, crispy cured meat with sweet-heat honey creates a flavor loop your brain can't stop chasing — salt, fat, spice, sweet, repeat. The soppressata cups hold little pools of rendered fat and honey. It's the best pizza topping combination of the last decade and it's dead simple.",
+        "extra_ingredients": ["soppressata or spicy pepperoni", "hot honey (or honey + red pepper flakes)", "Pecorino Romano"]
+      },
+      {
+        "type": "acid",
+        "title": "Post-Bake Arugula & Lemon",
+        "instruction": "For a second pizza style: bake a simple margherita or cheese pie. While it bakes, toss 2 big handfuls of baby arugula with 1 tablespoon of good olive oil, a squeeze of fresh lemon juice, flaky salt, and a few shavings of Parmigiano-Reggiano. The moment the pizza comes out of the oven, mound the dressed arugula on top. The heat wilts it slightly but it stays fresh and peppery. Slice through the greens.",
+        "why": "Raw, peppery arugula on hot melted cheese is a temperature contrast that makes every bite dynamic. The lemon cuts through the richness of the cheese, and the greens add color and freshness that makes the pizza feel lighter and more sophisticated. This is what separates pizzeria pizza from home pizza.",
+        "extra_ingredients": ["baby arugula", "lemon (for juice)", "Parmigiano-Reggiano", "flaky salt"]
+      }
+    ],
+    "designers_note": "Pizza night should feel like an event, not a fallback. The cold-fermented dough is the foundation — it takes 5 minutes of work 2 days early and transforms everything. Two pizza styles — the hot honey soppressata for the thrill-seekers and the arugula-lemon for the fresh-and-light crowd — mean everyone at the table wins."
+  },
+  {
+    "name": "Waffles (Breakfast for Dinner)",
+    "base_description": "Thursday night breakfast-for-dinner — buttermilk waffles done right, with both sweet and savory options to make it feel like dinner, not just breakfast relocated. They had Lemon Ricotta Pancakes last week, so this goes in a completely different direction.",
+    "flavor_profile": "Buttermilk tang, subtle sweetness, currently one-dimensional. Needs crispiness engineering, savory balance, and the kind of toppings that make adults and kids both lose their minds.",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Cornstarch Swap & Whipped Whites",
+        "instruction": "Replace one-third of your all-purpose flour with cornstarch (so if using 1½ cups flour, use 1 cup flour and ½ cup cornstarch). Separate your eggs. Mix the yolks into the wet ingredients as usual. In a clean bowl, whip the whites with a pinch of cream of tartar to medium-stiff peaks. Fold the whites into the finished batter in two additions — gently, with a spatula, until just incorporated. You'll see streaks of white. That's perfect. Let the batter rest 10 minutes while the iron heats to ripping hot. Cook until steam stops and the waffle releases easily.",
+        "why": "Cornstarch interrupts gluten formation, giving you a shatteringly crisp exterior while the interior stays cloud-soft. Whipped whites add air pockets that expand in the hot iron, creating the lightest, tallest waffle you've ever made. The 10-minute rest hydrates the flour and activates leavening. This is the science behind the best hotel breakfast waffles you've ever had.",
+        "extra_ingredients": ["cornstarch", "cream of tartar"]
+      },
+      {
+        "type": "sauce",
+        "title": "Maple-Vanilla Compound Butter",
+        "instruction": "Soften 1 stick of unsalted butter to room temperature. Mash together with 2 tablespoons real maple syrup, ½ teaspoon vanilla extract, and a pinch of flaky salt. Roll into a log in plastic wrap and refrigerate for 30 minutes. Slice into rounds and place one on each hot waffle. The butter melts into golden, maple-scented puddles that find every crevice. For the adults who want a kick: add 1 tablespoon bourbon to the mix before rolling.",
+        "why": "Compound butter is a restaurant trick that makes anything feel special. The maple and vanilla amplify the waffle's sweetness without drowning it in syrup, and the salt creates that addictive sweet-salty contrast. It melts slowly, so each bite gets better as it seeps deeper into the waffle's grid.",
+        "extra_ingredients": ["unsalted butter", "real maple syrup", "vanilla extract", "flaky salt"]
+      },
+      {
+        "type": "temperature",
+        "title": "The Savory Side: Fried Egg & Cheddar Drape",
+        "instruction": "For the savory option: fry eggs in butter — crispy lace edges, runny yolk — and drape a thin slice of sharp cheddar over the hot waffle so it melts on contact. Top with the fried egg and a scatter of thinly sliced chives. When you cut into it, the yolk breaks and runs into the waffle squares, mixing with the melted cheddar. Offer hot sauce on the side. This is the option that makes everyone at the table say 'wait, I want that too.'",
+        "why": "The temperature contrast between the crispy hot waffle and the warm-but-runny egg yolk creates a textural and thermal experience that's deeply satisfying. Sharp cheddar adds umami and salt. This combination legitimizes waffles as real dinner — it's essentially a deconstructed croque madame with better architecture.",
+        "extra_ingredients": ["eggs (for frying)", "sharp cheddar cheese", "fresh chives", "hot sauce"]
+      },
+      {
+        "type": "texture",
+        "title": "Candied Pecans & Crispy Bacon Crumble",
+        "instruction": "For the sweet toppings: cook 6 strips of thick-cut bacon in the oven at 400°F on a sheet pan until shattering-crispy — about 18-20 minutes. Let cool, then crumble into rough pieces. In the same bacon fat (just 1 tablespoon), toss 1 cup of pecan halves with 2 tablespoons brown sugar and a pinch of cayenne. Spread on the sheet pan and bake at 350°F for 8-10 minutes until the sugar bubbles and the nuts are fragrant. Let cool until crunchy. Pile both over waffles alongside fresh berries or sliced bananas.",
+        "why": "Crispy bacon adds a savory, smoky crunch that transforms a sweet waffle into something complex. The candied pecans — cooked in that same bacon fat with brown sugar and a whisper of cayenne — bring sweet, spicy, nutty, and fatty all at once. These toppings give adults and kids alike a reason to remember Thursday night.",
+        "extra_ingredients": ["thick-cut bacon", "pecan halves", "brown sugar", "cayenne pepper", "fresh berries or bananas"]
+      }
+    ],
+    "designers_note": "Last week was Lemon Ricotta Pancakes — elegant and delicate. This week is the loud, confident counterpoint. These waffles are engineered for maximum crunch using cornstarch and whipped whites, then dressed two ways: a savory fried-egg-and-cheddar situation that makes grown-ups weep, and a sweet side with bacon-fat candied pecans that kids will request every Thursday for the rest of the year. This is not breakfast. This is dinner that happens to involve a waffle iron."
+  }
+]

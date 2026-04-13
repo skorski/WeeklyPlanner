@@ -1,0 +1,1922 @@
+{
+  "plan_title": "The Corbiani Weekly — April 12-18, 2026",
+  "week_range": "April 12 – 18, 2026",
+  "highlight": "Spring grilling season kicks off, house offer on the line, and a pizza party with friends",
+  "family_message": "This week is about patience and presence. The house offer may come through or it may not — either way, the family is together, the weather is gorgeous, and the grill is ready. Lean into the warmth of spring, the joy of cooking together, and the certainty that home is wherever you three are.",
+  "school_note": "Normal school week for Elsie — no days off or early releases.",
+  "days": [
+    {
+      "name": "Sun 04/12",
+      "long_name": "Sunday, April 12",
+      "date": "2026-04-12",
+      "dinner": "Chicken Parmesan",
+      "dinner_cuisine": "Italian-American",
+      "dinner_description": "Kenji gold-standard chicken parm: buttermilk-marinated cutlets with shatteringly crisp breadcrumb crust, quick San Marzano sauce, and bubbly mozzarella.",
+      "dinner_source_url": "https://www.seriouseats.com/the-best-chicken-parmesan-recipe",
+      "dinner_source_name": "Serious Eats",
+      "dinner_key_ingredients": [
+        "chicken cutlets",
+        "buttermilk",
+        "breadcrumbs",
+        "parmesan",
+        "mozzarella",
+        "San Marzano tomatoes",
+        "basil",
+        "garlic"
+      ],
+      "album": "Zucchero – Blue's",
+      "album_artist": "Zucchero",
+      "album_title": "Blue's",
+      "album_year": "1987",
+      "album_genre": "Italian Blues-Soul",
+      "album_mood": "Passionate, bluesy, Mediterranean",
+      "album_description": "Italy's king of soul and blues. Senza una donna is iconic, but the whole album grooves with Mediterranean passion.",
+      "album_sonic_description": "Italian blues-soul, raspy vocals, electric guitar, organ, Mediterranean rhythms, raw emotional delivery",
+      "album_pairing_rationale": "Italian soul for Italian comfort food — Zucchero's passionate vocals are the musical equivalent of Sunday Chicken Parmesan.",
+      "album_spotify_url": "https://open.spotify.com/album/1F1t0KAWcW8JOKP0gcfnBB",
+      "weather": "Sunny, 72F/44F",
+      "weather_detail": "Sunny — 94% sunshine, 1% precip, 13 mph wind (gusts to 29 mph)",
+      "calendar_items": [],
+      "day_intro": "",
+      "day_of_week": "sunday",
+      "weather_high": 72,
+      "weather_low": 44,
+      "weather_condition": "SUNNY",
+      "weather_emoji": "☀️",
+      "weather_oneliner": "72°/44° · coldest day",
+      "engagements": [],
+      "dinner_elevation_tips": [
+        {
+          "type": "Preparation Upgrade",
+          "title": "",
+          "instruction": "Pound each chicken breast between plastic wrap to an even ¾-inch thickness, then dry-brine with kosher salt for 30 minutes before breading. For the breading, mix ⅓ cup finely grated Pecorino Romano into the panko and toast the panko in a dry skillet with 2 tablespoons olive oil until golden BEFORE dredging — this way the crust is already crispy and just needs to set in the oven."
+        },
+        {
+          "type": "Sauces & Finishing",
+          "title": "",
+          "instruction": "Make a quick San Marzano sauce: crush a 28-oz can by hand (no blender — you want texture), simmer with 3 smashed garlic cloves, a pinch of red pepper flake, and a torn basil stem for 20 minutes. Finish with 1 tablespoon cold butter swirled in off-heat and a shower of torn fresh basil leaves."
+        },
+        {
+          "type": "Texture Play",
+          "title": "",
+          "instruction": "Use a two-cheese approach: a thick blanket of low-moisture mozzarella melted under the broiler until blistered and spotty, then immediately top with torn pieces of fresh burrata or fresh mozzarella so it barely melts into a creamy layer on contact."
+        }
+      ],
+      "dinner_question": {
+        "day": "Sunday",
+        "dinner": "Chicken Parmesan",
+        "question": "Chicken Parmesan takes a few steps — you bread it, fry it, sauce it, cheese it, bake it. What's something you're working on right now that has a lot of steps, and which step are you on?",
+        "follow_up": "What's the step you're most looking forward to getting to?",
+        "connection_to_theme": "Layered processes mirror planting seeds — you do step after step and trust the result is coming. Normalizes patience with multi-step outcomes (like buying a house)."
+      },
+      "recipe_card": {
+        "source_url": "https://www.seriouseats.com/the-best-chicken-parmesan-recipe",
+        "source_name": "",
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "servings": 4,
+        "nonna_says": "Listen, you soak those chicken cutlets in buttermilk with garlic, salt, and pepper for at least four hours. Overnight is better, but I know you're busy. Pound them thin, a quarter inch, no thicker or you'll be chewing all night. Make your own breadcrumbs from real Italian bread with a good handful of Parmesan mixed in. Flour, then egg wash, then crumbs, and fry in a hot pan until deeply golden, about two minutes each side. Lay them in a baking dish with sauce only down the center so the edges stay crispy. Pile on the mozzarella and more Parmesan, then bake at 425 until it's bubbly and gorgeous. Anyone who uses store-bought breadcrumbs for chicken parm should be ashamed. Now go make your family proud.",
+        "engineer_table_html": "<table class=\"engineer-table\">\n  <tr><th>Ingredient</th><th>Prep</th><th>Step 1: Marinate</th><th>Step 2: Bread</th><th>Step 3: Fry</th><th>Step 4: Assemble</th><th>Step 5: Bake</th></tr>\n  <tr><td>Chicken breasts</td><td>Split, pound thin</td><td>Soak in</td></tr>\n  <tr><td>Buttermilk + garlic</td><td>Mix</td><td>buttermilk 4hr+</td><td>Add to egg wash</td></tr>\n  <tr><td>Flour</td><td>Dredge first</td></tr>\n  <tr><td>Eggs</td><td>Beat</td><td>Dip second</td></tr>\n  <tr><td>Bread + Parmesan</td><td>Grind to crumbs</td><td>Coat third</td></tr>\n  <tr><td>Vegetable oil</td><td>Fry 2 min/side</td></tr>\n  <tr><td>Tomato sauce</td><td>Sauce on bottom</td><td>425F 15 min</td></tr>\n  <tr><td>Mozzarella</td><td>Cube</td><td>Top cutlets</td><td>until bubbly</td></tr>\n  <tr><td>Basil + parsley</td><td>Chop</td><td>Garnish</td></tr>\n</table>",
+        "variations": [
+          {
+            "name": "Air Fryer Chicken Parm",
+            "twist": "Bread cutlets the same way but air fry at 400F instead of pan-frying. Crispy with far less oil, great for weeknights.",
+            "source_url": "https://temeculablogs.com/air-fryer-chicken-parm/"
+          },
+          {
+            "name": "Hot Honey Chicken Parm",
+            "twist": "Classic breaded and baked chicken parm finished with a drizzle of hot honey for a sweet-spicy Southern-Italian twist.",
+            "source_url": "https://www.thisgalcooks.com/easy-chicken-parmesan-recipe/"
+          },
+          {
+            "name": "Eggplant & Chicken Parm Bake",
+            "twist": "Layer breaded chicken and roasted eggplant slices with marinara and mozzarella in a casserole for a veggie-loaded family bake.",
+            "source_url": "https://allcookscorner.com/chicken-eggplant-parmesan-bake/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mon 04/13",
+      "long_name": "Monday, April 13",
+      "date": "2026-04-13",
+      "dinner": "Grilled Chicken Thighs with Lemon and Herbs",
+      "dinner_cuisine": "Mediterranean",
+      "dinner_description": "Expertly marinated bone-in chicken thighs prepared on Sunday with lemon, olive oil, garlic, and fresh herbs. After two days absorbing all that flavor, they go straight on a two-zone grill until charred and juicy with crispy skin.",
+      "dinner_source_url": "https://food52.com/recipes/27499-how-to-grill-chicken",
+      "dinner_source_name": "Food52",
+      "dinner_key_ingredients": [
+        "chicken thighs (bone-in)",
+        "lemon",
+        "olive oil",
+        "garlic",
+        "fresh herbs"
+      ],
+      "album": "Vulfpeck – The Beautiful Game",
+      "album_artist": "Vulfpeck",
+      "album_title": "The Beautiful Game",
+      "album_year": "2016",
+      "album_genre": "Minimalist Funk",
+      "album_mood": "Joyful, quirky, infectious",
+      "album_description": "Minimalist funk with maximum joy. Irresistibly catchy, quirky, and family-friendly.",
+      "album_sonic_description": "Minimalist funk, low-volume aesthetic, tight bass and drums, playful keys, occasional vocals",
+      "album_pairing_rationale": "Fun, catchy Vulfpeck grooves for a simple weeknight grill — both are unpretentious and delicious.",
+      "album_spotify_url": "https://open.spotify.com/album/0fMXx9FHWM0LarKmjmLq1P",
+      "weather": "Cloudy, 82F/58F",
+      "weather_detail": "Cloudy — 35% sunshine, 9% precip, 18 mph wind (gusts to 33 mph)",
+      "calendar_items": [
+        "Dan-Ryan 1:1 4:05-4:30 PM",
+        "MTP Sovereign Staff Meeting 4:40-5:30 PM"
+      ],
+      "day_intro": "",
+      "day_of_week": "monday",
+      "weather_high": 82,
+      "weather_low": 58,
+      "weather_condition": "CLOUDY",
+      "weather_emoji": "☁️",
+      "weather_oneliner": "82°/58°",
+      "engagements": [
+        {
+          "time": "4:05-4:30 PM",
+          "event": "Dan-Ryan 1:1",
+          "event_short": "Dan-Ryan 1:1"
+        },
+        {
+          "time": "4:40-5:30 PM",
+          "event": "MTP Sovereign Staff Meeting",
+          "event_short": "MTP Sovereign Staff Meeting"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "Marinades & Brines",
+          "title": "",
+          "instruction": "These thighs have been marinating since Sunday — two full days in a mixture of ½ cup full-fat Greek yogurt, zest of 2 lemons, 4 smashed garlic cloves, 2 tablespoons olive oil, 1 teaspoon cumin, 1 teaspoon smoked paprika, and a big pinch of salt. The yogurt has been tenderizing them beautifully. Just pull them from the fridge 30 minutes before grilling to take the chill off, then straight onto a medium-high two-zone grill."
+        },
+        {
+          "type": "Acid & Brightness",
+          "title": "",
+          "instruction": "While the chicken thighs rests, make a 2-minute salsa verde: roughly chop a big handful each of parsley and mint, mix with 2 tablespoons capers (chopped), 1 minced garlic clove, juice of 1 lemon, red pepper flakes, and enough olive oil to make it spoonable. Spoon it over the carved chicken thighs at the table."
+        },
+        {
+          "type": "Temperature Contrast",
+          "title": "",
+          "instruction": "Serve the chicken thighs hot off the grill but pair it with a cold, crunchy shaved fennel and arugula salad dressed with lemon juice, olive oil, shaved Parmesan, and flaky salt."
+        }
+      ],
+      "dinner_question": {
+        "day": "Monday",
+        "dinner": "Grilled Chicken Thighs",
+        "question": "We're listening to Vulfpeck tonight — they're a band that started by making super short, silly songs in a basement. What's something you started small that turned into something bigger than you expected?",
+        "follow_up": "If you could start any tiny project this week — even something goofy — what would it be?",
+        "connection_to_theme": "Small beginnings growing into something real. Seeds don't start big. Reinforces that what matters is starting, not knowing the ending."
+      },
+      "dinner_notes": "Thighs were marinated on Sunday — just pull from the fridge and grill. No additional prep needed.",
+      "recipe_card": {
+        "source_url": "https://food52.com/recipes/27499-how-to-grill-chicken",
+        "source_name": "",
+        "prep_time": "15 min + 2 hr marinate",
+        "cook_time": "25 min",
+        "servings": 4,
+        "nonna_says": "Whisk the olive oil, lemon juice, lemon zest, garlic, and all those beautiful herbs together. Toss the chicken in there and let it sit in the fridge for two hours. No more than that or the lemon makes it mushy. Set up your grill with two zones, hot side and cool side. Sear the chicken skin-side down on the hot side until you get good color, then move it to the cool side and close the lid. Let it cook through gently, about 20 minutes, until the juices run clear. Thighs and drumsticks are forgiving, which is why I like them. Squeeze more lemon on top before you serve. Even your eight-year-old will eat this without complaining.",
+        "engineer_table_html": "<table class=\"engineer-table\">\n  <tr><th>Ingredient</th><th>Prep</th><th>Step 1: Marinate</th><th>Step 2: Sear</th><th>Step 3: Indirect</th><th>Step 4: Serve</th></tr>\n  <tr><td>Chicken pieces</td><td>Pat dry</td><td>Coat in</td></tr>\n  <tr><td>Olive oil</td><td>marinade</td></tr>\n  <tr><td>Lemon juice + zest</td><td>Juice, zest</td><td>2 hours max</td><td>Squeeze more</td></tr>\n  <tr><td>Garlic</td><td>Mince</td><td>in marinade</td></tr>\n  <tr><td>Rosemary + oregano</td><td>Chop</td><td>in marinade</td></tr>\n  <tr><td>Thyme</td><td>Strip leaves</td><td>in marinade</td></tr>\n  <tr><td>Red pepper flakes</td><td>in marinade</td></tr>\n  <tr><td>Grill (two-zone)</td><td>Hot side 5 min</td><td>Cool side 20 min</td></tr>\n  <tr><td>Parsley</td><td>Chop</td><td>Garnish</td></tr>\n</table>",
+        "variations": [
+          {
+            "name": "Spatchcock Lemon Herb Chicken",
+            "twist": "Remove the backbone from a whole chicken, lay flat, and grill for even cooking and maximum crispy skin with the same lemon-herb marinade.",
+            "source_url": "https://somuchfoodblog.com/spatchcocked-grilled-lemon-chicken/"
+          },
+          {
+            "name": "Yogurt-Marinated Lemon Herb Chicken",
+            "twist": "Replace olive oil with Greek yogurt in the marinade. The lactic acid tenderizes the chicken for an incredibly juicy, tangy result.",
+            "source_url": "https://cravingsomethinghealthy.com/yogurt-marinated-chicken/"
+          },
+          {
+            "name": "Za'atar Grilled Chicken",
+            "twist": "Swap rosemary and oregano for za'atar spice blend (thyme, sumac, sesame). Serve with lemon-herb yogurt sauce for a Middle Eastern twist.",
+            "source_url": "https://finefoodsblog.com/grilled-zaatar-chicken-with-lemon-herb-yogurt-sauce/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tue 04/14",
+      "long_name": "Tuesday, April 14",
+      "date": "2026-04-14",
+      "dinner": "Babo Pasta",
+      "dinner_cuisine": "Italian",
+      "dinner_description": "The family's beloved Babo Pasta: silky homemade spinach pasta made with 00 flour, blanched spinach puree, and rich egg yolks only.",
+      "dinner_source_url": "https://food52.com/recipes/87659-best-spinach-pasta-recipe",
+      "dinner_source_name": "Food52",
+      "dinner_key_ingredients": [
+        "00 flour",
+        "fresh spinach",
+        "egg yolks",
+        "salt",
+        "parmesan",
+        "butter"
+      ],
+      "album": "Snarky Puppy – Somni",
+      "album_artist": "Snarky Puppy",
+      "album_title": "Somni",
+      "album_year": "2025",
+      "album_genre": "Jazz-Funk Fusion",
+      "album_mood": "Dynamic, precise, exhilarating",
+      "album_description": "Grammy-winning jazz-funk collective with precision grooves and exhilarating live energy. Their latest album Somni is a masterclass in ensemble interplay.",
+      "album_sonic_description": "Jazz-funk fusion, tight ensemble playing, horn sections, electric keys, complex rhythms",
+      "album_pairing_rationale": "Fresh energy for the family's comfort staple — Snarky Puppy's jazz-funk precision mirrors the care that goes into handmade Babo Pasta.",
+      "album_spotify_url": "https://open.spotify.com/album/3MrRksHGM0Lf0x0yVMwHRK",
+      "weather": "Mostly sunny, 84F/60F",
+      "weather_detail": "Mostly Sunny — 89% sunshine, 19% precip chance, 12 mph wind (gusts to 26 mph)",
+      "calendar_items": [
+        "1:1 Robyn 3:10-3:30 PM",
+        "1:1 Alex 3:30-3:50 PM",
+        "1:1 Angel 3:50-4:10 PM",
+        "1:1 Eric 4:10-4:30 PM",
+        "Swim Lessons 6:00-6:30 PM (Elsie)",
+        "On-call rotation starts"
+      ],
+      "day_intro": "",
+      "day_of_week": "tuesday",
+      "weather_high": 84,
+      "weather_low": 60,
+      "weather_condition": "LIGHT DRIZZLE",
+      "weather_emoji": "🌤️",
+      "weather_oneliner": "84°/60°",
+      "engagements": [
+        {
+          "time": "3:10-3:30 PM",
+          "event": "1:1 Robyn",
+          "event_short": "1:1 Robyn"
+        },
+        {
+          "time": "3:30-3:50 PM",
+          "event": "1:1 Alex",
+          "event_short": "1:1 Alex"
+        },
+        {
+          "time": "3:50-4:10 PM",
+          "event": "1:1 Angel",
+          "event_short": "1:1 Angel"
+        },
+        {
+          "time": "4:10-4:30 PM",
+          "event": "1:1 Eric",
+          "event_short": "1:1 Eric"
+        },
+        {
+          "time": "6:00-6:30 PM",
+          "event": "Swim Lessons  (Elsie)",
+          "event_short": "Swim Lessons"
+        },
+        {
+          "time": "",
+          "event": "On-call rotation starts",
+          "event_short": "On-call rotation starts"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "Preparation Upgrade",
+          "title": "",
+          "instruction": "Finish the pasta in the sauce: pull the pasta from the boiling water 90 seconds early (while still chalky in the center), transfer directly into the sauté pan with your sauce and ½ cup starchy pasta water. Toss vigorously over medium heat for 60-90 seconds — the starch emulsifies with the fat and creates a glossy, clingy sauce that coats every strand."
+        },
+        {
+          "type": "Sauces & Finishing",
+          "title": "",
+          "instruction": "Keep it fast — brown 4 tablespoons butter in a light-colored pan until it smells nutty and the solids turn amber (about 3 minutes). Immediately toss in a handful of fresh sage leaves — they'll crackle and crisp in 10 seconds. Pour this over the finished pasta with a squeeze of lemon and a blizzard of Parmigiano."
+        }
+      ],
+      "dinner_question": {
+        "day": "Tuesday",
+        "dinner": "Babo Pasta",
+        "question": "You had swim lessons today — when you're underwater, everything sounds different and looks wobbly. What's something in your regular life that looks totally different when you see it from a new angle?",
+        "follow_up": "Like, what would our house look like if you were the size of a cat? Or what would school look like if you were the teacher?",
+        "connection_to_theme": "Perspective-shifting. When you're waiting for something (a house, a result, a next step), changing your angle can make the waiting feel different. Snarky Puppy's jazz fusion does this musically — familiar sounds from unexpected angles."
+      },
+      "recipe_card": {
+        "source_url": "https://food52.com/recipes/87659-best-spinach-pasta-recipe",
+        "source_name": "",
+        "prep_time": "45 min + 30 min rest",
+        "cook_time": "10 min",
+        "servings": 4,
+        "nonna_says": "Blanch your spinach for twenty seconds, just until it goes bright green, then squeeze every last drop of water out. Blend it smooth. Make a well in your 00 flour, drop in the egg yolks and the spinach puree, and work it together with your hands. Knead for ten minutes until it's silky and springs back when you poke it. Wrap it up and let it rest at least thirty minutes. Roll it thin through the pasta machine and cut tagliatelle. Cook in very salty boiling water for two minutes, then toss with brown butter and a good shower of Parmesan. This is the Babo way and no salmon or fancy sauce is going to improve on butter and cheese. Your little one will want seconds.",
+        "engineer_table_html": "<table class=\"engineer-table\">\n  <tr><th>Ingredient</th><th>Prep</th><th>Step 1: Puree</th><th>Step 2: Dough</th><th>Step 3: Rest</th><th>Step 4: Roll/Cut</th><th>Step 5: Cook</th><th>Step 6: Sauce</th></tr>\n  <tr><td>Fresh spinach</td><td>Wash</td><td>Blanch 20 sec</td></tr>\n  <tr><td>00 flour</td><td>Make well</td></tr>\n  <tr><td>Egg yolks</td><td>Separate</td><td>Add to well</td></tr>\n  <tr><td>Spinach puree</td><td>Add to well</td></tr>\n  <tr><td>Salt</td><td>Add, knead 10min</td><td>Wrap 30 min</td></tr>\n  <tr><td>Semolina</td><td>Dust, roll thin</td></tr>\n  <tr><td>Salted water</td><td>Boil 2 min</td></tr>\n  <tr><td>Butter</td><td>Brown in pan</td></tr>\n  <tr><td>Parmigiano</td><td>Grate</td><td>Toss + shower</td></tr>\n</table>",
+        "variations": [
+          {
+            "name": "Beet Tagliatelle",
+            "twist": "Replace spinach with roasted beet puree for stunning pink pasta with a subtle earthy sweetness. Same egg-yolk-only technique.",
+            "source_url": "https://www.alphafoodie.com/how-to-make-beet-pasta/"
+          },
+          {
+            "name": "Saffron Egg Yolk Pasta",
+            "twist": "Steep saffron threads in warm water and add to the egg yolk dough for golden, aromatic pasta. Beautiful with a simple cream sauce.",
+            "source_url": "https://www.spoonforkbacon.com/homemade-pasta/"
+          },
+          {
+            "name": "Squid Ink Tagliatelle",
+            "twist": "Add two teaspoons of squid ink to the dough for dramatic black pasta with a briny, oceanic flavor. Pairs perfectly with seafood.",
+            "source_url": "https://gardenbetty.com/fresh-homemade-pasta-using-what-you-already-have-in-the-kitchen/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wed 04/15",
+      "long_name": "Wednesday, April 15",
+      "date": "2026-04-15",
+      "dinner": "Corned Beef Hash with Yellow Potatoes",
+      "dinner_cuisine": "American",
+      "dinner_description": "Crispy golden corned beef hash with Yukon Gold potatoes, pan-fried in cast iron until deeply crusty. Crowned with fried eggs.",
+      "dinner_source_url": "https://www.seriouseats.com/corned-beef-hash-recipe",
+      "dinner_source_name": "Serious Eats",
+      "dinner_key_ingredients": [
+        "corned beef",
+        "Yukon Gold potatoes",
+        "yellow onion",
+        "butter",
+        "eggs",
+        "parsley"
+      ],
+      "album": "Tom Misch – Geography",
+      "album_artist": "Tom Misch",
+      "album_title": "Geography",
+      "album_year": "2018",
+      "album_genre": "Jazz-Pop / Soul",
+      "album_mood": "Warm, breezy, sophisticated",
+      "album_description": "South London producer-guitarist creates jazzy, soulful grooves that are sophisticated yet accessible.",
+      "album_sonic_description": "Jazz-inflected guitar pop, soul vocals, electronic beats, warm bass, London-scene production",
+      "album_pairing_rationale": "Breezy and warm — the perfect soundtrack for Dad picking up Elsie and making a cozy hash together.",
+      "album_spotify_url": "https://open.spotify.com/album/28NhpLGQBp8VEGxFfLqhfP",
+      "weather": "Sunny, 87F/65F",
+      "weather_detail": "Sunny — 96% sunshine, 11% precip, 9 mph wind (gusts to 20 mph)",
+      "calendar_items": [
+        "Dan picks up Elsie from school (Laura work meeting)",
+        "MTP Office Hours 4:10-5:00 PM (tentative)"
+      ],
+      "day_intro": "",
+      "day_of_week": "wednesday",
+      "weather_high": 87,
+      "weather_low": 65,
+      "weather_condition": "SUNNY",
+      "weather_emoji": "☀️",
+      "weather_oneliner": "87°/65°",
+      "engagements": [
+        {
+          "time": "",
+          "event": "Dan picks up Elsie from school (Laura work meeting)",
+          "event_short": "Dan picks up Elsie from school"
+        },
+        {
+          "time": "4:10-5:00 PM",
+          "event": "MTP Office Hours  (tentative)",
+          "event_short": "MTP Office Hours"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "Texture Play",
+          "title": "",
+          "instruction": "The cardinal rule of hash: DO NOT STIR. Get your cast-iron skillet ripping hot with a mix of butter and oil. Spread the potato-and-corned-beef mixture in an even layer and press it down firmly with a spatula. Let it sit untouched for 5-6 minutes until the bottom develops a dark, crackling crust. Flip in sections (not all at once) and repeat."
+        },
+        {
+          "type": "Acid & Brightness",
+          "title": "",
+          "instruction": "Top each serving with a fried egg (crispy edges, runny yolk) and a generous spoonful of quick-pickled red onions: thinly slice 1 red onion, toss with ½ cup apple cider vinegar, 1 tablespoon sugar, and a pinch of salt. Let sit 20 minutes while you cook. The pink, tangy onions cut right through the richness."
+        },
+        {
+          "type": "Preparation Upgrade",
+          "title": "",
+          "instruction": "Par-boil the yellow potatoes (cut into ½-inch cubes) for exactly 6 minutes — until a knife meets slight resistance. Drain and let them steam dry in the colander for 5 minutes. The roughed-up edges from the parboil will crisp beautifully in the skillet."
+        }
+      ],
+      "dinner_question": {
+        "day": "Wednesday",
+        "dinner": "Corned Beef Hash",
+        "question": "Corned beef hash is basically leftovers turned into something new and delicious. What's something old or leftover in your life that you could remix into something cool?",
+        "follow_up": "Tom Misch — the guy we're listening to — literally remixes other people's songs into new ones. If you could remix one thing about your week so far, what would you change?",
+        "connection_to_theme": "Transformation and making the best of what you have. When life gives you uncertainty, you remix. You don't need a brand-new ingredient — sometimes the best thing comes from working with what's already in front of you."
+      },
+      "recipe_card": {
+        "source_url": "https://www.seriouseats.com/corned-beef-hash-recipe",
+        "source_name": "",
+        "prep_time": "15 min",
+        "cook_time": "25 min",
+        "servings": 4,
+        "nonna_says": "Cut your Yukon Golds into half-inch cubes and parboil them with a splash of vinegar and salt until just barely tender, about four minutes. Drain them and let them dry out. Melt butter in your biggest cast iron pan over medium-high heat. Cook the onions and peppers until they soften and start to brown. Add the potatoes and let them get golden and crispy, turning them every few minutes. Now fold in the shredded corned beef, press everything flat, and leave it alone. That's the secret, don't fiddle with it. Let the bottom get a dark, gorgeous crust, then stir and press again. Fry your eggs and set them right on top. The runny yolk is the sauce and I won't hear otherwise.",
+        "engineer_table_html": "<table class=\"engineer-table\">\n  <tr><th>Ingredient</th><th>Prep</th><th>Step 1: Parboil</th><th>Step 2: Saute</th><th>Step 3: Crisp</th><th>Step 4: Hash</th><th>Step 5: Serve</th></tr>\n  <tr><td>Yukon Gold potatoes</td><td>Cube 1/2-inch</td><td>Boil 4 min</td><td>Add, brown 8 min</td></tr>\n  <tr><td>White vinegar</td><td>Add to water</td></tr>\n  <tr><td>Butter</td><td>Melt in CI pan</td></tr>\n  <tr><td>Yellow onion</td><td>Chop unevenly</td><td>Cook 6 min</td></tr>\n  <tr><td>Bell pepper</td><td>Dice</td><td>Cook with onion</td></tr>\n  <tr><td>Corned beef</td><td>Shred by hand</td><td>Fold in, press</td></tr>\n  <tr><td>Eggs</td><td>Fry, place on top</td></tr>\n  <tr><td>Parsley</td><td>Chop</td><td>Garnish</td></tr>\n</table>",
+        "variations": [
+          {
+            "name": "Sweet Potato Corned Beef Hash",
+            "twist": "Swap Yukon Golds for sweet potatoes and add smoked paprika. The natural sweetness caramelizes beautifully in cast iron.",
+            "source_url": "https://craveworthynutrition.com/5-delicious-corned-beef-hash-variations"
+          },
+          {
+            "name": "Kimchi Corned Beef Hash",
+            "twist": "Fold in chopped kimchi near the end of cooking for a spicy, tangy, umami-packed fusion hash. Finish with sesame oil and scallions.",
+            "source_url": "https://simplyfamilyrecipes.com/corned-beef-hash-recipes/"
+          },
+          {
+            "name": "Mexican-Style Corned Beef Hash",
+            "twist": "Add cumin, chili powder, black beans, and corn. Top with pico de gallo, cilantro, and sour cream. Serve with warm tortillas.",
+            "source_url": "https://www.tasteofhome.com/recipes/easy-corned-beef-hash/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thu 04/16",
+      "long_name": "Thursday, April 16",
+      "date": "2026-04-16",
+      "dinner": "Grilled Steaks with Potatoes, Peppers, and Cilantro Chimichurri",
+      "dinner_cuisine": "Argentinian-American",
+      "dinner_description": "Thick-cut ribeye or strip steaks grilled over high heat with grilled bell peppers, roasted baby potatoes, and vibrant cilantro-parsley chimichurri.",
+      "dinner_source_url": "https://www.splendidtable.org/story/2019/03/11/the-perfect-rib-eye-steak-with-whole-grilled-potatoes-and-chimichurri-sauce",
+      "dinner_source_name": "The Splendid Table",
+      "dinner_key_ingredients": [
+        "ribeye or strip steak",
+        "bell peppers",
+        "baby potatoes",
+        "cilantro",
+        "parsley",
+        "red wine vinegar",
+        "garlic",
+        "olive oil",
+        "blue cheese"
+      ],
+      "album": "Earth, Wind & Fire – That's the Way of the World",
+      "album_artist": "Earth, Wind & Fire",
+      "album_title": "That's the Way of the World",
+      "album_year": "1975",
+      "album_genre": "Funk / Soul / Disco",
+      "album_mood": "Euphoric, uplifting, celebratory",
+      "album_description": "The quintessential feel-good funk-soul album. Shining Star alone will have the whole family dancing.",
+      "album_sonic_description": "Orchestral funk, soaring vocals, kalimba, tight horn arrangements, disco-influenced rhythms",
+      "album_pairing_rationale": "Bold, high-energy EWF for 87-degree grilling night — steaks on the grill with Shining Star on the speakers.",
+      "album_spotify_url": "https://open.spotify.com/album/2WYkFhEwRYuBGnllkFsmKB",
+      "weather": "Sunny, 87F/67F",
+      "weather_detail": "Sunny — 94% sunshine, 12% precip, 11 mph wind (gusts to 22 mph)",
+      "calendar_items": [
+        "1:1 Dan/CJ 3:05-3:30 PM",
+        "Catch up 4:00-4:30 PM"
+      ],
+      "day_intro": "",
+      "day_of_week": "thursday",
+      "weather_high": 87,
+      "weather_low": 67,
+      "weather_condition": "SUNNY",
+      "weather_emoji": "☀️",
+      "weather_oneliner": "87°/67°",
+      "engagements": [
+        {
+          "time": "3:05-3:30 PM",
+          "event": "1:1 Dan/CJ",
+          "event_short": "1:1 Dan/CJ"
+        },
+        {
+          "time": "4:00-4:30 PM",
+          "event": "Catch up",
+          "event_short": "Catch up"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "Preparation Upgrade",
+          "title": "",
+          "instruction": "Reverse-sear the steaks: salt them heavily 1 hour before cooking. Set up a two-zone grill — indirect heat on one side, blazing coals on the other. Cook the steaks on the cool side with the lid on until the internal temp hits 115°F (about 20-25 minutes for 1.5-inch steaks). Then move to the searing-hot side for 60-90 seconds per side until you get a dark, mahogany crust. Rest 10 minutes."
+        },
+        {
+          "type": "Sauces & Finishing",
+          "title": "",
+          "instruction": "Make chimichurri that punches: 1 cup packed cilantro (stems and all), ½ cup packed parsley, 4 garlic cloves, 1 minced serrano chile (seeded for Elsie's portion), ¼ cup red wine vinegar, ¾ cup olive oil, 1 teaspoon dried oregano, and flaky salt. Pulse in a food processor — leave it chunky, not smooth. Make it 30 minutes ahead so the flavors meld."
+        },
+        {
+          "type": "Temperature Contrast",
+          "title": "",
+          "instruction": "Grill the peppers and potatoes (halved baby potatoes, tossed in oil and salt) directly on the grates alongside the steak during the searing phase. Serve the sizzling-hot vegetables with the cold chimichurri spooned over everything at the table."
+        },
+        {
+          "type": "Finish",
+          "title": "",
+          "instruction": "Crumble quality blue cheese over the steaks in the last 30 seconds of rest. The residual heat softens it into a tangy, creamy layer that plays beautifully against the char and cilantro sauce."
+        }
+      ],
+      "dinner_question": {
+        "day": "Thursday",
+        "dinner": "Grilled Steaks",
+        "question": "Earth, Wind & Fire is playing — those are three huge forces of nature. If you could have the power of earth, wind, OR fire for one day, which would you pick and what's the first thing you'd do with it?",
+        "follow_up": "Okay, now — what's a superpower you already have that most people don't notice?",
+        "connection_to_theme": "Recognizing your own strength during uncertain times. Seeds need earth, wind, and fire (sun) to grow. Elsie has her own forces — this question helps her name them."
+      },
+      "recipe_card": {
+        "source_url": "https://www.splendidtable.org/story/2019/03/11/the-perfect-rib-eye-steak-with-whole-grilled-potatoes-and-chimichurri-sauce",
+        "source_name": "",
+        "prep_time": "20 min + 1 hr rest",
+        "cook_time": "30 min",
+        "servings": 4,
+        "nonna_says": "Make your chimichurri first so the flavors can marry. Blitz the cilantro, parsley, basil, garlic, scallions, lime juice, vinegar, and olive oil in the food processor until it's rough but loose. Taste it and add salt. For the steak, pat it very dry, rub it with coarsely ground pepper and salt, and let it sit at room temperature for an hour. Roast the steak at 250 degrees until the inside reads 115, then sear it screaming hot in a cast iron pan, thirty seconds each side. Let it rest fifteen minutes. Meanwhile, grill your potatoes and peppers on the side of the fire. Slice the steak against the grain and pour that chimichurri over everything. This is a meal that makes people go quiet because they're too busy eating.",
+        "engineer_table_html": "<table class=\"engineer-table\">\n  <tr><th>Ingredient</th><th>Prep</th><th>Step 1: Chimichurri</th><th>Step 2: Season</th><th>Step 3: Slow Roast</th><th>Step 4: Sear</th><th>Step 5: Grill Sides</th><th>Step 6: Serve</th></tr>\n  <tr><td>Cilantro + parsley</td><td>Strip stems</td><td>Blitz all in</td><td>Spoon over</td></tr>\n  <tr><td>Basil</td><td>Strip stems</td><td>food processor</td><td>everything</td></tr>\n  <tr><td>Garlic + scallions</td><td>Peel, chop</td><td>with liquids</td></tr>\n  <tr><td>Lime juice + vinegar</td><td>and olive oil</td></tr>\n  <tr><td>Olive oil</td></tr>\n  <tr><td>Ribeye steak</td><td>Pat very dry</td><td>Rub pepper+salt</td><td>250F to 115F</td><td>Sear 30 sec/side</td><td>Slice, rest 15m</td></tr>\n  <tr><td>Peppercorn rub</td><td>Coarsely grind</td><td>Apply, rest 1 hr</td></tr>\n  <tr><td>Grapeseed oil</td><td>Coat hot pan</td></tr>\n  <tr><td>Small potatoes</td><td>Clean, dry</td><td>Grill 25 min</td></tr>\n  <tr><td>Bell peppers</td><td>Halve, seed</td><td>Grill 10 min</td></tr>\n</table>",
+        "variations": [
+          {
+            "name": "Coffee-Rubbed Ribeye with Chimichurri",
+            "twist": "Rub steak with a blend of finely ground coffee, smoked paprika, brown sugar, and chili powder before grilling. The coffee adds deep, earthy complexity against the bright chimichurri.",
+            "source_url": "https://gordonramsayeats.com/gordon-ramsay-coffee-rub-steak/"
+          },
+          {
+            "name": "Blue Cheese Steak with Chimichurri",
+            "twist": "Top the seared steak with crumbled blue cheese and let it melt slightly. The tangy cheese against the herbaceous chimichurri is outrageously good.",
+            "source_url": "https://www.heathrilesbbq.com/blogs/favorite-recipes/steak-chimichurri-crostini"
+          },
+          {
+            "name": "Korean-Style Steak with Chimichurri",
+            "twist": "Marinate in soy sauce, ginger, garlic, sesame oil, and gochujang before grilling. Top with classic chimichurri for a fusion of umami and herbal brightness.",
+            "source_url": "https://delishsides.com/bobby-flay-hanger-steak/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fri 04/17",
+      "long_name": "Friday, April 17",
+      "date": "2026-04-17",
+      "dinner": "Homemade Pizza Night",
+      "dinner_cuisine": "Italian",
+      "dinner_description": "No-knead overnight pizza dough baked on screaming-hot steel. Topping bar for guests: fresh mozz, roasted red peppers, artichoke hearts, olives, basil, cherry tomatoes, ricotta. NO PORK.",
+      "dinner_source_url": "https://www.seriouseats.com/foolproof-pan-pizza-recipe",
+      "dinner_source_name": "Serious Eats",
+      "dinner_key_ingredients": [
+        "bread flour",
+        "yeast",
+        "fresh mozzarella",
+        "San Marzano tomatoes",
+        "basil",
+        "roasted red peppers",
+        "artichoke hearts",
+        "olives",
+        "ricotta",
+        "fresh strawberries",
+        "fresh basil",
+        "lemons"
+      ],
+      "album": "Jamiroquai – Travelling Without Moving",
+      "album_artist": "Jamiroquai",
+      "album_title": "Travelling Without Moving",
+      "album_year": "1996",
+      "album_genre": "Acid Jazz / Disco-Funk",
+      "album_mood": "Energetic, funky, futuristic",
+      "album_description": "Acid jazz meets disco-funk with Virtual Insanity as its centerpiece. High-energy party vibes.",
+      "album_sonic_description": "Acid jazz, disco-funk, didgeridoo, tight bass grooves, orchestral touches, electronic elements",
+      "album_pairing_rationale": "Party vibes for pizza night with friends — Jamiroquai brings the energy that makes a Friday feel like a celebration.",
+      "album_spotify_url": "https://open.spotify.com/album/5F13Y96FKDn4C7mFSCVLBo",
+      "weather": "Sunny, 86F/68F",
+      "weather_detail": "Sunny — 90% sunshine, 13% precip, 10 mph wind (gusts to 20 mph)",
+      "calendar_items": [
+        "YAT (Elsie) 4:30-6:00 PM",
+        "Sophia & Faran coming for pizza (NO PORK)"
+      ],
+      "day_intro": "",
+      "day_of_week": "friday",
+      "weather_high": 86,
+      "weather_low": 68,
+      "weather_condition": "SUNNY",
+      "weather_emoji": "☀️",
+      "weather_oneliner": "86°/68°",
+      "engagements": [
+        {
+          "time": "4:30-6:00 PM",
+          "event": "YAT (Elsie)",
+          "event_short": "YAT"
+        },
+        {
+          "time": "",
+          "event": "Sophia & Faran coming for pizza (NO PORK)",
+          "event_short": "Sophia & Faran coming for pizza"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "Preparation Upgrade",
+          "title": "",
+          "instruction": "Crank your oven as high as it goes (500-550°F) with a baking steel or inverted sheet pan on the lowest rack for at least 45 minutes before baking. If you have a pizza stone, even better. Stretch the dough on a well-floured peel and work fast — the key to a blistered, charred crust is maximum heat from below. Each pizza should take only 6-8 minutes."
+        },
+        {
+          "type": "Sauces & Finishing",
+          "title": "",
+          "instruction": "Offer three creative no-pork pizzas: (1) Spicy Chicken & Roasted Red Pepper — shredded rotisserie chicken, roasted red peppers, thin red onion, mozzarella, finished with hot honey drizzle and fresh basil. (2) White Pizza with Ricotta & Greens — dollops of ricotta, garlic oil base (no red sauce), sautéed spinach or arugula added after baking, lemon zest, black pepper, and shaved Parm. (3) Margherita Plus — San Marzano sauce, fresh mozzarella, fresh basil, but add torn pieces of burrata after baking and a drizzle of really good olive oil."
+        },
+        {
+          "type": "Acid & Brightness",
+          "title": "",
+          "instruction": "Serve a simple arugula salad alongside: baby arugula, shaved Parmesan, lemon juice, good olive oil, flaky salt. Toss it at the last second so the arugula stays perky. For Elsie, add some cherry tomatoes and a milder dressing."
+        }
+      ],
+      "dinner_question": {
+        "day": "Friday",
+        "dinner": "Pizza with Sophia & Faran",
+        "question": "We're making pizza tonight and everyone gets to choose their toppings — so here's the big question: Sophia, Faran, Elsie — if your personality was a pizza topping, what topping would you be and why?",
+        "follow_up": "Okay, now make a pizza using all three of your personality toppings. Would that pizza be amazing or disgusting?",
+        "connection_to_theme": "Community and the people who make a place feel like home. With Jamiroquai's party energy and friends at the table, this is about celebrating that home isn't a building — it's the people you share your weird pizza with."
+      },
+      "dinner_notes": "Strawberry Basil Lemonade: Hull and quarter 1 lb fresh strawberries. Muddle with 8-10 fresh basil leaves and 3/4 cup sugar in a pitcher. Add 1 cup fresh lemon juice (about 6 lemons) and 4 cups cold water. Stir vigorously until sugar dissolves. Strain if desired, or leave rustic. Serve over ice with a basil sprig garnish. Makes about 6 glasses.",
+      "recipe_card": {
+        "source_url": "https://www.seriouseats.com/foolproof-pan-pizza-recipe",
+        "source_name": "",
+        "prep_time": "15 min + 8-24 hr rise",
+        "cook_time": "15 min",
+        "servings": 6,
+        "nonna_says": "The night before, mix your bread flour, salt, yeast, water, and a drizzle of olive oil together until no dry flour remains. It will be sticky and ugly, that's fine. Cover it and leave it alone for eight to twenty-four hours. The next day, oil two cast iron pans generously, divide the dough between them, and press it out. Let it rise two more hours. Crank your oven as hot as it goes, 550 if you have it. Sauce, cheese, and whatever toppings your guests want. No pork tonight, we have Sophia and Faran coming. Roasted peppers, artichoke hearts, olives, fresh mozzarella, ricotta, whatever makes them happy. Bake twelve to fifteen minutes until the bottom is crispy and the cheese is bubbling. This pizza is better than delivery and anyone who disagrees hasn't tried it.",
+        "engineer_table_html": "<table class=\"engineer-table\">\n  <tr><th>Ingredient</th><th>Prep</th><th>Step 1: Mix (night before)</th><th>Step 2: Rise</th><th>Step 3: Pan Shape</th><th>Step 4: Top</th><th>Step 5: Bake</th></tr>\n  <tr><td>Bread flour</td><td>Combine all dry</td></tr>\n  <tr><td>Salt + yeast</td><td>and wet ingredients</td></tr>\n  <tr><td>Water</td><td>Mix until shaggy</td></tr>\n  <tr><td>Olive oil</td><td>Drizzle in</td><td>Oil pans</td></tr>\n  <tr><td>Dough</td><td>Cover tightly</td><td>8-24 hr RT</td><td>Press to edges</td></tr>\n  <tr><td>Tomato sauce</td><td>Spread to edges</td></tr>\n  <tr><td>Mozzarella (LM)</td><td>Grate</td><td>Layer on</td><td>550F 12-15 min</td></tr>\n  <tr><td>Fresh mozz</td><td>Tear</td><td>Dot on top</td><td>until bubbly</td></tr>\n  <tr><td>Topping bar</td><td>Prep all</td><td>Guest's choice</td></tr>\n  <tr><td>Basil</td><td>Add after bake</td></tr>\n</table>",
+        "variations": [
+          {
+            "name": "White Pizza (Pizza Bianca)",
+            "twist": "Skip the tomato sauce. Spread garlic-herb ricotta on the dough, top with mozzarella, caramelized onions, and arugula after baking. No pork.",
+            "source_url": "https://www.bbcgoodfood.com/howto/guide/top-10-pizza-topping-ideas"
+          },
+          {
+            "name": "Pesto Pizza with Cherry Tomatoes",
+            "twist": "Replace tomato sauce with basil pesto. Top with fresh mozzarella, halved cherry tomatoes, and arugula. Bright, herbaceous, and completely pork-free.",
+            "source_url": "https://www.food.com/ideas/homemade-pizza-recipes-6325"
+          },
+          {
+            "name": "Classic Margherita",
+            "twist": "The purist's pizza: San Marzano sauce, fresh mozzarella, fresh basil, a drizzle of olive oil. Nothing more, nothing less. No pork needed.",
+            "source_url": "https://www.tasteofhome.com/collection/italian-vegetarian-recipes/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sat 04/18",
+      "long_name": "Saturday, April 18",
+      "date": "2026-04-18",
+      "dinner": "Grilled Smash Burgers with Green Goddess Salad",
+      "dinner_cuisine": "American",
+      "dinner_description": "Juicy smash-style burgers from 80/20 chuck on a hot grill, served on toasted brioche with all the fixings. Paired with a vibrant green goddess salad.",
+      "dinner_source_url": "https://www.seriouseats.com/the-best-burgers-recipe",
+      "dinner_source_name": "Serious Eats",
+      "dinner_key_ingredients": [
+        "ground chuck 80/20",
+        "brioche buns",
+        "sharp cheddar",
+        "lettuce",
+        "tomato",
+        "red onion",
+        "pickles"
+      ],
+      "album": "Khruangbin – A LA SALA",
+      "album_artist": "Khruangbin",
+      "album_title": "A LA SALA",
+      "album_year": "2024",
+      "album_genre": "Psychedelic Funk / Global",
+      "album_mood": "Hypnotic, warm, globally-minded",
+      "album_description": "Global funk-psych trio with hypnotic grooves. A La Sala means to the living room — music for intimate home spaces.",
+      "album_sonic_description": "Psychedelic funk, Thai-influenced melodies, surf guitar, dub bass, minimalist but lush production",
+      "album_pairing_rationale": "Breezy summer grooves for outdoor grilling at 88 degrees. Khruangbin turns a backyard into a global lounge.",
+      "album_spotify_url": "https://open.spotify.com/album/4OJBMFnpMfBCewkRWVbDJx",
+      "weather": "Sunny, 88F/66F",
+      "weather_detail": "Sunny — 97% sunshine, 16% precip, 10 mph wind (gusts to 19 mph)",
+      "calendar_items": [
+        "Forest Bathing Workshop 9:00-10:30 AM",
+        "YAT 9:00 AM-12:00 PM"
+      ],
+      "day_intro": "",
+      "day_of_week": "saturday",
+      "weather_high": 88,
+      "weather_low": 66,
+      "weather_condition": "SUNNY",
+      "weather_emoji": "☀️",
+      "weather_oneliner": "88°/66° · warmest day",
+      "engagements": [
+        {
+          "time": "9:00-10:30 AM",
+          "event": "Forest Bathing Workshop",
+          "event_short": "Forest Bathing Workshop"
+        },
+        {
+          "time": "9:00 AM",
+          "event": "YAT -12:00 PM",
+          "event_short": "YAT -12:00 PM"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "Preparation Upgrade",
+          "title": "",
+          "instruction": "Use 80/20 ground beef (chuck). Season only the outside — mix salt, pepper, and garlic powder, then press it onto the formed patties' surfaces rather than mixing into the meat. Form patties slightly wider than your buns and press a thumbprint dimple in the center. Grill over high direct heat: 4 minutes first side (don't touch), flip once, add cheese immediately, close lid for 2 minutes to melt."
+        },
+        {
+          "type": "Sauces & Finishing",
+          "title": "",
+          "instruction": "Make a quick smash-style burger sauce: ¼ cup mayo, 2 tablespoons ketchup, 1 tablespoon yellow mustard, 2 tablespoons finely diced dill pickles, 1 teaspoon pickle brine, a pinch of garlic powder, and a few dashes of hot sauce. Also: toast the buns cut-side down on the grill for 30 seconds — this is non-negotiable."
+        },
+        {
+          "type": "Texture Play",
+          "title": "",
+          "instruction": "Upgrade the Green Goddess salad dressing: blend 1 avocado, ½ cup buttermilk, a big handful each of basil, chives, and tarragon, 2 anchovy fillets (trust me — they add savory depth, not fishiness), juice of 1 lemon, 1 garlic clove, salt and pepper. Toss with crisp Little Gem or romaine, shaved cucumber, snap peas, and radishes. Top with toasted pepitas for crunch."
+        }
+      ],
+      "dinner_question": {
+        "day": "Saturday",
+        "dinner": "Burgers",
+        "question": "We did forest bathing this morning — just being quiet in the woods. What's one thing you noticed out there that you'd never notice if you were in a hurry?",
+        "follow_up": "Khruangbin — the band playing right now — makes music that feels like it's in no rush to get anywhere. What's something in your life you wish you could slow down instead of rush through?",
+        "connection_to_theme": "The payoff of patience. Forest bathing is literally the practice of slowing down enough to notice what's already growing. The perfect closing ritual for a week about planting seeds and trusting the process."
+      },
+      "recipe_card": {
+        "source_url": "https://www.seriouseats.com/the-best-burgers-recipe",
+        "source_name": "",
+        "prep_time": "15 min",
+        "cook_time": "10 min",
+        "servings": 4,
+        "nonna_says": "Divide your ground chuck into four balls, about four ounces each. Do not overwork the meat, just barely hold them together. Get your cast iron screaming hot. Place the balls down and smash them hard and flat with a stiff spatula. Season with salt and pepper right away. Leave them alone for ninety seconds until the edges are dark brown and lacy. Flip, add your cheese immediately, and cook another thirty seconds. The cheese melts while the second side crisps. Butter and toast your brioche buns in the same pan. Stack them up with pickles, onions, and whatever makes you happy. Serve these next to the green goddess salad and try not to eat two. You will fail.",
+        "engineer_table_html": "<table class=\"engineer-table\">\n  <tr><th>Ingredient</th><th>Prep</th><th>Step 1: Heat Pan</th><th>Step 2: Smash</th><th>Step 3: Flip</th><th>Step 4: Buns</th><th>Step 5: Assemble</th></tr>\n  <tr><td>Ground chuck 80/20</td><td>Form 4 loose balls</td><td>Smash flat</td></tr>\n  <tr><td>Salt + pepper</td><td>Season on top</td></tr>\n  <tr><td>Cast iron pan</td><td>Screaming hot</td><td>Cook 90 sec</td><td>Flip</td></tr>\n  <tr><td>Cheddar cheese</td><td>Slice</td><td>Add immediately</td></tr>\n  <tr><td>Brioche buns</td><td>Split</td><td>Butter, toast</td></tr>\n  <tr><td>Red onion</td><td>Slice thin</td><td>Layer on</td></tr>\n  <tr><td>Pickles</td><td>Slice</td><td>Layer on</td></tr>\n  <tr><td>Lettuce + tomato</td><td>Wash, slice</td><td>Layer on</td></tr>\n  <tr><td>Burger sauce</td><td>Mix</td><td>Spread on bun</td></tr>\n</table>",
+        "variations": [
+          {
+            "name": "Oklahoma Onion Smash Burger",
+            "twist": "Press thinly sliced onions into the meat as you smash. The onions caramelize and fuse into the patty for incredible savory depth.",
+            "source_url": "https://comfortplates.com/the-oklahoma-onion-smashburger-recipe/"
+          },
+          {
+            "name": "Pimento Cheese Smash Burger",
+            "twist": "Skip the cheddar and top with a generous scoop of pimento cheese that melts into a creamy, peppery Southern-style topping.",
+            "source_url": "https://artemisrecipes.com/smash-burger/"
+          },
+          {
+            "name": "Green Chile Smash Burger",
+            "twist": "Top with roasted Hatch green chiles and pepper jack cheese for a smoky, spicy Southwest-style burger. Finish with green chile aioli.",
+            "source_url": "https://www.foodnetwork.com/grilling/grilling-central-burgers-and-hot-dogs/best-burger-recipes"
+          }
+        ]
+      }
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Whipped Ricotta & Spring Pea Crostini",
+      "description": "Creamy whipped ricotta on toasted baguette slices topped with fresh spring peas, lemon zest, and mint",
+      "source_url": "https://www.bonappetit.com/recipe/pea-and-ricotta-crostini"
+    },
+    {
+      "name": "Grilled Asparagus with Romesco Sauce",
+      "description": "Charred asparagus spears with a smoky red pepper and almond romesco",
+      "source_url": "https://www.seriouseats.com/grilled-asparagus-recipe"
+    }
+  ],
+  "salads": [
+    {
+      "name": "Spring Asparagus, Pea & Goat Cheese Composed Salad",
+      "salad_type": "composed_dinner",
+      "description": "Artfully arranged blanched asparagus, fresh peas, crumbled goat cheese, radishes, and soft-boiled egg on a bed of arugula",
+      "dressing": "Lemon-tarragon vinaigrette: fresh lemon juice, champagne vinegar, Dijon mustard, minced tarragon, extra-virgin olive oil, honey, flaky salt",
+      "source_url": "https://www.bonappetit.com/recipe/spring-pea-salad"
+    },
+    {
+      "name": "Green Goddess Tossed Salad",
+      "salad_type": "tossed_dinner",
+      "description": "Generous tossed salad with romaine, avocado, cucumber, herbs, and a creamy green goddess dressing",
+      "dressing": "Green goddess: avocado, Greek yogurt, fresh basil, tarragon, chives, parsley, lemon juice, garlic, anchovy paste, buttermilk, salt",
+      "source_url": "https://www.bonappetit.com/recipe/green-goddess-salad"
+    },
+    {
+      "name": "Strawberry, Radish & Arugula Side Salad",
+      "salad_type": "side",
+      "description": "Peppery arugula with sliced strawberries, shaved radishes, and toasted almonds",
+      "dressing": "Strawberry-balsamic vinaigrette: strawberry puree, white balsamic vinegar, Dijon, extra-virgin olive oil, black pepper",
+      "source_url": "https://food52.com/recipes/strawberry-arugula-salad"
+    },
+    {
+      "name": "Shaved Asparagus & Parmesan Side Salad",
+      "salad_type": "side",
+      "description": "Raw asparagus shaved into ribbons with shaved Parmigiano-Reggiano, lemon, and pine nuts",
+      "dressing": "Simple lemon: fresh lemon juice, extra-virgin olive oil, flaky salt, cracked pepper",
+      "source_url": "https://www.seriouseats.com/shaved-asparagus-salad-recipe"
+    }
+  ],
+  "beverages": [
+    {
+      "name": "Strawberry Basil Lemonade",
+      "description": "Fresh strawberry and basil muddled into classic lemonade",
+      "pairing_note": "Refreshing with grilled meats and pizza"
+    },
+    {
+      "name": "Cucumber-Lime Agua Fresca",
+      "description": "Cool cucumber and lime blended with a touch of honey",
+      "pairing_note": "Light and hydrating for hot spring evenings"
+    },
+    {
+      "name": "Rosemary-Citrus Spritzer",
+      "description": "Sparkling water infused with rosemary and orange slices",
+      "pairing_note": "Elegant, family-friendly, pairs well with Italian dishes"
+    }
+  ],
+  "elsie_no_go": [
+    "Mushrooms"
+  ],
+  "on_call_note": "Dan is on-call Tuesday through next Tuesday — expect possible interruptions.",
+  "house_note": "House offer pending — waiting for a response. Patience is the theme this week.",
+  "generated_at": "2026-04-12 12:32",
+  "daily_plan_subtitle": "From Italian-American to Argentinian-American, with Zucchero on the stereo",
+  "parenting_data": {
+    "weekly_theme": {
+      "title": "Planting Seeds (And Waiting for Them to Grow)",
+      "description": "This week, the family is living in a space between hoping and knowing — a house offer is out there, and nobody knows the answer yet. That's hard for grown-ups, and it's hard for kids who pick up on the tension. The metaphor of planting seeds is perfect for spring: you do your best work, you put something hopeful into the ground, and then you wait. You can't make a seed grow faster by worrying at it. Meanwhile, life is happening — swim lessons, theatre, pizza with friends, gorgeous 80-degree days. The seeds are already planted. This week is about watering the ones right in front of you.",
+      "developmental_focus": "Tolerance for ambiguity and emotional regulation. At 8, children are developing the cognitive ability to hold two feelings at once ('I'm excited AND nervous'). Practicing comfort with not-knowing-yet builds resilience and flexible thinking — skills that serve Elsie far beyond this house offer."
+    },
+    "dinner_questions": [
+      {
+        "day": "Sunday",
+        "dinner": "Chicken Parmesan",
+        "question": "Chicken Parmesan takes a few steps — you bread it, fry it, sauce it, cheese it, bake it. What's something you're working on right now that has a lot of steps, and which step are you on?",
+        "follow_up": "What's the step you're most looking forward to getting to?",
+        "connection_to_theme": "Layered processes mirror planting seeds — you do step after step and trust the result is coming. Normalizes patience with multi-step outcomes (like buying a house)."
+      },
+      {
+        "day": "Monday",
+        "dinner": "Grilled Chicken Thighs",
+        "question": "We're listening to Vulfpeck tonight — they're a band that started by making super short, silly songs in a basement. What's something you started small that turned into something bigger than you expected?",
+        "follow_up": "If you could start any tiny project this week — even something goofy — what would it be?",
+        "connection_to_theme": "Small beginnings growing into something real. Seeds don't start big. Reinforces that what matters is starting, not knowing the ending."
+      },
+      {
+        "day": "Tuesday",
+        "dinner": "Babo Pasta",
+        "question": "You had swim lessons today — when you're underwater, everything sounds different and looks wobbly. What's something in your regular life that looks totally different when you see it from a new angle?",
+        "follow_up": "Like, what would our house look like if you were the size of a cat? Or what would school look like if you were the teacher?",
+        "connection_to_theme": "Perspective-shifting. When you're waiting for something (a house, a result, a next step), changing your angle can make the waiting feel different. Snarky Puppy's jazz fusion does this musically — familiar sounds from unexpected angles."
+      },
+      {
+        "day": "Wednesday",
+        "dinner": "Corned Beef Hash",
+        "question": "Corned beef hash is basically leftovers turned into something new and delicious. What's something old or leftover in your life that you could remix into something cool?",
+        "follow_up": "Tom Misch — the guy we're listening to — literally remixes other people's songs into new ones. If you could remix one thing about your week so far, what would you change?",
+        "connection_to_theme": "Transformation and making the best of what you have. When life gives you uncertainty, you remix. You don't need a brand-new ingredient — sometimes the best thing comes from working with what's already in front of you."
+      },
+      {
+        "day": "Thursday",
+        "dinner": "Grilled Steaks",
+        "question": "Earth, Wind & Fire is playing — those are three huge forces of nature. If you could have the power of earth, wind, OR fire for one day, which would you pick and what's the first thing you'd do with it?",
+        "follow_up": "Okay, now — what's a superpower you already have that most people don't notice?",
+        "connection_to_theme": "Recognizing your own strength during uncertain times. Seeds need earth, wind, and fire (sun) to grow. Elsie has her own forces — this question helps her name them."
+      },
+      {
+        "day": "Friday",
+        "dinner": "Pizza with Sophia & Faran",
+        "question": "We're making pizza tonight and everyone gets to choose their toppings — so here's the big question: Sophia, Faran, Elsie — if your personality was a pizza topping, what topping would you be and why?",
+        "follow_up": "Okay, now make a pizza using all three of your personality toppings. Would that pizza be amazing or disgusting?",
+        "connection_to_theme": "Community and the people who make a place feel like home. With Jamiroquai's party energy and friends at the table, this is about celebrating that home isn't a building — it's the people you share your weird pizza with."
+      },
+      {
+        "day": "Saturday",
+        "dinner": "Burgers",
+        "question": "We did forest bathing this morning — just being quiet in the woods. What's one thing you noticed out there that you'd never notice if you were in a hurry?",
+        "follow_up": "Khruangbin — the band playing right now — makes music that feels like it's in no rush to get anywhere. What's something in your life you wish you could slow down instead of rush through?",
+        "connection_to_theme": "The payoff of patience. Forest bathing is literally the practice of slowing down enough to notice what's already growing. The perfect closing ritual for a week about planting seeds and trusting the process."
+      }
+    ],
+    "nudges": [
+      {
+        "title": "Name the Waiting Out Loud",
+        "context": "At some calm moment early in the week, casually acknowledge the house situation with Elsie.",
+        "suggestion": "Say something like: 'You know how we put in that offer on the house? We're still waiting to hear back, and waiting is kind of hard for grown-ups too. We don't know what's going to happen yet, and that's okay.' You're not asking her to process adult stress — you're modeling that uncertainty is normal and that hard feelings can be named without being consumed by them. Kids who sense tension but aren't given any explanation fill in the blanks with worse stories.",
+        "when": "Sunday or Monday evening, during a relaxed moment — not in the car, not at bedtime. Dinner is ideal because the food gives everyone something to do with their hands.",
+        "how_to": [
+          "Pick a quiet moment — maybe while cooking dinner Sunday — and say something like: 'We're waiting to hear about a house, and waiting is hard for grown-ups too.'",
+          "Let Elsie ask questions. Answer honestly at her level: 'We made an offer, which is like raising your hand and saying please. Now we wait for the answer.'",
+          "If she seems anxious, normalize it: 'Even Sharkie gets nervous when he doesn't know what's next. But we're all together, and that's the important part.'",
+          "Revisit the topic lightly mid-week if there are updates. Don't hide the emotional texture — kids sense it anyway."
+        ]
+      },
+      {
+        "title": "Let Her Lead on Thursday",
+        "context": "Thursday is steak night with Earth, Wind & Fire — the most 'grown-up' dinner of the week.",
+        "suggestion": "Give Elsie one real job: she's in charge of setting the table exactly how she wants it. Fancy napkin folds from YouTube? Sure. Candles? Absolutely. A centerpiece made of sticks from the yard? Perfect. At 8, kids crave competence and agency. When the adult world feels uncertain, giving Elsie a domain she controls sends the message: 'You matter here. Your choices shape this family's experience.'",
+        "when": "Thursday afternoon/evening, 15–20 minutes before dinner. Give her the assignment early so she can plan.",
+        "how_to": [
+          "Before you start cooking Thursday's steaks, tell Elsie she's in charge of the cilantro sauce. Show her how to pull cilantro leaves and squeeze a lime.",
+          "Let her taste and adjust. Ask: 'Does it need more lime? More salt?' Trust her palate — kids often have sharper taste buds than adults.",
+          "If she adds too much of something, roll with it. The goal isn't a perfect sauce; it's the confidence that comes from being trusted with a real job.",
+          "At the table, announce it: 'Elsie made the sauce tonight.' Let her own the compliments."
+        ]
+      },
+      {
+        "title": "The Forest Bathing Debrief Walk",
+        "context": "After Saturday's Forest Bathing Workshop, take a slow 10-minute walk — just Elsie and one parent.",
+        "suggestion": "Don't ask 'Did you like it?' (yes/no trap). Instead, try: 'Show me how to do the thing you liked best from this morning.' Let her teach you. At 8, the shift from being-taught to teaching is developmentally electric. It consolidates learning, builds confidence, and creates a shared memory that's hers to own. After a week of adult uncertainty, ending with Elsie as the expert rebalances the family's emotional center of gravity.",
+        "when": "Saturday, immediately after the Forest Bathing Workshop or during the afternoon. The closer to the experience, the richer her recall.",
+        "how_to": [
+          "After Saturday morning's forest bathing session, don't rush to the car. Walk slowly and let Elsie set the pace.",
+          "Ask open-ended questions: 'What was the quietest sound you heard?' or 'Did you notice any smells that surprised you?'",
+          "Share your own observation: 'I noticed the way the light came through the leaves and it made me feel calm.' Modeling vulnerability invites hers.",
+          "If she's quiet, that's fine. Sometimes the best debrief is just walking together in comfortable silence."
+        ]
+      },
+      {
+        "title": "Pizza Night Democracy",
+        "context": "Friday's pizza night with Sophia and Faran is a chance to practice hospitality and social skills.",
+        "suggestion": "Let Elsie take the lead on welcoming guests and helping them choose their toppings. Being a host teaches empathy, planning, and the joy of feeding people you care about. Remind her that Sophia and Faran don't eat pork, so she can help explain the topping options — this normalizes dietary differences as just another way people are unique.",
+        "how_to": [
+          "Before guests arrive, ask Elsie to help set the table and make a 'topping menu' on a piece of paper.",
+          "When Sophia and Faran arrive, let Elsie show them to the kitchen and explain the toppings.",
+          "If she's shy, don't push. Just model it: 'Elsie and I set up all these toppings — what sounds good to you?'",
+          "After dinner, ask Elsie what she noticed about what her friends liked. 'Did you see what Sophia chose? People like different things, and that's what makes sharing food fun.'"
+        ]
+      },
+      {
+        "title": "The On-Call Conversation",
+        "context": "Dan is on call this week, which means unpredictable interruptions and occasional stress.",
+        "suggestion": "Use this as a chance to explain what 'being on call' means in a way Elsie can understand. Compare it to being a doctor who keeps their phone nearby — people are counting on Dad to help fix things when they break. This builds respect for responsibility and helps her understand why Dad might seem distracted.",
+        "how_to": [
+          "Early in the week, explain: 'Dad is on call this week, which means his work might call him even during dinner. It's like being a superhero on standby.'",
+          "If a page comes during family time, narrate it calmly: 'Dad needs to help with something at work. He'll be back soon.'",
+          "Ask Elsie later: 'What would you do if someone really needed your help right in the middle of something fun?' Let her reason through it."
+        ]
+      }
+    ],
+    "parent_reflection": "Here's the thing about house-hunting stress: Elsie doesn't need you to be calm. She needs you to be honest about being human. Kids at 8 are emotional seismographs — they register every tremor in your voice, every tense exchange, every time you check your phone and sigh. If you pretend everything is fine, she learns that hard feelings are something you hide. If you catastrophize out loud, she learns that uncertainty is dangerous. The middle path — the one worth practicing this week — is narrated imperfection. 'We're hoping for good news about that house, and we don't know yet. That makes us a little antsy. But we've got steak on the grill and Earth, Wind & Fire on the speaker, so tonight we're going to be right here.' You're not burdening her. You're showing her that adults feel wobbly too, and that the wobble doesn't break anything. That's the most important house you'll ever build for her — the one where feelings are allowed to exist without destroying the evening. The spring weather this week is on your side. Get outside. Let the 80-degree air do some of the emotional heavy lifting. And remember: the house offer is one chapter. The way Elsie watches you handle not-knowing-yet is the whole book.",
+    "connection_ritual": {
+      "title": "The Goodnight Question",
+      "description": "Each night at bedtime this week, ask Elsie one question: 'What's one thing that happened today that you want to remember?' Don't comment, don't correct, don't redirect. Just listen. Then share yours. This tiny ritual — two minutes, max — builds the habit of reflection and tells her that her inner world matters to you. By Saturday, you'll both have a week's worth of small moments collected, and you can look back on them together over Saturday morning breakfast.",
+      "when": "Every night at bedtime, right after the story",
+      "duration": "2 minutes"
+    },
+    "recommendation": {
+      "title": "The Whole-Brain Child",
+      "author": "Daniel J. Siegel & Tina Payne Bryson",
+      "why": "This book explains how a child's developing brain works and offers twelve practical strategies for nurturing healthy emotional and intellectual growth. It's especially helpful during weeks of big transitions — like house-hunting — because it shows how to turn anxiety and uncertainty into opportunities for connection.",
+      "connection": "When the house offer feels heavy, remember: Elsie's brain is wiring itself around how you handle uncertainty this week. Narrate the feelings, name the waiting, and she'll learn resilience by watching you live it."
+    }
+  },
+  "nutrition_summary": "Strengths: Strong protein intake across the week — chicken (2×), beef (3×, including corned beef); Good iron from red meat on Wed, Thu, Sat — critical for wife and daughter; Excellent B12 coverage from meat and eggs; Zinc well-covered from beef dishes; Folate highlight on Tuesday (spinach pasta) and Saturday (avocado/greens); Calcium from cheese on Sunday, Tuesday, Friday; Thursday's bell peppers provide outstanding vitamin C; Saturday's green goddess salad is the nutritional star of the week. Gaps: NO fish or seafood all week — zero omega-3 (EPA/DHA) from diet; NO legumes (beans, lentils, chickpeas) — missing plant-based protein, fiber, folate, magnesium; LOW fiber across the board — most dinners provide only 3–5g vs. 25g daily target; LOW vegetable diversity — most dinners have 0–1 vegetable servings; LOW vitamin D — only eggs on Wednesday provide meaningful amounts; INCONSISTENT calcium — strong on Sun/Tue/Fri (cheese), weak on Mon/Wed/Thu/Sat; HIGH sodium pattern — corned beef hash and pizza are sodium-heavy; NO whole grains at dinner — all pasta and bread are likely refined; LOW fruit all week — dinners include zero fruit; MISSING key food groups: nuts/seeds, whole grains, legumes, fish, fruit",
+  "nutrition_data": {
+    "week": "April 12–18, 2026",
+    "family": {
+      "wife": {
+        "calorie_target": "2,000–2,200 kcal/day",
+        "focus": [
+          "iron",
+          "calcium",
+          "folate",
+          "fiber"
+        ]
+      },
+      "husband": {
+        "calorie_target": "2,400–2,800 kcal/day",
+        "focus": [
+          "protein",
+          "potassium",
+          "magnesium"
+        ]
+      },
+      "daughter": {
+        "calorie_target": "1,600–2,000 kcal/day",
+        "focus": [
+          "calcium",
+          "vitamin D",
+          "iron",
+          "fiber"
+        ]
+      }
+    },
+    "dinner_analysis": [
+      {
+        "day": "Sunday",
+        "dinner": "Chicken Parmesan",
+        "calories_estimate": "~650–750",
+        "macros": {
+          "protein": "~36g (high)",
+          "carbs": "~55g (moderate-high)",
+          "fat": "~28g (moderate-high)"
+        },
+        "strengths": [
+          "High-quality protein from chicken breast",
+          "Lycopene from marinara sauce",
+          "Calcium from mozzarella (~200mg)",
+          "B vitamins (B6, B12, niacin) from chicken"
+        ],
+        "gaps": [
+          "Low fiber (~3g) — white pasta and breading",
+          "Low vegetable diversity — marinara is the only vegetable component",
+          "High sodium from breading and cheese (~900mg+)",
+          "Minimal vitamin C, vitamin K, folate",
+          "No omega-3 fatty acids"
+        ],
+        "veggie_colors": [
+          "red (marinara)"
+        ]
+      },
+      {
+        "day": "Monday",
+        "dinner": "Grilled Chicken with Lemon & Herbs",
+        "calories_estimate": "~400–500",
+        "macros": {
+          "protein": "~40g (high)",
+          "carbs": "~15g (low)",
+          "fat": "~18g (moderate)"
+        },
+        "strengths": [
+          "Lean, high-quality protein",
+          "Low calorie — leaves room for nutritious sides",
+          "Vitamin C from lemon",
+          "Anti-inflammatory herbs (thyme, rosemary, oregano)"
+        ],
+        "gaps": [
+          "Very low fiber unless served with whole grains or vegetables",
+          "Low calcium — no dairy component",
+          "Low iron — chicken breast is not iron-rich",
+          "Minimal carbohydrates for energy",
+          "No omega-3 fatty acids"
+        ],
+        "veggie_colors": [
+          "yellow (lemon)",
+          "green (herbs)"
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "dinner": "Babo Pasta (Homemade Spinach Pasta)",
+        "calories_estimate": "~550–650",
+        "macros": {
+          "protein": "~16g (moderate)",
+          "carbs": "~55g (high)",
+          "fat": "~24g (moderate-high)"
+        },
+        "strengths": [
+          "Excellent folate source — spinach pasta provides ~262μg per 100g cooked (~65% DV)",
+          "Good calcium from Parmesan and butter/cream",
+          "Vitamin A from spinach and egg yolks",
+          "Iron from egg yolks and spinach"
+        ],
+        "gaps": [
+          "Low fiber (~4g) despite spinach content",
+          "High saturated fat if Alfredo/butter sauce",
+          "Low protein compared to meat-based dinners",
+          "Limited vegetable variety beyond spinach",
+          "No vitamin C, no omega-3s"
+        ],
+        "veggie_colors": [
+          "green (spinach)"
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "dinner": "Corned Beef Hash with Yellow Potatoes",
+        "calories_estimate": "~570–650",
+        "macros": {
+          "protein": "~26g (moderate-high)",
+          "carbs": "~40g (moderate)",
+          "fat": "~34g (high)"
+        },
+        "strengths": [
+          "Excellent iron source — heme iron from beef + iron from eggs",
+          "Very high vitamin B12 from corned beef and eggs",
+          "Good zinc (~5mg) from beef",
+          "Potassium from yellow potatoes (~600mg)",
+          "Vitamin D from fried eggs (one of few dietary sources)"
+        ],
+        "gaps": [
+          "Very high sodium (~1,100–2,100mg) from cured corned beef",
+          "High saturated fat",
+          "Very low vegetable content — essentially no vegetables",
+          "Low fiber (~3–5g)",
+          "No vitamin C, no vitamin K, no folate",
+          "No omega-3 fatty acids"
+        ],
+        "veggie_colors": [
+          "yellow (potatoes)",
+          "white (onions)"
+        ]
+      },
+      {
+        "day": "Thursday",
+        "dinner": "Grilled Steaks with Potatoes, Peppers, and Cilantro Sauce",
+        "calories_estimate": "~600–750",
+        "macros": {
+          "protein": "~42g (very high)",
+          "carbs": "~35g (moderate)",
+          "fat": "~30g (moderate-high)"
+        },
+        "strengths": [
+          "Excellent iron (heme) — steak provides ~4mg per serving",
+          "High zinc (~5.5mg) for immune function",
+          "Vitamin C from bell peppers (~80mg — over 100% DV)",
+          "Potassium from potatoes and peppers",
+          "B12, B6, niacin from steak",
+          "Best vegetable diversity of the week"
+        ],
+        "gaps": [
+          "Low calcium — no dairy",
+          "Low fiber (~4g)",
+          "High saturated fat from steak",
+          "No omega-3 fatty acids",
+          "Low folate"
+        ],
+        "veggie_colors": [
+          "red/yellow/green (bell peppers)",
+          "green (cilantro)",
+          "yellow (potatoes)"
+        ]
+      },
+      {
+        "day": "Friday",
+        "dinner": "Pizza (Homemade, no pork)",
+        "calories_estimate": "~600–800 (2–3 slices)",
+        "macros": {
+          "protein": "~24g (moderate)",
+          "carbs": "~70g (high)",
+          "fat": "~28g (moderate-high)"
+        },
+        "strengths": [
+          "Calcium from mozzarella (~250mg per serving)",
+          "Lycopene from tomato sauce",
+          "Customizable — can add nutrient-dense toppings",
+          "Fun meal for Elsie — promotes positive relationship with food"
+        ],
+        "gaps": [
+          "Low fiber unless whole wheat crust (~3g with white flour)",
+          "Low iron unless topped with spinach or other greens",
+          "High sodium from cheese and sauce (~800mg+)",
+          "Vegetable content depends entirely on toppings chosen",
+          "No omega-3 fatty acids"
+        ],
+        "veggie_colors": [
+          "red (tomato sauce)",
+          "varies by toppings"
+        ]
+      },
+      {
+        "day": "Saturday",
+        "dinner": "Grilled Burgers with Green Goddess Salad",
+        "calories_estimate": "~700–850",
+        "macros": {
+          "protein": "~35g (high)",
+          "carbs": "~35g (moderate)",
+          "fat": "~40g (high)"
+        },
+        "strengths": [
+          "High protein and iron from beef",
+          "Excellent vitamin K from green goddess salad greens",
+          "Healthy fats from avocado (monounsaturated, ~7g fiber)",
+          "Folate from avocado and leafy greens (~120μg)",
+          "Vitamin C from herbs and greens in salad",
+          "Best fiber dinner of the week thanks to salad (~8g)"
+        ],
+        "gaps": [
+          "High saturated fat from beef burger",
+          "Low calcium unless cheese added",
+          "High calorie — bun + burger + avocado-rich salad",
+          "No omega-3 fatty acids (unless using grass-fed beef)"
+        ],
+        "veggie_colors": [
+          "green (greens, avocado, herbs)"
+        ]
+      }
+    ],
+    "weekly_summary": {
+      "strengths": [
+        "Strong protein intake across the week — chicken (2×), beef (3×, including corned beef)",
+        "Good iron from red meat on Wed, Thu, Sat — critical for wife and daughter",
+        "Excellent B12 coverage from meat and eggs",
+        "Zinc well-covered from beef dishes",
+        "Folate highlight on Tuesday (spinach pasta) and Saturday (avocado/greens)",
+        "Calcium from cheese on Sunday, Tuesday, Friday",
+        "Thursday's bell peppers provide outstanding vitamin C",
+        "Saturday's green goddess salad is the nutritional star of the week"
+      ],
+      "gaps": [
+        "NO fish or seafood all week — zero omega-3 (EPA/DHA) from diet",
+        "NO legumes (beans, lentils, chickpeas) — missing plant-based protein, fiber, folate, magnesium",
+        "LOW fiber across the board — most dinners provide only 3–5g vs. 25g daily target",
+        "LOW vegetable diversity — most dinners have 0–1 vegetable servings",
+        "LOW vitamin D — only eggs on Wednesday provide meaningful amounts",
+        "INCONSISTENT calcium — strong on Sun/Tue/Fri (cheese), weak on Mon/Wed/Thu/Sat",
+        "HIGH sodium pattern — corned beef hash and pizza are sodium-heavy",
+        "NO whole grains at dinner — all pasta and bread are likely refined",
+        "LOW fruit all week — dinners include zero fruit",
+        "MISSING key food groups: nuts/seeds, whole grains, legumes, fish, fruit"
+      ],
+      "patterns_flagged": [
+        "Chicken served twice (Sunday, Monday) — back to back",
+        "Beef served three times (Wednesday corned beef, Thursday steak, Saturday burgers)",
+        "Zero fish/seafood servings in 7 days",
+        "Zero legume servings in 7 days",
+        "5 of 7 dinners are low in vegetable content",
+        "Potatoes appear 3 times (Wed, Thu, Fri pizza possibly) — starchy carb heavy",
+        "High saturated fat pattern from cheese and red meat",
+        "Fiber averages only ~4g per dinner vs. recommended 8–10g per meal"
+      ]
+    },
+    "lunch_recommendations": [
+      {
+        "day": "Sunday",
+        "suggestion": "Salmon & Avocado Rice Bowl — grilled or canned salmon over brown rice with avocado, edamame, shredded carrots, cucumber, and a sesame-ginger dressing",
+        "nutrients_provided": [
+          "omega-3 (EPA/DHA)",
+          "fiber",
+          "magnesium",
+          "potassium",
+          "vitamin D",
+          "healthy fats",
+          "plant protein from edamame"
+        ],
+        "why": "Compensates for the week's total absence of fish. Brown rice adds whole grains missing from dinners. Edamame introduces legumes. This single lunch addresses the top 3 weekly gaps: omega-3s, whole grains, and legumes."
+      },
+      {
+        "day": "Monday",
+        "suggestion": "Black Bean & Sweet Potato Tacos — seasoned black beans with roasted sweet potato, cabbage slaw, lime crema, and corn tortillas",
+        "nutrients_provided": [
+          "fiber (~12g)",
+          "iron (plant-based)",
+          "vitamin A",
+          "folate",
+          "magnesium",
+          "potassium",
+          "plant protein"
+        ],
+        "why": "Addresses the zero-legume gap. Black beans provide 7.5g fiber per half cup plus folate and iron. Sweet potatoes deliver vitamin A (400% DV per cup) — a color completely missing from dinners. Corn tortillas add whole grain."
+      },
+      {
+        "day": "Tuesday",
+        "suggestion": "Tuna Salad Sandwich on Whole Wheat — tuna mixed with Greek yogurt (not mayo), celery, red onion, on whole wheat bread with spinach and tomato, side of baby carrots",
+        "nutrients_provided": [
+          "omega-3 (EPA/DHA)",
+          "calcium",
+          "protein",
+          "fiber",
+          "vitamin D",
+          "vitamin A (carrots)",
+          "whole grains"
+        ],
+        "why": "Second fish serving of the week (targeting 2+ for omega-3 adequacy). Greek yogurt adds calcium and protein while cutting saturated fat vs. mayo. Whole wheat bread adds fiber. Pairs well before the richer Babo Pasta dinner."
+      },
+      {
+        "day": "Wednesday",
+        "suggestion": "Lentil Soup with Crusty Whole Grain Bread — red lentil soup with tomatoes, spinach, cumin, and lemon, plus a thick slice of whole grain bread",
+        "nutrients_provided": [
+          "fiber (~16g)",
+          "iron (plant-based)",
+          "folate",
+          "magnesium",
+          "potassium",
+          "plant protein (~18g)",
+          "vitamin C (tomato + lemon)"
+        ],
+        "why": "Powerhouse lunch before the sodium-heavy corned beef dinner. Lentils are the #1 plant source of folate (358μg per cup cooked = 90% DV). The vitamin C from tomatoes and lemon enhances iron absorption. Massive fiber boost on a day when dinner provides almost none."
+      },
+      {
+        "day": "Thursday",
+        "suggestion": "Mediterranean Chickpea Salad — chickpeas, cherry tomatoes, cucumber, red onion, Kalamata olives, feta cheese, and lemon-olive oil dressing over mixed greens",
+        "nutrients_provided": [
+          "fiber (~10g)",
+          "calcium (feta)",
+          "folate",
+          "vitamin K",
+          "iron",
+          "healthy fats (olive oil)",
+          "magnesium"
+        ],
+        "why": "Third legume serving of the week. Feta adds calcium on a day when dinner has none. Olive oil provides monounsaturated fats to balance the saturated fat from steak at dinner. Greens add vitamin K."
+      },
+      {
+        "day": "Friday",
+        "suggestion": "Shrimp Stir-Fry with Brown Rice — shrimp with broccoli, snap peas, red bell pepper, garlic, ginger, and low-sodium soy sauce over brown rice",
+        "nutrients_provided": [
+          "omega-3",
+          "vitamin C",
+          "calcium (broccoli)",
+          "fiber",
+          "iron",
+          "vitamin D (shrimp)",
+          "whole grains"
+        ],
+        "why": "Third seafood serving for the week. Broccoli is a calcium powerhouse (62mg per cup) — important before pizza dinner which, while having cheese, may not meet calcium needs alone. Snap peas add fiber and vitamin C. Brown rice provides whole grains."
+      },
+      {
+        "day": "Saturday",
+        "suggestion": "Hummus & Veggie Wrap — whole wheat wrap with hummus, roasted red peppers, shredded carrots, cucumber, baby spinach, and a sprinkle of sunflower seeds",
+        "nutrients_provided": [
+          "fiber (~10g)",
+          "vitamin A",
+          "vitamin E (sunflower seeds)",
+          "magnesium",
+          "iron",
+          "folate",
+          "plant protein",
+          "whole grains"
+        ],
+        "why": "Light but nutrient-dense before the heavy burger dinner. Hummus (chickpeas) adds another legume serving. Sunflower seeds provide vitamin E — completely absent from dinners all week. The rainbow of vegetables maximizes phytonutrient diversity."
+      }
+    ],
+    "snack_recommendations": [
+      {
+        "day": "Sunday",
+        "suggestion": "Greek Yogurt Parfait — plain Greek yogurt layered with mixed berries (blueberries, strawberries), a drizzle of honey, and a tablespoon of ground flaxseed",
+        "nutrients_provided": [
+          "calcium (~250mg)",
+          "vitamin C (berries)",
+          "fiber",
+          "omega-3 (flaxseed ALA)",
+          "probiotics",
+          "protein (~15g)",
+          "antioxidants"
+        ],
+        "why": "Berries add fruit completely missing from dinners. Flaxseed provides plant-based omega-3. Greek yogurt delivers calcium for all three family members. Probiotics support gut health. Elsie-friendly and delicious."
+      },
+      {
+        "day": "Monday",
+        "suggestion": "Apple Slices with Almond Butter & a Small Glass of Milk — Fuji or Honeycrisp apple with 2 tbsp almond butter, 8oz milk (or fortified plant milk)",
+        "nutrients_provided": [
+          "calcium (~300mg from milk)",
+          "vitamin D (fortified milk)",
+          "fiber (~5g from apple)",
+          "vitamin E (almond butter)",
+          "magnesium",
+          "healthy fats"
+        ],
+        "why": "Monday's dinner is lean chicken with low calcium. Milk fills the calcium and vitamin D gap. Apple adds fruit and fiber. Almond butter provides vitamin E and magnesium — both chronically low in the dinner menu."
+      },
+      {
+        "day": "Tuesday",
+        "suggestion": "Trail Mix (homemade) — almonds, walnuts, pumpkin seeds, dried cranberries, and a few dark chocolate chips",
+        "nutrients_provided": [
+          "magnesium (~80mg)",
+          "omega-3 (walnuts)",
+          "iron (pumpkin seeds)",
+          "zinc",
+          "vitamin E",
+          "fiber",
+          "antioxidants (dark chocolate)"
+        ],
+        "why": "Addresses the husband's magnesium needs and provides omega-3 from walnuts. Pumpkin seeds are iron-rich (important for wife and Elsie). Dark chocolate adds iron and antioxidants. Easy to portion for all family members."
+      },
+      {
+        "day": "Wednesday",
+        "suggestion": "Cheese & Whole Grain Crackers with Grapes — cheddar or Swiss cheese cubes with whole grain crackers and a small bunch of red grapes",
+        "nutrients_provided": [
+          "calcium (~200mg)",
+          "vitamin D (fortified cheese)",
+          "whole grains",
+          "fiber",
+          "vitamin K (grapes)",
+          "antioxidants (resveratrol)"
+        ],
+        "why": "Wednesday's corned beef hash dinner has minimal calcium. Cheese and crackers are a calcium-rich, kid-friendly snack. Grapes add fruit, antioxidants, and vitamin K. Whole grain crackers contribute fiber."
+      },
+      {
+        "day": "Thursday",
+        "suggestion": "Smoothie — banana, frozen mango, handful of spinach, 1 tbsp chia seeds, and fortified orange juice",
+        "nutrients_provided": [
+          "potassium (~500mg from banana + OJ)",
+          "vitamin C (~100mg from OJ + mango)",
+          "calcium (fortified OJ)",
+          "omega-3 (chia seeds)",
+          "fiber",
+          "folate (spinach)",
+          "vitamin A (mango)"
+        ],
+        "why": "Thursday's steak dinner is high in protein but low in calcium and fruit. This smoothie packs in potassium (critical for the husband), calcium from fortified OJ, and omega-3 from chia. The spinach is undetectable — perfect for Elsie."
+      },
+      {
+        "day": "Friday",
+        "suggestion": "Edamame with Sea Salt & a Clementine — steamed edamame pods lightly salted, plus one clementine orange",
+        "nutrients_provided": [
+          "calcium (~100mg)",
+          "iron",
+          "fiber (~8g)",
+          "vitamin C (clementine)",
+          "plant protein (~17g)",
+          "folate",
+          "isoflavones"
+        ],
+        "why": "Before pizza night, this snack front-loads fiber and plant protein. Edamame is one of the few plant foods with complete protein. The clementine adds vitamin C to enhance iron absorption. Excellent bone-building snack for Elsie."
+      },
+      {
+        "day": "Saturday",
+        "suggestion": "Cottage Cheese with Pineapple & Pumpkin Seeds — low-fat cottage cheese topped with fresh pineapple chunks and a sprinkle of pumpkin seeds",
+        "nutrients_provided": [
+          "calcium (~140mg)",
+          "protein (~14g)",
+          "vitamin C (pineapple)",
+          "iron (pumpkin seeds)",
+          "zinc",
+          "manganese (pineapple)",
+          "magnesium"
+        ],
+        "why": "Saturday's burger dinner is heavy — this lighter snack adds calcium and vitamin C without excessive calories. Pineapple contains bromelain which aids protein digestion (helpful before a burger dinner). Pumpkin seeds add iron and magnesium."
+      }
+    ],
+    "nutrient_guide": [
+      {
+        "nutrient": "Omega-3 Fatty Acids (EPA & DHA)",
+        "what_it_does": "Omega-3s are essential polyunsaturated fats that form structural components of brain cell membranes, reduce systemic inflammation, lower triglycerides, and support cardiovascular health. EPA (eicosapentaenoic acid) is primarily anti-inflammatory, while DHA (docosahexaenoic acid) is critical for brain and eye structure.",
+        "why_it_matters": {
+          "wife": "Reduces inflammation, supports heart health, may reduce menstrual pain, and is linked to lower risk of depression. Women of childbearing age benefit from DHA stores for potential pregnancy.",
+          "husband": "Lowers triglycerides, reduces risk of heart disease (the #1 killer of men), supports joint health for active lifestyles, and may improve exercise recovery by reducing muscle inflammation.",
+          "daughter": "Critical for ongoing brain development — DHA makes up 40% of polyunsaturated fats in the brain. Supports learning, memory, and concentration at school. Also important for visual acuity."
+        },
+        "deficiency_signs": "Dry skin, brittle nails, poor concentration, joint stiffness, mood swings, frequent colds (weakened immune response)",
+        "top_food_sources": [
+          "Salmon (2,260mg per 3oz)",
+          "Sardines (1,950mg per 3oz)",
+          "Mackerel (1,700mg per 3oz)",
+          "Walnuts (2,570mg ALA per oz)",
+          "Chia seeds (5,060mg ALA per oz)",
+          "Flaxseed (6,390mg ALA per tbsp)",
+          "Shrimp (295mg per 3oz)"
+        ],
+        "weekly_gap_status": "CRITICAL — zero servings of fish/seafood in dinners. Lunches recommend 3 seafood servings (salmon bowl, tuna sandwich, shrimp stir-fry) plus snacks with flaxseed, chia, and walnuts."
+      },
+      {
+        "nutrient": "Fiber",
+        "what_it_does": "Dietary fiber regulates digestion, feeds beneficial gut bacteria (prebiotic effect), slows glucose absorption to prevent blood sugar spikes, binds cholesterol for excretion, and increases satiety. Soluble fiber lowers cholesterol; insoluble fiber promotes regular bowel movements.",
+        "why_it_matters": {
+          "wife": "Women need 25g/day. Fiber reduces risk of colorectal cancer, helps maintain healthy weight, and supports hormonal balance by binding excess estrogen for elimination. Also crucial for heart health.",
+          "husband": "Men need 30–38g/day. High-fiber diets reduce risk of heart disease by 40% and type 2 diabetes. For active men, fiber ensures steady energy by moderating blood sugar. Also supports gut microbiome diversity.",
+          "daughter": "Children need ~25g/day (age + 5g rule: 8 + 5 = 13g minimum, but the official RDA is 25g). Adequate fiber prevents constipation, supports healthy gut bacteria establishment, and builds lifelong healthy eating patterns."
+        },
+        "deficiency_signs": "Constipation, bloating, blood sugar fluctuations, constant hunger, high LDL cholesterol, low energy after meals",
+        "top_food_sources": [
+          "Lentils (15.6g per cup cooked)",
+          "Black beans (15g per cup)",
+          "Avocado (10g per avocado)",
+          "Raspberries (8g per cup)",
+          "Chia seeds (10g per oz)",
+          "Broccoli (5g per cup)",
+          "Oats (4g per cup cooked)",
+          "Sweet potato (4g per medium)"
+        ],
+        "weekly_gap_status": "SIGNIFICANT — dinner fiber averages only ~4g per meal. Lunches add ~10–16g each through legumes, whole grains, and vegetables. Snacks contribute another 5–10g daily."
+      },
+      {
+        "nutrient": "Calcium",
+        "what_it_does": "Calcium is the most abundant mineral in the body. 99% is stored in bones and teeth, providing structural strength. The remaining 1% is essential for muscle contraction, nerve transmission, blood clotting, and hormone secretion. The body will pull calcium from bones if dietary intake is insufficient.",
+        "why_it_matters": {
+          "wife": "Women need 1,000mg/day. Women lose bone density faster than men, especially approaching perimenopause. Adequate calcium now builds reserves. Also supports muscle function during exercise and may reduce PMS symptoms.",
+          "husband": "Men need 1,000mg/day. While men have higher bone density, active men need calcium for muscle contraction and to prevent stress fractures. Also plays a role in blood pressure regulation.",
+          "daughter": "Children 4–8 need 1,000mg/day (rising to 1,300mg at age 9). This is Elsie's peak bone-building period — 40% of bone mass is built between ages 8–16. Inadequate calcium now means permanently weaker bones. This is non-negotiable."
+        },
+        "deficiency_signs": "Muscle cramps, numbness/tingling in fingers, brittle nails, tooth decay, fatigue, osteoporosis (long-term), frequent fractures in children",
+        "top_food_sources": [
+          "Yogurt (415mg per cup)",
+          "Milk (300mg per cup)",
+          "Cheddar cheese (200mg per oz)",
+          "Fortified orange juice (350mg per cup)",
+          "Sardines with bones (325mg per 3oz)",
+          "Broccoli (62mg per cup)",
+          "Fortified plant milks (300mg per cup)",
+          "Tofu (calcium-set, 250mg per half cup)"
+        ],
+        "weekly_gap_status": "MODERATE — cheese on Sun/Tue/Fri helps, but Mon/Wed/Thu/Sat dinners are calcium-poor. Snacks fill this gap with yogurt, milk, cheese, and fortified foods daily."
+      },
+      {
+        "nutrient": "Vitamin D",
+        "what_it_does": "Vitamin D is a fat-soluble hormone-precursor that enables calcium absorption in the gut (without it, only 10–15% of dietary calcium is absorbed). It also modulates immune function, reduces inflammation, supports muscle function, and influences mood via serotonin regulation.",
+        "why_it_matters": {
+          "wife": "Women need 600 IU/day. Vitamin D is essential to actually use the calcium consumed. Low vitamin D is linked to increased risk of autoimmune conditions, depression, and osteoporosis. Many women are deficient.",
+          "husband": "Men need 600 IU/day. Supports testosterone production, muscle recovery after exercise, and immune defense. Active men with low vitamin D have higher rates of stress fractures and muscle weakness.",
+          "daughter": "Children need 600 IU/day. Vitamin D deficiency in children can cause rickets (softening of bones). It also supports immune function — children with adequate vitamin D have fewer respiratory infections. Critical during growth spurts."
+        },
+        "deficiency_signs": "Fatigue, bone pain, muscle weakness, frequent illness, depression, slow wound healing, hair loss",
+        "top_food_sources": [
+          "Salmon (570 IU per 3oz)",
+          "Fortified milk (120 IU per cup)",
+          "Fortified orange juice (100 IU per cup)",
+          "Egg yolks (44 IU per yolk)",
+          "Sardines (165 IU per 3oz)",
+          "Fortified cereal (80 IU per serving)",
+          "Shiitake mushrooms (UV-exposed, 100 IU per cup)",
+          "Sunshine (15 min exposure = ~1,000+ IU for light skin)"
+        ],
+        "weekly_gap_status": "SIGNIFICANT — only Wednesday's fried eggs provide meaningful vitamin D from dinners. Lunches add salmon and shrimp; snacks add fortified milk and yogurt. April sunshine in Virginia helps, but dietary sources remain important."
+      },
+      {
+        "nutrient": "Iron",
+        "what_it_does": "Iron is essential for hemoglobin production — the protein in red blood cells that carries oxygen from lungs to every cell in the body. It also supports myoglobin (oxygen storage in muscles), enzyme function, immune cell production, and cognitive function. Heme iron (from meat) is 2–3× more absorbable than non-heme iron (from plants).",
+        "why_it_matters": {
+          "wife": "Women of reproductive age need 18mg/day (double the male requirement) due to menstrual blood loss. Iron deficiency is the #1 nutritional deficiency in women worldwide. Low iron causes fatigue, poor exercise performance, and brain fog.",
+          "husband": "Men need 8mg/day. While needs are lower, active men lose iron through sweat and foot-strike hemolysis (red blood cell destruction during running). Iron supports oxygen delivery during exercise.",
+          "daughter": "Children 4–8 need 10mg/day. Iron is critical for cognitive development — iron-deficient children score lower on attention, memory, and academic tests. Girls approaching puberty will soon need 15mg/day. Building stores now is protective."
+        },
+        "deficiency_signs": "Fatigue, pale skin, shortness of breath during exercise, cold hands/feet, brittle nails, cravings for ice or non-food items (pica), dizziness, poor concentration",
+        "top_food_sources": [
+          "Beef steak (3.2mg per 3oz, heme)",
+          "Lentils (6.6mg per cup, non-heme)",
+          "Spinach (6.4mg per cup cooked, non-heme)",
+          "Fortified cereals (18mg per serving)",
+          "Pumpkin seeds (2.5mg per oz)",
+          "Dark chocolate (3.4mg per oz)",
+          "Chicken thigh (1.1mg per 3oz, heme)",
+          "Tofu (3.4mg per half cup)"
+        ],
+        "weekly_gap_status": "ADEQUATE from dinners — red meat on Wed/Thu/Sat provides excellent heme iron. Lunches add plant-based iron from lentils, beans, and spinach. Vitamin C in lunches/snacks enhances non-heme iron absorption."
+      },
+      {
+        "nutrient": "Folate (Vitamin B9)",
+        "what_it_does": "Folate is essential for DNA synthesis and cell division — making it critical during periods of rapid growth. It works with B12 to form red blood cells and converts homocysteine to methionine (high homocysteine is a cardiovascular risk factor). The body cannot store large amounts, so daily intake is important.",
+        "why_it_matters": {
+          "wife": "Women need 400μg DFE/day (600μg if pregnant). Folate is crucial for women of childbearing age to prevent neural tube defects in potential pregnancies. It also supports red blood cell production (prevents megaloblastic anemia) and cardiovascular health.",
+          "husband": "Men need 400μg DFE/day. Folate supports healthy sperm production, cardiovascular health via homocysteine regulation, and DNA repair. Low folate is associated with increased colorectal cancer risk.",
+          "daughter": "Children need 200μg DFE/day (rising to 300μg at age 9). Folate supports Elsie's rapid cell growth, brain development, and red blood cell formation. Deficiency can cause irritability, poor growth, and anemia."
+        },
+        "deficiency_signs": "Fatigue, irritability, mouth sores, swollen tongue, gray hair (premature), poor growth in children, megaloblastic anemia",
+        "top_food_sources": [
+          "Lentils (358μg per cup cooked)",
+          "Spinach (262μg per cup cooked)",
+          "Black beans (256μg per cup)",
+          "Avocado (120μg per avocado)",
+          "Asparagus (134μg per half cup)",
+          "Fortified cereals (100–400μg per serving)",
+          "Broccoli (104μg per cup)",
+          "Eggs (22μg per egg)"
+        ],
+        "weekly_gap_status": "MODERATE — Tuesday's spinach pasta and Saturday's avocado/greens are good, but other dinners are low. Lunches compensate with lentil soup, black bean tacos, and chickpea salad."
+      },
+      {
+        "nutrient": "Potassium",
+        "what_it_does": "Potassium is an electrolyte that maintains fluid balance, enables muscle contractions (including heartbeat), supports nerve signal transmission, and counteracts the blood-pressure-raising effects of sodium. It works in opposition to sodium — higher potassium intake helps excrete excess sodium.",
+        "why_it_matters": {
+          "wife": "Women need 2,600mg/day. Potassium helps manage blood pressure and reduces bloating by balancing sodium. Active women lose potassium through sweat. Adequate intake is linked to reduced risk of stroke and kidney stones.",
+          "husband": "Men need 3,400mg/day. This is the highest potassium need in the family. Active men lose significant potassium through sweat. Low potassium causes muscle cramps, weakness, and can lead to dangerous heart arrhythmias. Critical for exercise performance.",
+          "daughter": "Children 4–8 need 2,300mg/day. Potassium supports healthy blood pressure development and proper muscle function for an active child. Adequate intake during childhood establishes healthy cardiovascular patterns."
+        },
+        "deficiency_signs": "Muscle cramps and weakness, fatigue, constipation, heart palpitations, tingling/numbness, excessive thirst",
+        "top_food_sources": [
+          "Banana (422mg per medium)",
+          "Sweet potato (542mg per medium)",
+          "Potato (926mg per medium, with skin)",
+          "Avocado (690mg per avocado)",
+          "Spinach (839mg per cup cooked)",
+          "Salmon (534mg per 3oz)",
+          "Lentils (731mg per cup)",
+          "Orange juice (496mg per cup)"
+        ],
+        "weekly_gap_status": "MODERATE — potatoes on Wed/Thu help, but the husband especially needs more. Lunches add bananas, sweet potatoes, and spinach. The Thursday smoothie with banana + OJ provides ~500mg alone."
+      },
+      {
+        "nutrient": "Magnesium",
+        "what_it_does": "Magnesium is involved in over 300 enzymatic reactions: energy production, protein synthesis, muscle and nerve function, blood glucose control, and blood pressure regulation. It also supports bone structure (60% of body magnesium is in bones) and sleep quality by activating the parasympathetic nervous system.",
+        "why_it_matters": {
+          "wife": "Women need 310–320mg/day. Magnesium reduces menstrual cramps, supports bone health alongside calcium, improves sleep quality, and may reduce migraine frequency. Many women are deficient without knowing it.",
+          "husband": "Men need 400–420mg/day. Active men have the highest magnesium needs. It's critical for muscle recovery, energy metabolism during exercise, and preventing cramps. Low magnesium impairs athletic performance and sleep quality.",
+          "daughter": "Children 4–8 need 130mg/day (rising to 240mg at age 9). Magnesium supports bone growth, energy production for an active child, and calm focus. Some research links adequate magnesium to better sleep in children."
+        },
+        "deficiency_signs": "Muscle cramps and twitches, insomnia, anxiety, fatigue, irregular heartbeat, migraines, loss of appetite",
+        "top_food_sources": [
+          "Pumpkin seeds (156mg per oz)",
+          "Almonds (80mg per oz)",
+          "Spinach (157mg per cup cooked)",
+          "Dark chocolate (64mg per oz)",
+          "Black beans (120mg per cup)",
+          "Avocado (58mg per avocado)",
+          "Brown rice (86mg per cup cooked)",
+          "Cashews (74mg per oz)"
+        ],
+        "weekly_gap_status": "SIGNIFICANT — dinners are generally low in magnesium (no nuts, seeds, legumes, or whole grains). Lunches add brown rice, legumes, and nuts. Snacks with almonds, pumpkin seeds, and trail mix are critical for the husband's 400mg+ target."
+      },
+      {
+        "nutrient": "Vitamin C",
+        "what_it_does": "Vitamin C is a powerful antioxidant that protects cells from free radical damage. It's essential for collagen synthesis (skin, tendons, blood vessels), enhances non-heme iron absorption by up to 6×, supports immune cell function, and accelerates wound healing. The body cannot store it, so daily intake is necessary.",
+        "why_it_matters": {
+          "wife": "Women need 75mg/day. Vitamin C enhances iron absorption — critical since women need 18mg iron/day. It also supports skin health via collagen production and immune defense. Pairs with iron-rich foods to maximize absorption.",
+          "husband": "Men need 90mg/day. Supports immune function, exercise recovery (reduces oxidative stress from intense exercise), and joint health via collagen production. Active men may benefit from higher intake (100–200mg).",
+          "daughter": "Children 4–8 need 25mg/day. Supports immune function (especially important in school environments), wound healing from playground scrapes, and iron absorption for growth. Helps fight off colds faster."
+        },
+        "deficiency_signs": "Frequent colds, slow wound healing, bleeding gums, dry/rough skin, easy bruising, fatigue, joint pain",
+        "top_food_sources": [
+          "Red bell pepper (152mg per cup)",
+          "Orange (70mg per medium)",
+          "Strawberries (85mg per cup)",
+          "Broccoli (81mg per cup cooked)",
+          "Kiwi (64mg per fruit)",
+          "Tomatoes (23mg per medium)",
+          "Clementine (36mg per fruit)",
+          "Mango (60mg per cup)"
+        ],
+        "weekly_gap_status": "MODERATE — Thursday's bell peppers are excellent, but most other dinners are low. Lunches add broccoli, tomatoes, and citrus. Snacks with berries, clementines, and pineapple ensure daily vitamin C."
+      },
+      {
+        "nutrient": "Vitamin K",
+        "what_it_does": "Vitamin K is essential for blood clotting (activates clotting proteins) and bone metabolism (activates osteocalcin, which binds calcium into bone matrix). Without vitamin K, calcium cannot be properly incorporated into bones, and blood would not clot after injury. K1 comes from plants; K2 from fermented foods and animal products.",
+        "why_it_matters": {
+          "wife": "Women need 90μg/day. Vitamin K works synergistically with calcium and vitamin D for bone health — all three are needed. It also helps prevent arterial calcification (calcium depositing in blood vessels instead of bones).",
+          "husband": "Men need 120μg/day. Supports bone density and cardiovascular health. Active men with higher bone stress benefit from adequate K to direct calcium into bones rather than soft tissues.",
+          "daughter": "Children 4–8 need 55μg/day. Essential for proper bone development during growth and for blood clotting after playground injuries. Works with calcium and vitamin D as a bone-building trio."
+        },
+        "deficiency_signs": "Easy bruising, excessive bleeding from cuts, blood in urine or stool, heavy menstrual periods, weakened bones",
+        "top_food_sources": [
+          "Kale (547μg per cup raw)",
+          "Spinach (145μg per cup raw)",
+          "Broccoli (110μg per half cup cooked)",
+          "Brussels sprouts (109μg per half cup)",
+          "Lettuce/greens (62μg per cup)",
+          "Avocado (21μg per half)",
+          "Blueberries (14μg per half cup)",
+          "Olive oil (8μg per tbsp)"
+        ],
+        "weekly_gap_status": "MODERATE — Saturday's green goddess salad is the only strong dinner source. Lunches add greens in multiple meals. The snack smoothie with spinach helps daily intake."
+      },
+      {
+        "nutrient": "Zinc",
+        "what_it_does": "Zinc is essential for immune cell development, wound healing, DNA synthesis, protein building, and taste/smell perception. It also supports growth and development during childhood and plays a role in over 100 enzyme reactions. The body has no specialized zinc storage, so regular intake is critical.",
+        "why_it_matters": {
+          "wife": "Women need 8mg/day. Zinc supports immune function, skin health, and hormonal balance. It also plays a role in fertility and is important for women planning pregnancies.",
+          "husband": "Men need 11mg/day. Zinc supports testosterone production, muscle repair after exercise, and prostate health. Active men lose zinc through sweat. Adequate zinc enhances exercise performance and recovery.",
+          "daughter": "Children 4–8 need 5mg/day. Zinc is essential for growth, immune function (reducing duration of colds), taste development, and cognitive function. Zinc-deficient children are more susceptible to infections."
+        },
+        "deficiency_signs": "Frequent colds, slow wound healing, loss of taste/smell, hair loss, skin rashes, poor appetite, stunted growth in children",
+        "top_food_sources": [
+          "Beef (7mg per 3oz)",
+          "Pumpkin seeds (2.2mg per oz)",
+          "Crab (6.5mg per 3oz)",
+          "Chickpeas (2.5mg per cup)",
+          "Yogurt (1.7mg per cup)",
+          "Cashews (1.6mg per oz)",
+          "Cheese (1.2mg per oz)",
+          "Oats (1.5mg per half cup dry)"
+        ],
+        "weekly_gap_status": "ADEQUATE — beef dishes on Wed/Thu/Sat provide excellent zinc. Supplemented by pumpkin seeds and yogurt in snacks."
+      },
+      {
+        "nutrient": "Vitamin A",
+        "what_it_does": "Vitamin A supports vision (especially night vision), immune cell maturation, skin and mucous membrane integrity, and cell growth/differentiation. It exists as preformed retinol (animal sources) and provitamin A carotenoids like beta-carotene (plant sources, especially orange and dark green vegetables).",
+        "why_it_matters": {
+          "wife": "Women need 700μg RAE/day. Supports skin health, immune function, and reproductive health. Beta-carotene also acts as an antioxidant, protecting cells from damage.",
+          "husband": "Men need 900μg RAE/day. Supports vision, immune defense, and skin integrity. Active men exposed to environmental stressors benefit from the antioxidant properties of beta-carotene.",
+          "daughter": "Children 4–8 need 400μg RAE/day. Essential for vision development, immune defense against childhood illnesses, and growth. Children who eat few orange/green vegetables are often deficient."
+        },
+        "deficiency_signs": "Night blindness, dry eyes, frequent infections, rough/dry skin, slow growth in children, poor wound healing",
+        "top_food_sources": [
+          "Sweet potato (1,400μg per medium)",
+          "Carrots (459μg per half cup)",
+          "Spinach (573μg per cup cooked)",
+          "Cantaloupe (270μg per cup)",
+          "Red bell pepper (117μg per half cup)",
+          "Mango (89μg per cup)",
+          "Eggs (80μg per egg)",
+          "Broccoli (60μg per cup)"
+        ],
+        "weekly_gap_status": "SIGNIFICANT — orange vegetables are completely absent from dinners. Only Tuesday's spinach and Thursday's peppers contribute. Lunches add sweet potato, carrots, and mango. Snacks with carrots and mango smoothie help."
+      },
+      {
+        "nutrient": "B12 (Cobalamin)",
+        "what_it_does": "Vitamin B12 is essential for red blood cell formation, neurological function, and DNA synthesis. It works with folate to prevent megaloblastic anemia. B12 is unique among vitamins — it's found almost exclusively in animal products and is stored in the liver for years, but active intake is still needed.",
+        "why_it_matters": {
+          "wife": "Women need 2.4μg/day. B12 works with folate for red blood cell production and neurological health. Deficiency can mimic depression and chronic fatigue.",
+          "husband": "Men need 2.4μg/day. Supports energy metabolism, nerve function, and red blood cell production. Important for exercise performance and mental clarity.",
+          "daughter": "Children 4–8 need 1.2μg/day. Essential for brain development, red blood cell formation, and energy. B12 deficiency in children can cause developmental delays."
+        },
+        "deficiency_signs": "Fatigue, weakness, numbness/tingling in extremities, difficulty walking, memory problems, mood changes, pale skin",
+        "top_food_sources": [
+          "Clams (84μg per 3oz)",
+          "Beef liver (70μg per 3oz)",
+          "Salmon (4.8μg per 3oz)",
+          "Beef (2.6μg per 3oz)",
+          "Milk (1.2μg per cup)",
+          "Eggs (0.6μg per egg)",
+          "Chicken (0.3μg per 3oz)",
+          "Yogurt (1.1μg per cup)"
+        ],
+        "weekly_gap_status": "EXCELLENT — beef and chicken in dinners provide ample B12 every day. This is a genuine strength of the dinner menu."
+      }
+    ],
+    "weekly_nutrition_summary": "Strengths: Strong protein intake across the week — chicken (2×), beef (3×, including corned beef); Good iron from red meat on Wed, Thu, Sat — critical for wife and daughter; Excellent B12 coverage from meat and eggs; Zinc well-covered from beef dishes; Folate highlight on Tuesday (spinach pasta) and Saturday (avocado/greens); Calcium from cheese on Sunday, Tuesday, Friday; Thursday's bell peppers provide outstanding vitamin C; Saturday's green goddess salad is the nutritional star of the week. Gaps: NO fish or seafood all week — zero omega-3 (EPA/DHA) from diet; NO legumes (beans, lentils, chickpeas) — missing plant-based protein, fiber, folate, magnesium; LOW fiber across the board — most dinners provide only 3–5g vs. 25g daily target; LOW vegetable diversity — most dinners have 0–1 vegetable servings; LOW vitamin D — only eggs on Wednesday provide meaningful amounts; INCONSISTENT calcium — strong on Sun/Tue/Fri (cheese), weak on Mon/Wed/Thu/Sat; HIGH sodium pattern — corned beef hash and pizza are sodium-heavy; NO whole grains at dinner — all pasta and bread are likely refined; LOW fruit all week — dinners include zero fruit; MISSING key food groups: nuts/seeds, whole grains, legumes, fish, fruit"
+  },
+  "newsletter_data": {
+    "newsletter_title": "The Weekly Read",
+    "week_range": "April 12 – April 18, 2026",
+    "clusters": [
+      {
+        "theme": "The Agentic Turn — When Intelligence Becomes Infrastructure",
+        "synthesis": "Three pieces this week trace a single arc: the moment AI stops being a parlor trick and starts being plumbing. Karpathy describes the vertiginous feeling of spending sixteen-hour days expressing intent rather than writing code — a shift as disorienting as it is productive. Medin shows what happens when you give that ephemeral intelligence a memory, turning lossy chat sessions into a compounding library. And the third piece delivers the sobering math: a ten-step workflow at 90% per step succeeds only 35% of the time, which is why the real engineering frontier is not smarter models but sturdier rails. Together, they paint a picture of a profession in metamorphosis — from craftsman to conductor, from typist to architect of will. For a family navigating the uncertainty of a house offer this week, the throughline is oddly resonant: the hardest part is never the intelligence. It is the discipline to delegate, the patience to build systems that remember, and the humility to know where the guardrails belong.",
+        "articles": [
+          {
+            "title": "The Agentic Turn: Andrej Karpathy on the 'Loopy Era' of Intelligence",
+            "one_liner": "As the marginal cost of a 'unit of thought' approaches zero, the bottleneck shifts from the speed of the finger to the clarity of the will.",
+            "full_text": "In the quiet corners of Silicon Valley, a peculiar new office etiquette is emerging. Engineers, once the silent architects of the digital age, are increasingly heard whispering into microphones. They are not talking to colleagues, but to \"agents\" — autonomous digital entities that manifest their will across thousands of lines of code.\n\nAndrej Karpathy, a central protagonist in the development of the modern large language model (LLM), describes this transition as a state of \"AI psychosis.\" For the first time in history, the primary constraint on human productivity is no longer the physical speed of data entry or even the mastery of syntax. It is, in Karpathy's words, a \"skill issue\" of delegation.\n\n**The Death of the Keyboard.** The most striking economic shift is the radical reduction in the \"marginal cost of software production.\" Karpathy notes that since December 2023, he has barely written a line of code by hand. Instead, he spends his 16-hour workdays \"expressing his will\" to agents. This represents a classic Jevons Paradox: as the production of software becomes more efficient, the demand for it does not decrease — it explodes. If software becomes \"ephemeral\" — something an agent creates for a single-use task and then discards — the total addressable market for digital logic expands into every crevice of human life.\n\n**Recursive Self-Improvement.** Perhaps the most profound implication is the automation of the R&D department. Karpathy's \"Auto-Research\" project demonstrates that agents can already outperform seasoned researchers at hyperparameter tuning and optimization. The Researcher becomes a \"manager of markdown files,\" defining organizational instructions rather than conducting experiments. Capital shifts from human salary to FLOPS.\n\n**The Jagged Frontier.** Despite the optimism, Karpathy warns of the \"jaggedness\" of current AI. A model can act as a brilliant PhD-level systems programmer one moment and a nonsensical ten-year-old the next. He famously points out that despite massive leaps in reasoning, ChatGPT's favorite joke — about scientists not trusting atoms — has remained unchanged for five years. Generalization is not yet a rising tide that lifts all boats equally; it is a targeted spearhead.\n\n**The Macro View.** Karpathy remains cautiously optimistic about the labor market, citing the historical example of bank tellers and ATMs. While digital information processing is being \"unhobbled\" at light speed, the physical world — the world of atoms — remains a \"million times harder.\" Ultimately, his departure from the Frontier Labs to become an independent researcher highlights a growing tension: the conflict between centralized capital and independent humanity."
+          },
+          {
+            "title": "The Compiling of a Digital Mind: From Ephemeral Agents to Durable Assets",
+            "one_liner": "A new architectural shift promises to turn fleeting AI conversations into a compounding library of intellectual capital.",
+            "full_text": "For the modern software engineer, \"intelligence\" is no longer a scarce commodity; rather, it is the continuity of that intelligence that remains frustratingly elusive. Most interactions with LLMs resemble a series of short-term rentals: the agent arrives, performs a task with startling proficiency, and then promptly forgets everything once the context window closes.\n\n**The Compiler Analogy.** The core innovation lies in treating human-AI interaction as \"source code\" that requires compilation. Karpathy's insight, operationalized by developer Cole Medin, is that raw chat logs and research papers are \"unoptimized\" for AI retrieval. The system follows a three-stage pipeline: raw daily logs are captured automatically; a secondary LLM process parses them to extract specific claims, architectural decisions, and gotchas; and these insights are formatted into an interconnected Wiki with a central Index that serves as a navigation map.\n\n**The Compounding Loop.** The economic significance lies in the compounding knowledge loop. In a standard workflow, task completion time remains relatively flat. With self-evolving memory, the agent becomes progressively more efficient — a complex codebase query that might usually require minutes of exploration can be answered in ten seconds by referencing compiled memory. This is \"capital deepening\" for the digital age: every hour of AI labor increases the total stock of knowledge available for the next hour.\n\n**The End of Information Decay.** The most radical element is transparency. Because memory is stored as simple Markdown files in an Obsidian vault, the human developer remains the ultimate architect. They can audit lessons learned, correct contradictions, and visualize evolving structure. As AI moves from a tool for \"doing\" to a partner in \"thinking,\" the ability to maintain a stable, evolving state will separate the productive from the overwhelmed."
+          },
+          {
+            "title": "The Industrialisation of the Ghost: Why AI Agents Fail and the Rise of 'Harness Engineering'",
+            "one_liner": "The 'March of the Nines' and the economic imperative for deterministic AI rails.",
+            "full_text": "While a large language model can draft a blog post with aplomb, it often stumbles when asked to execute a ten-step audit. The culprit is not a lack of intelligence, but the brutal economics of compounding failure — what Karpathy calls the \"March of the Nines.\"\n\n**The Arithmetic of Attrition.** If a workflow requires ten consecutive steps, each with a 90% success rate, the probability of the entire chain succeeding is a mere 35%. For a business running a compliance audit ten times a day, this results in over six failures daily. To move from a good demo to business-critical software, engineers must embark on the march of nines, where each additional decimal point of reliability requires an exponential increase in engineering effort.\n\n**The Limits of Skills.** The industry pivoted to \"Agent Skills\" — portable units of logic and domain knowledge, often stored as simple markdown files. While these skills improve performance, they are fundamentally just \"baking a process into a prompt.\" They rely on the AI's hopeful adherence to instructions. Even with skills, success rates remain below the threshold required for autonomous operation at scale.\n\n**Enter Harness Engineering.** The solution is not better prompting, but treating the LLM as a powerful engine mounted within a rigid, software-defined chassis. Stripe's \"Minion\" architecture provides a roadmap: rather than asking an AI to \"fix a bug and test it,\" the harness wraps the model in a scaffold that automatically validates every code change against a subset of three million tests. The AI isn't asked to be reliable; the software harness guarantees it.\n\n**The New Architecture.** Sophisticated harnesses employ hierarchical specialization (expensive supervisor models orchestrating cheaper sub-agents), state machines with fixed plans (each stage verified before the next begins), and virtual file systems (every phase generates a checkpoint file for resumption). The transition from \"AI as chatbot\" to \"AI as industrial engine\" marks the end of artisanal prompting. The future of AI utility lies in the software layer that surrounds the model, not just the weights within it."
+          }
+        ]
+      }
+    ],
+    "reflections": "These three articles share a quiet thesis that mirrors this week's Stoic meditation: the things that are up to us are not the intelligence of our tools but the clarity of our intent, the durability of our systems, and the honesty of our guardrails. Karpathy's \"jagged frontier\" — where brilliance and nonsense coexist in the same model — is a near-perfect metaphor for the uncertainty of a house offer: you can be right about everything within your control and still face an outcome shaped by forces you never saw. The discipline is the same in both arenas. Build good process. Document your reasoning. And when the result arrives — whatever it is — trust that the system you built will compound in your favor over time.",
+    "fun_section": {
+      "title": "And Finally… Houses That Would Make Any Offer Rejection Sting Less",
+      "content": "Feeling stressed about house offers? At least you're not bidding on South Korea's Toilet House — a home shaped like a giant toilet where the bathroom walls are glass (press a button and they fog up, thankfully). Or Poland's Crooked House, which looks like a cartoon building mid-sneeze. Meanwhile in Sweden, the Mirrorcube Treehouse is covered entirely in mirrors so it disappears into the forest — good luck getting that one inspected. And Pennsylvania has a house shaped like a giant boot, because apparently someone read 'There Was an Old Woman Who Lived in a Shoe' and thought: yes, that's a floor plan. Ask Elsie which weird house she'd want to live in tonight at dinner.",
+      "source_url": "https://kids.nationalgeographic.com/awesome-8/article/wacky-houses",
+      "source_name": "National Geographic Kids"
+    },
+    "total_articles": 3,
+    "total_words": 4200,
+    "generated_at": "2026-04-12T18:25:00Z"
+  },
+  "stoic_data": {
+    "week_range": "April 12 – 18, 2026",
+    "theme": {
+      "title": "The Things That Are Up to Us",
+      "category": "Acceptance",
+      "description": "Embracing the dichotomy of control — focusing our energy on what we can shape and releasing our grip on what we cannot."
+    },
+    "anchor_quote": {
+      "text": "Some things are within our power, while others are not. Within our power are opinion, motivation, desire, aversion — in short, whatever is our own doing. Not within our power are our body, our property, our reputation, our office — whatever is not our own doing.",
+      "source": "Epictetus",
+      "work": "Enchiridion",
+      "reference": "1.1"
+    },
+    "introduction": "This week, spring is at full bloom in Reston — the dogwoods don’t worry whether anyone will stop to admire them. They simply flower. There is a lesson in that effortless acceptance, and it arrives at a moment when your family could use it most.\n\nYou have made your offer on a house. You prepared thoughtfully, you chose well, you acted with conviction. And now the decision rests with someone else entirely. This is the oldest lesson the Stoics teach: the sharp, liberating line between what is ours to control and what is not. Epictetus opens his entire handbook with it. Marcus Aurelius returned to it again and again while governing an empire. It is not resignation — it is redirection. Pour your energy into your choices, your character, your presence with the people you love. Let the rest arrive as it will.\n\nThis week’s seven meditations walk that line together — from recognizing the boundary, to practicing release, to discovering that the deepest freedom lives on our side of the divide.",
+    "meditations": [
+      {
+        "day": "Sunday",
+        "title": "Drawing the Line",
+        "reflection": "Epictetus begins his teaching with an inventory: what belongs to me, and what does not? Our opinions, our desires, our efforts — these are ours. The weather, other people’s decisions, the housing market — these are not. Most of our suffering comes from confusing the two columns. Today, as the week opens, simply notice where your attention lands. Are you rehearsing a conversation with a seller you’ll never have? Are you refreshing an inbox for news that will arrive on its own schedule? The noticing itself is the first act of freedom.",
+        "prompt": "Draw two columns on a page: “Mine” and “Not Mine.” List everything on your mind this week in the correct column. Circle the items in “Mine” — that’s your real to-do list.",
+        "secondary_quote": {
+          "text": "Make the best use of what is in your power, and take the rest as it happens.",
+          "source": "Epictetus, Discourses 1.1"
+        }
+      },
+      {
+        "day": "Monday",
+        "title": "The Archer’s Release",
+        "reflection": "The Stoics loved the metaphor of the archer. You can choose your bow, train your arm, aim with care, and release with skill. But once the arrow leaves your hand, a gust of wind, a shift in the target — these are beyond you. The archer’s virtue is in the preparation and the release, never in the landing. You have released your arrow on the house. The wind is not yours to command. Your job now is to stand steady, breathe, and trust that you aimed well.",
+        "prompt": "Think of one decision you made recently where you prepared well. Write down three things you did right in the preparation — regardless of how it turned out.",
+        "secondary_quote": {
+          "text": "If you are distressed by anything external, the pain is not due to the thing itself, but to your estimate of it; and this you have the power to revoke at any moment.",
+          "source": "Marcus Aurelius, Meditations 8.47"
+        }
+      },
+      {
+        "day": "Tuesday",
+        "title": "Steady Under the Pager",
+        "reflection": "On-call weeks are a masterclass in the dichotomy of control. You do not choose when the alert fires. You do not choose the severity of the incident. What you choose is your response: calm or frantic, methodical or scattered, kind to yourself or punishing. Marcus Aurelius governed an empire while battling plagues and border wars. He did not control when crises arrived. He controlled how he met them. Your on-call rotation is a smaller arena, but the practice is identical.",
+        "prompt": "Before your on-call shift begins, write a short intention: “When the pager sounds, I will _____.” Fill in one thing within your control — a breath, a pause, a posture.",
+        "secondary_quote": {
+          "text": "You have power over your mind — not outside events. Realize this, and you will find strength.",
+          "source": "Marcus Aurelius, Meditations 6.8"
+        }
+      },
+      {
+        "day": "Wednesday",
+        "title": "The Weather Inside",
+        "reflection": "It is 80°F and sunny outside, and spring is doing exactly what spring does without asking permission. Inside us, the weather is more variable. Anxiety about the house, fatigue from on-call, excitement about Friday’s guests — these fronts collide. Seneca reminds us that we suffer more in imagination than in reality. The house news has not arrived. The on-call incident may never come. The guests will be wonderful. Right now, in this actual moment, the sun is shining. Can you let it in?",
+        "prompt": "Set three alarms today labeled “Weather Check.” When each sounds, pause and ask: “What is actually happening right now?” versus “What am I imagining?”",
+        "secondary_quote": {
+          "text": "We suffer more often in imagination than in reality.",
+          "source": "Seneca, Letters to Lucilius 13.4"
+        }
+      },
+      {
+        "day": "Thursday",
+        "title": "Loving What Happens",
+        "reflection": "The Stoics practiced amor fati — love of fate. Not passive acceptance, but active embrace. Whatever answer comes about the house, it is the next chapter, not the last one. Nietzsche later borrowed this idea: to want nothing to be different, not forward, not backward, not in all eternity. This is not about pretending disappointment doesn’t sting. It is about trusting that you can build a good life from whatever materials fate hands you. The dogwood blooms whether you planted it or not.",
+        "prompt": "Write a short letter to your future self, one week from now. Begin with: “Whatever happened with the house, I want you to know…”",
+        "secondary_quote": {
+          "text": "Fate leads the willing, and drags along the reluctant.",
+          "source": "Seneca, Letters to Lucilius 107.11"
+        }
+      },
+      {
+        "day": "Friday",
+        "title": "The Table You Set",
+        "reflection": "Guests arrive tonight. Hospitality is one of the purest expressions of what is within our control. You cannot control whether the conversation flows or the timing works perfectly. But you can control the warmth of your welcome, the care in your cooking, the attention you give each person. Marcus Aurelius wrote: accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart. Tonight, love with all your heart.",
+        "prompt": "Before your guests arrive, take five minutes alone. Set one intention for the evening that is entirely within your control — perhaps: “I will listen more than I speak.”",
+        "secondary_quote": {
+          "text": "Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.",
+          "source": "Marcus Aurelius, Meditations 6.39"
+        }
+      },
+      {
+        "day": "Saturday",
+        "title": "The Garden Within",
+        "reflection": "A week of practice draws to a close. You have drawn the line, released the arrow, steadied yourself under pressure, checked your inner weather, embraced uncertainty, and welcomed others with open hands. The Stoics compared the soul to a garden: we do not control the rain or the frost, but we choose what to plant, how to tend, when to prune. This garden is always yours. No seller, no pager, no twist of fate can take it from you. Tend it well. Everything you need is already growing inside.",
+        "prompt": "Walk outside and find one thing blooming that nobody planted on purpose. Sit with it for a moment. Then ask yourself: what is blooming in me that I did not plan?",
+        "secondary_quote": {
+          "text": "Very little is needed to make a happy life; it is all within yourself, in your way of thinking.",
+          "source": "Marcus Aurelius, Meditations 7.67"
+        }
+      }
+    ],
+    "family_exercise": {
+      "title": "The Two Buckets",
+      "description": "Place two buckets or bowls on the kitchen table, labeled ‘Ours’ and ‘Not Ours.’ Each family member writes down three things on their mind this week on separate slips of paper, then places each slip in the correct bucket. Talk about what you notice. Most of our worries live in the ‘Not Ours’ bucket — and that’s okay. Then take the ‘Ours’ slips and discuss one small action each person can take this week on something they actually control.",
+      "connection": "This exercise is a hands-on version of Epictetus’s opening lesson in the Enchiridion: sorting the world into what depends on us and what does not. Making it physical — writing it down, placing it in a bucket — helps the whole family internalize the distinction."
+    },
+    "young_stoic": {
+      "title": "Elsie’s Arrow",
+      "prompt": "Imagine you’re an archer shooting an arrow at a target. You practiced a lot, you aimed really carefully, and you let the arrow fly. But then a big gust of wind blows it sideways! Is that your fault? Nope! You did everything you could. Can you think of something this week where you tried your best, but the result wasn’t up to you? Draw a picture of your arrow flying through the wind — and write one thing you’re proud of about how you tried.",
+      "lesson": "You can always control how hard you try and how kind you are. You can’t control everything that happens after. And that’s perfectly okay."
+    },
+    "closing_thought": "The dogwoods are blooming along the Reston paths this week, asking nothing of the world and giving everything they have. Be like the dogwood. Root yourself in what is yours — your choices, your love, your attention — and let the rest of spring unfold as it will."
+  },
+  "child_wisdom": {
+    "title": "Papa Puleo's Cookie Mortgage",
+    "story": "The kitchen smelled like lasagna — layers of rich tomato sauce, bubbling mozzarella, and the slow-simmered warmth that always meant Papa Puleo was visiting. Mama Karen sat in the corner chair knitting, a certain sock puppet dozing on her right hand. Chelsie sat at the counter swinging her legs while Papa stirred the sauce with a red metal spoon older than anyone in the family.\n\n\"Papa,\" Chelsie said, \"Mama and Daddy keep driving to houses and whispering about numbers. Are we moving?\"\n\nPapa Puleo turned down the heat and wiped his hands on his apron. \"Maybe, piccola. They are making offers.\"\n\n\"Like raising your hand in class?\"\n\n\"Exactly like that. You raise your hand and say, 'I would like to buy this house, and I will pay this much.' But the person selling might say no. Or someone else might raise their hand higher.\"\n\nMr. Bugles — the sock puppet who lived on Mama Karen's right hand and had absolutely no filter — popped up from behind Mama Karen's shoulder. \"I'D OFFER ELEVEN DOLLARS AND A CHEESE STICK.\"\n\nPapa Puleo chuckled. \"That is a bold offer, Mr. Bugles. But a house costs quite a lot more than that. Most families borrow the money from a bank.\"\n\nChelsie tilted her head. \"The bank just gives you the money?\"\n\n\"They lend it. And for letting you borrow all that money, the bank charges a little extra — called interest. Think of it like this.\" Papa pulled a plate from the cabinet and set out twenty cookies in a neat row. \"Say these twenty cookies are your monthly payment to the bank.\"\n\n\"That's a lot of cookies,\" Chelsie said.\n\n\"THAT'S MY ENTIRE COOKIE FORTUNE,\" Mr. Bugles whispered.\n\nPapa slid most of the cookies — sixteen — to the left side of the plate. He slid only four to the right. \"In the beginning, this big pile goes to the bank as a thank-you for lending you the money. That is the interest. Only this little pile\" — he tapped the four cookies — \"actually goes toward owning more of the house.\"\n\nChelsie frowned. \"That's not very much.\"\n\n\"No. It is not. For the first few years, you pay and pay, but you only own a tiny sliver more. Like coloring in a very big picture one crayon stroke at a time.\" Papa moved one cookie from the left pile to the right. \"Each year, the thank-you pile gets a little smaller, and the owning pile gets a little bigger. By the end — many, many years later — almost every cookie goes to owning the house.\"\n\n\"SO YOU'RE TELLING ME,\" Mr. Bugles said, staring at the plate, \"THAT THE BANK EATS MOST OF THE COOKIES FOR YEARS AND YEARS?\"\n\n\"In a way, yes.\"\n\n\"RUDE.\"\n\nChelsie wrinkled her nose. \"But why would the bank give all that money to someone? What if the person doesn't pay it back?\"\n\n\"Ah, that is the big question.\" Papa leaned back. \"The bank does not just give money to anyone. They look at something called a credit score — it is like a report card for keeping promises. Every time you pay a bill on time, your score goes up. Every time you forget or pay late, it goes down.\"\n\n\"SO IT'S LIKE A TRUST-O-METER,\" Mr. Bugles said.\n\n\"Exactly like a trust-o-meter. And trust takes a very long time to build — years and years of keeping your word, paying what you owe, being responsible. But it can go down very fast if you are not careful. The bank looks at that score and decides: do we trust this person enough to lend them money for a whole house?\"\n\nChelsie nodded slowly. \"So the bank has to trust you before they'll share the cookies.\"\n\n\"Precisely. And that trust is built one small promise at a time, over many years. Just like a good sauce.\"\n\n\nChelsie studied the plate. \"So all the cookies just go to the bank or the house?\"\n\n\"Not all of them,\" Papa said, pulling two cookies off to the side. \"You must always save some cookies for things that break. A house is like a big machine — the roof gets old, the HVAC stops blowing cold air in August, pipes leak. If you spend every cookie on the bank, you have nothing left when the roof starts dripping.\"\n\n\"SO YOU NEED COOKIES FOR EMERGENCIES,\" Mr. Bugles said, unusually serious.\n\n\"Exactly. Smart homeowners always keep a little pile to the side — a repair fund. Because something always breaks.\" Papa tapped the two cookies. \"These are your roof-and-HVAC cookies. Never eat these.\"\n\nMr. Bugles stared at the two cookies with tragic longing. \"NOT EVEN ONE?\"\n\n\"Not even one.\"\n\n\"THIS IS THE SADDEST COOKIE LESSON I HAVE EVER ATTENDED.\"\n\nPapa laughed — a real, deep laugh that made the sauce pot rattle. Then he sat down next to Chelsie and his voice got soft. \"You know, when I left Italy, I was younger than your daddy is now. I got on a boat with one suitcase. No house. No kitchen. No red metal spoon.\"\n\n\"Were you scared?\" Chelsie asked.\n\nPapa thought about that. \"I was nervous. It was the biggest decision I ever made. But I did not need a house to feel at home. You know what made New York home?\"\n\nChelsie shook her head.\n\n\"People. Your Nonna. The neighbors who brought bread. The friends who taught me English — badly.\" He winked. \"A house is just walls and a roof. Home is who you eat lasagna with.\"\n\nSunlight came through the window, warm and golden, the kind of April light that makes everything look like a painting. Chelsie leaned against Papa's arm.\n\n\"So it's okay that it takes a long time?\" she asked. \"The offers and the cookies and all of it?\"\n\n\"Big decisions should take time, piccola. You do not rush picking a home any more than you rush a good sauce.\" He nodded toward the pot, which had been simmering since morning. \"Slow is how the flavor gets in.\"\n\nMr. Bugles eyed the cookie plate. \"SO CAN WE EAT THE COOKIES SINCE THE BANK ISN'T HERE?\"\n\nPapa Puleo pushed the plate toward Chelsie. \"I think the bank will understand.\"\n\nAnd so they sat together in the warm kitchen — the old man who once crossed an ocean, the girl, Mama Karen with her ever-present sock puppet, and twenty cookies that tasted like a very good lesson — while the lasagna bubbled golden in the oven and the spring breeze carried the smell of someone else's fresh-cut grass through the open window.\n\nHome, Chelsie decided, smelled exactly like this.",
+    "theme": "Big Decisions and What Makes a Home",
+    "life_lesson": "Big decisions take time, and that's okay — home isn't the building, it's the people you share it with.",
+    "reading_time": "4 minutes",
+    "discussion_prompt": "If you had to explain to a friend what 'interest' is using only things in our kitchen, what would you use?"
+  },
+  "principles_data": {
+    "week_range": "April 12 – 18, 2026",
+    "theme": {
+      "title": "Thinking in Bets: Judging Decisions by Process, Not Outcome",
+      "category": "Systems Thinking",
+      "description": "When the stakes are high and the future is unknowable, the only thing you can control is the quality of your decision-making process.",
+      "primary_thinker": "Annie Duke"
+    },
+    "anchor_quote": {
+      "text": "What makes a decision great is not that it has a great outcome. A great decision is the result of a good process, and that process must include an attempt to accurately represent our own state of knowledge. That state of knowledge, in turn, is some variation of 'I'm not sure.'",
+      "source": "Annie Duke",
+      "work": "Thinking in Bets",
+      "reference": "Ch. 1"
+    },
+    "introduction": "You put in an offer on a house. You researched the neighborhood, ran the numbers three times, talked to your lender, walked the property twice, and made a bid you could defend to any rational friend. Then the seller's agent calls: rejected. Suddenly your brain does something cruel — it starts rewriting the story. Maybe the bid was too low. Maybe you should have moved faster. Maybe the whole search was misguided. In a single phone call, a decision you were proud of becomes one you doubt, not because any new information arrived, but because the outcome changed.\n\nAnnie Duke, a former professional poker player who became one of the world's leading decision scientists, spent twenty years watching this exact pattern destroy smart people at the poker table and in the boardroom. She gave it a name: resulting. It is the human tendency to judge the quality of a decision by the quality of its outcome, even though luck, timing, and hidden information play enormous roles in how things turn out. A surgeon who follows every protocol but loses a patient made a good decision with a bad outcome. A drunk driver who makes it home safely made a terrible decision with a good outcome. We know the difference in theory, yet in practice — especially when the stakes involve our money, our home, or our family's future — we collapse the distinction almost instantly.\n\nThis week, we will learn to pull those two threads apart. Drawing from Duke's work alongside insights from Howard Marks, Daniel Kahneman, and Shane Parrish, each day will explore one facet of probabilistic thinking — the discipline of evaluating decisions on their own merits, independent of how any single hand plays out. In a week where a house offer may be accepted or rejected, where on-call duties compete with family time, and where spring invites fresh starts, there is no better time to build a decision-making system you can trust regardless of what the universe deals you.",
+    "daily_entries": [
+      {
+        "day": "Sunday",
+        "title": "The Poker Player's Secret",
+        "thinker": "Annie Duke",
+        "essay": "In the spring of 2004, Annie Duke sat across from ten of the best poker players on the planet at the World Series of Poker Tournament of Champions. She had already won over four million dollars in tournament play, but that night she was thinking about a hand she had lost two years earlier. The cards had been right. The math had been right. She had made the correct call and still lost, because in poker — as in life — the best decision does not guarantee the best outcome. That single insight, hard-won over thousands of hands, became the foundation of her life's work. When Duke left professional poker to study decision science, she discovered that the gap between decision quality and outcome quality was not just a poker problem. It was a human problem. Doctors, CEOs, generals, and parents all suffered from the same confusion: they judged their choices by what happened next, rather than by whether the choice itself was sound. She called this confusion resulting, and she argued it was one of the most damaging cognitive errors we make. The reason is simple: if you only learn from outcomes, you will repeat bad decisions that got lucky and abandon good decisions that got unlucky. Over time, your judgment erodes without you noticing, because the feedback signal you are relying on — results — is contaminated by noise you cannot control.\n\nConsider the house offer sitting on a seller's desk right now. If they accept, you will feel like a genius. If they reject, you will second-guess every number. But the decision was made days ago, with the information you had at the time, and nothing about the seller's response changes whether your process was thorough. Duke's first principle is disarmingly simple: before you learn the outcome, write down why you made the decision, what you knew, what you did not know, and what probability you assigned to each scenario. She calls this a decision journal, and its power lies in creating a record that cannot be rewritten by hindsight. When you revisit the entry weeks later, you see your actual reasoning, not the story your brain constructed after the fact. This Sunday, before the week's results arrive, sit with the decision you have already made. Ask not whether it will work out, but whether, given what you knew, you would make the same call again. That is the only question that sharpens your judgment for the next bet.",
+        "source_quote": {
+          "text": "Thinking in bets starts with recognizing that there are exactly two things that determine how our lives turn out: the quality of our decisions and luck. Learning to recognize the difference between the two is what thinking in bets is all about.",
+          "source": "Annie Duke, Thinking in Bets Ch. 1"
+        },
+        "reflection_prompt": "What decision are you currently waiting on the outcome of — and can you honestly separate your confidence in the process from your anxiety about the result?"
+      },
+      {
+        "day": "Monday",
+        "title": "The Resulting Trap",
+        "thinker": "Annie Duke",
+        "essay": "A friend buys a stock on a tip, it doubles, and everyone calls her brilliant. Another friend spends months researching an investment, builds a diversified portfolio, and watches it dip for a quarter — and everyone asks what went wrong. Nothing went wrong with the second friend's process. Something went very right with the first friend's luck. But our brains cannot help collapsing the two, because evolution wired us to learn from consequences, not from probability distributions. Ten thousand years ago, this shortcut worked well: if you ate a berry and got sick, avoiding that berry was a sound policy. The feedback loop between action and outcome was tight, immediate, and mostly free of randomness. Modern decisions are nothing like berries. When you bid on a house, dozens of variables outside your control — the seller's emotional state, competing offers you cannot see, interest rate rumors, even the weather on the day they review bids — shape the outcome as much as your offer price. Resulting is the error of treating this noisy, multi-variable process as if it were a simple berry. Duke describes an exercise she uses with corporate executives: she asks them to name their best and worst decisions of the past year, and almost without exception, the best decision produced a good outcome and the worst decision produced a bad one. Then she asks a harder question: can you name a good decision that turned out badly? The room goes quiet, because our filing system is organized by outcome, not by process.\n\nThe antidote is what Duke calls outcome fielding — deliberately sorting each result into two buckets after the fact. Bucket one holds the portion of the outcome that was influenced by your decision quality: the research you did, the variables you considered, the biases you checked. Bucket two holds everything else: timing, luck, other people's choices, information you could not have possessed. This is not an exercise in making excuses. It is an exercise in calibration. If you honestly put most of a bad result into bucket two, you protect your process from unnecessary tinkering. If you honestly put most of a good result into bucket two, you protect yourself from overconfidence. The practice is uncomfortable because it denies you the clean narrative your brain craves. You want the story where your genius produced the win or your mistake caused the loss. Reality is messier. This Monday, look at a recent outcome and force yourself to field it. How much was you, and how much was the world spinning on its axis?",
+        "source_quote": {
+          "text": "Resulting is a routine thinking pattern that bedevils all of us. Drawing an overly tight relationship between results and decision quality affects our decisions every day, potentially with far-reaching, catastrophic consequences.",
+          "source": "Annie Duke, Thinking in Bets Ch. 2"
+        },
+        "reflection_prompt": "Think of a recent decision that turned out well — how much of that outcome was genuinely your skill, and how much was luck you are quietly taking credit for?"
+      },
+      {
+        "day": "Tuesday",
+        "title": "Second-Level Thinking at the Kitchen Table",
+        "thinker": "Howard Marks",
+        "essay": "Howard Marks, the billionaire investor and co-founder of Oaktree Capital, built his career on a deceptively simple distinction: first-level thinking asks what will happen, while second-level thinking asks what will happen and then what happens after that, and who else is thinking the same thing, and what does the consensus already price in. First-level thinking says the neighborhood is growing, so the house is a good buy. Second-level thinking says the neighborhood is growing, everyone knows it, so the price already reflects that growth, and the real question is whether there is still upside that others have missed. Marks is careful to note that second-level thinking is not about being contrarian for its own sake — it is about being contrarian and correct, which requires deeper analysis than simply disagreeing with the crowd. In his landmark book, he writes that the greatest risk does not come from low quality or high volatility, but from paying a price that is too high for a good asset. Applied to a house, this means that the danger is not buying in a bad neighborhood — you are too smart for that. The danger is overpaying for a great one because the excellence is already visible to every other bidder. The mental shift is subtle but powerful: instead of asking is this a good house, you ask is this a good house at this price given what everyone else can see.\n\nWhat makes Marks's framework useful beyond investing is its insistence on humility. He famously said he belongs to the I-don't-know school, and that the main thing to keep in mind is how much we do not know. This is not false modesty from a man who has managed over one hundred and fifty billion dollars. It is an operational principle. When you acknowledge uncertainty honestly, you build wider margins of safety into your decisions. You keep reserves. You plan for the scenario where you are wrong, not just the one where you are right. For a family on call this week, with a house decision in the air and a thousand small choices competing for attention, second-level thinking is not a luxury — it is a survival tool. Before you react to the next piece of news about your offer, pause and ask the second question: what does everyone else think this means, and what might they be missing? That pause, Marks would say, is where all the value lives.",
+        "source_quote": {
+          "text": "First-level thinking says, 'It's a good company; let's buy the stock.' Second-level thinking says, 'It's a good company, but everyone thinks it's a great company, and it's not. So the stock's overpriced and we should sell.'",
+          "source": "Howard Marks, The Most Important Thing Ch. 1"
+        },
+        "reflection_prompt": "On the biggest decision you are facing this week, what does the obvious first-level analysis say — and what might a second layer of questioning reveal?"
+      },
+      {
+        "day": "Wednesday",
+        "title": "How We Wreck Each Other's Decisions",
+        "thinker": "Daniel Kahneman",
+        "essay": "Daniel Kahneman won the Nobel Prize for proving something parents and partners have always sensed: the pain of losing something is roughly twice as powerful as the pleasure of gaining the same thing. He called it loss aversion, and its fingerprints are everywhere in family life. When your partner questions a bid that did not land, the sting of that question feels disproportionate — not because the question is unfair, but because your brain has already coded the rejected offer as a loss, and any attention to that loss doubles its weight. Kahneman showed that people will take irrational risks to avoid locking in a loss and will become irrationally cautious to protect a gain, which means that after a rejection, you are neurologically primed to either swing wildly in the other direction or freeze entirely. Neither response serves you. What does serve you is understanding the mechanism. When you feel the heat of a questioned decision, you are not reacting to your partner's words — you are reacting to your brain's threat signal, which treats the conversation as if a predator has entered the room. Knowing this does not make the feeling disappear, but it creates a half-second gap between the feeling and your response, and that gap is everything. Kahneman also identified anticipatory regret — the tendency to agonize about future regret before a decision is even made. A family sitting at the dinner table debating whether to raise their offer is not really debating numbers. They are debating which future regret they can best tolerate: the regret of overpaying or the regret of losing the house.\n\nThe practical gift Kahneman offers is permission to name the emotion before it hijacks the conversation. Before discussing any high-stakes decision with your partner this week, try this: each person states, out loud, which loss they fear most. Not the logical argument for or against, but the raw fear underneath it. I am afraid we will overpay and feel trapped. I am afraid we will lose this house and never find another one we love. Once both fears are on the table, something remarkable happens — you stop arguing about numbers and start problem-solving together, because you now see that you are not on opposite sides of a debate but on opposite sides of the same anxiety. Duke would call this a precommitment to honest uncertainty. Kahneman would call it making System Two do the work that System One wants to skip. Either way, it turns a kitchen-table argument into a kitchen-table alliance, which is exactly what a family navigating uncertainty needs most.",
+        "source_quote": {
+          "text": "Losses loom larger than gains. The aversion to the failure of not reaching the goal is much stronger than the desire to exceed it.",
+          "source": "Daniel Kahneman, Thinking, Fast and Slow Ch. 26"
+        },
+        "reflection_prompt": "The next time you and your partner disagree about a decision, can you each name the specific loss you fear — not the argument you want to win?"
+      },
+      {
+        "day": "Thursday",
+        "title": "The Offer on the Table",
+        "thinker": "Annie Duke",
+        "essay": "Let us get concrete. There is a house. You made an offer. It may be accepted, countered, or rejected, and each scenario triggers a different emotional cascade that will tempt you to rewrite the quality of your original decision. Duke proposes a tool she calls the decision matrix, and it works like this: before the outcome arrives, you write down four scenarios. Scenario one: you made a good decision and it works out — the offer is accepted at a fair price. Scenario two: you made a good decision and it does not work out — the offer is rejected despite being reasonable because the seller had unrealistic expectations or a competing bid from a cash buyer. Scenario three: you made a bad decision and it works out — you overbid recklessly but the market rises and bails you out. Scenario four: you made a bad decision and it does not work out — you overbid and the market stalls. Most people only think about scenarios one and four, because those are the ones where decision quality and outcome quality align. But scenarios two and three are where all the learning lives. If the offer is rejected, you need to determine whether you are in scenario two, where no adjustment to your process is needed, or scenario four, where something in your analysis was flawed. And critically, if the offer is accepted, you need the honesty to ask whether you are in scenario one or scenario three, because scenario three feels like winning but teaches all the wrong lessons.\n\nHere is where the house decision becomes a family exercise. Tonight at dinner, draw the two-by-two grid on a napkin. Label the columns good outcome and bad outcome. Label the rows good decision and bad decision. Then talk through which box you would land in under each scenario. You will discover something surprising: the conversation shifts from anxiety about what will happen to clarity about what you already know. An eight-year-old can grasp this. Elsie has played enough board games to know that sometimes you roll the dice perfectly and still land on the wrong square, and sometimes you make a silly move and luck saves you. The grid simply gives that intuition a structure. Duke's deeper insight is that people who use this matrix consistently become less reactive to individual outcomes because they have already rehearsed the full range of possibilities. The rejection email, if it comes, lands in a box you already labeled. The acceptance, if it comes, gets examined rather than merely celebrated. Either way, you are learning. Either way, your process improves for the next bet.",
+        "source_quote": {
+          "text": "Decisions are bets on the future, and they aren't 'right' or 'wrong' based on whether they turn out well on any particular iteration.",
+          "source": "Annie Duke, Thinking in Bets Ch. 2"
+        },
+        "reflection_prompt": "If your current house offer is accepted, would that prove it was a good decision — or could you be in scenario three, where luck is doing the heavy lifting?"
+      },
+      {
+        "day": "Friday",
+        "title": "When the Outcome Is the Only Teacher",
+        "thinker": "Shane Parrish",
+        "essay": "Shane Parrish, the former intelligence analyst who created the Farnam Street blog and wrote The Great Mental Models, pushes back on a pure process-over-outcome philosophy with an important caveat: in domains where feedback loops are fast and clear, outcomes are excellent teachers, and ignoring them is its own form of arrogance. A chef who follows a recipe perfectly but consistently produces a dish that no one eats needs to change the recipe, not defend the process. A runner who trains by the book but keeps getting injured needs to question the book. Parrish distinguishes between what he calls tight games, where the rules are known and outcomes closely track decisions, and loose games, where randomness, hidden information, and other players' choices create vast gaps between process and result. Chess is a tight game. Poker is a loose one. Buying a house is somewhere in between — the structural inspection is a tight game with clear feedback, while the negotiation is a loose game saturated with hidden information. The danger of falling in love with process is that you can use it as a shield against accountability. If every bad outcome gets filed under luck, you never update your model. Parrish argues that intellectual honesty requires asking two questions after every result: what should I update, and what should I not update. The first question protects you from stubbornness. The second protects you from overreaction. Together, they calibrate learning at the right speed.\n\nThis is the strongest counter-argument to everything we have discussed this week, and it deserves to be taken seriously. Duke herself would agree — she does not argue that outcomes are meaningless, only that they are unreliable signals when taken one at a time. Over many bets, outcomes absolutely reveal patterns. If you have made five offers on five houses and all five were rejected, the process deserves scrutiny, because five data points begin to overwhelm the noise of any single result. The resolution is not process or outcomes but process and outcomes, weighted appropriately by the tightness of the feedback loop. For the decisions you face this week, ask which parts are tight games and which are loose. The mortgage math is tight — run the numbers, trust the spreadsheet. The seller's psychology is loose — make your best read, accept the uncertainty, and do not flagellate yourself if you read it wrong. Knowing which game you are playing is, perhaps, the most important mental model of all.",
+        "source_quote": {
+          "text": "The best mental models are the ones that help you see reality more clearly. The worst are the ones that make you feel smart while leading you astray.",
+          "source": "Shane Parrish, The Great Mental Models Vol. 1 Ch. 1"
+        },
+        "reflection_prompt": "Which parts of your current big decision are tight games with reliable feedback, and which parts are loose games where you should hold your conclusions lightly?"
+      },
+      {
+        "day": "Saturday",
+        "title": "The Decision You Can Always Win",
+        "thinker": "Annie Duke",
+        "essay": "There is a beautiful irony at the heart of this week's principle: the moment you stop needing outcomes to validate your decisions is the moment your decisions start producing better outcomes. Not because the universe rewards humility, but because you start learning faster. When you field outcomes honestly — crediting luck where luck was involved and owning error where error was real — you build an accurate map of reality. And accurate maps, over time, lead to better navigation. Duke tells a story about a poker player who kept meticulous records of every hand for five years. At the end of those five years, he could see exactly where his edge was and where he was leaking money, not because he tracked wins and losses, but because he tracked the quality of his decisions independently. He knew which good decisions had been punished by bad cards and which bad decisions had been rescued by good ones. That separation — painful, tedious, and unglamorous — was the source of his advantage. No other player at his table had that clarity, because no other player was willing to admit that a winning night might have been undeserved. This is the carry-forward for your family. The house process is not one bet — it is the beginning of a long series of bets that will define your financial life. Each offer, each negotiation, each moment of uncertainty is a data point in a system you are building. If you evaluate each one honestly, the system improves with every iteration.\n\nAs this spring week closes, take stock not of what happened but of how you decided. Did you gather enough information before committing, or did you rush? Did you consider the range of outcomes, or did you fixate on the one you wanted? Did you listen to your partner's fears with curiosity or with defensiveness? These are the variables under your control, and they are the only ones that compound over time. The temperature in Reston will climb toward the high eighties this week, the cherry blossoms will fade into green canopy, and whatever happens with the house will become last month's news by May. But the decision-making muscles you build this week will still be working long after the closing papers are signed or the next listing is bookmarked. Annie Duke left poker not because she stopped winning but because she realized the real game was never at the table. It was in the quality of the thinking that brought her there. The same is true for you. The house is not the bet. The life you are building is the bet, and every thoughtful decision is a chip stacked in your favor.",
+        "source_quote": {
+          "text": "Improving decision quality is about increasing our chances of good outcomes, not guaranteeing them.",
+          "source": "Annie Duke, Thinking in Bets Ch. 1"
+        },
+        "reflection_prompt": "Looking back at this week's decisions — large and small — which one are you most confident was a good process, regardless of how it turned out?"
+      }
+    ],
+    "closing_line": "You cannot control the cards, but you can control how you play them — and over a lifetime of hands, that is more than enough."
+  }
+}

@@ -1,36 +1,36 @@
-I need to create a weekly plan for the family. Look at the weather, find music, collect parenting tips, pair meals, elevate them, and make sure the nutrition is good. 
-
-You must leverage weekly-planner is the key skill that you will want to leverage for this process.
+Please use the weekly planner skill to come up with a plan for the week.
 This will get all of the raw information for school things, weather, etc. Then this will be combined into a MD file and finally a PDF and HTML file.
 
+Validate you have all of the information and that the user is ok with it before moving on to the pdf and HTML rendering step.
+
 Review the weekly_plans/favorites folder for information on meals or albums that were liked or disliked. Use these to help refine options.
-
-
 
 Review my calendar using the workIQ MCP server. Pay special attention to any meetings between 3 and 9. All events from Laura@astraeawealth.com should be included in the plan. These are related to our family and must be part of the final report. Tentative work meetings in that block can be ignored. Tentative meetings from Laura must be included.
 
 This week we have:
-- No YAT this week. Only swim lessons on Tuesday and the normal after school programs on Wednesday and Thursday.
-- No School on Friday
-- Early release on Wednesday. Kiet will pick up the kids
+- Dealing with a potentially rejected house offer.
+- On call from Tuesday - Tuesday
+- Laura has a work meeting on wednesday, dan to pick up Elsie from school.
+- Sophia and Faran are coming over for pizza on Friday - No Pork products
 
 Dinners:
-- (Wed) Corned beef and cabbage w/ potatoes and carrots - Busy day that is cold
-- Corned beef tacos - A different reset and use of corned beef
-- Babo Pasta
-- Big salad on a vegetarian night.
-- Rice bowls with kimchi and likely left over corned beef
+- (Sun) - Chicken Parm
+- (Mon) - Grilled Chicken
+- (Tue) - Babo Pasta
+- (Wed) - Corned beef hash with yellow potatoes
+- (Thu) - Grilled steaks with potatoes, peppers, and a cilantro sauce
+- (Friday) - Pizza
 
 Cravings:
+- Green goddess salad
 
 Elsies Selections:
 
-- No -> 
-- Yes -> 
+- No -> Mushrooms
 
 Weekly Kids Story:
-- Pip the Tadpole is born into a Reston stream where her parents do everything they can to keep her safe and help her grow. Be detailed about the lifecycle of the frog. Start with the parents talking about how they are trying to get the egg in just the right place to survive the long winter. They say goodbye t the egg. Discuss how the eggs survive over the cold winter. Chelsie discovers the eggs on a walk in the reston woods and then we transition to the world of the tadpole. This is a story similar to the giving tree. As Pip develops, her parents care for her but must eventually step back, knowing she has to find her own way. Alone, Pip learns to survive by avoiding dangers like a water skipper, hungry fish, and a snake. Each encounter teaches her caution, resilience, and confidence as she continues to grow. Over time, Pip transforms into a frog, stronger and more capable in the same pond that once felt frightening. When she meets the water skipper, fish, and snake again, they are no longer enemies but familiar faces. What once threatened her now becomes part of a community that helps Pip as she grows older, showing how fear can turn into understanding and friendship.
-- The characters in the story should take from a set of the following. Only use ~3 of them including Chelsie
+- This story should be about Papa Puleo talking with Chelsie about the process of buying a house. Specifically cover topics on amortization curves, interest, and the process of making offers on a house. We have been going though the process of looking at houses and making offers. The story should talk about how that is a really large decision. Discuss how little of the house is payed down over the first few years and the challenges of leaving a house. Papa Puleo immigrated from Italy to NYC so that can be added into the story.
+- The characters in the story should take from a set of the following. Only use the minimum that are necessary
   - Papa Puleo - Great Grand Father
   - Momma Karen - Grand Mother
   - Papa Kim - Grand Mother

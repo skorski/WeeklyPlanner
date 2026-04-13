@@ -144,6 +144,25 @@ These lunches are designed to fill the nutritional gaps identified in the dinner
 
 {{ weekly_nutrition_summary }}
 
+{% if nutrient_importance -%}
+## Why These Nutrients Matter
+
+A deeper look at the vitamins, minerals, and nutrients this week's plan targets — what they do, what happens without enough, and where to find them.
+
+{% for n in nutrient_importance -%}
+### {{ n.nutrient }}
+
+{{ n.why_it_matters }}
+
+| | |
+|---|---|
+| **Deficiency Signs** | {{ n.deficiency_signs }} |
+| **Daily Target** | {{ n.daily_target }} |
+| **Best Food Sources** | {{ n.best_food_sources }} |
+
+{% endfor -%}
+{% endif -%}
+
 {% if special_notes -%}
 ## Special Notes
 
