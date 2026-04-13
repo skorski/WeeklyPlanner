@@ -86,23 +86,58 @@
 {% endif %}
 {% endfor %}
 
-{# Render story pages — ~10 paragraphs per page for A5 at 9pt #}
-{% set per_page = 8 %}
-{% set total_pages = (ns_story.page_paras | length + per_page - 1) // per_page %}
-{% for page_num in range(total_pages) %}
-{% set start = page_num * per_page %}
-{% set end = [start + per_page, ns_story.page_paras | length] | min %}
-<div class="page page-story">
+{# Render story pages — estimate paragraph heights by character count to fill A5 pages.
+   Measured: dialog lines (~20 chars) = 18px, medium (~100 chars) = 36px, long (~200 chars) = 54-72px.
+   At 8.5pt justified on A5: ~70 usable chars per line, 18px per line.
+   Usable height ~660px. Title ~50px on page 1. Target ~85% fill. #}
+{% set ns_page = namespace(pages=[], current=[], current_h=0) %}
+{% set PAGE_BUDGET = 640 %}
+{% set TITLE_COST = 55 %}
+{% set PROMPT_COST = 35 %}
+{% set LINE_H = 18 %}
+
+{% for para in ns_story.page_paras %}
+{# Estimate height: ~70 chars per line at 8.5pt justified on A5 #}
+{% set lines = ((para | length) // 70) + 1 %}
+{% set para_h = lines * LINE_H %}
+{% set is_first_page = (ns_page.pages | length == 0 and ns_page.current | length == 0) %}
+{% set budget = PAGE_BUDGET - (TITLE_COST if is_first_page else 0) %}
+
+{% if ns_page.current_h + para_h > budget and ns_page.current | length > 0 %}
+{# Page full — start new page #}
+{% set ns_page.pages = ns_page.pages + [ns_page.current] %}
+{% set ns_page.current = [para] %}
+{% set ns_page.current_h = para_h %}
+{% else %}
+{% set ns_page.current = ns_page.current + [para] %}
+{% set ns_page.current_h = ns_page.current_h + para_h %}
+{% endif %}
+{% endfor %}
+
+{# Flush last page #}
+{% if ns_page.current | length > 0 %}
+{% set ns_page.pages = ns_page.pages + [ns_page.current] %}
+{% endif %}
+
+{# If the last page is very short (< 4 paragraphs), merge it into the previous page #}
+{% if ns_page.pages | length > 1 and ns_page.pages[-1] | length < 4 %}
+{% set merged = ns_page.pages[-2] + ns_page.pages[-1] %}
+{% set ns_page.pages = ns_page.pages[:-2] + [merged] %}
+{% endif %}
+
+{% set total_pages = ns_page.pages | length %}
+{% for page_paras in ns_page.pages %}
+<div class="page page-story{% if loop.index0 == 0 %} page-story-first{% endif %}">
   <div class="page-header">Bedtime Story</div>
-  {% if page_num == 0 %}
+  {% if loop.index0 == 0 %}
   <h3 class="story-title">{{ child_wisdom.title }}</h3>
   {% endif %}
   <div class="story-text">
-    {% for i in range(start, end) %}
-    <p>{{ ns_story.page_paras[i] }}</p>
+    {% for para in page_paras %}
+    <p>{{ para }}</p>
     {% endfor %}
   </div>
-  {% if page_num == total_pages - 1 and child_wisdom.discussion_prompt %}
+  {% if loop.last and child_wisdom.discussion_prompt %}
   <div class="story-prompt">{{ child_wisdom.discussion_prompt }}</div>
   {% endif %}
   <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>

@@ -636,10 +636,57 @@
     padding: 3pt 6pt;
     background: #f7f5f0;
   }
+  /* Cooking-for-Engineers HTML table */
+  .engineer-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--narrative);
+    font-size: 5.5pt;
+    line-height: 1.3;
+    margin-top: 3pt;
+  }
+  .engineer-table th {
+    font-family: var(--anchor);
+    font-size: 5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    color: var(--muted);
+    text-align: left;
+    padding: 1.5pt 2pt;
+    border-bottom: 0.75pt solid var(--rule);
+    white-space: nowrap;
+  }
+  .engineer-table td {
+    padding: 1pt 2pt;
+    border-bottom: 0.25pt solid #e8e4dc;
+    color: var(--ink);
+    vertical-align: top;
+  }
+  .engineer-table tr:last-child td { border-bottom: none; }
 
   /* ---- Variations (page 4, top) ---- */
   .variations-block {
-    margin-bottom: 6pt;
+    margin-bottom: 4pt;
+  }
+
+  /* ---- Inline recipe block (Mamma Karen + Variations on day page) ---- */
+  .recipe-inline-block {
+    margin-top: 4pt;
+    padding-top: 4pt;
+    border-top: 0.5pt solid var(--rule);
+  }
+  .recipe-inline-block .nonna-block { margin-bottom: 3pt; }
+  .recipe-inline-block .nonna-quote {
+    font-size: 7pt;
+    line-height: 1.45;
+    padding: 2pt 6pt;
+  }
+  .recipe-inline-block .variations-block { margin-bottom: 0; }
+  .recipe-inline-block .variation-item {
+    font-size: 6.5pt;
+    line-height: 1.4;
+    margin-bottom: 0.5pt;
   }
   .variations-block h4 {
     font-family: var(--anchor);
@@ -997,17 +1044,17 @@
   }
   .page-parenting .nudge-card p {
     font-family: var(--narrative);
-    font-size: 7.5pt;
-    line-height: 1.4;
+    font-size: 7pt;
+    line-height: 1.35;
   }
   .page-parenting .nudge-steps {
     font-family: var(--narrative);
-    font-size: 7pt;
+    font-size: 6.5pt;
     margin-top: 2pt;
     padding-left: 10pt;
-    line-height: 1.4;
+    line-height: 1.35;
   }
-  .page-parenting .nudge-steps li { margin-bottom: 1pt; }
+  .page-parenting .nudge-steps li { margin-bottom: 0.5pt; }
   .page-parenting .reflection-box {
     border-left: 2pt solid var(--ochre);
     padding: 3pt 0 3pt 8pt;
@@ -1035,6 +1082,32 @@
     font-size: 7.5pt;
     color: var(--muted);
     line-height: 1.4;
+  }
+  .page-parenting .connection-ritual {
+    padding: 4pt 0 6pt;
+    margin-bottom: 6pt;
+    border-bottom: 0.5pt solid var(--rule);
+    page-break-inside: avoid;
+  }
+  .page-parenting .connection-ritual h4 {
+    font-family: var(--hero);
+    font-size: 9pt;
+    font-weight: 400;
+    margin-bottom: 2pt;
+    color: var(--ochre);
+  }
+  .page-parenting .connection-ritual p {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    line-height: 1.55;
+  }
+  .page-parenting .ritual-meta {
+    font-family: var(--anchor);
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    color: var(--muted);
+    margin-top: 2pt;
   }
 
   /* ---- STOIC GUIDE ---- */
@@ -1222,28 +1295,53 @@
   /* ---- Story pages (multi-page) ---- */
   .page-story .story-title {
     font-family: var(--hero);
-    font-size: 13pt;
+    font-size: 14pt;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 10pt;
+    margin-bottom: 3pt;
     color: var(--ink);
+  }
+  .page-story .story-title::after {
+    content: "";
+    display: block;
+    width: 30pt;
+    height: 0.5pt;
+    background: var(--ochre);
+    margin: 6pt auto 8pt;
   }
   .page-story .story-text {
     font-family: var(--narrative);
-    font-size: 9pt;
-    line-height: 1.5;
+    font-size: 8.5pt;
+    line-height: 1.6;
     color: var(--ink);
+    text-align: justify;
+    hyphens: auto;
   }
   .page-story .story-text p {
-    margin-bottom: 6pt;
+    margin-bottom: 5pt;
+    text-indent: 12pt;
+  }
+  .page-story .story-text p:first-child {
+    text-indent: 0;
+  }
+  .page-story-first .story-text p:first-child::first-letter {
+    font-family: var(--hero);
+    font-size: 22pt;
+    float: left;
+    line-height: 0.8;
+    padding-right: 3pt;
+    padding-top: 2pt;
+    color: var(--oxblood);
   }
   .page-story .story-prompt {
     font-family: var(--narrative);
-    font-size: 8pt;
+    font-size: 7.5pt;
     font-style: italic;
     color: var(--ochre);
-    margin-top: 12pt;
+    margin-top: 10pt;
     text-align: center;
+    padding-top: 4pt;
+    border-top: 0.5pt solid var(--rule);
   }
   .page-back .notes-section {
     text-align: left;

@@ -135,7 +135,12 @@
         <blockquote>{{ day.recipe_card.nonna_says }}</blockquote>
       </div>
       {% endif %}
-      {% if day.recipe_card.engineer_table %}
+      {% if day.recipe_card.engineer_table_html %}
+      <div class="engineer-section">
+        <h4>How It Comes Together</h4>
+        {{ day.recipe_card.engineer_table_html | safe }}
+      </div>
+      {% elif day.recipe_card.engineer_table %}
       <div class="engineer-section">
         <h4>How It Comes Together</h4>
         {% if day.recipe_card.engineer_table.preheat %}<p class="preheat">Preheat oven to {{ day.recipe_card.engineer_table.preheat }}</p>{% endif %}

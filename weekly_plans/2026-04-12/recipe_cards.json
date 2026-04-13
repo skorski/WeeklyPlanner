@@ -1,0 +1,286 @@
+{
+  "week": "2026-04-12",
+  "family": "2 adults + 8-year-old girl",
+  "restrictions": ["No mushrooms", "No pork on Friday"],
+  "recipe_cards": [
+    {
+      "day": "Sunday",
+      "name": "Chicken Parm",
+      "source_url": "https://www.seriouseats.com/the-best-chicken-parmesan-recipe",
+      "prep_time": "30 min",
+      "cook_time": "30 min",
+      "servings": 4,
+      "ingredients": [
+        "3 boneless skinless chicken breasts, split and pounded to 1/4-inch",
+        "1 3/4 cups buttermilk",
+        "2 garlic cloves, minced",
+        "1/2 loaf crusty Italian bread, dried and ground into crumbs",
+        "5 oz grated Parmesan cheese, plus more for finishing",
+        "2 large eggs",
+        "1 1/2 cups all-purpose flour",
+        "1/2 cup vegetable oil for frying",
+        "10 oz fresh mozzarella, cut into 1/2-inch chunks",
+        "1 quart San Marzano tomato sauce",
+        "Fresh basil and parsley for garnish",
+        "Kosher salt and black pepper"
+      ],
+      "mamma_karen": "Listen, you soak those chicken cutlets in buttermilk with garlic, salt, and pepper for at least four hours. Overnight is better, but I know you're busy. Pound them thin, a quarter inch, no thicker or you'll be chewing all night. Make your own breadcrumbs from real Italian bread with a good handful of Parmesan mixed in. Flour, then egg wash, then crumbs, and fry in a hot pan until deeply golden, about two minutes each side. Lay them in a baking dish with sauce only down the center so the edges stay crispy. Pile on the mozzarella and more Parmesan, then bake at 425 until it's bubbly and gorgeous. Anyone who uses store-bought breadcrumbs for chicken parm should be ashamed. Now go make your family proud.",
+      "engineer_table": "| Ingredient           | Prep              | Step 1: Marinate | Step 2: Bread    | Step 3: Fry      | Step 4: Assemble | Step 5: Bake     |\n|----------------------|-------------------|------------------|------------------|------------------|------------------|------------------|\n| Chicken breasts      | Split, pound thin | Soak in          |                  |                  |                  |                  |\n| Buttermilk + garlic  | Mix               | buttermilk 4hr+  | Add to egg wash  |                  |                  |                  |\n| Flour                |                   |                  | Dredge first     |                  |                  |                  |\n| Eggs                 | Beat              |                  | Dip second       |                  |                  |                  |\n| Bread + Parmesan     | Grind to crumbs   |                  | Coat third       |                  |                  |                  |\n| Vegetable oil        |                   |                  |                  | Fry 2 min/side   |                  |                  |\n| Tomato sauce         |                   |                  |                  |                  | Sauce on bottom  | 425F 15 min      |\n| Mozzarella           | Cube              |                  |                  |                  | Top cutlets      | until bubbly     |\n| Basil + parsley      | Chop              |                  |                  |                  |                  | Garnish          |",
+      "variations": [
+        {
+          "name": "Air Fryer Chicken Parm",
+          "description": "Bread cutlets the same way but air fry at 400F instead of pan-frying. Crispy with far less oil, great for weeknights.",
+          "source_url": "https://temeculablogs.com/air-fryer-chicken-parm/"
+        },
+        {
+          "name": "Hot Honey Chicken Parm",
+          "description": "Classic breaded and baked chicken parm finished with a drizzle of hot honey for a sweet-spicy Southern-Italian twist.",
+          "source_url": "https://www.thisgalcooks.com/easy-chicken-parmesan-recipe/"
+        },
+        {
+          "name": "Eggplant & Chicken Parm Bake",
+          "description": "Layer breaded chicken and roasted eggplant slices with marinara and mozzarella in a casserole for a veggie-loaded family bake.",
+          "source_url": "https://allcookscorner.com/chicken-eggplant-parmesan-bake/"
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Grilled Chicken with Lemon & Herbs",
+      "source_url": "https://food52.com/recipes/27499-how-to-grill-chicken",
+      "prep_time": "15 min + 2 hr marinate",
+      "cook_time": "25 min",
+      "servings": 4,
+      "ingredients": [
+        "2 lbs chicken thighs and drumsticks, bone-in skin-on",
+        "1/4 cup extra virgin olive oil",
+        "3 tablespoons fresh lemon juice",
+        "1 tablespoon lemon zest",
+        "4 garlic cloves, minced",
+        "1 tablespoon fresh rosemary, chopped",
+        "1 tablespoon fresh oregano, chopped",
+        "1 tablespoon fresh thyme leaves",
+        "1/2 teaspoon red pepper flakes",
+        "Kosher salt and black pepper",
+        "Fresh parsley for garnish"
+      ],
+      "mamma_karen": "Whisk the olive oil, lemon juice, lemon zest, garlic, and all those beautiful herbs together. Toss the chicken in there and let it sit in the fridge for two hours. No more than that or the lemon makes it mushy. Set up your grill with two zones, hot side and cool side. Sear the chicken skin-side down on the hot side until you get good color, then move it to the cool side and close the lid. Let it cook through gently, about 20 minutes, until the juices run clear. Thighs and drumsticks are forgiving, which is why I like them. Squeeze more lemon on top before you serve. Even your eight-year-old will eat this without complaining.",
+      "engineer_table": "| Ingredient           | Prep              | Step 1: Marinate | Step 2: Sear     | Step 3: Indirect | Step 4: Serve    |\n|----------------------|-------------------|------------------|------------------|------------------|------------------|\n| Chicken pieces       | Pat dry           | Coat in          |                  |                  |                  |\n| Olive oil            |                   | marinade         |                  |                  |                  |\n| Lemon juice + zest   | Juice, zest       | 2 hours max      |                  |                  | Squeeze more     |\n| Garlic               | Mince             | in marinade      |                  |                  |                  |\n| Rosemary + oregano   | Chop              | in marinade      |                  |                  |                  |\n| Thyme                | Strip leaves      | in marinade      |                  |                  |                  |\n| Red pepper flakes    |                   | in marinade      |                  |                  |                  |\n| Grill (two-zone)     |                   |                  | Hot side 5 min   | Cool side 20 min |                  |\n| Parsley              | Chop              |                  |                  |                  | Garnish          |",
+      "variations": [
+        {
+          "name": "Spatchcock Lemon Herb Chicken",
+          "description": "Remove the backbone from a whole chicken, lay flat, and grill for even cooking and maximum crispy skin with the same lemon-herb marinade.",
+          "source_url": "https://somuchfoodblog.com/spatchcocked-grilled-lemon-chicken/"
+        },
+        {
+          "name": "Yogurt-Marinated Lemon Herb Chicken",
+          "description": "Replace olive oil with Greek yogurt in the marinade. The lactic acid tenderizes the chicken for an incredibly juicy, tangy result.",
+          "source_url": "https://cravingsomethinghealthy.com/yogurt-marinated-chicken/"
+        },
+        {
+          "name": "Za'atar Grilled Chicken",
+          "description": "Swap rosemary and oregano for za'atar spice blend (thyme, sumac, sesame). Serve with lemon-herb yogurt sauce for a Middle Eastern twist.",
+          "source_url": "https://finefoodsblog.com/grilled-zaatar-chicken-with-lemon-herb-yogurt-sauce/"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Babo Pasta",
+      "source_url": "https://food52.com/recipes/87659-best-spinach-pasta-recipe",
+      "prep_time": "45 min + 30 min rest",
+      "cook_time": "10 min",
+      "servings": 4,
+      "ingredients": [
+        "500g 00 flour, plus more for dusting",
+        "150g fresh spinach",
+        "4-5 large egg yolks (no whole eggs)",
+        "Pinch of salt",
+        "Semolina flour for dusting",
+        "4 tablespoons unsalted butter",
+        "Good handful of Parmigiano-Reggiano, grated",
+        "Black pepper"
+      ],
+      "mamma_karen": "Blanch your spinach for twenty seconds, just until it goes bright green, then squeeze every last drop of water out. Blend it smooth. Make a well in your 00 flour, drop in the egg yolks and the spinach puree, and work it together with your hands. Knead for ten minutes until it's silky and springs back when you poke it. Wrap it up and let it rest at least thirty minutes. Roll it thin through the pasta machine and cut tagliatelle. Cook in very salty boiling water for two minutes, then toss with brown butter and a good shower of Parmesan. This is the Babo way and no salmon or fancy sauce is going to improve on butter and cheese. Your little one will want seconds.",
+      "engineer_table": "| Ingredient           | Prep              | Step 1: Puree    | Step 2: Dough    | Step 3: Rest     | Step 4: Roll/Cut | Step 5: Cook     | Step 6: Sauce    |\n|----------------------|-------------------|------------------|------------------|------------------|------------------|------------------|------------------|\n| Fresh spinach        | Wash              | Blanch 20 sec    |                  |                  |                  |                  |                  |\n|                      |                   | Squeeze dry      |                  |                  |                  |                  |                  |\n|                      |                   | Blend smooth     |                  |                  |                  |                  |                  |\n| 00 flour             |                   |                  | Make well        |                  |                  |                  |                  |\n| Egg yolks            | Separate          |                  | Add to well      |                  |                  |                  |                  |\n| Spinach puree        |                   |                  | Add to well      |                  |                  |                  |                  |\n| Salt                 |                   |                  | Add, knead 10min | Wrap 30 min      |                  |                  |                  |\n| Semolina             |                   |                  |                  |                  | Dust, roll thin  |                  |                  |\n|                      |                   |                  |                  |                  | Cut tagliatelle  |                  |                  |\n| Salted water         |                   |                  |                  |                  |                  | Boil 2 min       |                  |\n| Butter               |                   |                  |                  |                  |                  |                  | Brown in pan     |\n| Parmigiano           | Grate             |                  |                  |                  |                  |                  | Toss + shower    |",
+      "variations": [
+        {
+          "name": "Beet Tagliatelle",
+          "description": "Replace spinach with roasted beet puree for stunning pink pasta with a subtle earthy sweetness. Same egg-yolk-only technique.",
+          "source_url": "https://www.alphafoodie.com/how-to-make-beet-pasta/"
+        },
+        {
+          "name": "Saffron Egg Yolk Pasta",
+          "description": "Steep saffron threads in warm water and add to the egg yolk dough for golden, aromatic pasta. Beautiful with a simple cream sauce.",
+          "source_url": "https://www.spoonforkbacon.com/homemade-pasta/"
+        },
+        {
+          "name": "Squid Ink Tagliatelle",
+          "description": "Add two teaspoons of squid ink to the dough for dramatic black pasta with a briny, oceanic flavor. Pairs perfectly with seafood.",
+          "source_url": "https://gardenbetty.com/fresh-homemade-pasta-using-what-you-already-have-in-the-kitchen/"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Corned Beef Hash with Yellow Potatoes",
+      "source_url": "https://www.seriouseats.com/corned-beef-hash-recipe",
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "servings": 4,
+      "ingredients": [
+        "8 oz cooked corned beef brisket, shredded",
+        "1 large Yukon Gold potato (13 oz), cut into 1/2-inch cubes",
+        "1/2 large yellow onion, unevenly chopped",
+        "1 medium bell pepper, diced (no green, use red or yellow)",
+        "2 tablespoons unsalted butter",
+        "1 tablespoon distilled white vinegar",
+        "Kosher salt and black pepper",
+        "4 eggs for frying on top",
+        "Fresh parsley, chopped"
+      ],
+      "mamma_karen": "Cut your Yukon Golds into half-inch cubes and parboil them with a splash of vinegar and salt until just barely tender, about four minutes. Drain them and let them dry out. Melt butter in your biggest cast iron pan over medium-high heat. Cook the onions and peppers until they soften and start to brown. Add the potatoes and let them get golden and crispy, turning them every few minutes. Now fold in the shredded corned beef, press everything flat, and leave it alone. That's the secret, don't fiddle with it. Let the bottom get a dark, gorgeous crust, then stir and press again. Fry your eggs and set them right on top. The runny yolk is the sauce and I won't hear otherwise.",
+      "engineer_table": "| Ingredient           | Prep              | Step 1: Parboil  | Step 2: Saute    | Step 3: Crisp    | Step 4: Hash     | Step 5: Serve    |\n|----------------------|-------------------|------------------|------------------|------------------|------------------|------------------|\n| Yukon Gold potatoes  | Cube 1/2-inch     | Boil 4 min       |                  | Add, brown 8 min |                  |                  |\n| White vinegar        |                   | Add to water     |                  |                  |                  |                  |\n| Butter               |                   |                  | Melt in CI pan   |                  |                  |                  |\n| Yellow onion         | Chop unevenly     |                  | Cook 6 min       |                  |                  |                  |\n| Bell pepper          | Dice              |                  | Cook with onion  |                  |                  |                  |\n| Corned beef          | Shred by hand     |                  |                  |                  | Fold in, press   |                  |\n|                      |                   |                  |                  |                  | Crust 3 min      |                  |\n|                      |                   |                  |                  |                  | Stir, repeat     |                  |\n| Eggs                 |                   |                  |                  |                  |                  | Fry, place on top|\n| Parsley              | Chop              |                  |                  |                  |                  | Garnish          |",
+      "variations": [
+        {
+          "name": "Sweet Potato Corned Beef Hash",
+          "description": "Swap Yukon Golds for sweet potatoes and add smoked paprika. The natural sweetness caramelizes beautifully in cast iron.",
+          "source_url": "https://craveworthynutrition.com/5-delicious-corned-beef-hash-variations"
+        },
+        {
+          "name": "Kimchi Corned Beef Hash",
+          "description": "Fold in chopped kimchi near the end of cooking for a spicy, tangy, umami-packed fusion hash. Finish with sesame oil and scallions.",
+          "source_url": "https://simplyfamilyrecipes.com/corned-beef-hash-recipes/"
+        },
+        {
+          "name": "Mexican-Style Corned Beef Hash",
+          "description": "Add cumin, chili powder, black beans, and corn. Top with pico de gallo, cilantro, and sour cream. Serve with warm tortillas.",
+          "source_url": "https://www.tasteofhome.com/recipes/easy-corned-beef-hash/"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Grilled Steaks with Potatoes, Peppers & Cilantro Sauce",
+      "source_url": "https://www.splendidtable.org/story/2019/03/11/the-perfect-rib-eye-steak-with-whole-grilled-potatoes-and-chimichurri-sauce",
+      "prep_time": "20 min + 1 hr rest",
+      "cook_time": "30 min",
+      "servings": 4,
+      "ingredients": [
+        "1 lb bone-in ribeye steak, about 1-inch thick",
+        "1/2 cup black peppercorns, coarsely ground",
+        "1/2 cup coarse sea salt (for rub, use sparingly)",
+        "1 tablespoon grapeseed oil",
+        "10 small thin-skinned potatoes",
+        "2-3 bell peppers, halved and seeded",
+        "1 bunch cilantro, stems removed",
+        "1 small bunch parsley, stems removed",
+        "1 small bunch basil, stems removed",
+        "2 large garlic cloves",
+        "3 scallions, roughly chopped",
+        "2 tablespoons lime juice",
+        "2 tablespoons apple cider vinegar",
+        "1/4 cup extra-virgin olive oil",
+        "Sea salt to taste"
+      ],
+      "mamma_karen": "Make your chimichurri first so the flavors can marry. Blitz the cilantro, parsley, basil, garlic, scallions, lime juice, vinegar, and olive oil in the food processor until it's rough but loose. Taste it and add salt. For the steak, pat it very dry, rub it with coarsely ground pepper and salt, and let it sit at room temperature for an hour. Roast the steak at 250 degrees until the inside reads 115, then sear it screaming hot in a cast iron pan, thirty seconds each side. Let it rest fifteen minutes. Meanwhile, grill your potatoes and peppers on the side of the fire. Slice the steak against the grain and pour that chimichurri over everything. This is a meal that makes people go quiet because they're too busy eating.",
+      "engineer_table": "| Ingredient           | Prep              | Step 1: Chimichurri | Step 2: Season   | Step 3: Slow Roast | Step 4: Sear     | Step 5: Grill Sides | Step 6: Serve    |\n|----------------------|-------------------|---------------------|------------------|--------------------|--------------------|---------------------|------------------|\n| Cilantro + parsley   | Strip stems       | Blitz all in        |                  |                    |                    |                     | Spoon over       |\n| Basil                | Strip stems       | food processor      |                  |                    |                    |                     | everything       |\n| Garlic + scallions   | Peel, chop        | with liquids        |                  |                    |                    |                     |                  |\n| Lime juice + vinegar |                   | and olive oil       |                  |                    |                    |                     |                  |\n| Olive oil            |                   |                     |                  |                    |                    |                     |                  |\n| Ribeye steak         | Pat very dry      |                     | Rub pepper+salt  | 250F to 115F       | Sear 30 sec/side   |                     | Slice, rest 15m  |\n| Peppercorn rub       | Coarsely grind    |                     | Apply, rest 1 hr |                    |                    |                     |                  |\n| Grapeseed oil        |                   |                     |                  |                    | Coat hot pan       |                     |                  |\n| Small potatoes       | Clean, dry        |                     |                  |                    |                    | Grill 25 min        |                  |\n| Bell peppers         | Halve, seed       |                     |                  |                    |                    | Grill 10 min        |                  |",
+      "variations": [
+        {
+          "name": "Coffee-Rubbed Ribeye with Chimichurri",
+          "description": "Rub steak with a blend of finely ground coffee, smoked paprika, brown sugar, and chili powder before grilling. The coffee adds deep, earthy complexity against the bright chimichurri.",
+          "source_url": "https://gordonramsayeats.com/gordon-ramsay-coffee-rub-steak/"
+        },
+        {
+          "name": "Blue Cheese Steak with Chimichurri",
+          "description": "Top the seared steak with crumbled blue cheese and let it melt slightly. The tangy cheese against the herbaceous chimichurri is outrageously good.",
+          "source_url": "https://www.heathrilesbbq.com/blogs/favorite-recipes/steak-chimichurri-crostini"
+        },
+        {
+          "name": "Korean-Style Steak with Chimichurri",
+          "description": "Marinate in soy sauce, ginger, garlic, sesame oil, and gochujang before grilling. Top with classic chimichurri for a fusion of umami and herbal brightness.",
+          "source_url": "https://delishsides.com/bobby-flay-hanger-steak/"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Pizza Night (No Pork)",
+      "source_url": "https://www.seriouseats.com/foolproof-pan-pizza-recipe",
+      "prep_time": "15 min + 8-24 hr rise",
+      "cook_time": "15 min",
+      "servings": 6,
+      "ingredients": [
+        "400g bread flour, plus more for dusting",
+        "10g kosher salt",
+        "4g instant yeast",
+        "275g water",
+        "Extra-virgin olive oil for pans",
+        "1 1/2 cups San Marzano tomato sauce",
+        "12 oz low-moisture mozzarella, grated",
+        "Fresh mozzarella for topping",
+        "Fresh basil leaves",
+        "Topping bar: roasted red peppers, artichoke hearts, olives, cherry tomatoes, ricotta, red onion, fresh arugula",
+        "NO PORK PRODUCTS of any kind"
+      ],
+      "mamma_karen": "The night before, mix your bread flour, salt, yeast, water, and a drizzle of olive oil together until no dry flour remains. It will be sticky and ugly, that's fine. Cover it and leave it alone for eight to twenty-four hours. The next day, oil two cast iron pans generously, divide the dough between them, and press it out. Let it rise two more hours. Crank your oven as hot as it goes, 550 if you have it. Sauce, cheese, and whatever toppings your guests want. No pork tonight, we have Sophia and Faran coming. Roasted peppers, artichoke hearts, olives, fresh mozzarella, ricotta, whatever makes them happy. Bake twelve to fifteen minutes until the bottom is crispy and the cheese is bubbling. This pizza is better than delivery and anyone who disagrees hasn't tried it.",
+      "engineer_table": "| Ingredient           | Prep              | Step 1: Mix (night before) | Step 2: Rise    | Step 3: Pan Shape | Step 4: Top      | Step 5: Bake     |\n|----------------------|-------------------|----------------------------|-----------------|-------------------|------------------|------------------|\n| Bread flour          |                   | Combine all dry            |                 |                   |                  |                  |\n| Salt + yeast         |                   | and wet ingredients        |                 |                   |                  |                  |\n| Water                |                   | Mix until shaggy           |                 |                   |                  |                  |\n| Olive oil            |                   | Drizzle in                 |                 | Oil pans          |                  |                  |\n| Dough                |                   | Cover tightly              | 8-24 hr RT      | Press to edges    |                  |                  |\n|                      |                   |                            |                 | Rise 2 hr more    |                  |                  |\n| Tomato sauce         |                   |                            |                 |                   | Spread to edges  |                  |\n| Mozzarella (LM)      | Grate             |                            |                 |                   | Layer on         | 550F 12-15 min   |\n| Fresh mozz           | Tear              |                            |                 |                   | Dot on top       | until bubbly     |\n| Topping bar          | Prep all          |                            |                 |                   | Guest's choice   |                  |\n| Basil                |                   |                            |                 |                   |                  | Add after bake   |",
+      "variations": [
+        {
+          "name": "White Pizza (Pizza Bianca)",
+          "description": "Skip the tomato sauce. Spread garlic-herb ricotta on the dough, top with mozzarella, caramelized onions, and arugula after baking. No pork.",
+          "source_url": "https://www.bbcgoodfood.com/howto/guide/top-10-pizza-topping-ideas"
+        },
+        {
+          "name": "Pesto Pizza with Cherry Tomatoes",
+          "description": "Replace tomato sauce with basil pesto. Top with fresh mozzarella, halved cherry tomatoes, and arugula. Bright, herbaceous, and completely pork-free.",
+          "source_url": "https://www.food.com/ideas/homemade-pizza-recipes-6325"
+        },
+        {
+          "name": "Classic Margherita",
+          "description": "The purist's pizza: San Marzano sauce, fresh mozzarella, fresh basil, a drizzle of olive oil. Nothing more, nothing less. No pork needed.",
+          "source_url": "https://www.tasteofhome.com/collection/italian-vegetarian-recipes/"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Grilled Burgers with Green Goddess Salad",
+      "source_url": "https://www.seriouseats.com/the-best-burgers-recipe",
+      "prep_time": "15 min",
+      "cook_time": "10 min",
+      "servings": 4,
+      "ingredients": [
+        "1 lb ground chuck 80/20",
+        "4 soft brioche buns",
+        "4 slices sharp cheddar cheese",
+        "Kosher salt and black pepper",
+        "Butter for toasting buns",
+        "Thinly sliced red onion",
+        "Dill pickle slices",
+        "Lettuce leaves",
+        "Tomato slices",
+        "Burger sauce: mayo, ketchup, mustard, pickle relish"
+      ],
+      "mamma_karen": "Divide your ground chuck into four balls, about four ounces each. Do not overwork the meat, just barely hold them together. Get your cast iron screaming hot. Place the balls down and smash them hard and flat with a stiff spatula. Season with salt and pepper right away. Leave them alone for ninety seconds until the edges are dark brown and lacy. Flip, add your cheese immediately, and cook another thirty seconds. The cheese melts while the second side crisps. Butter and toast your brioche buns in the same pan. Stack them up with pickles, onions, and whatever makes you happy. Serve these next to the green goddess salad and try not to eat two. You will fail.",
+      "engineer_table": "| Ingredient           | Prep              | Step 1: Heat Pan | Step 2: Smash    | Step 3: Flip     | Step 4: Buns     | Step 5: Assemble |\n|----------------------|-------------------|------------------|------------------|------------------|------------------|------------------|\n| Ground chuck 80/20   | Form 4 loose balls|                  | Smash flat       |                  |                  |                  |\n| Salt + pepper        |                   |                  | Season on top    |                  |                  |                  |\n| Cast iron pan        |                   | Screaming hot    | Cook 90 sec      | Flip             |                  |                  |\n| Cheddar cheese       | Slice             |                  |                  | Add immediately  |                  |                  |\n|                      |                   |                  |                  | Cook 30 sec      |                  |                  |\n| Brioche buns         | Split             |                  |                  |                  | Butter, toast    |                  |\n| Red onion            | Slice thin        |                  |                  |                  |                  | Layer on         |\n| Pickles              | Slice             |                  |                  |                  |                  | Layer on         |\n| Lettuce + tomato     | Wash, slice       |                  |                  |                  |                  | Layer on         |\n| Burger sauce         | Mix               |                  |                  |                  |                  | Spread on bun    |",
+      "variations": [
+        {
+          "name": "Oklahoma Onion Smash Burger",
+          "description": "Press thinly sliced onions into the meat as you smash. The onions caramelize and fuse into the patty for incredible savory depth.",
+          "source_url": "https://comfortplates.com/the-oklahoma-onion-smashburger-recipe/"
+        },
+        {
+          "name": "Pimento Cheese Smash Burger",
+          "description": "Skip the cheddar and top with a generous scoop of pimento cheese that melts into a creamy, peppery Southern-style topping.",
+          "source_url": "https://artemisrecipes.com/smash-burger/"
+        },
+        {
+          "name": "Green Chile Smash Burger",
+          "description": "Top with roasted Hatch green chiles and pepper jack cheese for a smoky, spicy Southwest-style burger. Finish with green chile aioli.",
+          "source_url": "https://www.foodnetwork.com/grilling/grilling-central-burgers-and-hot-dogs/best-burger-recipes"
+        }
+      ]
+    }
+  ]
+}

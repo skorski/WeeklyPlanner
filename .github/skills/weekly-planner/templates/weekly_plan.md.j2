@@ -373,6 +373,15 @@
 - **{{ a.title }}** — {{ a.one_liner }}
 {% endfor %}
 
+{% for a in cluster.articles -%}
+{% if a.full_text -%}
+#### {{ a.title }}
+
+{{ a.full_text }}
+
+{% endif -%}
+{% endfor -%}
+
 {% endfor -%}
 
 {% if newsletter_data.reflections %}{{ newsletter_data.reflections }}{% endif %}
