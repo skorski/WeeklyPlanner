@@ -293,6 +293,24 @@ The rendered markdown contains one card per recipe with:
 The content-validator checks this output before assembly. The JSON schema is
 documented in Step 6 above. All fields in that schema are required.
 
+### Required field names (exact match — the assembler and booklet template depend on these)
+
+| Field | Type | Notes |
+|-------|------|-------|
+| `day` | string | `"Sunday"`, `"Monday"`, ... (matches `day_of_week` after normalization) |
+| `name` | string | Dish name; matches `day.dinner` case-insensitively |
+| `nonna_says` | string | 4-8 sentences, Mamma Karen's voice. **NOT** `mamma_karen` |
+| `variations[].name` | string | Short variation title |
+| `variations[].twist` | string | One-sentence description. **NOT** `description` |
+| `variations[].source_url` | string | Link to the variation recipe |
+| `engineer_table.groups[]` | array | At least 2 groups |
+| `engineer_table.final_steps[]` | array | Final merge sequence |
+
+The booklet template reads `day.recipe_card.nonna_says` and
+`day.recipe_card.variations[].twist` directly. If the skill emits
+`mamma_karen` or `description` instead, the blocks render blank or get
+field-mapped by the assembler — either way, the skill is out of contract.
+
 ### Validation Rules
 - Each `recipe_card` must have a non-empty `nonna_says` field (4-8 sentences)
 - `engineer_table` must contain at least 2 groups

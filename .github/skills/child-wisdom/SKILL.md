@@ -185,19 +185,43 @@ every week.
 
 ## Anti-Repeat Checklist (run before saving)
 
-1. Read the last 3–4 `child-wisdom.json` files in `weekly_plans/*/`.
-2. List every trait line or catchphrase attributed to Mr. Bugles, Mertle,
-   Mamma Karen, or Papa Puleo.
-3. If any sentence in the new story closely matches one of those lines,
+**Step 0 — Read the last 4 weeks of stories.** Before writing a single
+sentence, open every `weekly_plans/*/child-wisdom.json` (and older
+`story.json`) from the last 4 plan weeks and skim the `story` field. You are
+looking for:
+
+- **Repeated sentences or phrases** — any 5+-word sequence that could be
+  copy-pasted between weeks is a repeat. Rewrite it.
+- **Repeated opening beats** — "Mamma Karen was laughing…", "Mr. Bugles
+  shouted…", "Mertle shimmied…". If the last story opened that way, this
+  one cannot.
+- **Repeated character tags** — fixed epithets ("with absolutely no filter",
+  "the windowsill philosopher", etc.) burn out fast. Retire any that appeared
+  in the previous 2 stories.
+- **Repeated lessons** — if last week's discussion_prompt was about
+  embarrassment becoming a family story, this week's cannot be the same
+  shape. Pick a different angle.
+
+Keep a mental (or scratch) list of the phrases you intend **not** to reuse
+before you start writing. It is faster than rewriting at the end.
+
+Then:
+
+1. List every trait line or catchphrase attributed to Mr. Bugles, Mertle,
+   Mamma Karen, or Papa Puleo in the last 4 stories.
+2. If any sentence in the new story closely matches one of those lines,
    rewrite it.
-4. Ensure the chosen puppet (Bugles or Mertle) learns or reveals something
+3. Ensure the chosen puppet (Bugles or Mertle) learns or reveals something
    **not** present in the last 4 stories.
-5. Check Mamma Karen's dialog: **"my son"** not "my boy"; **"the pantry"**
+4. Check Mamma Karen's dialog: **"my son"** not "my boy"; **"the pantry"**
    not "her pantry" / "my pantry".
-6. Check who is doing the cooking in the current household: **Dad** rolls
+5. Check who is doing the cooking in the current household: **Dad** rolls
    pasta, grills, makes dumplings, makes pizza.
-7. Do not claim the current home is where Daddio grew up. That was a
+6. Do not claim the current home is where Daddio grew up. That was a
    different house in a different yard.
+7. Run a grep-style self-check: for each Mr. Bugles/Mertle line in your
+   draft, search the last 4 JSON files for a near match. If one exists,
+   rewrite.
 
 ## Output Contract
 
