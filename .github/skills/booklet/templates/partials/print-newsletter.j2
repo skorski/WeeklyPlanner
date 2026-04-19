@@ -7,13 +7,52 @@
   <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
 </div>
 
-{# --- NEWSLETTER PAGES: one page per cluster --- #}
+{# --- NEWSLETTER PAGES: paginated per cluster --- #}
+{% set NL_PAGE_BUDGET = 600 %}
+{% set NL_LINE_H = 16 %}
+{% set NL_CHARS_PER_LINE = 72 %}
+{% set NL_THEME_COST = 40 %}
+{% set NL_ARTICLE_COST = 60 %}
 {% for cluster in newsletter_data.clusters %}
+{% set syn_paragraphs = (cluster.synthesis or "").split('\n\n') if cluster.synthesis else [] %}
+{% set ns_nl = namespace(pages=[], current=[], current_h=NL_THEME_COST) %}
+{% for para in syn_paragraphs %}
+{% set p = para.strip() %}
+{% if p %}
+{% set lines = ((p | length) // NL_CHARS_PER_LINE) + 1 %}
+{% set para_h = lines * NL_LINE_H + 8 %}
+{% if ns_nl.current_h + para_h > NL_PAGE_BUDGET and ns_nl.current | length > 0 %}
+{% set ns_nl.pages = ns_nl.pages + [ns_nl.current] %}
+{% set ns_nl.current = [p] %}
+{% set ns_nl.current_h = para_h %}
+{% else %}
+{% set ns_nl.current = ns_nl.current + [p] %}
+{% set ns_nl.current_h = ns_nl.current_h + para_h %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% set articles_h = (cluster.articles | length) * NL_ARTICLE_COST + 20 %}
+{% if ns_nl.current_h + articles_h > NL_PAGE_BUDGET and ns_nl.current | length > 0 %}
+{% set ns_nl.pages = ns_nl.pages + [ns_nl.current] %}
+{% set ns_nl.current = [] %}
+{% endif %}
+{% set ns_nl.pages = ns_nl.pages + [ns_nl.current] %}
+
+{% for page_paras in ns_nl.pages %}
 <div class="page page-newsletter">
   <div class="page-header">The Weekly Read</div>
 
+  {% if loop.first %}
   <h3 class="cluster-theme">{{ cluster.theme }}</h3>
-  <div class="cluster-synthesis">{{ cluster.synthesis }}</div>
+  {% else %}
+  <h3 class="cluster-theme cluster-theme-cont">{{ cluster.theme }} <span class="cluster-cont">(continued)</span></h3>
+  {% endif %}
+  {% if page_paras %}
+  <div class="cluster-synthesis">
+    {% for p in page_paras %}<p>{{ p }}</p>{% endfor %}
+  </div>
+  {% endif %}
+  {% if loop.last %}
   <ul class="article-list">
   {% for article in cluster.articles %}
     <li>
@@ -23,9 +62,11 @@
     </li>
   {% endfor %}
   </ul>
+  {% endif %}
 
   <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
 </div>
+{% endfor %}
 {% endfor %}
 
 {# --- NEWSLETTER CLOSING PAGE: reflections + fun --- #}

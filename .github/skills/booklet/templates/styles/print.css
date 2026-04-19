@@ -917,6 +917,21 @@
     margin-bottom: 6pt;
     text-align: justify;
   }
+  .page-newsletter .cluster-synthesis p {
+    margin: 0 0 5pt 0;
+    text-indent: 0;
+  }
+  .page-newsletter .cluster-synthesis p + p {
+    text-indent: 10pt;
+  }
+  .page-newsletter .cluster-theme-cont {
+    color: var(--muted);
+  }
+  .page-newsletter .cluster-cont {
+    font-style: italic;
+    font-size: 8pt;
+    color: var(--muted);
+  }
   .page-newsletter .article-list {
     margin: 0 0 6pt 0;
     padding: 0;
@@ -1316,6 +1331,7 @@
     color: var(--ink);
     text-align: justify;
     hyphens: auto;
+    display: flow-root;
   }
   .page-story .story-text p {
     margin-bottom: 5pt;
@@ -1326,11 +1342,8 @@
   }
   .page-story-first .story-text p:first-child::first-letter {
     font-family: var(--hero);
-    font-size: 22pt;
-    float: left;
-    line-height: 0.8;
-    padding-right: 3pt;
-    padding-top: 2pt;
+    font-size: 14pt;
+    font-weight: 500;
     color: var(--oxblood);
   }
   .page-story .story-prompt {

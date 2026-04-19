@@ -1,0 +1,860 @@
+# Weekly Family Planner — April 19 – 25, 2026
+
+*Generated: 2026-04-18 21:26*
+
+---
+
+## Week at a Glance
+
+| Day | | Weather | Events | Dinner | Album |
+|-----|---|---------|--------|--------|-------|
+| **Sun 04/19** | 🌧️ | Dense drizzle, 63F/44F | On-call active (through Tue midday) | Homemade Extruded Pasta with Sunday Gravy | Michael Kiwanuka – KIWANUKA |
+| **Mon 04/20** | 🌤️ | Mostly Sunny, 52F/41F | On-call ends midday; 1:1s & meetings 11 AM–3 PM | Steak & Romaine Salad with Cucumbers, Red Onions, and Avocados | Black Pumas – Black Pumas |
+| **Tue 04/21** | 🌤️ | Sunny, 61F/34F | NO SCHOOL (Election Day) — Elsie home all day; On-call handoff 1:35 PM; 1:1s 2:30-5:00 PM; Swim Lessons 6:00-6:30 PM (Level 4, Colts Neck Rd) | Babo Pasta | Leon Bridges – Gold-Diggers Sound |
+| **Wed 04/22** | 🌧️ | Moderate drizzle, 66F/50F | Heavy meeting day 9:20 AM-3:30 PM; Talks & Taps 3-5 PM (in-person, optional) | Pan-Fried Pork Dumplings + Garlic Sesame Noodles with Bok Choy | Ibibio Sound Machine – Electricity |
+| **Thu 04/23** | 🌤️ | Sunny, 73F/51F | Bring Your Family to Work Day 10 AM-12 PM (Elsie + Dan @ Reston MS office); Promo Submissions 9:30 AM-12 PM; 1:1s 12:35-4:00 PM | Homemade Pizza Night | Arctic Monkeys – AM |
+| **Fri 04/24** | 🌧️ | Light drizzle, 79F/57F | Connect Refinement 9:30 AM-12 PM; USNat Buildout 12:05 PM; Friday AI Cafe 1:00-2:00 PM | Whole Roasted Branzino with Sautéed Kale and Creamy Polenta | Nubya Garcia – SOURCE |
+| **Sat 04/25** | 🌤️ | Sunny, 70F/51F | Laura departs for Grand Rapids (morning) | Build-Your-Own Taco Night | Bomba Estéreo – Elegancia Tropical |
+
+
+
+
+---
+
+## Daily Breakdown
+
+### Sunday, April 19
+
+**Weather:** Dense drizzle, 63F/44F
+*Cloudy — 37% sunshine, 75% precip, 22 mph wind (gusts to 43 mph)*
+
+**Calendar:**
+- On-call active (through Tue midday)
+
+#### Dinner: Homemade Extruded Pasta with Sunday Gravy
+
+| | |
+|---|---|
+| **Cuisine** | Italian-American |
+| **Key Ingredients** | pork spare ribs, Italian sausage, ground beef + pork meatballs, San Marzano tomatoes, tomato paste, garlic, basil, semolina + 00 flour, spinach, eggs |
+| **Source** | [Serious Eats](https://www.seriouseats.com/sunday-sauce-gravy-recipe) |
+All-day tomato gravy with pork ribs, sausage, and meatballs simmered into fresh spinach pasta extruded on the pasta machine. The slowest possible answer to a drizzly on-call Sunday.
+
+*Start the gravy by 11 AM. Extrude pasta around 4:30.*
+
+
+
+
+
+##### Chef's Tips
+- **PREPARATION UPGRADE:**  — Build the gravy in three waves, not one pot-dump. First, brown the pork neck bones or country ribs hard in a dry Dutch oven until mahogany, then remove. Sear the meatballs in the rendered fat until a crust forms, remove. Only then do you soften onions and garlic, toast a heaping tablespoon of tomato paste in the fat until it smells like pizza and turns brick-red (2-3 minutes), deglaze with a splash of dry red wine, and add two 28-oz cans of San Marzanos crushed by hand. Return all the meat, partial lid, and simmer on the lowest possible flame for 3-4 hours. Skim the fat that pools on top twice during cooking.
+- **PREPARATION UPGRADE:**  — Finish the extruded spinach pasta IN the gravy, not under it. Cook the pasta 60 seconds shy of al dente, reserve a full cup of the starchy cooking water, then transfer the pasta directly into a wide sauté pan with two ladles of gravy (not the meat) and a splash of pasta water. Toss vigorously over medium heat for 90 seconds until the sauce goes from watery to glossy and clingy. Plate the pasta first, then crown with the meats and a final spoon of gravy on top.
+- **TEXTURE PLAY:**  — Serve with a bowl of garlicky toasted breadcrumbs (pangrattato) on the table. Tear a few slices of day-old country bread into coarse crumbs, toast in a skillet with 3 tablespoons olive oil, 2 smashed garlic cloves, and a pinch of red pepper flake until deep golden and fragrant, then toss with lemon zest and torn parsley. Pass at the table for everyone to shower on top.
+
+#### Album: Michael Kiwanuka – KIWANUKA
+
+| | |
+|---|---|
+| **Year** | 2019 |
+| **Genre** | Psychedelic Soul |
+| **Mood** | Warm, grounded, quietly triumphant |
+
+Michael Kiwanuka's self-titled third album, produced by Danger Mouse and Inflo, is a widescreen soul record about owning your name and your history. A British son of Ugandan refugees answers a critic who told him his name was unmarketable by putting it on the cover in all caps.
+
+
+
+**Sound:** Lush strings, fuzzy guitars, and gospel backing vocals layered over Danger Mouse's cinematic production — mid-tempo soul with a slow, steady heartbeat.
+
+**Why this pairing:** *A slow Sunday gravy simmering for hours needs a record with the same patient warmth, and the album's theme of grounding yourself in who and where you come from maps perfectly onto a cold, drizzly house-hunting week about valuing home.*
+
+---
+
+### Monday, April 20
+
+**Weather:** Mostly Sunny, 52F/41F
+*Mostly Sunny — 85% sunshine, 7% precip, 16 mph wind (gusts to 30 mph)*
+
+**Calendar:**
+- On-call ends midday
+- 1:1s & meetings 11 AM–3 PM
+
+#### Dinner: Steak & Romaine Salad with Cucumbers, Red Onions, and Avocados
+
+| | |
+|---|---|
+| **Cuisine** | American |
+| **Key Ingredients** | ribeye or NY strip, romaine hearts, English cucumber, red onion, avocado, lemon, olive oil, Dijon, blue cheese (optional) |
+| **Source** | [Serious Eats](https://www.seriouseats.com/perfect-grilled-steak-food-lab-recipe) |
+Reverse-seared ribeye or NY strip sliced over crunchy hearts of romaine, cool cucumber, sharp red onion, and creamy avocado. A fast, protein-heavy plate to kick off the work week.
+
+*Pull steak from fridge 45 minutes before cooking to temper. Regular dinner time — plate around 6:30.*
+
+
+
+
+
+##### Chef's Tips
+- **MARINADES & BRINES:**  — Dry-brine the steak the moment you take it out of the package that morning: pat it dry, season aggressively with kosher salt and cracked black pepper on every surface, and set it uncovered on a rack in the fridge all day. When you are ready to cook, pull it out, let it rest on the counter while a cast-iron screams over high heat, then sear 2-3 minutes per side for medium-rare, rest 8 minutes, slice against the grain.
+- **ACID & BRIGHTNESS:**  — Quick-pickle the red onions while the pan heats up. Thinly slice half a red onion, toss with 3 tablespoons red wine vinegar, a teaspoon of sugar, a pinch of salt, and let them sit for 10 minutes. The onions turn hot pink, lose their harshness, and the leftover brine becomes half of your salad dressing. Whisk that vinegar brine with 5 tablespoons olive oil, a teaspoon of Dijon, and cracked pepper.
+- **TEMPERATURE CONTRAST:**  — Keep the romaine ice-cold and the steak hot when they meet. Tear (do not chop) the romaine into big rustic pieces, hold in a bowl over ice or in the fridge until the last second. Slice the steak while still hot and fan it directly over the cold greens, cucumbers, and avocado so the warm juices and beef fat start to wilt and dress the bottom layer of lettuce.
+
+#### Album: Black Pumas – Black Pumas
+
+| | |
+|---|---|
+| **Year** | 2019 |
+| **Genre** | Psychedelic Soul |
+| **Mood** | Smoky, triumphant, head-nodding |
+
+Austin duo Eric Burton and producer Adrian Quesada fuse 60s psychedelic soul with modern grit. Burton was busking on the Santa Monica pier when Quesada found him, and the debut is the sound of a singer finally getting the room he deserves.
+
+
+
+**Sound:** Gritty fuzz guitar, tight horn stabs, tambourine grooves, and a voice that sits between Marvin Gaye and Leon Bridges.
+
+**Why this pairing:** *Monday's clean, protein-forward plate wants something smoky and soulful but not demanding — the Pumas' warm, mid-tempo grooves sit just right beside a seared steak and crisp romaine.*
+
+---
+
+### Tuesday, April 21
+
+**Weather:** Sunny, 61F/34F
+*Sunny — 98% sunshine, 2% precip, 11 mph wind (gusts to 32 mph)*
+
+**Calendar:**
+- NO SCHOOL (Election Day) — Elsie home all day
+- On-call handoff 1:35 PM
+- 1:1s 2:30-5:00 PM
+- Swim Lessons 6:00-6:30 PM (Level 4, Colts Neck Rd)
+
+#### Dinner: Babo Pasta
+
+| | |
+|---|---|
+| **Cuisine** | Italian |
+| **Key Ingredients** | baby spinach, 00 flour, egg yolks (12-16), kosher salt, unsalted butter, Parmigiano-Reggiano, black pepper |
+| **Source** | [Saveur](https://www.saveur.com/homemade-spinach-pasta-recipe) |
+The family-favorite silky spinach pasta made with egg yolks only — no whites. Rich, tender, and the dish Elsie requests by name. Toss with a quick brown butter and Parmigiano.
+
+*Elsie is home (no school) — great day to pull her into kneading and cranking the pasta machine.*
+
+
+
+
+
+##### Chef's Tips
+- **PREPARATION UPGRADE:**  — Finish the pasta in the sauce. Pull the babo from the boiling water 60 seconds early, while the center is still ever-so-slightly chalky, and transfer it directly into the sauté pan with the brown butter and ½ cup of the starchy cooking water. Toss vigorously over medium heat for 60-90 seconds until the sauce turns from broken and greasy-looking to glossy and cream-like as it clings to every strand.
+- **SAUCES & FINISHING:**  — Brown 5 tablespoons of unsalted butter in a light-colored pan over medium heat until the milk solids turn deep amber and the butter smells like toasted hazelnuts, about 4 minutes. The instant it's done, toss in 12-15 fresh sage leaves. They will crackle and crisp in 10 seconds. Pour the whole thing over the finished pasta with a small squeeze of lemon and a heavy shower of Parmigiano-Reggiano grated on a Microplane.
+- **TEXTURE PLAY:**  — Finish with a tablespoon of toasted pine nuts or coarsely chopped walnuts, dry-toasted in a small pan until fragrant, then tossed with flaky salt. Scatter over the plated pasta along with a few crispy sage leaves you set aside from the brown butter.
+
+#### Album: Leon Bridges – Gold-Diggers Sound
+
+| | |
+|---|---|
+| **Year** | 2021 |
+| **Genre** | Contemporary R&B / Neo Soul |
+| **Mood** | Warm, late-afternoon, unhurried but alive |
+
+Recorded live at the Gold-Diggers hotel/bar/studio in Los Angeles, Bridges leaves his retro-gospel lane to write about who he is now — a Texan in his thirties reckoning with love, faith, and the pull between home and away.
+
+
+
+**Sound:** Plucked bass, brushed drums, plush strings, and Bridges' honey tenor floating over chord changes that owe equal debts to Sam Cooke and D'Angelo.
+
+**Why this pairing:** *A sunny 61°F no-school day with a 6pm swim needs a gentle groove that keeps the kitchen moving while the silky, yolky Babo pasta cooks — Bridges' plush Texas R&B matches the creamy simplicity on the plate.*
+
+---
+
+### Wednesday, April 22
+
+**Weather:** Moderate drizzle, 66F/50F
+*Mostly Sunny — 62% sunshine, 23% precip, 11 mph wind (gusts to 34 mph)*
+
+**Calendar:**
+- Heavy meeting day 9:20 AM-3:30 PM
+- Talks & Taps 3-5 PM (in-person, optional)
+
+#### Dinner: Pan-Fried Pork Dumplings + Garlic Sesame Noodles with Bok Choy
+
+| | |
+|---|---|
+| **Cuisine** | Asian |
+| **Key Ingredients** | frozen pork dumplings (shop restock), thin wheat noodles or lo mein, baby bok choy, toasted sesame oil, soy sauce, black vinegar, garlic, ginger, chili crisp, green onions |
+| **Source** | [Serious Eats](https://www.seriouseats.com/takeout-style-sesame-noodles-recipe) |
+Crisp-bottomed frozen pork dumplings alongside a quick scratch-made garlic-sesame noodle bowl tossed with baby bok choy. Clears freezer, leans on pantry — ready in 25 minutes.
+
+*Restock freezer dumplings this week — we're running low.*
+
+
+
+
+
+##### Chef's Tips
+- **PREPARATION UPGRADE:**  — Use the proper pan-fry-steam-fry technique for the dumplings: heat 2 tablespoons neutral oil in a nonstick skillet over medium-high, arrange the frozen dumplings flat-side down in a tight circle, and let them sear undisturbed for 2 minutes until the bottoms are deep golden. Pour in ⅓ cup water plus a teaspoon of cornstarch slurry, immediately cover with a tight lid, and steam for 6-7 minutes. Uncover, let the remaining water evaporate, and listen for the sizzle to go silent before flipping out onto a plate, crust-side up.
+- **SAUCES & FINISHING:**  — Upgrade the garlic sesame noodle sauce by toasting aromatics in the oil first. In a small pot, heat ⅓ cup neutral oil with 3 thinly sliced garlic cloves and 1 tablespoon of grated fresh ginger over medium-low until the garlic is just pale gold. Pour the hot oil over 3 tablespoons toasted sesame paste (or tahini) whisked with 3 tablespoons soy sauce, 2 tablespoons Chinkiang black vinegar, 1 tablespoon sugar, and 1 teaspoon toasted sesame oil. The sizzle blooms the aromatics into the sauce.
+- **TEXTURE PLAY:**  — Keep the bok choy crunchy and separate the stems from the leaves. Halve baby bok choy lengthwise, blanch stems-down in salted boiling water for 60 seconds, then flip and submerge the leaves for 20 seconds more. Shock in ice water, pat bone dry. Toss into the warm noodles at the very end with a shower of sliced scallions, toasted sesame seeds, and torn cilantro.
+
+#### Album: Ibibio Sound Machine – Electricity
+
+| | |
+|---|---|
+| **Year** | 2022 |
+| **Genre** | Afro-Funk / Dance-Pop |
+| **Mood** | Electric, sweaty, joyful |
+
+London's Ibibio Sound Machine — led by British-Nigerian singer Eno Williams — teamed up with Hot Chip for a sweaty, high-voltage record. Williams sings in English and Ibibio, weaving her grandmother's folktales into modern dance music.
+
+
+
+**Sound:** Analog synths, Afrobeat guitar, call-and-response vocals, and a rhythm section that never lets up — 1970s Lagos filtered through a London warehouse party.
+
+**Why this pairing:** *A drizzly Wednesday with crispy dumplings and sesame-garlic noodles calls for percussive, bold music that matches the snap of the pan-fry — and the album's joy-as-resistance theme is exactly the lift a mid-week house-hunt stretch needs.*
+
+---
+
+### Thursday, April 23
+
+**Weather:** Sunny, 73F/51F
+*Sunny — 97% sunshine, 6% precip, 8 mph wind (gusts to 11 mph)*
+
+**Calendar:**
+- Bring Your Family to Work Day 10 AM-12 PM (Elsie + Dan @ Reston MS office)
+- Promo Submissions 9:30 AM-12 PM
+- 1:1s 12:35-4:00 PM
+
+#### Dinner: Homemade Pizza Night
+
+| | |
+|---|---|
+| **Cuisine** | Italian-American |
+| **Key Ingredients** | bread flour (or 00), instant yeast, olive oil, San Marzano tomatoes, fresh mozzarella, pepperoni, basil, parmesan |
+| **Source** | [King Arthur Baking](https://www.kingarthurbaking.com/recipes/new-york-style-pizza-recipe) |
+Family pizza night — overnight cold-fermented dough, San Marzano sauce, fresh mozzarella, whatever toppings everyone votes for. Pies go in a screaming-hot oven (or Ooni if dry).
+
+*Let Elsie shape her own pie after Bring-Your-Family-to-Work Day.*
+
+
+
+
+
+##### Chef's Tips
+- **PREPARATION UPGRADE:**  — Preheat a baking steel or inverted heavy sheet pan on the lowest rack at 550°F (or your oven's max) for a full 45 minutes before the first pizza goes in. Cold-ferment the dough for 24-72 hours in the fridge after its initial rise — pull each dough ball out 90 minutes before stretching. Stretch by hand on a semolina-dusted peel, dress fast, and launch immediately. Each pie should bake in 5-7 minutes with leopard spots on the underside.
+- **SAUCES & FINISHING:**  — Make an uncooked pizza sauce: blitz one 28-oz can of whole San Marzanos with 2 tablespoons olive oil, 1 teaspoon kosher salt, a pinch of sugar, 1 grated garlic clove, and a torn basil stem in a food processor for 5 seconds — you want it chunky, not smooth. Do NOT cook it before topping the pizza. Keep mozzarella fresh, torn into chunks (not shredded bagged), patted bone dry on paper towels for 15 minutes before topping.
+- **ACID & BRIGHTNESS:**  — Finish each pie after it leaves the oven, not before. Pizza Margherita gets a thread of good extra-virgin olive oil and torn fresh basil the moment it lands. A white pizza gets a squeeze of lemon and cracked black pepper. A hot honey pizza gets its honey drizzle at the table, not on the dough. Always serve with a bowl of lemony arugula on the side, dressed with olive oil and shaved Parmigiano.
+
+#### Album: Arctic Monkeys – AM
+
+| | |
+|---|---|
+| **Year** | 2013 |
+| **Genre** | Alternative Rock / Garage Rock |
+| **Mood** | Cool, prowling, Friday-night energy |
+
+The Sheffield band's sleek, hip-hop-informed breakthrough. Alex Turner moved to LA and wrote a whole album of 3am voicemails he never sent — every song a phone call you shouldn't make, funny, sad, and desperately hummable.
+
+
+
+**Sound:** Fuzz-bass riffs, handclaps, Josh Homme falsetto backing vocals, and drums that swing harder than rock drums usually do.
+
+**Why this pairing:** *Pizza night after a Bring-Family-to-Work day wants a rock record the whole family can loudly sing along to, and the Pixies-adjacent swagger of AM — nostalgic for the liked-band list without repeating it — delivers dough-flinging energy on a sunny 73°F evening.*
+
+---
+
+### Friday, April 24
+
+**Weather:** Light drizzle, 79F/57F
+*Sunny — 90% sunshine, 10% precip, 9 mph wind*
+
+**Calendar:**
+- Connect Refinement 9:30 AM-12 PM
+- USNat Buildout 12:05 PM
+- Friday AI Cafe 1:00-2:00 PM
+
+#### Dinner: Whole Roasted Branzino with Sautéed Kale and Creamy Polenta
+
+| | |
+|---|---|
+| **Cuisine** | Mediterranean |
+| **Key Ingredients** | 2 whole branzino, lemon, fresh thyme + parsley, lacinato kale, garlic, coarse polenta, Parmigiano-Reggiano, butter, olive oil |
+| **Source** | [Bon Appétit](https://www.bonappetit.com/recipe/whole-branzino-with-lemon-and-herbs) |
+Whole branzino stuffed with lemon and herbs, roasted on a sheet pan until the skin shatters. Served over soft Parmesan polenta with garlicky lacinato kale — a small-splurge Mediterranean plate for the warmest night of the week.
+
+*Ask the fishmonger to scale and gut the fish. Start polenta 30 min before fish goes in.*
+
+
+
+
+
+##### Chef's Tips
+- **PREPARATION UPGRADE:**  — Score the branzino three times on each side, cutting through the skin and just into the flesh at a 45-degree angle. Stuff the belly cavity with lemon slices, fresh thyme, a crushed garlic clove, and a pinch of fennel seed. Pat the skin completely dry, brush generously with olive oil, and season heavily with kosher salt inside and out. Roast on a preheated sheet pan at 450°F for 18-22 minutes until the skin is blistered and the flesh at the backbone flakes easily with a fork.
+- **SAUCES & FINISHING:**  — Make a 5-minute salsa verde while the fish roasts: finely chop 1 cup packed flat-leaf parsley, 2 tablespoons capers, 2 anchovy fillets, 1 small garlic clove, and the zest of 1 lemon. Stir together with ½ cup good olive oil, the juice of half a lemon, and a pinch of red pepper flake. Spoon generously over the carved fish at the table.
+- **TEXTURE PLAY:**  — Treat the polenta and the kale as deliberate opposites. Make the polenta extra-creamy: stone-ground cornmeal cooked low and slow in a 5:1 liquid-to-meal ratio (half milk, half water or stock) for 35-40 minutes, finished with 3 tablespoons butter and ½ cup grated Parmigiano off the heat. The kale should be aggressive: hot pan, olive oil, 2 smashed garlic cloves, red pepper flake, and the kale tossed in for 3 minutes so the edges crisp and char while the centers stay toothsome. Squeeze lemon on before plating.
+
+#### Album: Nubya Garcia – SOURCE
+
+| | |
+|---|---|
+| **Year** | 2020 |
+| **Genre** | Contemporary Jazz / Afro-Caribbean Jazz |
+| **Mood** | Sunlit, searching, propulsive |
+
+London saxophonist Nubya Garcia's debut traces her Guyanese-Trinidadian roots through dub, cumbia, and jazz. She grew up in London but kept reaching back to understand where her sound came from — the record is that reaching made audible.
+
+
+
+**Sound:** Breathy tenor saxophone, dub basslines, cumbia shakers, and patient grooves that build without ever rushing.
+
+**Why this pairing:** *A Mediterranean branzino dinner on a 79°F Friday calls for breezy but rhythmic music with movement — Garcia's sun-soaked, Caribbean-inflected jazz has the oceanic feel of a whole fish on the plate and the propulsion to keep the evening alive.*
+
+---
+
+### Saturday, April 25
+
+**Weather:** Sunny, 70F/51F
+*Sunny — 94% sunshine, 40% precip, 11 mph wind*
+
+**Calendar:**
+- Laura departs for Grand Rapids (morning)
+
+#### Dinner: Build-Your-Own Taco Night
+
+| | |
+|---|---|
+| **Cuisine** | Mexican |
+| **Key Ingredients** | ground beef, chicken thighs, corn + flour tortillas, cheddar + cotija, shredded lettuce, tomato, avocado, sour cream, cilantro, lime, black beans |
+| **Source** | [Serious Eats](https://www.seriouseats.com/the-best-ground-beef-tacos-recipe) |
+A dad-and-daughter taco bar — seasoned ground beef and grilled chicken, warm corn and flour tortillas, and a spread of fixings Elsie gets to arrange herself. Her night to build the plate.
+
+*Laura left this morning for Grand Rapids. Make it fun — let Elsie set up the taco bar on the counter.*
+
+
+
+
+
+##### Chef's Tips
+- **PREPARATION UPGRADE:**  — Toast the tortillas one at a time directly over a gas flame (or in a dry cast-iron skillet over high heat) for 15-20 seconds per side, just until they puff slightly and pick up a few charred spots. Wrap the warm tortillas in a clean kitchen towel inside a tortilla warmer or zip-top bag so they stay pliable and steam gently while you set the rest of the table.
+- **SAUCES & FINISHING:**  — Build a proper taco bar with three finishing sauces, each in its own small bowl: (1) a creamy avocado-cilantro crema (1 avocado, ¼ cup sour cream, handful of cilantro, juice of 1 lime, pinch of salt, blitzed smooth), (2) a quick charred salsa roja (char 4 Roma tomatoes, half an onion, and 2 garlic cloves under the broiler for 8 minutes, blend with a chipotle in adobo and salt), and (3) a 10-minute pickled red onion with lime juice instead of vinegar for a softer acidity Elsie will actually eat.
+- **TEXTURE PLAY:**  — Set up a crunch bar alongside the proteins: a bowl of quick-pickled onions, a bowl of crumbled queso fresco or cotija, a bowl of shredded romaine or cabbage dressed with lime, a bowl of diced cucumber and radish tossed with salt, a bowl of toasted pepitas or crushed plain tortilla chips for scattering on top, and quartered limes for squeezing. Keep proteins simple — a skillet of seasoned ground beef or turkey and a skillet of crisped seasoned black beans — so the toppings are the star.
+
+#### Album: Bomba Estéreo – Elegancia Tropical
+
+| | |
+|---|---|
+| **Year** | 2012 |
+| **Genre** | Electro-Cumbia / Champeta |
+| **Mood** | Hot, playful, neon |
+
+Colombian electro-cumbia ringleaders Bomba Estéreo's third record. Singer Li Saumet grew up on Colombia's Caribbean coast where cumbia meets champeta meets soundsystem culture, and the album is her love letter to that world — sophisticated and sweaty at once.
+
+
+
+**Sound:** Accordion samples, 808 kicks, gaita flutes, and chanted hooks — cumbia DNA wired to a dance-music spine.
+
+**Why this pairing:** *A dad-and-8-year-old taco night with Laura on the road wants a full-on kitchen dance party, and Bomba Estéreo's rapid-fire Spanish hooks turn taco assembly into a two-person rave — the perfect high-energy send-off to the week.*
+
+---
+
+## Appetizers
+
+### Whipped Ricotta with Spring Peas & Mint on Crostini
+**Cuisine:** —
+Creamy whipped ricotta on grilled baguette topped with smashed spring peas, mint, lemon zest, and flaky salt.
+
+
+
+**Source:** [Recipe](https://www.bonappetit.com/recipe/pea-and-ricotta-crostini)
+
+### Charred Scallion & Soy Dipping Sauce with Crispy Wontons
+**Cuisine:** —
+Crisp-fried wonton wrappers with a smoky charred-scallion, soy, sesame, and chili-crisp dip — perfect Wednesday starter or pizza-night add-on.
+
+
+
+**Source:** [Recipe](https://www.bonappetit.com/recipe/crispy-wontons-scallion-dip)
+
+---
+
+## Salads
+
+### Shaved Fennel, Radish & Orange Composed Salad *(Composed Dinner)*
+
+Thinly shaved fennel and watermelon radish fanned around blood orange segments, toasted pistachios, and shaved ricotta salata on a bed of little gem.
+
+
+
+**Dressing:** Orange-Dijon vinaigrette: fresh orange juice, champagne vinegar, Dijon, shallot, extra-virgin olive oil, flaky salt
+
+
+
+
+
+### Charred Romaine Caesar with Anchovy Breadcrumbs *(Tossed Dinner)*
+
+Romaine hearts charred over the burner, tossed with a punchy caesar and topped with crispy anchovy-garlic breadcrumbs.
+
+
+
+**Dressing:** Classic caesar: egg yolk, anchovy, garlic, Dijon, lemon, Worcestershire, parmesan, black pepper, extra-virgin olive oil
+
+
+
+
+
+### Cucumber, Mint & Feta Side Salad *(Side)*
+
+Smashed Persian cucumbers with crumbled feta, red onion, mint, dill, and kalamata olives.
+
+
+
+**Dressing:** Lemon-oregano: fresh lemon juice, dried oregano, extra-virgin olive oil, black pepper
+
+
+
+
+
+### Asian Slaw with Toasted Sesame *(Side)*
+
+Shredded napa cabbage, carrots, scallions, and cilantro with toasted sesame seeds and crushed peanuts.
+
+
+
+**Dressing:** Ginger-soy-sesame: rice vinegar, soy sauce, toasted sesame oil, grated ginger, honey, lime
+
+
+
+
+
+---
+
+## Beverage Pairings
+
+### Lemon-Basil Sparkling Water
+Fresh lemon and torn basil muddled into sparkling water — crisp and family-friendly.
+
+
+
+### Ginger-Lime Kombucha Spritz
+Ginger-lime kombucha over ice with extra lime wedges — gut-friendly and gently sparkling.
+
+
+
+### Chianti Classico (Dan & Laura)
+A bright, cherry-forward Chianti Classico for the Italian dinners.
+
+
+
+---
+
+## Grocery & Prep Summary
+
+### Groceries Needed
+
+**Produce**
+- baby spinach (2 lbs — for Babo pasta + Sunday gravy wilted greens)
+- romaine hearts (3)
+- English cucumbers (3)
+- Persian cucumbers (6)
+- red onions (2)
+- avocados (6)
+- lemons (8)
+- limes (4)
+- oranges (2 blood)
+- fennel bulb (1)
+- watermelon radish (1)
+- lacinato kale (2 bunches)
+- baby bok choy (4 heads)
+- scallions (2 bunches)
+- cilantro (2 bunches)
+- basil (1 bunch)
+- mint (1 bunch)
+- fresh thyme
+- parsley
+- napa cabbage (1/2 head)
+- carrots (1 lb)
+- garlic (2 heads)
+- ginger (thumb)
+- tomatoes (2 large)
+
+**Protein**
+- pork spare ribs (2-3 lbs) — Sun gravy
+- Italian sausage, sweet (1 lb) — Sun gravy
+- ground beef 80/20 (2 lbs) — Sun meatballs + Sat tacos
+- ground pork (1/2 lb) — Sun meatballs
+- ribeye or NY strip (2, ~12 oz each) — Mon
+- 2 whole branzino, scaled & gutted — Fri
+- chicken thighs (1.5 lbs) — Sat tacos
+- frozen pork dumplings (2 bags) — Wed
+- pepperoni (1 package) — Thu
+
+**Dairy & Eggs**
+- eggs (18 — Babo pasta needs 12-16 yolks)
+- fresh mozzarella (2 balls)
+- Parmigiano-Reggiano (wedge)
+- ricotta (1 container)
+- ricotta salata (small piece)
+- feta (1 block)
+- cotija
+- sharp cheddar (8 oz)
+- sour cream (1 pint)
+- unsalted butter (2 sticks)
+
+**Pantry & Grains**
+- 00 flour (2 lbs)
+- semolina (1 lb)
+- bread flour (5 lbs for pizza)
+- instant yeast
+- coarse polenta (1 lb)
+- thin wheat noodles or lo mein (2 packs)
+- corn tortillas (1 pkg)
+- flour tortillas (1 pkg)
+- black beans (2 cans)
+- San Marzano tomatoes (4 × 28oz cans)
+- tomato paste (1 tube)
+- soy sauce, black vinegar, toasted sesame oil
+- chili crisp
+- kalamata olives
+- anchovy paste (small tube)
+- Dijon mustard
+- champagne vinegar
+- olive oil (restock if low)
+- toasted sesame seeds
+- crushed peanuts
+- pistachios (toasted)
+- dried oregano
+
+**Beverages**
+- sparkling water (6-pack)
+- ginger-lime kombucha (4-pack)
+- Chianti Classico (1 bottle)
+
+
+### Prep-Ahead Tasks
+
+- [ ] Saturday (today): pull pork ribs & sausage from freezer to thaw for Sunday gravy.
+- [ ] Saturday: make pizza dough for Thursday (cold ferment 72 hrs in fridge).
+- [ ] Sunday evening: make meatballs & portion extra gravy; freeze half for next month.
+- [ ] Monday morning: temper steak 2 hours before 8 PM dinner.
+- [ ] Tuesday morning: make Babo pasta dough with Elsie (she's home); rest in fridge until 5 PM.
+- [ ] Wednesday: grocery run for dumpling restock + fish order for Friday branzino.
+- [ ] Thursday morning: pull pizza dough from fridge 2 hours before dinner to come to room temp.
+- [ ] Friday: pick up branzino from fishmonger, ask them to scale + gut.
+- [ ] Saturday: set up taco bar on the kitchen counter with Elsie as head bartender.
+
+## Nutrition Summary
+
+A strong, protein-diverse week with one major nutritional highlight — Friday's whole branzino delivers a single-meal omega-3 megadose that rescues what would otherwise be a fish-light menu. Bok choy on Wednesday and kale on Friday make this the best dark-green-vegetable week in a month. The family's main weaknesses are familiar: too much refined grain (fix with lunch swaps to farro, quinoa, brown rice), only one seafood dinner (fix with tuna or salmon lunches Mon and Thu), and zero fruit at dinner (fix with berry or fruit-based snacks and treating fruit as the default dessert). Elsie's calcium and iron are well-supported by dinners plus daily snack yogurt/milk. Sodium is the one caution — Wednesday dumplings and Thursday pizza cluster together, so lean lighter on Mon/Fri/Sat. Hydration matters especially Tuesday (swim lessons) and Friday (79°F warm day).
+
+## Parenting Corner — What Makes a Place Feel Like Home
+
+House offers are a grown-up storm the family is weathering, and Elsie is picking up the pressure even when no one says anything. This week we use that tension as a gift: a chance to help her articulate what actually makes a place feel safe, loved, and hers. The answer — we suspect — will have very little to do with square footage, school rankings, or any of the grown-up variables. Children at eight have a stunningly clear instinct for what matters: the smell of a kitchen, the spot where Sharkie waits, the chair where Daddio always reads, the window where spring light lands. Naming those things aloud does two things: it calms Elsie (uncertainty is less scary when the non-negotiables are named) and it gently recalibrates the adults (it turns out a lot of the 'need' is really 'want').
+
+### Dinner Conversation Starters
+
+| Day | Dinner | Question |
+|-----|--------|----------|
+
+
+### 💭 Parent Reflection
+
+*Here is the honest center of this week: Elsie does not care about the house you might buy. She cares about whether, while you are buying it, you still see her. The danger of any big grown-up project — a house, a job change, a move — is not that children are excluded from the decision. Children expect to be excluded from grown-up decisions; that is developmentally appropriate, and actually a relief. The danger is that the decision absorbs so much adult attention that the child stops feeling central. She notices the phone checks at dinner. She notices the tense driveway conversations after showings. She notices the glazed look when she is mid-sentence about a swim drill and you are calculating a monthly payment in your head. You cannot eliminate the mental load. You can only protect specific, consistent pockets of full attention — dinner, bedtime reading, the drive to swim lessons — and make those pockets genuinely inviolable. The house will be decided in a week or a month. The pattern of whether your child feels she is the center of your actual life is decided every single evening between now and adulthood. Spring is on your side this week — a 79-degree Friday, sunny Saturday, budding trees, swim lessons restarting. The weather is doing you a favor. Say yes to the outside. Say yes to the tacos on Saturday. Say yes to letting her be the reporter on Thursday. And remember: she will not remember what your offer was or whether it was accepted. She will remember that the spring her parents were buying a house was also the spring her dad built a whole taco night with her, just the two of them, with Mama's favorite song playing in the kitchen.*
+---
+
+## Stoic Guide — The Measure of Enough
+
+*Category: Desire & Simplicity*
+
+> "It is not the man who has too little, but the man who craves more, that is poor."
+> — Seneca, *Letters to Lucilius* 2.6
+
+
+Every house for sale carries two numbers: the price on the listing, and the quieter figure written on the inside of your ribs — the amount you believe you need to feel safe, proud, expansive, home. This week those two numbers are in conversation, and they do not always agree. You are weighing offers, square footage, neighborhoods, commutes, and each comparison pulls the inner number a little higher. That pull is old. The Stoics watched it for centuries, in Roman villas and soldiers' tents and philosophers' rented rooms, and they gave it a clear name: craving. Not need — craving. And they argued, gently but insistently, that the distance between need and craving is exactly the distance between a free life and a restless one.
+
+Seneca wrote a short, famous line that could be stitched into the lintel of any home: it is not the man who has too little, but the man who craves more, that is poor. Epicurus, whom Seneca quoted constantly, sorted desires into three buckets — natural and necessary (food, shelter, warmth), natural but unnecessary (richer food, a larger house), and neither natural nor necessary (status, comparison, the next rung). House-hunting runs headlong through all three, and the market does not help us tell them apart. So this week, each day will hand you a small knife to do the sorting yourself. Sunday names the craving. Monday asks what a roof is for. Tuesday listens to a child's definition of home. Wednesday watches a dumpling and a rain-slick window. Thursday walks into a skyscraper and asks what work is worth. Friday turns the heat up and asks what we would keep if the house were smaller. Saturday, with one parent gone and one daughter across the table, asks the quietest question of all: is this, right now, already enough?
+
+### Sunday — The Pager and the Price Tag
+
+On-call is still active, drizzle on the windows, Sunday Gravy simmering into its fourth hour. This is a day where the house you actually live in is doing its real job: shelter, warmth, a pot that holds a family's afternoon. And yet somewhere on a real estate site, another house is also doing a job — making you wonder if this one is enough. Notice the switch. Seneca would have you simply name it: I have a roof, food, people I love, and a phone that may or may not buzz. That is today. The craving for the other house is a weather front passing through — let it pass without redecorating the living room in your mind.
+
+**Journal prompt:** Before dinner, walk one slow loop of the house you currently live in. Touch three things you would genuinely miss if you moved tomorrow. Say what each one is out loud.
+
+> "He who needs riches least enjoys riches most."
+> — Seneca, Letters to Lucilius 14.17
+
+
+### Monday — What a Roof Is For
+
+A full Monday of meetings and a post-on-call decompression. Steak, a romaine salad with cucumber and avocado, a simple table. Tonight the house does one simple thing — it keeps the rain off people who are tired. Epicurus divided desires: natural and necessary (shelter from weather, food to fuel a learning brain, a place to rest), natural but not necessary (a dining room twice this size), and neither natural nor necessary (a house that impresses the neighbors you do not yet have). The busy workday is teaching you about a model; the evening is teaching you about a model too — of what a home is actually for. Protection, nourishment, recovery. The rest is decoration. Decoration is lovely. But you do not need more decoration to feel safe.
+
+**Journal prompt:** After dinner, write a three-line description of what your house has done for you today. Use only verbs. Notice how short the real list is.
+
+> "Nothing is enough for the man to whom enough is too little."
+> — Epicurus, quoted in Seneca, Letters 9.20
+
+
+### Tuesday — Elsie's Square Footage
+
+No school today — election day — and the kitchen is loud with eight-year-old energy and the smell of homemade spinach pasta rolling through the machine. Babo pasta is a family favorite not because the room is big but because the ritual is old. Watch Elsie. She does not know the listing price of any house in Reston. Her measure of enough is: the pasta is on the table, the people are here, and later there are swim lessons. Marcus Aurelius, governing the largest empire in the world, reminded himself constantly that the good life required almost nothing that could not be found in a soldier's tent. A child at a pasta-making counter is making the same argument, without knowing it. Let her teach you.
+
+**Journal prompt:** Ask Elsie, in passing: 'What makes a house feel like home to you?' Do not correct the answer. Just write it down before bed.
+
+> "Very little is needed to make a happy life; it is all within yourself, in your way of thinking."
+> — Marcus Aurelius, Meditations 7.67
+
+
+### Wednesday — The Dumpling and the Rain
+
+Drizzly, 66°F. Pan-fried dumplings from the freezer, garlic sesame noodles, bok choy. A meal assembled from what you already had — no grocery run, no production. Diogenes the Cynic, watching a child cup water in her hands, threw away his wooden drinking bowl and said the child had shown him a lesson in sufficiency. Your freezer did the same favor tonight. Every dumpling is evidence that you have already, at some earlier moment, provided for this one. The rain on the window is not a problem to solve — it is weather. The dinner is not a compromise — it is abundance pretending to be convenience. Notice how many of tonight's pleasures cost nothing extra. That noticing is the whole practice.
+
+**Journal prompt:** As you eat, count the ingredients on your plate that came from your own cupboard or freezer — the groceries you already owned. Treat the count as a small inventory of enoughness.
+
+> "To a wise man, nothing that can be given can be great."
+> — Seneca, On the Happy Life 21
+
+
+### Thursday — What Work Is Worth
+
+Bring Your Family to Work Day at Microsoft Reston, 10 AM to noon. Elsie walks into the building where you earn the money that pays for the house you might buy. The Stoics were unsentimental about work: it is the exchange of your finite hours for the materials of a life. Marcus Aurelius got up each morning and reminded himself that he was born to do the work of a human being — not to accumulate beyond measure, but to contribute. Today Elsie sees the cubicles, the coffee, the screens, the people. What you want her to carry away is not 'Daddy has a big job,' but 'work is where grown-ups make useful things and then come home.' That framing protects her from a lifetime of equating net worth with self-worth. It protects you, too. The offer you make on a house should be bounded by the work that feels meaningful, not the work that would exhaust you to sustain it.
+
+**Journal prompt:** At some point during the visit or the evening, ask Elsie what surprised her about where you work. Listen for what she did not expect — that is where her definition of 'grown-up job' is being rewritten in real time.
+
+> "At dawn, when you have trouble getting out of bed, tell yourself: I have to go to work — as a human being."
+> — Marcus Aurelius, Meditations 5.1
+
+
+### Friday — The Branzino Test
+
+79°F, the first truly warm evening of the week. A whole fish on the table — branzino — roasted with kale and creamy polenta. A meal like this does not require more house. It requires a functioning oven, a table that seats three, and the willingness to eat with your hands a little. Epicurus kept a famously simple kitchen and argued that the pleasures available to a person of modest means already contained every pleasure available to the wealthy — because hunger is the only seasoning that matters. Tonight, before you let yourself want a bigger dining room for the hypothetical future, ask whether tonight's room is serving tonight's meal. If it is, the craving is not information. It is noise. Turn the music up, carve the fish, and remember that the warm air coming through the window costs nothing and everything at once.
+
+**Journal prompt:** Imagine, concretely, preparing tonight's dinner in a house half this size. What would actually change? What would not? Let the answer calibrate the next offer you make.
+
+> "If you wish to make Pythocles rich, do not give him more money, but diminish his desires."
+> — Epicurus, Fragment, quoted in Seneca, Letters 21.7
+
+
+### Saturday — Two at the Table
+
+Laura is on a plane to Grand Rapids. The house is quieter by one. Dad and Elsie are assembling tacos side by side, picking toppings, laughing at how much cheese is too much cheese. This is the measure, stripped to its elements: one parent, one child, food they built together, sunlight at 70°F. A smaller table than usual. A smaller evening. And yet — if you are paying attention — nothing is missing that matters. Epictetus used to ask his students, after any apparent loss: what in your actual happiness has now been taken? Usually the honest answer was nothing. Laura will return. The house decision will resolve itself. Tonight is its own small, complete thing. The craving for more house, more space, more certainty is quiet tonight because attention is where it belongs — across the table, on a kid assembling a taco that will almost certainly fall apart.
+
+**Journal prompt:** After Elsie is asleep, sit for two minutes in the quiet house and list what is actually present tonight. Not what is missing. Not what is coming. What is here. Read the list and decide whether it is already enough.
+
+> "Wealth consists not in having great possessions, but in having few wants."
+> — Epictetus, Discourses (attributed)
+
+
+### 👨‍👩‍👧 Family Exercise: The Enough Jar
+
+On Sunday, put an empty jar on the kitchen counter and a small stack of paper slips next to it. All week, anyone in the family can write a one-line 'enough moment' — a moment where what was happening was plainly, quietly sufficient — and drop it in the jar. Examples: 'The gravy smelled right.' 'Elsie laughed at the dumpling.' 'The branzino was done on time.' 'Dad and I built a taco together.' On Saturday evening, pour the jar out on the table and read the slips aloud together. Notice how many 'enough moments' happened without the family needing a single thing they did not already have.
+
+*This exercise makes Seneca's yardstick physical. Craving tells a story about the future; enough-moments record the evidence of the present. The jar is a tangible counterweight to the house-hunt's constant forward-leaning — a reminder that the life you would move into is being lived, right now, in the life you already have.*
+
+
+### 🧒 For the Young Stoic: Elsie's Treasure Map
+
+Pretend you're a treasure hunter and the treasure is hidden somewhere in your house. But here's the twist — the treasure isn't a thing. It's a feeling. It's the spot in your house where you feel the most YOU. Maybe it's a reading corner. Maybe it's under the kitchen table. Maybe it's the spot where Sharkie lives. Draw a map with a big X marking the treasure. Then show someone in your family why you picked that X.
+
+*The best part of a house isn't the biggest room — it's the spot that feels like you. You can find that spot in any house, any size, anywhere. Home is something you make, not something you buy.*
+
+
+**Closing thought:** *The house you might buy will have a number on it. The house you live in — the real one, built out of pasta nights and rainy dumplings and tacos with dad — has no price at all. Stay close to that one. Whatever the market decides, the measure of enough has already been taken.*
+
+
+---
+
+## Principles for Living — Know What You Are Optimizing For
+
+> "Tell me where I'm going to die, so I'll never go there."
+> — Charlie Munger (quoting Jacobi), *Poor Charlie's Almanack* Ch. 2, 'The Psychology of Human Misjudgment'
+
+
+Every serious decision you make is really two decisions stacked on top of each other. The first is the visible one — which house, which offer, which job, which school. The second, underneath, is the one almost nobody articulates out loud: what am I actually optimizing for? Price? Square footage? Commute? Prestige? Peace? The approval of a specific family member who will never walk through the front door? The visible decision looks rational because we dress it in spreadsheets and comparable sales. The invisible decision drives it anyway. And when the two quietly disagree — when you are telling yourself you are optimizing for 'the best deal' while actually optimizing for 'not feeling like we settled' — you end up with a choice that looks defensible on paper and feels wrong on the drive home.
+
+This week is a rare diagnostic window. A house offer is alive in the background, which means the invisible variable is under unusual pressure. Monday brings an work day — the language of models, which are just formalized ways of asking 'given my goals, what should I pick?' Thursday brings Bring Your Family to Work Day, where Elsie will see the place that funds all of this and, without meaning to, ask the only question that matters: is this worth what it costs you? Saturday brings a rare dad-and-daughter taco night with Laura away — a small, unambiguous data point about what 'a good week' actually requires.
+
+Seven thinkers join us this week to help sort signal from noise. Charlie Munger teaches inversion — the discipline of asking what would guarantee failure and then systematically not doing those things. Naval Ravikant on values and the long game. Ray Dalio on writing down your principles before the pressure arrives, so the decision under stress is a memory, not a scramble. Shane Parrish on thinking from first principles rather than by analogy. Morgan Housel on 'enough' as a number you define before the market does. Peter Drucker on the old line that what gets measured gets managed — and its dark twin, that what gets measured by the wrong ruler gets optimized into the wrong life. The week's practical question is narrow: given this week's offers, busy workday, work visit, and small Saturday table, what are you actually optimizing for? The essays will not answer that. They will, honestly, sharpen the question until the answer cannot hide.
+
+### Sunday — The Question Behind Every Decision
+
+Charlie Munger, for fifty years the sharpest voice at the Berkshire Hathaway annual meeting, had a habit of reducing complex decisions to a single uncomfortable question: what are we really trying to accomplish here? He claimed the question sounded simple only because most people refuse to answer it honestly. A board says it is maximizing shareholder value while quietly optimizing for executive comfort. A buyer says he is optimizing for price while actually optimizing for the story he will tell his brother-in-law. A couple says they are buying a house while optimizing, separately and without coordination, for two different things — one for resale value, one for the feeling of having finally arrived. Munger's point was not cynical. It was surgical. He believed that until you name the objective function you are actually using, every step of your reasoning is contaminated.
+
+Today is Sunday, a drizzly day in Reston, on-call still humming in the background, Sunday Gravy slowly pulling together in the kitchen. A house offer is somewhere in the air. Before this week's news lands, sit with Munger's question. Not 'what house do we want' — that is a conclusion. The question is: what are we optimizing for? Is it a specific school district? A commute under twenty minutes? A mortgage payment that lets you quit a job in three years if the meaning runs out? A guest room for visiting family? A yard Elsie can disappear into? Each of these is a legitimate answer, but they lead to different houses, different offers, and different five-year stories. The most expensive mistake in a decision this large is not overpaying by five percent. It is optimizing for the wrong variable by one hundred percent, and only noticing it after you have moved in. Take the Sunday afternoon, before the week accelerates, and write down the objective function in one sentence. If you cannot fit it on one line, you do not know it yet.
+
+**Reflect:** *Write the single sentence that completes this: 'We are buying a house primarily to ____.' Does the sentence survive reading it aloud to your partner without flinching?*
+
+### Monday — Invert, Always Invert
+
+Munger borrowed a single word from the nineteenth-century mathematician Carl Jacobi and built a career around it: invert. Instead of asking how do I succeed, ask how do I guarantee failure — and then do not do those things. Instead of asking what should this week look like, ask what would make this week an unambiguous failure. Inversion is not pessimism. It is a flashlight pointed at the trapdoors. Most people never look. Munger believed the trapdoors — avoidable catastrophes — cause more destruction in a life than any amount of missed upside. You can survive failing to pick the best house. You cannot easily survive buying one that breaks your marriage, or stretches your finances until one job loss becomes a cascade.
+
+Today the work day runs four to eight, dinner at eight-thirty, a late steak and salad. The day is compressed. That compression is itself a useful invitation: if this were the shape of every week for the next five years, would the house under consideration make the compression more survivable or less? Invert the week. What would make this Monday a failure? Arriving at the work day unprepared. Skipping the salad and eating at ten. Letting the on-call tail drag into family time. Saying yes to a house whose mortgage would require a second late evening like this one every single week. You do not need a flawless Monday to succeed. You need a Monday with no trapdoor. The same logic applies to the offer on the table. Do not ask which house maximizes upside. Ask which house, in the plausible bad case — a layoff, a slow sale when you need to move again, an unexpected medical bill — would hurt the least. The house that fails least gracefully is the house that, over a lifetime, compounds the most quietly. Munger's entire edge came from a patient accumulation of decisions in which the downside was small and the upside was real. Tonight, after work, write down the three ways this week could go badly and check which of them your current house decision would make worse. Then make sure none of those three are the path you are walking.
+
+**Reflect:** *What would make this week — not just the house decision, but the week itself — a failure? Name three specific scenarios, and check whether any of your current choices are walking toward them.*
+
+### Tuesday — Price Is What You Pay, Value Is What You Get
+
+Buffett's most-quoted line is a compression of a deeper idea Munger hammered constantly: price and value are different numbers, often in different units, and confusing them is the single most common expensive mistake made by intelligent people. Price is a scalar — a dollar figure pinned to a listing. Value is a vector — a bundle of durability, location, light, storage, neighbor quality, school walk, kitchen layout, and the unquantifiable sense of 'this is a place where the three of us can actually live.' When people 'overpay,' they rarely pay too much in dollars against the market. They pay the right market dollars for a bundle that does not match the life they will actually live inside it. The cheap house with the long commute and the dark kitchen is expensive in a currency that does not show up on the closing documents — years of grinding traffic, years of the wrong morning light, years of a room the family unconsciously avoids.
+
+Today is Tuesday. No school. Babo pasta, spinach and eggs turned into green strands the whole family loves. Swim lessons at six. This is a small, fully priced, fully valuable day — a textbook example of a bundle that delivers more value than its dollar cost suggests. The house decision should be read through the same lens. When you evaluate an offer, resist the temptation to optimize on price alone. Write down the value vector: minutes saved per week, mornings improved by kitchen light, evenings made easier by a floor plan that absorbs an eight-year-old's energy, weekends enabled by a yard that does not require you to drive somewhere to let her run. Each of those components has a dollar equivalent if you squint, but the honest move is to let them stay in their own units and refuse to flatten them into price alone. The cheapest house is rarely the highest value, and the most expensive house is rarely the best life. The skill is reading bundles, not numbers. Tonight at the pasta table, notice how much value today delivered for essentially no marginal cost. That is the standard. That is the life. Now reverse-engineer the house that would protect it.
+
+**Reflect:** *Write the value vector for your top-choice house — not the price, but the bundle of durable goods it would deliver into your weekly life. Is the vector worth the price, honestly?*
+
+### Wednesday — Play Long Games With Long-Term People
+
+Naval Ravikant, the AngelList founder who became an unlikely philosopher of the modern internet, keeps returning to a single line that he considers the quiet key to most of life's outcomes: play long-term games with long-term people. The decisions that compound — wealth, reputation, marriage, parenting, friendship, health — do not yield to sprinters. They reward people who stay in one arena long enough for trust, reputation, and skill to stack. The corollary is that short-term games with short-term people, no matter how lucrative in the moment, quietly impoverish every long-term game running in parallel. You cannot trade peace for a bonus and expect the peace to be there when the bonus clears. You cannot trade a stable family for a bigger house and expect the family to stabilize inside the new walls.
+
+Wednesday is rainy, dumplings from the freezer, sesame noodles, bok choy — a dinner assembled from long-term planning, the kind of meal that happens because someone bought the dumplings weeks ago and remembered they were there. That is a microcosm of Naval's principle. The quiet work you did a month ago is tonight's easy dinner. The quiet work you are doing this year — about values, about what 'enough' looks like, about which house supports a long-term life instead of a short-term narrative — is next decade's easy evening. Apply this lens to the offer on the table. Ask not which house wins this year's comparison, but which house lets you remain in the long-term games you care most about: a durable marriage, a childhood Elsie will remember warmly, friendships with neighbors you actually see, a career that can slow down without breaking you. The house that accelerates a short-term game — status, resale, the thrill of a big mortgage — at the expense of any of those long-term games is not a good trade, no matter how the spreadsheet looks. Naval's insight is ruthless only in its patience. Most of the people playing long games will look like they are losing for a long time, right up until the moment they are unambiguously winning. Tonight's dumplings are proof that the long game quietly feeds you when the short game forgets to shop.
+
+**Reflect:** *Which of the long games you care about — marriage, parenting, career, health, friendship — would the current house decision actively support, and which (if any) would it quietly tax?*
+
+### Thursday — The Hierarchy of Goals
+
+Ray Dalio, the Bridgewater founder whose book Principles is really a manual for decision-making under stress, argues that most people fail at big choices because they have never explicitly ranked their goals. They hold five or six values simultaneously — family, career, money, adventure, status, peace — and pretend none need to yield to the others, until reality forces a trade-off and the decision is made by whichever value shouts loudest in the moment. Dalio's remedy is almost clerical: write the goals down, force a hierarchy, and let the hierarchy do the choosing when the heat comes. He calls this approach principles-based decision-making, and its power is that it moves the hard thinking from the moment of pressure to a quieter prior moment when the adrenaline is not yet flowing.
+
+Today is Bring Your Family to Work Day at Microsoft Reston. Elsie walks into the building that funds the house question. The day is almost comically useful for clarifying a goal hierarchy. Because if you watch yourself carefully — how you introduce her, what you show her first, what you hope she remembers — you are revealing your real rankings in real time. Do you want her to see that work is where you contribute, or where you are important? That the office is a tool, or an identity? The answers leak. And they leak in exactly the same way when you evaluate a house. A house optimized for the version of you that wants the office to be an identity will look different from a house optimized for the version that sees work as a tool for a life. Tonight, after pizza, write down your top three goals for the next five years in strict rank order — not the order that sounds good, the order that would actually govern a forced trade-off. Then read the list next to the current offer. If the house advances the top-ranked goal clearly, say yes. If it advances goal three while quietly compromising goal one, you are about to make the most common expensive mistake in adult life. Dalio would say: the goal is not to have principles. The goal is to have them ranked before the pressure lands.
+
+**Reflect:** *Rank your top three goals for the next five years in strict order. Does the house currently under offer most serve the number-one goal, or does it most serve a lower one?*
+
+### Friday — Enough Is a Number You Set
+
+Morgan Housel, in The Psychology of Money, tells the story of two of the wealthiest men of the twentieth century — Rajat Gupta and Bernie Madoff — who each had every material need met many times over, and who each destroyed themselves because they never defined enough. They were surrounded by people with slightly more. The reference point kept moving. Housel's lesson is plainly stated: the hardest financial skill is getting the goalposts to stop moving, and the way to stop them is to define enough in advance, in writing, before the market or the neighborhood or the Zillow feed defines it for you. Enough is not an objective quantity discovered by analysis. It is a number you assign, defend, and then — critically — stop arguing with when the offer on the bigger house lands in your inbox.
+
+Friday is 79°F, the warmest day of the week, branzino whole-roasted on the table, kale sauteed in olive oil, creamy polenta. This is an unmistakably good dinner. It was not expensive. It did not require a larger dining room. It did not require a single thing you do not already own. Housel would say: take a picture of this dinner, mentally, and label it 'enough.' Not forever — life grows — but for this season, at this price point, at this stage of the kid, at this stage of the work, this is what enough looks like. Now test the house offer against the photograph. Does the house in question protect a thousand more dinners like this one? Or does it require trade-offs — later hours, thinner savings, a second income strained beyond its capacity — that would make this exact dinner harder to produce? The market will always show you a bigger number. The neighbor will always have the slightly larger lot. The algorithm will feed you listings until you cannot remember what you liked about the house you wanted a month ago. Enough is the ceiling you build to keep the algorithm from raising the roof for you. Write it down tonight, at the branzino table, in a single sentence. The sentence is your financial plan.
+
+**Reflect:** *Write one sentence beginning with 'Enough, for our family, at this stage, looks like ____.' Will you hold this line when the next listing lands tomorrow morning?*
+
+### Saturday — Audit Your Scoreboard
+
+Peter Drucker, the management thinker whose books quietly shaped half of twentieth-century business practice, had a line that has been so overquoted it is almost worn smooth: what gets measured gets managed. The underused half of the idea is darker: what gets measured by the wrong ruler gets optimized into the wrong life. If you measure your career by title, you will chase titles until the title stops mattering. If you measure your home by square footage, you will accumulate square footage until the house stops feeling like one. If you measure parenting by activities per weekend, you will fill the weekends until the child stops remembering any of them. The scoreboard chooses the game. A week is short enough to be honest about what you are secretly counting. A life is long enough to be shaped by it completely.
+
+Today Laura is in Grand Rapids. Dad and Elsie are building tacos, a meal so simple it requires no recipe and so good it requires no justification. The sun is out at 70°F. This is the scoreboard that matters, and it is almost impossible to measure with the usual rulers. Square footage does not capture it. Mortgage payment does not capture it. School rating does not capture it. The only honest measurement is something like: 'Did we have a night where we were entirely where we were?' That ruler exists. It is quiet, subjective, and unfakeable. And it happens to correlate with every serious long-term outcome — marriage durability, child's self-reported wellbeing, adult's self-reported meaning — better than any of the measurable rulers a real estate market uses. This week's essays have circled a single point: the decision is not about the house. The decision is about the scoreboard. Tonight, with Elsie across a small table, audit your scoreboard. Which rulers are you using without meaning to? Which ones actually track the life you want? And does the next decision you make — about the house, the job, the next offer — tilt the board toward the rulers that matter, or away from them? The week ends here, at a taco table with one parent and one kid, because this is what the week was secretly about all along.
+
+**Reflect:** *List the three scoreboards you are unconsciously using right now (money, title, square footage, activities, followers, grades …). Which one would you remove if you could, and what would you replace it with?*
+
+**Closing:** *The best decision this week is not the one that wins the house. It is the one that knows, in one sentence, what the house is for.*
+
+
+---
+
+## Bedtime Story — The Time Daddio Ate a Spoonful of Dirt
+
+*5 minutes read · Theme: The worst moments become the best stories — and even the weirdest living things in the world have their own strange jobs to do*
+
+Mamma Karen was laughing before she even started the story.
+
+"Oh, piccola," she said, settling into her big kitchen chair. "Has anyone told you about the time your Daddio ate a spoonful of DIRT?"
+
+Chelsie's eyes went enormous. "Daddio ate DIRT?"
+
+From the windowsill, Mertle lifted his small green head. The turtle sock puppet had been sunning his cotton shell in the afternoon light, button eyes half-closed in a reptile's approximation of reading glasses. He did not gasp. Mertle rarely gasped. He simply raised one stubby arm like a professor requesting the floor.
+
+"A single taste?" Mertle said. "Or a committed spoonful?"
+
+"Committed," Mamma Karen confirmed.
+
+"Mmm." Mertle nodded slowly. "Always the worst kind."
+
+"He was maybe four," Mamma Karen went on. "Outside, digging up worms for a 'science experiment' — which is what little boys call doing whatever they want. Then, to really commit, he took a big spoonful of dirt. Gritty, brown, like pudding. SWALLOWED it. And ran off to draw on the driveway."
+
+"A classic four-year-old research method," Mertle murmured. "No peer review."
+
+Mamma Karen leaned in. "Now here's where it gets interesting. For weeks after, your Daddio was EATING. Seconds. Thirds. Another plate, please, Mama. I thought, finally, a son who appreciates my cooking."
+
+"Was he growing like a beanstalk?" Chelsie asked.
+
+"Not exactly." Her mouth twitched. "One afternoon, he went to blow his nose. Big dramatic honk. He pulls the tissue away — and there, staring right back at him — "
+
+"I have a guess," Mertle said quietly, "and I sincerely hope I am wrong."
+
+"— was a WORM."
+
+Chelsie shrieked. Mertle closed his button eyes with the weary dignity of someone who was right and wishes he weren't.
+
+"A long, skinny, perfectly alive little tapeworm," Mamma Karen said, "waving hello from a tissue. Your Daddio came running into the kitchen yelling MAMAAAA! And I looked at that worm, and I looked at my son, and I finally understood why he'd been eating everything in the pantry. He wasn't hungry. The WORM was hungry."
+
+"So it was LIVING inside him?" Chelsie whispered.
+
+"It came from the dirt. Little worm eggs, waiting in the soil for some adventurous four-year-old to scoop them up. Then it made itself cozy and started eating Daddio's spaghetti from the inside."
+
+Mertle tapped his cotton shell thoughtfully. "A stowaway with a dinner reservation."
+
+"But here's the strange part, piccola. Most of the tiny creatures that live inside us are HELPERS. Your stomach right now has billions of good bacteria — polite little guests who help you digest food, fight off colds, even keep you happy. Scientists call it symbiosis. It means 'living together.' Some guests are polite. Daddio's tapeworm was the rude kind. The doctor gave him special medicine, out it went, and Daddio was back to normal."
+
+"Symbiosis," Mertle repeated, rolling the word around like a grape. "Good guests, bad guests. Just like Thanksgiving."
+
+Chelsie thought about Babo Pasta, her favorite favorite dinner. "Mamma Karen. Could a worm eat Babo Pasta?"
+
+"Oh, piccola, a worm would DREAM of Babo Pasta. But you don't have one. Know why?"
+
+"Why?"
+
+"Because you don't eat dirt." Mamma Karen patted her cheek. "You eat the spinach pasta your Daddio rolls out on the pasta machine. You eat the pizza and his gravu and the tacos. Real, wonderful food, cooked by somebody who loves you. No tapeworm gets a ticket to that show."
+
+Mertle cleared his throat with a soft cotton rustle. "As a turtle — a species who has, professionally speaking, met a LOT of dirt — I would like to note: the dirt in your yard and the dirt in Daddio's old yard are cousins. Different address. Same tiny freeloaders waiting with their luggage."
+
+Chelsie looked at the flowerpot on the windowsill. The dirt looked very quiet. It did not fool her.
+
+She did not eat any.
+
+"Mamma Karen? Was Daddio embarrassed?"
+
+"So embarrassed. For a whole week he ate nothing but toast. But you know what happened over time? The story got FUNNY. Every Thanksgiving somebody brings it up. Every time a cousin digs in the dirt, somebody yells 'DON'T EAT THAT, YOU'LL END UP LIKE DAN.' The worst day of his little-boy life became the best story our family tells. That's a gift, piccola. The things that feel terrible when they happen? Sometimes they grow into stories that make everybody at the table laugh till their ribs hurt. You just have to wait long enough for the 'ew' to turn into the 'ha.'"
+
+Mertle did one small, dignified shimmy — his signature move — and tucked his head back toward his shell. "Filed under," he said, "great reasons to be a turtle."
+
+And Mamma Karen put the kettle on, because every good story deserved a cup of tea after it.
+
+**Life lesson:** *Today's most embarrassing moment is tomorrow's funniest family story. Give it time. And also — don't eat dirt.*
+
+**Discussion:** What's a story from when you were little that wasn't funny at the time, but is funny now when we tell it? Why do you think some hard things turn into good stories?
+
+
+---
+
+## The Weekly Read — April 19 – April 25, 2026
+
+### The Mech Suit and the Slop: AI's Uneven Gift to Software Engineers
+
+Gergely Orosz surveyed 900+ engineers and Gergely then sat down with DHH, and the two reports rhyme in an uncomfortable way. The survey paints a picture of an industry mid-experiment: companies are quietly eating $200/month-per-engineer bills on 'max' plans for Claude Code, Cursor, and Codex, while CFOs in Europe start asking the awkward question nobody in Silicon Valley wants to hear — 'where exactly is the productivity?' About 30% of engineers hit usage limits regularly. Subsidized enterprise pricing looks suspiciously like the cloud-provider playbook of a decade ago: hook them first, raise prices once the lock-in is total. Meanwhile the survey identifies three archetypes living through this differently. 'Shippers' love AI tools and move faster — but accumulate technical debt at matching speed and sometimes build the wrong thing beautifully. 'Builders,' the craftspeople doing the harder structural work, are drowning in 'AI slop' from their less-senior colleagues and grappling with a quiet grief about professional identity. 'Coasters' — the less-skilled middle — are leveling up faster than ever while simultaneously generating the slop the builders have to clean up. Roles are converging, too: engineers orchestrate and context-switch more, while managers are suddenly hands-on again. The craft is shifting from 'how' to build toward 'what' to build.
+
+DHH's conversion story is the human face of the same numbers. Six months ago on Lex Fridman he said he typed every character of his code by hand; now he runs tmux with two models in split panes — a fast Gemini for quick passes, slow Opus for heavy lifts — reviews diffs in Neovim via Lazygit, and says it feels less like project-managing agents and more like 'wearing a mech suit.' His philosophy didn't change, he insists; the tools finally got good enough to meet his standard. Two observations from him stick. First: 'When something is beautiful, it's likely to be correct' — the people who care about circuit-board layout are the same ones who sweat the UI, and that taste is what lets him trust or reject agent output at speed. Second: senior engineers benefit disproportionately because they can tell when the agent is lying. At 37signals, and reportedly at Amazon, junior developers no longer ship agent-generated code to production without review. Rails is having a renaissance — it's token-efficient, tests are first-class, the output is human-readable — and DHH is building CLIs for every product because agents chain CLI tools the way Unix promised in 1972.
+
+The contradiction worth sitting with: AI tools supposedly democratize coding, yet in practice they are making seniority more valuable, not less. The mech suit amplifies whoever is already inside it. If you don't yet have the taste to know what 'correct' looks like, the agent will happily help you build the wrong thing at record speed. DHH's closing note — eight hours of sleep, non-negotiable, no alarm — lands like a warning more than a flex. The dopamine loop of shipping at agent speed is intoxicating, and burnout is the first externality nobody is pricing in.
+
+- **The Impact of AI on Software Engineers in 2026 (Survey Deep-Dive)** — 900+ engineers on budgets, burnout, and the 'Shippers vs Builders vs Coasters' split AI is carving into the profession.
+- **The Pragmatic Engineer — Companion Post** — The Substack cross-post of the same survey — worth keeping the link handy for the comment thread, which is half the signal.
+- **DHH's New Way of Writing Code** — The creator of Rails went from typing every character to running agents in tmux splits — and thinks beauty is a correctness signal.
+
+
+### Supplement Deep Dive: Collagen & Creatine
+
+Two of the most-researched, least-glamorous supplements in the longevity conversation — and the evidence on both is finally concrete enough to talk about without hedging. Worth a longer look because the incremental gains, stacked across decades, are the kind of compounding that makes a real difference in how your sixties feel.
+
+**Collagen peptides, and why the brand on the label matters.** Ordinary 'hydrolyzed collagen' is a commodity; the research evidence sits on a handful of *specific* peptide formulations engineered by the German manufacturer GELITA, each with its own clinical dossier. FORTIBONE® is the bone-health formulation. The landmark trial (König et al., *Nutrients*, 2018) randomized 131 postmenopausal women to 5g/day of FORTIBONE® or placebo for 12 months; the treated group saw statistically significant gains in bone mineral density at both the spine and femoral neck, along with favorable shifts in bone-turnover markers. Mechanistically, the specific peptide fragments appear to signal osteoblasts to lay down more type-I collagen matrix while dampening osteoclast-driven resorption. FORTIGEL® is the cartilage/joint formulation — trials in knee and activity-related joint pain show reduced discomfort over 12–24 weeks at ~10g/day. VERISOL® is the skin formulation (elasticity, hydration, wrinkle depth) at 2.5g/day. TENDOFORTE® targets ligaments and tendons and is the one athletes and weekend warriors reach for after an ankle tweak. The key insight: these are not interchangeable. A generic bovine collagen tub at Costco is fine protein, but it is not FORTIBONE®, and you should not expect the König trial outcome from it. If bone density is the goal — and for a woman in her forties planning for her seventies, it probably should be — look for the FORTIBONE® mark on the label of whichever retail brand carries it (Vital Proteins Bone Broth Collagen, some AlgaeCal formulations, several European brands).
+
+**Creatine: the newer forms are a marketing story.** The International Society of Sports Nutrition position stand (Kreider et al., 2017) remains the cleanest summary: creatine monohydrate is the most-studied, cheapest, and most effective form. Creatine HCl is more soluble and marginally easier on sensitive stomachs, but head-to-head trials show no superior muscle saturation or performance outcome — the 'smaller dose works the same' claim is not well supported. Creatine ethyl ester is actively *worse*: it degrades to creatinine in the stomach and raises muscle creatine less effectively than monohydrate. Dosing is simple: 3–5g/day, every day, any time. The classic loading phase (20g/day for a week) gets you to saturation faster but isn't strictly necessary. Beyond the well-known strength, lean-mass, and high-intensity-output benefits, the cognitive literature has matured. A 2023 systematic review and meta-analysis (Prokopidis et al., *Nutrition Reviews*) found small but consistent improvements in memory in healthy adults, with stronger effects in older adults, vegetarians, and the sleep-deprived — populations whose baseline brain creatine is lower. Early work is exploring higher doses (10g+) for mood and cognitive resilience under stress, though the ISSN still anchors the evidence-based dose at 3–5g.
+
+**The pragmatic stack.** Nobody has run a large RCT on collagen + creatine together, but the mechanisms are complementary and non-overlapping: creatine works intracellularly in muscle and brain; collagen peptides work as signaling fragments for connective-tissue fibroblasts and osteoblasts. There's a timing wrinkle worth knowing. Keith Baar's group at UC Davis showed that tendon collagen synthesis spikes when peptides (plus ~50mg vitamin C) arrive in the bloodstream 30–60 minutes *before* mechanical loading — so if you lift, run, or play a sport, taking collagen pre-workout targets the connective tissue that's about to be stressed. Creatine is dose-loading agnostic; daily consistency matters far more than timing, so pick whichever meal makes you reliably take it. A workable protocol for an active adult aiming at musculoskeletal resilience: **10g FORTIBONE®- or FORTIGEL®-specified collagen + 50mg vitamin C, 30–60 minutes before exercise; 5g creatine monohydrate with any meal, daily, forever.** Budget: under $30/month. Upside: thicker bones, quieter joints, stronger quads, and a slightly sharper brain on the days you didn't sleep enough. The evidence is unglamorous, the scoop is boring, and the decade-over-decade compounding is the entire point.
+
+- **Specific Collagen Peptides Improve Bone Mineral Density in Postmenopausal Women** — König et al. (2018) — the FORTIBONE® landmark trial: 5g/day for 12 months, measurable BMD gains at spine and femoral neck.
+- **ISSN Position Stand: Safety and Efficacy of Creatine Supplementation** — Kreider et al. (2017) — still the cleanest authoritative summary: monohydrate wins, 3–5g/day, loading optional.
+- **Collagen Supplementation & Tendon/Ligament Health** — Shaw & Baar (2017) — the study behind the 'pre-workout with vitamin C' collagen timing protocol.
+- **Effects of Creatine Supplementation on Memory in Healthy Individuals** — Prokopidis et al. (2023) — meta-analysis showing small-but-real memory benefits, strongest in older adults and the sleep-deprived.
+
+
+This week's theme is valuing what actually matters, and the reading lands on either side of that question in instructive ways. The AI pieces are about leverage — tools that amplify whoever is already inside them, and the quiet cost of mistaking speed for craft. The supplement research is about the opposite kind of leverage: five grams a day, for thirty years, in service of a sixty-five-year-old self who can still carry groceries up the stairs and remember the grandchildren's names. Both are bets on compounding. Neither pays off if you optimize for the dopamine hit of the moment — the agent-shipped PR, the pre-workout scoop you took but never actually trained after. The things worth valuing are almost always the ones that ask for patience first and only reward you on a long enough timeline to forget you were waiting.
+
+### And Finally… Creatine Is in Herring. Herring!
+
+File under 'things you probably didn't need to know but will now bring up at dinner': the richest natural dietary source of creatine is herring, at roughly 6.5–10 grams per kilogram of flesh — more than beef, more than salmon, more than pork. A large herring fillet delivers close to a gram of the stuff. This is one reason traditional Scandinavian and Baltic diets, heavy on pickled and smoked herring, may have quietly been doing the creatine-loading protocol for centuries without anyone naming it. Vegetarians, by contrast, have roughly 20–30% lower baseline muscle creatine stores, which is part of why supplementation tends to produce larger effects in them. Ask Elsie at dinner: which fish do you think is secretly the strongest? (Correct answer: a small, shiny one that most kids refuse to eat.)
+
+*Source: [Journal of Agricultural and Food Chemistry](https://pubmed.ncbi.nlm.nih.gov/21394604/)*
+
+
+---
+
+## Additional Notes
+
+- Sunday gravy yields enough for a freezer stash — portion 2 quart bags after dinner.
+- Babo pasta uses 12-16 egg yolks; save whites for Saturday frittata lunch or meringues.
+- Wednesday: we're running low on frozen dumplings — restock this week.
+- Pizza night after Bring-Family-to-Work lets Elsie decompress with a tactile activity — shaping dough is the reward.
+- Saturday with Laura gone: keep it simple and fun. Taco bar beats takeout every time.
+

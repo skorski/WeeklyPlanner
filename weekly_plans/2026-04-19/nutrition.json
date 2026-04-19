@@ -1,0 +1,641 @@
+{
+  "week": "April 19–25, 2026",
+  "family": {
+    "wife": {
+      "calorie_target": "2,000–2,200 kcal/day",
+      "focus": [
+        "iron",
+        "calcium",
+        "folate",
+        "fiber",
+        "omega-3"
+      ]
+    },
+    "husband": {
+      "calorie_target": "2,400–2,800 kcal/day",
+      "focus": [
+        "protein",
+        "potassium",
+        "magnesium",
+        "omega-3"
+      ]
+    },
+    "daughter": {
+      "calorie_target": "1,600–2,000 kcal/day",
+      "focus": [
+        "calcium",
+        "vitamin D",
+        "iron",
+        "fiber",
+        "zinc"
+      ]
+    }
+  },
+  "dinner_analysis": [
+    {
+      "day": "Sunday",
+      "dinner": "Sunday Gravy + Extruded Pasta",
+      "calories_estimate": "~700–850",
+      "macros": {
+        "protein": "~38g (high)",
+        "carbs": "~80g (high)",
+        "fat": "~28g (moderate-high)"
+      },
+      "strengths": [
+        "High-quality protein from slow-braised meats (typically pork, beef, sausage)",
+        "Lycopene from long-cooked tomato sauce — actually MORE bioavailable than raw",
+        "Collagen/gelatin from slow braising supports joints and gut lining",
+        "B vitamins (B6, B12, niacin) from meat",
+        "Satisfying, low-glycemic when paired with protein"
+      ],
+      "gaps": [
+        "Low fiber (~4g) — white extruded pasta is refined",
+        "Minimal green or non-red vegetables",
+        "High sodium from braised meats and cured pork if used",
+        "No fish — no omega-3 (EPA/DHA)",
+        "Low calcium unless heavily topped with Parmesan"
+      ],
+      "veggie_colors": [
+        "red (tomato)",
+        "white (onion/garlic in sauce)"
+      ]
+    },
+    {
+      "day": "Monday",
+      "dinner": "Steak + Romaine Salad with Cucumbers, Red Onions, Avocados",
+      "calories_estimate": "~650–800",
+      "macros": {
+        "protein": "~45g (very high)",
+        "carbs": "~18g (low)",
+        "fat": "~40g (high)"
+      },
+      "strengths": [
+        "Excellent heme iron (~3.2mg per 3oz steak) — critical for Laura and Elsie",
+        "Very high zinc (~5.5mg) for immune function",
+        "Monounsaturated fat from avocado (~10g healthy fat, ~7g fiber)",
+        "Folate (~120μg) from avocado",
+        "Potassium-rich: avocado (~690mg) + cucumber",
+        "Vitamin K from romaine (~60μg per 2 cups)",
+        "Anti-inflammatory quercetin from red onion"
+      ],
+      "gaps": [
+        "Low calcium — no dairy component",
+        "Moderate fiber (~8g) — good but could be higher",
+        "High saturated fat from steak",
+        "No omega-3 EPA/DHA",
+        "Carbs low — may need a roll or grain for Elsie's energy recovery"
+      ],
+      "veggie_colors": [
+        "green (romaine, avocado)",
+        "white/purple (onion)",
+        "green (cucumber)"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "dinner": "Babo Pasta (Homemade Spinach Pasta)",
+      "calories_estimate": "~550–650",
+      "macros": {
+        "protein": "~17g (moderate)",
+        "carbs": "~58g (high)",
+        "fat": "~25g (moderate-high)"
+      },
+      "strengths": [
+        "Excellent folate — spinach pasta ~262μg per 100g (~65% DV)",
+        "Calcium from Parmesan and butter (~180mg)",
+        "Vitamin A from spinach and egg yolks (~300μg RAE)",
+        "Iron from egg yolks and spinach (non-heme)",
+        "Emotional nutrition: family-favorite ritual meal before swim lessons"
+      ],
+      "gaps": [
+        "Low fiber (~4g) despite spinach content",
+        "Low protein vs. meat-forward dinners",
+        "No vitamin C (critical for non-heme iron absorption — add lemon wedge)",
+        "No omega-3",
+        "Single-vegetable meal"
+      ],
+      "veggie_colors": [
+        "green (spinach)"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "dinner": "Pan-Fried Pork Dumplings + Garlic Sesame Noodles with Bok Choy",
+      "calories_estimate": "~650–800",
+      "macros": {
+        "protein": "~28g (moderate-high)",
+        "carbs": "~70g (high)",
+        "fat": "~30g (high)"
+      },
+      "strengths": [
+        "Bok choy is a calcium powerhouse (~158mg per cup cooked) — absorbed better than dairy",
+        "Vitamin K from bok choy (~55μg/cup)",
+        "Vitamin C from bok choy (~44mg/cup) and garlic",
+        "Sesame seeds add calcium, magnesium, and lignans",
+        "B vitamins from pork (especially thiamin)",
+        "Selenium from pork (~35μg per serving)",
+        "Best calcium dinner of the week without dairy"
+      ],
+      "gaps": [
+        "Very high sodium (~1,200mg+) from dumpling wrappers, soy sauce",
+        "Refined flour in dumpling wrappers and noodles — low fiber",
+        "Pork is higher in saturated fat than chicken or fish",
+        "No omega-3 EPA/DHA",
+        "Protein is moderate not high — Elsie and Dan may want extra dumpling servings"
+      ],
+      "veggie_colors": [
+        "green (bok choy)",
+        "white (garlic)"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "dinner": "Homemade Pizza Night",
+      "calories_estimate": "~650–850 (2–3 slices)",
+      "macros": {
+        "protein": "~26g (moderate)",
+        "carbs": "~75g (high)",
+        "fat": "~30g (moderate-high)"
+      },
+      "strengths": [
+        "Calcium from mozzarella (~250mg per 2 slices)",
+        "Lycopene from tomato sauce (cooked tomatoes = bioavailable lycopene)",
+        "Highly customizable — can load with peppers, mushrooms, spinach, olives",
+        "Fun meal supports Elsie's positive relationship with food",
+        "Cooking together = emotional and nutritional gains"
+      ],
+      "gaps": [
+        "Low fiber (~3–4g) with white crust",
+        "Low iron unless topped with spinach or sausage",
+        "High sodium from cheese + sauce (~900mg+)",
+        "Vegetable content entirely topping-dependent",
+        "No omega-3"
+      ],
+      "veggie_colors": [
+        "red (tomato)",
+        "varies by toppings"
+      ]
+    },
+    {
+      "day": "Friday",
+      "dinner": "Whole Roasted Branzino + Sauteed Kale + Creamy Polenta",
+      "calories_estimate": "~600–750",
+      "macros": {
+        "protein": "~38g (high)",
+        "carbs": "~45g (moderate)",
+        "fat": "~28g (moderate-high)"
+      },
+      "strengths": [
+        "**Only fish dinner of the week** — branzino (~1,100mg omega-3 per 6oz serving, mostly EPA/DHA)",
+        "High-quality lean protein (branzino is low-mercury)",
+        "Vitamin D from fish (~250 IU per serving)",
+        "Kale is nutritional royalty: vitamin K (~547μg/cup — 450% DV), vitamin A, vitamin C, calcium",
+        "Iron from kale (non-heme)",
+        "Polenta provides potassium and niacin",
+        "Whole-fish preparation means richer mineral profile (magnesium, phosphorus)",
+        "Olive oil (used in sauteing and roasting) adds monounsaturated fat and polyphenols",
+        "NUTRITIONAL STAR OF THE WEEK"
+      ],
+      "gaps": [
+        "Polenta is refined unless stone-ground — fiber moderate",
+        "Moderate calorie density — may need more for Dan's activity level",
+        "Calcium modest unless polenta is finished with Parmesan"
+      ],
+      "veggie_colors": [
+        "dark green (kale)",
+        "yellow (polenta)"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "dinner": "Build-Your-Own Tacos (Dad + Elsie)",
+      "calories_estimate": "~650–800",
+      "macros": {
+        "protein": "~30g (high)",
+        "carbs": "~55g (moderate-high)",
+        "fat": "~30g (moderate-high)"
+      },
+      "strengths": [
+        "Highly customizable — can use ground turkey (leaner) or beef",
+        "Black beans (if included) add fiber (~8g) and plant protein",
+        "Tomato, lettuce, salsa = vitamin C, lycopene, folate",
+        "Avocado/guacamole adds monounsaturated fat and potassium",
+        "Lime provides vitamin C to enhance iron absorption",
+        "Corn tortillas add whole grain (if using 100% corn)",
+        "Cheese contributes calcium",
+        "Colorful — easily covers 3–4 vegetable colors in one meal"
+      ],
+      "gaps": [
+        "High sodium if using seasoning packets (use cumin+chili+garlic fresh)",
+        "Can be high saturated fat if beef + cheese + sour cream stacked",
+        "Low omega-3"
+      ],
+      "veggie_colors": [
+        "red (tomato/salsa)",
+        "green (lettuce/avocado/cilantro)",
+        "yellow (corn tortilla)",
+        "black (beans)"
+      ]
+    }
+  ],
+  "weekly_summary": {
+    "strengths": [
+      "EXCELLENT omega-3 coverage from Friday's branzino — single meal delivers ~1,100mg EPA/DHA (close to weekly minimum)",
+      "Strong iron week — Monday's steak, Wednesday's pork, optional beef on Saturday tacos",
+      "Outstanding vegetable diversity across the week — romaine, avocado, cucumber, spinach, bok choy, kale, pizza toppings, taco toppings",
+      "Three calcium pillars without over-reliance on dairy — Parmesan (Tue), bok choy (Wed), cheese on pizza (Thu) + tacos (Sat)",
+      "Kale on Friday provides a weekly megadose of vitamin K (~550μg = 450% DV)",
+      "Heavy folate week — spinach (Tue), avocado (Mon/Sat), kale (Fri)",
+      "Good protein rotation — braised meats (Sun), beef (Mon, possible Sat), pork (Wed), fish (Fri) — best protein diversity in recent weeks",
+      "Two avocado appearances = consistent healthy fats + fiber"
+    ],
+    "gaps": [
+      "Only ONE fish meal (Friday) — would benefit from a second seafood lunch mid-week",
+      "NO legumes in dinners — missing the fiber/folate density beans provide (lunches will add this)",
+      "LOW fruit at dinner all week — zero fruit servings from dinners alone",
+      "WHITE GRAINS dominant — extruded pasta (Sun), pizza crust (Thu), tortillas (Sat), noodles (Wed), polenta (Fri likely refined). Only shift needed: swap some for whole-grain versions.",
+      "SODIUM-HEAVY on Wednesday (dumplings + soy sauce can total 1,500mg+)",
+      "No nuts/seeds in dinners — Monday/Tuesday could easily add pine nuts or pumpkin seeds",
+      "Breakfast not planned — ensure calcium + vitamin D there (yogurt, fortified milk, eggs)"
+    ],
+    "patterns_flagged": [
+      "Red meat twice (Mon steak, possibly Sat beef tacos) — within healthy range (≤2–3x/week)",
+      "Pork once (Wed dumplings) — appropriate",
+      "Fish ONCE (Fri branzino) — ideal is 2x/week; lunch on Tue or Thu should be fish",
+      "Pasta/grain-heavy: 5 of 7 dinners have a significant grain component — ensure at least 2 lunches are grain-free or legume-based",
+      "High-sodium cluster: Sun (braise), Wed (soy/dumplings), Thu (pizza cheese) — Mon/Fri/Sat should be lower-sodium days",
+      "Elsie may need a bedtime protein+calcium snack on Mon (low-carb dinner) and Fri (fish can feel 'light' to a kid)"
+    ]
+  },
+  "flagged_deficiencies": [
+    {
+      "nutrient": "Omega-3 (EPA/DHA)",
+      "severity": "Moderate",
+      "note": "Friday's branzino is a home run, but weekly target is 2–3 fish servings. Add a salmon or tuna lunch Tue or Thu."
+    },
+    {
+      "nutrient": "Fiber",
+      "severity": "Moderate",
+      "note": "Dinners average ~5g fiber; target is 8–10g/meal. Lunch and snacks carry this — lean on legumes and whole grains."
+    },
+    {
+      "nutrient": "Whole grains",
+      "severity": "Moderate",
+      "note": "Five dinners center refined grains. Swap at least one lunch to brown rice, farro, or quinoa."
+    },
+    {
+      "nutrient": "Vitamin D",
+      "severity": "Mild",
+      "note": "Branzino helps; Virginia April sun helps more. Daily breakfast with fortified milk or an egg recommended."
+    },
+    {
+      "nutrient": "Fruit",
+      "severity": "Mild",
+      "note": "Zero fruit at dinner. Make fruit the default dessert (berries, orange slices, pear)."
+    }
+  ],
+  "lunch_recommendations": [
+    {
+      "day": "Sunday",
+      "suggestion": "Lentil + Farro Bowl — French lentils and farro with roasted carrots, feta, lemon vinaigrette, parsley",
+      "nutrients_provided": [
+        "plant protein (~18g)",
+        "fiber (~14g)",
+        "iron (non-heme)",
+        "folate",
+        "whole grains",
+        "calcium (feta)",
+        "vitamin A (carrots)"
+      ],
+      "why": "Sunday Gravy is meat-and-pasta; lunch should be the legume/whole-grain anchor for the week. Lentils provide folate (358μg/cup) absent elsewhere. Farro is one of the highest-fiber whole grains."
+    },
+    {
+      "day": "Monday",
+      "suggestion": "Tuna Salad on Whole Grain — canned albacore tuna with Greek yogurt, celery, capers, lemon on whole wheat, side of cherry tomatoes",
+      "nutrients_provided": [
+        "omega-3 EPA/DHA",
+        "vitamin D",
+        "calcium (yogurt)",
+        "protein",
+        "fiber",
+        "lycopene"
+      ],
+      "why": "Adds a SECOND fish serving this week — critical since only Friday dinner is seafood. Greek yogurt cuts saturated fat vs. mayo and adds calcium. Pre-busy workday lunch that won't weigh Dan down."
+    },
+    {
+      "day": "Tuesday",
+      "suggestion": "Black Bean + Sweet Potato Quesadilla — mashed black beans, roasted sweet potato, cheddar, cilantro on whole wheat tortilla, side of orange slices",
+      "nutrients_provided": [
+        "fiber (~12g)",
+        "plant protein",
+        "vitamin A (~400% DV)",
+        "calcium",
+        "iron",
+        "vitamin C (orange)",
+        "folate"
+      ],
+      "why": "No-school day — Elsie gets a warm, kid-friendly lunch that front-loads vitamin A (absent from dinners all week) and legumes. Orange slices give vitamin C to boost iron absorption from Babo Pasta's spinach at dinner."
+    },
+    {
+      "day": "Wednesday",
+      "suggestion": "Greek Chickpea Salad — chickpeas, cucumber, tomato, red onion, feta, Kalamata olives, olive oil, oregano",
+      "nutrients_provided": [
+        "plant protein (~15g)",
+        "fiber (~10g)",
+        "calcium (feta)",
+        "magnesium",
+        "folate",
+        "vitamin C",
+        "healthy fats"
+      ],
+      "why": "Dinner will be sodium-heavy (dumplings); balance with a Mediterranean lunch that's fresh, hydrating, and adds legumes. Chickpeas are anti-inflammatory and high in fiber."
+    },
+    {
+      "day": "Thursday",
+      "suggestion": "Salmon Rice Bowl — teriyaki salmon (or canned pink salmon), brown rice, edamame, avocado, shredded carrots, sesame seeds",
+      "nutrients_provided": [
+        "omega-3 EPA/DHA",
+        "vitamin D",
+        "fiber",
+        "whole grain",
+        "calcium (bones in canned salmon + sesame)",
+        "protein",
+        "magnesium"
+      ],
+      "why": "Third seafood serving — locks in weekly omega-3 target. Easy to make the night before and bring to the Microsoft office. Edamame adds plant protein and sneaks in a third legume serving."
+    },
+    {
+      "day": "Friday",
+      "suggestion": "Hummus + Veggie Wrap — hummus, roasted red pepper, spinach, cucumber, shredded carrot, pumpkin seeds on whole wheat wrap, side of berries",
+      "nutrients_provided": [
+        "fiber (~10g)",
+        "plant protein",
+        "iron",
+        "magnesium (pumpkin seeds)",
+        "vitamin A/C",
+        "folate",
+        "antioxidants (berries)"
+      ],
+      "why": "Light before a rich branzino dinner. Pumpkin seeds add magnesium (chronically low). Berries bring the week's only consistent fruit."
+    },
+    {
+      "day": "Saturday",
+      "suggestion": "Grilled Chicken + Quinoa Salad — grilled chicken, cooked quinoa, cherry tomatoes, cucumber, feta, mint, lemon",
+      "nutrients_provided": [
+        "complete protein",
+        "whole grain",
+        "fiber",
+        "calcium (feta)",
+        "vitamin C",
+        "iron",
+        "magnesium (quinoa)"
+      ],
+      "why": "Laura leaves in the morning — a make-ahead lunch for Dan + Elsie keeps Saturday low-stress before taco night. Quinoa is the only complete plant protein grain and delivers magnesium and iron."
+    }
+  ],
+  "snack_recommendations": [
+    {
+      "day": "Sunday",
+      "suggestion": "Greek yogurt + blueberries + honey + ground flaxseed",
+      "nutrients_provided": [
+        "calcium (~250mg)",
+        "probiotics",
+        "vitamin C",
+        "omega-3 ALA (flax)",
+        "fiber",
+        "protein"
+      ],
+      "why": "Fruit is missing from Sunday dinner; flax adds plant omega-3 on a non-fish day."
+    },
+    {
+      "day": "Monday",
+      "suggestion": "Apple + almond butter + glass of milk",
+      "nutrients_provided": [
+        "calcium (~300mg)",
+        "vitamin D (fortified milk)",
+        "fiber",
+        "vitamin E",
+        "magnesium"
+      ],
+      "why": "Steak dinner is calcium-poor; milk fills the gap. Almond butter is magnesium-rich for post-busy workday recovery."
+    },
+    {
+      "day": "Tuesday",
+      "suggestion": "Trail mix: walnuts + pumpkin seeds + dried cranberries + dark chocolate",
+      "nutrients_provided": [
+        "omega-3 ALA (walnuts)",
+        "iron (seeds)",
+        "magnesium",
+        "zinc",
+        "antioxidants"
+      ],
+      "why": "Pre-swim fuel for Elsie. Walnuts contribute plant omega-3 on a non-fish day."
+    },
+    {
+      "day": "Wednesday",
+      "suggestion": "Cheese + whole-grain crackers + grapes",
+      "nutrients_provided": [
+        "calcium",
+        "whole grain",
+        "antioxidants (resveratrol)",
+        "vitamin K"
+      ],
+      "why": "Sodium-heavy dinner coming; cheese snack is paradoxically calcium-protective and grapes add fresh fruit."
+    },
+    {
+      "day": "Thursday",
+      "suggestion": "Smoothie: banana, frozen mango, spinach, chia seeds, fortified orange juice",
+      "nutrients_provided": [
+        "potassium",
+        "vitamin C",
+        "calcium (fortified OJ)",
+        "omega-3 ALA (chia)",
+        "folate",
+        "vitamin A"
+      ],
+      "why": "Post-work-visit snack after Elsie's big morning; spinach is undetectable, mango and banana make it dessert-sweet."
+    },
+    {
+      "day": "Friday",
+      "suggestion": "Edamame with sea salt + clementine",
+      "nutrients_provided": [
+        "plant protein (~17g)",
+        "fiber",
+        "calcium",
+        "vitamin C",
+        "folate"
+      ],
+      "why": "Branzino dinner is lean; edamame adds protein density and vitamin C to enhance iron from the kale."
+    },
+    {
+      "day": "Saturday",
+      "suggestion": "Cottage cheese + pineapple + pumpkin seeds",
+      "nutrients_provided": [
+        "calcium (~140mg)",
+        "protein",
+        "vitamin C",
+        "iron",
+        "magnesium",
+        "bromelain (digestive enzyme)"
+      ],
+      "why": "Laura is gone; this is an easy dad-and-Elsie afternoon snack before tacos. Bromelain aids protein digestion ahead of the meal."
+    }
+  ],
+  "kid_specific_notes": {
+    "elsie": [
+      "Peak bone-building age — ensure daily calcium (~1,000mg now, rising to 1,300mg at 9). This week's Parmesan (Tue), bok choy (Wed), pizza (Thu), taco cheese (Sat) plus snack yogurt/milk each day covers it.",
+      "Iron: Tuesday's Babo Pasta spinach is non-heme — add a lemon squeeze or a clementine alongside to boost absorption 3x. Monday's steak covers heme iron.",
+      "Vitamin D: April Virginia sunshine helps. Friday branzino + daily breakfast with fortified milk or eggs is the dietary piece.",
+      "Monday's steak dinner is low-carb — add whole-grain bread or a small serving of rice so she has energy through AI-busy workday-late-evening bedtime.",
+      "Friday's whole fish may be visually intimidating — let her help pull the tender meat off the bones, which turns it into a 'cool' meal rather than a scary one.",
+      "Saturday taco night is a good chance to let her assemble her own plate — autonomy supports a healthy relationship with food at this age."
+    ]
+  },
+  "hydration_notes": [
+    "Target for Elsie: ~5–6 cups water/day (more on swim-lesson Tuesday)",
+    "Target for Laura: ~9 cups/day",
+    "Target for Dan: ~13 cups/day (higher with daily 35–45 min exercise)",
+    "Tuesday swim lessons — Elsie should drink 8oz before and 8oz after lesson",
+    "Wednesday's dumpling dinner is sodium-heavy — extra water with dinner for all three",
+    "Friday at 79°F is the warmest day — pre-hydrate in the afternoon, not just at dinner",
+    "Saturday Dan and Elsie: keep a pitcher of water with lemon/cucumber on the taco table — makes hydration a shared ritual",
+    "Limit juice for Elsie to 4–6oz/day; prefer whole fruit",
+    "Coffee/tea count toward fluid intake for adults but not as primary hydration"
+  ],
+  "nutrient_primer": [
+    {
+      "nutrient": "Protein",
+      "why_it_matters": "Protein is the raw material of every tissue you rebuild each day — muscle, skin, enzymes, hormones, immune cells. Adequate intake spread across the day (not front-loaded in one meal) prevents muscle loss in adults, supports growth in kids, and is the single biggest driver of satiety, which is why high-protein meals keep you full longer.",
+      "best_sources_this_week": [
+        "Monday steak",
+        "Wednesday pork dumplings",
+        "Friday branzino",
+        "Saturday taco meat",
+        "Tuesday Parmesan on pasta"
+      ]
+    },
+    {
+      "nutrient": "Fiber",
+      "why_it_matters": "Fiber feeds the trillions of beneficial bacteria in your gut, slows glucose absorption to prevent blood-sugar crashes, lowers LDL cholesterol by binding it for excretion, and keeps you regular. Most Americans get half the recommended amount — 25g for women, 35g for men — and the gap is the single most fixable nutritional problem in modern diets.",
+      "best_sources_this_week": [
+        "Monday avocado in salad",
+        "Lunch lentils/chickpeas/black beans",
+        "Friday kale",
+        "Snack edamame",
+        "Saturday taco black beans"
+      ]
+    },
+    {
+      "nutrient": "Calcium",
+      "why_it_matters": "Calcium is 99% stored in bones and teeth, but the remaining 1% runs muscle contraction, nerve signals, and blood clotting — and the body will dismantle bone to keep that 1% steady if you don't eat enough. For Elsie at 8, this is peak bone-building: 40% of lifetime bone mass is laid down between 8 and 16, making dietary calcium non-negotiable right now.",
+      "best_sources_this_week": [
+        "Wednesday bok choy",
+        "Thursday pizza cheese",
+        "Tuesday Parmesan",
+        "Snack yogurt/milk daily"
+      ]
+    },
+    {
+      "nutrient": "Vitamin D",
+      "why_it_matters": "Vitamin D is less a vitamin than a hormone — it tells the gut to absorb calcium (without it, you absorb only 10–15% of what you eat). It also modulates the immune system, regulates mood via serotonin, and maintains muscle strength. Most Americans are insufficient, especially in winter months; April sun in Virginia is starting to help, but dietary intake still matters.",
+      "best_sources_this_week": [
+        "Friday branzino",
+        "Egg yolks in Tuesday pasta",
+        "Fortified milk at breakfast",
+        "Tuna lunch Monday"
+      ]
+    },
+    {
+      "nutrient": "Iron",
+      "why_it_matters": "Iron is the center of hemoglobin, the molecule that shuttles oxygen from lungs to every cell. Low iron means less oxygen delivery — fatigue, brain fog, poor exercise tolerance. Heme iron (from meat) is absorbed 2–3x better than non-heme (from plants); pairing non-heme iron with vitamin C triples absorption. Laura and Elsie have higher needs than Dan.",
+      "best_sources_this_week": [
+        "Monday steak (heme)",
+        "Tuesday spinach pasta (non-heme — add lemon)",
+        "Wednesday pork (heme)",
+        "Saturday beef tacos (heme)"
+      ]
+    },
+    {
+      "nutrient": "Magnesium",
+      "why_it_matters": "Magnesium is the quiet workhorse of 300+ enzymes — energy production, muscle relaxation, nerve signaling, sleep regulation, blood sugar control. About half of Americans don't hit the recommended intake, and the symptoms (poor sleep, muscle cramps, anxiety, fatigue) are so ordinary they get blamed on everything else. Active people lose it through sweat and need more.",
+      "best_sources_this_week": [
+        "Snack almonds/pumpkin seeds",
+        "Friday kale",
+        "Monday avocado",
+        "Lunch quinoa (Saturday) and brown rice (Thursday)"
+      ]
+    },
+    {
+      "nutrient": "Potassium",
+      "why_it_matters": "Potassium is the electrolyte that counterbalances sodium — higher potassium intake actively helps your kidneys excrete excess sodium, which is why potassium-rich diets lower blood pressure. It also runs muscle contractions (including heartbeat) and nerve signals. Active men need the most (3,400mg/day), and almost no one hits it without deliberate effort.",
+      "best_sources_this_week": [
+        "Monday avocado",
+        "Friday polenta",
+        "Saturday sweet potato (lunch)",
+        "Snack banana smoothie Thursday"
+      ]
+    },
+    {
+      "nutrient": "Omega-3 (EPA & DHA)",
+      "why_it_matters": "The two long-chain omega-3s from fish — EPA and DHA — are structural building blocks of brain cell membranes and powerful anti-inflammatory signals. They lower triglycerides, support heart health, and for kids, DHA specifically supports ongoing brain development. Plant omega-3 (ALA, from flax/walnut/chia) is helpful but converts to EPA/DHA poorly — fish twice a week is the real target.",
+      "best_sources_this_week": [
+        "Friday branzino (star)",
+        "Monday tuna lunch",
+        "Thursday salmon rice bowl lunch",
+        "Walnuts and chia in snacks"
+      ]
+    },
+    {
+      "nutrient": "Lycopene",
+      "why_it_matters": "Lycopene is the red pigment in tomatoes and watermelon, and unlike most antioxidants, it becomes MORE bioavailable when cooked — which is why tomato sauce is nutritionally superior to raw tomato for this nutrient. It's linked to reduced cardiovascular risk and (in men) lower prostate cancer risk. Pair with a little fat for best absorption.",
+      "best_sources_this_week": [
+        "Sunday Gravy (long-cooked)",
+        "Thursday pizza sauce",
+        "Saturday taco salsa",
+        "Lunch cherry tomatoes Monday"
+      ]
+    },
+    {
+      "nutrient": "Folate (B9)",
+      "why_it_matters": "Folate is essential for DNA synthesis and cell division — which is why deficiency shows up first in rapidly dividing tissues (gut lining, red blood cells, developing embryos). It lowers homocysteine, a cardiovascular risk marker, and is critical for women of childbearing age. The name comes from 'foliage' — leafy greens are the original source.",
+      "best_sources_this_week": [
+        "Tuesday spinach pasta",
+        "Monday + Saturday avocado",
+        "Friday kale",
+        "Lunch lentils (Sunday), black beans (Tuesday), chickpeas (Wednesday)"
+      ]
+    },
+    {
+      "nutrient": "Vitamin B12",
+      "why_it_matters": "B12 is required for red blood cell formation, nerve myelination, and DNA synthesis. It's unique in that it comes almost exclusively from animal products — a real concern for strict vegetarians and vegans. Deficiency develops slowly (the liver stores 3–5 years' worth) but can cause irreversible nerve damage if ignored. Omnivores with normal meat intake are rarely deficient.",
+      "best_sources_this_week": [
+        "Monday steak",
+        "Wednesday pork",
+        "Friday branzino",
+        "Egg yolks in Tuesday pasta",
+        "Saturday taco meat"
+      ]
+    },
+    {
+      "nutrient": "Vitamin C",
+      "why_it_matters": "Vitamin C is the body's most abundant water-soluble antioxidant, a cofactor for collagen synthesis (skin, tendons, blood vessels), and the single biggest enhancer of non-heme iron absorption — pairing vitamin C with plant iron can triple uptake. It's also required for immune cell function. The body doesn't store it, so daily intake is mandatory.",
+      "best_sources_this_week": [
+        "Monday red onion + avocado salad",
+        "Wednesday bok choy",
+        "Saturday taco salsa/lime",
+        "Snack berries, clementine, orange"
+      ]
+    },
+    {
+      "nutrient": "Vitamin K",
+      "why_it_matters": "Vitamin K activates the proteins that clot your blood and the proteins that bind calcium into bones. Without K, calcium can end up in arteries instead of bones (arterial calcification). Dark leafy greens are by far the densest source, and a single serving of kale covers more than a week's requirement. Fat-soluble — pair with olive oil for better absorption.",
+      "best_sources_this_week": [
+        "Friday kale (450% DV)",
+        "Monday romaine salad",
+        "Tuesday spinach pasta",
+        "Lunch hummus wrap with spinach (Friday)"
+      ]
+    }
+  ],
+  "weekly_nutrition_summary": "A strong, protein-diverse week with one major nutritional highlight — Friday's whole branzino delivers a single-meal omega-3 megadose that rescues what would otherwise be a fish-light menu. Bok choy on Wednesday and kale on Friday make this the best dark-green-vegetable week in a month. The family's main weaknesses are familiar: too much refined grain (fix with lunch swaps to farro, quinoa, brown rice), only one seafood dinner (fix with tuna or salmon lunches Mon and Thu), and zero fruit at dinner (fix with berry or fruit-based snacks and treating fruit as the default dessert). Elsie's calcium and iron are well-supported by dinners plus daily snack yogurt/milk. Sodium is the one caution — Wednesday dumplings and Thursday pizza cluster together, so lean lighter on Mon/Fri/Sat. Hydration matters especially Tuesday (swim lessons) and Friday (79°F warm day)."
+}
