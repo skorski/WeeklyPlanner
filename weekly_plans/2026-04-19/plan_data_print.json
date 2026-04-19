@@ -79,7 +79,56 @@
           "title": ""
         }
       ],
-      "dinner_question": null
+      "dinner_question": null,
+      "recipe_card": {
+        "source_url": "https://www.seriouseats.com/the-best-italian-american-tomato-sauce-recipe",
+        "source_name": "",
+        "servings": 6,
+        "prep_time": "45 min",
+        "cook_time": "4 hr",
+        "nonna_says": "Brown the pork bones hard in a dry Dutch oven until mahogany, then take them out. Same pan, brown the sausage and the meatballs until they have color, take those out too. Don't you dare wipe the pan. Soften onions in that beautiful fat, add garlic, then a heaping spoon of tomato paste and toast it until it goes brick red and smells like pizza. Splash in the wine, scrape up every bit, then crush your San Marzanos in with your hands. All the meat goes back in, partial lid, lowest flame, three to four hours. Skim the fat twice. Meanwhile make your spinach pasta, extrude it, and when dinner is thirty minutes away cook it 60 seconds shy of done and finish it right in a pan of sauce with a splash of pasta water. Anyone reaching for a jar of sauce today should go sit in the corner and think about their life.",
+        "variations": [
+          {
+            "name": "Neapolitan Ragu alla Genovese",
+            "twist": "Swap the tomato-forward gravy for a Neapolitan-style meat sauce built on slowly melted onions and beef chuck with only a splash of tomato. Deep, sweet, and unexpected.",
+            "source_url": "https://www.seriouseats.com/la-genovese-neapolitan-slow-cooked-onion-and-beef-ragu-recipe"
+          },
+          {
+            "name": "Short Rib Sunday Sauce",
+            "twist": "Replace the pork neck bones with bone-in beef short ribs for a richer, beefier gravy. Braise until the meat falls off the bone, then shred it right into the sauce.",
+            "source_url": "https://www.bonappetit.com/recipe/short-rib-sunday-sauce"
+          },
+          {
+            "name": "Roasted Tomato Vodka Gravy",
+            "twist": "Roast fresh cherry tomatoes with garlic until jammy, blend with cream and a splash of vodka for a modern Italian-American take on pink sauce. Lighter and faster.",
+            "source_url": "https://cooking.nytimes.com/recipes/1019089-pasta-alla-vodka"
+          }
+        ],
+        "ingredients": [
+          "2 lbs pork neck bones or country-style ribs",
+          "1 lb Italian sausage links, sweet and hot mixed",
+          "1 lb ground beef and pork for meatballs (half and half)",
+          "2 large eggs",
+          "1 cup fresh breadcrumbs soaked in 1/2 cup milk",
+          "1/2 cup grated Pecorino Romano, plus more for serving",
+          "1 small bunch parsley, chopped",
+          "6 garlic cloves, minced (4 for meatballs, 2 for sauce)",
+          "1 large yellow onion, finely diced",
+          "2 tablespoons tomato paste",
+          "1/2 cup dry red wine",
+          "2 28-oz cans whole San Marzano tomatoes, crushed by hand",
+          "1 teaspoon dried oregano",
+          "1 bay leaf",
+          "Pinch of red pepper flakes",
+          "Kosher salt and black pepper",
+          "Olive oil",
+          "500g 00 flour for pasta",
+          "150g fresh spinach, blanched and pureed",
+          "4-5 large eggs for pasta dough",
+          "Semolina flour for dusting"
+        ],
+        "engineer_table": "| Ingredient              | Prep              | Step 1: Brown       | Step 2: Build base    | Step 3: Simmer       | Step 4: Pasta        | Step 5: Finish       |\n|-------------------------|-------------------|---------------------|-----------------------|----------------------|----------------------|----------------------|\n| Pork neck bones         | Pat dry           | Sear mahogany       |                       |                      |                      |                      |\n| Italian sausage         |                   | Sear golden         |                       |                      |                      |                      |\n| Meatball mix + egg +    | Form balls        | Sear crust          |                       |                      |                      |                      |\n| breadcrumbs + pecorino  |                   |                     |                       |                      |                      |                      |\n| Onion                   | Fine dice         |                     | Sweat 6 min           |                      |                      |                      |\n| Garlic                  | Mince             |                     | Add 1 min             |                      |                      |                      |\n| Tomato paste            |                   |                     | Toast brick red 3 min |                      |                      |                      |\n| Red wine                |                   |                     | Deglaze, scrape fond  |                      |                      |                      |\n| San Marzano tomatoes    | Hand-crush        |                     | Pour in               | Simmer 3-4 hr        |                      |                      |\n| Oregano + bay + chile   |                   |                     | Stir in               | Return all meats     |                      |                      |\n| 00 flour                |                   |                     |                       |                      | Well, add eggs +     |                      |\n| Eggs                    | Beat              |                     |                       |                      | spinach puree,       |                      |\n| Spinach puree           | Blanch, squeeze   |                     |                       |                      | knead 10 min, rest   |                      |\n| Semolina                |                   |                     |                       |                      | Dust, extrude        | Boil 60 sec shy      |\n| Pasta water + sauce     |                   |                     |                       |                      |                      | Toss in pan 90 sec   |\n| Pecorino + basil        | Grate, tear       |                     |                       |                      |                      | Shower to serve      |"
+      }
     },
     {
       "name": "Mon 04/20",
@@ -157,7 +206,49 @@
           "title": ""
         }
       ],
-      "dinner_question": null
+      "dinner_question": null,
+      "recipe_card": {
+        "source_url": "https://www.bonappetit.com/recipe/grilled-steak-and-romaine-salad",
+        "source_name": "",
+        "servings": 3,
+        "prep_time": "15 min + all-day dry brine",
+        "cook_time": "15 min",
+        "nonna_says": "This morning, before you leave the house, dry the steak with paper towels, salt it like you mean it on every side, and put it on a rack in the fridge uncovered. Forget about it all day. When you get home, quick-pickle the red onions in red wine vinegar with a pinch of sugar and salt while the cast-iron gets screaming hot. Sear the steak three minutes a side, no flipping, no poking, then let it rest on the cutting board for eight full minutes. While it rests, whisk the onion brine with olive oil, Dijon, grated garlic, and pepper, and toss with cold torn romaine, cucumbers, and avocado. Slice the steak against the grain, fan it hot over the cold salad, pickled onions on top, flaky salt, done. Fifteen minutes from door to fork and nobody is going to call this a sad gym dinner.",
+        "variations": [
+          {
+            "name": "Thai-Style Grilled Beef Salad (Yum Nua)",
+            "twist": "Swap the vinaigrette for a fish sauce, lime, chili, and mint dressing. Toss with the same greens plus shallots and cilantro for a bright, spicy Southeast Asian spin.",
+            "source_url": "https://www.seriouseats.com/thai-style-grilled-beef-salad-yum-nua"
+          },
+          {
+            "name": "Steakhouse Wedge with Blue Cheese",
+            "twist": "Replace the avocado-vinaigrette setup with iceberg wedges, homemade buttermilk-blue-cheese dressing, bacon, and cherry tomatoes. Classic American chophouse energy.",
+            "source_url": "https://cooking.nytimes.com/recipes/1019108-wedge-salad-with-blue-cheese-dressing"
+          },
+          {
+            "name": "Steak Chimichurri Bowl",
+            "twist": "Skip the dressing, make bright cilantro-parsley chimichurri instead, and serve sliced steak over romaine with rice, black beans, roasted corn, and pickled onions.",
+            "source_url": "https://www.bonappetit.com/recipe/chimichurri"
+          }
+        ],
+        "ingredients": [
+          "1 1/2 lbs New York strip or sirloin steak, 1 to 1 1/2 inches thick",
+          "Kosher salt and freshly cracked black pepper",
+          "2 hearts of romaine, torn into large pieces",
+          "1 English cucumber, halved and sliced into half-moons",
+          "1/2 red onion, very thinly sliced",
+          "2 ripe avocados, sliced",
+          "3 tablespoons red wine vinegar",
+          "1 teaspoon sugar",
+          "1 teaspoon Dijon mustard",
+          "5 tablespoons extra virgin olive oil",
+          "1 small garlic clove, grated",
+          "2 tablespoons neutral oil for searing",
+          "Flaky salt for finishing",
+          "Optional: shaved Parmesan or crumbled blue cheese"
+        ],
+        "engineer_table": "| Ingredient              | Prep              | Step 1: Dry brine    | Step 2: Pickle       | Step 3: Sear         | Step 4: Dress        | Step 5: Plate        |\n|-------------------------|-------------------|----------------------|----------------------|----------------------|----------------------|----------------------|\n| Steak                   | Pat dry           | Salt all sides,      |                      |                      |                      |                      |\n|                         |                   | rack in fridge 8 hr  |                      | Sear 3 min/side      |                      |                      |\n|                         |                   |                      |                      | Rest 8 min, slice    |                      |                      |\n| Red onion               | Thin slice        |                      | Vinegar + sugar +    |                      |                      | Top steak            |\n| Red wine vinegar        |                   |                      | salt, 10 min         |                      | Reuse brine as base  |                      |\n| Olive oil + Dijon       |                   |                      |                      |                      | Whisk with brine     |                      |\n| Garlic                  | Grate             |                      |                      |                      | Into dressing        |                      |\n| Romaine                 | Tear, chill       |                      |                      |                      |                      | Toss with dressing   |\n| Cucumber                | Half-moons        |                      |                      |                      |                      | Toss with dressing   |\n| Avocado                 | Slice             |                      |                      |                      |                      | Fan on top           |\n| Flaky salt              |                   |                      |                      |                      |                      | Shower to finish     |"
+      }
     },
     {
       "name": "Tue 04/21",
@@ -245,7 +336,46 @@
           "title": ""
         }
       ],
-      "dinner_question": null
+      "dinner_question": null,
+      "recipe_card": {
+        "source_url": "https://food52.com/recipes/87659-best-spinach-pasta-recipe",
+        "source_name": "",
+        "servings": 4,
+        "prep_time": "45 min + 30 min rest",
+        "cook_time": "10 min",
+        "nonna_says": "Blanch the spinach twenty seconds until it is bright green, then squeeze every drop of water out like you mean it and blend smooth. Well in the 00 flour, yolks only in the well with the spinach puree and a pinch of salt, and work it together with your hands until it comes into a silky dough. Knead ten minutes, wrap, rest thirty. Roll it thin and cut tagliatelle. Cook in very salty boiling water for 90 seconds only, not one second more. Meanwhile brown five tablespoons of butter in a light pan until it smells like hazelnuts, drop the sage in, and pull the pasta right into the pan with a splash of the starchy water. Toss hard for a minute until it goes glossy, squeeze half a lemon, shower with Parmigiano, and put it on the table before it cools. See? Not so hard.",
+        "variations": [
+          {
+            "name": "Babo with Brown Butter and Peas",
+            "twist": "Add a cup of sweet spring peas to the pan with the brown butter and sage. A splash of cream turns it into a silky green ragu that clings to the tagliatelle.",
+            "source_url": "https://www.bonappetit.com/recipe/pasta-with-peas"
+          },
+          {
+            "name": "Spinach Pappardelle with Lemon Ricotta",
+            "twist": "Cut the same spinach dough into wide pappardelle and toss with whipped lemon ricotta, olive oil, and cracked pepper for a cool, creamy alternative to brown butter.",
+            "source_url": "https://cooking.nytimes.com/recipes/1017849-lemon-ricotta-pasta"
+          },
+          {
+            "name": "Babo Agnolotti with Pea and Mint",
+            "twist": "Use the same egg-yolk spinach dough to fill tiny agnolotti with a mashed pea, mint, and ricotta filling. Serve in brown butter for a restaurant-style pasta course.",
+            "source_url": "https://www.seriouseats.com/pea-ricotta-agnolotti-recipe"
+          }
+        ],
+        "ingredients": [
+          "500g 00 flour, plus more for dusting",
+          "150g fresh spinach",
+          "8-10 large egg yolks (no whites)",
+          "Pinch of salt",
+          "Semolina flour for dusting",
+          "5 tablespoons unsalted butter",
+          "12-15 fresh sage leaves",
+          "Half a lemon",
+          "1 cup Parmigiano-Reggiano, freshly grated",
+          "Cracked black pepper",
+          "2 tablespoons pine nuts, dry-toasted (optional)"
+        ],
+        "engineer_table": "| Ingredient              | Prep              | Step 1: Puree spinach | Step 2: Make dough   | Step 3: Rest/roll    | Step 4: Cook pasta   | Step 5: Brown butter | Step 6: Finish       |\n|-------------------------|-------------------|-----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|\n| Fresh spinach           | Wash              | Blanch 20 sec, shock  |                      |                      |                      |                      |                      |\n|                         |                   | Squeeze dry, blend    |                      |                      |                      |                      |                      |\n| 00 flour                |                   |                       | Make well            |                      |                      |                      |                      |\n| Egg yolks               | Separate          |                       | Add to well          |                      |                      |                      |                      |\n| Spinach puree + salt    |                   |                       | Add to well, knead   | Wrap, rest 30 min    |                      |                      |                      |\n|                         |                   |                       | 10 min until silky   | Roll, cut tagliatelle|                      |                      |                      |\n| Semolina                |                   |                       |                      | Dust to prevent stick|                      |                      |                      |\n| Salted water            |                   |                       |                      |                      | Boil 90 seconds      |                      |                      |\n| Butter                  |                   |                       |                      |                      |                      | Brown 4 min amber    |                      |\n| Sage leaves             |                   |                       |                      |                      |                      | Drop in, crisp 10 sec|                      |\n| Pasta water             |                   |                       |                      |                      |                      | Splash into butter   | Toss pasta 60-90 sec |\n| Lemon                   | Squeeze           |                       |                      |                      |                      |                      | Finish with acid     |\n| Parmigiano + pine nuts  | Grate, toast      |                       |                      |                      |                      |                      | Shower on top        |"
+      }
     },
     {
       "name": "Wed 04/22",
@@ -324,7 +454,52 @@
           "title": ""
         }
       ],
-      "dinner_question": null
+      "dinner_question": null,
+      "recipe_card": {
+        "source_url": "https://thewoksoflife.com/sesame-noodles-with-chicken/",
+        "source_name": "",
+        "servings": 4,
+        "prep_time": "15 min",
+        "cook_time": "20 min",
+        "nonna_says": "Whisk sesame paste, soy, black vinegar, sugar, and sesame oil in a big bowl. Heat the neutral oil with sliced garlic and grated ginger over medium-low until the garlic is just pale gold, then pour the whole sizzling thing right into the sauce bowl and whisk until silky. Blanch the bok choy stems-down sixty seconds, flip, leaves twenty, shock cold and pat dry. Boil noodles, drain, toss in the sauce while still warm. For the dumplings, arrange them flat-side-down in a hot nonstick pan with two tablespoons oil and sear two minutes until deep gold, pour the cornstarch slurry in, clamp the lid on, steam seven minutes, then uncover and let the water evaporate until it sizzles silent. Pile noodles on the plate, bok choy around them, dumplings crust-up on the side, scallions and sesame seeds and cilantro on top. Ten minutes and it looks like it came out of a restaurant window.",
+        "variations": [
+          {
+            "name": "Dan Dan Noodles",
+            "twist": "Swap the sesame sauce for a spicy Sichuan dan dan version with chili oil, preserved vegetables, and crispy ground pork on top. Serve with the same pan-fried dumplings.",
+            "source_url": "https://www.seriouseats.com/real-deal-dan-dan-noodles-recipe"
+          },
+          {
+            "name": "Cold Peanut Noodles with Cucumber",
+            "twist": "Replace sesame paste with peanut butter, add rice vinegar and lime, and serve the noodles cold with julienned cucumber and shredded rotisserie chicken. Summer-friendly.",
+            "source_url": "https://cooking.nytimes.com/recipes/12965-cold-sesame-noodles"
+          },
+          {
+            "name": "Scallion Oil Noodles (Cong You Mian)",
+            "twist": "Skip the sesame paste entirely and slow-cook scallions in oil until crispy and dark, toss the oil with noodles, soy, and a splash of sugar. Minimalist Shanghai classic.",
+            "source_url": "https://thewoksoflife.com/scallion-oil-noodles/"
+          }
+        ],
+        "ingredients": [
+          "24 frozen pork dumplings",
+          "2 tablespoons neutral oil for dumplings",
+          "1/3 cup water + 1 teaspoon cornstarch (slurry for dumplings)",
+          "1 lb lo mein or fresh Chinese wheat noodles",
+          "3 tablespoons toasted sesame paste or tahini",
+          "3 tablespoons soy sauce",
+          "2 tablespoons Chinkiang black vinegar",
+          "1 tablespoon sugar",
+          "1 teaspoon toasted sesame oil",
+          "1/3 cup neutral oil for aromatic oil",
+          "3 garlic cloves, thinly sliced",
+          "1 tablespoon fresh ginger, grated",
+          "4 heads baby bok choy, halved lengthwise",
+          "3 scallions, thinly sliced",
+          "1 tablespoon toasted sesame seeds",
+          "Small handful of cilantro, torn",
+          "Optional: chili crisp on the table"
+        ],
+        "engineer_table": "| Ingredient                | Prep              | Step 1: Sauce base   | Step 2: Bloom oil     | Step 3: Noodles      | Step 4: Bok choy     | Step 5: Dumplings    | Step 6: Plate        |\n|---------------------------|-------------------|----------------------|-----------------------|----------------------|----------------------|----------------------|----------------------|\n| Sesame paste              |                   | Whisk together       |                       |                      |                      |                      |                      |\n| Soy sauce                 |                   | in a big bowl        |                       |                      |                      |                      |                      |\n| Chinkiang vinegar         |                   | until smooth         |                       |                      |                      |                      |                      |\n| Sugar + sesame oil        |                   | Whisk in             |                       | Toss with warm       |                      |                      |                      |\n| Neutral oil               |                   |                      | Heat over med-low     | noodles              |                      |                      |                      |\n| Garlic slices + ginger    | Slice, grate      |                      | Pale gold, pour hot   |                      |                      |                      |                      |\n|                           |                   |                      | into sauce bowl       |                      |                      |                      |                      |\n| Lo mein noodles           |                   |                      |                       | Boil, drain          |                      |                      | Base of plate        |\n| Baby bok choy             | Halve             |                      |                       |                      | Blanch stems 60 sec, |                      | Arrange around       |\n|                           |                   |                      |                       |                      | leaves 20 sec, shock |                      |                      |\n| Frozen dumplings          |                   |                      |                       |                      |                      | Sear 2 min, slurry,  | Crust-up on plate    |\n| Cornstarch slurry         |                   |                      |                       |                      |                      | lid 7 min, dry-fry   |                      |\n| Scallions + sesame + cil. | Slice, tear       |                      |                       |                      |                      |                      | Shower on top        |"
+      }
     },
     {
       "name": "Thu 04/23",
@@ -407,7 +582,50 @@
           "title": ""
         }
       ],
-      "dinner_question": null
+      "dinner_question": null,
+      "recipe_card": {
+        "source_url": "https://www.kingarthurbaking.com/recipes/neapolitan-style-pizza-crust-recipe",
+        "source_name": "",
+        "servings": 4,
+        "prep_time": "20 min + 24-72 hr cold ferment",
+        "cook_time": "8 min per pizza",
+        "nonna_says": "Mix flour, water, salt, and that tiny pinch of yeast in a bowl until there are no dry bits, cover, and forget about it on the counter for an hour, then stretch and fold a couple times and put it in the fridge for at least a day, two is better. When you're ready, pull the dough out ninety minutes before you bake. Crank the oven to 550 with a baking steel on the lowest rack for a full forty-five minutes, no cheating. For sauce, blitz whole San Marzanos with olive oil, salt, a pinch of sugar, grated garlic, and a basil stem for five seconds only, you want it chunky. Stretch dough by hand on a semolina-dusted peel, top fast, launch fast, bake five to seven minutes until the cornicione is blistered and spotty. Finish each pie AFTER the oven with torn basil, good olive oil, hot honey, or lemon zest depending on which one it is. If you're using pre-shredded bag mozzarella for pizza night we are not related.",
+        "variations": [
+          {
+            "name": "Detroit-Style Pan Pizza",
+            "twist": "Press the same cold-fermented dough into an oiled steel pan, layer brick cheese all the way to the edges for a lacy crust, and finish with red sauce striped on top.",
+            "source_url": "https://www.seriouseats.com/foolproof-pan-pizza-recipe"
+          },
+          {
+            "name": "Grilled Pizza",
+            "twist": "Take the dough and sauce outside. Grill the stretched dough on direct heat for 2 minutes per side, topping between flips. Smoky char and a crisp bottom without an oven.",
+            "source_url": "https://www.bonappetit.com/recipe/grilled-pizza"
+          },
+          {
+            "name": "Focaccia Pizza (Pizza in Teglia)",
+            "twist": "Use a higher-hydration focaccia dough pressed into a sheet pan, top with sauce and cheese, and bake for a thick, airy, almost-bread Roman-style pizza.",
+            "source_url": "https://www.kingarthurbaking.com/recipes/pizza-in-teglia-alla-romana-recipe"
+          }
+        ],
+        "ingredients": [
+          "500g 00 flour (or bread flour)",
+          "325g cool water",
+          "10g fine sea salt",
+          "1g instant yeast",
+          "1 28-oz can whole San Marzano tomatoes",
+          "2 tablespoons extra virgin olive oil, plus more for drizzling",
+          "1 teaspoon kosher salt",
+          "Pinch of sugar",
+          "1 garlic clove, grated",
+          "Torn basil stems + leaves",
+          "1 lb fresh mozzarella, hand-torn and patted dry",
+          "4 oz burrata (optional, for Margherita Plus)",
+          "Toppings: rotisserie chicken, roasted red peppers, red onion, hot honey, ricotta, sautéed greens, Parmigiano",
+          "Semolina flour for the peel",
+          "Baby arugula, lemon, olive oil, and flaky salt for side salad"
+        ],
+        "engineer_table": "| Ingredient              | Prep              | Step 1: Mix dough    | Step 2: Cold ferment | Step 3: Preheat      | Step 4: Sauce        | Step 5: Build + bake | Step 6: Finish       |\n|-------------------------|-------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|\n| 00 flour                |                   | Combine              |                      |                      |                      |                      |                      |\n| Cool water              |                   | no-dry-bits shaggy   |                      |                      |                      |                      |                      |\n| Sea salt + yeast        |                   | Rest 1 hr            |                      |                      |                      |                      |                      |\n|                         |                   | Stretch + fold 3x    | Fridge 24-72 hr      |                      |                      |                      |                      |\n|                         |                   |                      | Divide, rest 90 min  |                      |                      |                      |                      |\n| Baking steel            |                   |                      |                      | 550F, 45 min         |                      |                      |                      |\n| San Marzano tomatoes    |                   |                      |                      |                      | Blitz 5 sec chunky   |                      |                      |\n| Olive oil + salt +      |                   |                      |                      |                      | Into sauce           |                      |                      |\n| sugar + garlic + basil  | Grate garlic      |                      |                      |                      |                      |                      |                      |\n| Fresh mozzarella        | Tear, pat dry     |                      |                      |                      |                      | Scatter on dough     |                      |\n| Toppings                | Prep              |                      |                      |                      |                      | Dress fast           |                      |\n| Semolina                |                   |                      |                      |                      |                      | Dust peel, launch    |                      |\n|                         |                   |                      |                      |                      |                      | Bake 5-7 min         |                      |\n| Basil + olive oil +     |                   |                      |                      |                      |                      |                      | Post-oven shower     |\n| hot honey + burrata     |                   |                      |                      |                      |                      |                      | per pizza            |\n| Arugula + lemon + EVOO  | Toss last second  |                      |                      |                      |                      |                      | Side salad           |"
+      }
     },
     {
       "name": "Fri 04/24",
@@ -491,7 +709,51 @@
           "title": ""
         }
       ],
-      "dinner_question": null
+      "dinner_question": null,
+      "recipe_card": {
+        "source_url": "https://www.bonappetit.com/recipe/whole-roasted-branzino",
+        "source_name": "",
+        "servings": 3,
+        "prep_time": "15 min",
+        "cook_time": "40 min",
+        "nonna_says": "Score each fish three times per side on a 45-degree angle, deep enough to hit the flesh but not through it. Stuff the belly with lemon slices, thyme, smashed garlic, and a pinch of fennel seed, brush skin with olive oil, salt it generously inside and out. Roast on a preheated sheet pan at 450 for eighteen to twenty-two minutes until the skin is papery crisp and the flesh at the backbone flakes with a fork. Polenta wants time, so start it first in a heavy pot with milk and water, whisk the cornmeal in, and stir low and slow for thirty-five minutes before finishing with butter and Parmigiano off the heat. Hot pan, olive oil, smashed garlic, red pepper flake, toss the kale in for three minutes until the edges char, squeeze lemon. Whisk parsley, capers, anchovy, garlic, lemon, and olive oil for your salsa verde. Carve the fish at the table, spoon salsa verde over everything, and watch three people fight over the crispy skin. Good fish does not need a sauce from a jar.",
+        "variations": [
+          {
+            "name": "Salt-Crusted Whole Branzino",
+            "twist": "Bury the fish in a mound of kosher salt mixed with egg white and roast. Crack open at the table for impossibly moist, perfectly seasoned fish.",
+            "source_url": "https://www.seriouseats.com/salt-baked-whole-fish-recipe"
+          },
+          {
+            "name": "Acqua Pazza (Fish in Crazy Water)",
+            "twist": "Poach branzino fillets in a light broth of tomatoes, white wine, garlic, and chili. Southern Italian fishermen style, lighter and brothier than the roast.",
+            "source_url": "https://www.bonappetit.com/recipe/fish-in-crazy-water"
+          },
+          {
+            "name": "Grilled Branzino with Herb Salad",
+            "twist": "Grill the whole fish over hot coals for smoky char, then serve with a pile of fresh herb salad dressed in lemon and olive oil instead of salsa verde.",
+            "source_url": "https://www.foodandwine.com/recipes/grilled-whole-branzino-lemon-and-herbs"
+          }
+        ],
+        "ingredients": [
+          "2 whole branzino (about 1 to 1 1/4 lb each), scaled and gutted",
+          "1 lemon, thinly sliced, plus more for serving",
+          "4 sprigs fresh thyme",
+          "2 garlic cloves, smashed",
+          "1/4 teaspoon fennel seed",
+          "3 tablespoons extra virgin olive oil, plus more for drizzling",
+          "Kosher salt and black pepper",
+          "1 cup stone-ground polenta",
+          "3 cups whole milk",
+          "2 cups water or light chicken stock",
+          "3 tablespoons unsalted butter",
+          "1/2 cup grated Parmigiano-Reggiano",
+          "1 large bunch lacinato (Tuscan) kale, stems removed, leaves torn",
+          "2 garlic cloves, smashed (for kale)",
+          "Pinch red pepper flakes",
+          "Salsa verde: 1 cup flat-leaf parsley, 2 tablespoons capers, 2 anchovy fillets, 1 small garlic clove, zest and juice of 1 lemon, 1/2 cup olive oil, red pepper flake"
+        ],
+        "engineer_table": "| Ingredient              | Prep              | Step 1: Prep fish    | Step 2: Polenta      | Step 3: Kale         | Step 4: Salsa verde  | Step 5: Roast        | Step 6: Plate        |\n|-------------------------|-------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|\n| Whole branzino          | Score skin 3x     | Stuff belly cavity   |                      |                      |                      | 450F sheet pan       |                      |\n| Lemon slices + thyme    | Slice             | Into cavity          |                      |                      |                      | 18-22 min until      | Carve at table       |\n| Garlic + fennel seed    | Smash             | Into cavity          |                      |                      |                      | skin blisters        |                      |\n| Olive oil + salt        |                   | Brush, salt heavy    |                      |                      |                      |                      |                      |\n| Stone-ground polenta    |                   |                      | Whisk into milk +    |                      |                      |                      |                      |\n| Milk + water/stock      |                   |                      | water, low 35 min    |                      |                      |                      | Bed of plate         |\n| Butter + Parmigiano     | Grate             |                      | Off-heat, stir in    |                      |                      |                      |                      |\n| Lacinato kale           | Stem, tear        |                      |                      | Hot pan 3 min char   |                      |                      | Pile beside fish     |\n| Garlic + chile + EVOO   | Smash             |                      |                      | Into pan with kale   |                      |                      |                      |\n| Lemon                   | Squeeze           |                      |                      | Finish kale          |                      |                      |                      |\n| Parsley + capers +      | Fine chop         |                      |                      |                      | Stir together        |                      | Spoon over fish      |\n| anchovy + garlic + zest |                   |                      |                      |                      | with olive oil +     |                      |                      |\n| + lemon juice + EVOO    |                   |                      |                      |                      | chile flakes         |                      |                      |"
+      }
     },
     {
       "name": "Sat 04/25",
@@ -565,7 +827,57 @@
           "title": ""
         }
       ],
-      "dinner_question": null
+      "dinner_question": null,
+      "recipe_card": {
+        "source_url": "https://cooking.nytimes.com/recipes/1018489-ground-beef-tacos",
+        "source_name": "",
+        "servings": "2 + leftovers",
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "nonna_says": "Broil the tomatoes, half-onion, and garlic cloves on a sheet pan eight minutes until blistered black in spots, then blend with a chipotle and salt for a real charred salsa roja. Toss thin red onion slices with lime juice and salt, ten minutes and they go pink and gentle. Blitz avocado, sour cream, cilantro, and lime for the crema, done in thirty seconds. Brown the beef hard in a skillet with onion, garlic, and those warm spices, deglaze with a splash of water, simmer five minutes until glossy. Crisp the black beans in another pan with a little olive oil and cumin so they get a chewy edge. Toast the tortillas over the gas flame fifteen seconds a side until they puff and char, wrap in a towel to stay soft. Set the whole circus on the table, little bowls of everything, and let your girl build her own. That is half the fun and zero of the arguing.",
+        "variations": [
+          {
+            "name": "Tacos Al Pastor (Pork-Free Chicken Version)",
+            "twist": "Marinate chicken thighs in guajillo, pineapple juice, and achiote for a weeknight spin on al pastor. Serve with charred pineapple and white onion.",
+            "source_url": "https://www.seriouseats.com/tacos-al-pastor-recipe"
+          },
+          {
+            "name": "Fish Tacos with Cabbage Slaw",
+            "twist": "Swap ground beef for flaky white fish seasoned with chili-lime and pan-fried. Top with crunchy cabbage slaw and chipotle crema for Baja beach-town vibes.",
+            "source_url": "https://www.bonappetit.com/recipe/easy-fish-tacos"
+          },
+          {
+            "name": "Crispy Black Bean and Cheese Tacos",
+            "twist": "Skip the meat entirely. Smash refried black beans and melty cheese into a folded tortilla and pan-fry until both sides are deeply crispy. Endlessly kid-approved.",
+            "source_url": "https://cooking.nytimes.com/recipes/1020881-crispy-black-bean-tacos"
+          }
+        ],
+        "ingredients": [
+          "1 1/4 lb ground beef (85/15) or ground turkey",
+          "1 small onion, finely diced",
+          "2 garlic cloves, minced",
+          "2 teaspoons ancho chile powder",
+          "1 teaspoon ground cumin",
+          "1 teaspoon smoked paprika",
+          "1/2 teaspoon dried oregano",
+          "1/2 cup water or beef stock",
+          "Kosher salt",
+          "1 15-oz can black beans, drained (crisped in olive oil with cumin and salt)",
+          "12 small corn tortillas",
+          "1 ripe avocado",
+          "1/4 cup sour cream",
+          "Small handful cilantro, plus more for serving",
+          "3 limes",
+          "1/2 red onion, thinly sliced (for quick pickle)",
+          "4 Roma tomatoes, half a white onion, 2 garlic cloves, 1 chipotle in adobo (for charred salsa)",
+          "1 cup crumbled queso fresco or cotija",
+          "2 cups shredded romaine or cabbage",
+          "1 cucumber and 4 radishes, diced",
+          "1/4 cup toasted pepitas or crushed tortilla chips",
+          "Kid-friendly shredded cheddar on the side"
+        ],
+        "engineer_table": "| Ingredient               | Prep              | Step 1: Salsa roja   | Step 2: Pickle       | Step 3: Crema        | Step 4: Beef          | Step 5: Beans        | Step 6: Assemble     |\n|--------------------------|-------------------|----------------------|----------------------|----------------------|-----------------------|----------------------|----------------------|\n| Tomato + onion + garlic  | Halve, peel       | Broil 8 min blister  |                      |                      |                       |                      |                      |\n| Chipotle in adobo + salt |                   | Blend smooth         |                      |                      |                       |                      | Dip / topping bowl   |\n| Red onion                | Thin slice        |                      | Lime juice + salt,   |                      |                       |                      |                      |\n|                          |                   |                      | 10 min               |                      |                       |                      | Topping bowl         |\n| Avocado + sour cream     |                   |                      |                      | Blitz with cilantro  |                       |                      |                      |\n| Cilantro + lime          |                   |                      |                      | and lime             |                       |                      | Topping bowl         |\n| Ground beef              |                   |                      |                      |                      | Brown hard in skillet |                      |                      |\n| Onion + garlic + spices  | Dice, mince       |                      |                      |                      | Add, bloom 2 min      |                      |                      |\n| Water/stock              |                   |                      |                      |                      | Deglaze, simmer 5 min |                      | Center of table      |\n| Black beans + cumin      | Drain             |                      |                      |                      |                       | Crisp in olive oil   | Center of table      |\n| Corn tortillas           | Char 15 sec/side  |                      |                      |                      |                       |                      | Warm in towel        |\n| Queso fresco + cabbage   | Crumble, shred    |                      |                      |                      |                       |                      | Crunch bowls         |\n| Cucumber + radish + limes| Dice, quarter     |                      |                      |                      |                       |                      | Crunch bowls         |\n| Pepitas / chips          | Toast, crush      |                      |                      |                      |                       |                      | Crunch bowls         |"
+      }
     }
   ],
   "appetizers": [
@@ -726,7 +1038,7 @@
     "Pizza night after Bring-Family-to-Work lets Elsie decompress with a tactile activity — shaping dough is the reward.",
     "Saturday with Laura gone: keep it simple and fun. Taco bar beats takeout every time."
   ],
-  "generated_at": "2026-04-18 21:26",
+  "generated_at": "2026-04-19 09:37",
   "daily_plan_subtitle": "From Italian-American to Mexican, with Michael Kiwanuka on the stereo",
   "parenting_data": {
     "weekly_theme": {
