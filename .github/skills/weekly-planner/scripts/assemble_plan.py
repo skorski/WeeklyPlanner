@@ -274,6 +274,60 @@ def merge_parenting(data, parenting):
         d["dinner_question"] = dq
 
 
+def merge_recipe_cards(data, recipe_cards):
+    """Attach recipe-card details to each day.
+
+    The recipe-cards skill output uses field names that differ slightly from
+    what the booklet template consumes. This function maps them:
+      mamma_karen         -> nonna_says
+      variations[].description -> variations[].twist (template field)
+    It matches cards to days by day_of_week (case-insensitive) with a fallback
+    to dinner-name fuzzy match.
+    """
+    cards = recipe_cards.get("recipe_cards", recipe_cards) if isinstance(recipe_cards, dict) else recipe_cards
+    by_dow = {}
+    by_name = {}
+    for c in cards:
+        dow = (c.get("day") or c.get("day_of_week") or "").strip().lower()
+        if dow:
+            by_dow[dow] = c
+        nm = (c.get("name") or c.get("dish") or "").strip().lower()
+        if nm:
+            by_name[nm] = c
+
+    def _adapt(card):
+        variations = []
+        for v in card.get("variations", []) or []:
+            variations.append({
+                "name": v.get("name", ""),
+                "twist": v.get("twist") or v.get("description") or "",
+                "source_url": v.get("source_url", ""),
+            })
+        return {
+            "source_url": card.get("source_url", ""),
+            "source_name": card.get("source_name", ""),
+            "servings": card.get("servings", ""),
+            "prep_time": card.get("prep_time", ""),
+            "cook_time": card.get("cook_time", ""),
+            "nonna_says": card.get("nonna_says") or card.get("mamma_karen") or "",
+            "variations": variations,
+            "ingredients": card.get("ingredients", []),
+            "engineer_table": card.get("engineer_table", []),
+        }
+
+    merged = 0
+    for day in data.get("days", []):
+        dow = day.get("day_of_week", "")
+        card = by_dow.get(dow)
+        if not card:
+            dinner = (day.get("dinner") or "").strip().lower()
+            card = by_name.get(dinner)
+        if card:
+            day["recipe_card"] = _adapt(card)
+            merged += 1
+    return merged
+
+
 def merge_nutrition(data, nutrition):
     """Extract nutrition summary and store the full analysis."""
     summary = nutrition.get("weekly_nutrition_summary", "")
@@ -325,6 +379,11 @@ def main():
     parser.add_argument(
         "--principles",
         help="Path to principles JSON from the principles skill.",
+    )
+    parser.add_argument(
+        "--recipe-cards",
+        help="Path to recipe-cards JSON from the recipe-cards skill. "
+             "Each card is matched to a day by day_of_week (fallback: dinner name).",
     )
     args = parser.parse_args()
 
@@ -397,6 +456,14 @@ def main():
         with open(args.principles, "r", encoding="utf-8-sig") as f:
             data["principles_data"] = json.load(f)
         print("Merged principles data", file=sys.stderr)
+
+    # Merge recipe cards
+    if getattr(args, 'recipe_cards', None):
+        with open(args.recipe_cards, "r", encoding="utf-8-sig") as f:
+            recipe_cards = json.load(f)
+        count = merge_recipe_cards(data, recipe_cards)
+        print(f"Merged recipe cards: {count}/{len(data['days'])} days matched",
+              file=sys.stderr)
 
     # Determine output path
     if args.output:

@@ -1,0 +1,93 @@
+[
+  {
+    "day_of_week": "sunday",
+    "dinner": "Homemade Extruded Pasta with Sunday Gravy",
+    "album_artist": "Michael Kiwanuka",
+    "album_title": "KIWANUKA",
+    "album_year": "2019",
+    "album_genre": "Psychedelic Soul",
+    "album_mood": "Warm, grounded, quietly triumphant",
+    "album_description": "Michael Kiwanuka's self-titled third album, produced by Danger Mouse and Inflo, is a widescreen soul record about owning your name and your history. A British son of Ugandan refugees answers a critic who told him his name was unmarketable by putting it on the cover in all caps.",
+    "album_sonic_description": "Lush strings, fuzzy guitars, and gospel backing vocals layered over Danger Mouse's cinematic production — mid-tempo soul with a slow, steady heartbeat.",
+    "album_pairing_rationale": "A slow Sunday gravy simmering for hours needs a record with the same patient warmth, and the album's theme of grounding yourself in who and where you come from maps perfectly onto a cold, drizzly house-hunting week about valuing home.",
+    "album_spotify_url": "https://open.spotify.com/album/311iUW53yKUVYgqVTYbxMy"
+  },
+  {
+    "day_of_week": "monday",
+    "dinner": "Steak & Romaine Salad with Cucumbers, Red Onions, Avocados",
+    "album_artist": "Black Pumas",
+    "album_title": "Black Pumas",
+    "album_year": "2019",
+    "album_genre": "Psychedelic Soul",
+    "album_mood": "Smoky, triumphant, head-nodding",
+    "album_description": "Austin duo Eric Burton and producer Adrian Quesada fuse 60s psychedelic soul with modern grit. Burton was busking on the Santa Monica pier when Quesada found him, and the debut is the sound of a singer finally getting the room he deserves.",
+    "album_sonic_description": "Gritty fuzz guitar, tight horn stabs, tambourine grooves, and a voice that sits between Marvin Gaye and Leon Bridges.",
+    "album_pairing_rationale": "A late dinner after a busy Monday needs something that restores energy without demanding attention — the Pumas' warm, mid-tempo grooves fuel a steak-and-salad plate while rewarding tired ears with real stories of perseverance.",
+    "album_spotify_url": "https://open.spotify.com/album/5fzThMzmTUNYGA9GcDmXyb"
+  },
+  {
+    "day_of_week": "tuesday",
+    "dinner": "Babo Pasta (homemade spinach pasta with egg yolks)",
+    "album_artist": "Leon Bridges",
+    "album_title": "Gold-Diggers Sound",
+    "album_year": "2021",
+    "album_genre": "Contemporary R&B / Neo Soul",
+    "album_mood": "Warm, late-afternoon, unhurried but alive",
+    "album_description": "Recorded live at the Gold-Diggers hotel/bar/studio in Los Angeles, Bridges leaves his retro-gospel lane to write about who he is now — a Texan in his thirties reckoning with love, faith, and the pull between home and away.",
+    "album_sonic_description": "Plucked bass, brushed drums, plush strings, and Bridges' honey tenor floating over chord changes that owe equal debts to Sam Cooke and D'Angelo.",
+    "album_pairing_rationale": "A sunny 61°F no-school day with a 6pm swim needs a gentle groove that keeps the kitchen moving while the silky, yolky Babo pasta cooks — Bridges' plush Texas R&B matches the creamy simplicity on the plate.",
+    "album_spotify_url": "https://open.spotify.com/album/3CsPL8SAO1Y8ObJYEDRKcd"
+  },
+  {
+    "day_of_week": "wednesday",
+    "dinner": "Pan-Fried Pork Dumplings + Garlic Sesame Noodles with Bok Choy",
+    "album_artist": "Ibibio Sound Machine",
+    "album_title": "Electricity",
+    "album_year": "2022",
+    "album_genre": "Afro-Funk / Dance-Pop",
+    "album_mood": "Electric, sweaty, joyful",
+    "album_description": "London's Ibibio Sound Machine — led by British-Nigerian singer Eno Williams — teamed up with Hot Chip for a sweaty, high-voltage record. Williams sings in English and Ibibio, weaving her grandmother's folktales into modern dance music.",
+    "album_sonic_description": "Analog synths, Afrobeat guitar, call-and-response vocals, and a rhythm section that never lets up — 1970s Lagos filtered through a London warehouse party.",
+    "album_pairing_rationale": "A drizzly Wednesday with crispy dumplings and sesame-garlic noodles calls for percussive, bold music that matches the snap of the pan-fry — and the album's joy-as-resistance theme is exactly the lift a mid-week house-hunt stretch needs.",
+    "album_spotify_url": "https://open.spotify.com/album/2Rsk2aDj5seqIUoYZcSKGj"
+  },
+  {
+    "day_of_week": "thursday",
+    "dinner": "Homemade Pizza Night",
+    "album_artist": "Arctic Monkeys",
+    "album_title": "AM",
+    "album_year": "2013",
+    "album_genre": "Alternative Rock / Garage Rock",
+    "album_mood": "Cool, prowling, Friday-night energy",
+    "album_description": "The Sheffield band's sleek, hip-hop-informed breakthrough. Alex Turner moved to LA and wrote a whole album of 3am voicemails he never sent — every song a phone call you shouldn't make, funny, sad, and desperately hummable.",
+    "album_sonic_description": "Fuzz-bass riffs, handclaps, Josh Homme falsetto backing vocals, and drums that swing harder than rock drums usually do.",
+    "album_pairing_rationale": "Pizza night after a Bring-Family-to-Work day wants a rock record the whole family can loudly sing along to, and the Pixies-adjacent swagger of AM — nostalgic for the liked-band list without repeating it — delivers dough-flinging energy on a sunny 73°F evening.",
+    "album_spotify_url": "https://open.spotify.com/album/78bpIziExqiI9qztvNFlQu"
+  },
+  {
+    "day_of_week": "friday",
+    "dinner": "Branzino with Kale and Polenta",
+    "album_artist": "Nubya Garcia",
+    "album_title": "SOURCE",
+    "album_year": "2020",
+    "album_genre": "Contemporary Jazz / Afro-Caribbean Jazz",
+    "album_mood": "Sunlit, searching, propulsive",
+    "album_description": "London saxophonist Nubya Garcia's debut traces her Guyanese-Trinidadian roots through dub, cumbia, and jazz. She grew up in London but kept reaching back to understand where her sound came from — the record is that reaching made audible.",
+    "album_sonic_description": "Breathy tenor saxophone, dub basslines, cumbia shakers, and patient grooves that build without ever rushing.",
+    "album_pairing_rationale": "A Mediterranean branzino dinner on a 79°F Friday calls for breezy but rhythmic music with movement — Garcia's sun-soaked, Caribbean-inflected jazz has the oceanic feel of a whole fish on the plate and the propulsion to keep the evening alive.",
+    "album_spotify_url": "https://open.spotify.com/album/6HrAipOpAuoWMXNdtLyzlB"
+  },
+  {
+    "day_of_week": "saturday",
+    "dinner": "Build-Your-Own Taco Night (dad + Elsie; Laura traveling)",
+    "album_artist": "Bomba Estéreo",
+    "album_title": "Elegancia Tropical",
+    "album_year": "2012",
+    "album_genre": "Electro-Cumbia / Champeta",
+    "album_mood": "Hot, playful, neon",
+    "album_description": "Colombian electro-cumbia ringleaders Bomba Estéreo's third record. Singer Li Saumet grew up on Colombia's Caribbean coast where cumbia meets champeta meets soundsystem culture, and the album is her love letter to that world — sophisticated and sweaty at once.",
+    "album_sonic_description": "Accordion samples, 808 kicks, gaita flutes, and chanted hooks — cumbia DNA wired to a dance-music spine.",
+    "album_pairing_rationale": "A dad-and-8-year-old taco night with Laura on the road wants a full-on kitchen dance party, and Bomba Estéreo's rapid-fire Spanish hooks turn taco assembly into a two-person rave — the perfect high-energy send-off to the week.",
+    "album_spotify_url": "https://open.spotify.com/album/4P7Ca70wYWDTn57LejRsTh"
+  }
+]

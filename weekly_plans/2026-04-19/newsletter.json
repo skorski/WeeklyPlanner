@@ -1,0 +1,71 @@
+{
+  "newsletter_title": "The Weekly Read",
+  "week_range": "April 19 – April 25, 2026",
+  "intro": "A short stack of reading this week, but a dense one — two views into how software engineering is reshaping itself around AI agents, and a longer detour into the unglamorous but quietly consequential world of what we put in our bodies. The thread that ties them together, if there is one, is this: the leverage moments in life often hide inside small, boring, daily decisions. Which model you reach for. Which five grams of powder you stir into your coffee. Who gets to ship to production. The compound interest is real in both directions.",
+  "clusters": [
+    {
+      "theme": "The Mech Suit and the Slop: AI's Uneven Gift to Software Engineers",
+      "synthesis": "Gergely Orosz surveyed 900+ engineers and Gergely then sat down with DHH, and the two reports rhyme in an uncomfortable way. The survey paints a picture of an industry mid-experiment: companies are quietly eating $200/month-per-engineer bills on 'max' plans for Claude Code, Cursor, and Codex, while CFOs in Europe start asking the awkward question nobody in Silicon Valley wants to hear — 'where exactly is the productivity?' About 30% of engineers hit usage limits regularly. Subsidized enterprise pricing looks suspiciously like the cloud-provider playbook of a decade ago: hook them first, raise prices once the lock-in is total. Meanwhile the survey identifies three archetypes living through this differently. 'Shippers' love AI tools and move faster — but accumulate technical debt at matching speed and sometimes build the wrong thing beautifully. 'Builders,' the craftspeople doing the harder structural work, are drowning in 'AI slop' from their less-senior colleagues and grappling with a quiet grief about professional identity. 'Coasters' — the less-skilled middle — are leveling up faster than ever while simultaneously generating the slop the builders have to clean up. Roles are converging, too: engineers orchestrate and context-switch more, while managers are suddenly hands-on again. The craft is shifting from 'how' to build toward 'what' to build.\n\nDHH's conversion story is the human face of the same numbers. Six months ago on Lex Fridman he said he typed every character of his code by hand; now he runs tmux with two models in split panes — a fast Gemini for quick passes, slow Opus for heavy lifts — reviews diffs in Neovim via Lazygit, and says it feels less like project-managing agents and more like 'wearing a mech suit.' His philosophy didn't change, he insists; the tools finally got good enough to meet his standard. Two observations from him stick. First: 'When something is beautiful, it's likely to be correct' — the people who care about circuit-board layout are the same ones who sweat the UI, and that taste is what lets him trust or reject agent output at speed. Second: senior engineers benefit disproportionately because they can tell when the agent is lying. At 37signals, and reportedly at Amazon, junior developers no longer ship agent-generated code to production without review. Rails is having a renaissance — it's token-efficient, tests are first-class, the output is human-readable — and DHH is building CLIs for every product because agents chain CLI tools the way Unix promised in 1972.\n\nThe contradiction worth sitting with: AI tools supposedly democratize coding, yet in practice they are making seniority more valuable, not less. The mech suit amplifies whoever is already inside it. If you don't yet have the taste to know what 'correct' looks like, the agent will happily help you build the wrong thing at record speed. DHH's closing note — eight hours of sleep, non-negotiable, no alarm — lands like a warning more than a flex. The dopamine loop of shipping at agent speed is intoxicating, and burnout is the first externality nobody is pricing in.",
+      "articles": [
+        {
+          "title": "The Impact of AI on Software Engineers in 2026 (Survey Deep-Dive)",
+          "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
+          "tags": ["ai", "engineering", "industry-trends"],
+          "one_liner": "900+ engineers on budgets, burnout, and the 'Shippers vs Builders vs Coasters' split AI is carving into the profession."
+        },
+        {
+          "title": "The Pragmatic Engineer — Companion Post",
+          "url": "https://substack.com/home/post/p-194201128",
+          "tags": ["ai", "engineering", "survey"],
+          "one_liner": "The Substack cross-post of the same survey — worth keeping the link handy for the comment thread, which is half the signal."
+        },
+        {
+          "title": "DHH's New Way of Writing Code",
+          "url": "https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code",
+          "tags": ["ai", "craft", "rails", "dhh"],
+          "one_liner": "The creator of Rails went from typing every character to running agents in tmux splits — and thinks beauty is a correctness signal."
+        }
+      ]
+    },
+    {
+      "theme": "Supplement Deep Dive: Collagen & Creatine",
+      "synthesis": "Two of the most-researched, least-glamorous supplements in the longevity conversation — and the evidence on both is finally concrete enough to talk about without hedging. Worth a longer look because the incremental gains, stacked across decades, are the kind of compounding that makes a real difference in how your sixties feel.\n\n**Collagen peptides, and why the brand on the label matters.** Ordinary 'hydrolyzed collagen' is a commodity; the research evidence sits on a handful of *specific* peptide formulations engineered by the German manufacturer GELITA, each with its own clinical dossier. FORTIBONE® is the bone-health formulation. The landmark trial (König et al., *Nutrients*, 2018) randomized 131 postmenopausal women to 5g/day of FORTIBONE® or placebo for 12 months; the treated group saw statistically significant gains in bone mineral density at both the spine and femoral neck, along with favorable shifts in bone-turnover markers. Mechanistically, the specific peptide fragments appear to signal osteoblasts to lay down more type-I collagen matrix while dampening osteoclast-driven resorption. FORTIGEL® is the cartilage/joint formulation — trials in knee and activity-related joint pain show reduced discomfort over 12–24 weeks at ~10g/day. VERISOL® is the skin formulation (elasticity, hydration, wrinkle depth) at 2.5g/day. TENDOFORTE® targets ligaments and tendons and is the one athletes and weekend warriors reach for after an ankle tweak. The key insight: these are not interchangeable. A generic bovine collagen tub at Costco is fine protein, but it is not FORTIBONE®, and you should not expect the König trial outcome from it. If bone density is the goal — and for a woman in her forties planning for her seventies, it probably should be — look for the FORTIBONE® mark on the label of whichever retail brand carries it (Vital Proteins Bone Broth Collagen, some AlgaeCal formulations, several European brands).\n\n**Creatine: the newer forms are a marketing story.** The International Society of Sports Nutrition position stand (Kreider et al., 2017) remains the cleanest summary: creatine monohydrate is the most-studied, cheapest, and most effective form. Creatine HCl is more soluble and marginally easier on sensitive stomachs, but head-to-head trials show no superior muscle saturation or performance outcome — the 'smaller dose works the same' claim is not well supported. Creatine ethyl ester is actively *worse*: it degrades to creatinine in the stomach and raises muscle creatine less effectively than monohydrate. Dosing is simple: 3–5g/day, every day, any time. The classic loading phase (20g/day for a week) gets you to saturation faster but isn't strictly necessary. Beyond the well-known strength, lean-mass, and high-intensity-output benefits, the cognitive literature has matured. A 2023 systematic review and meta-analysis (Prokopidis et al., *Nutrition Reviews*) found small but consistent improvements in memory in healthy adults, with stronger effects in older adults, vegetarians, and the sleep-deprived — populations whose baseline brain creatine is lower. Early work is exploring higher doses (10g+) for mood and cognitive resilience under stress, though the ISSN still anchors the evidence-based dose at 3–5g.\n\n**The pragmatic stack.** Nobody has run a large RCT on collagen + creatine together, but the mechanisms are complementary and non-overlapping: creatine works intracellularly in muscle and brain; collagen peptides work as signaling fragments for connective-tissue fibroblasts and osteoblasts. There's a timing wrinkle worth knowing. Keith Baar's group at UC Davis showed that tendon collagen synthesis spikes when peptides (plus ~50mg vitamin C) arrive in the bloodstream 30–60 minutes *before* mechanical loading — so if you lift, run, or play a sport, taking collagen pre-workout targets the connective tissue that's about to be stressed. Creatine is dose-loading agnostic; daily consistency matters far more than timing, so pick whichever meal makes you reliably take it. A workable protocol for an active adult aiming at musculoskeletal resilience: **10g FORTIBONE®- or FORTIGEL®-specified collagen + 50mg vitamin C, 30–60 minutes before exercise; 5g creatine monohydrate with any meal, daily, forever.** Budget: under $30/month. Upside: thicker bones, quieter joints, stronger quads, and a slightly sharper brain on the days you didn't sleep enough. The evidence is unglamorous, the scoop is boring, and the decade-over-decade compounding is the entire point.",
+      "articles": [
+        {
+          "title": "Specific Collagen Peptides Improve Bone Mineral Density in Postmenopausal Women",
+          "url": "https://www.mdpi.com/2072-6643/10/1/97",
+          "tags": ["collagen", "bone-health", "fortibone", "rct"],
+          "one_liner": "König et al. (2018) — the FORTIBONE® landmark trial: 5g/day for 12 months, measurable BMD gains at spine and femoral neck."
+        },
+        {
+          "title": "ISSN Position Stand: Safety and Efficacy of Creatine Supplementation",
+          "url": "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0173-z",
+          "tags": ["creatine", "position-stand", "evidence"],
+          "one_liner": "Kreider et al. (2017) — still the cleanest authoritative summary: monohydrate wins, 3–5g/day, loading optional."
+        },
+        {
+          "title": "Collagen Supplementation & Tendon/Ligament Health",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27852613/",
+          "tags": ["collagen", "tendons", "timing", "baar"],
+          "one_liner": "Shaw & Baar (2017) — the study behind the 'pre-workout with vitamin C' collagen timing protocol."
+        },
+        {
+          "title": "Effects of Creatine Supplementation on Memory in Healthy Individuals",
+          "url": "https://academic.oup.com/nutritionreviews/article-abstract/81/4/416/6671817",
+          "tags": ["creatine", "cognition", "meta-analysis"],
+          "one_liner": "Prokopidis et al. (2023) — meta-analysis showing small-but-real memory benefits, strongest in older adults and the sleep-deprived."
+        }
+      ]
+    }
+  ],
+  "reflections": "This week's theme is valuing what actually matters, and the reading lands on either side of that question in instructive ways. The AI pieces are about leverage — tools that amplify whoever is already inside them, and the quiet cost of mistaking speed for craft. The supplement research is about the opposite kind of leverage: five grams a day, for thirty years, in service of a sixty-five-year-old self who can still carry groceries up the stairs and remember the grandchildren's names. Both are bets on compounding. Neither pays off if you optimize for the dopamine hit of the moment — the agent-shipped PR, the pre-workout scoop you took but never actually trained after. The things worth valuing are almost always the ones that ask for patience first and only reward you on a long enough timeline to forget you were waiting.",
+  "fun_section": {
+    "title": "And Finally… Creatine Is in Herring. Herring!",
+    "content": "File under 'things you probably didn't need to know but will now bring up at dinner': the richest natural dietary source of creatine is herring, at roughly 6.5–10 grams per kilogram of flesh — more than beef, more than salmon, more than pork. A large herring fillet delivers close to a gram of the stuff. This is one reason traditional Scandinavian and Baltic diets, heavy on pickled and smoked herring, may have quietly been doing the creatine-loading protocol for centuries without anyone naming it. Vegetarians, by contrast, have roughly 20–30% lower baseline muscle creatine stores, which is part of why supplementation tends to produce larger effects in them. Ask Elsie at dinner: which fish do you think is secretly the strongest? (Correct answer: a small, shiny one that most kids refuse to eat.)",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/21394604/",
+    "source_name": "Journal of Agricultural and Food Chemistry"
+  },
+  "total_articles": 3,
+  "total_words": 0,
+  "generated_at": "2026-04-19T12:00:00Z"
+}

@@ -116,6 +116,113 @@ there is room for a valid and strong story arc.
 - **Yes**: Sensory details, small kindnesses, child agency, satisfying
   resolutions, quiet wonder
 
+## Character Bible
+
+The stories share a recurring cast. Use the right character for the setting and
+give each appearance a **fresh note** — do not recycle the same trait line
+every week.
+
+### Chelsie (the child)
+- 8 years old, curious, literal, loves Babo Pasta, loyal to her family.
+- Speaks in short, honest sentences.
+- Occasionally shrieks, whispers, or goes very quiet when thinking.
+
+### Mamma Karen (Italian grandmother)
+- Calls Chelsie **piccola**.
+- Refers to Dan as **her son** or **my son** — **never "my boy"**.
+- Speaks about the house and its rooms with definite articles: **the pantry**,
+  **the kitchen**, **the table** — **not "my pantry" / "my kitchen"**. Mamma
+  Karen owns the love, not the square footage.
+- Warm, teasing, patient. Ends scenes with small rituals (puts the kettle on,
+  pats a cheek, tucks a napkin).
+- Tells stories about Dan's childhood with affectionate embarrassment.
+
+### Papa Puleo (Italian grandfather)
+- Cooks, wears an apron, uses food metaphors ("Slow is how the flavor builds").
+- Can share scenes with Mamma Karen.
+
+### Daddio (Dan, the dad, as a character in stories *about* him)
+- Rolls out the pasta on the pasta machine, cooks dinner, grills, makes the pizza.
+  **Dad cooks.** Do not default to Mamma Karen or Laura doing the home cooking
+  in the current-day household.
+- His childhood house/yard was a **different house in a different place** — do
+  not draw "the same garden where Daddio once..." connections to the current
+  home. You may compare *types* of things (dirt is dirt, rain is rain) but
+  never the same physical location.
+
+### Mr. Bugles (sock puppet)
+- Lives on Chelsie's **left hand**, indoor/kitchen/car settings.
+- Shouts IN CAPS or whispers dramatically.
+- **Forbidden repeat phrases** — do not reuse these in new stories:
+  - "with absolutely no filter" / "who had absolutely no filter"
+  - Any other fixed epithet longer than 3 words that has appeared in a
+    previous week's `child-wisdom.json`.
+- Each appearance should reveal something **new** about him: a new fear, a
+  new obsession, a new opinion, a new skill, a new piece of backstory. Before
+  writing, skim the last 3 weeks of `child-wisdom.json` for the traits
+  already used and pick a fresh one.
+
+### Mertle (turtle sock puppet)
+- A **turtle sock puppet** with a soft cotton shell, a small green head, and
+  bright button eyes that always look slightly up to something.
+- Rides in Chelsie's jacket pocket outdoors; suns himself on the windowsill
+  indoors. Lives at the boundary between house and outside world.
+- **Calmer than Mr. Bugles, and wittier.** Dry, wry, professorial. Deadpan
+  one-liners rather than ALL-CAPS shouting. Raises a stubby arm before
+  speaking. Closes his button eyes when something is delicious or appalling.
+- Loves nature facts (the Earth's tilt, spring peepers, skunk cabbage, how
+  turtles handle winter). Speaks about the natural world with quiet
+  authority.
+- Has a **signature little shimmy move** he does at the end of a scene.
+- Use Mertle when the story is outdoor or nature-adjacent, or when the scene
+  needs a calm, witty counterweight to a louder voice.
+
+### Choosing Mr. Bugles vs. Mertle
+- Fully indoor, kitchen-counter silliness → **Mr. Bugles** leads.
+- Outdoor, nature, weather, or quiet/thoughtful scenes → **Mertle** leads.
+- They can appear together; when they do, Bugles is the volume and Mertle is
+  the wit.
+
+## Anti-Repeat Checklist (run before saving)
+
+**Step 0 — Read the last 4 weeks of stories.** Before writing a single
+sentence, open every `weekly_plans/*/child-wisdom.json` (and older
+`story.json`) from the last 4 plan weeks and skim the `story` field. You are
+looking for:
+
+- **Repeated sentences or phrases** — any 5+-word sequence that could be
+  copy-pasted between weeks is a repeat. Rewrite it.
+- **Repeated opening beats** — "Mamma Karen was laughing…", "Mr. Bugles
+  shouted…", "Mertle shimmied…". If the last story opened that way, this
+  one cannot.
+- **Repeated character tags** — fixed epithets ("with absolutely no filter",
+  "the windowsill philosopher", etc.) burn out fast. Retire any that appeared
+  in the previous 2 stories.
+- **Repeated lessons** — if last week's discussion_prompt was about
+  embarrassment becoming a family story, this week's cannot be the same
+  shape. Pick a different angle.
+
+Keep a mental (or scratch) list of the phrases you intend **not** to reuse
+before you start writing. It is faster than rewriting at the end.
+
+Then:
+
+1. List every trait line or catchphrase attributed to Mr. Bugles, Mertle,
+   Mamma Karen, or Papa Puleo in the last 4 stories.
+2. If any sentence in the new story closely matches one of those lines,
+   rewrite it.
+3. Ensure the chosen puppet (Bugles or Mertle) learns or reveals something
+   **not** present in the last 4 stories.
+4. Check Mamma Karen's dialog: **"my son"** not "my boy"; **"the pantry"**
+   not "her pantry" / "my pantry".
+5. Check who is doing the cooking in the current household: **Dad** rolls
+   pasta, grills, makes dumplings, makes pizza.
+6. Do not claim the current home is where Daddio grew up. That was a
+   different house in a different yard.
+7. Run a grep-style self-check: for each Mr. Bugles/Mertle line in your
+   draft, search the last 4 JSON files for a near match. If one exists,
+   rewrite.
+
 ## Output Contract
 
 The content-validator checks this output before assembly. All fields are required

@@ -92,10 +92,13 @@ parenting.json
 stoic.json
 principles.json
 nutrition.json
-story.json          (or child-wisdom.json)
+child-wisdom.json   (earlier skill versions wrote story.json)
+recipe_cards.json
 ```
 
-Also check each day's `recipe_card` if present in the days/plan data.
+Each day's `recipe_card` only appears *after* Phase 4 assembly, so the
+pre-assembly pass will show `recipe_card` missing on every day — that is
+expected. Run the **post-assembly integration check** (Step 6) instead.
 
 ### Step 2: Run All Checks
 
@@ -146,6 +149,38 @@ After the researcher re-runs with fix instructions:
 2. Re-run only the checks that previously failed
 3. If still failing after 2 retries, escalate to the user with
    the specific issues and let them decide how to proceed
+
+### Step 6: Post-Assembly Integration Check
+
+After the orchestrator completes Phase 4.2 (assembly) and writes
+`plan_data.json`, run a second pass that verifies cross-skill merges
+actually landed on the days. This is the pass that would have caught
+the "missing Mamma Karen blocks" regression.
+
+Read `weekly_plans/<YYYY-MM-DD>/plan_data.json` and assert, for every
+day in `days[]`:
+
+| Field | Expectation |
+|-------|-------------|
+| `recipe_card` | present, with non-empty `nonna_says` |
+| `recipe_card.variations` | array of 3 dicts with `name`, `twist`, `source_url` |
+| `dinner_elevation_tips` | 2-4 dicts with `type`, `title`, `instruction` |
+| `dinner_question` | dict with `question` and `why` |
+
+And at the top level:
+
+| Field | Expectation |
+|-------|-------------|
+| `parenting_data` | present |
+| `stoic_data` | present |
+| `principles_data.daily_entries` | length 7 |
+| `newsletter_data.clusters` | non-empty |
+| `child_wisdom.story` | non-empty |
+
+If any day is missing a merged field, the root cause is almost always a
+missing `--<flag>` on `assemble_plan.py` or a field-name mismatch between
+the researcher output and the assembler's expected keys. Report the
+offending flag/field to the user with the exact command to re-run.
 
 ## Output
 

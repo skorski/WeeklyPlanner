@@ -253,7 +253,7 @@ The content-validator reads all researcher output files from
 `weekly_plans/<YYYY-MM-DD>/`:
 
 - `recipes.md`, `albums.md`, `newsletter.json`, `stoic.json`, `principles.json`
-- `elevations.json`, `recipe_cards.json`, `parenting.json`, `nutrition.json`, `story.json`
+- `elevations.json`, `recipe_cards.json`, `parenting.json`, `nutrition.json`, `child-wisdom.json`
 
 It validates:
 - **Field shapes** — required keys present, correct types (strings, arrays, objects)
@@ -323,15 +323,28 @@ each day, `parenting_data`, and `nutrition_summary`. Skip `assemble_plan.py`.
 Write just the core days/menus JSON, then use `assemble_plan.py` to merge:
 
 ```bash
-python .github/skills/weekly-planner/scripts/assemble_plan.py days.json \
+python .github/skills/weekly-planner/scripts/assemble_plan.py \
+    weekly_plans/<YYYY-MM-DD>/days.json \
     -o weekly_plans/<YYYY-MM-DD>/plan_data.json \
-    --elevations elevations.json \
-    --parenting parenting.json \
-    --nutrition nutrition.json \
-    --newsletter newsletter.json \
-    --stoic stoic.json \
-    --principles principles.json
+    --elevations    weekly_plans/<YYYY-MM-DD>/elevations.json \
+    --parenting     weekly_plans/<YYYY-MM-DD>/parenting.json \
+    --nutrition     weekly_plans/<YYYY-MM-DD>/nutrition.json \
+    --newsletter    weekly_plans/<YYYY-MM-DD>/newsletter.json \
+    --stoic         weekly_plans/<YYYY-MM-DD>/stoic.json \
+    --principles    weekly_plans/<YYYY-MM-DD>/principles.json \
+    --child-wisdom  weekly_plans/<YYYY-MM-DD>/child-wisdom.json \
+    --recipe-cards  weekly_plans/<YYYY-MM-DD>/recipe_cards.json
 ```
+
+**All eight researcher outputs must be passed in.** Omitting any flag silently
+drops that content from the booklet — for example, skipping `--recipe-cards`
+leaves every day page without the "Mamma Karen Says" block and Variations.
+Run `assemble_plan.py` from the **repository root**, never from inside
+`weekly_plans/<date>/` (that creates a nested-path bug).
+
+After assembly, **re-run the content-validator on `plan_data.json`** to catch
+any day that ended up without a `recipe_card`, `dinner_elevation_tips`, or
+`dinner_question` (see Phase 3 — Step 6 in content-validator/SKILL.md).
 
 The assembler:
 - Matches elevations to days by dinner name (case-insensitive)
@@ -580,16 +593,25 @@ This produces `weekly-plan.html` in the `weekly_plans/<YYYY-MM-DD>/` folder.
 
 #### 5.2 Create Print-Optimized JSON
 
-Invoke the **print-formatter** to create a trimmed version of the plan data
-optimized for A5 page rendering:
+The **print-formatter** skill is documentation-only today — there is no
+`print_formatter.py` script. For now, copy `plan_data.json` verbatim to
+`plan_data_print.json` and let the booklet CSS handle A5 fit:
 
-```bash
-python .github/skills/booklet/scripts/print_formatter.py weekly_plans/<YYYY-MM-DD>/plan_data.json \
-    -o weekly_plans/<YYYY-MM-DD>/plan_data_print.json
+```powershell
+Copy-Item weekly_plans/<YYYY-MM-DD>/plan_data.json `
+          weekly_plans/<YYYY-MM-DD>/plan_data_print.json -Force
 ```
 
-The print formatter trims verbose content to fit A5 constraints while preserving
-all essential information.
+```bash
+# bash / zsh equivalent
+cp weekly_plans/<YYYY-MM-DD>/plan_data.json \
+   weekly_plans/<YYYY-MM-DD>/plan_data_print.json
+```
+
+If specific pages overflow, trim the offending fields by hand in
+`plan_data_print.json` (the full copy stays in `plan_data.json` so HTML and
+markdown remain verbose). When the print-formatter skill ships its script,
+replace this copy step with the invocation.
 
 #### 5.3 Render PDF
 
