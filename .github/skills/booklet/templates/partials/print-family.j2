@@ -1,6 +1,6 @@
 {# --- SECTION DIVIDER: Family Corner --- #}
 {% if parenting_data %}
-<div class="page page-divider">
+<div class="page page-divider" data-section-id="family_parenting" data-section-instance="divider">
   <div class="divider-title">Family Corner</div>
   <div class="divider-rule"></div>
   <div class="divider-sub">Conversation starters, parenting nudges, and connection ideas</div>
@@ -14,7 +14,7 @@
 {% set q_split = (questions | length + 1) // 2 %}
 
 {# Page 1: Theme + first half of dinner questions #}
-<div class="page page-parenting">
+<div class="page page-parenting" data-section-id="family_parenting" data-section-instance="questions-1" data-source-path="parenting_data.dinner_questions" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Parenting Corner</h2>
   {% if parenting_data.weekly_theme %}
@@ -25,7 +25,7 @@
   {% endif %}
 
   {% if questions %}
-  <h3 style="font-size:9.5pt;font-weight:400;margin:5pt 0 3pt;">Dinner Conversation Starters</h3>
+  <h3 class="subsection-label">Dinner Conversation Starters</h3>
   {% for q in questions[:q_split] %}
   <div class="question-entry">
     <div class="question-day">{{ q.day }} — {{ q.dinner | default("") }}</div>
@@ -38,7 +38,7 @@
 </div>
 
 {# Page 2: remaining dinner questions #}
-<div class="page page-parenting">
+<div class="page page-parenting" data-section-id="family_parenting" data-section-instance="questions-2" data-source-path="parenting_data.dinner_questions" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Conversation Starters (continued)</h2>
   {% for q in questions[q_split:] %}
@@ -51,13 +51,12 @@
   <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
 </div>
 
-{# Page 3: Nudges (first half) #}
+{# Nudge pages: one substantive nudge per page #}
 {% set nudges = parenting_data.nudges | default([]) %}
-{% set n_split = (nudges | length + 1) // 2 %}
-<div class="page page-parenting">
+{% for n in nudges %}
+<div class="page page-parenting" data-section-id="family_parenting" data-section-instance="nudge-{{ loop.index }}" data-source-path="parenting_data.nudges[{{ loop.index0 }}]" data-fit="bounded">
   <div class="page-header">Family Corner</div>
-  <h2 class="section-header">Nudges</h2>
-  {% for n in nudges[:n_split] %}
+  <h2 class="section-header">{% if loop.first %}Nudges{% else %}Nudges (continued){% endif %}</h2>
   <div class="nudge-card">
     <h4>{{ n.title }}</h4>
     <p><em>{{ n.context }}</em></p>
@@ -66,31 +65,12 @@
     <ol class="nudge-steps">{% for step in n.how_to %}<li>{{ step }}</li>{% endfor %}</ol>
     {% endif %}
   </div>
-  {% endfor %}
   <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
 </div>
-
-{# Page 4: Nudges (second half) #}
-{% if nudges | length > n_split %}
-<div class="page page-parenting">
-  <div class="page-header">Family Corner</div>
-  <h2 class="section-header">Nudges (continued)</h2>
-  {% for n in nudges[n_split:] %}
-  <div class="nudge-card">
-    <h4>{{ n.title }}</h4>
-    <p><em>{{ n.context }}</em></p>
-    <p>{{ n.suggestion }}</p>
-    {% if n.how_to %}
-    <ol class="nudge-steps">{% for step in n.how_to %}<li>{{ step }}</li>{% endfor %}</ol>
-    {% endif %}
-  </div>
-  {% endfor %}
-  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
-</div>
-{% endif %}
+{% endfor %}
 
 {# Page 5: Connection Ritual + Book Rec #}
-<div class="page page-parenting">
+<div class="page page-parenting" data-section-id="family_parenting" data-section-instance="connection" data-source-path="parenting_data.connection_ritual" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Connection & Reading</h2>
 
@@ -116,7 +96,7 @@
 </div>
 
 {# Page 6: Parent Reflection #}
-<div class="page page-parenting">
+<div class="page page-parenting" data-section-id="family_parenting" data-section-instance="reflection" data-source-path="parenting_data.parent_reflection" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Reflection</h2>
 
@@ -126,7 +106,7 @@
   </div>
   {% endif %}
 
-  <p style="font-size:6.5pt;color:#6b6b6b;text-align:center;margin-top:6pt;font-style:italic;">You don't need to be a perfect parent — just a present one.</p>
+  <p class="present-parent-note">You don't need to be a perfect parent — just a present one.</p>
   <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
 </div>
 {% endif %}
@@ -134,7 +114,7 @@
 {# --- STOIC GUIDE (multi-page spread) --- #}
 {% if stoic_data %}
 {# Page 1: Theme + Anchor Quote + Introduction #}
-<div class="page page-stoic">
+<div class="page page-stoic" data-section-id="stoic_guide" data-section-instance="intro" data-source-path="stoic_data" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">The Stoic Guide</h2>
   <div class="stoic-theme-banner">
@@ -150,7 +130,7 @@
 
   <div class="stoic-intro">{{ stoic_data.introduction }}</div>
 
-  {% for m in stoic_data.meditations[:2] %}
+  {% for m in stoic_data.meditations[:1] %}
   <div class="meditation-entry">
     {% if m.day %}<span class="meditation-day">{{ m.day }}</span>{% endif %}
     <span class="meditation-title">{{ m.title }}</span>
@@ -166,13 +146,13 @@
 
 {# Meditation pages: 2-3 meditations per page #}
 {% set med_per_page = 3 %}
-{% set remaining = stoic_data.meditations[2:] %}
+{% set remaining = stoic_data.meditations[1:] %}
 {% set total_med_pages = (remaining | length + med_per_page - 1) // med_per_page %}
 {% for page_num in range(total_med_pages) %}
 {% set start = page_num * med_per_page %}
 {% set end = [start + med_per_page, remaining | length] | min %}
 {% set is_last_med_page = (page_num == total_med_pages - 1) %}
-<div class="page page-stoic">
+<div class="page page-stoic" data-section-id="stoic_guide" data-section-instance="meditations-{{ page_num + 1 }}" data-source-path="stoic_data.meditations" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Reflections & Practice</h2>
 
@@ -193,7 +173,7 @@
 
 {# Final page: Family Exercise + Young Stoic + Closing #}
 {% if stoic_data.family_exercise or stoic_data.young_stoic or stoic_data.closing_thought %}
-<div class="page page-stoic">
+<div class="page page-stoic" data-section-id="stoic_guide" data-section-instance="practice" data-source-path="stoic_data.family_exercise" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Practice Together</h2>
 

@@ -1,0 +1,85 @@
+schema_version: "1.0"
+page:
+  size: A5
+  width_mm: 148
+  height_mm: 210
+  margin:
+    top_in: 0.25
+    right_in: 0.4
+    bottom_in: 0.3
+    left_in: 0.4
+  content_height_css_px: 741
+
+tokens:
+  fonts:
+    hero: var(--hero)
+    narrative: var(--narrative)
+    anchor: var(--anchor)
+  colors:
+    ink: var(--ink)
+    muted: var(--muted)
+    rule: var(--rule)
+    ochre: var(--ochre)
+    sage: var(--sage)
+    oxblood: var(--oxblood)
+
+components:
+  page_header:
+    class: page-header
+    required_on: [glance, daily, daily-principles, support, parenting, stoic, weekly-read, bedtime-story]
+  page_folio:
+    class: page-folio
+    required_on: [glance, daily, daily-principles, support, parenting, stoic, weekly-read, bedtime-story]
+  section_header:
+    class: section-header
+  divider:
+    class: page-divider
+  prompt_box:
+    classes: [story-prompt, principles-reflect, meditation-prompt]
+
+archetypes:
+  cover:
+    page_class: page-cover
+    max_pages: 1
+  glance:
+    page_class: page-glance
+    max_pages: 1
+  daily:
+    page_class: page-day
+    max_pages_per_week: 21
+  daily-principles:
+    page_class: page-day-principles
+    max_pages_per_week: 7
+  support:
+    page_class: page-support
+    max_pages: 2
+  parenting:
+    page_class: page-parenting
+    max_pages: 6
+  stoic:
+    page_class: page-stoic
+    max_pages: 4
+  weekly-read:
+    page_class: page-newsletter
+    max_pages: 4
+  bedtime-story:
+    page_class: page-story
+    max_pages: 4
+    required_components: [page_header, page_folio]
+    allowed_overrides:
+      - story prose may use slightly larger leading
+      - first page may show the story title
+      - final page may show the discussion prompt
+  back:
+    page_class: page-back
+    max_pages: 1
+
+style_rules:
+  forbid_inline_styles_in_partials: true
+  allowlisted_inline_style_patterns:
+    - "<!-- allow-inline-print-style -->"
+  required_story_alignment:
+    - page-story pages include page-header and page-folio
+    - story prompt uses the shared prompt-box treatment
+    - story title uses the same hero font family as section headers
+

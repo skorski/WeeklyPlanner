@@ -40,16 +40,30 @@ never modified — it continues to feed the markdown and HTML renderers.
 | `weekly-plan.html` | `plan_data.json` | Full — collapsible sections |
 | `weekly-plan.pdf` | `plan_data_print.json` | Trimmed — fits A5 pages |
 
+## Executable Formatter
+
+Run the formatter directly:
+
+```bash
+python .github/skills/print-formatter/scripts/format_print.py \
+  weekly_plans/<YYYY-MM-DD>/plan_data.json \
+  -o weekly_plans/<YYYY-MM-DD>/plan_data_print.json \
+  --report weekly_plans/<YYYY-MM-DD>/print-format-report.json
+```
+
+The script uses the section registry, renders a disposable booklet, runs the
+manifest-aware proofreader, trims bounded sections according to policy, and
+repeats until the print proof passes or no safe deterministic trim remains.
+
 ## Page Budget
 
-Each day gets a 4-page spread in the A5 booklet:
+Each day gets a 3-page spread in the A5 booklet:
 
 | Page | Content | Height Budget |
 |------|---------|--------------|
-| Day Left | Weather, events, dinner, At the Table | ~7.5 inches |
+| Day Left | Weather, events, dinner, recipe-card highlights, At the Table | ~7.5 inches |
 | Day Principles | Daily essay | ~7.5 inches |
-| Day Recipe | Mamma Karen + engineer table | ~7.5 inches |
-| Day Right | Variations, chef's tips, album | ~7.5 inches |
+| Day Right | Chef's tips and album | ~7.5 inches |
 
 At 9pt body text with 1.5 line-height, each page holds roughly:
 - ~320 words of continuous prose
@@ -82,17 +96,16 @@ When a page overflows, trim fields in this order (least important first):
 
 ### Step 1: Copy plan_data.json
 
-```python
-import json, shutil
-shutil.copy('plan_data.json', 'plan_data_print.json')
-```
+The script canonicalizes and copies `plan_data.json` to `plan_data_print.json`.
 
 ### Step 2: Initial Overflow Check
 
-Render the booklet with `--check-overflow` to identify which pages overflow:
+Render and proof the booklet with the manifest-aware proofreader:
 
 ```bash
-python .github/skills/booklet/scripts/render_booklet.py plan_data_print.json --check-overflow
+python .github/skills/proofreader/scripts/proofread.py \
+  plan_data_print.json weekly-plan.html \
+  --manifest section_manifest_print.json
 ```
 
 If no pages overflow, the print version is identical to the full version.

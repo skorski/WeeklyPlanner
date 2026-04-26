@@ -1,0 +1,852 @@
+[
+  {
+    "artist": "Bruce Springsteen",
+    "title": "Born to Run",
+    "source": "bandsintown",
+    "year": "1975",
+    "description": "A stadium-sized, story-first rock record with locomotive drums and street-corner romance; live discovery flagged a May 27 Nationals Park show, making it a timely DC-area nostalgia spark for pasta or burgers.",
+    "lyrical_themes": "Escaping small-town limits, friendship, longing, risk, cars, night streets, and the hope that love can become a way out.",
+    "lyrical_story": "Across the album, Springsteen follows kids trying to outrun dead-end streets and grow into their own myths. The songs turn ordinary boardwalks, highways, and late-night promises into a cinematic coming-of-age story about betting everything on movement.",
+    "mood": "Exuberant, romantic, urgent, and communal.",
+    "sonic_description": "Wall-of-sound rock with pounding piano, saxophone, harmonica, ringing guitars, and a rhythm section that feels like it is accelerating toward the horizon.",
+    "upcoming_show": "May 27, 2026 @ Nationals Park, Washington, DC",
+    "spotify_url": "https://open.spotify.com/search/Bruce%20Springsteen%20Born%20to%20Run",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Heartland Rock",
+      "Classic Rock",
+      "Pop Rock"
+    ]
+  },
+  {
+    "artist": "Pixies",
+    "title": "Surfer Rosa",
+    "source": "web",
+    "year": "1988",
+    "description": "A crunchy, funny, volatile alternative-rock classic that channels the family's noted Pixies nostalgia while avoiding sleepy atmosphere.",
+    "lyrical_themes": "Surreal desire, mischief, alienation, messy families, and absurd little vignettes delivered with a wink and a shout.",
+    "lyrical_story": "The album plays like a stack of strange postcards from noisy apartments, beaches, and fever dreams. Black Francis and Kim Deal turn oddball characters into miniature scenes that are unsettling, funny, and impossible to ignore at the table.",
+    "mood": "Nostalgic, jagged, mischievous, and kinetic.",
+    "sonic_description": "Raw Steve Albini production: snapped drums, rubbery bass, loud-quiet guitar blasts, surfy edges, and vocals that leap from mutter to yelp.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Pixies%20Surfer%20Rosa",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Alternative Rock",
+      "Indie Rock",
+      "Noise Pop"
+    ]
+  },
+  {
+    "artist": "The Clash",
+    "title": "London Calling",
+    "source": "web",
+    "year": "1979",
+    "description": "A generous double album with punk speed, reggae sway, rockabilly bite, and headline-like lyrics; great for a long family cook that needs momentum.",
+    "lyrical_themes": "Urban pressure, working-class life, politics, apocalypse jokes, music history, and people trying to keep their dignity.",
+    "lyrical_story": "The Clash treat London as a teeming newspaper where every song is a different column: disaster warnings, street portraits, jokes, love, and rebellion. Instead of despairing, the band keeps dancing through the bad news, making survival sound loud and communal.",
+    "mood": "Restless, witty, rebellious, and celebratory.",
+    "sonic_description": "Punk rock broadened by reggae bass lines, ska upstrokes, piano, horns, rockabilly twang, and pub-rock hooks.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/The%20Clash%20London%20Calling",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Punk",
+      "New Wave",
+      "Reggae Rock",
+      "Rock & Roll"
+    ]
+  },
+  {
+    "artist": "Billy Joel",
+    "title": "The Stranger",
+    "source": "web",
+    "year": "1977",
+    "description": "New York piano-pop storytelling with enough bounce for red sauce night and enough character sketches to start conversation.",
+    "lyrical_themes": "Masks people wear, city romance, ambition, Catholic guilt, neighborhood memory, and the private selves behind public confidence.",
+    "lyrical_story": "Joel moves through a city of strivers, lovers, tough guys, and dreamers who are all hiding something. The record feels like overhearing different booths in the same restaurant, each with its own confession and punchline.",
+    "mood": "Warm, theatrical, streetwise, and sing-along friendly.",
+    "sonic_description": "Piano-led pop rock with saxophone hooks, brisk drums, Broadway flair, and tight late-70s studio polish.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Billy%20Joel%20The%20Stranger",
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "styles": [
+      "Pop Rock",
+      "Soft Rock",
+      "Singer-Songwriter"
+    ]
+  },
+  {
+    "artist": "Paul Simon",
+    "title": "Graceland",
+    "source": "web",
+    "year": "1986",
+    "description": "Bright, nimble, conversational songs riding South African grooves; a natural fit for family visits because the rhythm keeps even reflective lyrics buoyant.",
+    "lyrical_themes": "Travel, dislocation, divorce, humor after heartbreak, cultural exchange, and the odd wisdom of being lost.",
+    "lyrical_story": "Simon narrates a middle-aged traveler trying to make sense of heartbreak by moving through unfamiliar landscapes and rhythms. The album keeps turning loneliness into motion, so the story feels curious and alive rather than heavy.",
+    "mood": "Sunny, bittersweet, witty, and road-trip bright.",
+    "sonic_description": "Accordion, fretless bass, township jive guitars, hand percussion, close harmonies, and crisp pop songwriting locked into buoyant grooves.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Paul%20Simon%20Graceland",
+    "genres": [
+      "Pop",
+      "World"
+    ],
+    "styles": [
+      "Folk Pop",
+      "Mbaqanga",
+      "Afro-Pop",
+      "Singer-Songwriter"
+    ]
+  },
+  {
+    "artist": "David Bowie",
+    "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+    "source": "discogs",
+    "year": "1972",
+    "description": "A compact glam-rock story with riffs, hooks, costumes, and a built-in dinner-table question: what happens when a star becomes the mask?",
+    "lyrical_themes": "Fame, performance, apocalypse, alien identity, youth culture, and the cost of turning yourself into a symbol.",
+    "lyrical_story": "Bowie invents Ziggy as an outsider messiah who arrives with songs, seduces the crowd, and is eventually consumed by the fame he creates. It is theatrical without being opera: short, punchy rock scenes that move the story forward.",
+    "mood": "Flamboyant, dramatic, fast-moving, and sly.",
+    "sonic_description": "Glam rock with crunchy Mick Ronson guitars, stomping drums, handclaps, piano flashes, and melodies built for shouting along.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/David%20Bowie%20The%20Rise%20and%20Fall%20of%20Ziggy%20Stardust%20and%20the%20Spiders%20from%20Mars",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Glam",
+      "Art Rock",
+      "Classic Rock"
+    ]
+  },
+  {
+    "artist": "Santana",
+    "title": "Abraxas",
+    "source": "discogs",
+    "year": "1970",
+    "description": "Latin-rock fire for fish, pork chops, or pizza night: mostly groove-first, with enough vocal drama and instrumental heat to keep conversation awake.",
+    "lyrical_themes": "Mysticism, desire, dance-floor release, longing, and the pull between earthly pleasure and spiritual searching.",
+    "lyrical_story": "The album moves like a night festival, shifting from smoky seduction to ecstatic communal release. Even when the guitars take the lead, the songs tell a story of bodies, spirits, and rhythms pulling everyone toward the same center.",
+    "mood": "Sultry, ecstatic, earthy, and celebratory.",
+    "sonic_description": "Congas, timbales, organ, blues-rock guitar sustain, Latin percussion breaks, and tight bass vamps that keep the record in constant motion.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Santana%20Abraxas",
+    "genres": [
+      "Rock",
+      "Latin"
+    ],
+    "styles": [
+      "Latin Rock",
+      "Psychedelic Rock",
+      "Blues Rock"
+    ]
+  },
+  {
+    "artist": "Chic",
+    "title": "C'est Chic",
+    "source": "discogs",
+    "year": "1978",
+    "description": "A sleek disco-funk engine with family-safe sparkle, immaculate bass lines, and enough social wit to make burgers feel like a party.",
+    "lyrical_themes": "Nightlife, liberation, status, pleasure, style, and the joy of ordinary people claiming the dance floor.",
+    "lyrical_story": "Nile Rodgers and Bernard Edwards turn the club into a little society where frustration gets converted into elegance and release. The stories are simple but sharp: when life gets ridiculous, find your people and move together.",
+    "mood": "Glossy, joyful, stylish, and buoyant.",
+    "sonic_description": "Precision disco with clipped guitar, elastic bass, strings, handclaps, bright vocals, and drums that never lose the pocket.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Chic%20C%27est%20Chic",
+    "genres": [
+      "Funk / Soul"
+    ],
+    "styles": [
+      "Disco",
+      "Funk"
+    ]
+  },
+  {
+    "artist": "Fela Kuti",
+    "title": "Expensive Shit",
+    "source": "discogs",
+    "year": "1975",
+    "description": "A lean Afrobeat classic with an outrageous real-life political story and a groove that can simmer through a long sauce or jambalaya prep.",
+    "lyrical_themes": "State harassment, bodily autonomy, corruption, wit as resistance, and communal defiance.",
+    "lyrical_story": "Fela spins a confrontation with Nigerian authorities into a biting comic tale about power overreaching and the body refusing to cooperate. The long-form groove lets the story build like a courtroom drama powered by horns and percussion.",
+    "mood": "Defiant, funny, hypnotic, and fiery.",
+    "sonic_description": "Extended Afrobeat: interlocking guitars, Tony Allen-style drum propulsion, call-and-response vocals, brass riffs, electric piano, and rolling percussion.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Fela%20Kuti%20Expensive%20Shit",
+    "genres": [
+      "Funk / Soul",
+      "Jazz"
+    ],
+    "styles": [
+      "Afrobeat",
+      "Highlife",
+      "Funk"
+    ]
+  },
+  {
+    "artist": "Fishbone",
+    "title": "Truth and Soul",
+    "source": "bandsintown",
+    "year": "1988",
+    "description": "DC live discovery surfaced Fishbone at 9:30 Club during this plan week; the album is a hyperactive funk-punk-ska conversation starter.",
+    "lyrical_themes": "Racism, media pressure, absurdity, Black identity, party release, and refusing to be boxed into one genre or story.",
+    "lyrical_story": "Fishbone bounce between social critique and cartoon-speed comedy, showing a band trying to stay human inside a chaotic America. The album sounds like friends interrupting each other at the loudest dinner table in town, but every interruption has a point.",
+    "mood": "Explosive, funny, political, and rowdy.",
+    "sonic_description": "Ska horns, slap bass, punk guitars, funk drums, metal flashes, and rapid-fire vocals shifting from chants to soul hooks.",
+    "upcoming_show": "Apr 28, 2026 @ 9:30 Club, Washington, DC",
+    "spotify_url": "https://open.spotify.com/search/Fishbone%20Truth%20and%20Soul",
+    "genres": [
+      "Rock",
+      "Funk / Soul",
+      "Reggae"
+    ],
+    "styles": [
+      "Ska",
+      "Funk Metal",
+      "Alternative Rock",
+      "Punk"
+    ]
+  },
+  {
+    "artist": "OutKast",
+    "title": "Stankonia",
+    "source": "web",
+    "year": "2000",
+    "description": "A maximal, hilarious, beat-forward Atlanta odyssey that brings the dynamic, hard-not-to-move quality the family liked in Franc Moody.",
+    "lyrical_themes": "Freedom, family, Southern identity, fame, temptation, politics, romance, and the need to invent your own language.",
+    "lyrical_story": "Big Boi and André 3000 build Stankonia as a wild country of the mind where every room has a different rhythm and argument. The album follows two storytellers wrestling with adulthood, pleasure, fear, and possibility without ever letting the party stop.",
+    "mood": "Inventive, ecstatic, cheeky, and restless.",
+    "sonic_description": "Southern hip-hop blasted open with P-funk bass, rave synths, gospel colors, breakbeats, acoustic guitar, and elastic flows.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/OutKast%20Stankonia",
+    "genres": [
+      "Hip Hop"
+    ],
+    "styles": [
+      "Southern Hip Hop",
+      "Funk",
+      "Conscious"
+    ]
+  },
+  {
+    "artist": "Kendrick Lamar",
+    "title": "good kid, m.A.A.d city",
+    "source": "web",
+    "year": "2012",
+    "description": "A cinematic narrative album with strong beats and family-discussion depth; choose for a night when the table wants a real story.",
+    "lyrical_themes": "Adolescence, peer pressure, family, faith, violence, temptation, memory, and the search for moral direction.",
+    "lyrical_story": "Kendrick frames the record as a young man's day in Compton that keeps turning into a test of character. Skits and songs connect into a film-like arc about nearly being swallowed by the environment around him and finding a way to tell the truth about it.",
+    "mood": "Tense, reflective, propulsive, and cathartic.",
+    "sonic_description": "West Coast hip-hop with deep bass, crisp drums, melodic hooks, cinematic interludes, and flows that switch pace like camera cuts.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20good%20kid%2C%20m.A.A.d%20city",
+    "genres": [
+      "Hip Hop"
+    ],
+    "styles": [
+      "Conscious Hip Hop",
+      "West Coast Hip Hop"
+    ]
+  },
+  {
+    "artist": "A Tribe Called Quest",
+    "title": "We got it from Here... Thank You 4 Your Service",
+    "source": "web",
+    "year": "2016",
+    "description": "Warm, funky, witty, and politically awake; a great bridge between nostalgic hip-hop and modern dinner-table urgency.",
+    "lyrical_themes": "Friendship, mortality, racism, civic anxiety, humor, music lineage, and saying goodbye while still moving forward.",
+    "lyrical_story": "The album is a reunion and a farewell, with the group turning grief and national unease into nimble conversation. It feels like elders and friends passing stories around the room, each beat nudging the next speaker to step up.",
+    "mood": "Communal, bittersweet, smart, and head-nodding.",
+    "sonic_description": "Jazz-rap bass, live drums, chopped samples, warm keyboards, guest voices, and playful call-and-response flows.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/A%20Tribe%20Called%20Quest%20We%20got%20it%20from%20Here...%20Thank%20You%204%20Your%20Service",
+    "genres": [
+      "Hip Hop"
+    ],
+    "styles": [
+      "Jazz Rap",
+      "Conscious",
+      "Boom Bap"
+    ]
+  },
+  {
+    "artist": "Beyoncé",
+    "title": "Renaissance",
+    "source": "pitchfork",
+    "year": "2022",
+    "description": "A relentless dance-floor suite that turns dinner prep into choreography and brings house, disco, ballroom, and funk history into the room.",
+    "lyrical_themes": "Queer dance culture, self-possession, pleasure, resilience, body confidence, and community as survival.",
+    "lyrical_story": "The album follows a narrator shaking off exhaustion and judgment by entering a lineage of clubs where joy is sacred work. Each transition feels like a new room in the same party, building a story about finding freedom through movement.",
+    "mood": "Luxurious, commanding, ecstatic, and liberating.",
+    "sonic_description": "Seamless dance-pop with house pulses, disco strings, ballroom chants, rubbery bass, filtered samples, and precision vocal layering.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Beyonc%C3%A9%20Renaissance",
+    "genres": [
+      "Electronic",
+      "Pop",
+      "Funk / Soul"
+    ],
+    "styles": [
+      "House",
+      "Disco",
+      "Dance-Pop",
+      "Contemporary R&B"
+    ]
+  },
+  {
+    "artist": "Dua Lipa",
+    "title": "Future Nostalgia",
+    "source": "pitchfork",
+    "year": "2020",
+    "description": "Peppy, polished, and dynamic in the Franc Moody lane: retro-disco pop with modern snap and zero dinner-table drag.",
+    "lyrical_themes": "Flirtation, confidence, independence, dancing through frustration, and choosing fun as a form of control.",
+    "lyrical_story": "Dua Lipa frames romance as a dance-floor negotiation where confidence keeps winning the argument. The album moves from invitation to boundary-setting to celebration, all with the briskness of a perfect pop set.",
+    "mood": "Bright, sleek, playful, and upbeat.",
+    "sonic_description": "Disco-pop bass lines, Chic-style guitar flecks, glossy synths, gated drums, and hooks engineered for instant motion.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Dua%20Lipa%20Future%20Nostalgia",
+    "genres": [
+      "Pop"
+    ],
+    "styles": [
+      "Dance-Pop",
+      "Nu-Disco",
+      "Synth-Pop"
+    ]
+  },
+  {
+    "artist": "Bad Bunny",
+    "title": "Un Verano Sin Ti",
+    "source": "pitchfork",
+    "year": "2022",
+    "description": "A sprawling, warm-weather Puerto Rican party record that can sit with pizza, burgers, or fish while keeping the room moving.",
+    "lyrical_themes": "Summer memory, heartbreak, island pride, nightlife, political frustration, desire, and the ache of fleeting good times.",
+    "lyrical_story": "Bad Bunny turns one summer into a whole emotional geography: beach joy, missed connections, local pride, and moments when the party reveals a bruise. The record keeps the beat close even when the narrator is nursing heartbreak.",
+    "mood": "Sunlit, romantic, playful, and wistful.",
+    "sonic_description": "Reggaeton, dembow, mambo, indie-pop guitars, synth pads, and crisp club drums arranged like a long beachside mixtape.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Un%20Verano%20Sin%20Ti",
+    "genres": [
+      "Latin",
+      "Pop"
+    ],
+    "styles": [
+      "Reggaeton",
+      "Latin Pop",
+      "Dembow",
+      "Indie Pop"
+    ]
+  },
+  {
+    "artist": "Rosalía",
+    "title": "MOTOMAMI",
+    "source": "pitchfork",
+    "year": "2022",
+    "description": "A compact, high-contrast Latin pop album with engines, claps, jokes, and confession; lively enough for a busy weeknight.",
+    "lyrical_themes": "Fame, family, sensuality, discipline, play, heartbreak, and the split between toughness and tenderness.",
+    "lyrical_story": "Rosalía builds a self-portrait out of extremes: motorcycle bravado, childhood memory, devotional focus, and playful provocation. The story is less linear than kaleidoscopic, but every fragment reveals an artist deciding how much of herself to expose.",
+    "mood": "Bold, elastic, mischievous, and intimate.",
+    "sonic_description": "Flamenco handclaps, reggaeton drums, distorted bass, minimalist pop, bachata touches, and sudden negative space used rhythmically rather than sleepily.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Rosal%C3%ADa%20MOTOMAMI",
+    "genres": [
+      "Latin",
+      "Pop"
+    ],
+    "styles": [
+      "Flamenco Pop",
+      "Reggaeton",
+      "Experimental Pop"
+    ]
+  },
+  {
+    "artist": "Janelle Monáe",
+    "title": "Dirty Computer",
+    "source": "pitchfork",
+    "year": "2018",
+    "description": "A Prince-adjacent funk-pop concept record with a clear liberation story and enough bounce for celebratory family dinners.",
+    "lyrical_themes": "Identity, desire, surveillance, chosen family, gender freedom, Black joy, and refusing erasure.",
+    "lyrical_story": "Monáe imagines herself as a so-called dirty computer whose memories are being inspected and threatened. The album turns that dystopian premise into a joyful escape plan where love, funk, and self-definition become acts of resistance.",
+    "mood": "Radiant, funky, romantic, and defiant.",
+    "sonic_description": "Funk guitars, synth bass, pop choruses, rap verses, Minneapolis-style grooves, and lush harmonies with cinematic concept-album glue.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Janelle%20Mon%C3%A1e%20Dirty%20Computer",
+    "genres": [
+      "Funk / Soul",
+      "Pop"
+    ],
+    "styles": [
+      "Contemporary R&B",
+      "Funk",
+      "Dance-Pop",
+      "Neo Soul"
+    ]
+  },
+  {
+    "artist": "Rina Sawayama",
+    "title": "SAWAYAMA",
+    "source": "pitchfork",
+    "year": "2020",
+    "description": "A hyperactive pop-rock record that jumps from Y2K R&B to nu-metal crunch while keeping sharp family-history storytelling in focus.",
+    "lyrical_themes": "Immigration, intergenerational tension, consumerism, chosen identity, family expectation, and self-acceptance.",
+    "lyrical_story": "Rina Sawayama treats the album like a family photo album with neon stickers and ripped edges. She moves from inherited pressure to gleeful self-invention, turning personal history into choruses big enough to shout while cooking.",
+    "mood": "Explosive, glossy, funny, and emotionally direct.",
+    "sonic_description": "Maximal pop with nu-metal guitars, club beats, R&B harmonies, Eurodance sparkle, and theatrical tempo shifts.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Rina%20Sawayama%20SAWAYAMA",
+    "genres": [
+      "Pop",
+      "Rock"
+    ],
+    "styles": [
+      "Dance-Pop",
+      "Alternative Pop",
+      "Nu Metal",
+      "Contemporary R&B"
+    ]
+  },
+  {
+    "artist": "Little Simz",
+    "title": "Sometimes I Might Be Introvert",
+    "source": "web",
+    "year": "2021",
+    "description": "A grand, drum-heavy self-portrait with enough orchestral sweep for drama but enough rap propulsion to avoid atmosphere-first listening.",
+    "lyrical_themes": "Introversion, ambition, family wounds, Black womanhood, faith, privacy, and learning how to stand in public power.",
+    "lyrical_story": "Little Simz stages an internal debate between the public artist and the private person who still carries old hurts. The album advances like a hero's journey, using big drums and interludes to move from self-questioning toward hard-won command.",
+    "mood": "Majestic, focused, vulnerable, and triumphant.",
+    "sonic_description": "UK hip-hop with live drums, brass fanfares, strings, Afrobeat touches, choral accents, and nimble, precise rapping.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Little%20Simz%20Sometimes%20I%20Might%20Be%20Introvert",
+    "genres": [
+      "Hip Hop"
+    ],
+    "styles": [
+      "Conscious Hip Hop",
+      "UK Hip Hop",
+      "Neo Soul"
+    ]
+  },
+  {
+    "artist": "Vampire Weekend",
+    "title": "Father of the Bride",
+    "source": "pitchfork",
+    "year": "2019",
+    "description": "Loose, sunny, witty indie-pop with jammy motion and relationship miniatures; easy company for pasta, fish, or pizza.",
+    "lyrical_themes": "Marriage, spiritual doubt, climate anxiety, partnership, old arguments, and trying to stay light while the world feels heavy.",
+    "lyrical_story": "The album wanders through conversations between partners, friends, and anxious citizens who want commitment but distrust easy answers. Its story is a breezy Sunday drive with odd detours, where the jokes often reveal real worry underneath.",
+    "mood": "Breezy, clever, warm, and lightly anxious.",
+    "sonic_description": "Clean guitars, piano, hand percussion, country-pop touches, Grateful Dead looseness, bright harmonies, and crisp indie-rock grooves.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Vampire%20Weekend%20Father%20of%20the%20Bride",
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "styles": [
+      "Indie Rock",
+      "Indie Pop",
+      "Pop Rock"
+    ]
+  },
+  {
+    "artist": "The Killers",
+    "title": "Hot Fuss",
+    "source": "web",
+    "year": "2004",
+    "description": "Anthemic, nostalgic indie-rock energy with dramatic character sketches and big choruses that suit burger or pizza night.",
+    "lyrical_themes": "Jealousy, nightlife, ambition, small-town escape, betrayal, glamour, and paranoia behind the velvet rope.",
+    "lyrical_story": "Brandon Flowers populates the album with jealous lovers, showgirls, social climbers, and dreamers trying to look cooler than they feel. It plays like neon-lit short fiction, with each chorus turning anxiety into release.",
+    "mood": "Neon, urgent, theatrical, and nostalgic.",
+    "sonic_description": "Post-punk guitars, new-wave synths, driving hi-hats, pulsing bass, and arena-ready choruses wrapped in early-2000s gloss.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/The%20Killers%20Hot%20Fuss",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Indie Rock",
+      "New Wave",
+      "Post-Punk Revival"
+    ]
+  },
+  {
+    "artist": "Måneskin",
+    "title": "Teatro d'ira: Vol. I",
+    "source": "web",
+    "year": "2021",
+    "description": "Modern Italian glam-rock energy for pasta or pizza night; theatrical and swaggering without crossing into opera.",
+    "lyrical_themes": "Youth rebellion, fame, desire, self-belief, outsider confidence, and the thrill of being louder than expectations.",
+    "lyrical_story": "The album captures a young band treating rock stardom like both a dare and a diary. Its characters want freedom, attention, love, and trouble, and the riffs keep pushing them toward the spotlight.",
+    "mood": "Brash, sexy, playful, and high-voltage.",
+    "sonic_description": "Glam and hard-rock guitars, taut bass, stomping drums, shouted hooks, and bilingual swagger with a live-room feel.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/M%C3%A5neskin%20Teatro%20d%27ira%3A%20Vol.%20I",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Glam Rock",
+      "Hard Rock",
+      "Alternative Rock"
+    ]
+  },
+  {
+    "artist": "Mdou Moctar",
+    "title": "Afrique Victime",
+    "source": "bandcamp",
+    "year": "2021",
+    "description": "A Tuareg guitar record with blazing forward motion, social purpose, and enough lift to pair beautifully with branzino or spiced rice.",
+    "lyrical_themes": "Colonial harm, love, Saharan life, pride, grief, resilience, and the dignity of communities too often spoken over.",
+    "lyrical_story": "Mdou Moctar balances tender songs of place and love with a title-track indictment of exploitation across Africa. The album's story is one of beauty under pressure, where guitar ecstasy becomes both celebration and protest.",
+    "mood": "Exhilarating, desert-bright, proud, and urgent.",
+    "sonic_description": "Tuareg rock with galloping hand drums, circular guitar lines, searing solos, call-and-response vocals, and psychedelic overdrive.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Mdou%20Moctar%20Afrique%20Victime",
+    "genres": [
+      "Rock",
+      "World"
+    ],
+    "styles": [
+      "Tishoumaren",
+      "Psychedelic Rock",
+      "Desert Blues"
+    ]
+  },
+  {
+    "artist": "Amadou & Mariam",
+    "title": "Dimanche à Bamako",
+    "source": "web",
+    "year": "2004",
+    "description": "A joyful Malian pop record produced with Manu Chao, packed with rhythm and everyday stories that make family dinner feel festive.",
+    "lyrical_themes": "Marriage, markets, travel, neighborhood life, joy, social observation, and music as a daily meeting place.",
+    "lyrical_story": "The album feels like walking through Bamako on a Sunday, hearing vendors, lovers, neighbors, and musicians overlap. Amadou and Mariam turn ordinary public life into a shared celebration where each song opens another street corner.",
+    "mood": "Sunny, communal, charming, and danceable.",
+    "sonic_description": "Malian guitar pop with hand percussion, reggae bounce, French and Bambara vocals, harmonica, brass splashes, and Manu Chao street-party textures.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Amadou%20%26%20Mariam%20Dimanche%20%C3%A0%20Bamako",
+    "genres": [
+      "World",
+      "Pop"
+    ],
+    "styles": [
+      "Afro-Pop",
+      "Malian Blues",
+      "Reggae-Pop"
+    ]
+  },
+  {
+    "artist": "L'Impératrice",
+    "title": "Tako Tsubo",
+    "source": "bandcamp",
+    "year": "2021",
+    "description": "French disco-pop with a cardiology metaphor, feather-light vocals, and a pulse that scratches the Franc Moody itch without repeating the favorite.",
+    "lyrical_themes": "Heartbreak, desire, modern loneliness, glamour, dancing through confusion, and emotional resilience after romantic shock.",
+    "lyrical_story": "The title refers to broken-heart syndrome, and the album turns that idea into a glittery recovery story. Its narrators flirt, ache, and reassemble themselves on the dance floor, choosing groove over wallowing.",
+    "mood": "Chic, buoyant, bittersweet, and playful.",
+    "sonic_description": "French touch disco with rubber bass, glassy synths, clipped guitar, airy vocals, and immaculate mid-tempo dance grooves.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/L%27Imp%C3%A9ratrice%20Tako%20Tsubo",
+    "genres": [
+      "Electronic",
+      "Pop"
+    ],
+    "styles": [
+      "Nu-Disco",
+      "Synth-Pop",
+      "French Pop"
+    ]
+  },
+  {
+    "artist": "Ashnikko",
+    "title": "WEEDKILLER",
+    "source": "bandsintown",
+    "year": "2023",
+    "description": "A high-energy DC live-discovery pick from The Anthem listings; bold, narrative alt-pop for a night when the table wants something futuristic and loud.",
+    "lyrical_themes": "Bodily autonomy, revenge fantasy, ecological dread, queer identity, digital mythology, and reclaiming power from predatory systems.",
+    "lyrical_story": "Ashnikko builds a sci-fi world where a mechanized threat tries to devour wildness and selfhood. The album follows a gleefully combative heroine cutting through that machinery with jokes, rage, and club-ready hooks.",
+    "mood": "Defiant, cartoonish, fierce, and adrenalized.",
+    "sonic_description": "Alt-pop and rap with distorted synth bass, trap drums, hyperpop edges, shouted hooks, and theatrical sound-design explosions.",
+    "upcoming_show": "May 9, 2026 @ The Anthem, Washington, DC",
+    "spotify_url": "https://open.spotify.com/search/Ashnikko%20WEEDKILLER",
+    "genres": [
+      "Pop",
+      "Hip Hop"
+    ],
+    "styles": [
+      "Alt-Pop",
+      "Hyperpop",
+      "Trap Pop"
+    ]
+  },
+  {
+    "artist": "Marcus King",
+    "title": "El Dorado",
+    "source": "bandsintown",
+    "year": "2020",
+    "description": "DC live discovery flagged Marcus King at The Anthem; this soulful rock album has blues grit, Southern groove, and dinner-friendly warmth.",
+    "lyrical_themes": "Heartbreak, temptation, road weariness, self-sabotage, forgiveness, and trying to find steadier ground.",
+    "lyrical_story": "King sings like a young traveler who has seen enough bad nights to know he needs a different map. The album follows that search through love, regret, and flashes of gospel-lit resolve.",
+    "mood": "Smoky, soulful, road-tested, and hopeful.",
+    "sonic_description": "Southern soul-rock with blues guitar, organ, brass, steady drums, and Dan Auerbach-style vintage studio warmth.",
+    "upcoming_show": "Jun 3, 2026 @ The Anthem, Washington, DC",
+    "spotify_url": "https://open.spotify.com/search/Marcus%20King%20El%20Dorado",
+    "genres": [
+      "Rock",
+      "Blues",
+      "Funk / Soul"
+    ],
+    "styles": [
+      "Soul Blues",
+      "Southern Rock",
+      "Blues Rock"
+    ]
+  },
+  {
+    "artist": "Big Something",
+    "title": "Headspace",
+    "source": "bandsintown",
+    "year": "2024",
+    "description": "A 9:30 Club week-of-plan live-discovery pick: upbeat jam-funk rock for May 2 with enough groove to power pizza night cleanup.",
+    "lyrical_themes": "Mental escape, friendship, road life, curiosity, pressure release, and the search for a better inner weather system.",
+    "lyrical_story": "The album treats the mind like a room the band can redecorate with riffs, horns, and group vocals. Its loose narrative is about shaking off static, finding your crew, and making space for joy.",
+    "mood": "Loose, upbeat, colorful, and jammy.",
+    "sonic_description": "Jam rock with funk bass, bright guitar leads, saxophone lines, synths, festival-ready drums, and big melodic choruses.",
+    "upcoming_show": "May 2, 2026 @ 9:30 Club, Washington, DC",
+    "spotify_url": "https://open.spotify.com/search/Big%20Something%20Headspace",
+    "genres": [
+      "Rock",
+      "Funk / Soul"
+    ],
+    "styles": [
+      "Jam Band",
+      "Funk Rock",
+      "Alternative Rock"
+    ]
+  },
+  {
+    "artist": "Samantha Fish",
+    "title": "Faster",
+    "source": "college",
+    "year": "2021",
+    "description": "Campus-region live discovery found Samantha Fish at The State Theatre in State College; this blues-rock record brings sharp guitar momentum and confident stories.",
+    "lyrical_themes": "Desire, speed, risk, independence, heartbreak, and choosing motion over hesitation.",
+    "lyrical_story": "Fish writes from the perspective of someone who knows trouble is part of the thrill but refuses to be slowed by it. The album follows that rush through flirtation, bruised pride, and self-command.",
+    "mood": "Sassy, muscular, glossy, and driving.",
+    "sonic_description": "Blues-rock guitar bite with pop hooks, stomp-clap drums, synth accents, slide-guitar heat, and big choruses.",
+    "upcoming_show": "May 20, 2026 @ The State Theatre, State College, PA (Penn State campus region)",
+    "spotify_url": "https://open.spotify.com/search/Samantha%20Fish%20Faster",
+    "genres": [
+      "Blues",
+      "Rock"
+    ],
+    "styles": [
+      "Blues Rock",
+      "Modern Blues",
+      "Pop Rock"
+    ]
+  },
+  {
+    "artist": "The Wood Brothers",
+    "title": "One Drop of Truth",
+    "source": "college",
+    "year": "2018",
+    "description": "State College live discovery surfaced The Wood Brothers for June; this is rootsy, rhythmic, and story-forward without getting sleepy.",
+    "lyrical_themes": "Family memory, spiritual restlessness, honesty, American wandering, humility, and finding grace in imperfect people.",
+    "lyrical_story": "The Wood Brothers move through crooked little parables about travelers, sinners, neighbors, and people trying to tell the truth at least once. The groove stays earthy, making the wisdom feel lived-in rather than solemn.",
+    "mood": "Earthy, warm, sly, and gently propulsive.",
+    "sonic_description": "Acoustic bass, shuffling drums, bluesy guitar, gospel harmonies, harmonica, and roots-funk pockets.",
+    "upcoming_show": "Jun 18, 2026 @ The State Theatre, State College, PA (Penn State campus region)",
+    "spotify_url": "https://open.spotify.com/search/The%20Wood%20Brothers%20One%20Drop%20of%20Truth",
+    "genres": [
+      "Folk, World, & Country",
+      "Rock"
+    ],
+    "styles": [
+      "Americana",
+      "Folk Rock",
+      "Roots Rock"
+    ]
+  },
+  {
+    "artist": "Journey",
+    "title": "Escape",
+    "source": "college",
+    "year": "1981",
+    "description": "Penn State Bryce Jordan Center live discovery makes this arena-rock classic timely; it brings nostalgia, huge hooks, and plenty of forward motion.",
+    "lyrical_themes": "Leaving home, belief, romantic risk, loneliness on the road, and ordinary people reaching for extraordinary feeling.",
+    "lyrical_story": "The album follows dreamers and travelers who keep choosing hope even when the road looks lonely. Its biggest moments turn private longing into communal sing-along release, which is exactly what family nostalgia nights are for.",
+    "mood": "Triumphant, sentimental, glossy, and energetic.",
+    "sonic_description": "Arena rock with soaring vocals, bright piano, ringing guitar solos, tight drums, and choruses built like fireworks.",
+    "upcoming_show": "May 27, 2026 @ Bryce Jordan Center, University Park, PA (Penn State)",
+    "spotify_url": "https://open.spotify.com/search/Journey%20Escape",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Arena Rock",
+      "AOR",
+      "Pop Rock"
+    ]
+  },
+  {
+    "artist": "Hot 8 Brass Band",
+    "title": "Tombstone",
+    "source": "college",
+    "year": "2013",
+    "description": "State College live discovery surfaced Hot 8 Brass Band at The State Theatre; this New Orleans brass album is all rhythm, resilience, and communal force.",
+    "lyrical_themes": "New Orleans survival, mourning, street celebration, community memory, second-line tradition, and turning grief into movement.",
+    "lyrical_story": "The album carries the sound of a city that knows how to mourn while marching. Its story is communal: brass voices remembering losses, lifting neighbors, and refusing to let sorrow sit still.",
+    "mood": "Raucous, resilient, festive, and soulful.",
+    "sonic_description": "Second-line brass, sousaphone bass, snare cracks, funk backbeats, shouted vocals, and street-parade call-and-response.",
+    "upcoming_show": "May 22, 2026 @ The State Theatre, State College, PA (Penn State campus region)",
+    "spotify_url": "https://open.spotify.com/search/Hot%208%20Brass%20Band%20Tombstone",
+    "genres": [
+      "Jazz",
+      "Funk / Soul"
+    ],
+    "styles": [
+      "Brass Band",
+      "New Orleans Funk",
+      "Second Line"
+    ]
+  },
+  {
+    "artist": "Corinne Bailey Rae",
+    "title": "Black Rainbows",
+    "source": "bandsintown",
+    "year": "2023",
+    "description": "DC-area live discovery found a Fillmore Silver Spring date; the album is more urgent and rhythmic than her coffeehouse reputation suggests.",
+    "lyrical_themes": "Black history, art archives, rage, memory, beauty, resistance, and the way objects can hold buried stories.",
+    "lyrical_story": "Inspired by the Stony Island Arts Bank, Rae turns museum-like fragments into vivid songs about people, images, and histories demanding to be seen. The record moves from punky sparks to soul release, making archival memory feel alive.",
+    "mood": "Artful, urgent, soulful, and surprising.",
+    "sonic_description": "Soul, punk-funk, indie rock, electronic textures, hand percussion, fuzz guitar, and agile vocals shifting from whisper to shout.",
+    "upcoming_show": "Jun 2, 2026 @ The Fillmore Silver Spring, Silver Spring, MD",
+    "spotify_url": "https://open.spotify.com/search/Corinne%20Bailey%20Rae%20Black%20Rainbows",
+    "genres": [
+      "Funk / Soul",
+      "Rock"
+    ],
+    "styles": [
+      "Neo Soul",
+      "Art Rock",
+      "Alternative R&B"
+    ]
+  },
+  {
+    "artist": "Jack White",
+    "title": "Fear of the Dawn",
+    "source": "bandsintown",
+    "year": "2022",
+    "description": "A DC live-discovery rock pick tied to a July Anthem listing; jagged, high-energy guitar experiments for a night that needs bite.",
+    "lyrical_themes": "Anxiety, identity, digital overload, temptation, nocturnal fear, and the thrill of making noise out of pressure.",
+    "lyrical_story": "White turns the album into a chase through a weird electrical night, where riffs keep mutating before anyone can relax. The story is mostly psychological: a narrator wrestling with nerves and shadows by cranking the voltage higher.",
+    "mood": "Spiky, frantic, playful, and electric.",
+    "sonic_description": "Fuzz guitar, chopped samples, odd meters, hip-hop-adjacent drums, synth squeals, and garage-rock riffs packed tightly together.",
+    "upcoming_show": "Jul 10, 2026 @ The Anthem, Washington, DC",
+    "spotify_url": "https://open.spotify.com/search/Jack%20White%20Fear%20of%20the%20Dawn",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Garage Rock",
+      "Alternative Rock",
+      "Blues Rock"
+    ]
+  },
+  {
+    "artist": "The New Pornographers",
+    "title": "Twin Cinema",
+    "source": "web",
+    "year": "2005",
+    "description": "A power-pop backup candidate from the live-search orbit: fast, literate, hook-stacked, and useful if the week needs bright indie-rock lift.",
+    "lyrical_themes": "Performance, romantic misdirection, city life, fame-adjacent weirdness, and cryptic scenes that feel like half-remembered films.",
+    "lyrical_story": "The album works like a reel of witty, fast-cut scenes where characters sprint through crushes, crowds, and private jokes. Its story is intentionally elliptical, but the velocity and hooks make every scene sparkle.",
+    "mood": "Effervescent, clever, bustling, and bright.",
+    "sonic_description": "Layered power pop with racing drums, crunchy guitars, keyboards, group vocals, and Neko Case harmonies slicing through the mix.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/The%20New%20Pornographers%20Twin%20Cinema",
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "styles": [
+      "Power Pop",
+      "Indie Rock"
+    ]
+  },
+  {
+    "artist": "SAULT",
+    "title": "Untitled (Rise)",
+    "source": "pitchfork",
+    "year": "2020",
+    "description": "A groove-rich modern soul/funk reserve candidate with protest energy, handclaps, and dance-floor lift.",
+    "lyrical_themes": "Black liberation, protest, joy, collective motion, resilience, and the relationship between dancing and organizing.",
+    "lyrical_story": "The album moves like a community gathering that refuses to separate celebration from political purpose. Chants, hooks, and grooves turn individual frustration into collective lift.",
+    "mood": "Uplifting, urgent, percussive, and communal.",
+    "sonic_description": "Funk bass, Afrobeat guitar, handclaps, disco strings, group vocals, and dry drums arranged with minimal but relentless force.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/SAULT%20Untitled%20%28Rise%29",
+    "genres": [
+      "Funk / Soul"
+    ],
+    "styles": [
+      "Neo Soul",
+      "Funk",
+      "Afrobeat",
+      "Disco"
+    ]
+  },
+  {
+    "artist": "Tyler, the Creator",
+    "title": "CALL ME IF YOU GET LOST",
+    "source": "pitchfork",
+    "year": "2021",
+    "description": "A flamboyant rap travelogue with DJ-hosted momentum, sharp character work, and enough bounce to energize a long cooking project.",
+    "lyrical_themes": "Travel, status, romance, jealousy, friendship, taste, insecurity, and the gap between luxury and emotional mess.",
+    "lyrical_story": "Tyler casts himself as a globe-trotting narrator whose passport stamps cannot solve a tangled love triangle or deeper insecurity. The album zips from flexes to confession, keeping the story moving like a suitcase with wheels.",
+    "mood": "Flashy, witty, restless, and sneakily vulnerable.",
+    "sonic_description": "Hosted mixtape energy with boom-bap drums, soul samples, synth brass, reggae touches, and quick pivots between rapping and crooning.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Tyler%2C%20the%20Creator%20CALL%20ME%20IF%20YOU%20GET%20LOST",
+    "genres": [
+      "Hip Hop"
+    ],
+    "styles": [
+      "Conscious",
+      "Hardcore Hip Hop",
+      "Neo Soul"
+    ]
+  },
+  {
+    "artist": "Florence + The Machine",
+    "title": "Dance Fever",
+    "source": "web",
+    "year": "2022",
+    "description": "A reserve pick for theatrical rock energy: big drums, vivid images, and movement without tipping into opera.",
+    "lyrical_themes": "Performance, femininity, anxiety, myth, self-sabotage, recovery, and the need to dance out of a spell.",
+    "lyrical_story": "Florence Welch writes like someone trying to break an enchantment by naming every fear and then stomping through it. The album follows the performer after the spotlight, asking what is left when the ritual ends and the body still wants to move.",
+    "mood": "Dramatic, percussive, witchy, and cathartic.",
+    "sonic_description": "Art rock and baroque pop with pounding toms, handclaps, acoustic strums, synth shadows, and huge choral hooks.",
+    "upcoming_show": "",
+    "spotify_url": "https://open.spotify.com/search/Florence%20%2B%20The%20Machine%20Dance%20Fever",
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "styles": [
+      "Art Rock",
+      "Indie Pop",
+      "Baroque Pop"
+    ]
+  }
+]

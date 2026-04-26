@@ -1,0 +1,344 @@
+[
+  {
+    "name": "Leftover Sunday Gravy Rigatoni with Meatballs & Sausage",
+    "category": "dinner",
+    "cuisine": "Italian-American",
+    "description": "A family-style red-sauce pasta built around leftover gravy: warm the sauce gently, loosen it with pasta water, and toss with sturdy rigatoni so meatballs, sausage, and porky sugo cling to every bite.",
+    "key_ingredients": [
+      "rigatoni",
+      "leftover Sunday gravy",
+      "meatballs",
+      "Italian sausage",
+      "pecorino Romano"
+    ],
+    "source_url": "https://coleycooks.com/authentic-italian-sunday-gravy/",
+    "source_name": "Coley Cooks",
+    "why": "Explicitly requested, and it turns leftovers into the comfort anchor of the menu without assigning it to a specific day. Kid hook: pasta, cheese, and familiar red sauce."
+  },
+  {
+    "name": "Alex's Mom's Stuffed Cabbage Rolls",
+    "category": "dinner",
+    "cuisine": "Eastern European / Jewish-American",
+    "description": "Tender cabbage leaves wrapped around beef, rice, onion, and tomato, then simmered until the filling is plush and the sauce turns sweet-savory.",
+    "key_ingredients": [
+      "green cabbage",
+      "ground beef",
+      "rice",
+      "onion",
+      "tomato sauce",
+      "raisins or brown sugar"
+    ],
+    "source_url": "https://smittenkitchen.com/2009/02/alexs-moms-stuffed-cabbage/",
+    "source_name": "Smitten Kitchen",
+    "why": "Explicitly requested and nicely different from the Italian-heavy options: a cozy braise with make-ahead potential and soft, kid-friendly textures."
+  },
+  {
+    "name": "Ultra-Smashed Cheeseburgers with Pickles & Secret Sauce",
+    "category": "dinner",
+    "cuisine": "American diner",
+    "description": "Thin, deeply browned patties smashed hard on a hot griddle, stacked with American cheese, pickles, shredded lettuce, and a simple burger sauce.",
+    "key_ingredients": [
+      "ground beef",
+      "American cheese",
+      "potato buns",
+      "dill pickles",
+      "lettuce",
+      "burger sauce"
+    ],
+    "source_url": "https://www.seriouseats.com/ultra-smashed-cheeseburger-recipe-food-lab",
+    "source_name": "Serious Eats",
+    "why": "Explicitly requested. This keeps burgers exciting through texture: lacy crispy edges, melty cheese, and a build-your-own setup for Elsie."
+  },
+  {
+    "name": "Skillet Pork Chops with Mushroom Cream Sauce",
+    "category": "dinner",
+    "cuisine": "French-American bistro",
+    "description": "Pan-seared pork chops finished in a silky mushroom cream sauce with thyme, garlic, and pan fond for a fast bistro-style dinner.",
+    "key_ingredients": [
+      "bone-in pork chops",
+      "cremini mushrooms",
+      "heavy cream",
+      "garlic",
+      "thyme",
+      "Dijon mustard"
+    ],
+    "source_url": "https://themodernproper.com/pork-chops-with-mushroom-cream-sauce",
+    "source_name": "The Modern Proper",
+    "why": "Explicitly requested and respects the preference: mushrooms stay with cream and herbs, with no roasted red peppers anywhere near the pan."
+  },
+  {
+    "name": "Greek-Style Roasted Branzino with Garlicky Kale",
+    "category": "dinner",
+    "cuisine": "Greek / Mediterranean",
+    "description": "Whole branzino roasted with lemon, herbs, and olive oil, served with quick garlicky kale and a lemony ladolemono-style finish.",
+    "key_ingredients": [
+      "whole branzino",
+      "lemons",
+      "dill",
+      "parsley",
+      "kale",
+      "garlic",
+      "extra-virgin olive oil"
+    ],
+    "source_url": "https://www.themediterraneandish.com/roasted-branzino-recipe/",
+    "source_name": "The Mediterranean Dish",
+    "why": "Explicitly requested despite recent branzino history. The Greek lemon-herb profile keeps it brighter and lighter than the prior polenta version."
+  },
+  {
+    "name": "Babo Pasta: Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+    "category": "dinner",
+    "cuisine": "Italian family tradition",
+    "description": "A warm nod to the family favorite: homemade spinach pasta made rich with egg yolks only, tossed simply with brown butter, Parmesan, and a little pasta water so the noodle itself is the star.",
+    "key_ingredients": [
+      "spinach",
+      "egg yolks",
+      "00 flour",
+      "semolina",
+      "butter",
+      "Parmigiano-Reggiano"
+    ],
+    "source_url": "https://www.seriouseats.com/fresh-spinach-pasta-dough-recipe",
+    "source_name": "Serious Eats",
+    "why": "Explicitly requested and supported by favorites: Babo Pasta is the homemade spinach pasta with only egg yolks. Keep the sauce restrained so the special pasta shines."
+  },
+  {
+    "name": "Shaved Asparagus White Pizza",
+    "category": "dinner",
+    "cuisine": "Italian-American",
+    "description": "A springy white pizza topped with shaved asparagus, mozzarella, Parmesan, olive oil, and black pepper; add ricotta if you want a softer, creamier pie.",
+    "key_ingredients": [
+      "pizza dough",
+      "asparagus",
+      "mozzarella",
+      "Parmesan",
+      "olive oil",
+      "lemon zest"
+    ],
+    "source_url": "https://smittenkitchen.com/2010/05/shaved-asparagus-pizza/",
+    "source_name": "Smitten Kitchen",
+    "why": "Explicitly requested and vegetarian-friendly. It uses late-spring asparagus and gives pizza night a seasonal twist without feeling like health food."
+  },
+  {
+    "name": "One-Pot Shrimp & Sausage Jambalaya",
+    "category": "dinner",
+    "cuisine": "Louisiana Creole",
+    "description": "Rice, shrimp, and smoky sausage cook together with the Cajun trinity, tomatoes, stock, and warm spices for a complete one-pot dinner.",
+    "key_ingredients": [
+      "shrimp",
+      "andouille sausage",
+      "rice",
+      "celery",
+      "onion",
+      "green bell pepper",
+      "tomatoes"
+    ],
+    "source_url": "https://www.southernliving.com/recipes/one-pot-jambalaya-recipe",
+    "source_name": "Southern Living",
+    "why": "Optional extra from the favorites note: 'Want to make - One pot shrimp jambalaya.' It adds seafood, spice, and a one-pot option without repeating recent dinners."
+  },
+  {
+    "name": "Falafel Pita Night with Lemon-Tahini & Crunchy Veg",
+    "category": "dinner",
+    "cuisine": "Middle Eastern",
+    "description": "Herby chickpea falafel tucked into warm pita with tahini sauce, cucumbers, radishes, lettuce, and pickles for a hands-on vegetarian dinner.",
+    "key_ingredients": [
+      "dried chickpeas",
+      "parsley",
+      "cilantro",
+      "cumin",
+      "coriander",
+      "pita",
+      "tahini",
+      "radishes"
+    ],
+    "source_url": "https://www.themediterraneandish.com/how-to-make-falafel/",
+    "source_name": "The Mediterranean Dish",
+    "why": "Satisfies the Middle Eastern requirement while avoiding the recent mujadara repeat. Kid hook: everyone builds their own pita."
+  },
+  {
+    "name": "Palak Paneer with Spring Spinach & Kale",
+    "category": "dinner",
+    "cuisine": "North Indian",
+    "description": "Paneer cubes folded into a smooth, fragrant spinach sauce; add a handful of tender kale for extra greens and serve with rice or naan.",
+    "key_ingredients": [
+      "paneer",
+      "spinach",
+      "kale",
+      "ginger",
+      "garlic",
+      "garam masala",
+      "basmati rice"
+    ],
+    "source_url": "https://www.indianhealthyrecipes.com/palak-paneer-recipe-easy-paneer-recipes-step-by-step-pics/",
+    "source_name": "Indian Healthy Recipes",
+    "why": "Vegetarian-friendly and a different flavor lane from the requested comfort foods. It also gives kale another role beyond the branzino plate."
+  },
+  {
+    "name": "Labneh with Radishes, Olive Oil & Spring Herbs",
+    "category": "appetizer",
+    "cuisine": "Middle Eastern",
+    "description": "Thick strained yogurt spread on a plate and topped with crisp radishes, mint, dill, za'atar, lemon zest, and a glossy pour of olive oil.",
+    "key_ingredients": [
+      "labneh",
+      "radishes",
+      "za'atar",
+      "mint",
+      "dill",
+      "lemon",
+      "olive oil"
+    ],
+    "source_url": "https://www.themediterraneandish.com/homemade-labneh-recipe/",
+    "source_name": "The Mediterranean Dish",
+    "why": "Fresh, easy, and seasonal; it can start the falafel, branzino, or pizza meals without being heavy."
+  },
+  {
+    "name": "Artichoke Crostini with Lemon, Parmesan & Mint",
+    "category": "appetizer",
+    "cuisine": "Italian",
+    "description": "Toasty baguette slices topped with chopped artichokes, lemon, Parmesan, herbs, and olive oil for a bright aperitivo-style starter.",
+    "key_ingredients": [
+      "baguette",
+      "artichoke hearts",
+      "Parmesan",
+      "lemon",
+      "mint",
+      "parsley",
+      "olive oil"
+    ],
+    "source_url": "https://www.foodandwine.com/recipes/artichoke-crostini",
+    "source_name": "Food & Wine",
+    "why": "A low-effort Italian appetizer that plays well with red sauce pasta, Babo Pasta, or pizza and uses spring's artichoke mood even if using jarred hearts."
+  },
+  {
+    "name": "Spring Nicoise Platter with Asparagus, New Potatoes & Jammy Eggs",
+    "category": "salad",
+    "salad_type": "composed_dinner",
+    "cuisine": "French",
+    "description": "A dinner-sized composed platter of spring greens, asparagus, new potatoes, radishes, jammy eggs, olives, capers, and optional tuna arranged in tidy sections rather than tossed.",
+    "key_ingredients": [
+      "asparagus",
+      "new potatoes",
+      "eggs",
+      "spring greens",
+      "radishes",
+      "Nicoise olives",
+      "capers"
+    ],
+    "dressing": "Dijon-shallot vinaigrette: whisk 1/4 cup red wine vinegar, 1 tablespoon Dijon mustard, 1 small minced shallot, 1 teaspoon honey, 1/2 teaspoon kosher salt, and 1/4 teaspoon black pepper; stream in 1/2 cup extra-virgin olive oil until emulsified, then stir in 1 tablespoon chopped capers.",
+    "flavor_rationale": "This works because the rich eggs and potatoes need sharp acid, while asparagus and radishes bring snap and green bitterness. Olives and capers supply briny punctuation so the salad feels like a real dinner instead of a plate of vegetables.",
+    "seasonal_note": "Asparagus, radishes, spring greens, and new potatoes are all strong East Coast late-April/early-May choices; local eggs make it more substantial.",
+    "source_url": "https://farmflavor.com/recipes/spring-nicoise-salad/",
+    "source_name": "Farm Flavor",
+    "why": "Composed dinner salad: beautiful enough for company, substantial enough for a no-cook-ish dinner, and aligned with the week's spring produce."
+  },
+  {
+    "name": "Spring Chickpea Fattoush with Snap Peas & Crispy Pita",
+    "category": "salad",
+    "salad_type": "tossed_dinner",
+    "cuisine": "Middle Eastern",
+    "description": "A generous tossed fattoush bulked up with chickpeas, romaine, cucumbers, radishes, snap peas, herbs, and shards of toasted pita.",
+    "key_ingredients": [
+      "chickpeas",
+      "romaine",
+      "radishes",
+      "snap peas",
+      "cucumber",
+      "mint",
+      "parsley",
+      "pita"
+    ],
+    "dressing": "Lemon-sumac pomegranate dressing: whisk 1/4 cup fresh lemon juice, 1 tablespoon pomegranate molasses, 1 grated garlic clove, 1 teaspoon ground sumac, 1/2 teaspoon kosher salt, and 1/4 teaspoon black pepper; stream in 1/3 cup extra-virgin olive oil and toss immediately with the salad.",
+    "flavor_rationale": "Fattoush is all about contrast: juicy vegetables, crisp pita, creamy chickpeas, and a tart dressing that wakes everything up. Sumac and pomegranate molasses echo the Middle Eastern dinner option while the chickpeas make the bowl filling enough to stand alone.",
+    "seasonal_note": "Radishes, tender lettuces, herbs, and snap peas are ideal late-spring Mid-Atlantic produce; cucumbers are acceptable as a crisp bridge into warmer weather.",
+    "source_url": "https://www.themediterraneandish.com/fattoush-salad/",
+    "source_name": "The Mediterranean Dish",
+    "why": "Tossed dinner salad: vegetarian-friendly, high-crunch, and a natural partner for falafel, branzino, or burgers."
+  },
+  {
+    "name": "Asparagus, Radish & Sweet Pea Side Salad with Avocado-Herb Dressing",
+    "category": "salad",
+    "salad_type": "side",
+    "cuisine": "American spring",
+    "description": "A crisp green side salad of shaved asparagus, sliced radishes, sweet peas, herbs, and feta over tender lettuces.",
+    "key_ingredients": [
+      "asparagus",
+      "radishes",
+      "sweet peas",
+      "butter lettuce",
+      "feta",
+      "dill",
+      "parsley"
+    ],
+    "dressing": "Avocado-herb dressing: blend 1 ripe avocado, 3 tablespoons lemon juice, 1 tablespoon white wine vinegar, 1 teaspoon Dijon mustard, 1 small garlic clove, 1/4 cup extra-virgin olive oil, 2 tablespoons water, 1/4 cup parsley, 2 tablespoons dill, 1/2 teaspoon kosher salt, and black pepper to taste.",
+    "flavor_rationale": "The creamy avocado dressing softens asparagus' grassy edge and gives lean spring vegetables enough body to sit beside burgers, pork chops, or fish. Lemon and herbs keep it bright so it does not fight creamy mushroom sauce or rich cheese.",
+    "seasonal_note": "Asparagus, radishes, peas, dill, parsley, and tender lettuces are exactly the produce to chase on the East Coast as April turns into May.",
+    "source_url": "https://www.loveandlemons.com/asparagus-salad/",
+    "source_name": "Love & Lemons",
+    "why": "Side salad #1: a spring-green counterweight for the heavier requested dinners."
+  },
+  {
+    "name": "Butter Lettuce, Strawberries & Pickled Shallot Salad",
+    "category": "salad",
+    "salad_type": "side",
+    "cuisine": "American spring",
+    "description": "Soft butter lettuce, early strawberries, cucumber, toasted almonds, goat cheese, mint, and quick-pickled shallots in a poppy seed vinaigrette.",
+    "key_ingredients": [
+      "butter lettuce",
+      "strawberries",
+      "cucumber",
+      "shallots",
+      "almonds",
+      "goat cheese",
+      "mint"
+    ],
+    "dressing": "Lemon-poppy seed vinaigrette: shake 3 tablespoons champagne vinegar, 1 tablespoon fresh lemon juice, 1 tablespoon honey, 1 teaspoon Dijon mustard, 1/3 cup extra-virgin olive oil, 1 teaspoon poppy seeds, 1/2 teaspoon kosher salt, and 1/4 teaspoon black pepper until glossy.",
+    "flavor_rationale": "Sweet strawberries and honey need the bite of pickled shallot and lemony acid to avoid tasting like dessert. Almonds add crunch, goat cheese adds tangy fat, and mint makes the whole salad feel cool next to pizza or spicy jambalaya.",
+    "seasonal_note": "Butter lettuce and herbs are abundant in late April; the first Mid-Atlantic strawberries often appear around early May, and supermarket berries can stand in if local fruit lags.",
+    "source_url": "https://www.loveandlemons.com/spring-salad/",
+    "source_name": "Love & Lemons",
+    "why": "Side salad #2: lighter, fruitier, and completely different from the asparagus-pea salad."
+  },
+  {
+    "name": "Chianti Classico or Other Sangiovese",
+    "category": "beverage",
+    "cuisine": "Wine",
+    "description": "A medium-bodied, high-acid Italian red with cherry, tomato, herb, and savory notes.",
+    "key_ingredients": [
+      "Sangiovese grapes"
+    ],
+    "source_url": "https://www.winefolly.com/grapes/sangiovese/",
+    "source_name": "Wine Folly",
+    "pairing_note": "Best with Sunday gravy pasta, pizza, stuffed cabbage, and burgers because the acidity cuts tomato, fat, and cheese.",
+    "why": "Pairing note: high acidity and savory tomato-friendly flavors make this the red wine workhorse for the Italian-American options."
+  },
+  {
+    "name": "Gruner Veltliner",
+    "category": "beverage",
+    "cuisine": "Wine",
+    "description": "A lean Austrian white with citrus, green apple, white pepper, and herbaceous snap.",
+    "key_ingredients": [
+      "Gruner Veltliner grapes"
+    ],
+    "source_url": "https://www.winefolly.com/grapes/gruner-veltliner/",
+    "source_name": "Wine Folly",
+    "pairing_note": "Best with branzino, asparagus pizza, spring salads, and pork chops because it handles green vegetables and creamy sauces.",
+    "why": "Pairing note: peppery acidity is especially useful for asparagus, kale, lemon, and mushroom cream."
+  },
+  {
+    "name": "Sparkling Strawberry-Basil Lemonade",
+    "category": "beverage",
+    "cuisine": "Non-alcoholic",
+    "description": "A family-friendly pitcher drink: strawberry lemonade topped with sparkling water and slapped basil leaves for aroma.",
+    "key_ingredients": [
+      "strawberries",
+      "lemons",
+      "sparkling water",
+      "basil",
+      "sugar"
+    ],
+    "source_url": "https://www.acouplecooks.com/strawberry-lemonade/",
+    "source_name": "A Couple Cooks",
+    "pairing_note": "Best with pizza, burgers, falafel, jambalaya, and the strawberry salad; add extra sparkling water for a lighter dinner drink.",
+    "why": "Pairing note: tart lemon and bubbles refresh the palate across spicy, cheesy, and fried foods while staying kid-friendly."
+  }
+]

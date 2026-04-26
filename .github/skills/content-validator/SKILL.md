@@ -23,6 +23,23 @@ pass.
 After Phase 2 (RESEARCH) completes and before Phase 4 (ASSEMBLE). The
 orchestrator invokes you with paths to all researcher output files.
 
+The executable validator is:
+
+```bash
+python .github/skills/content-validator/scripts/validate_content.py \
+  weekly_plans/<YYYY-MM-DD>/plan_data.json \
+  --run-request weekly_plans/<YYYY-MM-DD>/week_request.json \
+  --history weekly_plans/<YYYY-MM-DD>/history_snapshot.json \
+  --reading-sources weekly_plans/<YYYY-MM-DD>/reading_sources.json \
+  --output weekly_plans/<YYYY-MM-DD>/validation-report.json \
+  --manifest-output weekly_plans/<YYYY-MM-DD>/section_manifest.json
+```
+
+It canonicalizes known historical aliases before validation, including
+`conversation_starters -> dinner_questions`,
+`parenting_nudges -> nudges`, and top-level legacy names such as
+`parenting`, `newsletter`, `stoic_guide`, and `principles_guide`.
+
 ## What You Check
 
 ### 1. Field Shape Validation
@@ -49,6 +66,8 @@ expect. Templates silently render blank sections when types are wrong.
 | `principles_data.daily_entries` | Array of dicts with `essay` | Key named `days` |
 | `parenting_data.weekly_theme` | `{title: str, description: str}` | Plain string |
 | `parenting_data.dinner_questions` | Array of dicts with `question`, `why` | Key named `days` |
+| `news_feed_data.sources` | Array of source metadata dicts | Missing when `news_feed.sources` were requested |
+| `news_feed_data.articles[]` | Array of article dicts with `title`, `url`, `source_name`, `full_text` | Markdown fetched but not passed via `--news-feed` |
 
 ### 2. Content Completeness
 
@@ -65,6 +84,8 @@ expect. Templates silently render blank sections when types are wrong.
 | Parenting | `weekly_theme`, 7 `dinner_questions`, 3 `nudges`, `recommendation` |
 | Nutrition | Covers all 7 dinners, has `lunch_suggestions` and `snack_suggestions` |
 | Story | `title` (non-empty), `story` (250-800 words), `discussion_prompt` |
+| Weekly read | Each `newsletter_data.clusters[].synthesis` is a 500-1000 word essay |
+| News feed | If requested, `news_feed_data.sources` exists and every fetched article has title, URL, source, and extracted text |
 
 ### 3. Content Quality
 
@@ -94,6 +115,7 @@ principles.json
 nutrition.json
 child-wisdom.json   (earlier skill versions wrote story.json)
 recipe_cards.json
+news-feed.md       (when week_request.json contains news_feed.sources)
 ```
 
 Each day's `recipe_card` only appears *after* Phase 4 assembly, so the
@@ -153,9 +175,9 @@ After the researcher re-runs with fix instructions:
 ### Step 6: Post-Assembly Integration Check
 
 After the orchestrator completes Phase 4.2 (assembly) and writes
-`plan_data.json`, run a second pass that verifies cross-skill merges
-actually landed on the days. This is the pass that would have caught
-the "missing Mamma Karen blocks" regression.
+`plan_data.json`, run the section-aware validator. This verifies cross-skill
+merges actually landed on the days and that every active section in
+`section_registry.yaml` has the required shape/counts.
 
 Read `weekly_plans/<YYYY-MM-DD>/plan_data.json` and assert, for every
 day in `days[]`:
@@ -175,6 +197,7 @@ And at the top level:
 | `stoic_data` | present |
 | `principles_data.daily_entries` | length 7 |
 | `newsletter_data.clusters` | non-empty |
+| `news_feed_data.sources` | present when `week_request.news_feed.sources` was requested |
 | `child_wisdom.story` | non-empty |
 
 If any day is missing a merged field, the root cause is almost always a
@@ -195,7 +218,7 @@ The validator produces a JSON report at `weekly_plans/<YYYY-MM-DD>/validation-re
   "failed": 0,
   "researchers_validated": [
     "days", "elevations", "parenting", "stoic",
-    "principles", "nutrition", "story", "recipe-cards"
+    "principles", "nutrition", "story", "recipe-cards", "news-feed"
   ],
   "issues": [],
   "retries": {}

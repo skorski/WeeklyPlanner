@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-04-26T13:26:38.786439+00:00",
+  "status": "PASS",
+  "reports": [
+    {
+      "type": "linkwarden",
+      "status": "ok",
+      "days": 7,
+      "items_selected": 0
+    },
+    {
+      "type": "url",
+      "url": "https://substack.com/home/post/p-194201128",
+      "status": "ok",
+      "word_count": 2896,
+      "message": "Fetched directly"
+    },
+    {
+      "type": "url",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
+      "status": "ok",
+      "word_count": 2896,
+      "message": "Fetched directly"
+    },
+    {
+      "type": "url",
+      "url": "https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code",
+      "status": "ok",
+      "word_count": 1893,
+      "message": "Fetched directly"
+    },
+    {
+      "type": "topic",
+      "topic": "collagen peptides creatine Fortibone bespoke combinations bone density muscle recovery supplementation",
+      "status": "needs_research",
+      "message": "Topic should be covered by newsletter research."
+    }
+  ],
+  "summary": {
+    "total_sources": 4,
+    "successful_sources": 3,
+    "failed_sources": 0,
+    "topics": 1,
+    "total_words": 7685
+  }
+}

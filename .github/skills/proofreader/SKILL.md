@@ -25,9 +25,9 @@ The proofreader focuses exclusively on post-render validation of the final
 HTML, PDF, and Markdown outputs.
 
 ### 1. Page Overflow Detection
-Opens the HTML in headless Chromium at print dimensions (5.5" × 8.5") and
+Opens the HTML in headless Chromium at A5 print dimensions (148mm × 210mm) and
 measures every `.page` element's `scrollHeight` vs the available content
-area (715 CSS px). Reports any page that bleeds past its boundary.
+area (741 CSS px). Reports any bounded page that bleeds past its boundary.
 
 ### 2. Content Completeness
 Compares the rendered HTML against `plan_data.json` to verify:
@@ -39,11 +39,15 @@ Compares the rendered HTML against `plan_data.json` to verify:
 - All **engagements** (calendar events) render on the correct day
 - Every day's **recipe card** (nonna text) appears on a `page-day-recipe`
 
-### 3. Page Structure Validation
+### 3. Section Manifest and Page Structure Validation
+- Every active `print_html` section in `section_manifest.json` has a rendered
+  `data-section-id` marker.
+- Registry `print_fit_policy.max_pages` budgets are checked against rendered
+  section page counts.
 - Cover is page 1 (no page number)
 - Week at a Glance is page 2
 - Daily Plan divider is page 3 (no page number)
-- Days are pages 4–17 (7 days × 2 pages each)
+- Days are a 3-page daily spread: day, principles, and evening pages
 - Section dividers have no page numbers
 - Back cover is the last page (no page number)
 - Page numbers are sequential with no gaps
@@ -70,14 +74,15 @@ Extracts text from the PDF (`weekly-plan.pdf`) via pypdf and verifies:
 # Full validation of all three outputs (HTML, MD, PDF auto-detected)
 python .github/skills/proofreader/scripts/proofread.py \
     weekly_plans/2026-02-08/plan_data.json \
-    weekly_plans/2026-02-08/weekly-plan.html
+    weekly_plans/2026-02-08/weekly-plan.html \
+    --manifest weekly_plans/2026-02-08/section_manifest.json
 ```
 
 **Options:**
 ```bash
 # Explicit paths for markdown and PDF
 python .github/skills/proofreader/scripts/proofread.py plan_data.json weekly-plan.html \
-    --md weekly-plan.md --pdf weekly-plan.pdf
+    --manifest section_manifest.json --md weekly-plan.md --pdf weekly-plan.pdf
 
 # Only check overflow (fast)
 python .github/skills/proofreader/scripts/proofread.py plan_data.json weekly-plan.html --overflow-only
@@ -137,6 +142,6 @@ If the proofreader reports failures:
 Run the proofreader again after fixes to confirm resolution.
 
 ## Configuration
-- Requires Python 3.7+, `playwright`, `beautifulsoup4`
+- Requires Python 3.7+, `playwright`, and `pypdf` for optional PDF text checks
 - Playwright Chromium must be installed
 - No API keys required

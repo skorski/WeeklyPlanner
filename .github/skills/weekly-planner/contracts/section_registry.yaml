@@ -1,0 +1,372 @@
+schema_version: "1.0"
+sections:
+  - id: cover
+    title: Cover
+    required: always
+    required_paths:
+      - week_range
+    source_paths:
+      - week_range
+      - highlight
+      - elsie_no_list
+    render_targets: [markdown, screen_html, print_html, pdf, webapp]
+    render_selectors:
+      print_html: ['[data-section-id="cover"]', '.page-cover']
+    print_fit_policy:
+      bounded: true
+      max_pages: 1
+      trim_order: [highlight]
+      instructions: |
+        Keep the cover sparse. Prefer a short highlight over adding extra
+        explanatory text.
+
+  - id: week_at_a_glance
+    title: Week at a Glance
+    required: always
+    required_paths:
+      - days
+    item_counts:
+      - path: days
+        exact: 7
+    source_paths:
+      - days[].name
+      - days[].weather
+      - days[].calendar_items
+      - days[].dinner
+      - days[].album
+    render_targets: [markdown, screen_html, print_html, pdf, webapp]
+    render_selectors:
+      print_html: ['[data-section-id="week_at_a_glance"]', '.page-glance']
+    print_fit_policy:
+      bounded: true
+      max_pages: 1
+      trim_order: ["days[].calendar_items"]
+      instructions: |
+        Keep the glance to one page. Shorten event labels before removing
+        dinners or albums.
+
+  - id: daily_plan
+    title: Daily Plan
+    required: always
+    required_paths:
+      - days[].dinner
+      - days[].album
+    item_counts:
+      - path: days
+        exact: 7
+    source_paths:
+      - days[].day_intro
+      - days[].weather
+      - days[].calendar_items
+      - days[].dinner
+      - days[].album
+      - days[].activity
+    render_targets: [markdown, screen_html, print_html, pdf, webapp]
+    render_selectors:
+      print_html: ['[data-section-id="daily_plan"]', '.page-day-left', '.page-day-right']
+    print_fit_policy:
+      bounded: true
+      max_pages: 21
+      trim_order:
+        - days[].day_intro
+        - days[].dinner_description
+        - days[].album_description
+        - days[].album_pairing_rationale
+      instructions: |
+        Daily pages carry the spine of the booklet. Trim prose but keep each
+        day's dinner, album, weather, and event context visible.
+
+  - id: daily_recipe_cards
+    title: Recipe Cards
+    required: always
+    required_paths:
+      - days[].recipe_card.nonna_says
+    item_counts:
+      - path: days[].recipe_card.nonna_says
+        exact: 7
+    source_paths:
+      - days[].recipe_card
+    render_targets: [markdown, screen_html, print_html, pdf, webapp]
+    render_selectors:
+      print_html: ['[data-section-id="daily_recipe_cards"]', '.recipe-inline-block']
+    print_fit_policy:
+      bounded: true
+      max_pages: 7
+      trim_order:
+        - "days[].recipe_card.variations[].twist"
+        - "days[].recipe_card.nonna_says"
+      instructions: |
+        Keep Mamma Karen's voice. Shorten variation twists before shortening
+        the main recipe instructions.
+
+  - id: daily_chef_tips
+    title: Chef's Tips
+    required: always
+    required_paths:
+      - days[].dinner_elevation_tips
+    item_counts:
+      - path: days[].dinner_elevation_tips
+        min: 7
+    source_paths:
+      - days[].dinner_elevation_tips
+    render_targets: [markdown, screen_html, print_html, pdf, webapp]
+    render_selectors:
+      print_html: ['[data-section-id="daily_chef_tips"]', '.elevation-block']
+    print_fit_policy:
+      bounded: true
+      max_pages: 7
+      trim_order: ["days[].dinner_elevation_tips[].instruction"]
+
+  - id: daily_conversation
+    title: At the Table
+    required: always
+    required_paths:
+      - days[].dinner_question.question
+    item_counts:
+      - path: parenting_data.dinner_questions
+        exact: 7
+    source_paths:
+      - days[].dinner_question
+      - parenting_data.dinner_questions
+    render_targets: [markdown, screen_html, print_html, pdf, webapp]
+    render_selectors:
+      print_html: ['[data-section-id="daily_conversation"]', '.conversation-block']
+    print_fit_policy:
+      bounded: true
+      max_pages: 7
+      trim_order: ["days[].dinner_question.why"]
+
+  - id: daily_principles
+    title: Principles for Living
+    required: always
+    required_paths:
+      - principles_data.theme.title
+      - principles_data.daily_entries[].essay
+    item_counts:
+      - path: principles_data.daily_entries
+        exact: 7
+    source_paths:
+      - principles_data
+    render_targets: [markdown, screen_html, print_html, pdf, webapp]
+    render_selectors:
+      print_html: ['[data-section-id="daily_principles"]', '.page-day-principles']
+    print_fit_policy:
+      bounded: true
+      max_pages: 7
+      trim_order: ["principles_data.daily_entries[].essay"]
+      instructions: |
+        Keep exactly two paragraphs per day. Trim by rewriting, not truncating.
+
+  - id: grocery_prep
+    title: Grocery and Prep
+    required: conditional
+    conditions:
+      any:
+        - path: grocery_list
+          min_count: 1
+        - path: prep_ahead
+          min_count: 1
+    source_paths:
+      - grocery_list
+      - prep_ahead
+    render_targets: [markdown, screen_html, print_html, pdf, webapp]
+    render_selectors:
+      print_html: ['[data-section-id="grocery_prep"]', '.page-grocery']
+    print_fit_policy:
+      bounded: true
+      max_pages: 2
+      trim_order: [prep_ahead]
+
+  - id: family_parenting
+    title: Parenting Corner
+    required: always
+    required_paths:
+      - parenting_data.weekly_theme.title
+      - parenting_data.dinner_questions[].question
+      - parenting_data.nudges
+    item_counts:
+      - path: parenting_data.dinner_questions
+        exact: 7
+      - path: parenting_data.nudges
+        min: 3
+    source_paths:
+      - parenting_data
+    render_targets: [markdown, screen_html, print_html, pdf, webapp]
+    render_selectors:
+      print_html: ['[data-section-id="family_parenting"]', '.page-parenting']
+    print_fit_policy:
+      bounded: true
+      max_pages: 6
+      trim_order:
+        - parenting_data.weekly_theme.description
+        - parenting_data.dinner_questions[].why
+        - parenting_data.nudges[].context
+        - parenting_data.nudges[].suggestion
+      instructions: |
+        Keep the weekly theme, seven questions, and at least three nudges.
+        Shorten explanatory text before removing structure.
+    dedupe_policy:
+      lookback_weeks: 8
+      exact_paths:
+        - parenting_data.weekly_theme.title
+        - parenting_data.dinner_questions[].question
+        - parenting_data.nudges[].title
+
+  - id: stoic_guide
+    title: The Stoic Guide
+    required: always
+    required_paths:
+      - stoic_data.theme.title
+      - stoic_data.anchor_quote.text
+      - stoic_data.meditations
+    item_counts:
+      - path: stoic_data.meditations
+        min: 3
+        max: 7
+    source_paths:
+      - stoic_data
+    render_targets: [markdown, screen_html, print_html, pdf, webapp]
+    render_selectors:
+      print_html: ['[data-section-id="stoic_guide"]', '.page-stoic']
+    print_fit_policy:
+      bounded: true
+      max_pages: 5
+      trim_order:
+        - stoic_data.introduction
+        - stoic_data.meditations[].reflection
+        - stoic_data.meditations[].prompt
+      instructions: |
+        Keep the classical source, theme, family exercise, and young-stoic
+        prompt. Shorten meditations before removing practice elements.
+    dedupe_policy:
+      lookback_weeks: 8
+      exact_paths:
+        - stoic_data.theme.title
+        - stoic_data.anchor_quote.text
+
+  - id: weekly_read
+    title: The Weekly Read
+    required: conditional
+    conditions:
+      any:
+        - path: newsletter_data.clusters
+          min_count: 1
+        - path: run_request.weekly_read.urls
+          min_count: 1
+        - path: run_request.weekly_read.rss_feeds
+          min_count: 1
+        - path: run_request.weekly_read.required_topics
+          min_count: 1
+    source_paths:
+      - newsletter_data.clusters
+      - newsletter_data.reflections
+      - newsletter_data.fun_section
+    render_targets: [markdown, screen_html, print_html, pdf, webapp]
+    render_selectors:
+      print_html: ['[data-section-id="weekly_read"]', '.page-newsletter']
+    print_fit_policy:
+      bounded: true
+      max_pages: 4
+      trim_order:
+        - newsletter_data.clusters[].synthesis
+        - newsletter_data.reflections
+        - newsletter_data.fun_section.content
+      instructions: |
+        Keep every user-requested article represented. Shorten synthesis prose
+        before removing article one-liners. Never remove the fun section unless
+        the user explicitly disables it.
+    dedupe_policy:
+      lookback_weeks: 8
+      exact_paths:
+        - newsletter_data.clusters[].theme
+        - newsletter_data.fun_section.title
+
+  - id: news_feed
+    title: News Feed
+    required: conditional
+    conditions:
+      any:
+        - path: news_feed_data.sources
+          min_count: 1
+        - path: run_request.news_feed.sources
+          min_count: 1
+    required_paths:
+      - news_feed_data.sources
+    source_paths:
+      - news_feed_data.sources
+      - news_feed_data.articles
+      - news_feed_data.markdown_path
+    render_targets: [markdown, screen_html, print_html, pdf, webapp]
+    render_selectors:
+      print_html: ['[data-section-id="news_feed"]', '.page-news-feed']
+    print_fit_policy:
+      bounded: true
+      max_pages: 2
+      trim_order:
+        - news_feed_data.articles[].summary
+      instructions: |
+        Keep the source list and article titles. The full extracted text lives
+        in news-feed.md; print layouts should render concise excerpts only.
+
+  - id: bedtime_story
+    title: Bedtime Story
+    required: always
+    required_paths:
+      - child_wisdom.title
+      - child_wisdom.story
+      - child_wisdom.discussion_prompt
+    source_paths:
+      - child_wisdom
+    render_targets: [markdown, screen_html, print_html, pdf, webapp]
+    render_selectors:
+      print_html: ['[data-section-id="bedtime_story"]', '.page-story']
+    print_fit_policy:
+      bounded: true
+      max_pages: 4
+      trim_order:
+        - child_wisdom.story
+        - child_wisdom.discussion_prompt
+      instructions: |
+        Preserve a complete story arc. If it exceeds five pages, rewrite for
+        concision instead of cutting the ending.
+    style_profile: bedtime_story
+    dedupe_policy:
+      lookback_weeks: 4
+      exact_paths:
+        - child_wisdom.title
+        - child_wisdom.life_lesson
+
+  - id: nutrition
+    title: Nutrition
+    required: always
+    required_paths:
+      - nutrition_summary
+    source_paths:
+      - nutrition_summary
+      - nutrition_data
+    render_targets: [markdown, screen_html, print_html, pdf, webapp]
+    render_selectors:
+      print_html: ['[data-section-id="nutrition"]']
+    print_fit_policy:
+      bounded: true
+      max_pages: 2
+      trim_order:
+        - nutrition_summary
+        - nutrition_data.nutrient_primer
+
+  - id: notes_back_cover
+    title: Notes and Back Cover
+    required: always
+    required_paths:
+      - generated_at
+    source_paths:
+      - notes
+      - generated_at
+    render_targets: [markdown, screen_html, print_html, pdf]
+    render_selectors:
+      print_html: ['[data-section-id="notes_back_cover"]', '.page-back']
+    print_fit_policy:
+      bounded: true
+      max_pages: 1
+      trim_order: [notes]
+

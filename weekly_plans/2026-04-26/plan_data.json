@@ -1,0 +1,3165 @@
+{
+  "week_range": "April 26 - May 2, 2026",
+  "generated_at": "2026-04-26 15:47",
+  "cover_highlight": "A logistics-heavy spring week steadied by familiar dinners, Coachella-sparked album pairings, and a Saturday four-pie pizza night with Patrick visiting.",
+  "elsie_no_list": [],
+  "days": [
+    {
+      "name": "Sun 04/26",
+      "long_name": "Sunday, April 26",
+      "weather": "Cloudy, 55F/45F",
+      "weather_detail": "Cloudy (0% sunshine), wind 10 mph, 14% precip",
+      "calendar": "Laura out of town, Dan solo parent duty",
+      "calendar_items": [
+        "Laura out of town, Dan solo parent duty"
+      ],
+      "time_constraints": [
+        "Keep dinner mostly reheating and assembly."
+      ],
+      "dinner": "Leftover Sunday Gravy Rigatoni with Meatballs & Sausage",
+      "dinner_cuisine": "Italian-American",
+      "dinner_description": "Sunday gravy is Italian-American comfort at its best: tomato sauce deepened by meatballs, sausage, and time. Rigatoni makes the leftovers feel generous again, with pecorino and pasta water pulling everything glossy.",
+      "dinner_key_ingredients": [
+        "rigatoni",
+        "leftover Sunday gravy",
+        "meatballs",
+        "Italian sausage",
+        "pecorino Romano"
+      ],
+      "dinner_source_url": "https://coleycooks.com/authentic-italian-sunday-gravy/",
+      "dinner_source_name": "Coley Cooks",
+      "dinner_notes": "Warm the gravy low and slow; finish rigatoni in the pan with a splash of pasta water.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "album": "The Strokes - Is This It",
+      "album_artist": "The Strokes",
+      "album_title": "Is This It",
+      "album_year": "2001",
+      "album_genre": "Indie Rock / Post-Punk Revival",
+      "album_mood": "Cool, wiry, streetlit, and playful.",
+      "album_description": "The Strokes’ 2001 debut, produced by Gordon Raphael, still feels lean and immediate—clipped guitars, dry wit, downtown mini-scenes. It keeps a red-sauce night from getting too sleepy.",
+      "album_sonic_description": "Dry drums, interlocking downstroke guitars, laconic vocals, and lean bass lines with no wasted motion.",
+      "album_pairing_rationale": "Both dinner and record have old-neighborhood energy: familiar ingredients, sharp edges, no wasted motion.",
+      "album_spotify_url": "https://open.spotify.com/search/The%20Strokes%20Is%20This%20It",
+      "activity": "Solo-parent red-sauce reset",
+      "activity_notes": "Set out bowls, dim the lights early, and let cleanup be tomorrow’s problem where possible.",
+      "prep_notes": [
+        "Check how much gravy is left before boiling pasta.",
+        "Prep Babo pasta components for Tuesday if time allows."
+      ],
+      "day_of_week": "sunday",
+      "weather_high": 55,
+      "weather_low": 45,
+      "weather_condition": "CLOUDY",
+      "weather_emoji": "☁️",
+      "weather_oneliner": "55°/45° · coldest day",
+      "engagements": [
+        {
+          "time": "",
+          "event": "Laura out of town, Dan solo parent duty",
+          "event_short": "Laura out of town, Dan solo parent duty"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "sauce",
+          "title": "Pan-Finish the Rigatoni in the Gravy",
+          "instruction": "Warm the Sunday gravy gently in a wide saute pan. Boil the rigatoni 2 minutes shy of al dente, then transfer it straight into the gravy with 1/2 cup starchy pasta water. Toss over steady heat until the sauce turns glossy and clings inside the tubes, then fold in finely grated pecorino Romano off the heat.",
+          "why": "Leftover tomato sauce can tighten and sit on top of pasta. Starchy water and pan-tossing rebuild the emulsion so every ridge of rigatoni carries sauce instead of just wearing a red coat.",
+          "extra_ingredients": [
+            "reserved pasta cooking water",
+            "finely grated pecorino Romano"
+          ]
+        },
+        {
+          "type": "texture",
+          "title": "Crisp the Meat Before It Goes Back",
+          "instruction": "Slice the sausage on a bias and halve a few meatballs. Sear the cut sides in a film of extra-virgin olive oil in a ripping-hot skillet for 60 to 90 seconds, just until the edges brown, then return them to the finished pasta at the last minute.",
+          "why": "The gravy gives tenderness; the hot pan gives Maillard browning. That little crust keeps the dish from becoming one soft, sleepy bowl.",
+          "extra_ingredients": [
+            "extra-virgin olive oil"
+          ]
+        },
+        {
+          "type": "texture",
+          "title": "Garlic-Lemon Pangrattato",
+          "instruction": "Toast panko breadcrumbs in olive oil with one minced garlic clove, a pinch of kosher salt, and red pepper flakes until deep gold. Off heat, stir in chopped parsley and lemon zest, then scatter over each bowl just before serving.",
+          "why": "Italian-American red sauce loves crunch and brightness. Breadcrumbs echo old-school cucina povera while lemon zest cuts through sausage fat without making the sauce taste sharp.",
+          "extra_ingredients": [
+            "panko breadcrumbs",
+            "garlic",
+            "fresh parsley",
+            "lemon",
+            "red pepper flakes"
+          ]
+        },
+        {
+          "type": "acid",
+          "title": "One-Teaspoon Vinegar Wake-Up",
+          "instruction": "After the gravy is hot, taste it before salting. If it feels heavy or flat, stir in 1 teaspoon red wine vinegar and wait 30 seconds before tasting again. Finish with torn basil, not dried herbs from a jar.",
+          "why": "Long-cooked tomato sauces often need a tiny acid correction after refrigeration. The vinegar wakes up the tomato and cheese without announcing itself.",
+          "extra_ingredients": [
+            "red wine vinegar",
+            "fresh basil"
+          ]
+        }
+      ],
+      "dinner_question": {
+        "day": "Sunday",
+        "dinner": "Leftover Sunday Gravy Rigatoni with Meatballs & Sausage",
+        "question": "If our home could greet people with one smell, sound, or tiny tradition, what would you want it to be, and what would it tell them about us?",
+        "category": "family connection",
+        "why": "Eight-year-olds can now connect sensory memories with identity. Sunday gravy makes belonging concrete: smell, sound, table, and the feeling that people return to each other even during a busy week."
+      },
+      "recipe_card": {
+        "source_url": "https://coleycooks.com/authentic-italian-sunday-gravy/",
+        "source_name": "Coley Cooks",
+        "servings": "4 to 6",
+        "prep_time": "10 minutes",
+        "cook_time": "15 minutes with prepared gravy",
+        "nonna_says": "Boil the rigatoni in water salty enough to make it pay attention. Warm the Sunday gravy low and slow, with the meatballs and sausage tucked in like family on the couch. Scoop the pasta out a minute early and finish it right in the sauce with a splash of pasta water. Toss until every ridge is red and glossy, then grate pecorino like you mean it. Do not drown it, honey, this is pasta, not a swimming lesson. Serve the meat on the side or on top and take the compliment.",
+        "variations": [
+          {
+            "name": "Pot Roast Sunday Sauce Rigatoni",
+            "twist": "Swap in chuck roast for some of the pork so the sauce gains a deeper beefy backbone and ragù-style texture.",
+            "source_url": "https://linacooks.com/recipes/sunday-sauce-rigatoni"
+          },
+          {
+            "name": "Red Wine Sunday Gravy",
+            "twist": "Deglaze the pot with dry red wine before the tomatoes for a darker, more aromatic sauce.",
+            "source_url": "https://dinoromano.com/2025/08/07/hearty-italian-sunday-gravy-thatll-win-nonnas-approval/"
+          },
+          {
+            "name": "Sausage and Meatball Sunday Gravy",
+            "twist": "Keep the gravy focused on sausage and meatballs, then simmer cheese rinds in the sauce for extra savory depth.",
+            "source_url": "https://www.food.com/recipe/sunday-gravy-with-sausages-and-meatballs-496273"
+          }
+        ],
+        "ingredients": [],
+        "engineer_table": {
+          "preheat": "",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "3 to 4 cups",
+                  "item": "leftover Sunday gravy",
+                  "prep": "with meatballs and sausage"
+                },
+                {
+                  "qty": "1/2 cup",
+                  "item": "reserved pasta water",
+                  "prep": "use as needed"
+                }
+              ],
+              "merge_action": "warm gently and loosen to glossy sauce"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 pound",
+                  "item": "rigatoni",
+                  "prep": "boiled 1 minute shy of al dente"
+                },
+                {
+                  "qty": "1 tablespoon",
+                  "item": "kosher salt",
+                  "prep": "for pasta water"
+                }
+              ],
+              "merge_action": "cook in salted boiling water"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1/2 cup",
+                  "item": "pecorino Romano",
+                  "prep": "freshly grated"
+                },
+                {
+                  "qty": "2 tablespoons",
+                  "item": "Italian parsley",
+                  "prep": "chopped, optional"
+                }
+              ],
+              "merge_action": "finish and garnish"
+            }
+          ],
+          "final_steps": [
+            "transfer pasta to gravy",
+            "add pasta water 2 tablespoons at a time",
+            "toss 1 to 2 minutes until coated",
+            "serve with meatballs, sausage, pecorino, and parsley"
+          ]
+        }
+      },
+      "day_intro": "A cloudy 55° solo-parent Sunday calls for the kind of dinner that already knows the way home. Leftover gravy does the heavy lifting while the house settles into a quieter rhythm."
+    },
+    {
+      "name": "Mon 04/27",
+      "long_name": "Monday, April 27",
+      "weather": "Fog, 69F/40F",
+      "weather_detail": "Sunny (88% sunshine), wind 10 mph, 0% precip",
+      "calendar": "Elsie Pickup 3:30 PM - 4:00 PM; MTP Sovereign - Biweekly Staff Meeting 4:40 PM - 5:30 PM; Laura out of town, Dan solo parent duty",
+      "calendar_items": [
+        "Elsie Pickup 3:30 PM - 4:00 PM",
+        "MTP Sovereign - Biweekly Staff Meeting 4:40 PM - 5:30 PM",
+        "Laura out of town, Dan solo parent duty"
+      ],
+      "time_constraints": [
+        "Late meeting and solo-parent logistics call for a fast dinner."
+      ],
+      "dinner": "Wagyu Ultra-Smashed Cheeseburgers with Pickles & Secret Sauce",
+      "dinner_cuisine": "American diner",
+      "dinner_description": "Smash burgers work because cold beef meets fierce steel, building lacy browned edges before the center overcooks. Wagyu makes the richness bigger, so pickles, lettuce, and cold sauce need to stay loud.",
+      "dinner_key_ingredients": [
+        "ground wagyu beef",
+        "American cheese",
+        "potato buns",
+        "dill pickles",
+        "lettuce",
+        "burger sauce"
+      ],
+      "dinner_source_url": "https://www.seriouseats.com/ultra-smashed-cheeseburger-recipe-food-lab",
+      "dinner_source_name": "Serious Eats",
+      "dinner_notes": "Shape loose wagyu balls before the meeting; keep them cold until the griddle is smoking.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "album": "Turnstile - Glow On",
+      "album_artist": "Turnstile",
+      "album_title": "Glow On",
+      "album_year": "2021",
+      "album_genre": "Alternative Rock / Hardcore Punk",
+      "album_mood": "Explosive, bright, generous, and cathartic.",
+      "album_description": "Turnstile’s 2021 GLOW ON pushed hardcore into bright hooks, funk flashes, and festival-size release. It sounds communal without losing its snap.",
+      "album_sonic_description": "Hard-charging drums, chunky guitars, melodic shouts, handclaps, and sudden flashes of dream-pop color.",
+      "album_pairing_rationale": "The record has the same rush as a smash burger: contact heat, crisp edges, and a grin.",
+      "album_spotify_url": "https://open.spotify.com/search/Turnstile%20Glow%20On",
+      "activity": "Build-your-own burger bar",
+      "activity_notes": "Give Elsie pickles, lettuce, sauce, and cheese control while the patties cook fast.",
+      "prep_notes": [
+        "Mix burger sauce earlier in the day.",
+        "Wash lettuce and slice pickles before cooking."
+      ],
+      "day_of_week": "monday",
+      "weather_high": 69,
+      "weather_low": 40,
+      "weather_condition": "FOG",
+      "weather_emoji": "🌤️",
+      "weather_oneliner": "69°/40° · warmest day",
+      "engagements": [
+        {
+          "time": "3:30 PM",
+          "event": "Elsie Pickup  - 4:00 PM",
+          "event_short": "Elsie Pickup  - 4:00 PM"
+        },
+        {
+          "time": "4:40 PM",
+          "event": "MTP Sovereign - Biweekly Staff Meeting  - 5:30 PM",
+          "event_short": "MTP Sovereign - Biweekly Staff Meeting  - 5:30 PM"
+        },
+        {
+          "time": "",
+          "event": "Laura out of town, Dan solo parent duty",
+          "event_short": "Laura out of town, Dan solo parent duty"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "preparation",
+          "title": "Cold Wagyu, Furious Steel",
+          "instruction": "Portion the wagyu into loose 2-ounce balls and keep them cold until cooking. Heat cast iron or a griddle until a drop of water skitters and vanishes. Add the beef, cover with parchment, smash hard for 10 seconds to about 1/4 inch, season the exposed side, and do not touch it again until the edges are dark brown and lacy.",
+          "why": "Wagyu has plenty of fat, so the danger is smearing it before it hits the pan. Cold, loosely handled beef plus brutal contact heat gives crisp edges without turning the patty greasy.",
+          "extra_ingredients": [
+            "parchment paper",
+            "kosher salt"
+          ]
+        },
+        {
+          "type": "sauce",
+          "title": "Cold Pickle-Brine Secret Sauce",
+          "instruction": "Mix mayonnaise, ketchup, yellow mustard, minced dill pickle, 1 tablespoon pickle brine, smoked paprika, garlic powder, and black pepper. Chill it for at least 30 minutes, then spread it on both buns so the cold sauce hits the hot cheese and beef.",
+          "why": "A smash burger is mostly heat and fat. Cold, acidic sauce gives temperature contrast and keeps wagyu richness from flattening the palate.",
+          "extra_ingredients": [
+            "mayonnaise",
+            "ketchup",
+            "yellow mustard",
+            "dill pickles",
+            "pickle brine",
+            "smoked paprika",
+            "garlic powder"
+          ]
+        },
+        {
+          "type": "acid",
+          "title": "Fifteen-Minute Shaved Onion Pickles",
+          "instruction": "Shave half a red onion paper-thin and toss with 1/4 cup apple cider vinegar, 1 teaspoon sugar, and a pinch of salt while the griddle heats. Drain well and add a small tangle above the cheese or beside the dill pickles.",
+          "why": "Pickles give snap; pickled onion gives aroma, color, and a cleaner acid line. It is the cheapest way to make a burger taste less one-dimensional.",
+          "extra_ingredients": [
+            "red onion",
+            "apple cider vinegar",
+            "granulated sugar"
+          ]
+        },
+        {
+          "type": "texture",
+          "title": "Beef-Fat Toasted Potato Buns",
+          "instruction": "After the first burger batch, scrape the griddle clean but leave a thin shine of wagyu fat. Toast split potato buns cut-side down until they have a crisp golden shell, then put shredded lettuce on the bottom bun before the patties.",
+          "why": "A crisp bun face resists sauce and burger juices. The lettuce underlayer acts like a little raincoat, which is not glamorous, but it works.",
+          "extra_ingredients": [
+            "potato buns",
+            "shredded iceberg lettuce"
+          ]
+        }
+      ],
+      "dinner_question": {
+        "day": "Monday",
+        "dinner": "Wagyu Ultra-Smashed Cheeseburgers with Pickles & Secret Sauce",
+        "question": "Tonight is build-your-own burger night. If rushed nights had a family reset button, what should ours be: a phrase, a handshake, a joke, a song, or something else?",
+        "category": "imagination",
+        "why": "Busy evenings can make kids feel like cargo being moved through a system. Letting Elsie invent a reset ritual turns predictability into play and gives her a small piece of ownership."
+      },
+      "recipe_card": {
+        "source_url": "https://www.seriouseats.com/ultra-smashed-cheeseburger-recipe-food-lab",
+        "source_name": "Serious Eats",
+        "servings": "3 double cheeseburgers",
+        "prep_time": "15 minutes",
+        "cook_time": "10 minutes",
+        "nonna_says": "Heat the griddle until it scares you a little, then keep your buns and sauce ready. Drop loose wagyu balls on the metal and smash hard once, because pressing twice is how you make sadness. Salt, pepper, flip when the edges go lacy and brown, and blanket one patty with American cheese. Stack the second patty on top, slide it onto the sauced bun, and add pickles and lettuce fast. Serve immediately while the edges still crackle. Look at that, dinner in ten minutes and nobody had to sulk.",
+        "variations": [
+          {
+            "name": "Onion Smashed Burger",
+            "twist": "Smash thinly sliced onions under each beef ball so they fuse into a sweet, browned onion crust.",
+            "source_url": "https://arteflame.com/blogs/recipes/ultimate-smashed-cheeseburger-recipe"
+          },
+          {
+            "name": "Umami Bomb Smash Burger",
+            "twist": "Season the beef or sauce with Worcestershire, fish sauce, and smoked paprika for a deeper savory punch.",
+            "source_url": "https://basilandbubbly.com/the-ultimate-smash-burger-recipe-for-crispy-juicy-perfection/"
+          },
+          {
+            "name": "Food Lab Double Smash Burger",
+            "twist": "Keep the ultra-thin double-stack technique but vary the toppings with griddled onions, mustard, or extra cheese.",
+            "source_url": "https://food52.com/recipes/55658-the-food-lab-s-ultra-smashed-cheeseburgers"
+          }
+        ],
+        "ingredients": [],
+        "engineer_table": {
+          "preheat": "cast-iron griddle over high heat until lightly smoking",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "12 ounces",
+                  "item": "ground wagyu beef",
+                  "prep": "divided into six loose 2-ounce balls"
+                },
+                {
+                  "qty": "1 teaspoon",
+                  "item": "kosher salt",
+                  "prep": "for seasoning patties"
+                },
+                {
+                  "qty": "1/2 teaspoon",
+                  "item": "black pepper",
+                  "prep": "freshly ground"
+                }
+              ],
+              "merge_action": "smash on hot griddle and season"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "3",
+                  "item": "potato buns",
+                  "prep": "split and toasted"
+                },
+                {
+                  "qty": "3 tablespoons",
+                  "item": "secret sauce",
+                  "prep": "mixed ahead"
+                },
+                {
+                  "qty": "3/4 cup",
+                  "item": "shredded lettuce",
+                  "prep": "washed and dried"
+                },
+                {
+                  "qty": "18 slices",
+                  "item": "dill pickles",
+                  "prep": "drained"
+                }
+              ],
+              "merge_action": "build chilled bun station"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "6 slices",
+                  "item": "American cheese",
+                  "prep": "ready by griddle"
+                },
+                {
+                  "qty": "1 tablespoon",
+                  "item": "neutral oil",
+                  "prep": "only if griddle is not seasoned"
+                }
+              ],
+              "merge_action": "melt cheese during final flip"
+            }
+          ],
+          "final_steps": [
+            "place beef balls on griddle",
+            "smash very thin for 10 seconds",
+            "cook 45 to 60 seconds until edges crisp",
+            "scrape, flip, cheese one patty, stack second patty",
+            "transfer to dressed buns and serve immediately"
+          ]
+        }
+      },
+      "day_intro": "Fog lifts into the warmest day of the week, but the late staff meeting leaves dinner needing speed. Pre-portioned wagyu turns the post-pickup window into a griddle sprint."
+    },
+    {
+      "long_name": "Tuesday, April 28",
+      "name": "Tue 04/28",
+      "weather_detail": "Mostly Sunny (70% sunshine), wind 11 mph, 33% precip",
+      "calendar_items": [
+        "Dan on call starts",
+        "Elsie Pickup 3:30 PM - 4:00 PM",
+        "IcM Agent Studio Agent Loop Lab Series 4:00 PM - 5:00 PM",
+        "1:1 Eric 4:10 PM - 4:30 PM",
+        "Elsie swim lessons"
+      ],
+      "calendar": "Dan on call starts; Elsie Pickup 3:30 PM - 4:00 PM; IcM Agent Studio Agent Loop Lab Series 4:00 PM - 5:00 PM; 1:1 Eric 4:10 PM - 4:30 PM; Elsie swim lessons",
+      "weather": "Light drizzle, 66F/46F",
+      "time_constraints": [
+        "On-call start, swim lessons, and late meetings make prep-beforehand pasta logistics important."
+      ],
+      "dinner": "Babo Pasta: Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+      "dinner_cuisine": "Italian family tradition",
+      "dinner_description": "Egg-yolk spinach pasta is all silk, color, and family muscle memory. Brown butter and Parmigiano-Reggiano keep the sauce simple so the handmade noodles stay the point.",
+      "dinner_key_ingredients": [
+        "spinach",
+        "egg yolks",
+        "00 flour",
+        "semolina",
+        "butter",
+        "Parmigiano-Reggiano"
+      ],
+      "dinner_source_url": "https://www.seriouseats.com/fresh-spinach-pasta-dough-recipe",
+      "dinner_source_name": "Serious Eats",
+      "dinner_notes": "Stage flour, semolina, and tools before swim; brown the butter only when everyone is home.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "album": "Little Simz - Sometimes I Might Be Introvert",
+      "album_artist": "Little Simz",
+      "album_title": "Sometimes I Might Be Introvert",
+      "album_year": "2021",
+      "album_genre": "Hip-Hop / Orchestral Soul",
+      "album_mood": "Majestic, focused, vulnerable, and triumphant.",
+      "album_description": "Little Simz's 2021 Sometimes I Might Be Introvert won the Mercury Prize by making private reflection feel orchestral and bold. It has the sweep of a film score and the intimacy of a journal.",
+      "album_sonic_description": "Orchestral swells, crisp drums, choral voices, deep bass, and precise rapping that moves like a stage monologue with a rhythm section.",
+      "album_pairing_rationale": "Babo Pasta rewards attention; Little Simz turns that same inward focus into something grand.",
+      "album_spotify_url": "https://open.spotify.com/search/Little%20Simz%20Sometimes%20I%20Might%20Be%20Introvert",
+      "activity": "Swim-night pasta ritual",
+      "activity_notes": "Give Elsie one real job: crank, flour, noodle nest, or cheese grater.",
+      "prep_notes": [
+        "Buy extra eggs for yolk-only dough.",
+        "Cook spinach dry enough that the dough does not turn sticky.",
+        "Stage flour, semolina, and the pasta tools before swim."
+      ],
+      "day_of_week": "tuesday",
+      "weather_high": 66,
+      "weather_low": 46,
+      "weather_condition": "LIGHT DRIZZLE",
+      "weather_emoji": "🌤️",
+      "weather_oneliner": "66°/46° · chance of rain",
+      "engagements": [
+        {
+          "time": "",
+          "event": "Dan on call starts",
+          "event_short": "Dan on call starts"
+        },
+        {
+          "time": "3:30 PM",
+          "event": "Elsie Pickup  - 4:00 PM",
+          "event_short": "Elsie Pickup  - 4:00 PM"
+        },
+        {
+          "time": "4:00 PM",
+          "event": "IcM Agent Studio Agent Loop Lab Series  - 5:00 PM",
+          "event_short": "IcM Agent Studio Agent Loop Lab Series  - 5:00 PM"
+        },
+        {
+          "time": "4:10 PM",
+          "event": "1:1 Eric  - 4:30 PM",
+          "event_short": "1:1 Eric  - 4:30 PM"
+        },
+        {
+          "time": "",
+          "event": "Elsie swim lessons",
+          "event_short": "Elsie swim lessons"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "sauce",
+          "title": "Glossy Brown-Butter Parmigiano Emulsion",
+          "instruction": "Brown unsalted butter until the milk solids smell like toasted hazelnuts, then pull the pan off the heat. Add just-cooked tagliatelle, 1/3 cup hot pasta water, and finely grated Parmigiano-Reggiano in handfuls while tossing hard. Add more pasta water by the spoonful until the noodles look lacquered, not oily.",
+          "why": "Brown butter alone coats; pasta water and cheese emulsify. The difference is the difference between greasy noodles and a sauce that actually behaves.",
+          "extra_ingredients": [
+            "unsalted butter",
+            "hot pasta water",
+            "Parmigiano-Reggiano"
+          ]
+        },
+        {
+          "type": "texture",
+          "title": "Sage-Lemon Pangrattato",
+          "instruction": "Toast panko breadcrumbs in a spoonful of the brown butter with minced fresh sage and a pinch of salt. Off heat, stir in lemon zest and shower a small amount over each bowl.",
+          "why": "Fresh pasta with butter and cheese is luxurious but soft. The crumbs give crunch, while sage and lemon keep the butter from tasting one-note.",
+          "extra_ingredients": [
+            "panko breadcrumbs",
+            "fresh sage",
+            "lemon"
+          ]
+        },
+        {
+          "type": "temperature",
+          "title": "Cool Lemon-Ricotta Spoon",
+          "instruction": "Stir whole-milk ricotta with lemon zest, black pepper, and a pinch of salt. Keep it cool and add one small spoonful to the side of each hot bowl so diners can fold it in gradually.",
+          "why": "The cool ricotta gives temperature contrast and a gentle dairy tang without stealing the role of the brown butter. Small spoonful means luxury, not lasagna filling.",
+          "extra_ingredients": [
+            "whole-milk ricotta",
+            "lemon",
+            "black pepper"
+          ]
+        },
+        {
+          "type": "preparation",
+          "title": "Dry Spinach, Rested Dough",
+          "instruction": "After cooking the spinach, squeeze it in a clean towel until it seems almost too dry, then chop it fine before mixing the yolk dough. Rest the wrapped dough at least 30 minutes before rolling and keep sheets dusted with semolina, not clouds of raw flour.",
+          "why": "Spinach water is the enemy of clean pasta texture. A rested, properly hydrated dough rolls smoother, cooks more evenly, and lets Elsie crank the machine without wrestling glue.",
+          "extra_ingredients": [
+            "semolina flour"
+          ]
+        }
+      ],
+      "dinner_question": {
+        "day": "Tuesday",
+        "dinner": "Babo Pasta: Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+        "question": "Babo Pasta feels like a family recipe even if the kitchen changed tomorrow. What parts of a tradition come with us no matter where we live?",
+        "category": "gratitude & reflection",
+        "why": "Moving talk can quietly make children wonder what might be lost. This question points to portable belonging: hands helping, flour on the counter, jokes, smells, and the people doing the ritual together."
+      },
+      "recipe_card": {
+        "source_url": "https://www.seriouseats.com/fresh-spinach-pasta-dough-recipe",
+        "source_name": "Serious Eats",
+        "servings": "4",
+        "prep_time": "1 hour 15 minutes including rest",
+        "cook_time": "5 minutes",
+        "nonna_says": "Cook the spinach dry, squeeze it harder than your inbox squeezes you, and chop it fine. Pile the flour and semolina, drop in the yolks and spinach, and knead until the dough feels smooth and alive. Rest it, roll it thin, and cut tagliatelle like ribbons for a party. Brown the butter slowly until it smells nutty, not burnt, and watch closely. Boil the pasta for just a couple minutes, then toss it with butter, Parm, and pasta water until shiny. Serve right away and let Babo take the credit.",
+        "variations": [
+          {
+            "name": "Lemon Pine Nut Spinach Tagliatelle",
+            "twist": "Finish the brown butter pasta with lemon zest and toasted pine nuts for brightness and crunch.",
+            "source_url": "https://www.cooksillustrated.com/recipes/7375-spinach-tagliatelle-with-brown-butter-and-parmesan"
+          },
+          {
+            "name": "Sage Brown Butter Spinach Tagliatelle",
+            "twist": "Crisp sage leaves in the butter so the sauce turns woodsy and aromatic.",
+            "source_url": "https://www.olivemagazine.com/recipes/vegan/spinach-tagliatelle-with-sage-and-brown-butter/"
+          },
+          {
+            "name": "Roasted Garlic Brown Butter Tagliatelle",
+            "twist": "Mash roasted garlic into the brown butter for a mellow, savory sauce that still lets the spinach pasta show.",
+            "source_url": "https://cooking.nytimes.com/recipes/1016250-spinach-tagliatelle-with-brown-butter-and-roasted-garlic"
+          }
+        ],
+        "ingredients": [],
+        "engineer_table": {
+          "preheat": "",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "6 ounces",
+                  "item": "fresh spinach",
+                  "prep": "wilted, squeezed very dry, finely chopped"
+                },
+                {
+                  "qty": "8 large",
+                  "item": "egg yolks",
+                  "prep": "room temperature"
+                },
+                {
+                  "qty": "1 tablespoon",
+                  "item": "extra-virgin olive oil",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "stir into green yolk mixture"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "2 cups",
+                  "item": "00 flour",
+                  "prep": "plus more for dusting"
+                },
+                {
+                  "qty": "1/2 cup",
+                  "item": "semolina flour",
+                  "prep": ""
+                },
+                {
+                  "qty": "1/2 teaspoon",
+                  "item": "kosher salt",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "mound and make well"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 to 3 tablespoons",
+                  "item": "water",
+                  "prep": "only if dough feels dry"
+                }
+              ],
+              "merge_action": "adjust hydration while kneading"
+            }
+          ],
+          "final_steps": [
+            "fork yolk mixture into flour",
+            "knead 8 to 10 minutes until smooth",
+            "wrap and rest 30 minutes",
+            "roll through pasta machine and cut tagliatelle",
+            "boil in salted water 2 to 3 minutes"
+          ]
+        }
+      },
+      "day_intro": "Light drizzle, swim lessons, and the on-call start make Tuesday feel crowded, so Babo Pasta needs a little advance staging. The reward is worth it: dinner becomes a family ritual instead of another rushed handoff."
+    },
+    {
+      "name": "Wed 04/29",
+      "long_name": "Wednesday, April 29",
+      "weather": "Moderate rain showers, 68F/53F",
+      "weather_detail": "Mostly Cloudy (56% sunshine), wind 12 mph, 87% precip",
+      "calendar": "Laura returns from travel; Dan on call",
+      "calendar_items": [
+        "Laura returns from travel",
+        "Dan on call"
+      ],
+      "time_constraints": [
+        "Rain and travel return favor a hands-off slow-cooker dinner."
+      ],
+      "dinner": "Slow-Cooked Pork Chops with Mushroom Cream Sauce",
+      "dinner_cuisine": "French-American bistro",
+      "dinner_description": "Pork chops can go dry fast, so the gentle slow-cooked approach matters here. Mushrooms, thyme, Dijon, and cream turn the pan juices into a soft, savory sauce without any roasted red peppers muddying the flavor.",
+      "dinner_key_ingredients": [
+        "bone-in pork chops",
+        "cremini mushrooms",
+        "heavy cream",
+        "garlic",
+        "thyme",
+        "Dijon mustard"
+      ],
+      "dinner_source_url": "https://themodernproper.com/pork-chops-with-mushroom-cream-sauce",
+      "dinner_source_name": "The Modern Proper",
+      "dinner_notes": "Sear chops and mushrooms first; cook on LOW and check early so tender does not become tired.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "album": "Blood Orange - Cupid Deluxe",
+      "album_artist": "Blood Orange",
+      "album_title": "Cupid Deluxe",
+      "album_year": "2013",
+      "album_genre": "Alternative R&B / Synth-Funk",
+      "album_mood": "Silky, wounded, stylish, and groove-laced.",
+      "album_description": "Blood Orange’s 2013 Cupid Deluxe is Dev Hynes in city-night mode: synth-funk, R&B, and intimate songs about longing and belonging. It is sleek, but never cold.",
+      "album_sonic_description": "Slinky bass, glassy synths, clipped funk guitar, saxophone haze, and feather-light vocals.",
+      "album_pairing_rationale": "The mushroom cream sauce brings comfort; Blood Orange adds a rainy, graceful pulse.",
+      "album_spotify_url": "https://open.spotify.com/search/Blood%20Orange%20Cupid%20Deluxe",
+      "activity": "Welcome-home rainy reset",
+      "activity_notes": "Keep the evening gentle: one shared table, one small travel story, early lights down.",
+      "prep_notes": [
+        "Season pork chops the night before.",
+        "Slice mushrooms in the morning."
+      ],
+      "day_of_week": "wednesday",
+      "weather_high": 68,
+      "weather_low": 53,
+      "weather_condition": "RAIN",
+      "weather_emoji": "🌧️",
+      "weather_oneliner": "68°/53° · likely rain",
+      "engagements": [
+        {
+          "time": "",
+          "event": "Laura returns from travel",
+          "event_short": "Laura returns from travel"
+        },
+        {
+          "time": "",
+          "event": "Dan on call",
+          "event_short": "Dan on call"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "marinade",
+          "title": "Short Salt-Sugar Brine for Tender Chops",
+          "instruction": "Dissolve 3 tablespoons kosher salt and 1 tablespoon sugar in 4 cups cold water with a smashed garlic clove and a thyme sprig. Brine the pork chops for 1 to 3 hours, then rinse quickly, pat completely dry, and let them sit uncovered in the refrigerator until cooking.",
+          "why": "A short brine seasons the pork all the way in and gives the slow cooker a margin of forgiveness. Drying afterward matters because wet chops steam instead of brown.",
+          "extra_ingredients": [
+            "kosher salt",
+            "granulated sugar",
+            "garlic",
+            "fresh thyme"
+          ]
+        },
+        {
+          "type": "preparation",
+          "title": "Sear First, Slow-Cook on Low Only",
+          "instruction": "Brown the dried chops in a hot skillet for 2 minutes per side, then move them to the slow cooker. In the same pan, brown sliced cremini mushrooms hard before adding garlic, thyme, and 1/2 cup chicken stock to scrape up the fond. Pour this over the chops and cook on LOW until fork-tender, checking around 2 1/2 hours rather than abandoning them all afternoon.",
+          "why": "The slow cooker tenderizes; the skillet creates flavor. Browning the mushrooms separately prevents gray, watery sauce and keeps the user-requested slow-cooked chops from tasting boiled.",
+          "extra_ingredients": [
+            "chicken stock",
+            "cremini mushrooms",
+            "garlic",
+            "fresh thyme"
+          ]
+        },
+        {
+          "type": "sauce",
+          "title": "Dijon-Lemon Cream Finish",
+          "instruction": "Lift the tender chops to a warm plate. Simmer the cooking liquid and mushrooms in a saucepan until slightly reduced, then whisk in heavy cream, Dijon mustard, a squeeze of lemon juice, and one tablespoon cold butter. Spoon the sauce over the chops after they rest for 5 minutes.",
+          "why": "Cream needs reduction and acid to avoid heaviness. Dijon and lemon sharpen the mushroom sauce while cold butter makes it glossy enough to look intentional.",
+          "extra_ingredients": [
+            "heavy cream",
+            "Dijon mustard",
+            "lemon",
+            "unsalted butter"
+          ]
+        },
+        {
+          "type": "texture",
+          "title": "Crispy Shallot-Thyme Crumbs",
+          "instruction": "Toast panko breadcrumbs in butter with finely sliced shallot and thyme until golden. Sprinkle a spoonful over the sauced pork just before serving.",
+          "why": "Slow-cooked pork and cream sauce are both soft. A crisp, savory crumb gives the fork something to notice between tender bites.",
+          "extra_ingredients": [
+            "panko breadcrumbs",
+            "shallot",
+            "unsalted butter",
+            "fresh thyme"
+          ]
+        }
+      ],
+      "dinner_question": {
+        "day": "Wednesday",
+        "dinner": "Slow-Cooked Pork Chops with Mushroom Cream Sauce",
+        "question": "When someone comes home after being away, what helps the house feel like 'we are all back' again: a hug, a story, a quiet minute, a meal, or something else?",
+        "category": "family connection",
+        "why": "Laura's return is a natural moment to notice reunion rituals. Eight-year-olds often feel transitions before they can explain them, so naming what helps gives her language for security."
+      },
+      "recipe_card": {
+        "source_url": "https://themodernproper.com/pork-chops-with-mushroom-cream-sauce",
+        "source_name": "The Modern Proper",
+        "servings": "4",
+        "prep_time": "15 minutes",
+        "cook_time": "3 1/2 to 4 hours",
+        "nonna_says": "Season the pork chops like you have confidence, then brown them before they go anywhere near the slow cooker. Pile in the mushrooms, garlic, thyme, wine, and a little broth, and let everything cook low until the chops turn tender. Do not blast them on high unless you enjoy chewing furniture. Whisk in cream and Dijon near the end so the sauce stays silky, not broken. Finish with lemon and chives, then spoon mushrooms over every chop. Serve it with something soft for catching sauce.",
+        "variations": [
+          {
+            "name": "Garlic Parmesan Mushroom Pork Chops",
+            "twist": "Stir Parmesan into the mushroom cream sauce for a saltier, cheesier finish.",
+            "source_url": "https://www.spendwithpennies.com/pork-chops-with-mushroom-cream-sauce/"
+          },
+          {
+            "name": "Dijon Mushroom Cream Pork Chops",
+            "twist": "Lean harder into Dijon mustard for tang that cuts through the cream and pork richness.",
+            "source_url": "https://therecipecritic.com/pork-chops-mushroom-cream-sauce/"
+          },
+          {
+            "name": "Bacon Mushroom Cream Pork Chops",
+            "twist": "Render bacon first and build the mushroom sauce in the smoky drippings.",
+            "source_url": "https://www.saltandlavender.com/pork-chops-with-mushroom-cream-sauce/"
+          }
+        ],
+        "ingredients": [],
+        "engineer_table": {
+          "preheat": "slow cooker on LOW",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "4",
+                  "item": "1 1/2-inch bone-in pork chops",
+                  "prep": "patted dry"
+                },
+                {
+                  "qty": "1 teaspoon",
+                  "item": "kosher salt",
+                  "prep": ""
+                },
+                {
+                  "qty": "1/2 teaspoon",
+                  "item": "black pepper",
+                  "prep": "freshly cracked"
+                },
+                {
+                  "qty": "2 tablespoons",
+                  "item": "extra-virgin olive oil",
+                  "prep": "for browning"
+                }
+              ],
+              "merge_action": "season and sear 2 to 3 minutes per side"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "6 tablespoons",
+                  "item": "salted butter",
+                  "prep": "divided"
+                },
+                {
+                  "qty": "2 pounds",
+                  "item": "cremini mushrooms",
+                  "prep": "trimmed and halved"
+                },
+                {
+                  "qty": "3 cloves",
+                  "item": "garlic",
+                  "prep": "minced"
+                },
+                {
+                  "qty": "2 tablespoons",
+                  "item": "fresh thyme",
+                  "prep": "minced"
+                }
+              ],
+              "merge_action": "sauté mushrooms and aromatics 6 minutes"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 cup",
+                  "item": "dry white wine",
+                  "prep": ""
+                },
+                {
+                  "qty": "1/2 cup",
+                  "item": "low-sodium chicken broth",
+                  "prep": "for slow cooker moisture"
+                }
+              ],
+              "merge_action": "deglaze skillet and pour into slow cooker"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 cup",
+                  "item": "heavy cream",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tablespoon",
+                  "item": "Dijon mustard",
+                  "prep": ""
+                },
+                {
+                  "qty": "1",
+                  "item": "lemon",
+                  "prep": "halved"
+                },
+                {
+                  "qty": "2 tablespoons",
+                  "item": "fresh chives",
+                  "prep": "chopped"
+                }
+              ],
+              "merge_action": "whisk cream finish into hot juices"
+            }
+          ],
+          "final_steps": [
+            "place chops over mushroom mixture in slow cooker",
+            "cook LOW 3 to 4 hours until tender and about 145°F to 150°F",
+            "remove chops and tent loosely",
+            "whisk cream and Dijon into sauce and cook 15 to 20 minutes",
+            "finish with lemon and chives"
+          ]
+        }
+      },
+      "day_intro": "By Wednesday, rain is steady, Laura is coming home, and Dan is still on call. The slow cooker earns its place by making pork chops tender before dinner asks for attention."
+    },
+    {
+      "long_name": "Thursday, April 30",
+      "name": "Thu 04/30",
+      "weather_detail": "Sunny (91% sunshine), wind 16 mph with gusts up to 33 mph, 68% precip",
+      "calendar_items": [
+        "Dan on call"
+      ],
+      "calendar": "Dan on call",
+      "weather": "Moderate drizzle, 62F/47F",
+      "time_constraints": [
+        "Dan on call; make-ahead cabbage rolls keep a drizzly night calm and reheat-friendly."
+      ],
+      "dinner": "Alex's Mom's Stuffed Cabbage Rolls",
+      "dinner_cuisine": "Eastern European / Jewish-American",
+      "dinner_description": "Stuffed cabbage rolls show up across Eastern European and Jewish kitchens because they are thrifty, tender, and built for feeding people well. This version leans sweet-savory, with cabbage leaves wrapping a plush beef-and-rice filling.",
+      "dinner_key_ingredients": [
+        "green cabbage",
+        "ground beef",
+        "rice",
+        "onion",
+        "tomato sauce",
+        "brown sugar"
+      ],
+      "dinner_source_url": "https://smittenkitchen.com/2009/02/alexs-moms-stuffed-cabbage/",
+      "dinner_source_name": "Smitten Kitchen",
+      "dinner_notes": "Assemble ahead if possible; reheat covered with extra sauce so the rolls stay moist.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "album": "Billy Joel - The Stranger",
+      "album_artist": "Billy Joel",
+      "album_title": "The Stranger",
+      "album_year": "1977",
+      "album_genre": "Piano Rock / Pop Rock",
+      "album_mood": "Warm, theatrical, streetwise, and sing-along friendly.",
+      "album_description": "Billy Joel's 1977 The Stranger, produced by Phil Ramone, is full of booth-at-the-diner characters and piano hooks. It invites stories instead of disappearing into the background.",
+      "album_sonic_description": "Piano-led pop rock with saxophone hooks, brisk drums, Broadway flair, and tight late-70s studio polish.",
+      "album_pairing_rationale": "Cabbage rolls and Billy Joel both feel like someone at the table has a story to tell.",
+      "album_spotify_url": "https://open.spotify.com/search/Billy%20Joel%20The%20Stranger",
+      "activity": "Make-ahead comfort reset",
+      "activity_notes": "Serve in shallow bowls, keep cleanup light, and let the night land softly.",
+      "prep_notes": [
+        "Blanch cabbage leaves and mix filling ahead.",
+        "Reheat covered with extra sauce so the rolls stay tender."
+      ],
+      "day_of_week": "thursday",
+      "weather_high": 62,
+      "weather_low": 47,
+      "weather_condition": "MODERATE DRIZZLE",
+      "weather_emoji": "🌤️",
+      "weather_oneliner": "62°/47° · likely rain",
+      "engagements": [
+        {
+          "time": "",
+          "event": "Dan on call",
+          "event_short": "Dan on call"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "sauce",
+          "title": "Silky Tomato-Butter Braising Sauce",
+          "instruction": "Before the rolls go in, sweat finely diced onion and grated carrot in butter with a pinch of salt. Add tomato sauce, a splash of chicken stock, brown sugar, and 1 teaspoon apple cider vinegar. Simmer 10 minutes, then spoon it over the rolls and finish the cooked sauce with one more cold knob of butter.",
+          "why": "The carrot and butter round tomato acidity, while the small vinegar dose keeps the sweet sauce from tasting like candy. The final butter gives the sauce a restaurant gloss.",
+          "extra_ingredients": [
+            "carrot",
+            "unsalted butter",
+            "chicken stock",
+            "apple cider vinegar"
+          ]
+        },
+        {
+          "type": "temperature",
+          "title": "Chilled Lemon-Dill Sour Cream",
+          "instruction": "Whisk sour cream with lemon zest, a squeeze of lemon juice, chopped fresh dill, black pepper, and a pinch of salt. Keep it cold and spoon it beside, not on top of, the hot rolls so each bite can decide how much tang it wants.",
+          "why": "Hot cabbage rolls are tender and sweet. Cold sour cream adds temperature contrast, dairy tang, and fresh dill aroma without diluting the braising sauce.",
+          "extra_ingredients": [
+            "sour cream",
+            "lemon",
+            "fresh dill",
+            "black pepper"
+          ]
+        },
+        {
+          "type": "texture",
+          "title": "Crispy Rye Crumb Finish",
+          "instruction": "Pulse a slice of rye bread into coarse crumbs. Toast the crumbs in butter with a minced shallot until crisp, then season with salt and scatter lightly over plated rolls.",
+          "why": "Stuffed cabbage is intentionally soft; it needs a little crackle. Rye echoes deli flavors and makes the plate feel deliberate instead of nursery-food soft.",
+          "extra_ingredients": [
+            "rye bread",
+            "shallot",
+            "unsalted butter"
+          ]
+        },
+        {
+          "type": "preparation",
+          "title": "Shave the Rib, Keep the Rolls Submerged",
+          "instruction": "After blanching the cabbage leaves, shave the thick rib nearly flush with a paring knife. Arrange rolls seam-side down, cover with sauce, then lay a parchment round directly on top before reheating or baking covered.",
+          "why": "Even leaf thickness gives tidy rolls that do not split. The parchment keeps the tops moist so reheated swim-night cabbage rolls stay tender, not leathery.",
+          "extra_ingredients": [
+            "parchment paper"
+          ]
+        }
+      ],
+      "dinner_question": {
+        "day": "Thursday",
+        "dinner": "Alex's Mom's Stuffed Cabbage Rolls",
+        "question": "These cabbage rolls hold rice, beef, and sauce together in one little bundle. What helped you hold yourself together this week when plans felt busy or wobbly?",
+        "category": "values & moral reasoning",
+        "why": "The image gives her a non-clinical way to talk about coping. At eight, she is beginning to identify strategies and supports, not just feelings, and that builds confidence."
+      },
+      "recipe_card": {
+        "source_url": "https://smittenkitchen.com/2009/02/alexs-moms-stuffed-cabbage/",
+        "source_name": "Smitten Kitchen",
+        "servings": "4 to 6",
+        "prep_time": "35 minutes",
+        "cook_time": "45 minutes",
+        "nonna_says": "Soften the cabbage leaves first, because nobody can roll a stiff blanket. Cook the onion, carrot, celery, and parsnip until sweet, then mix them with beef, rice, tomato paste, salt, and pepper. Roll each leaf snug, seam side down, and give them enough tomato sauce to lounge in. Add a little brown sugar and vinegar if the sauce needs that sweet-sour hug. Simmer covered until the rice is tender and the cabbage gives up. Spoon extra sauce over the top and be proud, these are patient food.",
+        "variations": [
+          {
+            "name": "Sweet-and-Sour Stuffed Cabbage",
+            "twist": "Add brown sugar and vinegar to the tomato sauce for a classic Jewish-style sweet-and-sour balance.",
+            "source_url": "https://www.savoryexperiments.com/cabbage-rolls-with-tomato-sauce-recipe/"
+          },
+          {
+            "name": "Cheesy Stuffed Cabbage Rolls",
+            "twist": "Tuck shredded mozzarella or cheddar into the filling and melt more over the top before serving.",
+            "source_url": "https://homechefworld.com/stuffed-cabbage-rolls-with-tomato-sauce/"
+          },
+          {
+            "name": "Pork-and-Beef Golabki",
+            "twist": "Replace half the beef with ground pork for a richer, juicier Eastern European filling.",
+            "source_url": "https://amiraspantry.com/stuffed-cabbage-rolls-recipe/"
+          }
+        ],
+        "ingredients": [],
+        "engineer_table": {
+          "preheat": "",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "1 head",
+                  "item": "Savoy cabbage",
+                  "prep": "cored, soaked in boiling water 10 minutes, leaves dried"
+                }
+              ],
+              "merge_action": "separate flexible leaves and trim thick ribs"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "2 tablespoons",
+                  "item": "olive oil",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 small to medium",
+                  "item": "onion",
+                  "prep": "finely chopped"
+                },
+                {
+                  "qty": "1",
+                  "item": "carrot",
+                  "prep": "shredded"
+                },
+                {
+                  "qty": "1 stalk",
+                  "item": "celery",
+                  "prep": "thinly sliced"
+                },
+                {
+                  "qty": "1",
+                  "item": "parsnip",
+                  "prep": "shredded"
+                }
+              ],
+              "merge_action": "sauté until soft, then cool"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 pound",
+                  "item": "ground beef",
+                  "prep": ""
+                },
+                {
+                  "qty": "1/2 cup",
+                  "item": "uncooked white rice",
+                  "prep": "rinsed"
+                },
+                {
+                  "qty": "1 to 2 tablespoons",
+                  "item": "tomato paste",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 teaspoon",
+                  "item": "kosher salt",
+                  "prep": "plus more to taste"
+                },
+                {
+                  "qty": "1/2 teaspoon",
+                  "item": "black pepper",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "mix with cooled vegetables for filling"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "3 to 4 cups",
+                  "item": "simple tomato sauce, tomato juice, or V8",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tablespoon",
+                  "item": "brown sugar",
+                  "prep": "optional, for sweet balance"
+                },
+                {
+                  "qty": "1 tablespoon",
+                  "item": "apple cider vinegar",
+                  "prep": "optional, for tang"
+                }
+              ],
+              "merge_action": "stir sauce together"
+            }
+          ],
+          "final_steps": [
+            "fill each leaf with 1/4 to 1/3 cup filling",
+            "roll tightly and place seam side down",
+            "cover with sauce",
+            "bring to boil, then simmer covered 45 minutes",
+            "serve with extra warm sauce"
+          ]
+        }
+      },
+      "day_intro": "Thursday stays drizzly and on-call, which makes stuffed cabbage feel like the right kind of patient dinner. It waits under sauce until the house is ready for something soft and steady."
+    },
+    {
+      "long_name": "Friday, May 1",
+      "name": "Fri 05/01",
+      "weather_detail": "Mostly Sunny (76% sunshine), wind 10 mph with gusts up to 27 mph, 18% precip",
+      "calendar_items": [
+        "Dan on call"
+      ],
+      "calendar": "Dan on call",
+      "weather": "Moderate drizzle, 62F/40F",
+      "time_constraints": [
+        "Friday can support a bright fish dinner if the on-call queue stays quiet."
+      ],
+      "dinner": "Greek-Style Roasted Branzino with Garlicky Kale",
+      "dinner_cuisine": "Greek / Mediterranean",
+      "dinner_description": "Branzino is a Mediterranean sea bass that loves whole roasting with olive oil, herbs, and decisive heat. Ladolemono, the Greek lemon-and-olive-oil sauce, ties the fish to garlicky kale and wakes up the plate.",
+      "dinner_key_ingredients": [
+        "whole branzino",
+        "lemons",
+        "dill",
+        "parsley",
+        "kale",
+        "garlic",
+        "extra-virgin olive oil"
+      ],
+      "dinner_source_url": "https://www.themediterraneandish.com/roasted-branzino-recipe/",
+      "dinner_source_name": "The Mediterranean Dish",
+      "dinner_notes": "Pat the fish very dry and whisk the ladolemono just before serving.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "album": "Karol G - Manana Sera Bonito",
+      "album_artist": "Karol G",
+      "album_title": "Manana Sera Bonito",
+      "album_year": "2023",
+      "album_genre": "Reggaeton / Latin Pop",
+      "album_mood": "Sunlit, resilient, romantic, and celebratory.",
+      "album_description": "Karol G's 2023 Mañana Será Bonito turns recovery into color, movement, and big melodic confidence. Its reggaeton-pop brightness keeps the drizzle from setting the tone.",
+      "album_sonic_description": "Reggaeton bounce, Caribbean percussion, glossy pop choruses, acoustic color, and warm low-end movement.",
+      "album_pairing_rationale": "Lemon, herbs, and kale ask for lift; Karol G supplies sunshine without forcing cheer.",
+      "album_spotify_url": "https://open.spotify.com/search/Karol%20G%20Manana%20Sera%20Bonito",
+      "activity": "Bright fish Friday",
+      "activity_notes": "Let Elsie season a small bite herself or help whisk the lemon sauce.",
+      "prep_notes": [
+        "Ask the fishmonger to clean the branzino.",
+        "Wash and chop kale ahead.",
+        "Whisk the ladolemono just before serving."
+      ],
+      "day_of_week": "friday",
+      "weather_high": 62,
+      "weather_low": 40,
+      "weather_condition": "MODERATE DRIZZLE",
+      "weather_emoji": "🌤️",
+      "weather_oneliner": "62°/40°",
+      "engagements": [
+        {
+          "time": "",
+          "event": "Dan on call",
+          "event_short": "Dan on call"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "sauce",
+          "title": "Garlic-Oregano Ladolemono",
+          "instruction": "Whisk 1/3 cup extra-virgin olive oil with the juice of 1 lemon, 1 finely grated garlic clove, 1 teaspoon dried oregano, chopped dill, and kosher salt until it thickens slightly. Spoon it over the hot fish and kale at the table.",
+          "why": "Ladolemono is not decoration; it is the bridge between lean fish and bitter greens. Whisking makes a temporary emulsion that tastes fuller than separate oil and lemon.",
+          "extra_ingredients": [
+            "extra-virgin olive oil",
+            "lemon",
+            "garlic",
+            "dried oregano",
+            "fresh dill"
+          ]
+        },
+        {
+          "type": "texture",
+          "title": "Dry Skin, Hot Oven, Two-Minute Broiler",
+          "instruction": "Pat the branzino aggressively dry, score each side three times, salt it 20 minutes ahead, and rub lightly with olive oil. Roast at 450 degrees F until just cooked, then hit the broiler for the final 1 to 2 minutes to blister the skin.",
+          "why": "Fish skin only crisps when surface moisture is gone and heat is decisive. The quick broiler finish gives crackle without overcooking the delicate flesh.",
+          "extra_ingredients": [
+            "kosher salt",
+            "extra-virgin olive oil"
+          ]
+        },
+        {
+          "type": "temperature",
+          "title": "Cold Fennel-Cucumber Crunch",
+          "instruction": "Shave fennel and cucumber thinly, toss with lemon juice, olive oil, dill, and a pinch of salt, then keep it cold until plating. Serve a small pile next to the hot fish rather than burying the crisp skin.",
+          "why": "Cold, raw vegetables make the roasted fish feel lighter and more Greek-island fresh. They also add snap against the soft kale.",
+          "extra_ingredients": [
+            "fennel bulb",
+            "English cucumber",
+            "lemon",
+            "fresh dill"
+          ]
+        },
+        {
+          "type": "texture",
+          "title": "Garlic Chips for the Kale",
+          "instruction": "Start the kale pan with thinly sliced garlic in olive oil over medium heat. Pull the garlic out when pale gold, cook the kale in the perfumed oil, then scatter the crisp garlic chips back over the greens at the end.",
+          "why": "Garlic burns fast if left in the pan. Removing it turns a common mistake into a deliberate crunchy garnish.",
+          "extra_ingredients": [
+            "garlic",
+            "extra-virgin olive oil"
+          ]
+        }
+      ],
+      "dinner_question": {
+        "day": "Friday",
+        "dinner": "Greek-Style Roasted Branzino with Garlicky Kale",
+        "question": "Fish stay balanced while the water moves around them. What helps you get balanced again after a heavy day: movement, quiet, food, a person, or a plan?",
+        "category": "story-drawing",
+        "why": "This turns resilience into a practical menu of choices. It also helps Elsie notice that different tools work for different moods, which is a big developmental step at this age."
+      },
+      "recipe_card": {
+        "source_url": "https://www.themediterraneandish.com/roasted-branzino-recipe/",
+        "source_name": "The Mediterranean Dish",
+        "servings": "3 to 4",
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "nonna_says": "Dry the branzino well and cut slits in the sides so the seasoning has somewhere to go. Stuff the bellies with lemon, onion, and dill, then roast hot until the flesh flakes and the skin blisters. Whisk the ladolemono until it looks glossy and bossy, then pour it over the fish while it is still sizzling. Keep the kale moving in a garlicky pan until it turns bright and tender. Do not overcook the fish, honey, it is not a punishment. Finish with tomatoes, herbs, and one more squeeze of lemon.",
+        "variations": [
+          {
+            "name": "Greek Branzino with Ladolemono",
+            "twist": "Double down on lemon, garlic, oregano, and olive oil for a sharper Greek finish.",
+            "source_url": "https://recipesbyclare.com/recipes/greek-roasted-branzino"
+          },
+          {
+            "name": "Branzino with Potatoes, Tomatoes, and Feta",
+            "twist": "Roast the fish over a bed of potatoes, tomatoes, and onion, then finish with feta for a fuller one-pan meal.",
+            "source_url": "https://makeitmediterranean.com/greek-style-roasted-branzino/"
+          },
+          {
+            "name": "Whole Roasted Branzino with Lemon and Herbs",
+            "twist": "Use rosemary, parsley, and lemon for a simpler herb-roasted version with a classic Mediterranean profile.",
+            "source_url": "https://www.foodandwine.com/recipes/whole-roasted-branzino-with-lemon-and-rosemary"
+          }
+        ],
+        "ingredients": [],
+        "engineer_table": {
+          "preheat": "400°F, center rack, broiler ready for finish",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "2",
+                  "item": "whole branzino, 1 to 1 1/2 pounds each",
+                  "prep": "cleaned, scaled, patted dry"
+                },
+                {
+                  "qty": "1 1/2 teaspoons",
+                  "item": "kosher salt",
+                  "prep": "divided"
+                },
+                {
+                  "qty": "1/2 teaspoon",
+                  "item": "black pepper",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 tablespoon",
+                  "item": "extra-virgin olive oil",
+                  "prep": "for sheet pan and fish"
+                }
+              ],
+              "merge_action": "slash, oil, and season fish"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1",
+                  "item": "lemon",
+                  "prep": "half sliced for stuffing, half juiced"
+                },
+                {
+                  "qty": "1/2",
+                  "item": "red onion",
+                  "prep": "thinly sliced"
+                },
+                {
+                  "qty": "1/4 cup",
+                  "item": "fresh dill",
+                  "prep": "chopped, plus stems for cavity"
+                }
+              ],
+              "merge_action": "stuff fish cavities"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1/4 cup",
+                  "item": "fresh lemon juice",
+                  "prep": ""
+                },
+                {
+                  "qty": "1/2 cup",
+                  "item": "extra-virgin olive oil",
+                  "prep": ""
+                },
+                {
+                  "qty": "1 clove",
+                  "item": "garlic",
+                  "prep": "grated"
+                },
+                {
+                  "qty": "1 teaspoon",
+                  "item": "dried oregano",
+                  "prep": ""
+                }
+              ],
+              "merge_action": "whisk ladolemono until emulsified"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 cup",
+                  "item": "cherry tomatoes",
+                  "prep": "halved"
+                },
+                {
+                  "qty": "1/4 cup",
+                  "item": "fresh parsley",
+                  "prep": "chopped"
+                }
+              ],
+              "merge_action": "salt lightly for topping"
+            }
+          ],
+          "final_steps": [
+            "roast fish 5 minutes on first side",
+            "turn carefully and roast 5 to 7 minutes more to 145°F",
+            "broil 3 to 4 minutes until skin chars",
+            "move to platter and spoon on ladolemono",
+            "top with tomatoes, dill, and parsley"
+          ]
+        }
+      },
+      "day_intro": "Friday is still a little damp, but the table can turn bright. Branzino, kale, lemon, and herbs give the week a clean finish before Saturday turns social."
+    },
+    {
+      "name": "Sat 05/02",
+      "long_name": "Saturday, May 2",
+      "weather": "Sunny, 59F/41F",
+      "weather_detail": "Sunny (99% sunshine), wind 13 mph with gusts up to 27 mph, 22% precip",
+      "calendar": "Patrick visiting; Dan on call",
+      "calendar_items": [
+        "Patrick visiting",
+        "Dan on call"
+      ],
+      "time_constraints": [
+        "Visitor night: make dinner festive, flexible, and easy to share."
+      ],
+      "dinner": "Pizza Night: Four Assorted Pies",
+      "dinner_cuisine": "Italian-American",
+      "dinner_description": "Pizza night works best when each pie has a job: classic, pepperoni, spring asparagus white, and mushroom-fontina. Keeping roasted red peppers away from the mushroom pie lets each flavor stay clear.",
+      "dinner_key_ingredients": [
+        "pizza dough",
+        "mozzarella",
+        "tomato sauce",
+        "asparagus",
+        "Parmesan",
+        "pepperoni",
+        "mushrooms"
+      ],
+      "dinner_source_url": "https://smittenkitchen.com/2010/05/shaved-asparagus-pizza/",
+      "dinner_source_name": "Smitten Kitchen",
+      "dinner_notes": "Bake in waves and slice each pie before the next comes out so the table keeps circulating.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "album": "Disclosure - ENERGY",
+      "album_artist": "Disclosure",
+      "album_title": "ENERGY",
+      "album_year": "2020",
+      "album_genre": "House / UK Garage / Dance-Pop",
+      "album_mood": "Bright, kinetic, communal, and party-ready.",
+      "album_description": "Disclosure’s 2020 ENERGY is built from house momentum, global guests, and a title that tells the truth. It gives a visitor night lift without stealing the conversation.",
+      "album_sonic_description": "Four-on-the-floor drums, clipped vocal samples, rubbery bass, Afro-house percussion, and glossy festival-scale hooks.",
+      "album_pairing_rationale": "Four pizzas need motion; Disclosure keeps the kitchen buoyant and the table sociable.",
+      "album_spotify_url": "https://open.spotify.com/search/Disclosure%20ENERGY",
+      "activity": "Pizza party with Patrick",
+      "activity_notes": "Make toppings modular, label the four pies, and let Patrick claim first slice.",
+      "prep_notes": [
+        "Make or buy enough dough for four pies.",
+        "Stage toppings in bowls before baking.",
+        "Keep mushrooms and roasted red peppers separated."
+      ],
+      "day_of_week": "saturday",
+      "weather_high": 59,
+      "weather_low": 41,
+      "weather_condition": "SUNNY",
+      "weather_emoji": "☀️",
+      "weather_oneliner": "59°/41°",
+      "engagements": [
+        {
+          "time": "",
+          "event": "Patrick visiting",
+          "event_short": "Patrick visiting"
+        },
+        {
+          "time": "",
+          "event": "Dan on call",
+          "event_short": "Dan on call"
+        }
+      ],
+      "dinner_elevation_tips": [
+        {
+          "type": "preparation",
+          "title": "Four-Pie Flavor Map",
+          "instruction": "Make the four pies distinct: one classic tomato-mozzarella basil pie, one pepperoni pie, one shaved asparagus white pie with ricotta and Parmesan, and one mushroom-fontina pie with thyme. If roasted red peppers appear, put them on the classic or a separate pepper-and-onion variation, never on the mushroom pie.",
+          "why": "A pizza party works when each pie has a job. Separating mushrooms from roasted red peppers respects the user note and keeps the table from tasting like one muddled topping bin.",
+          "extra_ingredients": [
+            "fresh basil",
+            "ricotta",
+            "fontina",
+            "fresh thyme",
+            "roasted red peppers"
+          ]
+        },
+        {
+          "type": "sauce",
+          "title": "Garlic Oil and Basil Oil Finishes",
+          "instruction": "Warm olive oil with smashed garlic over low heat for 5 minutes, then strain for garlic oil. Blend or finely chop basil with olive oil and a pinch of salt for basil oil. Use garlic oil on the white, asparagus, and mushroom pies; use basil oil on the tomato pie after baking.",
+          "why": "Finishing oils added after the oven keep their aroma. They make four pies feel curated without buying obscure ingredients.",
+          "extra_ingredients": [
+            "extra-virgin olive oil",
+            "garlic",
+            "fresh basil"
+          ]
+        },
+        {
+          "type": "temperature",
+          "title": "Cold Lemon-Arugula Shower",
+          "instruction": "Toss baby arugula with lemon juice, olive oil, and flaky salt while the pizzas rest for 45 seconds out of the oven. Add it to the asparagus white pie or a slice-by-slice option at the table so the greens stay cool and peppery.",
+          "why": "Hot cheese and cool greens are an easy restaurant contrast. Waiting 45 seconds prevents the arugula from collapsing into wet lawn clippings.",
+          "extra_ingredients": [
+            "baby arugula",
+            "lemon",
+            "flaky sea salt"
+          ]
+        },
+        {
+          "type": "texture",
+          "title": "Crisp-Bottom Insurance",
+          "instruction": "Preheat a baking steel or stone at 500 degrees F for at least 45 minutes. Keep wet toppings drained, stretch dough thin in the center, and move each finished pie to a cooling rack for 1 minute before slicing.",
+          "why": "The rack keeps steam from softening the bottom crust. It is the unglamorous step that keeps the fourth pie as crisp as the first.",
+          "extra_ingredients": [
+            "semolina flour"
+          ]
+        }
+      ],
+      "dinner_question": {
+        "day": "Saturday",
+        "dinner": "Pizza Night: Four Assorted Pies",
+        "question": "With Patrick here and four pizzas on the table, what makes someone feel truly welcomed: being offered first choice, being asked a question, being included in a job, or something else?",
+        "category": "values & moral reasoning",
+        "why": "Hospitality is empathy in action. This lets Elsie practice noticing another person without turning hosting into performance or pressure."
+      },
+      "recipe_card": {
+        "source_url": "https://smittenkitchen.com/2010/05/shaved-asparagus-pizza/",
+        "source_name": "Smitten Kitchen",
+        "servings": "6 to 8",
+        "prep_time": "45 minutes with prepared dough",
+        "cook_time": "40 to 60 minutes total for four pies",
+        "nonna_says": "Heat the oven as hot as it goes and stage every topping before the first dough stretches. Make four pies with purpose: shaved asparagus white, classic cheese, pepperoni, and mushroom garlic. Keep mushrooms away from roasted red peppers if peppers show up, because we are not starting a kitchen argument tonight. Bake each pie until the crust blisters and the cheese bubbles. Shower the asparagus pie with scallions when it comes out. Slice everything fast, feed Patrick first, and enjoy the little chaos.",
+        "variations": [
+          {
+            "name": "Shaved Asparagus and Boursin Pizza",
+            "twist": "Swap part of the mozzarella for garlicky Boursin to make the asparagus pie creamier and tangier.",
+            "source_url": "https://www.thatsnerdalicious.com/shaved-asparagus-pizza-recipe/"
+          },
+          {
+            "name": "Caramelized Onion, Goat Cheese, and Walnut Pizza",
+            "twist": "Make one vegetarian pie with sweet onions, tangy goat cheese, and toasted walnuts instead of the usual red sauce.",
+            "source_url": "https://www.thekitchn.com/recipe-caramelized-onion-goat-cheese-pizza-recipes-from-the-kitchn-184322"
+          },
+          {
+            "name": "Salami Pizza with Hot Honey",
+            "twist": "Top a tomato and mozzarella pie with spicy salami and finish it with hot honey for sweet heat.",
+            "source_url": "https://www.bonappetit.com/recipe/salami-pizza-with-hot-honey-and-fresh-mozzarella"
+          }
+        ],
+        "ingredients": [],
+        "engineer_table": {
+          "preheat": "500°F or oven maximum, pizza stone or steel inside",
+          "groups": [
+            {
+              "ingredients": [
+                {
+                  "qty": "4",
+                  "item": "12-inch pizza dough balls",
+                  "prep": "room temperature"
+                },
+                {
+                  "qty": "1/2 cup",
+                  "item": "bench flour or cornmeal",
+                  "prep": "for peel"
+                },
+                {
+                  "qty": "2 tablespoons",
+                  "item": "olive oil",
+                  "prep": "for brushing crusts"
+                }
+              ],
+              "merge_action": "stretch and stage four crusts one at a time"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1/2 pound",
+                  "item": "asparagus",
+                  "prep": "shaved into ribbons"
+                },
+                {
+                  "qty": "1/4 cup",
+                  "item": "Parmesan",
+                  "prep": "grated"
+                },
+                {
+                  "qty": "1/2 pound",
+                  "item": "mozzarella",
+                  "prep": "shredded or cubed"
+                },
+                {
+                  "qty": "2 teaspoons",
+                  "item": "olive oil",
+                  "prep": "for asparagus"
+                },
+                {
+                  "qty": "1",
+                  "item": "scallion",
+                  "prep": "thinly sliced"
+                }
+              ],
+              "merge_action": "assemble shaved asparagus white pie"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "1 1/2 cups",
+                  "item": "tomato pizza sauce",
+                  "prep": "divided between cheese and pepperoni pies"
+                },
+                {
+                  "qty": "1 pound",
+                  "item": "mozzarella",
+                  "prep": "shredded"
+                },
+                {
+                  "qty": "3 ounces",
+                  "item": "pepperoni",
+                  "prep": "thinly sliced"
+                },
+                {
+                  "qty": "1/4 cup",
+                  "item": "Parmesan",
+                  "prep": "grated"
+                }
+              ],
+              "merge_action": "assemble classic cheese and pepperoni pies"
+            },
+            {
+              "ingredients": [
+                {
+                  "qty": "8 ounces",
+                  "item": "cremini mushrooms",
+                  "prep": "sliced and sautéed dry"
+                },
+                {
+                  "qty": "2 cloves",
+                  "item": "garlic",
+                  "prep": "minced"
+                },
+                {
+                  "qty": "1/2 cup",
+                  "item": "ricotta",
+                  "prep": "dolloped"
+                },
+                {
+                  "qty": "1/2 pound",
+                  "item": "mozzarella",
+                  "prep": "shredded"
+                }
+              ],
+              "merge_action": "assemble mushroom garlic white pie without roasted red peppers"
+            }
+          ],
+          "final_steps": [
+            "bake each pie 10 to 15 minutes until browned and bubbly",
+            "rotate halfway if needed",
+            "finish asparagus pie with scallion",
+            "rest pizzas 2 minutes",
+            "slice into wedges and serve as a four-pie spread"
+          ]
+        }
+      },
+      "day_intro": "Sunny Saturday brings Patrick to the table, so dinner gets to be abundant and unfussy. Four pies keep the party moving without making one topping carry the whole night."
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Labneh with Radishes, Olive Oil & Spring Herbs",
+      "cuisine": "Middle Eastern",
+      "description": "Thick strained yogurt spread on a plate and topped with crisp radishes, mint, dill, za'atar, lemon zest, and a glossy pour of olive oil.",
+      "key_ingredients": [
+        "labneh",
+        "radishes",
+        "za'atar",
+        "mint",
+        "dill",
+        "lemon",
+        "olive oil"
+      ],
+      "source_url": "https://www.themediterraneandish.com/homemade-labneh-recipe/",
+      "source_name": "The Mediterranean Dish",
+      "why": "Fresh, easy, and seasonal; it can start the falafel, branzino, or pizza meals without being heavy."
+    },
+    {
+      "name": "Artichoke Crostini with Lemon, Parmesan & Mint",
+      "cuisine": "Italian",
+      "description": "Toasty baguette slices topped with chopped artichokes, lemon, Parmesan, herbs, and olive oil for a bright aperitivo-style starter.",
+      "key_ingredients": [
+        "baguette",
+        "artichoke hearts",
+        "Parmesan",
+        "lemon",
+        "mint",
+        "parsley",
+        "olive oil"
+      ],
+      "source_url": "https://www.foodandwine.com/recipes/artichoke-crostini",
+      "source_name": "Food & Wine",
+      "why": "A low-effort Italian appetizer that plays well with red sauce pasta, Babo Pasta, or pizza and uses spring's artichoke mood even if using jarred hearts."
+    }
+  ],
+  "salads": [
+    {
+      "name": "Spring Nicoise Platter with Asparagus, New Potatoes & Jammy Eggs",
+      "salad_type": "composed_dinner",
+      "cuisine": "French",
+      "description": "A dinner-sized composed platter of spring greens, asparagus, new potatoes, radishes, jammy eggs, olives, capers, and optional tuna arranged in tidy sections rather than tossed.",
+      "key_ingredients": [
+        "asparagus",
+        "new potatoes",
+        "eggs",
+        "spring greens",
+        "radishes",
+        "Nicoise olives",
+        "capers"
+      ],
+      "dressing": "Dijon-shallot vinaigrette: whisk 1/4 cup red wine vinegar, 1 tablespoon Dijon mustard, 1 small minced shallot, 1 teaspoon honey, 1/2 teaspoon kosher salt, and 1/4 teaspoon black pepper; stream in 1/2 cup extra-virgin olive oil until emulsified, then stir in 1 tablespoon chopped capers.",
+      "flavor_rationale": "This works because the rich eggs and potatoes need sharp acid, while asparagus and radishes bring snap and green bitterness. Olives and capers supply briny punctuation so the salad feels like a real dinner instead of a plate of vegetables.",
+      "seasonal_note": "Asparagus, radishes, spring greens, and new potatoes are all strong East Coast late-April/early-May choices; local eggs make it more substantial.",
+      "source_url": "https://farmflavor.com/recipes/spring-nicoise-salad/",
+      "source_name": "Farm Flavor",
+      "why": "Composed dinner salad: beautiful enough for company, substantial enough for a no-cook-ish dinner, and aligned with the week's spring produce."
+    },
+    {
+      "name": "Spring Chickpea Fattoush with Snap Peas & Crispy Pita",
+      "salad_type": "tossed_dinner",
+      "cuisine": "Middle Eastern",
+      "description": "A generous tossed fattoush bulked up with chickpeas, romaine, cucumbers, radishes, snap peas, herbs, and shards of toasted pita.",
+      "key_ingredients": [
+        "chickpeas",
+        "romaine",
+        "radishes",
+        "snap peas",
+        "cucumber",
+        "mint",
+        "parsley",
+        "pita"
+      ],
+      "dressing": "Lemon-sumac pomegranate dressing: whisk 1/4 cup fresh lemon juice, 1 tablespoon pomegranate molasses, 1 grated garlic clove, 1 teaspoon ground sumac, 1/2 teaspoon kosher salt, and 1/4 teaspoon black pepper; stream in 1/3 cup extra-virgin olive oil and toss immediately with the salad.",
+      "flavor_rationale": "Fattoush is all about contrast: juicy vegetables, crisp pita, creamy chickpeas, and a tart dressing that wakes everything up. Sumac and pomegranate molasses echo the Middle Eastern dinner option while the chickpeas make the bowl filling enough to stand alone.",
+      "seasonal_note": "Radishes, tender lettuces, herbs, and snap peas are ideal late-spring Mid-Atlantic produce; cucumbers are acceptable as a crisp bridge into warmer weather.",
+      "source_url": "https://www.themediterraneandish.com/fattoush-salad/",
+      "source_name": "The Mediterranean Dish",
+      "why": "Tossed dinner salad: vegetarian-friendly, high-crunch, and a natural partner for falafel, branzino, or burgers."
+    },
+    {
+      "name": "Asparagus, Radish & Sweet Pea Side Salad with Avocado-Herb Dressing",
+      "salad_type": "side",
+      "cuisine": "American spring",
+      "description": "A crisp green side salad of shaved asparagus, sliced radishes, sweet peas, herbs, and feta over tender lettuces.",
+      "key_ingredients": [
+        "asparagus",
+        "radishes",
+        "sweet peas",
+        "butter lettuce",
+        "feta",
+        "dill",
+        "parsley"
+      ],
+      "dressing": "Avocado-herb dressing: blend 1 ripe avocado, 3 tablespoons lemon juice, 1 tablespoon white wine vinegar, 1 teaspoon Dijon mustard, 1 small garlic clove, 1/4 cup extra-virgin olive oil, 2 tablespoons water, 1/4 cup parsley, 2 tablespoons dill, 1/2 teaspoon kosher salt, and black pepper to taste.",
+      "flavor_rationale": "The creamy avocado dressing softens asparagus' grassy edge and gives lean spring vegetables enough body to sit beside burgers, pork chops, or fish. Lemon and herbs keep it bright so it does not fight creamy mushroom sauce or rich cheese.",
+      "seasonal_note": "Asparagus, radishes, peas, dill, parsley, and tender lettuces are exactly the produce to chase on the East Coast as April turns into May.",
+      "source_url": "https://www.loveandlemons.com/asparagus-salad/",
+      "source_name": "Love & Lemons",
+      "why": "Side salad #1: a spring-green counterweight for the heavier requested dinners."
+    },
+    {
+      "name": "Butter Lettuce, Strawberries & Pickled Shallot Salad",
+      "salad_type": "side",
+      "cuisine": "American spring",
+      "description": "Soft butter lettuce, early strawberries, cucumber, toasted almonds, goat cheese, mint, and quick-pickled shallots in a poppy seed vinaigrette.",
+      "key_ingredients": [
+        "butter lettuce",
+        "strawberries",
+        "cucumber",
+        "shallots",
+        "almonds",
+        "goat cheese",
+        "mint"
+      ],
+      "dressing": "Lemon-poppy seed vinaigrette: shake 3 tablespoons champagne vinegar, 1 tablespoon fresh lemon juice, 1 tablespoon honey, 1 teaspoon Dijon mustard, 1/3 cup extra-virgin olive oil, 1 teaspoon poppy seeds, 1/2 teaspoon kosher salt, and 1/4 teaspoon black pepper until glossy.",
+      "flavor_rationale": "Sweet strawberries and honey need the bite of pickled shallot and lemony acid to avoid tasting like dessert. Almonds add crunch, goat cheese adds tangy fat, and mint makes the whole salad feel cool next to pizza or spicy jambalaya.",
+      "seasonal_note": "Butter lettuce and herbs are abundant in late April; the first Mid-Atlantic strawberries often appear around early May, and supermarket berries can stand in if local fruit lags.",
+      "source_url": "https://www.loveandlemons.com/spring-salad/",
+      "source_name": "Love & Lemons",
+      "why": "Side salad #2: lighter, fruitier, and completely different from the asparagus-pea salad."
+    }
+  ],
+  "beverages": [
+    {
+      "name": "Chianti Classico or Other Sangiovese",
+      "description": "A medium-bodied, high-acid Italian red with cherry, tomato, herb, and savory notes.",
+      "pairing_note": "Best with Sunday gravy pasta, pizza, stuffed cabbage, and burgers because the acidity cuts tomato, fat, and cheese.",
+      "why": "Pairing note: high acidity and savory tomato-friendly flavors make this the red wine workhorse for the Italian-American options.",
+      "source_url": "https://www.winefolly.com/grapes/sangiovese/",
+      "source_name": "Wine Folly"
+    },
+    {
+      "name": "Gruner Veltliner",
+      "description": "A lean Austrian white with citrus, green apple, white pepper, and herbaceous snap.",
+      "pairing_note": "Best with branzino, asparagus pizza, spring salads, and pork chops because it handles green vegetables and creamy sauces.",
+      "why": "Pairing note: peppery acidity is especially useful for asparagus, kale, lemon, and mushroom cream.",
+      "source_url": "https://www.winefolly.com/grapes/gruner-veltliner/",
+      "source_name": "Wine Folly"
+    },
+    {
+      "name": "Sparkling Strawberry-Basil Lemonade",
+      "description": "A family-friendly pitcher drink: strawberry lemonade topped with sparkling water and slapped basil leaves for aroma.",
+      "pairing_note": "Best with pizza, burgers, falafel, jambalaya, and the strawberry salad; add extra sparkling water for a lighter dinner drink.",
+      "why": "Pairing note: tart lemon and bubbles refresh the palate across spicy, cheesy, and fried foods while staying kid-friendly.",
+      "source_url": "https://www.acouplecooks.com/strawberry-lemonade/",
+      "source_name": "A Couple Cooks"
+    }
+  ],
+  "grocery_list": {
+    "Produce": [
+      "green cabbage",
+      "onions",
+      "garlic",
+      "cremini mushrooms",
+      "kale",
+      "lemons",
+      "dill",
+      "parsley",
+      "asparagus",
+      "radishes",
+      "spring greens",
+      "butter lettuce",
+      "strawberries",
+      "cucumbers",
+      "fresh herbs"
+    ],
+    "Protein": [
+      "meatballs",
+      "Italian sausage",
+      "ground beef",
+      "ground wagyu beef",
+      "bone-in pork chops",
+      "whole branzino",
+      "eggs",
+      "egg yolks"
+    ],
+    "Dairy": [
+      "pecorino Romano",
+      "American cheese",
+      "heavy cream",
+      "Parmigiano-Reggiano",
+      "mozzarella",
+      "goat cheese",
+      "feta",
+      "labneh"
+    ],
+    "Pantry": [
+      "rigatoni",
+      "rice",
+      "tomato sauce",
+      "brown sugar",
+      "potato buns",
+      "dill pickles",
+      "Dijon mustard",
+      "00 flour",
+      "semolina",
+      "pizza dough",
+      "olive oil",
+      "red wine vinegar",
+      "pomegranate molasses",
+      "sumac"
+    ],
+    "Beverages": [
+      "Chianti Classico or other Sangiovese",
+      "Gruner Veltliner",
+      "strawberries and lemons for sparkling strawberry-basil lemonade"
+    ]
+  },
+  "prep_ahead": [
+    "Sunday: check leftover gravy and stage rigatoni for dinner.",
+    "Monday: mix burger sauce, wash lettuce, and slice pickles before the late meeting.",
+    "Monday night: stage Babo Pasta tools or make the spinach dough if time allows.",
+    "Tuesday: keep Babo Pasta components ready before swim and brown butter after everyone is home.",
+    "Tuesday night: season pork chops and slice mushrooms for Wednesday.",
+    "Wednesday: start pork chops early in the slow cooker; keep roasted red peppers away from mushrooms.",
+    "Wednesday night or Thursday morning: blanch cabbage leaves or assemble stuffed cabbage rolls.",
+    "Thursday: reheat cabbage rolls gently with extra sauce.",
+    "Friday: ask the fishmonger to clean branzino and wash kale.",
+    "Saturday: stage four pizza toppings in separate bowls and keep mushrooms separate from roasted red peppers."
+  ],
+  "notes": [
+    "No FCPS no-school or early-release days found for this week.",
+    "WorkIQ found late-day constraints Monday and Tuesday; no Laura-sent events in the 3-9 PM window.",
+    "Elsie did not provide a no-go list this week, so no dinner substitutions are flagged.",
+    "Requested repeats such as Babo Pasta, pizza, burgers, branzino, and gravy pasta are intentionally preserved despite recent-plan history.",
+    "The week's through-line is contrast: cozy leftovers, crisp griddle nights, a Tuesday pasta ritual, bright lemon, and one sunny pizza table.",
+    "Keep the rhythm modular: prep what can wait patiently, let Elsie claim a real helper job, and save Friday for clean fish-and-greens brightness."
+  ],
+  "daily_plan_subtitle": "From Italian-American to Greek / Mediterranean, with The Strokes on the stereo",
+  "parenting_data": {
+    "week_range": "April 26 - May 2, 2026",
+    "weekly_theme": {
+      "title": "Holding the Roof Steady",
+      "description": "This week asks the adults to carry a lot at once: Laura away until Wednesday, Dan handling kid logistics and then on-call duty, swim on Tuesday, rain through the middle, house-buying stress in the background, and Patrick arriving for the weekend. For an 8-year-old, steadiness does not come from pretending nothing is stressful. It comes from small repeatable proof that the adults are still the adults: clear handoffs, little rituals, real helper jobs, and warm words that make home feel portable even when the future address is still uncertain."
+    },
+    "dinner_questions": [
+      {
+        "day": "Sunday",
+        "dinner": "Leftover Sunday Gravy Rigatoni with Meatballs & Sausage",
+        "question": "If our home could greet people with one smell, sound, or tiny tradition, what would you want it to be, and what would it tell them about us?",
+        "category": "family connection",
+        "why": "Eight-year-olds can now connect sensory memories with identity. Sunday gravy makes belonging concrete: smell, sound, table, and the feeling that people return to each other even during a busy week."
+      },
+      {
+        "day": "Monday",
+        "dinner": "Wagyu Ultra-Smashed Cheeseburgers with Pickles & Secret Sauce",
+        "question": "Tonight is build-your-own burger night. If rushed nights had a family reset button, what should ours be: a phrase, a handshake, a joke, a song, or something else?",
+        "category": "imagination",
+        "why": "Busy evenings can make kids feel like cargo being moved through a system. Letting Elsie invent a reset ritual turns predictability into play and gives her a small piece of ownership."
+      },
+      {
+        "day": "Tuesday",
+        "dinner": "Babo Pasta: Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+        "question": "Babo Pasta feels like a family recipe even if the kitchen changed tomorrow. What parts of a tradition come with us no matter where we live?",
+        "category": "gratitude & reflection",
+        "why": "Moving talk can quietly make children wonder what might be lost. This question points to portable belonging: hands helping, flour on the counter, jokes, smells, and the people doing the ritual together."
+      },
+      {
+        "day": "Wednesday",
+        "dinner": "Slow-Cooked Pork Chops with Mushroom Cream Sauce",
+        "question": "When someone comes home after being away, what helps the house feel like 'we are all back' again: a hug, a story, a quiet minute, a meal, or something else?",
+        "category": "family connection",
+        "why": "Laura's return is a natural moment to notice reunion rituals. Eight-year-olds often feel transitions before they can explain them, so naming what helps gives her language for security."
+      },
+      {
+        "day": "Thursday",
+        "dinner": "Alex's Mom's Stuffed Cabbage Rolls",
+        "question": "These cabbage rolls hold rice, beef, and sauce together in one little bundle. What helped you hold yourself together this week when plans felt busy or wobbly?",
+        "category": "values & moral reasoning",
+        "why": "The image gives her a non-clinical way to talk about coping. At eight, she is beginning to identify strategies and supports, not just feelings, and that builds confidence."
+      },
+      {
+        "day": "Friday",
+        "dinner": "Greek-Style Roasted Branzino with Garlicky Kale",
+        "question": "Fish stay balanced while the water moves around them. What helps you get balanced again after a heavy day: movement, quiet, food, a person, or a plan?",
+        "category": "story-drawing",
+        "why": "This turns resilience into a practical menu of choices. It also helps Elsie notice that different tools work for different moods, which is a big developmental step at this age."
+      },
+      {
+        "day": "Saturday",
+        "dinner": "Pizza Night: Four Assorted Pies",
+        "question": "With Patrick here and four pizzas on the table, what makes someone feel truly welcomed: being offered first choice, being asked a question, being included in a job, or something else?",
+        "category": "values & moral reasoning",
+        "why": "Hospitality is empathy in action. This lets Elsie practice noticing another person without turning hosting into performance or pressure."
+      }
+    ],
+    "nudges": [
+      {
+        "title": "The Roof Report",
+        "context": "During house stress, travel, and on-call weeks, children often listen less to the facts and more to the emotional weather in the room. A short daily roof report gives Elsie a predictable place to put observations without turning dinner into an interview or a family meeting.",
+        "suggestion": "Try a two-minute check-in at dinner or bedtime: one thing that helped the house feel steady today, one thing that felt wobbly, and one tiny repair for tomorrow. Keep it light enough that she can pass, joke, or answer with a drawing if words feel too direct.",
+        "how_to": [
+          "Start with your own small answer: 'My steady thing was seeing the table set; my wobbly thing was the late meeting.'",
+          "Ask Elsie for one 'roof report' and accept the first answer without cross-examining it.",
+          "If she names a worry, reflect before fixing: 'That makes sense. A lot is changing around the edges this week.'",
+          "End with one visible repair: packing the swim bag, choosing tomorrow's breakfast, or writing a sticky note for Laura or Dan."
+        ]
+      },
+      {
+        "title": "Portable Belonging Jobs",
+        "context": "An 8-year-old wants to feel useful, not merely managed, especially when adults are talking about houses, travel, and logistics. Real jobs create autonomy support: she can see that the family works better because she did something specific and noticed.",
+        "suggestion": "Give Elsie three small jobs that would still matter in any kitchen, any car, and any future house. The trick is to make the job real but bounded: a five-minute contribution with a visible result, not a vague request to be helpful.",
+        "how_to": [
+          "Tuesday: make her Babo Pasta ritual keeper for one step only: flour dusting, pasta cranking, noodle nests, or the cheese shower.",
+          "Thursday: let her be the sauce watcher for cabbage rolls, checking that each roll gets a spoonful before serving.",
+          "Saturday: make her the pizza host who asks Patrick which pie he wants first and makes sure everyone gets a slice they like.",
+          "Name the impact out loud: 'The pasta worked because you kept the sheets from sticking,' not just 'good job.'"
+        ]
+      },
+      {
+        "title": "The One-Sentence Grown-Up Weather Report",
+        "context": "Kids can feel grown-up stress even when nobody explains it. Too much detail can make them feel responsible; too little can make them invent scarier stories. A simple sentence gives emotional honesty with a boundary around who is carrying the problem.",
+        "suggestion": "When house-buying, moving, money, scheduling, or on-call stress leaks into family time, try one calm sentence and then one invitation. The sentence says the adults have it. The invitation gives Elsie room to have feelings without becoming the family's emotional project manager.",
+        "how_to": [
+          "Use a steady line: 'This is a grown-up decision, and we are working through it; you are safe to ask questions.'",
+          "Offer one kid-sized opening: 'What would you miss if we moved?' or 'What do you hope any home of ours always has?'",
+          "Close by naming the present roof: one dry room, one favorite corner, one neighborly kindness, or one meal that made the house feel like itself.",
+          "If she asks a big question, answer only the question she asked, then pause. Eight-year-olds often need smaller truth, not the whole adult spreadsheet."
+        ]
+      }
+    ],
+    "connection_ritual": {
+      "title": "Rose, Roof, Repair",
+      "description": "At bedtime, each person shares one rose from the day, one thing that made the home feel steady, and one tiny repair for tomorrow. Keep it under five minutes; the power is repetition, not depth.",
+      "when": "Bedtime on Tuesday through Thursday",
+      "duration": "5 minutes"
+    },
+    "recommendation": {
+      "type": "book",
+      "title": "The Vanderbeekers of 141st Street",
+      "author": "Karina Yan Glaser",
+      "why": "This warm middle-grade novel follows siblings trying to protect the home and community they love. It has enough kid energy to keep an 8-year-old engaged, but underneath the chaos is a tender idea: neighbors, routines, and small acts of care are what make a building feel alive.",
+      "connection": "It pairs beautifully with this week's roof-and-belonging theme. Read a chapter on a rainy or on-call night, then ask which neighbor in the story reminds Elsie of someone who helps your family."
+    },
+    "parent_reflection": "At the end of the week, notice one moment when the schedule was messy but Elsie seemed settled anyway. What was the anchor: your voice, a ritual, a real job, a meal, a neighbor, a familiar corner of the house? That is the part worth carrying forward, wherever the next roof happens to be."
+  },
+  "nutrition_summary": "This dinner week is comfort-forward by design: red sauce, burgers, pork, pasta, and pizza carry the joy. Let lunches and snacks do the balancing: fruit daily, yogurt or fortified milk for calcium and vitamin D, bean or lentil lunches twice, whole grains, crunchy vegetables, and a little extra omega-3 around Friday's branzino.",
+  "nutrition_data": {
+    "family": {
+      "members": [
+        {
+          "name": "Wife",
+          "age_range": "Adult woman",
+          "activity_level": "Active",
+          "calorie_target": "~2,000-2,200 kcal",
+          "focus_nutrients": [
+            "iron",
+            "calcium",
+            "folate",
+            "fiber"
+          ]
+        },
+        {
+          "name": "Husband",
+          "age_range": "Adult man",
+          "activity_level": "Active",
+          "calorie_target": "~2,400-2,800 kcal",
+          "focus_nutrients": [
+            "protein",
+            "potassium",
+            "magnesium"
+          ]
+        },
+        {
+          "name": "Daughter",
+          "age_range": "School-age girl",
+          "activity_level": "Active",
+          "calorie_target": "~1,600-2,000 kcal",
+          "focus_nutrients": [
+            "calcium",
+            "vitamin D",
+            "iron",
+            "fiber"
+          ]
+        }
+      ]
+    },
+    "dinners": [
+      {
+        "day": "Sunday",
+        "name": "Leftover Sunday Gravy Rigatoni with Meatballs & Sausage",
+        "calories_per_serving": "~750-900 kcal",
+        "protein_source": "Meatballs, Italian sausage, pecorino, and pasta",
+        "protein_level": "high",
+        "vegetable_content": "moderate from tomato sauce, onion, and garlic; low in leafy/crunchy vegetables",
+        "whole_grains": false,
+        "key_nutrients": [
+          "protein",
+          "iron",
+          "zinc",
+          "vitamin B12",
+          "lycopene",
+          "selenium"
+        ],
+        "concerns": [
+          "A generous red-sauce pasta night can run high in sodium from sausage, cheese, and seasoned sauce.",
+          "Refined pasta plus meat makes this satisfying but not very fiber-forward unless a salad or fruit shows up earlier in the day.",
+          "Saturated fat is meaningful because both sausage and meatballs are in the same bowl."
+        ],
+        "overall_rating": "hearty; balance with lighter lunch"
+      },
+      {
+        "day": "Monday",
+        "name": "Wagyu Ultra-Smashed Cheeseburgers with Pickles & Secret Sauce",
+        "calories_per_serving": "~650-800 kcal per stacked burger",
+        "protein_source": "Ground wagyu beef and American cheese",
+        "protein_level": "high",
+        "vegetable_content": "minimal: lettuce and pickles are more garnish than vegetable serving",
+        "whole_grains": false,
+        "key_nutrients": [
+          "protein",
+          "iron",
+          "zinc",
+          "vitamin B12",
+          "selenium"
+        ],
+        "concerns": [
+          "This is the week's clearest saturated-fat and sodium spike, especially with cheese, pickles, sauce, and a potato bun.",
+          "Fiber and potassium are low unless lunch or snacks bring fruit, beans, whole grains, or potatoes/sweet potatoes.",
+          "A crisp side salad, fruit, or crunchy veg earlier in the day keeps the burger night playful without making dinner fussy."
+        ],
+        "overall_rating": "fun but rich"
+      },
+      {
+        "day": "Tuesday",
+        "name": "Babo Pasta: Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+        "calories_per_serving": "~550-700 kcal depending on butter and portion size",
+        "protein_source": "Egg yolks, pasta, Parmesan, and spinach",
+        "protein_level": "moderate",
+        "vegetable_content": "moderate: spinach is meaningful, but the plate still reads as pasta-first",
+        "whole_grains": false,
+        "key_nutrients": [
+          "choline",
+          "protein",
+          "calcium",
+          "iron",
+          "folate",
+          "vitamin A",
+          "vitamin K",
+          "selenium"
+        ],
+        "concerns": [
+          "Brown butter and Parmesan make it rich, so lunch can be lighter and produce-heavy.",
+          "Fresh pasta is mostly refined grain; fiber is modest even with spinach.",
+          "Add fruit or a crunchy salad earlier rather than complicating the family pasta ritual."
+        ],
+        "overall_rating": "special family meal; round out earlier"
+      },
+      {
+        "day": "Wednesday",
+        "name": "Slow-Cooked Pork Chops with Mushroom Cream Sauce",
+        "calories_per_serving": "~550-700 kcal before any starch side",
+        "protein_source": "Bone-in pork chops plus cream sauce",
+        "protein_level": "high",
+        "vegetable_content": "minimal to moderate: mushrooms add minerals but not a big vegetable serving",
+        "whole_grains": false,
+        "key_nutrients": [
+          "protein",
+          "thiamine",
+          "niacin",
+          "vitamin B6",
+          "vitamin B12",
+          "selenium",
+          "potassium",
+          "mushroom B vitamins"
+        ],
+        "concerns": [
+          "Cream sauce makes this delicious and also adds saturated fat.",
+          "Without a vegetable side, the dinner is low in fiber and color.",
+          "If broth or seasoning is salty, sodium can become moderate-to-high."
+        ],
+        "overall_rating": "cozy; needs produce support"
+      },
+      {
+        "day": "Thursday",
+        "name": "Alex's Mom's Stuffed Cabbage Rolls",
+        "calories_per_serving": "~450-600 kcal for 2 rolls with sauce",
+        "protein_source": "Ground beef with rice",
+        "protein_level": "high",
+        "vegetable_content": "moderate: cabbage, tomato sauce, and onion do real work here",
+        "whole_grains": false,
+        "key_nutrients": [
+          "protein",
+          "iron",
+          "zinc",
+          "vitamin C",
+          "vitamin K",
+          "folate",
+          "lycopene",
+          "potassium"
+        ],
+        "concerns": [
+          "White rice keeps it soft and traditional, but it does not add much whole-grain fiber.",
+          "Tomato sauce and seasoning can make sodium creep up.",
+          "Calcium and vitamin D still need help elsewhere in the day."
+        ],
+        "overall_rating": "solid comfort-food balance"
+      },
+      {
+        "day": "Friday",
+        "name": "Greek-Style Roasted Branzino with Garlicky Kale",
+        "calories_per_serving": "~400-550 kcal",
+        "protein_source": "Whole branzino",
+        "protein_level": "high",
+        "vegetable_content": "abundant: garlicky kale is the week's best green vegetable anchor",
+        "whole_grains": false,
+        "key_nutrients": [
+          "protein",
+          "omega-3 fats",
+          "vitamin D",
+          "vitamin K",
+          "calcium",
+          "potassium",
+          "iron",
+          "vitamin C",
+          "olive-oil monounsaturated fat"
+        ],
+        "concerns": [
+          "Beautifully light, but active family members may want a whole-grain or potato side for staying power.",
+          "Branzino helps omega-3 status, though one fish dinner means walnuts, chia, or another fish lunch still helps."
+        ],
+        "overall_rating": "excellent balancing meal"
+      },
+      {
+        "day": "Saturday",
+        "name": "Pizza Night: Four Assorted Pies",
+        "calories_per_serving": "~600-900 kcal for 2-3 slices, depending on toppings",
+        "protein_source": "Mozzarella, Parmesan, pepperoni, and assorted toppings",
+        "protein_level": "moderate to high",
+        "vegetable_content": "moderate if asparagus and mushroom slices are popular; otherwise mostly tomato sauce",
+        "whole_grains": false,
+        "key_nutrients": [
+          "calcium",
+          "protein",
+          "lycopene",
+          "selenium",
+          "vitamin K and folate from asparagus",
+          "B vitamins from mushrooms"
+        ],
+        "concerns": [
+          "Pizza reliably brings sodium and saturated fat from cheese and pepperoni.",
+          "The crust is another refined-grain dinner, so lunches should carry whole grains and legumes.",
+          "Fruit and raw vegetables earlier in the day are the easy win before a guest-night spread."
+        ],
+        "overall_rating": "festive; balance around it"
+      }
+    ],
+    "weekly_assessment": {
+      "protein_diversity": {
+        "sources_found": [
+          "beef meatballs",
+          "Italian sausage",
+          "wagyu beef",
+          "ground beef",
+          "pork chops",
+          "branzino",
+          "eggs",
+          "cheese",
+          "pepperoni"
+        ],
+        "rating": "moderate",
+        "notes": "Protein is abundant, but the pattern leans heavily toward red meat, pork, cheese, and cured meats. The branzino night is a strong counterweight; lunches can add legumes, yogurt, eggs, and a second seafood moment."
+      },
+      "vegetable_coverage": {
+        "servings_per_dinner_avg": 1.4,
+        "color_diversity": [
+          "tomato red",
+          "dark leafy greens",
+          "cruciferous cabbage",
+          "asparagus green",
+          "mushroom/white",
+          "onion/garlic"
+        ],
+        "rating": "moderate but uneven",
+        "notes": "The week has real vegetable bright spots: cabbage rolls, garlicky kale, spinach pasta, and asparagus pizza. Monday and Wednesday are the lightest vegetable nights, so lunches and snacks should bring crunchy vegetables and fruit."
+      },
+      "nutrient_gaps": [
+        {
+          "nutrient": "fiber",
+          "severity": "moderate",
+          "detail": "No dinner uses whole grains, and there are no beans or lentils at dinner. Aim for oats, whole-grain bread, quinoa/brown rice, beans, apples, berries, and carrots at lunch/snack."
+        },
+        {
+          "nutrient": "fruit",
+          "severity": "high",
+          "detail": "Fruit is essentially absent from dinner, which is normal; make fruit a daily lunchbox and snack default."
+        },
+        {
+          "nutrient": "calcium and vitamin D",
+          "severity": "moderate",
+          "detail": "Pizza and Parmesan help calcium, kale contributes some, and branzino/egg yolks help vitamin D, but a growing child benefits from daily fortified dairy/soy, yogurt, kefir, or similar."
+        },
+        {
+          "nutrient": "potassium and magnesium",
+          "severity": "mild to moderate",
+          "detail": "Kale, tomatoes, mushrooms, and cabbage help, but the richest sources this week should come from beans, avocado, bananas, potatoes/sweet potatoes, nuts, seeds, and whole grains."
+        },
+        {
+          "nutrient": "omega-3 fats",
+          "severity": "mild",
+          "detail": "Branzino provides a meaningful omega-3 dinner, but one fish night is still a little light. Salmon, sardines, walnuts, chia, or flax at lunch/snack will round it out."
+        }
+      ],
+      "excesses": [
+        {
+          "item": "saturated fat",
+          "severity": "moderate",
+          "detail": "Sunday gravy, wagyu cheeseburgers, pork cream sauce, brown butter pasta, and pizza all bring richness. Keep breakfast/lunch lighter with yogurt, beans, fish, fruit, vegetables, and unsaturated fats."
+        },
+        {
+          "item": "sodium",
+          "severity": "moderate",
+          "detail": "Sausage, cheese, pickles, burger sauce, tomato sauce, Parmesan, pepperoni, and pizza crust are the main drivers. Use low-sodium lunch components and hydrate well, especially around swim/activity days."
+        },
+        {
+          "item": "refined grains",
+          "severity": "moderate",
+          "detail": "Rigatoni, buns, white rice, fresh pasta, and pizza crust dominate dinner carbohydrates. Lunch is the right place for oats, whole-grain pita, brown rice, quinoa, and whole-grain rolls."
+        }
+      ],
+      "fiber_assessment": {
+        "rating": "needs support",
+        "notes": "Dinner fiber is present but not high: tomato sauce, cabbage, kale, spinach, mushrooms, and asparagus help, but the absence of whole grains and legumes means lunches/snacks should do the heavy lifting."
+      },
+      "omega3_assessment": {
+        "rating": "fair to good",
+        "notes": "The branzino dinner is a win for EPA/DHA and vitamin D. Add salmon salad, walnuts, chia, or flax once or twice so omega-3 intake does not depend on one meal."
+      },
+      "overall_dinner_grade": "B",
+      "overall_summary": "These dinners are satisfying, protein-rich, and emotionally right for a busy week: red sauce on solo-parent Sunday, fast burgers after meetings, slow-cooker pork on a rainy return day, a bright fish-and-kale reset, a family pasta ritual, and pizza with a visitor. The nutrition strategy is not to scold the comfort food. It is to make lunches and snacks carry fruit, whole grains, legumes, calcium/vitamin D, potassium, magnesium, and lighter fats so everyone feels steady."
+    },
+    "recommended_lunches": [
+      {
+        "name": "Greek Yogurt Berry-Chia Parfait Box",
+        "description": "Plain Greek yogurt or fortified dairy/soy yogurt layered with berries, a spoon of chia, low-sugar granola or oats, and a few pumpkin seeds. Pack a small honey cup if Elsie likes it sweeter.",
+        "prep_time": "5 min",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "calcium",
+          "vitamin D if fortified",
+          "fruit",
+          "fiber",
+          "magnesium"
+        ],
+        "key_nutrients": [
+          "calcium",
+          "protein",
+          "vitamin D",
+          "fiber",
+          "omega-3 ALA",
+          "magnesium",
+          "vitamin C"
+        ],
+        "kid_notes": "Use a bento-style container and keep granola separate so it stays crunchy."
+      },
+      {
+        "name": "Hummus, Turkey & Crunchy Veg Whole-Grain Pita",
+        "description": "Whole-grain pita with hummus, turkey or rotisserie chicken, cucumber, shredded carrot, and spinach; add orange wedges on the side for vitamin C.",
+        "prep_time": "10 min",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "whole grains",
+          "fiber",
+          "vegetable color",
+          "iron absorption",
+          "potassium"
+        ],
+        "key_nutrients": [
+          "fiber",
+          "whole-grain B vitamins",
+          "iron",
+          "vitamin C",
+          "potassium",
+          "magnesium",
+          "plant protein"
+        ],
+        "kid_notes": "If the full pita is messy, pack pita triangles, hummus, turkey roll-ups, and veg sticks as dippers."
+      },
+      {
+        "name": "Salmon Salad Pinwheels with Grapes",
+        "description": "Canned salmon mixed with Greek yogurt, lemon, dill, and a little mayo, rolled in a whole-grain tortilla with lettuce; serve with grapes or berries.",
+        "prep_time": "12 min",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "omega-3",
+          "vitamin D",
+          "calcium if using canned salmon with bones",
+          "whole grains",
+          "fruit"
+        ],
+        "key_nutrients": [
+          "omega-3 EPA/DHA",
+          "vitamin D",
+          "calcium",
+          "protein",
+          "fiber",
+          "vitamin C"
+        ],
+        "kid_notes": "Mash the salmon smooth and call them lemon-dill pinwheels; use tuna if salmon is a hard sell, then keep walnuts/chia at snack time."
+      },
+      {
+        "name": "Bean & Quinoa Burrito Bowl",
+        "description": "Black beans, quinoa or brown rice, corn, tomato salsa, avocado, shredded romaine, lime, and a little cheese or yogurt-lime crema.",
+        "prep_time": "15 min if grains are pre-cooked",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "legumes",
+          "fiber",
+          "magnesium",
+          "potassium",
+          "folate",
+          "plant protein"
+        ],
+        "key_nutrients": [
+          "fiber",
+          "magnesium",
+          "potassium",
+          "iron",
+          "folate",
+          "plant protein",
+          "healthy fats"
+        ],
+        "kid_notes": "Serve components separately in a bento if mixed bowls trigger resistance."
+      },
+      {
+        "name": "Lentil-Tomato Soup Thermos + Whole-Grain Roll",
+        "description": "A thermos of lentil tomato soup with carrots/celery, a whole-grain roll, and an apple or pear. Batch-cook once and use twice.",
+        "prep_time": "20-30 min batch, 3 min to pack leftovers",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "fiber",
+          "legumes",
+          "iron",
+          "potassium",
+          "whole grains",
+          "fruit"
+        ],
+        "key_nutrients": [
+          "fiber",
+          "iron",
+          "folate",
+          "potassium",
+          "magnesium",
+          "lycopene",
+          "vitamin C"
+        ],
+        "kid_notes": "Blend part of the soup if Elsie prefers a smoother texture."
+      },
+      {
+        "name": "Egg, Avocado & Fruit Bento",
+        "description": "Hard-boiled egg or egg salad, avocado, whole-grain crackers or toast fingers, cherry tomatoes, and strawberries or clementines.",
+        "prep_time": "10 min with boiled eggs ready",
+        "packable": true,
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "vitamin D",
+          "choline",
+          "whole grains",
+          "potassium",
+          "fruit",
+          "vitamin C"
+        ],
+        "key_nutrients": [
+          "protein",
+          "vitamin D",
+          "choline",
+          "potassium",
+          "fiber",
+          "vitamin C",
+          "healthy fats"
+        ],
+        "kid_notes": "Make it a snacky plate: egg wedges, crackers, avocado mash, and fruit."
+      }
+    ],
+    "recommended_snacks": [
+      {
+        "name": "Fortified Milk or Kefir Smoothie",
+        "description": "Blend fortified milk or kefir with banana, frozen berries, and a small handful of spinach. Add oats if someone needs a more filling afternoon snack.",
+        "prep_time": "5 min",
+        "time_of_day": "morning or afternoon",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "calcium",
+          "vitamin D",
+          "fruit",
+          "potassium",
+          "fiber"
+        ],
+        "key_nutrients": [
+          "calcium",
+          "vitamin D",
+          "potassium",
+          "vitamin C",
+          "fiber",
+          "probiotics"
+        ]
+      },
+      {
+        "name": "Apple or Pear with Almond Butter",
+        "description": "Fruit plus almond or peanut butter. For school, use sunflower butter if nuts are not allowed.",
+        "prep_time": "2 min",
+        "time_of_day": "afternoon",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "fruit",
+          "fiber",
+          "magnesium",
+          "healthy fats"
+        ],
+        "key_nutrients": [
+          "fiber",
+          "vitamin C",
+          "magnesium",
+          "monounsaturated fats",
+          "protein"
+        ]
+      },
+      {
+        "name": "Clementines + Pumpkin Seeds or Pistachios",
+        "description": "Two clementines with a small handful of pumpkin seeds or pistachios. This is the no-cook iron-plus-vitamin-C move.",
+        "prep_time": "0 min",
+        "time_of_day": "morning",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "fruit",
+          "vitamin C",
+          "iron absorption",
+          "magnesium",
+          "potassium"
+        ],
+        "key_nutrients": [
+          "vitamin C",
+          "iron",
+          "magnesium",
+          "potassium",
+          "healthy fats",
+          "fiber"
+        ]
+      },
+      {
+        "name": "Cheese Stick, Whole-Grain Crackers & Grapes",
+        "description": "A grab-and-go snack that pairs calcium with whole grains and fruit; easy for the car, pool bag, or after-school routine.",
+        "prep_time": "0 min",
+        "time_of_day": "after school",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "calcium",
+          "whole grains",
+          "fruit",
+          "steady energy"
+        ],
+        "key_nutrients": [
+          "calcium",
+          "protein",
+          "fiber",
+          "whole-grain B vitamins",
+          "potassium"
+        ]
+      },
+      {
+        "name": "Walnut-Cherry Trail Mix",
+        "description": "Walnuts, dried cherries, whole-grain cereal squares, and a few dark-chocolate chips. Portion into small containers for the week.",
+        "prep_time": "5 min batch",
+        "time_of_day": "afternoon",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "omega-3 ALA",
+          "magnesium",
+          "iron",
+          "whole grains",
+          "fruit"
+        ],
+        "key_nutrients": [
+          "omega-3 ALA",
+          "magnesium",
+          "iron",
+          "fiber",
+          "polyphenols",
+          "healthy fats"
+        ]
+      },
+      {
+        "name": "Hummus Cups with Carrots and Cucumbers",
+        "description": "Single-serve hummus with baby carrots, cucumber spears, and a few whole-grain pita chips.",
+        "prep_time": "3 min",
+        "time_of_day": "late afternoon",
+        "kid_friendly": true,
+        "gaps_addressed": [
+          "vegetables",
+          "fiber",
+          "plant protein",
+          "magnesium",
+          "potassium"
+        ],
+        "key_nutrients": [
+          "fiber",
+          "plant protein",
+          "magnesium",
+          "potassium",
+          "vitamin A",
+          "healthy fats"
+        ]
+      }
+    ],
+    "weekly_nutrition_summary": "This is a rich, happy dinner week, not a broken one. The best move is to let dinner be dinner and use lunches/snacks as the balancing system: fruit every day, yogurt or fortified milk most days, beans/lentils twice, whole grains at lunch, and omega-3 support beyond Friday's branzino. That combination rounds out calcium, vitamin D, fiber, potassium, magnesium, iron absorption, and fruit/vegetable variety while keeping the comfort-food dinners intact.\n\n### Lunch + Snack Coverage Table\n\n| Add this | Meal/Snack | Nutrients it fills | Why those nutrients matter |\n|---|---|---|---|\n| Greek Yogurt Berry-Chia Parfait Box | Lunch | Calcium, vitamin D, fruit, fiber, magnesium | Calcium and vitamin D build bones and teeth; fiber and berries support digestion and steady energy; magnesium helps muscles and energy metabolism. |\n| Hummus, Turkey & Crunchy Veg Whole-Grain Pita | Lunch | Whole grains, fiber, iron, vitamin C, potassium | Whole grains and fiber smooth out the refined-grain dinner pattern; vitamin C helps the body use iron; potassium supports active muscles. |\n| Salmon Salad Pinwheels with Grapes | Lunch | Omega-3, vitamin D, calcium, protein, fruit | Omega-3 fats support brain and heart health; vitamin D helps calcium do its bone-building job; fruit adds hydration, antioxidants, and fiber. |\n| Bean & Quinoa Burrito Bowl | Lunch | Legumes, fiber, magnesium, potassium, folate, iron | Beans and quinoa are the week's best corrective for low legume/whole-grain dinners; magnesium and potassium help with muscle function and recovery. |\n| Lentil-Tomato Soup Thermos + Whole-Grain Roll | Lunch | Fiber, iron, folate, lycopene, potassium | Lentils bring plant iron and fiber; tomato vitamin C/lycopene helps absorption and adds antioxidant support. |\n| Egg, Avocado & Fruit Bento | Lunch | Vitamin D, choline, whole grains, potassium, vitamin C | Eggs provide choline for brain function; avocado and fruit add potassium and fiber; whole grains keep energy steadier. |\n| Fortified Milk or Kefir Smoothie | Snack | Calcium, vitamin D, potassium, fruit, probiotics | A simple bone-health and gut-health boost, especially useful for Elsie during growth years. |\n| Apple or Pear with Almond Butter | Snack | Fruit, fiber, magnesium, healthy fats | Fruit closes the dinner fruit gap; nut/seed butter adds staying power and magnesium. |\n| Clementines + Pumpkin Seeds or Pistachios | Snack | Vitamin C, iron, magnesium, potassium | Vitamin C helps absorb plant iron from seeds; magnesium and potassium support active muscles. |\n| Cheese Stick, Whole-Grain Crackers & Grapes | Snack | Calcium, whole grains, fruit, protein | A zero-prep calcium and whole-grain bridge between rich dinners and busy afternoons. |\n| Walnut-Cherry Trail Mix | Snack | Omega-3 ALA, magnesium, iron, whole grains | Walnuts add plant omega-3s; cereal and dried fruit help fiber and iron. |\n| Hummus Cups with Carrots and Cucumbers | Snack | Vegetables, fiber, plant protein, potassium, vitamin A | Crunchy vegetables add color and fiber without fighting the dinner plan. |\n\nOne easy rhythm: calcium-rich breakfast or snack, whole-grain/bean lunch, fruit after school, and water alongside the saltier dinners. That will make the week feel well-rounded without asking anyone to give up burgers, pasta, or pizza.",
+    "special_notes": [
+      "No need to redesign the dinners: this is a comfort-heavy week, and the balance can happen at lunch and snack time.",
+      "Use lower-sodium tomato products, broths, cheeses, pickles, and canned beans where easy; this matters most around Sunday, Monday, Wednesday, and Saturday.",
+      "For the pork and burger nights, make the rest of the day lighter: yogurt/fruit, bean soup, hummus vegetables, or a grain bowl are enough.",
+      "For Elsie, prioritize one calcium-rich item daily: yogurt, kefir, milk, fortified soy milk, cheese stick, or calcium-set tofu. Ask the pediatrician about vitamin D supplementation if intake or sunlight is low.",
+      "Hydration and potassium-rich snacks are useful around swim and busy activity days: banana, orange, yogurt smoothie, avocado, beans, potatoes, or leafy greens."
+    ],
+    "daily_breakdown": [
+      {
+        "day": "Sunday",
+        "dinner": "Leftover Sunday Gravy Rigatoni with Meatballs & Sausage",
+        "key_nutrients": [
+          "protein",
+          "iron",
+          "zinc",
+          "vitamin B12",
+          "lycopene",
+          "selenium"
+        ],
+        "gaps": [
+          "whole grains",
+          "fruit",
+          "fiber",
+          "calcium/vitamin D"
+        ]
+      },
+      {
+        "day": "Monday",
+        "dinner": "Wagyu Ultra-Smashed Cheeseburgers with Pickles & Secret Sauce",
+        "key_nutrients": [
+          "protein",
+          "iron",
+          "zinc",
+          "vitamin B12",
+          "selenium"
+        ],
+        "gaps": [
+          "whole grains",
+          "fruit",
+          "fiber",
+          "calcium/vitamin D"
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "dinner": "Babo Pasta: Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+        "key_nutrients": [
+          "choline",
+          "protein",
+          "calcium",
+          "iron",
+          "folate",
+          "vitamin A",
+          "vitamin K",
+          "selenium"
+        ],
+        "gaps": [
+          "whole grains",
+          "fruit",
+          "fiber",
+          "lighter saturated-fat day earlier"
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "dinner": "Slow-Cooked Pork Chops with Mushroom Cream Sauce",
+        "key_nutrients": [
+          "protein",
+          "thiamine",
+          "niacin",
+          "vitamin B6",
+          "vitamin B12",
+          "selenium",
+          "potassium",
+          "mushroom B vitamins"
+        ],
+        "gaps": [
+          "whole grains",
+          "fruit",
+          "fiber",
+          "calcium/vitamin D"
+        ]
+      },
+      {
+        "day": "Thursday",
+        "dinner": "Alex's Mom's Stuffed Cabbage Rolls",
+        "key_nutrients": [
+          "protein",
+          "iron",
+          "zinc",
+          "vitamin C",
+          "vitamin K",
+          "folate",
+          "lycopene",
+          "potassium"
+        ],
+        "gaps": [
+          "whole grains",
+          "fruit",
+          "fiber",
+          "calcium/vitamin D"
+        ]
+      },
+      {
+        "day": "Friday",
+        "dinner": "Greek-Style Roasted Branzino with Garlicky Kale",
+        "key_nutrients": [
+          "protein",
+          "omega-3 fats",
+          "vitamin D",
+          "vitamin K",
+          "calcium",
+          "potassium",
+          "iron",
+          "vitamin C",
+          "olive-oil monounsaturated fat"
+        ],
+        "gaps": [
+          "whole-grain or starchy side",
+          "fruit",
+          "second omega-3 source later in week"
+        ]
+      },
+      {
+        "day": "Saturday",
+        "dinner": "Pizza Night: Four Assorted Pies",
+        "key_nutrients": [
+          "calcium",
+          "protein",
+          "lycopene",
+          "selenium",
+          "vitamin K and folate from asparagus",
+          "B vitamins from mushrooms"
+        ],
+        "gaps": [
+          "whole grains",
+          "fruit",
+          "fiber",
+          "lower-sodium meals earlier"
+        ]
+      }
+    ],
+    "weekly_summary": {
+      "strengths": "The week easily covers protein and iron thanks to beef, pork, eggs, cheese, and fish. It also includes useful vegetable moments: tomato sauce, cabbage, mushrooms, garlicky kale, spinach pasta, and asparagus pizza. Branzino adds the most important balancing note: omega-3 fats, vitamin D, lean protein, and a lighter Mediterranean profile.",
+      "gaps": "The main gaps are fruit, whole grains, legumes, and consistent calcium/vitamin D. Fiber will be only modest if dinner is the only produce moment. Potassium and magnesium need extra support from beans, nuts, seeds, yogurt, avocado, bananas, potatoes, leafy greens, and whole grains.",
+      "recommendations": "Keep the dinners as planned and use the rest of the day strategically: yogurt or fortified milk most days, one bean/lentil lunch, one salmon or tuna/salmon lunch, daily fruit, whole-grain breads or bowls, and low-sodium choices around the richest dinners."
+    },
+    "lunch_suggestions": [
+      {
+        "name": "Greek Yogurt Berry-Chia Parfait Box",
+        "description": "Plain Greek yogurt or fortified dairy/soy yogurt layered with berries, a spoon of chia, low-sugar granola or oats, and a few pumpkin seeds. Pack a small honey cup if Elsie likes it sweeter.",
+        "nutrients": [
+          "calcium",
+          "protein",
+          "vitamin D",
+          "fiber",
+          "omega-3 ALA",
+          "magnesium",
+          "vitamin C"
+        ]
+      },
+      {
+        "name": "Hummus, Turkey & Crunchy Veg Whole-Grain Pita",
+        "description": "Whole-grain pita with hummus, turkey or rotisserie chicken, cucumber, shredded carrot, and spinach; add orange wedges on the side for vitamin C.",
+        "nutrients": [
+          "fiber",
+          "whole-grain B vitamins",
+          "iron",
+          "vitamin C",
+          "potassium",
+          "magnesium",
+          "plant protein"
+        ]
+      },
+      {
+        "name": "Salmon Salad Pinwheels with Grapes",
+        "description": "Canned salmon mixed with Greek yogurt, lemon, dill, and a little mayo, rolled in a whole-grain tortilla with lettuce; serve with grapes or berries.",
+        "nutrients": [
+          "omega-3 EPA/DHA",
+          "vitamin D",
+          "calcium",
+          "protein",
+          "fiber",
+          "vitamin C"
+        ]
+      },
+      {
+        "name": "Bean & Quinoa Burrito Bowl",
+        "description": "Black beans, quinoa or brown rice, corn, tomato salsa, avocado, shredded romaine, lime, and a little cheese or yogurt-lime crema.",
+        "nutrients": [
+          "fiber",
+          "magnesium",
+          "potassium",
+          "iron",
+          "folate",
+          "plant protein",
+          "healthy fats"
+        ]
+      },
+      {
+        "name": "Lentil-Tomato Soup Thermos + Whole-Grain Roll",
+        "description": "A thermos of lentil tomato soup with carrots/celery, a whole-grain roll, and an apple or pear. Batch-cook once and use twice.",
+        "nutrients": [
+          "fiber",
+          "iron",
+          "folate",
+          "potassium",
+          "magnesium",
+          "lycopene",
+          "vitamin C"
+        ]
+      },
+      {
+        "name": "Egg, Avocado & Fruit Bento",
+        "description": "Hard-boiled egg or egg salad, avocado, whole-grain crackers or toast fingers, cherry tomatoes, and strawberries or clementines.",
+        "nutrients": [
+          "protein",
+          "vitamin D",
+          "choline",
+          "potassium",
+          "fiber",
+          "vitamin C",
+          "healthy fats"
+        ]
+      }
+    ],
+    "snack_suggestions": [
+      {
+        "name": "Fortified Milk or Kefir Smoothie",
+        "description": "Blend fortified milk or kefir with banana, frozen berries, and a small handful of spinach. Add oats if someone needs a more filling afternoon snack.",
+        "nutrients": [
+          "calcium",
+          "vitamin D",
+          "potassium",
+          "vitamin C",
+          "fiber",
+          "probiotics"
+        ]
+      },
+      {
+        "name": "Apple or Pear with Almond Butter",
+        "description": "Fruit plus almond or peanut butter. For school, use sunflower butter if nuts are not allowed.",
+        "nutrients": [
+          "fiber",
+          "vitamin C",
+          "magnesium",
+          "monounsaturated fats",
+          "protein"
+        ]
+      },
+      {
+        "name": "Clementines + Pumpkin Seeds or Pistachios",
+        "description": "Two clementines with a small handful of pumpkin seeds or pistachios. This is the no-cook iron-plus-vitamin-C move.",
+        "nutrients": [
+          "vitamin C",
+          "iron",
+          "magnesium",
+          "potassium",
+          "healthy fats",
+          "fiber"
+        ]
+      },
+      {
+        "name": "Cheese Stick, Whole-Grain Crackers & Grapes",
+        "description": "A grab-and-go snack that pairs calcium with whole grains and fruit; easy for the car, pool bag, or after-school routine.",
+        "nutrients": [
+          "calcium",
+          "protein",
+          "fiber",
+          "whole-grain B vitamins",
+          "potassium"
+        ]
+      },
+      {
+        "name": "Walnut-Cherry Trail Mix",
+        "description": "Walnuts, dried cherries, whole-grain cereal squares, and a few dark-chocolate chips. Portion into small containers for the week.",
+        "nutrients": [
+          "omega-3 ALA",
+          "magnesium",
+          "iron",
+          "fiber",
+          "polyphenols",
+          "healthy fats"
+        ]
+      },
+      {
+        "name": "Hummus Cups with Carrots and Cucumbers",
+        "description": "Single-serve hummus with baby carrots, cucumber spears, and a few whole-grain pita chips.",
+        "nutrients": [
+          "fiber",
+          "plant protein",
+          "magnesium",
+          "potassium",
+          "vitamin A",
+          "healthy fats"
+        ]
+      }
+    ],
+    "nutrient_importance": [
+      {
+        "nutrient": "Calcium",
+        "why_it_matters": "Calcium builds and maintains bones and teeth, and it also helps muscles contract and nerves send signals. It is especially important for Elsie because childhood is a prime bone-building window, and it matters for adults because bone density is easier to protect than rebuild.",
+        "deficiency_signs": "Low intake over time can contribute to weaker bones and higher fracture risk; day to day it may not be obvious.",
+        "daily_target": "About 1,000 mg/day for most adults; about 1,000 mg/day for children 4-8 and 1,300 mg/day starting at age 9.",
+        "best_food_sources": "Yogurt, milk, kefir, fortified soy milk, cheese, calcium-set tofu, kale, bok choy, canned salmon or sardines with bones."
+      },
+      {
+        "nutrient": "Vitamin D",
+        "why_it_matters": "Vitamin D helps the body absorb calcium and supports immune function. Dinners provide a little through branzino and egg yolks, but most families still need fortified foods and/or clinician-guided supplementation, especially in low-sun months.",
+        "deficiency_signs": "Low vitamin D can contribute to bone pain, muscle weakness, frequent illness, or poor bone mineralization; many people have no obvious symptoms.",
+        "daily_target": "Common target is 600 IU/day for children and adults, with individual needs varying by labs, sun exposure, and clinician guidance.",
+        "best_food_sources": "Fortified milk or soy milk, fortified yogurt, salmon, sardines, trout, egg yolks, and UV-exposed mushrooms."
+      },
+      {
+        "nutrient": "Fiber",
+        "why_it_matters": "Fiber keeps digestion regular, feeds the gut microbiome, helps cholesterol and blood sugar patterns, and makes meals more filling. This is the biggest dinner-pattern gap because the week uses refined pasta, buns, rice, fresh pasta, and pizza crust.",
+        "deficiency_signs": "Constipation, less steady fullness, and a generally lower intake of plant nutrients often travel with low fiber.",
+        "daily_target": "Roughly 25 g/day for adult women, 31-38 g/day for adult men, and about 25 g/day for many school-age children depending on age and intake needs.",
+        "best_food_sources": "Beans, lentils, oats, berries, apples/pears with skin, carrots, whole-grain bread, quinoa, brown rice, chia, flax, nuts, and vegetables."
+      },
+      {
+        "nutrient": "Omega-3 Fats",
+        "why_it_matters": "EPA and DHA from fish support brain, eye, and heart health; plant ALA from walnuts/chia/flax helps but is not a perfect substitute. Branzino helps nicely, and a salmon lunch or walnut snack makes the week stronger.",
+        "deficiency_signs": "There is no simple household sign, but low intake can mean missing heart- and brain-supportive fats.",
+        "daily_target": "Many guidelines aim for two seafood servings weekly; ALA targets are roughly 1.1 g/day for adult women and 1.6 g/day for adult men.",
+        "best_food_sources": "Salmon, sardines, trout, branzino/sea bass, canned salmon, walnuts, chia seeds, flaxseed, and omega-3 fortified eggs."
+      },
+      {
+        "nutrient": "Iron",
+        "why_it_matters": "Iron carries oxygen in the blood and supports energy, immune function, and attention. This dinner week has plenty of heme iron from beef and pork, but pairing plant iron at lunch with vitamin C keeps the whole week balanced.",
+        "deficiency_signs": "Fatigue, pale skin, shortness of breath with exertion, headaches, or poor concentration can show up when iron is low.",
+        "daily_target": "Adult men need about 8 mg/day, many adult women need about 18 mg/day before menopause, and children vary by age and growth stage.",
+        "best_food_sources": "Beef, pork, fish, eggs, beans, lentils, tofu, spinach, pumpkin seeds, fortified cereals; pair beans/seeds/spinach with citrus, berries, tomato, or peppers."
+      },
+      {
+        "nutrient": "Potassium",
+        "why_it_matters": "Potassium helps muscles and nerves work well and supports healthy blood pressure balance, which is useful in a sodium-heavy week. Active family members also benefit from potassium-rich foods around swim/play days.",
+        "deficiency_signs": "Low intake can show up as muscle cramps, fatigue, or weakness, though symptoms are not always clear.",
+        "daily_target": "Approximate adequate intakes: 2,300-2,600 mg/day for many women, 3,000-3,400 mg/day for many men, and age-dependent needs for children.",
+        "best_food_sources": "Potatoes, sweet potatoes, bananas, oranges, beans, lentils, yogurt, avocado, tomatoes, spinach, kale, and squash."
+      },
+      {
+        "nutrient": "Magnesium",
+        "why_it_matters": "Magnesium supports energy production, muscle function, nerves, and bone health. Because dinner has few whole grains, nuts, seeds, or legumes, snacks and lunches are the easiest place to add it.",
+        "deficiency_signs": "Low intake may contribute to muscle cramps, fatigue, headaches, or poor sleep quality, though signs are nonspecific.",
+        "daily_target": "Roughly 310-320 mg/day for adult women, 400-420 mg/day for adult men, and age-dependent needs for children.",
+        "best_food_sources": "Pumpkin seeds, almonds, cashews, peanuts, black beans, lentils, whole grains, spinach, dark chocolate, avocado, and yogurt."
+      },
+      {
+        "nutrient": "Vitamin C",
+        "why_it_matters": "Vitamin C supports immune function, collagen formation, and helps absorb plant-based iron from beans, lentils, spinach, and seeds. Since dinner fruit is absent, citrus and berries are practical wins.",
+        "deficiency_signs": "Low intake can lead to poor wound healing, bleeding gums, fatigue, and low iron absorption over time.",
+        "daily_target": "About 75 mg/day for adult women, 90 mg/day for adult men, and age-dependent child targets.",
+        "best_food_sources": "Citrus, strawberries, kiwi, bell peppers, broccoli, potatoes, tomatoes, cabbage, and kale."
+      },
+      {
+        "nutrient": "Whole Grains",
+        "why_it_matters": "Whole grains add fiber, B vitamins, magnesium, and longer-lasting energy. This matters because the dinner lineup uses mostly refined pasta, buns, rice, and pizza dough.",
+        "deficiency_signs": "There is no classic deficiency, but low whole-grain intake often means lower fiber, magnesium, and steadier-energy foods.",
+        "daily_target": "A practical target is making at least half of grain choices whole grain across the day.",
+        "best_food_sources": "Oats, whole-grain bread or pita, brown rice, quinoa, barley, farro, whole-grain crackers, whole-wheat pasta, and low-sugar whole-grain cereal."
+      },
+      {
+        "nutrient": "Sodium and Saturated Fat Balance",
+        "why_it_matters": "Sodium and saturated fat are not villains, but this dinner week stacks several rich, salty meals. Balancing with fruit, vegetables, beans, whole grains, water, fish, yogurt, nuts, and seeds helps energy and heart-health patterns without removing the joyful meals.",
+        "deficiency_signs": "Too little sodium is uncommon in normal eating; too much sodium can worsen blood-pressure patterns. High saturated-fat patterns can nudge cholesterol upward over time.",
+        "daily_target": "Many adults aim to keep sodium near or under 2,300 mg/day and saturated fat under about 10% of calories; children need age-appropriate portions.",
+        "best_food_sources": "For balance, choose low-sodium beans/soups, fresh fruit, crunchy vegetables, yogurt/kefir, unsalted nuts/seeds, olive oil, avocado, fish, and whole grains."
+      }
+    ],
+    "research_notes": [
+      "Directional estimates validated with web searches for Sunday gravy pasta with meatballs/sausage, smash cheeseburgers, stuffed cabbage, pork chops with mushroom cream sauce, branzino with kale, spinach egg-yolk pasta, assorted pizza, and core nutrient roles for active families.",
+      "Estimates are intended for weekly planning rather than clinical nutrition labeling; portion size and exact brands will shift numbers."
+    ]
+  },
+  "newsletter_data": {
+    "newsletter_title": "The Weekly Read: Judgment After the Shortcut",
+    "week_range": "April 26 - May 2, 2026",
+    "clusters": [
+      {
+        "theme": "When Code Gets Cheap, Judgment Gets Expensive",
+        "synthesis": "The AI-coding story this week is not that machines are replacing programmers; it is that they are moving the scarce resource from typing to judgment. The Pragmatic Engineer survey catches the industry in the awkward middle phase: companies are paying $100-$200 per developer each month, usage caps are surprising teams that thought software subscriptions were predictable, finance departments are discovering that \"productivity tooling\" can now look like cloud spend, and managers are sorting engineers into new tribes. Builders inherit more AI slop and must clean it up. Shippers turn a good model into leverage and move faster. Coasters can now create larger messes at higher velocity. That is not a labor-market story so much as an accountability story.\n\nThe two URLs for the same Pragmatic Engineer piece matter because the duplicated path is itself revealing: the conversation is moving fast enough that the article is simultaneously a newsletter artifact, a platform artifact, and a management memo. The deeper point is not whether Cursor, Claude Code, Copilot, or any other agent wins the current tooling derby. Tool rankings will churn. That is why the pricing story is not administrative trivia: procurement has become a design force, deciding which experiments feel cheap enough to attempt and which audits never happen. What persists is the organizational question underneath them: if code becomes cheaper to generate, do we also become better at deciding what should exist? Bain's 2025 [_From Pilots to Payoff_](https://www.bain.com/insights/from-pilots-to-payoff-generative-ai-in-software-development-technology-report-2025/) and McKinsey's [_Leading AI-driven software organizations show the way_](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/unlocking-the-value-of-ai-in-software-development) both point toward the same answer from the consultant's balcony: gains show up when the surrounding delivery system changes. Teams that merely bolt AI onto old approval queues, flaky tests, unclear product requirements, and overloaded reviewers mostly manufacture more work-in-progress.\n\nThat explains why the counterevidence is so useful. TechCrunch's coverage of the 2025 METR study, in which experienced developers were sometimes slowed on familiar complex tasks, is not a gotcha against AI. It is a warning against confusing local speed with system throughput. A senior engineer in a mature codebase already carries a map of hidden constraints: old migrations, strange customer contracts, performance scars, naming conventions that look silly until you break them. An agent can be brilliant at filling in a path while still being blind to why the path was fenced off. In that setting, the human pays a verification tax. Sometimes the tax is small. Sometimes it eats the entire gain.\n\nThe old software lesson returns wearing a new hoodie: bottlenecks move. We once believed higher-level languages would make programming trivial, then frameworks, then cloud, then low-code, then Stack Overflow, then autocomplete. Each wave removed one class of friction and exposed another. AI removes a large portion of blank-page friction. It does not remove product taste, architecture, incident response, security review, customer empathy, or the courage to delete a feature nobody should have asked for. In fact, it may make those things more expensive because the volume of plausible code rises. The most interesting dinner question is not \"will AI take engineering jobs?\" It is sharper and less comfortable: when a machine can produce an infinite amount of almost-right code, who in the room is responsible for saying enough?",
+        "articles": [
+          {
+            "title": "The impact of AI on software engineers in 2026: key trends",
+            "url": "https://substack.com/home/post/p-194201128",
+            "tags": [
+              "ai",
+              "software",
+              "productivity"
+            ],
+            "one_liner": "A survey-shaped map of AI's uneven impact: budgets rise, usage limits bite, builders inherit slop, and shippers accelerate."
+          },
+          {
+            "title": "The impact of AI on software engineers in 2026: key trends",
+            "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
+            "tags": [
+              "ai",
+              "engineering-management",
+              "costs"
+            ],
+            "one_liner": "The canonical Pragmatic Engineer URL for the same requested piece, preserved so the weekly-read contract accounts for every provided source."
+          }
+        ]
+      },
+      {
+        "theme": "Taste Is the New Runtime",
+        "synthesis": "DHH's reversal is interesting because it is not a conversion from craft to automation; it is a conversion from hand-typing to taste-at-speed. Six months after dismissing autocomplete as annoying, he describes an agent-first workflow built from tmux splits, fast and slow models, NeoVim, Lazygit, constant diff review, and a stubbornly human standard that still treats beauty as a proxy for correctness. The reversal is easy to caricature as hypocrisy, but the more useful reading is that he changed his mind only once the tool could meet him where his craft already lived. He did not surrender the workshop. He installed a powered exoskeleton and kept his hand on the kill switch.\n\nThat distinction matters because the survey's findings make seniority look newly strange. Junior developers can ask an agent to fill in syntax they have not mastered; senior developers can ask it to explore an implementation path they already know how to judge. The same prompt can therefore be a ladder or a trap. A novice may receive polished nonsense and lack the scar tissue to distrust it. An expert may receive imperfect scaffolding and immediately see which beams need replacing. This is why DHH's emphasis on readable diffs, tests, conventions, and quick reversion is not nostalgia. It is operating discipline. The human value shifts from producing every line to maintaining the conditions under which fast production remains safe.\n\nHis Rails renaissance argument adds a nice twist. For years, the fashionable ideal was maximum flexibility: microservices, bespoke stacks, hand-rolled choices, and the right to design every door handle from first principles. Agents may make that freedom less attractive. Models thrive when a codebase has strong idioms, predictable file locations, consistent naming, comprehensive tests, and a framework that says, in effect, \"most decisions have already been made for you.\" Rails has always sold that bargain to humans. Now it may be selling it to machines. The rails are not merely productivity constraints; they are error boundaries. An agent inside a coherent convention can be useful. An agent inside a chaotic codebase is a caffeinated intern with root access.\n\nThe provocative part is that taste becomes less decorative as code gets cheaper. We used to talk about elegant code as if elegance were a luxury for people with extra time. But in an AI-heavy workflow, elegance is part of observability. A beautiful diff is easier to audit. A small method is easier to distrust precisely. A boring convention is easier for both human and model to extend. DHH's aesthetic language can sound romantic, but beneath it sits a practical security model: if you cannot rapidly understand what changed, you cannot responsibly approve it.\n\nThere is also a darker note in the article's sleep-warning undercurrent. Agentic coding can turn software into a casino of tiny wins: ask, receive, review, merge, repeat. The dopamine loop is seductive because every step feels like progress. But acceleration is not the same as direction, and shipping faster can become a way to avoid deciding what matters. The future programmer may be less like a typist and more like an editor, designer, and safety officer in a mech suit. That sounds glamorous until the suit starts whispering one more feature, one more refactor, one more late-night experiment. The craft is not disappearing; it is being compressed into every approval click. The question is whether our taste can mature as quickly as our tools.",
+        "articles": [
+          {
+            "title": "DHH's new way of writing code",
+            "url": "https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code",
+            "tags": [
+              "ai",
+              "craft",
+              "software"
+            ],
+            "one_liner": "DHH's agent-first workflow argues that software craft survives AI only if humans keep taste, review, and restraint in the loop."
+          }
+        ]
+      },
+      {
+        "theme": "The Stack Under the Skin",
+        "synthesis": "The supplement question has the same moral as the AI question: a stack is only useful when you know which constraint it serves. Collagen peptides are not magic protein, and in the strict nutritional sense they are not even complete protein. They lack the amino-acid profile you would choose if the job were simply building muscle. But that is the wrong job description. Collagen is interesting because connective tissue is built from unusual raw materials, especially glycine, proline, and hydroxyproline, and because tendons, ligaments, cartilage, and bone respond not just to nutrients but to signals. The body is not a bucket you fill with powder. It is a remodeling committee that asks, \"what stress are we adapting to?\"\n\nThat is why the Fortibone evidence deserves attention without being inflated into folklore. The 2018 [_Nutrients_ randomized trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC5793325/) used 5 grams of specific collagen peptides daily for 12 months in postmenopausal women and found improved lumbar-spine and femoral-neck bone mineral density compared with placebo, along with favorable bone-turnover markers. That is meaningful because bone density is not a vibe; it is a hard clinical endpoint. It is also bounded evidence. The study does not prove that every collagen tub at the grocery store strengthens every skeleton. It suggests that a particular collagen-peptide intervention, over a long enough period, in a relevant population, may help nudge bone remodeling in a useful direction. The boring qualifiers are where the truth lives.\n\nFor tendons and ligaments, the story becomes more mechanical. Keith Baar's gelatin-and-vitamin-C work points toward a protocol logic: provide collagen-related amino acids and vitamin C before loading, then let the workout supply the instruction. Vitamin C matters because collagen synthesis depends on it; loading matters because tissue does not remodel merely because supplements arrived. This is the part the wellness industry tends to sand down. It loves ingredients because ingredients are sellable. The body prefers sequences: nutrient, signal, recovery, repetition. A scoop without a stimulus is closer to hope than strategy.\n\nCreatine sits beside collagen as the gloriously unglamorous heavyweight. The ISSN's 2025 position stand, [_Creatine supplementation is safe, beneficial throughout the lifespan, and should not be restricted_](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1578564/full), again frames 3-5 grams of creatine monohydrate daily as safe for healthy people and useful for strength, power, lean mass, recovery, and possibly aspects of aging and cognition. Its mechanism is pleasingly plain: it helps buffer cellular energy through the phosphocreatine system. In other words, collagen whispers to the scaffolding; creatine helps the battery. They are not competitors, and they are not a mystical duo. They serve different constraints.\n\nA sensible stack therefore looks less boutique than architectural. Start with enough complete dietary protein for muscle repair. Add progressive resistance training because tissue needs a reason to adapt. Use creatine monohydrate if strength, power, recovery, or healthy aging is the target. Consider collagen peptides, ideally with vitamin C and timed near connective-tissue loading, if tendons, ligaments, or bone are the constraint. Bring calcium, vitamin D, sleep, and medical context into the conversation when bone density is the concern. The body, like a codebase, punishes vague optimization. The dinner-table provocation is simple: are we buying supplements to solve a defined bottleneck, or to avoid the harder work of naming one?",
+        "articles": [
+          {
+            "title": "Research dossier: collagen peptides, Fortibone, and creatine combinations",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5793325/",
+            "tags": [
+              "nutrition",
+              "bone-health",
+              "supplements"
+            ],
+            "one_liner": "Fortibone has human bone-density evidence, creatine has broad safety and performance evidence, and the best stack is goal-specific rather than glamorous."
+          }
+        ]
+      }
+    ],
+    "reflections": "The week's through-line is acceleration with a bill attached. AI agents make code cheaper, but judgment, review, taste, sleep, and training pipelines get more expensive. Supplements promise targeted repair, but only when the target is real and the body receives the right signal. In both cases, the mature move is not to reject the tool or worship the tool. It is to name the bottleneck, choose the intervention, and watch for the new mess created by success.",
+    "fun_section": {
+      "title": "And Finally... A Cloud Is a Sneaky Giant",
+      "content": "A fluffy cumulus cloud can hold roughly 1.1 million pounds of water - about the mass of 100 elephants - according to the USGS Water Science School. It stays overhead because all that water is spread into countless tiny droplets across an enormous volume of air, like a stadium-sized mist instead of a bathtub in the sky. Dinner question: if a cloud is that heavy, is fog just a cloud that got tired and sat down?",
+      "source_url": "https://www.usgs.gov/special-topics/water-science-school/science/how-much-does-cloud-weigh",
+      "source_name": "USGS Water Science School"
+    },
+    "total_articles": 4,
+    "total_words": 7685,
+    "generated_at": "2026-04-26T19:55:00Z",
+    "not_used_sources": []
+  },
+  "stoic_data": {
+    "week_range": "April 26 – May 2, 2026",
+    "theme": {
+      "title": "The Home as a Hive",
+      "category": "Community",
+      "description": "Practicing steadiness as care for the whole household — and letting the household steady you in return."
+    },
+    "anchor_quote": {
+      "text": "What is not good for the hive is not good for the bee.",
+      "source": "Marcus Aurelius",
+      "work": "Meditations",
+      "reference": "6.54"
+    },
+    "introduction": "Marcus Aurelius used the hive as a plain image for a hard week: the individual and the household rise or fall together. Laura is away until Wednesday, Dan is carrying kid logistics while on call, rain may make the middle of the week feel gray, and house-buying stress can turn every small delay into a referendum on the future. The Stoic move is not to erase your own needs; it is to remember that rest, patience, and kindness are part of the household's infrastructure.\n\nA home is not only an address to buy, sell, repair, or host people in. It is a pattern of care repeated in small acts: getting someone to swim, answering a pager without snapping, noticing a dry roof during drizzle, and opening the door to Patrick on a sunny Saturday. This week, practice asking one simple question before reacting: What serves the hive now? Then do the smallest honest version of that.",
+    "meditations": [
+      {
+        "day": "Sunday",
+        "title": "Count the Hive Before the Chores",
+        "reflection": "Before the week starts moving, name the people whose well-being is tied to yours. This is not meant to add pressure; it is meant to restore proportion. The grocery list, the calendar, and the house questions are not separate from love — they are some of the ordinary ways love gets carried.",
+        "prompt": "Write down each person in the household and one thing that would make this week easier for them."
+      },
+      {
+        "day": "Monday",
+        "title": "Do the Next Kind Thing",
+        "reflection": "Solo parenting can make the day feel like a relay race with no handoff. The hive question narrows the field: not how do I solve the whole week, but what is the next act that keeps us steady? A calm voice, a packed bag, or an early bedtime can be philosophy in work clothes.",
+        "prompt": "When stress rises today, pause and choose one small action that helps the whole household, not just your mood."
+      },
+      {
+        "day": "Tuesday",
+        "title": "The Pager Is Not the Whole World",
+        "reflection": "On-call work and swim logistics both ask for responsiveness, but not every signal deserves your whole self. Stoicism trains attention: answer what must be answered, and do not let urgency colonize the dinner table. The bee serves the hive best by staying useful, not frantic.",
+        "prompt": "Draw a quick line between true urgencies and background noise. What can wait without harming anyone?"
+      },
+      {
+        "day": "Wednesday",
+        "title": "Rain on a Stable Roof",
+        "reflection": "Midweek drizzle can make house stress feel heavier, especially when the story in everyone's head is about moving, buying, or not knowing. Let the rain point to what is already here: a roof, a table, routines that still hold. Acceptance begins by seeing the present shelter before arguing with the imagined future.",
+        "prompt": "Name three things about your current home that are protecting or supporting you today."
+      },
+      {
+        "day": "Thursday",
+        "title": "Make Patience Visible",
+        "reflection": "When the week has been crowded, patience cannot stay hidden inside your good intentions. It has to become visible: a slower answer, a reheated dinner served without apology, a willingness to let a child tell the long version. The hive is strengthened not by dramatic sacrifice, but by small restraint at exactly the moment irritation would be easiest.",
+        "prompt": "Where can you turn patience into one visible action today: a pause, a softer voice, or a simpler plan?"
+      },
+      {
+        "day": "Friday",
+        "title": "Clean the Table Before the Guest Arrives",
+        "reflection": "Hospitality begins before Saturday, in the emotional cleanup of Friday. If the week has left scraps of resentment, hurry, or unfinished apology on the table, clear one of them now. The Stoic household does not wait for perfect calm; it practices making enough room for the next person to be welcomed honestly.",
+        "prompt": "What small repair would make the house more welcoming before Patrick arrives?"
+      },
+      {
+        "day": "Saturday",
+        "title": "Hospitality Without Performance",
+        "reflection": "A sunny visitor day can tempt a family to perform: perfect house, perfect mood, perfect host. The Stoic version of hospitality is simpler. Welcome Patrick with attention, warmth, and enough margin to enjoy the visit; the hive does not need to impress, only to include.",
+        "prompt": "Before hosting, choose one thing to simplify so there is more room for genuine welcome."
+      }
+    ],
+    "family_exercise": {
+      "title": "The Hive Check-In",
+      "description": "At dinner or bedtime, draw three columns on one sheet of paper: Need, Give, Grateful. Each person shares one thing they need this week, one small thing they can give the family, and one thing about home they are grateful for. Keep it under ten minutes, then pick one practical support to do within the next day.",
+      "connection": "Marcus's hive image turns community into practical attention: the good of one person and the good of the household are not rivals; they are linked."
+    },
+    "young_stoic": {
+      "title": "Bee Job, Home Job",
+      "prompt": "Imagine your family is a little hive. Tonight, what is one bee-sized job you can do to make the hive better — putting goggles in the swim bag, thanking the cook, or helping a visitor feel welcome?",
+      "lesson": "A small helpful act is not small to the person who needs it. Stoics believed we practice courage and kindness by helping the people right next to us."
+    },
+    "closing_thought": "When the week asks who the home is for, answer with one steady act: for all of us."
+  },
+  "child_wisdom": {
+    "title": "The Two Cars and the Little Cross",
+    "story": "The mystery in Mamma Karen's house began on the wall above the table.\n\nChelsie had come to visit on a rainy afternoon, the kind where the windows looked soft around the edges. The house was warm. The kettle hummed. On the table, Mamma Karen was folding paper-towel napkins that had been rinsed, dried over the chair backs, and saved for another use. She made them into small neat stacks, the way some people stacked fancy linen.\n\n\"Waste not, piccola,\" she said, smoothing one corner. \"Even a paper towel can have a second chance.\"\n\nBut Chelsie was not looking at the table. She was looking at the wall.\n\nThere were hand-drawn pictures everywhere: a narrow room with one lamp, an apartment with stairs, a house with a crooked roof, a car with two blankets in the back seat, another car with one blanket in the front seat, and above them all a dark wooden crucifix.\n\n\"Mamma Karen,\" Chelsie said, \"what are all of those pictures on the wall? There are cars, houses, and a big cross. They seem important.\"\n\nMamma Karen put down the napkin she was folding. She looked at the wall for a long moment, as if she were reading a book only she could see.\n\n\"Those are all places that your dad and I slept. Places that we tried to make into a home.\"\n\n\"Sometimes,\" she said carefully, \"a car is not a home. But it is the place where you sleep until you find one.\"\n\nChelsie pointed to the first car, the one with two blankets. \"Whose was that one?\"\n\n\"That one was for my son and his brother,\" Mamma Karen said. \"They were children. There was no bedroom ready for them, no little bathroom down the hall, no closet with pajamas in it. So for a while, the back seat was where they curled up. I kept crackers in a bag, and I folded what we had, and I told them, 'This is not forever.'\"\n\nChelsie stared at the tiny drawn blankets. \"Daddio slept in a car? With his brother?\"\n\n\"For a while,\" Mamma Karen said. \"Long enough to remember.\"\n\nChelsie swallowed. \"Did he at least have a bathroom somewhere?\"\n\nMamma Karen gave a soft sigh that was almost a laugh, but not quite. \"His own bathroom? Oh, piccola. Sometimes there was no bathroom at all. When there was one, even if the floor was uneven and the roof leaked into a pot, we thanked God for it. A door that closed, a toilet that worked, water from the sink, those things can feel like a benediction.\"\n\n\"Benediction,\" Chelsie repeated.\n\n\"A blessing,\" Mamma Karen said.\n\nThen Chelsie pointed to the second car. It was drawn smaller, with one blanket folded tight and a little purse on the seat. \"Whose was that one?\"\n\nMamma Karen did not answer right away.\n\nThe kettle clicked off. Rain ticked against the window. One of the drying paper towels fluttered on the chair back, then settled.\n\n\"That one was mine,\" Mamma Karen said at last. \"Years later. After my son was grown and had moved out. I was alone then, and for a while I slept in a car too.\"\n\nChelsie felt her tummy tighten, the way it did when a story became bigger than the room. \"You were by yourself?\"\n\n\"Yes.\"\n\n\"Were you scared?\"\n\n\"Sometimes,\" Mamma Karen said. \"Mostly I was tired. I would park where there was light. I kept my shoes close. I folded the blanket in the morning so the car would feel less like trouble and more like something I could survive. My son was in one place, and I was in another. That made both of us very sad. Housing trouble can make people who love each other feel far apart, even when the love is still strong.\"\n\nChelsie climbed down from the chair and went to Mamma Karen without saying anything. She wrapped both arms around her waist.\n\nMamma Karen rested one hand on Chelsie's hair. For a little while they just stood there, listening to the rain and the quiet kitchen.\n\n\"I don't like that car,\" Chelsie whispered.\n\n\"I don't either,\" Mamma Karen said. \"But I keep the picture because I am not in that car anymore. This house is safe. This house is warm. The table is here. The kettle works. You are here. Remembering the hard place helps me notice the blessing of the safe place.\"\n\nChelsie looked up at the crucifix. \"What about the cross?\"\n\nMamma Karen touched it with two fingers. \"That came from the fire. The wires inside the walls got too hot and started a fire while everyone was sleeping. We woke up and ran outside in the middle of the night. Everyone got out. But afterward, almost everything was ruined. This little crucifix was the thing that came through.\"\n\n\"Why did the wires get too hot?\"\n\n\"Old houses can have old problems,\" Mamma Karen said. \"That is why grown-ups check wires and roofs and pipes. A house is not just pretty windows. It has to be safe in the hidden places too.\"\n\nChelsie looked around the warm room, suddenly noticing ordinary things: the outlet by the lamp, the dry ceiling, the rug under her socks, the bathroom door in the hall.\n\n\"Who helped you after the fire?\"\n\n\"Neighbors,\" Mamma Karen said. \"One brought blankets. One brought sandwiches. One said, 'Use the phone.' One had a sofa where we could sleep until the next step was clear. That is how I learned: a roof matters very much, but neighbors matter too. A house keeps out rain. People keep out despair.\"\n\nChelsie went back to the wall. Now she understood the pictures differently. The cars were not mistakes. The cross was not decoration. They were reminders of what it meant to finally have a warm room, a working bathroom, a roof that held, and people close enough to knock.\n\n\"I think we might move soon,\" Chelsie said. \"To another house up the street.\"\n\nMamma Karen picked up a blank square of paper and set it in front of her. \"Then draw that one.\"\n\nChelsie drew two houses on the same street. Between them she drew a dotted line, like a path a girl could walk when she missed the old deck. In one window she drew a stack of folded paper towels. In the other she drew a Japanese maple tree. Above the street she drew a tiny cross.\n\n\"What should I call it?\" Chelsie asked.\n\nMamma Karen smiled. \"Call it Home. That was what your Dad and I always wanted.\"\n\nChelsie taped the picture beside the two cars, not covering them, just adding to the wall.\n\nThe new house did not erase the old ones. It stood near them, learning from them.\n\nAnd Chelsie understood that moving up the street was not only about bedrooms and bathrooms and roofs. It was about carrying the good parts with you, becoming a good neighbor wherever you landed, and remembering that a safe home is something to be thankful for every day.",
+    "theme": "Holding the Roof Steady",
+    "life_lesson": "A safe home is a blessing; neighbors, gratitude, and memory help a family carry love from one roof to the next.",
+    "characters": [
+      "Chelsie",
+      "Mamma Karen"
+    ],
+    "reading_time": "6 minutes",
+    "discussion_prompt": "What ordinary thing in your home feels like a blessing when you really stop and notice it?"
+  },
+  "principles_data": {
+    "week_range": "April 26 – May 2, 2026",
+    "theme": {
+      "title": "Slack Is Strategy",
+      "category": "Risk & Resilience",
+      "description": "Build a margin of safety into the week so ordinary surprises do not become emergencies.",
+      "primary_thinker": "Howard Marks"
+    },
+    "anchor_quote": {
+      "text": "The most desirable portfolio characteristics are that the investor is exposed to upside opportunity and protected against downside risk.",
+      "source": "Howard Marks",
+      "work": "The Most Important Thing",
+      "reference": "Ch. 20"
+    },
+    "introduction": "Some weeks ask for ambition. This one asks for shock absorbers. Laura is away until Wednesday, Dan is carrying the kid logistics, on-call duty starts Tuesday, swim sits right in the middle of the handoff, rain shows up when everyone is tired, and Patrick arrives on Saturday. None of that is a disaster. The danger is pretending the calendar is a machine instead of a living animal.\n\nHoward Marks built his investing career around a blunt truth: risk is not the bad thing that happened; risk is the range of things that could have happened. A family week works the same way. Slack is not laziness. Slack is a designed margin of safety: the backup dinner, the earlier packed swim bag, the unscheduled hour, the apology delivered before resentment compounds.\n\nThis week’s readings treat margin as a strategic asset. We will look at why efficient schedules break, why options beat predictions, why relationships need emotional reserves, why decisions improve when made before the storm, why too much slack can decay into drift, and how to carry one useful buffer forward after the guests leave and the house gets quiet again.",
+    "daily_entries": [
+      {
+        "day": "Sunday",
+        "title": "The Buffer Is Not Waste",
+        "thinker": "Howard Marks",
+        "essay": "The dangerous week rarely announces itself with thunder. It begins with innocent arithmetic: Laura is gone until Wednesday, Dan can handle pickup, swim is only one evening, on-call is manageable, dinner can be simple, and Patrick does not arrive until Saturday. Each sentence is true by itself. Put them together, add one lost shoe, one slow email, one rainy commute, and the math changes. Most households fail here because they plan around the expected day, then act surprised when life sends the actual day. The expected day is a polite fiction: everyone slept, the phone stayed silent, every adult had adult-sized patience, and the child moved through transitions like a tiny operations manager. Useful for calendars, useless for living. The actual day has moods, traffic, wet towels, misplaced goggles, and the strange gravity of a kitchen at 6 p.m. when everyone needs something at once.\n\nHoward Marks puts it cleanly in The Most Important Thing: risk means more things can happen than will happen. That line sounds like finance until you are standing in the kitchen at 5:42 with a hungry child, a ringing phone, and no plan B. Slack is how you respect the range of possible outcomes without becoming paranoid. It is the extra fifteen minutes before swim, the frozen meal you are not too proud to use, the decision not to schedule one more errand because the calendar still has white space. The amateur sees unused capacity and tries to monetize it. The strategist sees unused capacity and knows it is where tomorrow’s surprise will land. This is not lowering the bar; it is engineering the floor. A bridge with no safety margin may look elegant, but nobody sane drives a family across it. Build one buffer today before the week starts asking for interest. Do not wait until the house is loud to decide what calm costs. Make it concrete enough that a stranger could see it: keys staged by the door, dinner named before noon, the first load of laundry started before the bottleneck forms. Vague slack is a wish. Visible slack is infrastructure, and infrastructure is what keeps ordinary pressure from becoming family drama.",
+        "source_quote": {
+          "text": "Risk means more things can happen than will happen.",
+          "source": "Howard Marks, The Most Important Thing Ch. 5"
+        },
+        "reflection_prompt": "Where does this week need a real buffer, not just a hopeful intention?"
+      },
+      {
+        "day": "Monday",
+        "title": "Efficiency Is Fragile",
+        "thinker": "Charlie Munger",
+        "essay": "Monday is where the efficient person gets seduced. The week is new, the inbox looks conquerable, the refrigerator still contains possibilities, and the calendar has those tempting thirty-minute gaps that whisper, use me. So you do. You stack errands against meetings, answer messages during transitions, promise a quick favor, and treat the family evening as elastic. This feels disciplined because every minute has a job. In reality, it is brittle. A schedule with no empty space is not optimized; it is one missed traffic light away from becoming a hostage note. The common mistake is confusing utilization with strength. Factories learned this the hard way: run every machine at full capacity and the whole system jams the moment one part slows. Families are no different. A household needs slack the way a kitchen needs counter space. Without it, even simple work turns chaotic.\n\nCharlie Munger admired patience because patience preserves power. In his 1994 USC talk, later printed in Poor Charlie’s Almanack, he said the wise ones bet heavily when the world offers opportunity and otherwise do not. That is not laziness. That is selectivity. The family version is learning not to spend every ounce of time just because it exists. Save capacity for the moments that deserve it: the bedtime conversation that suddenly opens up, the work incident that needs a steady hand, the call from Laura when she is tired too, the chance to make Tuesday easier by packing the swim bag now. Efficiency worship treats slack as a moral failure. Munger would call that bad odds. Most minutes do not deserve your full bet. The trick is to leave some chips on the table without turning into a spectator. Decline one low-return thing, then spend the recovered energy deliberately. The point is not to do less; it is to stop donating your best attention to trivia before the week reveals where the real game is. You can feel the difference in your body. A crammed day makes every interruption feel like theft; a day with margin lets the same interruption become information. That emotional shift matters. People who are not cornered make cleaner decisions, kinder jokes, and fewer heroic speeches about being overwhelmed.",
+        "source_quote": {
+          "text": "The wise ones bet heavily when the world offers them that opportunity. They bet big when they have the odds. And the rest of the time, they don’t.",
+          "source": "Charlie Munger, Poor Charlie’s Almanack, 1994 USC speech"
+        },
+        "reflection_prompt": "What low-return commitment is trying to buy your best energy this week?"
+      },
+      {
+        "day": "Tuesday",
+        "title": "Options Beat Predictions",
+        "thinker": "Nassim Nicholas Taleb",
+        "essay": "Tuesday is a classic trap because it looks predictable from a distance and crowded up close. Dan goes on call, Elsie has swim, Laura is still away, and the weather offers a little drizzle just to keep everyone honest. The normal response is to make a better prediction: traffic will be fine, the incident queue will stay quiet, the goggles will be in the bag, dinner will take twenty minutes. Prediction feels responsible. But when the downside is a frazzled child and a parent with no spare attention, prediction is a thin shield. The more tired you are, the more seductive certainty becomes, because certainty lets you stop thinking. That is precisely when you need fewer forecasts and more doors. One correct prediction gives you one clean path. One good option gives you maneuvering room after the path gets muddy.\n\nNassim Taleb’s better word is optionality. In Antifragile, he describes it as asymmetric upside with limited downside. That sounds grand until you translate it into Tuesday: two dinner paths, one swim bag packed before lunch, one neighbor or friend you can text if the call explodes, one bedtime expectation softened before the house is tired. Options are not elaborate contingency plans. They are small doors left open on purpose. The key is to buy them early, while they are cheap. At 2 p.m., putting pasta in reach is a minor act. At 6:35, when the phone is hot and the towel is missing, it becomes a rescue operation. Most people try to predict harder because they dislike admitting uncertainty. The strategist admits uncertainty and purchases maneuvering room. Do not build a bunker; build a fork in the road. Tonight, ask a sharper question than what will happen? Ask, what would I be glad to have already prepared if I am wrong? That is the question that turns stress from a wall into a hallway. The best options are usually embarrassingly small, which is why proud adults ignore them. Put shoes where feet will be. Put dinner where hunger will look. Put the phone charger where the on-call parent will sit. You are not predicting the future; you are giving the future fewer cheap ways to embarrass you.",
+        "source_quote": {
+          "text": "Optionality is the property of asymmetric upside (preferably unlimited) with correspondingly limited downside (preferably tiny).",
+          "source": "Nassim Nicholas Taleb, Antifragile Ch. 19"
+        },
+        "reflection_prompt": "What small option could you create today that would make tonight less fragile?"
+      },
+      {
+        "day": "Wednesday",
+        "title": "The Human Margin",
+        "thinker": "Brené Brown",
+        "essay": "By Wednesday, the logistics may be improving, but the emotional ledger can still be messy. Laura comes back with her own travel fatigue. Dan may have three days of solo-parent muscle tension hidden under competence. Elsie may not care that the adults are running a beautiful operational handoff; she may just want everybody normal again. This is where families make a subtle mistake. They create slack for calendars and meals but none for feelings. Then one practical sentence lands wrong, and suddenly the argument is not about dinner. It is about who noticed, who carried more, who assumed too much, and who failed to say thank you fast enough. Household stress rarely explodes because people lack love. It usually explodes because tired people are forced to read minds with bad lighting.\n\nBrené Brown’s leadership rule is useful at home because it is almost aggressively plain: clear is kind, unclear is unkind. Emotional margin begins with clear handoffs before resentment starts narrating. Say what is true without making it a courtroom brief. I am glad you are home, and I am running thin. I need twenty quiet minutes after dinner. I handled swim, but the backpack still needs checking. That kind of clarity keeps the family from financing tonight with invisible debt. It also gives Elsie a model worth copying: steady people name needs before they become accusations. The goal is not to turn the house into a feelings seminar. The goal is to leave enough relational space that tired people do not have to guess each other’s weather. A calendar buffer protects time; a human buffer protects trust. Before the week pivots from solo logistics to shared rhythm, spend five honest minutes making the handoff explicit. The cheapest apology is the one you never need because you spoke early, while everyone still had enough dignity to hear it kindly. This is especially important after travel, because reentry has a false innocence. The suitcase is visible, but the mental load is not. A good handoff treats invisible work as real work. It says, here is what happened, here is what remains, and here is where I need partnership instead of applause.",
+        "source_quote": {
+          "text": "Clear is kind. Unclear is unkind.",
+          "source": "Brené Brown, Dare to Lead Ch. 1"
+        },
+        "reflection_prompt": "Where would one clear sentence create more peace than another hour of silent endurance?"
+      },
+      {
+        "day": "Thursday",
+        "title": "Decide Before the Weather Changes",
+        "thinker": "Annie Duke",
+        "essay": "Thursday is the day to stop negotiating with yourself in real time. The week has already taught you the pattern: calls arrive when the stove is on, rain appears when the car needs loading, and the small decision you postponed becomes a committee meeting in your skull. Tired people do not make cleaner choices because the stakes are higher. They make narrower choices because their brains want relief. That is why the smartest decision often happens before the moment technically requires it. If you wait until everyone is hungry to decide what kind of family you are, you will become whatever the loudest pressure demands. The strategic move is to decide while you still have oxygen. Set the rule before the emergency tries to negotiate a discount.\n\nAnnie Duke’s great contribution is separating decision quality from outcome quality. In Thinking in Bets, she warns that a good outcome can hide a bad process, and a bad outcome can punish a good one. For a household under pressure, that means you should define the rules before emotion starts voting. If Dan gets paged after five, dinner becomes the simplest viable meal. If the rain is heavy, the optional errand dies. If everyone is snappish, cleanup shrinks and bedtime moves earlier. These are not failures; they are pre-decisions. They keep you from treating every surprise as a fresh moral referendum. The trick is to write the trigger while you are still sane enough to be generous to your future self. Investors call it discipline. Pilots call it a checklist. Parents should call it mercy. The point is not to control Thursday. The point is to remove enough fake choices that the real ones get your full attention: safety, connection, sleep, and keeping the house from turning a drizzle into a flood. A rule made in calm is a rope thrown forward. Pre-decisions also protect pride. When the fallback is chosen in advance, nobody has to perform defeat in the moment. You are not bailing out; you are following the rule you made when you were clear-eyed. That keeps dignity inside the decision, which makes everyone more willing to use it.",
+        "source_quote": {
+          "text": "What makes a decision great is not that it has a great outcome.",
+          "source": "Annie Duke, Thinking in Bets Introduction"
+        },
+        "reflection_prompt": "What trigger could you define now so your tired future self does not have to improvise?"
+      },
+      {
+        "day": "Friday",
+        "title": "When Slack Turns Soft",
+        "thinker": "James Clear",
+        "essay": "There is a serious argument against slack, and lazy people have done their best to prove it. Give a task too much room and it sprawls. Give a family too many backup plans and nobody starts on time. Protect every evening from pressure and the house can drift into a fog of half-finished chores, half-watched shows, and tomorrow problems quietly breeding in corners. The critic of slack is not always a tyrant. Sometimes the critic is the only person in the room who remembers that cushions can become couches. This matters because resilience has an evil twin: vagueness. Vague slack says, we will get to it later. Strategic slack says, this space exists so the important thing can survive contact with real life. Same empty square on the calendar, totally different religion.\n\nJames Clear gives the correction: you do not rise to the level of your goals; you fall to the level of your systems. Slack is powerful only when attached to a system that names its purpose. A buffer before swim is strategy. A vague evening that disappears into scrolling is leakage. A backup dinner is margin. Refusing to plan dinner because backup exists is decay. The distinction matters because this week needs resilience, not mush. Use slack like a firebreak: visible, bounded, ready to stop a blaze. Put edges around it. The twenty-minute decompression is real, and then the backpack gets reset. The simple dinner is allowed, and then the kitchen closes. The open Saturday morning welcomes Patrick, and one small chore still gets done before the visit takes over. The contrarian view keeps the principle honest. Margin of safety is not permission to avoid standards. It is how standards survive contact with weather, fatigue, and children. If your slack does not protect what matters, it is not slack. It is just disguised avoidance with better branding. So audit the buffer honestly. Can you point to what it protects? Does it have a beginning and an end? Would the family miss its benefit if it vanished? If the answer is no, tighten the edge. Good slack has a job description. Bad slack just wears comfortable clothes.",
+        "source_quote": {
+          "text": "You do not rise to the level of your goals. You fall to the level of your systems.",
+          "source": "James Clear, Atomic Habits Ch. 1"
+        },
+        "reflection_prompt": "Where is your buffer protecting something important, and where is it simply letting things blur?"
+      },
+      {
+        "day": "Saturday",
+        "title": "Keep the Roof Overhead",
+        "thinker": "Benjamin Franklin",
+        "essay": "Saturday brings a visitor, clearer skies, and the kind of household energy that can make the week feel redeemed. Patrick arrives, the pace changes, and the story of moving stress sits nearby: boxes, car time, old worries, even the memory of a house fire, all circling the deeper gratitude of having a working roof and caring neighbors. That is the final lesson of margin. We build slack not because comfort is the highest good, but because stable ground lets people be generous, curious, and brave. A family without margin becomes suspicious of joy because joy looks like one more demand. A family with margin can welcome the guest, laugh at the old chaos, and still remember where the clean towels live. Stability is not dull. Stability is what allows adventure to come inside without wrecking the furniture.\n\nBenjamin Franklin’s old line still earns its keep: an ounce of prevention is worth a pound of cure. Prevention is not glamorous. It is boring until the day it looks like wisdom. The packed bag, the early conversation, the extra meal, the unscheduled hour, the habit of deciding before the storm: these are tiny roofs inside the larger roof. They do not eliminate stress. They keep stress from becoming the architect. Carry one practice forward after this week, not seven. Choose the highest-leverage buffer and make it normal. Maybe Sunday night becomes the logistics reset. Maybe every swim day gets packed before breakfast. Maybe on-call weeks automatically use easier dinners. The point is to convert a stressful week into household doctrine. Families become strong the same way houses do: not by pretending weather will behave, but by respecting load, pressure, and weak joints before they fail. Gratitude is not passive here. Gratitude says, this shelter matters, so we will maintain it. When the house is full tonight, notice the roof, then protect the habits that keep it from leaking. Do this quietly, not as a grand family reform campaign. The best household systems are almost invisible after they mature. Nobody applauds the roof for not leaking. Nobody should need to applaud the swim bag either. Its success is measured by the absence of avoidable panic.",
+        "source_quote": {
+          "text": "An ounce of prevention is worth a pound of cure.",
+          "source": "Benjamin Franklin, Poor Richard’s Almanack, 1736"
+        },
+        "reflection_prompt": "What one buffer from this week deserves to become a permanent family habit?"
+      }
+    ],
+    "closing_line": "Slack is not the absence of ambition; it is the structure that keeps ambition from collapsing under real life."
+  },
+  "highlight": "Attention is the week's best seasoning."
+}

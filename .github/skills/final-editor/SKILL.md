@@ -39,10 +39,10 @@ make it something the family *wants* to read at the dinner table.
 
 ## ⚠️ Page-Fit Constraint — CRITICAL
 
-Each day's content — recipe, chef's tips, and music — **must fit on a single
-5.5" × 8.5" half-letter page** in the printed PDF booklet. If your editorial
-copy is too long, the content overflows onto a second page and the booklet
-layout breaks.
+Each day's content — recipe highlights, chef's tips, principles, and music —
+**must fit within the 3-page A5 daily spread** in the printed PDF booklet. If
+your editorial copy is too long, the content overflows and the booklet layout
+breaks.
 
 **Do not guess whether your copy fits. Verify it by rendering the booklet.**
 

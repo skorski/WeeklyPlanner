@@ -34,16 +34,10 @@
 
       <div class="menu-group">
         <div class="menu-group-label">Sections</div>
-        <button class="menu-item" @click="scrollTo('glance')">Week at a Glance</button>
-        <button v-if="plan.appetizers?.length" class="menu-item" @click="scrollTo('appetizers')">Appetizers</button>
-        <button v-if="plan.salads?.length" class="menu-item" @click="scrollTo('salads')">Salads</button>
-        <button v-if="plan.beverages?.length" class="menu-item" @click="scrollTo('beverages')">Beverages</button>
-        <button v-if="plan.grocery_list" class="menu-item" @click="scrollTo('grocery')">Grocery List</button>
-        <button v-if="plan.prep_ahead?.length" class="menu-item" @click="scrollTo('prep')">Prep Checklist</button>
-        <button v-if="plan.parenting_data" class="menu-item" @click="scrollTo('parenting')">Parenting Corner</button>
-        <button v-if="plan.stoic_data" class="menu-item" @click="scrollTo('stoic')">The Stoic Guide</button>
-        <button v-if="plan.newsletter_data?.clusters?.length" class="menu-item" @click="scrollTo('newsletter')">The Weekly Read</button>
-        <button v-if="plan.child_wisdom" class="menu-item" @click="scrollTo('story')">Bedtime Story</button>
+        <button v-for="section in menuSections" :key="section.id"
+          class="menu-item" @click="scrollTo(section.target)">
+          {{ section.title }}
+        </button>
       </div>
 
       <div class="menu-footer">
@@ -164,7 +158,7 @@
 
       <!-- Notes -->
       <template v-if="plan.notes?.length">
-        <h2 class="section-title">Notes</h2>
+        <h2 id="notes" class="section-title">Notes</h2>
         <div class="support-section">
           <ul><li v-for="note in plan.notes" :key="note">{{ note }}</li></ul>
         </div>
@@ -172,7 +166,7 @@
 
       <!-- Nutrition -->
       <template v-if="plan.nutrition_summary">
-        <h2 class="section-title">Nutrition</h2>
+        <h2 id="nutrition" class="section-title">Nutrition</h2>
         <div class="support-section"><p>{{ plan.nutrition_summary }}</p></div>
       </template>
 
@@ -201,6 +195,7 @@ import NewsletterSection from '../components/NewsletterSection.vue'
 
 const props = defineProps({ date: String })
 const plan = ref(null)
+const sectionManifest = ref(null)
 const loading = ref(true)
 const hasPdf = ref(false)
 const menuOpen = ref(false)
@@ -255,6 +250,69 @@ const weatherContexts = computed(() => {
   })
 })
 
+const sectionTargetMap = {
+  week_at_a_glance: { target: 'glance', title: 'Week at a Glance' },
+  grocery_prep: { target: 'grocery', title: 'Grocery List' },
+  family_parenting: { target: 'parenting', title: 'Parenting Corner' },
+  stoic_guide: { target: 'stoic', title: 'The Stoic Guide' },
+  weekly_read: { target: 'newsletter', title: 'The Weekly Read' },
+  bedtime_story: { target: 'story', title: 'Bedtime Story' },
+  nutrition: { target: 'nutrition', title: 'Nutrition' },
+  notes_back_cover: { target: 'notes', title: 'Notes' }
+}
+
+const supportSections = computed(() => {
+  if (!plan.value) return []
+  return [
+    plan.value.appetizers?.length ? { id: 'appetizers', target: 'appetizers', title: 'Appetizers' } : null,
+    plan.value.salads?.length ? { id: 'salads', target: 'salads', title: 'Salads' } : null,
+    plan.value.beverages?.length ? { id: 'beverages', target: 'beverages', title: 'Beverages' } : null,
+    plan.value.prep_ahead?.length ? { id: 'prep', target: 'prep', title: 'Prep Checklist' } : null
+  ].filter(Boolean)
+})
+
+const manifestSections = computed(() => {
+  if (!sectionManifest.value?.sections) return []
+  return sectionManifest.value.sections
+    .filter(section => section.active && section.render_targets?.includes('webapp'))
+    .map(section => {
+      if (section.id === 'grocery_prep') {
+        return {
+          id: section.id,
+          title: section.title || 'Grocery & Prep',
+          target: plan.value?.grocery_list ? 'grocery' : 'prep'
+        }
+      }
+      const mapped = sectionTargetMap[section.id]
+      return mapped ? { id: section.id, title: section.title || mapped.title, target: mapped.target } : null
+    })
+    .filter(Boolean)
+})
+
+const fallbackSections = computed(() => {
+  if (!plan.value) return []
+  return [
+    { id: 'week_at_a_glance', target: 'glance', title: 'Week at a Glance' },
+    plan.value.grocery_list ? { id: 'grocery_prep', target: 'grocery', title: 'Grocery List' } : null,
+    plan.value.parenting_data ? { id: 'family_parenting', target: 'parenting', title: 'Parenting Corner' } : null,
+    plan.value.stoic_data ? { id: 'stoic_guide', target: 'stoic', title: 'The Stoic Guide' } : null,
+    plan.value.newsletter_data?.clusters?.length ? { id: 'weekly_read', target: 'newsletter', title: 'The Weekly Read' } : null,
+    plan.value.child_wisdom ? { id: 'bedtime_story', target: 'story', title: 'Bedtime Story' } : null,
+    plan.value.nutrition_summary ? { id: 'nutrition', target: 'nutrition', title: 'Nutrition' } : null
+  ].filter(Boolean)
+})
+
+const menuSections = computed(() => {
+  const contractSections = manifestSections.value.length ? manifestSections.value : fallbackSections.value
+  const sections = [...contractSections, ...supportSections.value]
+  const seen = new Set()
+  return sections.filter(section => {
+    if (seen.has(section.target)) return false
+    seen.add(section.target)
+    return true
+  })
+})
+
 function scrollTo(id) {
   menuOpen.value = false
   nextTick(() => {
@@ -287,15 +345,9 @@ function setupScrollSpy() {
   }
 
   // Other sections
-  const sections = [
-    ['appetizers', 'Appetizers'], ['salads', 'Salads'], ['beverages', 'Beverages'],
-    ['grocery', 'Grocery List'], ['prep', 'Prep-Ahead Checklist'],
-    ['parenting', 'Parenting Corner'], ['stoic', 'The Stoic Guide'],
-    ['newsletter', 'The Weekly Read']
-  ]
-  for (const [id, label] of sections) {
-    const el = document.getElementById(id)
-    if (el) tracked.push({ el, label })
+  for (const section of menuSections.value) {
+    const el = document.getElementById(section.target)
+    if (el) tracked.push({ el, label: section.title })
   }
 
   if (!tracked.length) return
@@ -320,6 +372,14 @@ async function loadPlan(date) {
     const res = await fetch(`/plans/${date}/plan_data.json`)
     if (!res.ok) { plan.value = null; return }
     plan.value = await res.json()
+
+    sectionManifest.value = null
+    try {
+      const manifestRes = await fetch(`/plans/${date}/section_manifest.json`)
+      if (manifestRes.ok) sectionManifest.value = await manifestRes.json()
+    } catch (e) {
+      console.warn('Section manifest unavailable:', e)
+    }
 
     const pdfRes = await fetch(`/plans/${date}/weekly-plan.pdf`, { method: 'HEAD' })
     hasPdf.value = pdfRes.ok

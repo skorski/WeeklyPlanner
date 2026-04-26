@@ -1,6 +1,6 @@
 {# --- SECTION DIVIDER: The Weekly Read --- #}
 {% if newsletter_data and newsletter_data.clusters %}
-<div class="page page-divider">
+<div class="page page-divider" data-section-id="weekly_read" data-section-instance="divider">
   <div class="divider-title">The Weekly Read</div>
   <div class="divider-rule"></div>
   <div class="divider-sub">{{ newsletter_data.total_articles | default(0) }} articles clipped · Themes, reflections, and something fun</div>
@@ -39,7 +39,7 @@
 {% set ns_nl.pages = ns_nl.pages + [ns_nl.current] %}
 
 {% for page_paras in ns_nl.pages %}
-<div class="page page-newsletter">
+<div class="page page-newsletter" data-section-id="weekly_read" data-section-instance="cluster-{{ loop.index }}" data-source-path="newsletter_data.clusters" data-fit="bounded">
   <div class="page-header">The Weekly Read</div>
 
   {% if loop.first %}
@@ -71,7 +71,7 @@
 
 {# --- NEWSLETTER CLOSING PAGE: reflections + fun --- #}
 {% if newsletter_data.reflections or newsletter_data.fun_section %}
-<div class="page page-newsletter">
+<div class="page page-newsletter" data-section-id="weekly_read" data-section-instance="closing" data-source-path="newsletter_data.reflections" data-fit="bounded">
   <div class="page-header">The Weekly Read</div>
 
 {% if newsletter_data.reflections %}
@@ -96,11 +96,95 @@
 {% endif %}
 {% endif %}
 
+{# --- NEWS FEED --- #}
+{% if news_feed_data and news_feed_data.sources %}
+<div class="page page-divider" data-section-id="news_feed" data-section-instance="divider">
+  <div class="divider-title">News Feed</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">{{ news_feed_data.total_articles | default(0) }} articles from {{ news_feed_data.source_count | default(news_feed_data.sources | length) }} source{% if (news_feed_data.source_count | default(news_feed_data.sources | length)) != 1 %}s{% endif %}</div>
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+
+<div class="page page-newsletter page-news-feed" data-section-id="news_feed" data-section-instance="articles" data-source-path="news_feed_data.articles" data-fit="bounded">
+  <div class="page-header">News Feed</div>
+  <h2 class="section-header">Recent Articles</h2>
+  {% if news_feed_data.articles %}
+  <ul class="article-list">
+    {% for article in news_feed_data.articles[:8] %}
+    <li>
+      <span class="article-title">{{ article.title }}</span>
+      <span class="article-tags">({{ article.source_name }}{% if article.published_at %}, {{ article.published_at }}{% endif %})</span>
+      {% if article.summary %}<span class="article-oneliner">{{ article.summary }}</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>No articles matched the requested publication window.</p>
+  {% endif %}
+  {% if news_feed_data.markdown_path %}
+  <p class="newsletter-footer">Full extracted text: {{ news_feed_data.markdown_path }}</p>
+  {% endif %}
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+{% endif %}
+
+{# --- NUTRITION --- #}
+{% if nutrition_summary or nutrition_data %}
+<div class="page page-nutrition" data-section-id="nutrition" data-section-instance="summary" data-source-path="nutrition_summary" data-fit="bounded">
+  <div class="page-header">Family Health</div>
+  <h2 class="section-header">Nutrition</h2>
+  {% if nutrition_summary %}
+  <div class="nutrition-summary">{{ nutrition_summary }}</div>
+  {% endif %}
+
+  {% set lunch_items = nutrition_data.lunch_suggestions | default(nutrition_data.recommended_lunches | default([])) if nutrition_data else [] %}
+  {% if lunch_items %}
+  <h3 class="subsection-label">Lunch moves</h3>
+  <ul class="nutrition-list">
+    {% for item in lunch_items[:4] %}
+    {% if item is string %}
+    <li>{{ item }}</li>
+    {% else %}
+    <li><strong>{{ item.name | default("Lunch") }}</strong>{% if item.description %} — {{ item.description }}{% endif %}{% if item.nutrients %} <em>({{ item.nutrients | join(", ") }})</em>{% elif item.key_nutrients %} <em>({{ item.key_nutrients | join(", ") }})</em>{% endif %}</li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% set snack_items = nutrition_data.snack_suggestions | default(nutrition_data.recommended_snacks | default([])) if nutrition_data else [] %}
+  {% if snack_items %}
+  <h3 class="subsection-label">Snack moves</h3>
+  <ul class="nutrition-list">
+    {% for item in snack_items[:4] %}
+    {% if item is string %}
+    <li>{{ item }}</li>
+    {% else %}
+    <li><strong>{{ item.name | default("Snack") }}</strong>{% if item.description %} — {{ item.description }}{% endif %}{% if item.nutrients %} <em>({{ item.nutrients | join(", ") }})</em>{% elif item.key_nutrients %} <em>({{ item.key_nutrients | join(", ") }})</em>{% endif %}</li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if nutrition_data and nutrition_data.nutrient_primer %}
+  <div class="nutrition-primer">
+    {% if nutrition_data.nutrient_primer is string %}
+    {{ nutrition_data.nutrient_primer }}
+    {% else %}
+    {% for item in nutrition_data.nutrient_primer[:2] %}
+    <p><strong>{{ item.nutrient | default("Nutrient") }}:</strong> {{ item.why_it_matters | default("") }}</p>
+    {% endfor %}
+    {% endif %}
+  </div>
+  {% endif %}
+  <div class="page-folio">{{ ns.pg }}{% set ns.pg = ns.pg + 1 %}</div>
+</div>
+{% endif %}
+
 {# --- EXTRA SECTIONS (extensible, non-parenting) --- #}
 {% if extra_sections %}
 {% for section in extra_sections %}
 {% if "Parenting" not in section.title %}
-<div class="page page-extra">
+<div class="page page-extra" data-section-id="extra" data-section-instance="{{ section.title | replace(' ', '-') | lower }}" data-fit="bounded">
   <div class="page-header">Extras</div>
   <h2 class="section-header">{{ section.title }}</h2>
   <div class="extra-content">{{ section.content }}</div>
@@ -112,7 +196,7 @@
 
 {# --- BEDTIME STORY (multi-page) --- #}
 {% if child_wisdom %}
-<div class="page page-divider">
+<div class="page page-divider" data-section-id="bedtime_story" data-section-instance="divider">
   <div class="divider-title">Bedtime Story</div>
   <div class="divider-rule"></div>
   <div class="divider-sub">{{ child_wisdom.title }}</div>
@@ -160,15 +244,9 @@
 {% set ns_page.pages = ns_page.pages + [ns_page.current] %}
 {% endif %}
 
-{# If the last page is very short (< 4 paragraphs), merge it into the previous page #}
-{% if ns_page.pages | length > 1 and ns_page.pages[-1] | length < 4 %}
-{% set merged = ns_page.pages[-2] + ns_page.pages[-1] %}
-{% set ns_page.pages = ns_page.pages[:-2] + [merged] %}
-{% endif %}
-
 {% set total_pages = ns_page.pages | length %}
 {% for page_paras in ns_page.pages %}
-<div class="page page-story{% if loop.index0 == 0 %} page-story-first{% endif %}">
+<div class="page page-story{% if loop.index0 == 0 %} page-story-first{% endif %}" data-section-id="bedtime_story" data-section-instance="page-{{ loop.index }}" data-source-path="child_wisdom.story" data-fit="bounded">
   <div class="page-header">Bedtime Story</div>
   {% if loop.index0 == 0 %}
   <h3 class="story-title">{{ child_wisdom.title }}</h3>
@@ -187,7 +265,7 @@
 {% endif %}
 
 {# --- BACK COVER --- #}
-<div class="page page-back">
+<div class="page page-back" data-section-id="notes_back_cover" data-source-path="generated_at" data-fit="bounded">
   <div class="back-inner">
   <div class="back-divider"></div>
   <div class="colophon">{{ week_range }} · Generated {{ generated_at }}</div>

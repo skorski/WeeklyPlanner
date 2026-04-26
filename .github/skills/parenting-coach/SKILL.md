@@ -205,8 +205,10 @@ For the target week, produce:
 
 2. **3 Parenting Nudges** — specific, actionable suggestions for the week. These
    should connect to the week's rhythm (e.g., a busy Wednesday calls for a low-key
-   reconnection ritual that evening). Each nudge includes a "how-to" with 2-3
-   concrete steps.
+   reconnection ritual that evening). Each nudge should be substantial enough to
+   coach the parent, not just name an idea: write a concrete context paragraph, a
+   warm suggestion paragraph, and a "how-to" with 3-5 steps that can still be done
+   in 5-10 minutes. Include the tiny words a parent might actually say out loud.
 
 3. **1 Weekly Theme** — a short, resonant theme for the parents to hold in mind
    (e.g., "Letting her lead," "Slowing down to notice," "Building brave").

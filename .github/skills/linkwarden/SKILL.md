@@ -39,8 +39,10 @@ and makes the reader sit with uncomfortable questions.
    every word.
 5. **Fun is mandatory.** Every newsletter must end with something entertaining,
    surprising, or delightful. If the clipped articles don't provide that, go find it.
-6. **Brevity with density.** The newsletter gets up to 4 booklet pages (~2,400 words
-   max in print). Every sentence must earn its place.
+6. **Essay-length synthesis.** Each thematic cluster must be a 500-1000 word
+   essay that summarizes the reviewed articles, extends them with outside
+   context, and offers an original point of view. Prefer 2-3 strong essays over
+   4 thin clusters.
 
 ## Workflow
 
@@ -50,24 +52,43 @@ Scan the last 4 weeks of `weekly_plans/*/plan_data.json` for `newsletter_data`
 to avoid repeating themes, fun sections, or phrasings. Note what worked — build
 variety across weeks.
 
-### Step 1: Fetch Links from Linkwarden
+### Step 1: Fetch Reading Sources
 
-Run the fetch script to pull all links from the past 7 days:
+Run the source-ingestion script to pull Linkwarden clips plus any user-provided
+URLs, RSS/Atom feeds, and required topics:
 
 ```bash
-python .github/skills/linkwarden/scripts/fetch_links.py --days 7 -o links.json
+python .github/skills/linkwarden/scripts/fetch_reading_sources.py \
+  --input weekly_plans/<YYYY-MM-DD>/week_request.json \
+  -o weekly_plans/<YYYY-MM-DD>/reading_sources.json \
+  --report weekly_plans/<YYYY-MM-DD>/reading_ingestion_report.json
 ```
 
-This produces a JSON file with all articles including:
+The request may contain:
+
+```json
+{
+  "weekly_read": {
+    "include_linkwarden": true,
+    "linkwarden_days": 7,
+    "urls": ["https://example.substack.com/p/post"],
+    "rss_feeds": ["https://example.com/feed"],
+    "required_topics": ["collagen peptides and creatine"]
+  }
+}
+```
+
+This produces a JSON file with normalized source records including:
 - `title`, `url`, `tags`, `collection`, `created_at`
 - `full_text` — the complete article content (from readable archive, monolith
-  archive, or textContent, in that priority order)
+  archive, textContent, direct URL extraction, or RSS item fetch)
 - `word_count` — for gauging article depth
 - `content_source` — which extraction method succeeded
+- `status` — `ok`, `thin_content`, `failed`, or `needs_research`
 
-The script **prefers archived HTML content** over link-only data. The user saves
-full documents when articles are behind paywalls, so the readable/monolith archive
-is the primary content source.
+The script **does not bypass paywalls or authentication**. If a source is
+inaccessible, it records the failure in `reading_ingestion_report.json`. The
+user can then provide text manually or rely on a saved Linkwarden archive.
 
 ### Step 2: Read and Absorb
 
@@ -93,8 +114,9 @@ group by *intellectual theme*. Examples:
 Each cluster should have:
 - A **compelling theme title** (not generic)
 - **2–5 articles** that belong together
-- A **synthesis paragraph** (150–250 words) that weaves the articles' ideas together
-  and ends with a provocative question or observation
+- A **synthesis essay** (500–1000 words) that weaves the articles' ideas
+  together, summarizes what matters, extends the discussion with broader
+  context, and ends with a provocative question or observation
 
 Articles that don't fit a cluster can be mentioned in a "The Through-Line" section
 that connects all the clusters to a single overarching observation about the week's
@@ -134,7 +156,7 @@ Produce a JSON file (`newsletter.json`) with this structure:
   "clusters": [
     {
       "theme": "The Automation Paradox",
-      "synthesis": "Three articles this week painted radically different futures...",
+      "synthesis": "A 500-1000 word essay that summarizes and extends the reviewed articles...",
       "articles": [
         {
           "title": "Article Title",
@@ -198,17 +220,19 @@ The newsletter renders as a dedicated section in the booklet:
 
 ## Content Length Guidance
 
-The booklet uses ~8.5pt body text on 5.5" × 8.5" half-pages. Each page holds
-approximately 500–650 words. Target:
+The markdown and JSON should keep the full essays. The print formatter may trim
+only the PDF copy if needed. Target:
 
-- **2 clusters:** ~1,200 words total (~2 pages)
-- **3 clusters:** ~1,600 words total (~3 pages)
-- **4 clusters:** ~2,000 words total (~4 pages)
+- **2 clusters:** 1,000–2,000 words of synthesis
+- **3 clusters:** 1,500–3,000 words of synthesis
+- **4 clusters:** 2,000–4,000 words of synthesis; use only when the readings
+  genuinely demand four separate ideas
 - **Fun section:** 100–150 words
 - **Reflections:** 80–120 words
 
 If the newsletter overflows its pages, use the booklet's `--check-overflow` flag
-and trim synthesis paragraphs (never cut articles or fun section).
+and the print-formatter skill to trim print-only copy; do not shorten
+`newsletter.json` below the 500-word essay minimum.
 
 ## Configuration
 
@@ -252,6 +276,7 @@ unless marked optional.
 ### Validation Rules
 - `total_articles` must be an integer ≥ 0
 - `clusters` must be a non-empty array when `total_articles` > 0
+- Each cluster `synthesis` must be a 500–1000 word essay
 - Each article in a cluster must have `title` and `one_liner`
 - `fun_section` is optional but when present must have all four fields
 - `reflections` is a prose string summarizing the week's reading themes

@@ -1,5 +1,5 @@
 {# --- SECTION DIVIDER: Daily Plan --- #}
-<div class="page page-divider">
+<div class="page page-divider" data-section-id="daily_plan" data-section-instance="divider">
   <div class="divider-title">Daily Plan</div>
   <div class="divider-rule"></div>
   <div class="divider-sub">{{ daily_plan_subtitle | default("Seven days of dinner, music, and good company") }}</div>
@@ -9,7 +9,7 @@
 {# --- DAILY PAGES (three-page spread per day) --- #}
 {% for day in days %}
 {# Page 1: The Day — weather, calendar, dinner, Mamma Karen, Variations #}
-<div class="page page-day page-day-left">
+<div class="page page-day page-day-left" data-section-id="daily_plan" data-section-instance="{{ day.day_of_week | default(day.name) }}" data-source-path="days[{{ loop.index0 }}]" data-fit="bounded">
   <div class="page-header">Daily Plan</div>
   {% if day.weather %}
   <div class="weather-line">{{ weather_oneliner_print(day, days) }}</div>
@@ -47,7 +47,7 @@
 
   {# Mamma Karen + Variations flow directly under the dinner #}
   {% if day.recipe_card %}
-  <div class="recipe-inline-block">
+  <div class="recipe-inline-block" data-section-id="daily_recipe_cards" data-section-instance="{{ day.day_of_week | default(day.name) }}" data-source-path="days[{{ loop.index0 }}].recipe_card" data-fit="bounded">
     {% if day.recipe_card.source_url %}
     <div class="recipe-source-line"><a href="{{ day.recipe_card.source_url }}">{{ day.recipe_card.source_name | default("View recipe") }}</a>{% if day.recipe_card.servings %} · {{ day.recipe_card.servings }} servings{% endif %}{% if day.recipe_card.prep_time %} · Prep {{ day.recipe_card.prep_time }}{% endif %}{% if day.recipe_card.cook_time %} · Cook {{ day.recipe_card.cook_time }}{% endif %}</div>
     {% endif %}
@@ -71,7 +71,7 @@
   {% endif %}
 
   {% if day.dinner_question %}
-  <div class="conversation-block">
+  <div class="conversation-block" data-section-id="daily_conversation" data-section-instance="{{ day.day_of_week | default(day.name) }}" data-source-path="days[{{ loop.index0 }}].dinner_question" data-fit="bounded">
     <h4>At the Table</h4>
     <div class="conversation-question">{{ day.dinner_question.question }}</div>
     {% if day.dinner_question.why %}<div class="conversation-why">{{ day.dinner_question.why }}</div>{% endif %}
@@ -82,7 +82,7 @@
 </div>
 
 {# Page 2: Principles — daily reading #}
-<div class="page page-day page-day-principles">
+<div class="page page-day page-day-principles" data-section-id="daily_principles" data-section-instance="{{ day.day_of_week | default(day.name) }}" data-source-path="principles_data.daily_entries[{{ loop.index0 }}]" data-fit="bounded">
   <div class="page-header">{{ day.long_name }} · Principles</div>
 
   {% if principles_data and principles_data.daily_entries %}
@@ -132,11 +132,11 @@
 </div>
 
 {# Page 3: Chef's Tips + Album #}
-<div class="page page-day page-day-right">
+<div class="page page-day page-day-right" data-section-id="daily_plan" data-section-instance="{{ day.day_of_week | default(day.name) }}-album" data-source-path="days[{{ loop.index0 }}]" data-fit="bounded">
   <div class="page-header">{{ day.long_name }}</div>
 
   {% if day.dinner_elevation_tips %}
-  <div class="elevation-block">
+  <div class="elevation-block" data-section-id="daily_chef_tips" data-section-instance="{{ day.day_of_week | default(day.name) }}" data-source-path="days[{{ loop.index0 }}].dinner_elevation_tips" data-fit="bounded">
     <h4>Chef's Tips</h4>
     {% for tip in day.dinner_elevation_tips %}
     <div class="elevation-tip">

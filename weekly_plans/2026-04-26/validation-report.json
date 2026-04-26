@@ -1,0 +1,584 @@
+{
+  "status": "PASS",
+  "generated_at": "2026-04-26T16:48:38",
+  "errors": 0,
+  "warnings": 0,
+  "issues": [],
+  "aliases_applied": [],
+  "section_manifest": {
+    "schema_version": "1.0",
+    "generated_at": "2026-04-26T16:48:38",
+    "week_range": "April 26 - May 2, 2026",
+    "aliases_applied": [],
+    "sections": [
+      {
+        "id": "cover",
+        "title": "Cover",
+        "required": "always",
+        "active": true,
+        "status": "pass",
+        "source_paths": [
+          "week_range",
+          "highlight",
+          "elsie_no_list"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf",
+          "webapp"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"cover\"]",
+            ".page-cover"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 1,
+          "trim_order": [
+            "highlight"
+          ],
+          "instructions": "Keep the cover sparse. Prefer a short highlight over adding extra\nexplanatory text.\n"
+        },
+        "style_profile": null,
+        "counts": {},
+        "missing_paths": [],
+        "issues": []
+      },
+      {
+        "id": "week_at_a_glance",
+        "title": "Week at a Glance",
+        "required": "always",
+        "active": true,
+        "status": "pass",
+        "source_paths": [
+          "days[].name",
+          "days[].weather",
+          "days[].calendar_items",
+          "days[].dinner",
+          "days[].album"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf",
+          "webapp"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"week_at_a_glance\"]",
+            ".page-glance"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 1,
+          "trim_order": [
+            "days[].calendar_items"
+          ],
+          "instructions": "Keep the glance to one page. Shorten event labels before removing\ndinners or albums.\n"
+        },
+        "style_profile": null,
+        "counts": {
+          "days": 7
+        },
+        "missing_paths": [],
+        "issues": []
+      },
+      {
+        "id": "daily_plan",
+        "title": "Daily Plan",
+        "required": "always",
+        "active": true,
+        "status": "pass",
+        "source_paths": [
+          "days[].day_intro",
+          "days[].weather",
+          "days[].calendar_items",
+          "days[].dinner",
+          "days[].album",
+          "days[].activity"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf",
+          "webapp"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"daily_plan\"]",
+            ".page-day-left",
+            ".page-day-right"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 21,
+          "trim_order": [
+            "days[].day_intro",
+            "days[].dinner_description",
+            "days[].album_description",
+            "days[].album_pairing_rationale"
+          ],
+          "instructions": "Daily pages carry the spine of the booklet. Trim prose but keep each\nday's dinner, album, weather, and event context visible.\n"
+        },
+        "style_profile": null,
+        "counts": {
+          "days": 7
+        },
+        "missing_paths": [],
+        "issues": []
+      },
+      {
+        "id": "daily_recipe_cards",
+        "title": "Recipe Cards",
+        "required": "always",
+        "active": true,
+        "status": "pass",
+        "source_paths": [
+          "days[].recipe_card"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf",
+          "webapp"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"daily_recipe_cards\"]",
+            ".recipe-inline-block"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 7,
+          "trim_order": [
+            "days[].recipe_card.variations[].twist",
+            "days[].recipe_card.nonna_says"
+          ],
+          "instructions": "Keep Mamma Karen's voice. Shorten variation twists before shortening\nthe main recipe instructions.\n"
+        },
+        "style_profile": null,
+        "counts": {
+          "days[].recipe_card.nonna_says": 7
+        },
+        "missing_paths": [],
+        "issues": []
+      },
+      {
+        "id": "daily_chef_tips",
+        "title": "Chef's Tips",
+        "required": "always",
+        "active": true,
+        "status": "pass",
+        "source_paths": [
+          "days[].dinner_elevation_tips"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf",
+          "webapp"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"daily_chef_tips\"]",
+            ".elevation-block"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 7,
+          "trim_order": [
+            "days[].dinner_elevation_tips[].instruction"
+          ]
+        },
+        "style_profile": null,
+        "counts": {
+          "days[].dinner_elevation_tips": 28
+        },
+        "missing_paths": [],
+        "issues": []
+      },
+      {
+        "id": "daily_conversation",
+        "title": "At the Table",
+        "required": "always",
+        "active": true,
+        "status": "pass",
+        "source_paths": [
+          "days[].dinner_question",
+          "parenting_data.dinner_questions"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf",
+          "webapp"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"daily_conversation\"]",
+            ".conversation-block"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 7,
+          "trim_order": [
+            "days[].dinner_question.why"
+          ]
+        },
+        "style_profile": null,
+        "counts": {
+          "parenting_data.dinner_questions": 7
+        },
+        "missing_paths": [],
+        "issues": []
+      },
+      {
+        "id": "daily_principles",
+        "title": "Principles for Living",
+        "required": "always",
+        "active": true,
+        "status": "pass",
+        "source_paths": [
+          "principles_data"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf",
+          "webapp"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"daily_principles\"]",
+            ".page-day-principles"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 7,
+          "trim_order": [
+            "principles_data.daily_entries[].essay"
+          ],
+          "instructions": "Keep exactly two paragraphs per day. Trim by rewriting, not truncating.\n"
+        },
+        "style_profile": null,
+        "counts": {
+          "principles_data.daily_entries": 7
+        },
+        "missing_paths": [],
+        "issues": []
+      },
+      {
+        "id": "grocery_prep",
+        "title": "Grocery and Prep",
+        "required": "conditional",
+        "active": true,
+        "status": "pass",
+        "source_paths": [
+          "grocery_list",
+          "prep_ahead"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf",
+          "webapp"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"grocery_prep\"]",
+            ".page-grocery"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 2,
+          "trim_order": [
+            "prep_ahead"
+          ]
+        },
+        "style_profile": null,
+        "counts": {},
+        "missing_paths": [],
+        "issues": []
+      },
+      {
+        "id": "family_parenting",
+        "title": "Parenting Corner",
+        "required": "always",
+        "active": true,
+        "status": "pass",
+        "source_paths": [
+          "parenting_data"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf",
+          "webapp"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"family_parenting\"]",
+            ".page-parenting"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 6,
+          "trim_order": [
+            "parenting_data.weekly_theme.description",
+            "parenting_data.dinner_questions[].why",
+            "parenting_data.nudges[].context",
+            "parenting_data.nudges[].suggestion"
+          ],
+          "instructions": "Keep the weekly theme, seven questions, and at least three nudges.\nShorten explanatory text before removing structure.\n"
+        },
+        "style_profile": null,
+        "counts": {
+          "parenting_data.dinner_questions": 7,
+          "parenting_data.nudges": 3
+        },
+        "missing_paths": [],
+        "issues": []
+      },
+      {
+        "id": "stoic_guide",
+        "title": "The Stoic Guide",
+        "required": "always",
+        "active": true,
+        "status": "pass",
+        "source_paths": [
+          "stoic_data"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf",
+          "webapp"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"stoic_guide\"]",
+            ".page-stoic"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 5,
+          "trim_order": [
+            "stoic_data.introduction",
+            "stoic_data.meditations[].reflection",
+            "stoic_data.meditations[].prompt"
+          ],
+          "instructions": "Keep the classical source, theme, family exercise, and young-stoic\nprompt. Shorten meditations before removing practice elements.\n"
+        },
+        "style_profile": null,
+        "counts": {
+          "stoic_data.meditations": 7
+        },
+        "missing_paths": [],
+        "issues": []
+      },
+      {
+        "id": "weekly_read",
+        "title": "The Weekly Read",
+        "required": "conditional",
+        "active": true,
+        "status": "pass",
+        "source_paths": [
+          "newsletter_data.clusters",
+          "newsletter_data.reflections",
+          "newsletter_data.fun_section"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf",
+          "webapp"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"weekly_read\"]",
+            ".page-newsletter"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 4,
+          "trim_order": [
+            "newsletter_data.clusters[].synthesis",
+            "newsletter_data.reflections",
+            "newsletter_data.fun_section.content"
+          ],
+          "instructions": "Keep every user-requested article represented. Shorten synthesis prose\nbefore removing article one-liners. Never remove the fun section unless\nthe user explicitly disables it.\n"
+        },
+        "style_profile": null,
+        "counts": {},
+        "missing_paths": [],
+        "issues": []
+      },
+      {
+        "id": "news_feed",
+        "title": "News Feed",
+        "required": "conditional",
+        "active": false,
+        "status": "skip",
+        "source_paths": [
+          "news_feed_data.sources",
+          "news_feed_data.articles",
+          "news_feed_data.markdown_path"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf",
+          "webapp"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"news_feed\"]",
+            ".page-news-feed"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 2,
+          "trim_order": [
+            "news_feed_data.articles[].summary"
+          ],
+          "instructions": "Keep the source list and article titles. The full extracted text lives\nin news-feed.md; print layouts should render concise excerpts only.\n"
+        },
+        "style_profile": null,
+        "counts": {},
+        "missing_paths": [],
+        "issues": []
+      },
+      {
+        "id": "bedtime_story",
+        "title": "Bedtime Story",
+        "required": "always",
+        "active": true,
+        "status": "pass",
+        "source_paths": [
+          "child_wisdom"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf",
+          "webapp"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"bedtime_story\"]",
+            ".page-story"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 4,
+          "trim_order": [
+            "child_wisdom.story",
+            "child_wisdom.discussion_prompt"
+          ],
+          "instructions": "Preserve a complete story arc. If it exceeds five pages, rewrite for\nconcision instead of cutting the ending.\n"
+        },
+        "style_profile": "bedtime_story",
+        "counts": {},
+        "missing_paths": [],
+        "issues": []
+      },
+      {
+        "id": "nutrition",
+        "title": "Nutrition",
+        "required": "always",
+        "active": true,
+        "status": "pass",
+        "source_paths": [
+          "nutrition_summary",
+          "nutrition_data"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf",
+          "webapp"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"nutrition\"]"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 2,
+          "trim_order": [
+            "nutrition_summary",
+            "nutrition_data.nutrient_primer"
+          ]
+        },
+        "style_profile": null,
+        "counts": {},
+        "missing_paths": [],
+        "issues": []
+      },
+      {
+        "id": "notes_back_cover",
+        "title": "Notes and Back Cover",
+        "required": "always",
+        "active": true,
+        "status": "pass",
+        "source_paths": [
+          "notes",
+          "generated_at"
+        ],
+        "render_targets": [
+          "markdown",
+          "screen_html",
+          "print_html",
+          "pdf"
+        ],
+        "render_selectors": {
+          "print_html": [
+            "[data-section-id=\"notes_back_cover\"]",
+            ".page-back"
+          ]
+        },
+        "print_fit_policy": {
+          "bounded": true,
+          "max_pages": 1,
+          "trim_order": [
+            "notes"
+          ]
+        },
+        "style_profile": null,
+        "counts": {},
+        "missing_paths": [],
+        "issues": []
+      }
+    ]
+  }
+}

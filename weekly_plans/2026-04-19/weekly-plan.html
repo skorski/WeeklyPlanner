@@ -1266,6 +1266,18 @@ a:hover { text-decoration: underline; }
     margin-bottom: 6pt;
     padding-bottom: 4pt;
   }
+  .section-header-spaced {
+    margin-top: 10pt;
+  }
+  .subsection-label {
+    font-family: var(--anchor);
+    font-size: 7pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    color: var(--muted);
+    margin: 6pt 0 3pt;
+  }
 
   /* ---- Section divider pages ---- */
   .page-divider {
@@ -2038,6 +2050,15 @@ a:hover { text-decoration: underline; }
     margin-bottom: 2pt;
     line-height: 1.4;
   }
+  .page-support .support-meta {
+    font-size: 7.5pt;
+    color: var(--muted);
+  }
+  .page-support .support-why {
+    font-size: 7.5pt;
+    font-style: italic;
+    color: var(--muted);
+  }
 
   /* ---- GROCERY ---- */
   .page-grocery .grocery-cols {
@@ -2326,6 +2347,50 @@ a:hover { text-decoration: underline; }
     color: var(--muted);
     margin-top: 2pt;
   }
+  .page-parenting .present-parent-note {
+    font-family: var(--narrative);
+    font-size: 6.5pt;
+    color: var(--muted);
+    text-align: center;
+    margin-top: 6pt;
+    font-style: italic;
+  }
+
+  /* ---- NUTRITION ---- */
+  .page-nutrition {
+    font-size: 8pt;
+    line-height: 1.5;
+  }
+  .page-nutrition .nutrition-summary {
+    font-family: var(--narrative);
+    font-size: 8pt;
+    line-height: 1.55;
+    color: var(--ink);
+    border-left: 2pt solid var(--sage);
+    padding-left: 8pt;
+    margin: 4pt 0 8pt;
+  }
+  .page-nutrition .nutrition-list {
+    margin: 0 0 6pt 0;
+    padding-left: 11pt;
+  }
+  .page-nutrition .nutrition-list li {
+    font-family: var(--narrative);
+    font-size: 7.5pt;
+    line-height: 1.4;
+    margin-bottom: 1.5pt;
+  }
+  .page-nutrition .nutrition-primer {
+    font-family: var(--narrative);
+    font-size: 7pt;
+    line-height: 1.4;
+    color: var(--muted);
+    border-top: 0.5pt solid var(--rule);
+    padding-top: 4pt;
+  }
+  .page-nutrition .nutrition-primer p {
+    margin: 0 0 3pt;
+  }
 
   /* ---- STOIC GUIDE ---- */
   .page-stoic {
@@ -2512,19 +2577,16 @@ a:hover { text-decoration: underline; }
   /* ---- Story pages (multi-page) ---- */
   .page-story .story-title {
     font-family: var(--hero);
-    font-size: 14pt;
+    font-size: 13pt;
     font-weight: 400;
-    text-align: center;
-    margin-bottom: 3pt;
+    text-align: left;
+    margin-bottom: 5pt;
+    padding-bottom: 3pt;
+    border-bottom: 0.5pt solid var(--rule);
     color: var(--ink);
   }
   .page-story .story-title::after {
-    content: "";
-    display: block;
-    width: 30pt;
-    height: 0.5pt;
-    background: var(--ochre);
-    margin: 6pt auto 8pt;
+    content: none;
   }
   .page-story .story-text {
     font-family: var(--narrative);
@@ -2543,20 +2605,19 @@ a:hover { text-decoration: underline; }
     text-indent: 0;
   }
   .page-story-first .story-text p:first-child::first-letter {
-    font-family: var(--hero);
-    font-size: 14pt;
-    font-weight: 500;
-    color: var(--oxblood);
+    font: inherit;
+    color: inherit;
   }
   .page-story .story-prompt {
     font-family: var(--narrative);
     font-size: 7.5pt;
     font-style: italic;
-    color: var(--ochre);
-    margin-top: 10pt;
-    text-align: center;
-    padding-top: 4pt;
-    border-top: 0.5pt solid var(--rule);
+    color: var(--ink);
+    margin-top: 8pt;
+    text-align: left;
+    padding: 4pt 6pt;
+    background: #f7f5f0;
+    border-left: 2pt solid var(--ochre);
   }
   .page-back .notes-section {
     text-align: left;
@@ -2625,7 +2686,7 @@ a:hover { text-decoration: underline; }
 
 
 
-<div class="page page-cover">
+<div class="page page-cover" data-section-id="cover" data-source-path="week_range" data-fit="bounded">
   <h1>The Corbiani Almanac</h1>
   <div class="week-range">April 19 – 25, 2026</div>
   <div class="divider"></div>
@@ -2636,7 +2697,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-glance">
+<div class="page page-glance" data-section-id="week_at_a_glance" data-source-path="days" data-fit="bounded">
   <div class="page-header">Overview</div>
   <h2 class="section-header">Week at a Glance</h2>
   <table>
@@ -2705,7 +2766,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-divider">
+<div class="page page-divider" data-section-id="daily_plan" data-section-instance="divider">
   <div class="divider-title">Daily Plan</div>
   <div class="divider-rule"></div>
   <div class="divider-sub">From Italian-American to Mexican, with Michael Kiwanuka on the stereo</div>
@@ -2715,7 +2776,7 @@ a:hover { text-decoration: underline; }
 
 
 
-<div class="page page-day page-day-left">
+<div class="page page-day page-day-left" data-section-id="daily_plan" data-section-instance="sunday" data-source-path="days[0]" data-fit="bounded">
   <div class="page-header">Daily Plan</div>
   
   <div class="weather-line">Dense drizzle 63°/44° · likely rain</div>
@@ -2751,7 +2812,7 @@ a:hover { text-decoration: underline; }
 
   
   
-  <div class="recipe-inline-block">
+  <div class="recipe-inline-block" data-section-id="daily_recipe_cards" data-section-instance="sunday" data-source-path="days[0].recipe_card" data-fit="bounded">
     
     <div class="recipe-source-line"><a href="https://www.seriouseats.com/the-best-italian-american-tomato-sauce-recipe"></a> · 6 servings · Prep 45 min · Cook 4 hr</div>
     
@@ -2784,7 +2845,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-principles">
+<div class="page page-day page-day-principles" data-section-id="daily_principles" data-section-instance="sunday" data-source-path="principles_data.daily_entries[0]" data-fit="bounded">
   <div class="page-header">Sunday, April 19 · Principles</div>
 
   
@@ -2828,11 +2889,11 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-right">
+<div class="page page-day page-day-right" data-section-id="daily_plan" data-section-instance="sunday-album" data-source-path="days[0]" data-fit="bounded">
   <div class="page-header">Sunday, April 19</div>
 
   
-  <div class="elevation-block">
+  <div class="elevation-block" data-section-id="daily_chef_tips" data-section-instance="sunday" data-source-path="days[0].dinner_elevation_tips" data-fit="bounded">
     <h4>Chef's Tips</h4>
     
     <div class="elevation-tip">
@@ -2867,7 +2928,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-left">
+<div class="page page-day page-day-left" data-section-id="daily_plan" data-section-instance="monday" data-source-path="days[1]" data-fit="bounded">
   <div class="page-header">Daily Plan</div>
   
   <div class="weather-line">Sunny 52°/41° · coldest day</div>
@@ -2909,7 +2970,7 @@ a:hover { text-decoration: underline; }
 
   
   
-  <div class="recipe-inline-block">
+  <div class="recipe-inline-block" data-section-id="daily_recipe_cards" data-section-instance="monday" data-source-path="days[1].recipe_card" data-fit="bounded">
     
     <div class="recipe-source-line"><a href="https://www.bonappetit.com/recipe/grilled-steak-and-romaine-salad"></a> · 3 servings · Prep 15 min + all-day dry brine · Cook 15 min</div>
     
@@ -2942,7 +3003,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-principles">
+<div class="page page-day page-day-principles" data-section-id="daily_principles" data-section-instance="monday" data-source-path="principles_data.daily_entries[1]" data-fit="bounded">
   <div class="page-header">Monday, April 20 · Principles</div>
 
   
@@ -2974,11 +3035,11 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-right">
+<div class="page page-day page-day-right" data-section-id="daily_plan" data-section-instance="monday-album" data-source-path="days[1]" data-fit="bounded">
   <div class="page-header">Monday, April 20</div>
 
   
-  <div class="elevation-block">
+  <div class="elevation-block" data-section-id="daily_chef_tips" data-section-instance="monday" data-source-path="days[1].dinner_elevation_tips" data-fit="bounded">
     <h4>Chef's Tips</h4>
     
     <div class="elevation-tip">
@@ -3013,7 +3074,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-left">
+<div class="page page-day page-day-left" data-section-id="daily_plan" data-section-instance="tuesday" data-source-path="days[2]" data-fit="bounded">
   <div class="page-header">Daily Plan</div>
   
   <div class="weather-line">Sunny 61°/34°</div>
@@ -3067,7 +3128,7 @@ a:hover { text-decoration: underline; }
 
   
   
-  <div class="recipe-inline-block">
+  <div class="recipe-inline-block" data-section-id="daily_recipe_cards" data-section-instance="tuesday" data-source-path="days[2].recipe_card" data-fit="bounded">
     
     <div class="recipe-source-line"><a href="https://food52.com/recipes/87659-best-spinach-pasta-recipe"></a> · 4 servings · Prep 45 min + 30 min rest · Cook 10 min</div>
     
@@ -3100,7 +3161,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-principles">
+<div class="page page-day page-day-principles" data-section-id="daily_principles" data-section-instance="tuesday" data-source-path="principles_data.daily_entries[2]" data-fit="bounded">
   <div class="page-header">Tuesday, April 21 · Principles</div>
 
   
@@ -3132,11 +3193,11 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-right">
+<div class="page page-day page-day-right" data-section-id="daily_plan" data-section-instance="tuesday-album" data-source-path="days[2]" data-fit="bounded">
   <div class="page-header">Tuesday, April 21</div>
 
   
-  <div class="elevation-block">
+  <div class="elevation-block" data-section-id="daily_chef_tips" data-section-instance="tuesday" data-source-path="days[2].dinner_elevation_tips" data-fit="bounded">
     <h4>Chef's Tips</h4>
     
     <div class="elevation-tip">
@@ -3171,7 +3232,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-left">
+<div class="page page-day page-day-left" data-section-id="daily_plan" data-section-instance="wednesday" data-source-path="days[3]" data-fit="bounded">
   <div class="page-header">Daily Plan</div>
   
   <div class="weather-line">Moderate drizzle 66°/50°</div>
@@ -3213,7 +3274,7 @@ a:hover { text-decoration: underline; }
 
   
   
-  <div class="recipe-inline-block">
+  <div class="recipe-inline-block" data-section-id="daily_recipe_cards" data-section-instance="wednesday" data-source-path="days[3].recipe_card" data-fit="bounded">
     
     <div class="recipe-source-line"><a href="https://thewoksoflife.com/sesame-noodles-with-chicken/"></a> · 4 servings · Prep 15 min · Cook 20 min</div>
     
@@ -3246,7 +3307,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-principles">
+<div class="page page-day page-day-principles" data-section-id="daily_principles" data-section-instance="wednesday" data-source-path="principles_data.daily_entries[3]" data-fit="bounded">
   <div class="page-header">Wednesday, April 22 · Principles</div>
 
   
@@ -3278,11 +3339,11 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-right">
+<div class="page page-day page-day-right" data-section-id="daily_plan" data-section-instance="wednesday-album" data-source-path="days[3]" data-fit="bounded">
   <div class="page-header">Wednesday, April 22</div>
 
   
-  <div class="elevation-block">
+  <div class="elevation-block" data-section-id="daily_chef_tips" data-section-instance="wednesday" data-source-path="days[3].dinner_elevation_tips" data-fit="bounded">
     <h4>Chef's Tips</h4>
     
     <div class="elevation-tip">
@@ -3317,7 +3378,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-left">
+<div class="page page-day page-day-left" data-section-id="daily_plan" data-section-instance="thursday" data-source-path="days[4]" data-fit="bounded">
   <div class="page-header">Daily Plan</div>
   
   <div class="weather-line">Sunny 73°/51°</div>
@@ -3365,7 +3426,7 @@ a:hover { text-decoration: underline; }
 
   
   
-  <div class="recipe-inline-block">
+  <div class="recipe-inline-block" data-section-id="daily_recipe_cards" data-section-instance="thursday" data-source-path="days[4].recipe_card" data-fit="bounded">
     
     <div class="recipe-source-line"><a href="https://www.kingarthurbaking.com/recipes/neapolitan-style-pizza-crust-recipe"></a> · 4 servings · Prep 20 min + 24-72 hr cold ferment · Cook 8 min per pizza</div>
     
@@ -3398,7 +3459,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-principles">
+<div class="page page-day page-day-principles" data-section-id="daily_principles" data-section-instance="thursday" data-source-path="principles_data.daily_entries[4]" data-fit="bounded">
   <div class="page-header">Thursday, April 23 · Principles</div>
 
   
@@ -3430,11 +3491,11 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-right">
+<div class="page page-day page-day-right" data-section-id="daily_plan" data-section-instance="thursday-album" data-source-path="days[4]" data-fit="bounded">
   <div class="page-header">Thursday, April 23</div>
 
   
-  <div class="elevation-block">
+  <div class="elevation-block" data-section-id="daily_chef_tips" data-section-instance="thursday" data-source-path="days[4].dinner_elevation_tips" data-fit="bounded">
     <h4>Chef's Tips</h4>
     
     <div class="elevation-tip">
@@ -3469,7 +3530,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-left">
+<div class="page page-day page-day-left" data-section-id="daily_plan" data-section-instance="friday" data-source-path="days[5]" data-fit="bounded">
   <div class="page-header">Daily Plan</div>
   
   <div class="weather-line">Light drizzle 79°/57° · warmest day</div>
@@ -3517,7 +3578,7 @@ a:hover { text-decoration: underline; }
 
   
   
-  <div class="recipe-inline-block">
+  <div class="recipe-inline-block" data-section-id="daily_recipe_cards" data-section-instance="friday" data-source-path="days[5].recipe_card" data-fit="bounded">
     
     <div class="recipe-source-line"><a href="https://www.bonappetit.com/recipe/whole-roasted-branzino"></a> · 3 servings · Prep 15 min · Cook 40 min</div>
     
@@ -3550,7 +3611,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-principles">
+<div class="page page-day page-day-principles" data-section-id="daily_principles" data-section-instance="friday" data-source-path="principles_data.daily_entries[5]" data-fit="bounded">
   <div class="page-header">Friday, April 24 · Principles</div>
 
   
@@ -3582,11 +3643,11 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-right">
+<div class="page page-day page-day-right" data-section-id="daily_plan" data-section-instance="friday-album" data-source-path="days[5]" data-fit="bounded">
   <div class="page-header">Friday, April 24</div>
 
   
-  <div class="elevation-block">
+  <div class="elevation-block" data-section-id="daily_chef_tips" data-section-instance="friday" data-source-path="days[5].dinner_elevation_tips" data-fit="bounded">
     <h4>Chef's Tips</h4>
     
     <div class="elevation-tip">
@@ -3621,7 +3682,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-left">
+<div class="page page-day page-day-left" data-section-id="daily_plan" data-section-instance="saturday" data-source-path="days[6]" data-fit="bounded">
   <div class="page-header">Daily Plan</div>
   
   <div class="weather-line">Sunny 70°/51° · chance of rain</div>
@@ -3657,7 +3718,7 @@ a:hover { text-decoration: underline; }
 
   
   
-  <div class="recipe-inline-block">
+  <div class="recipe-inline-block" data-section-id="daily_recipe_cards" data-section-instance="saturday" data-source-path="days[6].recipe_card" data-fit="bounded">
     
     <div class="recipe-source-line"><a href="https://cooking.nytimes.com/recipes/1018489-ground-beef-tacos"></a> · 2 + leftovers servings · Prep 20 min · Cook 20 min</div>
     
@@ -3690,7 +3751,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-principles">
+<div class="page page-day page-day-principles" data-section-id="daily_principles" data-section-instance="saturday" data-source-path="principles_data.daily_entries[6]" data-fit="bounded">
   <div class="page-header">Saturday, April 25 · Principles</div>
 
   
@@ -3724,11 +3785,11 @@ a:hover { text-decoration: underline; }
 </div>
 
 
-<div class="page page-day page-day-right">
+<div class="page page-day page-day-right" data-section-id="daily_plan" data-section-instance="saturday-album" data-source-path="days[6]" data-fit="bounded">
   <div class="page-header">Saturday, April 25</div>
 
   
-  <div class="elevation-block">
+  <div class="elevation-block" data-section-id="daily_chef_tips" data-section-instance="saturday" data-source-path="days[6].dinner_elevation_tips" data-fit="bounded">
     <h4>Chef's Tips</h4>
     
     <div class="elevation-tip">
@@ -3765,33 +3826,160 @@ a:hover { text-decoration: underline; }
 
 
 
-<div class="page page-divider">
+<div class="page page-divider" data-section-id="supporting_menu" data-section-instance="divider">
   <div class="divider-title">Kitchen & Pantry</div>
   <div class="divider-rule"></div>
   <div class="divider-sub">Appetizers, salads, and beverages</div>
-  <div class="page-folio">32</div>
+  <div class="page-folio">25</div>
 </div>
 
 
 
 
-<div class="page page-support">
+<div class="page page-grocery" data-section-id="grocery_prep" data-section-instance="grocery-prep" data-source-path="grocery_list" data-fit="bounded">
+  <div class="page-header">Kitchen & Pantry</div>
+  <h2 class="section-header">Grocery & Prep</h2>
+
+  
+  <div class="grocery-cols">
+    
+    <div class="g-cat">
+      <h4>Produce</h4>
+      <ul>
+        
+        <li>baby spinach (2 lbs — for Babo pasta + Sunday gravy wilted greens)</li>
+        
+        <li>romaine hearts (3)</li>
+        
+        <li>English cucumbers (3)</li>
+        
+        <li>Persian cucumbers (6)</li>
+        
+        <li>red onions (2)</li>
+        
+        <li>avocados (6)</li>
+        
+      </ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Protein</h4>
+      <ul>
+        
+        <li>pork spare ribs (2-3 lbs) — Sun gravy</li>
+        
+        <li>Italian sausage, sweet (1 lb) — Sun gravy</li>
+        
+        <li>ground beef 80/20 (2 lbs) — Sun meatballs + Sat tacos</li>
+        
+        <li>ground pork (1/2 lb) — Sun meatballs</li>
+        
+        <li>ribeye or NY strip (2, ~12 oz each) — Mon</li>
+        
+        <li>2 whole branzino, scaled & gutted — Fri</li>
+        
+      </ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Dairy & Eggs</h4>
+      <ul>
+        
+        <li>eggs (18 — Babo pasta needs 12-16 yolks)</li>
+        
+        <li>fresh mozzarella (2 balls)</li>
+        
+        <li>Parmigiano-Reggiano (wedge)</li>
+        
+        <li>ricotta (1 container)</li>
+        
+        <li>ricotta salata (small piece)</li>
+        
+        <li>feta (1 block)</li>
+        
+      </ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Pantry & Grains</h4>
+      <ul>
+        
+        <li>00 flour (2 lbs)</li>
+        
+        <li>semolina (1 lb)</li>
+        
+        <li>bread flour (5 lbs for pizza)</li>
+        
+        <li>instant yeast</li>
+        
+        <li>coarse polenta (1 lb)</li>
+        
+        <li>thin wheat noodles or lo mein (2 packs)</li>
+        
+      </ul>
+    </div>
+    
+    <div class="g-cat">
+      <h4>Beverages</h4>
+      <ul>
+        
+        <li>sparkling water (6-pack)</li>
+        
+        <li>ginger-lime kombucha (4-pack)</li>
+        
+        <li>Chianti Classico (1 bottle)</li>
+        
+      </ul>
+    </div>
+    
+  </div>
+  
+
+  
+  <h3 class="subsection-label">Prep Ahead</h3>
+  <ol class="prep-list">
+    
+    <li>Saturday (today): pull pork ribs & sausage from freezer to thaw for Sunday gravy.</li>
+    
+    <li>Saturday: make pizza dough for Thursday (cold ferment 72 hrs in fridge).</li>
+    
+    <li>Sunday evening: make meatballs & portion extra gravy; freeze half for next month.</li>
+    
+    <li>Monday morning: temper steak 2 hours before 8 PM dinner.</li>
+    
+    <li>Tuesday morning: make Babo pasta dough with Elsie (she's home); rest in fridge until 5 PM.</li>
+    
+    <li>Wednesday: grocery run for dumpling restock + fish order for Friday branzino.</li>
+    
+    <li>Thursday morning: pull pizza dough from fridge 2 hours before dinner to come to room temp.</li>
+    
+    <li>Friday: pick up branzino from fishmonger, ask them to scale + gut.</li>
+    
+  </ol>
+  
+  <div class="page-folio">26</div>
+</div>
+
+
+
+
+<div class="page page-support" data-section-id="supporting_menu" data-section-instance="appetizers-salads" data-fit="bounded">
   <div class="page-header">Kitchen & Pantry</div>
   
   <h2 class="section-header">Appetizers</h2>
   
   <h3>Whipped Ricotta with Spring Peas & Mint on Crostini</h3>
   <p>Creamy whipped ricotta on grilled baguette topped with smashed spring peas, mint, lemon zest, and flaky salt.</p>
-  
+   
   
   <h3>Charred Scallion & Soy Dipping Sauce with Crispy Wontons</h3>
   <p>Crisp-fried wonton wrappers with a smoky charred-scallion, soy, sesame, and chili-crisp dip — perfect Wednesday starter or pizza-night add-on.</p>
-  
+   
   
   
 
   
-  <h2 class="section-header" style="margin-top:10pt;">Salads</h2>
+   <h2 class="section-header section-header-spaced">Salads</h2>
   
   <div class="salad-entry">
     <div class="type-label">composed dinner</div>
@@ -3826,39 +4014,39 @@ a:hover { text-decoration: underline; }
   </div>
   
   
-  <div class="page-folio">33</div>
+  <div class="page-folio">27</div>
 </div>
 
 
 
 
-<div class="page page-support">
+<div class="page page-support" data-section-id="supporting_menu" data-section-instance="beverages" data-fit="bounded">
   <div class="page-header">Kitchen & Pantry</div>
   <h2 class="section-header">Beverage Pairings</h2>
   
   <h3>Lemon-Basil Sparkling Water</h3>
   <p>Fresh lemon and torn basil muddled into sparkling water — crisp and family-friendly.</p>
-  
+   
   
   <h3>Ginger-Lime Kombucha Spritz</h3>
   <p>Ginger-lime kombucha over ice with extra lime wedges — gut-friendly and gently sparkling.</p>
-  
+   
   
   <h3>Chianti Classico (Dan & Laura)</h3>
   <p>A bright, cherry-forward Chianti Classico for the Italian dinners.</p>
+   
   
-  
-  <div class="page-folio">34</div>
+  <div class="page-folio">28</div>
 </div>
 
 
 
 
-<div class="page page-divider">
+<div class="page page-divider" data-section-id="family_parenting" data-section-instance="divider">
   <div class="divider-title">Family Corner</div>
   <div class="divider-rule"></div>
   <div class="divider-sub">Conversation starters, parenting nudges, and connection ideas</div>
-  <div class="page-folio">35</div>
+  <div class="page-folio">29</div>
 </div>
 
 
@@ -3868,7 +4056,7 @@ a:hover { text-decoration: underline; }
 
 
 
-<div class="page page-parenting">
+<div class="page page-parenting" data-section-id="family_parenting" data-section-instance="questions-1" data-source-path="parenting_data.dinner_questions" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Parenting Corner</h2>
   
@@ -3879,32 +4067,32 @@ a:hover { text-decoration: underline; }
   
 
   
-  <div class="page-folio">36</div>
+  <div class="page-folio">30</div>
 </div>
 
 
-<div class="page page-parenting">
+<div class="page page-parenting" data-section-id="family_parenting" data-section-instance="questions-2" data-source-path="parenting_data.dinner_questions" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Conversation Starters (continued)</h2>
   
-  <div class="page-folio">37</div>
+  <div class="page-folio">31</div>
 </div>
 
 
 
 
-<div class="page page-parenting">
+<div class="page page-parenting" data-section-id="family_parenting" data-section-instance="nudges-1" data-source-path="parenting_data.nudges" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Nudges</h2>
   
-  <div class="page-folio">38</div>
+  <div class="page-folio">32</div>
 </div>
 
 
 
 
 
-<div class="page page-parenting">
+<div class="page page-parenting" data-section-id="family_parenting" data-section-instance="connection" data-source-path="parenting_data.connection_ritual" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Connection & Reading</h2>
 
@@ -3920,11 +4108,11 @@ a:hover { text-decoration: underline; }
 
   
 
-  <div class="page-folio">39</div>
+  <div class="page-folio">33</div>
 </div>
 
 
-<div class="page page-parenting">
+<div class="page page-parenting" data-section-id="family_parenting" data-section-instance="reflection" data-source-path="parenting_data.parent_reflection" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Reflection</h2>
 
@@ -3934,15 +4122,15 @@ a:hover { text-decoration: underline; }
   </div>
   
 
-  <p style="font-size:6.5pt;color:#6b6b6b;text-align:center;margin-top:6pt;font-style:italic;">You don't need to be a perfect parent — just a present one.</p>
-  <div class="page-folio">40</div>
+  <p class="present-parent-note">You don't need to be a perfect parent — just a present one.</p>
+  <div class="page-folio">34</div>
 </div>
 
 
 
 
 
-<div class="page page-stoic">
+<div class="page page-stoic" data-section-id="stoic_guide" data-section-instance="intro" data-source-path="stoic_data" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">The Stoic Guide</h2>
   <div class="stoic-theme-banner">
@@ -3971,17 +4159,7 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
     
   </div>
   
-  <div class="meditation-entry">
-    <span class="meditation-day">Monday</span>
-    <span class="meditation-title">What a Roof Is For</span>
-    <div class="meditation-reflection">A full Monday of meetings and a post-on-call decompression. Steak, a romaine salad with cucumber and avocado, a simple table. Tonight the house does one simple thing — it keeps the rain off people who are tired. Epicurus divided desires: natural and necessary (shelter from weather, food to fuel a learning brain, a place to rest), natural but not necessary (a dining room twice this size), and neither natural nor necessary (a house that impresses the neighbors you do not yet have). The busy workday is teaching you about a model; the evening is teaching you about a model too — of what a home is actually for. Protection, nourishment, recovery. The rest is decoration. Decoration is lovely. But you do not need more decoration to feel safe.</div>
-    <div class="meditation-prompt">After dinner, write a three-line description of what your house has done for you today. Use only verbs. Notice how short the real list is.</div>
-    
-    <div class="meditation-secondary-quote">"Nothing is enough for the man to whom enough is too little." — Epicurus, quoted in Seneca, Letters 9.20</div>
-    
-  </div>
-  
-  <div class="page-folio">41</div>
+  <div class="page-folio">35</div>
 </div>
 
 
@@ -3992,10 +4170,20 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
 
 
 
-<div class="page page-stoic">
+<div class="page page-stoic" data-section-id="stoic_guide" data-section-instance="meditations-1" data-source-path="stoic_data.meditations" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Reflections & Practice</h2>
 
+  
+  <div class="meditation-entry">
+    <span class="meditation-day">Monday</span>
+    <span class="meditation-title">What a Roof Is For</span>
+    <div class="meditation-reflection">A full Monday of meetings and a post-on-call decompression. Steak, a romaine salad with cucumber and avocado, a simple table. Tonight the house does one simple thing — it keeps the rain off people who are tired. Epicurus divided desires: natural and necessary (shelter from weather, food to fuel a learning brain, a place to rest), natural but not necessary (a dining room twice this size), and neither natural nor necessary (a house that impresses the neighbors you do not yet have). The busy workday is teaching you about a model; the evening is teaching you about a model too — of what a home is actually for. Protection, nourishment, recovery. The rest is decoration. Decoration is lovely. But you do not need more decoration to feel safe.</div>
+    <div class="meditation-prompt">After dinner, write a three-line description of what your house has done for you today. Use only verbs. Notice how short the real list is.</div>
+    
+    <div class="meditation-secondary-quote">"Nothing is enough for the man to whom enough is too little." — Epicurus, quoted in Seneca, Letters 9.20</div>
+    
+  </div>
   
   <div class="meditation-entry">
     <span class="meditation-day">Tuesday</span>
@@ -4017,6 +4205,17 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
     
   </div>
   
+  <div class="page-folio">36</div>
+</div>
+
+
+
+
+<div class="page page-stoic" data-section-id="stoic_guide" data-section-instance="meditations-2" data-source-path="stoic_data.meditations" data-fit="bounded">
+  <div class="page-header">Family Corner</div>
+  <h2 class="section-header">Reflections & Practice</h2>
+
+  
   <div class="meditation-entry">
     <span class="meditation-day">Thursday</span>
     <span class="meditation-title">What Work Is Worth</span>
@@ -4026,17 +4225,6 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
     <div class="meditation-secondary-quote">"At dawn, when you have trouble getting out of bed, tell yourself: I have to go to work — as a human being." — Marcus Aurelius, Meditations 5.1</div>
     
   </div>
-  
-  <div class="page-folio">42</div>
-</div>
-
-
-
-
-<div class="page page-stoic">
-  <div class="page-header">Family Corner</div>
-  <h2 class="section-header">Reflections & Practice</h2>
-
   
   <div class="meditation-entry">
     <span class="meditation-day">Friday</span>
@@ -4058,13 +4246,13 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
     
   </div>
   
-  <div class="page-folio">43</div>
+  <div class="page-folio">37</div>
 </div>
 
 
 
 
-<div class="page page-stoic">
+<div class="page page-stoic" data-section-id="stoic_guide" data-section-instance="practice" data-source-path="stoic_data.family_exercise" data-fit="bounded">
   <div class="page-header">Family Corner</div>
   <h2 class="section-header">Practice Together</h2>
 
@@ -4088,18 +4276,18 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
   <div class="closing-thought">The house you might buy will have a number on it. The house you live in — the real one, built out of pasta nights and rainy dumplings and tacos with dad — has no price at all. Stay close to that one. Whatever the market decides, the measure of enough has already been taken.</div>
   
 
-  <div class="page-folio">44</div>
+  <div class="page-folio">38</div>
 </div>
 
 
 
 
 
-<div class="page page-divider">
+<div class="page page-divider" data-section-id="weekly_read" data-section-instance="divider">
   <div class="divider-title">The Weekly Read</div>
   <div class="divider-rule"></div>
   <div class="divider-sub">3 articles clipped · Themes, reflections, and something fun</div>
-  <div class="page-folio">45</div>
+  <div class="page-folio">39</div>
 </div>
 
 
@@ -4151,7 +4339,7 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
 
 
 
-<div class="page page-newsletter">
+<div class="page page-newsletter" data-section-id="weekly_read" data-section-instance="cluster-1" data-source-path="newsletter_data.clusters" data-fit="bounded">
   <div class="page-header">The Weekly Read</div>
 
   
@@ -4164,10 +4352,10 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
   
   
 
-  <div class="page-folio">46</div>
+  <div class="page-folio">40</div>
 </div>
 
-<div class="page page-newsletter">
+<div class="page page-newsletter" data-section-id="weekly_read" data-section-instance="cluster-2" data-source-path="newsletter_data.clusters" data-fit="bounded">
   <div class="page-header">The Weekly Read</div>
 
   
@@ -4180,10 +4368,10 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
   
   
 
-  <div class="page-folio">47</div>
+  <div class="page-folio">41</div>
 </div>
 
-<div class="page page-newsletter">
+<div class="page page-newsletter" data-section-id="weekly_read" data-section-instance="cluster-3" data-source-path="newsletter_data.clusters" data-fit="bounded">
   <div class="page-header">The Weekly Read</div>
 
   
@@ -4214,6 +4402,205 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
   </ul>
   
 
+  <div class="page-folio">42</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="page page-newsletter" data-section-id="weekly_read" data-section-instance="cluster-1" data-source-path="newsletter_data.clusters" data-fit="bounded">
+  <div class="page-header">The Weekly Read</div>
+
+  
+  <h3 class="cluster-theme">Supplement Deep Dive: Collagen & Creatine</h3>
+  
+  
+  <div class="cluster-synthesis">
+    <p>Two of the most-researched, least-glamorous supplements in the longevity conversation — and the evidence on both is finally concrete enough to talk about without hedging. Worth a longer look because the incremental gains, stacked across decades, are the kind of compounding that makes a real difference in how your sixties feel.</p><p>**Collagen peptides, and why the brand on the label matters.** Ordinary 'hydrolyzed collagen' is a commodity; the research evidence sits on a handful of *specific* peptide formulations engineered by the German manufacturer GELITA, each with its own clinical dossier. FORTIBONE® is the bone-health formulation. The landmark trial (König et al., *Nutrients*, 2018) randomized 131 postmenopausal women to 5g/day of FORTIBONE® or placebo for 12 months; the treated group saw statistically significant gains in bone mineral density at both the spine and femoral neck, along with favorable shifts in bone-turnover markers. Mechanistically, the specific peptide fragments appear to signal osteoblasts to lay down more type-I collagen matrix while dampening osteoclast-driven resorption. FORTIGEL® is the cartilage/joint formulation — trials in knee and activity-related joint pain show reduced discomfort over 12–24 weeks at ~10g/day. VERISOL® is the skin formulation (elasticity, hydration, wrinkle depth) at 2.5g/day. TENDOFORTE® targets ligaments and tendons and is the one athletes and weekend warriors reach for after an ankle tweak. The key insight: these are not interchangeable. A generic bovine collagen tub at Costco is fine protein, but it is not FORTIBONE®, and you should not expect the König trial outcome from it. If bone density is the goal — and for a woman in her forties planning for her seventies, it probably should be — look for the FORTIBONE® mark on the label of whichever retail brand carries it (Vital Proteins Bone Broth Collagen, some AlgaeCal formulations, several European brands).</p>
+  </div>
+  
+  
+
+  <div class="page-folio">43</div>
+</div>
+
+<div class="page page-newsletter" data-section-id="weekly_read" data-section-instance="cluster-2" data-source-path="newsletter_data.clusters" data-fit="bounded">
+  <div class="page-header">The Weekly Read</div>
+
+  
+  <h3 class="cluster-theme cluster-theme-cont">Supplement Deep Dive: Collagen & Creatine <span class="cluster-cont">(continued)</span></h3>
+  
+  
+  <div class="cluster-synthesis">
+    <p>**Creatine: the newer forms are a marketing story.** The International Society of Sports Nutrition position stand (Kreider et al., 2017) remains the cleanest summary: creatine monohydrate is the most-studied, cheapest, and most effective form. Creatine HCl is more soluble and marginally easier on sensitive stomachs, but head-to-head trials show no superior muscle saturation or performance outcome — the 'smaller dose works the same' claim is not well supported. Creatine ethyl ester is actively *worse*: it degrades to creatinine in the stomach and raises muscle creatine less effectively than monohydrate. Dosing is simple: 3–5g/day, every day, any time. The classic loading phase (20g/day for a week) gets you to saturation faster but isn't strictly necessary. Beyond the well-known strength, lean-mass, and high-intensity-output benefits, the cognitive literature has matured. A 2023 systematic review and meta-analysis (Prokopidis et al., *Nutrition Reviews*) found small but consistent improvements in memory in healthy adults, with stronger effects in older adults, vegetarians, and the sleep-deprived — populations whose baseline brain creatine is lower. Early work is exploring higher doses (10g+) for mood and cognitive resilience under stress, though the ISSN still anchors the evidence-based dose at 3–5g.</p>
+  </div>
+  
+  
+
+  <div class="page-folio">44</div>
+</div>
+
+<div class="page page-newsletter" data-section-id="weekly_read" data-section-instance="cluster-3" data-source-path="newsletter_data.clusters" data-fit="bounded">
+  <div class="page-header">The Weekly Read</div>
+
+  
+  <h3 class="cluster-theme cluster-theme-cont">Supplement Deep Dive: Collagen & Creatine <span class="cluster-cont">(continued)</span></h3>
+  
+  
+  <div class="cluster-synthesis">
+    <p>**The pragmatic stack.** Nobody has run a large RCT on collagen + creatine together, but the mechanisms are complementary and non-overlapping: creatine works intracellularly in muscle and brain; collagen peptides work as signaling fragments for connective-tissue fibroblasts and osteoblasts. There's a timing wrinkle worth knowing. Keith Baar's group at UC Davis showed that tendon collagen synthesis spikes when peptides (plus ~50mg vitamin C) arrive in the bloodstream 30–60 minutes *before* mechanical loading — so if you lift, run, or play a sport, taking collagen pre-workout targets the connective tissue that's about to be stressed. Creatine is dose-loading agnostic; daily consistency matters far more than timing, so pick whichever meal makes you reliably take it. A workable protocol for an active adult aiming at musculoskeletal resilience: **10g FORTIBONE®- or FORTIGEL®-specified collagen + 50mg vitamin C, 30–60 minutes before exercise; 5g creatine monohydrate with any meal, daily, forever.** Budget: under $30/month. Upside: thicker bones, quieter joints, stronger quads, and a slightly sharper brain on the days you didn't sleep enough. The evidence is unglamorous, the scoop is boring, and the decade-over-decade compounding is the entire point.</p>
+  </div>
+  
+  
+  <ul class="article-list">
+  
+    <li>
+      <span class="article-title">Specific Collagen Peptides Improve Bone Mineral Density in Postmenopausal Women</span>
+      <span class="article-tags">(collagen, bone-health, fortibone, rct)</span>
+      <span class="article-oneliner">König et al. (2018) — the FORTIBONE® landmark trial: 5g/day for 12 months, measurable BMD gains at spine and femoral neck.</span>
+    </li>
+  
+    <li>
+      <span class="article-title">ISSN Position Stand: Safety and Efficacy of Creatine Supplementation</span>
+      <span class="article-tags">(creatine, position-stand, evidence)</span>
+      <span class="article-oneliner">Kreider et al. (2017) — still the cleanest authoritative summary: monohydrate wins, 3–5g/day, loading optional.</span>
+    </li>
+  
+    <li>
+      <span class="article-title">Collagen Supplementation & Tendon/Ligament Health</span>
+      <span class="article-tags">(collagen, tendons, timing, baar)</span>
+      <span class="article-oneliner">Shaw & Baar (2017) — the study behind the 'pre-workout with vitamin C' collagen timing protocol.</span>
+    </li>
+  
+    <li>
+      <span class="article-title">Effects of Creatine Supplementation on Memory in Healthy Individuals</span>
+      <span class="article-tags">(creatine, cognition, meta-analysis)</span>
+      <span class="article-oneliner">Prokopidis et al. (2023) — meta-analysis showing small-but-real memory benefits, strongest in older adults and the sleep-deprived.</span>
+    </li>
+  
+  </ul>
+  
+
+  <div class="page-folio">45</div>
+</div>
+
+
+
+
+
+<div class="page page-newsletter" data-section-id="weekly_read" data-section-instance="closing" data-source-path="newsletter_data.reflections" data-fit="bounded">
+  <div class="page-header">The Weekly Read</div>
+
+
+  <div class="through-line">
+    <strong>The Through-Line:</strong> This week's theme is valuing what actually matters, and the reading lands on either side of that question in instructive ways. The AI pieces are about leverage — tools that amplify whoever is already inside them, and the quiet cost of mistaking speed for craft. The supplement research is about the opposite kind of leverage: five grams a day, for thirty years, in service of a sixty-five-year-old self who can still carry groceries up the stairs and remember the grandchildren's names. Both are bets on compounding. Neither pays off if you optimize for the dopamine hit of the moment — the agent-shipped PR, the pre-workout scoop you took but never actually trained after. The things worth valuing are almost always the ones that ask for patience first and only reward you on a long enough timeline to forget you were waiting.
+  </div>
+
+
+
+  <div class="fun-section">
+    <h3>And Finally… Creatine Is in Herring. Herring!</h3>
+    <p>File under 'things you probably didn't need to know but will now bring up at dinner': the richest natural dietary source of creatine is herring, at roughly 6.5–10 grams per kilogram of flesh — more than beef, more than salmon, more than pork. A large herring fillet delivers close to a gram of the stuff. This is one reason traditional Scandinavian and Baltic diets, heavy on pickled and smoked herring, may have quietly been doing the creatine-loading protocol for centuries without anyone naming it. Vegetarians, by contrast, have roughly 20–30% lower baseline muscle creatine stores, which is part of why supplementation tends to produce larger effects in them. Ask Elsie at dinner: which fish do you think is secretly the strongest? (Correct answer: a small, shiny one that most kids refuse to eat.)</p>
+    
+    <p class="fun-source">Source: <a href="https://pubmed.ncbi.nlm.nih.gov/21394604/">Journal of Agricultural and Food Chemistry</a></p>
+    
+  </div>
+
+
+  <p class="newsletter-footer">3 articles · April 19 – April 25, 2026</p>
+  <div class="page-folio">46</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="page page-nutrition" data-section-id="nutrition" data-section-instance="summary" data-source-path="nutrition_summary" data-fit="bounded">
+  <div class="page-header">Family Health</div>
+  <h2 class="section-header">Nutrition</h2>
+  
+  <div class="nutrition-summary">A strong, protein-diverse week with one major nutritional highlight — Friday's whole branzino delivers a single-meal omega-3 megadose that rescues what would otherwise be a fish-light menu. Bok choy on Wednesday and kale on Friday make this the best dark-green-vegetable week in a month. The family's main weaknesses are familiar: too much refined grain (fix with lunch swaps to farro, quinoa, brown rice), only one seafood dinner (fix with tuna or salmon lunches Mon and Thu), and zero fruit at dinner (fix with berry or fruit-based snacks and treating fruit as the default dessert). Elsie's calcium and iron are well-supported by dinners plus daily snack yogurt/milk. Sodium is the one caution — Wednesday dumplings and Thursday pizza cluster together, so lean lighter on Mon/Fri/Sat. Hydration matters especially Tuesday (swim lessons) and Friday (79°F warm day).</div>
+  
+
+  
+
+  
+
+  
+  <div class="nutrition-primer">
+    
+    
+    <p><strong>Protein:</strong> Protein is the raw material of every tissue you rebuild each day — muscle, skin, enzymes, hormones, immune cells. Adequate intake spread across the day (not front-loaded in one meal) prevents muscle loss in adults, supports growth in kids, and is the single biggest driver of satiety, which is why high-protein meals keep you full longer.</p>
+    
+    <p><strong>Fiber:</strong> Fiber feeds the trillions of beneficial bacteria in your gut, slows glucose absorption to prevent blood-sugar crashes, lowers LDL cholesterol by binding it for excretion, and keeps you regular. Most Americans get half the recommended amount — 25g for women, 35g for men — and the gap is the single most fixable nutritional problem in modern diets.</p>
+    
+    
+  </div>
+  
+  <div class="page-folio">47</div>
+</div>
+
+
+
+
+
+
+
+<div class="page page-divider" data-section-id="bedtime_story" data-section-instance="divider">
+  <div class="divider-title">Bedtime Story</div>
+  <div class="divider-rule"></div>
+  <div class="divider-sub">The Time Daddio Ate a Spoonful of Dirt</div>
   <div class="page-folio">48</div>
 </div>
 
@@ -4268,108 +4655,24 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
 
 
 
-<div class="page page-newsletter">
-  <div class="page-header">The Weekly Read</div>
-
-  
-  <h3 class="cluster-theme">Supplement Deep Dive: Collagen & Creatine</h3>
-  
-  
-  <div class="cluster-synthesis">
-    <p>Two of the most-researched, least-glamorous supplements in the longevity conversation — and the evidence on both is finally concrete enough to talk about without hedging. Worth a longer look because the incremental gains, stacked across decades, are the kind of compounding that makes a real difference in how your sixties feel.</p><p>**Collagen peptides, and why the brand on the label matters.** Ordinary 'hydrolyzed collagen' is a commodity; the research evidence sits on a handful of *specific* peptide formulations engineered by the German manufacturer GELITA, each with its own clinical dossier. FORTIBONE® is the bone-health formulation. The landmark trial (König et al., *Nutrients*, 2018) randomized 131 postmenopausal women to 5g/day of FORTIBONE® or placebo for 12 months; the treated group saw statistically significant gains in bone mineral density at both the spine and femoral neck, along with favorable shifts in bone-turnover markers. Mechanistically, the specific peptide fragments appear to signal osteoblasts to lay down more type-I collagen matrix while dampening osteoclast-driven resorption. FORTIGEL® is the cartilage/joint formulation — trials in knee and activity-related joint pain show reduced discomfort over 12–24 weeks at ~10g/day. VERISOL® is the skin formulation (elasticity, hydration, wrinkle depth) at 2.5g/day. TENDOFORTE® targets ligaments and tendons and is the one athletes and weekend warriors reach for after an ankle tweak. The key insight: these are not interchangeable. A generic bovine collagen tub at Costco is fine protein, but it is not FORTIBONE®, and you should not expect the König trial outcome from it. If bone density is the goal — and for a woman in her forties planning for her seventies, it probably should be — look for the FORTIBONE® mark on the label of whichever retail brand carries it (Vital Proteins Bone Broth Collagen, some AlgaeCal formulations, several European brands).</p>
-  </div>
-  
-  
 
-  <div class="page-folio">49</div>
-</div>
-
-<div class="page page-newsletter">
-  <div class="page-header">The Weekly Read</div>
 
-  
-  <h3 class="cluster-theme cluster-theme-cont">Supplement Deep Dive: Collagen & Creatine <span class="cluster-cont">(continued)</span></h3>
-  
-  
-  <div class="cluster-synthesis">
-    <p>**Creatine: the newer forms are a marketing story.** The International Society of Sports Nutrition position stand (Kreider et al., 2017) remains the cleanest summary: creatine monohydrate is the most-studied, cheapest, and most effective form. Creatine HCl is more soluble and marginally easier on sensitive stomachs, but head-to-head trials show no superior muscle saturation or performance outcome — the 'smaller dose works the same' claim is not well supported. Creatine ethyl ester is actively *worse*: it degrades to creatinine in the stomach and raises muscle creatine less effectively than monohydrate. Dosing is simple: 3–5g/day, every day, any time. The classic loading phase (20g/day for a week) gets you to saturation faster but isn't strictly necessary. Beyond the well-known strength, lean-mass, and high-intensity-output benefits, the cognitive literature has matured. A 2023 systematic review and meta-analysis (Prokopidis et al., *Nutrition Reviews*) found small but consistent improvements in memory in healthy adults, with stronger effects in older adults, vegetarians, and the sleep-deprived — populations whose baseline brain creatine is lower. Early work is exploring higher doses (10g+) for mood and cognitive resilience under stress, though the ISSN still anchors the evidence-based dose at 3–5g.</p>
-  </div>
-  
-  
 
-  <div class="page-folio">50</div>
-</div>
 
-<div class="page page-newsletter">
-  <div class="page-header">The Weekly Read</div>
 
-  
-  <h3 class="cluster-theme cluster-theme-cont">Supplement Deep Dive: Collagen & Creatine <span class="cluster-cont">(continued)</span></h3>
-  
-  
-  <div class="cluster-synthesis">
-    <p>**The pragmatic stack.** Nobody has run a large RCT on collagen + creatine together, but the mechanisms are complementary and non-overlapping: creatine works intracellularly in muscle and brain; collagen peptides work as signaling fragments for connective-tissue fibroblasts and osteoblasts. There's a timing wrinkle worth knowing. Keith Baar's group at UC Davis showed that tendon collagen synthesis spikes when peptides (plus ~50mg vitamin C) arrive in the bloodstream 30–60 minutes *before* mechanical loading — so if you lift, run, or play a sport, taking collagen pre-workout targets the connective tissue that's about to be stressed. Creatine is dose-loading agnostic; daily consistency matters far more than timing, so pick whichever meal makes you reliably take it. A workable protocol for an active adult aiming at musculoskeletal resilience: **10g FORTIBONE®- or FORTIGEL®-specified collagen + 50mg vitamin C, 30–60 minutes before exercise; 5g creatine monohydrate with any meal, daily, forever.** Budget: under $30/month. Upside: thicker bones, quieter joints, stronger quads, and a slightly sharper brain on the days you didn't sleep enough. The evidence is unglamorous, the scoop is boring, and the decade-over-decade compounding is the entire point.</p>
-  </div>
-  
-  
-  <ul class="article-list">
-  
-    <li>
-      <span class="article-title">Specific Collagen Peptides Improve Bone Mineral Density in Postmenopausal Women</span>
-      <span class="article-tags">(collagen, bone-health, fortibone, rct)</span>
-      <span class="article-oneliner">König et al. (2018) — the FORTIBONE® landmark trial: 5g/day for 12 months, measurable BMD gains at spine and femoral neck.</span>
-    </li>
-  
-    <li>
-      <span class="article-title">ISSN Position Stand: Safety and Efficacy of Creatine Supplementation</span>
-      <span class="article-tags">(creatine, position-stand, evidence)</span>
-      <span class="article-oneliner">Kreider et al. (2017) — still the cleanest authoritative summary: monohydrate wins, 3–5g/day, loading optional.</span>
-    </li>
-  
-    <li>
-      <span class="article-title">Collagen Supplementation & Tendon/Ligament Health</span>
-      <span class="article-tags">(collagen, tendons, timing, baar)</span>
-      <span class="article-oneliner">Shaw & Baar (2017) — the study behind the 'pre-workout with vitamin C' collagen timing protocol.</span>
-    </li>
-  
-    <li>
-      <span class="article-title">Effects of Creatine Supplementation on Memory in Healthy Individuals</span>
-      <span class="article-tags">(creatine, cognition, meta-analysis)</span>
-      <span class="article-oneliner">Prokopidis et al. (2023) — meta-analysis showing small-but-real memory benefits, strongest in older adults and the sleep-deprived.</span>
-    </li>
-  
-  </ul>
-  
 
-  <div class="page-folio">51</div>
-</div>
 
 
 
 
 
-<div class="page page-newsletter">
-  <div class="page-header">The Weekly Read</div>
 
 
-  <div class="through-line">
-    <strong>The Through-Line:</strong> This week's theme is valuing what actually matters, and the reading lands on either side of that question in instructive ways. The AI pieces are about leverage — tools that amplify whoever is already inside them, and the quiet cost of mistaking speed for craft. The supplement research is about the opposite kind of leverage: five grams a day, for thirty years, in service of a sixty-five-year-old self who can still carry groceries up the stairs and remember the grandchildren's names. Both are bets on compounding. Neither pays off if you optimize for the dopamine hit of the moment — the agent-shipped PR, the pre-workout scoop you took but never actually trained after. The things worth valuing are almost always the ones that ask for patience first and only reward you on a long enough timeline to forget you were waiting.
-  </div>
 
 
 
-  <div class="fun-section">
-    <h3>And Finally… Creatine Is in Herring. Herring!</h3>
-    <p>File under 'things you probably didn't need to know but will now bring up at dinner': the richest natural dietary source of creatine is herring, at roughly 6.5–10 grams per kilogram of flesh — more than beef, more than salmon, more than pork. A large herring fillet delivers close to a gram of the stuff. This is one reason traditional Scandinavian and Baltic diets, heavy on pickled and smoked herring, may have quietly been doing the creatine-loading protocol for centuries without anyone naming it. Vegetarians, by contrast, have roughly 20–30% lower baseline muscle creatine stores, which is part of why supplementation tends to produce larger effects in them. Ask Elsie at dinner: which fish do you think is secretly the strongest? (Correct answer: a small, shiny one that most kids refuse to eat.)</p>
-    
-    <p class="fun-source">Source: <a href="https://pubmed.ncbi.nlm.nih.gov/21394604/">Journal of Agricultural and Food Chemistry</a></p>
-    
-  </div>
 
 
-  <p class="newsletter-footer">3 articles · April 19 – April 25, 2026</p>
-  <div class="page-folio">52</div>
-</div>
 
 
 
@@ -4378,12 +4681,6 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
 
 
 
-<div class="page page-divider">
-  <div class="divider-title">Bedtime Story</div>
-  <div class="divider-rule"></div>
-  <div class="divider-sub">The Time Daddio Ate a Spoonful of Dirt</div>
-  <div class="page-folio">53</div>
-</div>
 
 
 
@@ -4814,85 +5111,7 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="page page-story page-story-first">
+<div class="page page-story page-story-first" data-section-id="bedtime_story" data-section-instance="page-1" data-source-path="child_wisdom.story" data-fit="bounded">
   <div class="page-header">Bedtime Story</div>
   
   <h3 class="story-title">The Time Daddio Ate a Spoonful of Dirt</h3>
@@ -4931,10 +5150,10 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
     
   </div>
   
-  <div class="page-folio">54</div>
+  <div class="page-folio">49</div>
 </div>
 
-<div class="page page-story">
+<div class="page page-story" data-section-id="bedtime_story" data-section-instance="page-2" data-source-path="child_wisdom.story" data-fit="bounded">
   <div class="page-header">Bedtime Story</div>
   
   <div class="story-text">
@@ -4963,10 +5182,10 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
     
   </div>
   
-  <div class="page-folio">55</div>
+  <div class="page-folio">50</div>
 </div>
 
-<div class="page page-story">
+<div class="page page-story" data-section-id="bedtime_story" data-section-instance="page-3" data-source-path="child_wisdom.story" data-fit="bounded">
   <div class="page-header">Bedtime Story</div>
   
   <div class="story-text">
@@ -4987,18 +5206,19 @@ Seneca wrote a short, famous line that could be stitched into the lintel of any 
   
   <div class="story-prompt">What's a story from when you were little that wasn't funny at the time, but is funny now when we tell it? Why do you think some hard things turn into good stories?</div>
   
-  <div class="page-folio">56</div>
+  <div class="page-folio">51</div>
 </div>
 
 
 
 
-<div class="page page-back">
+<div class="page page-back" data-section-id="notes_back_cover" data-source-path="generated_at" data-fit="bounded">
   <div class="back-inner">
   <div class="back-divider"></div>
   <div class="colophon">April 19 – 25, 2026 · Generated 2026-04-19 09:37</div>
   </div>
 </div>
+
 
 
 
@@ -6233,6 +6453,8 @@ The contradiction worth sitting with: AI tools supposedly democratize coding, ye
   
 
   
+
+  
   <h2 class="section-title">Notes</h2>
   <div class="support-section">
     <ul><li>Sunday gravy yields enough for a freezer stash — portion 2 quart bags after dinner.</li><li>Babo pasta uses 12-16 egg yolks; save whites for Saturday frittata lunch or meringues.</li><li>Wednesday: we're running low on frozen dumplings — restock this week.</li><li>Pizza night after Bring-Family-to-Work lets Elsie decompress with a tactile activity — shaping dough is the reward.</li><li>Saturday with Laura gone: keep it simple and fun. Taco bar beats takeout every time.</li></ul>
@@ -6319,6 +6541,7 @@ And Mamma Karen put the kettle on, because every good story deserved a cup of te
 
   <div class="footer">April 19 – 25, 2026 · Generated 2026-04-19 09:37</div>
 </div>
+
 
 </body>
 </html>

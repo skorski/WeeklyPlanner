@@ -8,7 +8,8 @@ description: >
   markdown plan covering Sunday through Sunday. Use this skill when the user asks
   to plan their week, organize family dinners, create a weekly schedule, or needs
   help deciding what to cook or do during the week. Also triggers on requests for
-  meal planning, weekly meal prep, or family activity planning.
+  meal planning, weekly meal prep, family activity planning, or adding news
+  sources/news feeds to the weekly plan.
 ---
 
 # Weekly Family Planner
@@ -42,6 +43,8 @@ The user provides unstructured text about their week. Extract:
 - **Elsie's no-go list** -- ask what Elsie doesn't want to eat this week. Kids' food
   preferences change weekly, so always ask. Store the list for display in the plan.
 - **Music mood/preferences** -- genre, vibe, artist references.
+- **News feed sources** -- named publications, homepages, RSS/Atom feeds, or
+  article sources the user wants monitored for recent posts.
 - **Known commitments** -- meetings, kids' activities, travel, social events.
 - **Weekend plans** -- outings, errands, rest days.
 
@@ -61,6 +64,7 @@ weekly_plans/
     weather.md
     recipes.md
     albums.md
+    news-feed.md
     weekly-plan.md
 ```
 
@@ -102,7 +106,8 @@ from the checkpoint between the waves.
 
 #### Wave 1 — Parallel Research (no dependencies)
 
-Launch all five skills simultaneously:
+Launch all applicable Wave 1 skills simultaneously (six total when news-feed
+sources are provided):
 
 **2.1 Invoke the Recipes Skill**
 
@@ -124,26 +129,66 @@ theme if not specified) to the `albums` skill. This produces ~30 album
 recommendations with metadata. Save the output markdown to
 `weekly_plans/<YYYY-MM-DD>/albums.md`.
 
-**2.3 Invoke the Linkwarden Skill**
+**2.3 Invoke the Weekly Read Source Ingestion + Linkwarden Skill**
 
-Fetch the user's recent reading from Linkwarden. This has no dependencies on
-dinner selections.
+Fetch the user's recent reading from Linkwarden and any user-provided URLs,
+RSS/Atom feeds, or required topics. This has no dependencies on dinner selections.
 
 ```bash
-python .github/skills/linkwarden/scripts/fetch_links.py --days 7 -o weekly_plans/<YYYY-MM-DD>/links.json
+python .github/skills/linkwarden/scripts/fetch_reading_sources.py \
+  --input weekly_plans/<YYYY-MM-DD>/week_request.json \
+  -o weekly_plans/<YYYY-MM-DD>/reading_sources.json \
+  --report weekly_plans/<YYYY-MM-DD>/reading_ingestion_report.json
 ```
 
 Then follow the linkwarden SKILL.md workflow to:
-1. Read and absorb all article content
+1. Read and absorb all successful source records
 2. Group into 2–4 thematic clusters
 3. Write reflective synthesis for each cluster
 4. Find or search for a fun section
 5. Research additional perspectives via web search
 6. Output `newsletter.json` to `weekly_plans/<YYYY-MM-DD>/`
 
-The newsletter data is merged via `--newsletter` in the assembly phase.
+Every user-requested URL must appear in `reading_sources.json`. Every successfully
+extracted source should appear in a newsletter cluster or in
+`newsletter_data.not_used_sources` with a reason. The newsletter data is merged
+via `--newsletter` in the assembly phase.
 
-**2.4 Invoke the Stoic Guide Skill**
+**2.4 Invoke the News Feed Skill**
+
+If the user provides news sources, source homepages, RSS/Atom feeds, or asks to
+monitor publications like Bellingcat, store them in `week_request.json` under
+`news_feed`:
+
+```json
+{
+  "news_feed": {
+    "lookback_days": 7,
+    "max_items_per_source": 5,
+    "sources": [
+      {"name": "Bellingcat", "url": "https://www.bellingcat.com/"},
+      {"name": "David Heinemeier Hansson", "feed_url": "https://world.hey.com/dhh/feed.atom"},
+      {"name": "Ars Technica", "feed_url": "https://feeds.arstechnica.com/arstechnica/index"},
+      {"name": "Hacker News", "feed_url": "https://news.ycombinator.com/rss"}
+    ]
+  }
+}
+```
+
+Then invoke the `news-feed` skill:
+
+```bash
+python .github/skills/news-feed/scripts/fetch_news_feed.py \
+  --input weekly_plans/<YYYY-MM-DD>/week_request.json \
+  -o weekly_plans/<YYYY-MM-DD>/news-feed.md \
+  --report weekly_plans/<YYYY-MM-DD>/news_feed_report.json
+```
+
+The news-feed skill writes `news-feed.md` as the canonical artifact. It contains
+parseable contract comments plus the extracted article text. The assembler merges
+it via `--news-feed` into top-level `news_feed_data`.
+
+**2.5 Invoke the Stoic Guide Skill**
 
 Create the weekly Stoic reflection guide. This only needs the week's calendar
 context.
@@ -158,7 +203,7 @@ Follow the stoic-guide SKILL.md workflow to:
 
 The stoic data is merged via `--stoic` in the assembly phase.
 
-**2.5 Invoke the Principles Skill**
+**2.6 Invoke the Principles Skill**
 
 Create the weekly "Principles for Living" guide. This only needs the week's
 calendar context.
@@ -172,7 +217,7 @@ Follow the principles SKILL.md workflow to:
 
 The principles data is merged via `--principles` in the assembly phase.
 Each daily entry becomes its own A5 page in the booklet (page 2 of each day's
-4-page spread).
+3-page spread).
 
 #### 🛑 USER CHECKPOINT — Dinner & Album Selection
 
@@ -253,6 +298,7 @@ The content-validator reads all researcher output files from
 `weekly_plans/<YYYY-MM-DD>/`:
 
 - `recipes.md`, `albums.md`, `newsletter.json`, `stoic.json`, `principles.json`
+- `news-feed.md` when `week_request.json` contains `news_feed.sources`
 - `elevations.json`, `recipe_cards.json`, `parenting.json`, `nutrition.json`, `child-wisdom.json`
 
 It validates:
@@ -330,15 +376,19 @@ python .github/skills/weekly-planner/scripts/assemble_plan.py \
     --parenting     weekly_plans/<YYYY-MM-DD>/parenting.json \
     --nutrition     weekly_plans/<YYYY-MM-DD>/nutrition.json \
     --newsletter    weekly_plans/<YYYY-MM-DD>/newsletter.json \
+    --news-feed     weekly_plans/<YYYY-MM-DD>/news-feed.md \
     --stoic         weekly_plans/<YYYY-MM-DD>/stoic.json \
     --principles    weekly_plans/<YYYY-MM-DD>/principles.json \
     --child-wisdom  weekly_plans/<YYYY-MM-DD>/child-wisdom.json \
     --recipe-cards  weekly_plans/<YYYY-MM-DD>/recipe_cards.json
 ```
 
-**All eight researcher outputs must be passed in.** Omitting any flag silently
-drops that content from the booklet — for example, skipping `--recipe-cards`
-leaves every day page without the "Mamma Karen Says" block and Variations.
+All required researcher outputs, plus optional outputs requested by the user,
+must be passed in. Omitting a flag silently drops that content from the booklet
+— for example, skipping `--recipe-cards` leaves every day page without the
+"Mamma Karen Says" block and Variations, and skipping `--news-feed` leaves
+requested sources out of `plan_data.json`. If using `--week-dir`, the assembler
+auto-detects `news-feed.md`.
 Run `assemble_plan.py` from the **repository root**, never from inside
 `weekly_plans/<date>/` (that creates a nested-path bug).
 
@@ -352,6 +402,7 @@ The assembler:
 - Maps parenting `dinner_questions` onto each day's `dinner_question` field by `day_of_week`
 - Extracts `weekly_nutrition_summary` into `nutrition_summary`
 - Stores newsletter data at the top level as `newsletter_data`
+- Parses `news-feed.md` and stores it at the top level as `news_feed_data`
 - Uses `utf-8-sig` encoding to handle BOM from Windows/PowerShell
 
 **Normalized fields** (added automatically by `assemble_plan.py`):
@@ -664,15 +715,17 @@ The rendered report includes:
 3. **Appetizers & salads** -- the selected accompaniments with full details
 4. **Beverage pairings** -- drink suggestions for the week
 5. **Grocery & prep summary** -- consolidated shopping list and prep-ahead checklist
-6. **Nutrition summary** -- brief nutritional review of the week
-7. **Additional notes** -- batch cooking tips, leftovers strategy
+6. **News feed** -- requested source list and recent article excerpts when provided
+7. **Nutrition summary** -- brief nutritional review of the week
+8. **Additional notes** -- batch cooking tips, leftovers strategy
 
 ## Guidelines
 
 - **All markdown output goes in `weekly_plans/<YYYY-MM-DD>/`** where the date is the
   starting Sunday of the plan week. This includes `weather.md`, `recipes.md`,
-  `albums.md`, and `weekly-plan.md`. The `build_plan.py` script creates the folder
-  automatically; for other skill outputs, pass the folder path via `-o`.
+  `albums.md`, `news-feed.md`, and `weekly-plan.md`. The `build_plan.py` script
+  creates the folder automatically; for other skill outputs, pass the folder path
+  via `-o`.
 - Respect user's explicit day assignments from their original prompt above all else
 - Favor practical meals (30-60 min weeknights, more elaborate on free days)
 - Include at least one leftover-reuse opportunity

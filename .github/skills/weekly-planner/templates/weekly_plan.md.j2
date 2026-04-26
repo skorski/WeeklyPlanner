@@ -398,6 +398,40 @@
 
 {% endif -%}
 
+{% if news_feed_data and news_feed_data.sources -%}
+## News Feed{% if news_feed_data.start_date or news_feed_data.end_date %} - {{ news_feed_data.start_date }} to {{ news_feed_data.end_date }}{% endif %}
+
+{% if news_feed_data.markdown_path -%}
+*Full extracted article text is stored in `{{ news_feed_data.markdown_path }}`.*
+
+{% endif -%}
+### Sources
+
+| Source | Status | Articles |
+|--------|--------|----------|
+{% for source in news_feed_data.sources -%}
+| {{ source.name }} | {{ source.status | default("unknown") }} | {{ source.items_selected | default(0) }} |
+{% endfor %}
+
+{% if news_feed_data.articles -%}
+### Articles
+
+{% for article in news_feed_data.articles -%}
+#### {% if article.url %}[{{ article.title }}]({{ article.url }}){% else %}{{ article.title }}{% endif %}
+
+*{{ article.source_name }}{% if article.published_at %} - {{ article.published_at }}{% endif %}{% if article.word_count %} - {{ article.word_count }} words{% endif %}*
+
+{{ article.summary | default("") }}
+
+{% endfor -%}
+{% else -%}
+No articles matched the requested publication window.
+
+{% endif -%}
+---
+
+{% endif -%}
+
 {% if notes -%}
 ## Additional Notes
 

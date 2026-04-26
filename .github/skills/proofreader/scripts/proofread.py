@@ -16,25 +16,30 @@ import re
 import sys
 from pathlib import Path
 
+WEEKLY_PLANNER_DIR = Path(__file__).resolve().parents[2] / "weekly-planner"
+sys.path.insert(0, str(WEEKLY_PLANNER_DIR))
+
+from contracts.canonicalize import canonicalize_plan_data
+
 
 # ── Constants ────────────────────────────────────────────────────────────────
 
-PAGE_HEIGHT_PX = 816       # 8.5in * 96dpi
-MARGIN_PX = 53             # top 0.25in (24) + bottom 0.3in (28.8) at 96dpi
-CONTENT_HEIGHT_PX = PAGE_HEIGHT_PX - MARGIN_PX  # ~763
+PAGE_WIDTH_PX = 559        # A5 width: 148mm at 96dpi
+PAGE_HEIGHT_PX = 794       # A5 height: 210mm at 96dpi
+CONTENT_HEIGHT_PX = 741    # CSS .page height: 7.71in at 96dpi
 
 
 # ── Check: Overflow ─────────────────────────────────────────────────────────
 
 def check_overflow(html_path):
-    """Detect pages whose content exceeds the available half-letter area."""
+    """Detect pages whose content exceeds the available A5 print area."""
     from playwright.sync_api import sync_playwright
 
     file_url = html_path.resolve().as_uri()
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(
-            viewport={"width": 528, "height": PAGE_HEIGHT_PX},
+            viewport={"width": PAGE_WIDTH_PX, "height": PAGE_HEIGHT_PX},
         )
         page.emulate_media(media="print")
         page.goto(file_url, wait_until="networkidle")
@@ -316,11 +321,9 @@ def check_structure(html_text):
     if total >= 3 and "page-divider" not in page_classes[2]:
         issues.append(f"Third page should be divider, got '{page_classes[2]}'")
 
-    # Check day pages come in groups (2-page or 4-page spreads)
+    # Check day pages come in 3-page groups: day, principles, evening.
     day_pages = [(i, c) for i, c in enumerate(page_classes) if "page-day" in c]
-    # Detect 4-page layout (left, principles, recipe, right)
-    has_4page = any("page-day-principles" in c for _, c in day_pages)
-    pages_per_day = 4 if has_4page else 2
+    pages_per_day = 3 if any("page-day-principles" in c for _, c in day_pages) else 2
 
     for j in range(0, len(day_pages), pages_per_day):
         if j >= len(day_pages):
@@ -332,12 +335,62 @@ def check_structure(html_text):
             right_cls = day_pages[j + 1][1]
             if "page-day-right" not in right_cls:
                 issues.append(f"Day page {day_pages[j+1][0]+1} should be right, got '{right_cls}'")
-        elif pages_per_day == 4 and j + 3 < len(day_pages):
-            right_cls = day_pages[j + 3][1]
+        elif pages_per_day == 3 and j + 2 < len(day_pages):
+            middle_cls = day_pages[j + 1][1]
+            if "page-day-principles" not in middle_cls:
+                issues.append(f"Day page {day_pages[j+1][0]+1} should be principles, got '{middle_cls}'")
+            right_cls = day_pages[j + 2][1]
             if "page-day-right" not in right_cls:
-                issues.append(f"Day page {day_pages[j+3][0]+1} should be right, got '{right_cls}'")
+                issues.append(f"Day page {day_pages[j+2][0]+1} should be right, got '{right_cls}'")
 
     return issues, total
+
+
+# ── Check: Section manifest markers ───────────────────────────────────────────
+
+def check_section_markers(html_text, manifest):
+    """Verify manifest sections have stable data-section-id markers in print HTML."""
+    if not manifest:
+        return [], {"checked": 0, "found": 0, "page_counts": {}}
+
+    marker_ids = set(re.findall(r'data-section-id="([^"]+)"', html_text))
+    page_marker_pattern = re.compile(
+        r'<div[^>]*class="([^"]*\bpage\b[^"]*)"[^>]*data-section-id="([^"]+)"',
+        re.IGNORECASE,
+    )
+    page_counts = {}
+    for classes, section_id in page_marker_pattern.findall(html_text):
+        if "page-divider" in classes:
+            continue
+        page_counts[section_id] = page_counts.get(section_id, 0) + 1
+
+    issues = []
+    checked = 0
+    found = 0
+    for section in manifest.get("sections", []):
+        section_id = section.get("id")
+        if not section_id:
+            continue
+        if not section.get("active", True):
+            continue
+        if "print_html" not in section.get("render_targets", []):
+            continue
+
+        checked += 1
+        if section_id not in marker_ids:
+            issues.append(f"MISSING section marker data-section-id=\"{section_id}\"")
+            continue
+        found += 1
+
+        policy = section.get("print_fit_policy") or {}
+        max_pages = policy.get("max_pages")
+        rendered_pages = page_counts.get(section_id, 0)
+        if max_pages and rendered_pages > max_pages:
+            issues.append(
+                f"SECTION OVER BUDGET {section_id}: {rendered_pages} pages rendered, max {max_pages}"
+            )
+
+    return issues, {"checked": checked, "found": found, "page_counts": page_counts}
 
 
 # ── Check: Page numbers ─────────────────────────────────────────────────────
@@ -392,7 +445,7 @@ def check_truncation(html_path):
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(
-            viewport={"width": 528, "height": PAGE_HEIGHT_PX},
+            viewport={"width": PAGE_WIDTH_PX, "height": PAGE_HEIGHT_PX},
         )
         page.emulate_media(media="print")
         page.goto(file_url, wait_until="networkidle")
@@ -545,6 +598,7 @@ def format_report(overflow, content_issues, content_stats, structure_issues,
                   page_count, number_issues, page_numbers, truncated,
                   shape_issues=None, md_issues=None, md_stats=None,
                   pdf_issues=None, pdf_stats=None,
+                  section_marker_issues=None, section_marker_stats=None,
                   verbose=False):
     """Format the proofreading results as a human-readable report."""
     lines = []
@@ -625,6 +679,23 @@ def format_report(overflow, content_issues, content_stats, structure_issues,
         lines.append(f"TRUNCATION .......... PASS (no text truncated)")
     lines.append("")
 
+    # Manifest section markers
+    if section_marker_issues is not None:
+        sm = section_marker_stats or {}
+        if section_marker_issues:
+            has_failure = True
+            lines.append(f"SECTIONS ............ FAIL "
+                         f"({sm.get('found',0)}/{sm.get('checked',0)} print sections marked)")
+            for issue in section_marker_issues:
+                lines.append(f"  {issue}")
+        else:
+            lines.append(f"SECTIONS ............ PASS "
+                         f"({sm.get('found',0)}/{sm.get('checked',0)} print sections marked)")
+            if verbose and sm.get("page_counts"):
+                for sid, count in sorted(sm["page_counts"].items()):
+                    lines.append(f"  {sid}: {count} page(s)")
+        lines.append("")
+
     # Markdown completeness
     if md_issues is not None:
         ms = md_stats or {}
@@ -686,6 +757,7 @@ def main():
     parser.add_argument("html_file", help="Path to weekly-plan.html")
     parser.add_argument("--md", help="Path to weekly-plan.md (validates markdown completeness)")
     parser.add_argument("--pdf", help="Path to weekly-plan.pdf (validates PDF content via text extraction)")
+    parser.add_argument("--manifest", help="Path to section_manifest.json for section marker validation")
     parser.add_argument("--verbose", action="store_true",
                         help="Show all details including passing checks")
     parser.add_argument("--overflow-only", action="store_true",
@@ -707,8 +779,14 @@ def main():
     # Load source data
     with open(plan_path, "r", encoding="utf-8-sig") as f:
         plan_data = json.load(f)
+    plan_data, _aliases_applied = canonicalize_plan_data(plan_data)
 
     html_text = html_path.read_text(encoding="utf-8")
+    manifest = None
+    manifest_path = Path(args.manifest) if args.manifest else html_path.parent / "section_manifest.json"
+    if manifest_path.exists():
+        with open(manifest_path, "r", encoding="utf-8-sig") as f:
+            manifest = json.load(f)
 
     # Run checks
     print("Running proofreader checks...", file=sys.stderr)
@@ -743,6 +821,11 @@ def main():
 
     print("  Checking truncation...", file=sys.stderr)
     truncated = check_truncation(html_path)
+
+    section_marker_issues, section_marker_stats = None, None
+    if manifest:
+        print("  Checking section markers...", file=sys.stderr)
+        section_marker_issues, section_marker_stats = check_section_markers(html_text, manifest)
 
     # Optional: Markdown completeness
     md_issues, md_stats = None, None
@@ -783,6 +866,8 @@ def main():
             "number_issues": number_issues,
             "page_numbers": page_numbers,
             "truncation": truncated,
+            "section_marker_issues": section_marker_issues,
+            "section_marker_stats": section_marker_stats,
             "md_issues": md_issues,
             "md_stats": md_stats,
             "pdf_issues": pdf_issues,
@@ -793,6 +878,7 @@ def main():
                 content_issues,
                 structure_issues,
                 number_issues,
+                section_marker_issues,
                 md_issues,
                 pdf_issues,
             ]),
@@ -806,6 +892,8 @@ def main():
             truncated, shape_issues=shape_issues,
             md_issues=md_issues, md_stats=md_stats,
             pdf_issues=pdf_issues, pdf_stats=pdf_stats,
+            section_marker_issues=section_marker_issues,
+            section_marker_stats=section_marker_stats,
             verbose=args.verbose,
         )
         print(report)
@@ -817,6 +905,7 @@ def main():
         content_issues,
         structure_issues,
         number_issues,
+        section_marker_issues or [],
         md_issues or [],
         pdf_issues or [],
     ])

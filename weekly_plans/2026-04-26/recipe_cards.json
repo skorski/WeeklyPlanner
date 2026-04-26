@@ -1,0 +1,886 @@
+{
+  "recipe_cards": [
+    {
+      "day": "Sunday",
+      "name": "Leftover Sunday Gravy Rigatoni with Meatballs & Sausage",
+      "source_url": "https://coleycooks.com/authentic-italian-sunday-gravy/",
+      "source_name": "Coley Cooks",
+      "servings": "4 to 6",
+      "prep_time": "10 minutes",
+      "cook_time": "15 minutes with prepared gravy",
+      "nonna_says": "Boil the rigatoni in water salty enough to make it pay attention. Warm the Sunday gravy low and slow, with the meatballs and sausage tucked in like family on the couch. Scoop the pasta out a minute early and finish it right in the sauce with a splash of pasta water. Toss until every ridge is red and glossy, then grate pecorino like you mean it. Do not drown it, honey, this is pasta, not a swimming lesson. Serve the meat on the side or on top and take the compliment.",
+      "variations": [
+        {
+          "name": "Pot Roast Sunday Sauce Rigatoni",
+          "twist": "Swap in chuck roast for some of the pork so the sauce gains a deeper beefy backbone and ragù-style texture.",
+          "source_url": "https://linacooks.com/recipes/sunday-sauce-rigatoni"
+        },
+        {
+          "name": "Red Wine Sunday Gravy",
+          "twist": "Deglaze the pot with dry red wine before the tomatoes for a darker, more aromatic sauce.",
+          "source_url": "https://dinoromano.com/2025/08/07/hearty-italian-sunday-gravy-thatll-win-nonnas-approval/"
+        },
+        {
+          "name": "Sausage and Meatball Sunday Gravy",
+          "twist": "Keep the gravy focused on sausage and meatballs, then simmer cheese rinds in the sauce for extra savory depth.",
+          "source_url": "https://www.food.com/recipe/sunday-gravy-with-sausages-and-meatballs-496273"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "3 to 4 cups",
+                "item": "leftover Sunday gravy",
+                "prep": "with meatballs and sausage"
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "reserved pasta water",
+                "prep": "use as needed"
+              }
+            ],
+            "merge_action": "warm gently and loosen to glossy sauce"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 pound",
+                "item": "rigatoni",
+                "prep": "boiled 1 minute shy of al dente"
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "kosher salt",
+                "prep": "for pasta water"
+              }
+            ],
+            "merge_action": "cook in salted boiling water"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1/2 cup",
+                "item": "pecorino Romano",
+                "prep": "freshly grated"
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "Italian parsley",
+                "prep": "chopped, optional"
+              }
+            ],
+            "merge_action": "finish and garnish"
+          }
+        ],
+        "final_steps": [
+          "transfer pasta to gravy",
+          "add pasta water 2 tablespoons at a time",
+          "toss 1 to 2 minutes until coated",
+          "serve with meatballs, sausage, pecorino, and parsley"
+        ]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Monday",
+      "name": "Wagyu Ultra-Smashed Cheeseburgers with Pickles & Secret Sauce",
+      "source_url": "https://www.seriouseats.com/ultra-smashed-cheeseburger-recipe-food-lab",
+      "source_name": "Serious Eats",
+      "servings": "3 double cheeseburgers",
+      "prep_time": "15 minutes",
+      "cook_time": "10 minutes",
+      "nonna_says": "Heat the griddle until it scares you a little, then keep your buns and sauce ready. Drop loose wagyu balls on the metal and smash hard once, because pressing twice is how you make sadness. Salt, pepper, flip when the edges go lacy and brown, and blanket one patty with American cheese. Stack the second patty on top, slide it onto the sauced bun, and add pickles and lettuce fast. Serve immediately while the edges still crackle. Look at that, dinner in ten minutes and nobody had to sulk.",
+      "variations": [
+        {
+          "name": "Onion Smashed Burger",
+          "twist": "Smash thinly sliced onions under each beef ball so they fuse into a sweet, browned onion crust.",
+          "source_url": "https://arteflame.com/blogs/recipes/ultimate-smashed-cheeseburger-recipe"
+        },
+        {
+          "name": "Umami Bomb Smash Burger",
+          "twist": "Season the beef or sauce with Worcestershire, fish sauce, and smoked paprika for a deeper savory punch.",
+          "source_url": "https://basilandbubbly.com/the-ultimate-smash-burger-recipe-for-crispy-juicy-perfection/"
+        },
+        {
+          "name": "Food Lab Double Smash Burger",
+          "twist": "Keep the ultra-thin double-stack technique but vary the toppings with griddled onions, mustard, or extra cheese.",
+          "source_url": "https://food52.com/recipes/55658-the-food-lab-s-ultra-smashed-cheeseburgers"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "cast-iron griddle over high heat until lightly smoking",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "12 ounces",
+                "item": "ground wagyu beef",
+                "prep": "divided into six loose 2-ounce balls"
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "kosher salt",
+                "prep": "for seasoning patties"
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "black pepper",
+                "prep": "freshly ground"
+              }
+            ],
+            "merge_action": "smash on hot griddle and season"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "3",
+                "item": "potato buns",
+                "prep": "split and toasted"
+              },
+              {
+                "qty": "3 tablespoons",
+                "item": "secret sauce",
+                "prep": "mixed ahead"
+              },
+              {
+                "qty": "3/4 cup",
+                "item": "shredded lettuce",
+                "prep": "washed and dried"
+              },
+              {
+                "qty": "18 slices",
+                "item": "dill pickles",
+                "prep": "drained"
+              }
+            ],
+            "merge_action": "build chilled bun station"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "6 slices",
+                "item": "American cheese",
+                "prep": "ready by griddle"
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "neutral oil",
+                "prep": "only if griddle is not seasoned"
+              }
+            ],
+            "merge_action": "melt cheese during final flip"
+          }
+        ],
+        "final_steps": [
+          "place beef balls on griddle",
+          "smash very thin for 10 seconds",
+          "cook 45 to 60 seconds until edges crisp",
+          "scrape, flip, cheese one patty, stack second patty",
+          "transfer to dressed buns and serve immediately"
+        ]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Thursday",
+      "name": "Alex's Mom's Stuffed Cabbage Rolls",
+      "source_url": "https://smittenkitchen.com/2009/02/alexs-moms-stuffed-cabbage/",
+      "source_name": "Smitten Kitchen",
+      "servings": "4 to 6",
+      "prep_time": "35 minutes",
+      "cook_time": "45 minutes",
+      "nonna_says": "Soften the cabbage leaves first, because nobody can roll a stiff blanket. Cook the onion, carrot, celery, and parsnip until sweet, then mix them with beef, rice, tomato paste, salt, and pepper. Roll each leaf snug, seam side down, and give them enough tomato sauce to lounge in. Add a little brown sugar and vinegar if the sauce needs that sweet-sour hug. Simmer covered until the rice is tender and the cabbage gives up. Spoon extra sauce over the top and be proud, these are patient food.",
+      "variations": [
+        {
+          "name": "Sweet-and-Sour Stuffed Cabbage",
+          "twist": "Add brown sugar and vinegar to the tomato sauce for a classic Jewish-style sweet-and-sour balance.",
+          "source_url": "https://www.savoryexperiments.com/cabbage-rolls-with-tomato-sauce-recipe/"
+        },
+        {
+          "name": "Cheesy Stuffed Cabbage Rolls",
+          "twist": "Tuck shredded mozzarella or cheddar into the filling and melt more over the top before serving.",
+          "source_url": "https://homechefworld.com/stuffed-cabbage-rolls-with-tomato-sauce/"
+        },
+        {
+          "name": "Pork-and-Beef Golabki",
+          "twist": "Replace half the beef with ground pork for a richer, juicier Eastern European filling.",
+          "source_url": "https://amiraspantry.com/stuffed-cabbage-rolls-recipe/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "1 head",
+                "item": "Savoy cabbage",
+                "prep": "cored, soaked in boiling water 10 minutes, leaves dried"
+              }
+            ],
+            "merge_action": "separate flexible leaves and trim thick ribs"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "2 tablespoons",
+                "item": "olive oil",
+                "prep": ""
+              },
+              {
+                "qty": "1 small to medium",
+                "item": "onion",
+                "prep": "finely chopped"
+              },
+              {
+                "qty": "1",
+                "item": "carrot",
+                "prep": "shredded"
+              },
+              {
+                "qty": "1 stalk",
+                "item": "celery",
+                "prep": "thinly sliced"
+              },
+              {
+                "qty": "1",
+                "item": "parsnip",
+                "prep": "shredded"
+              }
+            ],
+            "merge_action": "sauté until soft, then cool"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 pound",
+                "item": "ground beef",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "uncooked white rice",
+                "prep": "rinsed"
+              },
+              {
+                "qty": "1 to 2 tablespoons",
+                "item": "tomato paste",
+                "prep": ""
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "kosher salt",
+                "prep": "plus more to taste"
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "black pepper",
+                "prep": ""
+              }
+            ],
+            "merge_action": "mix with cooled vegetables for filling"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "3 to 4 cups",
+                "item": "simple tomato sauce, tomato juice, or V8",
+                "prep": ""
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "brown sugar",
+                "prep": "optional, for sweet balance"
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "apple cider vinegar",
+                "prep": "optional, for tang"
+              }
+            ],
+            "merge_action": "stir sauce together"
+          }
+        ],
+        "final_steps": [
+          "fill each leaf with 1/4 to 1/3 cup filling",
+          "roll tightly and place seam side down",
+          "cover with sauce",
+          "bring to boil, then simmer covered 45 minutes",
+          "serve with extra warm sauce"
+        ]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Wednesday",
+      "name": "Slow-Cooked Pork Chops with Mushroom Cream Sauce",
+      "source_url": "https://themodernproper.com/pork-chops-with-mushroom-cream-sauce",
+      "source_name": "The Modern Proper",
+      "servings": "4",
+      "prep_time": "15 minutes",
+      "cook_time": "3 1/2 to 4 hours",
+      "nonna_says": "Season the pork chops like you have confidence, then brown them before they go anywhere near the slow cooker. Pile in the mushrooms, garlic, thyme, wine, and a little broth, and let everything cook low until the chops turn tender. Do not blast them on high unless you enjoy chewing furniture. Whisk in cream and Dijon near the end so the sauce stays silky, not broken. Finish with lemon and chives, then spoon mushrooms over every chop. Serve it with something soft for catching sauce.",
+      "variations": [
+        {
+          "name": "Garlic Parmesan Mushroom Pork Chops",
+          "twist": "Stir Parmesan into the mushroom cream sauce for a saltier, cheesier finish.",
+          "source_url": "https://www.spendwithpennies.com/pork-chops-with-mushroom-cream-sauce/"
+        },
+        {
+          "name": "Dijon Mushroom Cream Pork Chops",
+          "twist": "Lean harder into Dijon mustard for tang that cuts through the cream and pork richness.",
+          "source_url": "https://therecipecritic.com/pork-chops-mushroom-cream-sauce/"
+        },
+        {
+          "name": "Bacon Mushroom Cream Pork Chops",
+          "twist": "Render bacon first and build the mushroom sauce in the smoky drippings.",
+          "source_url": "https://www.saltandlavender.com/pork-chops-with-mushroom-cream-sauce/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "slow cooker on LOW",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "4",
+                "item": "1 1/2-inch bone-in pork chops",
+                "prep": "patted dry"
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "kosher salt",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "black pepper",
+                "prep": "freshly cracked"
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "extra-virgin olive oil",
+                "prep": "for browning"
+              }
+            ],
+            "merge_action": "season and sear 2 to 3 minutes per side"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "6 tablespoons",
+                "item": "salted butter",
+                "prep": "divided"
+              },
+              {
+                "qty": "2 pounds",
+                "item": "cremini mushrooms",
+                "prep": "trimmed and halved"
+              },
+              {
+                "qty": "3 cloves",
+                "item": "garlic",
+                "prep": "minced"
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "fresh thyme",
+                "prep": "minced"
+              }
+            ],
+            "merge_action": "sauté mushrooms and aromatics 6 minutes"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 cup",
+                "item": "dry white wine",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "low-sodium chicken broth",
+                "prep": "for slow cooker moisture"
+              }
+            ],
+            "merge_action": "deglaze skillet and pour into slow cooker"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 cup",
+                "item": "heavy cream",
+                "prep": ""
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "Dijon mustard",
+                "prep": ""
+              },
+              {
+                "qty": "1",
+                "item": "lemon",
+                "prep": "halved"
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "fresh chives",
+                "prep": "chopped"
+              }
+            ],
+            "merge_action": "whisk cream finish into hot juices"
+          }
+        ],
+        "final_steps": [
+          "place chops over mushroom mixture in slow cooker",
+          "cook LOW 3 to 4 hours until tender and about 145°F to 150°F",
+          "remove chops and tent loosely",
+          "whisk cream and Dijon into sauce and cook 15 to 20 minutes",
+          "finish with lemon and chives"
+        ]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Friday",
+      "name": "Greek-Style Roasted Branzino with Garlicky Kale",
+      "source_url": "https://www.themediterraneandish.com/roasted-branzino-recipe/",
+      "source_name": "The Mediterranean Dish",
+      "servings": "3 to 4",
+      "prep_time": "15 minutes",
+      "cook_time": "20 minutes",
+      "nonna_says": "Dry the branzino well and cut slits in the sides so the seasoning has somewhere to go. Stuff the bellies with lemon, onion, and dill, then roast hot until the flesh flakes and the skin blisters. Whisk the ladolemono until it looks glossy and bossy, then pour it over the fish while it is still sizzling. Keep the kale moving in a garlicky pan until it turns bright and tender. Do not overcook the fish, honey, it is not a punishment. Finish with tomatoes, herbs, and one more squeeze of lemon.",
+      "variations": [
+        {
+          "name": "Greek Branzino with Ladolemono",
+          "twist": "Double down on lemon, garlic, oregano, and olive oil for a sharper Greek finish.",
+          "source_url": "https://recipesbyclare.com/recipes/greek-roasted-branzino"
+        },
+        {
+          "name": "Branzino with Potatoes, Tomatoes, and Feta",
+          "twist": "Roast the fish over a bed of potatoes, tomatoes, and onion, then finish with feta for a fuller one-pan meal.",
+          "source_url": "https://makeitmediterranean.com/greek-style-roasted-branzino/"
+        },
+        {
+          "name": "Whole Roasted Branzino with Lemon and Herbs",
+          "twist": "Use rosemary, parsley, and lemon for a simpler herb-roasted version with a classic Mediterranean profile.",
+          "source_url": "https://www.foodandwine.com/recipes/whole-roasted-branzino-with-lemon-and-rosemary"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "400°F, center rack, broiler ready for finish",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "2",
+                "item": "whole branzino, 1 to 1 1/2 pounds each",
+                "prep": "cleaned, scaled, patted dry"
+              },
+              {
+                "qty": "1 1/2 teaspoons",
+                "item": "kosher salt",
+                "prep": "divided"
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "black pepper",
+                "prep": ""
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "extra-virgin olive oil",
+                "prep": "for sheet pan and fish"
+              }
+            ],
+            "merge_action": "slash, oil, and season fish"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1",
+                "item": "lemon",
+                "prep": "half sliced for stuffing, half juiced"
+              },
+              {
+                "qty": "1/2",
+                "item": "red onion",
+                "prep": "thinly sliced"
+              },
+              {
+                "qty": "1/4 cup",
+                "item": "fresh dill",
+                "prep": "chopped, plus stems for cavity"
+              }
+            ],
+            "merge_action": "stuff fish cavities"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1/4 cup",
+                "item": "fresh lemon juice",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "extra-virgin olive oil",
+                "prep": ""
+              },
+              {
+                "qty": "1 clove",
+                "item": "garlic",
+                "prep": "grated"
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "dried oregano",
+                "prep": ""
+              }
+            ],
+            "merge_action": "whisk ladolemono until emulsified"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 cup",
+                "item": "cherry tomatoes",
+                "prep": "halved"
+              },
+              {
+                "qty": "1/4 cup",
+                "item": "fresh parsley",
+                "prep": "chopped"
+              }
+            ],
+            "merge_action": "salt lightly for topping"
+          }
+        ],
+        "final_steps": [
+          "roast fish 5 minutes on first side",
+          "turn carefully and roast 5 to 7 minutes more to 145°F",
+          "broil 3 to 4 minutes until skin chars",
+          "move to platter and spoon on ladolemono",
+          "top with tomatoes, dill, and parsley"
+        ]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, cook the kale:",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "1 large bunch",
+                "item": "kale",
+                "prep": "stemmed, chopped, washed"
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "extra-virgin olive oil",
+                "prep": ""
+              }
+            ],
+            "merge_action": "sauté kale over medium-high heat"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "3 cloves",
+                "item": "garlic",
+                "prep": "thinly sliced"
+              },
+              {
+                "qty": "1/4 teaspoon",
+                "item": "kosher salt",
+                "prep": "plus more to taste"
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "lemon juice",
+                "prep": ""
+              }
+            ],
+            "merge_action": "add garlic, season, and brighten"
+          }
+        ],
+        "final_steps": [
+          "cook 4 to 6 minutes until bright and tender",
+          "finish with lemon juice",
+          "serve beside roasted fish"
+        ]
+      }
+    },
+    {
+      "day": "Tuesday",
+      "name": "Babo Pasta: Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+      "source_url": "https://www.seriouseats.com/fresh-spinach-pasta-dough-recipe",
+      "source_name": "Serious Eats",
+      "servings": "4",
+      "prep_time": "1 hour 15 minutes including rest",
+      "cook_time": "5 minutes",
+      "nonna_says": "Cook the spinach dry, squeeze it harder than your inbox squeezes you, and chop it fine. Pile the flour and semolina, drop in the yolks and spinach, and knead until the dough feels smooth and alive. Rest it, roll it thin, and cut tagliatelle like ribbons for a party. Brown the butter slowly until it smells nutty, not burnt, and watch closely. Boil the pasta for just a couple minutes, then toss it with butter, Parm, and pasta water until shiny. Serve right away and let Babo take the credit.",
+      "variations": [
+        {
+          "name": "Lemon Pine Nut Spinach Tagliatelle",
+          "twist": "Finish the brown butter pasta with lemon zest and toasted pine nuts for brightness and crunch.",
+          "source_url": "https://www.cooksillustrated.com/recipes/7375-spinach-tagliatelle-with-brown-butter-and-parmesan"
+        },
+        {
+          "name": "Sage Brown Butter Spinach Tagliatelle",
+          "twist": "Crisp sage leaves in the butter so the sauce turns woodsy and aromatic.",
+          "source_url": "https://www.olivemagazine.com/recipes/vegan/spinach-tagliatelle-with-sage-and-brown-butter/"
+        },
+        {
+          "name": "Roasted Garlic Brown Butter Tagliatelle",
+          "twist": "Mash roasted garlic into the brown butter for a mellow, savory sauce that still lets the spinach pasta show.",
+          "source_url": "https://cooking.nytimes.com/recipes/1016250-spinach-tagliatelle-with-brown-butter-and-roasted-garlic"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "6 ounces",
+                "item": "fresh spinach",
+                "prep": "wilted, squeezed very dry, finely chopped"
+              },
+              {
+                "qty": "8 large",
+                "item": "egg yolks",
+                "prep": "room temperature"
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "extra-virgin olive oil",
+                "prep": ""
+              }
+            ],
+            "merge_action": "stir into green yolk mixture"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "2 cups",
+                "item": "00 flour",
+                "prep": "plus more for dusting"
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "semolina flour",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "kosher salt",
+                "prep": ""
+              }
+            ],
+            "merge_action": "mound and make well"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 to 3 tablespoons",
+                "item": "water",
+                "prep": "only if dough feels dry"
+              }
+            ],
+            "merge_action": "adjust hydration while kneading"
+          }
+        ],
+        "final_steps": [
+          "fork yolk mixture into flour",
+          "knead 8 to 10 minutes until smooth",
+          "wrap and rest 30 minutes",
+          "roll through pasta machine and cut tagliatelle",
+          "boil in salted water 2 to 3 minutes"
+        ]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, make the brown butter sauce:",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "6 tablespoons",
+                "item": "unsalted butter",
+                "prep": "cut into pieces"
+              }
+            ],
+            "merge_action": "brown in skillet until nutty"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 cup",
+                "item": "Parmigiano-Reggiano",
+                "prep": "finely grated"
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "pasta water",
+                "prep": "reserved"
+              },
+              {
+                "qty": "1/4 teaspoon",
+                "item": "black pepper",
+                "prep": "freshly ground"
+              }
+            ],
+            "merge_action": "emulsify with hot pasta"
+          }
+        ],
+        "final_steps": [
+          "add drained tagliatelle to brown butter",
+          "toss with cheese and pasta water",
+          "serve glossy and hot"
+        ]
+      }
+    },
+    {
+      "day": "Saturday",
+      "name": "Pizza Night: Four Assorted Pies",
+      "source_url": "https://smittenkitchen.com/2010/05/shaved-asparagus-pizza/",
+      "source_name": "Smitten Kitchen",
+      "servings": "6 to 8",
+      "prep_time": "45 minutes with prepared dough",
+      "cook_time": "40 to 60 minutes total for four pies",
+      "nonna_says": "Heat the oven as hot as it goes and stage every topping before the first dough stretches. Make four pies with purpose: shaved asparagus white, classic cheese, pepperoni, and mushroom garlic. Keep mushrooms away from roasted red peppers if peppers show up, because we are not starting a kitchen argument tonight. Bake each pie until the crust blisters and the cheese bubbles. Shower the asparagus pie with scallions when it comes out. Slice everything fast, feed Patrick first, and enjoy the little chaos.",
+      "variations": [
+        {
+          "name": "Shaved Asparagus and Boursin Pizza",
+          "twist": "Swap part of the mozzarella for garlicky Boursin to make the asparagus pie creamier and tangier.",
+          "source_url": "https://www.thatsnerdalicious.com/shaved-asparagus-pizza-recipe/"
+        },
+        {
+          "name": "Caramelized Onion, Goat Cheese, and Walnut Pizza",
+          "twist": "Make one vegetarian pie with sweet onions, tangy goat cheese, and toasted walnuts instead of the usual red sauce.",
+          "source_url": "https://www.thekitchn.com/recipe-caramelized-onion-goat-cheese-pizza-recipes-from-the-kitchn-184322"
+        },
+        {
+          "name": "Salami Pizza with Hot Honey",
+          "twist": "Top a tomato and mozzarella pie with spicy salami and finish it with hot honey for sweet heat.",
+          "source_url": "https://www.bonappetit.com/recipe/salami-pizza-with-hot-honey-and-fresh-mozzarella"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "500°F or oven maximum, pizza stone or steel inside",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "4",
+                "item": "12-inch pizza dough balls",
+                "prep": "room temperature"
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "bench flour or cornmeal",
+                "prep": "for peel"
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "olive oil",
+                "prep": "for brushing crusts"
+              }
+            ],
+            "merge_action": "stretch and stage four crusts one at a time"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1/2 pound",
+                "item": "asparagus",
+                "prep": "shaved into ribbons"
+              },
+              {
+                "qty": "1/4 cup",
+                "item": "Parmesan",
+                "prep": "grated"
+              },
+              {
+                "qty": "1/2 pound",
+                "item": "mozzarella",
+                "prep": "shredded or cubed"
+              },
+              {
+                "qty": "2 teaspoons",
+                "item": "olive oil",
+                "prep": "for asparagus"
+              },
+              {
+                "qty": "1",
+                "item": "scallion",
+                "prep": "thinly sliced"
+              }
+            ],
+            "merge_action": "assemble shaved asparagus white pie"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 1/2 cups",
+                "item": "tomato pizza sauce",
+                "prep": "divided between cheese and pepperoni pies"
+              },
+              {
+                "qty": "1 pound",
+                "item": "mozzarella",
+                "prep": "shredded"
+              },
+              {
+                "qty": "3 ounces",
+                "item": "pepperoni",
+                "prep": "thinly sliced"
+              },
+              {
+                "qty": "1/4 cup",
+                "item": "Parmesan",
+                "prep": "grated"
+              }
+            ],
+            "merge_action": "assemble classic cheese and pepperoni pies"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "8 ounces",
+                "item": "cremini mushrooms",
+                "prep": "sliced and sautéed dry"
+              },
+              {
+                "qty": "2 cloves",
+                "item": "garlic",
+                "prep": "minced"
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "ricotta",
+                "prep": "dolloped"
+              },
+              {
+                "qty": "1/2 pound",
+                "item": "mozzarella",
+                "prep": "shredded"
+              }
+            ],
+            "merge_action": "assemble mushroom garlic white pie without roasted red peppers"
+          }
+        ],
+        "final_steps": [
+          "bake each pie 10 to 15 minutes until browned and bubbly",
+          "rotate halfway if needed",
+          "finish asparagus pie with scallion",
+          "rest pizzas 2 minutes",
+          "slice into wedges and serve as a four-pie spread"
+        ]
+      },
+      "parallel_table": null
+    }
+  ]
+}
