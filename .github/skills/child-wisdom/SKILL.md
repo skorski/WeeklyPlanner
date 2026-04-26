@@ -2,7 +2,7 @@
 name: child-wisdom
 category: researcher
 description: >
-  Write a short illustrated-style children's mystery story (250-800 words) with
+  Write an illustrated-style children's mystery story (250-1200 words) with
   a life lesson woven in. The story's theme aligns with the parenting coach's
   weekly theme, and elements from the week (dinner ingredients, album moods,
   weather, family activities) appear as subtle details in the narrative. Use
@@ -12,9 +12,10 @@ description: >
 
 # Child Wisdom — Weekly Mystery Story
 
-Write a short children's mystery story for the back page of the weekly family
+Write a children's mystery story for the back pages of the weekly family
 planner booklet. The story is designed to be read aloud at bedtime or at the
-dinner table — a 3-5 minute read that sparks conversation.
+dinner table — usually a 3-5 minute read, but it may be longer when the user
+asks for a story with more emotional gravity or family-history detail.
 
 ## Story Formula
 
@@ -86,7 +87,8 @@ Using the formula above, write a story that:
 - Features weather or setting details from the forecast
 - Is appropriate for an 8-year-old reader/listener
 - Contains a small mystery that resolves warmly
-- Stays between 250-800 words
+- Stays between 250-1200 words. Aim for 250-800 for light weekly stories; use
+  800-1200 when the user explicitly asks for a longer, weightier family story.
 
 ### Step 3: Save Output
 ```bash
@@ -100,8 +102,8 @@ The booklet skill picks up `child-wisdom.json` via `assemble_plan.py`:
 python assemble_plan.py days.json --child-wisdom child-wisdom.json ...
 ```
 
-The story renders on the back pages of the booklet (up to two pages) to ensure
-there is room for a valid and strong story arc.
+The story renders on the back pages of the booklet and may span multiple pages
+to preserve a valid and strong story arc.
 
 ## Style Guide
 
@@ -110,7 +112,7 @@ there is room for a valid and strong story arc.
   word per story that a child might ask about (e.g., "iridescent," "peculiar")
 - **Tone**: Cozy mystery, not thriller — think Encyclopedia Brown meets
   Frog and Toad
-- **Length**: 250-800 words (story may span multiple pages in the booklet)
+- **Length**: 250-1200 words (story may span multiple pages in the booklet)
 - **No**: Violence, scares, sadness, moralistic lecturing, talking animals
   (unless the week's theme calls for it)
 - **Yes**: Sensory details, small kindnesses, child agency, satisfying
@@ -231,7 +233,7 @@ unless marked optional.
 ```json
 {
   "title": "str",
-  "story": "str (250-800 words)",
+  "story": "str (250-1200 words)",
   "theme": "str",
   "life_lesson": "str",
   "characters": ["str"],
@@ -241,7 +243,7 @@ unless marked optional.
 
 ### Validation Rules
 - `title` must be non-empty
-- `story` must be 250-800 words
+- `story` must be 250-1200 words
 - `discussion_prompt` must be non-empty
 - `characters` is an array of character names appearing in the story
 

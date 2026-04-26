@@ -1,0 +1,543 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-04-26T19:47:46.266646+00:00",
+  "status": "PASS",
+  "summary": {
+    "sources": 11,
+    "articles": 33,
+    "failed_sources": 0,
+    "total_words": 53600
+  },
+  "sources": [
+    {
+      "name": "FFXnow",
+      "url": "https://www.ffxnow.com/feed/",
+      "feed_url": "https://www.ffxnow.com/feed/",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 15,
+      "items_selected": 5
+    },
+    {
+      "name": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/feed",
+      "feed_url": "https://newsletter.pragmaticengineer.com/feed",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 20,
+      "items_selected": 3
+    },
+    {
+      "name": "No Mercy / No Malice",
+      "url": "https://www.profgalloway.com/feed/",
+      "feed_url": "https://www.profgalloway.com/feed/",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 1,
+      "items_selected": 0
+    },
+    {
+      "name": "Prof G Media",
+      "url": "https://www.profgmedia.com/feed",
+      "feed_url": "https://www.profgmedia.com/feed",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 20,
+      "items_selected": 5
+    },
+    {
+      "name": "Smitten Kitchen",
+      "url": "https://smittenkitchen.com/feed/",
+      "feed_url": "https://smittenkitchen.com/feed/",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 10,
+      "items_selected": 1
+    },
+    {
+      "name": "101 Cookbooks",
+      "url": "https://www.101cookbooks.com/feed",
+      "feed_url": "https://www.101cookbooks.com/feed",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 15,
+      "items_selected": 1
+    },
+    {
+      "name": "Bon Appetit",
+      "url": "https://www.bonappetit.com/feed/rss",
+      "feed_url": "https://www.bonappetit.com/feed/rss",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 30,
+      "items_selected": 5
+    },
+    {
+      "name": "Bellingcat",
+      "url": "https://www.bellingcat.com/feed/",
+      "feed_url": "https://www.bellingcat.com/feed/",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 10,
+      "items_selected": 2
+    },
+    {
+      "name": "David Heinemeier Hansson",
+      "url": "https://world.hey.com/dhh/feed.atom",
+      "feed_url": "https://world.hey.com/dhh/feed.atom",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 30,
+      "items_selected": 1
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "feed_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 20,
+      "items_selected": 5
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com/rss",
+      "feed_url": "https://news.ycombinator.com/rss",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 30,
+      "items_selected": 5
+    }
+  ],
+  "articles": [
+    {
+      "status": "ok",
+      "title": "FFXnow Daily Debrief for Apr 24, 2026 | FFXnow",
+      "url": "https://www.ffxnow.com/2026/04/24/debrief-4242026/",
+      "published_at": "Sat, 25 Apr 2026 01:00:03 +0000",
+      "word_count": 746,
+      "content_source": "article_html",
+      "summary": "Good Friday evening, Fairfax County. Let’s take a look back at today’s stories and a look forward to tomorrow’s event calendar. 🕗 News recap The following articles were published earlier today — Apr 24, 2026. - 7:30 am: Morning Notes for April 24, 2026 | 🗣️ Comments - 8:30 am: Lake Fairfax festival, Vienna tree...",
+      "source_name": "FFXnow",
+      "source_url": "https://www.ffxnow.com/feed/",
+      "feed_url": "https://www.ffxnow.com/feed/"
+    },
+    {
+      "status": "ok",
+      "title": "Woman hospitalized after crash on Route 29 near Centreville library | FFXnow",
+      "url": "https://www.ffxnow.com/2026/04/24/woman-hospitalized-after-crash-on-route-29-near-centreville-library/",
+      "published_at": "Fri, 24 Apr 2026 23:20:48 +0000",
+      "word_count": 340,
+      "content_source": "article_html",
+      "summary": "Fairfax County police controlling traffic on Machen Road at Route 29 after two-vehicle crash (via VDOT traffic cameras) A woman was critically injured in a two-vehicle crash this afternoon (Friday) on Route 29 near the Centreville Regional Library. Police, firefighters and a medic with the Fairfax County Fire and Rescue Department were dispatched to Route...",
+      "source_name": "FFXnow",
+      "source_url": "https://www.ffxnow.com/feed/",
+      "feed_url": "https://www.ffxnow.com/feed/"
+    },
+    {
+      "status": "ok",
+      "title": "Fairfax detective, victim rights specialist among those honored with state awards | FFXnow",
+      "url": "https://www.ffxnow.com/2026/04/24/fairfax-detective-victim-rights-specialist-among-those-honored-with-state-awards/",
+      "published_at": "Fri, 24 Apr 2026 19:45:29 +0000",
+      "word_count": 584,
+      "content_source": "article_html",
+      "summary": "Two Fairfax County Police Department employees were among 19 individuals statewide honored yesterday (Friday) at Virginia’s ninth annual Unsung Heroes Awards. Presented by the Virginia attorney general’s office, the awards honor those in and out of government who provide extraordinary support for, and a voice to, victims of crime. The awards honor “individuals who represent...",
+      "source_name": "FFXnow",
+      "source_url": "https://www.ffxnow.com/feed/",
+      "feed_url": "https://www.ffxnow.com/feed/"
+    },
+    {
+      "status": "ok",
+      "title": "Fairfax Connector bus involved in head-on crash near Pentagon, 23 injured | FFXnow",
+      "url": "https://www.ffxnow.com/2026/04/24/fairfax-connector-bus-involved-in-head-on-crash-near-pentagon-23-injured/",
+      "published_at": "Fri, 24 Apr 2026 19:10:24 +0000",
+      "word_count": 511,
+      "content_source": "article_html",
+      "summary": "Fairfax Connector and OmniRide collision near Pentagon (via Dave Statter/Bluesky) FILE – The Pentagon is seen from Air Force One as it flies over Washington on March 2, 2022. (AP Photo/Patrick Semansky, File) Previous Image 1/2 Next Image A Fairfax Connector bus was one of two that collided head-on near the Pentagon this morning (Friday)...",
+      "source_name": "FFXnow",
+      "source_url": "https://www.ffxnow.com/feed/",
+      "feed_url": "https://www.ffxnow.com/feed/"
+    },
+    {
+      "status": "ok",
+      "title": "Virginia’s first paid family and medical leave program in pipeline under Boysko legislation | FFXnow",
+      "url": "https://www.ffxnow.com/2026/04/24/virginias-first-paid-family-and-medical-leave-program-in-pipeline-under-boysko-legislation/",
+      "published_at": "Fri, 24 Apr 2026 18:45:30 +0000",
+      "word_count": 1016,
+      "content_source": "article_html",
+      "summary": "A paid family and medical leave program will be set up for the first time in Virginia after Gov. Abigail Spanberger (D) signed legislation from Fairfax County state Sen. Jennifer Boysko (D-38) and Prince William County Del. Briana Sewell (D-25). Boysko, who represents Reston, Herndon, Great Falls and McLean in the Virginia Senate, told FFXnow...",
+      "source_name": "FFXnow",
+      "source_url": "https://www.ffxnow.com/feed/",
+      "feed_url": "https://www.ffxnow.com/feed/"
+    },
+    {
+      "status": "ok",
+      "title": "The Pulse: AI token spending out of control – what’s next?",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-ai-token-spending-out-of",
+      "published_at": "Thu, 23 Apr 2026 16:51:01 GMT",
+      "word_count": 261,
+      "content_source": "article_html",
+      "summary": "The Pulse The Pulse: AI token spending out of control – what’s next? Details from 15 tech companies on the rapid growth of token spend, and their responses to it. Also: AI vendors can’t keep up with demand, plummeting morale at Meta, and more. Gergely Orosz Apr 23, 2026 ∙ Paid 70 1 1 Share...",
+      "source_name": "The Pragmatic Engineer",
+      "source_url": "https://newsletter.pragmaticengineer.com/feed",
+      "feed_url": "https://newsletter.pragmaticengineer.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "Designing Data-intensive Applications with Martin Kleppmann",
+      "url": "https://newsletter.pragmaticengineer.com/p/designing-data-intensive-applications",
+      "published_at": "Wed, 22 Apr 2026 16:19:26 GMT",
+      "word_count": 1631,
+      "content_source": "article_html",
+      "summary": "The Pragmatic Engineer Designing Data-intensive Applications with Martin Kleppmann 175 9 1× 0:00 Current time: 0:00 / Total time: -1:25:00 -1:25:00 Audio playback is not supported on your browser. Please upgrade. Designing Data-intensive Applications with Martin Kleppmann Martin Kleppmann on scaling, his updated Designing Data-Intensive Applications, and what’s next for AI-era systems. Gergely Orosz Apr...",
+      "source_name": "The Pragmatic Engineer",
+      "source_url": "https://newsletter.pragmaticengineer.com/feed",
+      "feed_url": "https://newsletter.pragmaticengineer.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "Learnings from conducting ~1,000 interviews at Amazon",
+      "url": "https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews",
+      "published_at": "Tue, 21 Apr 2026 12:49:16 GMT",
+      "word_count": 6798,
+      "content_source": "article_html",
+      "summary": "Deepdives Learnings from conducting ~1,000 interviews at Amazon Steve Huynh, formerly Principal Engineer at Amazon, shares observations from 10+ years of interviewing software engineers, and an excerpt from his new book, Technical Behavioral Interview Gergely Orosz and Steve Huynh Apr 21, 2026 225 2 9 Share Steve Huynh, formerly Principal Engineer at Amazon, shares observations...",
+      "source_name": "The Pragmatic Engineer",
+      "source_url": "https://newsletter.pragmaticengineer.com/feed",
+      "feed_url": "https://newsletter.pragmaticengineer.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "A War That Trump Won’t End — and an Economy Starting to Feel It",
+      "url": "https://www.profgmedia.com/p/a-war-that-trump-wont-end-and-an",
+      "published_at": "Fri, 24 Apr 2026 21:42:32 GMT",
+      "word_count": 462,
+      "content_source": "article_html",
+      "summary": "Playback speed × Share post Share post at current time Share from 0:00 0:00 / Preview 32 1 4 A War That Trump Won’t End — and an Economy Starting to Feel It Plus: it's Nerd Prom this weekend in DC. Jessica Tarlov and Aaron Parnas Apr 24, 2026 ∙ Paid 32 1 4 Share...",
+      "source_name": "Prof G Media",
+      "source_url": "https://www.profgmedia.com/feed",
+      "feed_url": "https://www.profgmedia.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "Freedom of Navigation",
+      "url": "https://www.profgmedia.com/p/freedom-of-navigation",
+      "published_at": "Fri, 24 Apr 2026 16:36:04 GMT",
+      "word_count": 1765,
+      "content_source": "article_html",
+      "summary": "No Mercy / No Malice Newsletter Freedom of Navigation End of an era Scott Galloway Apr 24, 2026 244 29 19 Share There are a few seats left for the Markets podcast tour. Get yours now, or regret it forever. Purchase tickets here. How do you kill millions of people? A: slowly and methodically. Note...",
+      "source_name": "Prof G Media",
+      "source_url": "https://www.profgmedia.com/feed",
+      "feed_url": "https://www.profgmedia.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "The Case for Making Up with China, and Which Car Company Is Winning the Energy Crisis?",
+      "url": "https://www.profgmedia.com/p/the-case-for-making-up-with-china",
+      "published_at": "Fri, 24 Apr 2026 15:09:08 GMT",
+      "word_count": 348,
+      "content_source": "article_html",
+      "summary": "Playback speed × Share post Share post at current time Share from 0:00 0:00 / Preview 14 1 The Case for Making Up with China, and Which Car Company Is Winning the Energy Crisis? Prof G answers your questions. Scott Galloway Apr 24, 2026 ∙ Paid 14 1 Share Scott Galloway weighs in on China’s...",
+      "source_name": "Prof G Media",
+      "source_url": "https://www.profgmedia.com/feed",
+      "feed_url": "https://www.profgmedia.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "The AI Job Crisis Andrew Yang Saw Coming",
+      "url": "https://www.profgmedia.com/p/the-ai-job-crisis-andrew-yang-saw",
+      "published_at": "Fri, 24 Apr 2026 10:03:07 GMT",
+      "word_count": 381,
+      "content_source": "article_html",
+      "summary": "Playback speed × Share post Share post at current time Share from 0:00 0:00 / Preview 23 2 The AI Job Crisis Andrew Yang Saw Coming The case for UBI is back. Ed Elson and Scott Galloway Apr 24, 2026 ∙ Paid 23 2 Share Ed Elson and Scott Galloway are joined by Andrew Yang...",
+      "source_name": "Prof G Media",
+      "source_url": "https://www.profgmedia.com/feed",
+      "feed_url": "https://www.profgmedia.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "Why Silicon Valley is hooked on Chinese AI tokens",
+      "url": "https://www.profgmedia.com/p/why-silicon-valley-is-hooked-on-chinese",
+      "published_at": "Thu, 23 Apr 2026 21:51:11 GMT",
+      "word_count": 1777,
+      "content_source": "article_html",
+      "summary": "China Decode Newsletter Why Silicon Valley is hooked on Chinese AI tokens Plus, the new law that has every foreign company in China quietly panicking James Kynge and Alice Han Apr 23, 2026 10 2 2 Share TL;DR - Why American AI Runs on Chinese tokens - Beijing’s new export control law leaves foreign companies...",
+      "source_name": "Prof G Media",
+      "source_url": "https://www.profgmedia.com/feed",
+      "feed_url": "https://www.profgmedia.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "sidecar",
+      "url": "https://smittenkitchen.com/2026/04/sidecar/",
+      "published_at": "Fri, 24 Apr 2026 17:56:49 +0000",
+      "word_count": 799,
+      "content_source": "article_html",
+      "summary": "If there’s anything that’s been consistent about this site in its near-20 years of beaming (babbling?) hypertext to servers and back to you, it’s that I’m very bossy when I get into something new, especially cocktails. When I fell in love with Porch Swings, I wanted you to as well. Ditto for Blood Orange Margaritas...",
+      "source_name": "Smitten Kitchen",
+      "source_url": "https://smittenkitchen.com/feed/",
+      "feed_url": "https://smittenkitchen.com/feed/"
+    },
+    {
+      "status": "ok",
+      "title": "Classic Risotto",
+      "url": "https://www.101cookbooks.com/risotto-recipe/",
+      "published_at": "Wed, 22 Apr 2026 00:50:10 +0000",
+      "word_count": 1568,
+      "content_source": "article_html",
+      "summary": "This is the first risotto you should learn to make. Simple enough to focus on technique, and delicious enough to return to over and over. The two hero ingredients are rice and Parmesan cheese, and the rest of the story is largely about method and approach. Pay attention to a few key details - pan...",
+      "source_name": "101 Cookbooks",
+      "source_url": "https://www.101cookbooks.com/feed",
+      "feed_url": "https://www.101cookbooks.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "37 Memorial Day Recipes for the Ultimate Summer Party",
+      "url": "https://www.bonappetit.com/gallery/memorial-day-recipes",
+      "published_at": "Sat, 25 Apr 2026 13:00:00 +0000",
+      "word_count": 1993,
+      "content_source": "article_html",
+      "summary": "Memorial Day weekend is the soft launch of summer. The group chat comes to life, the grill gets dusted off, and meals migrate outdoors. These 37 Memorial Day recipes—including cheesy brats, classic coleslaw, and no-bake cheesecake bars—are built for easy hosting, with everything you need for a backyard barbecue or casual cookout. Consider this your...",
+      "source_name": "Bon Appetit",
+      "source_url": "https://www.bonappetit.com/feed/rss",
+      "feed_url": "https://www.bonappetit.com/feed/rss"
+    },
+    {
+      "status": "ok",
+      "title": "Ribeye Steak and More Recipes Miranda Priestly Would Find Groundbreaking",
+      "url": "https://www.bonappetit.com/gallery/devil-wears-prada-food-moments-recipes",
+      "published_at": "Sat, 25 Apr 2026 10:00:00 +0000",
+      "word_count": 849,
+      "content_source": "article_html",
+      "summary": "The long-awaited return of Miranda Priestly, Andy Sachs, and the rest of The Devil Wears Prada gang is nigh. To celebrate the much anticipated sequel, we’ve rounded up some recipes that evoke the original film’s most pivotal food moments, from a fragrant onion bagel to a thick, juicy steak—no run to Smith & Wollensky needed...",
+      "source_name": "Bon Appetit",
+      "source_url": "https://www.bonappetit.com/feed/rss",
+      "feed_url": "https://www.bonappetit.com/feed/rss"
+    },
+    {
+      "status": "ok",
+      "title": "The Best New Products at Trader Joe’s This Spring",
+      "url": "https://www.bonappetit.com/story/trader-joes-new-products-review",
+      "published_at": "Sat, 25 Apr 2026 09:00:00 +0000",
+      "word_count": 1984,
+      "content_source": "article_html",
+      "summary": "Some say that the sight of green things sprouting is the official sign of spring. For me, it’s a bearded man in business casual riding a scooter at, like, 45 MPH grinning in the sunshine. Another sign is that Trader Joe’s is selling mushroom-shaped sour gummies and lemon poppy seed muffins. What else? A chocolate-coconut-caramel...",
+      "source_name": "Bon Appetit",
+      "source_url": "https://www.bonappetit.com/feed/rss",
+      "feed_url": "https://www.bonappetit.com/feed/rss"
+    },
+    {
+      "status": "ok",
+      "title": "Why Is a Pasta Sauce Company Recording Your Conversations?",
+      "url": "https://www.bonappetit.com/story/prego-wants-to-record-your-conversations",
+      "published_at": "Fri, 24 Apr 2026 17:30:00 +0000",
+      "word_count": 771,
+      "content_source": "article_html",
+      "summary": "Welcome to Open Tab, a weekly roundup of news, gossip, and stories that have stayed open in my tabs all week. Last week we covered the president's DoorDash order. If you read Open Tab last week, you'll be pleased to know that we're starting this week's edition by tying up some loose ends. First, the...",
+      "source_name": "Bon Appetit",
+      "source_url": "https://www.bonappetit.com/feed/rss",
+      "feed_url": "https://www.bonappetit.com/feed/rss"
+    },
+    {
+      "status": "ok",
+      "title": "The Best Travel Coffee Mugs for Road Trips, Park Strolls, and Your Morning Commute",
+      "url": "https://www.bonappetit.com/story/best-travel-coffee-mugs",
+      "published_at": "Fri, 24 Apr 2026 13:17:00 +0000",
+      "word_count": 6185,
+      "content_source": "article_html",
+      "summary": "As a coffee drinker, you probably have your own particular preferences when it comes to what kind of coffee you like. And whether you’ve thought about it or not, you also probably have some predilections toward the kind of cup you drink your coffee from too. I mean, we all have a “favorite mug” at...",
+      "source_name": "Bon Appetit",
+      "source_url": "https://www.bonappetit.com/feed/rss",
+      "feed_url": "https://www.bonappetit.com/feed/rss"
+    },
+    {
+      "status": "ok",
+      "title": "“Make Iran Ungovernable” – Tracking Efforts To Destroy Iran’s Police Infrastructure - bellingcat",
+      "url": "https://www.bellingcat.com/news/2026/04/24/make-iran-ungovernable-tracking-efforts-to-destroy-irans-police-infrastructure/",
+      "published_at": "Fri, 24 Apr 2026 14:16:34 +0000",
+      "word_count": 1788,
+      "content_source": "feed_text_fallback",
+      "summary": "Bellingcat has identified at least 80 police stations or infrastructure related to law enforcement agencies and the Basij paramilitary group that has been damaged or destroyed in the first three weeks of the United States and Israel’s war against Iran. Experts told Bellingcat that both countries aim to degrade the Iranian regime’s “repressive capacity”. Combined...",
+      "source_name": "Bellingcat",
+      "source_url": "https://www.bellingcat.com/feed/",
+      "feed_url": "https://www.bellingcat.com/feed/"
+    },
+    {
+      "status": "ok",
+      "title": "Mining China’s ‘Little Red Book’ for Open Source Gold - bellingcat",
+      "url": "https://www.bellingcat.com/resources/2026/04/20/xiaohongshu-rednote-open-source-guide/",
+      "published_at": "Mon, 20 Apr 2026 12:52:25 +0000",
+      "word_count": 2685,
+      "content_source": "feed_text_fallback",
+      "summary": "The challenges of conducting open-source research in China are well-documented. Consistently named one of the most digitally oppressive countries in the world, China blocks some of the world’s largest social media platforms, such as Facebook, Google, and YouTube. Those that are still accessible are mostly Chinese-owned, strictly regulated and monitored in real time by AI...",
+      "source_name": "Bellingcat",
+      "source_url": "https://www.bellingcat.com/feed/",
+      "feed_url": "https://www.bellingcat.com/feed/"
+    },
+    {
+      "status": "ok",
+      "title": "Celebrating computers at Omacon",
+      "url": "https://world.hey.com/dhh/celebrating-computers-at-omacon-163eb568",
+      "published_at": "2026-04-21T10:56:33Z",
+      "word_count": 395,
+      "content_source": "article_html",
+      "summary": "Do you see the same truth? That's how C.S. Lewis defined the essence of friendship. And that's what we gathered 130 people in New York to honor for Omacon two weeks ago. Seeing the same truth: A love of computers. Bespoke computers. Malleable computers. Our computers. It's the kind of magic you can only really...",
+      "source_name": "David Heinemeier Hansson",
+      "source_url": "https://world.hey.com/dhh/feed.atom",
+      "feed_url": "https://world.hey.com/dhh/feed.atom"
+    },
+    {
+      "status": "ok",
+      "title": "Prime Video drops full trailer for Spider-Noir",
+      "url": "https://arstechnica.com/culture/2026/04/prime-video-drops-full-trailer-for-spider-noir/",
+      "published_at": "Sun, 26 Apr 2026 17:20:55 +0000",
+      "word_count": 578,
+      "content_source": "article_html",
+      "summary": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav If your spider-sense is tingling, perhaps it’s because Prime Video released the official full trailer for its upcoming live action series, Spider-Noir, at CCXPMX26 in Mexico City over the weekend. As it...",
+      "source_name": "Ars Technica",
+      "source_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "feed_url": "https://feeds.arstechnica.com/arstechnica/index"
+    },
+    {
+      "status": "ok",
+      "title": "New robotic control software avoids jamming their joints",
+      "url": "https://arstechnica.com/science/2026/04/kinematic-intelligence-helps-robots-learn-their-limits/",
+      "published_at": "Sun, 26 Apr 2026 11:09:29 +0000",
+      "word_count": 1512,
+      "content_source": "article_html",
+      "summary": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav Switching from one smartphone to another is mostly a smooth procedure. You log into your accounts and your apps, preferences, and contacts should sync to the new hardware. But in the world...",
+      "source_name": "Ars Technica",
+      "source_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "feed_url": "https://feeds.arstechnica.com/arstechnica/index"
+    },
+    {
+      "status": "ok",
+      "title": "Artemis II broke Fred Haise's distance record, but he is happy to pass it on",
+      "url": "https://arstechnica.com/science/2026/04/artemis-ii-broke-fred-haises-distance-record-but-he-is-happy-to-pass-it-on/",
+      "published_at": "Sat, 25 Apr 2026 11:40:58 +0000",
+      "word_count": 2596,
+      "content_source": "article_html",
+      "summary": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav With the circumlunar flight of Artemis II, and the prospect of landing astronauts on the lunar surface within a few years, humanity is preempting an era where the imprint of visiting the...",
+      "source_name": "Ars Technica",
+      "source_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "feed_url": "https://feeds.arstechnica.com/arstechnica/index"
+    },
+    {
+      "status": "ok",
+      "title": "Palantir employees are talking about company's \"descent into fascism\"",
+      "url": "https://arstechnica.com/tech-policy/2026/04/palantir-employees-are-talking-about-companys-descent-into-fascism/",
+      "published_at": "Sat, 25 Apr 2026 10:49:52 +0000",
+      "word_count": 1884,
+      "content_source": "article_html",
+      "summary": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav It took just a few months of President Donald Trump’s second term for Palantir employees to question their company’s commitments to civil liberties. Last fall, Palantir seemed to become the technological backbone...",
+      "source_name": "Ars Technica",
+      "source_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "feed_url": "https://feeds.arstechnica.com/arstechnica/index"
+    },
+    {
+      "status": "ok",
+      "title": "This is who's developing Golden Dome's orbital interceptors—if they're ever built",
+      "url": "https://arstechnica.com/space/2026/04/this-is-whos-developing-golden-domes-orbital-interceptors-if-theyre-ever-built/",
+      "published_at": "Sat, 25 Apr 2026 02:52:37 +0000",
+      "word_count": 1629,
+      "content_source": "article_html",
+      "summary": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav The US Space Force released a list Friday of a dozen companies working on Space-Based Interceptors for the Pentagon’s Golden Dome initiative, a multilayer defense system to shield US territory from drones...",
+      "source_name": "Ars Technica",
+      "source_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "feed_url": "https://feeds.arstechnica.com/arstechnica/index"
+    },
+    {
+      "status": "ok",
+      "title": "GoDaddy Gave a Domain to a Stranger Without Any Documentation",
+      "url": "https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/",
+      "published_at": "Sun, 26 Apr 2026 16:57:56 +0000",
+      "word_count": 2601,
+      "content_source": "article_html",
+      "summary": "What would you do if your organization had used a domain name for 27 years, and the registrar holding the domain seized it without any advance warning? All email and websites went dark. The company’s tech support spent four days telling you to “Just wait, we are working on it.” On the fourth day, the...",
+      "source_name": "Hacker News",
+      "source_url": "https://news.ycombinator.com/rss",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "status": "ok",
+      "title": "Dillo release 3.3.0",
+      "url": "https://dillo-browser.org/release/3.3.0/",
+      "published_at": "Sun, 26 Apr 2026 17:18:14 +0000",
+      "word_count": 1011,
+      "content_source": "article_html",
+      "summary": "Dillo release 3.3.0 Dillo release 3.3.0 Released on 2026-04-26 Summary of changes The Dillo 3.3.0 release contains several new features, configuration options and bug fixes. It is the first release to provide experimental support for FLTK 1.4 (see the details below). Control via UNIX socket A new dilloc program is now available to control Dillo...",
+      "source_name": "Hacker News",
+      "source_url": "https://news.ycombinator.com/rss",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "status": "ok",
+      "title": "Progress Report: Linux 7.0 - Asahi Linux",
+      "url": "https://asahilinux.org/2026/04/progress-report-7-0/",
+      "published_at": "Sun, 26 Apr 2026 10:50:32 +0000",
+      "word_count": 3813,
+      "content_source": "article_html",
+      "summary": "Progress Report: Linux 7.0 - Asahi Linux / Blog / Progress Report: Linux 7.0 Progress Report: Linux 7.0 - Previous - After almost three years of 6.x series kernels, Linux 7.0 is finally here. That means it’s also time for another Asahi progress report! Automate Everything Users of alternate distros and keen-eyed individuals may have...",
+      "source_name": "Hacker News",
+      "source_url": "https://news.ycombinator.com/rss",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "status": "ok",
+      "title": "Clay PCB Tutorial — feministhackerspaces",
+      "url": "https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial",
+      "published_at": "Sun, 26 Apr 2026 16:02:14 +0000",
+      "word_count": 2338,
+      "content_source": "article_html",
+      "summary": "Clay PCB Tutorial — feministhackerspaces ︎ feminist hacking about contact Clay PCB Tutorial MaKING Printed Circuit Boards with Wild Clay It is an open secret that the hardware in our smart devices contains not only plastics but also conflict minerals such as tungsten, tin, tantalum, silver and gold. We are investigating alternative hardware from locally...",
+      "source_name": "Hacker News",
+      "source_url": "https://news.ycombinator.com/rss",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "status": "thin_content",
+      "title": "An AI agent deleted our production database. The agent's confession is below",
+      "url": "https://x.com/lifeof_jer/status/2048103471019434248",
+      "published_at": "Sun, 26 Apr 2026 16:27:29 +0000",
+      "word_count": 1,
+      "content_source": "feed_text_fallback",
+      "summary": "Comments",
+      "source_name": "Hacker News",
+      "source_url": "https://news.ycombinator.com/rss",
+      "feed_url": "https://news.ycombinator.com/rss"
+    }
+  ]
+}

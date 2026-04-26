@@ -1,0 +1,254 @@
+[
+  {
+    "name": "Leftover Sunday Gravy Rigatoni with Meatballs & Sausage",
+    "base_description": "Leftover Italian-American Sunday gravy loosened with pasta water, tossed with rigatoni, meatballs, Italian sausage, and pecorino Romano for a low-lift solo-parent Sunday dinner.",
+    "flavor_profile": "Deep tomato sweetness, pork-and-beef richness, garlic, fennel, pecorino salt, and the cozy roundness of a sauce that has already done its long cooking.",
+    "elevations": [
+      {
+        "type": "sauce",
+        "title": "Pan-Finish the Rigatoni in the Gravy",
+        "instruction": "Warm the Sunday gravy gently in a wide saute pan. Boil the rigatoni 2 minutes shy of al dente, then transfer it straight into the gravy with 1/2 cup starchy pasta water. Toss over steady heat until the sauce turns glossy and clings inside the tubes, then fold in finely grated pecorino Romano off the heat.",
+        "why": "Leftover tomato sauce can tighten and sit on top of pasta. Starchy water and pan-tossing rebuild the emulsion so every ridge of rigatoni carries sauce instead of just wearing a red coat.",
+        "extra_ingredients": ["reserved pasta cooking water", "finely grated pecorino Romano"]
+      },
+      {
+        "type": "texture",
+        "title": "Crisp the Meat Before It Goes Back",
+        "instruction": "Slice the sausage on a bias and halve a few meatballs. Sear the cut sides in a film of extra-virgin olive oil in a ripping-hot skillet for 60 to 90 seconds, just until the edges brown, then return them to the finished pasta at the last minute.",
+        "why": "The gravy gives tenderness; the hot pan gives Maillard browning. That little crust keeps the dish from becoming one soft, sleepy bowl.",
+        "extra_ingredients": ["extra-virgin olive oil"]
+      },
+      {
+        "type": "texture",
+        "title": "Garlic-Lemon Pangrattato",
+        "instruction": "Toast panko breadcrumbs in olive oil with one minced garlic clove, a pinch of kosher salt, and red pepper flakes until deep gold. Off heat, stir in chopped parsley and lemon zest, then scatter over each bowl just before serving.",
+        "why": "Italian-American red sauce loves crunch and brightness. Breadcrumbs echo old-school cucina povera while lemon zest cuts through sausage fat without making the sauce taste sharp.",
+        "extra_ingredients": ["panko breadcrumbs", "garlic", "fresh parsley", "lemon", "red pepper flakes"]
+      },
+      {
+        "type": "acid",
+        "title": "One-Teaspoon Vinegar Wake-Up",
+        "instruction": "After the gravy is hot, taste it before salting. If it feels heavy or flat, stir in 1 teaspoon red wine vinegar and wait 30 seconds before tasting again. Finish with torn basil, not dried herbs from a jar.",
+        "why": "Long-cooked tomato sauces often need a tiny acid correction after refrigeration. The vinegar wakes up the tomato and cheese without announcing itself.",
+        "extra_ingredients": ["red wine vinegar", "fresh basil"]
+      }
+    ],
+    "designers_note": "This is leftover night, but it should not taste like resignation. The move is simple: revive the sauce, put a crust back on the meat, and give the bowl a crunchy top hat."
+  },
+  {
+    "name": "Wagyu Ultra-Smashed Cheeseburgers with Pickles & Secret Sauce",
+    "base_description": "Small balls of ground wagyu beef smashed hard onto a hot griddle, stacked with American cheese, dill pickles, shredded lettuce, potato buns, and a tangy burger sauce.",
+    "flavor_profile": "Beef fat, browned crust, melted American cheese, pickle brine, soft potato bun sweetness, and diner-style sauce tang.",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Cold Wagyu, Furious Steel",
+        "instruction": "Portion the wagyu into loose 2-ounce balls and keep them cold until cooking. Heat cast iron or a griddle until a drop of water skitters and vanishes. Add the beef, cover with parchment, smash hard for 10 seconds to about 1/4 inch, season the exposed side, and do not touch it again until the edges are dark brown and lacy.",
+        "why": "Wagyu has plenty of fat, so the danger is smearing it before it hits the pan. Cold, loosely handled beef plus brutal contact heat gives crisp edges without turning the patty greasy.",
+        "extra_ingredients": ["parchment paper", "kosher salt"]
+      },
+      {
+        "type": "sauce",
+        "title": "Cold Pickle-Brine Secret Sauce",
+        "instruction": "Mix mayonnaise, ketchup, yellow mustard, minced dill pickle, 1 tablespoon pickle brine, smoked paprika, garlic powder, and black pepper. Chill it for at least 30 minutes, then spread it on both buns so the cold sauce hits the hot cheese and beef.",
+        "why": "A smash burger is mostly heat and fat. Cold, acidic sauce gives temperature contrast and keeps wagyu richness from flattening the palate.",
+        "extra_ingredients": ["mayonnaise", "ketchup", "yellow mustard", "dill pickles", "pickle brine", "smoked paprika", "garlic powder"]
+      },
+      {
+        "type": "acid",
+        "title": "Fifteen-Minute Shaved Onion Pickles",
+        "instruction": "Shave half a red onion paper-thin and toss with 1/4 cup apple cider vinegar, 1 teaspoon sugar, and a pinch of salt while the griddle heats. Drain well and add a small tangle above the cheese or beside the dill pickles.",
+        "why": "Pickles give snap; pickled onion gives aroma, color, and a cleaner acid line. It is the cheapest way to make a burger taste less one-dimensional.",
+        "extra_ingredients": ["red onion", "apple cider vinegar", "granulated sugar"]
+      },
+      {
+        "type": "texture",
+        "title": "Beef-Fat Toasted Potato Buns",
+        "instruction": "After the first burger batch, scrape the griddle clean but leave a thin shine of wagyu fat. Toast split potato buns cut-side down until they have a crisp golden shell, then put shredded lettuce on the bottom bun before the patties.",
+        "why": "A crisp bun face resists sauce and burger juices. The lettuce underlayer acts like a little raincoat, which is not glamorous, but it works.",
+        "extra_ingredients": ["potato buns", "shredded iceberg lettuce"]
+      }
+    ],
+    "designers_note": "Do not baby the wagyu. It wants cold handling, violent heat, and then a proper rest for one minute while the cheese finishes melting."
+  },
+  {
+    "name": "Alex's Mom's Stuffed Cabbage Rolls",
+    "base_description": "Tender cabbage leaves wrapped around beef, rice, onion, and tomato, then simmered until the filling is plush and the tomato sauce turns sweet-savory.",
+    "flavor_profile": "Soft cabbage sweetness, savory beef, gentle rice starch, tomato tang, brown sugar warmth, onion, and old-neighborhood comfort.",
+    "elevations": [
+      {
+        "type": "sauce",
+        "title": "Silky Tomato-Butter Braising Sauce",
+        "instruction": "Before the rolls go in, sweat finely diced onion and grated carrot in butter with a pinch of salt. Add tomato sauce, a splash of chicken stock, brown sugar, and 1 teaspoon apple cider vinegar. Simmer 10 minutes, then spoon it over the rolls and finish the cooked sauce with one more cold knob of butter.",
+        "why": "The carrot and butter round tomato acidity, while the small vinegar dose keeps the sweet sauce from tasting like candy. The final butter gives the sauce a restaurant gloss.",
+        "extra_ingredients": ["carrot", "unsalted butter", "chicken stock", "apple cider vinegar"]
+      },
+      {
+        "type": "temperature",
+        "title": "Chilled Lemon-Dill Sour Cream",
+        "instruction": "Whisk sour cream with lemon zest, a squeeze of lemon juice, chopped fresh dill, black pepper, and a pinch of salt. Keep it cold and spoon it beside, not on top of, the hot rolls so each bite can decide how much tang it wants.",
+        "why": "Hot cabbage rolls are tender and sweet. Cold sour cream adds temperature contrast, dairy tang, and fresh dill aroma without diluting the braising sauce.",
+        "extra_ingredients": ["sour cream", "lemon", "fresh dill", "black pepper"]
+      },
+      {
+        "type": "texture",
+        "title": "Crispy Rye Crumb Finish",
+        "instruction": "Pulse a slice of rye bread into coarse crumbs. Toast the crumbs in butter with a minced shallot until crisp, then season with salt and scatter lightly over plated rolls.",
+        "why": "Stuffed cabbage is intentionally soft; it needs a little crackle. Rye echoes deli flavors and makes the plate feel deliberate instead of nursery-food soft.",
+        "extra_ingredients": ["rye bread", "shallot", "unsalted butter"]
+      },
+      {
+        "type": "preparation",
+        "title": "Shave the Rib, Keep the Rolls Submerged",
+        "instruction": "After blanching the cabbage leaves, shave the thick rib nearly flush with a paring knife. Arrange rolls seam-side down, cover with sauce, then lay a parchment round directly on top before reheating or baking covered.",
+        "why": "Even leaf thickness gives tidy rolls that do not split. The parchment keeps the tops moist so reheated swim-night cabbage rolls stay tender, not leathery.",
+        "extra_ingredients": ["parchment paper"]
+      }
+    ],
+    "designers_note": "The charm here is softness, but softness needs contrast. Give the rolls silk underneath, cold dill beside them, and rye crunch on top."
+  },
+  {
+    "name": "Slow-Cooked Pork Chops with Mushroom Cream Sauce",
+    "base_description": "Bone-in pork chops adapted for a gentle slow cook, finished with cremini mushrooms, heavy cream, garlic, thyme, Dijon mustard, and pan juices. No roasted red peppers belong anywhere near the mushrooms here.",
+    "flavor_profile": "Tender pork, browned mushroom umami, thyme, garlic, Dijon heat, cream richness, and a little bistro acidity.",
+    "elevations": [
+      {
+        "type": "marinade",
+        "title": "Short Salt-Sugar Brine for Tender Chops",
+        "instruction": "Dissolve 3 tablespoons kosher salt and 1 tablespoon sugar in 4 cups cold water with a smashed garlic clove and a thyme sprig. Brine the pork chops for 1 to 3 hours, then rinse quickly, pat completely dry, and let them sit uncovered in the refrigerator until cooking.",
+        "why": "A short brine seasons the pork all the way in and gives the slow cooker a margin of forgiveness. Drying afterward matters because wet chops steam instead of brown.",
+        "extra_ingredients": ["kosher salt", "granulated sugar", "garlic", "fresh thyme"]
+      },
+      {
+        "type": "preparation",
+        "title": "Sear First, Slow-Cook on Low Only",
+        "instruction": "Brown the dried chops in a hot skillet for 2 minutes per side, then move them to the slow cooker. In the same pan, brown sliced cremini mushrooms hard before adding garlic, thyme, and 1/2 cup chicken stock to scrape up the fond. Pour this over the chops and cook on LOW until fork-tender, checking around 2 1/2 hours rather than abandoning them all afternoon.",
+        "why": "The slow cooker tenderizes; the skillet creates flavor. Browning the mushrooms separately prevents gray, watery sauce and keeps the user-requested slow-cooked chops from tasting boiled.",
+        "extra_ingredients": ["chicken stock", "cremini mushrooms", "garlic", "fresh thyme"]
+      },
+      {
+        "type": "sauce",
+        "title": "Dijon-Lemon Cream Finish",
+        "instruction": "Lift the tender chops to a warm plate. Simmer the cooking liquid and mushrooms in a saucepan until slightly reduced, then whisk in heavy cream, Dijon mustard, a squeeze of lemon juice, and one tablespoon cold butter. Spoon the sauce over the chops after they rest for 5 minutes.",
+        "why": "Cream needs reduction and acid to avoid heaviness. Dijon and lemon sharpen the mushroom sauce while cold butter makes it glossy enough to look intentional.",
+        "extra_ingredients": ["heavy cream", "Dijon mustard", "lemon", "unsalted butter"]
+      },
+      {
+        "type": "texture",
+        "title": "Crispy Shallot-Thyme Crumbs",
+        "instruction": "Toast panko breadcrumbs in butter with finely sliced shallot and thyme until golden. Sprinkle a spoonful over the sauced pork just before serving.",
+        "why": "Slow-cooked pork and cream sauce are both soft. A crisp, savory crumb gives the fork something to notice between tender bites.",
+        "extra_ingredients": ["panko breadcrumbs", "shallot", "unsalted butter", "fresh thyme"]
+      }
+    ],
+    "designers_note": "Tender does not mean pale. Brown the pork, brown the mushrooms, then let the low heat do its patient work. And keep the roasted red peppers out of this one."
+  },
+  {
+    "name": "Greek-Style Roasted Branzino with Garlicky Kale",
+    "base_description": "Whole branzino roasted with lemon, herbs, and olive oil, served with quick garlicky kale and a lemony Greek-style finish.",
+    "flavor_profile": "Clean white fish, lemon, oregano, dill, grassy olive oil, garlic, mineral greens, and a salty seaside brightness.",
+    "elevations": [
+      {
+        "type": "sauce",
+        "title": "Garlic-Oregano Ladolemono",
+        "instruction": "Whisk 1/3 cup extra-virgin olive oil with the juice of 1 lemon, 1 finely grated garlic clove, 1 teaspoon dried oregano, chopped dill, and kosher salt until it thickens slightly. Spoon it over the hot fish and kale at the table.",
+        "why": "Ladolemono is not decoration; it is the bridge between lean fish and bitter greens. Whisking makes a temporary emulsion that tastes fuller than separate oil and lemon.",
+        "extra_ingredients": ["extra-virgin olive oil", "lemon", "garlic", "dried oregano", "fresh dill"]
+      },
+      {
+        "type": "texture",
+        "title": "Dry Skin, Hot Oven, Two-Minute Broiler",
+        "instruction": "Pat the branzino aggressively dry, score each side three times, salt it 20 minutes ahead, and rub lightly with olive oil. Roast at 450 degrees F until just cooked, then hit the broiler for the final 1 to 2 minutes to blister the skin.",
+        "why": "Fish skin only crisps when surface moisture is gone and heat is decisive. The quick broiler finish gives crackle without overcooking the delicate flesh.",
+        "extra_ingredients": ["kosher salt", "extra-virgin olive oil"]
+      },
+      {
+        "type": "temperature",
+        "title": "Cold Fennel-Cucumber Crunch",
+        "instruction": "Shave fennel and cucumber thinly, toss with lemon juice, olive oil, dill, and a pinch of salt, then keep it cold until plating. Serve a small pile next to the hot fish rather than burying the crisp skin.",
+        "why": "Cold, raw vegetables make the roasted fish feel lighter and more Greek-island fresh. They also add snap against the soft kale.",
+        "extra_ingredients": ["fennel bulb", "English cucumber", "lemon", "fresh dill"]
+      },
+      {
+        "type": "texture",
+        "title": "Garlic Chips for the Kale",
+        "instruction": "Start the kale pan with thinly sliced garlic in olive oil over medium heat. Pull the garlic out when pale gold, cook the kale in the perfumed oil, then scatter the crisp garlic chips back over the greens at the end.",
+        "why": "Garlic burns fast if left in the pan. Removing it turns a common mistake into a deliberate crunchy garnish.",
+        "extra_ingredients": ["garlic", "extra-virgin olive oil"]
+      }
+    ],
+    "designers_note": "This dinner should feel clean but not timid. Crisp the skin, sharpen the plate with lemon, and let cold fennel do the work a heavy side dish would only ruin."
+  },
+  {
+    "name": "Babo Pasta: Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+    "base_description": "Homemade spinach tagliatelle made rich with egg yolks only, tossed with brown butter, Parmigiano-Reggiano, and pasta water as a family pasta project.",
+    "flavor_profile": "Buttery nuttiness, spinach sweetness, egg-yolk richness, aged Parmigiano-Reggiano salt, black pepper, and the satisfying chew of fresh pasta.",
+    "elevations": [
+      {
+        "type": "sauce",
+        "title": "Glossy Brown-Butter Parmigiano Emulsion",
+        "instruction": "Brown unsalted butter until the milk solids smell like toasted hazelnuts, then pull the pan off the heat. Add just-cooked tagliatelle, 1/3 cup hot pasta water, and finely grated Parmigiano-Reggiano in handfuls while tossing hard. Add more pasta water by the spoonful until the noodles look lacquered, not oily.",
+        "why": "Brown butter alone coats; pasta water and cheese emulsify. The difference is the difference between greasy noodles and a sauce that actually behaves.",
+        "extra_ingredients": ["unsalted butter", "hot pasta water", "Parmigiano-Reggiano"]
+      },
+      {
+        "type": "texture",
+        "title": "Sage-Lemon Pangrattato",
+        "instruction": "Toast panko breadcrumbs in a spoonful of the brown butter with minced fresh sage and a pinch of salt. Off heat, stir in lemon zest and shower a small amount over each bowl.",
+        "why": "Fresh pasta with butter and cheese is luxurious but soft. The crumbs give crunch, while sage and lemon keep the butter from tasting one-note.",
+        "extra_ingredients": ["panko breadcrumbs", "fresh sage", "lemon"]
+      },
+      {
+        "type": "temperature",
+        "title": "Cool Lemon-Ricotta Spoon",
+        "instruction": "Stir whole-milk ricotta with lemon zest, black pepper, and a pinch of salt. Keep it cool and add one small spoonful to the side of each hot bowl so diners can fold it in gradually.",
+        "why": "The cool ricotta gives temperature contrast and a gentle dairy tang without stealing the role of the brown butter. Small spoonful means luxury, not lasagna filling.",
+        "extra_ingredients": ["whole-milk ricotta", "lemon", "black pepper"]
+      },
+      {
+        "type": "preparation",
+        "title": "Dry Spinach, Rested Dough",
+        "instruction": "After cooking the spinach, squeeze it in a clean towel until it seems almost too dry, then chop it fine before mixing the yolk dough. Rest the wrapped dough at least 30 minutes before rolling and keep sheets dusted with semolina, not clouds of raw flour.",
+        "why": "Spinach water is the enemy of clean pasta texture. A rested, properly hydrated dough rolls smoother, cooks more evenly, and lets Elsie crank the machine without wrestling glue.",
+        "extra_ingredients": ["semolina flour"]
+      }
+    ],
+    "designers_note": "This is the family project meal, so protect the ritual: dry spinach, patient dough, and a sauce that shines because someone tossed it like they meant it."
+  },
+  {
+    "name": "Pizza Night: Four Assorted Pies",
+    "base_description": "A visitor-night spread of four assorted pizzas, including shaved asparagus white pizza plus family-friendly classics, with toppings staged separately and mushrooms kept away from roasted red peppers.",
+    "flavor_profile": "Crisp crust, melted mozzarella, tomato sweetness, salty pepperoni, spring asparagus, mushroom umami, Parmesan, olive oil, and party-night variety.",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Four-Pie Flavor Map",
+        "instruction": "Make the four pies distinct: one classic tomato-mozzarella basil pie, one pepperoni pie, one shaved asparagus white pie with ricotta and Parmesan, and one mushroom-fontina pie with thyme. If roasted red peppers appear, put them on the classic or a separate pepper-and-onion variation, never on the mushroom pie.",
+        "why": "A pizza party works when each pie has a job. Separating mushrooms from roasted red peppers respects the user note and keeps the table from tasting like one muddled topping bin.",
+        "extra_ingredients": ["fresh basil", "ricotta", "fontina", "fresh thyme", "roasted red peppers"]
+      },
+      {
+        "type": "sauce",
+        "title": "Garlic Oil and Basil Oil Finishes",
+        "instruction": "Warm olive oil with smashed garlic over low heat for 5 minutes, then strain for garlic oil. Blend or finely chop basil with olive oil and a pinch of salt for basil oil. Use garlic oil on the white, asparagus, and mushroom pies; use basil oil on the tomato pie after baking.",
+        "why": "Finishing oils added after the oven keep their aroma. They make four pies feel curated without buying obscure ingredients.",
+        "extra_ingredients": ["extra-virgin olive oil", "garlic", "fresh basil"]
+      },
+      {
+        "type": "temperature",
+        "title": "Cold Lemon-Arugula Shower",
+        "instruction": "Toss baby arugula with lemon juice, olive oil, and flaky salt while the pizzas rest for 45 seconds out of the oven. Add it to the asparagus white pie or a slice-by-slice option at the table so the greens stay cool and peppery.",
+        "why": "Hot cheese and cool greens are an easy restaurant contrast. Waiting 45 seconds prevents the arugula from collapsing into wet lawn clippings.",
+        "extra_ingredients": ["baby arugula", "lemon", "flaky sea salt"]
+      },
+      {
+        "type": "texture",
+        "title": "Crisp-Bottom Insurance",
+        "instruction": "Preheat a baking steel or stone at 500 degrees F for at least 45 minutes. Keep wet toppings drained, stretch dough thin in the center, and move each finished pie to a cooling rack for 1 minute before slicing.",
+        "why": "The rack keeps steam from softening the bottom crust. It is the unglamorous step that keeps the fourth pie as crisp as the first.",
+        "extra_ingredients": ["semolina flour"]
+      }
+    ],
+    "designers_note": "Four pies should feel like a little menu, not four versions of the same cheese raft. Stage the toppings, finish after the oven, and keep those mushrooms and roasted red peppers in separate lanes."
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "week_start": "2026-04-26",
+  "week_end": "2026-05-03",
+  "week_range": "April 26 - May 2, 2026",
+  "source_prompt": "masterPrompt.md",
+  "family_context": {
+    "commitments": [
+      "Patrick is coming to visit on 2026-05-02 and 2026-05-03",
+      "Dan is on call starting Tuesday",
+      "Elsie has swim lessons on Tuesday",
+      "Laura is out of town until Wednesday; Dan handles all kid logistics until then"
+    ],
+    "food_preferences": [
+      "No roasted red peppers mixed with mushrooms"
+    ],
+    "elsie_no_list": []
+  },
+  "requested_dinners": [
+    "Pasta with leftover gravy",
+    "Stuffed cabbage rolls",
+    "Hamburgers",
+    "Pork chops with cream sauce and mushrooms",
+    "Kale and Bronzino",
+    "Babo Pasta",
+    "Pizza"
+  ],
+  "weekly_read": {
+    "include_linkwarden": true,
+    "linkwarden_days": 7,
+    "urls": [
+      "https://substack.com/home/post/p-194201128",
+      "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
+      "https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code"
+    ],
+    "rss_feeds": [],
+    "required_topics": [
+      "collagen peptides creatine Fortibone bespoke combinations bone density muscle recovery supplementation"
+    ]
+  },
+  "story_request": {
+    "theme": "The challenges of buying a house: moving can be fun and exciting but also stressful; having a working roof and caring neighbors is worth being grateful for.",
+    "must_include": [
+      "Mamma Karen tells Chelsie that she and Dan moved at least 8 times by Chelsie's age",
+      "time spent in a car",
+      "an electrical house fire",
+      "gratitude for a place to call home"
+    ],
+    "must_not_include": [
+      "Mr. Bugles"
+    ],
+    "character_pool": [
+      "Papa Puleo",
+      "Momma Karen",
+      "Papa Kim",
+      "Papa Tom",
+      "Ms. London",
+      "Stephen",
+      "Janine",
+      "Daddio",
+      "Mamma",
+      "Elsie",
+      "Chelsie",
+      "Sharkie",
+      "Mertle"
+    ]
+  }
+}

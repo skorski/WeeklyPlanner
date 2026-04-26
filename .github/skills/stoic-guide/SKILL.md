@@ -69,19 +69,12 @@ classical canon and organized like *The Daily Stoic*'s monthly structure:
 7. **Discipline** — habits, self-control, consistency
 8. **Acceptance** — impermanence, letting go, the dichotomy of control
 
-### Weekly Arc Options
+### Weekly Arc
 
-The guide can take one of these shapes depending on the week:
-
-- **Daily Meditations (5-day):** Mon–Fri, each building on the previous.
-  Best for work weeks with routine.
-- **Full Week (7-day):** Sun–Sat. Best when the family has breathing room.
-- **Three-Part Journey:** Beginning (awareness) → Middle (practice) →
-  End (integration). Best for busy weeks where daily is too much.
-- **Single Deep Dive:** One extended reflection with multiple prompts.
-  Best for weeks with a clear emotional challenge (travel, transition, loss).
-
-The skill chooses the arc shape based on the week's calendar and pace.
+When the Stoic guide is used in the weekly planner, it must be a **Full Week
+(7-day)** sequence: one meditation for each day from Sunday through Saturday.
+The booklet and markdown review expect a complete daily rhythm, so do not
+collapse busy weeks into a 5-day, three-part, or single-deep-dive format.
 
 ## Workflow
 
@@ -135,7 +128,8 @@ Produce a structured guide with:
 3. **Introduction** — 2-3 paragraphs setting up the theme. Why it matters
    this week. What the Stoics actually said about it. How it shows up in
    daily life.
-4. **Meditations** — 3-7 entries (depending on arc shape), each with:
+4. **Meditations** — exactly 7 entries, one for each day Sunday through Saturday,
+   each with:
    - A title
    - A short reflection (3-6 sentences)
    - A journaling prompt or action item

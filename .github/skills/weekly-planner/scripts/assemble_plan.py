@@ -29,6 +29,14 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+SKILL_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(SKILL_DIR))
+
+from contracts.canonicalize import canonicalize_plan_data
+from contracts.registry import load_section_registry
+from contracts.section_manifest import write_manifest
+from contracts.validation import validate_plan_data
+
 # ── Weather helpers ──────────────────────────────────────────────────────────
 
 WEATHER_ICONS = [
@@ -337,6 +345,59 @@ def merge_nutrition(data, nutrition):
     data["nutrition_data"] = nutrition
 
 
+_NEWS_PAYLOAD_RE = re.compile(
+    r"<!--\s*news-feed-payload\s*(\{.*?\})\s*-->",
+    re.DOTALL,
+)
+_NEWS_ITEM_RE = re.compile(
+    r"<!--\s*news-feed-item-start\s*(\{.*?\})\s*-->\s*(.*?)\s*<!--\s*news-feed-item-end\s*-->",
+    re.DOTALL,
+)
+
+
+def _json_from_comment(raw: str, label: str, path: Path) -> dict:
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"Invalid {label} JSON in {path}: {exc}") from exc
+
+
+def parse_news_feed_markdown(path: str | Path) -> dict:
+    """Parse the news-feed markdown contract into plan_data shape."""
+    md_path = Path(path)
+    text = md_path.read_text(encoding="utf-8-sig")
+
+    payload_match = _NEWS_PAYLOAD_RE.search(text)
+    payload = (
+        _json_from_comment(payload_match.group(1), "news-feed-payload", md_path)
+        if payload_match
+        else {}
+    )
+
+    articles = []
+    for match in _NEWS_ITEM_RE.finditer(text):
+        article = _json_from_comment(match.group(1), "news-feed-item", md_path)
+        full_text = match.group(2).strip()
+        article["full_text"] = full_text
+        article.setdefault("word_count", len(full_text.split()))
+        if not article.get("summary"):
+            words = full_text.split()
+            article["summary"] = " ".join(words[:55]) + ("..." if len(words) > 55 else "")
+        articles.append(article)
+
+    return {
+        "schema_version": payload.get("schema_version", "1.0"),
+        "generated_at": payload.get("generated_at", ""),
+        "start_date": payload.get("start_date", ""),
+        "end_date": payload.get("end_date", ""),
+        "source_count": payload.get("source_count", len(payload.get("sources", []))),
+        "total_articles": len(articles),
+        "sources": payload.get("sources", []),
+        "articles": articles,
+        "markdown_path": str(md_path),
+    }
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Assemble plan_data.json from skill outputs"
@@ -369,6 +430,10 @@ def main():
         help="Path to newsletter JSON from the linkwarden skill.",
     )
     parser.add_argument(
+        "--news-feed",
+        help="Path to news-feed markdown from the news-feed skill.",
+    )
+    parser.add_argument(
         "--stoic",
         help="Path to stoic guide JSON from the stoic-guide skill.",
     )
@@ -385,11 +450,77 @@ def main():
         help="Path to recipe-cards JSON from the recipe-cards skill. "
              "Each card is matched to a day by day_of_week (fallback: dinner name).",
     )
+    parser.add_argument(
+        "--week-dir",
+        help="Week folder containing skill artifacts. When provided, missing "
+             "artifact flags are auto-detected from this directory.",
+    )
+    parser.add_argument(
+        "--section-registry",
+        help="Path to section_registry.yaml. Defaults to the planner contract.",
+    )
+    parser.add_argument(
+        "--require-sections",
+        choices=("none", "required", "all"),
+        default="none",
+        help="Fail assembly when required section validation fails. Default keeps "
+             "legacy permissive behavior while still writing validation reports.",
+    )
+    parser.add_argument(
+        "--run-request",
+        help="Optional week_request.json used for conditional section validation.",
+    )
+    parser.add_argument(
+        "--history",
+        help="Optional history_snapshot.json used for duplicate checks.",
+    )
+    parser.add_argument(
+        "--reading-sources",
+        help="Optional reading_sources.json used for weekly-read source validation.",
+    )
     args = parser.parse_args()
 
+    def _load_json(path):
+        with open(path, "r", encoding="utf-8-sig") as f:
+            return json.load(f)
+
+    # Auto-detect supporting artifacts from the week folder when requested.
+    if args.week_dir:
+        week_dir = Path(args.week_dir)
+
+        def _auto(attr, *names):
+            if getattr(args, attr, None):
+                return
+            for name in names:
+                candidate = week_dir / name
+                if candidate.exists():
+                    setattr(args, attr, str(candidate))
+                    break
+
+        _auto("elevations", "elevations.json")
+        _auto("parenting", "parenting.json")
+        _auto("nutrition", "nutrition.json")
+        _auto("newsletter", "newsletter.json")
+        _auto("news_feed", "news-feed.md", "news_feed.md")
+        _auto("stoic", "stoic.json")
+        _auto("child_wisdom", "child-wisdom.json", "story.json")
+        _auto("principles", "principles.json")
+        _auto("recipe_cards", "recipe_cards.json", "recipe-cards.json")
+        if not args.history:
+            history = week_dir / "history_snapshot.json"
+            if history.exists():
+                args.history = str(history)
+        if not args.run_request:
+            run_request = week_dir / "week_request.json"
+            if run_request.exists():
+                args.run_request = str(run_request)
+        if not args.reading_sources:
+            reading_sources = week_dir / "reading_sources.json"
+            if reading_sources.exists():
+                args.reading_sources = str(reading_sources)
+
     # Load core plan data
-    with open(args.input, "r", encoding="utf-8-sig") as f:
-        data = json.load(f)
+    data = _load_json(args.input)
 
     if "days" not in data:
         print("ERROR: Input JSON must contain a 'days' array", file=sys.stderr)
@@ -410,59 +541,65 @@ def main():
 
     # Merge elevations
     if args.elevations:
-        with open(args.elevations, "r", encoding="utf-8-sig") as f:
-            elevations = json.load(f)
+        elevations = _load_json(args.elevations)
         count = merge_elevations(data, elevations)
         print(f"Merged elevations: {count}/{len(data['days'])} days matched",
               file=sys.stderr)
 
     # Merge parenting
     if args.parenting:
-        with open(args.parenting, "r", encoding="utf-8-sig") as f:
-            parenting = json.load(f)
+        parenting = _load_json(args.parenting)
         merge_parenting(data, parenting)
         print("Merged parenting data", file=sys.stderr)
 
     # Merge nutrition
     if args.nutrition:
-        with open(args.nutrition, "r", encoding="utf-8-sig") as f:
-            nutrition = json.load(f)
+        nutrition = _load_json(args.nutrition)
         merge_nutrition(data, nutrition)
         print("Merged nutrition data", file=sys.stderr)
 
     # Merge newsletter
     if args.newsletter:
-        with open(args.newsletter, "r", encoding="utf-8-sig") as f:
-            newsletter = json.load(f)
+        newsletter = _load_json(args.newsletter)
         data["newsletter_data"] = newsletter
         article_count = len(newsletter.get("clusters", []))
         print(f"Merged newsletter data: {article_count} clusters", file=sys.stderr)
 
+    # Merge news feed
+    if getattr(args, 'news_feed', None):
+        data["news_feed_data"] = parse_news_feed_markdown(args.news_feed)
+        print(
+            f"Merged news feed: {data['news_feed_data'].get('total_articles', 0)} articles",
+            file=sys.stderr,
+        )
+
     # Merge stoic guide
     if args.stoic:
-        with open(args.stoic, "r", encoding="utf-8-sig") as f:
-            stoic = json.load(f)
+        stoic = _load_json(args.stoic)
         data["stoic_data"] = stoic
         print("Merged stoic guide data", file=sys.stderr)
 
     # Merge child wisdom story
     if getattr(args, 'child_wisdom', None):
-        with open(args.child_wisdom, "r", encoding="utf-8-sig") as f:
-            data["child_wisdom"] = json.load(f)
+        data["child_wisdom"] = _load_json(args.child_wisdom)
         print("Merged child wisdom story", file=sys.stderr)
 
     # Merge principles
     if getattr(args, 'principles', None):
-        with open(args.principles, "r", encoding="utf-8-sig") as f:
-            data["principles_data"] = json.load(f)
+        data["principles_data"] = _load_json(args.principles)
         print("Merged principles data", file=sys.stderr)
 
     # Merge recipe cards
     if getattr(args, 'recipe_cards', None):
-        with open(args.recipe_cards, "r", encoding="utf-8-sig") as f:
-            recipe_cards = json.load(f)
+        recipe_cards = _load_json(args.recipe_cards)
         count = merge_recipe_cards(data, recipe_cards)
         print(f"Merged recipe cards: {count}/{len(data['days'])} days matched",
+              file=sys.stderr)
+
+    # Canonicalize known field aliases before writing or validating.
+    data, aliases_applied = canonicalize_plan_data(data)
+    if aliases_applied:
+        print(f"Canonicalized aliases: {len(aliases_applied)} mapping(s) applied",
               file=sys.stderr)
 
     # Determine output path
@@ -480,6 +617,26 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
+    # Write section manifest and validation report. This is non-blocking unless
+    # --require-sections requests enforcement.
+    registry = load_section_registry(args.section_registry)
+    run_request = _load_json(args.run_request) if args.run_request else None
+    history = _load_json(args.history) if args.history else None
+    reading_sources = _load_json(args.reading_sources) if args.reading_sources else None
+    validation_report = validate_plan_data(
+        data,
+        registry,
+        run_request=run_request,
+        history=history,
+        reading_sources=reading_sources,
+        aliases_applied=aliases_applied,
+    )
+    manifest_path = out_path.parent / "section_manifest.json"
+    report_path = out_path.parent / "validation-report.json"
+    write_manifest(validation_report["section_manifest"], manifest_path)
+    with open(report_path, "w", encoding="utf-8") as f:
+        json.dump(validation_report, f, indent=2, ensure_ascii=False)
+
     days_count = len(data.get("days", []))
     appetizers = len(data.get("appetizers", []))
     salads = len(data.get("salads", []))
@@ -490,6 +647,7 @@ def main():
         d.get("dinner_elevation_tips") for d in data.get("days", [])
     )
     has_newsletter = "newsletter_data" in data
+    has_news_feed = "news_feed_data" in data
     has_stoic = "stoic_data" in data
 
     print(f"Plan assembled: {days_count} days, {appetizers} appetizers, "
@@ -498,9 +656,19 @@ def main():
           f"Nutrition: {'✓' if has_nutrition else '✗'}  "
           f"Elevations: {'✓' if has_elevations else '✗'}  "
           f"Newsletter: {'✓' if has_newsletter else '✗'}  "
+          f"News Feed: {'✓' if has_news_feed else '✗'}  "
           f"Stoic: {'✓' if has_stoic else '✗'}", file=sys.stderr)
     print(f"Written to {out_path}", file=sys.stderr)
+    print(f"SECTION_MANIFEST={manifest_path}", file=sys.stderr)
+    print(f"VALIDATION_REPORT={report_path}", file=sys.stderr)
     print(f"PLAN_DATA={out_path}", file=sys.stderr)
+
+    if args.require_sections != "none" and validation_report["status"] == "FAIL":
+        print("ERROR: section validation failed:", file=sys.stderr)
+        for issue in validation_report.get("issues", []):
+            if issue.get("severity") == "error":
+                print(f"  {issue['path']}: {issue['message']}", file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == "__main__":

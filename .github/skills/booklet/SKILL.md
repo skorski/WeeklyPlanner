@@ -40,20 +40,12 @@ weekly_plans/2026-02-08/
   1. Cover — week title, date range, hero highlight
   2. Week at a Glance — overview summary table
   3. **Section divider** — "Daily Plan"
-  4–31. Daily pages — 4-page spread per day × 7 days (running header: DAILY PLAN)
-     - Page 1: Day overview — weather, events, dinner, conversation starter
+  4–24. Daily pages — 3-page spread per day × 7 days (running header: DAILY PLAN)
+     - Page 1: Day overview — weather, events, dinner, recipe-card highlights, conversation starter
      - Page 2: Principles — daily mini-essay from the weekly principles theme
-     - Page 3: Recipe — nonna's instructions + engineer merge-flow table
-     - Page 4: Variations + chef's tips + album pairing
-  32. **Section divider** — "Kitchen & Pantry"
-  12. Appetizers & Salads
-  13. Beverage Pairings
-  14. Grocery List
-  15. Prep-Ahead Checklist
-  16. **Section divider** — "Family Corner"
-  17–18. Parenting Corner — theme, dinner questions, nudges, reflection
-  19+. Extra sections (extensible — see below)
-  Last. Back cover — notes, nutrition summary, colophon
+     - Page 3: Chef's tips + album pairing
+   25+. Kitchen, grocery/prep, family, Stoic, weekly read, nutrition, story, extras
+   Last. Back cover — notes, nutrition summary, colophon
 
 Pages are output sequentially in reading order by `render_booklet.py`.
 Content flows naturally across pages when it exceeds a single A5 sheet.
@@ -115,15 +107,19 @@ python .github/skills/booklet/scripts/render_booklet.py plan_data.json --pdf-onl
 # Add extra sections from another skill
 python .github/skills/booklet/scripts/render_booklet.py plan_data.json --extra-sections parenting.json
 
-# Check if any day pages overflow their single-page bounds (used by final-editor)
+# Check if any day pages overflow their single-page bounds
 python .github/skills/booklet/scripts/render_booklet.py plan_data.json --check-overflow
 ```
 
 The `--check-overflow` flag renders the HTML, then uses Playwright to measure
-each `.page-day` element's scroll height against the available page height. If
-any day page overflows, it prints structured `OVERFLOW_PAGES` JSON and exits
-with code 1. The final-editor skill uses this in an iterative loop to ensure
-editorial copy fits before the plan is finalized.
+each `.page-day` element's scroll height against the available A5 page height.
+For full section/page-budget validation, run the manifest-aware proofreader:
+
+```bash
+python .github/skills/proofreader/scripts/proofread.py \
+  plan_data_print.json weekly-plan.html \
+  --manifest section_manifest_print.json
+```
 
 ### Step 3: Clean Up
 

@@ -13,7 +13,7 @@ contract. Skills are organized into five functional layers.
  ├─────────────────────────────────────────────────────────────┤
  │  Layer 2: RESEARCHERS (content producers)                   │
  │  weather · school-calendar · recipes · albums · linkwarden  │
- │  dinner-designer · recipe-cards · nutrition-coach            │
+ │  news-feed · dinner-designer · recipe-cards · nutrition-coach│
  │  parenting-coach · stoic-guide · principles · child-wisdom  │
  ├─────────────────────────────────────────────────────────────┤
  │  Layer 3: VALIDATORS (quality gates)                        │
@@ -79,6 +79,7 @@ Phase 6: QA ◄───────
 | `recipes` | researcher | `recipes.md` | 10 dinners + appetizers, salads, beverages |
 | `albums` | researcher | `album_candidates.json` | ~30 albums with metadata, Spotify URLs |
 | `linkwarden` | researcher | `newsletter.json` | Thematic clusters + synthesis + fun section |
+| `news-feed` | researcher | `news-feed.md` | Recent source articles with parseable markdown contract |
 | `dinner-designer` | researcher | `elevations.json` | Chef tips as `[{type, title, instruction}]` dicts |
 | `recipe-cards` | researcher | in plan_data.json | `{nonna_says, engineer_table, variations}` per day |
 | `nutrition-coach` | researcher | `nutrition.json` | Daily breakdown + lunch/snack suggestions |
@@ -125,6 +126,7 @@ weekly-planner (orchestrator)
     ├── recipes ──────────► recipes.md
     ├── albums ───────────► album_candidates.json
     ├── linkwarden ───────► newsletter.json
+    ├── news-feed ────────► news-feed.md
     ├── stoic-guide ──────► stoic.json
     └── principles ───────► principles.json
                 │
@@ -175,3 +177,5 @@ researcher outputs must match these shapes:
 | `principles_data.theme` | `{title, description}` | plain string |
 | `parenting_data.weekly_theme` | `{title, description}` | plain string |
 | `parenting_data.dinner_questions[]` | array of dicts | key named `days` |
+| `news_feed_data.sources` | array of source dicts | missing after requested news feed |
+| `news_feed_data.articles[]` | array with `title`, `url`, `source_name`, `full_text` | unparsed markdown |

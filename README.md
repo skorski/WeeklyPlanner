@@ -2,7 +2,15 @@
 
 A multi-agent AI system that transforms a freeform paragraph about your upcoming week into a rich, printed family booklet — complete with dinners, music pairings, chef's tips, parenting insights, Stoic reflections, a children's story, and a reading newsletter.
 
-The entire workflow is orchestrated by a **single master prompt** (`masterPrompt.md`) that a human writes in plain English. A coordinating agent (the `weekly-planner` skill) reads that prompt, decomposes it into skill invocations, and stitches the results together through a chain of **intermediate JSON data objects** that serve as contracts between skills.
+The workflow now has an executable contract layer in addition to the human-editable **master prompt** (`masterPrompt.md`). A coordinating agent or the Python orchestrator reads the prompt/request, runs skills, and stitches results together through JSON artifacts that are validated against a shared section registry before rendering.
+
+Key contract files and gates:
+
+- `.github/skills/weekly-planner/contracts/section_registry.yaml` declares every required newsletter/booklet section, aliases, counts, render targets, and print page budgets.
+- `.github/skills/weekly-planner/scripts/assemble_plan.py --require-sections required` canonicalizes historical aliases, writes `section_manifest.json`, writes `validation-report.json`, and fails on missing required sections.
+- `.github/skills/print-formatter/scripts/format_print.py` creates `plan_data_print.json`, renders/proofs iteratively, and writes `print-format-report.json`.
+- `.github/skills/proofreader/scripts/proofread.py --manifest section_manifest.json` validates rendered section markers and page budgets.
+- `.github/skills/linkwarden/scripts/fetch_reading_sources.py` ingests Linkwarden, direct URLs, RSS/Atom feeds, and required topics into `reading_sources.json`.
 
 ---
 
@@ -109,9 +117,9 @@ The end-to-end workflow runs through six sequential phases:
 | **1** | **GATHER** | Collect external context: weather forecast, school calendar, family favorites, and user preferences from `masterPrompt.md`. |
 | **2** | **RESEARCH** | Run parallel researcher skills (recipes, albums, linkwarden, stoic-guide). **User selects dinners & albums**, then second-wave skills (dinner-designer, parenting-coach, nutrition-coach, child-wisdom) run in parallel. |
 | **3** | **REVIEW** | `content-validator` checks every skill output for completeness and schema conformance. Failures loop back to the originating researcher for automatic correction. |
-| **4** | **ASSEMBLE** | `assemble_plan.py` merges all validated artifacts into `plan_data.json`. `final-editor` enriches prose and verifies page fit. A rendered markdown draft is presented for **user review** — change requests route back to the originating skill. |
-| **5** | **FORMAT** | Render three output tiers: **MD** (full verbosity), **HTML** (full verbosity), **PDF** (print-optimized via `print-formatter` for A5 pages). |
-| **6** | **QA** | `proofreader` validates all three outputs for overflow, missing content, page structure, and numbering. Failures loop back to the editor or formatter. |
+| **4** | **ASSEMBLE** | `assemble_plan.py` merges artifacts into canonical `plan_data.json`, emits `section_manifest.json`, and writes `validation-report.json`. `final-editor` enriches prose. A rendered markdown draft is presented for **user review**. |
+| **5** | **FORMAT** | Render three output tiers: **MD** (full verbosity), **HTML** (full verbosity), **PDF** (print-optimized via `format_print.py` for A5 pages). |
+| **6** | **QA** | `proofreader` validates outputs for overflow, required section markers, print page budgets, missing content, page structure, and numbering. Failures loop back to the editor or formatter. |
 
 > **Verbosity tiers:** The pipeline produces three outputs at different verbosity levels. Markdown and HTML contain full content (day intros, album backstories, recipe origin stories). The PDF is print-optimized — `print-formatter` trims verbose prose, tightens layout, and ensures every page fits within A5 (148 mm × 210 mm) without overflow.
 
@@ -539,7 +547,7 @@ weekly_plans/
 ### Prerequisites
 
 ```bash
-pip install jinja2 python-dotenv playwright openmeteo-requests requests-cache retry-requests pandas beautifulsoup4 pypdf
+pip install jinja2 pyyaml python-dotenv playwright openmeteo-requests requests-cache retry-requests pandas beautifulsoup4 pypdf
 python -m playwright install chromium
 ```
 

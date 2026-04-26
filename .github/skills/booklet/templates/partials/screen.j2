@@ -395,6 +395,27 @@
   {% endif %}
   {% endif %}
 
+  {% if news_feed_data and news_feed_data.sources %}
+  <h2 class="section-title">News Feed</h2>
+  <div class="support-section">
+    {% if news_feed_data.markdown_path %}
+    <p><em>Full extracted article text is stored in {{ news_feed_data.markdown_path }}.</em></p>
+    {% endif %}
+    <ul>
+    {% for article in news_feed_data.articles %}
+      <li>
+        <strong>{% if article.url %}<a href="{{ article.url }}">{{ article.title }}</a>{% else %}{{ article.title }}{% endif %}</strong>
+        <em>({{ article.source_name }}{% if article.published_at %}, {{ article.published_at }}{% endif %})</em>
+        {% if article.summary %}<br>{{ article.summary }}{% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+    {% if not news_feed_data.articles %}
+    <p>No articles matched the requested publication window.</p>
+    {% endif %}
+  </div>
+  {% endif %}
+
   {% if extra_sections %}
   {% for section in extra_sections %}
   {% if "Parenting" not in section.title %}

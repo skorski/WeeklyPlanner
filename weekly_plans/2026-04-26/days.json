@@ -1,0 +1,555 @@
+{
+  "week_range": "April 26 - May 2, 2026",
+  "generated_at": "2026-04-26 15:47",
+  "cover_highlight": "A logistics-heavy spring week steadied by familiar dinners, Coachella-sparked album pairings, and a Saturday four-pie pizza night with Patrick visiting.",
+  "elsie_no_list": [],
+  "days": [
+    {
+      "name": "Sun 04/26",
+      "long_name": "Sunday, April 26",
+      "weather": "Cloudy, 55F/45F",
+      "weather_detail": "Cloudy (0% sunshine), wind 10 mph, 14% precip",
+      "calendar": "Laura out of town, Dan solo parent duty",
+      "calendar_items": [
+        "Laura out of town, Dan solo parent duty"
+      ],
+      "time_constraints": [
+        "Keep dinner mostly reheating and assembly."
+      ],
+      "dinner": "Leftover Sunday Gravy Rigatoni with Meatballs & Sausage",
+      "dinner_cuisine": "Italian-American",
+      "dinner_description": "A family-style red-sauce pasta built around leftover gravy, sturdy rigatoni, meatballs, sausage, and pecorino Romano. It is planned around this week's timing, the family preferences, and a kid-friendly path to the table.",
+      "dinner_key_ingredients": [
+        "rigatoni",
+        "leftover Sunday gravy",
+        "meatballs",
+        "Italian sausage",
+        "pecorino Romano"
+      ],
+      "dinner_source_url": "https://coleycooks.com/authentic-italian-sunday-gravy/",
+      "dinner_source_name": "Coley Cooks",
+      "dinner_notes": "Use leftover gravy; loosen with pasta water and finish the pasta in the sauce.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "album": "The Strokes - Is This It",
+      "album_artist": "The Strokes",
+      "album_title": "Is This It",
+      "album_year": "2001",
+      "album_genre": "Indie Rock / Post-Punk Revival",
+      "album_mood": "Cool, wiry, streetlit, and playful.",
+      "album_description": "A Coachella 2026 act pick with New York swagger, clipped guitars, and sharply drawn mini-scenes that make red-sauce Sunday feel like a little city movie.",
+      "album_sonic_description": "Dry drums, interlocking downstroke guitars, laconic vocals, and lean bass lines with no wasted motion.",
+      "album_pairing_rationale": "Leftover Sunday Gravy Rigatoni with Meatballs & Sausage gets this pairing because The Strokes bring downtown snap to a cozy Italian-American leftover night, keeping the meal from getting sleepy.",
+      "album_spotify_url": "https://open.spotify.com/search/The%20Strokes%20Is%20This%20It",
+      "activity": "Low-key reset at home",
+      "activity_notes": "Cloudy solo-parent Sunday: keep the evening predictable and warm.",
+      "prep_notes": [
+        "Check how much gravy is left before boiling pasta.",
+        "Prep Babo pasta components for Tuesday if time allows."
+      ]
+    },
+    {
+      "name": "Mon 04/27",
+      "long_name": "Monday, April 27",
+      "weather": "Fog, 69F/40F",
+      "weather_detail": "Sunny (88% sunshine), wind 10 mph, 0% precip",
+      "calendar": "Elsie Pickup 3:30 PM - 4:00 PM; MTP Sovereign - Biweekly Staff Meeting 4:40 PM - 5:30 PM; Laura out of town, Dan solo parent duty",
+      "calendar_items": [
+        "Elsie Pickup 3:30 PM - 4:00 PM",
+        "MTP Sovereign - Biweekly Staff Meeting 4:40 PM - 5:30 PM",
+        "Laura out of town, Dan solo parent duty"
+      ],
+      "time_constraints": [
+        "Late meeting and solo-parent logistics call for a fast dinner."
+      ],
+      "dinner": "Wagyu Ultra-Smashed Cheeseburgers with Pickles & Secret Sauce",
+      "dinner_cuisine": "American diner",
+      "dinner_description": "Thin wagyu beef patties smashed hard on a hot griddle, stacked with American cheese, pickles, shredded lettuce, and burger sauce. It is planned around this week's timing, the family preferences, and a kid-friendly path to the table.",
+      "dinner_key_ingredients": [
+        "ground wagyu beef",
+        "American cheese",
+        "potato buns",
+        "dill pickles",
+        "lettuce",
+        "burger sauce"
+      ],
+      "dinner_source_url": "https://www.seriouseats.com/ultra-smashed-cheeseburger-recipe-food-lab",
+      "dinner_source_name": "Serious Eats",
+      "dinner_notes": "Use wagyu beef; portion into small loose balls before the meeting so dinner moves quickly afterward.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "album": "Turnstile - Glow On",
+      "album_artist": "Turnstile",
+      "album_title": "Glow On",
+      "album_year": "2021",
+      "album_genre": "Alternative Rock / Hardcore Punk",
+      "album_mood": "Explosive, bright, generous, and cathartic.",
+      "album_description": "A Coachella 2026 act pick that turns hardcore momentum into a surprisingly sunny, communal record.",
+      "album_sonic_description": "Hard-charging drums, chunky guitars, melodic shouts, handclaps, and sudden flashes of dream-pop color.",
+      "album_pairing_rationale": "Wagyu Ultra-Smashed Cheeseburgers with Pickles & Secret Sauce gets this pairing because Smash burgers want speed, sizzle, and joy; Turnstile sounds like the griddle at full heat.",
+      "album_spotify_url": "https://open.spotify.com/search/Turnstile%20Glow%20On",
+      "activity": "Quick burger-bar dinner",
+      "activity_notes": "Let Elsie build her own burger so the meal feels playful instead of rushed.",
+      "prep_notes": [
+        "Mix burger sauce earlier in the day.",
+        "Wash lettuce and slice pickles before cooking."
+      ]
+    },
+    {
+      "long_name": "Tuesday, April 28",
+      "name": "Tue 04/28",
+      "weather_detail": "Mostly Sunny (70% sunshine), wind 11 mph, 33% precip",
+      "calendar_items": [
+        "Dan on call starts",
+        "Elsie Pickup 3:30 PM - 4:00 PM",
+        "IcM Agent Studio Agent Loop Lab Series 4:00 PM - 5:00 PM",
+        "1:1 Eric 4:10 PM - 4:30 PM",
+        "Elsie swim lessons"
+      ],
+      "calendar": "Dan on call starts; Elsie Pickup 3:30 PM - 4:00 PM; IcM Agent Studio Agent Loop Lab Series 4:00 PM - 5:00 PM; 1:1 Eric 4:10 PM - 4:30 PM; Elsie swim lessons",
+      "weather": "Light drizzle, 66F/46F",
+      "time_constraints": [
+        "On-call start, swim lessons, and late meetings make prep-beforehand pasta logistics important."
+      ],
+      "dinner": "Babo Pasta: Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+      "dinner_cuisine": "Italian family tradition",
+      "dinner_description": "Egg-yolk pasta is all silk and richness, and spinach gives the tagliatelle that deep green color. Brown butter and Parmigiano-Reggiano keep it simple enough that the handmade noodles stay the point.",
+      "dinner_key_ingredients": [
+        "spinach",
+        "egg yolks",
+        "00 flour",
+        "semolina",
+        "butter",
+        "Parmigiano-Reggiano"
+      ],
+      "dinner_source_url": "https://www.seriouseats.com/fresh-spinach-pasta-dough-recipe",
+      "dinner_source_name": "Serious Eats",
+      "dinner_notes": "Prep the dough or at least stage the pasta tools before swim; brown the butter only when everyone is home.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "album": "Little Simz - Sometimes I Might Be Introvert",
+      "album_artist": "Little Simz",
+      "album_title": "Sometimes I Might Be Introvert",
+      "album_year": "2021",
+      "album_genre": "Hip-Hop / Orchestral Soul",
+      "album_mood": "Majestic, focused, vulnerable, and triumphant.",
+      "album_description": "Little Simz’s 2021 Sometimes I Might Be Introvert won the Mercury Prize by making private reflection feel orchestral and bold. It has the sweep of a film score and the intimacy of a journal.",
+      "album_sonic_description": "Orchestral swells, crisp drums, choral voices, deep bass, and precise rapping that moves like a stage monologue with a rhythm section.",
+      "album_pairing_rationale": "Handmade pasta rewards attention; Little Simz turns that same inward focus into something grand.",
+      "album_spotify_url": "https://open.spotify.com/search/Little%20Simz%20Sometimes%20I%20Might%20Be%20Introvert",
+      "activity": "Swim-night pasta ritual",
+      "activity_notes": "Make the dough or stage ingredients before swim; keep Elsie's job small and satisfying.",
+      "prep_notes": [
+        "Buy extra eggs for yolk-only dough.",
+        "Cook spinach dry enough that the dough does not turn sticky.",
+        "Stage flour, semolina, and the pasta tools before swim."
+      ]
+    },
+    {
+      "name": "Wed 04/29",
+      "long_name": "Wednesday, April 29",
+      "weather": "Moderate rain showers, 68F/53F",
+      "weather_detail": "Mostly Cloudy (56% sunshine), wind 12 mph, 87% precip",
+      "calendar": "Laura returns from travel; Dan on call",
+      "calendar_items": [
+        "Laura returns from travel",
+        "Dan on call"
+      ],
+      "time_constraints": [
+        "Rain and travel return favor a hands-off slow-cooker dinner."
+      ],
+      "dinner": "Slow-Cooked Pork Chops with Mushroom Cream Sauce",
+      "dinner_cuisine": "French-American bistro",
+      "dinner_description": "Tender slow-cooked pork chops finished with a silky mushroom cream sauce, thyme, garlic, Dijon mustard, and pan juices. It is planned around this week's timing, the family preferences, and a kid-friendly path to the table.",
+      "dinner_key_ingredients": [
+        "bone-in pork chops",
+        "cremini mushrooms",
+        "heavy cream",
+        "garlic",
+        "thyme",
+        "Dijon mustard"
+      ],
+      "dinner_source_url": "https://themodernproper.com/pork-chops-with-mushroom-cream-sauce",
+      "dinner_source_name": "The Modern Proper",
+      "dinner_notes": "Adapt to slow cooker so the chops stay tender. Keep mushrooms with cream and herbs; no roasted red peppers.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "album": "Blood Orange - Cupid Deluxe",
+      "album_artist": "Blood Orange",
+      "album_title": "Cupid Deluxe",
+      "album_year": "2013",
+      "album_genre": "Alternative R&B / Synth-Funk",
+      "album_mood": "Silky, wounded, stylish, and groove-laced.",
+      "album_description": "A Coachella 2026 artist pick with sleek late-night grooves and intimate stories about longing, identity, and trying to stay soft in a hard city.",
+      "album_sonic_description": "Slinky bass, glassy synths, clipped funk guitar, saxophone haze, and feather-light vocals.",
+      "album_pairing_rationale": "Slow-Cooked Pork Chops with Mushroom Cream Sauce gets this pairing because The mushroom cream sauce is rich and soft; Blood Orange gives the rainy night a graceful pulse.",
+      "album_spotify_url": "https://open.spotify.com/search/Blood%20Orange%20Cupid%20Deluxe",
+      "activity": "Rainy midweek reset",
+      "activity_notes": "A good night for everyone to come back under one roof.",
+      "prep_notes": [
+        "Season pork chops the night before.",
+        "Slice mushrooms in the morning."
+      ]
+    },
+    {
+      "long_name": "Thursday, April 30",
+      "name": "Thu 04/30",
+      "weather_detail": "Sunny (91% sunshine), wind 16 mph with gusts up to 33 mph, 68% precip",
+      "calendar_items": [
+        "Dan on call"
+      ],
+      "calendar": "Dan on call",
+      "weather": "Moderate drizzle, 62F/47F",
+      "time_constraints": [
+        "Dan on call; make-ahead cabbage rolls keep a drizzly night calm and reheat-friendly."
+      ],
+      "dinner": "Alex's Mom's Stuffed Cabbage Rolls",
+      "dinner_cuisine": "Eastern European / Jewish-American",
+      "dinner_description": "Stuffed cabbage rolls show up across Eastern European and Jewish kitchens because they are thrifty, tender, and built for feeding people well. This version leans sweet-savory, with cabbage leaves wrapping a plush beef-and-rice filling.",
+      "dinner_key_ingredients": [
+        "green cabbage",
+        "ground beef",
+        "rice",
+        "onion",
+        "tomato sauce",
+        "brown sugar"
+      ],
+      "dinner_source_url": "https://smittenkitchen.com/2009/02/alexs-moms-stuffed-cabbage/",
+      "dinner_source_name": "Smitten Kitchen",
+      "dinner_notes": "Make ahead or assemble earlier; reheat gently with extra sauce so the rolls stay tender.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "album": "Billy Joel - The Stranger",
+      "album_artist": "Billy Joel",
+      "album_title": "The Stranger",
+      "album_year": "1977",
+      "album_genre": "Piano Rock / Pop Rock",
+      "album_mood": "Warm, theatrical, streetwise, and sing-along friendly.",
+      "album_description": "Billy Joel’s 1977 The Stranger, produced by Phil Ramone, is full of booth-at-the-diner characters and piano hooks. It invites stories instead of disappearing into the background.",
+      "album_sonic_description": "Piano-led pop rock with saxophone hooks, brisk drums, Broadway flair, and tight late-70s studio polish.",
+      "album_pairing_rationale": "Cabbage rolls and Billy Joel both feel like someone at the table has a story to tell.",
+      "album_spotify_url": "https://open.spotify.com/search/Billy%20Joel%20The%20Stranger",
+      "activity": "Make-ahead comfort reset",
+      "activity_notes": "Serve the rolls warm and saucy, then keep the evening simple and early.",
+      "prep_notes": [
+        "Blanch cabbage leaves and mix filling ahead.",
+        "Reheat covered with extra sauce so the rolls stay tender."
+      ]
+    },
+    {
+      "long_name": "Friday, May 1",
+      "name": "Fri 05/01",
+      "weather_detail": "Mostly Sunny (76% sunshine), wind 10 mph with gusts up to 27 mph, 18% precip",
+      "calendar_items": [
+        "Dan on call"
+      ],
+      "calendar": "Dan on call",
+      "weather": "Moderate drizzle, 62F/40F",
+      "time_constraints": [
+        "Friday can support a bright fish dinner if the on-call queue stays quiet."
+      ],
+      "dinner": "Greek-Style Roasted Branzino with Garlicky Kale",
+      "dinner_cuisine": "Greek / Mediterranean",
+      "dinner_description": "Branzino is a Mediterranean sea bass that loves whole roasting with olive oil, herbs, and decisive heat. Ladolemono—Greek lemon and olive oil sauce—ties the fish to garlicky kale and wakes up the plate.",
+      "dinner_key_ingredients": [
+        "whole branzino",
+        "lemons",
+        "dill",
+        "parsley",
+        "kale",
+        "garlic",
+        "extra-virgin olive oil"
+      ],
+      "dinner_source_url": "https://www.themediterraneandish.com/roasted-branzino-recipe/",
+      "dinner_source_name": "The Mediterranean Dish",
+      "dinner_notes": "Keep it bright and simple; the fish balances the week's red meat and dairy.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "album": "Karol G - Manana Sera Bonito",
+      "album_artist": "Karol G",
+      "album_title": "Manana Sera Bonito",
+      "album_year": "2023",
+      "album_genre": "Reggaeton / Latin Pop",
+      "album_mood": "Sunlit, resilient, romantic, and celebratory.",
+      "album_description": "Karol G’s 2023 Mañana Será Bonito turns recovery into color, movement, and big melodic confidence. Its reggaeton-pop brightness keeps the drizzle from setting the tone.",
+      "album_sonic_description": "Reggaeton bounce, Caribbean percussion, glossy pop choruses, acoustic color, and warm low-end movement.",
+      "album_pairing_rationale": "Lemon, herbs, and kale ask for lift; Karol G supplies sunshine without forcing cheer.",
+      "album_spotify_url": "https://open.spotify.com/search/Karol%20G%20Manana%20Sera%20Bonito",
+      "activity": "Bright fish Friday",
+      "activity_notes": "Let Elsie help whisk the lemon-olive oil sauce or season her own small fish flake.",
+      "prep_notes": [
+        "Ask the fishmonger to clean the branzino.",
+        "Wash and chop kale ahead.",
+        "Whisk the ladolemono just before serving."
+      ]
+    },
+    {
+      "name": "Sat 05/02",
+      "long_name": "Saturday, May 2",
+      "weather": "Sunny, 59F/41F",
+      "weather_detail": "Sunny (99% sunshine), wind 13 mph with gusts up to 27 mph, 22% precip",
+      "calendar": "Patrick visiting; Dan on call",
+      "calendar_items": [
+        "Patrick visiting",
+        "Dan on call"
+      ],
+      "time_constraints": [
+        "Visitor night: make dinner festive, flexible, and easy to share."
+      ],
+      "dinner": "Pizza Night: Four Assorted Pies",
+      "dinner_cuisine": "Italian-American",
+      "dinner_description": "A visitor-night pizza spread with four assorted pies, including a spring shaved asparagus white pizza plus family-friendly classics. It is planned around this week's timing, the family preferences, and a kid-friendly path to the table.",
+      "dinner_key_ingredients": [
+        "pizza dough",
+        "mozzarella",
+        "tomato sauce",
+        "asparagus",
+        "Parmesan",
+        "pepperoni",
+        "mushrooms"
+      ],
+      "dinner_source_url": "https://smittenkitchen.com/2010/05/shaved-asparagus-pizza/",
+      "dinner_source_name": "Smitten Kitchen",
+      "dinner_notes": "Make 4 assorted pies. If using mushrooms, keep roasted red peppers on a different pie.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "album": "Disclosure - ENERGY",
+      "album_artist": "Disclosure",
+      "album_title": "ENERGY",
+      "album_year": "2020",
+      "album_genre": "House / UK Garage / Dance-Pop",
+      "album_mood": "Bright, kinetic, communal, and party-ready.",
+      "album_description": "A Coachella 2026 act pick built for a room with guests, bubbling cheese, and people drifting between the kitchen and the table.",
+      "album_sonic_description": "Four-on-the-floor drums, clipped vocal samples, rubbery bass, Afro-house percussion, and glossy festival-scale hooks.",
+      "album_pairing_rationale": "Pizza Night: Four Assorted Pies gets this pairing because Four pizzas and a visitor call for momentum; Disclosure keeps the kitchen moving without drowning out conversation.",
+      "album_spotify_url": "https://open.spotify.com/search/Disclosure%20ENERGY",
+      "activity": "Pizza party with Patrick",
+      "activity_notes": "Sunny visitor Saturday: keep toppings modular and let everyone claim a pie.",
+      "prep_notes": [
+        "Make or buy enough dough for four pies.",
+        "Stage toppings in bowls before baking.",
+        "Keep mushrooms and roasted red peppers separated."
+      ]
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Labneh with Radishes, Olive Oil & Spring Herbs",
+      "cuisine": "Middle Eastern",
+      "description": "Thick strained yogurt spread on a plate and topped with crisp radishes, mint, dill, za'atar, lemon zest, and a glossy pour of olive oil.",
+      "key_ingredients": [
+        "labneh",
+        "radishes",
+        "za'atar",
+        "mint",
+        "dill",
+        "lemon",
+        "olive oil"
+      ],
+      "source_url": "https://www.themediterraneandish.com/homemade-labneh-recipe/",
+      "source_name": "The Mediterranean Dish",
+      "why": "Fresh, easy, and seasonal; it can start the falafel, branzino, or pizza meals without being heavy."
+    },
+    {
+      "name": "Artichoke Crostini with Lemon, Parmesan & Mint",
+      "cuisine": "Italian",
+      "description": "Toasty baguette slices topped with chopped artichokes, lemon, Parmesan, herbs, and olive oil for a bright aperitivo-style starter.",
+      "key_ingredients": [
+        "baguette",
+        "artichoke hearts",
+        "Parmesan",
+        "lemon",
+        "mint",
+        "parsley",
+        "olive oil"
+      ],
+      "source_url": "https://www.foodandwine.com/recipes/artichoke-crostini",
+      "source_name": "Food & Wine",
+      "why": "A low-effort Italian appetizer that plays well with red sauce pasta, Babo Pasta, or pizza and uses spring's artichoke mood even if using jarred hearts."
+    }
+  ],
+  "salads": [
+    {
+      "name": "Spring Nicoise Platter with Asparagus, New Potatoes & Jammy Eggs",
+      "salad_type": "composed_dinner",
+      "cuisine": "French",
+      "description": "A dinner-sized composed platter of spring greens, asparagus, new potatoes, radishes, jammy eggs, olives, capers, and optional tuna arranged in tidy sections rather than tossed.",
+      "key_ingredients": [
+        "asparagus",
+        "new potatoes",
+        "eggs",
+        "spring greens",
+        "radishes",
+        "Nicoise olives",
+        "capers"
+      ],
+      "dressing": "Dijon-shallot vinaigrette: whisk 1/4 cup red wine vinegar, 1 tablespoon Dijon mustard, 1 small minced shallot, 1 teaspoon honey, 1/2 teaspoon kosher salt, and 1/4 teaspoon black pepper; stream in 1/2 cup extra-virgin olive oil until emulsified, then stir in 1 tablespoon chopped capers.",
+      "flavor_rationale": "This works because the rich eggs and potatoes need sharp acid, while asparagus and radishes bring snap and green bitterness. Olives and capers supply briny punctuation so the salad feels like a real dinner instead of a plate of vegetables.",
+      "seasonal_note": "Asparagus, radishes, spring greens, and new potatoes are all strong East Coast late-April/early-May choices; local eggs make it more substantial.",
+      "source_url": "https://farmflavor.com/recipes/spring-nicoise-salad/",
+      "source_name": "Farm Flavor",
+      "why": "Composed dinner salad: beautiful enough for company, substantial enough for a no-cook-ish dinner, and aligned with the week's spring produce."
+    },
+    {
+      "name": "Spring Chickpea Fattoush with Snap Peas & Crispy Pita",
+      "salad_type": "tossed_dinner",
+      "cuisine": "Middle Eastern",
+      "description": "A generous tossed fattoush bulked up with chickpeas, romaine, cucumbers, radishes, snap peas, herbs, and shards of toasted pita.",
+      "key_ingredients": [
+        "chickpeas",
+        "romaine",
+        "radishes",
+        "snap peas",
+        "cucumber",
+        "mint",
+        "parsley",
+        "pita"
+      ],
+      "dressing": "Lemon-sumac pomegranate dressing: whisk 1/4 cup fresh lemon juice, 1 tablespoon pomegranate molasses, 1 grated garlic clove, 1 teaspoon ground sumac, 1/2 teaspoon kosher salt, and 1/4 teaspoon black pepper; stream in 1/3 cup extra-virgin olive oil and toss immediately with the salad.",
+      "flavor_rationale": "Fattoush is all about contrast: juicy vegetables, crisp pita, creamy chickpeas, and a tart dressing that wakes everything up. Sumac and pomegranate molasses echo the Middle Eastern dinner option while the chickpeas make the bowl filling enough to stand alone.",
+      "seasonal_note": "Radishes, tender lettuces, herbs, and snap peas are ideal late-spring Mid-Atlantic produce; cucumbers are acceptable as a crisp bridge into warmer weather.",
+      "source_url": "https://www.themediterraneandish.com/fattoush-salad/",
+      "source_name": "The Mediterranean Dish",
+      "why": "Tossed dinner salad: vegetarian-friendly, high-crunch, and a natural partner for falafel, branzino, or burgers."
+    },
+    {
+      "name": "Asparagus, Radish & Sweet Pea Side Salad with Avocado-Herb Dressing",
+      "salad_type": "side",
+      "cuisine": "American spring",
+      "description": "A crisp green side salad of shaved asparagus, sliced radishes, sweet peas, herbs, and feta over tender lettuces.",
+      "key_ingredients": [
+        "asparagus",
+        "radishes",
+        "sweet peas",
+        "butter lettuce",
+        "feta",
+        "dill",
+        "parsley"
+      ],
+      "dressing": "Avocado-herb dressing: blend 1 ripe avocado, 3 tablespoons lemon juice, 1 tablespoon white wine vinegar, 1 teaspoon Dijon mustard, 1 small garlic clove, 1/4 cup extra-virgin olive oil, 2 tablespoons water, 1/4 cup parsley, 2 tablespoons dill, 1/2 teaspoon kosher salt, and black pepper to taste.",
+      "flavor_rationale": "The creamy avocado dressing softens asparagus' grassy edge and gives lean spring vegetables enough body to sit beside burgers, pork chops, or fish. Lemon and herbs keep it bright so it does not fight creamy mushroom sauce or rich cheese.",
+      "seasonal_note": "Asparagus, radishes, peas, dill, parsley, and tender lettuces are exactly the produce to chase on the East Coast as April turns into May.",
+      "source_url": "https://www.loveandlemons.com/asparagus-salad/",
+      "source_name": "Love & Lemons",
+      "why": "Side salad #1: a spring-green counterweight for the heavier requested dinners."
+    },
+    {
+      "name": "Butter Lettuce, Strawberries & Pickled Shallot Salad",
+      "salad_type": "side",
+      "cuisine": "American spring",
+      "description": "Soft butter lettuce, early strawberries, cucumber, toasted almonds, goat cheese, mint, and quick-pickled shallots in a poppy seed vinaigrette.",
+      "key_ingredients": [
+        "butter lettuce",
+        "strawberries",
+        "cucumber",
+        "shallots",
+        "almonds",
+        "goat cheese",
+        "mint"
+      ],
+      "dressing": "Lemon-poppy seed vinaigrette: shake 3 tablespoons champagne vinegar, 1 tablespoon fresh lemon juice, 1 tablespoon honey, 1 teaspoon Dijon mustard, 1/3 cup extra-virgin olive oil, 1 teaspoon poppy seeds, 1/2 teaspoon kosher salt, and 1/4 teaspoon black pepper until glossy.",
+      "flavor_rationale": "Sweet strawberries and honey need the bite of pickled shallot and lemony acid to avoid tasting like dessert. Almonds add crunch, goat cheese adds tangy fat, and mint makes the whole salad feel cool next to pizza or spicy jambalaya.",
+      "seasonal_note": "Butter lettuce and herbs are abundant in late April; the first Mid-Atlantic strawberries often appear around early May, and supermarket berries can stand in if local fruit lags.",
+      "source_url": "https://www.loveandlemons.com/spring-salad/",
+      "source_name": "Love & Lemons",
+      "why": "Side salad #2: lighter, fruitier, and completely different from the asparagus-pea salad."
+    }
+  ],
+  "beverages": [
+    {
+      "name": "Chianti Classico or Other Sangiovese",
+      "description": "A medium-bodied, high-acid Italian red with cherry, tomato, herb, and savory notes.",
+      "pairing_note": "Best with Sunday gravy pasta, pizza, stuffed cabbage, and burgers because the acidity cuts tomato, fat, and cheese.",
+      "why": "Pairing note: high acidity and savory tomato-friendly flavors make this the red wine workhorse for the Italian-American options.",
+      "source_url": "https://www.winefolly.com/grapes/sangiovese/",
+      "source_name": "Wine Folly"
+    },
+    {
+      "name": "Gruner Veltliner",
+      "description": "A lean Austrian white with citrus, green apple, white pepper, and herbaceous snap.",
+      "pairing_note": "Best with branzino, asparagus pizza, spring salads, and pork chops because it handles green vegetables and creamy sauces.",
+      "why": "Pairing note: peppery acidity is especially useful for asparagus, kale, lemon, and mushroom cream.",
+      "source_url": "https://www.winefolly.com/grapes/gruner-veltliner/",
+      "source_name": "Wine Folly"
+    },
+    {
+      "name": "Sparkling Strawberry-Basil Lemonade",
+      "description": "A family-friendly pitcher drink: strawberry lemonade topped with sparkling water and slapped basil leaves for aroma.",
+      "pairing_note": "Best with pizza, burgers, falafel, jambalaya, and the strawberry salad; add extra sparkling water for a lighter dinner drink.",
+      "why": "Pairing note: tart lemon and bubbles refresh the palate across spicy, cheesy, and fried foods while staying kid-friendly.",
+      "source_url": "https://www.acouplecooks.com/strawberry-lemonade/",
+      "source_name": "A Couple Cooks"
+    }
+  ],
+  "grocery_list": {
+    "Produce": [
+      "green cabbage",
+      "onions",
+      "garlic",
+      "cremini mushrooms",
+      "kale",
+      "lemons",
+      "dill",
+      "parsley",
+      "asparagus",
+      "radishes",
+      "spring greens",
+      "butter lettuce",
+      "strawberries",
+      "cucumbers",
+      "fresh herbs"
+    ],
+    "Protein": [
+      "meatballs",
+      "Italian sausage",
+      "ground beef",
+      "ground wagyu beef",
+      "bone-in pork chops",
+      "whole branzino",
+      "eggs",
+      "egg yolks"
+    ],
+    "Dairy": [
+      "pecorino Romano",
+      "American cheese",
+      "heavy cream",
+      "Parmigiano-Reggiano",
+      "mozzarella",
+      "goat cheese",
+      "feta",
+      "labneh"
+    ],
+    "Pantry": [
+      "rigatoni",
+      "rice",
+      "tomato sauce",
+      "brown sugar",
+      "potato buns",
+      "dill pickles",
+      "Dijon mustard",
+      "00 flour",
+      "semolina",
+      "pizza dough",
+      "olive oil",
+      "red wine vinegar",
+      "pomegranate molasses",
+      "sumac"
+    ],
+    "Beverages": [
+      "Chianti Classico or other Sangiovese",
+      "Gruner Veltliner",
+      "strawberries and lemons for sparkling strawberry-basil lemonade"
+    ]
+  },
+  "prep_ahead": [
+    "Sunday: check leftover gravy and stage rigatoni for dinner.",
+    "Monday: mix burger sauce, wash lettuce, and slice pickles before the late meeting.",
+    "Monday night: stage Babo Pasta tools or make the spinach dough if time allows.",
+    "Tuesday: keep Babo Pasta components ready before swim and brown butter after everyone is home.",
+    "Tuesday night: season pork chops and slice mushrooms for Wednesday.",
+    "Wednesday: start pork chops early in the slow cooker; keep roasted red peppers away from mushrooms.",
+    "Wednesday night or Thursday morning: blanch cabbage leaves or assemble stuffed cabbage rolls.",
+    "Thursday: reheat cabbage rolls gently with extra sauce.",
+    "Friday: ask the fishmonger to clean branzino and wash kale.",
+    "Saturday: stage four pizza toppings in separate bowls and keep mushrooms separate from roasted red peppers."
+  ],
+  "notes": [
+    "No FCPS no-school or early-release days found for this week.",
+    "WorkIQ found late-day constraints Monday and Tuesday; no Laura-sent events in the 3-9 PM window.",
+    "Elsie did not provide a no-go list this week, so no dinner substitutions are flagged.",
+    "Requested repeats such as Babo Pasta, pizza, burgers, branzino, and gravy pasta are intentionally preserved despite recent-plan history."
+  ]
+}
