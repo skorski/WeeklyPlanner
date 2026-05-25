@@ -1,0 +1,108 @@
+{
+  "week_range": "May 24 - May 30, 2026",
+  "weekly_theme": {
+    "title": "Brave Beginnings, Steady Roots",
+    "description": "This week has the shape of a threshold: Memorial Day gratitude, a sleepover, the first splash of swim team, and the official closing on a new house. Elsie may feel proud, silly, tired, clingy, or suddenly very grown-up — sometimes all in the same hour. The quiet parenting thread is to give her little chances to be brave while keeping the family rhythms steady enough that she knows exactly where home is, even as home is changing."
+  },
+  "dinner_questions": [
+    {
+      "day": "Sunday",
+      "day_of_week": "sunday",
+      "dinner": "BBQ at Beth & Matt's — pulled pork, burgers, rainy Memorial Day weekend",
+      "question": "Memorial Day is a time to remember people who served and sacrificed. While we eat with friends tonight, what is one everyday freedom or kindness you feel thankful for — something small enough that we might forget to notice it?",
+      "category": "gratitude & reflection",
+      "why": "Eight-year-olds are ready to move from a holiday as 'a day off' toward the beginning of civic gratitude. Keeping the question concrete — food, friends, safety, a dry place in the rain — helps her build empathy without making the conversation too heavy."
+    },
+    {
+      "day": "Monday",
+      "day_of_week": "monday",
+      "dinner": "Gimbap night for the kids during the sleepover with Isla & Evyln",
+      "question": "Gimbap has lots of different pieces tucked into one roll. When friends sleep over, what helps everyone feel tucked in and included — choosing a game together, taking turns, saving someone a spot, or something else?",
+      "category": "friendship & moral reasoning",
+      "why": "Sleepovers can bring joy and tiny friendship politics in the same pajamas. This gives Elsie language for inclusion, turn-taking, and group belonging before the evening gets overexcited."
+    },
+    {
+      "day": "Tuesday",
+      "day_of_week": "tuesday",
+      "dinner": "Babo Pasta before swim practice at 6pm",
+      "question": "Babo Pasta is one of our family favorites. If a favorite meal could give you a power-up before swim practice, what power would it give you tonight — courage, speed, calm, silliness, or something totally different?",
+      "category": "imagination",
+      "why": "Linking a familiar dinner to a physical challenge helps her see routines as support. At 8, playful metaphors make confidence easier to talk about than a direct 'Are you nervous?' question."
+    },
+    {
+      "day": "Wednesday",
+      "day_of_week": "wednesday",
+      "dinner": "Quick grilled cheese and tomato soup between the house walkthrough and Elsie's first swim team night",
+      "question": "Tonight is your first swim team night — that is a real brave-beginning moment. If future Elsie could send tonight-you one sentence before you jump in, what would she say?",
+      "category": "story-drawing",
+      "why": "First nights can stir pride and butterflies. Inviting her to imagine encouragement from her future self builds self-talk, confidence, and the sense that she can grow into hard new things."
+    },
+    {
+      "day": "Thursday",
+      "day_of_week": "thursday",
+      "dinner": "House closing day celebration, with swim at 7pm",
+      "question": "Today our family officially gets a new house. What is one tiny tradition we should carry into it right away — a first breakfast, a pizza spot, a reading corner, a silly doorway dance, or something only our family would do?",
+      "category": "family connection",
+      "why": "A closing is an adult milestone, but traditions let Elsie feel ownership of the transition. She gets to help define what makes the new place feel like 'ours,' not just watch grown-ups sign papers."
+    },
+    {
+      "day": "Friday",
+      "day_of_week": "friday",
+      "dinner": "Pancakes for dinner after Mom's DC car drop-off, YAT, and swim practice",
+      "question": "Pancakes for dinner means the day is allowed to be a little upside down. What is one thing that went differently than expected today, and how did you handle it?",
+      "category": "gratitude & reflection",
+      "why": "Busy Fridays can fray everyone. This question normalizes flexibility and helps an 8-year-old notice her own coping skills instead of only remembering what felt rushed."
+    },
+    {
+      "day": "Saturday",
+      "day_of_week": "saturday",
+      "dinner": "New house celebration pizza after YAT 9am-12pm",
+      "question": "If this celebration pizza could have one topping for every feeling in our family this week, what toppings would be on it — excited pepperoni, tired mushrooms, proud olives, nervous pineapple?",
+      "category": "imagination & emotional literacy",
+      "why": "After a milestone week, playful naming helps her sort mixed emotions without turning dinner into a serious debrief. It also shows her that big happy events can still include tired or wobbly feelings."
+    }
+  ],
+  "nudges": [
+    {
+      "title": "Give the New House a Kid-Sized Beginning",
+      "context": "Closing day can feel huge to adults and oddly abstract to an 8-year-old: papers, keys, logistics, grown-up excitement. Elsie may understand that this is important, but she will likely feel it most through small sensory moments — where her shoes go, which window she likes, what the first snack tastes like in the new kitchen.",
+      "suggestion": "Try giving her one tiny ceremony that belongs to her. It can be five minutes: let her choose the first song played in the house, pick the first family photo spot, or decide where a future reading corner might live. The words can be simple: 'This is a big family day, and your ideas belong in this house too.'",
+      "how_to": [
+        "Hand her the key or let her touch the doorknob and say, 'Want to help us officially welcome the house?'",
+        "Offer two or three quick choices: first song, first snack spot, first room to wave hello to, or first family photo.",
+        "Name what you notice: 'You are really picturing how we could live here. I love seeing your brain make this place ours.'",
+        "End with a repeatable line: 'New house, same team.' Use it later when moving details feel chaotic."
+      ]
+    },
+    {
+      "title": "Coach the Sleepover Social Weather",
+      "context": "A sleepover with two friends is wonderful and also socially complicated. With three children, someone can feel left out fast; with late-night energy, tiny slights can grow dramatic. At 8, Elsie is practicing loyalty, fairness, and how to stay herself in a group.",
+      "suggestion": "Before the fun peaks, try a light side-by-side check-in while setting out pajamas or gimbap plates. Keep it casual, not like a lecture. You might say, 'Three-person games can get tricky. If someone feels left out, what is one kind move you can try?' This plants a social tool before she needs it.",
+      "how_to": [
+        "Ask one low-pressure planning question before guests arrive or while food is being set out.",
+        "Brainstorm two rescue moves together: invite someone to choose the next game, switch partners, or make a three-person job.",
+        "If drama appears, start with feelings: 'Oof, it feels bad to be the one not picked.' Then ask, 'What would help everyone rejoin?'",
+        "The next morning, praise one specific social choice you saw: 'I noticed you made room for both friends on the couch. That was generous hosting.'"
+      ]
+    },
+    {
+      "title": "Turn Swim Butterflies Into a Brave Script",
+      "context": "Starting swim team gives Elsie a fresh arena for competence: new coaches, new kids, new rules, and the body-in-motion courage of getting in the water when people are watching. Even active children can feel self-conscious when a familiar skill becomes a team skill.",
+      "suggestion": "Try helping her build a tiny script she can carry into the pool. Not a pep talk — just a phrase she chooses. Something like, 'First lap, then I know more,' or 'I can be new and still belong.' When children help choose the words, the encouragement feels like theirs instead of something pasted on by adults.",
+      "how_to": [
+        "On the drive or while packing her swim bag, ask, 'Do you want a brave sentence for tonight?'",
+        "Offer a few options and let her edit them: 'I can try one thing at a time,' 'New things get easier,' or 'My body knows how to learn.'",
+        "After practice, ask for one detail instead of a full report: 'What is one thing you know now that you did not know before practice?'",
+        "Celebrate effort specifically: 'You got in, listened, and tried. That is how teammates are made.'"
+      ]
+    }
+  ],
+  "recommendation": {
+    "type": "book",
+    "title": "The Penderwicks: A Summer Tale of Four Sisters, Two Rabbits, and a Very Interesting Boy",
+    "author": "Jeanne Birdsall",
+    "why": "This warm, funny chapter book sits beautifully at the edge of independence: children making friends, exploring a new place, negotiating sibling-style fairness, and finding courage in ordinary summer adventures. It has enough mischief to feel alive and enough tenderness to feel safe.",
+    "connection": "It pairs well with a week of new-house imagination, swim-team bravery, and sleepover friendship skills. Read a chapter when the moving talk gets too practical; it gives Elsie a story-world where new places become beloved through small discoveries."
+  },
+  "parent_reflection": "At the end of this threshold week, think of one moment when Elsie showed you who she is becoming — maybe hosting friends, stepping toward the pool, imagining the new house, or recovering after a rushed day. What did she not need you to fix? What did she simply need you to witness? You are carrying a lot this week, too; being a steady witness counts as real parenting."
+}

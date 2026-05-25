@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T20:32:07.548886+00:00",
+  "status": "PASS",
+  "summary": {
+    "sources": 5,
+    "articles": 15,
+    "failed_sources": 0,
+    "total_words": 14953
+  },
+  "sources": [
+    {
+      "name": "Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/feed",
+      "feed_url": "https://newsletter.pragmaticengineer.com/feed",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 20,
+      "items_selected": 3
+    },
+    {
+      "name": "Lenny's Newsletter",
+      "url": "https://www.lennysnewsletter.com/feed",
+      "feed_url": "https://www.lennysnewsletter.com/feed",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 20,
+      "items_selected": 3
+    },
+    {
+      "name": "Cup of Jo (Joanna Goddard)",
+      "url": "https://joannagoddard.substack.com/feed",
+      "feed_url": "https://joannagoddard.substack.com/feed",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 20,
+      "items_selected": 3
+    },
+    {
+      "name": "Emily Ley",
+      "url": "https://emilyley.substack.com/feed",
+      "feed_url": "https://emilyley.substack.com/feed",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 20,
+      "items_selected": 3
+    },
+    {
+      "name": "Not Boring (Packy McCormick)",
+      "url": "https://www.notboring.co/feed",
+      "feed_url": "https://www.notboring.co/feed",
+      "status": "ok",
+      "discovery": {
+        "status": "ok",
+        "method": "provided_feed"
+      },
+      "items_found": 20,
+      "items_selected": 3
+    }
+  ],
+  "articles": [
+    {
+      "status": "ok",
+      "title": "The Pulse: Antigravity 2.0 takes ‘IDE’ out of its new IDE",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-antigravity-20-takes-ide",
+      "published_at": "Thu, 21 May 2026 17:01:39 GMT",
+      "word_count": 128,
+      "content_source": "article_html",
+      "summary": "The Pulse The Pulse: Antigravity 2.0 takes ‘IDE’ out of its new IDE Negative feedback greets Google’s redesigned AI IDE, why Google’s product ecosystem is so chaotic, Meta cuts 10% of staff as it hits record revenue and profits, and more Gergely Orosz May 21, 2026 ∙ Paid 56 2 2 Share The Pulse is...",
+      "source_name": "Pragmatic Engineer",
+      "source_url": "https://newsletter.pragmaticengineer.com/feed",
+      "feed_url": "https://newsletter.pragmaticengineer.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "Why Rust is different, with Alice Ryhl",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-rust-is-different-with-alice",
+      "published_at": "Wed, 20 May 2026 16:22:00 GMT",
+      "word_count": 1596,
+      "content_source": "article_html",
+      "summary": "The Pragmatic Engineer Why Rust is different, with Alice Ryhl 93 4 1× 0:00 Current time: 0:00 / Total time: -1:04:59 -1:04:59 Audio playback is not supported on your browser. Please upgrade. Why Rust is different, with Alice Ryhl Alice Ryhl from Google’s Android Rust team explains why developers love Rust, and what makes the...",
+      "source_name": "Pragmatic Engineer",
+      "source_url": "https://newsletter.pragmaticengineer.com/feed",
+      "feed_url": "https://newsletter.pragmaticengineer.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "AI’s impact on software engineers in 2026: key trends, Part 2",
+      "url": "https://newsletter.pragmaticengineer.com/p/ai-impact-on-software-engineers-part-2",
+      "published_at": "Tue, 19 May 2026 16:43:10 GMT",
+      "word_count": 2889,
+      "content_source": "article_html",
+      "summary": "Deepdives AI’s impact on software engineers in 2026: key trends, Part 2 Tradeoffs of AI tooling, why adopting AI at company-level is hard, what’s changed in two years, and more. The third and final part of a series analyzing our 2026 AI survey results Gergely Orosz and Elin Nilsson May 19, 2026 ∙ Paid 249...",
+      "source_name": "Pragmatic Engineer",
+      "source_url": "https://newsletter.pragmaticengineer.com/feed",
+      "feed_url": "https://newsletter.pragmaticengineer.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "🎙️ How I AI: How the engineer behind Claude Cowork actually uses Claude Cowork & What launched at Google I/O 2026",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-engineer-behind",
+      "published_at": "Mon, 25 May 2026 15:02:59 GMT",
+      "word_count": 1489,
+      "content_source": "article_html",
+      "summary": "How I AI 🎙️ How I AI: How the engineer behind Claude Cowork actually uses Claude Cowork & What launched at Google I/O 2026 Your weekly listens from How I AI, part of the Lenny’s Podcast Network Lenny Rachitsky May 25, 2026 198 4 Share How the engineer behind Claude Cowork actually uses Claude |...",
+      "source_name": "Lenny's Newsletter",
+      "source_url": "https://www.lennysnewsletter.com/feed",
+      "feed_url": "https://www.lennysnewsletter.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "How the engineer behind Claude Cowork actually uses Claude | Felix Rieseberg (Anthropic)",
+      "url": "https://www.lennysnewsletter.com/p/how-the-engineer-behind-claude-cowork",
+      "published_at": "Mon, 25 May 2026 12:03:53 GMT",
+      "word_count": 870,
+      "content_source": "article_html",
+      "summary": "Playback speed × Share post Share post at current time Share from 0:00 0:00 / Transcript 2 How the engineer behind Claude Cowork actually uses Claude | Felix Rieseberg (Anthropic) 🎙️ Felix Rieseberg (Anthropic) shows how he uses Claude to build 3D house walkthroughs from floor plans, track promises automatically, and create a $20 hardware...",
+      "source_name": "Lenny's Newsletter",
+      "source_url": "https://www.lennysnewsletter.com/feed",
+      "feed_url": "https://www.lennysnewsletter.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "The AI paradox: More automation, more humans, more work | Dan Shipper",
+      "url": "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper",
+      "published_at": "Sun, 24 May 2026 12:31:49 GMT",
+      "word_count": 880,
+      "content_source": "article_html",
+      "summary": "Lenny's Podcast: Product | Career | Growth The AI paradox: More automation, more humans, more work | Dan Shipper 96 7 1× Preview 0:00 Current time: 0:00 / Total time: -1:34:06 -1:34:06 Audio playback is not supported on your browser. Please upgrade. The AI paradox: More automation, more humans, more work | Dan Shipper Why...",
+      "source_name": "Lenny's Newsletter",
+      "source_url": "https://www.lennysnewsletter.com/feed",
+      "feed_url": "https://www.lennysnewsletter.com/feed"
+    },
+    {
+      "status": "thin_content",
+      "title": "The Happiest News",
+      "url": "https://joannagoddard.substack.com/p/joanna-freddie-back-together",
+      "published_at": "Fri, 22 May 2026 20:17:18 GMT",
+      "word_count": 31,
+      "content_source": "feed_text_fallback",
+      "summary": "Hi! How’s your week going? Today I have a personal update. Not to be “extra,” as my kids would say, but I want to shout this from the rooftops… Read more",
+      "source_name": "Cup of Jo (Joanna Goddard)",
+      "source_url": "https://joannagoddard.substack.com/feed",
+      "feed_url": "https://joannagoddard.substack.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "The 12 Best Recommendations I’ve Gotten Lately",
+      "url": "https://joannagoddard.substack.com/p/rec-league",
+      "published_at": "Wed, 20 May 2026 19:05:41 GMT",
+      "word_count": 576,
+      "content_source": "article_html",
+      "summary": "The 12 Best Recommendations I’ve Gotten Lately Including a banger 1990s divorced moms playlist. Joanna Goddard and Kaitlyn Teer May 20, 2026 211 48 4 Share Hi!! How is your week going? I’ll be sending a personal update this Friday (I’m eager to hear your thoughts), but in the meantime, I’m excited to ask: Have...",
+      "source_name": "Cup of Jo (Joanna Goddard)",
+      "source_url": "https://joannagoddard.substack.com/feed",
+      "feed_url": "https://joannagoddard.substack.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "How Gorgeous Is This $200 Wedding Dress?",
+      "url": "https://joannagoddard.substack.com/p/trinity-mouzon-wofford-favorite-things",
+      "published_at": "Fri, 15 May 2026 16:52:14 GMT",
+      "word_count": 356,
+      "content_source": "article_html",
+      "summary": "How Gorgeous Is This $200 Wedding Dress? Cookbook writer Trinity Mouzon Wofford talks about Japanese floor sleeping, candles at breakfast, and a marriage realization. Joanna Goddard and Kaitlyn Teer May 15, 2026 ∙ Paid 187 39 5 Share Hello! How is your week going? I love this issue and am excited to share :) Today...",
+      "source_name": "Cup of Jo (Joanna Goddard)",
+      "source_url": "https://joannagoddard.substack.com/feed",
+      "feed_url": "https://joannagoddard.substack.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "Rules for raising teenage boys, the introvert's paradox, and my favorite jeans of all time!",
+      "url": "https://emilyley.substack.com/p/rules-for-raising-teenage-boys-the",
+      "published_at": "Sun, 24 May 2026 11:03:14 GMT",
+      "word_count": 737,
+      "content_source": "article_html",
+      "summary": "The Sunday Scroll Rules for raising teenage boys, the introvert's paradox, and my favorite jeans of all time! Sunday Scroll #142 Emily Ley May 24, 2026 20 2 Share The end of Maycember is near, I can just feel it!! Hope you’re having a great weekend. We’re in the thick of packing for summer camp...",
+      "source_name": "Emily Ley",
+      "source_url": "https://emilyley.substack.com/feed",
+      "feed_url": "https://emilyley.substack.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "A farewell to elementary school",
+      "url": "https://emilyley.substack.com/p/a-farewell-to-elementary-school",
+      "published_at": "Thu, 21 May 2026 15:16:06 GMT",
+      "word_count": 444,
+      "content_source": "article_html",
+      "summary": "A farewell to elementary school and the advice I'd give every mom at the start of it Emily Ley May 21, 2026 ∙ Paid 27 18 3 Share It’s always the Facebook Time Hop photos that get me this time of year. Brady’s last day of kindergarten (he’s now a rising sophomore). Tyler and Caroline’s...",
+      "source_name": "Emily Ley",
+      "source_url": "https://emilyley.substack.com/feed",
+      "feed_url": "https://emilyley.substack.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "Timeless graduation wisdom, the case for hobbies, and a bubble hem dress I love!",
+      "url": "https://emilyley.substack.com/p/timeless-graduation-wisdom-the-case",
+      "published_at": "Sun, 17 May 2026 11:02:53 GMT",
+      "word_count": 636,
+      "content_source": "article_html",
+      "summary": "The Sunday Scroll Timeless graduation wisdom, the case for hobbies, and a bubble hem dress I love! Sunday Scroll #141 Emily Ley May 17, 2026 26 3 1 Share Hi, friends! Happy Sunday. It’s been a busy week here. I travelled to High Point, NC for photos for Simplified’s 18th Birthday (how!) and am now...",
+      "source_name": "Emily Ley",
+      "source_url": "https://emilyley.substack.com/feed",
+      "feed_url": "https://emilyley.substack.com/feed"
+    },
+    {
+      "status": "ok",
+      "title": "Weekly Dose of Optimism #194",
+      "url": "https://www.notboring.co/p/weekly-dose-of-optimism-194",
+      "published_at": "Fri, 22 May 2026 12:51:22 GMT",
+      "word_count": 2404,
+      "content_source": "article_html",
+      "summary": "Weekly Dose of Optimism #194 Reta Phase 3, Colossal Eggs, SpaceX, OpenAI x Erdős, SendCutSend + Extra Doses May 22, 2026 ∙ Paid 115 Share Hi friends 👋, Happy Friday and welcome to our 194th Weekly Dose of Optimism. I’m emailing you from beautiful Utah, where I attended the Abundance Institute Gala last night and...",
+      "source_name": "Not Boring (Packy McCormick)",
+      "source_url": "https://www.notboring.co/feed",
+      "feed_url": "https://www.notboring.co/feed"
+    },
+    {
+      "status": "ok",
+      "title": "Cowboy Space Corporation",
+      "url": "https://www.notboring.co/p/cowboy-space-corporation",
+      "published_at": "Sat, 16 May 2026 12:52:13 GMT",
+      "word_count": 413,
+      "content_source": "article_html",
+      "summary": "Cowboy Space Corporation A Great Example of The Great Differentiation May 16, 2026 ∙ Paid 123 4 4 Share Trying something new for not boring world subscribers. A little case study as a follow up to an essay I wrote last year called The Great Differentiation. I saw a great case study on the Great...",
+      "source_name": "Not Boring (Packy McCormick)",
+      "source_url": "https://www.notboring.co/feed",
+      "feed_url": "https://www.notboring.co/feed"
+    },
+    {
+      "status": "ok",
+      "title": "Weekly Dose of Optimism #193",
+      "url": "https://www.notboring.co/p/weekly-dose-of-optimism-193",
+      "published_at": "Fri, 15 May 2026 12:42:13 GMT",
+      "word_count": 1504,
+      "content_source": "article_html",
+      "summary": "Weekly Dose of Optimism #193 Isomorphic, Varda, Pancreatic pt 3, Cerebras IPO, Cowboy Space + Extra Doses May 15, 2026 ∙ Paid 103 1 3 Share Hi friends 👋 , Happy Friday and welcome back to our 193rd Weekly Dose of Optimism. The sun is shining, the birds are chirping, Demis is going to solve...",
+      "source_name": "Not Boring (Packy McCormick)",
+      "source_url": "https://www.notboring.co/feed",
+      "feed_url": "https://www.notboring.co/feed"
+    }
+  ]
+}

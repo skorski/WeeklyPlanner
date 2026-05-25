@@ -1,0 +1,925 @@
+{
+  "recipe_cards": [
+    {
+      "day": "Sunday",
+      "name": "BBQ Bring-Along: Lexington Red Slaw and Bright Pickles",
+      "source_url": "https://www.seriouseats.com/lexington-style-red-slaw-recipe",
+      "source_name": "Serious Eats",
+      "servings": "8 to 10 as a side",
+      "prep_time": "20 min",
+      "cook_time": "0 min",
+      "nonna_says": "Slice the cabbage thin, honey, because nobody invited a lawn mower to dinner. Whisk the vinegar, ketchup, sugar, hot sauce, salt, and pepper until it tastes sharp and a little sweet. Toss the cabbage and carrot with just enough dressing to shine, then let it sit cold so it relaxes. Pack extra dressing on the side and bring pickles because pulled pork loves crunch. Walk in like you helped, because you did.",
+      "variations": [
+        {
+          "name": "Creamy Classic Coleslaw",
+          "twist": "Mayonnaise and sour cream make a cooler, richer side for burgers.",
+          "source_url": "https://www.seriouseats.com/creamy-cole-slaw"
+        },
+        {
+          "name": "Simply Recipes Classic Coleslaw",
+          "twist": "A familiar picnic slaw with cabbage, carrots, and a balanced creamy dressing.",
+          "source_url": "https://www.simplyrecipes.com/recipes/classic_coleslaw/"
+        },
+        {
+          "name": "South Carolina Mustard Sauce",
+          "twist": "Bring a tangy mustard barbecue sauce instead of slaw for pork sandwiches.",
+          "source_url": "https://www.seriouseats.com/south-carolina-mustard-sauce"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "1 small head",
+                "item": "green cabbage",
+                "prep": "very thinly sliced"
+              },
+              {
+                "qty": "1 large",
+                "item": "carrot",
+                "prep": "shredded"
+              }
+            ],
+            "merge_action": "combine in a big bowl"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1/2 cup",
+                "item": "cider vinegar",
+                "prep": ""
+              },
+              {
+                "qty": "1/3 cup",
+                "item": "ketchup",
+                "prep": ""
+              },
+              {
+                "qty": "2 tbsp",
+                "item": "sugar",
+                "prep": ""
+              },
+              {
+                "qty": "1 tsp",
+                "item": "hot sauce",
+                "prep": ""
+              },
+              {
+                "qty": "1 tsp",
+                "item": "kosher salt",
+                "prep": ""
+              }
+            ],
+            "merge_action": "whisk until smooth"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 jar",
+                "item": "crisp pickles",
+                "prep": "drained"
+              },
+              {
+                "qty": "1 bunch",
+                "item": "scallions",
+                "prep": "thinly sliced optional"
+              }
+            ],
+            "merge_action": "pack as garnish"
+          }
+        ],
+        "final_steps": [
+          "toss slaw with half the dressing",
+          "chill 1 hour if possible",
+          "pack remaining dressing separately",
+          "serve beside pulled pork and burgers"
+        ]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Monday",
+      "name": "Gimbap for Kids",
+      "source_url": "https://www.maangchi.com/recipe/gimbap",
+      "source_name": "Maangchi",
+      "servings": "4 rolls",
+      "prep_time": "35 min",
+      "cook_time": "20 min",
+      "nonna_says": "Season the warm rice with sesame oil and salt, then fan it so it is glossy, not gummy. Lay the seaweed shiny side down and spread the rice thin, because a fat roll is a tantrum waiting to happen. Line up egg, carrot, spinach, cucumber, yellow pickled radish, and a little beef or ham if the kids want it. Roll tight with the mat, press like you mean it, then rub the outside with sesame oil. Slice with a wet sharp knife and do not saw at it like a lumberjack. Put the pretty pieces on the plate and watch them disappear.",
+      "variations": [
+        {
+          "name": "Korean Bapsang Beef Gimbap",
+          "twist": "A classic beef and vegetable roll with seasoned fillings for a heartier dinner.",
+          "source_url": "https://www.koreanbapsang.com/gimbap-kimbap/"
+        },
+        {
+          "name": "Vegan Kimbap",
+          "twist": "Tofu and vegetables replace meat while keeping the sesame rice and crunchy roll structure.",
+          "source_url": "https://www.chopsticksandflour.com/vegan-kimbap/"
+        },
+        {
+          "name": "Tuna Mayo Gimbap",
+          "twist": "Creamy tuna salad turns the roll into a kid-friendly lunchbox style variation.",
+          "source_url": "https://mykoreankitchen.com/tuna-mayo-gimbap/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "3 cups",
+                "item": "cooked short-grain rice",
+                "prep": "warm"
+              },
+              {
+                "qty": "1 tbsp",
+                "item": "sesame oil",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 tsp",
+                "item": "kosher salt",
+                "prep": ""
+              }
+            ],
+            "merge_action": "mix and cool until just warm"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "3",
+                "item": "eggs",
+                "prep": "beaten with pinch salt"
+              },
+              {
+                "qty": "1",
+                "item": "carrot",
+                "prep": "julienned and sauteed"
+              },
+              {
+                "qty": "2 cups",
+                "item": "spinach",
+                "prep": "blanched and squeezed"
+              },
+              {
+                "qty": "1/2",
+                "item": "cucumber",
+                "prep": "seeded and cut into strips"
+              },
+              {
+                "qty": "4 strips",
+                "item": "danmuji yellow pickled radish",
+                "prep": "drained"
+              }
+            ],
+            "merge_action": "cook and prep fillings"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "4 sheets",
+                "item": "gim or nori",
+                "prep": "shiny side down"
+              },
+              {
+                "qty": "4 oz",
+                "item": "bulgogi beef, ham, or fish cake",
+                "prep": "cooked and cut in strips"
+              }
+            ],
+            "merge_action": "set up rolling station"
+          }
+        ],
+        "final_steps": [
+          "spread rice thinly on seaweed",
+          "add fillings in neat lines",
+          "roll tightly with mat",
+          "brush sesame oil",
+          "slice into coins"
+        ]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Monday",
+      "name": "Grandma Pizza, Dan's Thick Rectangular Specialty",
+      "source_url": "https://www.kingarthurbaking.com/recipes/grandma-pizza-recipe",
+      "source_name": "King Arthur Baking",
+      "servings": "1 half-sheet pizza, 6 to 8 servings",
+      "prep_time": "25 min plus dough rise",
+      "cook_time": "25 min",
+      "nonna_says": "Oil the pan generously and stretch the dough into the corners, then let it rest when it fights you. Scatter low-moisture mozzarella right on the dough so the crust gets that cheesy little armor. Spoon crushed tomatoes over the top in streaks, not a swimming pool, and tuck in fresh basil. Bake hot until the edges are dark gold and the bottom is crisp enough to brag about. Finish with olive oil and more basil, because restraint is for tax forms. Cut squares and let Dan take his victory lap.",
+      "variations": [
+        {
+          "name": "Food52 Classic Grandma Pizza",
+          "twist": "A tomato-forward pan pie with a crisp bottom and simple mozzarella topping.",
+          "source_url": "https://food52.com/recipes/85669-classic-grandma-pizza-recipe"
+        },
+        {
+          "name": "Alexandra Cooks Sheet Pan Grandma Pizza",
+          "twist": "A homey sheet-pan version that emphasizes easy dough handling and bubbly cheese.",
+          "source_url": "https://alexandracooks.com/2020/04/25/grandma-pizza/"
+        },
+        {
+          "name": "Basic Square Pan Pizza Dough",
+          "twist": "Serious Eats style square-pan dough gives a thicker, Sicilian-leaning crust.",
+          "source_url": "https://www.seriouseats.com/basic-square-pan-pizza-dough-sicilian-recipe"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "500 F",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "500 g",
+                "item": "bread flour",
+                "prep": ""
+              },
+              {
+                "qty": "325 g",
+                "item": "water",
+                "prep": ""
+              },
+              {
+                "qty": "10 g",
+                "item": "salt",
+                "prep": ""
+              },
+              {
+                "qty": "3 g",
+                "item": "instant yeast",
+                "prep": ""
+              },
+              {
+                "qty": "2 tbsp",
+                "item": "olive oil",
+                "prep": ""
+              }
+            ],
+            "merge_action": "mix dough, rise until puffy"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "3 tbsp",
+                "item": "olive oil",
+                "prep": "for pan"
+              },
+              {
+                "qty": "1 ball",
+                "item": "pizza dough",
+                "prep": "stretched into half sheet pan"
+              }
+            ],
+            "merge_action": "press into oiled pan, rest, press again"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "12 oz",
+                "item": "low-moisture mozzarella",
+                "prep": "shredded"
+              },
+              {
+                "qty": "1 1/2 cups",
+                "item": "crushed tomatoes",
+                "prep": "seasoned with salt"
+              },
+              {
+                "qty": "1 handful",
+                "item": "fresh basil",
+                "prep": "torn"
+              }
+            ],
+            "merge_action": "layer cheese first, sauce second, basil tucked in"
+          }
+        ],
+        "final_steps": [
+          "proof in pan until airy",
+          "bake 20 to 25 min",
+          "cool 5 min",
+          "finish with olive oil and basil",
+          "cut into squares"
+        ]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Tuesday",
+      "name": "Babo Pasta: Egg-Yolk Spinach Tagliatelle with Brown Butter and Parm",
+      "source_url": "https://www.bbcgoodfood.com/recipes/spinach-tagliatelle",
+      "source_name": "BBC Good Food",
+      "servings": "4",
+      "prep_time": "45 min",
+      "cook_time": "10 min",
+      "nonna_says": "Blanch the spinach, squeeze it dry like it owes you money, then puree it with egg yolks until bright green. Work it into the flour until the dough is smooth, wrap it, and let it rest before you roll thin sheets. Cut tagliatelle, dust it lightly, and boil it only until tender. Brown the butter until it smells nutty and the milk solids go amber, then catch it before it burns. Toss the pasta with brown butter, pasta water, and a snowy handful of parmesan. Serve right away, because fresh pasta waits for nobody and you made something beautiful.",
+      "variations": [
+        {
+          "name": "Brown Butter Parmesan Pasta",
+          "twist": "The Kitchn adds toasted panko for crunch over the same nutty butter and cheese idea.",
+          "source_url": "https://www.thekitchn.com/recipe-brown-butter-parmesan-pasta-246191"
+        },
+        {
+          "name": "Spinach Mascarpone Tagliatelle",
+          "twist": "Jamie Oliver folds in mascarpone for a creamy green pasta variation.",
+          "source_url": "https://www.jamieoliver.com/recipes/pasta/tagliatelle-with-spinach-mascarpone-and-parmesan/"
+        },
+        {
+          "name": "Eataly Spinach Tagliatelle",
+          "twist": "A classic fresh spinach pasta base ready for simple butter, cheese, or seasonal sauces.",
+          "source_url": "https://www.eataly.com/us_en/magazine/eataly-recipes/spinach-tagliatelle/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "5 oz",
+                "item": "spinach",
+                "prep": "blanched, squeezed dry, chopped"
+              },
+              {
+                "qty": "4",
+                "item": "egg yolks",
+                "prep": ""
+              },
+              {
+                "qty": "1",
+                "item": "whole egg",
+                "prep": ""
+              }
+            ],
+            "merge_action": "blend into smooth green egg mixture"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "2 cups",
+                "item": "00 or all-purpose flour",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 tsp",
+                "item": "fine salt",
+                "prep": ""
+              }
+            ],
+            "merge_action": "mound and make a well"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "6 tbsp",
+                "item": "unsalted butter",
+                "prep": "cubed"
+              },
+              {
+                "qty": "1 cup",
+                "item": "parmesan",
+                "prep": "finely grated"
+              },
+              {
+                "qty": "1/2 tsp",
+                "item": "black pepper",
+                "prep": "freshly ground"
+              }
+            ],
+            "merge_action": "hold for sauce"
+          }
+        ],
+        "final_steps": [
+          "knead dough 8 to 10 min",
+          "rest wrapped 30 min",
+          "roll and cut tagliatelle",
+          "boil 2 to 3 min",
+          "toss with sauce"
+        ]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, in a wide skillet:",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "6 tbsp",
+                "item": "unsalted butter",
+                "prep": "cubed"
+              }
+            ],
+            "merge_action": "melt and brown until nutty"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1/2 cup",
+                "item": "pasta water",
+                "prep": "reserved hot"
+              },
+              {
+                "qty": "1 cup",
+                "item": "parmesan",
+                "prep": "finely grated"
+              },
+              {
+                "qty": "black pepper",
+                "item": "to taste",
+                "prep": ""
+              }
+            ],
+            "merge_action": "emulsify with browned butter"
+          }
+        ],
+        "final_steps": [
+          "add drained tagliatelle",
+          "toss until glossy",
+          "finish with more parmesan"
+        ]
+      }
+    },
+    {
+      "day": "Wednesday",
+      "name": "Quick Grilled Cheese and Tomato Soup",
+      "source_url": "https://diethood.com/classic-tomato-soup-and-grilled-cheese/",
+      "source_name": "Diethood",
+      "servings": "4",
+      "prep_time": "10 min",
+      "cook_time": "20 min",
+      "nonna_says": "Start the soup first with garlic, tomatoes, broth, and a splash of cream so it can simmer while you build sandwiches. Butter the bread all the way to the corners, honey, dry corners are a character flaw. Use enough cheese to melt, but not so much the sandwich slides around like a bad decision. Cook low and steady until the bread is deep gold and the middle is gooey. Blend the soup smooth, taste for salt, and give it a tiny pinch of sugar if the tomatoes are sharp. Cut the sandwiches into dunkers and dinner is saved.",
+      "variations": [
+        {
+          "name": "Smitten Kitchen Soup with Grilled Cheese Croutons",
+          "twist": "Tiny grilled cheese squares float on tomato soup for a playful bowl.",
+          "source_url": "https://smittenkitchen.com/2014/02/tomato-soup-with-grilled-cheese-croutons/"
+        },
+        {
+          "name": "Serious Eats Grilled Cheese",
+          "twist": "A technique-focused sandwich with crisp bread and an evenly melted center.",
+          "source_url": "https://www.seriouseats.com/grilled-cheese-sandwich-recipe"
+        },
+        {
+          "name": "Cookie and Kate Classic Tomato Soup",
+          "twist": "A bright vegetarian tomato soup that pairs well with sharp cheddar sandwiches.",
+          "source_url": "https://cookieandkate.com/classic-tomato-soup-recipe/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "2 tbsp",
+                "item": "olive oil",
+                "prep": ""
+              },
+              {
+                "qty": "2 cloves",
+                "item": "garlic",
+                "prep": "minced"
+              }
+            ],
+            "merge_action": "warm 30 seconds until fragrant"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "28 oz can",
+                "item": "crushed tomatoes",
+                "prep": ""
+              },
+              {
+                "qty": "2 cups",
+                "item": "vegetable or chicken broth",
+                "prep": ""
+              },
+              {
+                "qty": "1 tsp",
+                "item": "sugar optional",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 tsp",
+                "item": "kosher salt",
+                "prep": ""
+              }
+            ],
+            "merge_action": "simmer 15 min"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1/2 cup",
+                "item": "heavy cream",
+                "prep": ""
+              },
+              {
+                "qty": "black pepper",
+                "item": "to taste",
+                "prep": ""
+              }
+            ],
+            "merge_action": "stir in after blending"
+          }
+        ],
+        "final_steps": [
+          "blend soup smooth",
+          "adjust salt",
+          "keep warm for dunking"
+        ]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, on the griddle:",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "8 slices",
+                "item": "sandwich bread",
+                "prep": ""
+              },
+              {
+                "qty": "4 tbsp",
+                "item": "butter",
+                "prep": "softened"
+              }
+            ],
+            "merge_action": "butter outsides"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "8 oz",
+                "item": "cheddar or American cheese",
+                "prep": "sliced or shredded"
+              }
+            ],
+            "merge_action": "fill sandwiches"
+          }
+        ],
+        "final_steps": [
+          "cook over medium-low 3 to 4 min per side",
+          "rest 1 min",
+          "slice into dunkers"
+        ]
+      }
+    },
+    {
+      "day": "Thursday",
+      "name": "Couscous with Carrots, Peas, and Pork Chops",
+      "source_url": "https://www.eatingwell.com/recipe/276923/mediterranean-pork-chops-with-couscous/",
+      "source_name": "EatingWell",
+      "servings": "4",
+      "prep_time": "15 min",
+      "cook_time": "20 min",
+      "nonna_says": "Season the pork chops early with salt, pepper, paprika, and a little lemon zest if you have manners. Sear them in a hot skillet until browned, then finish gently so they stay juicy. In another pan, soften carrots in butter or olive oil, add broth, peas, and couscous, then cover it off the heat. Do not boil couscous to death, it is tiny pasta, not punishment. Fluff it with a fork, fold in parsley and lemon, and lay the pork chops on top. Spoon any pan juices over everything and call them family treasure.",
+      "variations": [
+        {
+          "name": "MyRecipes Spiced Couscous Pork Chops",
+          "twist": "Warm Moroccan-style spices make the couscous more aromatic.",
+          "source_url": "https://www.myrecipes.com/recipe/pork-chops-with-spiced-couscous"
+        },
+        {
+          "name": "One-Pan Oven Pork Chops and Vegetables",
+          "twist": "The Mediterranean Dish roasts pork with vegetables for a hands-off variation.",
+          "source_url": "https://www.themediterraneandish.com/one-pan-oven-roasted-pork-chops-and-vegetables/"
+        },
+        {
+          "name": "Quick Couscous",
+          "twist": "Food Network keeps the couscous simple so the pork seasoning can lead.",
+          "source_url": "https://www.foodnetwork.com/recipes/food-network-kitchen/quick-couscous-3363233"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "4",
+                "item": "boneless pork chops",
+                "prep": "patted dry"
+              },
+              {
+                "qty": "1 tsp",
+                "item": "kosher salt",
+                "prep": ""
+              },
+              {
+                "qty": "1 tsp",
+                "item": "paprika",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 tsp",
+                "item": "black pepper",
+                "prep": ""
+              },
+              {
+                "qty": "1 tbsp",
+                "item": "olive oil",
+                "prep": ""
+              }
+            ],
+            "merge_action": "season and sear 3 to 4 min per side"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "2",
+                "item": "carrots",
+                "prep": "small dice"
+              },
+              {
+                "qty": "1 tbsp",
+                "item": "butter or olive oil",
+                "prep": ""
+              },
+              {
+                "qty": "1 1/4 cups",
+                "item": "chicken broth",
+                "prep": ""
+              }
+            ],
+            "merge_action": "saute carrots, bring broth to boil"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 cup",
+                "item": "couscous",
+                "prep": ""
+              },
+              {
+                "qty": "1 cup",
+                "item": "frozen peas",
+                "prep": ""
+              },
+              {
+                "qty": "2 tbsp",
+                "item": "parsley",
+                "prep": "chopped"
+              },
+              {
+                "qty": "1/2",
+                "item": "lemon",
+                "prep": "zested and juiced"
+              }
+            ],
+            "merge_action": "stir into hot broth, cover off heat"
+          }
+        ],
+        "final_steps": [
+          "rest pork 5 min",
+          "fluff couscous",
+          "fold in parsley and lemon",
+          "serve pork over couscous"
+        ]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Friday",
+      "name": "Buttermilk Pancakes with Sausage and Egg-in-the-Center",
+      "source_url": "https://www.kingarthurbaking.com/recipes/simply-perfect-pancakes-recipe",
+      "source_name": "King Arthur Baking",
+      "servings": "4",
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "nonna_says": "Brown the sausage first so breakfast has a backbone, then keep it warm. Whisk the dry ingredients in one bowl and the buttermilk, eggs, butter, and vanilla in another. Stir them together only until the flour disappears, because pancake batter is not wallpaper paste. Pour big pancakes, cook until bubbles set, then cut a neat center and drop in an egg. Cover the pan so the white sets while the yolk stays friendly. Serve with sausage on the side and maple syrup where it belongs, which is everywhere.",
+      "variations": [
+        {
+          "name": "Delish Pancake Egg-in-a-Hole",
+          "twist": "A pancake ring cooks around a whole egg for a dramatic breakfast plate.",
+          "source_url": "https://www.delish.com/uk/cooking/recipes/a32140230/pancake-egg-in-a-hole-recipe/"
+        },
+        {
+          "name": "Tasty Pancake Breakfast Sandwich",
+          "twist": "Pancakes become the buns for sausage, egg, and cheese.",
+          "source_url": "https://tasty.co/recipe/pancake-breakfast-sandwich"
+        },
+        {
+          "name": "Bon Appetit Sausage Egg and Cheese Pancake Sandwiches",
+          "twist": "A diner-style stack turns the components into handheld sandwiches.",
+          "source_url": "https://www.bonappetit.com/recipe/sausage-egg-and-cheese-pancake-sandwiches"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "2 cups",
+                "item": "all-purpose flour",
+                "prep": ""
+              },
+              {
+                "qty": "2 tbsp",
+                "item": "sugar",
+                "prep": ""
+              },
+              {
+                "qty": "2 tsp",
+                "item": "baking powder",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 tsp",
+                "item": "baking soda",
+                "prep": ""
+              },
+              {
+                "qty": "3/4 tsp",
+                "item": "salt",
+                "prep": ""
+              }
+            ],
+            "merge_action": "whisk dry mix"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "2 cups",
+                "item": "buttermilk",
+                "prep": ""
+              },
+              {
+                "qty": "2",
+                "item": "eggs",
+                "prep": ""
+              },
+              {
+                "qty": "3 tbsp",
+                "item": "melted butter",
+                "prep": ""
+              },
+              {
+                "qty": "1 tsp",
+                "item": "vanilla",
+                "prep": ""
+              }
+            ],
+            "merge_action": "whisk wet mix"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "8",
+                "item": "breakfast sausage links or patties",
+                "prep": ""
+              },
+              {
+                "qty": "4",
+                "item": "eggs for centers",
+                "prep": ""
+              },
+              {
+                "qty": "maple syrup",
+                "item": "for serving",
+                "prep": ""
+              }
+            ],
+            "merge_action": "brown sausage, hold eggs for griddle"
+          }
+        ],
+        "final_steps": [
+          "fold wet into dry",
+          "rest batter 5 min",
+          "cook pancakes on greased griddle",
+          "cut centers and add eggs",
+          "cover until whites set",
+          "serve with sausage"
+        ]
+      },
+      "parallel_table": null
+    },
+    {
+      "day": "Saturday",
+      "name": "New-House Celebration New York-Style Pizza",
+      "source_url": "https://www.seriouseats.com/new-york-style-pizza-recipe",
+      "source_name": "Serious Eats",
+      "servings": "2 pizzas, 4 to 6 servings",
+      "prep_time": "30 min plus overnight dough",
+      "cook_time": "12 min per pizza",
+      "nonna_says": "Make the dough the day before if you can, because flavor needs a nap. Stretch it thin but leave a rim, then sauce with a light hand so the crust can crisp. Use low-moisture mozzarella, a little parmesan, and fresh basil after the bake if you want perfume instead of weeds. Bake on a ripping hot stone or steel until the bottom is spotted and the cheese bubbles. Do not overload a celebration pizza, honey, this is dinner, not a garage sale. Slice big, toast the house, and eat while the cheese still pulls.",
+      "variations": [
+        {
+          "name": "Basic Neapolitan Pizza Dough",
+          "twist": "A high-heat Neapolitan dough gives a softer, leopard-spotted party pie if the oven setup allows it.",
+          "source_url": "https://www.seriouseats.com/basic-neapolitan-pizza-dough-recipe"
+        },
+        {
+          "name": "Ooni Classic Neapolitan Dough",
+          "twist": "A pizza-oven friendly formula for quick-blistered crusts and simple toppings.",
+          "source_url": "https://ooni.com/blogs/recipes/classic-neapolitan-pizza-dough"
+        },
+        {
+          "name": "Sally's Homemade Pizza Crust",
+          "twist": "A forgiving home-oven dough for families who want reliable pizza night results.",
+          "source_url": "https://sallysbakingaddiction.com/homemade-pizza-crust-recipe/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "550 F or hottest oven setting with steel or stone",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "500 g",
+                "item": "bread flour",
+                "prep": ""
+              },
+              {
+                "qty": "325 g",
+                "item": "water",
+                "prep": ""
+              },
+              {
+                "qty": "10 g",
+                "item": "salt",
+                "prep": ""
+              },
+              {
+                "qty": "3 g",
+                "item": "instant yeast",
+                "prep": ""
+              },
+              {
+                "qty": "10 g",
+                "item": "sugar",
+                "prep": ""
+              },
+              {
+                "qty": "15 g",
+                "item": "olive oil",
+                "prep": ""
+              }
+            ],
+            "merge_action": "mix dough, knead, refrigerate overnight"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 1/2 cups",
+                "item": "crushed tomatoes",
+                "prep": ""
+              },
+              {
+                "qty": "1 tsp",
+                "item": "olive oil",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 tsp",
+                "item": "salt",
+                "prep": ""
+              },
+              {
+                "qty": "1 pinch",
+                "item": "oregano",
+                "prep": ""
+              }
+            ],
+            "merge_action": "stir raw sauce"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "12 oz",
+                "item": "low-moisture mozzarella",
+                "prep": "shredded"
+              },
+              {
+                "qty": "1/4 cup",
+                "item": "parmesan",
+                "prep": "grated"
+              },
+              {
+                "qty": "fresh basil",
+                "item": "for after baking",
+                "prep": ""
+              }
+            ],
+            "merge_action": "prep toppings"
+          }
+        ],
+        "final_steps": [
+          "bring dough to room temp",
+          "stretch into 12 to 14 inch rounds",
+          "top lightly",
+          "bake 8 to 12 min",
+          "finish with basil",
+          "slice and celebrate"
+        ]
+      },
+      "parallel_table": null
+    }
+  ]
+}

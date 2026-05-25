@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T20:22:02.036747+00:00",
+  "config": {
+    "include_linkwarden": true,
+    "linkwarden_days": 7,
+    "urls": [],
+    "rss_feeds": [],
+    "required_topics": []
+  },
+  "sources": [],
+  "articles": [],
+  "topics": [],
+  "summary": {
+    "total_sources": 0,
+    "successful_sources": 0,
+    "failed_sources": 0,
+    "topics": 0,
+    "total_words": 0
+  }
+}

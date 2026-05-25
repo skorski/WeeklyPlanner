@@ -1,0 +1,38 @@
+# Chef's Elevations — Week of May 17, 2026
+
+Technique first. Fancy pantry never. Every move below is built to make the plate taste more deliberate with supermarket ingredients, correct heat, and a little patience.
+
+## 1. Quick Bolognese with Fresh Spring Pasta
+- **Sauce — Cook the Tomato Paste Until Brick Red:** After the beef and pork have browned, clear a hot spot in the pan and cook 2 tablespoons tomato paste in the rendered fat for 2 to 3 minutes until it turns brick red. Add 1/2 cup whole milk and let it reduce almost completely before adding the rest of the tomato, then finish the fresh pasta in the sauce with 1/2 cup pasta water and finely grated pecorino so the ragù clings instead of pooling.
+- **Texture — Rosemary-Garlic Pangrattato:** Toast 1 cup panko in 2 tablespoons olive oil with 1 minced garlic clove and 1 teaspoon finely chopped rosemary until deep gold. Scatter a small spoonful over each bowl at the table so the soft sauce and fresh pasta get a crisp top note.
+- **Acid — Vinegar-and-Parsley Wake-Up:** When the sauce is finished, turn off the heat and stir in 1 teaspoon red wine vinegar plus 2 tablespoons chopped flat-leaf parsley. It is a tiny move, but it sharpens the tomato and keeps the milk and pork from reading heavy on a warm night.
+
+## 2. Kimbap Grain Bowls with Caramelized Onions and Mushrooms
+- **Sauce — Cold Gochujang Mayo with Real Acid:** Whisk mayonnaise with gochujang, 1 teaspoon rice vinegar, 1 teaspoon toasted sesame oil, and a spoonful of warm water so it loosens into a proper sauce. Chill it while the rice cooks, then spoon the cold mayo over the hot bowl right before serving for clean heat and temperature contrast.
+- **Texture — Sear the Mushrooms Hard, Crisp the Tofu Separately:** Cook the mushrooms in a ripping-hot skillet in a single layer and do not salt them until the edges are dark and browned; they should sear, not steam. For Elsie's portion, crisp small tofu cubes in the same pan until golden so her bowl still gets chewy, browned edges instead of becoming an all-soft onion bowl.
+- **Temperature — Ice-Cold Pickle Pile:** Quick-pickle the cucumber and carrot with rice vinegar, sugar, and salt at least 20 minutes ahead, then keep them cold in the refrigerator until plating. Put them on the bowl at the last second so they stay snappy against the warm rice, jammy onions, and runny egg.
+
+## 3. Babo Pasta — Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm
+- **Sauce — Make a Real Brown-Butter Parm Emulsion:** Brown the butter in a light-colored pan until the milk solids smell like toasted hazelnuts, then pull it off the heat. Add the just-cooked tagliatelle, 1/3 cup hot pasta water, and finely grated Parmigiano-Reggiano in small handfuls while tossing hard; add more water by the spoonful until the noodles look glossy and lacquered, not greasy.
+- **Texture — Sage-Lemon Pangrattato:** Toast panko in a spoonful of the brown butter with a pinch of salt and 4 to 5 chopped sage leaves until crisp, then finish with lemon zest off the heat. A light shower over each bowl gives the soft fresh pasta something crunchy and fragrant to play against.
+- **Temperature — Cold Whipped Ricotta on the Side:** Whip whole-milk ricotta with black pepper, lemon zest, and a pinch of salt, then keep it cold. Add one small spoonful to the side of each hot nest of pasta so diners can drag the noodles through it instead of turning the whole bowl heavy.
+
+## 4. Tex-Mex Grain Bowls with Chipotle Shrimp
+- **Marinade — Short Chipotle-Lime Marinade:** Marinate the shrimp for only 15 to 20 minutes in chipotle in adobo, lime zest, a little lime juice, grated garlic, and neutral oil. Pat them dry before they hit the pan so they char quickly at high heat instead of steaming in red liquid.
+- **Sauce — Chilled Charred-Corn Crema:** Char the corn in a dry cast-iron skillet until it has real black freckles, then blend half of it with sour cream, lime juice, a pinch of cumin, and a splash of water until spoonable. Keep the crema cold and use it under or beside the hot shrimp so every bite gets sweet smoke and cool richness.
+- **Texture — Pepita-Cotija Crunch:** Toast pepitas in a dry pan with a pinch of salt and chili powder until they pop, then roughly crush them with crumbled cotija. Scatter that over the bowls at the end for a nutty crunch that makes the rice, beans, avocado, and shrimp feel like separate components instead of one soft pile.
+
+## 5. Black Bean Burritos with Lime-Cilantro Slaw
+- **Sauce — Smoky Lime Crema Under the Cheese:** Whisk sour cream with lime juice, a spoonful of hot sauce, a pinch of cumin, and enough water to make it spreadable. Swipe a thin layer on the tortilla before the beans and cheese go in so the burrito has a creamy, tangy layer all the way through instead of a blob on the plate.
+- **Texture — Frico-Sealed Burrito Seam:** When you crisp the wrapped burritos, scatter 1 tablespoon shredded Monterey Jack into the skillet first and set the seam side directly on top of it. The cheese will brown into a lacy crust that seals the burrito and gives the outside a serious crunch.
+- **Temperature — Keep the Slaw Cold and Dry:** Salt the shredded cabbage for 10 minutes, squeeze out the excess moisture, then toss lightly with lime and cilantro just before serving. Let the burrito rest for 1 minute after the skillet, then tuck in the cold slaw so it stays crisp inside the hot, melty tortilla instead of turning steamy and limp.
+
+## 6. White Beans & Italian Sausage with Garlicky Sauteed Kale
+- **Sauce — Build a Glossy Bean Broth from the Fond:** After browning the sausage, deglaze the skillet with 1/2 cup chicken stock or water and scrape up every browned bit. Mash 1/2 cup of the white beans into that liquid, simmer for 2 minutes, then return the whole beans and finish with a tablespoon of butter so the pan juices turn silky enough to soak into the toast.
+- **Texture — Garlic-Rubbed Torn Toasts:** Tear the crusty bread into rough pieces instead of neat slices, toast them in olive oil until deeply golden, then rub each piece with a cut garlic clove while still hot. The jagged edges catch sausage fat and bean broth better than flat toast ever will.
+- **Acid — Lemon and Vinegar Finish for the Kale:** Cook the kale until just tender, then finish it off the heat with lemon zest, a squeeze of lemon juice, and 1 teaspoon red wine vinegar. That last hit of acid keeps the sausage and beans from feeling muddy and makes the whole skillet taste brighter on a cold rainy night.
+
+## 7. Pizza Night — Four Assorted Pies
+- **Preparation — Dry the Mozzarella and Respect the Steel:** Tear the fresh mozzarella and let it drain on paper towels for at least 30 minutes so it does not flood the pies. Preheat the baking steel or stone for a full 45 minutes at the oven's highest setting, use a light hand with sauce, and stretch the centers thinner than you think so the crust blisters instead of sagging.
+- **Sauce — Two Finishing Oils, Not One:** Warm olive oil with smashed garlic over low heat for 5 minutes, then strain it for the white and veggie pies. For the Margherita, stir chopped basil into olive oil right before serving and finish the hot pizza with a thin thread of it after it leaves the oven so the basil stays bright and aromatic.
+- **Temperature — Cold Arugula-Lemon Finish for One Pie:** Toss baby arugula with lemon juice, olive oil, and flaky salt while the pizza bakes, then mound it onto the white pie or Elsie's wildcard pie after slicing. Hot cheese and crust with cool, peppery greens is an easy restaurant move, and it keeps at least one of the four pies feeling fresh instead of heavy.

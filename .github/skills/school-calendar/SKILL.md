@@ -62,3 +62,35 @@ The content-validator checks this output before assembly.
 The reference data lives in `references/fcps_2025_2026.json`. To update for a
 new school year, download the new PDF from fcps.edu and re-parse the dates into
 the same JSON format.
+
+### Sources to cross-check when refreshing
+
+The official FCPS PDF sometimes omits or under-labels student holidays (for
+example, religious observances like **Eid al-Adha** or single teacher workdays
+adjacent to a federal holiday). When refreshing the reference data, cross-check
+all of the following before publishing:
+
+1. **Official PDF** — `https://www.fcps.edu/calendars` (download the standard
+   school-year calendar PDF).
+2. **FCPS revised calendar listings** — published mid-year corrections.
+3. **Religious & cultural observance dates** — Eid al-Fitr, Eid al-Adha,
+   Diwali, Lunar New Year, Yom Kippur, Rosh Hashanah, Orthodox Christmas. FCPS
+   marks many of these as student holidays.
+4. **Teacher workdays adjacent to federal holidays** — FCPS frequently
+   schedules a workday the day after Memorial Day or around Presidents' Day.
+
+If a single source disagrees with the master PDF, prefer the most recent
+revised calendar from FCPS, not the original publication.
+
+### Validation script
+
+After editing `references/fcps_2025_2026.json`, smoke-test the lookup against a
+week you know has off-days to confirm the parser sees them:
+
+```bash
+python scripts/lookup_school_calendar.py --start 2026-05-24 --end 2026-05-30
+```
+
+The output should include Memorial Day **and** any adjacent teacher workdays
+or religious holidays in that week.
+

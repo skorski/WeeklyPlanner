@@ -1,0 +1,442 @@
+{
+  "week_range": "May 24 - May 30, 2026",
+  "week_start": "2026-05-24",
+  "week_end": "2026-05-30",
+  "generated_at": "2026-05-25 12:30",
+  "cover_highlight": "A milestone week — Memorial Day weekend opens with rain and a pulled-pork BBQ at Beth and Matt's, the kids host a sleepover gimbap-and-grandma-pizza night Monday, and a sunny Thursday brings the keys to the new house. The week closes Saturday with celebration pizza in the new kitchen and Jungle's Volcano on the speakers.",
+  "elsie_no_list": [
+    "onions and mushrooms mixed together"
+  ],
+  "days": [
+    {
+      "day": "Sunday",
+      "date": "2026-05-24",
+      "name": "Sun 05/24",
+      "long_name": "Sunday, May 24",
+      "weather": "Moderate rain, 64F/52F",
+      "weather_detail": "Cloudy (0% sunshine), wind 6 mph with gusts up to 18 mph, 74% precip, 0.44\" rain",
+      "calendar_items": [
+        "BBQ at Beth and Matt's (afternoon)"
+      ],
+      "calendar": "BBQ at Beth & Matt's",
+      "time_constraints": [
+        "Hosted dinner — bring an offering, not cooking at home."
+      ],
+      "dinner": "BBQ at Beth and Matt's — Pulled Pork and Burgers",
+      "dinner_cuisine": "American BBQ",
+      "dinner_description": "A hosted Memorial Day weekend BBQ at Beth and Matt's. Pulled pork and burgers are the headliners. We bring a thoughtful side or finishing sauce so the family arrives with something special in hand and a quiet thank-you to the host.",
+      "dinner_key_ingredients": [
+        "pulled pork (host)",
+        "burgers (host)",
+        "our contribution: apple-fennel slaw or finishing sauce"
+      ],
+      "dinner_source_url": "",
+      "dinner_source_name": "Hosted",
+      "dinner_notes": "Bring an elevated slaw or finishing sauce. Indoor/covered setup likely given the rain.",
+      "dinner_nutrition_notes": "Heavy on pork and beef; aim for a lighter vegetable-forward lunch.",
+      "activity": "Rainy hosted afternoon",
+      "activity_notes": "Moderate rain through the afternoon — pack a change of clothes for Elsie and an indoor-friendly toy.",
+      "prep_notes": [
+        "Make the slaw or sauce Saturday night so flavors meld.",
+        "Defrost dinner protein for Monday's grandma pizza."
+      ],
+      "album": "Chet Faker – Built On Glass",
+      "album_pairing_rationale": "Rainy Sunday hosted dinner calls for warm, smoky soul that fills the kitchen on the drive home, not the BBQ itself."
+    },
+    {
+      "day": "Monday",
+      "date": "2026-05-25",
+      "name": "Mon 05/25",
+      "long_name": "Monday, May 25 — Memorial Day",
+      "weather": "Light drizzle, 74F/61F",
+      "weather_detail": "Cloudy (0% sunshine), wind 4 mph with gusts up to 15 mph, 48% precip",
+      "calendar_items": [
+        "No School — Memorial Day",
+        "Sleepover with Isla and Evyln"
+      ],
+      "calendar": "Memorial Day · Sleepover with Isla & Evyln",
+      "time_constraints": [
+        "Two-track dinner — kids' gimbap night plus an adult grandma pizza."
+      ],
+      "dinner": "Gimbap Night (kids) + Dan's Grandma Pizza (adults)",
+      "dinner_cuisine": "Korean + Italian-American",
+      "dinner_description": "Two parallel dinners running on the same night. The girls — Elsie, Isla, and Evyln — get an interactive gimbap rolling station with seasoned rice, julienned carrots and cucumber, spinach, egg ribbons, and bulgogi or canned tuna. The adults eat Dan's grandma pizza: a thick, square Sicilian-style pie with crushed San Marzano tomatoes, low-moisture mozzarella, and basil added at the end.",
+      "dinner_key_ingredients": [
+        "short-grain rice",
+        "nori",
+        "carrots, cucumber, spinach",
+        "egg",
+        "bulgogi beef",
+        "all-purpose flour",
+        "low-moisture mozzarella",
+        "crushed San Marzano tomatoes",
+        "basil"
+      ],
+      "dinner_source_url": "",
+      "dinner_source_name": "Family",
+      "dinner_notes": "Gimbap is hands-on for the kids — set up a rolling station with mats. Pizza dough should rise on the counter through the afternoon.",
+      "dinner_nutrition_notes": "Gimbap gives the kids fiber, iron from beef, and color. Pizza is a refined-carb evening — balance with greens at lunch.",
+      "activity": "Memorial Day sleepover kickoff",
+      "activity_notes": "Indoor games, gimbap-rolling competition, family movie. Read Chelsie's Memorial Day story before bed.",
+      "prep_notes": [
+        "Mix pizza dough Monday morning so it has 8 hours to rise.",
+        "Cook short-grain rice and cool with rice vinegar before kids arrive.",
+        "Julienne carrots and cucumber; blanch spinach."
+      ],
+      "album": "Sister Sledge – We Are Family",
+      "album_pairing_rationale": "Three little girls together for a sleepover on a family-themed holiday — Sister Sledge writes the obvious soundtrack and gives the adults something joyful to cook the grandma pizza to."
+    },
+    {
+      "day": "Tuesday",
+      "date": "2026-05-26",
+      "name": "Tue 05/26",
+      "long_name": "Tuesday, May 26",
+      "weather": "Light drizzle, 77F/64F",
+      "weather_detail": "Cloudy (5% sunshine), wind 6 mph with gusts up to 10 mph, 15% precip",
+      "calendar_items": [
+        "No School — Teacher Workday (Student Holiday)",
+        "Swim practice 6:00 PM",
+        "Work block 2:30 PM - 5:00 PM (1:1s + MBR Sync)"
+      ],
+      "calendar": "No School · Swim practice 6:00 PM",
+      "time_constraints": [
+        "Dinner after swim — Babo Pasta can be largely prepped ahead."
+      ],
+      "dinner": "Babo Pasta — Egg-Yolk Spinach Tagliatelle with Brown Butter and Parm",
+      "dinner_cuisine": "Italian",
+      "dinner_description": "The family favorite. Homemade egg-yolk and spinach tagliatelle, dressed in nutty brown butter, finished with finely grated Parmigiano-Reggiano and torn sage. It's a recipe that earns its weekly spot because every member of the household actually asks for it.",
+      "dinner_key_ingredients": [
+        "00 flour",
+        "egg yolks",
+        "spinach",
+        "unsalted butter",
+        "Parmigiano-Reggiano",
+        "sage",
+        "lemon zest"
+      ],
+      "dinner_source_url": "",
+      "dinner_source_name": "Family favorite",
+      "dinner_notes": "Make the dough in the morning so it rests. Cut tagliatelle right before swim, cook on return.",
+      "dinner_nutrition_notes": "Spinach in the pasta delivers folate and a bit of iron. Add a side salad for fiber and vitamin C.",
+      "activity": "Swim practice",
+      "activity_notes": "Pack swim bag in the morning; warm towel and snack in the car for the ride home.",
+      "prep_notes": [
+        "Make pasta dough during work-from-home morning block.",
+        "Brown butter just before serving so the milk solids stay golden, not burnt."
+      ],
+      "album": "Talking Heads – Speaking In Tongues",
+      "album_pairing_rationale": "A favorite pasta deserves a favorite kind of groove. Talking Heads keep the kitchen alert and the cooking rhythmic — perfect for rolling out dough between tasks."
+    },
+    {
+      "day": "Wednesday",
+      "date": "2026-05-27",
+      "name": "Wed 05/27",
+      "long_name": "Wednesday, May 27",
+      "weather": "Moderate rain showers, 78F/62F",
+      "weather_detail": "Cloudy (40% sunshine), wind 8 mph with gusts up to 22 mph, 50% precip, 0.93\" rain",
+      "calendar_items": [
+        "No School — Eid al-Adha",
+        "House final walkthrough 5:30 PM at 2515 Fowlers Ln",
+        "Elsie's first night of swim team 7:00 PM at Hunters Woods Pool"
+      ],
+      "calendar": "No School · Walkthrough 5:30 · First swim team 7:00",
+      "time_constraints": [
+        "Tight window between 5:30 walkthrough and 7:00 swim team — dinner must be on the table by 6:30, eaten in 20 minutes.",
+        "Quickest meal of the week by design."
+      ],
+      "dinner": "Grilled Cheese and Tomato Soup",
+      "dinner_cuisine": "American Comfort",
+      "dinner_description": "The fastest meal of the week — sharp cheddar grilled cheese with mayo-on-the-outside crust, alongside a quick tomato soup built from a can of San Marzanos, sautéed garlic, butter, a splash of cream, and basil. Twenty minutes door to dinner.",
+      "dinner_key_ingredients": [
+        "sourdough or country bread",
+        "sharp cheddar",
+        "mayonnaise",
+        "canned San Marzano tomatoes",
+        "garlic",
+        "heavy cream",
+        "basil",
+        "butter"
+      ],
+      "dinner_source_url": "",
+      "dinner_source_name": "Weeknight quick",
+      "dinner_notes": "Mayo on the outside of the bread for an even golden crust. Soup can be made the night before.",
+      "dinner_nutrition_notes": "Heavy on dairy and refined carbs. A side of cucumber sticks or apple slices balances the plate.",
+      "activity": "Final house walkthrough · First night of swim team",
+      "activity_notes": "Big day — Elsie's first swim team practice. Bring a celebration treat for the car ride home.",
+      "prep_notes": [
+        "Make tomato soup Tuesday night so Wednesday is just reheat + grill the sandwiches.",
+        "Slice cheese and bread before the walkthrough."
+      ],
+      "album": "Metronomy – The English Riviera",
+      "album_pairing_rationale": "A light, breezy electropop record matches the speed and brightness of a 20-minute grilled cheese — and gives Elsie a pleasant soundtrack for swim-team excitement."
+    },
+    {
+      "day": "Thursday",
+      "date": "2026-05-28",
+      "name": "Thu 05/28",
+      "long_name": "Thursday, May 28 — Closing Day",
+      "weather": "Sunny, 78F/59F",
+      "weather_detail": "Sunny (96% sunshine), wind 13 mph with gusts up to 27 mph, 24% precip",
+      "calendar_items": [
+        "House closing 1:45 PM - 3:30 PM at 2503 Fowlers Ln",
+        "Swim practice 7:00 PM at Hunters Woods Pool"
+      ],
+      "calendar": "House closing 1:45-3:30 · Swim 7:00",
+      "time_constraints": [
+        "Plan for the emotional weight of closing day — keep dinner familiar and warm."
+      ],
+      "dinner": "Pork Chops with Couscous, Carrots, and Peas",
+      "dinner_cuisine": "Mediterranean-leaning American",
+      "dinner_description": "Bone-in pork chops seared and finished with a lemon-Dijon pan sauce, served over fluffy couscous studded with sweet peas and caramelized carrot coins. A celebration plate that doesn't take itself too seriously on a day that does.",
+      "dinner_key_ingredients": [
+        "bone-in pork chops",
+        "couscous",
+        "carrots",
+        "frozen peas",
+        "Dijon mustard",
+        "lemon",
+        "shallot",
+        "chicken stock",
+        "butter",
+        "parsley"
+      ],
+      "dinner_source_url": "",
+      "dinner_source_name": "Family",
+      "dinner_notes": "Salt the chops in the morning. Sear hot, finish gentle. Couscous takes 5 minutes off the heat.",
+      "dinner_nutrition_notes": "Pork gives B12 and zinc; peas and carrots add fiber, vitamin A, vitamin C. A solid closing-day plate.",
+      "activity": "Closing day · move milestone",
+      "activity_notes": "Take a photo at the closing table. Toast the new house at dinner — sparkling cider for Elsie.",
+      "prep_notes": [
+        "Dry-brine the pork chops in the morning.",
+        "Caramelize carrots Wednesday night for a head start."
+      ],
+      "album": "Janelle Monáe – The Age of Pleasure",
+      "album_pairing_rationale": "A celebratory record about arrival, joy, and finally being where you want to be. The right music for closing day."
+    },
+    {
+      "day": "Friday",
+      "date": "2026-05-29",
+      "name": "Fri 05/29",
+      "long_name": "Friday, May 29",
+      "weather": "Sunny, 76F/49F",
+      "weather_detail": "Sunny (96% sunshine), wind 8 mph with gusts up to 24 mph, 1% precip",
+      "calendar_items": [
+        "Laura drops car off to a friend in DC (afternoon)",
+        "YAT 4:30 PM - 6:00 PM at 2310 Colts Neck Rd",
+        "Swim practice 7:00 PM at Hunters Woods Pool"
+      ],
+      "calendar": "Car drop-off DC · YAT 4:30 · Swim 7:00",
+      "time_constraints": [
+        "Breakfast-for-dinner because everyone is moving fast — pancakes are fast to plate and easy to keep warm."
+      ],
+      "dinner": "Buttermilk Pancakes with Sausage and Egg-in-the-Center",
+      "dinner_cuisine": "American Breakfast-for-Dinner",
+      "dinner_description": "Tall, fluffy buttermilk pancakes, browned breakfast sausage links, and the centerpiece move: a pancake with a sunny egg cooked right into the middle — like an egg-in-a-hole but griddled in batter. Maple syrup, butter, and cold berries on the side.",
+      "dinner_key_ingredients": [
+        "all-purpose flour",
+        "buttermilk",
+        "eggs",
+        "baking powder",
+        "breakfast sausage links",
+        "maple syrup",
+        "berries",
+        "butter"
+      ],
+      "dinner_source_url": "",
+      "dinner_source_name": "Family",
+      "dinner_notes": "Rest the batter 10 minutes. Cook eggs into the center on lower heat so the white sets while the bottom of the pancake browns.",
+      "dinner_nutrition_notes": "Refined carbs + saturated fat heavy. Lean on cold berries for fiber and vitamin C; a lunch-time salad helps.",
+      "activity": "YAT · car drop-off in DC",
+      "activity_notes": "Long day for the adults — pancakes-for-dinner is the gift the night deserves.",
+      "prep_notes": [
+        "Whisk dry ingredients Thursday night to speed the morning-of build.",
+        "Pull sausage from the freezer Thursday."
+      ],
+      "album": "Jessie Ware – What's Your Pleasure?",
+      "album_pairing_rationale": "A glamorous, danceable record that turns pancakes-for-dinner into a small Friday night celebration — disco shimmer to match the breakfast-as-treat vibe."
+    },
+    {
+      "day": "Saturday",
+      "date": "2026-05-30",
+      "name": "Sat 05/30",
+      "long_name": "Saturday, May 30 — New House Celebration",
+      "weather": "Sunny, 67F/52F",
+      "weather_detail": "Sunny (95% sunshine), wind 13 mph with gusts up to 26 mph, 7% precip",
+      "calendar_items": [
+        "YAT 9:00 AM - 12:00 PM at 2310 Colts Neck Rd (tentative)"
+      ],
+      "calendar": "YAT 9-12 (tentative)",
+      "time_constraints": [
+        "Make the pizza special — this is the new-house dinner."
+      ],
+      "dinner": "Celebration Pizza for the New House",
+      "dinner_cuisine": "Italian — Neapolitan-leaning",
+      "dinner_description": "Two or three pies cooked as hot as the oven allows, with a high-hydration dough rested overnight. One classic margherita with torn buffalo mozzarella and basil; one with crisp pepperoni cupping pools of grease; and a celebration pie with prosciutto, arugula, hot honey, and a final drift of burrata for the new-house toast.",
+      "dinner_key_ingredients": [
+        "00 flour",
+        "fresh mozzarella",
+        "burrata",
+        "San Marzano tomatoes",
+        "basil",
+        "pepperoni",
+        "prosciutto",
+        "arugula",
+        "hot honey"
+      ],
+      "dinner_source_url": "",
+      "dinner_source_name": "Family celebration",
+      "dinner_notes": "Cold-ferment the dough 48 hours starting Thursday for maximum flavor.",
+      "dinner_nutrition_notes": "Pizza night — pair with a vinegar-heavy arugula salad to cut the richness.",
+      "activity": "New house celebration",
+      "activity_notes": "First Saturday in the new house. Cue Jungle's Volcano, open a good bottle, let Elsie pick a pie shape.",
+      "prep_notes": [
+        "Start dough Thursday night for a 48-hour cold ferment.",
+        "Pull dough out 2 hours before stretch."
+      ],
+      "album": "Jungle – Volcano",
+      "album_pairing_rationale": "A dance-floor-bright record for the literal celebration dinner of the week. Volcano is the right kind of loud for a first night in a new house."
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Whipped Ricotta with Hot Honey and Lemon Zest",
+      "cuisine": "Italian-American",
+      "description": "Whole-milk ricotta whipped smooth with olive oil and salt, finished with hot honey, lemon zest, and cracked black pepper. Served with grilled bread.",
+      "key_ingredients": ["whole-milk ricotta", "hot honey", "lemon zest", "olive oil", "grilled bread"]
+    },
+    {
+      "name": "Marinated Olives with Orange Peel and Fennel Seed",
+      "cuisine": "Mediterranean",
+      "description": "Castelvetrano and Kalamata olives warmed in olive oil with orange peel, fennel seed, and a smashed garlic clove.",
+      "key_ingredients": ["Castelvetrano olives", "Kalamata olives", "orange peel", "fennel seed", "garlic"]
+    }
+  ],
+  "salads": [
+    {
+      "name": "Arugula with Lemon, Parm, and Olive Oil",
+      "salad_type": "side",
+      "description": "The pizza-night classic — peppery arugula tossed simply with lemon, fruity olive oil, and shaved Parmigiano.",
+      "dressing": "Lemon juice + olive oil + salt, dressed at the table",
+      "flavor_rationale": "Cuts pizza richness on Saturday and pancake sweetness on Friday."
+    },
+    {
+      "name": "Apple-Fennel Slaw with Cider Vinegar",
+      "salad_type": "composed",
+      "description": "Thinly shaved fennel, tart apple, scallion, and parsley with a cider vinegar dressing.",
+      "dressing": "Cider vinegar, Dijon, olive oil, honey",
+      "flavor_rationale": "The offering for Sunday's BBQ — cuts the pulled pork and burgers."
+    },
+    {
+      "name": "Cucumber and Tomato Salad with Feta",
+      "salad_type": "side",
+      "description": "Crisp Persian cucumbers, halved cherry tomatoes, crumbled feta, red wine vinegar, and oregano.",
+      "dressing": "Red wine vinegar + olive oil + oregano",
+      "flavor_rationale": "Fresh vegetable side that fits Tuesday's pasta and Thursday's pork chops."
+    },
+    {
+      "name": "Spring Greens with Strawberries and Almonds",
+      "salad_type": "side",
+      "description": "Spring mix, sliced strawberries, toasted almonds, and shaved manchego with a champagne vinaigrette.",
+      "dressing": "Champagne vinegar + olive oil + Dijon",
+      "flavor_rationale": "A celebration-week salad — pairs with Thursday's closing-day dinner."
+    }
+  ],
+  "beverages": [
+    {
+      "name": "Lambrusco (chilled)",
+      "description": "A lightly sparkling, slightly chilled red — the right wine for pizza night and Tuesday's pasta.",
+      "why": "Acidic, refreshing, and red enough for tomato sauce and Parmigiano."
+    },
+    {
+      "name": "Sparkling Cider (for Elsie)",
+      "description": "Apple sparkling cider in a wine glass for Thursday's closing toast and Saturday's new-house celebration.",
+      "why": "Elsie gets a real toast on the two biggest days of the week."
+    },
+    {
+      "name": "Espresso Martini",
+      "description": "A Friday-night-after-pancakes adult treat, or a Saturday post-pizza pour. Espresso, vodka, coffee liqueur, simple syrup, shaken hard.",
+      "why": "A celebration drink with enough caffeine to extend the new-house Saturday night."
+    }
+  ],
+  "grocery_list": {
+    "Produce": [
+      "spinach (for Babo dough + gimbap)",
+      "carrots",
+      "cucumbers",
+      "fresh basil (large bunch)",
+      "parsley",
+      "sage",
+      "arugula",
+      "lemons (6)",
+      "shallot",
+      "garlic",
+      "scallions",
+      "fennel bulb",
+      "apple (2 tart, like Granny Smith)",
+      "berries (strawberries + blueberries)",
+      "cherry tomatoes",
+      "Persian cucumbers",
+      "frozen peas"
+    ],
+    "Protein": [
+      "bone-in pork chops (4)",
+      "breakfast sausage links",
+      "bulgogi beef or canned tuna (gimbap)",
+      "pepperoni",
+      "prosciutto"
+    ],
+    "Dairy & Cheese": [
+      "buttermilk",
+      "eggs (2 dozen)",
+      "heavy cream",
+      "unsalted butter (2 lbs)",
+      "whole-milk ricotta",
+      "Parmigiano-Reggiano",
+      "low-moisture mozzarella (Monday pizza)",
+      "fresh mozzarella + buffalo mozzarella (Saturday pizza)",
+      "burrata",
+      "sharp cheddar (grilled cheese)",
+      "feta",
+      "manchego"
+    ],
+    "Pantry & Dry": [
+      "00 flour (5 lb)",
+      "all-purpose flour",
+      "couscous",
+      "short-grain rice",
+      "nori sheets",
+      "canned San Marzano tomatoes (4)",
+      "Dijon mustard",
+      "hot honey",
+      "maple syrup",
+      "Castelvetrano olives",
+      "Kalamata olives",
+      "almonds (toasted)",
+      "baking powder",
+      "cider vinegar",
+      "red wine vinegar",
+      "champagne vinegar"
+    ],
+    "Beverages": [
+      "Lambrusco",
+      "sparkling cider",
+      "espresso (for martinis)",
+      "vodka + coffee liqueur"
+    ]
+  },
+  "prep_ahead": [
+    "Saturday night: make Sunday's apple-fennel slaw or BBQ sauce.",
+    "Monday morning: mix grandma pizza dough and let rise 8 hours; cook short-grain rice for gimbap.",
+    "Tuesday morning: make Babo pasta dough; let rest in fridge.",
+    "Tuesday night: make tomato soup for Wednesday's grilled cheese.",
+    "Thursday morning: dry-brine pork chops; start Saturday pizza dough for a 48-hour cold ferment.",
+    "Thursday night: whisk dry pancake ingredients for Friday.",
+    "Friday afternoon: pull pizza dough from fridge 2 hours before Saturday's stretch."
+  ],
+  "notes": [
+    "Two major family milestones this week — the house closing Thursday and the new house celebration Saturday. Plan ahead so cooking doesn't compete with the emotional weight of those days.",
+    "Monday's gimbap-and-grandma-pizza is one of the most fun nights of the week. Set up the gimbap station like a craft project for Elsie, Isla, and Evyln.",
+    "Elsie's only restriction this week: no onions and mushrooms mixed together. None of this week's planned dinners trigger that combination, so no day-level Elsie note is required.",
+    "Memorial Day is Monday — Chelsie's bedtime story this week is a Memorial Day reflection with neighbors Eric, Ed, and Dale. Read it Sunday or Monday night."
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "week_range": "May 17 - May 23, 2026",
+  "weekly_theme": {
+    "title": "Generations at the Table",
+    "description": "This week's meals keep whispering the same idea: love is often passed down in ordinary ways — a favorite pasta, a bowl made just right, a rainy-night skillet supper, a pie a child gets to design herself. With the Mother's Day-adjacent story of the red glass candy dish in the background, this is a good week to help Elsie notice that family care has a lineage. Someone taught someone to stir, to save the best part, to set the table, to make room, to make home feel warm. The goal is not a history lecture. It is helping her feel that she belongs to an ongoing chain of small kindnesses — and that she is old enough to add her own link."
+  },
+  "dinner_questions": [
+    {
+      "day": "Sunday",
+      "dinner": "Quick Bolognese with Fresh Spring Pasta",
+      "question": "This pasta is quick, but it still feels special. What's one small thing a mom, grandma, or another grown-up woman does that can turn an ordinary day into a good one?",
+      "category": "gratitude & reflection",
+      "why": "Helps Elsie notice care in its quieter forms — remembering favorites, making food, checking in. Eight-year-olds are ready to see that love often hides inside repeatable little actions, not just big celebrations."
+    },
+    {
+      "day": "Monday",
+      "dinner": "Kimbap Grain Bowls with Caramelized Onions and Mushrooms",
+      "question": "Everyone's bowl can be a little different tonight. What's a way someone in our family shows love by paying attention to what another person likes or doesn't like?",
+      "category": "family connection",
+      "why": "Her mushroom swap makes love concrete: being known. Children this age feel deeply seen when preferences are remembered, and talking about that builds empathy in both directions."
+    },
+    {
+      "day": "Tuesday",
+      "dinner": "Babo Pasta — Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+      "question": "Swim practice and homemade pasta both take learning one step at a time. Who has taught you something with a lot of patience, and what did they do that helped you keep going?",
+      "category": "story-drawing",
+      "why": "Invites her to connect competence with relationship. At eight, children are proud of growing skills, and they can start noticing the kind of teaching style that helps them feel brave rather than rushed."
+    },
+    {
+      "day": "Wednesday",
+      "dinner": "Tex-Mex Grain Bowls with Chipotle Shrimp",
+      "question": "If our family made a story bowl tonight, what ingredient would stand for each person, and why?",
+      "category": "imagination",
+      "why": "Symbol play is perfect for this age. It lets Elsie think about personality, belonging, and difference in a playful way, which often leads to richer conversation than a direct question about family roles."
+    },
+    {
+      "day": "Thursday",
+      "dinner": "Black Bean Burritos with Lime-Cilantro Slaw",
+      "question": "A burrito wraps lots of things together so they stay warm and close. When somebody in a family is having a hard day, what are good ways to help them feel tucked in without bugging them?",
+      "category": "values & moral reasoning",
+      "why": "Eight-year-olds are beginning to think about comfort from another person's point of view. This question builds practical empathy — how to care for someone in a way that actually feels good to them."
+    },
+    {
+      "day": "Friday",
+      "dinner": "White Beans & Italian Sausage with Garlicky Sauteed Kale",
+      "question": "Tonight you and Dad get to cook side by side. What makes someone feel like a really good cooking partner: giving jobs, being patient, making jokes, asking first, or something else?",
+      "category": "family connection",
+      "why": "Cooking together is a natural place to talk about teamwork, autonomy, and respect. Children this age want real responsibility, and naming what good partnership feels like helps her ask for it and offer it."
+    },
+    {
+      "day": "Saturday",
+      "dinner": "Pizza Night — Four Assorted Pies",
+      "question": "You get to design a pie tonight. If you made one to honor someone who takes care of people — Mom, Grandma, Nonna, Anne, or someone else — what would be on it, and what would each topping mean?",
+      "category": "gratitude & reflection",
+      "why": "This ties creativity to appreciation and family memory. At eight, symbolic thinking gets especially fun when she can turn it into something she can actually build and serve."
+    }
+  ],
+  "nudges": [
+    {
+      "title": "The Invisible Care Toast",
+      "context": "This is a Mother's Day-adjacent week, and the candy-dish story puts hidden care in the foreground. Eight-year-olds often notice celebrations before they notice the invisible work underneath them, so this is a lovely time to make everyday mothering visible without making it heavy.",
+      "suggestion": "Try a two-minute toast at Sunday or Monday dinner: each person names one small act of care a woman in the family does or once did. It can be tiny — cutting fruit, remembering shoes, teaching a recipe, making someone laugh when the day is flat. The point is not sentimentality. It is helping care feel visible.",
+      "how_to": [
+        "Start with your own example from Laura, a grandmother, teacher, aunt, or family friend: 'I was thinking about how she always…'",
+        "Invite Elsie to choose any woman she knows or remembers; if she gets stuck, offer categories instead of pressure.",
+        "Ask one follow-up only: 'How can you tell that mattered?'",
+        "End by naming one small care act Elsie herself already does, so she hears that she is part of the chain too."
+      ]
+    },
+    {
+      "title": "Friday Kitchen Side-by-Side",
+      "context": "Cold rain, Laura out, and a hands-on skillet dinner make Friday a near-perfect side-by-side night. Children this age often talk more freely while their hands are busy, especially when the task is real and not just a pretend helper job.",
+      "suggestion": "Use the beans-and-sausage dinner as a conversation window, not a teaching performance. Let the jobs carry the talk: tearing kale, rubbing bread with garlic, stirring beans, squeezing lemon. Many 8-year-olds say more when nobody is looking straight at them and the work feels important.",
+      "how_to": [
+        "Give Elsie one true job with visible impact: kale tearer, bread toaster, lemon squeezer, or bean finisher.",
+        "Keep one gentle question in your pocket, like 'Which part of cooking feels most grown-up tonight?'",
+        "Match her pace; if she wants to narrate, listen. If she wants quiet, let the sizzling pan do some of the work.",
+        "Close with one concrete line: 'I liked being your cooking partner tonight.'"
+      ]
+    },
+    {
+      "title": "Rainy-Day Object Stories",
+      "context": "The weekend turns cold and wet, which is often when families either drift to separate corners or find a cozy little ritual. The red glass candy dish story already frames objects as carriers of family memory, so this is an easy moment to build connection indoors.",
+      "suggestion": "On Saturday afternoon or after pizza, pick one ordinary object — a spoon, apron, photo, bowl, or ornament — and tell the shortest story attached to it. Then let Elsie choose an object and imagine the story it might hold, even if she does not know the real one. This builds belonging through curiosity, not homework.",
+      "how_to": [
+        "Choose one object that fits in your hand and tell its story in under a minute.",
+        "Ask Elsie, 'What do you think this object has seen?' or 'Who would have loved this?'",
+        "If she makes up a story, go with it; imagination still counts as connection.",
+        "End by asking whether there is an object from this year she would save for her grown-up self."
+      ]
+    }
+  ],
+  "recommendation": {
+    "type": "book",
+    "title": "The Keeping Quilt",
+    "author": "Patricia Polacco",
+    "why": "This picture book follows a quilt through generations of women in one family, holding birthdays, weddings, babies, and ordinary closeness all in the same piece of cloth. At 8, Elsie is old enough to catch the feeling that objects can carry memory — and young enough to enjoy how concrete and cozy that idea is.",
+    "connection": "It pairs beautifully with the red glass candy dish story and this week's theme of Generations at the Table. Read it before the rainy weekend, then ask her what object in your own house feels like it has a family story tucked inside it."
+  },
+  "parent_reflection": "When you looked at Elsie this week — in the kitchen, at swim, or while she designed her pizza — where did you catch a glimpse of the women who helped raise the people now raising her? Notice the tiny inheritance: a phrase, a gesture, a way of caring. That is family culture becoming visible."
+}

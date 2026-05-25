@@ -8,36 +8,32 @@ Review the weekly_plans/favorites folder for information on meals or albums that
 Review my calendar using the workIQ MCP server. Pay special attention to any meetings between 3 and 9. All events from Laura@astraeawealth.com should be included in the plan. These are related to our family and must be part of the final report. Tentative work meetings in that block can be ignored. Tentative meetings from Laura must be included.
 
 This week we have:
-- Patrick is coming to visit on 5/2 and 5/3
-- Dan is on call starting on Tuesday
-- Elsie has swim lessons on Tuesday
-- Laura is out of town until Wednesday, dan to do all kid things
+- Laura dropping off the car to a friend in DC on Fri  
+- Swim practice Tuesday at 6pm
+- Isla and Evyln Sleepover
+- Elsie starts swim team on Wednesday at 6:30
+- Final house walkthrough is Wednesday at 5:30
+- Closing on the house is Thursday at 2:30PM
+- YAT Friday Afternoon
 
 Dinners:
-- Pasta with leftover gravy
-- Stuffed cabbage rolls
-- Hamburgers
-- Pork chops with cream sauce and mushrooms
-- Kale and Bronzino
-- Babo Pasta
-- Pizza
+- Sunday - BBQ at Beth and Matts for pulled pork and burgers
+- Monday - Gimbap night for Isla, Elsie and Evyln. Dan to make grandma pizza
+- Tuesday - Babo Pasta
+- Wednesday - Grilled cheese with tomato soup - Need something quick
+- Thursday - Cous cous with carrots, peas, and pork chops
+- Friday - Buttermilk pancakes with sausage and an egg in the center.
+- Saturday - Celebration pizza for the new house
 
 Cravings:
-- No roasted red peppers mixed with mushrooms
+- None
 
 Elsies Selections:
 
-- Elsie didn't provide anything
-
-For the weekly read, please grab these substack articles:
-- https://substack.com/home/post/p-194201128
-- https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026
-- https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code
-
-I have also been more interested in learning about different types of collagen and creatine. Specifically understanding things like fortibone and other bespoke combinations. Make sure this is also a section under the weekly read.
+- No onions and mushrooms mixed together.
 
 Weekly Kids Story:
-- Focus on the challenges of buying a house. How moving can be fun and exciting but also very stressful. The story should be Mamma Karen telling Chelie that she and Dan moved a lot when Dan was young, at least 8 times by Chelsie's age. That included time spent in a car, an electrical house fire, and lots of other places. Having a place to call home, with a roof that works and neighbors that care is worth a lot and is something to be greatful for. Mr. Bugles should not be in this story.
+- This story should be based on memorial day and highlight those around us that have served. Discuss what memorial day means for those in the military and how we are fortunate not to know people directly who have passed. Chelsea should have this conversation with Eric, or neighbor who is active US Army doing scientific research, Ed who served in the army doing forestry things, Dale who works at amazon and was deployed to Iraq multiple times to help protect this nation. You can take liberties with other people in this story. Make sure you cover some of the important memorial day events and locations around Washington DC.
 - The characters in the story should take from a set of the following. Only use the minimum that are necessary
   - Papa Puleo - Great Grand Father - Calls Chelsie Piccola
   - Momma Karen - Grand Mother

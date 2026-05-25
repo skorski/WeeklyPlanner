@@ -1,0 +1,102 @@
+{
+  "pairings": [
+    {
+      "day": "Sunday",
+      "date": "2026-05-17",
+      "dinner": "Quick Bolognese with Fresh Spring Pasta",
+      "album_artist": "Phoenix",
+      "album_title": "Wolfgang Amadeus Phoenix",
+      "album_year": "2009",
+      "album_genre": "Indie Pop / Alternative Dance",
+      "album_mood": "Sunlit, brisk, romantic, and lightly nostalgic.",
+      "album_description": "Phoenix made their breakthrough on this 2009 album after building a tiny Montmartre studio and writing with a more handmade, ambitious approach. Philippe Zdar's glossy mix turned songs like '1901' into a global lift-off without sanding away the band's homemade spark.",
+      "album_sonic_description": "Tight disco-kissed drums, wiry guitar, soft-focus synths, and aerodynamic choruses that move fast without feeling frantic.",
+      "album_pairing_rationale": "Quick bolognese wants motion and brightness, not heaviness; this record has the same clean snap as fresh pasta hitting sauce on a hot Sunday. It also scratches the family's alt-rock itch while staying warmer and more buoyant than a straight guitar record.",
+      "album_spotify_url": "https://open.spotify.com/search/Phoenix%20Wolfgang%20Amadeus%20Phoenix"
+    },
+    {
+      "day": "Monday",
+      "date": "2026-05-18",
+      "dinner": "Kimbap Grain Bowls with Caramelized Onions and Mushrooms",
+      "album_artist": "Peggy Gou",
+      "album_title": "I Hear You",
+      "album_year": "2024",
+      "album_genre": "House / Dance-Pop / Korean Electronic",
+      "album_mood": "Cool, euphoric, sleek, and heat-wave ready.",
+      "album_description": "Peggy Gou spent years building toward her 2024 debut, shaping it as a statement about listening to yourself and to the dancefloor after becoming one of club culture's defining DJs. Sung in multiple languages, it turns her global rise into a personal, summery house record.",
+      "album_sonic_description": "Four-on-the-floor house, rubbery bass, airy pads, clipped percussion, and silky vocals that keep the room moving.",
+      "album_pairing_rationale": "On a 96-degree Monday with Dan in bootcamp until 8, dinner needs something that feels cool on contact but still gives Laura a groove while assembling bowls. The Korean lens and polished club pulse fit the nori, sesame, and gochujang without tipping into anything sleepy.",
+      "album_spotify_url": "https://open.spotify.com/search/Peggy%20Gou%20I%20Hear%20You"
+    },
+    {
+      "day": "Tuesday",
+      "date": "2026-05-19",
+      "dinner": "Babo Pasta — Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+      "album_artist": "Nicola Conte",
+      "album_title": "Jet Sounds",
+      "album_year": "2000",
+      "album_genre": "Italian Acid Jazz / Bossa Nova / Nu Jazz",
+      "album_mood": "Elegant, cosmopolitan, relaxed, and quietly propulsive.",
+      "album_description": "Bari producer Nicola Conte emerged from Italy's Fez Collective and used his 2000 debut to revive the stylish jazz-club world of 60s and 70s Italian cinema. He stitched together bossa, Latin jazz, and soundtrack sophistication into one of the defining records of Italian acid jazz.",
+      "album_sonic_description": "Brushy drums, nylon-string guitar, flute, vibraphone, upright bass, and soft brass arranged with film-score grace.",
+      "album_pairing_rationale": "Babo Pasta is silky, precise, and a little ceremonial, so it wants music with finesse rather than brute force. Conte gives Tuesday an Italian frame and enough swing to keep the brown butter, pasta water, and parm feeling elegant instead of fussy.",
+      "album_spotify_url": "https://open.spotify.com/search/Nicola%20Conte%20Jet%20Sounds"
+    },
+    {
+      "day": "Wednesday",
+      "date": "2026-05-20",
+      "dinner": "Tex-Mex Grain Bowls with Chipotle Shrimp",
+      "album_artist": "Ondatrópica",
+      "album_title": "Ondatrópica",
+      "album_year": "2012",
+      "album_genre": "Colombian Cumbia / Latin Funk / Tropical",
+      "album_mood": "Bright, festive, percussive, and sun-after-rain joyful.",
+      "album_description": "Will 'Quantic' Holland and Mario Galeano built Ondatrópica as a Colombian supergroup and recorded the 2012 debut at Medellín's historic Discos Fuentes studios with legends and younger players in the same room. The album is both archive and party, reviving cumbia, salsa, porro, and funk as living dance music.",
+      "album_sonic_description": "Punchy horns, hand percussion, accordion, electric bass, sunny choruses, dubby edges, and constant rhythmic lift.",
+      "album_pairing_rationale": "Chipotle shrimp bowls need color, char, acid, and movement, and this record delivers all four. It matches the last blast of heat with bright tropical percussion that keeps Wednesday feeling celebratory instead of weather-weary.",
+      "album_spotify_url": "https://open.spotify.com/search/Ondatr%C3%B3pica%20Ondatr%C3%B3pica"
+    },
+    {
+      "day": "Thursday",
+      "date": "2026-05-21",
+      "dinner": "Black Bean Burritos with Lime-Cilantro Slaw",
+      "album_artist": "Durand Jones & The Indications",
+      "album_title": "American Love Call",
+      "album_year": "2019",
+      "album_genre": "Soul / R&B / Retro-Soul",
+      "album_mood": "Warm, tender, rainy-day comforting, and hopeful.",
+      "album_description": "After their breakout debut, Durand Jones & The Indications cut this 2019 album with deeper harmonies and more social conscience, channeling classic soul without treating it like a museum piece. Songs of devotion sit beside 'Morning in America,' which gives the record real emotional weight.",
+      "album_sonic_description": "Velvet harmonies, patient drums, soft keys, rounded bass, and mellow guitar lines with analog warmth.",
+      "album_pairing_rationale": "The cold front and rain call for a record that can wrap around beans, rice, melted cheese, and slaw without going dull. This one brings warmth and human closeness, the musical equivalent of a skillet-crisp burrito eaten while the windows fog.",
+      "album_spotify_url": "https://open.spotify.com/search/Durand%20Jones%20%26%20The%20Indications%20American%20Love%20Call"
+    },
+    {
+      "day": "Friday",
+      "date": "2026-05-22",
+      "dinner": "White Beans & Italian Sausage with Garlicky Sauteed Kale",
+      "album_artist": "Franc Moody",
+      "album_title": "Dream in Colour",
+      "album_year": "2020",
+      "album_genre": "Disco-Funk / Indie Dance / Synth-Pop",
+      "album_mood": "Playful, peppy, colorful, and impossible not to move to.",
+      "album_description": "Franc Moody made their debut album in a DIY Tottenham warehouse studio, turning handmade percussion and synth-funk instincts into a record about finding color inside city gray. The duo built it to feel communal and vivid, like a dancefloor opening up in the middle of everyday life.",
+      "album_sonic_description": "Elastic bass lines, bright synth stabs, hand-built percussion, falsetto hooks, and polished grooves with real physical bounce.",
+      "album_pairing_rationale": "Cold rain, beans and sausage, and Dan-plus-Elsie cooking together is exactly the kind of night this album rescues from feeling gray. Since the family already loves it, Friday gets a sure-win soundtrack that keeps the kitchen lively and gives the two of them an easy, danceable rhythm to cook to.",
+      "album_spotify_url": "https://open.spotify.com/search/Franc%20Moody%20Dream%20in%20Colour"
+    },
+    {
+      "day": "Saturday",
+      "date": "2026-05-23",
+      "dinner": "Pizza Night — Four Assorted Pies",
+      "album_artist": "Parcels",
+      "album_title": "Parcels",
+      "album_year": "2018",
+      "album_genre": "Indie Funk / Disco-Pop / Soft Rock",
+      "album_mood": "Kinetic, friendly, breezy, and weekend-loose.",
+      "album_description": "Parcels were five friends from Byron Bay who moved to Berlin, absorbed the city's disco and club culture, and turned that leap into their 2018 debut. The album carries both homesick warmth and European polish, with the Daft Punk connection hovering over its immaculate grooves.",
+      "album_sonic_description": "Chic-style guitar, springy bass, featherlight falsetto, crisp drums, and tight harmonies that keep songs buoyant and clean.",
+      "album_pairing_rationale": "Four pies and a rainy family project day need music with repeatable momentum, not dramatic peaks and valleys. This album has the same modular pleasure as pizza night: different flavors, same joyful engine, and enough groove to keep everyone tossing dough.",
+      "album_spotify_url": "https://open.spotify.com/search/Parcels%20Parcels"
+    }
+  ]
+}

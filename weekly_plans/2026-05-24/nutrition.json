@@ -1,0 +1,1135 @@
+{
+  "family": {
+    "members": [
+      {
+        "name": "Dan",
+        "age_range": "Adult man",
+        "activity_level": "Active",
+        "calorie_target": "~2,400-2,800 kcal/day",
+        "focus_nutrients": [
+          "protein",
+          "potassium",
+          "magnesium",
+          "fiber"
+        ]
+      },
+      {
+        "name": "Wife",
+        "age_range": "Adult woman",
+        "activity_level": "Active",
+        "calorie_target": "~2,000-2,200 kcal/day",
+        "focus_nutrients": [
+          "iron",
+          "calcium",
+          "folate",
+          "fiber"
+        ]
+      },
+      {
+        "name": "Elsie",
+        "age_range": "8-year-old girl",
+        "activity_level": "Active",
+        "calorie_target": "~1,600-2,000 kcal/day",
+        "focus_nutrients": [
+          "calcium",
+          "vitamin D",
+          "iron",
+          "fiber"
+        ],
+        "restriction_this_week": "Avoid onions and mushrooms mixed together. Lunch and snack ideas below avoid that combination."
+      }
+    ]
+  },
+  "daily_breakdown": [
+    {
+      "day": "Sunday",
+      "dinner": "BBQ pulled pork & burgers (hosted)",
+      "key_nutrients": [
+        "protein",
+        "iron",
+        "zinc",
+        "B12"
+      ],
+      "gaps": [
+        "fiber",
+        "omega-3",
+        "vitamin C",
+        "leafy greens",
+        "whole grains"
+      ]
+    },
+    {
+      "day": "Monday",
+      "dinner": "Gimbap for kids + Grandma pizza for adults",
+      "key_nutrients": [
+        "carbohydrates",
+        "some protein",
+        "calcium from pizza cheese",
+        "vegetables if gimbap includes carrots/spinach"
+      ],
+      "gaps": [
+        "whole grains",
+        "fiber",
+        "omega-3",
+        "vitamin D",
+        "potassium"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "dinner": "Babo Pasta: egg-yolk spinach tagliatelle, brown butter, parmesan",
+      "key_nutrients": [
+        "B12",
+        "calcium",
+        "selenium",
+        "some iron/folate from spinach pasta"
+      ],
+      "gaps": [
+        "fiber",
+        "vitamin C",
+        "omega-3",
+        "vegetable volume",
+        "potassium"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "dinner": "Grilled cheese + tomato soup",
+      "key_nutrients": [
+        "calcium",
+        "lycopene",
+        "B12",
+        "protein"
+      ],
+      "gaps": [
+        "fiber",
+        "whole grains unless whole-grain bread is used",
+        "magnesium",
+        "omega-3"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "dinner": "Couscous with carrots, peas, pork chops",
+      "key_nutrients": [
+        "protein",
+        "B12",
+        "zinc",
+        "vitamin A",
+        "some fiber"
+      ],
+      "gaps": [
+        "omega-3",
+        "vitamin D",
+        "calcium",
+        "leafy greens",
+        "whole grains if couscous is refined"
+      ]
+    },
+    {
+      "day": "Friday",
+      "dinner": "Buttermilk pancakes, sausage, egg-in-center",
+      "key_nutrients": [
+        "protein",
+        "B12",
+        "choline",
+        "selenium",
+        "some calcium from buttermilk"
+      ],
+      "gaps": [
+        "fiber",
+        "vegetables",
+        "vitamin C",
+        "potassium",
+        "omega-3"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "dinner": "Celebration pizza",
+      "key_nutrients": [
+        "calcium",
+        "protein",
+        "carbohydrates",
+        "B12"
+      ],
+      "gaps": [
+        "fiber",
+        "omega-3",
+        "vitamin C",
+        "magnesium",
+        "vegetable variety"
+      ]
+    }
+  ],
+  "dinners": [
+    {
+      "day": "Sunday",
+      "name": "BBQ pulled pork & burgers (hosted)",
+      "calories_per_serving": "~550-750 kcal, depending on portions and sides",
+      "protein_source": "Pork and beef",
+      "protein_level": "high",
+      "vegetable_content": "minimal unless hosted sides include salad/slaw",
+      "whole_grains": false,
+      "key_nutrients": [
+        "protein",
+        "iron",
+        "zinc",
+        "vitamin B12"
+      ],
+      "concerns": [
+        "Likely high sodium and saturated fat",
+        "Low fiber unless beans, slaw, fruit, or whole-grain buns appear"
+      ],
+      "overall_rating": "hearty"
+    },
+    {
+      "day": "Monday",
+      "name": "Gimbap for kids + Grandma pizza for adults",
+      "calories_per_serving": "~450-700 kcal",
+      "protein_source": "Egg/fish cake/meat in gimbap; cheese in pizza",
+      "protein_level": "moderate",
+      "vegetable_content": "moderate for gimbap, minimal-to-moderate for pizza",
+      "whole_grains": false,
+      "key_nutrients": [
+        "carbohydrates",
+        "calcium",
+        "some vitamin A",
+        "some protein"
+      ],
+      "concerns": [
+        "Refined grains carry much of the meal",
+        "Adults get less vegetable variety if pizza is the main plate"
+      ],
+      "overall_rating": "family-friendly"
+    },
+    {
+      "day": "Tuesday",
+      "name": "Babo Pasta: egg-yolk spinach tagliatelle, brown butter, parmesan",
+      "calories_per_serving": "~500-700 kcal",
+      "protein_source": "Egg yolk and parmesan",
+      "protein_level": "moderate",
+      "vegetable_content": "minimal by volume; spinach is in the pasta dough",
+      "whole_grains": false,
+      "key_nutrients": [
+        "B12",
+        "calcium",
+        "selenium",
+        "some folate"
+      ],
+      "concerns": [
+        "Rich and satisfying, but low in fiber and vegetable volume",
+        "Needs fruit/vegetable color earlier in the day"
+      ],
+      "overall_rating": "comforting"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Grilled cheese + tomato soup",
+      "calories_per_serving": "~500-650 kcal",
+      "protein_source": "Cheese and milk if soup is creamy",
+      "protein_level": "moderate",
+      "vegetable_content": "moderate tomato base, but limited variety",
+      "whole_grains": false,
+      "key_nutrients": [
+        "calcium",
+        "lycopene",
+        "B12",
+        "protein"
+      ],
+      "concerns": [
+        "Can be very sodium-heavy",
+        "Fiber depends heavily on bread choice"
+      ],
+      "overall_rating": "cozy"
+    },
+    {
+      "day": "Thursday",
+      "name": "Couscous with carrots, peas, pork chops",
+      "calories_per_serving": "~450-650 kcal",
+      "protein_source": "Pork chops",
+      "protein_level": "high",
+      "vegetable_content": "moderate",
+      "whole_grains": false,
+      "key_nutrients": [
+        "protein",
+        "B12",
+        "zinc",
+        "vitamin A",
+        "some fiber"
+      ],
+      "concerns": [
+        "Third pork-forward dinner of the week",
+        "Calcium, vitamin D, and omega-3 still need help elsewhere"
+      ],
+      "overall_rating": "balanced-ish"
+    },
+    {
+      "day": "Friday",
+      "name": "Buttermilk pancakes, sausage, egg-in-center",
+      "calories_per_serving": "~550-750 kcal",
+      "protein_source": "Egg and sausage",
+      "protein_level": "moderate",
+      "vegetable_content": "none",
+      "whole_grains": false,
+      "key_nutrients": [
+        "B12",
+        "choline",
+        "selenium",
+        "some calcium"
+      ],
+      "concerns": [
+        "Fun breakfast-for-dinner night, but low in produce and fiber",
+        "Sausage adds sodium and saturated fat"
+      ],
+      "overall_rating": "fun"
+    },
+    {
+      "day": "Saturday",
+      "name": "Celebration pizza",
+      "calories_per_serving": "~500-850 kcal, depending on slices",
+      "protein_source": "Cheese and any meat toppings",
+      "protein_level": "moderate",
+      "vegetable_content": "minimal unless vegetable toppings or salad are added",
+      "whole_grains": false,
+      "key_nutrients": [
+        "calcium",
+        "protein",
+        "B12"
+      ],
+      "concerns": [
+        "Another refined-carb, cheese-forward dinner",
+        "Keep lunch colorful and lighter so the celebration still feels great"
+      ],
+      "overall_rating": "celebratory"
+    }
+  ],
+  "weekly_summary": {
+    "strengths": "This week has plenty of satisfying protein and several very kid-friendly anchors. Calcium appears from cheese-heavy dinners, eggs bring B12 and choline, and Thursday offers a nice vegetable bump from carrots and peas.",
+    "gaps": "The dinner pattern leans refined-carb and pork-heavy, with no fish/seafood, no legumes, few leafy greens, little fruit, low whole grains, and modest vegetable color. Fiber, omega-3s, vitamin D, magnesium, potassium, and vitamin C need the biggest daytime support.",
+    "recommendations": "Use lunches and snacks as the balancing act: one fish lunch, one bean/lentil lunch, daily fruit, crunchy vegetables, yogurt or fortified dairy, nuts/seeds, and whole-grain wraps/breads. Keep Elsie's lunches free of the onion-and-mushroom combination."
+  },
+  "weekly_assessment": {
+    "protein_diversity": {
+      "sources_found": [
+        "pork",
+        "beef",
+        "egg",
+        "cheese/dairy"
+      ],
+      "rating": "moderate",
+      "notes": "Protein quantity is likely fine, but variety is narrow. Lunches can bring in salmon/tuna, beans, lentils, Greek yogurt, turkey, hummus, and seeds without disrupting dinner comfort."
+    },
+    "vegetable_coverage": {
+      "servings_per_dinner_avg": 0.8,
+      "color_diversity": [
+        "red from tomato soup/pizza sauce",
+        "orange from carrots",
+        "green from peas/spinach pasta/gimbap if included"
+      ],
+      "rating": "low-to-moderate",
+      "notes": "A few vegetables show up, but not enough volume or range to carry the week. Lunches should bring leafy greens, bell peppers, berries/citrus, beans, carrots, cucumbers, and avocado."
+    },
+    "nutrient_gaps": [
+      {
+        "nutrient": "omega-3",
+        "severity": "high",
+        "detail": "No fatty fish or clear plant omega-3 source appears at dinner. Add salmon/tuna, walnuts, chia, or ground flax at lunch/snack."
+      },
+      {
+        "nutrient": "fiber",
+        "severity": "high",
+        "detail": "Most dinners are refined-grain or cheese/meat based. Beans, berries, pears, whole-grain wraps, oats, vegetables, and seeds can make the rest of the day do the heavy lifting."
+      },
+      {
+        "nutrient": "vitamin C",
+        "severity": "moderate",
+        "detail": "Tomato helps, but the week needs more bright fruit and raw vegetables. Vitamin C also helps Elsie and the adults absorb plant-based iron from beans and greens."
+      },
+      {
+        "nutrient": "magnesium",
+        "severity": "moderate",
+        "detail": "Low whole grains, legumes, nuts, seeds, and leafy greens mean magnesium may run light. Pumpkin seeds, almonds, black beans, spinach, and oats are easy wins."
+      },
+      {
+        "nutrient": "vitamin D",
+        "severity": "moderate",
+        "detail": "Eggs and dairy help a little, but dinner has no fatty fish and vitamin D is hard to get from food alone. Fortified milk/yogurt and a salmon lunch help."
+      },
+      {
+        "nutrient": "potassium",
+        "severity": "moderate",
+        "detail": "Carrots/peas/tomato contribute some, but the week could use bananas, potatoes with skin, avocado, beans, oranges, and yogurt."
+      }
+    ],
+    "excesses": [
+      {
+        "item": "refined carbohydrates",
+        "severity": "high",
+        "detail": "Pasta, pizza, pancakes, grilled cheese bread, couscous, and buns make refined grains the week's dominant pattern. Whole-grain lunches help steady energy for everyone."
+      },
+      {
+        "item": "pork/processed meat",
+        "severity": "moderate",
+        "detail": "Pulled pork, pork chops, and sausage show up across the week. Balance with fish, beans, yogurt, eggs, and poultry earlier in the day."
+      },
+      {
+        "item": "sodium",
+        "severity": "moderate",
+        "detail": "BBQ, burgers, pizza, soup, grilled cheese, and sausage can stack up sodium. Potassium-rich produce and plenty of water help the week feel better."
+      },
+      {
+        "item": "saturated fat",
+        "severity": "moderate",
+        "detail": "Cheese, butter, sausage, burgers, and pizza make the dinners rich. Lunches can lean olive-oil, avocado, nuts/seeds, fish, beans, and fruit."
+      }
+    ],
+    "fiber_assessment": {
+      "rating": "low",
+      "notes": "Only Thursday clearly brings vegetables in meaningful volume, and there are no legumes or whole grains at dinner. Aim for fruit at snack, beans or whole grains at lunch, and crunchy vegetables most days."
+    },
+    "omega3_assessment": {
+      "rating": "low",
+      "notes": "No fish dinner this week. A salmon/tuna lunch plus chia/flax/walnuts in snacks is the simplest fix."
+    },
+    "overall_dinner_grade": "B-",
+    "overall_summary": "These dinners are warm, satisfying, celebratory, and very realistic for a family week. The daytime plan just needs to act like the nutrition ballast: more fish/omega-3, beans, whole grains, fruit, leafy greens, colorful vegetables, fortified dairy, nuts, and seeds."
+  },
+  "lunch_suggestions": [
+    {
+      "name": "Salmon Avocado Crunch Wrap",
+      "description": "Whole-grain wrap with canned salmon or tuna, avocado, cucumber, shredded carrot, spinach, and a lemon-yogurt spread. Pack Elsie's version with mild salmon, extra cucumber, and no onion/mushroom mix.",
+      "nutrients": [
+        "omega-3",
+        "vitamin D",
+        "B12",
+        "calcium",
+        "fiber",
+        "potassium"
+      ]
+    },
+    {
+      "name": "Black Bean, Corn & Pepper Lunchbox Bowl",
+      "description": "Black beans, brown rice or quinoa, corn, bell pepper, tomato, avocado, shredded cheese, and lime. Serve components separately for Elsie if she likes a bento style.",
+      "nutrients": [
+        "fiber",
+        "iron",
+        "magnesium",
+        "vitamin C",
+        "potassium",
+        "zinc"
+      ]
+    },
+    {
+      "name": "Greek Yogurt Chicken-Salad Bento",
+      "description": "Chicken salad made with Greek yogurt, grapes, celery, and a little mustard, packed with whole-grain crackers, strawberries, and snap peas. No onions or mushrooms needed.",
+      "nutrients": [
+        "protein",
+        "calcium",
+        "B12",
+        "vitamin C",
+        "fiber"
+      ]
+    },
+    {
+      "name": "Hummus & Veggie Pita Box",
+      "description": "Whole-wheat pita triangles with hummus, hard-boiled egg, bell pepper strips, carrots, cucumber, olives, and an orange or kiwi. Kid-friendly because it is dip-and-crunch food.",
+      "nutrients": [
+        "fiber",
+        "iron",
+        "vitamin C",
+        "magnesium",
+        "zinc",
+        "B12"
+      ]
+    },
+    {
+      "name": "Turkey, Cheese & Spinach Roll-Ups with Fruit",
+      "description": "Turkey and cheese rolled in a whole-grain tortilla with spinach, plus pear slices and baby carrots. Easy work/school lunch when the week is busy.",
+      "nutrients": [
+        "B12",
+        "zinc",
+        "calcium",
+        "iron",
+        "fiber",
+        "potassium"
+      ]
+    }
+  ],
+  "snack_suggestions": [
+    {
+      "name": "Greek Yogurt Parfait with Berries, Chia & Granola",
+      "description": "Greek yogurt layered with berries, chia or ground flax, and a small handful of granola. This is the calcium/fiber/omega-3 helper for the week.",
+      "nutrients": [
+        "calcium",
+        "vitamin D if fortified",
+        "fiber",
+        "omega-3",
+        "vitamin C",
+        "protein"
+      ]
+    },
+    {
+      "name": "Mandarin Orange + Pumpkin Seed Trail Mix",
+      "description": "A zero-prep fruit plus pumpkin seeds, cashews, walnuts, and a few raisins or dark-chocolate chips. Use a school-safe seed/nut option based on classroom rules.",
+      "nutrients": [
+        "vitamin C",
+        "magnesium",
+        "zinc",
+        "omega-3",
+        "iron"
+      ]
+    },
+    {
+      "name": "Apple Slices with Almond Butter or SunButter",
+      "description": "Apple slices with almond butter at home, or SunButter for a nut-free school snack. Sweet, crunchy, and filling without feeling like homework.",
+      "nutrients": [
+        "fiber",
+        "magnesium",
+        "healthy fats",
+        "vitamin E",
+        "potassium"
+      ]
+    },
+    {
+      "name": "Cheese Stick + Kiwi or Strawberries",
+      "description": "A zero-prep cheese stick paired with kiwi or strawberries. Great for Elsie because calcium and vitamin C arrive in a very familiar snack format.",
+      "nutrients": [
+        "calcium",
+        "B12",
+        "vitamin C",
+        "protein"
+      ]
+    },
+    {
+      "name": "Hummus Cups with Bell Peppers and Carrots",
+      "description": "Single-serve hummus with pre-cut peppers and carrots. Crunchy vegetables add the color that dinners are missing.",
+      "nutrients": [
+        "fiber",
+        "vitamin C",
+        "iron",
+        "magnesium",
+        "potassium"
+      ]
+    },
+    {
+      "name": "Banana Kefir Smoothie",
+      "description": "Blend kefir or fortified milk with banana, frozen berries, and ground flax. Make it a small cup after school or after activity, not a giant meal replacement.",
+      "nutrients": [
+        "calcium",
+        "vitamin D if fortified",
+        "potassium",
+        "fiber",
+        "omega-3"
+      ]
+    },
+    {
+      "name": "Hard-Boiled Egg + Grapes",
+      "description": "A simple protein-and-fruit snack for active afternoons. Grapes add quick energy; the egg adds B12, choline, and staying power.",
+      "nutrients": [
+        "B12",
+        "choline",
+        "protein",
+        "vitamin D in small amounts",
+        "fruit"
+      ]
+    }
+  ],
+  "recommended_lunches": [
+    {
+      "name": "Salmon Avocado Crunch Wrap",
+      "description": "Whole-grain wrap with canned salmon or tuna, avocado, cucumber, shredded carrot, spinach, and a lemon-yogurt spread.",
+      "prep_time": "10 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "omega-3",
+        "vitamin D",
+        "fiber",
+        "potassium",
+        "leafy greens"
+      ],
+      "key_nutrients": [
+        "omega-3",
+        "vitamin D",
+        "B12",
+        "calcium",
+        "fiber",
+        "potassium"
+      ],
+      "kid_notes": "Use mild salmon/tuna, extra cucumber, and a small amount of spread. Avoid any onion-and-mushroom combination."
+    },
+    {
+      "name": "Black Bean, Corn & Pepper Lunchbox Bowl",
+      "description": "Black beans, brown rice or quinoa, corn, bell pepper, tomato, avocado, shredded cheese, and lime.",
+      "prep_time": "15 min if grains are pre-cooked",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "legumes",
+        "fiber",
+        "iron",
+        "vitamin C",
+        "magnesium",
+        "potassium"
+      ],
+      "key_nutrients": [
+        "fiber",
+        "iron",
+        "magnesium",
+        "vitamin C",
+        "potassium",
+        "zinc"
+      ],
+      "kid_notes": "Pack components separately if mixed bowls are a hard sell. Lime and bell pepper help with plant-iron absorption."
+    },
+    {
+      "name": "Greek Yogurt Chicken-Salad Bento",
+      "description": "Chicken salad made with Greek yogurt, grapes, celery, and a little mustard, packed with whole-grain crackers, strawberries, and snap peas.",
+      "prep_time": "15 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "calcium",
+        "fruit",
+        "vitamin C",
+        "whole grains",
+        "lean protein"
+      ],
+      "key_nutrients": [
+        "protein",
+        "calcium",
+        "B12",
+        "vitamin C",
+        "fiber"
+      ],
+      "kid_notes": "Keep the salad simple and onion-free; grapes make it sweet enough for a lunchbox."
+    },
+    {
+      "name": "Hummus & Veggie Pita Box",
+      "description": "Whole-wheat pita triangles with hummus, hard-boiled egg, bell pepper strips, carrots, cucumber, olives, and an orange or kiwi.",
+      "prep_time": "10 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "legumes",
+        "fiber",
+        "vitamin C",
+        "magnesium",
+        "iron",
+        "vegetable color"
+      ],
+      "key_nutrients": [
+        "fiber",
+        "iron",
+        "vitamin C",
+        "magnesium",
+        "zinc",
+        "B12"
+      ],
+      "kid_notes": "Dip-and-crunch format usually plays better than a composed salad."
+    },
+    {
+      "name": "Turkey, Cheese & Spinach Roll-Ups with Fruit",
+      "description": "Turkey and cheese rolled in a whole-grain tortilla with spinach, plus pear slices and baby carrots.",
+      "prep_time": "8 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "calcium",
+        "B12",
+        "fiber",
+        "potassium",
+        "leafy greens"
+      ],
+      "key_nutrients": [
+        "B12",
+        "zinc",
+        "calcium",
+        "iron",
+        "fiber",
+        "potassium"
+      ],
+      "kid_notes": "A practical backup lunch for busy mornings; add extra fruit on pizza/pasta days."
+    }
+  ],
+  "recommended_snacks": [
+    {
+      "name": "Greek Yogurt Parfait with Berries, Chia & Granola",
+      "description": "Greek yogurt layered with berries, chia or ground flax, and a small handful of granola.",
+      "prep_time": "5 min",
+      "time_of_day": "morning or after school",
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "calcium",
+        "vitamin D if fortified",
+        "fiber",
+        "omega-3",
+        "fruit"
+      ],
+      "key_nutrients": [
+        "calcium",
+        "vitamin D",
+        "fiber",
+        "omega-3",
+        "vitamin C",
+        "protein"
+      ]
+    },
+    {
+      "name": "Mandarin Orange + Pumpkin Seed Trail Mix",
+      "description": "A zero-prep fruit plus pumpkin seeds, cashews, walnuts, and a few raisins or dark-chocolate chips.",
+      "prep_time": "0 min",
+      "time_of_day": "afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "vitamin C",
+        "magnesium",
+        "zinc",
+        "iron",
+        "omega-3"
+      ],
+      "key_nutrients": [
+        "vitamin C",
+        "magnesium",
+        "zinc",
+        "omega-3",
+        "iron"
+      ]
+    },
+    {
+      "name": "Apple Slices with Almond Butter or SunButter",
+      "description": "Apple slices with almond butter at home, or SunButter for a nut-free school snack.",
+      "prep_time": "3 min",
+      "time_of_day": "after school",
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "fruit",
+        "fiber",
+        "magnesium",
+        "healthy fats"
+      ],
+      "key_nutrients": [
+        "fiber",
+        "magnesium",
+        "healthy fats",
+        "vitamin E",
+        "potassium"
+      ]
+    },
+    {
+      "name": "Cheese Stick + Kiwi or Strawberries",
+      "description": "A zero-prep cheese stick paired with kiwi or strawberries.",
+      "prep_time": "0 min",
+      "time_of_day": "lunchbox snack",
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "calcium",
+        "B12",
+        "vitamin C",
+        "fruit"
+      ],
+      "key_nutrients": [
+        "calcium",
+        "B12",
+        "vitamin C",
+        "protein"
+      ]
+    },
+    {
+      "name": "Hummus Cups with Bell Peppers and Carrots",
+      "description": "Single-serve hummus with pre-cut peppers and carrots.",
+      "prep_time": "5 min",
+      "time_of_day": "afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "vegetables",
+        "fiber",
+        "vitamin C",
+        "iron",
+        "magnesium"
+      ],
+      "key_nutrients": [
+        "fiber",
+        "vitamin C",
+        "iron",
+        "magnesium",
+        "potassium"
+      ]
+    },
+    {
+      "name": "Banana Kefir Smoothie",
+      "description": "Blend kefir or fortified milk with banana, frozen berries, and ground flax.",
+      "prep_time": "5 min",
+      "time_of_day": "after activity",
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "calcium",
+        "vitamin D",
+        "potassium",
+        "omega-3",
+        "fruit"
+      ],
+      "key_nutrients": [
+        "calcium",
+        "vitamin D",
+        "potassium",
+        "fiber",
+        "omega-3"
+      ]
+    },
+    {
+      "name": "Hard-Boiled Egg + Grapes",
+      "description": "A simple protein-and-fruit snack for active afternoons.",
+      "prep_time": "0 min if eggs are pre-boiled",
+      "time_of_day": "morning or afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": [
+        "B12",
+        "protein",
+        "fruit",
+        "choline"
+      ],
+      "key_nutrients": [
+        "B12",
+        "choline",
+        "protein",
+        "vitamin D",
+        "fruit"
+      ]
+    }
+  ],
+  "recommended_lunch_snack_table": [
+    {
+      "day_or_use": "Lunch 1",
+      "recommendation": "Salmon Avocado Crunch Wrap",
+      "why_this_week": "Adds the missing fish/omega-3 and vitamin D while using a whole-grain wrap and crunchy vegetables.",
+      "nutrients_targeted": [
+        "omega-3",
+        "vitamin D",
+        "B12",
+        "fiber",
+        "potassium"
+      ],
+      "kid_friendly_note": "Use mild fish, cucumber, carrot, and no onion/mushroom combination."
+    },
+    {
+      "day_or_use": "Lunch 2",
+      "recommendation": "Black Bean, Corn & Pepper Lunchbox Bowl",
+      "why_this_week": "Beans and whole grains counter a refined-carb dinner week with fiber, iron, magnesium, and steady energy.",
+      "nutrients_targeted": [
+        "fiber",
+        "iron",
+        "vitamin C",
+        "magnesium",
+        "potassium",
+        "zinc"
+      ],
+      "kid_friendly_note": "Pack deconstructed if mixed bowls are tricky."
+    },
+    {
+      "day_or_use": "Lunch 3",
+      "recommendation": "Greek Yogurt Chicken-Salad Bento",
+      "why_this_week": "Adds lean protein, calcium, fruit, and whole grains on a week with rich dinners.",
+      "nutrients_targeted": [
+        "protein",
+        "calcium",
+        "B12",
+        "vitamin C",
+        "fiber"
+      ],
+      "kid_friendly_note": "Sweet grapes make this lunchbox-friendly."
+    },
+    {
+      "day_or_use": "Lunch 4",
+      "recommendation": "Hummus & Veggie Pita Box",
+      "why_this_week": "Legumes and crunchy vegetables fill the missing fiber, iron, magnesium, and colorful-veg gaps.",
+      "nutrients_targeted": [
+        "fiber",
+        "iron",
+        "vitamin C",
+        "magnesium",
+        "zinc"
+      ],
+      "kid_friendly_note": "Dip-and-crunch is usually an easy win."
+    },
+    {
+      "day_or_use": "Lunch 5",
+      "recommendation": "Turkey, Cheese & Spinach Roll-Ups with Fruit",
+      "why_this_week": "A realistic backup that adds calcium, B12, spinach, whole grains, and fruit.",
+      "nutrients_targeted": [
+        "calcium",
+        "B12",
+        "fiber",
+        "potassium",
+        "zinc"
+      ],
+      "kid_friendly_note": "Roll-ups are less intimidating than a big sandwich."
+    },
+    {
+      "day_or_use": "Snack rotation",
+      "recommendation": "Greek yogurt parfait; mandarin + seed trail mix; apple with SunButter; cheese + kiwi; hummus vegetables; kefir smoothie; hard-boiled egg + grapes",
+      "why_this_week": "This rotation brings fruit, calcium, vitamin D, fiber, omega-3 seeds, magnesium, and zinc into the day without making dinner do everything.",
+      "nutrients_targeted": [
+        "calcium",
+        "vitamin D",
+        "fiber",
+        "omega-3",
+        "vitamin C",
+        "magnesium",
+        "zinc",
+        "potassium",
+        "B12"
+      ],
+      "kid_friendly_note": "Includes several zero-prep options for school and car snacks."
+    }
+  ],
+  "nutrient_education": [
+    {
+      "nutrient": "Omega-3 fatty acids",
+      "why_it_matters": "Omega-3 fats support brain and eye health, help manage inflammation from active bodies, and are a nice counterweight to a rich meat-and-cheese week. For Elsie, they are especially relevant during a growing, learning-heavy stage.",
+      "this_week_status": "Low at dinner: no fatty fish and few clear plant omega-3 sources.",
+      "food_sources": [
+        "salmon",
+        "tuna",
+        "sardines",
+        "chia seeds",
+        "ground flaxseed",
+        "walnuts"
+      ]
+    },
+    {
+      "nutrient": "Iron",
+      "why_it_matters": "Iron helps move oxygen through the blood, which matters for active kids and adults who are running, playing, concentrating, and recovering. Elsie needs enough iron for growth and energy, while the active wife also has higher iron relevance than many adults.",
+      "this_week_status": "Moderate: beef/pork help, but lunches can add beans, spinach, seeds, and vitamin C pairings.",
+      "food_sources": [
+        "lean beef",
+        "turkey",
+        "beans",
+        "lentils",
+        "hummus",
+        "spinach",
+        "pumpkin seeds",
+        "iron-fortified cereal"
+      ]
+    },
+    {
+      "nutrient": "Fiber",
+      "why_it_matters": "Fiber keeps digestion comfortable, helps energy last longer between meals, and supports a healthy gut. For an active 8-year-old, fruit, beans, oats, and whole grains can prevent the refined-carb energy spike-and-crash pattern.",
+      "this_week_status": "Low: dinners rely heavily on refined grains, cheese, meat, and butter.",
+      "food_sources": [
+        "beans",
+        "lentils",
+        "berries",
+        "pears",
+        "apples",
+        "whole-grain wraps",
+        "oats",
+        "chia",
+        "vegetables"
+      ]
+    },
+    {
+      "nutrient": "Vitamin C",
+      "why_it_matters": "Vitamin C supports immune function, skin and tissue repair, and helps the body absorb iron from beans, greens, and seeds. Pairing peppers, citrus, kiwi, or berries with iron-rich lunches is a simple active-family upgrade.",
+      "this_week_status": "Moderate-low: tomato soup/sauce helps, but fresh fruit and crunchy vegetables are needed.",
+      "food_sources": [
+        "oranges",
+        "kiwi",
+        "strawberries",
+        "bell peppers",
+        "broccoli",
+        "tomatoes"
+      ]
+    },
+    {
+      "nutrient": "Magnesium",
+      "why_it_matters": "Magnesium helps muscles and nerves work well and supports energy metabolism. For active adults and a busy, active child, it is one of those quiet minerals that helps the body feel steady.",
+      "this_week_status": "Likely low-to-moderate because whole grains, legumes, nuts, seeds, and leafy greens are limited at dinner.",
+      "food_sources": [
+        "pumpkin seeds",
+        "almonds",
+        "cashews",
+        "black beans",
+        "spinach",
+        "oats",
+        "whole grains"
+      ]
+    },
+    {
+      "nutrient": "Vitamin B12",
+      "why_it_matters": "B12 supports red blood cell formation, nerves, and energy metabolism. This week likely covers B12 well through meat, eggs, and dairy, which is good news for active family members.",
+      "this_week_status": "Adequate-to-high at dinner from pork, beef, eggs, cheese, and dairy.",
+      "food_sources": [
+        "eggs",
+        "milk",
+        "yogurt",
+        "cheese",
+        "fish",
+        "meat",
+        "fortified foods"
+      ]
+    },
+    {
+      "nutrient": "Vitamin D",
+      "why_it_matters": "Vitamin D helps the body absorb calcium and supports bone health, immune function, and muscle function. It is especially important for Elsie's growing bones and for active adults who want strong bones over the long haul.",
+      "this_week_status": "Likely low: eggs help a little, but there is no fatty fish and food sources are limited unless dairy is fortified.",
+      "food_sources": [
+        "salmon",
+        "sardines",
+        "egg yolks",
+        "fortified milk",
+        "fortified yogurt",
+        "fortified plant milks"
+      ]
+    },
+    {
+      "nutrient": "Calcium",
+      "why_it_matters": "Calcium builds and maintains bones and teeth and also helps muscles contract properly. Elsie is in a major bone-building window, and the active wife benefits from consistent calcium for long-term bone strength.",
+      "this_week_status": "Moderate: cheese appears several nights, but snacks can add steadier sources without relying only on pizza/grilled cheese.",
+      "food_sources": [
+        "Greek yogurt",
+        "milk",
+        "kefir",
+        "cheese",
+        "fortified plant milks",
+        "calcium-set tofu",
+        "kale"
+      ]
+    },
+    {
+      "nutrient": "Potassium",
+      "why_it_matters": "Potassium helps muscles and nerves work and balances sodium's effects in the body. Since this dinner week includes salty foods like BBQ, pizza, soup, and sausage, potassium-rich produce is a helpful balancing move.",
+      "this_week_status": "Moderate-low: carrots, peas, and tomato contribute some, but more fruit, beans, avocado, potatoes, and yogurt would help.",
+      "food_sources": [
+        "bananas",
+        "oranges",
+        "avocado",
+        "beans",
+        "potatoes with skin",
+        "yogurt",
+        "spinach"
+      ]
+    },
+    {
+      "nutrient": "Zinc",
+      "why_it_matters": "Zinc supports immune function, wound healing, growth, and taste/smell. This week probably brings a solid base from pork and beef, and seeds/beans keep it balanced without adding more rich meat.",
+      "this_week_status": "Adequate from pork/beef, with plant sources useful for variety.",
+      "food_sources": [
+        "beef",
+        "pork",
+        "turkey",
+        "pumpkin seeds",
+        "cashews",
+        "chickpeas",
+        "lentils",
+        "yogurt"
+      ]
+    },
+    {
+      "nutrient": "Sodium",
+      "why_it_matters": "Sodium is necessary in small amounts, but a salty week can make everyone feel thirsty, puffy, or sluggish. Pairing salty dinners with water and potassium-rich fruits/vegetables is a practical balance, not a punishment.",
+      "this_week_status": "Likely high from BBQ, burgers, pizza, soup, grilled cheese, and sausage.",
+      "food_sources": [
+        "processed meats",
+        "restaurant/hosted foods",
+        "pizza",
+        "canned soups",
+        "cheese",
+        "BBQ sauce"
+      ]
+    },
+    {
+      "nutrient": "Saturated fat",
+      "why_it_matters": "Saturated fat is fine in some meals, but this week has several rich anchors. Lighter lunches with fish, beans, olive oil, avocado, fruits, and vegetables help the family keep energy steady while still enjoying the comfort dinners.",
+      "this_week_status": "Moderate-to-high from burgers, pulled pork, butter, parmesan, grilled cheese, sausage, and pizza.",
+      "food_sources": [
+        "butter",
+        "cheese",
+        "sausage",
+        "burgers",
+        "pizza",
+        "rich sauces"
+      ]
+    }
+  ],
+  "nutrient_importance": [
+    {
+      "nutrient": "Omega-3 fatty acids",
+      "why_it_matters": "Omega-3 fats support brain and eye health, help manage inflammation from active bodies, and are a nice counterweight to a rich meat-and-cheese week. For Elsie, they are especially relevant during a growing, learning-heavy stage.",
+      "deficiency_signs": "Low intake is not always obvious day to day; the bigger concern is missing long-term support for heart, brain, and inflammatory balance.",
+      "daily_target": "Aim for fatty fish 1-2 times/week plus plant sources like chia, flax, or walnuts.",
+      "best_food_sources": "Salmon, tuna, sardines, chia seeds, ground flaxseed, walnuts"
+    },
+    {
+      "nutrient": "Iron",
+      "why_it_matters": "Iron helps move oxygen through the blood, which matters for active kids and adults who are running, playing, concentrating, and recovering. Elsie needs enough iron for growth and energy, while the active wife also has higher iron relevance than many adults.",
+      "deficiency_signs": "Low energy, pale skin, reduced stamina, headaches, or trouble concentrating can be clues worth discussing with a clinician.",
+      "daily_target": "Food-first focus: include iron-rich foods several times/week and pair plant iron with vitamin C.",
+      "best_food_sources": "Lean meats, turkey, beans, lentils, hummus, spinach, pumpkin seeds, iron-fortified cereal"
+    },
+    {
+      "nutrient": "Fiber",
+      "why_it_matters": "Fiber keeps digestion comfortable, helps energy last longer between meals, and supports a healthy gut. For an active 8-year-old, fruit, beans, oats, and whole grains can prevent the refined-carb energy spike-and-crash pattern.",
+      "deficiency_signs": "Constipation, quick hunger after meals, and low fruit/vegetable intake are common practical signs.",
+      "daily_target": "Children often need roughly age + 5 grams/day as a minimum; adults commonly aim for about 25-35 grams/day.",
+      "best_food_sources": "Beans, lentils, berries, pears, apples, whole-grain wraps, oats, chia, vegetables"
+    },
+    {
+      "nutrient": "Vitamin C",
+      "why_it_matters": "Vitamin C supports immune function, skin and tissue repair, and helps the body absorb iron from beans, greens, and seeds. Pairing peppers, citrus, kiwi, or berries with iron-rich lunches is a simple active-family upgrade.",
+      "deficiency_signs": "Low intake may show up as slow wound healing, easy bruising, or frequent low-produce days.",
+      "daily_target": "Include a vitamin C-rich fruit or vegetable most days.",
+      "best_food_sources": "Oranges, kiwi, strawberries, bell peppers, broccoli, tomatoes"
+    },
+    {
+      "nutrient": "Magnesium",
+      "why_it_matters": "Magnesium helps muscles and nerves work well and supports energy metabolism. For active adults and a busy, active child, it is one of those quiet minerals that helps the body feel steady.",
+      "deficiency_signs": "Persistent low intake can contribute to muscle cramps or fatigue, though symptoms are nonspecific.",
+      "daily_target": "Include nuts/seeds, beans, whole grains, or leafy greens daily when possible.",
+      "best_food_sources": "Pumpkin seeds, almonds, cashews, black beans, spinach, oats, whole grains"
+    },
+    {
+      "nutrient": "Vitamin B12",
+      "why_it_matters": "B12 supports red blood cell formation, nerves, and energy metabolism. This week likely covers B12 well through meat, eggs, and dairy, which is good news for active family members.",
+      "deficiency_signs": "Fatigue, numbness/tingling, or anemia symptoms are reasons to check with a clinician, especially for people eating little animal food.",
+      "daily_target": "Usually easy to cover with regular animal foods or fortified foods.",
+      "best_food_sources": "Eggs, milk, yogurt, cheese, fish, meat, fortified foods"
+    },
+    {
+      "nutrient": "Vitamin D",
+      "why_it_matters": "Vitamin D helps the body absorb calcium and supports bone health, immune function, and muscle function. It is especially important for Elsie's growing bones and for active adults who want strong bones over the long haul.",
+      "deficiency_signs": "Often silent; low levels can affect bone health and may show up as aches or fatigue.",
+      "daily_target": "Food helps, but many families discuss supplementation with their pediatrician/clinician, especially outside sunny months.",
+      "best_food_sources": "Salmon, sardines, egg yolks, fortified milk, fortified yogurt, fortified plant milks"
+    },
+    {
+      "nutrient": "Calcium",
+      "why_it_matters": "Calcium builds and maintains bones and teeth and also helps muscles contract properly. Elsie is in a major bone-building window, and the active wife benefits from consistent calcium for long-term bone strength.",
+      "deficiency_signs": "Low intake is often invisible in the short term, which is why regular calcium-rich foods matter over time.",
+      "daily_target": "Children 4-8 commonly need about 1,000 mg/day; adults commonly need about 1,000 mg/day unless advised otherwise.",
+      "best_food_sources": "Greek yogurt, milk, kefir, cheese, fortified plant milks, calcium-set tofu, kale"
+    },
+    {
+      "nutrient": "Potassium",
+      "why_it_matters": "Potassium helps muscles and nerves work and balances sodium's effects in the body. Since this dinner week includes salty foods like BBQ, pizza, soup, and sausage, potassium-rich produce is a helpful balancing move.",
+      "deficiency_signs": "Low intake can contribute to muscle weakness or cramps, but most practical gaps come from low fruit/vegetable/bean intake.",
+      "daily_target": "Add potassium-rich produce or beans daily; exact needs vary by age and health status.",
+      "best_food_sources": "Bananas, oranges, avocado, beans, potatoes with skin, yogurt, spinach"
+    },
+    {
+      "nutrient": "Zinc",
+      "why_it_matters": "Zinc supports immune function, wound healing, growth, and taste/smell. This week probably brings a solid base from pork and beef, and seeds/beans keep it balanced without adding more rich meat.",
+      "deficiency_signs": "Slow wound healing, appetite changes, or frequent infections can be clues, though they are not specific.",
+      "daily_target": "Regular meat, dairy, beans, nuts, and seeds usually cover needs.",
+      "best_food_sources": "Beef, pork, turkey, pumpkin seeds, cashews, chickpeas, lentils, yogurt"
+    }
+  ],
+  "weekly_nutrition_summary": "This dinner week is hearty, comforting, and realistic: plenty of protein, plenty of foods Elsie is likely to recognize, and enough celebration to make the week feel fun. The balancing move is not to shrink dinner; it is to let lunches and snacks bring fish/omega-3, legumes, fruit, leafy greens, whole grains, yogurt or fortified dairy, nuts, and seeds. With the five lunches and snack rotation above, the family gets better fiber, steadier energy, more vitamin C for iron absorption, stronger calcium/vitamin D coverage for Elsie, and more potassium to balance the salty restaurant/hosted-style dinners.",
+  "special_notes": [
+    "Elsie's restriction is honored by keeping onions and mushrooms out of the same lunch/snack suggestion; most suggestions use neither.",
+    "For vitamin D, food can help but may not fully cover needs. A pediatrician or clinician can advise whether Elsie or the adults need a supplement.",
+    "On pizza/pasta/pancake days, the easiest win is not a perfect dinner side — it is a fruit-and-yogurt snack or a bean/veggie lunch earlier in the day.",
+    "If school nut rules apply, swap almond butter and walnuts for SunButter, pumpkin seeds, or a school-approved option."
+  ]
+}

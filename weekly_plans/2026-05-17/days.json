@@ -1,0 +1,540 @@
+{
+  "week_range": "May 17 - May 23, 2026",
+  "week_start": "2026-05-17",
+  "week_end": "2026-05-24",
+  "generated_at": "2026-05-19 18:50",
+  "cover_highlight": "A two-act week — three hot, sunlit days that wind down with a Tuesday Babo pasta and a Tex-Mex bowl, then a sudden cold front and rainy weekend that turns the kitchen cozy: white beans and sausage on a solo dad-and-Elsie Friday, a Mother's Day-shadowed bedtime story about a red glass candy dish, and a four-pie pizza Saturday.",
+  "elsie_no_list": [
+    "mushrooms"
+  ],
+  "days": [
+    {
+      "day": "Sunday",
+      "date": "2026-05-17",
+      "name": "Sun 05/17",
+      "long_name": "Sunday, May 17",
+      "weather": "Mostly Sunny, 88F/61F",
+      "weather_detail": "Mostly Sunny (63% sunshine), wind 9 mph with gusts up to 15 mph, 13% precip",
+      "calendar_items": [],
+      "calendar": "",
+      "time_constraints": [
+        "Quick weeknight pace — store-bought fresh pasta keeps it fast."
+      ],
+      "dinner": "Quick Bolognese with Fresh Spring Pasta",
+      "dinner_cuisine": "Italian-American",
+      "dinner_description": "A fast-track bolognese built on a shortcut soffritto, ground beef and pork, tomato paste, a splash of whole milk, and store-bought fresh spring pasta. It is planned around this week's timing, the family preferences, and a kid-friendly path to the table.",
+      "dinner_key_ingredients": [
+        "ground beef",
+        "ground pork",
+        "store-bought fresh spring pasta",
+        "tomato paste",
+        "whole milk",
+        "pecorino",
+        "onion",
+        "carrot",
+        "celery"
+      ],
+      "dinner_source_url": "https://www.seriouseats.com/the-best-slow-cooked-bolognese-sauce-recipe",
+      "dinner_source_name": "Serious Eats (quick-adapted)",
+      "dinner_notes": "Use fresh pasta from the store; finish the pasta in the sauce with a splash of pasta water.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "activity": "Sunlit Sunday reset",
+      "activity_notes": "Hot first day of the week (88°F) — keep the afternoon mellow and indoors during peak heat.",
+      "prep_notes": [
+        "Take ground meat out of the fridge 20 minutes before browning.",
+        "Stage Monday's caramelized onions to start ahead during dinner cleanup."
+      ],
+      "album_artist": "Phoenix",
+      "album_title": "Wolfgang Amadeus Phoenix",
+      "album_year": "2009",
+      "album_genre": "Indie Pop / Alternative Dance",
+      "album_mood": "Sunlit, brisk, romantic, and lightly nostalgic.",
+      "album_description": "Phoenix made their breakthrough on this 2009 album after building a tiny Montmartre studio and writing with a more handmade, ambitious approach. Philippe Zdar's glossy mix turned songs like '1901' into a global lift-off without sanding away the band's homemade spark.",
+      "album_sonic_description": "Tight disco-kissed drums, wiry guitar, soft-focus synths, and aerodynamic choruses that move fast without feeling frantic.",
+      "album_pairing_rationale": "Quick bolognese wants motion and brightness, not heaviness; this record has the same clean snap as fresh pasta hitting sauce on a hot Sunday. It also scratches the family's alt-rock itch while staying warmer and more buoyant than a straight guitar record.",
+      "album_spotify_url": "https://open.spotify.com/search/Phoenix%20Wolfgang%20Amadeus%20Phoenix",
+      "album": "Phoenix – Wolfgang Amadeus Phoenix"
+    },
+    {
+      "day": "Monday",
+      "date": "2026-05-18",
+      "name": "Mon 05/18",
+      "long_name": "Monday, May 18",
+      "weather": "Sunny, 96F/63F",
+      "weather_detail": "Sunny (90% sunshine), wind 8 mph with gusts up to 15 mph, 1% precip",
+      "calendar_items": [
+        "Dan AI-900 Bootcamp 4:00 PM - 8:00 PM (Teams / Garage Redmond)"
+      ],
+      "calendar": "Dan AI-900 Bootcamp 4:00 PM - 8:00 PM",
+      "time_constraints": [
+        "Dan's bootcamp runs until 8 PM — Laura handles dinner, components prepped ahead so it's mostly assembly."
+      ],
+      "dinner": "Kimbap Grain Bowls with Caramelized Onions and Mushrooms",
+      "dinner_cuisine": "Korean-inspired",
+      "dinner_description": "Warm sushi rice topped with deeply caramelized onions, soy-glazed mushrooms, quick-pickled cucumber and carrot, toasted nori strips, sesame, and a fried egg with runny yolk. Gochujang mayo on the side. It is planned around this week's timing, the family preferences, and a kid-friendly path to the table.",
+      "dinner_key_ingredients": [
+        "short-grain sushi rice",
+        "yellow onions",
+        "cremini mushrooms",
+        "nori sheets",
+        "eggs",
+        "gochujang",
+        "toasted sesame oil",
+        "soy sauce",
+        "cucumber",
+        "carrot",
+        "rice vinegar"
+      ],
+      "dinner_source_url": "https://www.bonappetit.com/recipe/kimbap",
+      "dinner_source_name": "Bon Appétit",
+      "dinner_notes": "Caramelize onions low and slow (30+ min) for maximum sweetness; build Elsie's bowl FIRST before any mushrooms enter the pan.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "elsie_note": "Elsie isn't into mushrooms this week — set aside her portion BEFORE adding mushrooms. Bulk it up with extra caramelized onion, an extra fried egg, or crispy cubed tofu so it still feels like a full bowl.",
+      "activity": "Hottest day of the week — keep movement to mornings",
+      "activity_notes": "96°F + Dan in bootcamp 4-8 PM. Laura + Elsie cooler-room evening: art project or library run after the heat breaks.",
+      "prep_notes": [
+        "Start caramelized onions when you get home (45-min cushion before bowls go up).",
+        "Cook sushi rice ahead and keep warm.",
+        "Pre-slice cucumber and carrot for quick pickle."
+      ],
+      "album_artist": "Peggy Gou",
+      "album_title": "I Hear You",
+      "album_year": "2024",
+      "album_genre": "House / Dance-Pop / Korean Electronic",
+      "album_mood": "Cool, euphoric, sleek, and heat-wave ready.",
+      "album_description": "Peggy Gou spent years building toward her 2024 debut, shaping it as a statement about listening to yourself and to the dancefloor after becoming one of club culture's defining DJs. Sung in multiple languages, it turns her global rise into a personal, summery house record.",
+      "album_sonic_description": "Four-on-the-floor house, rubbery bass, airy pads, clipped percussion, and silky vocals that keep the room moving.",
+      "album_pairing_rationale": "On a 96-degree Monday with Dan in bootcamp until 8, dinner needs something that feels cool on contact but still gives Laura a groove while assembling bowls. The Korean lens and polished club pulse fit the nori, sesame, and gochujang without tipping into anything sleepy.",
+      "album_spotify_url": "https://open.spotify.com/search/Peggy%20Gou%20I%20Hear%20You",
+      "album": "Peggy Gou – I Hear You"
+    },
+    {
+      "day": "Tuesday",
+      "date": "2026-05-19",
+      "name": "Tue 05/19",
+      "long_name": "Tuesday, May 19",
+      "weather": "Mostly Sunny, 97F/72F",
+      "weather_detail": "Mostly Sunny (83% sunshine), wind 14 mph with gusts up to 26 mph, 27% precip",
+      "calendar_items": [
+        "Dan stacked 1:1s 3:00 PM - 4:10 PM (Robyn, Alex, Angel)",
+        "Elsie Swim Practice — Level 4 Lessons 6:00 PM - 6:30 PM (2310 Colts Neck Rd, Reston) [Laura event]"
+      ],
+      "calendar": "Dan 1:1s 3-4:10 PM; Elsie Swim 6:00 PM",
+      "time_constraints": [
+        "Swim ends 6:30 — dinner ready by 7 PM. Babo Pasta is fast once dough is rested."
+      ],
+      "dinner": "Babo Pasta — Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+      "dinner_cuisine": "Italian",
+      "dinner_description": "The family staple. Homemade spinach pasta enriched with egg yolks only, hand-cut into tagliatelle, tossed in foaming brown butter with a snowfall of Parmigiano-Reggiano and a few cranks of black pepper. It is planned around this week's timing, the family preferences, and a kid-friendly path to the table.",
+      "dinner_key_ingredients": [
+        "00 flour",
+        "egg yolks",
+        "fresh spinach",
+        "European butter",
+        "Parmigiano-Reggiano",
+        "black pepper",
+        "kosher salt"
+      ],
+      "dinner_source_url": "https://www.seriouseats.com/homemade-fresh-pasta-recipe",
+      "dinner_source_name": "Serious Eats",
+      "dinner_notes": "Make dough Tuesday afternoon during 1:1 gaps; rest in fridge until after swim, then roll & cook in 12 minutes.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "activity": "Swim night",
+      "activity_notes": "97°F outside — water is the right place to be. Cool dinner on a hot day.",
+      "prep_notes": [
+        "Mix Babo dough during afternoon work breaks; wrap and chill.",
+        "Pack swim bag the night before.",
+        "Brown butter while pasta cooks — both finish at the same time."
+      ],
+      "album_artist": "Nicola Conte",
+      "album_title": "Jet Sounds",
+      "album_year": "2000",
+      "album_genre": "Italian Acid Jazz / Bossa Nova / Nu Jazz",
+      "album_mood": "Elegant, cosmopolitan, relaxed, and quietly propulsive.",
+      "album_description": "Bari producer Nicola Conte emerged from Italy's Fez Collective and used his 2000 debut to revive the stylish jazz-club world of 60s and 70s Italian cinema. He stitched together bossa, Latin jazz, and soundtrack sophistication into one of the defining records of Italian acid jazz.",
+      "album_sonic_description": "Brushy drums, nylon-string guitar, flute, vibraphone, upright bass, and soft brass arranged with film-score grace.",
+      "album_pairing_rationale": "Babo Pasta is silky, precise, and a little ceremonial, so it wants music with finesse rather than brute force. Conte gives Tuesday an Italian frame and enough swing to keep the brown butter, pasta water, and parm feeling elegant instead of fussy.",
+      "album_spotify_url": "https://open.spotify.com/search/Nicola%20Conte%20Jet%20Sounds",
+      "album": "Nicola Conte – Jet Sounds"
+    },
+    {
+      "day": "Wednesday",
+      "date": "2026-05-20",
+      "name": "Wed 05/20",
+      "long_name": "Wednesday, May 20",
+      "weather": "Light drizzle, 95F/69F",
+      "weather_detail": "Mostly Cloudy (57% sunshine), wind 22 mph with gusts up to 38 mph, 45% precip",
+      "calendar_items": [],
+      "calendar": "",
+      "time_constraints": [
+        "Last hot day before the cold front — bright and quick."
+      ],
+      "dinner": "Tex-Mex Grain Bowls with Chipotle Shrimp",
+      "dinner_cuisine": "Tex-Mex",
+      "dinner_description": "Cilantro-lime rice piled with chipotle-marinated shrimp, warm black beans, charred sweet corn, avocado, pickled red onion, crumbled cotija, and a quick chipotle-lime crema. It is planned around this week's timing, the family preferences, and a kid-friendly path to the table.",
+      "dinner_key_ingredients": [
+        "shrimp",
+        "chipotles in adobo",
+        "long-grain rice",
+        "black beans",
+        "frozen corn",
+        "avocado",
+        "lime",
+        "cilantro",
+        "cotija",
+        "red onion",
+        "sour cream"
+      ],
+      "dinner_source_url": "https://www.seriouseats.com/chipotle-shrimp-bowls",
+      "dinner_source_name": "Serious Eats",
+      "dinner_notes": "Char the corn in a dry skillet for smoky depth; marinate shrimp only 15-20 min so they don't toughen. Double the rice for Thursday's burritos.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "activity": "Last warm-evening porch dinner",
+      "activity_notes": "Gusty (38 mph gusts) — eat inside but open windows; cold front arrives overnight.",
+      "prep_notes": [
+        "Quick-pickle red onion in lime juice in the morning.",
+        "Double the rice — Thursday burritos use the leftover.",
+        "Char corn first in the dry skillet, then wipe and sear shrimp."
+      ],
+      "album_artist": "Ondatrópica",
+      "album_title": "Ondatrópica",
+      "album_year": "2012",
+      "album_genre": "Colombian Cumbia / Latin Funk / Tropical",
+      "album_mood": "Bright, festive, percussive, and sun-after-rain joyful.",
+      "album_description": "Will 'Quantic' Holland and Mario Galeano built Ondatrópica as a Colombian supergroup and recorded the 2012 debut at Medellín's historic Discos Fuentes studios with legends and younger players in the same room. The album is both archive and party, reviving cumbia, salsa, porro, and funk as living dance music.",
+      "album_sonic_description": "Punchy horns, hand percussion, accordion, electric bass, sunny choruses, dubby edges, and constant rhythmic lift.",
+      "album_pairing_rationale": "Chipotle shrimp bowls need color, char, acid, and movement, and this record delivers all four. It matches the last blast of heat with bright tropical percussion that keeps Wednesday feeling celebratory instead of weather-weary.",
+      "album_spotify_url": "https://open.spotify.com/search/Ondatr%C3%B3pica%20Ondatr%C3%B3pica",
+      "album": "Ondatrópica – Ondatrópica"
+    },
+    {
+      "day": "Thursday",
+      "date": "2026-05-21",
+      "name": "Thu 05/21",
+      "long_name": "Thursday, May 21",
+      "weather": "Moderate rain, 72F/51F",
+      "weather_detail": "Cloudy (0% sunshine), wind 10 mph with gusts up to 22 mph, 76% precip, 0.57 in",
+      "calendar_items": [
+        "Swim team ice cream social 6:30 PM (Elsie)"
+      ],
+      "calendar": "",
+      "time_constraints": [
+        "First cold rainy night — comfort and crunch."
+      ],
+      "dinner": "Crispy Black Bean Burritos with Lime-Cilantro Slaw",
+      "dinner_cuisine": "Tex-Mex",
+      "dinner_description": "Burrito-sized flour tortillas wrapped around cumin-spiced black beans, leftover Wednesday rice, melty Monterey Jack, and a punchy lime-cilantro cabbage slaw tucked inside for crunch. Crisped in a dry skillet for a golden, shattering exterior. It is planned around this week's timing, the family preferences, and a kid-friendly path to the table.",
+      "dinner_key_ingredients": [
+        "canned black beans",
+        "burrito-size flour tortillas",
+        "green cabbage",
+        "lime",
+        "cilantro",
+        "cumin",
+        "Monterey Jack",
+        "sour cream",
+        "hot sauce",
+        "leftover rice from Wednesday"
+      ],
+      "dinner_source_url": "https://cookieandkate.com/crispy-black-bean-tacos-recipe/",
+      "dinner_source_name": "Cookie and Kate (adapted to burritos)",
+      "dinner_notes": "Toast cumin seeds in the bean pot; crisp the wrapped burritos in a dry skillet for golden seams. Slaw goes INSIDE the burrito for crunch.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "activity": "Rainy-day pivot",
+      "activity_notes": "Huge temperature drop (97° → 72°). Sweaters out, blanket fort, comfort food.",
+      "prep_notes": [
+        "Shred cabbage and dress slaw 30 min ahead so it softens slightly.",
+        "Mash some of the beans for a creamier filling.",
+        "Crisp burritos seam-side down first."
+      ],
+      "album_artist": "Durand Jones & The Indications",
+      "album_title": "American Love Call",
+      "album_year": "2019",
+      "album_genre": "Soul / R&B / Retro-Soul",
+      "album_mood": "Warm, tender, rainy-day comforting, and hopeful.",
+      "album_description": "After their breakout debut, Durand Jones & The Indications cut this 2019 album with deeper harmonies and more social conscience, channeling classic soul without treating it like a museum piece. Songs of devotion sit beside 'Morning in America,' which gives the record real emotional weight.",
+      "album_sonic_description": "Velvet harmonies, patient drums, soft keys, rounded bass, and mellow guitar lines with analog warmth.",
+      "album_pairing_rationale": "The cold front and rain call for a record that can wrap around beans, rice, melted cheese, and slaw without going dull. This one brings warmth and human closeness, the musical equivalent of a skillet-crisp burrito eaten while the windows fog.",
+      "album_spotify_url": "https://open.spotify.com/search/Durand%20Jones%20%26%20The%20Indications%20American%20Love%20Call",
+      "album": "Durand Jones & The Indications – American Love Call"
+    },
+    {
+      "day": "Friday",
+      "date": "2026-05-22",
+      "name": "Fri 05/22",
+      "long_name": "Friday, May 22",
+      "weather": "Moderate rain, 54F/51F",
+      "weather_detail": "Cloudy (0% sunshine), wind 9 mph with gusts up to 21 mph, 75% precip, 0.92 in",
+      "calendar_items": [
+        "YAT 4:30 PM - 6:00 PM (2310 Colts Neck Rd, Reston) [Laura event]",
+        "Laura out with Anne for the evening — Dan + Elsie solo dinner"
+      ],
+      "calendar": "YAT 4:30 PM - 6:00 PM; Laura out with Anne in evening",
+      "time_constraints": [
+        "Cold and rainy after YAT — cozy, hands-on cooking with Elsie."
+      ],
+      "dinner": "White Beans & Italian Sausage with Garlicky Sauteed Kale",
+      "dinner_cuisine": "Italian",
+      "dinner_description": "A rustic skillet supper: browned hot Italian sausage crumbled into garlicky kale and creamy cannellini beans, hit with lemon and chili flake, served over thick slabs of toasted crusty bread soaked with the pan juices. It is planned around this week's timing, the family preferences, and a kid-friendly path to the table.",
+      "dinner_key_ingredients": [
+        "hot Italian sausage",
+        "lacinato kale",
+        "cannellini beans",
+        "garlic",
+        "lemon",
+        "red pepper flake",
+        "crusty bread",
+        "extra-virgin olive oil",
+        "parmesan"
+      ],
+      "dinner_source_url": "https://www.bonappetit.com/recipe/white-beans-and-sausage",
+      "dinner_source_name": "Bon Appétit",
+      "dinner_notes": "Make this Elsie's cooking lesson night — she handles kale tearing and toast assembly while Dan handles sausage. 54°F + rain = ultimate comfort.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "activity": "Dad-and-Elsie kitchen night",
+      "activity_notes": "Laura's out with Anne. Make dinner a project — Elsie picks the music, sets the table, gets a real cooking task.",
+      "prep_notes": [
+        "Tear kale into bite-size pieces (kid job).",
+        "Slice bread thick and toast in the same pan after the sausage.",
+        "Save Saturday pizza dough cold ferment — start before bed (24-hour rise)."
+      ],
+      "album_artist": "Franc Moody",
+      "album_title": "Dream in Colour",
+      "album_year": "2020",
+      "album_genre": "Disco-Funk / Indie Dance / Synth-Pop",
+      "album_mood": "Playful, peppy, colorful, and impossible not to move to.",
+      "album_description": "Franc Moody made their debut album in a DIY Tottenham warehouse studio, turning handmade percussion and synth-funk instincts into a record about finding color inside city gray. The duo built it to feel communal and vivid, like a dancefloor opening up in the middle of everyday life.",
+      "album_sonic_description": "Elastic bass lines, bright synth stabs, hand-built percussion, falsetto hooks, and polished grooves with real physical bounce.",
+      "album_pairing_rationale": "Cold rain, beans and sausage, and Dan-plus-Elsie cooking together is exactly the kind of night this album rescues from feeling gray. Since the family already loves it, Friday gets a sure-win soundtrack that keeps the kitchen lively and gives the two of them an easy, danceable rhythm to cook to.",
+      "album_spotify_url": "https://open.spotify.com/search/Franc%20Moody%20Dream%20in%20Colour",
+      "album": "Franc Moody – Dream in Colour"
+    },
+    {
+      "day": "Saturday",
+      "date": "2026-05-23",
+      "name": "Sat 05/23",
+      "long_name": "Saturday, May 23",
+      "weather": "Moderate rain, 53F/51F",
+      "weather_detail": "Cloudy (0% sunshine), wind 9 mph with gusts up to 23 mph, 78% precip, 0.81 in",
+      "calendar_items": [
+        "YAT 9:00 AM - 12:00 PM (2310 Colts Neck Rd, Reston) [Laura event, tentative]"
+      ],
+      "calendar": "YAT 9:00 AM - 12:00 PM (tentative)",
+      "time_constraints": [
+        "After morning YAT, indoor rainy afternoon — relaxed pizza-making project."
+      ],
+      "dinner": "Pizza Night — Four Assorted Pies",
+      "dinner_cuisine": "Italian-American",
+      "dinner_description": "Four small pies, each its own personality: classic Margherita, pepperoni-cup with hot honey, a white pie with ricotta-garlic-spinach, and a wildcard veggie or breakfast-for-dinner pie. Cold-fermented dough for blistered, chewy crust. It is planned around this week's timing, the family preferences, and a kid-friendly path to the table.",
+      "dinner_key_ingredients": [
+        "00 flour",
+        "active dry yeast",
+        "fresh mozzarella",
+        "San Marzano tomatoes",
+        "pepperoni cups",
+        "ricotta",
+        "basil",
+        "hot honey",
+        "spinach",
+        "garlic"
+      ],
+      "dinner_source_url": "https://www.kingarthurbaking.com/recipes/neapolitan-style-pizza-crust-recipe",
+      "dinner_source_name": "King Arthur Baking",
+      "dinner_notes": "Dough was started Friday night for 24-hour cold ferment; let Elsie design pie #4.",
+      "dinner_nutrition_notes": "See the nutrition section for how lunches and snacks balance this dinner.",
+      "activity": "Indoor pizza party",
+      "activity_notes": "53°F + rain all day. Build pies as a family project; let Elsie name her invention.",
+      "prep_notes": [
+        "Pull dough from fridge 90 min before shaping.",
+        "Stage toppings in small bowls.",
+        "Preheat oven and steel/stone to 525°F at least 45 min."
+      ],
+      "album_artist": "Parcels",
+      "album_title": "Parcels",
+      "album_year": "2018",
+      "album_genre": "Indie Funk / Disco-Pop / Soft Rock",
+      "album_mood": "Kinetic, friendly, breezy, and weekend-loose.",
+      "album_description": "Parcels were five friends from Byron Bay who moved to Berlin, absorbed the city's disco and club culture, and turned that leap into their 2018 debut. The album carries both homesick warmth and European polish, with the Daft Punk connection hovering over its immaculate grooves.",
+      "album_sonic_description": "Chic-style guitar, springy bass, featherlight falsetto, crisp drums, and tight harmonies that keep songs buoyant and clean.",
+      "album_pairing_rationale": "Four pies and a rainy family project day need music with repeatable momentum, not dramatic peaks and valleys. This album has the same modular pleasure as pizza night: different flavors, same joyful engine, and enough groove to keep everyone tossing dough.",
+      "album_spotify_url": "https://open.spotify.com/search/Parcels%20Parcels",
+      "album": "Parcels – Parcels"
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Whipped Feta with Hot Honey & Crudités",
+      "cuisine": "Mediterranean",
+      "description": "Cold whipped feta and cream cheese spun smooth with lemon and olive oil, streaked with hot honey, served with cucumber spears, snap peas, radishes, and warm pita.",
+      "key_ingredients": [
+        "feta",
+        "cream cheese",
+        "lemon",
+        "hot honey",
+        "cucumber",
+        "snap peas",
+        "radishes",
+        "pita"
+      ],
+      "source_url": "https://www.halfbakedharvest.com/whipped-feta/",
+      "source_name": "Half Baked Harvest",
+      "why": "Plays sweet-salty against the Babo pasta and the pizza nights; cool and easy on the hot first half of the week."
+    },
+    {
+      "name": "Charred Corn Esquites Cups",
+      "cuisine": "Mexican",
+      "description": "Toasted-then-charred sweet corn off the cob, tossed warm with lime, chili-lime mayo, crumbled cotija, and cilantro — eaten with a spoon out of small cups.",
+      "key_ingredients": [
+        "frozen sweet corn",
+        "lime",
+        "Mexican crema or mayo",
+        "cotija",
+        "Tajín",
+        "cilantro"
+      ],
+      "source_url": "https://www.seriouseats.com/esquites-mexican-corn-salad-recipe",
+      "source_name": "Serious Eats",
+      "why": "Multiplies the Wednesday Tex-Mex bowl: char extra corn and you have appetizers Thursday and snack-lunch fodder Friday."
+    }
+  ],
+  "salads": [
+    {
+      "name": "Smashed Cucumber & Snap Pea Salad with Sesame-Soy Dressing",
+      "salad_type": "tossed_side",
+      "cuisine": "Asian-inspired",
+      "description": "Smashed Persian cucumbers and blanched snap peas tossed with toasted sesame, garlic, soy, rice vinegar, and a kiss of chili crisp.",
+      "key_ingredients": [
+        "Persian cucumbers",
+        "sugar snap peas",
+        "garlic",
+        "soy sauce",
+        "rice vinegar",
+        "toasted sesame oil",
+        "chili crisp"
+      ],
+      "dressing": "Whisk 3 tbsp soy sauce, 2 tbsp rice vinegar, 1 tbsp toasted sesame oil, 1 tsp honey, 1 grated garlic clove, 1 tsp chili crisp; toss with smashed cucumbers and blanched snap peas just before serving.",
+      "flavor_rationale": "Cool, crunchy, briny — perfect counterweight to Monday's rich grain bowls and to the heavy Friday beans-and-sausage.",
+      "seasonal_note": "Snap peas peak in May around Reston; smashed cucumbers stay crisp in the hot half of the week.",
+      "source_url": "https://www.bonappetit.com/recipe/smashed-cucumber-salad",
+      "source_name": "Bon Appétit",
+      "why": "Bridges Monday's kimbap bowls and Wednesday's grain bowls; also a great Saturday-pizza palate cleanser."
+    },
+    {
+      "name": "Big Lemony Romaine Caesar with Parmesan & Sourdough Crumbs",
+      "salad_type": "composed_side",
+      "cuisine": "Italian-American",
+      "description": "Chopped romaine hearts tossed in a no-egg lemony Caesar dressing, finished with shaved Parmesan and craggy toasted sourdough crumbs in place of croutons.",
+      "key_ingredients": [
+        "romaine hearts",
+        "Parmesan",
+        "lemon",
+        "anchovy paste",
+        "Dijon",
+        "garlic",
+        "sourdough"
+      ],
+      "dressing": "Whisk 3 tbsp lemon juice, 1 tsp Dijon, 1 tsp anchovy paste, 1 grated garlic clove, 1/2 cup grated Parm, 1/2 tsp pepper; stream in 1/3 cup olive oil until creamy.",
+      "flavor_rationale": "Big enough to anchor pizza night or to sidekick the Sunday bolognese — sharp lemon cuts the fat.",
+      "seasonal_note": "Stays great in any weather; doubles as a leftover-friendly weekday lunch.",
+      "source_url": "https://smittenkitchen.com/2009/03/lemon-anchovy-caesar/",
+      "source_name": "Smitten Kitchen",
+      "why": "Saturday pizza wants this salad. Make a double batch — Saturday dinner + Sunday lunch."
+    }
+  ],
+  "beverages": [
+    {
+      "name": "Sangiovese (Chianti Classico)",
+      "description": "Medium-bodied Italian red with bright cherry, dried herb, and just enough tannin to scrub a fat-rich palate.",
+      "why": "Pairs the Sunday bolognese, the Tuesday Babo pasta, AND the Saturday pizza. One bottle, three dinners."
+    },
+    {
+      "name": "Hibiscus-Lime Aguas Frescas",
+      "description": "Cold-steeped dried hibiscus flowers (jamaica) sweetened lightly, finished with fresh lime and a sprig of mint.",
+      "why": "Non-alcoholic, Elsie-friendly, and a built-in pair for the Wednesday Tex-Mex bowl and Thursday burritos."
+    }
+  ],
+  "grocery_list": {
+    "Produce": [
+      "2 yellow onions",
+      "1 bunch carrots",
+      "1 bunch celery",
+      "1 lb cremini mushrooms",
+      "1 lb fresh spinach (for Babo + Friday)",
+      "2 Persian cucumbers + 1 English cucumber",
+      "1 bunch cilantro",
+      "1 bunch basil",
+      "1 bunch parsley",
+      "1 head romaine hearts",
+      "1 bunch lacinato kale",
+      "1 head green cabbage",
+      "1 lb sugar snap peas",
+      "1 lb radishes",
+      "2 avocados",
+      "1 red onion",
+      "1 head garlic",
+      "6 lemons",
+      "8 limes",
+      "1 small bunch mint",
+      "1 small head spinach for pizza"
+    ],
+    "Protein": [
+      "1 lb ground beef (80/20)",
+      "1 lb ground pork",
+      "6 large eggs (Mon kimbap + Tue pasta + Sat pizza)",
+      "12 egg yolks for Babo pasta",
+      "1.5 lbs large shrimp (peeled, deveined) OR boneless chicken thighs",
+      "1 lb hot Italian sausage (links or bulk)",
+      "8 oz pepperoni cups",
+      "Optional: 1 can anchovies (for Caesar)"
+    ],
+    "Dairy": [
+      "1 lb Parmigiano-Reggiano (for Babo + pizza + Caesar)",
+      "1 lb fresh mozzarella",
+      "8 oz feta",
+      "8 oz cream cheese",
+      "8 oz ricotta",
+      "8 oz cotija",
+      "8 oz Monterey Jack (shredded)",
+      "1 stick European butter (Babo)",
+      "1 small sour cream",
+      "1 small Mexican crema (or use sour cream)",
+      "1 quart whole milk"
+    ],
+    "Pantry": [
+      "Fresh spring pasta (store-bought, Sunday)",
+      "Tomato paste (small can)",
+      "00 flour (for Babo + pizza)",
+      "Long-grain rice",
+      "Short-grain sushi rice",
+      "Canned black beans (2 cans)",
+      "Canned cannellini beans (2 cans)",
+      "Chipotles in adobo (1 small can)",
+      "Burrito-size flour tortillas (1 pack)",
+      "Nori sheets (1 pack)",
+      "San Marzano tomatoes (1 28-oz can)",
+      "Active dry yeast",
+      "Hot honey",
+      "Gochujang",
+      "Soy sauce, rice vinegar, toasted sesame oil",
+      "Tajín / chili-lime seasoning",
+      "Crusty bread / sourdough boule",
+      "Pita bread (for whipped feta)",
+      "Frozen sweet corn (1 lb)"
+    ]
+  },
+  "prep_ahead": [
+    "Saturday night: take ground beef + pork out of freezer for Sunday bolognese.",
+    "Sunday during dinner cleanup: start Monday's caramelized onions (or do early Monday afternoon).",
+    "Monday afternoon: cook sushi rice; quick-pickle cucumber + carrot.",
+    "Tuesday early afternoon: make Babo dough during work breaks; wrap and chill.",
+    "Wednesday morning: quick-pickle red onion in lime juice for Wed + Thu.",
+    "Wednesday dinner: DOUBLE the rice — Thursday burritos use the leftover.",
+    "Friday evening (after dinner): start 24-hour cold ferment for Saturday pizza dough."
+  ],
+  "notes": [
+    "The week splits in half: Sun-Wed are hot (88-97°F, drink water, light dinners); Thu-Sat drop to the 50s with rain (sweaters, comfort food).",
+    "Tuesday is the family Babo Pasta tradition — make dough during the day.",
+    "Friday: Laura is out with Anne. Use the night as a Dan + Elsie cooking lesson.",
+    "Mother's Day was last Sunday — this week's kids story (Mother's Day candy-dish memory) honors it as a closing chapter."
+  ]
+}

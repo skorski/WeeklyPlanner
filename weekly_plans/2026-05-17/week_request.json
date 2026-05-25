@@ -1,0 +1,69 @@
+{
+  "week_start": "2026-05-17",
+  "week_end": "2026-05-24",
+  "week_range": "May 17 - May 23, 2026",
+  "source_prompt": "masterPrompt.md",
+  "family_context": {
+    "commitments": [
+      "Tuesday May 19 6:00 PM — Elsie swim practice (Level 4 Swim Lessons, 2310 Colts Neck Rd, Reston) [Laura event]",
+      "Monday May 18 4:00-8:00 PM — Dan AI-900 Bootcamp (late evening, push dinner if needed)",
+      "Friday May 22 4:30-6:00 PM — YAT (2310 Colts Neck Rd, Reston) [Laura event]",
+      "Friday May 22 evening — Laura is hanging out with Anne; Dan + Elsie solo for dinner",
+      "Saturday May 23 9:00 AM-12:00 PM — YAT (tentative, included per user rule) [Laura event]"
+    ],
+    "food_preferences": [
+      "Sunday bolognese uses store spring pasta (quick weeknight version)",
+      "Monday kimbap grain bowls feature caramelized onions + mushrooms",
+      "Babo Pasta is the Tuesday family staple (egg-yolk spinach tagliatelle, brown butter, parm)",
+      "Wednesday Tex-Mex grain bowl: chipotle shrimp or chicken, cilantro-lime rice, black beans, charred corn, avocado",
+      "Thursday black bean burritos with fresh lime-cilantro cole slaw",
+      "Friday white beans + Italian sausage + garlicky sauteed kale with crusty bread",
+      "Saturday pizza night — four assorted pies (variety)"
+    ],
+    "elsie_no_list": ["mushrooms"]
+  },
+  "requested_dinners": [
+    "Quick bolognese with store spring pasta",
+    "Kimbap grain bowls with caramelized onions and mushrooms",
+    "Babo Pasta — egg-yolk spinach tagliatelle with brown butter and parm",
+    "Tex-Mex grain bowl with chipotle shrimp or chicken",
+    "Black bean burritos with fresh lime-cilantro cole slaw",
+    "White beans and Italian sausage with garlicky sauteed kale",
+    "Pizza night — four assorted pies"
+  ],
+  "weekly_read": {
+    "include_linkwarden": false,
+    "linkwarden_days": 7,
+    "urls": [],
+    "rss_feeds": [],
+    "required_topics": []
+  },
+  "story_request": {
+    "theme": "Mother's Day memory: Chelsie and Stephen hunt for a red glass candy dish (made 1950) and Stephen tells stories about the mothers who served period-appropriate candies and snacks from it across the decades, ending with Mommio eating Cool Ranch Doritos from the dish as the modern Mother's Day moment.",
+    "must_include": [
+      "Chelsie searching with Uncle Stephen for the red glass candy dish with the beautiful top",
+      "The dish was made in 1950",
+      "Stephen tells 3-5 short period-specific stories of mothers enjoying snacks/candies from the dish across the decades — each story names the candy/snack, a historical detail about it, and something interesting about the mother",
+      "Story ends with Mommio (the modern mom) eating Cool Ranch Doritos from the dish on Mother's Day as her favorite",
+      "Cool Ranch Doritos celebrated as a wonderful, joyful, modern Mother's Day choice"
+    ],
+    "must_not_include": [],
+    "character_pool": [
+      "Papa Puleo",
+      "Momma Karen",
+      "Papa Kim",
+      "Papa Tom",
+      "Ms. London",
+      "Stephen",
+      "Janine",
+      "Daddio",
+      "Mamma",
+      "Elsie",
+      "Chelsie",
+      "Sharkie",
+      "Mr. Bugles",
+      "Mertle"
+    ],
+    "character_notes": "Use only the minimum characters necessary. Stephen is the narrator/storyteller. Chelsie is the protagonist. Mommio (Mamma) appears at the end. Papa Puleo calls Chelsie 'Piccola'."
+  }
+}

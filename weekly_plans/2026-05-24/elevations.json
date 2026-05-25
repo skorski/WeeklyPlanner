@@ -1,0 +1,282 @@
+[
+  {
+    "name": "BBQ at Beth and Matt's — Pulled Pork and Burgers",
+    "base_description": "Hosted backyard barbecue with pulled pork and burgers; the family is not cooking but can bring a small contribution.",
+    "flavor_profile": "Smoky, sweet-savory barbecue richness with charred beef, soft buns, and picnic-style sides.",
+    "elevations": [
+      {
+        "type": "acid",
+        "title": "Cider-Snap Apple Slaw Offering",
+        "instruction": "Bring a crisp slaw of thin-sliced green cabbage, matchstick Granny Smith apple, carrot, apple cider vinegar, a spoon of Dijon mustard, honey, kosher salt, and a thread of extra-virgin olive oil. Keep it chilled and toss once more right before serving.",
+        "why": "Pulled pork and burgers are rich; cold crunch and bright vinegar cut the fat like a clean knife.",
+        "extra_ingredients": [
+          "green cabbage",
+          "Granny Smith apple",
+          "carrot",
+          "apple cider vinegar",
+          "Dijon mustard",
+          "honey"
+        ]
+      },
+      {
+        "type": "sauce",
+        "title": "Glossy BBQ Butter Sauce",
+        "instruction": "Bring a small jar of favorite barbecue sauce warmed with apple cider vinegar, smoked paprika, and one tablespoon of unsalted butter whisked in at the end. Label it as a finishing sauce for pulled pork sandwiches.",
+        "why": "The vinegar wakes up sweet sauce, while butter gives it a restaurant gloss and helps it cling to shredded pork.",
+        "extra_ingredients": [
+          "barbecue sauce",
+          "apple cider vinegar",
+          "smoked paprika",
+          "unsalted butter"
+        ]
+      },
+      {
+        "type": "texture",
+        "title": "Sesame Pickle Chip Bowl",
+        "instruction": "Pack dill pickle chips with toasted sesame seeds and cracked black pepper in a chilled serving bowl. Set them beside the buns so people can build crunch directly into sandwiches.",
+        "why": "A sharp, cold pickle layer keeps barbecue sandwiches from becoming soft-on-soft-on-soft.",
+        "extra_ingredients": [
+          "dill pickle chips",
+          "toasted sesame seeds",
+          "black pepper"
+        ]
+      }
+    ],
+    "designers_note": "When you are not the host, the move is not to compete with the pit master. Bring acid, crunch, and one smart sauce — the things every good barbecue secretly needs."
+  },
+  {
+    "name": "Gimbap Night (kids) + Dan's Grandma Pizza (adults)",
+    "base_description": "Kid-friendly gimbap rolls for Isla, Elsie, and Evyln alongside pan-baked grandma pizza for the adults.",
+    "flavor_profile": "Toasty sesame rice, snappy vegetables, savory fillings, and olive-oil-crisp pizza with tomato, cheese, and browned pan edges.",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Glossy Sesame Gimbap Finish",
+        "instruction": "Season warm short-grain rice with fine salt and toasted sesame oil, then brush the outside of each sliced roll with a whisper-thin coat of toasted sesame oil and shower with sesame seeds just before serving.",
+        "why": "Warm rice absorbs seasoning evenly, and the final sesame finish gives the rolls aroma, shine, and a clean first bite.",
+        "extra_ingredients": [
+          "toasted sesame oil",
+          "toasted sesame seeds"
+        ]
+      },
+      {
+        "type": "texture",
+        "title": "Dry the Crunchy Fillings",
+        "instruction": "Pat pickled radish, cucumber sticks, and any cooked spinach completely dry before rolling. Cut every filling into even batons so the kids get one clean snap in each bite instead of a soggy seam.",
+        "why": "Moisture is the enemy of tight gimbap; drying the fillings keeps the nori crisp and the roll structural.",
+        "extra_ingredients": [
+          "pickled radish",
+          "cucumber",
+          "spinach"
+        ]
+      },
+      {
+        "type": "preparation",
+        "title": "Grandma Pizza Fried-Bottom Treatment",
+        "instruction": "Oil the sheet pan generously with extra-virgin olive oil, press the dough out by hand, layer low-moisture mozzarella first, then spoon tomato sauce over the cheese in stripes. Bake on the lowest rack until the bottom is audibly crisp, then finish the edges with garlic oil and flaky salt.",
+        "why": "Cheese under sauce protects the dough, while the oiled pan gives grandma pizza that almost-fried bottom and tender center.",
+        "extra_ingredients": [
+          "extra-virgin olive oil",
+          "low-moisture mozzarella",
+          "tomato sauce",
+          "garlic",
+          "flaky sea salt"
+        ]
+      }
+    ],
+    "designers_note": "This is two dinners sharing one table: precise, tidy rolls for the kids and a square-pan pizza for adults that crackles when the spatula gets under it."
+  },
+  {
+    "name": "Babo Pasta — Egg-Yolk Spinach Tagliatelle with Brown Butter and Parm",
+    "base_description": "Homemade egg-yolk spinach tagliatelle finished with brown butter and aged Parmigiano-Reggiano.",
+    "flavor_profile": "Rich egg pasta, grassy spinach, nutty brown butter, salty cheese, and a family-favorite comfort profile.",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Pasta-Water Brown Butter Emulsion",
+        "instruction": "Brown the butter until it smells like toasted hazelnuts, then pull the skillet off the heat. Transfer the tagliatelle directly from the pot into the butter with a splash of starchy pasta water, toss hard, and add finely grated aged Parmigiano-Reggiano in small handfuls until glossy.",
+        "why": "Starch, fat, and cheese need agitation to become sauce; otherwise you get buttered noodles with cheese clumps, and we are better than that.",
+        "extra_ingredients": [
+          "aged Parmigiano-Reggiano"
+        ]
+      },
+      {
+        "type": "texture",
+        "title": "Crisped Sage and Parmesan Crumbs",
+        "instruction": "Before saucing the pasta, fry a few sage leaves in the browning butter until crisp, then set them aside. Toast panko in a spoon of the sage butter with grated Parmigiano-Reggiano and scatter over each bowl.",
+        "why": "The pasta is luxurious and soft; crisp herbs and cheesy crumbs give the bowl a top note and a little architectural crunch.",
+        "extra_ingredients": [
+          "fresh sage",
+          "panko breadcrumbs",
+          "aged Parmigiano-Reggiano"
+        ]
+      },
+      {
+        "type": "acid",
+        "title": "Lemon Zest at the Finish Line",
+        "instruction": "Microplane lemon zest over the plated pasta and add one small squeeze of lemon juice only after the sauce is built and off the heat.",
+        "why": "Brown butter and egg yolk are deep and round; lemon adds lift without turning the dish sharp.",
+        "extra_ingredients": [
+          "lemon"
+        ]
+      }
+    ],
+    "designers_note": "Babo Pasta is already beloved, so do not renovate it. Polish the technique: glossy sauce, controlled nuttiness, and just enough crunch to make everyone notice."
+  },
+  {
+    "name": "Grilled Cheese and Tomato Soup",
+    "base_description": "Fast dinner between a 5:30 house walkthrough and 7:00 swim: grilled cheese with tomato soup.",
+    "flavor_profile": "Buttery-crisp bread, melted cheese, warm tomato acidity, and familiar weeknight comfort.",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Mayo-Crisp, Lid-Melt Sandwiches",
+        "instruction": "Spread a thin layer of mayonnaise on the outside of the bread instead of waiting for butter to soften. Cook in a hot skillet over steady medium heat, cover for 60 seconds to melt the cheese fast, then uncover to re-crisp the crust.",
+        "why": "Mayonnaise browns evenly and the lid hack melts cheese without adding time — exactly the kind of efficiency Wednesday deserves.",
+        "extra_ingredients": [
+          "mayonnaise"
+        ]
+      },
+      {
+        "type": "sauce",
+        "title": "Soup Pot Cream-and-Basil Finish",
+        "instruction": "Heat the tomato soup as usual, then stir in a splash of heavy cream or whole milk, a pinch of dried basil, and black pepper directly in the pot. No second pan, no ceremony.",
+        "why": "A little dairy softens canned tomato sharpness while basil makes the soup taste intentional in under thirty seconds.",
+        "extra_ingredients": [
+          "heavy cream or whole milk",
+          "dried basil",
+          "black pepper"
+        ]
+      },
+      {
+        "type": "texture",
+        "title": "Dunking Sticks, Not Triangles",
+        "instruction": "Cut each grilled cheese into four narrow sticks and serve beside small bowls of soup so everyone can eat fast without the sandwich collapsing.",
+        "why": "Shape is technique: sticks maximize crispy edge and make dinner quicker, cleaner, and more fun before swim.",
+        "extra_ingredients": []
+      }
+    ],
+    "designers_note": "This meal is a pit stop, not a project. The goal is speed with dignity: crisp bread, melted center, soup that tastes touched by a human."
+  },
+  {
+    "name": "Pork Chops with Couscous, Carrots, and Peas",
+    "base_description": "House closing day dinner with couscous, carrots, peas, and pork chops; celebratory but not heavy.",
+    "flavor_profile": "Savory seared pork, sweet carrots and peas, fluffy couscous, herbs, lemon, and a light pan-sauce finish.",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Dry-Brined, Hard-Seared Pork Chops",
+        "instruction": "Salt the pork chops at least 30 minutes ahead if possible, pat them bone-dry, and sear in a very hot skillet until deeply browned. Rest them five minutes before slicing against the grain.",
+        "why": "Salt seasons through the meat, dryness builds crust, and resting keeps the juices where they belong: inside the pork chop.",
+        "extra_ingredients": [
+          "kosher salt",
+          "canola oil"
+        ]
+      },
+      {
+        "type": "sauce",
+        "title": "Lemon-Dijon Pan Sauce",
+        "instruction": "After the chops come out, deglaze the skillet with chicken stock, scrape up the browned bits, whisk in Dijon mustard, a small knob of unsalted butter, lemon juice, and chopped parsley. Spoon lightly over sliced pork.",
+        "why": "Fond is free flavor; Dijon and lemon make the sauce celebratory without dragging the plate into heavy gravy territory.",
+        "extra_ingredients": [
+          "chicken stock",
+          "Dijon mustard",
+          "unsalted butter",
+          "lemon",
+          "fresh parsley"
+        ]
+      },
+      {
+        "type": "acid",
+        "title": "Herby Lemon Couscous Lift",
+        "instruction": "Fluff the couscous with a fork, then fold in lemon zest, chopped mint or parsley, peas, carrots, and a thread of extra-virgin olive oil right before serving.",
+        "why": "Fresh herbs and citrus keep the couscous bright, so the meal feels like a toast to the new house instead of a nap.",
+        "extra_ingredients": [
+          "lemon zest",
+          "fresh mint or parsley",
+          "extra-virgin olive oil"
+        ]
+      }
+    ],
+    "designers_note": "Closing day deserves a little shine, not a lead blanket. Sear the pork properly, keep the couscous green and lemony, and let the pan sauce do the speechmaking."
+  },
+  {
+    "name": "Buttermilk Pancakes with Sausage and Egg-in-the-Center",
+    "base_description": "Breakfast-for-dinner with buttermilk pancakes, sausage, and an egg-in-a-hole style egg cooked in the center of a pancake.",
+    "flavor_profile": "Sweet-tangy pancakes, savory sausage, rich egg yolk, maple, butter, and diner-style comfort.",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Rested Batter, Crisp Butter Edges",
+        "instruction": "Mix the buttermilk pancake batter only until lumpy, then let it rest for 10 minutes while the sausage cooks. Cook in a thin film of butter so the pancake edges go golden and crisp.",
+        "why": "Resting hydrates the flour and relaxed gluten makes tender pancakes; butter in the pan gives the edge a proper diner crunch.",
+        "extra_ingredients": [
+          "unsalted butter"
+        ]
+      },
+      {
+        "type": "sauce",
+        "title": "Maple-Pepper Sausage Glaze",
+        "instruction": "When the sausage is browned, brush it in the pan with maple syrup, a splash of apple cider vinegar, and cracked black pepper for the final minute only.",
+        "why": "Maple loves pork, vinegar keeps it from getting candy-sweet, and black pepper gives breakfast-for-dinner an adult backbone.",
+        "extra_ingredients": [
+          "maple syrup",
+          "apple cider vinegar",
+          "black pepper"
+        ]
+      },
+      {
+        "type": "temperature",
+        "title": "Cold Berry Spoon on Hot Pancakes",
+        "instruction": "Toss berries with a pinch of sugar and lemon juice, then spoon them cold over the hot pancake-and-egg stack at the table.",
+        "why": "The cold fruit against hot pancake, runny yolk, and sausage makes the plate feel composed instead of just stacked.",
+        "extra_ingredients": [
+          "berries",
+          "sugar",
+          "lemon juice"
+        ]
+      }
+    ],
+    "designers_note": "Breakfast-for-dinner works best when it admits what it is: joyful, a little ridiculous, and worthy of proper heat control. Do not overmix the batter, and do not apologize for maple on sausage."
+  },
+  {
+    "name": "Celebration Pizza for the New House",
+    "base_description": "A special pizza night to celebrate the new house.",
+    "flavor_profile": "Crisp blistered crust, bright tomato, melted cheese, fresh herbs, creamy finishing cheese, and festive sweet-heat accents.",
+    "elevations": [
+      {
+        "type": "preparation",
+        "title": "Stone-Hot Celebration Crust",
+        "instruction": "Preheat a pizza stone or steel at the oven's highest setting for at least 45 minutes. Stretch room-temperature dough gently, keep toppings restrained, and bake until the rim blisters and the bottom is crisp enough to tap with a fingernail.",
+        "why": "Pizza becomes celebratory when the crust has contrast: leoparded edges, tender interior, and a bottom with real structure.",
+        "extra_ingredients": [
+          "pizza dough",
+          "extra-virgin olive oil"
+        ]
+      },
+      {
+        "type": "temperature",
+        "title": "Fresh Burrata After the Bake",
+        "instruction": "Bake the pizza with low-moisture mozzarella, then tear burrata over the pizza after it comes out of the oven. Let the residual heat soften it for one minute before slicing.",
+        "why": "Burrata is a finishing cheese, not a baking cheese; keeping it cool and creamy makes the hot crust feel luxurious.",
+        "extra_ingredients": [
+          "low-moisture mozzarella",
+          "burrata"
+        ]
+      },
+      {
+        "type": "sauce",
+        "title": "Hot Honey, Basil, and Flaky Salt Finish",
+        "instruction": "Finish the hot pizza with torn fresh basil, a thin zigzag of hot honey, flaky sea salt, and a thread of good extra-virgin olive oil. Bring it to the table whole before slicing so it feels like a tiny ceremony.",
+        "why": "Sweet heat, fresh herbs, and salt turn familiar pizza into a celebration without making it fussy.",
+        "extra_ingredients": [
+          "hot honey",
+          "fresh basil",
+          "flaky sea salt",
+          "extra-virgin olive oil"
+        ]
+      }
+    ],
+    "designers_note": "New-house pizza should arrive like a toast: blistered, glossy, and slightly over the top. The trick is restraint before the oven and confidence after it."
+  }
+]

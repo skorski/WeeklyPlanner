@@ -1,0 +1,1262 @@
+{
+  "recipe_cards": [
+    {
+      "day": "Sunday",
+      "name": "Quick Bolognese with Fresh Spring Pasta",
+      "source_url": "https://www.seriouseats.com/the-best-slow-cooked-bolognese-sauce-recipe",
+      "source_name": "Serious Eats (quick-adapted)",
+      "servings": "4 to 6",
+      "prep_time": "20 minutes",
+      "cook_time": "1 hour",
+      "nonna_says": "Start the soffritto first and let it soften till sweet, because a rushed onion tastes like punishment. Add the pancetta, then brown the beef and pork hard enough to get color, not gray sadness. Stir in the tomato paste, wine, tomatoes, stock, and milk, then let it bubble down till thick and brick red. Boil the fresh pasta only a minute or two, then finish it in the sauce with pasta water so everything marries properly. Do not dump naked pasta on a plate and spoon sauce on top like a cafeteria line. Shower it with pecorino and serve while the pot is still talking.",
+      "variations": [
+        {
+          "name": "Classic Ragu Bolognese",
+          "twist": "Go fully traditional with pancetta, soffritto, milk, and a long gentle cook for a silkier, less tomato-forward sauce.",
+          "source_url": "https://www.seriouseats.com/ragu-alla-bolognese-classic-recipe"
+        },
+        {
+          "name": "Turkey Bolognese",
+          "twist": "Swap the beef and pork for turkey and lean on tomato and Parmesan for a lighter but still cozy pot of sauce.",
+          "source_url": "https://cooking.nytimes.com/recipes/1017867-turkey-bolognese"
+        },
+        {
+          "name": "Short Rib Bolognese",
+          "twist": "Trade ground meat for braised short ribs so the sauce turns darker, richer, and spoon-shredded.",
+          "source_url": "https://www.masterclass.com/articles/short-rib-bolognese-recipe"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "2 tablespoons",
+                "item": "olive oil",
+                "prep": ""
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "unsalted butter",
+                "prep": ""
+              },
+              {
+                "qty": "4 ounces",
+                "item": "pancetta",
+                "prep": "small dice"
+              },
+              {
+                "qty": "1 medium",
+                "item": "yellow onion",
+                "prep": "fine dice"
+              },
+              {
+                "qty": "1 medium",
+                "item": "carrot",
+                "prep": "fine dice"
+              },
+              {
+                "qty": "2 ribs",
+                "item": "celery",
+                "prep": "fine dice"
+              },
+              {
+                "qty": "4 cloves",
+                "item": "garlic",
+                "prep": "minced"
+              }
+            ],
+            "merge_action": "cook soffritto 8 to 10 minutes, then stir in pancetta and garlic"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "12 ounces",
+                "item": "ground beef chuck",
+                "prep": ""
+              },
+              {
+                "qty": "12 ounces",
+                "item": "ground pork",
+                "prep": ""
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "kosher salt",
+                "prep": "plus more to taste"
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "black pepper",
+                "prep": "freshly ground"
+              }
+            ],
+            "merge_action": "brown hard and break into small crumbles"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "2 tablespoons",
+                "item": "tomato paste",
+                "prep": ""
+              },
+              {
+                "qty": "1 cup",
+                "item": "dry white wine",
+                "prep": ""
+              },
+              {
+                "qty": "1 can",
+                "item": "whole peeled tomatoes",
+                "prep": "28 ounces, crushed by hand"
+              },
+              {
+                "qty": "1 cup",
+                "item": "chicken stock",
+                "prep": ""
+              },
+              {
+                "qty": "1",
+                "item": "bay leaf",
+                "prep": ""
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "fresh sage",
+                "prep": "chopped"
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "fresh parsley",
+                "prep": "chopped"
+              }
+            ],
+            "merge_action": "reduce wine, then add tomatoes, stock, and herbs"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 cup",
+                "item": "whole milk",
+                "prep": ""
+              },
+              {
+                "qty": "2 teaspoons",
+                "item": "fish sauce",
+                "prep": ""
+              },
+              {
+                "qty": "3/4 cup",
+                "item": "Pecorino Romano",
+                "prep": "finely grated, plus more for serving"
+              }
+            ],
+            "merge_action": "finish the reduced sauce until silky"
+          }
+        ],
+        "final_steps": [
+          "simmer 35 to 45 minutes until thick and glossy",
+          "remove bay leaf and adjust salt",
+          "hold on low heat for pasta",
+          "toss with fresh spring pasta and extra pecorino"
+        ]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, cook the fresh pasta:",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "1 pound",
+                "item": "store-bought fresh spring pasta",
+                "prep": ""
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "kosher salt",
+                "prep": "for the water"
+              }
+            ],
+            "merge_action": "boil 2 to 3 minutes until just shy of done"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1/2 cup",
+                "item": "pasta water",
+                "prep": "reserved"
+              }
+            ],
+            "merge_action": "use to loosen and glaze the sauce"
+          }
+        ],
+        "final_steps": [
+          "transfer pasta straight into the sauce",
+          "add pasta water a splash at a time",
+          "toss 1 minute until glossy",
+          "serve hot with more Pecorino"
+        ]
+      }
+    },
+    {
+      "day": "Monday",
+      "name": "Kimbap Grain Bowls with Caramelized Onions and Mushrooms",
+      "source_url": "https://www.bonappetit.com/recipe/kimbap",
+      "source_name": "Bon Appetit",
+      "servings": "4",
+      "prep_time": "35 minutes",
+      "cook_time": "35 minutes",
+      "nonna_says": "Cook the rice a little drier than usual so the bowl has backbone, not mush. Caramelize the onions slowly till they go sweet and jammy, then glaze the mushrooms with soy and sesame. Pickle the carrot and cucumber just enough to wake everything up. Fry the eggs last so the yolks stay runny and rich. Set aside Elsie's bowl before the mushrooms, then give her extra onions and an extra egg or crispy tofu so nobody feels cheated. Drizzle the gochujang mayo and throw on the nori strips, honey, you made a smart little dinner.",
+      "variations": [
+        {
+          "name": "Classic Kimbap",
+          "twist": "Roll the seasoned rice with beef, spinach, egg, and pickled radish instead of building a deconstructed bowl.",
+          "source_url": "https://www.koreanbapsang.com/gimbapkimbap-korean-dried-seaweed-rolls/"
+        },
+        {
+          "name": "Tuna Gimbap",
+          "twist": "Swap in creamy tuna filling for a lunchbox-friendly version that leans savory and a little richer.",
+          "source_url": "https://www.koreanbapsang.com/tuna-gimbap/"
+        },
+        {
+          "name": "Tofu Gimbap",
+          "twist": "Use crisp tofu and more vegetables for a meatless variation that still feels complete and satisfying.",
+          "source_url": "https://www.koreanbapsang.com/tofu-gimbap/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "1 1/2 cups",
+                "item": "short-grain rice",
+                "prep": "rinsed"
+              },
+              {
+                "qty": "1 3/4 cups",
+                "item": "water",
+                "prep": "for cooking rice"
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "toasted sesame oil",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "kosher salt",
+                "prep": "plus more to taste"
+              }
+            ],
+            "merge_action": "cook rice and season while warm"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "2 tablespoons",
+                "item": "neutral oil",
+                "prep": "divided"
+              },
+              {
+                "qty": "2 large",
+                "item": "yellow onions",
+                "prep": "thinly sliced"
+              },
+              {
+                "qty": "8 ounces",
+                "item": "cremini mushrooms",
+                "prep": "sliced"
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "soy sauce",
+                "prep": ""
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "sugar",
+                "prep": ""
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "toasted sesame oil",
+                "prep": ""
+              }
+            ],
+            "merge_action": "caramelize onions 25 to 30 minutes, then glaze mushrooms"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 medium",
+                "item": "carrot",
+                "prep": "julienned"
+              },
+              {
+                "qty": "1 small",
+                "item": "Persian cucumber",
+                "prep": "julienned"
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "rice vinegar",
+                "prep": ""
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "sugar",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "kosher salt",
+                "prep": ""
+              }
+            ],
+            "merge_action": "quick-pickle 10 minutes"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "2 tablespoons",
+                "item": "mayonnaise",
+                "prep": ""
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "gochujang",
+                "prep": ""
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "water or rice vinegar",
+                "prep": "to loosen"
+              }
+            ],
+            "merge_action": "stir together quick gochujang mayo"
+          }
+        ],
+        "final_steps": [
+          "divide rice among bowls",
+          "set aside Elsie's portion before mushrooms go in",
+          "top remaining bowls with onions, mushrooms, and pickles",
+          "finish with egg and gochujang mayo"
+        ]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, fry the eggs and prep the mushroom-free backup:",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "4 large",
+                "item": "eggs",
+                "prep": ""
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "neutral oil",
+                "prep": "for frying"
+              }
+            ],
+            "merge_action": "fry sunny-side until whites set and yolks stay runny"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "8 ounces",
+                "item": "extra-firm tofu",
+                "prep": "cubed, optional"
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "soy sauce",
+                "prep": "optional"
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "toasted sesame oil",
+                "prep": "optional"
+              }
+            ],
+            "merge_action": "crisp for Elsie's bowl if you want extra protein"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "4 sheets",
+                "item": "nori",
+                "prep": "snipped into strips"
+              },
+              {
+                "qty": "2 teaspoons",
+                "item": "toasted sesame seeds",
+                "prep": ""
+              }
+            ],
+            "merge_action": "stage crunchy garnish"
+          }
+        ],
+        "final_steps": [
+          "bulk up Elsie's bowl with extra onions and an egg or tofu",
+          "top every bowl with nori and sesame",
+          "serve right away while the rice is warm"
+        ]
+      }
+    },
+    {
+      "day": "Tuesday",
+      "name": "Babo Pasta: Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+      "source_url": "https://www.seriouseats.com/homemade-fresh-pasta-recipe",
+      "source_name": "Serious Eats",
+      "servings": "4",
+      "prep_time": "1 hour 15 minutes including rest",
+      "cook_time": "5 minutes",
+      "nonna_says": "Cook the spinach dry, squeeze it harder than your inbox squeezes you, and chop it fine. Pile the flour and semolina, drop in the yolks and spinach, and knead until the dough feels smooth and alive. Rest it, roll it thin, and cut tagliatelle like ribbons for a party. Brown the butter slowly until it smells nutty, not burnt, and watch closely. Boil the pasta for just a couple minutes, then toss it with butter, Parm, and pasta water until shiny. Serve right away and let Babo take the credit.",
+      "variations": [
+        {
+          "name": "Lemon Pine Nut Spinach Tagliatelle",
+          "twist": "Finish the brown butter pasta with lemon zest and toasted pine nuts for brightness and crunch.",
+          "source_url": "https://www.cooksillustrated.com/recipes/7375-spinach-tagliatelle-with-brown-butter-and-parmesan"
+        },
+        {
+          "name": "Sage Brown Butter Spinach Tagliatelle",
+          "twist": "Crisp sage leaves in the butter so the sauce turns woodsy and aromatic.",
+          "source_url": "https://www.olivemagazine.com/recipes/vegan/spinach-tagliatelle-with-sage-and-brown-butter/"
+        },
+        {
+          "name": "Roasted Garlic Brown Butter Tagliatelle",
+          "twist": "Mash roasted garlic into the brown butter for a mellow, savory sauce that still lets the spinach pasta show.",
+          "source_url": "https://cooking.nytimes.com/recipes/1016250-spinach-tagliatelle-with-brown-butter-and-roasted-garlic"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "6 ounces",
+                "item": "fresh spinach",
+                "prep": "wilted, squeezed very dry, finely chopped"
+              },
+              {
+                "qty": "8 large",
+                "item": "egg yolks",
+                "prep": "room temperature"
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "extra-virgin olive oil",
+                "prep": ""
+              }
+            ],
+            "merge_action": "stir into green yolk mixture"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "2 cups",
+                "item": "00 flour",
+                "prep": "plus more for dusting"
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "semolina flour",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "kosher salt",
+                "prep": ""
+              }
+            ],
+            "merge_action": "mound and make well"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 to 3 tablespoons",
+                "item": "water",
+                "prep": "only if dough feels dry"
+              }
+            ],
+            "merge_action": "adjust hydration while kneading"
+          }
+        ],
+        "final_steps": [
+          "fork yolk mixture into flour",
+          "knead 8 to 10 minutes until smooth",
+          "wrap and rest 30 minutes",
+          "roll through pasta machine and cut tagliatelle",
+          "boil in salted water 2 to 3 minutes"
+        ]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, make the brown butter sauce:",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "6 tablespoons",
+                "item": "unsalted butter",
+                "prep": "cut into pieces"
+              }
+            ],
+            "merge_action": "brown in skillet until nutty"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 cup",
+                "item": "Parmigiano-Reggiano",
+                "prep": "finely grated"
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "pasta water",
+                "prep": "reserved"
+              },
+              {
+                "qty": "1/4 teaspoon",
+                "item": "black pepper",
+                "prep": "freshly ground"
+              }
+            ],
+            "merge_action": "emulsify with hot pasta"
+          }
+        ],
+        "final_steps": [
+          "add drained tagliatelle to brown butter",
+          "toss with cheese and pasta water",
+          "serve glossy and hot"
+        ]
+      }
+    },
+    {
+      "day": "Wednesday",
+      "name": "Tex-Mex Grain Bowls with Chipotle Shrimp",
+      "source_url": "https://www.seriouseats.com/chipotle-shrimp-bowls",
+      "source_name": "Serious Eats",
+      "servings": "4",
+      "prep_time": "20 minutes",
+      "cook_time": "15 minutes",
+      "nonna_says": "Season the shrimp boldly, but only marinate them briefly or they turn into little pink erasers. Get the rice going first, then char the corn till it smells smoky and sweet. Sear the shrimp fast in a hot skillet so they curl and blush without tightening up. Stir the crema, pickle the onion, and line up the toppings before you start plating. Do not bury good shrimp under a mountain of nonsense, honey, keep the bowl fresh and sharp. Finish with lime, cilantro, and cotija, and call everybody before the avocado goes sad.",
+      "variations": [
+        {
+          "name": "Chipotle Lime Shrimp Burrito Bowls",
+          "twist": "Add honey to the chipotle marinade and a creamy cilantro-lime drizzle for a sweeter, saucier bowl.",
+          "source_url": "https://carlsbadcravings.com/chipotle-lime-shrimp-burrito-bowls-recipe/"
+        },
+        {
+          "name": "Baja Chipotle Shrimp Bowl",
+          "twist": "Build it Baja-style with pineapple salsa, cabbage, and orange-bright shrimp for a sunnier plate.",
+          "source_url": "https://www.hellofresh.com/recipes/baja-chipotle-shrimp-bowl-6905aae285d44a1dd429adc9"
+        },
+        {
+          "name": "25-Minute Chipotle Lime Shrimp Bowls",
+          "twist": "Keep the bowl fast with brown rice, black beans, and a simple chipotle-lime glaze.",
+          "source_url": "https://www.foodiecrush.com/chipotle-lime-shrimp-bowls/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "1 1/2 cups",
+                "item": "long-grain rice",
+                "prep": "rinsed"
+              },
+              {
+                "qty": "2 1/4 cups",
+                "item": "water",
+                "prep": "for rice"
+              },
+              {
+                "qty": "1 lime",
+                "item": "lime",
+                "prep": "zested and juiced"
+              },
+              {
+                "qty": "1/4 cup",
+                "item": "fresh cilantro",
+                "prep": "chopped, divided"
+              }
+            ],
+            "merge_action": "cook rice, then fluff with lime and cilantro"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 pound",
+                "item": "large shrimp",
+                "prep": "peeled and deveined"
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "olive oil",
+                "prep": "divided"
+              },
+              {
+                "qty": "2",
+                "item": "chipotle chiles in adobo",
+                "prep": "minced"
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "adobo sauce",
+                "prep": ""
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "ground cumin",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "smoked paprika",
+                "prep": ""
+              },
+              {
+                "qty": "1 clove",
+                "item": "garlic",
+                "prep": "grated"
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "kosher salt",
+                "prep": ""
+              }
+            ],
+            "merge_action": "marinate 10 minutes, then sear hot and fast"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1/2 small",
+                "item": "red onion",
+                "prep": "thinly sliced"
+              },
+              {
+                "qty": "1/4 cup",
+                "item": "lime juice",
+                "prep": ""
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "sugar",
+                "prep": ""
+              },
+              {
+                "qty": "1 pinch",
+                "item": "kosher salt",
+                "prep": ""
+              }
+            ],
+            "merge_action": "quick-pickle while everything else cooks"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1/2 cup",
+                "item": "sour cream",
+                "prep": ""
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "adobo sauce",
+                "prep": ""
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "lime juice",
+                "prep": ""
+              }
+            ],
+            "merge_action": "stir quick chipotle-lime crema"
+          }
+        ],
+        "final_steps": [
+          "cook shrimp 2 minutes per side",
+          "divide cilantro-lime rice into bowls",
+          "top with shrimp, avocado, pickled onion, cotija, and crema",
+          "serve with extra lime wedges"
+        ]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, char the vegetables and warm the beans:",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "2 cups",
+                "item": "frozen corn",
+                "prep": "thawed if needed"
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "olive oil",
+                "prep": ""
+              }
+            ],
+            "merge_action": "char in a hot skillet until blistered"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 can",
+                "item": "black beans",
+                "prep": "15 ounces, drained and rinsed"
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "water",
+                "prep": "or broth"
+              },
+              {
+                "qty": "1 pinch",
+                "item": "kosher salt",
+                "prep": ""
+              }
+            ],
+            "merge_action": "warm gently until glossy"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1",
+                "item": "avocado",
+                "prep": "sliced"
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "cotija",
+                "prep": "crumbled"
+              }
+            ],
+            "merge_action": "stage cool toppings"
+          }
+        ],
+        "final_steps": [
+          "spoon corn and beans onto the rice before the shrimp",
+          "finish with avocado and cotija",
+          "eat while the shrimp are still juicy"
+        ]
+      }
+    },
+    {
+      "day": "Thursday",
+      "name": "Black Bean Burritos with Lime-Cilantro Slaw",
+      "source_url": "https://cookieandkate.com/crispy-black-bean-tacos-recipe/",
+      "source_name": "Cookie and Kate (adapted to burritos)",
+      "servings": "4",
+      "prep_time": "20 minutes",
+      "cook_time": "20 minutes",
+      "nonna_says": "Make the beans first and mash some of them so the filling holds together instead of rolling all over the plate. Stir the slaw just before you build so it stays cold and crunchy. Warm the tortillas enough that they bend without fighting you. Fill with rice, beans, cheese, and slaw, then roll tight and crisp the seam in a dry skillet till golden. Do not stuff these things like an overpacked suitcase or they will split and embarrass you. Hit them with lime and hot sauce and eat them while the edges still crackle.",
+      "variations": [
+        {
+          "name": "Crispy Black Bean Tacos with Cilantro Lime Sauce",
+          "twist": "Keep the filling simple and pan-crisp the tacos, then lean on a bright creamy sauce for contrast.",
+          "source_url": "https://pinchofyum.com/crispy-black-bean-tacos-with-cilantro-lime-sauce"
+        },
+        {
+          "name": "Crispy Sheet Pan Black Bean Tacos",
+          "twist": "Bake the filled tortillas on a sheet pan so the edges go shatter-crisp with less stovetop babysitting.",
+          "source_url": "https://www.playswellwithbutter.com/crispy-black-bean-tacos/"
+        },
+        {
+          "name": "The Best Crispy Black Bean Tacos with Sneaky Veggies",
+          "twist": "Work extra vegetables into the filling for a sweeter, more kid-friendly bite without losing the crunch.",
+          "source_url": "https://www.ambitiouskitchen.com/crispy-black-bean-tacos/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "2 cans",
+                "item": "black beans",
+                "prep": "15 ounces each, one can drained and one with 1/3 cup liquid reserved"
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "extra-virgin olive oil",
+                "prep": ""
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "ground cumin",
+                "prep": ""
+              },
+              {
+                "qty": "2 cloves",
+                "item": "garlic",
+                "prep": "pressed or minced"
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "fine sea salt",
+                "prep": ""
+              }
+            ],
+            "merge_action": "mash and simmer into thick, spoonable beans"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "2 cups",
+                "item": "cooked rice",
+                "prep": "warm"
+              },
+              {
+                "qty": "1 cup",
+                "item": "Monterey Jack",
+                "prep": "shredded"
+              },
+              {
+                "qty": "8",
+                "item": "burrito-size flour tortillas",
+                "prep": "warmed"
+              }
+            ],
+            "merge_action": "stage burrito filling and wrappers"
+          }
+        ],
+        "final_steps": [
+          "spread beans down each tortilla",
+          "add rice, cheese, and a handful of slaw",
+          "roll tightly into burritos",
+          "crisp seam side down 2 to 3 minutes per side"
+        ]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, make the lime-cilantro slaw:",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "3 cups",
+                "item": "green cabbage",
+                "prep": "finely shredded"
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "fresh cilantro",
+                "prep": "roughly chopped"
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "lime juice",
+                "prep": ""
+              },
+              {
+                "qty": "1/4 teaspoon",
+                "item": "fine sea salt",
+                "prep": ""
+              }
+            ],
+            "merge_action": "toss and massage lightly until just softened"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1/4 cup",
+                "item": "sour cream",
+                "prep": ""
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "hot sauce",
+                "prep": "plus more for serving"
+              }
+            ],
+            "merge_action": "stir dressing and fold into the cabbage"
+          }
+        ],
+        "final_steps": [
+          "keep the slaw crunchy",
+          "tuck it inside the burritos right before rolling",
+          "serve with extra lime and hot sauce"
+        ]
+      }
+    },
+    {
+      "day": "Friday",
+      "name": "White Beans & Italian Sausage with Garlicky Sauteed Kale",
+      "source_url": "https://www.bonappetit.com/recipe/white-beans-and-sausage",
+      "source_name": "Bon Appetit",
+      "servings": "4",
+      "prep_time": "10 minutes",
+      "cook_time": "25 minutes",
+      "nonna_says": "Brown the sausage properly first, because gray sausage is a waste of everybody's time. Let the onion and garlic pick up all that good fat, then stir in the beans and broth and mash a few so the pan turns creamy on its own. Keep the kale in a second skillet till it softens but still has some life. Toast the bread and rub it with garlic while it is hot, not later when nobody cares. Finish the beans with lemon so the whole thing wakes up. Pile the kale on toast, spoon over the sausage and beans, and let Elsie do the proud final assembly.",
+      "variations": [
+        {
+          "name": "One-Pot Italian Sausage and White Beans with Spinach",
+          "twist": "Turn the skillet greener and faster by swapping kale for spinach and keeping everything in one pot.",
+          "source_url": "https://www.seriouseats.com/one-pot-italian-sausage-and-white-beans-with-spinach-recipe"
+        },
+        {
+          "name": "White Bean, Sausage, and Kale Soup",
+          "twist": "Stretch the same flavor profile into a brothier soup with Parmesan and more spoonable comfort.",
+          "source_url": "https://www.foodandwine.com/recipes/white-bean-sausage-and-kale-soup"
+        },
+        {
+          "name": "Quick Italian Sausage and White Bean Stew",
+          "twist": "Add tomato and herbs for a looser, stew-like pan sauce that begs for torn bread.",
+          "source_url": "https://www.seriouseats.com/quick-italian-sausage-and-white-bean-stew-recipe"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "1 tablespoon",
+                "item": "olive oil",
+                "prep": ""
+              },
+              {
+                "qty": "1 pound",
+                "item": "hot Italian sausage",
+                "prep": "casings removed"
+              },
+              {
+                "qty": "1 small",
+                "item": "yellow onion",
+                "prep": "diced"
+              }
+            ],
+            "merge_action": "brown sausage well and soften onion"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "3 cloves",
+                "item": "garlic",
+                "prep": "thinly sliced"
+              },
+              {
+                "qty": "1/4 teaspoon",
+                "item": "red pepper flakes",
+                "prep": ""
+              },
+              {
+                "qty": "2 cans",
+                "item": "cannellini beans",
+                "prep": "15 ounces each, drained"
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "chicken broth",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "kosher salt",
+                "prep": "plus more to taste"
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "black pepper",
+                "prep": "freshly ground"
+              }
+            ],
+            "merge_action": "simmer until creamy, mashing a few beans into the broth"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1",
+                "item": "lemon",
+                "prep": "zested a little, then juiced"
+              }
+            ],
+            "merge_action": "brighten the pan at the end"
+          }
+        ],
+        "final_steps": [
+          "cook 8 to 10 minutes until the beans turn glossy",
+          "return any sausage juices to the skillet",
+          "finish with lemon juice and adjust salt",
+          "spoon over toast with the kale alongside or underneath"
+        ]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, saute the kale and toast the bread:",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "1 large bunch",
+                "item": "lacinato kale",
+                "prep": "stems removed, leaves chopped"
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "olive oil",
+                "prep": ""
+              }
+            ],
+            "merge_action": "wilt kale over medium-high heat"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "2 cloves",
+                "item": "garlic",
+                "prep": "thinly sliced"
+              },
+              {
+                "qty": "4 thick slices",
+                "item": "crusty bread",
+                "prep": ""
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "olive oil",
+                "prep": "for brushing toast"
+              }
+            ],
+            "merge_action": "sizzle garlic, then brush and toast the bread"
+          }
+        ],
+        "final_steps": [
+          "season the kale with a pinch of salt and a squeeze of lemon",
+          "pile kale onto toast",
+          "finish with sausage and beans on top"
+        ]
+      }
+    },
+    {
+      "day": "Saturday",
+      "name": "Pizza Night: Four Assorted Pies",
+      "source_url": "https://www.kingarthurbaking.com/recipes/neapolitan-style-pizza-crust-recipe",
+      "source_name": "King Arthur Baking",
+      "servings": "6 to 8",
+      "prep_time": "30 minutes active plus overnight rise",
+      "cook_time": "30 minutes total for four pies",
+      "nonna_says": "Mix the dough the night before and leave it alone, because good crust needs time more than fussing. Get the oven ripping hot with the steel inside and have every topping ready before the first ball gets stretched. Keep the sauce light and the mozzarella dry so the pies blister instead of steaming. Make one Margherita, one pepperoni with hot honey, one ricotta-spinach white pie, and let Elsie boss around the wildcard. If you pile on toppings like a yard sale, the crust will sulk. Bake one pie at a time, finish fast, slice faster, and enjoy the little beautiful chaos.",
+      "variations": [
+        {
+          "name": "Neapolitan Pizza Margherita",
+          "twist": "Keep it classic with restrained tomato, fresh mozzarella, basil, and absolutely nothing extra.",
+          "source_url": "https://www.seriouseats.com/neapolitan-pizza-margherita-recipe"
+        },
+        {
+          "name": "Pizza Marinara",
+          "twist": "Skip the cheese and let garlic, oregano, and olive oil ride on the tomato and crust.",
+          "source_url": "https://thepizzaheaven.com/pizza-marinara-authentic-neapolitan-recipe/"
+        },
+        {
+          "name": "Pizza Bianca",
+          "twist": "Lose the red sauce and lean into mozzarella, Parm, olive oil, and a white-pie finish.",
+          "source_url": "https://coleycooks.com/neapolitan-style-white-pizza-pizza-bianca/"
+        }
+      ],
+      "engineer_table": {
+        "preheat": "500 to 550 F with a stone or steel inside",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "4 cups (464g)",
+                "item": "00 pizza flour",
+                "prep": ""
+              },
+              {
+                "qty": "1/4 teaspoon",
+                "item": "instant or active dry yeast",
+                "prep": ""
+              },
+              {
+                "qty": "1 teaspoon",
+                "item": "granulated sugar",
+                "prep": ""
+              },
+              {
+                "qty": "2 1/2 teaspoons",
+                "item": "table salt",
+                "prep": ""
+              },
+              {
+                "qty": "1 1/2 cups (340g)",
+                "item": "water",
+                "prep": "lukewarm"
+              }
+            ],
+            "merge_action": "mix rough dough and rise 12 to 24 hours"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1/2 cup",
+                "item": "bench flour or fine semolina",
+                "prep": "for shaping"
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "olive oil",
+                "prep": "for the bowls and edges"
+              }
+            ],
+            "merge_action": "divide into 4 balls, rest 45 to 60 minutes, then stretch"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 1/2 cups",
+                "item": "crushed San Marzano tomatoes",
+                "prep": ""
+              },
+              {
+                "qty": "1/2 teaspoon",
+                "item": "kosher salt",
+                "prep": ""
+              },
+              {
+                "qty": "1 tablespoon",
+                "item": "olive oil",
+                "prep": "for the sauce"
+              }
+            ],
+            "merge_action": "stir quick tomato base"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1 1/2 pounds",
+                "item": "fresh mozzarella",
+                "prep": "torn and drained well"
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "Parmesan",
+                "prep": "finely grated"
+              },
+              {
+                "qty": "1 small bunch",
+                "item": "fresh basil",
+                "prep": "leaves picked"
+              }
+            ],
+            "merge_action": "stage cheeses and finishing herbs"
+          }
+        ],
+        "final_steps": [
+          "stretch 4 thin 10- to 12-inch rounds one at a time",
+          "top lightly and launch onto the steel",
+          "bake 6 to 8 minutes, then broil 1 to 2 minutes if needed",
+          "rest 2 minutes before slicing"
+        ]
+      },
+      "parallel_table": {
+        "note": "Meanwhile, build the four personalities:",
+        "groups": [
+          {
+            "ingredients": [
+              {
+                "qty": "1/3 cup",
+                "item": "tomato sauce",
+                "prep": "for the Margherita pie"
+              },
+              {
+                "qty": "4 ounces",
+                "item": "fresh mozzarella",
+                "prep": "for the Margherita pie"
+              },
+              {
+                "qty": "6 to 8 leaves",
+                "item": "fresh basil",
+                "prep": "for finishing"
+              }
+            ],
+            "merge_action": "assemble Margherita"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1/3 cup",
+                "item": "tomato sauce",
+                "prep": "for the pepperoni pie"
+              },
+              {
+                "qty": "4 ounces",
+                "item": "fresh mozzarella",
+                "prep": "for the pepperoni pie"
+              },
+              {
+                "qty": "3 ounces",
+                "item": "pepperoni cups",
+                "prep": ""
+              },
+              {
+                "qty": "2 tablespoons",
+                "item": "hot honey",
+                "prep": "for finishing"
+              }
+            ],
+            "merge_action": "assemble pepperoni pie"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "1/2 cup",
+                "item": "ricotta",
+                "prep": "for the white pie"
+              },
+              {
+                "qty": "1 clove",
+                "item": "garlic",
+                "prep": "grated"
+              },
+              {
+                "qty": "2 cups",
+                "item": "baby spinach",
+                "prep": "roughly chopped"
+              },
+              {
+                "qty": "4 ounces",
+                "item": "fresh mozzarella",
+                "prep": "for the white pie"
+              }
+            ],
+            "merge_action": "assemble ricotta-spinach white pie"
+          },
+          {
+            "ingredients": [
+              {
+                "qty": "4 ounces",
+                "item": "fresh mozzarella",
+                "prep": "for the wildcard pie"
+              },
+              {
+                "qty": "1/2 cup",
+                "item": "sauteed vegetables or cooked breakfast sausage",
+                "prep": "your pick"
+              },
+              {
+                "qty": "1",
+                "item": "egg",
+                "prep": "optional for a breakfast pie"
+              }
+            ],
+            "merge_action": "let Elsie design pie four"
+          }
+        ],
+        "final_steps": [
+          "keep the toppings light on every pie",
+          "rotate as needed for even blistering",
+          "finish at the table with basil or hot honey"
+        ]
+      }
+    }
+  ]
+}

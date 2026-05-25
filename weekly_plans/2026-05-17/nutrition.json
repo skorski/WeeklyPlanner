@@ -1,0 +1,747 @@
+{
+  "family": {
+    "members": [
+      {
+        "name": "Wife",
+        "age_range": "Adult woman",
+        "activity_level": "Active",
+        "calorie_target": "~2,000-2,200 kcal",
+        "focus_nutrients": ["iron", "calcium", "folate", "fiber"]
+      },
+      {
+        "name": "Husband",
+        "age_range": "Adult man",
+        "activity_level": "Active",
+        "calorie_target": "~2,400-2,800 kcal",
+        "focus_nutrients": ["protein", "potassium", "magnesium"]
+      },
+      {
+        "name": "Daughter",
+        "age_range": "School-age girl",
+        "activity_level": "Active",
+        "calorie_target": "~1,600-2,000 kcal",
+        "focus_nutrients": ["calcium", "vitamin D", "iron", "fiber"]
+      }
+    ]
+  },
+  "dinners": [
+    {
+      "day": "Sunday",
+      "name": "Quick Bolognese with Fresh Spring Pasta",
+      "calories_per_serving": "~650-800 kcal",
+      "protein_source": "Ground beef, ground pork, milk, pecorino, and pasta",
+      "protein_level": "high",
+      "vegetable_content": "minimal to moderate: tomato, onion, and aromatics do some work, but this is still a pasta-first plate",
+      "whole_grains": false,
+      "key_nutrients": ["protein", "iron", "zinc", "vitamin B12", "lycopene", "calcium"],
+      "concerns": [
+        "A comforting bolognese brings strong iron and protein, but fiber stays low because the pasta is refined and vegetables are modest.",
+        "Beef, pork, cheese, and milk make this one of the richer saturated-fat dinners of the week.",
+        "A fruit- and vegetable-forward Monday lunch keeps the start of the week feeling steadier."
+      ],
+      "overall_rating": "hearty; balance around it"
+    },
+    {
+      "day": "Monday",
+      "name": "Kimbap Grain Bowls with Caramelized Onions and Mushrooms",
+      "calories_per_serving": "~450-650 kcal",
+      "protein_source": "Eggs, nori, and optional tofu for Elsie",
+      "protein_level": "moderate",
+      "vegetable_content": "moderate: onions, mushrooms, cucumber, carrot, and nori add color even though rice is still the base",
+      "whole_grains": false,
+      "key_nutrients": ["iodine", "choline", "selenium", "vitamin D", "B vitamins", "iron"],
+      "concerns": [
+        "Soy sauce, pickles, and gochujang mayo can push sodium high quickly.",
+        "The bowl is satisfying but not especially fiber-rich unless extra vegetables or tofu are added.",
+        "Elsie's mushroom-free portion still needs a full protein anchor, so an extra egg or crispy tofu is a smart swap."
+      ],
+      "overall_rating": "fun and flavorful; add produce and protein support"
+    },
+    {
+      "day": "Tuesday",
+      "name": "Babo Pasta - Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+      "calories_per_serving": "~550-700 kcal",
+      "protein_source": "Egg yolks, Parmesan, and fresh pasta",
+      "protein_level": "moderate",
+      "vegetable_content": "moderate: spinach gives real nutrients, but the meal still eats like a rich pasta dish",
+      "whole_grains": false,
+      "key_nutrients": ["choline", "calcium", "iron", "folate", "vitamin A", "vitamin K"],
+      "concerns": [
+        "Brown butter and Parmesan make this nourishing and rich at the same time.",
+        "Fiber remains modest because the pasta is refined and spinach is not enough to carry the whole plate.",
+        "A lighter, crunchy lunch the next day helps the week feel balanced without touching the family ritual."
+      ],
+      "overall_rating": "special family comfort meal"
+    },
+    {
+      "day": "Wednesday",
+      "name": "Tex-Mex Grain Bowls with Chipotle Shrimp",
+      "calories_per_serving": "~600-725 kcal",
+      "protein_source": "Shrimp, black beans, cotija, and rice",
+      "protein_level": "high",
+      "vegetable_content": "abundant: beans, corn, avocado, pickled onion, and herbs make this one of the week's most complete bowls",
+      "whole_grains": false,
+      "key_nutrients": ["protein", "fiber", "folate", "potassium", "vitamin B12", "selenium", "vitamin C", "healthy fats"],
+      "concerns": [
+        "Chipotle, cotija, and crema can make sodium creep up.",
+        "Shrimp is excellent lean protein, but it is not enough on its own to cover the week's omega-3 needs.",
+        "This is one of the strongest dinners nutritionally, especially if the bean and avocado portions stay generous."
+      ],
+      "overall_rating": "excellent all-around dinner"
+    },
+    {
+      "day": "Thursday",
+      "name": "Black Bean Burritos with Lime-Cilantro Slaw",
+      "calories_per_serving": "~475-600 kcal",
+      "protein_source": "Black beans, cheese, and rice",
+      "protein_level": "moderate to high",
+      "vegetable_content": "moderate to abundant: cabbage slaw brings crunch, vitamin C, and color",
+      "whole_grains": false,
+      "key_nutrients": ["fiber", "iron", "folate", "magnesium", "potassium", "vitamin C", "calcium"],
+      "concerns": [
+        "A great plant-forward dinner for fiber and folate, though the flour tortilla keeps the grain side refined.",
+        "Cheese, tortillas, and any seasoned rice can raise sodium.",
+        "This is a useful counterweight to the richer pasta and meat nights earlier in the week."
+      ],
+      "overall_rating": "strong plant-protein night"
+    },
+    {
+      "day": "Friday",
+      "name": "White Beans and Italian Sausage with Garlicky Kale",
+      "calories_per_serving": "~500-650 kcal",
+      "protein_source": "Italian sausage, white beans, and kale",
+      "protein_level": "high",
+      "vegetable_content": "abundant: kale plus beans give this dinner the week's best savory green-and-fiber combo",
+      "whole_grains": false,
+      "key_nutrients": ["protein", "fiber", "iron", "folate", "vitamin K", "vitamin A", "vitamin C", "potassium", "magnesium"],
+      "concerns": [
+        "Sausage brings big flavor and also more sodium and saturated fat than the beans and kale need.",
+        "Crusty bread keeps dinner in the refined-carb lane again.",
+        "Still, the beans and kale make this one of the week's best dinners for minerals and staying power."
+      ],
+      "overall_rating": "cozy and nutrient-dense"
+    },
+    {
+      "day": "Saturday",
+      "name": "Pizza Night - Four Assorted Pies",
+      "calories_per_serving": "~650-900 kcal for 2-3 slices",
+      "protein_source": "Mozzarella, ricotta, pepperoni, and assorted toppings",
+      "protein_level": "moderate to high",
+      "vegetable_content": "minimal to moderate depending on how much spinach or veggie pie everyone actually eats",
+      "whole_grains": false,
+      "key_nutrients": ["calcium", "protein", "lycopene", "vitamin B12", "selenium", "folate from spinach pie"],
+      "concerns": [
+        "Pizza is the week's clearest sodium and saturated-fat spike, especially with pepperoni and multiple cheeses.",
+        "The crust adds another refined-grain dinner, so fruits, beans, and whole grains earlier in the day matter.",
+        "A spinach-ricotta pie helps, but dinner still benefits from lighter produce-rich lunches and snacks around it."
+      ],
+      "overall_rating": "festive; plan around the richness"
+    }
+  ],
+  "weekly_assessment": {
+    "protein_diversity": {
+      "sources_found": ["beef", "pork", "eggs", "shrimp", "black beans", "white beans", "cheese", "optional tofu"],
+      "rating": "good but meat-leaning",
+      "notes": "Protein is not the problem this week. The bigger pattern is that beef, pork, sausage, cheese, and eggs show up more often than fish, tofu, or other lighter proteins, so lunches and snacks can bring the balancing act."
+    },
+    "vegetable_coverage": {
+      "servings_per_dinner_avg": 1.7,
+      "color_diversity": ["tomato red", "dark leafy greens", "cabbage green", "corn yellow", "onion/garlic", "mushroom/earth tones", "avocado green"],
+      "rating": "moderate and improving later in the week",
+      "notes": "There are some real wins here: Wednesday's bowl, Thursday's slaw, and Friday's kale-and-bean skillet all help. Early-week dinners still lean pasta-and-rice heavy, so lunches and snacks should carry more raw produce and fruit."
+    },
+    "nutrient_gaps": [
+      {
+        "nutrient": "fiber",
+        "severity": "moderate",
+        "detail": "Beans help on Wednesday through Friday, but every dinner still leans on refined grains. Whole grains, fruit, vegetables, nuts, and seeds at lunch/snack will do a lot of heavy lifting."
+      },
+      {
+        "nutrient": "fruit",
+        "severity": "high",
+        "detail": "Fruit is basically absent from dinner, which is completely normal. This just means lunchboxes and snack plates should make fruit feel automatic every day."
+      },
+      {
+        "nutrient": "vitamin D",
+        "severity": "moderate",
+        "detail": "Eggs and shrimp contribute a little, but dinners do not give consistent vitamin D coverage. Fortified dairy or soy, kefir, yogurt, and occasional salmon or sardines help fill that gap."
+      },
+      {
+        "nutrient": "omega-3 fatty acids",
+        "severity": "moderate",
+        "detail": "Shrimp is a helpful seafood dinner, but it is not the same omega-3 boost as salmon or sardines. Walnuts, chia, flax, or a fish lunch would round the week out nicely."
+      },
+      {
+        "nutrient": "potassium and magnesium",
+        "severity": "mild to moderate",
+        "detail": "Beans, kale, avocado, and spinach help, but active bodies still benefit from more bananas, berries, yogurt, potatoes, nuts, seeds, and whole grains across the day."
+      }
+    ],
+    "excesses": [
+      {
+        "item": "refined grains",
+        "severity": "moderate",
+        "detail": "Fresh pasta, white rice, tortillas, crusty bread, and pizza crust show up again and again. No drama here; it simply makes whole-grain lunches especially useful this week."
+      },
+      {
+        "item": "sodium",
+        "severity": "moderate",
+        "detail": "Soy sauce, gochujang mayo, cheese, sausage, burritos, and pizza all push the salty side of the dial. Hydration and lower-sodium lunches help everyone feel better."
+      },
+      {
+        "item": "saturated fat",
+        "severity": "moderate",
+        "detail": "Bolognese, brown butter pasta, sausage, cheese, and pizza make this a rich week. That is not a problem by itself; it simply means lighter produce-heavy lunches are the easy win."
+      }
+    ],
+    "fiber_assessment": {
+      "rating": "needs support",
+      "notes": "This week is better than a pasta-and-pizza-only week because beans, slaw, mushrooms, corn, avocado, spinach, and kale show up. Even so, dinners alone will not carry fiber to the finish line."
+    },
+    "omega3_assessment": {
+      "rating": "fair",
+      "notes": "Shrimp adds variety and useful B12/selenium, but the week would feel more complete with one omega-3-focused lunch or snack habit like salmon salad, walnuts, chia, or flax."
+    },
+    "overall_dinner_grade": "B",
+    "overall_summary": "These dinners are lively, family-friendly, and better balanced than they might look at first glance: there is solid protein, some real vegetable work, and two strong bean nights. The main opportunity is not dinner perfection. It is using lunch and snack time to bring in fruit, whole grains, calcium and vitamin D support, and a little more omega-3 so the whole week feels steady for three active people."
+  },
+  "weekly_nutrition_summary": "This dinner lineup has a lot going for it: protein is reliable, iron shows up well thanks to beef, pork, beans, spinach, and kale, and the back half of the week gets much more fiber-friendly with grain bowls, burritos, beans, and greens. The places that still need help are the predictable family-week ones: fruit is scarce at dinner, whole grains are basically absent, and vitamin D plus omega-3 are not quite doing enough on dinner alone. A simple lunch-and-snack rhythm fixes most of that without making the dinners less fun: use leftovers strategically, add one seafood-forward lunch, make yogurt or kefir a regular guest, and keep fruit, seeds, nuts, and crunchy vegetables in the daily rotation.",
+  "dinner_nutrition_notes": [
+    {
+      "day": "Sunday",
+      "note": "Big protein and iron from the bolognese, but this is one of the week's lowest-fiber dinners, so Monday lunch should lean crisp, colorful, and fruit-heavy."
+    },
+    {
+      "day": "Monday",
+      "note": "The kimbap bowl brings flavor, iodine, and some vegetables, but it still needs either an extra egg or tofu to feel protein-complete, especially for Elsie's mushroom-free bowl."
+    },
+    {
+      "day": "Tuesday",
+      "note": "Babo Pasta delivers comfort plus spinach, folate, and calcium, yet it is still a refined-carb, butter-forward dinner that benefits from a lighter produce-rich next day."
+    },
+    {
+      "day": "Wednesday",
+      "note": "The shrimp grain bowl is one of the best balanced dinners of the week thanks to beans, avocado, corn, herbs, and solid protein."
+    },
+    {
+      "day": "Thursday",
+      "note": "Black bean burritos are a genuine fiber and folate win, with slaw adding the crunch and vitamin C that help the meal feel brighter."
+    },
+    {
+      "day": "Friday",
+      "note": "White beans, sausage, and kale hit protein, iron, potassium, and fiber well, though the sausage means lunch can stay lower-sodium and lighter."
+    },
+    {
+      "day": "Saturday",
+      "note": "Pizza night covers calcium and fun beautifully, but it is the clearest refined-carb and sodium spike of the week, so fruit and lighter snacks matter earlier in the day."
+    }
+  ],
+  "deficiencies": [
+    {
+      "nutrient": "fiber",
+      "severity": "moderate",
+      "detail": "Beans help, but refined grains dominate. Whole grains, fruit, vegetables, nuts, and seeds still need to carry part of the week."
+    },
+    {
+      "nutrient": "fruit",
+      "severity": "high",
+      "detail": "Dinner barely covers fruit, so lunches and snacks should make fruit the easy default every day."
+    },
+    {
+      "nutrient": "vitamin D",
+      "severity": "moderate",
+      "detail": "Eggs and shrimp help a little, but fortified dairy or soy foods and occasional fatty fish are still needed."
+    },
+    {
+      "nutrient": "omega-3 fatty acids",
+      "severity": "moderate",
+      "detail": "Only one seafood dinner appears, and it is shrimp rather than a richer omega-3 fish."
+    },
+    {
+      "nutrient": "potassium and magnesium",
+      "severity": "mild to moderate",
+      "detail": "There are good starts from beans, kale, avocado, and spinach, but active adults and kids usually feel better with more fruit, dairy, nuts, seeds, and whole grains too."
+    }
+  ],
+  "excesses": [
+    {
+      "item": "refined grains",
+      "severity": "moderate",
+      "detail": "Pasta, rice, tortillas, bread, and pizza crust dominate the starch side of dinner this week."
+    },
+    {
+      "item": "sodium",
+      "severity": "moderate",
+      "detail": "Soy sauce, gochujang mayo, cheese, sausage, and pizza make this a saltier-than-average dinner week."
+    },
+    {
+      "item": "saturated fat",
+      "severity": "moderate",
+      "detail": "Bolognese, brown butter, sausage, burrito cheese, and pizza make the richness cluster noticeable."
+    }
+  ],
+  "lunches": [
+    {
+      "day": "Monday",
+      "name": "Leftover Bolognese Lunchbox with Snap Peas, Strawberries, and Kefir",
+      "description": "Pack a smaller portion of Sunday's bolognese and pasta, then let the produce do the balancing: sugar snap peas or cucumber coins, strawberries, and a small kefir or drinkable yogurt.",
+      "prep_time": "8 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["fruit", "calcium", "vitamin D if fortified", "hydration support"],
+      "key_nutrients": ["protein", "iron", "calcium", "vitamin C", "probiotics"],
+      "kid_notes": "Use a thermos for the pasta and keep the fruit/veg in separate compartments so lunch still feels fun."
+    },
+    {
+      "day": "Tuesday",
+      "name": "Salmon Salad Whole-Grain Wrap with Orange Slices",
+      "description": "Mix canned salmon with Greek yogurt, lemon, and dill; wrap it in a whole-grain tortilla with lettuce or cucumber, and add orange slices on the side.",
+      "prep_time": "12 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["omega-3 fatty acids", "vitamin D", "whole grains", "fruit", "calcium if using canned salmon with bones"],
+      "key_nutrients": ["omega-3 EPA/DHA", "protein", "vitamin D", "calcium", "vitamin C", "fiber"],
+      "kid_notes": "If wrap form is too messy, make pinwheels or pack salmon salad, crackers, cucumbers, and oranges bento-style."
+    },
+    {
+      "day": "Wednesday",
+      "name": "Leftover Babo Pasta Bento with Edamame, Bell Peppers, and Kiwi",
+      "description": "Use Tuesday's leftover pasta in a modest portion and pair it with shelled edamame, sliced bell peppers, and kiwi for a lighter, brighter lunch.",
+      "prep_time": "10 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["fiber", "vitamin C", "potassium", "plant protein", "produce volume"],
+      "key_nutrients": ["protein", "fiber", "folate", "vitamin C", "potassium", "magnesium"],
+      "kid_notes": "Edamame can go in a separate cup with a little salt; kiwi can be swapped for grapes or berries if that lands better."
+    },
+    {
+      "day": "Thursday",
+      "name": "Tex-Mex Leftover Bowl with Extra Black Beans and Romaine",
+      "description": "Turn Wednesday's grain bowl leftovers into lunch and add more black beans, chopped romaine, salsa, and lime so the bowl gets even more fiber-forward.",
+      "prep_time": "10 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["fiber", "folate", "potassium", "vegetable color", "steady energy"],
+      "key_nutrients": ["protein", "fiber", "folate", "potassium", "magnesium", "healthy fats"],
+      "kid_notes": "Pack components separately if Elsie prefers to build her own bowl at lunch."
+    },
+    {
+      "day": "Friday",
+      "name": "Leftover Black Bean Burrito plus Berry Cup",
+      "description": "Thursday's burrito leftovers already do a lot of nutritional work. Add a side cup of berries or clementines and call it done.",
+      "prep_time": "5 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["fruit", "fiber", "iron absorption", "calcium"],
+      "key_nutrients": ["fiber", "iron", "folate", "vitamin C", "calcium", "magnesium"],
+      "kid_notes": "Cut the burrito into smaller rounds for an easier lunchbox fit."
+    },
+    {
+      "day": "Weekend backup",
+      "name": "Greek Yogurt Berry-Chia Parfait with Pumpkin Seeds",
+      "description": "This is the quick reset lunch for any day that needs one: Greek yogurt, berries, chia, oats or granola, and pumpkin seeds.",
+      "prep_time": "5 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["calcium", "vitamin D if fortified", "fruit", "fiber", "magnesium"],
+      "key_nutrients": ["calcium", "protein", "vitamin D", "omega-3 ALA", "fiber", "magnesium"],
+      "kid_notes": "Pack the crunchy bits separately so they stay crunchy."
+    }
+  ],
+  "snacks": [
+    {
+      "name": "Cheese Stick, Whole-Grain Crackers, and Grapes",
+      "description": "A zero-fuss snack for the car, pool bag, or after school that quietly adds calcium, fruit, and better carbs.",
+      "prep_time": "0-2 min",
+      "time_of_day": "after school",
+      "kid_friendly": true,
+      "zero_prep": true,
+      "gaps_addressed": ["calcium", "fruit", "whole grains", "steady energy"],
+      "key_nutrients": ["calcium", "protein", "fiber", "vitamin K", "hydration support"]
+    },
+    {
+      "name": "Clementines and Pumpkin Seeds",
+      "description": "This is the no-cook iron-helper snack: sweet citrus plus a small handful of pumpkin seeds.",
+      "prep_time": "0 min",
+      "time_of_day": "morning",
+      "kid_friendly": true,
+      "zero_prep": true,
+      "gaps_addressed": ["fruit", "vitamin C", "iron absorption", "magnesium"],
+      "key_nutrients": ["vitamin C", "fiber", "magnesium", "iron", "potassium", "healthy fats"]
+    },
+    {
+      "name": "Greek Yogurt Cup with Berries and Chia",
+      "description": "An easy calcium-rich snack that also brings protein, fruit, and a little omega-3 support from chia.",
+      "prep_time": "3 min",
+      "time_of_day": "afternoon",
+      "kid_friendly": true,
+      "zero_prep": false,
+      "gaps_addressed": ["calcium", "vitamin D if fortified", "fruit", "omega-3 fatty acids"],
+      "key_nutrients": ["calcium", "protein", "vitamin D", "fiber", "omega-3 ALA", "probiotics"]
+    },
+    {
+      "name": "Banana with Peanut, Almond, or Sunflower Butter",
+      "description": "A fast, filling snack that covers potassium and healthy fats without much effort.",
+      "prep_time": "2 min",
+      "time_of_day": "before activities",
+      "kid_friendly": true,
+      "zero_prep": false,
+      "gaps_addressed": ["potassium", "magnesium", "healthy fats", "steady energy"],
+      "key_nutrients": ["potassium", "magnesium", "fiber", "protein", "monounsaturated fats"]
+    },
+    {
+      "name": "Kefir-Berry Smoothie with Spinach",
+      "description": "Blend kefir with frozen berries, banana, and a handful of spinach for the easiest vitamin D and calcium boost of the week.",
+      "prep_time": "5 min",
+      "time_of_day": "breakfast side or afternoon",
+      "kid_friendly": true,
+      "zero_prep": false,
+      "gaps_addressed": ["calcium", "vitamin D", "fruit", "potassium", "greens"],
+      "key_nutrients": ["calcium", "vitamin D", "potassium", "vitamin C", "folate", "probiotics"]
+    },
+    {
+      "name": "Edamame with Sea Salt and Orange Wedges",
+      "description": "A protein-forward snack that feels fun to eat and helps with fiber, folate, and vitamin C at the same time.",
+      "prep_time": "5 min",
+      "time_of_day": "after school or work",
+      "kid_friendly": true,
+      "zero_prep": false,
+      "gaps_addressed": ["fiber", "plant protein", "folate", "vitamin C"],
+      "key_nutrients": ["protein", "fiber", "folate", "iron", "vitamin C", "magnesium"]
+    },
+    {
+      "name": "Walnuts and Apple Slices",
+      "description": "One easy win for the adults and a very workable sliced version for Elsie: crunchy fruit plus omega-3-friendly walnuts.",
+      "prep_time": "3 min",
+      "time_of_day": "afternoon",
+      "kid_friendly": true,
+      "zero_prep": false,
+      "gaps_addressed": ["omega-3 fatty acids", "fruit", "fiber", "healthy fats"],
+      "key_nutrients": ["omega-3 ALA", "fiber", "vitamin C", "magnesium", "polyphenols"]
+    }
+  ],
+  "nutrient_education": [
+    {
+      "nutrient": "Protein",
+      "why_it_matters": "Protein helps everyone in the house rebuild muscle, stay full longer, and keep energy steadier between meals. For an active kid, it also supports growth, not just sports and play.",
+      "where_in_this_weeks_plan": "Dinner already does this well: bolognese, eggs, shrimp, beans, sausage, and pizza cheese all contribute.",
+      "gap_fillers": ["Greek yogurt cups", "salmon salad wrap", "edamame", "kefir smoothie", "extra egg or tofu in Monday's bowl"]
+    },
+    {
+      "nutrient": "Iron",
+      "why_it_matters": "Iron carries oxygen around the body. When iron runs low, kids and adults can look pale, feel tired, or seem to run out of steam faster than usual.",
+      "where_in_this_weeks_plan": "Sunday's bolognese, Tuesday's spinach pasta, Thursday's black beans, and Friday's beans plus kale all bring useful iron.",
+      "gap_fillers": ["Pumpkin seeds with clementines", "black bean leftovers with berries", "edamame and orange wedges", "spinach in smoothies"]
+    },
+    {
+      "nutrient": "Calcium",
+      "why_it_matters": "Calcium is the building material for bones and teeth, but it also helps muscles contract and nerves send messages. It matters a lot for Elsie while she is growing.",
+      "where_in_this_weeks_plan": "Parmesan, cotija, burrito cheese, ricotta, mozzarella, and a little milk help, but dinner alone does not quite cover the whole week.",
+      "gap_fillers": ["Greek yogurt parfait", "kefir smoothie", "cheese stick and crackers", "fortified milk or soy milk"]
+    },
+    {
+      "nutrient": "Fiber",
+      "why_it_matters": "Fiber keeps digestion moving, helps with fullness, and supports a happy gut microbiome. It is one of the easiest ways to keep energy from feeling roller-coaster-ish.",
+      "where_in_this_weeks_plan": "Wednesday through Friday help thanks to beans, slaw, kale, avocado, and corn, but refined pasta, rice, bread, and pizza crust keep the overall week lower-fiber than it looks.",
+      "gap_fillers": ["Whole-grain wrap", "berries and kiwi", "pumpkin seeds", "edamame", "whole-grain crackers", "chia in yogurt"]
+    },
+    {
+      "nutrient": "Omega-3 fatty acids",
+      "why_it_matters": "Omega-3s support brain development, mood, eye health, and inflammation balance. Think of them as one of the quiet nutrients that help brains and bodies feel a little smoother.",
+      "where_in_this_weeks_plan": "Shrimp on Wednesday adds seafood variety, but this week does not have a true salmon-or-sardine style omega-3 anchor.",
+      "gap_fillers": ["Salmon salad wrap", "chia in yogurt", "walnuts with apples", "ground flax in smoothies or oats"]
+    },
+    {
+      "nutrient": "Vitamin C",
+      "why_it_matters": "Vitamin C helps the immune system, supports skin and tissue repair, and makes it easier for the body to absorb iron from beans, greens, and other plant foods.",
+      "where_in_this_weeks_plan": "Cabbage slaw, lime, pickled onion, tomatoes, and kale all help, but fruit is still the easiest way to make vitamin C show up daily.",
+      "gap_fillers": ["Clementines", "berries", "kiwi", "orange wedges", "bell pepper strips"]
+    },
+    {
+      "nutrient": "Vitamin D",
+      "why_it_matters": "Vitamin D helps the body actually use calcium well, so it matters for bones, immunity, and overall growth. It is one of the hardest nutrients to get from food alone.",
+      "where_in_this_weeks_plan": "Eggs and shrimp contribute a little, but dinners do not give dependable vitamin D coverage this week.",
+      "gap_fillers": ["Fortified kefir or milk", "fortified yogurt", "salmon lunch", "egg-based lunches", "a supplement if your pediatrician or doctor already recommends one"]
+    },
+    {
+      "nutrient": "Vitamin B12",
+      "why_it_matters": "B12 keeps nerves working well and helps make healthy red blood cells. It is especially important in growing kids and busy adults because low B12 can feel like low battery mode.",
+      "where_in_this_weeks_plan": "Bolognese, shrimp, sausage, eggs, and cheese cover B12 pretty well across dinner.",
+      "gap_fillers": ["Kefir or yogurt", "salmon wrap", "hard-boiled eggs", "milk or fortified alternatives"]
+    },
+    {
+      "nutrient": "Folate",
+      "why_it_matters": "Folate helps the body make new cells, which is important for growth, blood health, and everyday repair work. It is one of those nutrients that loves green foods and beans.",
+      "where_in_this_weeks_plan": "Spinach pasta, black beans, kale, avocado, and white beans all make folate one of the better-covered vitamins this week.",
+      "gap_fillers": ["Edamame", "extra beans in lunch bowls", "spinach smoothies", "romaine and bell peppers", "pumpkin seeds"]
+    },
+    {
+      "nutrient": "Magnesium",
+      "why_it_matters": "Magnesium supports muscles, nerves, sleep quality, and steady energy production. It is a quiet workhorse nutrient for active families.",
+      "where_in_this_weeks_plan": "Beans, kale, spinach, avocado, and black beans help, but the week could still use more nuts, seeds, and whole grains.",
+      "gap_fillers": ["Pumpkin seeds", "almond or peanut butter", "whole grains", "edamame", "chia and walnuts"]
+    },
+    {
+      "nutrient": "Potassium",
+      "why_it_matters": "Potassium helps muscles contract, supports hydration, and balances out some of a salty week's effects. It matters a lot when everyone is active and sweating.",
+      "where_in_this_weeks_plan": "Black beans, white beans, avocado, spinach, kale, and tomato products contribute, but dinners alone do not fully max this out.",
+      "gap_fillers": ["Bananas", "kiwi", "berries", "beans", "kefir smoothies", "potatoes or sweet potatoes at another meal"]
+    },
+    {
+      "nutrient": "Healthy fats",
+      "why_it_matters": "Healthy fats help keep brains, hormones, and cells happy, and they make meals feel satisfying. The goal is not low fat; it is choosing more fats from fish, nuts, seeds, olive oil, and avocado.",
+      "where_in_this_weeks_plan": "Avocado, sesame oil, olive oil, and some seafood are nice starts, but the week still leans more heavily on cheese, sausage, butter, and pepperoni than on unsaturated fats.",
+      "gap_fillers": ["Walnuts", "chia or flax", "salmon", "avocado", "olive-oil dressed lunch bowls", "nut butters"]
+    }
+  ],
+  "recommended_lunches": [
+    {
+      "name": "Leftover Bolognese Lunchbox with Snap Peas, Strawberries, and Kefir",
+      "description": "Pack a smaller portion of Sunday's bolognese and pasta, then let the produce do the balancing: sugar snap peas or cucumber coins, strawberries, and a small kefir or drinkable yogurt.",
+      "prep_time": "8 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["fruit", "calcium", "vitamin D if fortified", "hydration support"],
+      "key_nutrients": ["protein", "iron", "calcium", "vitamin C", "probiotics"],
+      "kid_notes": "Use a thermos for the pasta and keep the fruit/veg in separate compartments so lunch still feels fun."
+    },
+    {
+      "name": "Salmon Salad Whole-Grain Wrap with Orange Slices",
+      "description": "Mix canned salmon with Greek yogurt, lemon, and dill; wrap it in a whole-grain tortilla with lettuce or cucumber, and add orange slices on the side.",
+      "prep_time": "12 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["omega-3 fatty acids", "vitamin D", "whole grains", "fruit", "calcium if using canned salmon with bones"],
+      "key_nutrients": ["omega-3 EPA/DHA", "protein", "vitamin D", "calcium", "vitamin C", "fiber"],
+      "kid_notes": "If wrap form is too messy, make pinwheels or pack salmon salad, crackers, cucumbers, and oranges bento-style."
+    },
+    {
+      "name": "Leftover Babo Pasta Bento with Edamame, Bell Peppers, and Kiwi",
+      "description": "Use Tuesday's leftover pasta in a modest portion and pair it with shelled edamame, sliced bell peppers, and kiwi for a lighter, brighter lunch.",
+      "prep_time": "10 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["fiber", "vitamin C", "potassium", "plant protein", "produce volume"],
+      "key_nutrients": ["protein", "fiber", "folate", "vitamin C", "potassium", "magnesium"],
+      "kid_notes": "Edamame can go in a separate cup with a little salt; kiwi can be swapped for grapes or berries if that lands better."
+    },
+    {
+      "name": "Tex-Mex Leftover Bowl with Extra Black Beans and Romaine",
+      "description": "Turn Wednesday's grain bowl leftovers into lunch and add more black beans, chopped romaine, salsa, and lime so the bowl gets even more fiber-forward.",
+      "prep_time": "10 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["fiber", "folate", "potassium", "vegetable color", "steady energy"],
+      "key_nutrients": ["protein", "fiber", "folate", "potassium", "magnesium", "healthy fats"],
+      "kid_notes": "Pack components separately if Elsie prefers to build her own bowl at lunch."
+    },
+    {
+      "name": "Leftover Black Bean Burrito plus Berry Cup",
+      "description": "Thursday's burrito leftovers already do a lot of nutritional work. Add a side cup of berries or clementines and call it done.",
+      "prep_time": "5 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["fruit", "fiber", "iron absorption", "calcium"],
+      "key_nutrients": ["fiber", "iron", "folate", "vitamin C", "calcium", "magnesium"],
+      "kid_notes": "Cut the burrito into smaller rounds for an easier lunchbox fit."
+    },
+    {
+      "name": "Greek Yogurt Berry-Chia Parfait with Pumpkin Seeds",
+      "description": "This is the quick reset lunch for any day that needs one: Greek yogurt, berries, chia, oats or granola, and pumpkin seeds.",
+      "prep_time": "5 min",
+      "packable": true,
+      "kid_friendly": true,
+      "gaps_addressed": ["calcium", "vitamin D if fortified", "fruit", "fiber", "magnesium"],
+      "key_nutrients": ["calcium", "protein", "vitamin D", "omega-3 ALA", "fiber", "magnesium"],
+      "kid_notes": "Pack the crunchy bits separately so they stay crunchy."
+    }
+  ],
+  "recommended_snacks": [
+    {
+      "name": "Cheese Stick, Whole-Grain Crackers, and Grapes",
+      "description": "A zero-fuss snack for the car, pool bag, or after school that quietly adds calcium, fruit, and better carbs.",
+      "prep_time": "0-2 min",
+      "time_of_day": "after school",
+      "kid_friendly": true,
+      "gaps_addressed": ["calcium", "fruit", "whole grains", "steady energy"],
+      "key_nutrients": ["calcium", "protein", "fiber", "vitamin K", "hydration support"]
+    },
+    {
+      "name": "Clementines and Pumpkin Seeds",
+      "description": "This is the no-cook iron-helper snack: sweet citrus plus a small handful of pumpkin seeds.",
+      "prep_time": "0 min",
+      "time_of_day": "morning",
+      "kid_friendly": true,
+      "gaps_addressed": ["fruit", "vitamin C", "iron absorption", "magnesium"],
+      "key_nutrients": ["vitamin C", "fiber", "magnesium", "iron", "potassium", "healthy fats"]
+    },
+    {
+      "name": "Greek Yogurt Cup with Berries and Chia",
+      "description": "An easy calcium-rich snack that also brings protein, fruit, and a little omega-3 support from chia.",
+      "prep_time": "3 min",
+      "time_of_day": "afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": ["calcium", "vitamin D if fortified", "fruit", "omega-3 fatty acids"],
+      "key_nutrients": ["calcium", "protein", "vitamin D", "fiber", "omega-3 ALA", "probiotics"]
+    },
+    {
+      "name": "Banana with Peanut, Almond, or Sunflower Butter",
+      "description": "A fast, filling snack that covers potassium and healthy fats without much effort.",
+      "prep_time": "2 min",
+      "time_of_day": "before activities",
+      "kid_friendly": true,
+      "gaps_addressed": ["potassium", "magnesium", "healthy fats", "steady energy"],
+      "key_nutrients": ["potassium", "magnesium", "fiber", "protein", "monounsaturated fats"]
+    },
+    {
+      "name": "Kefir-Berry Smoothie with Spinach",
+      "description": "Blend kefir with frozen berries, banana, and a handful of spinach for the easiest vitamin D and calcium boost of the week.",
+      "prep_time": "5 min",
+      "time_of_day": "breakfast side or afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": ["calcium", "vitamin D", "fruit", "potassium", "greens"],
+      "key_nutrients": ["calcium", "vitamin D", "potassium", "vitamin C", "folate", "probiotics"]
+    },
+    {
+      "name": "Edamame with Sea Salt and Orange Wedges",
+      "description": "A protein-forward snack that feels fun to eat and helps with fiber, folate, and vitamin C at the same time.",
+      "prep_time": "5 min",
+      "time_of_day": "after school or work",
+      "kid_friendly": true,
+      "gaps_addressed": ["fiber", "plant protein", "folate", "vitamin C"],
+      "key_nutrients": ["protein", "fiber", "folate", "iron", "vitamin C", "magnesium"]
+    },
+    {
+      "name": "Walnuts and Apple Slices",
+      "description": "One easy win for the adults and a very workable sliced version for Elsie: crunchy fruit plus omega-3-friendly walnuts.",
+      "prep_time": "3 min",
+      "time_of_day": "afternoon",
+      "kid_friendly": true,
+      "gaps_addressed": ["omega-3 fatty acids", "fruit", "fiber", "healthy fats"],
+      "key_nutrients": ["omega-3 ALA", "fiber", "vitamin C", "magnesium", "polyphenols"]
+    }
+  ],
+  "special_notes": [
+    "Elsie's Monday bowl should be built mushroom-free from the start; extra egg, tofu, or more caramelized onions keeps it feeling complete rather than like a subtraction.",
+    "Because the week runs warm early and activity stays high, the saltier dinners pair well with fruit, water, and potassium-rich snacks like bananas, kiwi, berries, and kefir.",
+    "If fortified dairy or soy foods are not showing up elsewhere in the day, vitamin D is the one nutrient most likely to need extra attention beyond dinner."
+  ],
+  "daily_breakdown": [
+    {
+      "day": "Sunday",
+      "dinner": "Quick Bolognese with Fresh Spring Pasta",
+      "key_nutrients": ["protein", "iron", "vitamin B12", "lycopene"],
+      "gaps": ["fiber", "fruit", "whole grains"]
+    },
+    {
+      "day": "Monday",
+      "dinner": "Kimbap Grain Bowls with Caramelized Onions and Mushrooms",
+      "key_nutrients": ["iodine", "choline", "selenium", "some vitamin D"],
+      "gaps": ["protein depth unless extra egg or tofu", "fiber", "calcium"]
+    },
+    {
+      "day": "Tuesday",
+      "dinner": "Babo Pasta - Egg-Yolk Spinach Tagliatelle with Brown Butter & Parm",
+      "key_nutrients": ["folate", "vitamin A", "calcium", "iron"],
+      "gaps": ["fiber", "fruit", "whole grains"]
+    },
+    {
+      "day": "Wednesday",
+      "dinner": "Tex-Mex Grain Bowls with Chipotle Shrimp",
+      "key_nutrients": ["protein", "fiber", "folate", "potassium", "healthy fats"],
+      "gaps": ["omega-3 still only moderate", "whole grains"]
+    },
+    {
+      "day": "Thursday",
+      "dinner": "Black Bean Burritos with Lime-Cilantro Slaw",
+      "key_nutrients": ["fiber", "iron", "folate", "magnesium", "vitamin C"],
+      "gaps": ["whole grains", "fruit", "vitamin D"]
+    },
+    {
+      "day": "Friday",
+      "dinner": "White Beans and Italian Sausage with Garlicky Kale",
+      "key_nutrients": ["protein", "fiber", "vitamin K", "iron", "potassium"],
+      "gaps": ["whole grains", "fruit", "lighter sodium balance"]
+    },
+    {
+      "day": "Saturday",
+      "dinner": "Pizza Night - Four Assorted Pies",
+      "key_nutrients": ["calcium", "protein", "lycopene", "vitamin B12"],
+      "gaps": ["fiber", "fruit", "whole grains", "lighter fats"]
+    }
+  ],
+  "weekly_summary": {
+    "strengths": "Protein is steady, iron is solid, and the second half of the week gets a real boost from beans, slaw, avocado, kale, and white beans.",
+    "gaps": "Fruit, whole grains, vitamin D, and omega-3 still need help, while sodium and saturated fat run a little high because of cheese, sausage, sauces, and pizza.",
+    "recommendations": "Use leftovers for weekday lunches, add one salmon-based lunch, make yogurt or kefir regular, and keep fruit plus seed-or-nut snacks in daily rotation."
+  },
+  "lunch_suggestions": [
+    {
+      "name": "Leftover Bolognese Lunchbox with Snap Peas, Strawberries, and Kefir",
+      "description": "Smaller pasta portion plus crunchy veg, fruit, and a kefir side.",
+      "nutrients": ["protein", "iron", "calcium", "vitamin C"]
+    },
+    {
+      "name": "Salmon Salad Whole-Grain Wrap with Orange Slices",
+      "description": "A seafood lunch that covers omega-3s, vitamin D, and fruit at once.",
+      "nutrients": ["omega-3 fatty acids", "vitamin D", "calcium", "fiber"]
+    },
+    {
+      "name": "Leftover Babo Pasta Bento with Edamame, Bell Peppers, and Kiwi",
+      "description": "Leftover pasta paired with high-fiber produce and plant protein.",
+      "nutrients": ["fiber", "folate", "vitamin C", "potassium"]
+    },
+    {
+      "name": "Tex-Mex Leftover Bowl with Extra Black Beans and Romaine",
+      "description": "An extra-beany leftover bowl that improves fiber and vegetable volume.",
+      "nutrients": ["fiber", "folate", "potassium", "magnesium"]
+    },
+    {
+      "name": "Leftover Black Bean Burrito plus Berry Cup",
+      "description": "Burrito leftovers with fruit to help vitamin C and iron absorption.",
+      "nutrients": ["fiber", "iron", "vitamin C", "calcium"]
+    },
+    {
+      "name": "Greek Yogurt Berry-Chia Parfait with Pumpkin Seeds",
+      "description": "A fast calcium-rich backup lunch that feels light after richer dinners.",
+      "nutrients": ["calcium", "protein", "fiber", "magnesium"]
+    }
+  ],
+  "snack_suggestions": [
+    {
+      "name": "Cheese Stick, Whole-Grain Crackers, and Grapes",
+      "description": "Easy car or school snack with calcium, fruit, and better carbs.",
+      "nutrients": ["calcium", "protein", "fiber"]
+    },
+    {
+      "name": "Clementines and Pumpkin Seeds",
+      "description": "A zero-cook fruit-and-mineral combo that helps iron absorption.",
+      "nutrients": ["vitamin C", "magnesium", "iron", "potassium"]
+    },
+    {
+      "name": "Greek Yogurt Cup with Berries and Chia",
+      "description": "An easy calcium and protein snack with fruit and omega-3 support.",
+      "nutrients": ["calcium", "protein", "vitamin D", "fiber"]
+    },
+    {
+      "name": "Banana with Peanut, Almond, or Sunflower Butter",
+      "description": "Fast fuel before activities with potassium and healthy fats.",
+      "nutrients": ["potassium", "magnesium", "protein", "healthy fats"]
+    },
+    {
+      "name": "Kefir-Berry Smoothie with Spinach",
+      "description": "Drinkable calcium and vitamin D support with fruit and greens.",
+      "nutrients": ["calcium", "vitamin D", "potassium", "folate"]
+    },
+    {
+      "name": "Edamame with Sea Salt and Orange Wedges",
+      "description": "A snack that covers plant protein, fiber, and vitamin C.",
+      "nutrients": ["protein", "fiber", "folate", "vitamin C"]
+    },
+    {
+      "name": "Walnuts and Apple Slices",
+      "description": "Fruit plus omega-3-friendly healthy fats.",
+      "nutrients": ["omega-3 fatty acids", "fiber", "vitamin C", "magnesium"]
+    }
+  ]
+}

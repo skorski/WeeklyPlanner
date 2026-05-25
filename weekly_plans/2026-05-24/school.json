@@ -1,0 +1,20 @@
+{
+  "no_school": [
+    {
+      "date": "2026-05-25",
+      "reason": "Memorial Day",
+      "type": "holiday"
+    },
+    {
+      "date": "2026-05-26",
+      "reason": "Teacher Workday (Student Holiday)",
+      "type": "teacher_workday"
+    },
+    {
+      "date": "2026-05-27",
+      "reason": "Eid al-Adha",
+      "type": "holiday"
+    }
+  ],
+  "early_release": []
+}

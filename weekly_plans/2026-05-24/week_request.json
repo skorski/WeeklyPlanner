@@ -1,0 +1,29 @@
+{
+  "week_start": "2026-05-24",
+  "week_end": "2026-05-30",
+  "week_range": "May 24 - May 30, 2026",
+  "weekly_read": {
+    "include_linkwarden": true,
+    "linkwarden_days": 14,
+    "urls": [],
+    "rss_feeds": [
+      "https://newsletter.pragmaticengineer.com/feed",
+      "https://www.lennysnewsletter.com/feed",
+      "https://joannagoddard.substack.com/feed",
+      "https://emilyley.substack.com/feed",
+      "https://www.notboring.co/feed"
+    ],
+    "required_topics": []
+  },
+  "news_feed": {
+    "lookback_days": 14,
+    "max_items_per_source": 3,
+    "sources": [
+      {"name": "Pragmatic Engineer", "feed_url": "https://newsletter.pragmaticengineer.com/feed"},
+      {"name": "Lenny's Newsletter", "feed_url": "https://www.lennysnewsletter.com/feed"},
+      {"name": "Cup of Jo (Joanna Goddard)", "feed_url": "https://joannagoddard.substack.com/feed"},
+      {"name": "Emily Ley", "feed_url": "https://emilyley.substack.com/feed"},
+      {"name": "Not Boring (Packy McCormick)", "feed_url": "https://www.notboring.co/feed"}
+    ]
+  }
+}

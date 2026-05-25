@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T20:22:02.036747+00:00",
+  "status": "PASS",
+  "reports": [
+    {
+      "type": "linkwarden",
+      "status": "ok",
+      "days": 7,
+      "items_selected": 0
+    }
+  ],
+  "summary": {
+    "total_sources": 0,
+    "successful_sources": 0,
+    "failed_sources": 0,
+    "topics": 0,
+    "total_words": 0
+  }
+}
