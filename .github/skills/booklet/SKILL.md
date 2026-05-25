@@ -37,7 +37,7 @@ weekly_plans/2026-02-08/
 - **Style:** Minimalist, editorial — muted palette, serif headings, clean typography
 - **Structure:** Traditional booklet with section dividers, running headers, and page numbers
 - **Page order:**
-  1. Cover — week title, date range, hero highlight
+  1. Cover — week title, date range, and a piece of wisdom (a curated quote, or a principles/stoic theme line when those sections are present). Never a recap of the week's dinners — Week at a Glance covers that.
   2. Week at a Glance — overview summary table
   3. **Section divider** — "Daily Plan"
   4–24. Daily pages — 3-page spread per day × 7 days (running header: DAILY PLAN)

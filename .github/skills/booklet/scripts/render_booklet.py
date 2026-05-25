@@ -9,6 +9,7 @@ Usage:
 """
 
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -32,30 +33,82 @@ def get_week_date(data):
     return datetime.now().strftime("%Y-%m-%d")
 
 
+# Curated wisdom quotes for the cover page. Chosen for warmth, brevity,
+# and applicability to family/weekly-rhythm life. One is selected per week
+# deterministically from the week_start date so the same week always renders
+# the same quote and consecutive weeks rotate predictably.
+COVER_WISDOM = [
+    ("Tell me, what is it you plan to do with your one wild and precious life?", "Mary Oliver"),
+    ("We do not remember days, we remember moments.", "Cesare Pavese"),
+    ("The days are long, but the years are short.", "Gretchen Rubin"),
+    ("Attention is the rarest and purest form of generosity.", "Simone Weil"),
+    ("Enough is a feast.", "Buddhist proverb"),
+    ("How we spend our days is, of course, how we spend our lives.", "Annie Dillard"),
+    ("The privilege of a lifetime is to become who you truly are.", "Carl Jung"),
+    ("Be kind, for everyone you meet is fighting a hard battle.", "Ian Maclaren"),
+    ("It is not length of life, but depth of life.", "Ralph Waldo Emerson"),
+    ("Joy is the simplest form of gratitude.", "Karl Barth"),
+    ("What we plant in the soil of contemplation, we shall reap in the harvest of action.", "Meister Eckhart"),
+    ("To pay attention, this is our endless and proper work.", "Mary Oliver"),
+    ("Almost everything will work again if you unplug it for a few minutes, including you.", "Anne Lamott"),
+    ("The most important thing in communication is hearing what isn't said.", "Peter Drucker"),
+    ("You are what you do, not what you say you'll do.", "Carl Jung"),
+    ("Comparison is the thief of joy.", "Theodore Roosevelt"),
+    ("We are what we repeatedly do. Excellence, then, is not an act, but a habit.", "Will Durant"),
+    ("Do small things with great love.", "Mother Teresa"),
+    ("The opposite of play is not work — it is depression.", "Brian Sutton-Smith"),
+    ("Wherever you are, be all there.", "Jim Elliot"),
+    ("A house is made of walls and beams; a home is built with love and dreams.", "Ralph Waldo Emerson"),
+    ("Tend the garden you can reach.", "Voltaire (paraphrased)"),
+    ("Patience is bitter, but its fruit is sweet.", "Aristotle"),
+    ("Slow is smooth, and smooth is fast.", "Navy SEAL adage"),
+    ("Do not wait for the last judgment. It takes place every day.", "Albert Camus"),
+    ("The cure for anything is salt water — sweat, tears, or the sea.", "Isak Dinesen"),
+    ("Gratitude turns what we have into enough.", "Aesop"),
+    ("There is no remedy for love but to love more.", "Henry David Thoreau"),
+    ("Begin again. Always begin again.", "St. Benedict (paraphrased)"),
+    ("The present moment always will have been.", "Kate Atkinson"),
+]
+
+
+def _select_wisdom(seed):
+    """Pick a stable cover quote from COVER_WISDOM based on a seed string."""
+    if not COVER_WISDOM:
+        return ""
+    if not seed:
+        return f"\u201c{COVER_WISDOM[0][0]}\u201d \u2014 {COVER_WISDOM[0][1]}"
+    digest = hashlib.sha1(seed.encode("utf-8")).hexdigest()
+    idx = int(digest[:8], 16) % len(COVER_WISDOM)
+    quote, author = COVER_WISDOM[idx]
+    return f"\u201c{quote}\u201d \u2014 {author}"
+
+
 def derive_highlight(data):
-    """Generate a cover highlight from the plan data if not provided."""
+    """Generate a cover highlight from the plan data.
+
+    Priority order:
+      1. Explicit ``highlight`` field in the plan data (user override).
+      2. A piece of wisdom — either pulled from principles/stoic theme content
+         already in the plan, or selected from a curated rotating quote pool.
+
+    The cover intentionally does NOT walk through the week's dinners; the
+    Week at a Glance page already does that.
+    """
     if data.get("highlight"):
         return data["highlight"]
 
-    days = data.get("days", [])
-    highlights = []
-    for day in days:
-        long_name = day.get("long_name", "")
-        if "Valentine" in long_name:
-            dinner = day.get("dinner", "")
-            highlights.append(f"Valentine's Day — {dinner}" if dinner else "Valentine's Day")
-        elif "Super Bowl" in long_name:
-            dinner = day.get("dinner", "")
-            highlights.append(f"Super Bowl Sunday — {dinner}" if dinner else "Super Bowl Sunday")
-        elif any("potluck" in (item or "").lower() for item in day.get("calendar_items", [])):
-            highlights.append(f"Work Potluck — {day.get('dinner', 'TBD')}")
+    principles = data.get("principles_data") or {}
+    principles_theme = principles.get("theme_quote") or principles.get("quote")
+    if principles_theme:
+        return principles_theme
 
-    if highlights:
-        return " · ".join(highlights[:2])
-    # Fallback: first and last dinner
-    if len(days) >= 2:
-        return f"{days[0].get('dinner', '?')} → {days[-1].get('dinner', '?')}"
-    return ""
+    stoic = data.get("stoic_data") or {}
+    stoic_quote = stoic.get("anchor_quote") or stoic.get("quote")
+    if stoic_quote:
+        return stoic_quote
+
+    seed = data.get("week_start") or data.get("week_range") or ""
+    return _select_wisdom(seed)
 
 
 def render_html(data, template_dir):
