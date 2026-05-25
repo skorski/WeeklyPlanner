@@ -1,15 +1,9 @@
 {
   "status": "FAIL",
-  "generated_at": "2026-05-25T16:36:04",
-  "errors": 7,
+  "generated_at": "2026-05-25T17:47:48",
+  "errors": 5,
   "warnings": 0,
   "issues": [
-    {
-      "severity": "error",
-      "check": "section_manifest",
-      "path": "section_manifest",
-      "message": "daily_principles: missing principles_data.theme.title, principles_data.daily_entries[].essay; principles_data.daily_entries: expected 7, found 0"
-    },
     {
       "severity": "error",
       "check": "section_manifest",
@@ -21,12 +15,6 @@
       "check": "stoic_presence",
       "path": "stoic_data",
       "message": "stoic_data is required"
-    },
-    {
-      "severity": "error",
-      "check": "principles_presence",
-      "path": "principles_data",
-      "message": "principles_data is required"
     },
     {
       "severity": "error",
@@ -50,7 +38,7 @@
   "aliases_applied": [],
   "section_manifest": {
     "schema_version": "1.0",
-    "generated_at": "2026-05-25T16:36:04",
+    "generated_at": "2026-05-25T17:47:48",
     "week_range": "May 24 - May 30, 2026",
     "aliases_applied": [],
     "sections": [
@@ -294,7 +282,7 @@
         "title": "Principles for Living",
         "required": "always",
         "active": true,
-        "status": "fail",
+        "status": "pass",
         "source_paths": [
           "principles_data"
         ],
@@ -321,15 +309,10 @@
         },
         "style_profile": null,
         "counts": {
-          "principles_data.daily_entries": 0
+          "principles_data.daily_entries": 7
         },
-        "missing_paths": [
-          "principles_data.theme.title",
-          "principles_data.daily_entries[].essay"
-        ],
-        "issues": [
-          "principles_data.daily_entries: expected 7, found 0"
-        ]
+        "missing_paths": [],
+        "issues": []
       },
       {
         "id": "grocery_prep",

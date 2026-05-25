@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T16:36:04",
+  "generated_at": "2026-05-25T17:47:48",
   "week_range": "May 24 - May 30, 2026",
   "aliases_applied": [],
   "sections": [
@@ -244,7 +244,7 @@
       "title": "Principles for Living",
       "required": "always",
       "active": true,
-      "status": "fail",
+      "status": "pass",
       "source_paths": [
         "principles_data"
       ],
@@ -271,15 +271,10 @@
       },
       "style_profile": null,
       "counts": {
-        "principles_data.daily_entries": 0
+        "principles_data.daily_entries": 7
       },
-      "missing_paths": [
-        "principles_data.theme.title",
-        "principles_data.daily_entries[].essay"
-      ],
-      "issues": [
-        "principles_data.daily_entries: expected 7, found 0"
-      ]
+      "missing_paths": [],
+      "issues": []
     },
     {
       "id": "grocery_prep",
