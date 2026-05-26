@@ -313,7 +313,7 @@ The fastest meal of the week — sharp cheddar grilled cheese with mayo-on-the-o
 
 ##### Recipe Directions
 
-> **Mamma Karen Says:** Start the soup first with garlic, tomatoes, broth, and a splash of cream so it can simmer while you build sandwiches. Butter the bread all the way to the corners, honey, dry corners are a character flaw. Use enough cheese to melt, but not so much the sandwich slides around like a bad decision. Cook low and steady until the bread is deep gold and the middle is gooey. Blend the soup smooth, taste for salt, and give it a tiny pinch of sugar if the tomatoes are sharp. Cut the sandwiches into dunkers and dinner is saved.
+> **Mamma Karen Says:** Start the soup first, garlic in good oil, then your tomatoes, broth, a splash of cream, and let it simmer while you build the sandwiches. Now listen, on the bread you use mayonnaise, not butter. A thin even swipe, corner to corner, on the outside of every slice. The oil in the mayo crisps the bread harder than butter ever did and gives you that tangy, almost-savory crust I always loved. Pile good cheese in the middle, not so much it slides around like a bad decision. Low and steady on the griddle until each side is deep, deep gold and the inside is melted through. Blend the soup smooth, taste for salt, pinch of sugar if the tomatoes are sharp. Cut the sandwiches into dunkers and feed your people.
 
 
 **How It Comes Together**

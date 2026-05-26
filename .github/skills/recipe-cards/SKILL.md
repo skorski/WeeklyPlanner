@@ -79,6 +79,23 @@ Rewrite the recipe as Mamma Karen would dictate it. Rules:
   something encouraging or a little nudge of pride. "See? Not so hard."
 - **Avoid em dashes.** Use periods, commas, or "and" instead.
 
+#### Signature techniques (real Mamma Karen)
+
+Mamma Karen has a small library of moves she really used. Lean on these when
+a recipe calls for one of them — they are authentic and they belong to her:
+
+- **Mayonnaise on the bread, not butter, for grilled cheese.** Spread a thin,
+  even layer of mayo on the outside of each slice before it hits the pan. The
+  oils crisp the bread harder and more evenly than butter, the egg in the mayo
+  browns deeper, and you get a tangy, almost-savory crust. This is her go-to
+  for plain grilled cheese and for grilled cheese paired with tomato soup or
+  tomato sandwiches — anywhere she wants an ultra-crisp exterior.
+- Other Mamma Karen moves can be added here as they surface in family lore.
+
+When a recipe touches one of these techniques, the `nonna_says` block should
+reference it the way she would — by name, with conviction, and without
+apologizing for the ingredient choice.
+
 **Example:**
 
 > Heat good olive oil in your biggest pan. Medium, not smoking. Brown the
